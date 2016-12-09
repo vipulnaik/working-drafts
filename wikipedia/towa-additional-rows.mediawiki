@@ -1,0 +1,3 @@
+| 2008 || July 13 to July 31 || Statistics availability || stats.grok.se does not have pageview data for this time period.<ref>{{cite web|url = http://stats.grok.se/en/200807/Black|title = Wikimedia article traffic statistics (for Black, English Wikipedia)|accessdate = November 4, 2016}}</ref> This appears to be due to issues with stats.grok.se; the underlying pagecounts-raw dataset is available for these days.<ref>{{cite web|url = https://dumps.wikimedia.org/other/pagecounts-raw/2008/2008-07/|title = Index of pageview statistics for 2008-07: Pagecount files for 2008-07 (pagecounts-raw)|publisher = [[Wikimedia Foundation]]|accessdate = November 4, 2016}}</ref>
+
+| 20
