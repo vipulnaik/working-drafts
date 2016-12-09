@@ -1,0 +1,25 @@
+{{manifold property}}
+
+==Definition==
+
+A '''simply connected manifold''' is a [[manifold]] which is [[simply connected space|simply connected]] as a [[topological space]]. In particular, it is a [[connected manifold]]: it is [[path-connected space|path-connected]] and [[connected space|connected]].
+
+==Relation with other properties==
+
+===Stronger properties===
+
+{| class="sortable" border="1"
+! Property !! Meaning !! Proof of implication !! Proof of strictness (reverse implication failure) !! Intermediate notions
+|-
+| [[Weaker than::compact simply connected manifold]] || also a [[compact space]] || || [[Euclidean space]] is simply connected but not compact || {{intermediate notions short|simply connected manifold|compact simply connected manifold}}
+|}
+
+===Weaker properties===
+
+{| class="sortable" border="1"
+! Property !! Meaning !! Proof of implication !! Proof of strictness (reverse implication failure) !! Intermediate notions
+|-
+| [[Stronger than::connected orientable manifold]] || || || || {{intermediate notions short|connected orientable manifold|simply connected manifold}}
+|-
+| [[Stronger than::connected manifold]] || || || || {{intermediate notions short|connected manifold|simply connected manifold}}
+|}

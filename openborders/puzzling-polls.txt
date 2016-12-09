@@ -1,0 +1,139 @@
+I've heard claims that people overestimate the prevalence of the foreign-born in the population, and this affects the way they view immigration policy and the effects of immigration. To evaluate this hypothesis, I conducted a bunch of surveys that I circulated using Google Surveys and SurveyMonkey Audience to a general United States audience. For one of the surveys, I also obtained responses from the Open Borders Action Group for comparison.
+
+The two main questions, conducted as <em>separate</em> single-question Google Surveys:
+
+<blockquote>Q1: What proportion of the people currently physically present in the United States are foreign-born?</blockquote>
+
+<blockquote>Q2: What proportion of the people currently physically present in the United States are non-US-citizens present in the US without authorization?</blockquote>
+
+The options offered in Google Surveys (which had the most respondents) were:
+
+<ul>
+	<li>Between 0% and 5% (correct answer to Q2)</li>
+	<li>Between 5% and 10%</li>
+	<li>Between 10% and 15% (correct answer to Q1)</li>
+	<li>Between 15% and 20%</li>
+	<li>Between 20% and 30%</li>
+	<li>Between 30% and 50%</li>
+	<li>More than 50%</li>
+</ul>
+
+The versions I posted on SurveyMonkey were a little different. Since the Google Surveys had the largest sample, and there is stronger evidence that Google Surveys respondents are closer to representative of the general population, I'll focus on the Google Surveys responses. (For more background on Google Surveys, see their <a href="https://en.wikipedia.org/wiki/Google_Surveys">Wikipeda page</a>).
+
+You can access the full Google Surveys results for the two respective surveys <a href="https://surveys.google.com/reporting/question?survey=a2z2rzmcbad4v2s7ybegla5zum&question=1&raw=false&transpose=false&tab=0">here</a> and <a href="https://surveys.google.com/reporting/question?survey=ssoqubkb73w7wgs4sfw3vc6i3i&question=1&raw=false&transpose=false&tab=0">here</a>, with ability to filter and compare by age, gender, and state or region, here. A summary is below. Note that Google Surveys offers results in two forms: weighted estimates and raw counts. I'll present both below.
+
+<table>
+<tr>
+<th>Option</th>
+<th>Q1 number of responses (N = 1157)</th>
+<th>Q1 raw percentage of responses</th>
+<th>Q1 weighted percentage of responses</th>
+<th>Q2 number of responses (N = 501)</th>
+<th>Q2 raw percentage of responses</th>
+<th>Q2 weighted percentage of responses</th>
+</tr>
+<tr>
+<td>Between 0% and 5%</td>
+<td>189</td>
+<td>12.1%</td>
+<td>11.7% (+1.7%/-1.5%)</td>
+<td>152</td>
+<td>30.3%</td>
+<td>30.4% (+4.2%/-3.9%)</td>
+</tr>
+<tr>
+<td>Between 5% and 10%</td>
+<td>155</td>
+<td>10.0%</td>
+<td>10.4% ((+1.7%/-1.5%)</td>
+<td>97</td>
+<td>19.4%</td>
+<td>18.8% (+3.6%/-3.1%)</td>
+</tr>
+<tr>
+<td>Between 10% and 15%</td>
+<td>232</td>
+<td>14.9%</td>
+<td>16.1% (+2.0%/-1.8%)</td>
+<td>73</td>
+<td>14.6%</td>
+<td>15.2% (+3.5%/-3.0%)</td>
+</tr>
+<tr>
+<td>Between 15% and 20%</td>
+<td>239</td>
+<td>15.4%</td>
+<td>16.4% (+2.0%/-1.8%)</td>
+<td>56</td>
+<td>11.2%</td>
+<td>12.5% (+3.4%/-2.8%)</td>
+</tr>
+<tr>
+<td>Between 20% and 30%</td>
+<td>279</td>
+<td>17.9%</td>
+<td>17.5% (+2.0%/-1.8%)</td>
+<td>42</td>
+<td>8.4%</td>
+<td>7.9% (+2.6%/-2.0%)</td>
+</tr>
+<tr>
+<td>Between 30% and 50%</td>
+<td>239</td>
+<td>15.4%</td>
+<td>15.4% (+1.9%/-1.7%)</td>
+<td>36</td>
+<td>7.2%</td>
+<td>6.5% (+2.4%/-1.8%)</td>
+</tr>
+<tr>
+<td>More than 50%</td>
+<td>224</td>
+<td>14.4%</td>
+<td>12.5% (+1.6%/-1.4%)</td>
+<td>45</td>
+<td>9.0%</td>
+<td>8.6% (+2.7%/-2.1%)</td>
+</tr>
+</table>
+
+<h4>Why do the estimates differ from well-informed estimates?</h4>
+
+There are two broad kinds of reasons people might get things wrong. The first kind of reason is one grounded in what we might call "agnostic ignorance". Agnostic ignorance isn't worrying in itself. A person can be agnostically ignorant without having it affect that person's policy views or attitudes, because the person doesn't care.
+
+<ul>
+	<li>(1.1): Respondents don't understand how percentages work.</li>
+	<li>(1.2): Respondents have generic survey-specific biases, such as extreme response bias or moderation bias, that push them toward choosing extreme answers.</li>
+</ul>
+
+The second kind of reason is more potentially concerning, since it refers to respondents actually having a mental model of sorts that they are referencing to answer the question:
+
+<ul>
+	<li>(2.1), Definition of "foreign-born": People might be estimating "foreign-born" based on whether a person looks or sounds foreign. In particular, anybody who is (or looks) Hispanic or of Asian descent, or anybody with an accent not recognizable as one of the standard American accents, might get classified as foreign-born. The only people who would clearly not qualify here would be native-born whites and blacks in the United States. The "foreign-born" per this definition could go up to between 20% and 30% of the population.</li>
+	<li>(2.2), Sampling based on region: People might be estimating the foreign-born proportion in the country as a whole based on the proportion in their geographic region. Those in regions with higher foreign-born proportion would overestimate the proportion, and those in regions with low foreign-born proportion would underestimate the proportion.</li>
+	<li>(2.3), Greater tendency to notice foreigners: Since people notice foreigners more, they overestimate the proportion of foreigners.</li>
+	<li>(2.4), Using political salience as a proxy for prevalence: People see that immigration is talked about a lot in the media, and assume this is because there are a lot of immigrants.</li>
+</ul>
+
+Before proceeding to this hypothesis, it's worth thinking about just what sort of sample Google Surveys gives of the population. Notably, Google Surveys are delivered to respondents as a surveywall: they need to answer the question in order to be able to access premium content. In other words, Google Surveys samples from the audiences of its partner websites, and moreover, only picks those readers who care enough to read the content that they'll both to answer a survey question (rather than bounce off).
+
+Past research has shown that Google Surveys does a decent job as a mechanism for election polling (see, for instance, Nate Silver). Therefore, it's probably a reasonable approximation to how 
+
+We will proceed to look at each of the hypotheses now.
+
+<h4>(1.1): Respondents don't understand how percentages work: Must explain some of it, but cannot explain all of it</h4>
+
+The weighted estimate for "More than 50%" was 12.5% (+1.6%/-1.4%) for Q1, and 8.6% (+2.7%/-2.1%) for Q2.
+
+I first claim that with a decent understanding of how perentages work, we would get effectively 0% of responses with "More than 50%" for either Q1 or Q2. Here's why: a rudimentary understanding of percentages would at minimum entail knowing that 50% means half. The concept of half is widely used in natural language, and 50% is often used as a synonym for half.
+
+The point is that there are very few contexts in the United States where more than half the people you see are foreign-born. 
+
+Followup surveys to conduct:
+
+- High-end distribution (More than 50% broken down, Less than 50% compressed)
+
+- Use numbers instead of words/
+
+- How do we bound the different effects?
+

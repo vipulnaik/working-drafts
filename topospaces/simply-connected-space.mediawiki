@@ -1,0 +1,27 @@
+==Relation with other properties==
+
+===Stronger properties===
+
+{| class="wikitable" border="1"
+! property !! quick description !! proof of implication !! proof of strictness (reverse implication failure) !! intermediate notions 
+|-
+| [[Weaker than::Contractible space]] || homotopy-equivalent to a point || [[contractible implies simply connected]] || [[simply connected not implies contractible]] || {{intermediate notions short|simply connected space|contractible space}}
+|-
+| [[Weaker than::Weakly contractible space]] || all homotopy groups trivial || [[weakly contractible implies simply connected]] || [[simply connected not implies weakly contractible]] || {{intermediate notions short|simply connected space|weakly contractible space}}
+|-
+| [[Weaker than::Multiply connected space]] || first few homotopy groups trivial || || ||
+|}
+
+===Weaker properties===
+
+{| class="wikitable" border="1"
+! property !! quick description !! proof of implication !! proof of strictness (reverse implication failure) !! intermediate notions 
+|-
+| [[Stronger than::Semilocally simply connected space]] || || || ||
+|-
+| [[Stronger than::Simple space]] || || || || {{intermediate notions short|simple space|simply connected space}}
+|-
+| [[Stronger than::Space with abelian fundamental group]] || || || ||
+|-
+| [[Stronger than::Space with perfect fundamental group]] || || || ||
+|}

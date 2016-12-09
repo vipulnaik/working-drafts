@@ -1,0 +1,39 @@
+== Definition ==
+
+Suppose <math>n</math> is a natural number. A '''homology <math>n</math>-sphere'''' is a <math>n</math>-dimensional [[manifold]] whose [[homology group]]s (over the ring of integers <math>\mathbb{Z}</math>) match those of the [[sphere]]. Specifically, a [[manifold]] <math>M</math> is a homology sphere if its homology groups are as follows:
+
+<math>H_i(M; \mathbb{Z}) = \left \lbrace \begin{array}{rl} \mathbb{Z} & i = 0,n \\ 0 & i \ne 0, n\right.</math>
+
+Note that it is important to explicitly specify that the manifold is <math>n</math>-dimensional, otherwise a [[cylinder]] over a sphere would satisfy the definition.
+
+Note that we exclude the case <math>n = 0</math> from consideration.
+
+== Examples ==
+
+For any positive integer <math>n</math>, the <math>n</math>-sphere <math>S^n</math> is a homology sphere.
+
+For <math>n = 3</math>, the [[Poincare homology sphere]], obtained as the quotient of the [[3-sphere]] by the binary icosahedral group (that is isomorphic to <math>SL(2,5)</math>) is a homology sphere.
+
+== Facts ==
+
+=== Complement of a point ===
+
+The complement of any point in a homology sphere is an [[acyclic space]]. In particular, when the homology sphere is ''not'' a sphere (and specifically, its [[fundamental group]] is a nontrivial [[perfect group]]) then the complement of a point in it is acyclic but ''not'' [[weakly contractible space|weakly contractible]].
+
+=== Suspension ===
+
+* The suspension of any homology 3-sphere that is not homeomorphic to the 3-sphere is a [[homology manifold]] that is not a manifold.
+
+== Relation with other properties ==
+
+=== Weaker properties ===
+
+{| class="sortable" border="1"
+! Property !! Meaning !! Proof of implication !! Proof of strictness (reverse implication failure) !! Intermediate notions
+|-
+| [[Stronger than::compact connected orientable manifold]] || || || || {{intermediate notions short|compact connected orientable manifold|homology sphere}}
+|-
+| For <math>n > 1</math>, [[space with perfect fundamental group]] || || || || 
+|-
+| For odd <math>n</math>, [[space with Euler characteristic zero]] || || || ||
+|}

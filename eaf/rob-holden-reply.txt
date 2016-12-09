@@ -1,0 +1,10 @@
+The post has been framed in terms of an epistemic journey: how new evidence and information changed the author's views on subjects through a process of intellectual updates.
+
+I suspect there's another factor that played a role: a change in the author's situation, from somebody who has control over the flow of a few hundred thousand dollars in charitable donations, to somebody who has control over the assets of a ~10 billion dollar foundation, + a respected podium from which he can influence more donor money. The optimization strategies and room for experimentation presented with a shoestring budget versus billions of dollars to allocate are different, and I think some of the intellectual evolution is explained in terms of re-optimization to the new circumstances.
+
+For instance, the Open Philanthropy Project can now afford to spend $500,000 on the Machine Intelligence Research Institute despite the fact that "(i) MIRI has made relatively limited progress on the Agent Foundations research agenda so far, and (ii) this research agenda has little potential to decrease potential risks from advanced AI in comparison with other research directions that we would consider supporting." See http://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/machine-intelligence-research-institute-general-support While some intellectual shift toward taking AI concerns seriously is part of it, I see a major point here being that there's just so much more money to allocate that it's worth taking seriously even things one is pretty skeptical of. [To understand the relative scale, $500,000 as a fraction of $10 billion is the same as $5 as a fraction of $100,000]
+
+I think that interpreting this post purely as an epistemic journey might lead people to conclusions that don't fit their own scale of operation.
+
+
+

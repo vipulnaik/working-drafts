@@ -1,0 +1,27 @@
+{{indispensable lemma}}
+
+==Statement==
+
+Let <math>X</math> be a [[fact about::compact space;1| ]][[compact space]] and <math>A</math> any [[topological space]]. Consider <math>X \times A</math> endowed with the [[fact about::product topology;2| ]][[product topology]]. Suppose <math>a \in A</math> and <math>U</math> is an [[open subset]] of <math>X \times A</math> containing the entire [[slice]] <math>X \times \{ a \}</math>. Then, we can find an open subset <math>V</math> of <math>A</math> such that:
+
+<math>a \in V</math>, and <math>X \times V \subseteq U</math>
+
+In other words, any open subset containing a slice contains an [[open cylinder]] that contains the slice.
+
+==Proof==
+
+'''Given''': A compact space <math>X</math>, a topological space <math>A</math>. <math>a \in A</math>, and <math>U</math> is an open subset of <math>X \times A</math> containing the slice <math>X \times \{ a \}</math>.
+
+'''To prove''': There exists an open subset <math>V</math> of <math>A</math> such that <math>a \in V</math> <math>X \times V</math> is contained in <math>U</math>.
+
+'''Proof''':
+
+# A collection of open subsets inside <math>U</math> whose union contains <math>X \times \{ a \}</math>: For each <math>x \in X</math>, we have <math>(x,a) \in U</math>, so by the definition of openness in the product topology, there exists a basis open subset <math>M_x \times N_x \subseteq U</math> containing <math>(x,a)</math>. In particular, we get a collection <math>M_x \times N_x, x \in X</math> of open subsets contained in <math>U</math>, whose union contains <math>X \times \{ a \}</math>.
+# This collection yields a point-indexed open cover for <math>X</math>: Note that since <math>M_x \times N_x</math> is a basis open set containing <math>(x,a)</math>, <math>M_x</math> is an open subset of <math>X</math> containing <math>X</math>, so the <math>M_x, x \in X</math>, form an open cover of <math>X</math>.
+# ('''Given data used''': <math>X</math> is compact): This cover has a finite subcover: Indeed, since <math>X</math> is compact, we can choose a finite collection of points <math>\{ x_1, x_2, \dots, x_n \} \subseteq X</math> such that <math>X</math> is the union of the <math>M_{x_i}</math>s.
+# If <math>V</math> is the intersection of the corresponding <math>N_{x_i}</math>s, then <math>V</math> is open in <math>A</math>, <math>a \in V</math>, and <math>X \times V \subseteq U</math>: First, <math>V</math> is open since it is an intersection of finitely many open subsets of <math>Y</math>. Second, each <math>N_{x_i}</math> contains <math>a</math>, so <math>a \in V</math>. Third, if <math>(x,v) \in X \times V</math>, then there exists <math>x_i</math> such that <math>x \in M_{x_i}</math>. By definition, <math>v \in N_{x_i}</math>, so <math>(x,v) \in M_{x_i} \times N_{x_i} \subseteq V</math>. Thus, <math>(x,v) \in U</math>.
+
+==References==
+
+===Textbook references===
+* {{booklink-proved|Munkres}}, Page 168, Lemma 26.8, Chapter 3, Section 26 (the proof is given before the theorem, as Step 1 of the proof of Theorem 26.7 on page 167)

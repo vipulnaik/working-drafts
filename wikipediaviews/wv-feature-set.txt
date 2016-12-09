@@ -1,0 +1,19 @@
+- Simultaneously add a set of items to a set of tags?
+
+- Start pre-computing data for anything with archivalstatus marked as empty or partial.
+
+-- Avoid overloading our server
+
+-- Avoid overloading the Wikimedia API
+
+- Switch stats.grok.se to using JSON parsing, to speed up downloading
+
+- Increase nginx gateway timeout to 10 minutes, to allow larger queries
+
+- Autofill missing values as zero
+
+But don't explore outward for the time being
+
+- Automatic backups include syncing with S3, periodic removal of backups (e.g., anything older than 14 days).
+
+

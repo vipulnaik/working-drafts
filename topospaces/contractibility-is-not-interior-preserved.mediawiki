@@ -1,0 +1,23 @@
+{{topospace metaproperty dissatisfaction|
+property = contractible space|
+metaproperty = interior-preserved property of topological spaces}}
+
+== Statement ==
+
+It is possible to have a [[topological space]] <math>X</math> and a subset <math>A</math> of <math>X</math> such that <math>A</math> is a [[contractible space]] in the [[subspace topology]] from <math>X</math> but the interior of <math>A</math> in <math>X</math> is not contractible.
+
+== Proof ===
+
+The key idea is that we can define <math>X</math> as the union of <math>A</math> and a line passing through a point of <math>A</math>, with the coherent topology on the union. Some examples are discussed below.
+
+* Consider <math>X</math> as a [[pair of intersecting lines]], and <math>A</math> as one of the lines. Then, the interior of <math>A</math> is the complement in <math>A</math> of the point of intersection. This is a union of two rays (half-lines without endpoints). It has two connected components, and is therefore not connected and not contractible.
+
+* Consider <math>X</math> as the set in <math>\R^3</math>, with the subspace topology from <math>\R^3</math>:
+
+<math>\{ (x,y,z) \mid (x^2 + y^2)z = 0 \}</math>
+
+This is the union of the <math>xy</math>-plane and the <math>z</math>-axis. Let <math>A</math> be the subset:
+
+<math>\{ (x,y,z) \mid z = 0 \}</math>
+
+This is the <math>xy</math>-plane. The interior of <math>A</math> is the <math>xy</math>-plane minus the origin. This is homotopy-equivalent to the circle (it admits the circle as a strong deformation retract) and is therefore not simply connected and not contractible.

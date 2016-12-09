@@ -1,0 +1,61 @@
+In the past few months, I've been somewhat depressed at my output outside of my day job. This led me to write the post <a href="http://vipulnaik.com/blog/debugging-my-apparent-2016-stagnation/">Debugging my apparent 2016 stagnation</a> last month. Some of the depression also reflects general frustration at the slow-paced nature of progress in the world, something that I mentioned when describing my <a href="http://vipulnaik.com/blog/some-background-beliefs-julyaugust-2016/">background beliefs</a> three months ago.
+
+I've been thinking about how to think about whether what I'm doing is important. Fundamentally, I believe that, given my current constraints (a day job and not a lot of money to spend), my best bet is to continue to do "social science" construed broadly: investigate questions about the world and communicate my thoughts clearly. Thinking through, I've identified three guiding principles to what I should be doing outside of work.
+
+<ol>
+	<li>Pick important topics for investigation, based on criteria including value of better understanding for the world at large, and for my own model-building.</li>
+	<li>Investigate them rigorously, combining the best ideas of academic rigor with the practical nature of the real world.</li>
+	<li>Communicate what I've found clearly, comprehensively, frequently, and to the right audiences.</li>
+</ol>
+
+I believe that, on the whole, I've done a decent job with (1). Two of my focus areas have been migration (chosen for its broader importance) and web analytics/content creation (chosen as something of instrumental importance for me, and something I have more in-depth knowledge of). My relative focus between (2) and (3) has shifted. In previous years, I was focused more on (3), often to the detriment of (2). In other words, I would be eager to share results of partial research without fully understanding the context and details. In 2016, on the other hand, I moved significantly toward (2), and have generally neglected (3).
+
+I think it's really hard to get (1), (2), and (3) right together. The main way (1) creates a constraint is that anything that's important is bound to be hard enough that (2) and (3) are difficult to do together.
+
+<h4>Growth through outreach, borrowed against the future</h4>
+
+In my earlier years, I focused more on outreach, to the detriment of deeply understanding the things I was talking about. For instance, when working on <em>Open Borders: The Case</em>, I would do a little bit of research, then write a blog post or a Facebook post, publish it, get feedback, and move forward. The effort that went into the post was nontrivial but still small. This led to reasonably rapid growth. This growth was borrowed against a future time when there would be more substance to back up the initial moves.
+
+This sort of growth happens because a lot of messages are "waiting to be heard". People hear the message, they like the direction in which the person conveying the messenger is striving to go, they see that there's nothing out there right now that quite matches that, so they give it their attention. But staying at the same level won't keep their attention; it's important to transcend to a different level, otherwise they'll get bored and move on.
+
+One of the biggest mistakes with growth through outreach is that it can be a seductive local optimum: keep communicating material at the same level (reasonably well-researched, reasonably well-communicated) and expect a reasonably similar level of response. Decay, disillusionment, and fatigue will set in fairly slowly, and things will generally look like they run well. But the promise of qualitative change that originally attracted people isn't fulfilled.
+
+<h4>The trivia trap: when research is divorced from important questions</h4>
+
+The trivia trap is one where I end up thoroughly investigating questions that are peripheral to the important questions I seek to better understand.
+
+Fortunately, this isn't a trap I have fallen into of late, but it's something I should be wary of. Being cognizant of this trap also stops me from going on tangents on interesting side-investigations that come up when investigating an issue.
+
+<h4>The rigor trap, and failure to communicate frequently</h4>
+
+The "rigor trap" is when I just keep trying to investigate a question more and more thoroughly (based on my conception of thoroughness) without spending effort on communicating the findings frequently. I feel like I have come close to failling in this trap.
+
+With respect to my contributions to <em>Open Borders: The Case</em>, the last 1.5 years or so can be thought of as succumbing to that trap. I've been busy researching a bunch of things related to migration (in the limited time I get from other things). I have also been slowly writing up my findings. Over the long term, I believe I'm communicating clearly and comprehensively. The part where I've failed is in communicating frequently.
+
+There are two problems with infrequent communication:
+
+<ul>
+	<li>Others lose interest in the underlying topics, and move on.</li>
+	<li>Alternative narratives, ones that are even less well-grounded than my hastily researched ones, become the dominant narratives.</li>
+</ul>
+
+Both of these are serious, genuine problems I've seen. Fortunately, in the case of <em>Open Borders: The Case</em>, other co-bloggers have stepped up to fill in some of the void I left. Nonetheless, I wish I could have avoided the rigor trap more intelligently, and I hope I can do so in the future.
+
+<h4>The yoyo trap, and failure to communicate comprehensively</h4>
+
+The yoyo trap is one of an inauthentic balance between (2) and (3). Here, on the one hand, I do deep research into important questions. On the other hand, I communicate things that are divorced from the insights I am gathering through my deep research, simply based on what I expect will get the most positive feedback from an audience.
+
+The yoyo trap is seductive because at first glance it appears that I am getting everything done: I am doing thorough research and I am communicating stuff well. But the value of the work I do isn't being used if I'm communicating something entirely different. And this hurts both sides. It makes me less motivated to really, truly dig into the research I am doing, because I know that won't be that important to what I communicate. And it hurts my communication, because I know that doesn't come close to sharing what I know. 
+
+<h4>Examining others through the same lens</h4>
+
+This post was written in terms of reflecting on my own actions, and thinking of a framework for moving forward. However, I am also examining others' actions through this lens.
+
+I see rigor traps and yoyo traps all around me, and this concerns me a lot. What concerns me is that people often don't even see these as traps, but even issue self-congratulatory statements announcing it. "What we're doing is so complex, that we're unable to share it except with elites who we can trust to be on the same wavelength" is a common self-congratulatory articulation of the rigor trap. People don't even see the yoyo trap as a trap: organizations often take pride in, for instance, separating their "public" communications from their private ones, or hiring social media experts to handle their social media communications.
+
+<h4>Acknowledging that social science is hard</h4>
+
+True, legitimate social science is really hard. It involves using a wide variety of investigative tools, ranging from reading historical works to conducting online surveys.
+
+In a Korean drama I recently witnessed (called <em>Pinocchio</em>) a man almost quit being a reporter after messing up the reporting of a major incident that cast a dead woman in an unfairly negative light. Narrating that to his father, he said something to the effect that he jumped into it, not knowing that it is hard. His adoptive father told him something to the effect: "So the problem was that you jumped into it without <em>knowing</em> that it was hard, and that's why you ran into trouble. Now that you know it is hard, you can jump in with full knowledge of the fact and you won't be scared." (You can get the full episode details <a href="http://www.dramabeans.com/2014/12/pinocchio-episode-7/">here</a>, if you're interested). Similarly, I need to know that it's hard, but that it's still really important to bring together important questions, thorough research, and clear, frequent, and comprehensive communication.
+

@@ -1,0 +1,10 @@
+* backups/mysql has all the SQL database dumps
+
+* backups/code has the websites
+
+* system/ has all the system files
+
+* nginx-new/ has all the Nginx configurations
+
+* Wikipedia Views is git-backed
+

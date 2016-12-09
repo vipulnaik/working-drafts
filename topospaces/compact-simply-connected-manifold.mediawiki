@@ -1,0 +1,28 @@
+{{manifold property}}
+
+==Definition==
+
+A '''compact simply connected manifold''' is a [[manifold]] which is [[compact space|compact]] and [[simply connected space|simply connected]] as a topological space.
+
+== Examples ==
+
+* For <math>n \ge 2</math>, the <math>n</math>-sphere <math>S^n</math> is a compact simply connected manifold. Similarly, a product of such spheres is a compact simply connected manifold.
+* The [[E8 manifold]] is an example of a compact simply connected manifold that is ''not'' a [[differentiable manifold]].
+
+==Relation with other properties==
+
+Note that a compact manifold that is [[contractible space|contractible]] must be the [[one-point space]]. Therefore, we cannot strengthen the condition of simple connectivity too far.
+
+===Weaker properties===
+
+{| class="sortable" border="1"
+! Property !! Meaning !! Proof of implication !! Proof of strictness (reverse implication failure) !! Intermediate notions
+|-
+| [[Stronger than::compact connected orientable manifold]] || compact, connected, and orientable. This trio of conditions leads to fairly well-behaved manifolds || || the [[circle]] is a counterexample || {{intermediate notions short|compact connected orientable manifold|compact simply connected manifold}}
+|-
+| [[Stronger than::compact connected manifold]] || compact and connected but not necessarily orientable || || in addition to the [[circle]], other examples include the [[Klein bottle]] and [[RP^2]] || {{intermediate notions short|compact connected manifold|compact simply connected manifold}}
+|-
+| [[Stronger than::compact manifold]] || compact but not necessarily connected. Can have multiple connected components || || || {{intermediate notions short|compact manifold|compact simply connected manifold}}
+|-
+| [[Stronger than::connected manifold]] || connected but not necessary compact || || || {{intermediate notions short|connected manifold|compact simply connected manifold}}
+|}

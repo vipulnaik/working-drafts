@@ -1,0 +1,17 @@
+''Given''': A finite non-nilpotent group <math>G</math> of order <math>n</math> such that every proper subgroup of <math>G</math> is nilpotent. The inductive hypothesis holds for all orders smaller than <math>n</math>.
+
+'''To prove''': <math>G</math> has a nilpotent maximal normal subgroup such that the quotient group is cyclic of prime order. In particular, it is metanilpotent and hence solvable.
+
+'''Proof''':
+
+{| class="sortable" border="1"
+! Step no. !! Assertion/construction !! Facts used !! Given data used !! Previous steps used !! Explanation
+|-
+| 1 || <math>G</math> is nontrivial and not simple. || Fact (2) || <math>G</math> is finite non-nilpotent, every proper subgroup is nilpotent. || -- || Fact-direct.
+|-
+| 2 || <math>G</math> has a proper nontrivial maximal normal subgroup, say <math>N</math>, that is nilpotent. || || Every proper subgroup of <math>G</math> is nilpotent || Step (1) || direct from Step (1).
+|-
+| 3 || <math>G/N</math> is cyclic of prime order. || Facts (2), (3) || inductive hypothesis || Step (2) || <toggledisplay>Since <math>N</math> is maximal normal, <math>G/N</math> must be simple. However, by Fact (3), every proper subgroup of <math>G/N</math> is nilpotent, hence it satisfies the conditions for applying Fact (2). Therefore, if <math>G/N</math> is not nilpotent, it ''cannot'' be simple. This forces <math>G/N</math> to be nilpotent and simple, and hence, to be a simple abelian group, and therefore a cyclic group of prime order.
+|-
+| 4 || <math>G</math> is solvable. || Fact (4) || || Steps (2), (3) || Step-fact combination direct.
+|}
