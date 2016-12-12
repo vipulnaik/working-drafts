@@ -1,0 +1,17 @@
+HEMATOLOGY:
+CBC with DIFF
+C-Reactive Proteins, Sensitive
+METABOLISM:
+BUN
+Creatinine
+AST
+ALT
+Alkaline phosphatase
+Lipase
+Heomoglobin A1c
+SEROLOGY:
+IgA Total, Anti-tTG, IgG, Anti-DGP IgG
+MICROBIOLOGY:
+STOOL: H. Pylori Antigen
+STOOL: Fecal Calprotectin
+STOOL: Fecal Elastase
