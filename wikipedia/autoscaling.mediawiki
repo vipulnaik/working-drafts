@@ -1,0 +1,81 @@
+'''Autoscaling''', also spelled '''auto scaling''' or '''auto-scaling''', and sometimes also called '''automatic scaling''', is a method used in [[cloud computing]], whereby the amount of computational resources in a server farm, typically measured in terms of the number of active servers, scales automatically based on the load on the farm. It is closely related to, and builds upon, the idea of [[load balancing (computing)|load balancing]].<ref name=eecs-berkeley>{{cite web|url = http://www.eecs.berkeley.edu/Pubs/TechRpts/2009/EECS-2009-28.pdf|title = Above the Clouds: A Berkeley View of Cloud Computing|date = February 10, 2009|publisher = Berkeley EECS|accessdate = March 21, 2015}}</ref><ref name=aws>{{cite web|url=http://aws.amazon.com/autoscaling/|title = Auto Scaling|publisher = [[Amazon Web Services]]|accessdate = March 21, 2015}}</ref>
+
+==Advantages==
+
+Autoscaling offers the following advantages:
+
+* For companies running their own web server infrastructure, autoscaling typically means allowing some servers to go to sleep during times of low load, saving on electricity costs (as well as water costs if water is being used to cool the machines).<ref name=facebook/> 
+* For companies using infrastructure hosted in the cloud, autoscaling can mean lower bills, because most cloud providers charge based on total usage rather than maximum capacity.<ref name=newvem/> 
+* Even for companies that cannot reduce the total compute capacity they run or pay for at any given time, autoscaling can help by allowing the company to run less time-sensitive workloads on machines that get freed up by autoscaling during times of low traffic.<ref>{{cite web|url = http://techblog.netflix.com/2015/09/creating-your-own-ec2-spot-market.html|title = Creating Your Own EC2 Spot Market|last = Park|first = Andrew|last2 = Denlinger|first2 = Darrell|last3 = Watson|first3 = Coburn|date = September 18, 2015|accessdate = December 16, 2016|publisher = [[Netflix]]}}</ref>
+* Autoscaling solutions, such as the one offered by Amazon Web Services, can also take care of replacing unhealthy instances and therefore protecting somewhat against hardware, network, and application failures.<ref name=cloudonaut/>
+* Autoscaling can offer greater uptime and more availability in cases where production workloads are variable and unpredictable.
+
+Autoscaling differs from having a fixed daily, weekly, or yearly cycle of server use in that it is responsive to actual usage patterns, and thus reduces the potential downside of having too few or too many servers for the traffic load. For instance, if traffic is usually lower at midnight, then a static scaling solution might schedule some servers to sleep at night, but this might result in downtime on a night where people happen to use the Internet more (for instance, due to a viral news event). Autoscaling, on the other hand, can handle unexpected traffic spikes better.<ref name=facebook/><ref name=netflix/>
+
+==Terminology==
+
+In the list below, we use the terminology used by [[Amazon Web Services]] (AWS).<ref name=aws-documentation>{{cite web|url = http://docs.aws.amazon.com/autoscaling/latest/userguide/WhatIsAutoScaling.html|title = What Is Auto Scaling?|publisher = [[Amazon Web Services]]|accessdate = December 16, 2016}}</ref> However, alternative names are noted and terminology that is specific to the names of Amazon services is not used for the names.
+
+{| class="wikitable" border="1"
+! Name (used in AWS,<ref name=aws-documentation/> unless otherwise noted) !! Meaning !! Alternative names (used in Google Cloud Platform,<ref name=google-documentation/> Microsoft Azure,<ref name=msdn-autoscaling/> or other platforms)
+|-
+| Instance || A single server or machine that is part of the group of machines subject to autoscaling || 
+|-
+| Autoscaling group || The collection of instances subject to autoscaling, along with all the associated policies and state information || Managed instance group (Google Cloud Platform)
+|-
+| Size || The number of instances currently part of the autoscaling group ||
+|-
+| Desired capacity (or desired size) || The number of instances that the autoscaling group should have at any given point in time. If the size is less than the desired size, the autoscaling group will try to launch (provision and attach) new instances. If the size is more than the desired size, the autoscaling group will try to remove (detach and terminate) instances ||
+|-
+| Minimum size || A number of instances below which the desired capacity is not allowed to fall ||
+|-
+| Maximum size || A number of instances above which the desired capacity is not allowed to rise ||
+|-
+| Metric || A measurement (such as CPU utilization, memory usage, network usage) associated with the autoscaling group, for which a time series of data points is generated regularly. Thresholds for metrics can be used to set autoscaling policies. Metrics can be based on aggregates of metrics for instances of the autoscaling group, or based on load balancers associated with the autoscaling group || 
+|-
+| Scaling policy (or autoscaling policy) || A policy that specifies a change to the autoscaling group's desired capacity (or sometimes, its minimum and maximum size) in response to metrics crossing specific thresholds. Scaling policies can have associated cooldown periods, which prevent additional scaling actions from occurring immediately after a speicific scaling action. Changes to desired capacity could be incremental (increase or decrease by a specific number) or could specify a new value of the desired capacity. ||
+|-
+| Health check || A way for the autoscaling group to determine if the instances attached to it are functioning properly. A health check may be based on whether the instance still exists and is reachable, or it could be based on whether the instance is still registered and in service with an associated load balancer ||
+|-
+| Launch configuration || A description of the parameters and scripts used when launching a new instance. This includes the instance type, possible availability zones for launch, machine image, and scripts to run on launch || Instance template
+|}
+==Practice==
+
+===Amazon Web Services (AWS)===
+[[File:AWS Simple Icons Compute Amazon Elastic MapReduce Auto Scaling.svg|right|70px|Auto-scaling]]
+
+The first autoscaling solution for AWS was a third-party open-source framework called Scalr, that received press coverage in April 2008.<ref>{{cite web|url=http://techcrunch.com/2008/04/03/scalr-the-auto-scaling-open-source-amazon-ec2-effort/|title = Scalr: The Auto-Scaling Open-Source Amazon EC2 Effort|date = April 3, 2008|accessdate = March 21, 2015|publisher = ''[[TechCrunch]]''|last = Work|first = Henry}}</ref>
+
+On May 18, 2009, Amazon launched its own autoscaling feature along with [[load balancing (computing)|Elastic Load Balancing]], as part of [[Amazon Elastic Compute Cloud]].<ref name=autoscaling-and-elb>{{cite web |url=https://aws.amazon.com/blogs/aws/new-aws-load-balancing-automatic-scaling-and-cloud-monitoring-services/ |title=New Features for Amazon EC2: Elastic Load Balancing, Auto Scaling, and Amazon CloudWatch |publisher = [[Amazon Web Services]] |date=May 18, 2009|last = Barr|first = Jeff|accessdate= June 15, 2016}}</ref> Autoscaling is now an integral component of Amazon's EC2 offering.<ref name=aws/><ref name=whatis>{{cite web|url=http://searchcloudapplications.techtarget.com/definition/autoscaling|title = What is autoscaling?|publisher = TechTarget|accessdate = March 21, 2015}}</ref><ref>{{cite web|url=https://aws.amazon.com/blogs/aws/auto-scaling-update-lifecycle-standby-detach/|title = Auto Scaling Update – Lifecycle Management, Standby State, and DetachInstances|last = Barr|first = Jeff|date = July 30, 2014|accessdate = March 21, 2015|publisher = [[Amazon Web Services]] (official blog)}}</ref> Autoscaling on Amazon Web Services is done through a web browser or the command line tool.<ref>{{cite web|url=https://aws.amazon.com/developertools/2535|title = Auto Scaling Command Line Tool|accessdate = March 21, 2015|publisher = [[Amazon Web Services]] (community-edited page)}}</ref>
+
+On-demand video provider [[Netflix]] has documented their successful use of autoscaling with Amazon Web Services to meet their highly variable consumer needs. They found that aggressive scaling up and delayed and cautious scaling down served their goals of uptime and responsiveness best.<ref name=netflix>{{cite web|url=http://techblog.netflix.com/2012/01/auto-scaling-in-amazon-cloud.html|title = Auto Scaling in the Amazon Cloud|date = January 18, 2012|accessdate = March 21, 2012|publisher = [[Netflix]] Tech Blog|last = Orzell|first = Greg|last2 = Becker|first2 = Justin}}</ref> For parts of their infrastructure and specific workloads, they found that Scryer, their own engine that uses [[predictive analytics]] gave even better results.<ref name=netflix-scryer>{{cite web|last1=Jacobson|first1=Daniel|last2=Yuan|first2=Danny|last3=Joshi|first3=Neeraj|title=Scryer: Netflix’s Predictive Auto Scaling Engine|url=http://techblog.netflix.com/2013/11/scryer-netflixs-predictive-auto-scaling.html|website=The [[Netflix]] Tech Blog|publisher=Netflix|accessdate=28 May 2015}}</ref><ref name=morpheus>{{cite web|url = https://www.morpheusdata.com/blog/2016-11-02-autoscaling-how-the-cloud-provides-a-tremendous-boost/|tite = Autoscaling: How the Cloud Provides a Tremendous Boost|date = November 2, 2016|accessdate = December 16, 2016|publisher = Morpheus}}</ref>
+
+In an article for ''[[TechCrunch]]'', Zev Laderman, the co-founder and CEO of Newvem, a service that helps optimize AWS cloud infrastructure, recommended that startups use autoscaling in order to keep their Amazon Web Services costs low.<ref name=newvem>{{cite web|url=http://techcrunch.com/2012/04/22/amazon-web-services-mistakes/|title = The 10 Biggest Mistakes Made With Amazon Web Services|last = Laderman|first = Zev|date = April 22, 2012|accessdate = March 21, 2015|publisher = ''[[TechCrunch]]''}}</ref>
+
+Various best practice guides for AWS use suggest using its autoscaling feature even in cases where the load is not variable. That is because autoscaling offers two other advantages: automatic replacement of any instances that become unhealthy for any reason (such as hardware failure, network failure, or application error), and automatic replacement of spot instances that get interrupted for price or capacity reasons, making it more feasible to use spot instances for production purposes.<ref name=cloudonaut>{{cite web|url=https://cloudonaut.io/5-aws-mistakes-you-should-avoid/|title = 5 AWS mistakes you should avoid|last = Wittig|first = Michael|publisher = cloudonaut|date = December 26, 2015|accessdate = December 16, 2016}}</ref><ref>{{cite web|url = https://wblinks.com/notes/aws-tips-i-wish-id-known-before-i-started/|title = AWS Tips I Wish I'd Known Before I Started. A collection of random tips for Amazon Web Services (AWS) that I wish I'd been told a few years ago, based on what I've learned by building and deploying various applications on AWS.|date = February 3, 2014|accessdate = December 16, 2016|last = Adams|first = Rich}}</ref><ref>{{cite web|url = https://www.wikihow.com/Use-Amazon-EC2-Spot-Instances|title = How to Use Amazon EC2 Spot Instances|publisher = [[wikiHow]]|accessdate = December 16, 2016}}</ref> Netflix's internal best practices require every instance to be in an autoscaling group, and its conformity monkey terminates any instance not in an autoscaling group in order to enforce this best practice.<ref>{{cite web|url = http://techblog.netflix.com/2011/07/netflix-simian-army.html|title = The Netflix Simian Army|date = July 19, 2011|accessdate = December 5, 2016|publisher = [[Netflix]]}}</ref>
+
+===Microsoft's Windows Azure===
+
+On June 27, 2013, [[Microsoft]] announced that it was adding autoscaling support to its [[Windows Azure]] cloud computing platform.<ref>{{cite web|url=http://techcrunch.com/2013/06/27/microsoft-adds-auto-scaling-to-windows-azure/|title = Microsoft Adds Auto Scaling To Windows Azure|last = Lardinois|first = Frederic|date = June 27, 2013|accessdate = March 21, 2015|publisher = ''[[TechCrunch]]''}}</ref><ref>{{cite web|url=http://www.zdnet.com/article/microsoft-to-add-autoscaling-alerts-to-windows-azure/|title = Microsoft to add autoscaling, alerts to Windows Azure|date = June 27, 2013|accessdate = March 21, 2015|publisher = ''[[ZDNet]]''}}</ref><ref>{{cite web|url=http://www.networkworld.com/article/2168844/cloud-computing/google--microsoft-play-catch-up-to-amazon--add-load-balancing--auto-scaling-to-their.html|title = Google, Microsoft play catch up to Amazon, add load balancing, auto-scaling to their clouds|last = Butler|first = Brandon|date = August 7, 2013|accessdate = March 21, 2015|publisher = [[Network World]]}}</ref> Documentation for the feature is available on the [[Microsoft Developer Network]].<ref name=msdn-autoscaling>{{cite web|url=https://msdn.microsoft.com/en-us/library/dn589774.aspx|title = Autoscaling Guidance|publisher = [[Microsoft Developer Network]]}}</ref><ref>{{cite web|url=https://msdn.microsoft.com/en-us/library/hh680892%28v=pandp.50%29.aspx|title = The Autoscaling Application Block|accessdate = March 21, 2015|publisher = [[Microsoft Developer Network]]}}</ref>
+
+===Google Cloud Platform===
+
+On November 17, 2014, the [[Google Compute Engine]] announced a public beta of its autoscaling feature for use in [[Google Cloud Platform]] applications.<ref>{{cite web|url=http://googlecloudplatform.blogspot.com/2014/11/autoscaling-welcome-to-google-compute.html|title = Autoscaling, welcome to Google Compute Engine|date = November 17, 2014|accessdate = March 21, 2015|publisher = [[Google Cloud Platform]] blog|last = Balejko|first = Filip}}</ref><ref name=venturebeat>{{cite web|url=http://venturebeat.com/2014/11/17/google-compute-engine-gets-autoscaler-to-adjust-app-resources-based-on-varying-traffic-and-workloads/ | title = Google Compute Engine gets Autoscaler to adjust app resources based on varying traffic and workloads|last = Protalinski|first = Emil|date = November 17, 2014|accessdate = March 21, 2015|publisher = ''[[VentureBeat]]''}}</ref><ref>{{cite web|url=http://techcrunch.com/2014/11/17/google-brings-autoscaling-to-compute-engine/|title = Google Brings Autoscaling To Compute Engine|date = November 17, 2014|accessdate = March 21, 2015|publisher = ''[[TechCrunch]]''|last = Lardinois|first = Frederic}}</ref><ref>{{cite web|url=http://www.datacenterknowledge.com/archives/2014/11/17/google-launches-autoscaling-beta-on-compute-engine/|title = Google Launches Autoscaling Beta on Compute Engine|last = Verge|first = Jason|date = November 17, 2014|accessdate = March 21, 2015|publisher = Data Center Knowledge}}</ref> As of March 2015, the autoscaling tool is still in Beta.<ref name=google-documentation>{{cite web|url=https://cloud.google.com/compute/docs/autoscaler/|title = Autoscaler|accessdate = March 21, 2015|publisher = [[Google Cloud Platform]]}}</ref>
+
+===Facebook===
+
+In a blog post in August 2014, a Facebook engineer disclosed that the company had started using autoscaling to bring down its energy costs. The blog post reported a 27% decline in energy use for low traffic hours (around midnight) and a 10-15% decline in energy use over the typical 24-hour cycle.<ref name=facebook>{{cite web|url=https://code.facebook.com/posts/816473015039157/making-facebook-s-software-infrastructure-more-energy-efficient-with-autoscale/|title = Making Facebook’s software infrastructure more energy efficient with Autoscale|last = Wu|first = Qiang|publisher = Facebook Code Blog|date = August 8, 2014|accessdate = March 21, 2015}}</ref><ref name=morpheus/>
+
+==See also==
+
+* [[Cloud computing]]
+* [[Load balancing (computing)|Load balancing]]
+* [[Amazon Web Services]]
+* [https://botleg.com/stories/auto-scaling-with-docker/ Auto Scaling with Docker]
+
+==References==
+{{reflist|30em}}
+
+[[Category:Network management]]
+[[Category:Servers (computing)]]
+[[Category:Cloud computing]]
