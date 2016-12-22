@@ -172,6 +172,8 @@ This guide covers the basics of online survey design, response collection, and a
 #* For Australia, you can use SurveyMonkey Audience or Survata.
 #* Survata allowed you to target 17 countries in May 2015.
 #* In India, two solutions you might be able to use are getinsights.co and pollfish.com.<ref>[https://www.quora.com/How-do-I-get-1000-quality-users-to-do-my-online-survey-in-India How do I get 1000 quality users to do my online survey in India?], Quora</ref>
+#* IN general, consider alternatives to online surveys. Phone and in-person surveys may be more useful for reaching populations where the subset that has Internet access is small and unrepresentative. Standard polling firms (Nielsen, Gallup). In Africa, consider GeoPoll.
+
 
 == References ==
 
