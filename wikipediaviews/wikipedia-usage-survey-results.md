@@ -51,12 +51,8 @@ Readers surveys by the Wikimedia Foundation) and then explains the takeaways.
 
 ## First SurveyMonkey survey (S1)
 
-At the end of May 2016, [Vipul
-Naik](http://lesswrong.com/user/VipulNaik/overview/) and I created a
-[Wikipedia usage
-survey](https://meta.wikimedia.org/wiki/Research:Wikipedia_usage_survey
-'Vipul Naik and Issa Rice. "Research:Wikipedia usage survey". May 31,
-2016. Wikimedia Meta Wiki.') on SurveyMonkey to gauge the usage habits
+At the end of May 2016, [Issa Rice](https://issarice.com) and I created a
+[Wikipedia usage survey](https://meta.wikimedia.org/wiki/Research:Wikipedia_usage_survey 'Vipul Naik and Issa Rice. "Research:Wikipedia usage survey". May 31, 2016. Wikimedia Meta Wiki.') on SurveyMonkey to gauge the usage habits
 of Wikipedia readers and editors.
 
 ### Audiences for S1
@@ -170,7 +166,7 @@ You can learn more on the [SurveyMonkey Contribute page](https://contribute.surv
 
 ## Second SurveyMonkey survey (S2)
 
-After we looked at the survey responses on the first day, Vipul and I
+After we looked at the survey responses on the first day, Issa and I
 decided to create a second survey to focus on the parts from the first
 survey that interested us the most.
 
@@ -493,7 +489,7 @@ examine in detail in this post.
 
 # Motivation
 
-Vipul and I ultimately want to get a better sense of the value of a
+Issa and I ultimately want to get a better sense of the value of a
 Wikipedia pageview (one way to measure the impact of content
 creation), and one way to do this is to understand how people are
 using Wikipedia.
@@ -503,13 +499,13 @@ people to read the content we pay and help to create -- it becomes
 more important to understand who is reading the content, and how they
 engage with it.
 
-For some previous discussion, see also Vipul's answers to the following Quora questions:
+For some previous discussion, see also my answers to the following Quora questions:
 
 - [What are the various parameters that affect the value of a pageview?](https://www.quora.com/What-are-the-various-parameters-that-affect-the-value-of-a-pageview/answer/Vipul-Naik "April 16, 2016.")
-- [What's the relative social value of 1 Quora pageview (as measured by Quora stats http://www.quora.com/stats) and 1 Wikipedia pageview (as measured at, say, Wikipedia article traffic statistics)?](https://www.quora.com/Whats-the-relative-social-value-of-1-Quora-pageview-as-measured-by-Quora-stats-http-www-quora-com-stats-and-1-Wikipedia-pageview-as-measured-at-say-Wikipedia-article-traffic-statistics/answer/Vipul-Naik "August 30, 2014.")
+- [What's the relative social value of 1 Quora pageview (as measured by Quora stats http://www.quora.com/stats/) and 1 Wikipedia pageview (as measured at, say, Wikipedia article traffic statistics)?](https://www.quora.com/Whats-the-relative-social-value-of-1-Quora-pageview-as-measured-by-Quora-stats-http-www-quora-com-stats-and-1-Wikipedia-pageview-as-measured-at-say-Wikipedia-article-traffic-statistics/answer/Vipul-Naik "August 30, 2014.")
 
 Wikipedia allows relatively easy access to pageview data (especially
-by using tools developed for this purpose, including [one that Vipul
+by using tools developed for this purpose, including [one that I
 made](https://wikipediaviews.org/)), and there are some surveys that
 provide demographic data (see ["Previous surveys"](#previous-surveys)
 above).
@@ -842,13 +838,13 @@ this restriction (i.e. duplicate pageviews count), so we wouldn't
 expect the relationship to be entirely linear even if the survey
 audiences were perfectly representative of the general population.
 
-![SM vs 2016 pageviews](http://files.issarice.com/sm_v_2016.png)
+![SM vs 2016 pageviews](https://files.vipulnaik.com/surveys/sm_v_2016.png)
 
-![SM vs 2015 pageviews](http://files.issarice.com/sm_v_2015.png)
+![SM vs 2015 pageviews](https://files.vipulnaik.com/surveys/sm_v_2015.png)
 
-![CEYP vs 2016 pageviews](http://files.issarice.com/ceyp_v_2016.png)
+![CEYP vs 2016 pageviews](https://files.vipulnaik.com/surveys/ceyp_v_2016.png)
 
-![CEYP vs 2015 pageviews](http://files.issarice.com/ceyp_v_2015.png)
+![CEYP vs 2015 pageviews](https://files.vipulnaik.com/surveys/ceyp_v_2015.png)
 
 ## S2Q3: free response of articles read
 
@@ -1125,14 +1121,14 @@ Egypt              42.3              9.59    0.23  0.21--2.00
 SurveyMonkey allows exporting of response summaries.
 Here are the exports for each of the audiences.
 
-- [Survey 1, SurveyMonkey's audience](https://files.issarice.com/SurveyMonkey.pdf)
-- [Survey 1, Vipul's timeline](https://files.issarice.com/Vipul_timeline.pdf)
-- [Survey 1, Wikipedia Analytics mailing list](https://files.issarice.com/Wikipedia_analytics_mailing_list.pdf)
-- [Survey 1, Slate Star Codex](https://files.issarice.com/Slate_Star_Codex.pdf)
-- [Survey 1, Heavy users](https://files.issarice.com/Heavy_users.pdf)
+- [Survey 1, SurveyMonkey's audience](https://files.vipulnaik.com/surveys/SurveyMonkey.pdf)
+- [Survey 1, Vipul's timeline](https://files.vipulnaik.com/surveys/Vipul_timeline.pdf)
+- [Survey 1, Wikipedia Analytics mailing list](https://files.vipulnaik.com/surveys/Wikipedia_analytics_mailing_list.pdf)
+- [Survey 1, Slate Star Codex](https://files.vipulnaik.com/surveys/Slate_Star_Codex.pdf)
+- [Survey 1, Heavy users](https://files.vipulnaik.com/surveys/Heavy_users.pdf)
 - [Survey 1, SurveyMonkey's audience by gender](https://files.vipulnaik.com/surveys/SurveyMonkey_gender.pdf)
-- [Survey 2, SurveyMonkey's audience, no demographic filters](https://files.issarice.com/S2_unfiltered.pdf)
-- [Survey 2, SurveyMonkey's audience of college-educated young people](https://files.issarice.com/S2_educated.pdf)
+- [Survey 2, SurveyMonkey's audience, no demographic filters](https://files.vipulnaik.com/surveys/S2_unfiltered.pdf)
+- [Survey 2, SurveyMonkey's audience of college-educated young people](https://files.vipulnaik.com/surveys/S2_educated.pdf)
 - [Survey 2, SurveyMonkey's audience, no demographic filters, by gender](https://files.vipulnaik.com/surveys/S2_unfiltered_gender.pdf)
 - [Survey 2, SurveyMonkey's audience of college-educated young people, by gender](https://files.vipulnaik.com/surveys/S2_educated_gender.pdf)
 
@@ -1150,29 +1146,29 @@ SurveyMonkey Audience and Google Surveys) on the other.
 Here are three different ways to slice the data to confirm the gap
 between the audiences.
 
-- Percentage of respondents who view less than 1 Wikipedia page per
-  week: For Vipul's Facebook friends, Slate Star Codex, and the
-  Analytics mailing list, this was 0% or 1%.
+-  Percentage of respondents who view less than 1 Wikipedia page per
+   week: For Vipul's Facebook friends, Slate Star Codex, and the
+   Analytics mailing list, this was 0% or 1%.
 
-  In contrast, for all the SurveyMonkey Audience and Google Surveys
-  segments considered, this was 25% or higher, with the most general
-  US audiences and largest sample sizes giving numbers between 40% and
-  60%.
+   In contrast, for all the SurveyMonkey Audience and Google Surveys
+   segments considered, this was 25% or higher, with the most general
+   US audiences and largest sample sizes giving numbers between 40% and
+   60%.
 
-- Estimated pages/week range: For Vipul's friends, Slate Star Codex,
-  and the Analytics mailing list, the lower end was 9 or higher, and
-  the upper end was 19 or higher.
+-  Estimated pages/week range: For Vipul's friends, Slate Star Codex,
+   and the Analytics mailing list, the lower end was 9 or higher, and
+   the upper end was 19 or higher.
    
-  In contrast, for all the
-  SurveyMonkey Audience and Google Surveys segments considered, the
-  lower end was less than 5 and the upper end was less than 15.
+   In contrast, for all the
+   SurveyMonkey Audience and Google Surveys segments considered, the
+   lower end was less than 5 and the upper end was less than 15.
 
-- Percentage of respondents who view 26 or more Wikipedia pages per
-  week: For Vipul's friends, Slate Star Codex, and the Analytics
-  mailing list, the number was 16%, 27%, and 57% respectively.
-  In contrast, for all the SurveyMonkey Audience and Google Surveys
-  segments, this percentage was less than 13%, and for most of the
-  larger segments it was less than 7%.
+-  Percentage of respondents who view 26 or more Wikipedia pages per
+   week: For Vipul's friends, Slate Star Codex, and the Analytics
+   mailing list, the number was 16%, 27%, and 57% respectively.
+   In contrast, for all the SurveyMonkey Audience and Google Surveys
+   segments, this percentage was less than 13%, and for most of the
+   larger segments it was less than 7%.
 
 ## Qualitative differences in other aspects of Wikipedia engagement
 
@@ -1389,9 +1385,15 @@ as much as Slate Star Codex readers do, Wikipedia would get between
 
 # The making of this post
 
+## Document source
+
+The document and all sources used to compile it are available as a [GitHub Gist](https://gist.github.com/vipulnaik/c79a10aea048d6d2ceeb871b90a8e3f2).
+
+The document is also available as a PDF.
+
 ## Original version and revision history
 
-This post is a fork of an earlier post of Issa Rice available at <http://lesswrong.com/r/discussion/lw/nru/wikipedia_usage_survey_results/> and as a PDF at <http://files.issarice.com/wikipedia-survey-results.pdf/>
+This post is a fork of an earlier post of Issa Rice available at <http://lesswrong.com/r/discussion/lw/nru/wikipedia_usage_survey_results/> and as a PDF at <https://files.issarice.com/wikipedia-survey-results.pdf/>
 
 The source files used to compile the earlier document are available in a [GitHub Gist](https://gist.github.com/riceissa/7296b85303f96f2dc1dfb4f9a8ea44d9).
 
