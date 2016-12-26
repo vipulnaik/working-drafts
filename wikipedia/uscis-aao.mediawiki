@@ -1,0 +1,136 @@
+The '''USCIS Administrative Appeals Office''' (also known as the '''AAO''' or the '''USCIS AAO''') is an office within [[United States Citizenship and Immigration Services]] (USCIS) that can be used by petitioners to appeal adverse USCIS decisions made on their petitions. <ref name=official>{{cite web|url = https://www.uscis.gov/about-us/directorates-and-program-offices/administrative-appeals-office-aao/administrative-appeals-office-aao|title = The Administrative Appeals Office (AAO)|accessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
+
+== Forms where appeal to AAO is possible ==
+
+{{main article|USCIS immigration forms}}
+
+Of the USCIS immigration forms, decisions on the two forms [[Form I-130]] (family-based immigration, the F and IR categories) and the widower subcategory for Form I-360 (special immigrants, the EB-4 category), must be appealed through the EOIR-29 (Notice of Appeal to the Board of Immigration Appeals from a Decision of an Immigration Officer) to the [[Board of Immigration Appeals]]. Also, appeals for denials of Form N-400 (the naturalization petition) must be made using Form N-336.<ref name=faq/> For Special Agricultural Worker (SAW) or legalization applications, the appeal must be filed on Form I-694, Notice of Appeal of Decision under Sections 245A or 210 of the Immigration and Nationality Act.<ref name=i-290b/>
+
+For all other USCIS petitions where appeal is possible, the petitioner can appeal an adverse USCIS decision on the petition to the AAO using Form I-290B, Notice of Appeal or Motion.<ref name=official/><ref name=i-290b>{{cite web|url = https://www.uscis.gov/i-290b|title = I-290B, Notice of Appeal or Motion|accessdate = January 15, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
+
+As of December 2016, appeal to AAO is possible for the following petition forms: [[Form I-129|I-129]] (nonimmigrant worker), [[Form I-140|I-140]] (immigrant worker), I-526 (immigrant investor), Form I-821, I-129F, I-601, I-212, I-360, I-600, I-600A, I-914, I-918, N-470. As of December 2016, there are no appeal rights for Form I-485 ([[Adjustment of Status]]),<ref name=murthy-motions-and-appeals>{{cite web|url = https://www.murthy.com/2011/12/30/motions-and-appeals-as-options-after-uscis-denial/|title = Motions and Appeals as Options After USCIS Denial|date = December 30, 2011|accessdate = December 25, 2016|publisher = Murthy Law Firm}}</ref> Forms I-601A and I-821D.<ref name=i-290b/>
+
+There is no standalone appeals process for Form I-765. The form is usually applied for in conjunction with another form that grants the underlying authorization, and a denial of the other form can be appealed.
+
+== Appeals process ==
+
+=== Three uses of Form I-290B ===
+
+Form I-290B, Notice of Appeal or Motion, can be used for three purposes:<ref name=i-290b-instructions>{{cite web|url = https://www.uscis.gov/system/files_force/files/form/i-290binstr.pdf|title = Instructions for FOrm I-290B|accessdate = December 25, 2016}}</ref>
+
+* To file an appeal with the AAO
+* To file a motion to reconsider a decision
+* To file a motion to reopen a decision
+
+The key difference between appeals and motions is that appeals go to the AAO, i.e., a higher authority than the one that made the decision being appealed. Also, they do not need to include additional evidence, since the underlying claim of the appeal is that the office whose decision is being appealed did not correctly process the existing evidence.<ref name=i-290b-instructions/><ref name=murthy-motions-and-appeals/>
+
+In contrast, motions to reconsider or reopen apply to the same office that made the decision being appealed. In particular, a motion to reconsider a denial by a service center will be made to that service center. Motions to reconsider/reopen must be accompanied by new evidence showing that the initially filed petition should have been approved.<ref name=i-290b-instructions/><ref name=murthy-motions-and-appeals/>
+
+To complicate matters, it is possible to file a motion to reconsider AAO's decision in response to a past appeal.<ref name=i-290b-instructions/>
+
+=== Adjudication (or readjudication) that must be completed before an appeal can be made ===
+
+An appeal can be made about a petition only after the USCIS officer adjudicating or readjudicating the petition has finished adjudicating, and only if the petition was denied (for initial adjudication) or revoked (for readjudication).
+
+There are two steps that the USCIS might take in order to help petitioners voice their concerns during adjudication, to reduce the need for appeals:
+
+* [[Request For Evidence]] (RFE): Here, the USCIS requests the petitioner for additional evidence while the form is still being adjudicated. It is intended for use in cases where the adjudicator (the person evaluating the petition) believes that there is not enough evidence to approve the petition, but also believes that the petition may be redeemable, and that there is no clear factual or statutory basis for denial.<ref name=2013-memo>{{cite web|url = http://www.uscis.gov/sites/default/files/USCIS/Laws/Memoranda/2013/June%202013/Requests%20for%20Evidence%20%28Final%29.pdf|title = Policy Memorandum|date = June 3, 2013|accessdate = January 16, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
+* [[Notice of Intent to Deny]] (NOID): Here, the USCIS sends the petitioner a notice explaining that a denial is likely, along with reasons for denial. The petitioner has some time to send additional evidence that could help change the decision. The NOID is used for situations where the adjudicator (the person evaluating the petition) believes that the petition should be denied, but that the petitioner may have additional evidence that might lead the petition to be approved.<ref name=2013-memo/>
+
+In some cases, petitions that were initially approved are readjudicated after a consular officer processing a visa based on the approved petition finds a reason that the petition should not have been approved or is no longer approvable. The USCIS may decide, based on the readjudication, to revoke the petition. During this readjudication process, the USCIS may issue a [[Notice of Intent to Revoke]] (NOIR) that plays a similar role as the NOID does for initial adjudication.
+
+if a denial or revocation is sent, it includes information on whether an appeal is allowed. If no appeal is allowed, then the only option available for challenge is filing a motion to reconsider.<ref name=murthy-motions-and-appeals/>
+=== Submission of appeal ===
+
+The following restrictions apply on using Form I-290B to file appeals:
+
+* The appeal ''must'' be filed by the petitioner. The beneficiary cannot appeal a USCIS decision. This is relevant to forms such as Form I-129, Form I-130, and Form I-140, where, in most cases, the beneficiary differs from the petitioner. For instance, with Form I-130, a US citizen wife might file a petition for her non-US-citizen husband. In this case, only the wife can appeal a denial, not the husband.<ref name=faq>{{cite web|url = https://www.uscis.gov/forms/questions-and-answers-appeals-and-motions|title = Questions and Answers: Appeals and Motions|accessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref><ref name=i-290-b-instructions/>
+* The appeal must be filed within a specific time limit after the adverse decision. The limits are:<ref name=i-290b-instructions/>
+** 30 calendar days for denials served in person
+** 33 calendar days for denials served by mail
+** 15 calendar days for revocations served in person
+** 18 calendar days for revocations served by mail
+
+An appeal that is filed late is automatically treated as a motion to reconsider or a motion to reopen, if it otherwise meets the criteria for those. Although the motion to reconsider or reopen also has the same time limits, there is a little more flexibility allowed for late filing of motions.<ref name=murthy-motions-and-appeals/>
+
+Appeals may be accompanied by briefs in support of the appeal. The briefs can be submitted at the time of initial filing of the appeal or within 30 days.
+
+The appellant can also request an oral argument before the AAO in [[Washington, D.C.]] Oral arguments are not always granted. Interpreters are not provided for oral arguments.<ref name=i-290b-instructions/><ref name=aao-processing-requests>{{cite web|url = https://www.uscis.gov/about-us/directorates-and-program-offices/administrative-appeals-office-aao/aao-processing-requests|title = AAO Processing Requests|accessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
+
+Appellants may also request expedited processing of the AAO, but only by providing evidence of one or more of these:<ref name=aao-processing-requests/>
+
+* Severe financial loss to a company or individual;
+* Extreme emergent situation;
+* Humanitarian situation;
+* Nonprofit status of requesting organization in furthering the cultural and social interests of the United States;
+* Department of Defense or National Interest Situation (Note: The request must come from an official United States Government entity and must state that a delay will be detrimental to the Government);
+* Handling error by USCIS that has created an unreasonable delay that may be corrected by placing the case back in its original order; and
+* Compelling interest of USCIS.
+
+=== Initial field review ===
+
+If the petitioner files Form I-290B, Notice of Appeal or Motion, the appeal is first sent to the office that adjudicated the original petition. This gives the office the opportunity to review the appeal and readjudicate the petition if necessary. This stage is called initial field review.<ref name=aao-decision-data>{{cite web|url = https://www.uscis.gov/about-us/directorates-and-program-offices/administrative-appeals-office-aao/aao-decision-data|title = AAO Decision Data|accessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
+
+If the office finds no problem with the denial or revocation, then the appeal is forwarded to the AAO, entering the stage called appellate review.<ref name=aao-decision-data/>
+
+The initial field review should be completed within 45 days.<ref name=official/>
+
+=== Appellate review ===
+
+After initial field review, the appeal is processed by AAO, using the original petition, the decision of the USCIS field office, and any briefs or oral arguments presented as part of the appeal. The AAO will then come to one of three decisions:<ref name=aao-decision-data/><ref>{{cite web|url = http://immigration.findlaw.com/visas/administrative-appeals-with-the-uscis.html|title = Administrative Appeals with the USCIS|publisher = FindLaw|accessdate= December 25, 2016}}</ref>
+
+* Sustain (approve) the appeal, thus overturning the original denial or revocation.
+* Dismiss (deny) the appeal, thus maintaining the original denial or revocation.
+* Remand (return) the appeal, thus making the original office review the petition yet again.
+
+The appellate review should be completed within 6 months of receiving the appeal (note that this includes the time spent on initial field review).<ref name=official/> Like the rest of USCIS, the AAO releases processing time goals for appeals based on form type.<ref name=aao-processing-times>{{cite web|url = https://www.uscis.gov/about-us/directorates-and-program-offices/administrative-appeals-office-aao/aao-processing-times|title = AAO Processing Times|publisher = [[United States Citizenship and Immigration Services]]|accessdate = December 25, 2016}}</ref> AAO processing times are not included in USCIS' monthly report of processing times across its field offices and service centers.<ref name=uscis-processing-times-official>{{cite web|url = https://egov.uscis.gov/cris/processTimesDisplayInit.do|title =  USCIS Processing Time Information|publisher = [[United States Citizenship and Immigration Services]]|accessdate = January 22, 2015}}</ref>
+
+=== Records ===
+
+It is possible to get a copy of the notice of record for an appeal made to AAO by submitting a [[Freedom of Information Act]] request to USCIS. However, this is not part of the appeal timeline, so an appellant cannot use delay in processing of the FOIA to explain delay in submitting any necessary documents.<ref name=aao-processing-requests/>
+
+=== Next steps if the appeal is denied ===
+
+If an appeal to AAO is denied, the appellant can file a motion to reconsider if there is new evidence that would show that the appeal should have been sustained.
+
+Otherwise, the AAO's decision can be appealed within the United States federal judicial system.<ref name=precedent-decisions>{{Cite web|url = https://www.uscis.gov/laws/precedent-decisions|title = Precedent Decisions|accessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
+
+== Decision framework and impact on USCIS and judicial review ==
+
+=== Non-precedent decisions ===
+
+Most AAO decisions are non-precedent decisions: they apply existing law and policy to the facts of the case. Non-precedent decisions are binding on the parties involved, but have no effect on agency guidance or practice.<ref name=aao-non-precedent>{{cite web|url = https://www.uscis.gov/about-us/directorates-and-program-offices/administrative-appeals-office-aao/aao-non-precedent-decisions|title = AAO Non-Precedent Decisions|accessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref> AAO has all its non-precedent decisions since 2005 available in an online repository. Decisions before 2005 can be obtained using [[Freedom of Information Act]] (FOIA) requests.<ref name=aao-non-precedent/>
+
+=== Adopted decisions ===
+
+Non-precedent decisions by AAO are sometimes adopted by USCIS as binding policy guidance for USCIS personnel. An adopted decision may later get superseded by other USCIS policy changes.<ref>{{cite web|url = https://www.uscis.gov/about-us/directorates-and-program-offices/administrative-appeals-office-aao/adopted-aao-decisions|title = Adopted AAO Decisions|accessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
+
+=== Precedent decisions ===
+
+Some AAO decisions acquire the status of precedent decisions. This means they become legally binding on all DHS components that deal with the law. Precedent decisions therefore carry more force than adopted decisions, which in turn carry more force than other non-precedent decisions.<ref name=precedent-decisions>{{cite web|url = https://www.uscis.gov/laws/precedent-decisions|title = Precedent Decisions|publisher = [[United States Citizenship and Immigration Services]]|accessdate = December 25, 2016}}</ref><ref>{{cite web|url = https://www.justice.gov/eoir/dhs-aao-ins-decisions|title = DHS/AAO/INS Decisions|publisher = [[United States Department of Justice]]|accessdate = December 25, 2016}}</ref>
+
+Precedent decisions may be modified or overruled by:
+
+* The Attorney General
+* Federal Courts
+* Later precedent decisions
+* Changes in the law
+
+Although not legally bound by them, federal courts generally give more deference to precedent decisions, and decisions using similar reasoning as precedent decisions, than to non-precedent decisions,
+
+== Data sets ==
+
+The AAO releases data on the number of appeals of each decision type (dismiss, sustain, remand) for each combination of USCIS form category and fiscal year.<ref>{{cite web|url = https://www.uscis.gov/sites/default/files/USCIS/About%20Us/Directorates%20and%20Program%20Offices/AAO/USCIS_and_AAO_Data_for_Publishing_Thru_FY16.pdf|title = AAO Appeal Adjudications|publisher = [[United States Citizenship and Immigration Services]]|accessdate = December 25, 2016}}</ref>
+
+== History ==
+
+The [[Immigration and Naturalization Services]] (the historical agency that carried out functions currently carried out by USCIS, as well as some of the functions of ICE and CBP) created the Administrative Appeals Unit (AAU) in 1983.<ref name=aao-practice-manual-chapter-1>{{cite web|url = https://www.uscis.gov/about-us/directorates-and-program-offices/administrative-appeals-office-aao/practice-manual/chapter-1-administrative-appeals-office|title = AAO Practice Manual, Chapter 1|publisher = [[United States Citizenship and Immigration Services]]|accessdate = December 25, 2016}}</ref>
+
+Later, to deal with appeals for the legalization introduced as part of the [[Immigration Reform and Control Act of 1986]], it created the Legalization Appeals Unit (LAU).<ref name=aao-practice-manual-chapter-1/>
+
+In 1994, the two units were combined into the Administrative Appeals Office (AAO). In 2003, the INS was dismantled and AAO was absorbed into the newly created United States Citizenship and Immigration Services (USCIS).<ref name=aao-practice-manual-chapter-1/>
+
+In April 2016, AAO made its non-precedent decisions since 2005 publicly searchable.<ref>{{cite web|url = http://discuss.ilw.com/content.php?6165-News-USCIS-Administrative-Appeals-Office-Launches-Search-Tool-for-Non-Precedent-Decisions|title = News: USCIS Administrative Appeals Office Launches Search Tool for Non-Precedent Decisions|date = April 4, 2016|accessdate = December 25, 2016|publisher = [[Immigration Daily]]}}</ref>
+== References ==
+
+{{reflist|30em}}
