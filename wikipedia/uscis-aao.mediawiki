@@ -67,13 +67,15 @@ Appellants may also request expedited processing of the AAO, but only by providi
 * Handling error by USCIS that has created an unreasonable delay that may be corrected by placing the case back in its original order; and
 * Compelling interest of USCIS.
 
-=== Initial field review ===
+=== Initial field review (IFR)===
 
-If the petitioner files Form I-290B, Notice of Appeal or Motion, the appeal is first sent to the office that adjudicated the original petition. This gives the office the opportunity to review the appeal and readjudicate the petition if necessary. This stage is called initial field review.<ref name=aao-decision-data>{{cite web|url = https://www.uscis.gov/about-us/directorates-and-program-offices/administrative-appeals-office-aao/aao-decision-data|title = AAO Decision Data|accessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
+If the petitioner files Form I-290B, Notice of Appeal or Motion, the appeal is first sent to the office that adjudicated the original petition. This gives the office the opportunity to review the appeal and readjudicate the petition if necessary. This stage is called initial field review or IFT.<ref name=aao-decision-data>{{cite web|url = https://www.uscis.gov/about-us/directorates-and-program-offices/administrative-appeals-office-aao/aao-decision-data|title = AAO Decision Data|accessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
 
 If the office finds no problem with the denial or revocation, then the appeal is forwarded to the AAO, entering the stage called appellate review.<ref name=aao-decision-data/>
 
 The initial field review should be completed within 45 days.<ref name=official/>
+
+The defining guidelines for IFR were issued in a November 2015 policy memorandum.<ref name=ifr-memo/>
 
 === Appellate review ===
 
@@ -96,6 +98,8 @@ If an appeal to AAO is denied, the appellant can file a motion to reconsider if 
 Otherwise, the AAO's decision can be appealed within the United States federal judicial system.<ref name=precedent-decisions>{{Cite web|url = https://www.uscis.gov/laws/precedent-decisions|title = Precedent Decisions|accessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
 
 == Decision framework and impact on USCIS and judicial review ==
+
+The significance precedent and non-precedent decisions, as well as the concept of adopted decisions, as detailed below, have been evolving slowly since 2003. The most recent defining memorandum explaining the distinction was issued by the USCIS on November 2013.<ref name=precedent-memo/> This is part of a general thrust in the AAO to move toward clearer and more consistent rulemaking to improve decision quality and consistency.<ref>{{Cite web|url = http://discuss.ilw.com/content.php?3158-Article-USCIS-AAO-(Administrative-Appeals-Office)-Appears-to-be-Moving-In-The-Right-Direction-By-Joseph-P-Whalen|title = USCIS' AAO (Administrative Appeals Office) Appears to be Moving In The Right Direction|last = Whalen|first = Joseph P.|date = May 29, 2014|accessdate = December 25, 2016|publisher = [[Immigration Daily]]}}</ref>
 
 === Non-precedent decisions ===
 
@@ -129,6 +133,12 @@ The [[Immigration and Naturalization Services]] (the historical agency that carr
 Later, to deal with appeals for the legalization introduced as part of the [[Immigration Reform and Control Act of 1986]], it created the Legalization Appeals Unit (LAU).<ref name=aao-practice-manual-chapter-1/>
 
 In 1994, the two units were combined into the Administrative Appeals Office (AAO). In 2003, the INS was dismantled and AAO was absorbed into the newly created United States Citizenship and Immigration Services (USCIS).<ref name=aao-practice-manual-chapter-1/>
+
+On November 18, 2013, USCIS issued a Policy Memorandum with guidance on the proper use of precedent and non-precedent decisions.<ref name=precedent-memo>{{cite web|url = http://ilw.com/immigrationdaily/news/PM-602-0086-1_AAO_Precedent_and_Non-Precedent_Decisions_Final_Memo.pdf|title = Policy Memorandum: Subject: Precedent and Non-Precedent Decisions of the Administrative Appeals Office (AAO)|date = November 18, 2013|acessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
+
+In January 2015, the first edition of the AAO Practice Manual was published and made available online.<ref name=manual-launch>{{cite web|url = http://discuss.ilw.com/showthread.php?37948-News-USCIS-Message-Administrative-Appeals-Office-Introduces-First-Practice-Manual|title =  News: USCIS Message: Administrative Appeals Office Introduces First Practice Manual|date = January 29, 2015|accessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
+
+On November 4, 2015, the USCIS issued a Policy Memorandum with updated guidance on how Form I-290B appeals would be processed by the USCIS, with a focus on explaining the timeline and process for initial field review.<ref name=ifr-memo>{{cite web|url = http://www.ilw.com/immigrationdaily/news/2015,1111-USCIS.pdf|title = Policy Memorandum: Subject: Initial Field Review of Appeals to the Administrative Appeals Office|date = November 4, 2015|accessdate = December 25, 2016|publiher = [[United States Citizenship and Immigration Services]]}}</ref>
 
 In April 2016, AAO made its non-precedent decisions since 2005 publicly searchable.<ref>{{cite web|url = http://discuss.ilw.com/content.php?6165-News-USCIS-Administrative-Appeals-Office-Launches-Search-Tool-for-Non-Precedent-Decisions|title = News: USCIS Administrative Appeals Office Launches Search Tool for Non-Precedent Decisions|date = April 4, 2016|accessdate = December 25, 2016|publisher = [[Immigration Daily]]}}</ref>
 == References ==
