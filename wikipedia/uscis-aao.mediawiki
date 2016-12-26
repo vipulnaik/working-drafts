@@ -16,7 +16,7 @@ There is no standalone appeals process for Form I-765. The form is usually appli
 
 === Three uses of Form I-290B ===
 
-Form I-290B, Notice of Appeal or Motion, can be used for three purposes:<ref name=i-290b-instructions>{{cite web|url = https://www.uscis.gov/system/files_force/files/form/i-290binstr.pdf|title = Instructions for FOrm I-290B|accessdate = December 25, 2016}}</ref>
+Form I-290B, Notice of Appeal or Motion, can be used for three purposes:<ref name=i-290b-instructions>{{cite web|url = https://www.uscis.gov/system/files_force/files/form/i-290binstr.pdf|title = Instructions for Form I-290B|accessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
 
 * To file an appeal with the AAO
 * To file a motion to reconsider a decision
@@ -44,7 +44,7 @@ if a denial or revocation is sent, it includes information on whether an appeal 
 
 The following restrictions apply on using Form I-290B to file appeals:
 
-* The appeal ''must'' be filed by the petitioner. The beneficiary cannot appeal a USCIS decision. This is relevant to forms such as Form I-129, Form I-130, and Form I-140, where, in most cases, the beneficiary differs from the petitioner. For instance, with Form I-130, a US citizen wife might file a petition for her non-US-citizen husband. In this case, only the wife can appeal a denial, not the husband.<ref name=faq>{{cite web|url = https://www.uscis.gov/forms/questions-and-answers-appeals-and-motions|title = Questions and Answers: Appeals and Motions|accessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref><ref name=i-290-b-instructions/>
+* The appeal ''must'' be filed by the petitioner. The beneficiary cannot appeal a USCIS decision. This is relevant to forms such as Form I-129, Form I-130, and Form I-140, where, in most cases, the beneficiary differs from the petitioner. For instance, with Form I-130, a US citizen wife might file a petition for her non-US-citizen husband. In this case, only the wife can appeal a denial, not the husband.<ref name=faq>{{cite web|url = https://www.uscis.gov/forms/questions-and-answers-appeals-and-motions|title = Questions and Answers: Appeals and Motions|accessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref><ref name=i-290b-instructions/>
 * The appeal must be filed within a specific time limit after the adverse decision. The limits are:<ref name=i-290b-instructions/>
 ** 30 calendar days for denials served in person
 ** 33 calendar days for denials served by mail
@@ -95,7 +95,7 @@ It is possible to get a copy of the notice of record for an appeal made to AAO b
 
 If an appeal to AAO is denied, the appellant can file a motion to reconsider if there is new evidence that would show that the appeal should have been sustained.
 
-Otherwise, the AAO's decision can be appealed within the United States federal judicial system.<ref name=precedent-decisions>{{Cite web|url = https://www.uscis.gov/laws/precedent-decisions|title = Precedent Decisions|accessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
+Otherwise, the AAO's decision can be appealed within the United States federal judicial system.<ref name=precedent-decisions/>
 
 == Decision framework and impact on USCIS and judicial review ==
 
@@ -128,19 +128,22 @@ The AAO releases data on the number of appeals of each decision type (dismiss, s
 
 == History ==
 
-The [[Immigration and Naturalization Services]] (the historical agency that carried out functions currently carried out by USCIS, as well as some of the functions of ICE and CBP) created the Administrative Appeals Unit (AAU) in 1983.<ref name=aao-practice-manual-chapter-1>{{cite web|url = https://www.uscis.gov/about-us/directorates-and-program-offices/administrative-appeals-office-aao/practice-manual/chapter-1-administrative-appeals-office|title = AAO Practice Manual, Chapter 1|publisher = [[United States Citizenship and Immigration Services]]|accessdate = December 25, 2016}}</ref>
+The [[Immigration and Naturalization Services]] (the historical agency that carried out functions currently carried out by USCIS, as well as some of the functions of ICE and CBP) created the Administrative Appeals Unit (AAU) in 1983.<ref name=official/><ref name=aao-practice-manual-chapter-1>{{cite web|url = https://www.uscis.gov/about-us/directorates-and-program-offices/administrative-appeals-office-aao/practice-manual/chapter-1-administrative-appeals-office|title = AAO Practice Manual, Chapter 1|publisher = [[United States Citizenship and Immigration Services]]|accessdate = December 25, 2016}}</ref>
 
-Later, to deal with appeals for the legalization introduced as part of the [[Immigration Reform and Control Act of 1986]], it created the Legalization Appeals Unit (LAU).<ref name=aao-practice-manual-chapter-1/>
+Later, to deal with appeals for the legalization introduced as part of the [[Immigration Reform and Control Act of 1986]], it created the Legalization Appeals Unit (LAU).<ref name=official/><ref name=aao-practice-manual-chapter-1/>
 
-In 1994, the two units were combined into the Administrative Appeals Office (AAO). In 2003, the INS was dismantled and AAO was absorbed into the newly created United States Citizenship and Immigration Services (USCIS).<ref name=aao-practice-manual-chapter-1/>
+In 1994, the two units were combined into the Administrative Appeals Office (AAO). In 2003, the INS was dismantled and AAO was absorbed into the newly created United States Citizenship and Immigration Services (USCIS).<ref name=official/><ref name=aao-practice-manual-chapter-1/>
 
-On November 18, 2013, USCIS issued a Policy Memorandum with guidance on the proper use of precedent and non-precedent decisions.<ref name=precedent-memo>{{cite web|url = http://ilw.com/immigrationdaily/news/PM-602-0086-1_AAO_Precedent_and_Non-Precedent_Decisions_Final_Memo.pdf|title = Policy Memorandum: Subject: Precedent and Non-Precedent Decisions of the Administrative Appeals Office (AAO)|date = November 18, 2013|acessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
+On November 18, 2013, USCIS issued a Policy Memorandum with guidance on the proper use of precedent and non-precedent decisions.<ref name=precedent-memo>{{cite web|url = http://ilw.com/immigrationdaily/news/PM-602-0086-1_AAO_Precedent_and_Non-Precedent_Decisions_Final_Memo.pdf|title = Policy Memorandum: Subject: Precedent and Non-Precedent Decisions of the Administrative Appeals Office (AAO)|date = November 18, 2013|accessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
 
 In January 2015, the first edition of the AAO Practice Manual was published and made available online.<ref name=manual-launch>{{cite web|url = http://discuss.ilw.com/showthread.php?37948-News-USCIS-Message-Administrative-Appeals-Office-Introduces-First-Practice-Manual|title =  News: USCIS Message: Administrative Appeals Office Introduces First Practice Manual|date = January 29, 2015|accessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
 
 On November 4, 2015, the USCIS issued a Policy Memorandum with updated guidance on how Form I-290B appeals would be processed by the USCIS, with a focus on explaining the timeline and process for initial field review.<ref name=ifr-memo>{{cite web|url = http://www.ilw.com/immigrationdaily/news/2015,1111-USCIS.pdf|title = Policy Memorandum: Subject: Initial Field Review of Appeals to the Administrative Appeals Office|date = November 4, 2015|accessdate = December 25, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
 
 In April 2016, AAO made its non-precedent decisions since 2005 publicly searchable.<ref>{{cite web|url = http://discuss.ilw.com/content.php?6165-News-USCIS-Administrative-Appeals-Office-Launches-Search-Tool-for-Non-Precedent-Decisions|title = News: USCIS Administrative Appeals Office Launches Search Tool for Non-Precedent Decisions|date = April 4, 2016|accessdate = December 25, 2016|publisher = [[Immigration Daily]]}}</ref>
+
 == References ==
 
 {{reflist|30em}}
+
+[[Category: United States immigration law]]
