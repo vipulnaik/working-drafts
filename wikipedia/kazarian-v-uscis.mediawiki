@@ -1,0 +1,43 @@
+'''''Kazarian v. USCIS''''' refers to a case decided by the [[United States Court of Appeals for the Ninth Circuit]] on March 4, 2010, pertaining to a USCIS decision on a [[Form I-140]] [[EB-1 visa|EB-1 application]].<ref name=nafsa>{{cite web|url = https://www.nafsa.org/uploadedFiles/kazariandecision.pdf|title = ''Kazarian v. USCIS'' Order and Opinion|publisher = [[United States Court of Appeals for the Ninth Circuit]]|accessdate = December 26, 2016}}</ref> The decision led the USCIS to issue a policy memo (dated August 18, 2010) change its adjudication process for EB-1 and EB-2 petitions to a "two-step review" where the first step would focus on counting pieces of evidence and the second step would involve a merits determination. The case has been cited by USCIS as well as by petitioners in hundreds of Form I-140 petitions and appeals since 2010.<ref>{{Cite web|url = https://search.usa.gov/search?affiliate=uscis-aao&commit=Search&page=1&query=kazarian&utf8=✓|title = AAO Non-Precedent Decision Search for Kazarian|accessdate = December 26, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
+
+==Background==
+
+=== Petitioner's background ===
+
+Poghos Kazarian grew up in [[Armenia]]. He received a Ph.D in Theoretical Physics from [[Yerevan State University]] in Yerevan, Armenia in 1997. From 1997 to 2000, he remained at YSU as a Research Associate, where he specialized in non-Einsteinian theories of gravitation. From 2000 to 2004, he worked as a Physics/Math/Programming  Tutor,  an  Adjunct  Physics  and  Mathematics Instructor, and a Science Lecture Series speaker at [[Glendale Community College (California)|Glendale Community College]], [[California]], in the [[United States]]. He was also a member of a research group at the [[California Institute of Technology]], located close to Glendale Community College, where he worked with American theoretical physicist [[Kip Thorne]]. He also authored the self-published textbook ''Concepts in Physics: Classical Mechanics''. He published in journals such as ''[[Astrophysics (journal)|Astrophysics]]'' and worked on [[cosmogony]] problems posed by [[Victor Ambartsumian]].<ref name=nafsa/><ref name=aao-decision>{{cite web|url = https://www.uscis.gov/sites/default/files/err/B2%20-%20Aliens%20with%20Extraordinary%20Ability/Decisions_Issued_in_2006/Sep282006_01B2203.pdf|title = WAC 04 064 51500 USCIS Administrative Appeals Office decision on Matter of Kazarian|date = September 28, 2006|accessdate = December 26, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
+
+Kazarian's time in the United States was spent on a visitor visa ([[B visa]]) that precludes formal employment. His teaching and tutoring work were carried out in a volunteer capacity. Although he was listed as working at YSU till 2000, his immigration documentation shows that he had been in the United States in visitor status since October 1998.<ref name=aao-decision/><ref name=nafsa/>
+
+=== EB-1 petition ===
+
+On December 31, 2003, at the age of 34, Kazarian submitted a [[Form I-140]] petition for [[EB-1 visa|EB-1 status]].<ref name=nafsa/> The petition included support for the following pieces of evidence that were used to justify eligibility for EB-1 status:<ref name=aao-decision/>
+
+* Evidence of receipt of lesser nationally or internationally recognized prizes or awards for excellence: 
+** A medal for high school graduation with honors by the Ministry of Education of Armenia. The petitioner included a caption stating that the medal was awarded for "success in studies, labor and for the exemplary behavior."
+** A letter from the Dean of the Physics Department at YSU stating that the petitioner "was awarded by the Dean's Honor for Excellence in Study During 5 Years (1989 to 1994)."
+** Selection for [[Marquis Who's Who]].
+* Documentation of the alien's membership in associations in the field for which classification is sought, which require outstanding achievements of their members, as judged by recognized national or international experts in their disciplines or fields.
+** Solicitation to join the [[American Chemical Society]]
+** Solicitation to join the [[American Association for the Advancement of Science]]
+** Membership in the [[New York Academy of Sciences]]
+* Published materials about the alien in professional or major trade publications or other major media, relating to the alien's work in the field for which classification is sought. Such evidence shall include the title, date, and author of the material, and any necessary translation.
+** An article, "The Young Talent from America", that the petitioner said was published in the Armenian magazine ''Louys'', that he contended was the nation's largest weekly publication.
+** An article about the petitioner's immigration troubles, published in an unidentified newspaper.
+** A television interview regarding his professional activities to the Armenian National Network.
+* Evidence of the alien's participation, either individually or on a panel, as a judge of the work of others in the same or an allied field of specification for which classification is sought.
+** A letter from Professor Chubarian, the Head of the Department of Theoretical Physics at YSU stating that the petitioner was involved in teaching activities and reviewing diploma works.
+* Evidence of the alien's original scientific, scholarly, artistic, athletic, or business-related contributions of major significance in the field.
+** Letters from prominent scientists at the [[California Institute of Technology]], including [[Kip Thorne]].<ref name=aao-decision/><ref name=nafsa/>
+** Letters from colleagues at Glendale Community College
+** Letters from people at YSU who knew the petitioner while he was there
+* Evidence of the alien's authorship of scholarly articles in the field, in professional or major trade publications or other major media.
+** Published articles by the petitioners in various physics journals, such as ''[[Astrophysics (journal)|Astrophysics]]''
+** A self-published book, ''Concepts in Physics: Classical Mechanics'', with reviews by colleagues at Glendale Community College, who said the college was considering using the book as a text.
+* Evidence of the display of the alien's work in the field at artistic exhibitions or in showcases.
+
+
+== References ==
+
+{{Reflist}}
+
+
