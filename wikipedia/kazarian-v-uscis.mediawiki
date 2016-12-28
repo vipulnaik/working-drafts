@@ -9,7 +9,7 @@ Poghos Kazarian grew up in [[Armenia]]. He received a Ph.D in Theoretical Physic
 Kazarian's time in the United States was spent on a visitor visa ([[B visa]]) that precludes formal employment. His teaching and tutoring work were carried out in a volunteer capacity. Although he was listed as working at YSU till 2000, his immigration documentation shows that he had been in the United States in visitor status since October 1998.<ref name=aao-decision/><ref name=nafsa/>
 
 === EB-1 petition ===
-
+															   
 On December 31, 2003, at the age of 34, Kazarian submitted a [[Form I-140]] petition for [[EB-1 visa|EB-1 status]].<ref name=nafsa/> The petition included support for the following pieces of evidence that were used to justify eligibility for EB-1 status:<ref name=aao-decision/>
 
 * Evidence of receipt of lesser nationally or internationally recognized prizes or awards for excellence: 
@@ -33,7 +33,14 @@ On December 31, 2003, at the age of 34, Kazarian submitted a [[Form I-140]] peti
 * Evidence of the alien's authorship of scholarly articles in the field, in professional or major trade publications or other major media.
 ** Published articles by the petitioners in various physics journals, such as ''[[Astrophysics (journal)|Astrophysics]]''
 ** A self-published book, ''Concepts in Physics: Classical Mechanics'', with reviews by colleagues at Glendale Community College, who said the college was considering using the book as a text.
-* Evidence of the display of the alien's work in the field at artistic exhibitions or in showcases.
+
+Below are the remaining types of evidence that can be considered for an EB-1 application, but that were of less relevane to the petition:
+
+* Evidence of the display of the alien's work in the field at artistic exhibitions or in showcases: The later appeal would claim that the petitioner's self-published book, community college lectures, and conference presentations met this criterion.
+* Evidence that the alien has performed in a leading or critical role for organizations: No claims were made for this line of evidence.
+* Evidence that the alien has commanded a high salary or other significantly high remuneration for services, in relation to others in the field. The petitioner submitted a [[Form 1040]] tax return for 2004 showing $4,765 in wages, but no claims were made about this being unusually high remuneration.
+* Evidence of commercial success in the performing arts, as shown by box office receipts or record, cassette, compact disk, or video sales: The later appeal would claim that the petitioner's self-published book, that would be considered by Glendale Community College as a text, would qualify due to the potential for high sales.
+
 
 
 == References ==
