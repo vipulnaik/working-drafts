@@ -1,0 +1,17 @@
+Hello Open Phil team!
+
+I have a question inspired by Holden's recent post http://www.openphilanthropy.org/blog/good-ventures-and-giving-now-vs-later-2016-update
+
+In the post, he says: "This is still our position, and we still expect giving for the year to come in below this budget, though it will be significantly higher than it was last year. Specifically, we expect to have over $100 million worth of grants for which the investigation is completed this year (with a recommendation made either this year or early in 2017). (A comparable figure for last year would have been under $20 million.)"
+
+However, according to your grants database (see  https://en.wikipedia.org/wiki/Open_Philanthropy_Project#Grants_made for the breakdown) the total of publicly disclosed grants so far for 2015 was $6,851,855 and that for 2016 was $45,664,741, significantly less than the estimates you provided.
+
+To what extent are these differences a result of these three factors?
+
+(1) Grants made in the year after which the investigation was completed (this could apply to both 2015 and 2016)
+
+(2) Grants not yet publicly disclosed, but that you intend to disclose publicly (this should mostly apply only to 2016; there has been ample time to disclose grants in 2015)
+
+(3) Grants that you do not currently intend to disclose
+
+I'm interested because it will help get a better sense of the level of comprehensiveness as well as the time lag in Open Phil's grants database.
