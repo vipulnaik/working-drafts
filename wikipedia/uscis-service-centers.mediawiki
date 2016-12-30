@@ -1,0 +1,25 @@
+''USCIS Service Centers''' are centers under the [[United States Citizenship and Immigration Services]] where Immigration Service Officers (ISOs) perform activities related to petitions and application forms, including adjudication and readjudication of petitions and other application processing, as well as other customer service and backend processing functions.
+
+Unlike USCIS Field Offices, Service Centers do not have walk-in facilities: all communication with them happens through the mail and (to a limited extent) by phone or electronically.
+
+
+== List of USCIS Service Centers ==
+
+Below is a list of the USCIS Service Centers, along with the acronyms used to describe them and more information on their location and history. The location included is based on the [[Form I-129]] or [[Form I-140]] mailing addresses; the service center may have additiona offices elsewhere in the state.
+
+
+{| class="wikitable" border="1"
+! Service Center !! Location (based on [[Form I-129]] or [[Form I-140]] mailing address, if available) !! Forms processed at this Service Center
+|-
+| California Service Center (CSC) || [[Laguna Niguel]], [[California]] || 
+|-
+| Nebraska Service Center (NSC) || [[Lincoln, Nebraska]] || 
+|-
+| Texas Service Center (TSC) || [[Dallas]], [[Texas]] ||
+|-
+| Vermont Service Center (VSC) || [[St. Albans]], [[Vermont]] ||
+|-
+| Potomac Service Center (PSC) || No address (no forms are directly mailed here) || 
+|}
+
+
