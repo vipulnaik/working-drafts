@@ -1,0 +1,20 @@
+Three different axes:
+
+Exploratory versus linear impact
+
+Direct versus indirect impact
+
+Mainstream versus neglected
+
+Claim 1: We should favor linear impact over exploratory impact
+
+Claim 2: Any exploratory impact should be with eye to short-term convertibiility to linear impact
+
+Claim 3: Indirect linear impacts can be pretty respectable and aren't that much worse than direct linear impact
+
+Claim 4: Generate auxiliary linear impacts from exploration where possible
+
+In other words, nonlinearity and indirectness carry comparable penalties
+
+
+Exploratory impact and the charlatn

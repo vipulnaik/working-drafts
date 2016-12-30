@@ -1,0 +1,9 @@
+First question: what should the distribution (in the math/stat sense) of grant amounts look like? One $100 million grant, ten $10 million, hundred $1 million, or some mix (like 50 $1 million and five $10 million)?
+
+Only larger grants <--- much more per-grant investigation and much more confidence in a particular grant. But not really, could be purely based on high EV estimates.
+
+Lots of progress is purely a matter of linear investment. Need to have a good sense of unit costs.
+
+But some funding is for exploratory analyses 
+
+Lots of smallerg
