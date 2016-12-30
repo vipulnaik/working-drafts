@@ -10,7 +10,7 @@
 <li>Impact of EA events: EA Global and other similar events have negligible traffic impact, even short-run trafic impact.</li>
 <li>Post traffic lifecycle (norm and exceptions):<ul>
 <li>The majority of posts get almost all their traffic in the first few days after they are published. The traffic may come from social media and other referrals, or people discovering the content from the home page.</li>
-<li>A few pieces of content get sustained traffic over a long period of time, and one piece of content sees a big traffic increase every Giving Season. Half of these pieces are EA classics, the other half are about tangentially related subjects of wider interest.</li>
+<li>A few pieces of content get sustained traffic over a long period of time. This could be steady traffic or traffic resulting from multiple traffic spikes. Some of these pieces are generic EA classics, and others are about tangentially related subjects of wider interest. No articles exclusively about EA organizations or personal donation decisions have made it to this list.</li>
 </ul></li></ul>
 
 <h3 id="annual-cycle-and-long-term-growth-trends">Annual cycle and long-term growth trends</h3>
@@ -27,9 +27,11 @@
 
 <p>One interesting trend between late 2014 and late 2015: although the increase in number of pageviews was small, sessions increased quite a bit. Pages/session dropped to compensate. This could be because people began using EAF more on their phones (thus increasing the number of sessions and users recorded by GA). It could be because the number of people accessing EAF increased, but the interest and dedication of the early adopters declined.</p>
 
+<h3 id="impact-of-ea-events">Impact of EA events</h3>
+
 <h3 id="post-traffic-lifecycle-norms-and-exceptions">Post traffic lifecycle: norms and exceptions</a>
 
-<p>The vast majority of EAF posts get the vast majority of their traffic within a few days of publication. Typical examples: </p>
+<p>The vast majority of EAF posts get the vast majority of their traffic within a few days of publication. Typical examples:</p>
 
 <ul>
 <li><a href="http://effective-altruism.com/ea/146/president_trump_as_a_global_catastrophic_risk/">President Trump as a Global Catastrophic Risk</a>: See https://analytics.google.com/analytics/web/#report/content-pages/a53416835w86109361p89329676/%3F_u.date00%3D20140901%26_u.date01%3D20161231%26_r.drilldown%3Danalytics.pagePath%3A%2Fea%2F146%2Fpresident_trump_as_a_global_catastrophic_risk%2F%26explorer-table.plotKeys%3D%5B%5D%26explorer-graphOptions.selected%3Danalytics.nthDay/ </li>
@@ -37,4 +39,14 @@
 <li><a href="http://effective-altruism.com/ea/sm/ea_is_elitist_should_it_stay_that_way/">EA is elitist. Should it stay that way?</a> https://analytics.google.com/analytics/web/#report/content-pages/a53416835w86109361p89329676/%3F_u.date00%3D20140901%26_u.date01%3D20161231%26_r.drilldown%3Danalytics.pagePath%3A%2Fea%2Fsm%2Fea_is_elitist_should_it_stay_that_way%2F%26explorer-graphOptions.selected%3Danalytics.nthDay%26explorer-table.plotKeys%3D%5B%5D/</li>
 </ul>
 
-<p>However, the top viewed items of all time display a different pattern: although they do have more views around the time of initial publication, they continue to receive a steady stream of views. Below is a list of the top viewed articles of all time, with qualitative explanations of their view pattern:</p>
+<p>However, the top viewed items of all time display a different pattern: although they do have more views around the time of initial publication, they continue to receive a steady stream of views long after they are published. Below is a list of the five top viewed articles of all time, with qualitative explanations of their view pattern:</p>
+
+<ul>
+<li><a href="http://effective-altruism.com/ea/6x/introduction_to_effective_altruism/">Introduction to Effective Altruism</a>, averaged about 50 pageviews a day from mid-2015 to August 2016, and then dropped to about 10 pageviews a day ((probably due to competition from <a href="https://www.effectivealtruism.org/articles/introduction-to-effective-altruism/">Introduction to Effective Altruism on effectivealtruism.org</a>).</li>
+<li><a href="http://effective-altruism.com/ea/6u/the_drowning_child_and_the_expanding_circle/">The Drowning Child and the Expanding Circle</a> sees traffic in waves, with sudden spikes after some sort of media publicity and then gradual decay over time, till the next spike.</li>
+<li><a href="http://effective-altruism.com/ea/45/what_is_effective_altruism/">What is Effective Altruism?</a> had a traffic spike in July 2015, after which it saw 20 pageviews a day for a while. The number has decayed gradually and is now about 5 a day. <a href="https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=what%20is%20effective%20altruism">Search query competition</a> could explain the decline. https://analytics.google.com/analytics/web/#report/content-pages/a53416835w86109361p89329676/%3F_u.date00%3D20140901%26_u.date01%3D20161231%26_r.drilldown%3Danalytics.pagePath%3A%2Fea%2F45%2Fwhat_is_effective_altruism%2F%26explorer-graphOptions.selected%3Danalytics.nthDay%26explorer-table.plotKeys%3D%5B%5D/ </li>
+<li><a href="http://effective-altruism.com/ea/5e/efficient_charity_do_unto_others/">Efficient charity: do unto others...</a> spiked in late January 2016, and has since fluctuated, averaging between 2 and 15 pageviews a day. https://analytics.google.com/analytics/web/#report/content-pages/a53416835w86109361p89329676/%3F_u.date00%3D20140901%26_u.date01%3D20161231%26_r.drilldown%3Danalytics.pagePath%3A%2Fea%2F5e%2Fefficient_charity_do_unto_others%2F%26explorer-graphOptions.selected%3Danalytics.nthDay%26explorer-table.plotKeys%3D%5B%5D/ </li>
+<li><a href="http://effective-altruism.com/ea/c8/should_you_donate_to_the_wikimedia_foundation/">Should you donate to the Wikimedia Foundation?</a> had three spikes: one at the time of initial writing (in late March 2015), and two more during the Giving Seasons of 2015 and 2016, coinciding with the Wikimedia Foundation fundraisers through Wikipedia banners. Disclosure: I wrote this post, and have spent some time understanding its view statistics.  https://analytics.google.com/analytics/web/#report/content-pages/a53416835w86109361p89329676/%3F_u.date00%3D20140901%26_u.date01%3D20161231%26_r.drilldown%3Danalytics.pagePath%3A%2Fea%2Fc8%2Fshould_you_donate_to_the_wikimedia_foundation%2F%26explorer-graphOptions.selected%3Danalytics.nthDay%26explorer-table.plotKeys%3D%5B%5D/ </li>
+</ul>
+
+<p>Beyond the top five, the picture becomes more mixed. The sixth and seventh article, namely  <a href="http://effective-altruism.com/ea/x4/philosophical_critiques_of_effective_altruism_by/">Philosophical Critiques of Effective Altruism by Prof Jeff McMahan</a> and <a href="http://effective-altruism.com/ea/4r/cheerfully/">Cheerfully</a>, had only one spike at time of publication, but do still get a very slow but still steady trickle of traffic. In eighth place is the wide-interest article <a href="http://effective-altruism.com/ea/fh/six_ways_to_get_along_with_people_who_are_totally/">Six Ways To Get Along With People Who Are Totally Wrong*</a>. This has had three big spikes and a much much smaller steady stream of articles. In ninth position is <a href="http://effective-altruism.com/ea/12z/concerns_with_intentional_insights/">Concerns with Intentional Insights</a>, which has had only one huge and short-lived spike, but given its recency, it could have more spikes later.</p>
