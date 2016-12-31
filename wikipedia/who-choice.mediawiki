@@ -1,0 +1,97 @@
+'''WHO-CHOICE''' ('''''CHO''osing ''I''nterventions that are ''C''ost-''E''ffective''') is an initiative started by the [[World Health Organization]] in 1998 to help countries choose their healthcare priorities.<ref name=gwwc-overview>{{cite web|url = https://www.givingwhatwecan.org/post/2014/09/who-choice-look-effectiveness-different-health-interventions/|title = WHO-CHOICE: a look at the effectiveness of different health interventions|last = Roing|first = Sebastian|date = September 25, 2014|accessdate = December 31, 2016|publisher = [[Giving What We Can]]}}</ref><ref name=about>{{cite web|url = http://www.who.int/choice/cost-effectiveness/en/|title = Cost effectiveness and strategic planning (WHO-CHOICE)|accessdate = December 31, 2016|publisher = [[World Health Organization]]}}</ref> It is an example of [[priority-setting in global health]]. It was one of the earliest projects to perform sectoral cost-effectiveness analyses (i.e., cost-effectiveness analyses that compare a wide range of types of spending within a sector and prioritize holistically) on a global scale.<ref name=murray-2000>{{cite journal|url = http://www.who.int/choice/publications/p_2000_guidelines_generalisedcea.pdf|title = Development of WHO Guidelines on Generalized Cost-Effectiveness Analaysis|last = Murray|first = Christopher J. L.|last2 = Evans|first2 = David B.|last3 = Acharya|first3 = Arnab|last4 = Baltussen|first4 = Rob|journal = ''[[Health Economics]]''|volume = 9|pages = 235-251|year = 2000}}</ref><ref name=hutubessy-2003>{{cite journal|url = https://resource-allocation.biomedcentral.com/articles/10.1186/1478-7547-1-8|title = Generalized cost-effectiveness analysis for national-level priority-setting in the health sector|last = Hutubessy|first = Raymond|last2 = Chisholm|first2 = Dan|last3 = Edejer|first3 = Tessa Tan-Torres}}</ref><ref name=guide-2003>{{Cite web|url = http://www.who.int/choice/publications/p_2003_generalised_cea.pdf|title = WHO Guide to Cost-Effectiveness Analysis|last = Edejer|first = Tessa Tan-Torres|last2 = Baltussen|first2 = Rob|last3 = Adam|first3 = T.|last4 = Hutubessy|first4 = Raymond|last5 = Acharya|first5 = Arnab|last6 = Evans|first6 = David B.|last7 = Murray|first7 = Christopher J.L.|authorlink7 = Christopher J.L. Murray}}</ref>
+
+== History ==
+
+=== Launch and initial years of WHO-CHOICE ===
+
+In May 1998, [[Gro Harlem Brundtland]] succeeded [[Hiroshi Nakajima]] as the Director-General of the [[World Health Organization]], and the organization was significant restructuring as a result of the leadership change. With her election, a new program, called '''Choosing Interventions: Effectiveness Quality,Costs, Gender and Ethics''' was launched as part of the Global Programme for Evidence on Health and Policy. The name of the program would later morph into WHO-CHOICE.<ref name=murray-2000/>
+
+WHO-CHOICE refined its methodology quite a bit in the first few years ... (2003 guide publication, 2012 BMJ publications).
+
+== Tools and methods ==
+
+=== Adoption of sectoral CEA ===
+
+Prior to WHO-CHOICE, most projects that did cost-effectiveness analysis (CEA) in the real world focused on evaluating a single program or intervention, comparing it against either a fixed price threshold or an existing array of interventions with predetermined cost-effectiveness taken from the literature. However, theoretical literature on CEAs considered a broader kind of CEA called "sectoral CEA" where all programs and interventions available within a sector would be compared and cost-effectiveness priorities would be determined. Prior to WHO-CHOICE, there were only a few examples of practical implementation of CEAs: the [[Oregon Health Services Commission]] (tasked with prioritizing for [[Medicaid]] in the [[United States]]), the [[World Bank Health Sectors Priorities Review]], and the [[Harvard Life Saving Project]].<ref name=murray-2000/><ref name=hutubessy-2003/> In a 2000 paper, Murray et al. identified four challenges to a wider application of sectoral CEA:
+
+# Resource allocation decisions affecting the entire health sector must also take into account social concerns, such as priority for the sick, reducing social inequalities in health, or the well-being of future generations. The history of the Oregon Health Services Commission provides an example of the sort of conflicts that emerge as a result of balancing all these concerns.
+# Current CEA is too focused on the evaluation of new strategies, rather than identifying potential for efficiency improvements by reallocating within existing strategies.
+# For all but the richest societies, the cost and time required to evaluate the large set of interventions required may be prohibitive.
+# It is difficult to institutionalize CEA, and a number of conflicting CEA guidelines at national and regional levels have proliferated.
+
+=== Use of generalized CEA (a type of sectoral CEA) based on epidemiological subregions ===
+
+WHO-CHOICE identified a key trade-off in sectoral CEA based on the granularity of the region at which the CEA was performed. At one extreme, sectoral CEA could be performed at the level of individual cities or districts, incorporating information about local resources, costs, and current context. At the other extreme, a single CEA could be carried out globally. Highly localized sectoral CEA would be very expensive and difficult to perform whereas global CEA would fail to take into account the huge differences between the epidemiology and resource structure of regions.<ref name=gwwc-overview/><ref name=murray-2000/><ref name=guide-2003/>
+
+WHO-CHOICE's solution was to use an intermediate level of granularity, that it called "generalized CEA" (GCEA). It argued that at this intermediate level, it could conduct CEAs more efficiently while also allowing local policymakers and agents to use its findings and further adapt them to local contexts.<ref name=murray-2000/><ref name=gwwc-overview/> 
+
+WHO-CHOICE has divided the world into 14 epidemiological subregions, and publishes its findings by subregion, as shown below. Each subregion is a combination of a region (a geographical region of the world) and a mortality stratum (a stratum describing the level and nature of mortality). WHO-CHOICE chose to put each country in a single mortality stratum and a single region (and therefore a single subregion) even if mortality varies widely within the country.<ref name=gwwc-overview/><ref name=hutubessy-2003/>
+
+* There are 6 regions: AFR (Africa), AMR (Americas), EMR (Middle East), EUR (Europe), SEAR (South-East Asia), and WPR (West Pacific). 
+* There are 5 mortality strata, defined as follows:
+** A = very low rates of adult and child mortality
+** B = low adult mortality, low child mortality
+** C = high adult mortality, low child mortality
+** D = high adult mortality, high child mortality
+** E = very high adult mortality, high child mortality
+
+Although the 6 regions and 5 mortality strata could give a theoretical maximum of 6 X 5 = 30 subregions, only 14 subregions occur in practice because not every region has countries with all mortality strata.
+
+Below is the classification into subregions as of 2003.<ref name=hutubessy-2003/>
+
+{| class="wikitable sortable" border="1"
+! Region !! Mortality stratum !! Countries
+|-
+| AFR || D || [[Algeria]], [[Angola]], [[Benin]], [[Burkina Faso]], [[Cameroon]], [[Cape Verde]], [[Chad]], [[Comoros]], [[Equatorial Guinea]], [[Gabon]], [[Gambia]], [[Ghana]], [[Guinea]], [[Guinea-Bissau]], [[Liberia]], [[Madagascar]], [[Mali]], [[Mauritania]], [[Mauritius]], [[Niger]], [[Nigeria]], [[Sao Tome And Principe]], [[Senegal]], [[Seychelles]], [[Sierra Leone]], [[Togo]]
+|-
+| AFR || E || [[Botswana]], [[Burundi]], [[Central African Republic]], [[Congo]], [[Côte d'Ivoire]], [[Democratic Republic Of The Congo]], [[Eritrea]], [[Ethiopia]], [[Kenya]], [[Lesotho]], [[Malawi]], [[Mozambique]], [[Namibia]], [[Rwanda]], [[South Africa]], [[Swaziland]], [[Uganda]], [[United Republic of Tanzania]], [[Zambia]], [[Zimbabwe]]
+|-
+| AMR || A || [[Canada]], [[United States Of America]], [[Cuba]]
+|-
+| AMR || B || [[Antigua And Barbuda]], [[Argentina]], [[Bahamas]], [[Barbados]], [[Belize]], [[Brazil]], [[Chile]], [[Colombia]], [[Costa Rica]], [[Dominica]], [[Dominican Republic]], [[El Salvador]], [[Grenada]], [[Guyana]], [[Honduras]], [[Jamaica]], [[Mexico]], [[Panama]], [[Paraguay]], [[Saint Kitts and Nevis]], [[Saint Lucia]], [[Saint Vincent And The Grenadines]], [[Suriname]], [[Trinidad And Tobago]], [[Uruguay]], [[Venezuela]]
+|-
+| AMR || D || [[Bolivia]], [[Ecuador]], [[Guatemala]], [[Haiti]], [[Nicaragua]], [[Peru]]
+|-
+| EMR || B || [[Bahrain]], [[Cyprus]], [[Iran]], [[Jordan]], [[Kuwait]], [[Lebanon]], [[Libyan Arab Jamahiriya]], [[Oman]], [[Qatar]], [[Saudi Arabia]], [[Syrian Arab Republic]], [[Tunisia]], [[United Arab Emirates]]
+|-
+| EMR || D || [[Afghanistan]], [[Djibouti]], [[Egypt]], [[Iraq]], [[Morocco]], [[Pakistan]], [[Somalia]], [[Sudan]], [[Yemen]]
+|-
+| EUR || A || [[Andorra]], [[Austria]], [[Belgium]], [[Croatia]], [[Czech Republic]], [[Denmark]], [[Finland]], [[France]], [[Germany]], [[Greece]], [[Iceland]], [[Ireland]], [[Israel]], [[Italy]], [[Luxembourg]], [[Malta]], [[Monaco]], [[Netherlands]], [[Norway]], [[Portugal]], [[San Marino]], [[Slovenia]], [[Spain]], [[Sweden]], [[Switzerland]], [[United Kingdom]]
+|-
+| EUR || B || [[Albania]], [[Armenia]], [[Azerbaijan]], [[Bosnia and Herzegovina]], [[Bulgaria]], [[Georgia (country)|Georgia]], [[Kyrgyzstan]], [[Poland]], [[Romania]], [[Slovakia]], [[Tajikistan]], [[The Former Yugoslav Republic Of Macedonia]], [[Serbia and Montenegro]], [[Turkey]], [[Turkmenistan]], [[Uzbekistan]]
+|-
+| EUR || C || [[Republic of Moldova]], [[Russian Federation]], [[Ukraine]]
+|-
+| SEAR || B || [[Indonesia]], [[Sri Lanka]], [[Thailand]]
+|-
+| SEAR || D || Bangladesh]], [[Bhutan]], [[North Korea]], [[India]], [[Maldives]], [[Myanmar]], [[Nepal]]
+|-
+| WPR || A || [[Australia]], [[Japan]], [[Brunei Darussalam]], [[New Zealand]], [[Singapore]]
+|-
+| WPR || B || [[Cambodia]], [[China]], [[Lao People's Democratic Republic]], [[Malaysia]], [[Mongolia]], [[Philippines]], [[Republic Of Korea]], [[Viet Nam]], [[Cook Islands]], [[Fiji]], [[Kiribati]], [[Marshall Islands]], [[Micronesia]], [[Nauru]], [[Niue]], [[Palau]], [[Papua New Guinea]], [[Samoa]], [[Solomon Islands]], [[Tonga]], [[Tuvalu]], [[Vanuatu]]
+|}
+
+==See also==
+{{Columns-list|2|
+* [[Global health]]
+* [[Timeline of global health]]
+* [[Global Mental Health]]
+* [[Health For All]]
+* [[Health promotion]]
+* [[Healthy city]] / [[Alliance for Healthy Cities]], an international alliance
+* [[Health Sciences Online]], virtual learning resources
+* [[High 5s Project]], a patient safety collaboration
+* [[International Health Partnership]]
+* [[International Labour Organization]]
+* [[Open Learning for Development]], virtual learning resources
+* [[Public health]]
+* [[Sustainable Development]]
+* [[The Partnership for Maternal, Newborn and Child Health]]
+* [[Tropical disease]]
+* [[WHO Guidelines for drinking-water quality]]
+* [[WHO Pesticide Evaluation Scheme]]
+* [[List of most polluted cities in the world by particulate matter concentration]]
+}}
+
+==References==
+{{Reflist|30em}}
