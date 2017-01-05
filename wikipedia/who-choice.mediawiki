@@ -1,10 +1,10 @@
-'''WHO-CHOICE''' ('''''CHO''osing ''I''nterventions that are ''C''ost-''E''ffective''') is an initiative started by the [[World Health Organization]] in 1998 to help countries choose their healthcare priorities.<ref name=gwwc-overview>{{cite web|url = https://www.givingwhatwecan.org/post/2014/09/who-choice-look-effectiveness-different-health-interventions/|title = WHO-CHOICE: a look at the effectiveness of different health interventions|last = Roing|first = Sebastian|date = September 25, 2014|accessdate = December 31, 2016|publisher = [[Giving What We Can]]}}</ref><ref name=about>{{cite web|url = http://www.who.int/choice/cost-effectiveness/en/|title = Cost effectiveness and strategic planning (WHO-CHOICE)|accessdate = December 31, 2016|publisher = [[World Health Organization]]}}</ref> It is an example of [[priority-setting in global health]]. It was one of the earliest projects to perform sectoral cost-effectiveness analyses (i.e., cost-effectiveness analyses that compare a wide range of types of spending within a sector and prioritize holistically) on a global scale.<ref name=murray-2000>{{cite journal|url = http://www.who.int/choice/publications/p_2000_guidelines_generalisedcea.pdf|title = Development of WHO Guidelines on Generalized Cost-Effectiveness Analaysis|last = Murray|first = Christopher J. L.|last2 = Evans|first2 = David B.|last3 = Acharya|first3 = Arnab|last4 = Baltussen|first4 = Rob|journal = ''[[Health Economics]]''|volume = 9|pages = 235-251|year = 2000}}</ref><ref name=hutubessy-2003>{{cite journal|url = https://resource-allocation.biomedcentral.com/articles/10.1186/1478-7547-1-8|title = Generalized cost-effectiveness analysis for national-level priority-setting in the health sector|last = Hutubessy|first = Raymond|last2 = Chisholm|first2 = Dan|last3 = Edejer|first3 = Tessa Tan-Torres}}</ref><ref name=guide-2003>{{Cite web|url = http://www.who.int/choice/publications/p_2003_generalised_cea.pdf|title = WHO Guide to Cost-Effectiveness Analysis|last = Edejer|first = Tessa Tan-Torres|last2 = Baltussen|first2 = Rob|last3 = Adam|first3 = T.|last4 = Hutubessy|first4 = Raymond|last5 = Acharya|first5 = Arnab|last6 = Evans|first6 = David B.|last7 = Murray|first7 = Christopher J.L.|authorlink7 = Christopher J.L. Murray}}</ref>
+'''WHO-CHOICE''' ('''''CHO''osing ''I''nterventions that are ''C''ost-''E''ffective''') is an initiative started by the [[World Health Organization]] in 1998 to help countries choose their healthcare priorities.<ref name=gwwc-overview>{{cite web|url = https://www.givingwhatwecan.org/post/2014/09/who-choice-look-effectiveness-different-health-interventions/|title = WHO-CHOICE: a look at the effectiveness of different health interventions|last = Roing|first = Sebastian|date = September 25, 2014|accessdate = December 31, 2016|publisher = [[Giving What We Can]]}}</ref><ref name=interview-80k>{{cite web|url = https://80000hours.org/2013/10/interview-with-the-world-health-organisation/|title = Interview with the World Health Organisation|last = Hurford|first = Peter|last2 = Wiblin|first2 = Robert|date = October 25, 2013|accessdate = January 4, 2017}}</ref><ref name=about>{{cite web|url = http://www.who.int/choice/cost-effectiveness/en/|title = Cost effectiveness and strategic planning (WHO-CHOICE)|accessdate = December 31, 2016|publisher = [[World Health Organization]]}}</ref> It is an example of [[priority-setting in global health]]. It was one of the earliest projects to perform sectoral cost-effectiveness analyses (i.e., cost-effectiveness analyses that compare a wide range of types of spending within a sector and prioritize holistically) on a global scale.<ref name=murray-2000>{{cite journal|url = http://www.who.int/choice/publications/p_2000_guidelines_generalisedcea.pdf|title = Development of WHO Guidelines on Generalized Cost-Effectiveness Analaysis|last = Murray|first = Christopher J. L.|last2 = Evans|first2 = David B.|last3 = Acharya|first3 = Arnab|last4 = Baltussen|first4 = Rob|journal = ''[[Health Economics]]''|volume = 9|pages = 235-251|year = 2000}}</ref><ref name=hutubessy-2003>{{cite journal|url = https://resource-allocation.biomedcentral.com/articles/10.1186/1478-7547-1-8|title = Generalized cost-effectiveness analysis for national-level priority-setting in the health sector|last = Hutubessy|first = Raymond|last2 = Chisholm|first2 = Dan|last3 = Edejer|first3 = Tessa Tan-Torres}}</ref><ref name=guide-2003>{{Cite web|url = http://www.who.int/choice/publications/p_2003_generalised_cea.pdf|title = WHO Guide to Cost-Effectiveness Analysis|last = Edejer|first = Tessa Tan-Torres|last2 = Baltussen|first2 = Rob|last3 = Adam|first3 = T.|last4 = Hutubessy|first4 = Raymond|last5 = Acharya|first5 = Arnab|last6 = Evans|first6 = David B.|last7 = Murray|first7 = Christopher J.L.|authorlink7 = Christopher J.L. Murray}}</ref>
 
 == History ==
 
 === Launch and initial years of WHO-CHOICE ===
 
-In May 1998, [[Gro Harlem Brundtland]] succeeded [[Hiroshi Nakajima]] as the Director-General of the [[World Health Organization]], and the organization was significant restructuring as a result of the leadership change. With her election, a new program, called '''Choosing Interventions: Effectiveness Quality,Costs, Gender and Ethics''' was launched as part of the Global Programme for Evidence on Health and Policy. The name of the program would later morph into WHO-CHOICE.<ref name=murray-2000/>
+In May 1998, [[Gro Harlem Brundtland]] succeeded [[Hiroshi Nakajima]] as the Director-General of the [[World Health Organization]], and the organization was significantly restructuring as a result of the leadership change. With her election, a new program, called '''Choosing Interventions: Effectiveness Quality,Costs, Gender and Ethics''', was launched as part of the Global Programme for Evidence on Health and Policy. The name of the program would later morph into WHO-CHOICE.<ref name=murray-2000/>
 
 WHO-CHOICE refined its methodology quite a bit in the first few years ... (2003 guide publication, 2012 BMJ publications).
 
@@ -12,7 +12,7 @@ WHO-CHOICE refined its methodology quite a bit in the first few years ... (2003 
 
 === Adoption of sectoral CEA ===
 
-Prior to WHO-CHOICE, most projects that did cost-effectiveness analysis (CEA) in the real world focused on evaluating a single program or intervention, comparing it against either a fixed price threshold or an existing array of interventions with predetermined cost-effectiveness taken from the literature. However, theoretical literature on CEAs considered a broader kind of CEA called "sectoral CEA" where all programs and interventions available within a sector would be compared and cost-effectiveness priorities would be determined. Prior to WHO-CHOICE, there were only a few examples of practical implementation of CEAs: the [[Oregon Health Services Commission]] (tasked with prioritizing for [[Medicaid]] in the [[United States]]), the [[World Bank Health Sectors Priorities Review]], and the [[Harvard Life Saving Project]].<ref name=murray-2000/><ref name=hutubessy-2003/> In a 2000 paper, Murray et al. identified four challenges to a wider application of sectoral CEA:
+Prior to WHO-CHOICE, most projects that did cost-effectiveness analysis (CEA) in the real world focused on evaluating a single program or intervention, comparing it against either a fixed price threshold or an existing array of interventions with predetermined cost-effectiveness taken from the literature. However, theoretical literature on CEAs considered a broader kind of CEA called "sectoral CEA" where all programs and interventions available within a sector would be compared and cost-effectiveness priorities would be determined. Prior to WHO-CHOICE, there were only a few examples of practical implementation of sectoral CEAs: the [[Oregon Health Services Commission]] (tasked with prioritizing for [[Medicaid]] in the [[United States]]), the [[World Bank Health Sectors Priorities Review]], and the [[Harvard Life Saving Project]].<ref name=murray-2000/><ref name=hutubessy-2003/> In a 2000 paper discussing the WHO-CHOICE approach, Murray et al. identified four challenges to a wider application of sectoral CEA:
 
 # Resource allocation decisions affecting the entire health sector must also take into account social concerns, such as priority for the sick, reducing social inequalities in health, or the well-being of future generations. The history of the Oregon Health Services Commission provides an example of the sort of conflicts that emerge as a result of balancing all these concerns.
 # Current CEA is too focused on the evaluation of new strategies, rather than identifying potential for efficiency improvements by reallocating within existing strategies.
@@ -64,12 +64,45 @@ Below is the classification into subregions as of 2003.<ref name=hutubessy-2003/
 |-
 | SEAR || B || [[Indonesia]], [[Sri Lanka]], [[Thailand]]
 |-
-| SEAR || D || Bangladesh]], [[Bhutan]], [[North Korea]], [[India]], [[Maldives]], [[Myanmar]], [[Nepal]]
+| SEAR || D || [[Bangladesh]], [[Bhutan]], [[North Korea]], [[India]], [[Maldives]], [[Myanmar]], [[Nepal]]
 |-
 | WPR || A || [[Australia]], [[Japan]], [[Brunei Darussalam]], [[New Zealand]], [[Singapore]]
 |-
 | WPR || B || [[Cambodia]], [[China]], [[Lao People's Democratic Republic]], [[Malaysia]], [[Mongolia]], [[Philippines]], [[Republic Of Korea]], [[Viet Nam]], [[Cook Islands]], [[Fiji]], [[Kiribati]], [[Marshall Islands]], [[Micronesia]], [[Nauru]], [[Niue]], [[Palau]], [[Papua New Guinea]], [[Samoa]], [[Solomon Islands]], [[Tonga]], [[Tuvalu]], [[Vanuatu]]
 |}
+
+=== Modifications to ICM-CEA to use null set as comparator for interventions ===
+
+The CEA done by WHO-CHOICE differed from the standard ICM-CEA in two important ways:<ref name=murray-2000/><ref name=guide-2003/><ref name=gwwc-overview/>
+
+# Interventions were compared against the null set of interventions, rather than the existing backdrop of interventions. This provides a complete cost-effectiveness analysis that can be adapted more easily to different subregions and different times.
+# Results are presented in a single league table. For each set of mutually exclusive interventions (between which a selection is being made), the intervention with the lowest average cost-effectiveness with respect to the null set is presented first. If there are two or more rows, the second intervention is the one with the lowest slope with respect to the internvention with the lowest CE, and so on. Essentially, this identifies the [[principal component analysis|principal component]]s for the best intervention.
+
+=== Tools used for the estimates ===
+
+WHO-CHOICE lists two tools that it uses and can provide to researchers interested in using WHO-CHOICE:<ref name=cea-tools>{{cite web|url = http://www.who.int/choice/cost-effectiveness/tools/en/|title = Cost effectiveness and strategic planning (WHO-CHOICE)|publisher = [[World Health Organization]]|accessdate = January 4, 2017}}</ref>
+
+* PopMod simulates the time evolution of an arbitrary population subject to births, deaths, and two distinct disease conditions. It has yearly granularity and keeps track of population by age and sex.<ref>{{cite web|url = http://www.who.int/choice/cost-effectiveness/tools/popmod/en/|title = PopMod|publisher = [[World Health Organization]]|accessdate = January 4, 2017}}</ref> A research paper describing PopMod called it the first multi-state dynamic life table, and highlighted how it modeled multiple diseases with interaction terms.<ref>{{cite journal|title = PopMod: a longitudinal population model with two interacting disease states|last = Lauer|first = Jeremy|last2 = Röhrich|first2 = Klaus|last3 = Wirth|first3 = Harald|last4 = Charette|first4 = Claude|last5 = Gribble|first5 = Steve|last6 = Murray|first6 = Christopher J.L.|journal = Cost Effectiveness and Resource Allocation|doi = 10.1186/1478-7547-1-6|date = February 26, 2003|accessdate = January 4, 2017}}</ref>
+* CEA country contextualization templates: These templates help contextualize WHO-CHOICE's results (that are provided at the level of epidemiological subregion) to specific countries based on estimated information about population and costs in the country, that is pre-populated into the tool.<ref>{{cite web|url = http://www.who.int/choice/cost-effectiveness/tools/CEA_context/en/|title = CEA country contextualization templates|publisher = [[World Health Organization]]|accessdate = January 4, 2017}}</ref>
+* CostIt (?)
+
+=== Tools available to end users ===
+
+<ref name=gwwc-overview/>
+
+* Global Price Tags (what's this?)
+* OneHealth tool
+* GeoAccess
+
+== Results ==
+
+=== World Health Report of 2002 ===
+
+(used findings from WHO-CHOICE)
+
+=== BMJ 2012, covered by GWWC ===
+
+"countries should try to expand high-priority interventions to near-universal coverage before considering second-priority interventions on a limited scale."<ref name=gwwc-overview/>
 
 ==See also==
 {{Columns-list|2|
