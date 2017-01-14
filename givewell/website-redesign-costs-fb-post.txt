@@ -1,6 +1,6 @@
 <https://www.facebook.com/vipulnaik.r/posts/10210743203232119>
 
-One of the things that surprised me about GiveWell's and the Open Philanthropy Project's budgets was that their website design cost over $100,000 per site. With some help from Issa, I've collated publicly available (or information that can be made public) about the website design process, as well as comparison information, here: https://github.com/vipulnaik/working-drafts/blob/master/givewell/website-redesign-costs.md
+One of the things that surprised me about GiveWell's and the Open Philanthropy Project's budgets was that their website design cost over $100,000 per site. With some help from Issa, I've collated publicly available information (or information that can be made public) about the website design process, as well as comparison information, here: https://github.com/vipulnaik/working-drafts/blob/master/givewell/website-redesign-costs.md
 
 I'm missing references to some board meetings where this was discussed, but those are hard to locate.
 
