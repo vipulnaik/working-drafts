@@ -1,7 +1,7 @@
-Information we have on GiveWell/Open Phil website redesign/design: $100K+ each.
+Information we have on GiveWell/Open Phil website redesign/design: $100K+ each, excluding ongoing $3K/month maintenance costs. Took 21 months and 12 months respectively (rough estimates).
 
 * December 29, 2014: [Request for input](http://blog.givewell.org/2014/12/29/request-for-input/) by Elie Hassenfeld; earliest public discussion framing redesign as imminent.
-* January 2015: [GiveWell — Open Philanthropy Project Website Construction](http://www.goodventures.org/our-portfolio/grants/givewell-open-philanthropy-project-website-construction)specifies a grant by Good Ventures to GiveWell of $56,250 for half the website design costs.
+* January 2015: [GiveWell — Open Philanthropy Project Website Construction](http://www.goodventures.org/our-portfolio/grants/givewell-open-philanthropy-project-website-construction) specifies a grant by Good Ventures to GiveWell of $56,250 for half the website design costs for the Open Philanthropy Project website.
 * January 2015: Expenses of $75,000 reported on website, compared to usual $3,000 (see December 2015 budget).
 * February 6, 2015: Email from Holden Karnofsky asking for feedback on a website redesign. Email reproduced below; feedback form linked from the email [here](https://docs.google.com/forms/d/1PQi4fYX-KDolhYyrlDIe6JuSgGByMEcB4uHP73v2sGQ/viewform).
 * February 2015: Expenses of $77,000 reported on website, compared to usual $3,000 (see December 2015 budget).
@@ -11,7 +11,37 @@ Information we have on GiveWell/Open Phil website redesign/design: $100K+ each.
 * June 24, 2016: Email exchange between Issa Rice and Natalie Stone, reproduced with consent below. This clarifies budgets of ~$100K each for GiveWell website redesign and Open Philanthropy Project website design.
 * September 14, 2016: New GiveWell website launches (from email record by Vipul Naik pointing to a launch-time authentication required error).
 
---- Begin email titled "Website expenses?" from Issa Rice to info@givewell.org, June 24, 2016 ---
+General info on website design costs for nonprofits:
+
+* <https://webcreate.com/blog/nonprofits>: "A typical website that presents the organization on about 20 pages, offers event registrations, processes online payments, and provides the organization with tools for easy, in-house content management costs in the range of $3,000-$6,000. That price range should include knowledge sharing from the web development firm and a facilitation of the entire process of getting online the right way."
+* <http://www.idealware.org/blog/2008/10/how-much-does-nonprofit-website-cost.html>: Lists $100K near upper bound
+* <http://nonprofithub.org/nonprofit-web-design/nonprofit-website-investment-expense>: "There’s a huge difference in mentality and approach to decision-making when you’re focused on ROI as opposed to cost. I know nonprofit organizations that have spent literally $50,000 or more on their websites and had a huge return on investment because their donations increased, their fundraising capacity grew and some of their significant expenses decreased. I know other nonprofits that have spent $500 or less and ended up throwing their money away."
+* <https://www.quora.com/How-much-do-nonprofit-organizations-budget-for-web-design/answer/Joe-Garecht>: "Large-Size non-profits will likely have a stand-along marketing budget, and will be willing to pay >$10,000 for a redesign, will likely want custom work, and will redesign more often, perhaps every 2-3 years." 
+
+## Email titled "Please respond by end of Monday: seeking your thoughts on new websites for GiveWell and Open Philanthropy Project" from Holden Karnofsky on February 6, 2015
+
+Hi all,
+
+We're in the midst of creating new websites for both GiveWell and the Open Philanthropy Project. We're potentially about to finalize the basic direction (look and feel, basic layout, etc.) and we would really appreciate your feedback before we do so. We're contacting you because we see you as a friend and/or fan of GiveWell whose opinion we value.
+
+To view our draft website designs and give your feedback, please use this Google form:
+
+<https://docs.google.com/forms/d/1PQi4fYX-KDolhYyrlDIe6JuSgGByMEcB4uHP73v2sGQ/viewform>
+
+A few notes:
+We are only looking for high-level basic impressions. The goal here is to make sure we don't move forward with these websites unless we feel that our audience will be comfortable with them. We do not need detailed feedback.
+Please feel free to skip any and all questions except for the final couple of questions on each page, which ask for overall thoughts. Overall thoughts are what we're most interested in. If you just glance at these designs and send your big-picture impressions, that will be very helpful to us.
+We are on a tight schedule for completing the entire website, and we have agreed with our design firm that we are (a) probably only asking for feedback from outsiders once; (b) seeking to finish collecting feedback by the end of the day on Monday. So we would really appreciate your completing the survey by then.
+If you have any questions, please don't hesitate to let me know. We really appreciate your help!
+
+The link again: 
+<https://docs.google.com/forms/d/1PQi4fYX-KDolhYyrlDIe6JuSgGByMEcB4uHP73v2sGQ/viewform>
+
+Best,
+Holden Karnofsky
+www.givewell.org
+
+## Email titled "Website expenses?" from Issa Rice to info@givewell.org, June 24, 2016
 
 Hi,
 
@@ -27,9 +57,7 @@ Thanks!
 
 Issa
 
---- End email ---
-
---- Begin reply "Re: Website expenses?" by Natalie Stone-Crispin to Issa Rice on June 24, 2016 ---
+## Reply "Re: Website expenses?" by Natalie Stone-Crispin to Issa Rice on June 24, 2016
 
 Hi Issa,
 
