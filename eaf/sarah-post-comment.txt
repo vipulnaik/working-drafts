@@ -1,0 +1,21 @@
+The post does raise some valid concerns, though I don't agree with a lot of the framing. I don't think of it in terms of lying. I do, however, see that the existing incentive structure is significantly at odds with epistemic virtue and truth-seeking. It's remarkable that many EA orgs have held themselves to reasonably high standards despite not having strong incentives to do so.
+
+In brief:
+
+* EA orgs' and communities' growth metrics are centered around numbers of people and quantity of money moved. These don't correlate much with epistemic virtue.
+* (more speculative) EA orgs' donors/supporters don't demand much epistemic virtue. The orgs tend to hold themselves to higher standards than their current donors.
+* (even more speculative; not much argument offered) Even long-run growth metrics don't correlate too well with epistemic virtue.
+* Quantifying (some aspects of) quality and virtue into metrics seems to me to have the best shot at changing the incentive structure here.
+
+The incentive structure of the majority of EA-affiliated orgs has centered around growth metrics related to number of people (new pledge signups, number of donors, number of members), and money moved (both for charity evaluators and for movement-building orgs). These are the headline numbers they highlight in their self-evaluations and reports, and these are the numbers that people giving elevator pitches about the orgs use ("GiveWell moved more than $100 million in 2015" or "GWWC has (some number of hundreds of millions) in pledged money"). Some orgs have slightly different metrics, but still essentially ones that rely on changing the minds of large numbers of people: 80,000 Hours counts Impact-Adjusted Significant Plan Changes, and many animal welfare orgs count numbers of converts to veganism (or recruits to animal rights activism) through leafleting.
+
+These incentives don't directly align with improved epistemic virtue! In many cases, they are close to orthogonal. In some cases, they are correlated but not as much as you might think (or hope!).
+
+I believe the incentive alignment is strongest in cases where you are talking about moving moderate to large sums of money per donor in the present, for a reasonable number of donors (e.g., a few dozen donors giving hundreds of thousands of dollars). Donors who are donating those large sums of money are selected for being less naive (just by virtue of having made that much money) and the scale of donation makes it worth their while to demand high standards. I think this is related to GiveWell having relatively high epistemic standards (though causality is hard to judge).
+
+With that said, the organizations I am aware of in the EA community hold themselves to much higher standards than (as far I can make out) their donor and supporter base seems to demand of them. My guess is that GiveWell could have been a LOT more sloppy with their reviews and still moved pretty similar amounts of money as long as they produced reviews that pattern-matched a well-researched review. (I've personally found their review quality improved very little from 2014 to 2015 and much more from 2015 to 2016; and yet I expect that the money moved jump from 2015 to 2016 will be less, or possibly even negative). I believe (with weaker confidence) that similar stuff is true for Animal Charity Evaluators in both directions (significantly increasing or decreasing review quality won't affect donations that much). And also for Giving What We Can: the amount of pledged money doesn't correlate that well with the quality or state of their in-house research.
+
+The story I want to believe, and that I think others also want to believe, is some version of a just-world story: in the long run epistemic virtue ~ success. Something like "Sure, in the short run, taking epistemic shortcuts and bending the truth leads to more growth, but in the long run it comes back to bite you." I think there's some truth to this story: epistemic virtue and long-run growth metrics probably correlate better than epistemic virtue and short-run growth metrics. But the correlation is still far from perfect. 
+
+My best guess is that unless we can get a better handle on epistemic virtue and quantify quality in some meaningful way, the incentive structure problem will remain.
+

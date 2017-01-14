@@ -1,0 +1,51 @@
+Last year, I wrote my <a href="https://vipulnaik.com/blog/2015-in-review">first annual review (for 2015)</a>. This year, I've decided to structure the review a little differently: combining review of the year with preview of the coming year. Also, I've decided to make the annual review less quantitatively focused, and to instead talk at greater length about the themes of work that I pursued.
+
+<h4>Theme: contract work</h4>
+
+One main thing that I scaled up in 2016 was contract work: I paid others a lot of money to do work for me. I've put up all the information on contract work at <a href="https://contractwork.vipulnaik.com">contractwork.vipulnaik.com</a>, including links to previous writings proselytizing contract work. To be precise (more details at the link), I spent $23,341.75 (plus $9,360 deferred) on contract work in 2016, compared with $8,251.40 in 2015.
+
+The contract work led to a few successes. Three broad domains where a lot of work went in:
+
+<ul>
+	<li>Timelines and organizations pages related to global health, diseases, and country healthcare topics on Wikipedia (with a lot of work by <a href="https://contractwork.vipulnaik.com/worker.php?worker=Issa+Rice">Issa Rice</a> and <a href="https://contractwork.vipulnaik.com/worker.php?worker=Sebastian+Sanchez">Sebastian Sanchez</a>, and small parts contributed by many others). (<a href="https://contractwork.vipulnaik.com/topic.php?topic=Health">more</a>)</li>
+	<li>Timelines and prose pages covering the state of animal welfare and rights in various countries and across history (almost all of it by <a href="https://contractwork.vipulnaik.com/worker.php?worker=Jesse+Clifton">Jesse Clifton</a>).</li>
+	<li>Timelines of many technology companies, technology trends, and other companies and topics. Much of this work was by <a href="https://contractwork.vipulnaik.com/worker.php?worker=Alex+K.+Chen">Alex K. Chen</a>.</li>
+</ul>
+
+In addition, I sponsored the creation of pages related to United States taxation and United States migration.
+
+You can get a sense of the amounts I paid by topic and year <a href="https://contractwork.vipulnaik.com/#taskPaymentsDueByTopicAndYear">here</a>.
+
+Some of the contract work fed into the other themes, as discussed below.
+
+<h4>Theme 2: Understanding web analytics</h4>
+
+Since a lot of the content I create and sponsor lives on the web, I rely a lot on web analytics to help tell me how the content is doing. Having a good, strong theory of web analytics and how to interpret it is important to me. I wanted to write down what I knew and share it with others.
+
+I wrote two wikiHow articles on the subject, that I spent a lot of time drafting and thinking through. These were: <a href="http://www.wikihow.com/Understand-Your-Website-Traffic-Variation-with-Time">Understand Your Website Traffic Variation with Time</a> and <a href="http://www.wikihow.com/Understand-Your-Website-Audience-Profile">Understand Your Website Audience Profile</a>.
+
+I also wrote a <a href="http://effective-altruism.com/ea/15o/effective_altruism_forum_web_traffic_from_google/">blog post on the Effective Altruism Forum</a> interpreting the website's Google Analytics data for the past 27 months.
+
+I'm uncertain how much I will continue with this theme. I expect to do a long-pending review soon of the subject wikis and how they've shaped up, which will involve using web analytics skills. I also expect some of the web analytics stuff will come up as I continue to work on Theme 3 (below). I don't currently plan to do any wikiHow articles on facets of web analytics, but that might change.
+
+<h4>Theme 3: debugging the "decline" in Wikipedia views</h4>
+
+In 2014, in order to better track the pageviews of Wikipedia pages I created (as well as others) I made <a href="https://wikipediaviews.org">Wikipedia Views</a>, a tool to easily get pageviews of multiple pages across multiple months. Based on observations I made while playing around with the tool, I wrote a post in March 2015 called <a href="http://lesswrong.com/r/discussion/lw/lxc/the_great_decline_in_wikipedia_pageviews/">The great decline in Wikipedia pageviews (condensed version)</a>. The main claim of the post was that desktop Wikipedia pageviews for some types of pages were down a lot (even more than overall pageviews) and this held across languages.
+
+As a sponsor of Wikipedia work, I've been interested in better understanding how people use Wikipedia and how the usage of Wikipedia is trending. My interest is shared by Issa Rice. So in July 2016 he published the post <a href="http://lesswrong.com/r/discussion/lw/nru/wikipedia_usage_survey_results/">Wikipedia usage survey results</a> based on a survey we conducted in late May 2016. I later wrote a revised and updated version of the post <a href="http://lesswrong.com/r/discussion/lw/odb/wikipedia_usage_survey_results/">here</a>.
+
+In September 2016, I asked Issa Rice to work on a follow-on to the "great decline" post, drawing on new, better data and a better methodology. Issa worked on the post for the equivalent of nine full days, and then I worked for a few more, but it was fairly difficult to complete. In the process, I realized that a lot more better tooling needed to be built to make this sort of analysis easier. So I made several more improvements to Wikipedia Views through October and November. I've continued to make minor improvements in late December and early January 2017.
+
+My present plan is to publish several posts, each addressing specific theories related to the decline, and then once they are all out there, do a post summing up the situation.
+
+The project cost way more than I had anticipated initially. I spent over $1000 on it in payment to Issa (directly for writing up the posts, and indirectly for various coding and data collection tasks). And I spent dozens of hours in coding improvements to Wikipedia Views (starting with a codebase from 2014 from back when my coding style was much worse). Since I couldn't commit a huge block of continuous time to it, and I didn't know when I'd want to stop, all the changes were incremental.
+
+I think it's worth it. One reason I consider the question important is my own investment in Wikipedia content creation: in 2016, I spent over $13,000 on Wikipedia page creation or updates, and I expect similar or higher spend in 2017. However, at this point, that's not the main reason. I think understanding the traffic changes to Wikipedia is a way to understand how the web and its users "tick", so to speak, neatly connecting with Theme 2. And it will help with better interpreting pageview trends for individual Wikipedia pages. Of late, I've also become interested in other aspects of Wikipedia statistics. I expect that the decline investigation and continued investigation of Wikipedia statistics will continue through 2017.
+
+At the same time, I feel bad about the suboptimal allocation of initial investment, in trying to rush the writing of a decline post. I should have known earlier on that it's better to invest in improved tooling, and using the writing of the post only as a mock exercise to identify what tooling needs to be built, rather than something to perform in earnest.
+
+<h4>Investigations into migration laws and the history of migration</h4>
+
+
+
+
