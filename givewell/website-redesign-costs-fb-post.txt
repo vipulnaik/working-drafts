@@ -1,0 +1,22 @@
+<https://www.facebook.com/vipulnaik.r/posts/10210743203232119>
+
+One of the things that surprised me about GiveWell's and the Open Philanthropy Project's budgets was that their website design cost over $100,000 per site. With some help from Issa, I've collated publicly available (or information that can be made public) about the website design process, as well as comparison information, here: https://github.com/vipulnaik/working-drafts/blob/master/givewell/website-redesign-costs.md
+
+I'm missing references to some board meetings where this was discussed, but those are hard to locate.
+
+My highly speculative impressions (which you should evaluate only after reading the linked background info):
+
+(1) GiveWell and Open Phil spent way more on the website design than most comparable nonprofits. Whereas some nonprofits spend a lot on website design, those tend to be ones whose website is used heavily (for instance, to process large volumes of donations and activity) and neither GiveWell nor Open Phil fits that heavy use case. I expect that users of these two sites tend to be sophisticated enough to be able to navigate a slightly more difficult UI, making the ROI on this sort of expensive design questionable. (Also, updates to the site, e.g. to the grants database, are often delayed for months because of staff bottlenecks, making it unclear how valuable and high-priority a quality site is to them in the first place).
+
+I'd love to see arguments that the improvement in the website design paid for itself, but I haven't seen any so far (or even acknowledgement of the need to provide arguments).
+
+(2) Despite the high price, the service received appears to have been less than satisfactory. GiveWell staff acknowledged that it took way longer than expected.  Not clear how much was the fault of GiveWell/Open Phil and how much of the contractor.
+
+(3) My guess is that the organizations got overquoted on price precisely BECAUSE they are wealthy and can afford to pay, and they didn't negotiate hard. This suggests insufficient negotiation skill on the part of Open Phil/GiveWell. 
+
+For somebody as wealthy as Dustin Moskovitz, a hundred thousand for a website redesign is nothing. But that's precisely the mentality that contractors will try to exploit -- which makes it all the more important to use one's status and name recognition to negotiate bargain prices.
+
+(4) I believe this sort of overpayment creates a bad dynamic for a funder that's portraying itself as engaging in cost-effective philanthropy. Would they accept if one of their grantees spent similar amounts on a website redesign or office upgrade, without a proper explanation of ROI? In this sense, while the website redesign costs don't have a noticeable direct effect on Open Phil's bottom line, I think the message sent is a negative one.
+
+Thoughts?
+
