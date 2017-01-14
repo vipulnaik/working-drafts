@@ -29,9 +29,10 @@ To view our draft website designs and give your feedback, please use this Google
 <https://docs.google.com/forms/d/1PQi4fYX-KDolhYyrlDIe6JuSgGByMEcB4uHP73v2sGQ/viewform>
 
 A few notes:
-We are only looking for high-level basic impressions. The goal here is to make sure we don't move forward with these websites unless we feel that our audience will be comfortable with them. We do not need detailed feedback.
-Please feel free to skip any and all questions except for the final couple of questions on each page, which ask for overall thoughts. Overall thoughts are what we're most interested in. If you just glance at these designs and send your big-picture impressions, that will be very helpful to us.
-We are on a tight schedule for completing the entire website, and we have agreed with our design firm that we are (a) probably only asking for feedback from outsiders once; (b) seeking to finish collecting feedback by the end of the day on Monday. So we would really appreciate your completing the survey by then.
+* We are only looking for high-level basic impressions. The goal here is to make sure we don't move forward with these websites unless we feel that our audience will be comfortable with them. We do not need detailed feedback.
+* Please feel free to skip any and all questions except for the final couple of questions on each page, which ask for overall thoughts. Overall thoughts are what we're most interested in. If you just glance at these designs and send your big-picture impressions, that will be very helpful to us.
+* We are on a tight schedule for completing the entire website, and we have agreed with our design firm that we are (a) probably only asking for feedback from outsiders once; (b) seeking to finish collecting feedback by the end of the day on Monday. So we would really appreciate your completing the survey by then.
+
 If you have any questions, please don't hesitate to let me know. We really appreciate your help!
 
 The link again: 
