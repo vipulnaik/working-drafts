@@ -18,7 +18,7 @@ General info on website design costs for nonprofits:
 * <http://nonprofithub.org/nonprofit-web-design/nonprofit-website-investment-expense>: "There’s a huge difference in mentality and approach to decision-making when you’re focused on ROI as opposed to cost. I know nonprofit organizations that have spent literally $50,000 or more on their websites and had a huge return on investment because their donations increased, their fundraising capacity grew and some of their significant expenses decreased. I know other nonprofits that have spent $500 or less and ended up throwing their money away."
 * <https://www.quora.com/How-much-do-nonprofit-organizations-budget-for-web-design/answer/Joe-Garecht>: "Large-Size non-profits will likely have a stand-along marketing budget, and will be willing to pay >$10,000 for a redesign, will likely want custom work, and will redesign more often, perhaps every 2-3 years." 
 
-## Email titled "Please respond by end of Monday: seeking your thoughts on new websites for GiveWell and Open Philanthropy Project" from Holden Karnofsky on February 6, 2015
+## Email titled "Please respond by end of Monday: seeking your thoughts on new websites for GiveWell and Open Philanthropy Project" from Holden Karnofsky to an undisclosed list of recipients on February 6, 2015
 
 Hi all,
 
