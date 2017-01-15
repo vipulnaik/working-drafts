@@ -11,7 +11,7 @@ Information we have on GiveWell/Open Phil website redesign/design: $100K+ each (
 * May 2015: Expenses of $77,000 reported on website, compared to usual $3,000 (see December 2015 budget).
 * December 25, 2015: [GiveWell's December 2015 budget](http://blog.givewell.org/files/GiveWell_budget_Dec_2015_(public).xlsx) lists website expenses of $75k in January, $77k in February, and $77k in May of 2015, compared to usual monthly of up to $3k. The budget was linked from [December 2015 update on GiveWell’s funding needs](http://blog.givewell.org/2015/12/25/december-2015-update-on-givewells-funding-needs/) by Elie Hassenfeld, December 25, 2015.
 * January 2016 (before [January 25, 2016](http://web.archive.org/web/20160125235135/http://www.openphilanthropy.org/)): New Open Philanthropy Project website launches. Previously the site existed but as a placeholder.
-* June 24, 2016: Email exchange between Issa Rice and Natalie Stone, reproduced with consent below. This clarifies budgets of ~$100K each for GiveWell website redesign and Open Philanthropy Project website design.
+* June 24, 2016: Email exchange between Issa Rice and Natalie Stone-Crispin, reproduced with consent below. This clarifies budgets of ~$100K each for GiveWell website redesign and Open Philanthropy Project website design.
 * September 14, 2016: New GiveWell website launches (from email record by Vipul Naik pointing to a launch-time authentication required error).
 
 General info on website design costs for nonprofits (all from Issa Rice, except the last one):
