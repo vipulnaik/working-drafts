@@ -13,7 +13,7 @@ Information we have on GiveWell/Open Phil website redesign/design: $100K+ each (
 * June 24, 2016: Email exchange between Issa Rice and Natalie Stone, reproduced with consent below. This clarifies budgets of ~$100K each for GiveWell website redesign and Open Philanthropy Project website design.
 * September 14, 2016: New GiveWell website launches (from email record by Vipul Naik pointing to a launch-time authentication required error).
 
-General info on website design costs for nonprofits (all from Issa Rice):
+General info on website design costs for nonprofits (all from Issa Rice, except the last one):
 
 * <https://webcreate.com/blog/nonprofits>: "A typical website that presents the organization on about 20 pages, offers event registrations, processes online payments, and provides the organization with tools for easy, in-house content management costs in the range of $3,000-$6,000. That price range should include knowledge sharing from the web development firm and a facilitation of the entire process of getting online the right way."
 * <http://www.idealware.org/blog/2008/10/how-much-does-nonprofit-website-cost.html>: Lists $100K near upper bound
