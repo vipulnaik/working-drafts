@@ -1,6 +1,6 @@
 Many of the links in this document were collated with help from Issa Rice. The document was also linked to from a [Facebook post](https://www.facebook.com/vipulnaik.r/posts/10210743203232119), that is mirrored [here](https://github.com/vipulnaik/working-drafts/blob/master/givewell/website-redesign-costs-fb-post.txt).
 
-Information we have on GiveWell/Open Phil website redesign/design: $100K+ each (with half of the $100K+ for Open Phil provided by Good Ventures through an explicit grant). This excludes ongoing $3K/month maintenance costs. Took 20 months for GiveWell and 12 months for Open Phil.
+Information we have on GiveWell/Open Phil website redesign/design: $100K+ each (with half of the $100K+ for Open Phil provided by Good Ventures through an explicit grant). This excludes ongoing $3K/month maintenance costs. Took 20 months for GiveWell and 12 months for Open Phil. It also excludes (I believe) GiveWell staff time spent monitoring the transition, for staff for whom this was not a primary job, though it is unclear how significant the staff time was.
 
 * December 29, 2014: [Request for input](http://blog.givewell.org/2014/12/29/request-for-input/) by Elie Hassenfeld; earliest public discussion framing redesign as imminent.
 * January 2015: [GiveWell — Open Philanthropy Project Website Construction](http://www.goodventures.org/our-portfolio/grants/givewell-open-philanthropy-project-website-construction) specifies a grant by Good Ventures to GiveWell of $56,250 for half the website design costs for the Open Philanthropy Project website.
