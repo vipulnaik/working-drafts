@@ -1,0 +1,19 @@
+A lot of people have been critical of the Machine Intelligence Research Institute (MIRI; https://intelligence.org) for the low level of academic endorsement (such as publications in top journals) of its work. I think academic endorsement of MIRI's work is not too important, and unlikely to be a deciding factor in its success. Here are three arguments for caring about academic endorsement, and my reasons for thinking they aren't that important:
+
+(1) Academic endorsement is a valuable signal of correctness and importance. But in MIRI's case:
+
+(a) the correctness bar is pretty low, and it's easy to see MIRI's work meets that bar (see (c)),
+
+(b) academic measures of importance (namely, intellectually impressive accomplishment, advancement to an already recognized field) don't correlate well with the sort of importance that MIRI cares about (namely, making AI that's less likely to run amok, thereby saving the world),
+
+(c) there are better alternatives to traditional academic measures, namely, commissioned reviews from relevant experts who explicitly evaluate the work with the appropriate lens of correctness and importance. An example is the reviews commissioned by the Open Philanthropy Project, found at  http://files.openphilanthropy.org/files/Grants/MIRI/consolidated_public_reviews.pdf A typical donor or evaluator can't commission reviews like Open Phil did (though they can do a quick investigation like Ben did at http://effective-altruism.com/ea/14w/2017_ai_risk_literature_review_and_charity/), but I think using Open Phil's existing reviews would be better than measuring academic endorsement directly (and I hope we see more commissioned reviews like Open Phil's).
+
+(2) Academic endorsement is a valuable signal to other donors, so it's necessary to keep MIRI sustainable (regardless of whether you or I personally care for it): That could be true! And it's hard to evaluate counterfactuals. But it does seem like big, serious donors either don't care about it or are willing to do their due diligence by commissioning reviews, like Open Phil did (see 1(c) above).
+
+(3) Academic endorsement is a valuable signal to academics, as it gets them motivated to contribute: This seems like the strongest argument of the three. But two counterpoints:
+
+(a) It seems like MIRI has had much of its success not by attracting already established academics, but by getting new, younger people interested. And this does seem like a more viable path to attract long-term interest (today's young people are tomorrow's peak-power-age people)
+
+(b) Direct impact on AI safety will probably occur through influencing the design of AI tools in industry-like contexts more than in abstract academia. My impression is that academic prestige doesn't matter much in terms of influencing the design of AI tools. I don't have evidence that MIRI is currently having much direct influence on the development and deployment of AI-related tools, but regardless, I don't see academic prestige as a necessary stepping stone to achieving that impact. Having direct connections, making convincing and widely known arguments, and building ready-to-plug concepts and tools, seems more important, and it seems like MIRI is giving more weight to doing these.
+
+
