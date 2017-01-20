@@ -1,4 +1,4 @@
-A lot of people have been critical of the Machine Intelligence Research Institute (MIRI; https://intelligence.org) for the low level of academic endorsement (such as publications in top journals) of its work. I think academic endorsement of MIRI's work is not too important, and unlikely to be a deciding factor in its success. Here are three arguments for caring about academic endorsement, and my reasons for thinking they aren't that important:
+A lot of people have been critical of the Machine Intelligence Research Institute (MIRI; https://intelligence.org) for the low level of academic endorsement (such as publications in top journals) of its work. I think academic endorsement of MIRI's work is not too important, and unlikely to be a deciding factor in its success. Here are three arguments for caring about academic endorsement, and my reasons for thinking they aren't as important as some people believe they are:
 
 (1) Academic endorsement is a valuable signal of correctness and importance. But in MIRI's case:
 
