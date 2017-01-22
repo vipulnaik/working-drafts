@@ -118,7 +118,7 @@ The [[World Health Report]] of 2002 relied on WHO-CHOICE. Specifically, it used 
 |-
 | [[Zinc deficiency]] || Zinc supplementation<br/>Zinc fortification || Both supplementation and fortification are very cost-effective. Fortification is more cost-effective but supplementation has higher total population benefit.
 |-
-| Other individial-based interventions focusing on children under five years of age || [[Oral rehydration therapy]]<br/>Case management of [[pneumonia]] || Vitamin A supplementation achieves greater health effects than ORT in some areas (AMR-B, SEAR-B, WPR-B) but in others the revrse is true. Both ORT and case management of pneumonia achieve substantially greater benefits than zinc fortification and spplementation, though the latter is more cost-effective.
+| Other individual-based interventions focusing on children under five years of age || [[Oral rehydration therapy]]<br/>Case management of [[pneumonia]] || Vitamin A supplementation achieves greater health effects than ORT in some areas (AMR-B, SEAR-B, WPR-B) but in others the revrse is true. Both ORT and case management of pneumonia achieve substantially greater benefits than zinc fortification and spplementation, though the latter is more cost-effective.
 |-
 | [[Blood pressure]] ([[hypertension]]) || Population wide salt reductions<br/>Individual-based hypertension treatment and education || In all subregions, strategies to reduce blood pressure are very cost-effective. Legislation is potentially more cost-effective than voluntary agreement with industry.<br/>Strategies to reduce blood pressure by treating individuals with a blood pressure with a SBP greater than 160mmHg is the most costeffective, and lowering the threshold to 140mmHg is not cost-effective in many subregions such as AFR-D and AMR-D.<br/>Combinations of individual treatment and population based approaches are cost-effective at the 160mmHg SBP threshold in all settings.
 |-
@@ -140,7 +140,7 @@ The [[World Health Report]] of 2002 relied on WHO-CHOICE. Specifically, it used 
 In 2012, a number of papers were published in the ''[[British Medical Journal]]'' disseminating results from WHO-CHOICE.<ref name=who-economic-evaluation>{{cite web|url = http://www.who.int/choice/documents/economic_evaluation/en/|title = Economic evaluation|publisher = [[World Health Organization]]|accessdate = January 21, 2017}}</ref><ref name=gwwc-overview/> A discussion of the findings on the [[Giving What We Can]] blog summarized the results as follows: "countries should try to expand high-priority interventions to near-universal coverage before considering second-priority interventions on a limited scale."<ref name=gwwc-overview/> Below are the main results:
 
 {| class="sortable wikitable" border="1"
-! Problem area !! Conclusion !! Maximum incremental cost-effectiveness ratio (cost per DALY averted in 2005 interational dollars) (Africa) !! Maximum incremental cost-effectiveness ratio (cost per DALY averted in 2005 interational dollars) (Asia) !! Intervention (Africa) !! Intervention (Asia)
+! Problem area !! Conclusion !! Maximum incremental cost-effectiveness ratio (cost per DALY averted in 2005 international dollars) (Africa) !! Maximum incremental cost-effectiveness ratio (cost per DALY averted in 2005 international dollars) (Asia) !! Intervention (Africa) !! Intervention (Asia)
 |-
 | [[Breast cancer]], [[cervical cancer]], [[colorectal cancer]]<ref>{{Cite journal|url = http://www.bmj.com/content/344/bmj.e614|title = Cost effectiveness of strategies to combat breast, cervical, and colorectal cancer in sub-Saharan Africa and South East Asia: mathematical modelling study|doi = 10.1136/bmj.e614|last = Ginsberg|first = Gary|last2 = Lauer|first2 = Jeremy|last3 = Zelle|first3 = Sten|last4 = Baeten|first4 = Steef|last5 = Baltussen|first = Rob|journal = ''[[British Medical Journal]]''|date = March 2, 2012|accessdate = January 21, 2017}}</ref> || Highly effective interventions are available; in colorectal cancer, increated overage is effective across regions || 307 || 142 || For cervical cancer: screening 50% of the target population through a single smear test at age 40, with lesion removal and treatment as required || Same as for Africa
 |-
@@ -152,7 +152,7 @@ In 2012, a number of papers were published in the ''[[British Medical Journal]]'
 |-
 | Neuropsychiatric conditions<ref>{{Cite journal|url = http://www.bmj.com/content/344/bmj.e609|title = Cost effectiveness of strategies to combat neuropsychiatric conditions in sub-Saharan Africa and South East Asia: mathematical modelling study|doi = 10.1136/bmj.e609|journal = ''[[British Medical Journal]]''|date = March 2, 2012|accessdate = January 21, 2017}}</ref> || Highly variable cost-effectiveness across 44 assessed intervention strategies || 117 || 286 || Increased taxation on alcohol (current tax rate + 50%) || Older antiepileptic drug in primary care at 50% coverage 
 |-
-| Road traffic injuries<ref>{{cite journal|url = http://www.bmj.com/content/344/bmj.e612|title = Cost effectiveness of strategies to combat road traffic injuries in sub-Saharan Africa and South East Asia: mathematical modelling study|journal = ''[[British Medical Journal]]''|date = March 2, 2012|accessdate = Janaury 21, 2017|last = Chisholm|first = Dan|last2 = Naci|first2 = Huseyin|last3 = Hyder|first3 = Adnan Ali|last4 = Tran|first4 = Nhan|last5 = Peden|first5 = Margie}}</ref> || | 10 year transition model: 1233 || 10 year transition model: 1181 || Bicycle helmet use || Speed limits, drunk driving, seatbelt use, motorcycle helmet use
+| Road traffic injuries<ref>{{cite journal|url = http://www.bmj.com/content/344/bmj.e612|title = Cost effectiveness of strategies to combat road traffic injuries in sub-Saharan Africa and South East Asia: mathematical modelling study|journal = ''[[British Medical Journal]]''|date = March 2, 2012|accessdate = January 21, 2017|last = Chisholm|first = Dan|last2 = Naci|first2 = Huseyin|last3 = Hyder|first3 = Adnan Ali|last4 = Tran|first4 = Nhan|last5 = Peden|first5 = Margie}}</ref> ||  || 10 year transition model: 1233 || 10 year transition model: 1181 || Bicycle helmet use || Speed limits, drunk driving, seatbelt use, motorcycle helmet use
 |}
 
 == Reception ==
@@ -164,26 +164,13 @@ Giving What We Can, a charity evaluator and advocate of more effective giving, r
 WHO-CHOICE has also been cited alongside DCP2 and the Copenhagen Consensus in general discussions of cost-effectiveness analyses.<ref name=academic-review-of-cost-effectiveness>{{cite journal|url = https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2810517/|title = Cost-Effectiveness in Low- and Middle-Income Countries. A Review of the Debates Surrounding Decision Rules|last = Shillcutt|first = Samuel|last2 = Walker|first2 = Damian|last3 = Goodman|first3 = Catherine|last4 = Mills|first4 = Anne|doi = 10.2165/10899580-000000000-00000|date = January 25, 2009|accessdate = January 21, 2017|journal = ''[[Pharmacoeconomics (journal)|Pharmacoeconomics]]''|volume = 27|issue = 11|pages = 903-917}}</ref>
 
 ==See also==
-{{Columns-list|2|
-* [[Global health]]
-* [[Timeline of global health]]
-* [[Global Mental Health]]
-* [[Health For All]]
-* [[Health promotion]]
-* [[Healthy city]] / [[Alliance for Healthy Cities]], an international alliance
-* [[Health Sciences Online]], virtual learning resources
-* [[High 5s Project]], a patient safety collaboration
-* [[International Health Partnership]]
-* [[International Labour Organization]]
-* [[Open Learning for Development]], virtual learning resources
-* [[Public health]]
-* [[Sustainable Development]]
-* [[The Partnership for Maternal, Newborn and Child Health]]
-* [[Tropical disease]]
-* [[WHO Guidelines for drinking-water quality]]
-* [[WHO Pesticide Evaluation Scheme]]
-* [[List of most polluted cities in the world by particulate matter concentration]]
-}}
+
+* [[Disease Control Priorities Project]]
+* [[Copenhagen Consensus]]
+* [[Priority-setting in global health]]
+* [[World Health Report]]
 
 ==References==
 {{Reflist|30em}}
+
+[[Category: Global health]]
