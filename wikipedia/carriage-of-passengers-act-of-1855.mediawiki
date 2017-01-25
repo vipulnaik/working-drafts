@@ -1,0 +1,100 @@
+The '''Carriage of Passengers Act of 1855''' (full name ''An Act further to regulate the Carriage of Passengers in Steamships and other Vessels'') was an act passed by the [[United States]] on March 3, 1855, replacing the previous [[Steerage Act of 1819]] (also known as the Manifest of Immigrants Act) with new regulations on the conditions of sea transportation used by passenger ships landing in the United States.<ref name=i2us>{{cite web|url = http://immigrationtous.net/57-carriage-of-passengers-act-united-states-1855.html|title = Carriage of Passengers Act (United States) (1855)|publsher = Immigration to North America|accessdate = January 23, 2017}}</ref><ref name=uwb>{{cite web|url = http://library.uwb.edu/Static/USimmigration/1855_Passenger_Law.html|title = 1855 Passenger Act (An act to regulate the carriage of passengers in steamships and other vessels)|publisher = library.uwb.edu|last = Niebrugge|first = Jesse|accessdate = January 23, 2017}}</ref><ref name=loc>{{cite web|url = https://www.loc.gov/law/help/statutes-at-large/33rd-congress/session-2/c33s2ch213.pdf|title = An Act to Regulate the Carriage of Passengers in Steamships and other Vessels|date = March 3, 1855|accessdate = January 23, 2017|publisher = [[Library of Congress]]}}</ref><ref name=law-resourc>{{cite web|url = https://law.resource.org/pub/us/case/reporter/F.Cas/0018.f.cas/0018.f.cas.1283.6.pdf|title = Passenger Act of March 3, 1855|title = Carriers of Passengers - Vessels - Limitations as to number and space allowed|accessdate = January 23, 2017}}</ref>
+
+== Historical context ==
+
+=== Steerage Act of 1819 ===
+
+{{further|Steerage Act of 1819}}
+
+On March 2, 1819, the United States government passed the first legislation regulating the conditions of sea transportation for migrants. The legislation is known as the Steerage Act of 1819 and also as the Manifest of Immigrants Act the latter name because one of its provisions was a requirement for ships to submit a manifest of immigrants on board.<ref name=i2us-steerage>{{cite web|url = http://immigrationtous.net/190-manifest-of-immigrants-act-united-states-1819.html|title = Manifest of Immigrants Act (United States) (1819)|publisher = Immigration to North America|accessdate = March 2, 2016}}</ref><ref name=sunnycv>{{cite web|url = http://www.sunnycv.com/steve/ar/immig/steerage.html|title = Steerage Act of 1819|accessdate = March 2, 2016}}</ref><ref name=guarding-the-gates>{{cite web|url = https://books.google.com/books?id=5H0HEOAjDD4C&pg=PA19&lpg=PA19&dq=manifest+of+immigrants+act&source=bl&ots=ATOSguMUUW&sig=lAwYQhHM2eDqTYrALtelV6bGkac&hl=en&sa=X&ved=0ahUKEwihv7mUt6LLAhVM8GMKHeotAgwQ6AEIPTAG#v=onepage&q=manifest%20of%20immigrants%20act&f=false|title = Guarding the Gates: Immigration and National Security|last = LeMay|first = Michael}}</ref> The Act was amended six times prior to its replacement by the Carriage of Passengers Act of 1855.
+
+=== Disease outbreaks attributed to migrants and overcrowding of migrant ships ===
+
+As industrialization and urbanization took hold in both the United States and Europe, new, contagious diseases such as [[cholera]], [[typhus]], and [[typhoid]] began to rise in prominence. Many of these diseases were transmitted among migrants on crowded ships used to transport migrants from Europe to the United States, and caused outbreaks of the diseases upon landing in the United States.
+
+Mention source country dynamics: Ireland ([[Irish Potato Famine]]), Germany (?)
+
+Mnetion journey dynamics: [[coffin ship]]
+
+Describe outbreaks: [[1847 North American typhus epidemic]] (mostly [[Canada]], also affected [[New York City]]), directly attributed to Irish migrants. Also, previous outbreak of typhus killed son of [[Franklin Pierce]], who would be President later when the Carriage of Passengers Act would pass.
+
+=== Steps leading up to passage of the Act ===
+
+In 1853, [[Hamilton Fish]], a Republican senator from [[New York (state)|New York]], called for a select committee to "consider the causes and the extent of the sickness and mortality prevailing on board of emigrant ships" and to determine what further legislation might be necessary. With support from President [[Franklin Pierce]], the [[?th United States Congress]] passed the Carriage of Passengeers Act on March 3, 1855.
+
+== Provisions ==
+
+=== Section 1: Density limits ===
+
+Section 1 of the law dealt with limits to the density of passengers on the ship, as well as penalties for failing to abide by the limits. Specifically, the limits were as follows:<ref name=uwb-fulltext/>
+
+* '''Proportion of passengers to tonnage''': No more than one passenger for every two tons of ship burden. Children under the age of one year were to be excluded from the computation. The previous [[Steerage Act of 1819]] had set a limit of two passengers for every five tons of ship burden (or 1 passenger for every 2.5 tons). The new restriction was therefore 20% stricter than the original one.<ref name=uwb-fulltext-steerage>{{cite web|url = http://library.uwb.edu/static/USimmigration/1819_steerage_act.html|title = 1819 Steerage Act (An act regulating passenger ships and vessels)|accessdate = March 8, 2016}}</ref>
+* '''Space to be allowed''': Enough space needs to be maintained to allow for passenger movement. Specifically:
+** On the main and poop decks or platforms, and in the deck houses, if any, at most one passenger for every sixteen feet of clear superficial deck.
+** On the lower deck, if any, at most one passenger for eighteen such clear superficial feet.
+* '''Penalties''': In case of a shop found to contain passengers in excess of the proportions based on tonnage and space, the master of the ship shall be found guity of misdemeanor, and upon conviction, shall be fined fifty dollars per passenger in excess of the limits. The master may also be imprisoned for up to six months. This penalty was less than the comparable penalty in the Steerage Act of 1819, which was $150 for each passenger in excess of regulations; however, since the limitations were on the whole stricter the effective penalty could be greater.<ref name=uwb-fulltext-steerage/>
+* '''Lockers or inclosures allowed''': If necessary for the safety and convenience of the vessel, cargo could be placed on the decks, cabins, or in other places appropriate for passenger use. Any such cargo could also be placed in lockers or enclosures prepared for the purpose, on an exterior surface impervious to the wave, capable of being cleansed in a manner similar to the decks and platform.s Under no circumstances would such space be counted in the "clear superficial feet" counted as space available to passengers for the regulations. If occupying the deck or platform, the space used for such cargo needs to be subtracted from the total space to calculate the space available to passengers.
+* '''Hospital''': One hospital may be made available in the space appropriate to passengers, but separated from the rest of the space. The space used for the hospital can be counted as part of the space available to passengers.
+* '''Space in certain two-deck vessels''': On board two-deck ships, where the height between the decks is seven and a half feet or more, fourteen clear superficial feet of deck shall be the proportion required for each passenger.
+
+=== Section 2: Berths ===
+
+Section 2 of the law dealt with the number of design of berths:
+
+* No such vessel shall have more than two tier of berths.
+* The interval between the lowest part and the deck or platform beneath shall not be less than nine inches.
+* The berths shall be well-constructed, parallel with the sides of the vessel, at least 6 feet in length and 2 feet in width. Double berths of twice this width may be constructed to be used by two men of the same family, two women, husband and wife, a man and two of his own children under age eight, or a woman and two children under age eight.
+* Violation of these rules would result in a penalty for the master of the ship of five dollars per passenger.
+
+=== Section 3: House over passageway, hand-rail, and booby hatches ===
+
+Section 3 of the law dealt with some miscellaneous design matters:
+
+* '''House over passageway''':
+* '''Hand-rail''':
+* '''Booby hatches''':
+
+=== Section 4: Ventilators ===
+
+* Any vessel used to carry passengers, with a legal capacity of hundred or more, must have at least two ventilators to purify the apartment or apartments occupied by passengers. At least one should be in the afterpart of the apartments, and at least one should be in the forward portion of the apartments.
+* The ventilator capacity should scale in proportion to the legal capacity; for a capacity of 200, the capacity of such ventilators should be equal to a tube of twelve inches diameter in the clear.
+* All ventilators must rise at least four feet six inches above the upper deck of the vessel, and be of the most approved form of construction.
+* If it appears that the vessel is equally well-ventilated by other means, then the vessel shall be deemed in compliance.
+
+=== Section 5: Camboose or cooking range ===
+
+* Any vessel carrying more than fifty passengers must have on deck, housed and conveniently arranged, at least one camboose or cooking range. 
+* The dimensions must be at least four eet long and one foot six inches wide for every two hundred passengers, and shall scale with the number of passengers.
+* Nothing herein shall take away the right to make arrangements for cooking between decks,if that is deemed desirable.
+
+=== Section 6: Provisions ===
+
+=== Section 7: Discipline and cleanliness, and privies ===
+
+=== Section 8: Penalties for violations of Sections 3, 4, and 5 ===
+
+=== Section 9: Inspectors of passenger vehicles ===
+
+The collector of customs at the United States port where the ship arrives or from which the ship departs must appoint and direct one or more inspectors of customs to examine the ship. The inspector must submit a report in writing to the collector regarding the ship's compliance with the rules. If the report states compliance, this is treated as ''prima facie'' evidence of compliance.
+
+=== Section 10: Steerage passengers in steamships ===
+
+=== Section 11: Vessels bound to and from Pacific ports ===
+
+=== Sections 12 and 13: Lists of passengers ===
+
+=== Section 14: Payments for deaths on board ===
+
+=== Section 15: Recovery of penalties ===
+
+=== Sections 16, 17, 18, and 19: Scope and date of law taking effect ====
+
+
+
+
+
+
+
+== References ==
+
+{{reflist}}
