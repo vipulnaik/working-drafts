@@ -67,9 +67,29 @@ Section 3 of the law dealt with some miscellaneous design matters:
 * The dimensions must be at least four eet long and one foot six inches wide for every two hundred passengers, and shall scale with the number of passengers.
 * Nothing herein shall take away the right to make arrangements for cooking between decks,if that is deemed desirable.
 
-=== Section 6: Provisions ===
+=== Section 6: Provisions (food) ===
+
+* All vessels are required to have the following minimum amounts of provisions per passengers, well-secured under deck, all of good quality:
+** 20 pounds of navy bread
+** 15 pounds of rice
+** 10 pounds of wheat flour
+** 15 pounds of peas and beans
+** 20 pounds of potatoes
+** 1 pint of vinegar
+** 60 gallons of fresh water
+** 10 pounds of salted pork
+** 10 pounds of salt beef, free of bone
+* The following substitutions are allowed:
+** At places where either rice, oatmeal, wheat flour, or peas and beans cannot be procured at good quality and reasonable terms, the quantity of any of the others may be used to substitute for it.
+** In case potatoes cannot be procured at reasonable terms, one pound of any of the aforementioned items can be used to substitute for five pounds of potatoes.
+* The captain shall deliver to each passenger at least one-tenth of the above minimum provisions weekly, commencing on the day of sailing, and at least three quarts of water daily.
+* In case of "short allowance", i.e., the required provisions not having been distributed to the passengers, the captain must pay each passenger put on short allowance a daily amount of three dollars as long as the passenger is on short allowance. The amount can be recovered in a circuit or district court of the United States.
+* It is the duty of the captain or master of the ship to make sure that the provisions are served well and properly cooked, at regular and stated hours, by messes or in other ways deemed conducive to the health of passengers.
+* Wilful failure to furnish and distribute properly cooked provisions makes the captain guilty of misdemeanor, and upon conviction, can lead to a fine of up to one thousand dollars and a prison term of up to one year.
+
 
 === Section 7: Discipline and cleanliness, and privies ===
+
 
 === Section 8: Penalties for violations of Sections 3, 4, and 5 ===
 
