@@ -20,7 +20,7 @@ Describe outbreaks: [[1847 North American typhus epidemic]] (mostly [[Canada]], 
 
 === Steps leading up to passage of the Act ===
 
-In 1853, [[Hamilton Fish]], a Republican senator from [[New York (state)|New York]], called for a select committee to "consider the causes and the extent of the sickness and mortality prevailing on board of emigrant ships" and to determine what further legislation might be necessary. With support from President [[Franklin Pierce]], the [[?th United States Congress]] passed the Carriage of Passengeers Act on March 3, 1855.
+In 1853, [[Hamilton Fish]], a Republican senator from [[New York (state)|New York]], called for a select committee to "consider the causes and the extent of the sickness and mortality prevailing on board of emigrant ships" and to determine what further legislation might be necessary. With support from President [[Franklin Pierce]], the [[33rd United States Congress]] passed the Carriage of Passengeers Act on March 3, 1855.
 
 == Provisions ==
 
@@ -132,13 +132,30 @@ The collector of customs must submit quarterly reports to the Secretary of State
 
 === Section 15: Recovery of penalties ===
 
-=== Sections 16, 17, 18, and 19: Scope and date of law taking effect ====
+=== Section 16: Applicability to vessels carrying colored immigrants ===
 
+Every vessel that shall or may be employed by the [[American Colonization Society]] or the Colonization Society of any state to transport from a United States port to a West African port is subject to the regulations of this Act.
 
+=== Section 17: Collection of data by collector ===
 
+The collector of customs at a port shall examine each ship or vessel, on its arrival at the port, and ascertain and report to the Secretary of State the folowing:
 
+* The time of sailing 
+* The length of the voyage
+* The ventilation
+* The number of passengers, their space on board, their food, their native countries, 
+* The number of deaths, the age and sex of those who died, along with opinions on the cause of mortality, if any, on board
+* If no deaths on board, the precautionary measures, arrangements and habits that helped avoid deaths.
 
+=== Section 18: Active for ships departing after thirty days of becoming law ===
 
+The Act would apply to all ships that depart thirty days after the Act is official.
+
+=== Section 19: Repeal of Steerage Act and its modifications ===
+
+The [[Steerage Act of 1819]] (passed March 2, 1819) and the various Acts modifying it so far are all repealed as of the date the current Act becomes active. However, prosecution and recovery of damages related to these Acts for violations when they were active can continue even after their repeal.
+
+However, the Secretary of the Treasury may, at discretion, discontinue prosecutions based on these past Acts.
 
 == References ==
 
