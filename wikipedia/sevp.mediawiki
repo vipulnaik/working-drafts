@@ -1,0 +1,186 @@
+The '''Student and Exchange Visitor Program'''  is a program within  [[U.S. Immigration and Customs Enforcement]], which is under the [[U.S. Department of Homeland Security]], to manage foreign students and exchange visitors in the United States through the ''''Student and Exchange Visitor Information System (SEVIS)'''.<ref name=official>{{cite web|url = https://www.ice.gov/sevis|title = Student and Exchange Visitor Program|accessdate = January 29, 2017|publisher = [[U.S. Immigration and Customs Enforcement]]}}</ref> The SEVP encompasses the [[F visa|F status]] (for foreign students in the United States in academic programs and their dependents), [[J-1 visa|J status]] (for exchange visitors in the United States and their dependents), and [[M-1 visa|M status]] (for foreign students in the United States in vocational programs and their dependents). The exchange visitor part of the program (J visa) is managed by the [[U.S. Department of State]], although the SEVIS system is maintained by ICE.<ref name=official/>
+
+Note that SEVP does not manage the issuance of the visas themselves. Visas are issues at United States consulates and embassies in other countries, which fall under the [[U.S. Department of State]]'s Bureau of Consular Affairs. However, having the correct status and information in the SEVIS system is necessary for a person to be able to receive a F, J, or M visa.<ref>{{Cite web|url = https://travel.state.gov/content/visas/en/study-exchange/student.html|title = Student Visa|publisher = [[U.S. Department of State]] Bureau of Consular Affairs|accessdate = January 29, 2017}}</ref><ref>{{cite web|url = https://travel.state.gov/content/visas/en/study-exchange/exchange.html|title = Exchange Visitor Visa|publisher = [[U.S. Department of State]] Bureau of Consular Affairs|accessdate = January 29, 2017}}</ref>
+
+Note that the SEVP does not cover some other statuses that can be used by foreign students in the United States, such as the [[H-4 visa|H-4 status]] and other statuses for dependents of people in non-student statuses.
+
+== Jargon ==
+
+{| class="wikitable" border="1"
+! Plain English description !! Jargon for F status (students in academic programs) !! Jargon for M status (students in vocational program) !! Jargon for J status (exchange visitor)
+|-
+| Organization responsible for managing the program<ref name=official/> || U.S. Immigration and Customs Enforcement (ICE) || ICE || Department of State
+|-
+| Document that the student/exchange visitor has to demonstrate valid status<ref name=sevis-glossary/> || [[I-20 (form)|I-20]] || I-20 || DS-2019
+|-
+| Visa status for the student or exchange visitor<ref name=official/> || [[F visa|F-1]] || [[M-1 visa|M-1]] || [[J-1 visa|J-1]]
+|-
+| Visa status for dependent || [[F visa|F-2]] || [[M-2 visa|M-2]] || [[J-2 visa|J-2]]
+|-
+| Visa status for border commuter || [[F visa|F-3]] || M-3 || --
+|-
+| Designation of principal person at school or institution responsible for coordinating the program<ref name=sevis-glossary>{{cite web|url = https://net.educause.edu/ir/library/pdf/EDU0212.pdf|title = A Glossary of SEVIS-Related Terminology|last = Croom|first = Patty|last2 = Ellis|first2 = Jim|accessdate = January 29, 2017}}</ref> || Principal Designated School Official (PDSO) || PDSO || Responsible Official (RO)
+|-
+| Designation of other people at school or institution responsible for coordinating the program<ref name=sevis-glossary/> || Designated School Official (DSO) || DSO || Alternate Responsible Official (ARO)
+|}
+
+== History ==
+
+=== Pre-origins: CIPRIS ===
+
+In the [[1993 World Trade Center bombing]], a [[truck bomb]] was detonated below the North Tower of the [[World Trade Center (1973–2001)|World Trade Center]] in [[New York City]]. In the aftermath of this incident, the student visa came under increased scrutiny when it was discovered that [[Eyad Ismoil]], one of the terrorists involved was in the United States on an expired student visa.<ref name="cis1">{{cite news | last = Suhler | first = Jayne Noble |author2=Timms, Ed | title = Security worries putting spotlight on student visas | url = http://www.cis.org/articles/Katz/katz1999.html | work = [[The Dallas Morning News]] | date = September 20, 1998 | accessdate = 2007-05-21}}</ref><ref name="cis2">{{cite news | last = Suhler | first = Jayne Noble |author2=Timms, Ed | title = Cases highlight flaws in federal visa system | url = http://www.cis.org/articles/Katz/katz1999.html | work = [[The Dallas Morning News]] | date = November 8, 1998 | accessdate = 2007-05-21}}</ref><ref name=shareok>{{cite web|url = https://shareok.org/bitstream/handle/11244/917/3187222.PDF?sequence=1|title = A Descriptive Case Study of the Impact of 9/11 on International Student Visa Policy in the 20 Months Following the Attacks|author = Mary Helen Reeves|accessdate = February 10, 2016}}</ref><ref name=ins-fsp-report>{{cite web|url = https://oig.justice.gov/special/0205/chapter6.htm|title = CHAPTER SIX. THE INS'S FOREIGN STUDENT PROGRAM|date = May 20, 2002|accessdate = February 10, 2016}}</ref>
+
+A memorandum from the [[U.S. Department of Justice]]'s Office of Investigative Agency Policies to the Deputy Attorney General dated September 24, 1994, mentioned the need to subject foreign students to thorough and continuing scrutiny before and during their stay in the United States. On April 17, 1995, the Deputy Attorney General asked the INS Commissioner to address this issue. This led to the formation of an INS task force in June 1995 to conduct a comprehensive review of the F, M, and J visa processes. Besides the INS, the task force included members from the State Department and the United States Information Agency, and experts in the administration of international student programs.<ref name=ins-fsp-report/> The task force report, issued on December 22, 1995, identified problems in the tracking and monitoring of students by schools, problems in the certification of schools by the INS, and problems with INS receiving and maintaining up-to-date records from schools.<ref name=ins-fsp-report/> As a result of these findings, the [[Illegal Immigration Reform and Immigrant Responsibility Act of 1996]] directed the Attorney General, in consultation with the Secretary of State, to develop and conduct a program to collect certain information on nonimmigrant foreign students and exchange visitors from approved institutions of higher education and designated exchange visitor programs.<ref name=ins-fsp-report/><ref name=shareok/>
+
+In June 1997, the INS launched a pilot program for a centralized electronic reporting system for institutions, called the Coordinated Interagency Partnership Regulating International Students (CIPRIS). The CIPRIS pilot officially ended in October 1999, as the INS felt it had gathered enough data from the prototype to start working on the nationwide system.<ref name=ins-fsp-report/> The INS began working on a new system that would be called the Student and Exchange Visitor Program (SEVP) with the associated information system called the Student and Exchange Visitor Information Service (SEVIS). During the rollout, CIPRIS and SEVIS met with considerable opposition from the [[NAFSA: Association of International Educators|Association of International Educators]] and the [[American Council on Education]]. However, they claimed that the opposition was not against the programs in principle but due to the concern that a botched rollout by the INS could result in many students suffering.<ref name=ins-fsp-report/><ref name=shareok/>
+
+=== Launch after the September 11 attacks ===
+In the aftermath of the [[September 11 attacks]] (September 11, 2001) and the [[Patriot Act]] passed in response (October 26, 2001), there was further increase in scrutiny of student visas, increasing the momentum in favor of the adoption of SEVIS. This was partly because of the fact that one of the attackers, [[Hani Hanjour]], had come to the United States on a student visa.<ref name=factcheck-hanjour>{{cite web|url = http://www.factcheck.org/2013/05/911-hijackers-and-student-visas/|title = 9/11 Hijackers and Student Visas|last = Farley|first = Robert|date = May 10, 2013|accessdate = June 17, 2016}}</ref><ref name=shareok/><ref name=ins-fsp-report/> 
+
+Below is a timeline of the key events in the two years after the attacks describing the key steps in the evolution of SEVIS:<ref name=shareok/>
+
+{| class="wikitable" border="1"
+! Date !! Type of action !! Title and reference
+|-
+| October 26, 2001 || Final legislation || [[Patriot Act]]; mandates implementation of Section 641 of the IIRIRA
+|-
+| May 16, 2002 || Proposed rule || Retention and reporting requirements for F, J, and M nonimmigrants; Student and Exchange Visitor Information System<ref>{{cite web|url = https://www.justice.gov/sites/default/files/eoir/legacy/2003/07/09/fr16may02.pdf|title = Retention and Reporting of Information  for F, J, and M Nonimmigrants; Student and Exchange Visitor Information System (SEVIS)|date = May 16, 2002|accessdate = January 29, 2017|publisher = [[U.S. Department of Justice]] [[Immigration and Naturalization Service]] in the ''[[Federal Register]]''}}</ref>
+|-
+| July 1, 2002 || Interim final rule || Allowing eligible schools to apply for preliminary enrollment in SEVIS<ref>{{cite web|url = https://www.justice.gov/sites/default/files/eoir/legacy/2003/07/09/fr01july02.pdf|title = Allowing  Eligible  Schools  To  Apply  for  Preliminary  Enrollment  in  the  Student  and  Exchange  VisitorInformation  System (SEVIS);  Interim  Final  Rule|date = July 1, 2002|accessdate = January 29, 2017|publisher = [[U.S. Department of Justice]] [[Immigration and Naturalization Service]] in the ''[[Federal Register]]''}}</ref>
+|-
+| September 11, 2002 || Implementation deadline || The Interim Student and Exchange Authentication System (ISEAS), an interim program by the [[U.S. Department of State]], comes into force. This is a temporary system put in place until SEVIS goes live.<ref name=sevis-glossary/>
+|-
+| September 25, 2002 || Interim final rule || Requiring certification of all service-approved schools for SEVIS enrollment<ref>{{cite web|url = https://www.justice.gov/sites/default/files/eoir/legacy/2002/11/06/fr25sep02.pdf|title = Requiring Certification of all Service Approved Schools for Enrollment in the Student and Exchange Visitor Information System (SEVIS)|date = September 25, 2002|accessdate = January 29, 2017|publisher = [[U.S. Department of Justice]] [[Immigration and Naturalization Service]] in the ''[[Federal Register]]''}}</ref>
+|-
+| December 11, 2002 || Interim final rule || Retention and reporting of information for F, J, and M nonimmigrants; SEVIS<ref>{{cite web|url = https://www.justice.gov/sites/default/files/eoir/legacy/2003/01/10/fr11dec02.pdf|title = Retention  and  Reporting  of  Information  for  F,  J,  and  M  Nonimmigrants;  Student  and  Exchange Visitor  Information  System  (SEVIS);  Final  Rule|date = December 11, 2002|accessdate = January 29, 2017|publisher = [[U.S. Department of Justice]] [[Immigration and Naturalization Service]] in the ''[[Federal Register]]''}}</ref>
+|-
+| January 31, 2003 || Implementation deadline || Mandatory SEVIS use begins
+|}
+
+=== History of release versions ===
+
+SEVIS has undergone six major releases since its launch. The release is numbered using a major release version number followed by a dot and a minor release version number. Below is a partial list of release dates:<ref>{{cite web|url = http://www.nafsa.org/Professional_Resources/Browse_by_Interest/International_Students_and_Scholars/SEVIS_Releases/|title = SEVIS Releases|date = October 26, 2015|publisher = [[NAFSA: Association of International Educators]]|accessdate = January 29, 2015}}</ref>
+
+{| class="wikitable" border="1"
+! Version !! Release date !! Notes
+|-
+| 5.10 || August 8, 2008 || New reprint reason, OPT can be added within 60 days of program end, two new country codes, updates to how change of status to H-1B works<ref>{{cite web|url = http://www.nafsa.org/uploadedFiles/sevis_release_510_system.pdf?n=4033|title = SEVIS Release 5.10 System Changes|date = August 8, 2008|accessdate = January 29, 2017|publisher = [[U.S. Immigration and Customs Enforcement]]}}</ref>
+|-
+| 6.0 || February 20, 2009 || [[Curricular Practical Training|CPT]] and [[Optional Practical Training|OPT]] functionality, cap-gap support, student intern category for J status<ref>{{cite web|url = http://www.nafsa.org/Resource_Library_Assets/Regulatory_Information/SEVIS_Release_6_0_System_Changes/|title = SEVIS Release 6.0 System Changes|date = February 19, 2009|accessdate = January 29, 2017|publisher = [[U.S. Immigration and Customs Enforcement]]}}</ref>
+|-
+| 6.1 || November 6, 2009 || Session timeouts after 20 minutes, checking for inactive emails (75 days or more) for designated school officials and responsible officers<ref>{{cite web|url = http://www.nafsa.org/Resource_Library_Assets/Regulatory_Information/SEVIS_Release_6_1_Anticipated_System_Changes/|title = SEVIS Release 6.1 Anticipated System Changes|date =  September 30, 2009|accessdate = January 29, 2017|publisher = [[U.S. Immigration and Customs Enforcement]]}}</ref>
+|-
+| 6.2 || February 27, 2010 || 
+|-
+| 6.3 || April 30, 2010 ||
+|-
+| 6.4 || July 10, 2010 || Performance release; no functionality update
+|-
+| 6.5 || August 6, 2010 || Data cleaning/migration. New payment tracking log for school payments, modification of the re-designation list and alert, display of the visa expiration date for Exchange Visitors and dependents. No functionality changes.
+|-
+| 6.6 || November 12, 2010 ||
+|-
+| 6.7 || April 22, 2011 ||
+|-
+| 6.8 || June 24, 2011 || 
+|-
+| 6.9 || October 27, 2011 ||
+|-
+| 6.10 || April 20, 2012 ||
+|-
+| 6.11 || December 7, 2012 ||
+|-
+| 6.12 || April 5, 2013 ||
+|-
+| 6.13 || May 24, 2013 ||
+|-
+| 6.15 || February 7, 2014 ||
+|-
+| 6.16 || April 18, 2014 ||
+|-
+| 6.17 || August 1, 2014 || 
+|-
+| 6.18 || October 31, 2014 || 
+|-
+| 6.19 || December 19, 2014 ||
+|-
+| 6.20 || April 24, 2015 ||
+|-
+| 6.21 || June 26, 2015 || 
+|-
+| 6.22 || August 21, 2015 ||
+|-
+| 6.23 || December 4, 2015 ||
+|}
+
+
+During the first half of 2012, changes that affect all colleges, universities, and other educational institutions that provide English language training (“ESL”) programs began. These changes stem from the Accreditation of English Language Training Act (“Accreditation Act”), which became effective in June 2011. Pursuant to the Accreditation Act, ESL programs that enroll foreign nonimmigrant students must obtain accreditation from a regional or national accreditation agency recognized by the [[United States Department of Education]]. The Accreditation Act applies to two types of ESL programs: Stand-Alone ESL Schools whose officials have indicated on the school’s Form I-17 the intention to offer only ESL programs of study; and Combined Schools whose officials have indicated on the school’s Form I-17 that the school offers an ESL program of study, as well as other programs of study. A Combined School may either contract out the ESL program of study or wholly own and operate the ESL program of study under the institution’s governance.<ref>{{cite web |title=SEVP Implementation of the Accreditation Act|url=http://www.natlawreview.com/article/sevp-implementation-accreditation-act|publisher=[[Mintz, Levin, Cohn, Ferris, Glovsky and Popeo]], P.C.|work=The National Law Review|date=2012-07-03|accessdate=2012-10-01}}</ref>
+
+=== Mandatory reporting requirements ===
+Schools and programs approved to host students and scholars on these visas are required to report certain information. Information that must be reported includes:
+* Change of [[legal name]]
+* Change of U.S. address
+* Change of major field of study
+* Change of education degree level
+* Change of funding
+* Authorization for off-campus employment
+
+In addition, they must report  events that constitute a violation of the international visitor’s visa status, such as academic suspension, [[criminal conviction]], failure to enroll and unauthorized off-campus employment.
+
+== Fee ==
+
+=== Fee for students and exchange visitors ===
+
+In 2004, the United States Congress mandated that all international students and exchange visitors pay the I-901 SEVIS fee, which funds the Student and Exchange Visitor Program (SEVP) and SEVIS. The fee can be paid online at fmjfee.com. As of January 2017, the fees are as follows:<ref name=sevis-fee>{{cite web|url = https://www.ice.gov/sevis/i901|title = I-901 SEVIS Fee|publisher = [[U.S. Immigration and Customs Enforcement]]}}</ref>
+
+{| class="wikitable" border="1"
+! Category !! Fee in current United States dollars
+|-
+| F or M visa applicant (full payment) || 200
+|-
+| J visa applicant (full payment) || 180
+|-
+| J visa applicant (subsidized payment) || 35 
+|-
+| Government visitor || 0
+|}
+
+The SEVIS fee must be paid after receiving the initial document (I-20 or DS-2019) and is a prerequisite for obtaining the F, J, or M visa,<ref>{{cite web|url = https://internationalaffairs.uchicago.edu/page/students/admitted|title = Admitted Students|publisher = [[University of Chicago]]|accessdate = February 9, 2016}}</ref> or if transitioning to student status using [[Form I-539]].<ref name=studyinthestates-i-539>{{cite web|url = https://studyinthestates.dhs.gov/2013/07/what-is-the-form-i-539|title = What is the Form I-539?|date = June 18, 2013|accessdate = February 1, 2016|publisher = [[U.S. Department of Homeland Security]]}}</ref>
+
+The fee needs to be paid only for the principal (the F-1, J-1, or M-1). Dependents (F-2, J-2, and M-2) do not need to pay the fee. Also, the fee needs to be paid only once per initial SEVIS record, and in particular, does not need to be paid again if applying for a new visa on the same status.<ref>{{cite web|url = https://internationalaffairs.uchicago.edu/fmjfee|title = SEVIS Fee|publisher = [[University of Chicago]] Office of International Affairs|accessdate = January 29, 2017}}</ref> It is distinct from the visa fees, which need to be paid for each visa application.
+
+=== Fee for schools seeking SEVP certification ===
+
+Below is the list of fees for schools seeking SEVP certification (through Form I-17) or re-certification, as of January 2017.<ref name=sevis-fee/>
+
+{| class="wikitable" border="1"
+! Category  !! Fee in current USD !! Notes
+|-
+| Petition for initial SEVP certification || 1700 || Previously only $230.
+|-
+| Site visit (per campus) || 655 || Previously $350 per campus.
+|-
+| Petition for change of ownership for already certified institution || 1700 || Previously only $230.
+|-
+| Site visit (per campus) for already certified institution || 655 || Previously $350 per campus.
+|-
+| Re-certification || 0 ||
+|}
+
+==See also==
+* [[Department of Homeland Security]]
+* [[U.S. Immigration and Customs Enforcement]]
+* [[U.S. Customs and Border Protection]]
+
+==Notes==
+{{reflist|30em}}
+
+==External links==
+* [http://www.ice.gov/sevis/index.htm Official DHS SEVIS website]
+*[http://StudyintheStates.dhs.gov DHS Study in the States website]
+* [http://www.cnn.com/2003/EDUCATION/08/01/student.tracking/index.html International student registry deadline arrives], CNN, August 1, 2003
+
+{{DEFAULTSORT:Student And Exchange Visitor Program}}
+[[Category:History of immigration to the United States]]
+[[Category:Student exchange]]
+[[Category:United States Department of Homeland Security]]
