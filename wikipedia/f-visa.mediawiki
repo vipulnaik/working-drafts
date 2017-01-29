@@ -1,25 +1,34 @@
+In the [[United States]], the '''F visas''' are a type of non-[[Immigration to the United States|immigrant]] student [[visa (document)|visa]] that allows foreigners to pursue education (academic studies and/or language training programs) in the United States. F-1 students must maintain a full course of study.  F-1 visas are only issued in [[List of diplomatic missions of the United States|U.S. embassies and consulates]] outside the United States, although extensions of stay and changes of status may be possible within the United States.<ref name=state-official>[https://travel.state.gov/content/visas/en/study-exchange/student.html|title = Student Visa|publisher = [[U.S. Department of State]] Bureau of Consular Affairs|accessdate = January 29, 2017}}</ref> Prospective F-1 students must apply at the schools and receive a form I-20 in order to apply for an F-1 visa.<ref name=state-official/><ref>{{cite web|title=How to Apply for a Student Visa in the United States|url=http://www.bridge.us/articles/how-to-apply-for-a-student-visa/|publisher=Bridge U.S.|accessdate=10 August 2013}}</ref> F-1 students must show that they are able to support themselves during their stay in the U.S., as their opportunities for legal employment are quite limited.<ref name=uchicago-frs/> F-2 visas are given to dependents of an F-1 student. F-2 visa-holders are prohibited from any form of compensated employment. However, minor children may attend public schools.<ref name=f-2-byu/> Finally, the F-3 visa is issued to Canadians and Mexicans who commute across the border to attend American schools.<ref name=f-3-visalaw/>
+
+==Three types of F visa==
+*'''F-1 visas''' are for full-time students.
+*'''F-2 visas''' are for spouses and children of F-1 visa holders - these are technically called "dependents."
+*'''F-3 visas''' are for "border commuters" who reside in their country of origin while attending school in the United States. These are granted to nationals of [[Mexico]] or [[Canada]] only and these visa holders may study part- or full-time. However, unlike F-1 visa holders, they may not work on campus, although they may still be authorized for [[Curricular Practical Training]]; [[Optional Practical Training]] may only be used after graduation. While the Border Commuter Student Act was signed into law on November 2, 2002, the Department of Homeland Security, which is responsible for all F and M regulations (8 CFR 214.2), has never published a rule discussing F-3 commuter students. Previously, part-time students from Canada and Mexico were permitted to enter the United States as visitors, but after the [[September 11 attacks]] the [[United States Department of Homeland Security|Department of Homeland Security]] found such students ineligible for admittance as visitors (since their purpose was educational) and also ineligible for F-1 (academic) or M-1 (non-academic or vocational) visas (because those classifications require students to attend full-time). The Border Commuter Student Act of 2002 was passed in response to these issues.<ref name=f-3-visalaw>{{cite web|url=http://www.visalaw.com/03aug3/2aug303.html |title=The ABC's Of Immigration – F3 and M3 NonImmigrant Visas - August 18, 2003 |publisher=Visalaw.com |date= |accessdate=2012-09-12}}</ref>
+
 == Role of the institution for F visas ==
 
 To pursue studies in F status at a college, university, or vocational school, it is necessary that the institution be a participant in the [[Student and Exchange Visitor Program]] (SEVP). An institution can acquire SEVP certification by filing Form I-17 with [[U.S. Immigration and Customs Enforcement]] (this is a one-time process).<ref>{{cite web|url = https://www.ice.gov/sevis/i17|title = Overview of the SEVP certification process|publisher = [[U.S. Immigration and Customs Enforcement]]|accessdate = February 9, 2016}}</ref> Note that an institution can be SEVP-certified despite not holding national or regional accreditation.<ref name=educationusa>{{cite web|url = https://educationusa.state.gov/foreign-institutions-and-governments/understanding-us-higher-education/international-student|title = International Student Visas|publisher = EducationUSA|accessdate = February 9, 2016}}</ref> Conversely, an institution may hold national or regional accreditation but may have chosen not to obtain SEVP certification if it does not intend to admit international students in the F, J, or M status.
 
-A large university typically has an international office that manages its participation in the SEVP, and all the DSOs work for this office. The international office manages updates to the Student and Exchange Visitor Information System (SEVIS) record for students and issuing of new paper Form I-20s. Students who have any change to their plans (such as program end date, course load, leave of absence, return from leave of absence) must communicate these changes with their international office.
+A large university typically has an international office that manages its participation in the SEVP, and all the DSOs work for this office. The international office manages updates to the Student and Exchange Visitor Information System (SEVIS) record for students and issuing of new [[I-20 (form)|Form I-20s]]. Students who have any change to their plans (such as program end date, course load, leave of absence, return from leave of absence) must communicate these changes with their international office.
 
 === The special case of F visas for high school students ===
 
-It is possible to obtain a F-1 visa to pursue studies at a secondary school (grades 9-12). As is the case with other institutions, the secondary school must be SEVP-certified. The school may be a public (government-funded) school or a private school. In the case of a public school, the student may attend for a maximum period of 12 months and must reimburse the school for the full per-capita cost of attendance. Neither of these requirements apply for students attending private schools.<ref name=high-school>{{cite web|url = International Students May Benefit from Attending High School in the United States|date = June 5, 2012|accessdate = February 10, 2016}}</ref>
+It is possible to obtain a F-1 visa to pursue studies at a secondary school (grades 9-12). As is the case with other institutions, the secondary school must be SEVP-certified. The school may be a public (government-funded) school or a private school. In the case of a public school, the student may attend for a maximum period of 12 months and must reimburse the school for the full per-capita cost of attendance. Neither of these requirements apply for students attending private schools.<ref name=high-school>{{cite web|url = https://studyinthestates.dhs.gov/2012/06/international-students-may-benefit-from-attending-high-school-in-the-united-states|title = International Students May Benefit from Attending High School in the United States|date = June 5, 2012|accessdate = February 10, 2016}}</ref>
 
 == Acquiring student status ==
 
 === Issuance of first Form I-20 ===
 
-Once the prospective student has accepted the institution's offer of admission, the institution issues a Form I-20 to the student.<ref name=educationusa/><ref name=studyinthestates/>
+{{further|I-20 (form)}}
+
+Once the prospective student has accepted the institution's offer of admission, the institution issues a Form I-20 to the student.<ref name=educationusa/><ref name=studyinthestates>{{cite web|url = https://studyinthestates.dhs.gov/2013/01/what-is-the-form-i-20|title =  What is the Form I-20?|date = January 28, 2013|accessdate = February 9, 2016}}</ref>
 
 Apart from biographical information about the student (including the student's name, date of birth, citizenship, etc.), there are two main pieces of information that must be entered in the student's SEVIS record and the initial Form I-20.
 
 * Program details: The program name, start date, and end date.
 * How the student intends to meet tuition and living expenses for the first year the student is in the program, or until the end date indicated on the I-20, whichever is shorter.
 
-Each international office may follow its own rules or guidelines regarding the type of documentation it requests from the student or from other departments in order to be able to issue the I-20. The jargon used for this documentation will also vary by institution. For instance, the [[University of Chicago]] and [[University of Michigan]] uses the term "Financial Resources Statement" for the statement that students need to submit to it regarding how they will meet their expenses.<ref>{{cite web|url = https://internationalaffairs.uchicago.edu/frs|title = Qualifying for your I-20 or DS-2019|publisher = [[University of Chicago]]|accessdate = February 9, 2016}}</ref><ref>{{cite web|url = http://www.internationalcenter.umich.edu/immig/forms/I20-DS2019state-finance.pdf|title = Financial Resources Statement for Issuance of Form I-20 or DS-2019|accessdate = February 9, 2016}}</ref>, while the [[University of Illinois at Urbana-Champaign]] uses the term "Declaration & Certification of Finances for I-20/DS-2019 Application".<ref>{{cite web|url = http://www.grad.illinois.edu/sites/default/files/pdfs/certoffinances.pdf|title = Declaration & Certification of Finances for I-20 / DS-2019 Application FOR INTERNATIONAL APPLICANTS ONLY|accessdate = February 9, 2016}}</ref>
+Each international office may follow its own rules or guidelines regarding the type of documentation it requests from the student or from other departments in order to be able to issue the I-20. The jargon used for this documentation will also vary by institution. For instance, the [[University of Chicago]] and [[University of Michigan]] uses the term "Financial Resources Statement" for the statement that students need to submit to it regarding how they will meet their expenses,<ref name=uchicago-frs>{{cite web|url = https://internationalaffairs.uchicago.edu/frs|title = Qualifying for your I-20 or DS-2019|publisher = [[University of Chicago]]|accessdate = February 9, 2016}}</ref><ref>{{cite web|url = http://www.internationalcenter.umich.edu/immig/forms/I20-DS2019state-finance.pdf|title = Financial Resources Statement for Issuance of Form I-20 or DS-2019|accessdate = February 9, 2016}}</ref> while the [[University of Illinois at Urbana-Champaign]] uses the term "Declaration & Certification of Finances for I-20/DS-2019 Application".<ref>{{cite web|url = http://www.grad.illinois.edu/sites/default/files/pdfs/certoffinances.pdf|title = Declaration & Certification of Finances for I-20 / DS-2019 Application FOR INTERNATIONAL APPLICANTS ONLY|accessdate = February 9, 2016}}</ref>
 
 After receiving information from the student and institution regarding the program length and end date, the international office creates the student's SEVIS record, gets a SEVIS number for the student, and issues a Form I-20. A physical copy of the form may be mailed to the student overseas. In the case that the student has a SEVIS record from previous student status, the existing SEVIS record should be transferred.<ref name=ice-dso-faq>{{cite web|url = https://www.ice.gov/sevis/f1-transfers|title = Transfers for F-1 Students|publisher = [[U.S. Immigration and Customs Enforcement]]|accessdate = February 9, 2016}}</ref>
 
@@ -27,13 +36,13 @@ The international office may refuse to issue a Form I-20 if the student is unabl
 
 === The student pays the SEVIS fee ===
 
-In order to transition to student status, the prospective student must pay a one-time SEVIS fee using Form I-901.<ref>{{cite web|url = https://internationalaffairs.uchicago.edu/page/students/admitted|ttile = Admitted Students|publisher = [[University of Chicago]]|accessdate = February 9, 2016}}</ref> Note that this fee applies both to people who are not currently in the United States (and need a visa) and to those who plan to change status using [[Form I-539]].<ref name=studyinthestates-i-539>{{cite web|url = https://studyinthestates.dhs.gov/2013/07/what-is-the-form-i-539|title = What is the Form I-539?|date = June 18, 2013|accessdate = February 1, 2016|publisher = [[U.S. Department of Homeland Security]]}}</ref>
+In order to transition to student status, the prospective student must pay a one-time SEVIS fee using Form I-901.<ref>{{cite web|url = https://internationalaffairs.uchicago.edu/page/students/admitted|title = Admitted Students|publisher = [[University of Chicago]]|accessdate = February 9, 2016}}</ref> Note that this fee applies both to people who are not currently in the United States (and need a visa) and to those who plan to change status using [[Form I-539]].<ref name=studyinthestates-i-539>{{cite web|url = https://studyinthestates.dhs.gov/2013/07/what-is-the-form-i-539|title = What is the Form I-539?|date = June 18, 2013|accessdate = February 1, 2016|publisher = [[U.S. Department of Homeland Security]]}}</ref>
 
 === For students outside the United States: the student applies for a visa and then enters the United States ===
 
 If the student is outside the United States, then he/she must apply for a student visa (F or M). The visa interview must be scheduled for no fewer than 120 days prior to the start date indicated on the Form I-20.<ref name=uchicago-visa>{{cite web|url = https://internationalaffairs.uchicago.edu/page/getting-your-student-visa|title = Getting Your Student Visa|accessdate = February 9, 2016|publisher = [[University of Chicago]]}}</ref>
 
-At the time of initial entry, the officer at the port of entry checks that the program start date is at most 30 days ahead, and that the I-20 has a valid travel signature.<ref>{{cite web|url = https://internationalaffairs.uchicago.edu/page/arriving-us-airport-or-port-entry|title = Arriving in the U.S. at the Airport or the Port of Entry|accessdate = February 9, 2016}}</ref> It is also necessary that, at the time of initial entry, the school the student intends to intend matches the school on the student's visa and the student's I-20, though this is not a requirement in the future.<ref name=ice-dso-faq/> The officer at the port of entry also issues a [[Form I-94]] with expiration date indicated as "D/S" (Duration of Status), which means that the student is in authorized status in the United States until the program end date indicated on the I-20 (and can stay in the United States for up to 60 days after that).
+At the time of initial entry, the officer at the port of entry checks that the program start date is at most 30 days ahead, and that the I-20 has a valid travel signature.<ref>{{cite web|url = https://internationalaffairs.uchicago.edu/page/arriving-us-airport-or-port-entry|title = Arriving in the U.S. at the Airport or the Port of Entry|accessdate = February 9, 2016}}</ref> It is also necessary that, at the time of initial entry, the school the student intends to attend matches the school on the student's visa and the student's I-20, though this is not a requirement in the future.<ref name=ice-dso-faq/> The officer at the port of entry also issues a [[Form I-94]] with expiration date indicated as "D/S" (Duration of Status), which means that the student is in authorized status in the United States until the program end date indicated on the I-20 (and can stay in the United States for up to 60 days after that).
 
 === For students in the United States in a different status: the student can (under some conditions) apply to change status ===
 
@@ -55,7 +64,7 @@ In order to maintain legal student status, the student is required to report to 
 
 === "D/S" annotation on Form I-94 ===
 
-The [[Form I-94]] that is issued to F-1 students upon arrival is generally annotated "D/S" indicating duration of status, which means that the student can stay in the United States as long as he/she is in valid student status. In addition, there is a grace period of 60 days after the completion of studies to depart the United States.<ref>{{cite web|url = http://internationaloffice.berkeley.edu/i-94|title = Understanding the I-94 Arrival/Departure Record|accessdate = February 10, 2016|publisher = [[University of California, Berkeley]]}}</ref><ref name=shareok>{{cite web|url = A Descriptive Case Study of the Impact of 9/11 on International Student Visa Policy in the 20 Months Following the Attacks|author = Mary Helen Reeves|accessdate = February 10, 2016}}</ref>
+The [[Form I-94]] that is issued to F-1 students upon arrival is generally annotated "D/S" indicating duration of status, which means that the student can stay in the United States as long as he/she is in valid student status. In addition, there is a grace period of 60 days after the completion of studies to depart the United States.<ref>{{cite web|url = http://internationaloffice.berkeley.edu/i-94|title = Understanding the I-94 Arrival/Departure Record|accessdate = February 10, 2016|publisher = [[University of California, Berkeley]]}}</ref><ref name=shareok>{{cite web|url = https://shareok.org/bitstream/handle/11244/917/3187222.PDF?sequence=1|title = A Descriptive Case Study of the Impact of 9/11 on International Student Visa Policy in the 20 Months Following the Attacks|author = Mary Helen Reeves|accessdate = February 10, 2016}}</ref>
 
 The exception to "D/S" is in cases where the student's documentation is not considered complete or satisfactory by the officer at the port of entry. In this case, the expiration date on the Form I-94 is listed as thirty days from the present date, and the student is issued Form I-515A, indicating what information was missing from the student's documentation. The student must contact his or her international office for help with obtaining the correct documentation.<ref>{{cite web|url = https://studyinthestates.dhs.gov/what-is-a-form-i-515a|title = What is a Form I-515A?|publisher = [[U.S. Department of Homeland Security]]|accessdate = February 10, 2016}}</ref><ref>{{cite web|url = https://www.ice.gov/doclib/news/library/forms/pdf/i515a.pdf|title = I-515A, Notice to Student or Exchange Visitor|publisher = [[U.S. Immigration and Customs Enforcement]]}}</ref>
 
@@ -64,8 +73,8 @@ The exception to "D/S" is in cases where the student's documentation is not cons
 Under ordinary conditions (i.e., unless any exceptions apply) a student must, in order to maintain valid student status:
 
 * maintain a "full course load" (unless the institution approves the student for a Reduced Course Load)
-* not be engaged in any off-campus employment
-* have an accurate SEVIS record, and in particular, shoud not be past the program end date indicated on the Form I-20.
+* not be engaged in any employment without authorization of [[Department of Homeland Security]]
+* have an accurate SEVIS record, and in particular, should not be past the program end date indicated on the Form I-20.
 
 ==== Full course load requirement ====
 
@@ -81,6 +90,8 @@ The following are the accepted reasons for having a Reduced Course Load in a giv
 ** Improper course level placement
 
 RCL must be applied for in advance so that the SEVIS record can be updated and a new Form I-20 noting the RCL can be issued.
+
+On August 27, 2002, an Interim Final Rule was issued extending RCL to border commuter students (one of the measures that was part of the introduction of the F-3 status); this was a complementary measure to the phasing out of the use of [[B visa]]s for study.<ref>{{cite web|url = https://www.justice.gov/sites/default/files/eoir/legacy/2003/07/09/fr27au02-1.pdf|title = Reduced Course Load for Certain F and M Nonimmigrant Students in Border Communities|date = August 27, 2002|accessdate = January 29, 2017|publisher = [[U.S. Department of Justice]] [[Immigration and Naturalization Service]] in the ''[[Federal Register]]''}}</ref>
 
 ==== Employment ====
 
@@ -131,7 +142,7 @@ In the special case of [[automatic visa revalidation]], whereby the student retu
 
 After completion of studies, a student has a 60-day grace period to depart the United States. Note that it is not possible to ''re-enter'' the United States during this grace period, regardless of the validity of visa or travel signatures. This does give the student some time to change to another non-immigrant status if applicable. However, if the student is unable to successfully change status the student must nonetheless depart the United States.<ref name=grace-periods>{{cite web|url = http://isss.gsu.edu/current-students/f-1-status/grace-periods/|title = Grace Periods|publisher = [[Georgia State University]]|accessdate = February 10, 2016}}</ref>
 
-One way a student can continue to stay in the United States on student status after completion of studies is by being approved for post-completion [[Optional Practical Training]]. Post-completion OPT can start at most 60 days after the completion of studies, and requires the student to work at least 20 hours a week (excluding up to 90 days of unemployment) on topics related to the student's program of study. Post-completion OPT can be at most 12 months long. While doing post-completion OPT, the student is still in F status but cannot engage in arbitrary on-campus employment or enroll in a degre program.
+One way a student can continue to stay in the United States on student status after completion of studies is by being approved for post-completion [[Optional Practical Training]]. Post-completion OPT can start at most 60 days after the completion of studies, and requires the student to work at least 20 hours a week (excluding up to 90 days of unemployment) on topics related to the student's program of study. Post-completion OPT can be at most 12 months long. While doing post-completion OPT, the student is still in F status but cannot engage in arbitrary on-campus employment or enroll in a degree program.
 
 == Dependents ==
 
@@ -143,35 +154,385 @@ F-2 dependent spouses have a very limited range of activities they can legally d
 
 F-2 dependent minor children can study in school (K-12, i.e., secondary or lower level of education). If unmarried, the same permissions and restrictions apply to them for post-secondary education as apply to F-2 dependent spouses: they can take classes at a SEVP-certified school but cannot engage in a full course of study.<ref name=ice-who-can-study/>
 
+==Statistics==
+
+=== Number of visas issued from 1997 onward ===
+
+Note that the count below is of the number of visas issued by a United States consular officer. The years here are Fiscal Years, so for instance the year 2004 refers to the period from October 1, 2003 to September 30, 2004.<ref name=visa-approvals>{{cite web|url=https://travel.state.gov/content/dam/visas/Statistics/Non-Immigrant-Statistics/NIVDetailTables/FYs97-15_NIVDetailTable.xls |title=Non-immigrant visa statistics |publisher=[[United States Department of State]] |accessdate=January 29, 2017}}</ref> This includes visas issued to people who are in an existing program of study and whose visa has expired, therefore it exceeds the actual number of distinct students admitted every year. On the other hand, since many students get multi-year, multi-entry visas, and a new visa needs to be issued only when the person travels outside the United States, this number is less than the total number of students in that status currently present in the United States. In other words, it is somewhere intermediate between the annual flow and total stock of students in F status.<ref name=visa-approvals/> Note also that the F-3 became available in Fiscal Year 2004 so the number of F-3 visas issued before that is zero.
+
+{| class="wikitable sortable" border="1"
+! Year !! Number of F-1 visas issued !! Number of F-2 visas issued !! Number of F-3 visas issued !! Ratio of F-2 visas to F-1 visas !! Percentage growth in F-1 visas issued !! Notes
+|-
+| 1997 || 266,483 || 22,099 || 0 || 8.29% ||  no data ||
+|-
+| 1998 || 251,565 || 21,845 || 0 || 8.68% || -5.59% ||
+|-
+| 1999 || 262,542 || 22,893 || 0 || 8.71% || +4.36% ||
+|-
+| 2000 || 284,053 || 24,891 || 0 || 8.76% ||  +8.19%||
+|-
+| 2001 || 293,357 || 26,160 || 0 || 8.94% || +3.27% ||
+|-
+| 2002 || 234,322 || 22,212 || 0 || 9.48% || -20.12%  || Reduction in the number of student visas issued is due to tightening of security as a result of the [[September 11 attacks]].
+|-
+| 2003 || 215,695 || 19,885 || 0 || 9.22% || -7.94% || Continued increase in security around September 11 attacks leads to further reductions in the issuance of new student visas.
+|-
+| 2004 || 218,898 || 18,893 || 16 || 8.63% || +1.48% || Number of F-1 visas issued no longer declining; also the F-3 category was introduced and started getting used.
+|-
+| 2005 || 237,890 || 18,061 || 42 || 7.59% || +8.67% || The number of F-1 visas starts increasing, and the ratio of F-2 to F-1 visas falls.
+|-
+| 2006 || 273,870 || 20,748 || 19 || 7.58% || +15.12% || 
+|-
+| 2007 || 298,393 || 22,036 || 119 || 7.38% || +8.95% || Number of F-1 visas issued reaches an all-time high, completing the recovery from the post-September 11 dip.
+|-
+| 2008 || 340,711 || 23,193 || 519 || 6.81% || +14.18% || 
+|-
+| 2009 || 331,208 || 21,817 || 773 || 6.58% || -2.78% || In the wake of the [[Great Recession]], growth in use of student visas temporarily flatlines.
+|-
+| 2010 || 385,210 || 25,220 || 887 || 6.55% || +16.30% ||  Robust year-over-year growth in usage of the F-1 resumes, even as the ratio of F-2 to F-1 continues to fall.
+|-
+| 2011 || 447,410 || 27,703 || 959 || 6.19% || +16.14% ||
+|-
+| 2012 || 486,900 || 27,561 || 792 || 5.66% || +8.82% || After steady growth, use of the F-3 starts declining.
+|-
+| 2013 || 534,320 || 29,139 || 678 || 5.45% || +11.58% || 
+|-
+| 2014 || 595,569 || 31,732 || 403 || 5.33% || +9.77% ||
+|-
+| 2015 || 644,233 || 33,632 || 63 || 5.22% || +8.17% ||
+|-
+! Total || 6,602,629 || 460,720 || 5,270 || 7.17% || NA || 
+|}
+
+=== F-1 visas by country for major countries ===
+
+The data below is from the [[U.S. Department of State]] visa statistics.<ref name=visa-approvals/> 
+
+When interpreting the table below, note that a country where visas are issued for shorter durations and single entry will see more visa applications for the same total number of students in the United States. In particular, one of the main factors inflating the number of student visas issued to students from China was that the visa issued was a single-entry visa valid for one year, so a student visiting family every year had to renew the visa. The United States and China switched to a 5-year validity multiple-entry visa in November 2014 and the corresponding reduction in the number of F-1 visas issued should therefore be seen in the statistics starting Fiscal Year 2016 (since the first multi-entry five-year validity visas will be issued in Fiscal Year 2015, there will be less need for visa renewal starting in Fiscal Year 2016).<ref name=lawandborder>{{cite web|url = http://lawandborder.com/u-s-china-reach-agreement-longer-business-tourist-student-visa-validity/|title = U.S., China Agree on Longer Visa Validity|last = Chodorow|first = Gary|accessdate = April 8, 2016}}</ref><ref name=us-china>{{cite web|url = http://www.state.gov/r/pa/prs/ps/2014/11/233904.htm|title = The United States and China To Extend Visas for Short-term Business Travelers, Tourists, and Students|accessdate = April 8, 2016}}</ref> In the table below, the columns are arranged in decreasing order of F-1 visa usage in FY 2015.
+
+{| class="wikitable sortable" border="1"
+! Year !! Total number of F-1 visas issued !! Mainland [[China]] !! [[India]] !! [[Saudi Arabia]] !! [[South Korea]] !! [[Japan]] !! [[Brazil]] !! [[Taiwan]] 
+|-
+| 1997 || 266,483 || 11,909 || 10,532 || 3,529 || 36,188 || 35,157  || 12,293  ||  14,794 
+|-
+| 1998 || 251,565 || 13,958 || 12,154 || 3,796 || 21,271 || 34,063  || 14,812 || 13,867 
+|-
+| 1999 || 262,542 || 16,303 || 15,286 || 3,893 || 20,883 || 33,762  || 13,985 || 14,709 
+|-
+| 2000 || 284,053 || 21,586 || 20,469 || 4,038 || 27,520 || 32,661  || 12,452 || 16,084 
+|-
+| 2001 || 293,357 || 25,218 || 24,106 || 4,359 || 28,977 || 32,237  || 12,524 || 24,106 
+|-
+| 2002 || 234,322 || 21,784 || 20,771 || 1,515 || 26,670 || 25,036  || 8,335 || 13,952 
+|-
+| 2003 || 215,695 || 16,169 || 19,152 || 1,158 || 28,695 || 24,825  || 7,066 || 11,490 
+|-
+| 2004 || 218,898 || 18,089 || 18,309 || 1,008 || 29,673 || 24,562  || 6,683 || 14,224 
+|-
+| 2005 || 237,890 || 21,642 || 20,173 || 2,166 || 35,310 || 24,554  || 5,845 || 15,488 
+|-
+| 2006 || 273,870 || 28,444 || 26,342 || 9,240 || 42,681 || 23,417  || 5,926 || 16,727 
+|-
+| 2007 || 298,393 || 39,535 || 34,471 || 5,776 || 45,915 || 21,900  || 7,418 || 14,973 
+|-
+| 2008 || 340,711 || 56,258 || 36,149 || 8,038 || 50,078 || 19,876  || 10,556 || 14,640 
+|-
+| 2009 || 331,208 || 81,842 || 26,890 || 11,193 || 39,040 || 16,423  || 9,160  || 10,978 
+|-
+| 2010 || 385,210 || 113,772 || 25,783 || 21,101 || 44,328 || 15,014  || 10,532 || 10,785 
+|-
+| 2011 || 447,410 || 153,026 || 25,649 || 27,738 || 45,638 || 16,811  || 14,408 || 11,200 
+|-
+| 2012 || 486,900 || 189,402 || 23,446 || 27,932 || 39,159 || 18,669  || 15,506 || 10,621 
+|-
+| 2013 || 534,320 || 217,593 || 36,141 || 28,597 || 33,584 || 18,837  || 14,890 || 9,921 
+|-
+| 2014 || 595,569 || 244,927 || 56,653 || 32,006 || 29,324 || 18,258  || 14,371 || 9,731 
+|-
+| 2015 || 644,233 || 274,460 || 74,831 || 28,171 || 27,324 || 17,203 || 14,344 || 9,791
+|-
+! Total || 6,602,629 || 1,565,917 || 527,307 || 225,254 || 652,258 || 453,265 || 211,106 || 246,881
+|}
+
+=== Detailed statistics for 2012 ===
+In Fiscal Year 2012:<ref>{{cite web|url=http://www.travel.state.gov/pdf/FY2012NIVWorkloadbyVisaCategory.pdf |title=Non Immigrant Visa Workload by Visa Category FY-2012 |date= |accessdate=2012-09-30}}</ref>
+
+{| class="wikitable"
+|-
+! Type
+! Total Applicants
+! Issued
+! Refused
+! Waived/Overcome
+|-
+| F-1
+| 657,714
+| 486,900
+| 170,814
+| 64,829
+|-
+| F-2
+| 39,237
+| 27,561
+| 11,676
+| 5,759
+|-
+| F-3
+| 895
+| 792
+| 103
+| 86
+|}
+
+=== IIE data on number of international students ===
+
+The [[Institute of International Education]] maintains data on the number of international students as part of its ''Open Doors'' project, supported from a grant by the Bureau of Educational and Cultural Affairs in the [[U.S. Department of State]].<ref name=open-doors>{{cite web|url = http://iie.org/Research-and-Publications/Open-Doors|title = Open Doors|publisher = [[Institute of International Education]]|accessdate = April 9, 2016}}</ref> The data is collected through surveys of over 3,000 accredited U.S. higher education institutions, and does not rely on any privileged access to government data; in particular institutions not included in the survey (such as high schools that issue student visas, and non-accredited institutions that are SEVP-certified) may be omitted from the statistics.<ref name=open-doors-faq>{{cite web|url = http://iie.org/Research-and-Publications/Open-Doors/FAQ|title = Open Doors FAQs|publisher = [[Institute of International Education]]|accessdate = April 9, 2016}}</ref> ''Open Doors'' surveys were started in 1949, but data presented here is mostly from 2000, which is what their free online portal has (some tables have additional data available for every fifth year from 1949-1950 to 1999-2000).
+
+==== Data by country ====
+Note that this data differs from the data on F visas issued in the following respects:
+
+* It gives the total number of students enrolled in studies, not the number of visas issued in a given year. For instance, a student who is in the United States in the third year of a four-year program, and only got a visa when initially admitted, will be counted here but ''not'' in the number of F-1 visas issued. This is the [[stock versus flow]] distinction.
+* It includes students in statuses other than the F status. In particular, it includes students on the [[J-1 visa]] and the [[H-4 visa]].
+* The data is by academic year of enrollment rather than fiscal year of visa issuance. A visa to study in the academic year of 2013-14 would generally be issued in Fiscal Year 2013.
+
+Note in particular the following differences with the previous table:
+
+* Mainland [[China]] continues to be the biggest single source of international students, but the gap is not as large as in the number of F-1 visas issued. The gap in the number of visas issued is larger because, until Fiscal Year 2014, Chinese students were issued one-year single-entry visas, thereby requiring more visas issued for re-entry than for most other countries that are leading sources of students to the United States.<ref name=lawandborder/>
+* [[Canada]] figures prominently in this list, even though it is negligible in terms of F visas.
+
+{| class="wikitable sortable" border="1"
+! Academic year !! Total number of international students !! Mainland [[China]] !! [[India]] !! [[South Korea]] !! [[Saudi Arabia]] !! [[Canada]] !! [[Brazil]] !! [[Taiwan]] !! [[Japan]]
+|-
+| 1949-1950 || 26,433 || 0 || 1,359 || 258 || 18 || 4,362 || 423 || 3,637 || 265
+|-
+| 1954-1955 || 34,232 || 0 || 1,673 || 1,197 || 40 || 4,655 || 507 || 2,553 || 1,673
+|-
+| 1959-1960 || 48,486 || 0 || 3,780 || 2,474 || 93 || 5,679 || 473 || 4,546 || 2,248
+|-
+| 1964-1965 || 82,045 || 5 || 6,814 || 2,604 || 552 || 9,253 || 691 || 4,620 || 3,534
+|-
+| 1969-1970 || 134,959 || 19 || 11,329 || 3,991 || 1,029 || 13,318 || 1,349 || 8,566 || 4,311
+|-
+| 1974-1975 || 154,580 || 22 || 9,660 || 3,390 || 1,540 || 8,430 || 1,970 || 10,250 || 5,930
+|-
+| 1979-1980 || 286,340 || 1,000 || 8,760 || 4,890 || 9,540 || 15,130 || 2,910 || 17,560 || 12,260
+|-
+| 1984-1985 || 342,110 || 10,100 || 14,620 || 16,430 || 7,760 || 15,370 || 2,790 || 22,590 || 13,160
+|-
+| 1989-1990 || 386,850 || 33,390 || 26,240 || 21,710 || 4,110 || 17,870 || 3,730 || 30,960 || 29,840
+|-
+| 1994-1995 || 452,635 || 39,403 || 35,357 || 33,599 || 4,075 || 22,747 || 5,017 || 36,407 || 45,276
+|-
+| 1999-2000 || 514,723 || 54,466 || 42,337 || 41,191 || 5,156 || 23,544 || 8,600 || 29,234 || 46,872
+|-
+| 2000-2001 || 547,867 || 59,939 || 54,664 || 45,685 || 5,273 || 25,279 || 8,846 || 28,566 || 46,497
+|-
+| 2001-2002 || 582,996 || 63,211 || 68,836 || 49,046 || 5,579 || 26,514 || 8,972 || 28,930 || 46,810 
+|-
+| 2002-2003 || 586,323 || 64,757 || 74,603 || 51,519 || 4,175 || 26,513 || 8,388 || 28,017 || 45,960
+|-
+| 2003-2004 || 572,509 || 61,765 || 79,736 || 52,484 || 3,521 || 27,017 || 7,799 || 26,178 || 40,835
+|-
+| 2004-2005 || 565,039 || 62,523 || 80,466 || 53,358 || 3,035 || 28,140 || 7,244 || 25,914 || 42,215 
+|-
+| 2005-2006 || 564,766 || 62,582 || 76,503 || 59,022 || 3,448 || 28,202 || 7,009 || 27,876 || 38,712
+|-
+| 2006-2007 || 582,984 || 67,723 || 83,833 ||  62,392 || 7,886 || 28,280 || 7,126 || 29,094 || 35,282
+|-
+| 2007-2008 || 623,805 || 81,127 || 94,563 || 69,124 || 9,873 || 29,051 || 7,578 || 29,001 || 33,974
+|-
+| 2008-2009 || 671,616 || 98,235 || 103,260 || 75,065 || 12,661 || 29,697 || 8,767 || 28,065 || 29,697
+|-
+| 2009-2010 || 690,923 || 127,822 || 157,588 || 72,153 || 15,810 || 28,145 || 8,786 || 26,685 || 24,842 
+|-
+| 2010-2011 || 723,277 || 104,897 || 103,895 || 73,351 || 22,704 || 27,546 || 8,777 || 24,818 || 21,290 
+|-
+| 2011-2012 || 764,495 || 194,029 || 100,270 || 72,295 || 34,139 || 26,821 || 9,029 || 23,250 || 19,966
+|-
+| 2012-2013 || 819,644 || 235,597 || 96,754 || 70,627 || 44,566 || 27,357 || 10,868 || 21,867 || 19,568
+|-
+| 2013-2014 || 886,052 || 274,439 || 102,673 || 68,047 || 53,919 || 28,304 || 13,286 || 21,266 || 19,334
+|-
+| 2014-2015 || 974,926 || 304,040 || 132,888 || 63,710 || 59,945 || 27,240 || 23,675 || 20,993 || 19,064
+|-
+| 2015-2016 || 1,043,839 || 328,547 || 165,918 || 61,007 || 61,287 || 26,973 || 19,370 || 21,127 || 19,060
+|}
+
+==== Data by country and academic level ====
+
+The data below is only for the academic year 2015-2016. The version presented below includes only the top eight countries by the total number of students. The IIE website has more detailed information. Of these countries, [[India]] is unusual in having a much lager number of students at the graduate study level than the undergraduate study level, while [[Brazil]] and [[Saudi Arabia]] are unusual in having a large fraction of their students enrolled in non-degree programs.<ref>{{cite web|url = http://iie.org/Research-and-Publications/Open-Doors/Data/International-Students/By-Academic-Level-and-Place-of-Origin/2015-16|title = International Students: Academic Level and Place of Origin|publisher = [[Institute of International Education]]|accessdate = January 29, 2017}}</ref>
+
+{| class="wikitable sortable" border="1"
+! Country !! Total !! Undergraduate !! Graduate !! Non-degree !! [[Optional Practical Training]]
+|-
+| Mainland [[China]] || 328,547 || 135,629 || 123,250 || 17,475 || 52,193
+|-
+| [[India]] || 165,918 || 19,302 || 101,850 || 2,438 || 42,328
+|-
+| [[South Korea]] || 61,007 || 32,695 || 16,613 || 4,660 || 7,039
+|-
+| [[Saudi Arabia]] || 61,287 || 33,951 || 13,210 || 12,630 || 1,495
+|-
+| [[Canada]] || 26,973 || 13,223 || 10,220 || 633 || 2,897
+|-
+| [[Brazil]] || 19,370 || 6,990 || 4,308 || 6,751 || 1,321
+|-
+| [[Taiwan]] || 21,127 || 6,358 || 9,164 || 1,588 || 4,017
+|-
+| [[Japan]] || 19,060 || 9,285 || 3,125 || 5,234 || 1,416
+|-
+! World total || 1,043,839 || 427,313 || 383,935 || 85,093 || 147,498
+|}
+
 == History ==
 
 === Early origins of the student visa program ===
 
-Until the late 19th century, migration to the United States was relatively unrestricted, so that there was no special immigration status needed for students. However, the Passenger Act of 1855 recognized students as one of several classes of temporary immigrants, and the [[Chinese Exclusion Act]], that excluded all Chinese, carved out an exception for students.<ref name=shareok/> By 1913, U.S. Bureau of Education records indicated that 4,222 international students were enrolled in 275 U.S. universities, colleges, and technical schools; most of them were sent by foreign governments for education and training that would be useful when the students returned home.<ref name=shareok/> 
+Until the late 19th century, migration to the United States was relatively unrestricted, so that there was no special immigration status needed for students. However, the Passenger Act of 1855 recognized a separate category for temporary immigrants, and the [[Chinese Exclusion Act]], that excluded all Chinese skilled and unskilled laborers, carved out an exception for students.<ref name=shareok/> By 1913, U.S. Bureau of Education records indicated that 4,222 international students were enrolled in 275 U.S. universities, colleges, and technical schools; most of them were sent by foreign governments for education and training that would be useful when the students returned home.<ref name=shareok/> 
 
 The [[Institute of International Education]] was formed in 1919 to protect and promote the interests of international students and exchange visitors. Lobbying by the IIE led in 1921 to the classification of students as nonimmigrants and the creation of a separate nonimmigrant visa for students, thereby exempting students from the numerical quotas placed in the [[Emergency Quota Act]] of 1921 and the [[Immigration Act of 1924]].<ref name=shareok/><ref name=iie-history>{{cite web|url = http://www.iie.org/Who-We-Are/History|title = A Brief History of IIE|accessdate = February 10, 2016}}</ref> Starting 1918, all noncitizens started being required to obtain visas prior to entry to the United States, and in 1924, Congress enacted a provision requiring consular officers to make a determination of admissibility prior to issuing a visa.<ref name=americanbar>{{cite web|url = http://www.americanbar.org/content/dam/aba/publications/supreme_court_preview/BriefsV4/13-1402_amicus_resp_lawprofs.authcheckdam.pdf|title = Brief of ''Amicus Curiae'' Law Professors in Support of Respondent (Kerry v. Din)|publisher = [[American Bar Association]]}}</ref> As a result, starting around this time, the majority of noncitizens coming to the United States for study did so on student visas.
 
-=== Tightening of student visa requirements in the aftermath of terrorist attacks ===
+=== Tightening of student visa requirements in the aftermath of the 1993 terrorist attacks and 1996 IIRIRA ===
 
-In the [[1993 World Trade Center bombing]], a [[truck bomb]] was detonated below the North Tower of the [[World Trade Center]] in [[New York City]]. In the aftermath of this incident, the student visa came under increased scrutiny when it was discovered that one of the terrorists involved was in the United States on an expired student visa.<ref name=shareok/><ref name=ins-fsp-report>{{cite web|url = https://oig.justice.gov/special/0205/chapter6.htm|title = CHAPTER SIX. THE INS'S FOREIGN STUDENT PROGRAM|date = May 20, 2002|accessdate = February 16, 2016}}</ref>
+In the [[1993 World Trade Center bombing]], a [[truck bomb]] was detonated below the North Tower of the [[World Trade Center (1973–2001)|World Trade Center]] in [[New York City]]. In the aftermath of this incident, the student visa came under increased scrutiny when it was discovered that [[Eyad Ismoil]], one of the terrorists involved was in the United States on an expired student visa.<ref name="cis1">{{cite news | last = Suhler | first = Jayne Noble |author2=Timms, Ed | title = Security worries putting spotlight on student visas | url = http://www.cis.org/articles/Katz/katz1999.html | work = [[The Dallas Morning News]] | date = September 20, 1998 | accessdate = 2007-05-21}}</ref><ref name="cis2">{{cite news | last = Suhler | first = Jayne Noble |author2=Timms, Ed | title = Cases highlight flaws in federal visa system | url = http://www.cis.org/articles/Katz/katz1999.html | work = [[The Dallas Morning News]] | date = November 8, 1998 | accessdate = 2007-05-21}}</ref><ref name=shareok/><ref name=ins-fsp-report>{{cite web|url = https://oig.justice.gov/special/0205/chapter6.htm|title = CHAPTER SIX. THE INS'S FOREIGN STUDENT PROGRAM|date = May 20, 2002|accessdate = February 10, 2016}}</ref>
 
-A memorandum from the [[U.S. Department of Justice]]'s Office of Investigative Agency Policies to the Deputy Attorney General dated September 24, 1994, mentioned the need to subject foreign students to thorough and continuing scrutiny before and during their stay in the United States. On April 17, 1995, the Deputy Attorney General asked the INS Commissioner to address this issue. This led to the formation of an INS task force in June 1995 to conduct a comprehensive review of the F, M, and J visa processes. Besides the INS, the task force included members from the State Department and the United States Information Agency, and experts in the administration of international student programs.<ref name=ins-fsp-report/> The task force report, issued on December 22, 1995, identified problems in the tracking and monitoring of students by schools, problems in the certification of schools by the INS, and problems with INS receiving and maintaining up-to-date records from schools.<ref name=ins-fsp-report/> As a result of these findings, the [[Illegal Immigration Reform and Immigrant Responsibility Act of 1996]] directed the Attorney General, in consultation with the Secretary of State, to develop and conduct a program to collect certain information on nonimmigrant foreign students and exchange visitors from approved institutions of higher education and designated exchange visitor programs.<ref name=ins-fsp-report/><ref name=shareok/>
+A memorandum from the [[U.S. Department of Justice]]'s Office of Investigative Agency Policies to the Deputy Attorney General dated September 24, 1994, mentioned the need to subject foreign students to thorough and continuing scrutiny before and during their stay in the United States. On April 17, 1995, the Deputy Attorney General asked the INS Commissioner to address this issue. This led to the formation of an INS task force in June 1995 to conduct a comprehensive review of the F, M, and J visa processes. Besides the INS, the task force included members from the State Department and the United States Information Agency, and experts in the administration of international student programs.<ref name=ins-fsp-report/> The task force report, issued on December 22, 1995, identified problems in the tracking and monitoring of students by schools, problems in the certification of schools by the INS, and problems with INS receiving and maintaining up-to-date records from schools.<ref name=ins-fsp-report/> As a result of these findings, the [[Illegal Immigration Reform and Immigrant Responsibility Act of 1996]] (IIRIRA) directed the Attorney General, in consultation with the Secretary of State, to develop and conduct a program to collect certain information on nonimmigrant foreign students and exchange visitors from approved institutions of higher education and designated exchange visitor programs.<ref name=ins-fsp-report/><ref name=shareok/>
 
-In June 1997, the INS launched a pilot program for a centralized electronic reporting system for institutions, called the Coordinated Interagency Partnership Regulating International Students (CIPRIS). The CIPRIS pilot officially ended in October 1999, as the INS felt it had gathered enough data from the prototype to start working on the nationwide system.<ref name=ins-fsp-report/> The INS began working on a new system that would be called the [[Student and Exchange Visitor Program]] (SEVP) with the associated information system called the Student and Exchange Visitor Information Service (SEVIS). During the rollout, CIPRIS and SEVIS met with considerable opposition from the [[Association of International Educators]] and the [[American Council on Education]]. However, they claimed that the opposition was not against the programs in principle but due to the concern that a botched rollout by the INS could result in many student suffering.<ref name=ins-fsp-report/><ref name=shareok/>
+In June 1997, the INS launched a pilot program for a centralized electronic reporting system for institutions, called the Coordinated Interagency Partnership Regulating International Students (CIPRIS). The CIPRIS pilot officially ended in October 1999, as the INS felt it had gathered enough data from the prototype to start working on the nationwide system.<ref name=ins-fsp-report/> The INS began working on a new system that would be called the [[Student and Exchange Visitor Program]] (SEVP) with the associated information system called the Student and Exchange Visitor Information Service (SEVIS). During the rollout, CIPRIS and SEVIS met with considerable opposition from the [[NAFSA: Association of International Educators|Association of International Educators]] and the [[American Council on Education]]. However, they claimed that the opposition was not against the programs in principle but due to the concern that a botched rollout by the INS could result in many students suffering.<ref name=ins-fsp-report/><ref name=shareok/>
 
-==== Study under B visa was no longer allowed, leading to increased reliance on F and M visas ====
+=== After 9/11: Adoption of SEVIS ===
 
-In the aftermath of the [[September 11 attacks]], there was further increase in scrutiny of student visas, increasing the momentum in favor of the adoption of SEVIS.<ref name=shareok/><ref name=ins-fsp-report/> In addition, since some of the people involved with the September 11 attacks had originally intended on B visas but then taken courses at flight schools, the rules surrounding study by people on B visas were tightened. Previously, people on [[B visa]] could undertake short courses of study. Now, anybody on a B visa was required to transition to a F or M visa prior to starting a program of study. Moreover, people on B status could transition using [[Form I-539]] (i.e., change status while in the US) only if their visa had an annotation indicating that they might transition to student status.<ref name=shareok/>
+In the aftermath of the [[September 11 attacks]] (September 11, 2001) and the [[Patriot Act]] passed in response (October 26, 2001), there was further increase in scrutiny of student visas, increasing the momentum in favor of the adoption of SEVIS. This was partly because of the fact that one of the attackers, [[Hani Hanjour]], had come to the United States on a student visa.<ref name=factcheck-hanjour>{{cite web|url = http://www.factcheck.org/2013/05/911-hijackers-and-student-visas/|title = 9/11 Hijackers and Student Visas|last = Farley|first = Robert|date = May 10, 2013|accessdate = June 17, 2016}}</ref><ref name=shareok/><ref name=ins-fsp-report/> 
 
-==== Study of sensitive subjects and national security concerns ====
+Below is a timeline of the key events in the two years after the attacks describing the key steps in the evolution of SEVIS:<ref name=shareok/>
 
-A Presidential Directive on May 7, 2002, called for the creation of the [[Interagency Panel on Advanced Science and Security]] (IPASS). The original intent of IPASS was to help with the evaluation of suspicious visa applications in subjects that had implications for national security.<ref name=shareok/><ref>{{cite web|url = https://www.aps.org/publications/apsnews/200208/visas.cfm|title = Proposed New Department Complicates Outlook for Visas|publisher = [[American Physical Society]]|accessdate = February 10, 2016|publisher = [[American Physical Society]]}}</ref> 
+{| class="wikitable" border="1"
+! Date !! Type of action !! Title and reference
+|-
+| October 26, 2001 || Final legislation || [[Patriot Act]]; mandates implementation of Section 641 of the IIRIRA
+|-
+| May 16, 2002 || Proposed rule || Retention and reporting requirements for F, J, and M nonimmigrants; Student and Exchange Visitor Information System<ref>{{cite web|url = https://www.justice.gov/sites/default/files/eoir/legacy/2003/07/09/fr16may02.pdf|title = Retention and Reporting of Information  for F, J, and M Nonimmigrants; Student and Exchange Visitor Information System (SEVIS)|date = May 16, 2002|accessdate = January 29, 2017|publisher = [[U.S. Department of Justice]] [[Immigration and Naturalization Service]] in the ''[[Federal Register]]''}}</ref>
+|-
+| July 1, 2002 || Interim final rule || Allowing eligible schools to apply for preliminary enrollment in SEVIS<ref>{{cite web|url = https://www.justice.gov/sites/default/files/eoir/legacy/2003/07/09/fr01july02.pdf|title = Allowing  Eligible  Schools  To  Apply  for  Preliminary  Enrollment  in  the  Student  and  Exchange  VisitorInformation  System (SEVIS);  Interim  Final  Rule|date = July 1, 2002|accessdate = January 29, 2017|publisher = [[U.S. Department of Justice]] [[Immigration and Naturalization Service]] in the ''[[Federal Register]]''}}</ref>
+|-
+| September 25, 2002 || Interim final rule || Requiring certification of all service-approved schools for SEVIS enrollment<ref>{{cite web|url = https://www.justice.gov/sites/default/files/eoir/legacy/2002/11/06/fr25sep02.pdf|title = Requiring Certification of all Service Approved Schools for Enrollment in the Student and Exchange Visitor Information System (SEVIS)|date = September 25, 2002|accessdate = January 29, 2017|publisher = [[U.S. Department of Justice]] [[Immigration and Naturalization Service]] in the ''[[Federal Register]]''}}</ref>
+|-
+| December 11, 2002 || Interim final rule || Retention and reporting of information for F, J, and M nonimmigrants; SEVIS<ref>{{cite web|url = https://www.justice.gov/sites/default/files/eoir/legacy/2003/01/10/fr11dec02.pdf|title = Retention  and  Reporting  of  Information  for  F,  J,  and  M  Nonimmigrants;  Student  and  Exchange Visitor  Information  System  (SEVIS);  Final  Rule|date = December 11, 2002|accessdate = January 29, 2017|publisher = [[U.S. Department of Justice]] [[Immigration and Naturalization Service]] in the ''[[Federal Register]]''}}</ref>
+|-
+| January 31, 2003 || Implementation deadline || Mandatory SEVIS use begins
+|}
+
+=== Study under B visa was no longer allowed, leading to increased reliance on F and M visas===
+
+Dince some of the people involved with the September 11 attacks had originally entered on B visas but then taken courses at flight schools, the rules surrounding study by people on B visas were tightened. Previously, people on [[B visa]] could undertake short courses of study. An interim final rule passed on April 12, 2002 required anybody on a B visa to transition to a F or M visa prior to starting a program of study. Moreover, people on B status could transition using [[Form I-539]] (i.e., change status while in the US) only if their visa had an annotation indicating that they might transition to student status.<ref name=b-visa-transition-to-f-or-m-ifr>{{cite web|url = https://www.justice.gov/sites/default/files/eoir/legacy/2003/07/09/fr12ap02R.pdf|title = Requiring  Change  of  Status  From  B  to  F–1  or  M–1  Nonimmigrant  Prior  to Pursuing  a  Course  of  Study;  Final  Rule Limiting  the  Period  of  Admission  for  B Nonimmigrant  Aliens;  Proposed  Rule|date = April 12, 2002|accessdate = January 29, 2017|publisher = [[U.S. Department of Justice]], [[Immigration and Naturalization Service]], in the ''[[Federal Register]]''}}</ref><ref name=shareok/>
+
+=== Study of sensitive subjects and national security concerns ===
+
+A Presidential Directive on May 7, 2002, called for the creation of the [[Interagency Panel on Advanced Science and Security]] (IPASS). The original intent of IPASS was to help with the evaluation of suspicious visa applications in subjects that had implications for national security.<ref name=shareok/><ref>{{cite web|url = https://www.aps.org/publications/apsnews/200208/visas.cfm|title = Proposed New Department Complicates Outlook for Visas|accessdate = February 10, 2016|publisher = [[American Physical Society]]}}</ref> 
 
 A Technology Alert List (TAL) was originally created in November 2000, and subsequently expanded in August 2002. This list contains various types of technologies and domains of study that were particularly sensitive, whereby applicants for student visas in those domains of study received additional scrutiny. In addition it included a list of designated State Sponsors of Terrorism, countries from which visa applicants received additional scrutiny.<ref name=ias-tal>{{cite web|url = https://www.ias.edu/campus/vvs/alerts-tech|title = Technology Alert List|publisher = [[Institute for Advanced Study]]|accessdate = February 10, 2016}}</ref><ref>{{cite web|url = http://2001-2009.state.gov/r/pa/ei/othertstmy/33002.htm|title = Foreign Students and Scholars in the Age of Terrorism|last = Jacobs|first = Janice|date = March 26, 2003|accessdate = February 10, 2016}}</ref>
 
-=== Complete transition to SEVIS ====
+== Similarities and differences with other student statuses ==
 
-All schools and programs in the United States hosting international students and scholars were required to begin using SEVIS by January 30, 2003. SEVIS has since gone through six major release versions to resolve technical problems and accommodate new reporting requirements.
+=== Similarities and differences with the M visa ===
 
+{{further|M-1 visa}}
 
+The M visa shares a number of features with the F visa:<ref name=nolo-comparison/>
 
+* Both statuses can only be granted for people enrolled with [[Student and Exchange Visitor Program]] (SEVP)-certified institution and begins with the institution issuing an [[I-20 (form)|I-20]] to the student after the student is admitted to the program.<ref name=educationusa/> The sequence of events (admission, I-20, visa application, entry and receipt of Form I-94) are similar for both statuses.
+* For both, there is a principal status (F-1 and M-1 respectively) and a separate status for dependents (F-2 and M-2) that is contingent on the principal maintaining status.
+
+However, there are a few differences:<ref name=nolo-comparison>{{cite web|url = http://www.nolo.com/legal-encyclopedia/j-1-m-1-f-1-visa-us-study-which-one-is-best-you.html|title = J-1, M-1, or F-1 Visa for U.S. Study: Which One Is Best for You? If you're planning to study in the U.S., figure out which type of visa gives you the greatest opportunities and flexibility.|publisher = [[NOLO]]|last = Bray|first = Ilona|accessdate = March 5, 2016}}</ref>
+
+* The F visa is for academic programs, whereas the M visa is for vocational programs.<ref name=nolo-comparison/>
+* Students on M-1 visas are not permitted to engage in on-campus employment.<ref name=nolo-comparison/>
+* For students entering on a F visa, the [[Form I-94]] states the expiration date as "D/S" (Duration of Status) which means that the student may stay in the United States as long as the student is in student status. In particular, it suffices to get a new I-20 with a later expiration date. However, for M status, any extension of stay requires the filing of [[Form I-539]] ''in addition to'' obtaining an updated Form I-20.
+* F-1 students can engage in [[Curricular Practical Training]] and [[Optional Practical Training]] (both pre-completion and post-completion) whereas M-1 students can only engage in post-completion Optional Practical Training, and for a more limited duration.<ref name=uscis-students-and-employment>{{cite web|url = https://www.uscis.gov/working-united-states/students-and-exchange-visitors/students-and-employment|title = Students and Employment|publisher = [[United States Citizenship and Immigration Services]]|accessdate = March 5, 2016}}</ref>
+
+=== Similarities and differences with the J visa ===
+
+{{further|J-1 visa}}
+
+The J-1 visa can be used by students in degree programs in some cases.<ref>{{cite web|url = http://j1visa.state.gov/|title = J-1 Visa Exchange Visitor Program|publisher = [[U.S. Department of State]]|accessdate = March 5, 2016}}</ref> Some similarities with the F status:<ref name=nolo-comparison/>
+
+* Both the F and J statuses are part of the [[Student and Exchange Visitor Program]], and can only be obtained for people enrolled with SEVP-certified institutions.
+* In both cases, there is a principal status for the student (J-1) and a derivative status for the student's dependents (J-2).
+* Both statuses allow for on-campus employment but for no other employment without authorization.
+* Similar to the F status, students who enter on the J status get a "D/S" (Duration of Status) in their [[Form I-94]], which means they can stay as long as their documentation is up to date without having to renew their visa.
+
+There are some key differences:<ref name=uchicago-f1-v-j1>{{cite web|url = https://internationalaffairs.uchicago.edu/page/choosing-between-f-1-and-j-1-status|title = Choosing Between F-1 and J-1 Status|publisher = [[University of Chicago]]|accessdate = March 5, 2016}}</ref>
+
+* The J visa requires a sponsor. In some cases, the institution may itself agree to be a sponsor if it is covering the student's tuition. Otherwise, the student may be sponsored by his or her home country government, or through a scholarship program.<ref name=uchicago-f1-v-j1/>
+* The J visa program is overseen by the [[U.S. Department of State]] whereas the F visa program is overseen by [[U.S. Immigration and Customs Enforcement]] (ICE). However, both of them are managed through the Student and Exchange Visitor Program, which is a joint program of the Department of State and ICE.
+* The document used to establish status for the J visa is DS-2019, whereas that for the F visa is the I-20.
+* The J visa has a two-year home residence requirement. This says that, after completion of the exchange program, the exchange visitor must stay for at least two years in his or her home country before being able to return to the United States. The two-year residence requirement can be waived under some circumstances.<ref name=j-two-year-req>{{cite web|url = https://internationalaffairs.uchicago.edu/twoyearreq|title = J-1 Status: Two-Year Home Residency Requirement & Two-Year Repeat Bar|publisher = [[University of Chicago]]|accessdate = March 5, 2016}}</ref><ref>{{cite web|url = https://travel.state.gov/content/visas/en/study-exchange/student/residency-waiver.html|title = Waiver of the Exchange Visitor Two-Year Home-Country Physical Presence Requirement|publisher = [[U.S. Department of State]]|accessdate = March 5, 2016}}</ref>
+* The F visa has various options such as [[Curricular Practical Training]] and pre-completion and post-completion [[Optional Practical Training]]. The option available to J visa holders is called [[Academic Training]].
+* The grace period for J status holders after completion of the program is only 30 days, compared with 60 days for F status holders.
+
+==Taxation==
+
+F-1 status holders may earn income through on-campus employment, scholarships, as well as Optional Practical Training and Curricular Practical Training. Generally speaking, they need to file tax returns reporting all such income and pay taxes on it.<ref name=uchicago-f-visa-taxation>{{cite web|url = https://internationalaffairs.uchicago.edu/page/tax-responsibilities-international-students-and-scholars|title = Tax Responsibilities for International Students and Scholars|accessdate = April 11, 2016|publisher = [[University of Chicago]]}}</ref>
+
+Note that F-2 status holders cannot legally work in the United States, and therefore do not have any income tax obligations. However, they still need to file Form 8843, as discussed below.
+
+=== Determination of whether the student is a resident or a nonresident for tax purposes ===
+
+{{main article|Substantial Presence Test}}
+
+There are two tests to determine permanent residency: the [[Green Card Test]] and the Substantial Presence Test. Almost everybody in student status is likely to fail the Green Card Test since it applies only to people who have held a green card in the tax year. The relevant test for students is therefore the Substantial Presence Test.
+
+By the Substantial Presence Test, a person who is in the United States for at least 31 days in the current year and for a weighted total of at least 183 days in the past three calendar years (using a weighting formula) is a resident for tax purposes. However, one can exclude up to five calendar years in F status from this calculation. In particular, people who are arriving in the United States for the first time in F status can file as nonresidents for tax purposes for the first five years. However, those who have been in the United States recently in other statuses may need to file as residents for tax purposes due to their past presence.<ref>{{cite web|url = https://internationalaffairs.uchicago.edu/page/determine-residency-tax-purposes|title = Determine Residency for Tax Purposes|publisher = [[University of Chicago]]|accessdate = April 11, 2016}}</ref><ref>{{cite web|url = http://payroll.intuit.com/support/kb/2000071.html|title =Exemption status of foreign employees with particular visa types|publisher = Intuit Quickbooks|accessdate = April 11, 2016}}</ref>
+
+Those who are classified as residents for tax purposes need to file Form 1040, 1040A or 1040EZ. Those who are classified as nonresidents for tax purposes need to file Form 1040NR or 1040NR-EZ.
+
+=== Wages ===
+
+Income earned through on-campus part-time or full-time employment is generally classified as wages. In order to be able to earn wages, the student needs to obtain a [[Social Security Number]] and fill [[I-9 (form)|Form I-9]] and [[Form W-4]] for the employer, just like United States workers. The employer issues a [[Form W-2]] at the end of the year documenting the total income and withheld federal and state taxes. This total amount across all employers is filled in by the student on Line 7 of the Form 1040 (if a resident for tax purposes) or Line 8 of Form 1040NR (if not).
+
+Nonresidents in F status are not required to pay Social Security or Medicare taxes for employment that falls within their status, including both on-campus employment and employment through [[Curricular Practical Training]] and [[Optional Practical Training]].<ref name=irs-fica>{{cite web|url=http://www.irs.gov/Individuals/International-Taxpayers/Foreign-Student-Liability-for-Social-Security-and-Medicare-Taxes|title = Foreign Student Liability for Social Security and Medicare Taxes|publisher = [[Internal Revenue Service]]|accessdate = 2013-09-10}}</ref> 
+
+Residents for tax purposes are also exempt from Social Security and Medicare taxes for income earned where the employer is the educational institution, subject to a number of caveats.<ref name=student-fica-exemption>{{cite web|url = https://www.irs.gov/Charities-&-Non-Profits/Student-Exception-to-FICA-Tax|title = Student Exception to FICA Tax|accessdate = April 11, 2016|publisher = [[Internal Revenue Service]]}}</ref><ref>{{cite web|url=http://www.form1040nr.com/socialsecurity.php|title = Social Security & Withholding: Must You Pay Social Security and Medicare Tax?|publisher = Form1040NR.com|accessdate = 2013-09-10}}</ref> Residents ''do'' need to pay Social Security and Medicare taxes on both on-campus employment not by their university, as well as off-campus employment such as that undertaken as part of [[Curricular Practical Training]] and [[Optional Practical Training]].<ref name=student-fica-exemption/>
+
+=== Scholarships ===
+
+Tuition waivers that do not involve the student actually receiving money are not taxable and not reported as taxable. However, scholarships that involve the transfer of money to the student do need to be reported and taxed.<ref name=fellowship-taxes>{{Cite web|url = https://finserv.uchicago.edu/payroll/tax/scholarshiptax.shtml|title = Scholarship/Fellowship Taxes|accessdate = April 11, 2016}}</ref>
+
+If the student is a nonresident for tax purposes, the scholarships are reported using [[Form 1042|Form 1042-S]] and tax is withheld at 14% if the student has a SSN or [[Individual Taxpayer Identification Number]], and at 30% otherwise. The student must report the tax on Line 12 of the Form 1040NR and use it in calculating his or her tax liability. Many states do not require state tax withholding on scholarship income.<ref name=fellowship-taxes/>
+
+If the student is a resident for tax purposes, there is no federal or state tax withholding, and no form need be issued to the student. However, the student is still obliged to report the income in Line 7 of the Form 1040, and it is part of the student's taxable income.
+
+=== Contract work ===
+
+A student may engage in contract work so long as it fits the definition of on-campus employment (while the student is enrolled) or Optional or Curricular Practical Training (during the time period of the training). There are two cases:
+
+* The student is a nonresident for tax purposes: In this case, the payer is required to withhold federal taxes (14% if the student has an ITIN/SSN, 30% otherwise) and issue a Form 1042-S. The student needs to file Schedule C and report the income on Line 13.
+* The student is a resident for tax purposes: In this case, if the payer is a business, and the amount paid exceeds the $600 threshold, the payer must file [[Form 1099-MISC]]. Regardless of whether the student receives a 1099-MISC, the student must file Schedules C and SE and report the income on Line 12 of Form 1040, as well as relevant amounts on Lines 27 and 57.
+
+=== Filing Form 8843 and other miscellanea ===
+
+Resident aliens in F status are governed by the same tax filing rules as United States residents. In particular, they need to file taxes on their worldwide income (including interest income in non-US banks and financial instruments) and can take either the [[standard deduction]] or itemize their deductions.
+
+A nonresident alien in F-1 or F-2 status need not file an income tax return if his or her income is below the personal exemption, subject to various caveats.<ref>{{cite web|url = https://www.irs.gov/Individuals/International-Taxpayers/Taxation-of-Nonresident-Aliens|title = Taxation of Nonresident Aliens|accessdate = April 12, 2016|publisher = [[Internal Revenue Service]]}}</ref>
+
+Any person in F-1 or F-2 status, who is a nonresident for tax purposes during a calendar year, and is ''not'' filing an income tax return, must file a standalone Form 8843 by June 15 of the next year.<ref name=f8843>{{cite web|url = https://iss.washington.edu/no-income|title = No Income? Tax Form 8843|publisher = University of Washington International Student Services|accessdate = April 12, 2016}}</ref> Note that since people in F-2 status cannot legally earn income in the United States, they would generally need to file the standalone Form 8843.
+
+Some countries have tax treaties with the United States that allow for a reduction in the taxes that nonresidents in F status from these countries need to pay while in the United States.<ref>{{cite web|url = https://www.irs.gov/Individuals/International-Taxpayers/Claiming-Tax-Treaty-Benefits|title = Claiming Tax Treaty Benefits|accessdate = April 12, 2016|publisher = [[Internal Revenue Service]]}}</ref>
+
+== See also ==
+{{Portal|Government of the United States}}
+* [[List of United States dependent visas]]
+* [[Visa policy of the United States]]
+
+== References ==
+{{reflist|30em}}
+
+== External links ==
+* [http://qna.educouncil.org/Visa_and_Immigration/nZxyNXyYnNy.html  Sample F1 Visa Questions]
+* [http://www.uscis.gov/ilink/docView/SLB/HTML/SLB/0-0-0-1/0-0-0-11261/0-0-0-17197/0-0-0-17636.html#0-0-0-9213 8 CFR 214.2 (f)]: Link to Title 8, Code of Federal Regulations.
+* [http://travel.state.gov/visa/temp/types/types_1268.html U.S. government website]
+
+{{United States visas}}
+
+[[Category:Student migration]]
+[[Category:United States visas by type]]
