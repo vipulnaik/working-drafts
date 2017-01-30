@@ -51,6 +51,28 @@ Consultation with an appropriate peer group, labor and/or management organizatio
 
 An O-1 artist can be sponsored by a U.S. employer, U.S. agent, or a foreign employer through a U.S. agent. Although the artist cannot petition for him/herself for O-1 status, the regulations recognize that O-1 cases can involve workers who are traditionally self-employed.
 
+== Statistics ==
+
+=== Number of visas issued by year ===
+
+In the table below, the years are Fiscal Years, so for instance the year 2009 refers to the period from October 1, 2008 to September 30, 2009.<ref name=visa-approvals>{{cite web|url=https://travel.state.gov/content/dam/visas/Statistics/Non-Immigrant-Statistics/NIVDetailTables/FYs97-15_NIVDetailTable.xls |title=Non-immigrant visa statistics |publisher=[[United States Department of State]] |accessdate=January 29, 2017}}</ref> Note that this only counts O visas issued at embassies and consulates outside the United States, and not transitions to O status within the United States via [[Form I-129]]. Also, since a single person may need to renew his or her O visa, it is not an estimate of the number of people currently in the status.
+
+{| class="wikitable sortable" border="1"
+! Year !! Number of O-1 visas issued !! Number of O-2 visas issued !! Number of O-3 visas issued !! Total
+|-
+| 1997 || 3345 || 1848 || 748 || 5941
+|-
+| 1998 || 4257 || 1778 || 1056 || 7091
+|-
+| 1999 || 5009 || 2185 || 1480 || 8674
+|-
+| 2000 || 6466 || 1894 || 2101 || 10461
+|-
+| 2001 || 6666 || 1918 || 2287 || 10871
+|-
+| 2002 || 6026 || 1972 || 1760 || 9758
+|-
+| 2003 || 
 ==References==
 {{reflist}}
 *[http://www.uscis.gov/portal/site/uscis/menuitem.eb1d4c2a3e5b9ac89243c6a7543f6d1a/?vgnextoid=b9930b89284a3210VgnVCM100000b92ca60aRCRD&vgnextchannel=b9930b89284a3210VgnVCM100000b92ca60aRCRD USCIS: O-1 Visa: Individuals with Extraordinary Ability or Achievement.]

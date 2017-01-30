@@ -85,8 +85,32 @@ Related visas include:
 
 As of January 2016, there is a backlog of 64,000 requested U-visas, but only 10,000 can be issued per year.<ref name="npr">http://www.npr.org/2016/01/20/463619424/immigration-relief-possible-in-return-for-crime-victims-cooperation</ref>  Some police departments do not certify any applicants as cooperating, either for political reasons or due to confusion over the law, though in some jurisdictions like California and New York City, there are laws or policies which require prompt certification of anyone eligible.<ref name="npr" />
 
+== Statistics ==
+
+=== Number of visas issued by year ===
+
+Although the U status was created in October 2000, the first visas based on this status were issued in Fiscal Year 2009. In the table below, the years are Fiscal Years, so for instance the year 2009 refers to the period from October 1, 2008 to September 30, 2009.<ref name=visa-approvals>{{cite web|url=https://travel.state.gov/content/dam/visas/Statistics/Non-Immigrant-Statistics/NIVDetailTables/FYs97-15_NIVDetailTable.xls |title=Non-immigrant visa statistics |publisher=[[United States Department of State]] |accessdate=January 29, 2017}}</ref> Note that this only counts U visas issued at embassies and consulates outside the United States, and does not include people who changed nonimmigrant status to U status within the United States (through [[Form I-539]]).
+
+{| class="wikitable sortable" border="1"
+! Fiscal Year !! Number of U-1 visas issued !! Number of U-2 visas issued !! Number of U-3 visas issued !! Number of U-4 visas issued !! Total
+|-
+| 2009 || 8 || 0 || 5 || 0 || 13
+|-
+| 2010 || 84 || 41 || 510 || 15 || 650
+|-
+| 2011 || 132 || 61 || 1071 || 32 || 1296
+|-
+| 2012 || 170 || 103 || 1194 || 45 || 1512
+|-
+| 2013 || 169 || 116 || 1391 || 42 || 1718
+|-
+| 2014 || 149 || 147 || 1756 || 44 || 2096
+|-
+| 2015 || 121 || 126 || 1419 || 42 || 1708
+|}
+
 ==References==
-{{Reflist}}
+{{reflist|30em}}
 
 ==External links==
 *[https://www.dhs.gov/u-visa-law-enforcement-certification-resource-guide U Visa Law Enforcement Certification Resource Guide] from the [[United States Department of Homeland Security]]
