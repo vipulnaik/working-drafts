@@ -1,0 +1,32 @@
+An '''H-4 visa'''  is a [[Visa (document)|visa]] issued by the [[U.S. Citizenship and Immigration Services]] (USCIS) to immediate family members (spouse and children under 21 years of age) of the [[H-1B visa]] holders.<ref name="vasic">{{cite book|last=Vasic|first=Ivan|title=The Immigration Handbook: A Practical Guide to United States Visas, Permanent Residency and Citizenship|year=2008|publisher=McFarland|isbn=978-0-7864-4009-2|pages=93|url=https://books.google.com/books?id=ijeL_uwtWKEC&pg=PA93}}</ref>
+
+USCIS allows immediate family members of H visa holders (H-1A, H-1B, H-2A, H-2B, or H-3) to get H-4 visas to lawfully come and stay in the US. These visas are usually issued at the local US consulate office abroad. However, if the person is already in US, he or she can obtain H-4 status by filing Form I-539 for change of status.<ref>{{cite web|title=Application To Extend/Change Nonimmigrant Status|url=http://www.uscis.gov/portal/site/uscis/menuitem.5af9bb95919f35e66f614176543f6d1a/?vgnextoid=94d12c1a6855d010VgnVCM10000048f3d6a1RCRD&vgnextchannel=db029c7755cb9010VgnVCM10000045f3d6a1RCRD|publisher=[[USCIS]]|accessdate=9 August 2010}}</ref>
+
+On February 24, 2015, U.S. Citizenship and Immigration Services (USCIS) Director León Rodríguez announced that, effective May 26, 2015, the Department of Homeland Security (DHS) is extending eligibility for employment authorization to certain H-4 dependent spouses of H-1B nonimmigrants who are seeking employment-based lawful permanent resident (LPR) status. DHS amended the regulations to allow these H-4 dependent spouses to accept employment in the United States.<ref>{{cite web|title=DHS Extends Eligibility for Employment Authorization to Certain H-4 Dependent Spouses of H-1B Nonimmigrants Seeking Employment-Based Lawful Permanent Residence|url=http://www.uscis.gov/news/dhs-extends-eligibility-employment-authorization-certain-h-4-dependent-spouses-h-1b-nonimmigrants-seeking-employment-based-lawful-permanent-residence|publisher=[[USCIS]]|accessdate=25 February 2015}}</ref> These H-4 dependent spouses are also eligible to receive social security numbers.<ref name="faq.ssa.gov">https://faq.ssa.gov/link/portal/34011/34019/Article/3782/If-I-am-not-a-U-S-citizen-can-I-get-a-Social-Security-number</ref>
+
+'''Employment Authorization for Certain H-4 Dependent Spouses'''
+
+Certain H-4 dependent spouses of H-1B nonimmigrants can file Form I-765, Application for Employment Authorization, if the H-1B nonimmigrant:
+* Is the principal beneficiary of an approved [[Form I-140]], Immigrant Petition for Alien Worker; or
+* Has been granted H-1B status under sections 106(a) and (b) of the American Competitiveness in the Twenty-first Century Act of 2000 as amended by the 21st Century Department of Justice Appropriations Authorization Act (AC21).<ref>{{Cite web
+| url = https://www.uscis.gov/working-united-states/temporary-workers/employment-authorization-certain-h-4-dependent-spouses
+| title = Employment Authorization for Certain H-4 Dependent Spouses
+| website = USCIS
+| access-date = 2016-02-28
+}}</ref>
+Other H-4 visa holders are not eligible to get a [[Social Security Number]] and cannot be employed,<ref name="faq.ssa.gov"/> but they can hold a driver's license, open bank accounts, and get an [[Individual Taxpayer Identification Number]] for US tax purposes.
+
+Since these other H-4 visa holders are not issued a social security number, an ITIN (Individual tax identification number) should be obtained before filing for joint tax returns by filing Form W-7. They are not authorized to work in the United States, though they are allowed to study.
+
+Family members may alternatively be admitted in other non-immigrant categories for which they qualify, such as the [[F-1 visa|F-1]] category for children or spouses who will be students or the H-1B category for a spouse whose employer has also obtained approval of an H-1B visa petition to employ the spouse. An H-4 visa holder is admitted to the US for the duration of the primary (H-1B, H-2A, H-2B, or H-3) visa validity.<ref name="vasic"/>
+
+==See also==
+* [[List of United States dependent visas]]
+
+==References==
+{{reflist}}
+
+{{United States visas}}
+
+[[Category:Immigration to the United States]]
+[[Category:United States visas by type]]

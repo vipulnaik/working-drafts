@@ -1,0 +1,322 @@
+An '''H-2A visa''' allows a [[foreign national]] entry into the [[United States|U.S.]] for temporary or seasonal [[agricultural]] work.  There are several requirements of the employer in regard to this visa.  The H-2A temporary agricultural program establishes a means for agricultural employers who anticipate a shortage of [[domestic worker]]s to bring non-immigrant [[foreign worker]]s to the U.S. to perform agricultural labor or services of a temporary or seasonal nature.<ref>{{cite news |title=Barbados added to US work visa list |author=Staff writer |first= |last= |authorlink= |authorlink2= |url=http://www.bbc.co.uk/caribbean/news/story/2011/01/110117_nibspm.shtml |agency= |newspaper= |publisher=[[British Broadcasting Corporation|BBCCaribbean.com]] |location= |isbn= |issn= |oclc= |pmid= |pmd= |bibcode= |doi= |id= |date=17 January 2011   |page= |pages= |at=21:40 GMT |accessdate=17 January 2011 |trans_title= |quote=Barbados is among 15 countries added to a list eligible to participate in two United States foreign workers programmes known and H2A and H2B. [. . .] Jamaica, Belize and the Dominican Republic are among the 53 nations approved under both programmes.|archiveurl= |archivedate= |ref= }}</ref> In 2015 there were approximately 140,000 total temporary agricultural workers under this visa program. Terms of work can be as short as a month or two or as long as 10 months in most cases, although there are some special procedures that allow workers to stay longer than 10 months. All of these workers are covered by U.S. [[Fair Labor Standards Act|wage laws]], [[workers' compensation]] and other standards, additionally temporary workers and their employers are subject to the employer and/or individual mandates under the Affordable Care Act. Because of concern that guest workers might be unfairly exploited the US Department of Labor Wage and Hour Division is especially vigilant in auditing and inspecting H-2A employers. H-2A employers are the only group of employers who are required to pay inbound and outbound transportation, free housing, and provide meals for their workers. H-2A agricultural employers are among the most heavily regulated and monitored employers in the US.
+
+== Employing H-2A workers ==
+
+===Wages===
+The wage or rate of pay must be the same for U.S. workers and H-2A workers. The hourly rate must be at least as high as the applicable [[Adverse Effect Wage Rate]] (AEWR),<ref name="training"/> federal or state [[Minimum wage in the United States|minimum wage]], or the applicable [[Prevailing wage|prevailing hourly wage rate]], whichever is higher. The AEWR is established every year by the Department of Labor for every state except Alaska.
+
+If a worker will be paid on a [[piece work|piece rate]] basis, the worker must be paid the prevailing piece rate as determined by the State Workers Agency (SWA). If the piece rate does not result in average hourly piece rate earnings during the pay period at least equal to the amount the worker would have earned had the worker been paid at the hourly rate, then the worker’s pay must be supplemented to the equivalent hourly level. The piece rate offered must be no less than what is prevailing in the area for the same crop and/or activity.<ref name="training">Employment & Training Administration: [http://www.foreignlaborcert.doleta.gov/h-2a.cfm H-2A Certification for Temporary or Seasonal Agricultural Work]. 28 November 2007. U.S. Department of Labor, Washington, D.C. 2 December 2007</ref>
+
+===Hiring===
+Hiring means an active effort, including newspaper and radio advertising in areas of expected labor supply. Such recruitment must be at least equivalent to that conducted by non-H-2A agricultural employers in the same or similar crops and area to secure U.S. workers. This must be an effort independent of and in addition to the efforts of the SWA for at least 15 days. In establishing worker qualifications and/or job specifications, the employer must designate only those qualifications and specifications which are essential to carrying out the job and which are normally required by other employers who do not hire foreign workers.
+
+===Livelihood of workers===
+
+====Housing and meals====
+The employer must provide free housing to all workers who are not reasonably able to return to their homes or residences the same day. Such housing must be inspected and approved according to appropriate standards. The housing provided by the employer must meet all of the Department of Labor [[Occupational Safety and Health Administration]] (OSHA) standards that were set forth at CFR 1910.142 or the full set of standards at 654.404-645.417.<ref name="training"/>
+
+An alternative form of housing is rental housing, which has to meet local or state health and safety standards. In North Carolina, the current state standards include no provision for locks on doors and windows, 75&nbsp;ft<sup>3</sup> per person or 27 people per refrigerator, one wash tub per 30 people with hot and cold water, facilities for drying clothes; there are no sanitary requirements for mattresses provided, 1 toilet/15 people or 1 urinal/25 men, and 1 shower per 10 people with no privacy stalls.<ref>Farmworker Housing in North Carolina. Lori F. Khamala & Melinda Wiggins. September 2004. Farmworker Advocacy Network, North Carolina. 4 December 2007 [http://cds.aas.duke.edu/saf/migranthousing/migranthousingrevised_files/frame.htm]</ref>
+
+The employer must either provide three meals a day to each of the workers or furnish free and convenient cooking and kitchen for workers to prepare and cook their own meals. If the employer provides the meals, then the employer has the right to charge each worker a certain amount per day for the three meals.<ref name="training"/>
+
+====Transportation and tools====
+There are several provisions on the transportation of workers. The amount of transportation payment shall be no less (and shall not be required to be more) than the most economical and reasonably similar to the transportation charges for the distances involved.<ref name="training"/> The employer is responsible for several forms of transportation depending on the situation. After the worker completes at least half of the work contract period, the employer must reimburse the worker for the costs of transportation and subsistence from the place of recruitment to the place of work if these expenses were charged to the worker. The employer must provide free transportation to the worker between the employer's housing and the area of work. And upon completion of the work contract, the employer must pay the costs of a worker's subsistence and transportation back to the place of recruitment. Some special conditions apply when the worker does not return to the area of recruitment because they are moving to another job. If the employer compensates foreign workers for transportation costs then they must do so for US workers as well. If the employer provides transportation for foreign workers, they must provide transportation to US workers as well.
+
+The employer must cover the cost of tools and supplies necessary to carry out the work at no cost to the worker, unless this is uncommon and the occupation calls for the worker to provide certain items.
+
+== Application process ==
+
+The process in order for a worker to be able to start in H-2A status involves a job order from a State Workforce Agency, a Temporary Labor Certification from the U.S. Department of Labor Employment & Training Administration's Office of Foreign Labor Certification, a Form I-129 approval from the U.S. Citizenship and Immigration Services (a branch of the [[U.S. Department of Homeland Security]]), a visa from a consular officer representing the [[U.S. Department of State]], and a [[Form I-94]] issued by [[U.S. Customs and Border Protection]] at a port of entry.<ref name=h-2a-certification/><ref name=uscis-h-2a-overview>{{cite web|url = https://www.uscis.gov/working-united-states/temporary-workers/h-2a-temporary-agricultural-workers|title = H-2A Temporary Agricultural Workers|publisher = [[United States Citizenship and Immigration Services]]|accessdate = April 10, 2016}}</ref><ref name=congressional-report>{{cite web|url = https://www.uscis.gov/sites/default/files/USCIS/Resources/Resources%20for%20Congress/Congressional%20Reports/H-2A%20and%20H-2B%20Nonimmigrant%20Worker%20Classifications.pdf|title = H-2A and H-2B Nonimmigration Worker Classifications (presentation)|publisher = 2010 National Congressional Conference|accessdate = April 11, 2016}}</ref>
+
+=== Job order (ETA Form 790) ===
+
+A job offer (ETA Form 790) must be filed with the State Workforce Agency (SWA) in the area of intended employment between 60 and 75 days before the date of need for workers.<ref name=h-2a-certification/> Each State Workforce Agency has a mailing address and some have websites, contact email addresses, and phone numbers. The State Workforce Agency is also responsible for handling job orders for the [[H-2B visa]], but the specific contact person or mailing address may differ.<ref name=addresses>{{cite web|url = https://www.foreignlaborcert.doleta.gov/contacts.cfm|title = Foreign Labor Certification Contacts List|accessdate = April 11, 2016|publisher = [[U.S. Department of Labor]] [[Employment & Training Administration]] Office of Foreign Labor Certification}}</ref> The job orders are publicly listed by the State Workforce Agency (including on their website). Additionally, the employer must advertise for the position in local newspapers. Any United States citizen who applies for the job must be given one.<ref>{{cite web|url=http://www.cgdev.org/blog/do-farm-workers-developing-countries-take-jobs-americans|title = Do Farm Workers from Developing Countries Take Jobs from Americans?|last = Clemens|first = Michael|authorlink = Michael Clemens|date = February 28, 2012|accessdate = April 11, 2016}}</ref>
+
+=== H-2A Temporary Labor Certification from the U.S. Department of Labor ===
+
+The employer needs to obtain a Temporary Labor Certification (TLC) from the [[United States Department of Labor]] [[Employment & Training Administration]]'s Office of Foreign Labor Certification.<ref name=h-2a-certification>{{cite web|url = https://www.foreignlaborcert.doleta.gov/h-2a.cfm|title = H-2A Certification|publisher = [[U.S. Department of Labor]] [[Employment & Training Administration]] Office of Foreign Labor Certification}}</ref> Note that this labor certification should not be confused with [[labor certification|PERM labor certification]] for employment-based permanent immigration, or with the [[Labor Condition Application]] for H-1B and similar statuses. It is also separate from a similar process for H-2B temporary labor certification.
+
+The application package must include ETA Form 9142A and an accepted Job Order (ETA Form 790) from the State Workforce Agency. It must be filed with the Chicago National Processing Center ''or'' online through the iCert portal, no less than 45 days prior to the employer's date of need.<ref name=h-2a-certification/>
+
+In order to approve the certification, the Department must verify that:
+
+# there are not sufficient able, willing, and qualified U.S. workers available to perform the temporary and seasonal agricultural employment for which nonimmigrant foreign workers are being requested; and
+# employment of H-2A workers will not adversely affect the wages and working conditions of similarly employed U.S. workers. The statute and Departmental regulations provide numerous worker protections and employer requirements with respect to wages and working conditions. The Department's Wage and Hour Division (WHD) has responsibility for enforcing provisions of worker contracts.
+
+=== Form I-129 petition submitted to U.S. Citizenship and Immigration Services ===
+
+{{see also|Form I-129}}
+
+The employer must submit a Form I-129 (Petition for a Nonimmigrant Worker) on behalf of the prospective worker (beneficiary) with the [[United States Citizenship and Immigration Services]], with the job order (ETA Form 790) and the approved H-2A Temporary Labor Certification as initial evidence.<ref name=uscis-h-2a-overview/> Note that Form I-129 is used for a large number of nonimmigrant worker statuses, not just the H-2A. Those using it for the H-2A status need to fill the main form followed by the H classification supplement, Pages 13–17.<ref name=i-129>{{cite web|url = https://www.uscis.gov/sites/default/files/files/form/i-129.pdf|title = I-129, Petition for a Nonimmigrant Worker|accessdate = April 12, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
+
+The H-2A status is one of the statuses where it is possible for a single Form I-129 to be used for multiple beneficiaries. Additional beneficiaries may be listed on Attachment 1 (Pages 35–36) of Form I-129. However, all beneficiaries listed in a single petition must have the same requested start and end date, and they are all approved together. In case different start dates are needed for different beneficiaries, or one of them has a more complicated situation (so that beneficiary's petition may be delayed) employers are advised to file separate I-129s for such employees.<ref name=uscis-h-2a-overview/><ref name=i-129/><ref name=multiple-persons>{{cite web|url = http://www.alllaw.com/articles/nolo/us-immigration/file-one-i-129-petition-multiple-workers.html|title = Can You File One I-129 Petition for Multiple Workers? For some types of work visas, employers may save time and money by filing one visa petition for more than one worker. There are some downsides though.|last = Kendall|first = Emily|accessdate = April 11, 2016}}</ref>
+
+The filing fee for Form I-129 is $460. Forms are automatically expedited given the seasonal and time-sensitive nature of agricultural work, but it is also possible to request [[Premium Processing Service]] for $1225 to get an initial response within 15 calendar days.<ref name=uscis-premium-processing>{{cite web|url=http://www.uscis.gov/forms/how-do-i-use-premium-processing-service|title = How Do I Use the Premium Processing Service?|publisher = [[United States Citizenship and Immigration Services]]|accessdate = April 4, 2015}}</ref>
+
+In general, Form I-129 petitions can be submitted six months in advance of the job start date. However, since the petition's initial evidence includes a job order, that must be filed between 60 and 75 days before the start date, the application can effectively be submitted at most 75 days prior to the start date.
+
+==== Eligible Countries List ====
+
+[[United States Citizenship and Immigration Services]] is given an Eligible Countries List for H-2 visas (with slight differences between the H-2A and H-2B) and generally approves petitions only if the beneficiary is from a country on the list. Updates to the Eligible Countries List are published in the ''[[Federal Register]]''. Effective January 18, 2016 the Eligible Countries List contains 84 countries, and the full list can be found on the USCIS website.<ref name=uscis-h-2a-overview/> The list has expanded since it originally started: 16 new countries having been added as recently as November 2015.<ref name=uscis-additions-to-ecl>{{cite web|url = https://www.uscis.gov/news/uscis-announces-addition-16-countries-eligible-participate-h-2a-and-h-2b-visa-programs|title = USCIS Announces Addition of 16 Countries Eligible to Participate in the H-2A and H-2B Visa Programs|accessdate = April 13, 2016|date = November 18, 2015|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
+
+According to official regulations, a national from a country not on the list may only be the beneficiary of an approved H-2A petition if the Secretary of Homeland Security determines that it is in the U.S. interest for him or her to be the beneficiary of such a petition.<ref name=uscis-h-2a-overview/>
+
+A country may be added to the list based on a recommendation from the [[U.S. Department of State]], the country's government, an employer that would like to hire nationals of the country in H-2A status, or any other interested party or parties. When designating countries to include on the list, the Secretary of Homeland Security, with the concurrence of the Secretary of State, will take into account factors including, but not limited to:<ref name=uscis-h-2a-overview/>
+
+# The country's cooperation with issuing travel documents for citizens, subjects, nationals and residents of that country who are subject to a final order of removal;
+# The number of final and unexecuted (meaning completed but not yet carried out) orders of removal against citizens, subjects, nationals and residents of that country;
+# The number of orders of removal executed against citizens, subjects, nationals and residents of that country; and
+# Other factors as may serve the U.S. interest.
+
+=== Visa application ===
+
+If the beneficiary is already in the United States in a valid status and with no requirement to leave the United States, the beneficiary can simply transition to H-2A status. If the beneficiary is outside the United States, two additional steps are needed:<ref name=uscis-h-2a-overview/>
+
+* The beneficiary must apply for a H-2A visa to a United States consulate in his or her home country with the approved Form I-129 petition, ETA Form 790, approved Temporary Labor Certification, and other necessary documents. The visa decision is made by a consular officer representing the [[U.S. Department of State]].
+* Armed with the H-2A visa and other documents, the beneficiary may present himself or herself at a port of entry, where an officer working for [[U.S. Customs and Border Protection]] issues the beneficiary a [[Form I-94]] for H-2A status.
+
+== Validity ==
+
+=== Basic rules ===
+
+Below are the basic rules governing the H-2A status:<ref name=uscis-h-2a-overview/>
+
+* Each Form I-129 petition for initial employment or extension of employment can be for a duration of at most one year.
+* After the worker has completed three years in H-2A status, the worker must leave the United States for at least three months before being able to return in H-2A status. In fact, the rules count continuous stay across all H statuses for the purpose of counting the three years.
+
+=== Calculation of interrupted stay ===
+
+For workers who leave the United States temporarily, the following rules apply with respect to excluding time outside the United States:<ref name=interrupted-stay>{{cite web|url = https://www.uscis.gov/working-united-states/temporary-workers/h-2a-agricultural-workers/calculating-interrupted-stays-h-2-classifications|title = Calculating Interrupted Stays for the H-2 Classifications|publisher = [[United States Citizenship and Immigration Services]]|accessdate = April 12, 2016}}</ref>
+
+* If the worker was in the United States for 18 months or less, then H-2 time is interrupted if the worker is outside the United States for at least 45 days but less than 3 months. This means that time spent outside the United States will not count toward the 3-year limit, but rather, upon return, the worker's clock will resume from where it left off at the time of departure.
+* If the worker has been in the United States for somewhere between 18 months and 3 years, the worker's H-2 time is interrupted if the worker is outside the United States for at least 2 months but less than 3 months.
+
+Note that the time needed outside the United States in order to qualify for an interrupted stay exceeds the maximum time permissible for [[automatic visa revalidation]], which is 30 days.
+
+If the worker is outside the United States for 3 months or more, the worker's clock is completely reset, and whenever the worker next returns on a H-2 visa, the worker's time in the United States starts from zero.
+
+== History ==
+
+=== Introduction in 1986 ===
+
+The [[Immigration and Nationality Act of 1952]] introduced a temporary unskilled worker category, the H-2 category. The [[Immigration Reform and Control Act of 1986]] subdivided this category into two subcategories: the H-2A (an uncapped category for temporary agricultural workers) and H-2B (a capped category for temporary workers in other domains). The particular importance given to temporary agricultural workers was intended to balance the potential decline in the illegal immigrant population due to the increased border security and immigration enforcement provisions of the Act.<ref>{{cite web|url = http://www.workingimmigrants.com/2013/01/temporary_worker_programs_intr.html|title = Temporary worker programs: Introduction|date = January 12, 2013|accessdate = April 12, 2016|publisher = Working Immigrants}}</ref>
+
+=== Introduction of Premium Processing Service in 2001 ===
+
+On June 1, 2001, the [[Premium Processing Service]] was introduced at a price of $1000, available for [[Form I-129]] petitions for most statuses, including the H-2A status.<ref name=doj-factsheet>{{cite web|url = https://www.uscis.gov/sites/default/files/files/pressrelease/PremProcSer_060101.pdf|title = Fact Sheet: Premium Processing Service|publisher = [[United States Citizenship and Immigration Services]]|accessdate = April 12, 2016}}</ref> In November 2010, the Premium Processing Service fee was hiked from $1000 to $1225 as part of a general change to the fee schedule for USCIS forms. The change would become effective in 2011.<ref>{{cite web|url=http://www.h1base.com/visa/work/H1BFeesIncreaseForH1BVisa2011filingApplications%20/ref/1533/|title = H1B Fee Increase|publisher = H1Base|accessdate = April 5, 2015}}</ref>
+
+=== Changes to the Eligible Countries List ===
+
+The Eligible Countries List for the H-2A was created through a rule published by the [[U.S. Department of Homeland Security]] on December 18, 2008 and effective January 17, 2009.<ref name=ecl-start/> The list has grown gradually from 28 countries in the beginning to 84 countries as of 2016. Summarized below are the dates of various ''[[Federal Register]]'' announcements on updates to the list, with the total number of countries, number of new countries added, and the names of the new countries added. The dates listed below are the announcement dates. The date that the list becomes effective may be a little after the announcement date. Generally, updated lists become effective starting around January 17 or January 18 of the year.
+
+{| class="wikitable sortable" border="1"
+! Date !! Size of Eligible Countries List !! Number of new countries !! Number of removed countries !! Full list !! New countries !! Removed countries
+|-
+| December 18, 2008<ref name=ecl-start>{{cite web|url = https://www.federalregister.gov/articles/2008/12/18/E8-29785/identification-of-foreign-countries-whose-nationals-are-eligible-to-participate-in-the-h-2a-visa#h-6|title = Identification of Foreign Countries Whose Nationals Are Eligible To Participate in the H-2A Visa Program|publisher = ''[[Federal Register]]''|date = December 18, 2008|accessdate = April 13, 2016|last = Schneider|first = Paul}}</ref> || 28 || || || [[Argentina]], [[Australia]], [[Belize]], [[Brazil]], [[Bulgaria]], [[Canada]], [[Chile]], [[Costa Rica]], [[Dominican Republic]], [[El Salvador]], [[Guatemala]], [[Honduras]], [[Indonesia]], [[Israel]], [[Jamaica]], [[Japan]], [[Mexico]], [[Moldova]], [[New Zealand]], [[Peru]], [[Philippines]], [[Poland]], [[Romania]], [[South Africa]], [[South Korea]], [[Turkey]], [[Ukraine]], [[United Kingdom]] || ||
+|-
+| January 19, 2010<ref>{{cite web|url = https://www.federalregister.gov/articles/2010/01/19/2010-960/identification-of-foreign-countries-whose-nationals-are-eligible-to-participate-in-the-h-2a-and-h-2b|title = Identification of Foreign Countries Whose Nationals Are Eligible To Participate in the H-2A and H-2B Visa Programs|publisher = ''[[Federal Register]]''|date = January 19, 2010|accessdate = April 13, 2016|last = Napolitano|first = Janet|authorlink = Janet Napolitano}}</ref> || 39 || 11 || 0 || [[Argentina]], [[Australia]], [[Belize]], [[Brazil]], [[Bulgaria]], [[Canada]], [[Chile]], [[Costa Rica]], [[Croatia]], [[Dominican Republic]], [[Ecuador]], [[El Salvador]], [[Ethiopia]], [[Guatemala]], [[Honduras]], [[Indonesia]], [[Ireland]], [[Israel]], [[Jamaica]], [[Japan]], [[Lithuania]], [[Mexico]], [[Moldova]], [[Netherlands]], [[Nicaragua]], [[New Zealand]], [[Norway]], [[Peru]], [[Philippines]], [[Poland]], [[Romania]], [[Serbia]], [[Slovakia]], [[South Africa]], [[South Korea]], [[Turkey]], [[Ukraine]], [[United Kingdom]], [[Uruguay]] || [[Croatia]], [[Ecuador]], [[Ethiopia]], [[Indonesia]], [[Ireland]], [[Lithuania]], [[Netherlands]], [[Nicaragua]], [[Norway]], [[Serbia]], [[Uruguay]] || --
+|-
+| January 18, 2011<ref>{{cite web|url = https://www.federalregister.gov/articles/2011/01/18/2011-646/identification-of-foreign-countries-whose-nationals-are-eligible-to-participate-in-the-h-2a-and-h-2b|title = Identification of Foreign Countries Whose Nationals Are Eligible To Participate in the H-2A and H-2B Nonimmigrant Worker Programs|date = January 18, 2011|accessdate = April 13, 2016|publisher = ''[[Federal Register]]''|last = Napolitano|first = Janet|authorlink = Janet Napolitano}}</ref> || 53 || 15 || 1 || [[Argentina]], [[Australia]], [[Barbados]], [[Belize]], [[Brazil]], [[Bulgaria]], [[Canada]], [[Chile]], [[Costa Rica]], [[Croatia]], [[Dominican Republic]], [[Ecuador]], [[El Salvador]], [[Estonia]], [[Ethiopia]], [[Fiji]], [[Guatemala]], [[Honduras]], [[Hungary]], [[Ireland]], [[Israel]], [[Jamaica]], [[Japan]], [[Kiribati]], [[Latvia]], [[Lithuania]], [[Republic of Macedonia|Macedonia]], [[Mexico]], [[Moldova]], [[Nauru]], [[Netherlands]], [[Nicaragua]], [[New Zealand]], [[Norway]], [[Papua New Guinea]], [[Peru]], [[Philippines]], [[Poland]], [[Romania]], [[Samoa]], [[Serbia]], [[Slovakia]], [[Slovenia]], [[Solomon Islands]], [[South Africa]], [[South Korea]], [[Tonga]], [[Turkey]], [[Tuvalu]], [[Ukraine]], [[United Kingdom]], [[Uruguay]], [[Vanuatu]] || [[Barbados]], [[Estonia]], [[Fiji]], [[Hungary]], [[Kiribati]], [[Latvia]], [[Republic of Macedonia|Macedonia]], [[Nauru]], [[Papua New Guinea]], [[Samoa]], [[Slovenia]], [[Solomon Islands]], [[Tonga]], [[Tuvalu]], [[Vanuatu]] || [[Indonesia]]
+|-
+| January 18, 2012<ref>{{cite web|url = https://www.federalregister.gov/articles/2012/01/18/2012-870/identification-of-foreign-countries-whose-nationals-are-eligible-to-participate-in-the-h-2a-and-h-2b|title = Identification of Foreign Countries Whose Nationals Are Eligible To Participate in the H-2A and H-2B Nonimmigrant Worker Programs|publisher = ''[[Federal Register]]''|date = January 18, 2012|accessdate = April 13, 2016|last = Napolitano|first = Janet|authorlink = Janet Napolitano}}</ref>|| 58 || 5 || 0 || [[Argentina]], [[Australia]], [[Barbados]], [[Belize]], [[Brazil]], [[Bulgaria]], [[Canada]], [[Chile]], [[Costa Rica]], [[Croatia]], [[Dominican Republic]], [[Ecuador]], [[El Salvador]], [[Estonia]], [[Ethiopia]], [[Fiji]], [[Guatemala]], [[Haiti]], [[Honduras]], [[Hungary]], [[Iceland]], [[Ireland]], [[Israel]], [[Jamaica]], [[Japan]], [[Kiribati]], [[Latvia]], [[Lithuania]], [[Republic of Macedonia|Macedonia]], [[Mexico]], [[Moldova]], [[Montenegro]], [[Nauru]], [[Netherlands]], [[Nicaragua]], [[New Zealand]], [[Norway]], [[Papua New Guinea]], [[Peru]], [[Philippines]], [[Poland]], [[Romania]], [[Samoa]], [[Serbia]], [[Slovakia]], [[Slovenia]], [[Solomon Islands]], [[South Africa]], [[South Korea]], [[Spain]], [[Switzerland]], [[Tonga]], [[Turkey]], [[Tuvalu]], [[Ukraine]], [[United Kingdom]], [[Uruguay]], [[Vanuatu]] || [[Haiti]], [[Iceland]], [[Montenegro]], [[Spain]], [[Switzerland]] || --
+|-
+| January 18, 2013<ref>{{cite web|url = https://www.federalregister.gov/articles/2013/01/18/2013-00908/identification-of-foreign-countries-whose-nationals-are-eligible-to-participate-in-the-h-2a-and-h-2b|title = Identification of Foreign Countries Whose Nationals Are Eligible To Participate in the H-2A and H-2B Nonimmigrant Worker Programs|publisher = ''[[Federal Register]]''|last = Napolitano|first = Janet|authorlink = Janet Napolitano|date = January 18, 2013|accessdate = April 13, 2016}}</ref> || 59 || 1 || 0 || [[Argentina]], [[Australia]], [[Barbados]], [[Belize]], [[Brazil]], [[Bulgaria]], [[Canada]], [[Chile]], [[Costa Rica]], [[Croatia]], [[Dominican Republic]], [[Ecuador]], [[El Salvador]], [[Estonia]], [[Ethiopia]], [[Fiji]], [[Grenada]], [[Guatemala]], [[Haiti]], [[Honduras]], [[Hungary]], [[Iceland]], [[Ireland]], [[Israel]], [[Jamaica]], [[Japan]], [[Kiribati]], [[Latvia]], [[Lithuania]], [[Republic of Macedonia|Macedonia]], [[Mexico]], [[Moldova]], [[Montenegro]], [[Nauru]], [[Netherlands]], [[Nicaragua]], [[New Zealand]], [[Norway]], [[Papua New Guinea]], [[Peru]], [[Philippines]], [[Poland]], [[Romania]], [[Samoa]], [[Serbia]], [[Slovakia]], [[Slovenia]], [[Solomon Islands]], [[South Africa]], [[South Korea]], [[Spain]], [[Switzerland]], [[Tonga]], [[Turkey]], [[Tuvalu]], [[Ukraine]], [[United Kingdom]], [[Uruguay]], [[Vanuatu]] || [[Grenada]] || --
+|-
+| January 17, 2014<ref>{{cite web|url = https://www.federalregister.gov/articles/2014/01/17/2014-00331/identification-of-foreign-countries-whose-nationals-are-eligible-to-participate-in-the-h-2a-and-h-2b|title = Identification of Foreign Countries Whose Nationals Are Eligible To Participate in the H-2A and H-2B Nonimmigrant Worker Programs|publisher = ''[[Federal Register]]''|last = Johnson|first = Jeh Charles|authorlink = Jeh Johnson}}</ref> || 63 || 4 || 0 || [[Argentina]], [[Australia]], [[Austria]], [[Barbados]], [[Belize]], [[Brazil]], [[Bulgaria]], [[Canada]], [[Chile]], [[Costa Rica]], [[Croatia]], [[Dominican Republic]], [[Ecuador]], [[El Salvador]], [[Estonia]], [[Ethiopia]], [[Fiji]], [[Grenada]], [[Guatemala]], [[Haiti]], [[Honduras]], [[Hungary]], [[Iceland]], [[Ireland]], [[Israel]], [[Italy]], [[Jamaica]], [[Japan]], [[Kiribati]], [[Latvia]], [[Lithuania]], [[Republic of Macedonia|Macedonia]], [[Mexico]], [[Moldova]], [[Montenegro]], [[Nauru]], [[Netherlands]], [[Nicaragua]], [[New Zealand]], [[Norway]], [[Panama]], [[Papua New Guinea]], [[Peru]], [[Philippines]], [[Poland]], [[Romania]], [[Samoa]], [[Serbia]], [[Slovakia]], [[Slovenia]], [[Solomon Islands]], [[South Africa]], [[South Korea]], [[Spain]], [[Switzerland]], [[Thailand]], [[Tonga]], [[Turkey]], [[Tuvalu]], [[Ukraine]], [[United Kingdom]], [[Uruguay]], [[Vanuatu]] || [[Austria]], [[Italy]], [[Panama]], [[Thailand]] || --
+|-
+| December 16, 2014<ref>{{cite web|url = https://www.federalregister.gov/articles/2014/12/16/2014-29353/identification-of-foreign-countries-whose-nationals-are-eligible-to-participate-in-the-h-2a-and-h-2b|title = Identification of Foreign Countries Whose Nationals Are Eligible To Participate in the H-2A and H-2B Nonimmigrant Worker Programs|last = Johnson|first = Jeh Charles|authorlink = Jeh Johnson|date = December 16, 2014|accessdate = April 13, 2016|publisher = ''[[Federal Register]]''}}</ref> || 68 || 5 || 0 || [[Argentina]], [[Australia]], [[Austria]], [[Barbados]], [[Belize]], [[Brazil]], [[Bulgaria]], [[Canada]], [[Chile]], [[Costa Rica]], [[Croatia]], [[Czech Republic]], [[Denmark]], [[Dominican Republic]], [[Ecuador]], [[El Salvador]], [[Estonia]], [[Ethiopia]], [[Fiji]], [[Grenada]], [[Guatemala]], [[Haiti]], [[Honduras]], [[Hungary]], [[Iceland]], [[Ireland]], [[Israel]], [[Italy]], [[Jamaica]], [[Japan]], [[Kiribati]], [[Latvia]], [[Lithuania]], [[Republic of Macedonia|Macedonia]], [[Madagascar]], [[Mexico]], [[Moldova]], [[Montenegro]], [[Nauru]], [[The Netherlands]], [[Nicaragua]], [[New Zealand]], [[Norway]], [[Panama]], [[Papua New Guinea]], [[Peru]], [[The Philippines]], [[Poland]], [[Portugal]], [[Romania]], [[Samoa]], [[Serbia]], [[Slovakia]], [[Slovenia]], [[Solomon Islands]], [[South Africa]], [[South Korea]], [[Spain]], [[Sweden]], [[Switzerland]], [[Thailand]], [[Tonga]], [[Turkey]], [[Tuvalu]], [[Ukraine]], [[United Kingdom]], [[Uruguay]], [[Vanuatu]] || [[Czech Republic]], [[Denmark]], [[Madagascar]], [[Portugal]], [[Sweden]] || --
+|-
+| November 18, 2015<ref name=uscis-additions-to-ecl/><ref>{{cite web|url = https://www.gpo.gov/fdsys/pkg/FR-2015-11-18/html/2015-29373.htm|title = Identification of Foreign Countries Whose Nationals Are Eligible to Participate in the H-2A and H-2B Nonimmigrant Worker Programs|last = Johnson|first = Jeh Charles|date = November 18, 2015|accessdate = April 13, 2016|publisher = ''[[Federal Register]]''}}</ref> || 84 || 16 || 0 || [[Andorra]], [[Argentina]], [[Australia]], [[Austria]], [[Barbados]], [[Belgium]], [[Belize]], [[Brazil]], [[Brunei]], [[Bulgaria]], [[Canada]], [[Chile]], [[Colombia]], [[Costa Rica]], [[Croatia]], [[Czech Republic]], [[Denmark]], [[Dominican Republic]], [[Ecuador]], [[El Salvador]], [[Estonia]], [[Ethiopia]], [[Fiji]], [[Finland]], [[France]], [[Germany]], [[Greece]], [[Grenada]], [[Guatemala]], [[Haiti]], [[Honduras]], [[Hungary]], [[Iceland]], [[Ireland]], [[Israel]], [[Italy]], [[Jamaica]], [[Japan]], [[Kiribati]], [[Latvia]], [[Liechtenstein]], [[Lithuania]], [[Luxembourg]], [[Republic of Macedonia|Macedonia]], [[Madagascar]], [[Malta]], [[Mexico]], [[Moldova]], [[Monaco]], [[Montenegro]], [[Nauru]], [[The Netherlands]], [[Nicaragua]], [[New Zealand]], [[Norway]], [[Panama]], [[Papua New Guinea]], [[Peru]], [[The Philippines]], [[Poland]], [[Portugal]], [[Romania]], [[Samoa]], [[San Marino]], [[Serbia]], [[Singapore]], [[Slovakia]], [[Slovenia]], [[Solomon Islands]], [[South Africa]], [[South Korea]], [[Spain]], [[Sweden]], [[Switzerland]], [[Taiwan]], [[Thailand]], [[Timor-Leste]], [[Tonga]], [[Turkey]], [[Tuvalu]], [[Ukraine]], [[United Kingdom]], [[Uruguay]], [[Vanuatu]] || [[Andorra]], [[Belgium]], [[Brunei]], [[Colombia]], [[Finland]], [[France]], [[Germany]], [[Greece]], [[Liechtenstein]], [[Luxembourg]], [[Malta]], [[Monaco]], [[San Marino]], [[Singapore]], [[Taiwan]], [[Timor-Leste]] || --
+|}
+
+== Statistics ==
+
+=== Visa approvals by fiscal year and country ===
+
+Note that the count below is of the number of visas issued by a United States consular officer. The years here are Fiscal Years, so for instance the year 2004 refers to the period from October 1, 2003 to September 30, 2004. These should approximately match but may not exactly match with the number of [[Form I-129]] approvals of H-2A status by the [[United States Citizenship and Immigration Services]], or the actual number of workers who arrive in the United States in H-2A status.<ref name=visa-approvals>{{cite web|url=https://travel.state.gov/content/dam/visas/Statistics/Non-Immigrant-Statistics/NIVDetailTables/FYs97-14_NIVDetailTable.xls|title = Non-immigrant visa statistics|publisher = [[United States Department of State]]|accessdate = April 8, 2016}}</ref> The countries included in the chart below are selected as the top users in Fiscal Year 2014. In addition to the top users of Fiscal Year 2014, [[Thailand]] and [[Haiti]] are included because they used to be bigger users of the program in past years. Note that the Eligible Countries List became active starting January 2009, so Haiti and Thailand had a dip in their usage between the time the list became active and the time they were added to the list.
+
+As we can see from the data below, [[Mexico]] has consistently accounted for over 90% of the use of the H-2A visa. Currently, the other source countries for H-2A visa holders are mostly from the Americas, in regions physically close to the United States. The biggest user from the African continent is [[South Africa]] (accounting for over 90% of usage from Africa) and the biggest user from [[Europe]] is [[Romania]] (accounting for about half of the usage from Europe). Also, whereas Mexico and Peru have been consistently strong users of the program since 1997 (when records started being kept), the usage by other countries has started more recently.
+
+{| class="sortable" border="1"
+! Fiscal Year !! Total number of H-2A visas !! [[Mexico]] !! [[South Africa]] !! [[Guatemala]] !! [[Peru]] !! [[Honduras]] !! [[Nicaragua]] (became eligible in 2010) !! [[Romania]] !! [[Thailand]] (became eligible in 2014) !! [[Haiti]] (became eligible in 2012)
+|-
+| 1997 || 16,011 || 15,335 || 0 || 0 || 349 || 0 || 2 || 0 || 0 || 0
+|-
+| 1998 || 22,676 || 21,969 || 6 || 0 ||  378 || 7 || 0 || 0 || 0 || 0
+|-
+| 1999 || 28,568 || 27,293 || 173 || 5 || 468 || 12 || 11 || 0 || 0 ||  0
+|-
+| 2000 || 30,201 || 28,442 || 551 || 93 || 407 || 6 || 21 || 0 || 2 || 0
+|-
+| 2001 || 31,523 || 29,273 || 971 || 4 || 458 || 5 || 27 || 1 || 3 || 4
+|-
+| 2002 || 31,538 || 29,006 || 1,209 || 0 || 466 || 1 || 27 || 0  || 3  || 0
+|-
+| 2003 || 29,882 || 27,117 || 1,323 || 17 || 480 || 4 || 63 || 1 || 110 || 3
+|-
+| 2004 || 31,774 || 28,683 || 1,326 || 39 || 614 || 3 || 114 || 368 || 339 || 3
+|-
+| 2005 || 31,892 || 28,563 || 1,247 || 87 || 687 || 15 || 130 || 150 || 374 || 5
+|-
+| 2006 || 37,149 || 34,195 || 1,054 || 110 || 841 || 3 || 146 || 87 || 11 || 78
+|-
+| 2007 || 50,791 || 47,399 || 1,159 || 179 || 900 || 21 || 166 || 157 || 10 || 110 
+|-
+| 2008 || 64,404 || 59,669 || 1,375 || 534 || 887 || 21 || 225 || 242 || 32 || 558 
+|-
+| 2009 || 60,112 || 55,693 || 1,234 || 807 || 910 || 8 || 128 || 166 || 11 || 296
+|-
+| 2010 || 55,921 || 52,317 || 1,123 || 660 || 830 || 20 || 194 || 206 || 11 || 0
+|-
+| 2011 || 55,384 || 51,927 || 1,018 || 624 || 809 || 20 || 240 || 165 || 9 || 0
+|-
+| 2012 || 65,345 || 61,324 || 1,122 || 702 || 993 || 33 || 260 || 185 || 11 || 58
+|-
+| 2013 || 74,192 || 69,787 || 1,298 || 982 || 361 || 173 || 276 || 164 || 7 || 14
+|-
+| 2014 || 89,274 || 83,674 || 1,591 || 1,453 || 790 || 525 || 318 || 195 || 15 || 15
+|}
+
+=== Number of petitions approved by USCIS broken down by quarter and state ===
+
+Since Fiscal Year 2012, the USCIS has released data on the number of H-2A petitions (Forms I-129) received, approved, and denied, broken down by quarter, U.S. state, and employer.<ref>{{cite web|url = https://www.uscis.gov/tools/reports-studies/immigration-forms-data/data-set-form-i-129-petition-temporary-agricultural-h-2a-worker|title = Data Set: Form I-129 Petition for Temporary Agricultural (H-2A) Worker|accessdate = April 23, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref> Note the following caveats:
+
+* Years and quarters use the United States fiscal year, that starts on October 1 of the previous calendar year and ends on September 30 of the calendar year. For instance, 2012 Q1 starts on October 1, 2011 and ends on December 31, 2011.
+* Since a single H-2A petition can be filed for multiple workers, the number of approved petitions is substantially less than the number of workers who were approved.
+* The quarter in which a petition is received may not be the same as the quarter in which it is approved. Similarly, the quarter in which a petition is approved may not be the same as the quarter in which a visa based on the petition is issued (however, the process is likely to span at most two adjacent quarters, due the expedition of processing for H-2A petitions and the fact that a petition cannot be filed more than 75 days before the start date).
+
+Variation based on the quarter and state reflects seasonal and geographical differences in demand for agricultural labor.
+
+Data for some quarters is included below.<ref name=uscis-fy-2012-all-qs>{{cite web|url = https://www.uscis.gov/sites/default/files/USCIS/Resources/Reports%20and%20Studies/Immigration%20Forms%20Data/Employment-based/I129-h2a-performancedata_fy2012_qtr4.pdf|title = Petition for a Nonimmigrant Worker (I-129) with a Status of Temporary Agricultural Worker (H-2A), Receipts and Completions by Quarter by State by Company, Fiscal Year 2012|publisher = [[United States Citizenship and Immigration Services]]|date = December 12, 2012|accessdate = April 23, 2016}}</ref><ref>{{cite web|url = https://www.uscis.gov/sites/default/files/USCIS/Resources/Reports%20and%20Studies/Immigration%20Forms%20Data/Employment-based/I129_h2a_performancedata_fy2013_qtr3.pdf|title = Form I-129 Petition for a Nonimmigrant Worker with a Status of Temporary Agricultural Worker. Receipts, Approvals and Denials by Petitioner State and Quarter. Fiscal Year 2013: October 2012 - June 2013|date = January 22, 2014|accessdate = April 23, 2016}}</ref><ref>{{cite web|url = https://www.uscis.gov/sites/default/files/USCIS/Resources/Reports%20and%20Studies/Immigration%20Forms%20Data/Employment-based/I-129H2A-FY13Q4.pdf|title = Number of I-129 Petition for a Nonimmigrant Temporary Agricultural Worker (H-2A) by Case Status and State, July 1 - September 30, 2013|publisher = [[United States Citizenship and Immigration Services]]|accessdate = April 23, 2016|date = March 19, 2014}}</ref>
+
+{| class="wikitable sortable" border="1"
+! State !! 2012Q1 !! 2012Q2 !! 2012Q3 !! 2012Q4 !! 2013Q1 !! 2013Q2 !! 2013Q3 !! 2013Q4
+|-
+| [[Alabama]] || 7 || 7 || 5 || 3 || 5 || 6 || 2 || 4
+|-
+| [[Alaska]] || 0 || 1 || 0 || 0 || 0 || 1 || 0 || 0
+|-
+| [[Arizona]] || 3 || 5 || 5 || 3 || 8 || 3 || 9 || 1
+|-
+| [[Arkansas]] || 6 || 74 || 30 || 5 || 16 || 59 || 26 || 8
+|-
+| [[California]] || 17 || 11 || 13 || 7 || 12 || 22 || 22 || 17
+|-
+| [[Colorado]] || 27 || 77 || 30 || 8 || 29 || 54 || 33  || 11
+|-
+| [[Connecticut]] || 0 || 1 || 4 || 0 || 0 || 0 || 1 || 0
+|-
+| [[Delaware]] || 1 || 1 || 1 || 1 || 1 || 1 || 1 || 2
+|-
+| [[Washington, D.C.|District of Columbia]] || 0 || 1 || 0 || 0 || 0 || 0 || 0 || 0
+|-
+| [[Florida]] || 59 || 19 || 45 || 22 || 65 || 23 || 47 || 58
+|-
+| [[Georgia (U.S. state)|Georgia]] || 14 || 29 || 48 || 30 || 31 || 100 || 56 || 72
+|-
+| [[Hawaii]] || 3 || 1 || 0 || 0 || 1 || 0 || 0 || 1
+|-
+| [[Idaho]] || 12 || 388 || 77 || 21 || 8 || 380 || 127 || 24 
+|-
+| [[Illinois]] || 0 || 10 || 9 || 2 || 0 || 5 || 2 || 2
+|-
+| [[Indiana]] || 2 || 2 || 2 || 1 || 0 || 3 || 0 || 0
+|-
+| [[Iowa]] || 5 || 9 || 17 || 6 || 15 || 11 || 28 || 52 
+|-
+| [[Kansas]] || 22 || 57 || 40 || 13 || 17 || 44 || 25 || 7
+|-
+| [[Kentucky]] || 4 || 146 || 591 || 178 || 16 || 194 || 500 || 322
+|-
+| [[Louisiana]] || 110 || 250 || 147 || 70 || 175 || 238 || 84 || 90
+|-
+| [[Maine]] || 5 || 4 || 27 || 5 || 3 || 2 || 23 || 3
+|-
+| [[Maryland]] || 1 || 33 || 11 || 3 || 3 || 24 || 6 || 4
+|-
+| [[Massachusetts]] || 0 || 2 || 0 || 1 || 0 || 2 || 0 || 0
+|-
+| [[Michigan]] || 0 || 8 || 3 || 0 || 0 || 3 || 1 || 1
+|-
+| [[Minnesota]] || 7 || 39 || 31 || 11 || 8 || 38 || 22 || 12 
+|-
+| [[Mississippi]] || 4 || 35 || 18 || 9 || 16 || 24 || 16 || 13
+|-
+| [[Missouri]] || 2 || 41 || 11 || 2 || 5 || 50 || 9 || 3
+|-
+| [[Montana]] || 3 || 8 || 6 || 3 || 2 || 13 || 7 || 4 
+|-
+| [[Nebraska]] || 5 || 10 || 9 || 1 || 5 || 9 || 9 || 4
+|-
+| [[Nevada]] || 1 || 7 || 14 || 8 || 5 || 6 || 5 || 7
+|-
+| [[New Hampshire]] || 0 || 58 || 168 || 86 || 7 || 75 || 113 || 126
+|-
+| [[New Jersey]] || 0 || 16 || 5 || 0 || 0 || 17 || 3 || 0
+|-
+| [[New Mexico]] || 4 || 10 || 4 || 2 || 2 || 9 || 6 || 0
+|-
+| [[New York (state)|New York]] || 8 || 97 || 86 || 61 || 4 || 91 || 52 || 78
+|-
+| [[North Carolina]] || 103 || 262 || 267 || 81 || 101 || 288 || 227 || 125
+|-
+| [[North Dakota]] || 11 || 85 || 58 || 21 || 13 || 92 || 67 || 31
+|-
+| [[Ohio]] || 0 || 17 || 9 || 0 || 0 || 7 || 0 || 1
+|-
+| [[Oklahoma]] || 17 || 52 || 45 || 22 || 18 ||61 || 42 || 29
+|-
+| [[Oregon]] || 0 || 1 || 3 || 2 || 1 || 2 || 1 || 1 
+|-
+| [[Pennsylvania]] || 0 || 29 || 0 || 4 || 0 || 14 || 9 || 4
+|-
+| [[Rhode Island]] || 0 || 0 || 0 || 0 || 0 || 0 || 0 || 0
+|-
+| [[South Carolina]] || 1 || 13 || 4 || 1 || 4 || 9 || 5 || 0
+|-
+| [[South Dakota]] || 21 || 34 || 31 || 15 || 14 || 33 || 29 || 19
+|-
+| [[Tennessee]] || 1 || 29 || 81 || 20 || 1 || 28 || 27 || 11
+|-
+| [[Texas]] || 29 || 145 || 91 || 42 || 42 || 142 || 78 || 58
+|-
+| [[Utah]] || 211 || 232 || 161 || 157 || 138 || 340 || 130 || 189
+|-
+| [[Vermont]] || 1 || 11 || 23 || 17 || 4 || 15 || 24 || 30 
+|-
+| [[Virginia]] || 1 || 25 || 23 || 17 || 16 || 124  || 60 || 30
+|-
+| [[Washington (state)|Washington]] || 11 || 4 || 21 || 12 || 3 || 7 || 25 || 41
+|-
+| [[West Virginia]] || 0 || 1 || 0 || 0 || 0 || 1 || 0 || 0
+|-
+| [[Wisconsin]] || 0 || 3 || 0 || 0 || 0 || 1 || 0 || 0
+|-
+| [[Wyoming]] || 107 || 218 || 119 || 82 || 130 || 178 || 110 || 85
+|-
+| Not reported by state || 1 || 1 || 17 || 0 || 0 || 2 || 10 || 0
+|-
+! Total || 847 || 2619 || 2435 || || 945 || 2851 || 2079 || 1580
+|}
+
+==See also==
+*[[Guest worker program]]
+*[[Bracero Program]]
+*[[H-2B visa]]
+
+==References==
+{{Reflist|close=0}}
+
+==External links==
+* [http://purl.fdlp.gov/GPO/gpo26674 Actions Needed to Improve the Transparency and Reliability of Labor’s Data on the H-2A Program] [[Government Accountability Office]]
+* H-2A Employer Handbook from USDOL: http://www.foreignlaborcert.doleta.gov/pdf/H-2A_Employer_Handbook.pdf 
+* US DOL H-2A webpage: http://www.foreignlaborcert.doleta.gov/h-2a.cfm 
+* US DHS H-2A website: http://www.uscis.gov/working-united-states/temporary-workers/h-2a-agricultural-workers/h-2a-temporary-agricultural-workers 
+* US DoS H Visa website: http://travel.state.gov/content/visas/en/employment/temporary.html 
+* US IRS International Taxpayer website: https://www.irs.gov/Individuals/International-Taxpayers/Foreign-Agricultural-Workers
+
+{{United States visas}}
+
+{{DEFAULTSORT:H-2a Visa}}
+[[Category:United States visas by type]]
+[[Category:Agricultural labor]]

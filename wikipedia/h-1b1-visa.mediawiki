@@ -1,0 +1,137 @@
+The '''H-1B1 visa''' (and associated H-1B1 status) is a variant of the [[H-1B visa]] in the [[United States]] for nationals of [[Singapore]] and [[Chile]].<ref name=hooyou>{{cite web|url=http://www.hooyou.com/h-1b/freetrade.html|title = H-1B1 Visas: Designated for Free Trade Agreement Workers|publisher = HooYou.com, Zhang & Associated, P.C.|accessdate = April 2, 2015}}</ref><ref name=murthy>{{cite web|url=http://www.murthy.com/worker/h1b-visa-status/h1b1-visa-status/|title = H1B1 Visa & Status|publisher = Murthy Law Firm|accessdate = April 2, 2015}}</ref><ref name=chile>{{cite web|url=http://chile.usembassy.gov/h1b1-visa.html|title = Free Trade Agreement Work Visas (H-1B1)|publisher = Embassy of the United States, Santiago, Chile|accessdate = April 2, 2015}}</ref><ref name=singapore>{{cite web|url=http://singapore.usembassy.gov/072303a.html|title = USTR on Professional Workers in Chile, Singapore FTAs|date = July 23, 2003|accessdate = April 2, 2015|publisher = Embassy of the United States, Singapore}}</ref> The version for Singapore is called the '''H-1B1-Singapore''' and the version for Chile is called the '''H-1B1-Chile'''.<ref name=hooyou/> These categories were introduced with the [[Singapore–United States Free Trade Agreement]]<ref name=singapore/> and [[Chile–United States Free Trade Agreement]]<ref name=chile/><ref>{{cite web|url=https://ustr.gov/trade-agreements/free-trade-agreements/chile-fta|title = Chile Free Trade Agreement|publisher = Office of the United States Trade Representative|accessdate = April 2, 2015}}</ref><ref name=antaoandchuang>{{cite web|url=http://www.antaoandchuang.com/en/temporary-visas-work-study-tourist/h-1b1-special-singaporean-h-1b|title = H-1B1 Special "Singaporean H-1B"|last= Antao|first = Roger S.|last2 = Chuang|first2 = Enna|accessdate = April 2, 2015}}</ref> respectively, both of which were ratified in 2003 by the [[108th United States Congress]] (and signed into law by [[George W. Bush]], the [[President of the United States]] at the time) and became active on January 1, 2004.<ref name=hooyou/> The visas are also called FTA visas because they were provided for through Free Trade Agreements (FTAs).
+
+H-1B1 is distinct from the [[E-3 visa]] for [[Australia]]n nationals, even though both are variants of the H-1B. It is also distinct from the [[TN visa]] and associated status for residents of [[Canada]] and [[Mexico]], which is associated with the [[North American Free Trade Agreement]] (NAFTA).
+
+==Relation with the H-1B program==
+
+Of the 65,000 visas allocated to the capped H-1B visa program, a total of 6,800 are reserved for use for the H-1B1: 1,400 for Chile and 5,400 for Singapore.<ref name=hooyou/><ref name=fam>{{cite web|url=https://fam.state.gov/FAM/09FAM/09FAM040210.html#M402_10_5_B|title = 9 FAM 402.10-5(B)|accessdate = December 15, 2015}}</ref><ref name=usavisanow-singapore>{{cite web|url=http://www.usavisanow.com/h1b1-visa-singaporean-citizens/|title = H1B1 Visa for Singaporean Citizens|publisher = usavisanow.com|accessdate = April 2, 2015}}</ref> All approved applications for H-1B1 classification, including those that involve issuance of a visa and those that involve a change of status, are counted towards these limits.<ref name=hooyou/><ref name=fam/>
+
+Unused slots in the H-1B1 program in a given fiscal year get added to the general H-1B quota for the next fiscal year.<ref name=fam/><ref name=nafsa>{{cite web|url=http://www.nafsa.org/Resource_Library_Assets/Regulatory_Information/H-1B_Cap_Resource_Page/|title = H-1B Cap Resource Page|date = April 10, 2014|accessdate = April 2, 2015|publisher = [[NAFSA: Association of International Educators]]}}</ref>
+
+Nationals of Chile and Singapore ''can'' still avail of the usual [[H-1B visa]]. This might be advantageous for some of them because the H-1B program places fewer restrictions along some dimensions.
+
+==Program details and differences with the usual H-1B program requirements==
+
+===Two ways of obtaining H-1B1 classification===
+
+There are two different ways a person can obtain H-1B1 status necessary to start a job on H-1B1:<ref name=hooyou/><ref name=fam/>
+
+* The worker can apply for a H-1B1 visa at the home country consulate (nationals of Singapore can apply for a H-1B1 visa only at the U.S. Embassy in Singapore, and nationals of Chile can apply for a H-1B1 visa only at the U.S. Embassy in Chile). 
+* If already in the United States on another status, the employer can file a [[Form I-129]] (Petition for a Nonimmigrant Worker) on the worker's behalf.
+
+When the visa application or Form I-129 petition is approved, the worker can legally begin working on the H-1B1 classification on or after the indicated start date.
+
+===Labor Condition Application===
+
+As is the case with the [[H-1B visa]] and [[E-3 visa]], the employer needs to have a [[Labor Condition Application]] (LCA) approved by the [[United States Department of Labor]] in order for the employee to be eligible for the H-1B1 status or visa.<ref name=hooyou/><ref name=fam/> The LCA form is the same as for the H-1B visa, but needs to be annotated "H-1B1-Singapore" or "H-1B1-Chile" as the case may be. An employer may use a single LCA for multiple applicants as long as they all fall within the same category (i.e., they must all be in a single one of the categories: H-1B, H-1B1-Singapore, H-1B1-Chile, E-3).<ref name=printable-form>{{cite web|url=http://www.foreignlaborcert.doleta.gov/pdf/ETA_Form_9035CP.pdf|title = ETA Form 9035 (Printable Version)|publisher = [[United States Department of Labor]], [[Employment & Training Administration]], [[Office of Foreign Labor Certification]]|accessdate = March 29, 2015}}</ref>
+
+An approved LCA is a prerequisite for applying for H-1B1 classification (whether in the form of a H-1B1 visa or in the form of Form I-129 for change of status).
+
+==Eligibility criteria==
+
+===Definition of specialty occupation===
+
+The concept of specialty occupation used for the H-1B1 status is somewhat broader than that used for the H-1B. Specifically, although the normal minimum requirement for an H-1B is a specialized bachelor's degree, the trade agreements with Chile and Singapore permit alternate credentials in certain professions:<ref name=hooyou/><ref name=fam/>
+
+* Agricultural managers and physical therapists (for Chilean workers)
+* Management consultants and disaster relief claims adjusters (for Chilean or Singaporean workers).
+
+===Employer-employee relationship===
+
+As with the H-1B visa, it is necessary that there be a clear employer-employee relationship between the petitioning employer and the applicant. In particular, the H-1B1 visa applicant cannot be self-employed or an independent contractor.<ref name=hooyou/><ref name=chile/>
+
+===Non-immigrant intent===
+
+The H-1B visa is a ''dual intent'' visa, i.e., people who arrive on this visa may have partial immigrant intent. On the other hand, the H-1B1 visa is a non-immigrant intent visa, and applicants for the visa must clearly demonstrate such intent by demonstrating the following three things:<ref name=hooyou/>
+
+# has a residence abroad,
+# has no immediate intention of abandoning that residence, and
+# intends to depart the U.S. upon the termination of the visa.
+
+However, an intent to immigrate in the future, which is in no way connected to the proposed immediate trip, is not in itself grounds to deny the alien an H-1B1.
+
+Note that, as with most non-immigrant statuses, the burden of demonstrating non-immigrant intent falls only at the time of visa application. Those who achieve the H-1B1 classification through a change of status via Form I-129 do not need to demonstrate non-immigrant intent.
+
+===Renewable one-year admission===
+
+Admission on a H-1B1 visa is for one year, but the status can be renewed in yearly increments. Unlike the [[H-1B visa]], there is no six-year limit. However, the associated [[Labor Condition Application]] is valid for only two years, so after every two years a new LCA must be filed and used to support the petition.<ref name=hooyou/>
+
+===Visa for spouses===
+
+The spouses of H-1B1 status holders are eligible for the [[H-4 visa]] and associated status, same as for the spouses of H-1B status holders.<ref name=hooyou/>
+
+==Differences with H-1B program==
+
+{| class="wikitable sortable"
+! Criterion !! H-1B !! H-1B1
+|-
+| Eligible nationalities || All non-US || Only Singapore and Chile
+|-
+| Relation with caps || Counted against the general annual cap of 65,000 (minus visas reserved for Chile and Singapore) for the fiscal year, with some exceptions (20,000 applications for master's degrees per fiscal year, and cap exemption for people who have been counted toward the cap already and those working for a nonprofit research institution). || Separate cap of 1,400 for Chile and 5,400 for Singapore. Unused H-1B1s for the previous year are added to a given fiscal year's cap.
+|-
+| Role of Form I-129 (Petition for a Nonimmigrant Worker) || All H-1B classifications require the employer to file this form || Only applications for change of status, extension of status, or change of employer (applicable to people already present in the United States) need this Form.
+|-
+| Duration || 3 years, can be extended by another 3 years. After the completion of 6 years, cannot renew the H-1B status and must leave the US for at least a year before starting the next H-1B (unless an application for a permanent immigration status is pending). || Indefinitely renewable 1-year increments
+|-
+| Definition of specialty occupation || Narrow list of specialty occupations, all of which require a bachelor's degree or equivalent work experience. || In addition to all the specialty occupations eligible for H-1B, allows agricultural managers and physical therapists (Chile only) and management consultants and disaster relief claim adjusters (Both Chile and Singapore).
+|-
+| Non-immigrant intent || The H-1B is a dual intent status, i.e., applicants may have intent to immigrate to the United States. || H-1B1 visa applicants must clearly demonstrate non-immigrant intent.
+|-
+| Portability rule ([[American Competitiveness in the 21st Century Act|AC21]]) || Applicants on H-1B can start a job with a new employer as long as they have submitted a Form I-129, even before the form is approved. || Applicants can start work with an employer only after their H-1B1 classification is approved, even if they are switching jobs.
+|}
+
+==Usage of the program==
+
+Below, the number of approved [[H-1B visa]] and H-1B1 visa applications from [[Singapore]], [[Chile]], and globally are listed.<ref name=visa-approvals>{{cite web|url=https://travel.state.gov/content/dam/visas/Statistics/Non-Immigrant-Statistics/NIVDetailTables/FYs97-14_NIVDetailTable.xls|title = Non-immigrant visa statistics|publisher = [[United States Department of State]]|accessdate = April 8, 2016}}</ref> The H-1B1 classification became active on January 1, 2004, and the first H-1B1 visa approvals happened in Fiscal Year 2004. Note that these are visa approvals, ''not'' the total number of classifications made. This would cause a slight lag in the statistics, because people from Singapore and Chile who were already in H-1B status would continue to apply for H-1B visas when their original visas expired, rather than switch to H-1B1 status (even if they'd have chosen the latter had the option been present originally). However, even as late as Fiscal Years 2011-2013 (by which time most H-1B visa approvals would correspond to classifications made after the introduction of the H-1B1):
+
+* The total number of H-1B visa approvals from Singapore and Chile was roughly comparable to the total number of H-1B1 visa approvals.
+* In absolute numbers, the sum of H-1B and H-1B1 visa approvals had gone up by about 30% relative to the number of H-1B visa approvals before the introduction of the H-1B1.
+
+{| class="wikitable sortable"
+! Fiscal Year !! H-1B approvals (global) !! H-1B approvals (Singapore) !! H-1B approvals (Chile) !! H-1B1 approvals (global) !! H-1B1 approvals (Singapore) !! H-1B1 approvals (Chile)
+|-
+| 1997 || 80547 || 358 || 149 || 0 || 0 || 0
+|-
+| 1998 || 91360 || 371 || 148 || 0 || 0 || 0
+|-
+| 1999 || 116513 || 547 || 156 || 0 || 0 || 0
+|-
+| 2000 || 133290 || 600 || 203 || 0 || 0 || 0
+|-
+| 2001 || 161643 || 722 || 278 || 0 || 0 || 0
+|-
+| 2002 || 118352 || 597 || 308 || 0 || 0 || 0
+|-
+| 2003 || 107196 || 513 || 259 || 0 || 0 || 0
+|-
+| 2004 || 138965 || 600 || 333 || 72 || 46 || 26
+|-
+| 2005 || 124099 || 561 || 278 || 275 || 199 || 76
+|-
+| 2006 || 135421 || 599 || 262 || 440 || 286 || 154
+|-
+| 2007 || 154053 || 532 || 269 || 639 || 416 || 223
+|-
+| 2008 || 129464 || 473 || 204 || 719 || 411 || 308
+|-
+| 2009 || 110367 || 380 || 204 || 621 || 302 || 319
+|-
+| 2010 || 117409 || 483 || 255 || 419 || 168 || 251
+|-
+| 2011 || 129134 || 394 || 199 || 418 || 171 || 247 
+|-
+| 2012 || 135530 || 375 || 209 || 461 || 212 || 249
+|-
+| 2013 || 153223 || 330 || 187 || 571 || 261 || 310
+|-
+| 2014 || 161369 || 348 || 156 || 870 || 472 || 398
+|}
+
+==References==
+
+{{reflist}}
+
+{{United States visas}}
+
+[[Category:United States visas by type]]
+[[Category:Employment of foreign-born]]
