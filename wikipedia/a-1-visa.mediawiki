@@ -1,0 +1,12 @@
+The '''A-1 visa''' is a non-immigrant [[Visa (document)|visa]] which allows travel to [[United States]] for ambassadors, [[Minister (government)|ministers]], [[diplomats]], consular officers, and their immediate family members.<ref name=pocket>{{cite book |last= |first= |date=2013 |title=Immigration pocket field guide|url= |location= |publisher=Matthew Bender & Company, Inc|page=50 |isbn=}}</ref> While government officials normally do not qualify for an A-1 visa if they are traveling for non-official, non-governmental purposes, [[Head of state|heads of state]] always qualify and must apply for an A visa regardless of their purpose of travel.<ref name="dos">{{cite web |url=https://travel.state.gov/content/visas/en/other/diplomat-foreign-government-official.html |title=Visas for Diplomats and Foreign Government Officials |last1= |first1= |last2= |first2= |date= |website=US Department of State Bureau of Consular Affairs |publisher= |access-date=13 October 2016 |quote=}}</ref> Visitors on an A-1 visa cannot be tried under US law for a crime, and may travel to and from the country an unlimited number of times.<ref>{{cite web |url=http://faq.visapro.com/A1-Visa-FAQ2.asp |title=A-1 Visa - Frequently Asked Questions |last1= |first1= |last2= |first2= |date= |website=VisaPro |publisher= |access-date= 13 October 2016|quote=}}</ref> There is no maximum length of stay for individuals admitted on an A-1 visa, and there is no requirement to maintain a foreign residence.<ref name=pocket/>
+
+==References==
+{{reflist}}
+
+==External links==
+* [http://www.uscis.gov/ilink/docView/SLB/HTML/SLB/0-0-0-1/0-0-0-11261/0-0-0-17197/0-0-0-19221.html#0-0-0-9221 8 CFR 214.2 (m)]: Link to Title 8, Code of Federal Regulations.
+* [http://travel.state.gov/visa/temp/wait/tempvisitors_wait.php Visa wait times]: Visa wait times at consulates around the world
+{{United States visas}}
+[[Category:United States visas by type]]
+[[Category:United States immigration law]]
+{{US-law-stub}}

@@ -1,0 +1,22 @@
+The '''A-2 visa''' is a non-immigrant [[Visa (document)|visa]] which allows travel to [[United States]] for certain government officials, employees, their immediate families, and their technical and support staff.<ref name=pocket>{{cite book |last= |first= |date=2013 |title=Immigration pocket field guide|url= |location= |publisher=Matthew Bender & Company, Inc|page=50 |isbn=}}</ref> This includes military personnel traveling for reasons not related to [[NATO]].{{efn|Those whose travel directly relates to NATO will normally qualify for one of the seven NATO visa classes.}} Those typically admitted under an A-2 visa include:
+
+* Individuals travelling to work at a [[consulate]] or [[embassy]] in the US
+* Individuals travelling to the US on the written request of their home country
+* Members of foreign militaries stationed at US military installations
+* Representatives from the [[African Union]] or [[European Union]]<ref name="dos">{{cite web |url=https://travel.state.gov/content/visas/en/other/diplomat-foreign-government-official.html |title=Visas for Diplomats and Foreign Government Officials |last1= |first1= |last2= |first2= |date= |website=US Department of State Bureau of Consular Affairs |publisher= |access-date=13 October 2016 |quote=}}</ref>
+
+There is no maximum limit on the duration of stay for A-2 visa holders, and no requirment to maintain a foreign residence.<ref name=pocket/>
+
+==Notes==
+{{notelist}}
+
+==References==
+{{reflist}}
+
+==External links==
+* [http://www.uscis.gov/ilink/docView/SLB/HTML/SLB/0-0-0-1/0-0-0-11261/0-0-0-17197/0-0-0-19221.html#0-0-0-9221 8 CFR 214.2 (m)]: Link to Title 8, Code of Federal Regulations.
+* [http://travel.state.gov/visa/temp/wait/tempvisitors_wait.php Visa wait times]: Visa wait times at consulates around the world
+{{United States visas}}
+[[Category:United States visas by type]]
+[[Category:United States immigration law]]
+{{US-law-stub}}

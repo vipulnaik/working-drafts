@@ -1,0 +1,100 @@
+The '''U visa''' is a nonimmigrant [[Visa (document)|visa]] which is set aside for victims of [[Crime in the United States|crimes]] (and their immediate family members) who have suffered substantial mental or physical abuse and are willing to assist law enforcement and government officials in the investigation or prosecution of the criminal activity.
+
+==Background==
+[[United States Congress|Congress]] created the U nonimmigrant visa with the passage of the [[Victims of Trafficking and Violence Protection Act]] (including the Battered Immigrant Women’s Protection Act) in October 2000. The legislation was intended to strengthen the ability of law enforcement agencies to investigate and prosecute cases of domestic violence, sexual assault, trafficking of aliens and other crimes while, at the same time, offer protection to victims of such crimes. The legislation also helps law enforcement agencies to better serve victims of crimes.
+
+==Eligibility==
+
+===Requirements===
+There are six legal requirements for U nonimmigrant status:
+
+* The applicant must have been a victim of a qualifying criminal activity.
+* The applicant must have suffered substantial physical or mental abuse as a result of having been a victim of these criminal activities.
+* The applicant must have information concerning that criminal activity.
+* The applicant must have been helpful, is being helpful, or is likely to be helpful in the investigation or prosecution of the crime.
+* The criminal activity occurred in the United States or violated U.S. laws.
+* The applicant is admissible to the United States under current U.S. immigration laws and regulations. Those who are not admissible, may apply for a waiver on a [http://www.uscis.gov/i-192 Form I-192, Application for Advance Permission to Enter as a Non-Immigrant].
+
+===Qualifying criminal activity===
+Crimes whose victims may qualify for U nonimmigrant status include:
+
+{{colbegin||25em}}
+* [[Kidnapping|Abduction]]
+* [[Sexual abuse|Abusive Sexual Contact]]
+* [[Blackmail]]
+* [[Domestic Violence]]
+* [[Extortion]]
+* [[False Imprisonment]]
+* [[Female Genital Mutilation]]
+* Felonious [[Assault]]
+* Fraud in Foreign Labor Contracting
+* [[Hostage]]
+* [[Incest]]
+* [[Involuntary Servitude]]
+* [[Kidnapping]]
+* [[Manslaughter]]
+* [[Murder]]
+* [[Obstruction of Justice]]
+* [[Peonage]]
+* [[Perjury]]
+* [[Prostitution]]
+* [[Rape]]
+* [[Sexual Assault]]
+* [[Sexual Exploitation]]
+* [[Slave Trade]]
+* [[Stalking]]
+* [[Torture]]
+* [[Human trafficking in the United States|Trafficking]]
+* [[Witness Tampering]]
+* Unlawful Criminal Restraint
+* Other Related Crimes, including [[attempt]], [[Conspiracy (criminal)|conspiracy]], or [[solicitation]] of any of these offenses, or similar activity where the [[Element (criminal law)|elements of the crime]] are substantially similar.
+{{colend}}
+
+===Certification of helpfulness===
+A petition for U nonimmigrant status must also contain a ''certification of helpfulness'' in the form of a U Nonimmigrant Status Certification (Form I-918, Supplement B) from a certifying law enforcement agency.  This document demonstrates the petitioner "has been helpful, is being helpful, or is likely to be helpful" in the investigation or prosecution of the criminal activity.
+
+The government entities which are considered "certifying agencies" for the purpose of a U visa application include [[Law enforcement in the United States|Federal, State or local law enforcement agencies]], [[prosecutor]]s, and [[judge]]s, as well as [[child protective services]], the [[Equal Employment Opportunity Commission]], and the [[United States Department of Labor|Department of Labor]].
+
+===U Visa-Based Adjustment of Status: Obtaining a Green Card/Lawful Permanent Residence===
+
+After three years of continuous physical presence in the United States while in U nonimmigrant status, a U visa holder may be eligible to adjust status and become a Lawful Permanent Resident (LPR) if certain requirements are met.<ref>http://www.uscis.gov/humanitarian/victims-human-trafficking-other-crimes/victims-criminal-activity-u-nonimmigrant-status/victims-criminal-activity-u-nonimmigrant-status</ref>
+
+An applicant for U visa-based adjustment of status must still be in valid U status at the time he or she files the Form I-485,<ref>8 CFR 245.24(b)(2)(i) and (ii)</ref> which is the date on which U.S. Citizenship and Immigration Services (USCIS) receives the properly completed application.
+
+With the completed and signed Form I-485, Application to Register Permanent Residence or Adjust Status, applicants must submit:
+
+* Evidence to show the applicant's approval as a U nonimmigrant;
+* A complete Form G-325A;<ref name="uscis.gov">http://www.uscis.gov/sites/default/files/files/form/i-485instr.pdf</ref>
+* A complete Form I-693, Report of Medical Examination and Vaccination Record, signed and filled out by a designated civil surgeon;<ref>http://www.uscis.gov/i-693</ref>
+* The applicant's birth certificate and a complete certified English translation of the birth certificate if it is not in English;<ref name="uscis.gov"/>
+* Copies of all pages of all passports (and/or other travel documents) the applicant has had that have been valid at any time while he or she has been in U status, or an explanation regarding why the passport(s) are unavailable or lacking;<ref>8 CFR 245.24(d)(5)</ref>
+* A self-affidavit by the applicant himself or herself attesting to three years of continuous physical presence in the United States since being admitted as a U nonimmigrant and listing the dates of any departures from and arrivals to the United States while in U status;<ref>8 CFR Section 245.24(a)</ref>
+* Evidence to show at least three years of continuous physical presence since being admitted as a U nonimmigrant;<ref>8 CFR 245.24(a)</ref>
+* Evidence that the applicant has not unreasonably refused to provide assistance in a criminal investigation or prosecution;<ref>INA 245(m); 8 CFR 245.24</ref>
+* Evidence to show that discretionary adjustment of status is merited based on humanitarian grounds/family unity/public interest;<ref>INA 245(m)</ref> and
+* Evidence of relationship to the U-1 principal (if applying to adjust status as the derivative family member of a U-1).
+
+==Related visas==
+Related visas include:
+
+* U-2 visas - spouses of U-1 applicants
+* U-3 visas - children of U-1 applicants
+* U-4 visas - parents of U-1 applicants who are children
+
+==Impediments to issue==
+
+As of January 2016, there is a backlog of 64,000 requested U-visas, but only 10,000 can be issued per year.<ref name="npr">http://www.npr.org/2016/01/20/463619424/immigration-relief-possible-in-return-for-crime-victims-cooperation</ref>  Some police departments do not certify any applicants as cooperating, either for political reasons or due to confusion over the law, though in some jurisdictions like California and New York City, there are laws or policies which require prompt certification of anyone eligible.<ref name="npr" />
+
+==References==
+{{Reflist}}
+
+==External links==
+*[https://www.dhs.gov/u-visa-law-enforcement-certification-resource-guide U Visa Law Enforcement Certification Resource Guide] from the [[United States Department of Homeland Security]]
+*[http://www.uscis.gov/i-918 I-918, Petition for U Nonimmigrant Status - all forms and instructions required for filing]
+
+{{DHS|url=http://www.uscis.gov/humanitarian/victims-human-trafficking-other-crimes/victims-criminal-activity-u-nonimmigrant-status/victims-criminal-activity-u-nonimmigrant-status|title = Victims of Criminal Activity, U Nonimmigrant Status}}
+
+{{United States visas}}
+
+[[Category:United States visas by type]]
+[[Category:United States criminal investigation law]]
