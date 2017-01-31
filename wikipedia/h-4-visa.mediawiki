@@ -20,6 +20,54 @@ Since these other H-4 visa holders are not issued a social security number, an I
 
 Family members may alternatively be admitted in other non-immigrant categories for which they qualify, such as the [[F-1 visa|F-1]] category for children or spouses who will be students or the H-1B category for a spouse whose employer has also obtained approval of an H-1B visa petition to employ the spouse. An H-4 visa holder is admitted to the US for the duration of the primary (H-1B, H-2A, H-2B, or H-3) visa validity.<ref name="vasic"/>
 
+== Statistics ==
+
+=== Number of visas issued by year ===
+
+In the table below, the years are Fiscal Years, so for instance the year 2009 refers to the period from October 1, 2008 to September 30, 2009.<ref name=visa-approvals>{{cite web|url=https://travel.state.gov/content/dam/visas/Statistics/Non-Immigrant-Statistics/NIVDetailTables/FYs97-15_NIVDetailTable.xls |title=Non-immigrant visa statistics |publisher=[[United States Department of State]] |accessdate=January 29, 2017}}</ref> Note that this only counts H-4 visas obtained at the United States consulate or embassy abroad, and not changes of status to H-4 within the United States using [[Form I-539]].
+
+{| class="wikitable sortable" border="1"
+! Fiscal Year !! Total number of H-4 visas issued
+|-
+| 1997 || 47,206
+|-
+| 1998 || 54,595
+|-
+| 1999 || 69,194 
+|-
+| 2000 || 79,518
+|-
+| 2001 || 95,967
+|-
+| 2002 || 79,725 
+|-
+| 2003 || 69,289
+|-
+| 2004 || 83,128
+|-
+| 2005 || 70,266
+|-
+| 2006 || 74,326
+|-
+| 2007 || 86,219
+|-
+| 2008 || 71,019
+|-
+| 2009 || 60,009
+|-
+| 2010 || 66,176
+|-
+| 2011 || 74,205
+|-
+| 2012 || 80,015
+|-
+| 2013 || 96,753
+|-
+| 2014 || 109,147
+|-
+| 2015 || 124,484
+|}
+
 ==See also==
 * [[List of United States dependent visas]]
 
