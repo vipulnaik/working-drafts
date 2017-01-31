@@ -1,0 +1,38 @@
+A '''T visa''' is a type of [[visa (document)|visa]] allowing certain victims of [[human trafficking]] and immediate family members to remain and work temporarily in the [[United States]], typically if they agree to assist [[Law enforcement agency|law enforcement]] in [[Testimony|testifying]] against the perpetrators.
+
+== Background ==
+{{Update section|reason=2011 estimates are more like 17,500 but source needed.|date=May 2016}}
+The United States government estimated in 2002 that each year up to 50,000 people are trafficked illegally into the United States, mostly women and children, and are trapped in slavery-like situations.<ref>{{cite web | title=Department of Justice issues T visa to protect women, children and all victims of human trafficking | url=http://www.usdoj.gov/opa/pr/2002/January/02_crt_038.htm | date=January 24, 2002 | accessdate=2007-08-08 | publisher=United States Department of Justice }}</ref>  As a response, it enacted the [[Victims of Trafficking and Violence Protection Act of 2000]] (VTVPA), which, among other things, allows such people to apply for 3-year temporary visas that lead to [[permanent resident]] status.  In 2006, Congress modified 8 CFR 214.11(p) to now have the T-visa to be for 4 years.  Although 5,000 are available per year, only 2,000 had been issued as of January, 2009.<ref>{{cite news | publisher=Fora.TV|title=Mark P. Lagon: Law and Morality of Human Trafficking | author=Mark P. Lagon |  url=http://fora.tv/2008/04/09/Mark_P_Lagon_Law_and_Morality_of_Human_Trafficking }}</ref>
+
+== Eligibility ==
+
+*'''T-1 visas''' are available to people who fall under these criteria:
+**came to the United States illegally to engage in commercial [[sex work]], [[involuntary servitude]], [[peonage]], [[debt bondage]], or [[slavery]]
+**committed commercial sex acts or agreed to come to the United States as a result of force, fraud, or [[coercion]]
+**would suffer extreme hardship if [[Deportation|deported]]
+**report their trafficking crime to federal authorities and, if at least 15 years old, help with investigations and prosecutions. With the 2006 modification, the required compliance with law enforcement was deemed not fit if the victim would undergo any increased trauma. This is better known as the "trauma exception".
+**must include an endorsement from a law enforcement agency included in the T-1 visa application (if the agency chooses to not include an endorsement, the victim must provide sufficient secondary evidence)
+*In order to be eligible for a T visa the applicant must demonstrate "unusual or severe harm" if they were to be removed from the United States. This includes.:<ref>{{cite web |last=York|first=Harlan| title=T Visa: 5 Things You Have To Know | url=https://immigrationlawnj.com/t-visa-5-things-know/ | date=November 29, 2013 | accessdate=2015-06-08}}</ref>
+**Age and personal circumstances of the T visa applicant. 
+**Serious physical or mental illness of the T Visa applicant of which they will be unable to receive treatment in their home country.
+**Likelihood of re-victimization.
+**Reasonable expectation of punishment upon applicants return to home country. 
+**Likelihood of harm by traffickers or related individuals upon return. 
+Related visas include:
+*T-2 visas - spouses of T-1 applicants
+*T-3 visas - children of T-1 applicants
+*T-4 visas - parents of T-1 applicants who are children
+*T-5 visas - under-18 unmarried siblings of T-1 applicants
+
+== References ==
+<references/>
+
+==External links==
+* [http://straylight.law.cornell.edu/uscode/html/uscode22/usc_sup_01_22_10_78.html VTVPA] - text of statute
+* [http://www.nilc.org/immlawpolicy/obtainlpr/oblpr071.htm DOJ issues regulations for T visas, available to victims of trafficking] - National Immigration Law Center article
+* [http://aaldef.org/docs/T-visa-manual-3rd-ed(1208).pdf] - Identification and Legal Advocacy for Trafficking Survivors
+
+{{United States visas}}
+
+[[Category:United States visas by type]]
+[[Category:Human trafficking in the United States]]

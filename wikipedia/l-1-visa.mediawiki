@@ -1,0 +1,71 @@
+An '''L-1 visa''' is a [[Visa (document)|visa document]] used to enter the [[United States]] for the purpose of work in L-1 status. It is a non-immigrant visa, and is valid for a relatively short amount of time, from three months (for Iran nationals) to five years (India, Japan, Germany), based on a ''reciprocity schedule''.<ref name=reciprocity>{{cite web|title=Reciprocity by Country|url=http://travel.state.gov/content/visas/english/fees/reciprocity-by-country.html|publisher=[[Bureau of Consular Affairs]]|accessdate=19 August 2015}}</ref> With extensions, the maximum stay is seven years.<ref name="ukvisalawyers">{{cite web|title=Intracompany Transfers|url=http://www.usvisalawyers.co.uk/article1.htm|accessdate=22 September 2012}}</ref>
+
+L-1 visas are available to employees of an international company with offices in both the United States and abroad. The visa allows such foreign workers to relocate to the corporation's US office after having worked abroad for the company for at least one continuous year within the previous three prior to admission in the US. The US and non-US employers must be related in one of four ways:  parent and subsidiary; branch and headquarters; sister companies owned by a mutual parent; or 'affiliates' owned by the same or people in approximately the same percentages.<ref name="ukvisalawyers" /> The L-1 classification also enables a foreign company which does not yet have an affiliated U.S. office to send an employee to the United States to help establish one, with additional requirements.<ref>{{cite web|title=L-1 Visa for Opening New Office in the U.S.|url=http://www.immihelp.com/l1-visa/opening-new-office.html|publisher=Immihelp.com|accessdate=6 December 2012}}</ref>
+
+Spouses of L-1 visa holders are allowed to work without restriction in the US (using an [[L-2 visa]]) once [[Employment authorization document|EAD]] is granted, and the L-1 visa may legally be used as a stepping stone to a [[Permanent residence (United States)|green card]] under the doctrine of [[dual intent]].
+
+In 2010, the [[U.S. Citizenship and Immigration Services]] (USCIS) approved 74,719 L-1 visas, out of 91,086 applications (a refusal rate of 18%).  In contrast, the same document reports a refusal rate of 21% for the [[H-1B visa|H-1B]] non-immigrant skilled employment visa (117,409 approvals out of 147,937 applicants) and an overall refusal rate of 23% for all non-immigrant visa categories listed (6,275,540 approvals out of 8,142,444 applicants).<ref name="2010 NIV Dept Travel">{{cite web|title=NIV Workload by Visa Category FY 2010|url=http://travel.state.gov/content/dam/visas/Statistics/Non-Immigrant-Statistics/NIVWorkload/FY2010NIVWorkloadbyVisaCategory.pdf|publisher=[[United States Department of State]]|accessdate=7 June 2015}}</ref>
+
+== Types of L-1 Visas ==
+
+The L-1 visa has two subcategories: L-1A for executives and managers, and L-1B for workers with specialized knowledge. L-1A status is valid for up to 7 years, L-1B for 5. After the expiration of the 7 or 5 years respectively, the foreign national can generally only qualify for L-1 status again by working abroad for at least 1 year for the parent, subsidiary, affiliate or branch office of the U.S. company.
+
+There are two types of L-1 procedures:
+
+*  '''Regular L-1''' visas, which must be applied for and approved for each individual by the USCIS; and
+*  '''Blanket L-1''' visas, which are available to employers that meet certain criteria.<ref>{{cite web|url=http://www.murthy.com/worker/l-1-visas-statuses/l-1-blanket/|title=L-1 Blanket|date=1 July 2012}}</ref>
+
+For a regular L-1 visa, the company must file a petition with the [[U.S. Citizenship and Immigration Services|USCIS]] and each petition is evaluated on its own merits.
+
+In the case of a blanket L-1 visa petition, it has already been determined by USCIS that the company qualifies for the issuance of Intracompany Transferee visa, so the individual visa applicant need only file a copy of the approved blanket petition, along with documents supporting their personal qualifications, with the U.S. consulate or embassy having jurisdiction over their place of residence proving the applicant's qualifications
+
+== Application process ==
+Application to an L-1 visa begins with the filing of a petition with the U.S. Citizenship & Immigration Services (USCIS) on [[Form I-129]] along with supporting documentation showing that both the U.S. company and the foreign parent, subsidiary, affiliate or branch meet the qualifying factors set forth in the law and regulations.<ref name="How to Obtain an L-1 Visa">[http://www.uscis.gov/portal/site/uscis/menuitem.eb1d4c2a3e5b9ac89243c6a7543f6d1a/?vgnextoid=bfd10b89284a3210VgnVCM100000b92ca60aRCRD&vgnextchannel=bfd10b89284a3210VgnVCM100000b92ca60aRCRD L1 Visa Guidelines USCIS]</ref>
+
+Notice of approval of the Form I-129 is given by the USCIS on a Notice of Action, Form I-797, and using this as the basis of the application, the alien may apply for visa issuance at a consulate or embassy of the United States in the country having jurisdiction over their residence.
+
+Applicants who are in the United States at the time of the filing of the I-129 can request a change of status from their present nonimmigrant status (i.e. visitor, student, etc.), so long as they are in status at the time of the filing of the I-129. If they go out of status after the filing, but before approval, there is no negative consequence, and the person does not accrue unlawful presence.
+
+Upon application at the consulate or embassy, the spouse and children of the primary applicant who are under the age of 21 may be issued [[L-2 visa]]s. Children of the primary L-1 can attend school. The spouse of the primary L-1 has an automatic right to work in the United States.  Children cannot accept paid employment.  The spouse can, but need not, apply with the USCIS for employment authorization after arriving in the United States and, after issuance of the Employment Authorization Document (EAD, Form I-765), may thereafter work for any employer. According to the Social Security Administration, the L-2 spouse is permitted to work, even without an Employment Authorization Document.<ref>{{cite web | url = https://secure.ssa.gov/poms.nsf/lnx/0110211420 | title = Employment Authorization for Non-immigrants | accessdate = 2011-12-30 | date = 2011-11-08 | work = Social Security Administration | quote = For COAs displaying a double asterisk (**) (non-immigrant E-1, E-2, and L-2 classifications), the spouse is also authorized to work without specific DHS authorization.}}</ref> However, USCIS takes the position that the L-2 spouse must obtain the Employment Authorization Document for [[I-9 (form)|I-9]] purposes.<ref>{{cite web | url = http://www.greencards.com/docs/SSA-10days.pdf | title = SOCIAL SECURITY ADMINISTRATION AND DHS AILA LIAISON MEETING ON SSA-RELATED ISSUES | accessdate = 2011-12-30 | date = 2007-04-23 | format = PDF | work = AMERICAN IMMIGRATION LAWYERS ASSOCIATION | quote = SSA and CIS both agree that the spouses of Es and Ls are authorized to be employed incident to status. However, CIS believes that an EAD is required for I-9 purposes under the regulations.}}</ref> The spouse may apply directly to [[Social Security (United States)|Social Security]] for issuance of a [[Social Security Number]]. The documents required for the L-2 Social Security number application are the same as the L-1 holder, but with the addition of either the EAD or an original marriage certificate.
+
+An I-797 Notice of Action showing the approval of the visa petition does not guarantee that a visa will be issued at the U.S. consulate or embassy, but L-1 visas are normally approved if the consular officer concludes that the individual is qualified and that both the U.S. company and the foreign parent, subsidiary, affiliate or branch are legitimate.
+
+Basis for visa denial: A consular officer may deny the issuance of an L-1 visa in cases where the officer determines the U.S. company that filed the L-1 petition may not be qualified, or that the parent, subsidiary, affiliate or branch outside the United States is not qualified or does not intend to continue in business after L-1 visa issuance, or that USCIS approved the petition based on a fraud committed by the company or the visa applicant, or that the applicant is ineligible for that class of visa under section 212(a) of the Immigration and Naturalization Act. In addition, the consular officer may request that the underlying petition be reconsidered by USCIS.
+
+For an L-1 visa applicant, "dual Intent" is allowed: unlike some classes of non-immigrant visas (e.g., [[J-1 visa]]s), L-1 applicants may not be denied a visa on the basis that they are an intending immigrant to the United States, or that they do not have a residence abroad which they do not intend to abandon.
+
+If the person is a Canadian citizen applying for admission as an L-1 under the North American Free Trade Agreement, the petition may be filed at the port of entry when the person applies for admission.
+
+== Costs ==
+As of December 2012, costs include a filing fee of $325, an anti-fraud fee of $500, and an optional $1225 fee for premium processing.<ref>{{cite web|title=L-1 Individual Petition Fees|url=http://www.immihelp.com/l1-visa/l1-individual-petition-fees.html|publisher=Immihelp.com|accessdate=6 December 2012}}</ref> The Consolidated Appropriations Act, 2016 (Public Law 114-113), signed into law by President Obama on December 18, 2015, increases fees for certain H-1B and L-1 petitioners who employ 50 or more employees in the United States with more than 50 percent of their employees in the United States in H-1B or L (including L-1A and L-1B) nonimmigrant status. These petitioners must submit an additional fee of $4,000 for certain H-1B petitions and $4,500 for certain L-1A and L-1B petitions postmarked on or after December 18, 2015.<ref>{{Cite web|title = New Law Increases H-1B and L-1 Petition Fees|url = https://www.uscis.gov/news/alerts/new-law-increases-h-1b-and-l-1-petition-fees|website = USCIS|access-date = 2016-01-13}}</ref>
+
+== Renewals ==
+L-1 status may be renewed and extended within the United States. Except in the case of blanket petitions, a new I-129 petition must be filed. Renewal in the United States applies to status only, not the actual visa in the passport.  For visa renewal, the applicant must go to a U.S. consulate or embassy outside the United States.  An alien cannot leave the United States and then reenter without a valid L-1 visa, and must appear personally before a consular officer for visa issuance.
+
+== Change of Status from L-1B to L-1A ==
+A petition to change status to L1A may be filed on behalf of a foreign national in L1B status in order for the individual to move into a managerial or executive position. However, in order for the L1B worker to be eligible for the full 7 years of L-1 status typically provided to L1A workers, the petition must be approved by the USCIS at least 6 months prior to the individual reaching the 5-year maximum period in L1B status.<ref name=CFR>{{cite web|title=8 C.F.R. §214.2(l)(15)(ii)|url=http://www.uscis.gov/ilink/docView/SLB/HTML/SLB/0-0-0-1/0-0-0-11261/0-0-0-17197/0-0-0-19046.html|accessdate=22 August 2013|quote=When an alien was initially admitted to the United States in a specialized knowledge capacity and is later promoted t o a managerial or executive position, he or she must have been employed in the managerial or executive position for at least six months to be eligible for the total period of stay of seven years. The change to managerial or executive capacity must have been approved by the Service in an amended, new, or extended petition at the time that the change occurred.}}</ref>
+
+== Limits on employment authorization ==
+A person in L-1 status generally may only work for the petitioning company. If the L-1 worker enters based on an L-1 blanket, however, it generally is possible for the worker to be moved in the same capacity to any other related company listed on the blanket. <ref name="9 FAM 402.12-8(I)">{{cite web|title=Foreign Affairs Manual - 9 FAM 402.12-8(I)|url=https://fam.state.gov/fam/09FAM/09FAM040212.html|publisher=U.S. Department of State|accessdate=22 August 2016}}</ref>
+
+== Criticism ==
+Some industry representatives have accused companies of utilizing the L-1 program to replace U.S. workers. 
+<ref>http://thehill.com/blogs/pundits-blog/technology/223607-little-known-temporary-visas-for-foreign-tech-workers-depress</ref>
+<ref>http://articles.sun-sentinel.com/2003-08-10/news/0308100157_1_visa-holders-foreign-workers-job-market</ref>
+<ref>http://www.csmonitor.com/Business/2016/0203/Americans-are-losing-jobs-to-a-visa-program.-Can-it-be-fixed</ref>
+<ref>http://www.numbersusa.com/</ref>
+
+== References ==
+{{reflist}}
+
+==External links==
+* [http://www.immihelp.com/l1-visa/ Comprehensive L-1 visa information] (Immihelp.com)
+* [http://www.uscis.gov/portal/site/uscis/menuitem.eb1d4c2a3e5b9ac89243c6a7543f6d1a/?vgnextoid=64d34b65bef27210VgnVCM100000082ca60aRCRD&vgnextchannel=64d34b65bef27210VgnVCM100000082ca60aRCRD L-1A Intracompany Transferee Executive or Manager] (USCIS)
+* [http://www.uscis.gov/portal/site/uscis/menuitem.eb1d4c2a3e5b9ac89243c6a7543f6d1a/?vgnextoid=bfd10b89284a3210VgnVCM100000b92ca60aRCRD&vgnextchannel=bfd10b89284a3210VgnVCM100000b92ca60aRCRD L-1B Intracompany Transferee Specialized Knowledge] (USCIS)
+* [http://thehill.com/blogs/pundits-blog/technology/223607-little-known-temporary-visas-for-foreign-tech-workers-depress  Visas for foreign tech workers]
+
+{{United States visas}}
+
+[[Category:United States visas by type]]
+[[Category:Foreign workers]]
+[[Category:Employment of foreign-born]]
