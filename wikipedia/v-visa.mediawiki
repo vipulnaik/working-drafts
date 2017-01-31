@@ -1,0 +1,75 @@
+The '''V visa''' is a temporary visa available to spouses and minor children (unmarried, under 21) of [[United States of America|U.S.]] [[Permanent residence (United States)|lawful permanent residents]] (LPR, also known as [[United States Permanent Resident Card|green card]] holders).  It allows permanent residents to achieve family unity with their spouses and children while the immigration process takes its course.  It was created by the [[Legal Immigration Family Equity Act]] of 2000.<ref>{{cite web | last = | first = | authorlink = | coauthors = | title = Immigration through Legal Immigration Family Equity Act (LIFE) of 2000 | work = | publisher = US Citizenship and Immigration Services| date = | url = http://149.101.23.2/graphics/services/residency/life.htm | doi = | accessdate = 2007-05-01 }}</ref> The Act is to relieve those who applied for immigrant visas on or before December 21, 2000. Practically, the V visa is currently not available to spouses and minor children of LPRs who have applied after December 21, 2000.
+
+== Background ==
+
+A permanent resident is a person who has been granted the right to reside permanently in the U.S. He/She is authorized to work and gains the right to become a U.S. citizen if he/she meets certain criteria.
+
+The permanent resident is known as the sponsor of the immigrant visa petition while the spouse/child is known as the beneficiary.
+
+A permanent resident who marries a non-U.S. citizen or permanent resident after getting his/her green card needs to file a Form I-130 (Petition for Alien Relative)<ref>{{cite web | last = | first = | authorlink = | coauthors = | title = Petition for Alien Relative (Form I-130) | work = | publisher = US Citizenship and Immigration Services| date = | url = http://www.uscis.gov/files/form/I-130.pdf | format = | doi = | accessdate = 2007-05-01 |archiveurl = http://web.archive.org/web/20070406114441/http://www.uscis.gov/files/form/I-130.pdf <!-- Bot retrieved archive --> |archivedate = 2007-04-06}}</ref> with the [[United States Citizenship and Immigration Services|USCIS]]. Once the I-130 is approved, the beneficiary needs to wait for an F2A immigrant visa.  The F2A immigrant visa is heavily backlogged because only around 90,000 visas are available each year and demand exceeds supply. The current processing delays for the I-130 can be viewed at the USCIS website.<ref>{{cite web | last = | first = | authorlink = | coauthors = | title = Case Status Service Online | work = | publisher = US Citizenship and Immigration Services| date = | url = https://egov.immigration.gov/cris/jsps/ptimes.jsp | format = | doi = | accessdate = 2007-05-01 }}</ref>  The current backlog for F2A visas is updated each month.  The date is available in the Visa Bulletin<ref>{{cite web | last = | first = | authorlink = | coauthors = | title = Visa Bulletins | work = | publisher = Bureau of Consular Affairs, US Department of State| date = | url = https://egov.uscis.gov/cris/processTimesDisplayInit.do | format = | doi = | accessdate = 2012-12-12 |archiveurl = http://web.archive.org/web/20070223102250/http://travel.state.gov/visa/frvi_bulletinarchives.html <!-- Bot retrieved archive --> |archivedate = 2007-02-23}}</ref> posted on the State Department's web site.
+
+While waiting for the I-130 to be approved or the F2A visa to become available, the beneficiary may visit the U.S. on B-2 visa (maximum 90 or 180 days stay) or under the [[Visa Waiver Program]] (VWP, maximum 90 days stay). However, in many cases, application for the B-2 visa or entry under the VWP is denied. Even once allowed a short-visit to the U.S., it cannot be repeated many times. Basically, the beneficiary cannot live or study in the U.S. until obtaining approval of an immigrant visa by a U.S. embassy or consulate outside of the U.S. This is because the visitor and student visas (or the VWP) require demonstration of non-immigrant intent. By definition, the spouse/child of a permanent resident cannot demonstrate non-immigrant intent.
+
+The permanent resident, on the other hand, cannot be away from the U.S. for long periods.  Doing so can be considered abandonment of permanent resident status.
+
+This situation often separates the permanent resident from his/her spouse/child.  These days, it takes 4–5 years<ref>[http://travel.state.gov/visa/frvi/bulletin/bulletin_1360.html Visa Bulletin] U.S. Department of State</ref> before family unity can be achieved.
+
+== V visa ==
+
+The V visa is available to those beneficiaries who satisfy the following conditions:
+
+1. An immigrant petition (I-130) must have been filed by the sponsor for the beneficiary on or before December 21, 2000.
+
+2. The beneficiary must have been waiting for at least three years since the time the I - 130 was filed.
+
+The V visa is available regardless of whether the beneficiary is waiting for the I-130 to be approved or for an F2A visa.  With this visa, the nuclear family can achieve unity in the U.S.  The spouse can work and the child can go to school.  International travel is permitted.  The V visa remains valid as long as the underlying immigrant petition is valid.
+
+While the V visa is still available to those who satisfy the conditions, it is effectively no longer useful since the sunset date was December 21, 2000.  Those who missed this deadline have no relief. Approximately 1,000,000 spouses/minor children of the lawful permanent residents are standing in the waiting line of 5–6 years for immigrant visas without being allowed to live with their spouses/parents in the U.S.
+
+== Family unity in other non-immigrant and immigrant categories ==
+
+U.S. non-immigrants (students, specialty workers, intracompany transferees) do not have this kind of problem.  Their spouses/minor children qualify for dependent visas. There are no numerical limits or processing delays associated with dependent visas.
+
+Most U.S. citizens do not experience major delays either.  While U.S. citizens have to file I-130 applications for their spouses/minor children, they do not have to wait for immigrant visas. If the process takes too long, they can apply for [[K-1 visa|K visas]].  Even without having to wait for an immigrant visa, the entire process typically takes at least one year and often as much as three years.  This is caused by USCIS (6-10mo), NVC (1-4mo), and Consular (1-6mo) processing times.
+
+Under current law it is only permanent residents whose spouses/minor children must wait many years to be admitted.<ref>[http://judiciary.house.gov/media/pdfs/Legomsky070419.pdf Written Testimony of Stephen H. Legomsky], John S. Lehmann University Professor, Washington University School of Law. Before the United States House of Representatives, Committee on the Judiciary, Subcommittee on Immigration, Citizenship, Refugees, Border Security, and International Law. Oversight Hearing on the Shortfalls of the 1986 Immigration Reform Legislation, April 19, 2007.</ref>
+
+== Legislation ==
+
+Bills have been introduced in previous sessions of Congress to address this issue. H.R. 1823<ref>[http://thomas.loc.gov/cgi-bin/bdquery/z?d109:h.r.01823: H.R.1823] To amend the Immigration and Nationality Act to extend the provisions governing nonimmigrant status for spouses and children of permanent resident aliens awaiting the availability of an immigrant visa, and for other purposes. House of Representatives, 109th Congress.</ref> (109th Congress) addresses this head-on by reinstating the V visa. S.1919<ref>[http://thomas.loc.gov/cgi-bin/bdquery/z?d109:s.01919: S.1919] Immigrant Accountability Act of 2005. A bill to amend the Immigration and Nationality Act in order to reunify families, to provide for earned adjustment of status, and for other purposes. Senate, 109th Congress.</ref> (also 109th Congress) reclassifies spouses and children of permanent residents as immediate relatives.  This classification removes the numerical limits on the number of immigrant visas available to them.  Other bills offered partial solutions to the problem. However, with a new session of Congress that began in January 2007, these bills have lapsed. New bills would have to be introduced for any relief.
+
+Most other developed nations do not separate nuclear families. Canada, for example, expedites family unity petitions.{{citation needed|date=January 2016}}
+
+== See also ==
+* [[Family reunification]]
+
+== References ==
+{{reflist}}
+
+== External links ==
+* [http://www.uscis.gov/portal/site/uscis/menuitem.5af9bb95919f35e66f614176543f6d1a/?vgnextoid=a32148afcb41e010VgnVCM1000000ecd190aRCRD&vgnextchannel=4f719c7755cb9010VgnVCM10000045f3d6a1RCRD Legal Immigration Family Equity (LIFE) Act] (USCIS)
+* [http://frwebgate.access.gpo.gov/cgi-bin/getdoc.cgi?dbname=2001_register&docid=fr07se01-1 V Visa Regulation] (Federal Register: September 7, 2001 [Volume 66, Number 174])
+* [http://www.uscis.gov/graphics/publicaffairs/newsrels/lifevvisarel.htm INS Implements ‘V’ Nonimmigrant Provision of the LIFE Act] (INS News Release, September 7, 2001)
+* [http://www.uscis.gov/graphics/howdoi/hdinonimm.htm How Do I Become a V-Nonimmigrant?] (USCIS)
+* [http://travel.state.gov/visa/immigrants/types/types_1493.html Nonimmigrant (V) Visa for Spouse and Children of a Lawful Permanent Resident (LPR)] (US Department of State)
+* Bills
+** [http://thomas.loc.gov/cgi-bin/bdquery/z?d109:h.r.01823: H.R.1823] To amend the Immigration and Nationality Act to extend the provisions governing nonimmigrant status for spouses and children of permanent resident aliens awaiting the availability of an immigrant visa, and for other purposes.
+** [http://thomas.loc.gov/cgi-bin/bdquery/z?d109:s.01919: S.1919] Immigrant Accountability Act of 2005: A bill to amend the Immigration and Nationality Act in order to reunify families, to provide for earned adjustment of status, and for other purposes.
+* [http://unitefamilies.org UniteFamilies.org] — a not-for-profit, volunteer-run group that advocates changing the immigration laws to remedy this situation.
+* [https://groups.yahoo.com/group/unitefamilies/ Yahoo! Groups: unitefamilies - Unite LPRs with their families]
+* [http://www.dailykos.com/user/b2bhandshake b2bhandshake's Diary]
+ <!-- * [http://www.americanfamiliesunited.org American Families United] - nonprofit organization working for transparency, fairness, and accountability in immigration for spouses and children of US citizens. ## This organization is "for spouses and children of US citizens" NOT for "for spouses and children of LPRs." ## -->
+
+* News Articles/Opinions
+** [http://www.npr.org/templates/story/story.php?storyId=5404214 A Family's Wait for U.S. Visas Spans Generations] (Jennifer Ludden, NPR)
+** [http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2005/12/12/BAG9CG6DON1.DTL Laws could help unite immigrant families. Green card carriers have hardest time visiting spouses] (Cicero A. Estrella, San Francisco Chronicle)
+** [http://www.boston.com/news/globe/editorial_opinion/oped/articles/2006/04/12/families_pay_price_of_faulty_policies/ Families pay price of faulty policies] (Jeff Jacoby, Boston Globe)
+** [http://www.dallasnews.com/sharedcontent/APStories/stories/D8IECEH01.html Immigrants forced to wait longer for family to join them] (Suzanne Gamboa, Associated Press)
+** [http://www.tennessean.com/apps/pbcs.dll/article?AID=2006606260323 Congress should be concerned about the legal immigrants, too.] (Ricardo Lu, Opinion, Tennessean)
+** [http://www.washingtonpost.com/wp-dyn/content/article/2006/06/15/AR2006061501964.html?sub=AR Joined by Love, Separated by Immigration Laws] (Ekaterina Atanasova, Letter to the Editor, Washington Post)
+** {{cite news|title=As Law Is Renegotiated, Immigrant Families Are on Edge |url=http://www.nytimes.com/2007/05/24/us/24family.html|publisher=New York Times|date=2007-05-24|accessdate=2007-05-24 | first=Julia | last=Preston}}
+
+{{United States visas}}
+
+[[Category:Immigration to the United States]]
+[[Category:United States visas by type]]
