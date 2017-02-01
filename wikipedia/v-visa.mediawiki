@@ -40,6 +40,32 @@ Bills have been introduced in previous sessions of Congress to address this issu
 
 Most other developed nations do not separate nuclear families. Canada, for example, expedites family unity petitions.{{citation needed|date=January 2016}}
 
+== Statistics ==
+
+=== Number of visas issued by year ===
+
+The first V visas were issued in Fiscal Year 2001, after the LIFE Act became law. In the table below, the years are Fiscal Years, so for instance the year 2009 refers to the period from October 1, 2008 to September 30, 2009.<ref name=visa-approvals>{{cite web|url=https://travel.state.gov/content/dam/visas/Statistics/Non-Immigrant-Statistics/NIVDetailTables/FYs97-15_NIVDetailTable.xls |title=Non-immigrant visa statistics |publisher=[[United States Department of State]] |accessdate=January 29, 2017}}</ref> Note that this only counts V visas issued at embassies and consulates outside the United States, and does not include people who changed nonimmigrant status to V status within the United States.
+
+The significane of the V visa has declined over time, because it applies only to people who had filed [[Form I-130]] petitions on or before December 21, 2000. The most recent V visas were issued in Fiscal Year 2007.
+
+{| class="wikitable sortable" border="1"
+! Fiscal Year !! Number of V-1 visas issued !! Number of V-2 visas issued !! Number of V-3 visas issued !! Total
+|-
+| 2001 || 9,127 || 14,805 || 1,400 || 25,332
+|-
+| 2002 || 18,020 || 19,523 || 19,567 || 57,110
+|-
+| 2003 || 13,983 || 12,918 || 16,302 || 43,203
+|-
+| 2004 || 6,896 || 7,217 || 6,856 || 20,969
+|-
+| 2005 || 911 || 951 || 1,165 || 3,027
+|-
+| 2006 || 166 || 133 || 281 || 580
+|-
+| 2007 || 30 || 23 || 51 || 104
+|}
+
 == See also ==
 * [[Family reunification]]
 

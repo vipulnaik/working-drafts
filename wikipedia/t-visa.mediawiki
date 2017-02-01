@@ -24,6 +24,42 @@ Related visas include:
 *T-4 visas - parents of T-1 applicants who are children
 *T-5 visas - under-18 unmarried siblings of T-1 applicants
 
+== Statistics ==
+
+=== Number of visas issued by year ===
+
+The first T visas were issued in Fiscal Year 2003. In the table below, the years are Fiscal Years, so for instance the year 2009 refers to the period from October 1, 2008 to September 30, 2009.<ref name=visa-approvals>{{cite web|url=https://travel.state.gov/content/dam/visas/Statistics/Non-Immigrant-Statistics/NIVDetailTables/FYs97-15_NIVDetailTable.xls |title=Non-immigrant visa statistics |publisher=[[United States Department of State]] |accessdate=January 29, 2017}}</ref> Note that this only counts T visas issued at embassies and consulates outside the United States, and does not include people who changed nonimmigrant status to T status within the United States. The T-1 status is the one most likely to be achieved through change of status within the United States, and therefore T-1 visas are not usually issued.
+
+{| class="wikitable sortable" border="1"
+! Fiscal Year !! Number of T-1 visas issued !! Number of T-2 visas issued !! Number of T-3 visas issued !! Number of T-4 visas issued !! Number of T-5 visas issued !! Total
+|-
+| 2003 || 0 || 20 || 38 || 0 || 0 || 58
+|-
+| 2004 || 0 || 74 || 145 || 0 || 0 || 219
+|-
+| 2005 || 0 || 35 || 65 || 7 || 5 || 112
+|-
+| 2006 || 0 || 11 || 43 || 5 || 1 || 60
+|-
+| 2007 || 0 || 20 || 70 || 5 || 3 || 98
+|-
+| 2008 || 0 || 34 || 132 || 5 || 8 || 179
+|-
+| 2009 || 0 || 8 || 81 || 3 || 3 || 95
+|-
+| 2010 || 0 || 64 || 167 || 7 || 8 || 246
+|-
+| 2011 || 0 || 127 || 258 || 10 || 14 || 409
+|-
+| 2012 || 0 || 151 || 342 || 7 || 17 || 517
+|-
+| 2013 || 0 || 171 || 357 || 22 || 31 || 581
+|-
+| 2014 || 0 || 115 || 370 || 18 || 13 || 516
+|-
+| 2015 || 0 || 111 || 376 || 10 || 10 || 507
+|}
+
 == References ==
 <references/>
 
