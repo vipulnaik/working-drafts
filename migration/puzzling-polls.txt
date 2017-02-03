@@ -18,7 +18,7 @@ The options offered in Google Surveys (which had the most respondents) were:
 	<li>More than 50%</li>
 </ul>
 
-The versions I posted on SurveyMonkey were a little different. Since the Google Surveys had the largest sample, and there is stronger evidence that Google Surveys respondents are closer to representative of the general population, I'll focus on the Google Surveys responses. (For more background on Google Surveys, see their <a href="https://en.wikipedia.org/wiki/Google_Surveys">Wikipeda page</a>).
+The versions I posted on SurveyMonkey were a little different. Since the Google Surveys had the largest sample, and there is stronger evidence that Google Surveys respondents are closer to representative of the general population, I'll focus on the Google Surveys responses. (For more background on Google Surveys, see their <a href="https://en.wikipedia.org/wiki/Google_Surveys">Wikipedia page</a>).
 
 You can access the full Google Surveys results for the two respective surveys <a href="https://surveys.google.com/reporting/question?survey=a2z2rzmcbad4v2s7ybegla5zum&question=1&raw=false&transpose=false&tab=0">here</a> and <a href="https://surveys.google.com/reporting/question?survey=ssoqubkb73w7wgs4sfw3vc6i3i&question=1&raw=false&transpose=false&tab=0">here</a>, with ability to filter and compare by age, gender, and state or region, here. A summary is below. Note that Google Surveys offers results in two forms: weighted estimates and raw counts. I'll present both below.
 
