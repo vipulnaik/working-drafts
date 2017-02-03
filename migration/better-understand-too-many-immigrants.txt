@@ -1,0 +1,33 @@
+I'm trying to better understand how exactly people form perceptions of the number of immigrants/foreigners as well as the normative judgment that there are too many of them.
+
+To that end, I want to design a survey for a United States audience (that I will distribute through means such as SurveyMonkey Audience, Survata, and Mechanical Turk). Q1 of the survey will ask people if they think there's too little, too much, or just right immigration (with a free form comment box for nuance). Q2 onward will probe into how people formed their impression both of current emprics and of normative questions.
+
+I'm looking for thoughts on what options I should offer as prompts in the survey for these questions I expect to put. People will have an option to enter a comment field.
+
+"Q2: How have you formed an estimate or opinion on the number of immigrants or foreigners in the United States?"
+
+Example options could include:
+
+- Sampling from my neighbors, colleagues, and friends
+- Sampling from people I see on the street or when I travel within my city
+- Sampling from my travel around the country
+- News reports, talk radio, TV talk shows
+- Think tank reports
+- Politician statements
+- Official statistics
+
+Looking for other options or rephrasing of the existing options.
+
+"Q3: How have you formed an opinion on the effect that immigration is having on the United States?"
+
+Looking for options to offer here.
+
+"Q4: If immigration moved in the direction that you were expecting it to, what sort of changes do you think you'd see?"
+
+Looking for options to offer here
+
+"Q5: If immigration moved in the direction opposite to the way you want, what sort of changes do you think you'd see?"
+
+Looking for options to offer here
+
+Related: I had earlier linked to surveys I was doing (https://www.facebook.com/groups/openborders/permalink/1104578796305507/?match=c3VydmV5cyxzdXJ2ZXk%3D and https://www.facebook.com/groups/openborders/permalink/1103651916398195/?match=c3VydmV5) asking people to estimate the proportion of the foreign-born. The surveys showed that people tended to estimate much higher numbers than the real value, but they also showed that there wasn't much correlation between people's estimates and the proportion of the foreign-born in their state or city. I was initially thinking of writing up my findings, with a focus on why people estimate incorrectly, but I now feel that the focal question is different.

@@ -1,0 +1,14 @@
+There is a theoretical silver lining to this policy, but it's exaggerated, and I realistically expect that tighter regulations on H-1B will be for the worse.
+
+The policies under discussion would impose:
+
+(a) Stricter pay-based requirements (so that employers who pay more will get preference)
+(b) Labor certification-type requirements for H-1B (i.e., employers will need to advertise jobs to natives and demonstrate that there is no qualified native worker to do the job). Currently, there are no such requirements for H-1B (the Labor Condition Application does not have such a requirement; it simply requires that the worker be paid at par with other workers in the company and the prevailing wage for the region and occupation) though H-2 visas (unskilled labor) have a labor certification requirement, as does permanent immigration (EB visas). Labor certification for EB visas is a fairly long-drawn and expensive process. Imposing those standards on temporary workers would significantly raise the deadweight cost of hiring temporary workers
+
+Potential effects:
+
+- Total cost of hiring H-1Bs goes way up, including time cost, lawyer cost, and a minimum wage effect
+- The effects are felt least by tech giants like Google and Apple and most by smaller startups and outsourcing firms (particularly because equity and intangible benefits cannot generally be entered into wage calculations)
+- It is plausible that tech giants would come out net winners (because the increased costs are offset by the greater certainty of making it through the lottery). However, it's worth noting that most tech giants have a pretty high acceptance rate for H-1Bs anyway, as a large number of the foreigners they hire have Masters or higher degrees in the United States (such as Ph.D. degrees) and these people are exempt from the usual lottery, instead going in a more favorable lottery to them.
+- Companies for whom the H-1B becomes easier might substitute away from sponsoring EB visas or other kinds of visas (like O-1, L-1) toward H-1B, or even hiring more H-1Bs; startups and outsourcing companies would probably end up switching away from hiring foreign labor.
+
