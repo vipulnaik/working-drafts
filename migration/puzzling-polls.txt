@@ -1,3 +1,5 @@
+See also https://www.dartmouth.edu/~nyhan/nature-origins-misperceptions.pdf
+
 I've heard claims that people overestimate the prevalence of the foreign-born in the population, and this affects the way they view immigration policy and the effects of immigration. To evaluate this hypothesis, I conducted a bunch of surveys that I circulated using Google Surveys and SurveyMonkey Audience to a general United States audience. For one of the surveys, I also obtained responses from the Open Borders Action Group for comparison.
 
 The two main questions, conducted as <em>separate</em> single-question Google Surveys:
