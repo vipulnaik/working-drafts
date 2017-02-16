@@ -1,0 +1,33 @@
+{| class="sortable wikitable" border="1"
+! Station !! Direction from Ashby !! Transit time in minutes !! Average number of weekday trips with entry at Ashby and exit at this station !! Average number of weekday trips with entry at this station and exit at Ashby
+|-
+| [[Richmond Station (California)|Richmond]] || Northbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 15 || 100 || 107 
+|-
+| [[El Cerrito del Norte (BART station)|El Cerrito del Norte]] || Northbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 11 || 155 || 130 
+|-
+| [[El Cerrito Plaza (BART station|El Cerrito Plaza]] || Northbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 8 || 85 || 80
+|-
+| [[North Berkeley (BART station)|North Berkeley]] || Northbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 4 || 78 || 68
+|-
+| [[Downtown Berkeley (BART station)|Downtown Berkeley]] || Northbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 2 || 399 || 377
+|-
+| Ashby || Same station || 0 || 20 || 20
+|-
+| [[MacArthur (BART station)|MacArthur]] || Southbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 4 || 104 || 97
+|-
+| [[19th Street Oakland (BART station)|19th Street Oakland]] || Southbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 7 || 276 || 274
+|-
+| [[12th Street Oakland City Center (BART station)|12th Street Oakland City Center]] || Southbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 9 || 250 || 260
+|-
+| [[Lake Merritt (BART station)|Lake Merritt]] || Southbound, along [[Richmond–​Fremont line]] || 12 || 60 || 60
+|-
+| [[Fruitvale (BART station)|Fruitvale]] || Southbound, along [[Richmond–​Fremont line]] || 16 || 90 || 89
+|-
+| [[Oakland Coliseum Station]] || Southbound, along [[Richmond–​Fremont line]] || 19 || 64 || 60
+|-
+| [[San Leandro (BART station)|San Leandro]] || Southbound, along [[Richmond–​Fremont line]] || 23 || 50 || 50
+|-
+| [[Bay Fair (BART station)|Bay Fair]] || Southbound, along [[Richmond–​Fremont line]] || 27 || 32 || 30
+|-
+| [[Hayward (BART station)|Hayward]] || Southbound, along [[Richmond–​Fremont line]] || 31 || 37 || 39
+|-
