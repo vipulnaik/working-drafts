@@ -31,3 +31,18 @@
 |-
 | [[Hayward (BART station)|Hayward]] || Southbound, along [[Richmond–​Fremont line]] || 31 || 37 || 39
 |-
+| [[South Hayward (BART station)|South Hayward]] || Southbound, along [[Richmond–​Fremont line]] || 35 || 22 || 20
+|-
+| [[Union City (BART station)|Union City]] || Southbound, along [[Richmond–​Fremont line]] || 40 || 41 || 37
+|-
+| [[Fremont (BART station)]] || Southbound, along [[Richmond–​Fremont line]] || 45 || 64 || 63
+|-
+| [[Embarcadero Station]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 20 || 954 || 725
+|-
+| [[Montgomery Street Station]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 22 || 838 || 808
+|-
+| [[Powell Street Station]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 23 || 407 || 512
+|-
+| [[Civic Center / UN Plaza Station]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 25 || 506 || 564
+|-
+| [[16th Street Mission (BART station)]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 27 || 

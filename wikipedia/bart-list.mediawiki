@@ -1,4 +1,193 @@
-{| class="sortable wikitable" border="1"
-! Station !! Number of entries 
+==Stations==
+[[File:North Concord BART In Station 02.jpg|thumb|right|Entrance of the North Concord/Martinez station|alt=An empty entrance of a train station with many ticket machines located in a distance]]
+[[File:Berkeley BART platform.jpg|thumb|right|Downtown Berkeley station|alt=A near-empty station platform of an underground train station, with a man sitting on a bench]]
+[[File:Glen Park Station platform.jpg|thumb|right|Glen Park station|alt=A near-empty station platform of a train station, with a person about to enter a train]]
+[[File:Lake Merritt station.jpg|thumb|right|Richmond-bound train at Lake Merritt station|alt=A near-empty station platform of an underground train station, with an escalator in the background. A train is leaving the station]]
+[[File:MacArthur BART.jpg|thumb|right|MacArthur station (Westbound [[California State Route 24|State Route 24]] in the background)|alt=A near-empty station platform of a ground level train station. It situates next to a highway.]]
+[[Image:MillbraeIntermodalSta.jpg|thumb|right|Millbrae station|alt=An at-grade train station situates behind two train tracks]]
+[[File:Montgomery02 BART.jpg|thumb|right|[[Mezzanine (architecture)|Mezzanine]] of the Montgomery station|alt=Am empty mezzanine of a train station with ticket machines and information kiosks in the background]]
+[[File:PBBP Station Front.jpg|thumb|right|Pittsburg/Bay Point station|alt=A white-colored train station situates behind an empty road. A flagpole is in the background.]]
+[[Image:Pleasant Hill BART Station.jpg|thumb|right|Pleasant Hill station|alt=An elevated train station situates behind an empty road. Sections of the station is fenced and two buses wait on the side of the road.]]
+[[File:SSF BART eastern side.JPG|thumb|right|East side of the South San Francisco station|alt=A train station with white roof situates behind an empty parking lot and road]]
+
+The following table lists the 44 rapid transit stations, and the single AGT station, now in use.
+;Lines
+{{rail color box|system=BART|line=Orange}}
+{{rail color box|system=BART|line=Yellow}}
+{{rail color box|system=BART|line=Green}}
+{{rail color box|system=BART|line=Red}}
+{{rail color box|system=BART|line=Blue}}
+{{rail color box|system=BART|line=OAK}}
+
+{| class="wikitable sortable" style="font-size:100%"
 |-
-| [[Richmond Station (California)|Richmond]] || 
+|style="background-color:#DDFFDD"|^
+|[[transfer station (transportation)|Transfer stations]] within the BART system
+|-
+|style="background-color:#DDDDFF"|{{Rail icon||Transfer to other system}}
+|Transfer stations with other rail systems
+|-
+|style="background-color:#BBFFDD"|^{{Rail icon||Transfer to other system}}
+|Transfer stations within the BART system/with other rail systems
+|-
+|style="background-color:#CCCCCC"|{{dagger}}
+|[[Train station#Terminus|Line termini]]
+|-
+|style="background-color:#BBBBFF"|{{dagger}}{{Rail icon||Transfer to other system}}
+|Transfer stations with other rail systems/Line termini
+|-
+|style="background-color:#AAEEFF"|{{dagger}}
+|Station served only by [[Automated guideway transit|AGT]]
+|-
+|}
+{|class="wikitable plainrowheaders sortable" summary="Station (sortable), Line(s) (sortable), Location (sortable), Opened (sortable), and Ridership (sortable)
+!scope="col"| Station
+!scope="col" class="unsortable" |Line(s){{Ref label|Note1|a|a}}
+!scope="col"| Location
+!scope="col"| Opened<ref name="40Years" />
+!scope="col"| [[Patronage (transportation)|Ridership]]{{Ref label|Note2|b|b}}
+!scope="col"| Parking spaces
+|-
+!scope="row" style="background-color:transparent;"|[[12th Street Oakland City Center (BART station)|12th Street Oakland City Center]]
+|{{color box|#{{BART color|Orange}}}} {{color box|#{{BART color|Yellow}}}} {{color box|#{{BART color|Red}}}}||[[Oakland, California|Oakland]]||{{dts|1972|9|11}}||{{nts|14220}}||0
+|-
+!scope="row" style="background-color:transparent;"|[[16th Street Mission (BART station)|16th Street Mission]]
+|{{color box|#{{BART color|Yellow}}}} {{color box|#{{BART color|Green}}}} {{color box|#{{BART color|Red}}}} {{color box|#{{BART color|Blue}}}}||[[San Francisco]]||{{dts|1973|11|5}}||{{nts|12724}}||0
+|-
+!scope="row" style="background-color:#DDFFDD"|[[19th Street Oakland (BART station)|19th Street Oakland]]^
+|{{color box|#{{BART color|Orange}}}} {{color box|#{{BART color|Yellow}}}} {{color box|#{{BART color|Red}}}}||[[Oakland, California|Oakland]]||{{dts|1972|9|11}}||{{nts|13837}}||0
+|-
+!scope="row" style="background-color:transparent;"|[[24th Street Mission (BART station)|24th Street Mission]]
+|{{color box|#{{BART color|Yellow}}}} {{color box|#{{BART color|Green}}}} {{color box|#{{BART color|Red}}}} {{color box|#{{BART color|Blue}}}}||[[San Francisco]]||{{dts|1973|11|5}}||{{nts|12876}}||0
+|-
+!scope="row" style="background-color:transparent;"|[[Ashby (BART station)|Ashby]]
+|{{color box|#{{BART color|Orange}}}} {{color box|#{{BART color|Red}}}}||[[Berkeley, California|Berkeley]]||{{dts|1973|1|29}}||{{nts|5641}}||715
+|-
+!scope="row" style="background-color:#BBFFDD"|[[Balboa Park Station|Balboa Park]]^{{Rail icon||Transfer to other system}} ({{rint|sanfrancisco|metro}})
+|{{color box|#{{BART color|Yellow}}}} {{color box|#{{BART color|Green}}}} {{color box|#{{BART color|Red}}}} {{color box|#{{BART color|Blue}}}}||[[San Francisco]]||{{dts|1973|11|5}}||{{nts|11256}}||0
+|-
+!scope="row" style="background-color:#DDFFDD"|[[Bay Fair (BART station)|Bay Fair]]^
+|{{color box|#{{BART color|Orange}}}} {{color box|#{{BART color|Green}}}} {{color box|#{{BART color|Blue}}}}||[[San Leandro, California|San Leandro]]||{{dts|1972|9|11}}||{{nts|6103}}||1,641
+|-
+!scope="row" style="background-color:transparent;"|[[Downtown Berkeley (BART station)|Downtown Berkeley]]
+|{{color box|#{{BART color|Orange}}}} {{color box|#{{BART color|Red}}}}||[[Berkeley, California|Berkeley]]||{{dts|1973|1|29}}||{{nts|13744}}||0
+|-
+!scope="row" style="background-color:transparent;"|[[Castro Valley (BART station)|Castro Valley]]
+|{{color box|#{{BART color|Blue}}}}||[[Castro Valley, California|Castro Valley]]||{{dts|1997|5|10}}||{{nts|3017}}||1,123
+|-
+!scope="row" style="background-color:#DDDDFF"|[[Civic Center / UN Plaza Station|Civic Center / UN Plaza]] {{Rail icon||Transfer to other system}} ({{rint|sanfrancisco|metro}})
+|{{color box|#{{BART color|Yellow}}}} {{color box|#{{BART color|Green}}}} {{color box|#{{BART color|Red}}}} {{color box|#{{BART color|Blue}}}}||[[San Francisco]]||{{dts|1973|11|5}}||{{nts|24214}}||0
+|-
+!scope="row" style="background-color:#BBBBFF"|[[Oakland Coliseum Station|Coliseum]]{{dagger}} {{Rail icon||Transfer to other system}} ({{rint|us|amtrak}})
+|{{color box|#{{BART color|Orange}}}} {{color box|#{{BART color|Green}}}} {{color box|#{{BART color|Blue}}}} {{color box|#{{BART color|OAK}}}}||[[Oakland, California|Oakland]]||{{dts|1972|9|11}}||{{nts|7749}}||1,013
+|-
+!scope="row" style="background-color:transparent;"|[[Colma (BART station)|Colma]]
+|{{color box|#{{BART color|Yellow}}}} {{color box|#{{BART color|Red}}}}{{Ref label|Note3|c|c}}||[[Colma, California|Colma]]||{{dts|1996|2|24}}||{{nts|4549}}||2,238
+|-
+!scope="row" style="background-color:transparent;"|[[Concord (BART station)|Concord]]
+|{{color box|#{{BART color|Yellow}}}}||[[Concord, California|Concord]]||{{dts|1973|5|21}}||{{nts|6350}}||2,367
+|-
+!scope="row" style="background-color:#CCCCCC"|[[Daly City (BART station)|Daly City]]{{dagger}}
+|{{color box|#{{BART color|Yellow}}}} {{color box|#{{BART color|Green}}}} {{color box|#{{BART color|Red}}}} {{color box|#{{BART color|Blue}}}}||[[Daly City, California|Daly City]]||{{dts|link=off|1973|11|5}}||{{nts|9600}}||2,068
+|-
+!scope="row" style="background-color:#CCCCCC"|[[Dublin / Pleasanton (BART station)|Dublin / Pleasanton]]{{dagger}}
+|{{color box|#{{BART color|Blue}}}}||[[Dublin, California|Dublin]] / [[Pleasanton, California|Pleasanton]]||{{dts|1997|5|10}}||{{nts|7494}}||2,612
+|-
+!scope="row" style="background-color:transparent;"|[[El Cerrito del Norte (BART station)|El Cerrito del Norte]]
+|{{color box|#{{BART color|Orange}}}} {{color box|#{{BART color|Red}}}}||[[El Cerrito, Contra Costa County, California|El Cerrito]] ||{{dts|1973|1|29}}||{{nts|9028}}||2,198
+|-
+!scope="row" style="background-color:transparent;"|[[El Cerrito Plaza (BART station)|El Cerrito Plaza]]
+|{{color box|#{{BART color|Orange}}}} {{color box|#{{BART color|Red}}}}||[[El Cerrito, Contra Costa County, California|El Cerrito]] ||{{dts|1973|1|29}}||{{nts|4942}}||761
+|-
+!scope="row" style="background-color:#DDDDFF"|[[Embarcadero Station|Embarcadero]] {{Rail icon||Transfer to other system}} ({{rint|sanfrancisco|metro}})
+|{{color box|#{{BART color|Yellow}}}} {{color box|#{{BART color|Green}}}} {{color box|#{{BART color|Red}}}} {{color box|#{{BART color|Blue}}}}||[[San Francisco]]||{{dts|1976|5|27}}||{{nts|49307}}||0
+|-
+!scope="row" style="background-color:#CCCCCC"|[[Fremont (BART station)|Fremont]]{{dagger}}
+|{{color box|#{{BART color|Orange}}}} {{color box|#{{BART color|Green}}}}||[[Fremont, California|Fremont]]||{{dts|1972|9|11}}||{{nts|8905}}||2,030
+|-
+!scope="row" style="background-color:transparent;"|[[Fruitvale (BART station)|Fruitvale]]
+|{{color box|#{{BART color|Orange}}}} {{color box|#{{BART color|Green}}}} {{color box|#{{BART color|Blue}}}}||[[Oakland, California|Oakland]]||{{dts|1972|9|11}}||{{nts|8639}}||1,268
+|-
+!scope="row" style="background-color:#DDDDFF"|[[Glen Park Station|Glen Park]] {{Rail icon||Transfer to other system}} ({{rint|sanfrancisco|metro}})
+|{{color box|#{{BART color|Yellow}}}} {{color box|#{{BART color|Green}}}} {{color box|#{{BART color|Red}}}} {{color box|#{{BART color|Blue}}}}||[[San Francisco]]||{{dts|1973|11|5}}||{{nts|7706}}||53
+|-
+!scope="row" style="background-color:transparent;"|[[Hayward (BART station)|Hayward]]
+|{{color box|#{{BART color|Orange}}}} {{color box|#{{BART color|Green}}}}||[[Hayward, California|Hayward]]||{{dts|1972|9|11}}||{{nts|5322}}||1,473
+|-
+!scope="row" style="background-color:transparent;"|[[Lafayette (BART station)|Lafayette]]
+|{{color box|#{{BART color|Yellow}}}}||[[Lafayette, California|Lafayette]]||{{dts|1973|5|21}}||{{nts|3912}}||1,629
+|-
+!scope="row" style="background-color:transparent;"|[[Lake Merritt (BART station)|Lake Merritt]]
+|{{color box|#{{BART color|Orange}}}} {{color box|#{{BART color|Green}}}} {{color box|#{{BART color|Blue}}}}||[[Oakland, California|Oakland]]||{{dts|1972|9|11}}||{{nts|5490}}||207
+|-
+!scope="row" style="background-color:#DDFFDD"|[[MacArthur (BART station)|MacArthur]]^
+|{{color box|#{{BART color|Orange}}}} {{color box|#{{BART color|Yellow}}}} {{color box|#{{BART color|Red}}}}||[[Oakland, California|Oakland]]||{{dts|1972|9|11}}||{{nts|9265}}||602
+|-
+!scope="row" style="background-color:#BBBBFF"|[[Millbrae Intermodal Terminal|Millbrae]]{{dagger}}{{Rail icon||Transfer to other system}} ({{rint|caltrain}})
+|{{color box|#{{BART color|Yellow}}}} {{color box|#{{BART color|Red}}}}{{Ref label|Note3|c|c}}{{Ref label|Note4|d|d}}||[[Millbrae, California|Millbrae]]||{{dts|2003|6|22}}||{{nts|6093}}||2,900
+|-
+!scope="row" style="background-color:#DDDDFF"|[[Montgomery Street Station|Montgomery Street]] {{Rail icon||Transfer to other system}} ({{rint|sanfrancisco|metro}})
+|{{color box|#{{BART color|Yellow}}}} {{color box|#{{BART color|Green}}}} {{color box|#{{BART color|Red}}}} {{color box|#{{BART color|Blue}}}}||[[San Francisco]]||{{dts|1973|11|5}}||{{nts|44333}}||0
+|-
+!scope="row" style="background-color:transparent;"|[[North Berkeley (BART station)|North Berkeley]]
+|{{color box|#{{BART color|Orange}}}} {{color box|#{{BART color|Red}}}}||[[Berkeley, California|Berkeley]]||{{dts|1973|1|29}}||{{nts|4915}}||822
+|-
+!scope="row" style="background-color:transparent;"|[[North Concord / Martinez (BART station)|North Concord / Martinez]]
+|{{color box|#{{BART color|Yellow}}}}||[[Concord, California|Concord]]||{{dts|1995|12|16}}||{{nts|2721}}||1,977
+|-
+!scope="row" style="background-color:#AAEEFF"|[[Oakland International Airport (BART station)|Oakland International Airport]] {{rint|air|link=Oakland International Airport}}{{dagger}}
+|{{color box|#{{BART color|OAK}}}}||[[Oakland, California|Oakland]]||{{dts|2014|11|22}}||{{nts|863}}||0
+|-
+!scope="row" style="background-color:transparent;"|[[Orinda (BART station)|Orinda]]
+|{{color box|#{{BART color|Yellow}}}}||[[Orinda, California|Orinda]]||{{dts|1973|5|21}}||{{nts|3038}}||1,406
+|-
+!scope="row" style="background-color:#CCCCCC"|[[Pittsburg / Bay Point (BART station)|Pittsburg / Bay Point]]{{dagger}}
+|{{color box|#{{BART color|Yellow}}}}||[[Pittsburg, California|Pittsburg]]||{{dts|1996|12|7}}||{{nts|6167}}||1,992
+|-
+!scope="row" style="background-color:transparent;"|[[Pleasant Hill / Contra Costa Centre (BART station)|Pleasant Hill / Contra Costa Centre]]
+|{{color box|#{{BART color|Yellow}}}}||[[Walnut Creek, California|Walnut Creek]]||{{dts|1973|5|21}}||{{nts|6940}}||3,011
+|-
+!scope="row" style="background-color:#DDDDFF"|[[Powell Street Station|Powell Street]] {{Rail icon||Transfer to other system}} ({{rint|sanfrancisco|metro}})
+|{{color box|#{{BART color|Yellow}}}} {{color box|#{{BART color|Green}}}} {{color box|#{{BART color|Red}}}} {{color box|#{{BART color|Blue}}}}||[[San Francisco]]||{{dts|1973|11|5}}||{{nts|29429}}||0
+|-
+!scope="row" style="background-color:#BBBBFF"|[[Richmond Station (California)|Richmond]]{{dagger}}{{Rail icon||Transfer to other system}} ({{rint|us|amtrak}})
+|{{color box|#{{BART color|Orange}}}} {{color box|#{{BART color|Red}}}}||[[Richmond, California|Richmond]]||{{dts|1973|1|29}}||{{nts|4417}}||624
+|-
+!scope="row" style="background-color:transparent;"|[[Rockridge (BART station)|Rockridge]]
+|{{color box|#{{BART color|Yellow}}}}||[[Oakland, California|Oakland]]||{{dts|1973|5|21}}||{{nts|6184}}||903
+|-
+!scope="row" style="background-color:#DDFFDD"|[[San Bruno (BART station)|San Bruno]]^
+|{{color box|#{{BART color|Yellow}}}} {{color box|#{{BART color|Red}}}}{{Ref label|Note3|c|c}}||[[San Bruno, California|San Bruno]]||{{dts|2003|6|22}}||{{nts|3964}}||1,083
+|-
+!scope="row" style="background-color:#CCCCCC"|[[San Francisco International Airport (BART station)|San Francisco International Airport]]{{rint|air|link=San Francisco International Airport}}{{dagger}}
+|{{color box|#{{BART color|Yellow}}}}||[[San Mateo County, California|San Mateo County]]||{{dts|2003|6|22}}||{{nts|6782}}||0
+|-
+!scope="row" style="background-color:transparent;"|[[San Leandro (BART station)|San Leandro]]
+|{{color box|#{{BART color|Orange}}}} {{color box|#{{BART color|Green}}}} {{color box|#{{BART color|Blue}}}}||[[San Leandro, California|San Leandro]]||{{dts|1972|9|11}}||{{nts|6077}}||1,224
+|-
+!scope="row" style="background-color:transparent;"|[[South Hayward (BART station)|South Hayward]]
+|{{color box|#{{BART color|Orange}}}} {{color box|#{{BART color|Green}}}}||[[Hayward, California|Hayward]]||{{dts|1972|9|11}}||{{nts|3183}}||1,207
+|-
+!scope="row" style="background-color:transparent;"|[[South San Francisco (BART station)|South San Francisco]]
+|{{color box|#{{BART color|Yellow}}}} {{color box|#{{BART color|Red}}}}{{Ref label|Note3|c|c}}||[[South San Francisco, California|South San Francisco]]||{{dts|2003|6|22}}||{{nts|3550}}||3,500
+|-
+!scope="row" style="background-color:transparent;"|[[Union City (BART station)|Union City]]
+|{{color box|#{{BART color|Orange}}}} {{color box|#{{BART color|Green}}}}||[[Union City, California|Union City]]||{{dts|1972|9|11}}||{{nts|4954}}||1,197
+|-
+!scope="row" style="background-color:transparent;"|[[Walnut Creek (BART station)|Walnut Creek]]
+|{{color box|#{{BART color|Yellow}}}}||[[Walnut Creek, California|Walnut Creek]]||{{dts|1973|5|21}}||{{nts|6828}}||2,089
+|-
+!scope="row" style="background-color:transparent;"|[[West Dublin / Pleasanton (BART station)|West Dublin / Pleasanton]]
+|{{color box|#{{BART color|Blue}}}}||[[Dublin, California|Dublin]] / [[Pleasanton, California|Pleasanton]]||{{dts|2011|2|19}}||{{nts|3777}}||1,190
+|-
+!scope="row" style="background-color:transparent;"|[[West Oakland (BART station)|West Oakland]]
+|{{color box|#{{BART color|Yellow}}}} {{color box|#{{BART color|Green}}}} {{color box|#{{BART color|Red}}}} {{color box|#{{BART color|Blue}}}}||[[Oakland, California|Oakland]]||{{dts|1974|9|16}}||{{nts|6878}}||156
+|-
+|}
+'''Notes'''<br />
+<small>
+{{note label|Note1|a|a}} For stations serviced by multiple lines, lines are listed in the order of opening. The Richmond–Daly City/Millbrae and Fremont–Daly City lines do not provide evening/Sunday service.<br />
+{{note label|Note2|b|b}} Station ridership is measured in average weekday exits in Fiscal Year 2015.<ref name="BART-FY2015">{{cite web |url=http://www.bart.gov/sites/default/files/docs/FY%20Avg%20Wkdy%20Exits%20by%20Station_1.xlsx |title=BART Fiscal Year Weekday Average Exits |publisher=[[Bay Area Rapid Transit]] (BART) |format=xlsx |year=2014 |accessdate=2014-12-20}}</ref><br />
+{{note label|Note3|c|c}} The Richmond–Daly City/Millbrae line services the Colma, South San Francisco, San Bruno, and Millbrae stations on weekdays only. The line terminates at Daly City station on Saturdays.<ref name="schedule">{{cite web |url=http://www.bart.gov/schedules/byline |title=Schedules By Line |publisher=[[Bay Area Rapid Transit]] (BART) |year=2013 |accessdate=2013-11-30}}</ref><br />
+{{note label|Note4|d|d}} The Pittsburg/Bay Point–SFO/Millbrae line services Millbrae station after 8pm on weekdays and all day on weekends only. The line terminates at SFO station until 8pm on weekdays. During this period, passengers traveling between the SFO and Millbrae stations must transfer at San Bruno station.<ref name="schedule"/>
+</small>
