@@ -35,14 +35,37 @@
 |-
 | [[Union City (BART station)|Union City]] || Southbound, along [[Richmond–​Fremont line]] || 40 || 41 || 37
 |-
-| [[Fremont (BART station)]] || Southbound, along [[Richmond–​Fremont line]] || 45 || 64 || 63
+| [[Fremont (BART station)|Fremont]] || Southbound, along [[Richmond–​Fremont line]] || 45 || 64 || 63
 |-
-| [[Embarcadero Station]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 20 || 954 || 725
+| [[West Oakland (BART station)|West Oakland]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 13 || 28 || 31
 |-
-| [[Montgomery Street Station]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 22 || 838 || 808
+| [[Embarcadero Station|Embarcadero]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 20 || 954 || 725
 |-
-| [[Powell Street Station]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 23 || 407 || 512
+| [[Montgomery Street Station|Montgomery Street]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 22 || 838 || 808
 |-
-| [[Civic Center / UN Plaza Station]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 25 || 506 || 564
+| [[Powell Street Station|Powell Street]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 23 || 407 || 512
 |-
-| [[16th Street Mission (BART station)]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 27 || 
+| [[Civic Center / UN Plaza Station|Civic Center / UN Plaza]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 25 || 506 || 564
+|-
+| [[16th Street Mission (BART station)|16th Street Mission]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 27 || 214 || 232 
+|-
+| [[24th Street Mission (BART station)|24th Street Mission]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 29 || 121 || 127
+|-
+| [[Glen Park Station|Glen Park]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 32 || 35 || 36
+|-
+| [[Balboa Park Station|Balboa Park]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 34 || 42 || 42
+|-
+| [[Daly City (BART station)|Daly City]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 38 || 36 || 36
+|-
+| [[Colma (BART station)|Colma]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 42 || 10 || 13
+|-
+| [[South San Francisco (BART station)|South San Francisco]] || Southbound, along [[Richmond–​Daly City/​Millbrae line|Richmond–​Millbrae line]] || 45 || 9 || 8
+|-
+| [[San Bruno (BART station)|San Bruno]] || Southbound, along [[Richmond–​Daly City/​Millbrae line|Richmond–​Millbrae line]] || 48 || 13 || 14
+|-
+| [[Millbrae Intermodal Terminal|Millbrae]] || Southbound, along [[Richmond–​Daly City/​Millbrae line|Richmond–​Millbrae line]] || 54 || 47 || 45
+|-
+| [[San Francisco International Airport (BART station)|San Francisco International Airport]] || No direct service. Transfer at MacArthur or San Bruno to Pittsburg / Bay Point –​ SFO train || 53 || 52 || 63
+|-
+| 
+|}
