@@ -1,8 +1,8 @@
 Notes:
 
-* End-of-line stations have higher entry and exit counts.
-* Transfer stations to other lines have higher entry and exit counts.
-* Some daily commuters don't enter and exit at the same station. For instance, many commuters from Ashby who work in downtown San Francisco exit at an earlier station in the morning and enter at a station farther south when returning (e.g., exit at Embarcadero in the morning and enter at Montgomery in the evening). This is to get on a less crowded train.
+* Ashby BART primarily serves residents. Regular commuters (for work and study) therefore mainly depart from here in the morning and return in the evening. The exceptions are mostly people who work in downtown Berkeley but happen to find Ashby more convenient.
+* The following kinds of stations will have higher entry/exit counts: nearby stations, stations in downtowns (Berkeley, Oakland, and San Francisco, stations with transfers, end-of-line stations, and airport stations.
+* Some daily commuters don't enter and exit at the same station. For instance, commuters from Ashby who work in downtown San Francisco exit at an earlier station in the morning and enter at a station farther south when returning (e.g., exit at Embarcadero in the morning and enter at Montgomery in the evening). This is to get on a less crowded train.
 
 {| class="sortable wikitable" border="1"
 ! Station !! Code !! End of line? !! Direction from Ashby !! Transit time in minutes !! Average number of weekday trips with entry at Ashby and exit at this station !! Average number of weekday trips with entry at this station and exit at Ashby
