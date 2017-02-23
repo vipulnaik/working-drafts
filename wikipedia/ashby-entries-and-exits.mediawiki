@@ -1,71 +1,107 @@
 {| class="sortable wikitable" border="1"
-! Station !! Direction from Ashby !! Transit time in minutes !! Average number of weekday trips with entry at Ashby and exit at this station !! Average number of weekday trips with entry at this station and exit at Ashby
+! Station !! Code !! Direction from Ashby !! Transit time in minutes !! Average number of weekday trips with entry at Ashby and exit at this station !! Average number of weekday trips with entry at this station and exit at Ashby
 |-
-| [[Richmond Station (California)|Richmond]] || Northbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 15 || 100 || 107 
+| [[Richmond Station (California)|Richmond]] || RM || Northbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 15 || 100 || 107 
 |-
-| [[El Cerrito del Norte (BART station)|El Cerrito del Norte]] || Northbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 11 || 155 || 130 
+| [[El Cerrito del Norte (BART station)|El Cerrito del Norte]] || EN || Northbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 11 || 155 || 130 
 |-
-| [[El Cerrito Plaza (BART station|El Cerrito Plaza]] || Northbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 8 || 85 || 80
+| [[El Cerrito Plaza (BART station|El Cerrito Plaza]] || EP || Northbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 8 || 85 || 80
 |-
-| [[North Berkeley (BART station)|North Berkeley]] || Northbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 4 || 78 || 68
+| [[North Berkeley (BART station)|North Berkeley]] || NB || Northbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 4 || 78 || 68
 |-
-| [[Downtown Berkeley (BART station)|Downtown Berkeley]] || Northbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 2 || 399 || 377
+| [[Downtown Berkeley (BART station)|Downtown Berkeley]] || BK || Northbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 2 || 399 || 377
 |-
-| Ashby || Same station || 0 || 20 || 20
+| Ashby || AS || Same station || 0 || 20 || 20
 |-
-| [[MacArthur (BART station)|MacArthur]] || Southbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 4 || 104 || 97
+| [[MacArthur (BART station)|MacArthur]] || MA || Southbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 4 || 104 || 97
 |-
-| [[19th Street Oakland (BART station)|19th Street Oakland]] || Southbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 7 || 276 || 274
+| [[19th Street Oakland (BART station)|19th Street Oakland]] || 19 || Southbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 7 || 276 || 274
 |-
-| [[12th Street Oakland City Center (BART station)|12th Street Oakland City Center]] || Southbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 9 || 250 || 260
+| [[12th Street Oakland City Center (BART station)|12th Street Oakland City Center]] || 12 || Southbound, along [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] || 9 || 250 || 260
 |-
-| [[Lake Merritt (BART station)|Lake Merritt]] || Southbound, along [[Richmond–​Fremont line]] || 12 || 60 || 60
+| [[Lake Merritt (BART station)|Lake Merritt]] || LM || Southbound, along [[Richmond–​Fremont line]] || 12 || 60 || 60
 |-
-| [[Fruitvale (BART station)|Fruitvale]] || Southbound, along [[Richmond–​Fremont line]] || 16 || 90 || 89
+| [[Fruitvale (BART station)|Fruitvale]] || FV || Southbound, along [[Richmond–​Fremont line]] || 16 || 90 || 89
 |-
-| [[Oakland Coliseum Station]] || Southbound, along [[Richmond–​Fremont line]] || 19 || 64 || 60
+| [[Oakland Coliseum Station]] || CL || Southbound, along [[Richmond–​Fremont line]] || 19 || 64 || 60
 |-
-| [[San Leandro (BART station)|San Leandro]] || Southbound, along [[Richmond–​Fremont line]] || 23 || 50 || 50
+| [[San Leandro (BART station)|San Leandro]] || SL || Southbound, along [[Richmond–​Fremont line]] || 23 || 50 || 50
 |-
-| [[Bay Fair (BART station)|Bay Fair]] || Southbound, along [[Richmond–​Fremont line]] || 27 || 32 || 30
+| [[Bay Fair (BART station)|Bay Fair]] || BF || Southbound, along [[Richmond–​Fremont line]] || 27 || 32 || 30
 |-
-| [[Hayward (BART station)|Hayward]] || Southbound, along [[Richmond–​Fremont line]] || 31 || 37 || 39
+| [[Hayward (BART station)|Hayward]] || HY || Southbound, along [[Richmond–​Fremont line]] || 31 || 37 || 39
 |-
-| [[South Hayward (BART station)|South Hayward]] || Southbound, along [[Richmond–​Fremont line]] || 35 || 22 || 20
+| [[South Hayward (BART station)|South Hayward]] || SH || Southbound, along [[Richmond–​Fremont line]] || 35 || 22 || 20
 |-
-| [[Union City (BART station)|Union City]] || Southbound, along [[Richmond–​Fremont line]] || 40 || 41 || 37
+| [[Union City (BART station)|Union City]] || UC || Southbound, along [[Richmond–​Fremont line]] || 40 || 41 || 37
 |-
-| [[Fremont (BART station)|Fremont]] || Southbound, along [[Richmond–​Fremont line]] || 45 || 64 || 63
+| [[Fremont (BART station)|Fremont]] || FM || Southbound, along [[Richmond–​Fremont line]] || 45 || 64 || 63
 |-
-| [[West Oakland (BART station)|West Oakland]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 13 || 28 || 31
+| [[West Oakland (BART station)|West Oakland]] || OW || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 13 || 28 || 31
 |-
-| [[Embarcadero Station|Embarcadero]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 20 || 954 || 725
+| [[Embarcadero Station|Embarcadero]] || EM || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 20 || 954 || 725
 |-
-| [[Montgomery Street Station|Montgomery Street]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 22 || 838 || 808
+| [[Montgomery Street Station|Montgomery Street]] || MT || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 22 || 838 || 808
 |-
-| [[Powell Street Station|Powell Street]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 23 || 407 || 512
+| [[Powell Street Station|Powell Street]] || PL || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 23 || 407 || 512
 |-
-| [[Civic Center / UN Plaza Station|Civic Center / UN Plaza]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 25 || 506 || 564
+| [[Civic Center / UN Plaza Station|Civic Center / UN Plaza]] || CC || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 25 || 506 || 564
 |-
-| [[16th Street Mission (BART station)|16th Street Mission]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 27 || 214 || 232 
+| [[16th Street Mission (BART station)|16th Street Mission]] || 16 || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 27 || 214 || 232 
 |-
-| [[24th Street Mission (BART station)|24th Street Mission]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 29 || 121 || 127
+| [[24th Street Mission (BART station)|24th Street Mission]] || 24 || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 29 || 121 || 127
 |-
-| [[Glen Park Station|Glen Park]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 32 || 35 || 36
+| [[Glen Park Station|Glen Park]] || GP || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 32 || 35 || 36
 |-
-| [[Balboa Park Station|Balboa Park]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 34 || 42 || 42
+| [[Balboa Park Station|Balboa Park]] || BP || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 34 || 42 || 42
 |-
-| [[Daly City (BART station)|Daly City]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 38 || 36 || 36
+| [[Daly City (BART station)|Daly City]] || DC || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 38 || 36 || 36
 |-
-| [[Colma (BART station)|Colma]] || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 42 || 10 || 13
+| [[Colma (BART station)|Colma]] || CM || Southbound, along [[Richmond–​Daly City/​Millbrae line]] || 42 || 10 || 13
 |-
-| [[South San Francisco (BART station)|South San Francisco]] || Southbound, along [[Richmond–​Daly City/​Millbrae line|Richmond–​Millbrae line]] || 45 || 9 || 8
+| [[South San Francisco (BART station)|South San Francisco]] || SS || Southbound, along [[Richmond–​Daly City/​Millbrae line|Richmond–​Millbrae line]] || 45 || 9 || 8
 |-
-| [[San Bruno (BART station)|San Bruno]] || Southbound, along [[Richmond–​Daly City/​Millbrae line|Richmond–​Millbrae line]] || 48 || 13 || 14
+| [[San Bruno (BART station)|San Bruno]] || SB || Southbound, along [[Richmond–​Daly City/​Millbrae line|Richmond–​Millbrae line]] || 48 || 13 || 14
 |-
-| [[Millbrae Intermodal Terminal|Millbrae]] || Southbound, along [[Richmond–​Daly City/​Millbrae line|Richmond–​Millbrae line]] || 54 || 47 || 45
+| [[Millbrae Intermodal Terminal|Millbrae]] || MB || Southbound, along [[Richmond–​Daly City/​Millbrae line|Richmond–​Millbrae line]] || 54 || 47 || 45
 |-
-| [[San Francisco International Airport (BART station)|San Francisco International Airport]] || No direct service. Transfer at MacArthur or San Bruno to Pittsburg / Bay Point –​ SFO train || 53 || 52 || 63
+| [[San Francisco International Airport (BART station)|San Francisco International Airport]] || SO || Transfer at MacArthur or San Bruno to Pittsburg / Bay Point –​ SFO train || 53 || 52 || 63
 |-
-| 
+| [[Rockridge (BART station)|Rockridge]] || RR || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 7 (+ non-timed transfer time) || 17 || 18
+|-
+| [[Orinda (BART station)|Orinda]] || OR || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 12 (+ non-timed transfer time) || 9 || 7
+|-
+| [[Lafayette (BART station)|Lafayette]] || LF || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 17 (+ non-timed transfer time) || 10 || 11
+|-
+| [[Walnut Creek (BART station)|Walnut Creek]] || WC || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 22 (+ non-timed transfer time) || 27 || 27
+|-
+| [[Pleasant Hill / Contra Costa Centre (BART station)|Pleasant Hill / Contra Costa Centre]] || PH || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 25 (+ non-timed transfer time at MacArthur) || 24 || 24
+|-
+| [[Concord (BART station)|Concord]] || CN || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 30 (+ non-timed transfer time at MacArthur) || 27 || 27
+|-
+| [[North Concord/Martinez (BART station)|North Concord/Martinez]] || NC || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 34 (+ non-timed transfer time at MacArthur) || 11 || 11
+|-
+| [[Pittsburg / Bay Point (BART station)|Pittsburg / Bay Point]] || WP || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 40 (+ non-timed transfer time at MacArthur) || 32 || 37
+|-
+| [[Castro Valley (BART station)|Castro Valley]] || CV || Transfer at [[Bay Fair (BART station)|Bay Fair]] from southbound [[Richmond–​Fremont line]] to Daly City-Dublin/Pleasanton Line || 31 (+ non-timed transfer time  at Bay Fair) || 8 || 9
+|-
+| [[West Dublin / Pleasanton (BART station)|West Dublin / Pleasanton]] || WD || Transfer at [[Bay Fair (BART station)|Bay Fair]] from southbound [[Richmond–​Fremont line]] to Daly City-Dublin/Pleasanton Line || 42 (+ non-timed transfer time at Bay Fair) || 11 || 10
+|-
+| [[Dublin / Pleasanton (BART station)|Dublin / Pleasanton]] || ED || Transfer at [[Bay Fair (BART station)|Bay Fair]] from southbound [[Richmond–​Fremont line]] to Daly City-Dublin/Pleasanton Line || 44 (+ non-timed transfer time at Bay Fair) || 19 || 17 
+|-
+| [[Oakland International Airport (BART station)|Oakland International Airport]] || OA || Transfer at [[Oakland Coliseum Station|Coliseum]] from southbound [[Richmond–​Fremont line]] to the Oakland International Airport Line || ? || 19 || 27
+|-
+! Total northbound (toward Richmond) || || || || 817 || 762
+|-
+! Total in Oakland along line to San Francisco (MacArthur, 19th, 12th, Oakland) || || || || 658 || 662
+|-
+! Total transbay || || || || 3284 || 3225
+|-
+! Total along Pittsburg / Bay Point line, northward from (and including) Rockridge || || || || || 157 || 162
+|-
+! Total along Fremont line, southward from (and including) Lake Merritt || || || || || 460 || 449
+|-
+! Total exclusive to Dublin / Pleasanton line, from (and including) Castro Valley || || || || 38 || 36
+|-
+! Grand total (includes all totals above + round trips and Oakland International Airport) || || || || 5452 || 5341
 |}
