@@ -1,7 +1,7 @@
 Below is data for average weekday entries and exits between the Ashby BART and other BART stations as of January 2017.<ref>{{cite web|url = http://www.bart.gov/about/reports/ridership|title = Ridership Reports|accessdate = February 23, 2017}}</ref> A few notes for interpretation:
 
 * Ashby BART primarily serves residents. Regular commuters (for work and study) therefore mainly depart from here in the morning and return in the evening. The exceptions are mostly people who work in downtown Berkeley but happen to find Ashby more convenient.
-* The following kinds of stations will have higher entry/exit counts: nearby stations, stations in downtowns (Berkeley, Oakland, and San Francisco, stations with transfers, end-of-line stations, and airport stations.
+* The following kinds of stations will have higher entry/exit counts: nearby stations, stations in downtowns (Berkeley, Oakland, and San Francisco), stations with transfers, end-of-line stations, and airport stations.
 * Some daily commuters don't enter and exit at the same station. For instance, commuters from Ashby who work in downtown San Francisco exit at an earlier station in the morning and enter at a station farther south when returning (e.g., exit at Embarcadero in the morning and enter at Montgomery in the evening). This is to get on a less crowded train.
 
 {| class="sortable wikitable" border="1"
@@ -95,7 +95,7 @@ Below is data for average weekday entries and exits between the Ashby BART and o
 |-
 | [[Dublin / Pleasanton (BART station)|Dublin / Pleasanton]] || ED || Yes || Transfer at [[Bay Fair (BART station)|Bay Fair]] from southbound [[Richmond–Fremont line]] to [[Dublin/Pleasanton–Daly City line]] || 44 (+ non-timed transfer time at Bay Fair) || 19 || 17 
 |-
-| [[Oakland International Airport (BART station)|Oakland International Airport]] || OA || Yes || Transfer at [[Oakland Coliseum Station|Coliseum]] from southbound [[Richmond–Fremont line]] to the Oakland International Airport Line || ? || 19 || 27
+| [[Oakland International Airport (BART station)|Oakland International Airport]] || OA || Yes || Transfer at [[Oakland Coliseum Station|Coliseum]] from southbound [[Richmond–Fremont line]] to the Oakland International Airport Line || 27 (+ non-timed transfer time at Coliseum) || 19 || 27
 |-
 ! Total northbound (toward Richmond) || || || || || 817 || 762
 |-
