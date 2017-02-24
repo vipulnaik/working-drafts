@@ -1,4 +1,4 @@
-Below is data for average weekday entries and exits between the Ashby BART and other BART stations as of January 2017.<ref>{{cite web|url = http://www.bart.gov/about/reports/ridership|title = Ridership Reports|accessdate = February 23, 2017}}</ref> A few notes for interpretation:
+Below is data for average weekday entries and exits between the Ashby BART and other BART stations as of January 2017.<ref>{{cite web|url = http://www.bart.gov/about/reports/ridership|title = Ridership Reports|accessdate = February 23, 2017}}</ref> The transit time is based on BART's fares and schedules booklet, last updated (fill in here).<ref>{{cite web|url = https://www.bart.gov/sites/default/files/docs/F_S%20FEB%202016%20.pdf|title = BART Fares and Schedules|accessdate = February 23, 2017|date = February 1, 2016|publisher = [[Bay Area Rapid Transit]]}}</ref> A few notes for interpretation:
 
 * Ashby BART primarily serves residents. Regular commuters (for work and study) therefore mainly depart from here in the morning and return in the evening. The exceptions are mostly people who work in downtown Berkeley but happen to find Ashby more convenient.
 * The following kinds of stations will have higher entry/exit counts: nearby stations, stations in downtowns (Berkeley, Oakland, and San Francisco), stations with transfers, end-of-line stations, and airport stations.
@@ -73,13 +73,13 @@ Below is data for average weekday entries and exits between the Ashby BART and o
 |-
 | [[San Francisco International Airport (BART station)|San Francisco International Airport]] || SO || Yes || Transfer at MacArthur or San Bruno to [[Pittsburg/Bay Point–SFO/Millbrae line]] || 53 || 52 || 63
 |-
-| [[Rockridge (BART station)|Rockridge]] || RR || No || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–Fremont line]] or [[Richmond–Daly City/Millbrae line]] to northbound [[Pittsburg/Bay Point–SFO/Millbrae line]] || 7 (+ non-timed transfer time) || 17 || 18
+| [[Rockridge (BART station)|Rockridge]] || RR || No || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–Fremont line]] or [[Richmond–Daly City/Millbrae line]] to northbound [[Pittsburg/Bay Point–SFO/Millbrae line]] || 7 (+ non-timed transfer time at MacArthur) || 17 || 18
 |-
-| [[Orinda (BART station)|Orinda]] || OR || No || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–Fremont line]] or [[Richmond–Daly City/Millbrae line]] to northbound [[Pittsburg/Bay Point–SFO/Millbrae line]] || 12 (+ non-timed transfer time) || 9 || 7
+| [[Orinda (BART station)|Orinda]] || OR || No || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–Fremont line]] or [[Richmond–Daly City/Millbrae line]] to northbound [[Pittsburg/Bay Point–SFO/Millbrae line]] || 12 (+ non-timed transfer time at MacArthur) || 9 || 7
 |-
-| [[Lafayette (BART station)|Lafayette]] || LF || No || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–Fremont line]] or [[Richmond–Daly City/Millbrae line]] to northbound [[Pittsburg/Bay Point–SFO/Millbrae line]] || 17 (+ non-timed transfer time) || 10 || 11
+| [[Lafayette (BART station)|Lafayette]] || LF || No || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–Fremont line]] or [[Richmond–Daly City/Millbrae line]] to northbound [[Pittsburg/Bay Point–SFO/Millbrae line]] || 17 (+ non-timed transfer time at MacArthur) || 10 || 11
 |-
-| [[Walnut Creek (BART station)|Walnut Creek]] || WC || No || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–Fremont line]] or [[Richmond–Daly City/Millbrae line]] to northbound [[Pittsburg/Bay Point–SFO/Millbrae line]] || 22 (+ non-timed transfer time) || 27 || 27
+| [[Walnut Creek (BART station)|Walnut Creek]] || WC || No || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–Fremont line]] or [[Richmond–Daly City/Millbrae line]] to northbound [[Pittsburg/Bay Point–SFO/Millbrae line]] || 22 (+ non-timed transfer time at MacArthur) || 27 || 27
 |-
 | [[Pleasant Hill / Contra Costa Centre (BART station)|Pleasant Hill / Contra Costa Centre]] || PH || Sometimes || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–Fremont line]] or [[Richmond–Daly City/Millbrae line]] to northbound [[Pittsburg/Bay Point–SFO/Millbrae line]] || 25 (+ non-timed transfer time at MacArthur) || 24 || 24
 |-

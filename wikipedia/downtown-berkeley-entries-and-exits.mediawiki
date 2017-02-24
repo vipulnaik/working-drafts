@@ -75,36 +75,36 @@ Notes:
 | [[Millbrae Intermodal Terminal|Millbrae]] || MB || Yes || Southbound, along [[Richmond–​Daly City/​Millbrae line|Richmond–​Millbrae line]] || 56 || 143 || 148
 |-
 | [[San Francisco International Airport (BART station)|San Francisco International Airport]] || SO || Yes || Transfer at MacArthur or San Bruno to Pittsburg / Bay Point –​ SFO train || 55 || 110 || 191
+|-
+| [[Rockridge (BART station)|Rockridge]] || RR || No || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 9 (+ non-timed transfer time) || 61 || 52
+|-
+| [[Orinda (BART station)|Orinda]] || OR || No || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 14 (+ non-timed transfer time) || 51 || 50
+|-
+| [[Lafayette (BART station)|Lafayette]] || LF || No || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 19 (+ non-timed transfer time) || 78 || 81
+|-
+| [[Walnut Creek (BART station)|Walnut Creek]] || WC || No || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 24 (+ non-timed transfer time) || 148 || 145
+|-
+| [[Pleasant Hill / Contra Costa Centre (BART station)|Pleasant Hill / Contra Costa Centre]] || PH || Sometimes || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 27 (+ non-timed transfer time at MacArthur) || 170 || 172
+|-
+| [[Concord (BART station)|Concord]] || CN || No || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 30 (+ non-timed transfer time at MacArthur) || 136 || 138
+|-
+| [[North Concord/Martinez (BART station)|North Concord/Martinez]] || NC || Sometimes || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 36 (+ non-timed transfer time at MacArthur) || 47 || 49
+|-
+| [[Pittsburg / Bay Point (BART station)|Pittsburg / Bay Point]] || WP || Yes || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 42 (+ non-timed transfer time at MacArthur) || 128 || 134
+|-
+| [[Castro Valley (BART station)|Castro Valley]] || CV || No || Transfer at [[Bay Fair (BART station)|Bay Fair]] from southbound [[Richmond–​Fremont line]] to Daly City-Dublin/Pleasanton Line || 33 (+ non-timed transfer time  at Bay Fair) || 42 || 43
+|-
+| [[West Dublin / Pleasanton (BART station)|West Dublin / Pleasanton]] || WD || No || Transfer at [[Bay Fair (BART station)|Bay Fair]] from southbound [[Richmond–​Fremont line]] to Daly City-Dublin/Pleasanton Line || 44 (+ non-timed transfer time at Bay Fair) || 55 || 52
+|-
+| [[Dublin / Pleasanton (BART station)|Dublin / Pleasanton]] || ED || Yes || Transfer at [[Bay Fair (BART station)|Bay Fair]] from southbound [[Richmond–​Fremont line]] to Daly City-Dublin/Pleasanton Line || 46 (+ non-timed transfer time at Bay Fair) || 110 || 107
+|-
+| [[Oakland International Airport (BART station)|Oakland International Airport]] || OA || Yes || Transfer at [[Oakland Coliseum Station|Coliseum]] from southbound [[Richmond–​Fremont line]] to the Oakland International Airport Line || 29 (+ non-timed transfer time at Coliseum) || 47 || 82
 |-//STOP
-| [[Rockridge (BART station)|Rockridge]] || RR || No || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 7 (+ non-timed transfer time) || 17 || 18
+! Total northbound (toward Richmond) || || || || || 817 || 762
 |-
-| [[Orinda (BART station)|Orinda]] || OR || No || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 12 (+ non-timed transfer time) || 9 || 7
+! Total in Oakland along line to San Francisco (MacArthur, 19th, 12th, Oakland) || || || || || 658 || 662
 |-
-| [[Lafayette (BART station)|Lafayette]] || LF || No || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 17 (+ non-timed transfer time) || 10 || 11
-|-
-| [[Walnut Creek (BART station)|Walnut Creek]] || WC || No || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 22 (+ non-timed transfer time) || 27 || 27
-|-
-| [[Pleasant Hill / Contra Costa Centre (BART station)|Pleasant Hill / Contra Costa Centre]] || PH || Sometimes || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 25 (+ non-timed transfer time at MacArthur) || 24 || 24
-|-
-| [[Concord (BART station)|Concord]] || CN || No || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 30 (+ non-timed transfer time at MacArthur) || 27 || 27
-|-
-| [[North Concord/Martinez (BART station)|North Concord/Martinez]] || NC || Sometimes || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 34 (+ non-timed transfer time at MacArthur) || 11 || 11
-|-
-| [[Pittsburg / Bay Point (BART station)|Pittsburg / Bay Point]] || WP || Yes || Transfer at [[MacArthur (BART station)|MacArthur]] from southbound [[Richmond–​Fremont line]] or [[Richmond–​Daly City/​Millbrae line]] to northbound Pittsburgh/Bay Point - SFO line || 40 (+ non-timed transfer time at MacArthur) || 32 || 37
-|-
-| [[Castro Valley (BART station)|Castro Valley]] || CV || No || Transfer at [[Bay Fair (BART station)|Bay Fair]] from southbound [[Richmond–​Fremont line]] to Daly City-Dublin/Pleasanton Line || 31 (+ non-timed transfer time  at Bay Fair) || 8 || 9
-|-
-| [[West Dublin / Pleasanton (BART station)|West Dublin / Pleasanton]] || WD || No || Transfer at [[Bay Fair (BART station)|Bay Fair]] from southbound [[Richmond–​Fremont line]] to Daly City-Dublin/Pleasanton Line || 42 (+ non-timed transfer time at Bay Fair) || 11 || 10
-|-
-| [[Dublin / Pleasanton (BART station)|Dublin / Pleasanton]] || ED || Yes || Transfer at [[Bay Fair (BART station)|Bay Fair]] from southbound [[Richmond–​Fremont line]] to Daly City-Dublin/Pleasanton Line || 44 (+ non-timed transfer time at Bay Fair) || 19 || 17 
-|-
-| [[Oakland International Airport (BART station)|Oakland International Airport]] || OA || Yes || Transfer at [[Oakland Coliseum Station|Coliseum]] from southbound [[Richmond–​Fremont line]] to the Oakland International Airport Line || ? || 19 || 27
-|-
-! Total northbound (toward Richmond) || || || || 817 || 762
-|-
-! Total in Oakland along line to San Francisco (MacArthur, 19th, 12th, Oakland) || || || || 658 || 662
-|-
-! Total transbay || || || || 3284 || 3225
+! Total transbay || || || || || 3284 || 3225
 |-
 ! Total along Pittsburg / Bay Point line, northward from (and including) Rockridge || || || || || 157 || 162
 |-
