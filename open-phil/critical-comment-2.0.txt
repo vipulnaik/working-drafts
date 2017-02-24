@@ -26,7 +26,7 @@ It seems like, at GiveWell, many of the key parts of transparency (precommitment
 
 Here is what I'd consider a better way to frame this:
 
-"At GiveWell, we made a lot of our reasoning transparent, and reaped a variety of benefits. However, we did not get widespread engagement from the general public for our work. Getting engagement from the general public was something we wanted and hoped to achieve but not the main focus of our work. We couldn't figure out the right strategy for doing it, and have deprioritized it. I hope that others can benefit from what worked and didn't work in our efforts to engage the public with our research, and come up with better strategies to engender public engagement. I should be clear that I am not making any broader claims about the value of transparency in contexts beyond ours."
+"At GiveWell, we made some of our reasoning and the output of our work transparent, and reaped a variety of benefits. However, we did not get widespread engagement from the general public for our work. Getting engagement from the general public was something we wanted and hoped to achieve but not the main focus of our work. We couldn't figure out the right strategy for doing it, and have deprioritized it. I hope that others can benefit from what worked and didn't work in our efforts to engage the public with our research, and come up with better strategies to engender public engagement. I should be clear that I am not making any broader claims about the value of transparency in contexts beyond ours."
 
 (3) Artificially filtering out positive reputational effects, then claiming that the reputational effects of openness are skewed negative.
 
