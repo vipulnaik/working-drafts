@@ -16,9 +16,9 @@ Below is data for average weekday entries and exits between the Ashby BART and o
 |-
 | [[North Berkeley (BART station)|North Berkeley]] || NB || No ||  Northbound, along [[Richmond–Fremont line]] or [[Richmond–Daly City/Millbrae line]] || 3 || 1.95 || 216 || 221
 |-
-| [[Downtown Berkeley (BART station)|Downtown Berkeley]] || BK || No || Same station || 0 || 5.75 || 41 || 41
+| Downtown Berkeley || BK || No || Same station || 0 || 5.75 || 41 || 41
 |-
-| Ashby || AS || No || Southbound, along [[Richmond–Fremont line]] or [[Richmond–Daly City/Millbrae line]] || 2 || 1.95 || 377 || 399
+| [[Ashby station (BART)|Ashby]] || AS || No || Southbound, along [[Richmond–Fremont line]] or [[Richmond–Daly City/Millbrae line]] || 2 || 1.95 || 377 || 399
 |-
 | [[MacArthur (BART station)|MacArthur]] || MA || No || Southbound, along [[Richmond–Fremont line]] or [[Richmond–Daly City/Millbrae line]] || 6 || 1.95 || 393 || 405
 |-
