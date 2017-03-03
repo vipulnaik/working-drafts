@@ -32,3 +32,11 @@ Transform as x -> https://www.reddit.com/r/x/about/traffic
 * [news](https://www.reddit.com/r/news/about/traffic)
 * [InternetIsBeautiful](https://www.reddit.com/r/InternetIsBeautiful/about/traffic)
 * [mildlyinteresting](https://www.reddit.com/r/mildlyinteresting/about/traffic)
+* [EffectiveAltruism](https://www.reddit.com/r/EffectiveAltruism/about/traffic)
+* [sanfrancisco](https://www.reddit.com/r/sanfrancisco/about/traffic)
+* [chicago](https://www.reddit.com/r/chicago/about/traffic)
+* [udub](https://www.reddit.com/r/udub/about/traffic) (University of Washington)
+* [berkeley](https://www.reddit.com/r/berkeley/about/traffic)
+* [Cooking](https://www.reddit.com/r/Cooking/about/traffic)
+
+
