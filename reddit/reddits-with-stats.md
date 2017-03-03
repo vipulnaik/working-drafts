@@ -18,3 +18,5 @@ Transform as x -> https://www.reddit.com/r/x/about/traffic
 * [Music](https://www.reddit.com/r/Music/about/traffic)
 * [EarthPorn](https://www.reddit.com/r/EarthPorn/about/traffic)
 * [startups](https://www.reddit.com/r/startups/about/traffic)
+* [worldnews](https://www.reddit.com/r/worldnews/about/traffic)
+* [AdviceAnimals](https://www.reddit.com/r/AdviceAnimals/about/traffic)
