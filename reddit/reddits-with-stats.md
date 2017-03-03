@@ -28,3 +28,7 @@ Transform as x -> https://www.reddit.com/r/x/about/traffic
 * [unixporn](https://www.reddit.com/r/unixporn/about/traffic)
 * [linuxquestions](https://www.reddit.com/r/linuxquestions/about/traffic)
 * [firefox](https://www.reddit.com/r/firefox/about/traffic)
+* [space](https://www.reddit.com/r/space/about/traffic)
+* [news](https://www.reddit.com/r/news/about/traffic)
+* [InternetIsBeautiful](https://www.reddit.com/r/InternetIsBeautiful/about/traffic)
+* [mildlyinteresting](https://www.reddit.com/r/mildlyinteresting/about/traffic)
