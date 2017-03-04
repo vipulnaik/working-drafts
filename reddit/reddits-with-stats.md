@@ -38,5 +38,14 @@ Transform as x -> https://www.reddit.com/r/x/about/traffic
 * [udub](https://www.reddit.com/r/udub/about/traffic) (University of Washington)
 * [berkeley](https://www.reddit.com/r/berkeley/about/traffic)
 * [Cooking](https://www.reddit.com/r/Cooking/about/traffic)
-
+* [atheism](https://www.reddit.com/r/atheism/about/traffic)
+* [thegreatproject](https://www.reddit.com/r/thegreatproject/about/traffic)
+* [raisingkids](https://www.reddit.com/r/raisingkids/about/traffic)
+* [gameofthrones](https://www.reddit.com/r/gameofthrones/about/traffic)
+* [HouseOfCards](https://www.reddit.com/r/HouseOfCards/about/traffic)
+* [breakingbad](https://www.reddit.com/r/breakingbad/about/traffic)
+* [KDRAMA](https://www.reddit.com/r/KDRAMA/about/traffic)
+* [asiandrama](https://www.reddit.com/r/asiandrama/about/traffic)
+* [snapchat](https://www.reddit.com/r/snapchat/about/traffic)
+* [pinterest](https://www.reddit.com/r/pinterest/about/traffic)
 
