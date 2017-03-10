@@ -34,7 +34,7 @@ The page has had about 270K pageviews since then, see https://wikipediaviews.org
 
 So the CTR works out to 0.0015%.
 
-The page on GiveWell had an addition of a link to https://issarice.com/givewell-staff-growth sometime between July and December 2016 (don't know exactly when, as page is deleted). Page has had about 10K pageviews since then, and generated zero clicks. This is consistent with the low CTR.
+The page on GiveWell had an addition of a link to https://issarice.com/givewell-staff-growth sometime between July and December 2016 (don't know exactly when, as page is deleted). Wikipedia page about GiveWell has had about 10K pageviews since then, and generated zero clicks. This is consistent with the low CTR.
 
 Fraction of traffic to issarice.com explained by this? Total traffic over this period was on the order of 30,000 views (maybe a few thousand were spam) so about 0.5% of pageviews came from Wikipedia, and most of them from userspace.
 
