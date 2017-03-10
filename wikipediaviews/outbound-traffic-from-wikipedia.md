@@ -6,6 +6,22 @@ link-placers. At this point I don't think there is a point in
 responding to the original discussion, but this seems to be of
 independent interest.
 
+Historical note:
+
+* Prior to June 12, 2015, all non-logged-in traffic could be seen
+  using Google Analytics as a referrer; the full referral path could
+  be seen.
+* With the switch to HTTPS on June 12, 2015, wikipedia.org referral
+  traffic stopped getting reported.
+* In February 2016, Wikipedia set a policy of "Origin" for the
+  referrer, so the referrer domain could be seen but not the actual
+  full referring URL.
+
+See https://meta.wikimedia.org/wiki/Research:Wikimedia_referrer_policy
+for more details on referrer policy.
+
+Add to https://meta.wikimedia.org/wiki/Research:Timeline_of_Wikimedia_analytics
+
 ## issarice.com
 
 https://www.google.com/search?q=issarice.com+site%3Awikipedia.org&ie=utf-8&oe=utf-8 overlists pages.
