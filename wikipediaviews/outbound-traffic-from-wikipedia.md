@@ -54,7 +54,7 @@ So maybe 0.2% of total traffic
 
 Date range: September 1, 2014 to March 10, 2017
 
-Referral sources: https://analytics.google.com/analytics/web/#report/trafficsources-referrals/a4377715w8432957p8783374/%3F_u.date00%3D20140901%26_u.date01%3D20170310%26explorer-table.plotKeys%3D%5B%5D%26_r.drilldown%3Danalytics.source%3Aen.wikipedia.org/
+Data: https://analytics.google.com/analytics/web/#report/trafficsources-referrals/a4377715w8432957p8783374/%3F_u.date00%3D20140901%26_u.date01%3D20170310%26explorer-table.plotKeys%3D%5B%5D%26_r.drilldown%3Danalytics.source%3Aen.wikipedia.org%26explorer-segmentExplorer.segmentId%3Danalytics.landingPagePath/
 
 5,679 sessions, 3.63 pageviews/session, second biggest website referral source
 
