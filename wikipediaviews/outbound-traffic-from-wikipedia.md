@@ -50,7 +50,14 @@ This is out of 877,474 total pageviews to the Effective Altruism Forum.
 
 So maybe 0.2% of total traffic
 
+## groupprops.subwiki.org (Group Properties Wiki)
 
- 
+Date range: September 1, 2014 to March 10, 2017
+
+Referral sources: https://analytics.google.com/analytics/web/#report/trafficsources-referrals/a4377715w8432957p8783374/%3F_u.date00%3D20140901%26_u.date01%3D20170310%26explorer-table.plotKeys%3D%5B%5D%26_r.drilldown%3Danalytics.source%3Aen.wikipedia.org/
+
+5,679 sessions, 3.63 pageviews/session, second biggest website referral source
+
+Total pageviews to groupprops.subwiki.org in that timeperiod was 2,352,232, so this was about 0.8% of total traffic.
 
 
