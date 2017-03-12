@@ -91,7 +91,7 @@ Most of our data and examples are in English and most relevant to the United Sta
 |-
 | Health and medical advice || Lowest on Saturday, rises on Sunday, peaks on Monday or Tuesday, falls through the week || Health Stack Exchange,<ref name=quantcast-health-stackexchange>[https://www.quantcast.com/health.stackexchange.com Quantcast report for the Health Stack Exchange]</ref> Patient, <ref name=quantcast-patient>[https://www.quantcast.com/patient.info Quantcast report for Patient]. Retrieved March 4, 2017</ref> eHealthMe<ref name=quantcast-ehealthme>[https://www.quantcast.com/ehealthme.com Quantcast report for eHealthMe]. Retrieved March 4, 2017</ref>
 |-
-| Music websites || Varies based on type of site. Websites focused on music consumption peak on Fridays and Saturdays.
+| Music websites || Varies based on type of site. Websites focused on music consumption peak on Fridays and Saturdays. || Inferred from traffic to popular YouTube videos
 |-
 | Gaming websites || More traffic on weekend, and much more engagement (longer sessions, more pageviews/session) || Twitch.tv<ref name=quantcast-twitch>[https://www.quantcast.com/twitch.tv Quantcast report for Twitch.tv]</ref> and MMORPG<ref name=quantcast-mmorpg>[https://www.quantcast.com/mmorpg.com Quantcast report for MMORPG]</ref>
 |}
