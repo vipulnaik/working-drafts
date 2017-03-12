@@ -1,0 +1,269 @@
+I've heard claims that people overestimate the prevalence of the foreign-born in the population, and this affects the way they view immigration policy and the effects of immigration. In the last few months, I ran a series of polls to understand how people estimate the foreign-born population, and how this correlates with other measures. The survey was limited to the United States, though I wouldn't be surprised if similar findings hold elsewhere. I present a summary of my findings below.
+
+<ul>
+	<li>People systematically overestimate the proportion of foreign-born in the population. To be concrete, the actual proportion is about 13%, and any "reasonable" guesser (even one who has not looked at the numbers) should estimate below 30%. But about 20% of SurveyMonkey Audience respondents and 28% of Google Surveys respondents estimate the proportion as above 30%. There is <em>some</em> logic to their overestimation: they aren't simply picking the biggest number possible. We know because a parallel survey asking for the fraction of population present without authorization also saw overestimation, but the absolute numbers estimated were smaller than for the total foreign-born population. In other words, people's mental model of the foreign-born is wrong, but not completely illogical.</li>
+	<li>The overestimation cannot be explained away by obvious culprits. None of these get to the heart of the overestimation: own foreign-born status, exposure to foreign-born people, attitude to migration, political position, actual foreign-born proportion in city or state. Some of them correlate modestly with the proportion of foreign-born, but even the most favorable configuration among them would overestimate the foreign-born proportion in the United States to about the same extent.</li>
+	<li>There are <em>some</em> other things related to migration that people have better mental models of. For instance, people tend to be better at evaluating questions about foreign-born eligibility for benefits, or the proportion of the unauthorized population that entered unlawfully versus overstayed.</li>
+	<li>Preliminarily, these findings argue against taking seriously people's views on whether there should be more or less migration, particularly if those views are claimed to be grounded in empirics. People across the political spectrum have little idea of the numbers.</li>
+</ul>
+
+<h4>Previous and related research</h4>
+
+There has been some previous research on estimation of the foreign-born population in the United States. I wasn't aware of the entirety of this research when I conducted my surveys, so it is a relief to know that the results I've got are largely consistent with that research. However, I focused my efforts a little differently so there's some value-add in the work I did.
+
+The most relevant past survey is <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2798622">The Muted Consequences of Correct Information About Immigration</a> by Daniel J. Hopkins, John Sides, and Jack Citrin (<a href="https://poseidon01.ssrn.com/delivery.php?ID=724017066103123094113023027100089022026080077013030029112113029026093030106081083073011056033056027005107124088117016069064010046072056061077089127124081101127096089028058087083110115089090024083084093008101018064027072108104111086011009111091096102093&EXT=pdf">full PDF</a>). The goal of this paper was to determine how correcting people's misconceptions about the foreign-born proportion in the United States affected their views on migration-related issues.
+
+The researchers fielded experiments in four separate national surveys between 2006 and 2010: the 2006 Cooperative Congressional Election Survey, 2008 national survey conducted by Knowledge Networks, 2010 Cooperative Congressional Election Survey, and a separate 2010 national survey conducted by Knowledge Networks. The survey asked people for their estimate of the foreign-born proportion, specifically with the question:
+
+<blockquote>Out of every 100 people living in the United States, how many do you think were born outside the country?</blockquote>
+
+After this, some respondents were given information that included an estimate of the current proportion, while others were not. Respondents were then asked for their views on migration-related topics. Some respondents were not even asked this question, and instead directly asked about their migration-related views. All respondent groups were then compared. The authors' main conclusion was that correcting misperceptions on the foreign-born proportion had little effect on people's migration-related views.
+
+In addition, there has been research in other countries as well as broader research on how and why people overestimate minority population sizes. A good summary of the existing literature is <a href="http://onlinelibrary.wiley.com/doi/10.1111/pops.12394/full">The Nature and Origins of Misperceptions: Understanding False and Unsupported Beliefs About Politics</a> by D. J. Flynn, Brendan  Byhan, and Jason Reifler. An ungated PDF can be found <a href="https://www.dartmouth.edu/~nyhan/nature-origins-misperceptions.pdf">here</a>. This paper references the Hopkins/Sides/Citrin study above along with numerous others. Its broad conclusion: directionally motivated reasoning is a big source of misperception, correcting misperceptions isn't easy, and even when misperceptions are corrected, people's political views that were allegedly based on those misperceptions don't change. If you want to dig deeper into the subject, I recommend checking out the numerous references in this paper. I thank Alexander Kustov for <a href="https://www.facebook.com/groups/openborders/permalink/1189234427839943/?comment_id=1189564857806900&comment_tracking=%7B%22tn%22%3A%22R0%22%7D">pointing me</a> to this paper.
+
+There is also a <a href="http://perils.ipsos.com/slides/">Perils of Perception Index</a> that is based on the Ipsos MORI Perils of Perception Survey conducted in multiple countries. The survey has various kinds of questions:
+
+<ul>
+	<li>Some questions ask people what percentage of people hold a particular opinion. For instance, the survey asks people in a country about the percentage of respondents in that country who find premarital sex unacceptable. This is then compared to the percentage of respondents who find it unacceptable. In general, people's estimates are closer to the mean than the actual values. For instance, in a very sexually liberal country, people tend to overestimate the proportion of people who will find premarital sex unacceptable, and in a sexually conservative country, they tend to underestimate the proportion.</li>
+	<li>Other questions ask people to estimate numbers related to the distribution of wealth, future population projects, homeownership, etc. People's guesses are compared to census data or other official estimates.</li>
+</ul>
+
+I thank Hansjoerg Walther for highlighting this to me over email.
+
+<h4>Takeaway #1: People overestimate the foreign-born proportion and the unauthorized population</h4>
+
+Here are the two main questions:
+
+<blockquote>Q1: What proportion of the people currently physically present in the United States are foreign-born?</blockquote>
+
+<blockquote>Q2: What proportion of the people currently physically present in the United States are non-US-citizens present in the US without authorization?</blockquote>
+
+The options offered were:
+
+<ul>
+	<li>Between 0% and 5% (correct answer to Q2)</li>
+	<li>Between 5% and 10%</li>
+	<li>Between 10% and 15% (correct answer to Q1)</li>
+	<li>Between 15% and 20%</li>
+	<li>Between 20% and 30%</li>
+	<li>Between 30% and 50%</li>
+	<li>More than 50%</li>
+</ul>
+
+Before proceeding, let's think through what a "reasonable" guesser (who hasn't looked at the numbers) could come up with. This person could draw on personal experience (e.g., looking at friend and family circle or neighborhood) or popular culture depictions (Hollywood, TV shows, news items). In none of these do we see the foreign-born population showing up as over 30% of the population (except insofar as the show is specifically themed around a specific foreign-born population). In fact, as my co-blogger Hansjoerg Walther has <a href="https://openborders.info/blog/swamping-by-immigrants-is-hardly-possible/">pointed out</a>, it would be really really hard for the foreign-born proportion of the population to go above 40%, except in cases like <a href="http://reflectivedisequilibrium.blogspot.com/2014/05/migration-levies-and-unskilled-labor.html">Singapore</a> and the <a href="http://reflectivedisequilibrium.blogspot.com/2014/05/what-does-migration-to-united-arab.html">UAE</a> where guest-worker programs dominate the foreign-born population (so most of them migrate temporarily and don't have children in the region).
+
+Reasonable guessers could also be confused by other factors. For instance, they might use "non-white" as a proxy for foreign-born (or even more strictly, might mark anybody who has an accent different from the local accent as foreign-born). However, even with these definitions, both census data and popular culture depictions would point to a "foreign-born" share of 30% or less.
+
+In contrast, here is the actual response distribution.
+
+<table>
+<tr>
+<th>Option</th>
+<th>Q1 number of responses (N = 1157)</th>
+<th>Q1 raw percentage of responses</th>
+<th>Q1 weighted percentage of responses</th>
+<th>Q2 number of responses (N = 501)</th>
+<th>Q2 raw percentage of responses</th>
+<th>Q2 weighted percentage of responses</th>
+</tr>
+<tr>
+<td>Between 0% and 5%</td>
+<td>189</td>
+<td>12.1%</td>
+<td>11.7% (+1.7%/-1.5%)</td>
+<td>152</td>
+<td>30.3%</td>
+<td>30.4% (+4.2%/-3.9%)</td>
+</tr>
+<tr>
+<td>Between 5% and 10%</td>
+<td>155</td>
+<td>10.0%</td>
+<td>10.4% ((+1.7%/-1.5%)</td>
+<td>97</td>
+<td>19.4%</td>
+<td>18.8% (+3.6%/-3.1%)</td>
+</tr>
+<tr>
+<td>Between 10% and 15%</td>
+<td>232</td>
+<td>14.9%</td>
+<td>16.1% (+2.0%/-1.8%)</td>
+<td>73</td>
+<td>14.6%</td>
+<td>15.2% (+3.5%/-3.0%)</td>
+</tr>
+<tr>
+<td>Between 15% and 20%</td>
+<td>239</td>
+<td>15.4%</td>
+<td>16.4% (+2.0%/-1.8%)</td>
+<td>56</td>
+<td>11.2%</td>
+<td>12.5% (+3.4%/-2.8%)</td>
+</tr>
+<tr>
+<td>Between 20% and 30%</td>
+<td>279</td>
+<td>17.9%</td>
+<td>17.5% (+2.0%/-1.8%)</td>
+<td>42</td>
+<td>8.4%</td>
+<td>7.9% (+2.6%/-2.0%)</td>
+</tr>
+<tr>
+<td>Between 30% and 50%</td>
+<td>239</td>
+<td>15.4%</td>
+<td>15.4% (+1.9%/-1.7%)</td>
+<td>36</td>
+<td>7.2%</td>
+<td>6.5% (+2.4%/-1.8%)</td>
+</tr>
+<tr>
+<td>More than 50%</td>
+<td>224</td>
+<td>14.4%</td>
+<td>12.5% (+1.6%/-1.4%)</td>
+<td>45</td>
+<td>9.0%</td>
+<td>8.6% (+2.7%/-2.1%)</td>
+</tr>
+</table>
+
+These questions have also been included in SurveyMonkey surveys. The most recent SurveyMonkey survey "Migration levels and migrants" (MLM) asked Q1 with the following options (the question appeared as Q7 in the survey).
+
+<ul>
+	<li>Between 0% and 2% (1 out of every 50)</li>
+	<li>Between 2% (1 out of every 50) and 5% (1 out of every 20) (correct answer to Q2)</li>
+	<li>Between 5% (1 out of every 20) and 10% (1 out of every 10)</li>
+	<li>Between 10% (1 out of every 10) and 15% (3 out of every 20) (correct answer to Q1)</li>
+	<li>Between 15% (3 out of every 20) and 20% (1 out of every 5)</li>
+	<li>Between 20% (1 out of every 5) and 30% (3 out of every 10)</li>
+	<li>Between 30% (3 out of every 10) and 50% (1 out of every 2, or half)</li>
+	<li>More than 50% (i.e., more foreign-born people than native-born people)</li>
+</ul>
+
+Q1 and Q2 also appeared as Q1 and Q2 in the SurveyMonkey Audience survey "Foreign-born and non-citizen population estimation by country and region" (FBPER) with the same options, but excluding the clarifying parenthetical statements.
+
+Here are the results for these three administrations:
+
+<table>
+<tr>
+<th>Option</th>
+<th>Q1 as MLM Q7 (N=103)</th>
+<th>Q1 raw percentage of responses</th>
+<th>Q1 as FBPER Q1 (N=323)</th>
+<th>Q1 raw percentage of responses</th>
+<th>Q2 as FBPER Q2 (N=323)</th>
+<th>Q2 raw percentage of responses</th>
+</tr>
+<tr>
+<td>Between 0% and 2%</td>
+<td>5</td>
+<td>4.85%</td>
+<td>8</td>
+<td>2.48%</td>
+<td>63</td>
+<td>19.50%</td>
+</tr>
+<tr>
+<td>Between 2% and 5%</td>
+<td>5</td>
+<td>4.85%</td>
+<td>31</td>
+<td>9.60%</td>
+<td>67</td>
+<td>20.74%</td>
+</tr>
+<tr>
+<td>Between 5% and 10%</td>
+<td>20</td>
+<td>19.42%</td>
+<td>44</td>
+<td>13.62%</td>
+<td>60</td>
+<td>18.58%</td>
+</tr>
+<td>Between 10% and 15%</td>
+<td>16</td>
+<td>15.53%</td>
+<td>55</td>
+<td>17.03%</td>
+<td>47</td>
+<td>14.55%</td>
+</tr>
+<tr>
+<td>Between 15% and 20%</td>
+<td>15</td>
+<td>14.56%</td>
+<td>68</td>
+<td>21.05%</td>
+<td>33</td>
+<td>10.22%</td>
+</tr>
+<tr>
+<td>Between 20% and 30%</td>
+<td>14</td>
+<td>14.56%</td>
+<td>58</td>
+<td>17.96%</td>
+<td>28</td>
+<td>8.67%</td>
+</tr>
+<tr>
+<td>Between 30% and 50%</td>
+<td>20</td>
+<td>19.42%</td>
+<td>43</td>
+<td>13.31%</td>
+<td>13</td>
+<td>4.02%</td>
+</tr>
+<tr>
+<td>More than 50%</td>
+<td>7</td>
+<td>6.80%</td>
+<td>16</td>
+<td>4.95%</td>
+<td>12</td>
+<td>3.72%</td>
+</tr>
+</table>
+
+So we see that for both Q1 and Q2, across both Google Surveys and SurveyMonkey Audience, people systematically overestimate. However, we do notice consistent behavior in the relative value of the Q1 and Q2 estimates. The estimates for Q2 are lower than for Q1. This is true both for Google Surveys (where the questions were asked in separate surveys, to different audiences) and SurveyMonkey Audience FBPER (where the questions were asked together, in the same survey, to the same audience). In other words, people have a somewhat more respectable (and internally consistent) mental model than "just pick the highest number possible" or "just guess at random".
+
+<h4>Takeaway #2: The obvious culprits don't come close to explaining things</h4>
+
+After conducting initial surveys on this subject, I sought explanations from other people and the literature. A hypothesis that often came up in discussions was that people are extrapolating from their own local circumstances. To evaluate this, the most recent survey, Migration levels and migrants (MLM) began by asking people about their own foreign-born status and exposure to foreign-born people, and then asked them about the foreign-born proportion in their state and then the whole United States.
+
+Q2 of MLM asked people to estimate the foreign-born proportion among people they knew. Specifically, with the same options as Q7 of MLM:
+
+<blockquote>Of the people you personally know who live in the United States, what percentage are foreign-born? For instance, if you actively use Facebook, you can look at the fraction of your Facebook friends who are within the United States who are foreign-born. Make your best guess.</blockquote>
+
+Note that people they know who are not in the United States should show up in neither the numerator nor the denominator of this calculation.
+
+Of the 103 SurveyMonkey Audience respondents, 29 selected "Between 0% and 2% (1 out of every 50)" and 23 selected "Between 2% (1 out of every 50) and 5% (1 out of every 20)". These 52 respondents self-report not encountering foreign-born people much. 49 of the 52 went on to complete A6 of MLM (asking about the foreign-born proportion in their state) and Q7 of MLM (asking about the foreign-born proportion in the United States). Here is the response distribution:
+
+<table>
+<tr>
+<th>Option</th>
+<th>Q6 number of responses (N=49)</th>
+<th>Q6 percentage of responses</th>
+<th>Q7 number of responses (N=49)</th>
+<th>Q7 percentage of responses</th>
+</tr>
+<tr>
+<td>Between 0% and 2%</td>
+<td>8</td>
+<td>16.33%</td>
+<td>3</td>
+<td>6.12%</td>
+</tr>
+<tr>Between 2% and 5%</td>
+<td>8</td>
+<td>16.33%</td>
+<td>4</td>
+<td>8.16%</td>
+</tr>
+<tr>Between 5% 
