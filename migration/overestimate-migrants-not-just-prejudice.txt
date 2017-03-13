@@ -7,7 +7,7 @@ I've heard claims that people overestimate the prevalence of the foreign-born in
 	<li>Preliminarily, these findings argue against taking seriously people's views on whether there should be more or less migration, particularly if those views are justified by claims of current migration levels. People across the political spectrum have such a poor sense of the scope and scale of the situation that it's hard to take claims about the subject seriously.</li>
 </ul>
 
-<h4>Previous and related research</h4>
+<h3>Previous and related research</h3>
 
 There has been some previous research on estimation of the foreign-born population in the United States. I wasn't aware of the entirety of this research when I conducted my surveys, so it is a relief to know that the results I've got are largely consistent with that research. However, I focused my efforts a little differently so there's some value-add in the work I did.
 
@@ -30,7 +30,7 @@ There is also a <a href="http://perils.ipsos.com/slides/">Perils of Perception I
 
 I thank Hansjoerg Walther for highlighting this to me over email.
 
-<h4>Takeaway #1: People overestimate the foreign-born proportion and the unauthorized population</h4>
+<h3>Takeaway #1: People overestimate the foreign-born proportion and the unauthorized population</h3>
 
 Here are the two main questions:
 
@@ -38,7 +38,9 @@ Here are the two main questions:
 
 <blockquote>Q2: What proportion of the people currently physically present in the United States are non-US-citizens present in the US without authorization?</blockquote>
 
-The options offered were:
+<h4>1.1: Google Surveys: 12.5% think over half the US population is foreign-born, 8.6% think over half is unauthorized</h4>
+
+The options offered in Google Surveys were:
 
 <ul>
 	<li>Between 0% and 5% (correct answer to Q2)</li>
@@ -52,7 +54,7 @@ The options offered were:
 
 Before proceeding, let's think through what a "reasonable" guesser (who hasn't looked at the numbers) could come up with. This person could draw on personal experience (e.g., looking at friend and family circle or neighborhood) or popular culture depictions (Hollywood, TV shows, news items). In none of these do we see the foreign-born population showing up as over 30% of the population (except insofar as the show is specifically themed around a specific foreign-born population). In fact, as my co-blogger Hansjoerg Walther has <a href="https://openborders.info/blog/swamping-by-immigrants-is-hardly-possible/">pointed out</a>, it would be really really hard for the foreign-born proportion of the population to go above 40%, except in cases like <a href="http://reflectivedisequilibrium.blogspot.com/2014/05/migration-levies-and-unskilled-labor.html">Singapore</a> and the <a href="http://reflectivedisequilibrium.blogspot.com/2014/05/what-does-migration-to-united-arab.html">UAE</a> where guest-worker programs dominate the foreign-born population (so most of them migrate temporarily and don't have children in the region).
 
-Reasonable guessers could also be confused by other factors. For instance, they might use "non-white" as a proxy for foreign-born (or even more strictly, might mark anybody who has an accent different from the local accent as foreign-born). However, even with these definitions, both census data and popular culture depictions would point to a "foreign-born" share of 30% or less.
+Reasonable guessers could also be confused by other factors. For instance, they might use "non-white" as a proxy for foreign-born, or might mark anybody who has an accent different from the local accent as foreign-born. However, even with these definitions, both census data and popular culture depictions would point to a "foreign-born" share of 30% or less.
 
 In contrast, here is the actual response distribution.
 
@@ -130,6 +132,8 @@ In contrast, here is the actual response distribution.
 <td>8.6% (+2.7%/-2.1%)</td>
 </tr>
 </table>
+
+<h4>SurveyMonkey Audience: About 5% think over half the US population is foreign-born, about 4% think over half is unauthorized</h4>
 
 These questions have also been included in SurveyMonkey surveys. The most recent SurveyMonkey survey "Migration levels and migrants" (MLM) asked Q1 with the following options (the question appeared as Q7 in the survey).
 
@@ -233,11 +237,11 @@ Here are the results for these three administrations:
 
 So we see that for both Q1 and Q2, across both Google Surveys and SurveyMonkey Audience, people systematically overestimate. However, we do notice consistent behavior in the relative value of the Q1 and Q2 estimates. The estimates for Q2 are lower than for Q1. This is true both for Google Surveys (where the questions were asked in separate surveys, to different audiences) and SurveyMonkey Audience FBPER (where the questions were asked together, in the same survey, to the same audience). In other words, people have a somewhat more respectable (and internally consistent) mental model than "just pick the highest number possible" or "just guess at random".
 
-<h4>Takeaway #2: The obvious culprits don't come close to explaining things</h4>
+<h3>Takeaway #2: The obvious culprits don't come close to explaining things</h3>
 
-After conducting initial surveys on this subject, I sought explanations from other people and the literature. A hypothesis that often came up in discussions was that people are extrapolating from their own local circumstances and/or their interpretation of local circumstances. On further investigation, my current view is that people's own local circumstances, or interpretation thereof, explains things to only a small extent. Moreover, they get facts wrong not just about the United States as a whole, but even about their US state. Even more interestingly, there's close-to-zero correlation between people's estimate of the foreign-born population in their US state and the actual population (so people in states with higher foreign-born populations aren't likely to estimate higher foreign-born populations for their own state).
+After conducting initial surveys on this subject, I sought explanations from other people and the literature. A hypothesis that often came up in discussions was that people are extrapolating from their own local circumstances and/or their interpretation of local circumstances. On further investigation, my current view is that people's own local circumstances, or interpretation thereof, explains things to only a small extent.
 
-All of the above is caveated by the fact that the sizes weren't large enough to clearly detect small effects. In other words, the study had low power. Nonetheless, if there was a big, clear effect, it would have been visible. And there wasn't.
+<h4>(2.1): State-level estimates: More conservative (and more realistic) than nation-wide estimates, but poorly correlated with actual state population</h4>
 
 First off, here are the state-level questions corresponding to Q1 and Q2:
 
