@@ -40,7 +40,7 @@ However, many shops and markets quote a list price that does not include sales t
 * The explicit itemization of sales tax gives buyers a signal (perhaps a false one) that the sellers are complying with sales tax laws. Of course, it's easy for a seller to itemize a sales tax and then pocket it rather than remitting it to the government, but that might feel a lot more like fraud than simply quoting an inclusive price and not remitting the part devoted to sales tax.
 * In cases where the [[price-elasticity of supply]] is high, sellers are unlikely to change their pre-tax price by much in the face of small changes in sales tax rates. By quoting prices exclusive of sales taxes, the sellers can avoid the [[menu cost]]s of relabeling items and simply change the percentage computed for sales tax, which is often a one-time step for the computer program used at checkout.
 
-== Applicablility ==
+== Applicability ==
 
 === Finality ===
 
