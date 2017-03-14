@@ -1,0 +1,15 @@
+{{cost-benefit analysis basicdef}}
+
+==Definition==
+
+The '''consumer surplus''' on the purchase of a [[good]] is the difference between the value the consumer places on the benefits received from the good, and the amount the consumer spends on the purchase.
+
+Consumer Surplus = (Total value received by consumer) - (Total cost to consumer)
+
+The total value received by a consumer is typically approximated by the highest price the consumer would have been willing to pay for the purchase (i..e, the [[reservation price]] -- see [[consumer's reservation price approximates consumer benefit]]), and the total cost to the consumer is approximated by the cost of the good, i.e., what the consumer paid to acquire the good.
+
+==Interpretation as area==
+
+Assuming the [[law of one price]] (i.e., there is a single price and all consumers pay the same price), the consumer surplus across all consumers for a good at a given price can be computed as the area of the region between the demand curve and the horizontal line for that price:
+
+[[File:Consumersurplus.png|400px]]
