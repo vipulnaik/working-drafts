@@ -40,6 +40,35 @@ However, many shops and markets quote a list price that does not include sales t
 * The explicit itemization of sales tax gives buyers a signal (perhaps a false one) that the sellers are complying with sales tax laws. Of course, it's easy for a seller to itemize a sales tax and then pocket it rather than remitting it to the government, but that might feel a lot more like fraud than simply quoting an inclusive price and not remitting the part devoted to sales tax.
 * In cases where the [[price-elasticity of supply]] is high, sellers are unlikely to change their pre-tax price by much in the face of small changes in sales tax rates. By quoting prices exclusive of sales taxes, the sellers can avoid the [[menu cost]]s of relabeling items and simply change the percentage computed for sales tax, which is often a one-time step for the computer program used at checkout.
 
+== Applicablility ==
+
+=== Finality ===
+
+Sales taxes are ''only'' levied on sales to final end users (consumers). They are ''not'' levied on sales of raw materials or pre-final products.
+
+For instance, consider this example:
+
+* An electricity supplier sells electricity to a computer chip manufacturer.
+* The computer chip manufacturer sells the chips to a laptop manufacturer.
+* The laptop manufacturer sells the laptop to a laptop retailer.
+* The laptop retailer sells the laptop to the consumer.
+
+In this case, the first three sales are not subject to sales tax, but the fourth sale is.
+
+If, instead, each of the sales had been subject to a sales tax, then we could encounter a situation of [[double taxation]]: the earlier sales would end up getting taxed ''repeatedly'', both directly and indirectly through the later sales.
+
+There is a taxation setup where each stage gets taxed separately, called the [[value added tax]] (VAT). VAT avoids the double taxation problem by only taxing the value ''added'' at each stage, and therefore not double-taxing the original value that has already been taxed.
+
+Generally, the decision on whether to levy sales tax is made by the business rather than the consumer, In case the business is not levying sales tax, a proof may be needed from the consumer that the good or service being purchased will be resold or used as an input to another production process.
+
+=== Sales taxes on sales of used goods ===
+
+Sales of used goods (such as used books or clothes) may or may not be subject to sales tax. The details depend on the laws of the taxing jurisdiction. An example of a jurisdiction where sales tax applies to used goods is the state of California in the United States. Jurisdictions where sales tax needs to be applied for sales of used goods require this tax to apply even if the resale is at a lower price than the original sale price.
+
+This sales tax is in ''addition'' to any taxes that the seller would need to pay if the items were sold at a profit (a higher price than the purchase price); taxes on such profits would be paid as [[income tax]].
+
+Sales taxes on used goods can result in double taxation.
+
 ==Additive nature of sales tax and relation with market size==
 
 Sales tax is by nature additive: the total sales tax on a set of transactions is the sum of the sales taxes on each of the transactions individually. In particular, this means that adding a new set of transactions to the market simply increases the absolute amount of the sales tax. In particular:
@@ -49,7 +78,7 @@ Sales tax is by nature additive: the total sales tax on a set of transactions is
 
 === Quantity-proportional sales tax ===
 
-For a quantity-proportional sales tax, the effects of market structure changes are simple: any market structure change that increases the quantity traded increase the absolute amount of the sales tax (i.e., the government revenue from the tax). In particular, in a competitive market:
+For a quantity-proportional sales tax, the effects of market structure changes are simple: any market structure change that increases the quantity traded increases the absolute amount of the sales tax (i.e., the government revenue from the tax). In particular, in a competitive market:
 
 * An expansion of demand (i.e. the demand curve moving rightward) increases quantity traded and therefore increases government revenue.
 * An expansion of supply (e.g., through the introduction of more sellers, or an improvement in sellers' production technology) increases quantity traded and therefore increases government revenue.
@@ -87,12 +116,12 @@ Consider the simplifying assumptions of a competitive market, and assume that th
 
 {{further|[[effect of sales tax on economic surplus]]}}
 
-In the absence of a sales tax, the [[social surplus]] arising from the sale of a good is captured by two types of parties -- sellers/producers (in the form of [[producer surplus]]) and buyers/consumers (in the form of [[consumer surplus]]).
+In the absence of a sales tax, the [[economic surplus]] arising from the sale of a good is captured by two types of parties -- sellers/producers (in the form of [[producer surplus]]) and buyers/consumers (in the form of [[consumer surplus]]).
 
 Once a sales tax is introduced, there are generally two important effects:
 
-# Now, the social surplus is captured by three types of parties -- producers ([[producer surplus]]), consumers ([[consumer surplus]]), and the taxing authority ([[government surplus]]).
-# The total social surplus goes down: The new total social surplus, even ''including'' the portion captured by the taxing authority, is less than the original social surplus. ''Both'' the producer surplus ''and'' the consumer surplus go down. While part of the reduction in their surpluses is captured by the taxing authority, part of it is lost. The loss can be attributed to the trades that do ''not'' occur because of the decline in quantity traded, and is an example of a [[deadweight loss due to taxation]]. Geometrically, it can be measured as the area of a [[Harberger triangle]].
+# Now, the economic surplus is captured by three types of parties -- producers ([[producer surplus]]), consumers ([[consumer surplus]]), and the taxing authority ([[government surplus]]).
+# The total economic surplus goes down: The new total economic surplus, even ''including'' the portion captured by the taxing authority, is less than the original economic surplus. ''Both'' the producer surplus ''and'' the consumer surplus go down. While part of the reduction in their surpluses is captured by the taxing authority, part of it is lost. The loss can be attributed to the trades that do ''not'' occur because of the decline in quantity traded, and is an example of a [[deadweight loss due to taxation]]. Geometrically, it can be measured as the area of a [[Harberger triangle]].
 
 [[File:Harbergertriangle.png|700px]]
 
@@ -106,9 +135,9 @@ Consumer surplus in a world without sales tax [corresponds to A + B + E] = (Cons
 
 Overall:
 
-Social surplus in a world without sales tax [corresponds to A + B + C + D + E + F]= (Social surplus in a world with sales tax [corresponds to A + B + C + D]) + (Deadweight loss due to taxation [corresponds to E + F])
+economic surplus in a world without sales tax [corresponds to A + B + C + D + E + F]= (economic surplus in a world with sales tax [corresponds to A + B + C + D]) + (Deadweight loss due to taxation [corresponds to E + F])
 
-Note that this analysis ''includes'' government surplus in the social surplus. The bad effect of taxation, as per this analysis, is the deadweight loss represented by the Harberger triangle.
+Note that this analysis ''includes'' government surplus in the economic surplus. The bad effect of taxation, as per this analysis, is the deadweight loss represented by the Harberger triangle.
 
 The [[tax incidence]] question is: how is the burden of taxation (both in terms of the part captured through government surplus and the deadweight loss) distributed between producers and consumers? The answer depends on the relative price-elasticities of the demand and supply curves.
 
@@ -126,7 +155,7 @@ The [[tax incidence]] question is: how is the burden of taxation (both in terms 
 | negative (satisfies the [[law of demand]]) || zero, i.e., a vertical supply curve. We say that the supply is perfectly price-inelastic ||stays the same || falls || zero, because there is no decline in quantity traded
 |}
 
-====Effect of increasing and decreasing the tax rate on the social surplus====
+====Effect of increasing and decreasing the tax rate on the economic surplus====
 
 Most of the qualitative directions regarding what happens when we ''introduce'' a sales tax are similar to what happens when we ''increase'' an existing sales tax. The exception is government surplus, where the effect of increasing an existing nonzero tax rate is ambiguous:
 
@@ -141,7 +170,7 @@ Most of the qualitative directions regarding what happens when we ''introduce'' 
 |-
 | [[Deadweight loss due to taxation]] || rises || the equilibrium quantity traded falls || the triangle whose area measures deadweight loss becomes strictly larger.
 |-
-| [[Social surplus]] (includes producer surplus, consumer surplus, government surplus) || falls || follows from deadweight loss becoming larger || the area we are trying to measure becomes strictly smaller
+| [[economic surplus]] (includes producer surplus, consumer surplus, government surplus) || falls || follows from deadweight loss becoming larger || the area we are trying to measure becomes strictly smaller
 |}
 
 In other words, raising taxes has clear negative effects on ''everything'' except the government surplus (the tax revenue collected), where the effect is ambiguous.
