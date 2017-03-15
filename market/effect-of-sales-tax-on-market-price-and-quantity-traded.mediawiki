@@ -193,7 +193,7 @@ In the case that the marginal cost curve is increasing throughout the relevant r
 
 In the more general case, Problems (2) and (3) can also arise. Specifically, the marginal revenue curve can even go below the quantity axis, and the marginal cost curve can be non-monotonic. In such a situation, we can have multiple locally optimal configurations. When a sales tax is imposed, a monopolist may switch from one optimum to another. An example is in the box.
 
-{{quotation}To illustrate how this latter possibility could happen, imagine that one buyer of the good is willing to pay $3000 for a single unit while all subsequent buyers are willing to pay $2 per unit (up to the 10,000th unit). Imagine also that the marginal cost of producing the first unit is $500, while the marginal cost of producing all units thereafter is $1. The marginal revenue for the first unit is $3000, for the second unit is -$2996 (as the seller would get $2 for each of the two units sold but would effectively lose the ability to charge $3000 for the first unit), and for all units thereafter is $2. With no tax in place, the monopolist would choose to sell 10,000 units for $2 each, making a profit of $9501 ($20,000 - $9,999 - $500) rather than only selling one unit for $3000 (which would only make a profit of $2500). Now suppose a 300% sales tax is imposed. This effectively reduces all marginal revenue figures by 3/4ths. Selling units to customers only willing to pay $2 per unit would no longer be possible, as the pre-tax price could be $0.50 at maximum, and the marginal cost of producing units is $1. However, the buyer willing to pay $3000 could pay a pre-tax price of $750 and the monopolist could make a profit of $250 selling to that buyer alone. So the result of the sales tax in this (unusual) case would be to raise the pre-tax price of the unit from $2 to $750.}}
+{{quotation|To illustrate how this latter possibility could happen, imagine that one buyer of the good is willing to pay $3000 for a single unit while all subsequent buyers are willing to pay $2 per unit (up to the 10,000th unit). Imagine also that the marginal cost of producing the first unit is $500, while the marginal cost of producing all units thereafter is $1. The marginal revenue for the first unit is $3000, for the second unit is -$2996 (as the seller would get $2 for each of the two units sold but would effectively lose the ability to charge $3000 for the first unit), and for all units thereafter is $2. With no tax in place, the monopolist would choose to sell 10,000 units for $2 each, making a profit of $9501 ($20,000 - $9,999 - $500) rather than only selling one unit for $3000 (which would only make a profit of $2500). Now suppose a 300% sales tax is imposed. This effectively reduces all marginal revenue figures by 3/4ths. Selling units to customers only willing to pay $2 per unit would no longer be possible, as the pre-tax price could be $0.50 at maximum, and the marginal cost of producing units is $1. However, the buyer willing to pay $3000 could pay a pre-tax price of $750 and the monopolist could make a profit of $250 selling to that buyer alone. So the result of the sales tax in this (unusual) case would be to raise the pre-tax price of the unit from $2 to $750.}}
 
 However, it turns out that any such optimum-switching ''must'' be in the direction of a market shrinkage. In other words, even if we see optimum-switching, where a monopolist switches strategy, it will ''still'' be true that:
 
@@ -202,32 +202,23 @@ However, it turns out that any such optimum-switching ''must'' be in the directi
 
 The justification is a little complicated, since we can no longer rely on visual reasoning but must perform careful comparative statics.
 
-==== What's common between revenue-proportional and quantity-proportional sales taxes ====
+==== The explanation for why quantity traded must decrease and post-tax market price must increase under the introduction of a sales tax: setup ====
 
-To understand why the conclusion holds ''both'' for revenue-proportional ''and'' for quantity-proportional sales taxes, we note the following. The comparisons are between different choices of (price, quantity), holding the sales tax level constant.
-
-* For a revenue-proportional sales tax, the larger the total post-tax revenue, the larger the absolute tax burden.
-* For a quantity-proportional sales tax, the larger the total quantity traded, the larger the absolute tax burden.
-
-In particular, for a single good with a fixed, downward-sloping demand curve, we can conclude that:
-
-For a revenue-proportional ''or'' quantity-proportional sales tax, the absolute tax burden increases if the seller chooses a (price, quantity) point farther to the right on the post-tax demand curve. In the revenue-proportional case, the effect is mediated through increased revenue. In the quantity-proportional case, the effect is mediated through the quantity traded.
-
-==== The explanation for why quantity traded must decrease and post-tax market price must increase under the introduction of a sales tax ====
-
-Denote by <math>(P^*, Q^*)</math> the price and quantity chosen by the monopolist in a world without tax. Suppose <math>(P_1, Q_1)</math> is a (price, quantity) pair on the post-tax demand curve with <math>P_1 > P^*</math> (and therefore <math>Q_1 < Q^*</math>). We will show that the profit from the latter configuration under sales tax is less than the profit under the sales tax from the original optimal configuration <math>(P^*, Q^*)</math>.
+Denote by <math>(P^*, Q^*)</math> the price and quantity chosen by the monopolist in a world without tax. Suppose <math>(P_1, Q_1)</math> is a (price, quantity) pair on the post-tax demand curve with <math>P_1 < P^*</math> (and therefore <math>Q_1 > Q^*</math>). We will show that the profit from the latter configuration under sales tax is less than the profit under the sales tax from the original optimal configuration <math>(P^*, Q^*)</math>.
 
 First, we note that by the definition of optimality:
 
 Profit without sales tax under <math>(P^*, Q^*)</math> <math>\ge</math> Profit without sales tax under <math>(P_1, Q_1)</math>
 
-We also have:
+==== Completion of proof for quantity-proportional case ====
+
+In the quantity-proportional case, we have:
 
 Profit with sales tax under <math>(P^*, Q^*)</math> = Profit without sales tax under <math>(P^*, Q^*)</math> - Absolute tax burden under <math>(P^*, Q^*)</math>
 
 Profit with sales tax under <math>(P_1, Q_1)</math> = Profit without sales tax under <math>(P_1, Q_1)</math> - Absolute tax burden under <math>(P_1, Q_1)</math>
 
-Also, as discussed in the preceding subsection, it must be the case that:
+Since <math>Q_1 > Q^*</math>, we obtain that:
 
 Absolute tax burden under <math>(P_1, Q_1)</math> > Absolute tax burden under <math>(P^*, Q^*)</math>
 
@@ -236,6 +227,32 @@ Combining these inequalities, we obtain that:
 Profit with sales tax under <math>(P^*, Q^*)</math> > Profit with sales tax under <math>(P_1, Q_1)</math>
 
 This provides the desired conclusion.
+
+==== Completion of proof for revenue-proportional case ====
+
+Denote by <math>x</math> the sales tax rate.
+
+Profit with sales tax under <math>(P^*, Q^*)</math> = Profit without sales tax under <math>(P^*, Q^*)</math> <math> - x/(1 + x)</math> times (post-tax revenue under <math>(P^*, Q^*)</math>)
+
+Profit with sales tax under <math>(P_1, Q_1)</math> = Profit without sales tax under <math>(P_1, Q_1)</math> <math> - x/(1 + x)</math> times (post-tax revenue under <math>(P_1, Q_1)</math>)
+
+We have that post-tax revenue equals the sum of cost and profit without sales tax. Simplifying a bit, we get:
+
+Profit with sales tax under <math>(P^*, Q^*)</math> = (Profit without sales tax under <math>(P^*, Q^*)</math>)/(<math>1 + x</math>) <math> - x/(1 + x)</math> times (total cost under <math>(P^*, Q^*)</math>)
+
+Profit with sales tax under <math>(P_1, Q_1)</math> = (Profit without sales tax under <math>(P_1, Q_1)</math>)/(<math>1 + x</math>) <math> - x/(1 + x)</math> times (total cost under <math>(P_1, Q_1)</math>)
+
+Since <math>Q_1 > Q^*</math>, we have:
+
+Total cost under <math>(P_1, Q_1)</math> <math>\ge</math> Total cost under <math>(P^*, Q^*)</math>
+
+And also, by optimality of <math>(P^*, Q^*)</math>:
+
+Profit without sales tax under <math>(P^*, Q^*)</math> <math>\ge</math> Profit without sales tax under <math>(P_1, Q_1)</math>
+
+Combining these inequalities with the equations above, we get:
+
+Profit with sales tax under <math>(P^*, Q^*)</math> <math>\ge</math> Profit with sales tax under <math>(P_1, Q_1)</math>
 
 === Conclusion ===
 

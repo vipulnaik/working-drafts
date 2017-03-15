@@ -1,0 +1,29 @@
+== Definition ==
+
+A '''demand surface''' is a geometrical construct that is the analogue, for two goods, of the [[demand curve]] for one good. It is ideal for describing situations where the demand for two goods interacts (this could be because they are [[complementary goods]] or [[substitute goods]], but it also allows for more complicated relationships).
+
+Explicitly, suppose <math>A</math>and <math>B</math> are two goods. The demand surface of <math>A</math>and <math>B</math> is a pictorial representation of a function that takes as input the prices of both <math>A</math>and <math>B</math>, and outputs the quantity demanded for both <math>A</math>and <math>B</math>. The demand surface graphs this function in four-dimensional space.
+
+If we denote the prices by <math>p_A</math> and <math>p_B</math> and the quantities by <math>q_A</math> and <math>q_B</math>, the demand surface is the graph of the function:
+
+<math>(p_A, p_B) \mapsto (q_A(p_A, p_B), q_B(p_A, p_B))</math>
+
+The demand surface is two-dimensional and is embedded in four-dimensional space.
+
+== Projections and slices of interest ==
+
+{| class="sortable" border="1"
+! Slice (intersect with a line, plane, or hyperplane parallel to a coordinate subspace) !! Projection (project onto a coordinate subspace) !! Result !! Dimension of result !! Dimension of space it is in
+|-
+| No slicing || <math>(p_A, p_B, q_A)</math> || Graph of the function <math>q_A</math> alone, in both of both <math>p_A</math> and <math>p_B</math> || 1 || 3
+|-
+| No slicing || <math>(p_A, p_B, q_B)</math> || Graph of the function <math>q_B</math> alone, in both of both <math>p_A</math> and <math>p_B</math> || 1 || 3
+|-
+| Fix a value of <math>p_A</math> || <math>(p_B, q_B)</math> || [[Demand curve]] for <math>B</math> (with specific choice of <math>p_A</math> part of the backdrop) || 1 || 2
+|-
+| Fix a value of <math>p_A</math> || <math>(p_B, q_A)</math> || Cross-demand curve, showing how the quantity demanded for <math>A</math> varies with the price of <math>B</math> (with specific choice of <math>p_A</math> part of the backdrop)  || 1 || 2
+|-
+| Fix a value of <math>p_B</math> || <math>(p_A, q_A)</math> || [[Demand curve]] for <math>A</math> (with specific choice of <math>p_B</math> part of the backdrop) || 1 || 2
+|-
+| Fix a value of <math>p_B</math> || <math>(p_A, q_B)</math> || Cross-demand curve, showing how the quantity demanded for <math>B</math> varies with the price of <math>A</math> (with specific choice of <math>p_B</math> part of the backdrop)  || 1 || 2
+|}
