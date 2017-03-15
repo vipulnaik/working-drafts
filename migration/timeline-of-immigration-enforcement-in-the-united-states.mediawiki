@@ -1,0 +1,37 @@
+This page provides a timeline of key events related to immigration enforcement in the [[wikipedia:United States|United States]]. The focus is on enforcement activities such as those carried out by [[wikipedia:U.S. Immigration and Customs Enforcement|Immigration and Customs Enforcement]], [[wikipedia:U.S. Customs and Border Protection|Customs and Border Protection]].
+
+== Big picture ==
+
+{| class="wikitable sortable"
+! Time period !! class="unsortable" | Key developments
+|-
+| Prior to the 1980s || There is very little ''systematic'' immigration enforcement, either at the border or in the interior. Immigration enforcement happens in waves, with large, one-off operations such as the Mexican repatriation and Operation Wetback.
+|-
+| 1981–2000 (picking up mostly after 1986) || The time period includes the [[wikipedia:Immigration Reform and Control Act of 1986|Immigration and Reform Control Act of 1986]] and the [[wikipedia:Illegal Immigration Reform and Immigrant Responsibility Act of 1996|Illegal Immigration Reform and Immigrant Responsibility Act of 1996]]. Immigration enforcement grows significantly in terms of budget and staff at the Immigration and Naturalization Services, as well as legislation and policy facilitating stronger enforcement.
+|-
+| 2001–2016|| Increases in resources, laws, and policies to facilitate stronger enforcement continue. The terrorist attacks of September 11, 2001, result in a disbanding of the INS and the creation of a [[wikipedia:U.S. Department of Homeland Security|U.S. Department of Homeland Security]]; functions of the INS are transferred to new sub-agencies of this department.
+|-
+| 2017 || The election of [[wikipedia:Donald Trump|Donald Trump]] as the President of the United States could yield stronger immigration enforcement.
+|}
+
+== Full timeline == 
+
+{| class="wikitable sortable"
+! Year !! Month and date (if available) !! Event type !! Affected agencies (past, and present equivalents) !! Details
+|-
+| 1982 || February 22 || Leadership change || Immigration and Naturalization Services || [[wikipedia:Alan C. Nelson|Alan C. Nelson]] becomes the Comissioner of the INS, working under Attorney General [[wikipedia:Edwin Meese|Edwin Meese]] and President [[wikipedia:Ronald Reagan|Ronald Reagan]].
+|-
+| 1986 || November 6 || Landmark legislation || Immigration and Naturalization Services; current equivalent: United States Citizenship and Immigration Services || The [[wikipedia:Immigration Reform and Control Act of 1986|Immigration Reform and Control Act of 1986]] (IRCA) is signed into law by President Ronald Reagan, after three years of legislative back-and-forth. The key sponsores are Alan Simpson and Mazzoli, so the act is also known as the Simpson–Mazzoli Act. This combines an amnesty for people who have been present in the United States for a while, a restructuring of the H-2 program splitting it into the H-2A (unlimited temporary agricultural workers) and H-2B (other temporary workers), and more resources into enforcement.
+|-
+| 1987 || October 21 || Deferred action || Alan C. Nelson, INS Commissioner announces [[wikipedia:User:Vipul/Family Fairness|Family Fairness]], a deferred action policy for children (and, in rare cases, spouses) of people eligible to legalie per the IRCA, to solve the problem of split-eligibility families.<ref name=aic>{{cite web|url = https://www.americanimmigrationcouncil.org/research/reagan-bush-family-fairness-chronological-history|title = Reagan-Bush Family Fairness: A Chronological History|date = December 9, 2014|accessdate = February 5, 2017|publisher = American Immigration Council}}</ref>
+|-
+| 1988 (approx?) || ? || Benefits management || The [[wikipedia:Systematic Alien Verification for Entitlements]] (SAVE) program gets started.
+|-
+| 1990 || February 5 || Deferred action || The Family Fairness policy is extended to spouses of IRCA-eligible people. The extension serves as a bridge to a legislation that is passed as part of the [[wikipedia:Immigration Act of 1990|Immigration Act of 1990]].
+|-
+| 1990 || ? || Landmark legislation || The [[wikipedia:Immigration Act of 1990|Immigration Act of 1990]] is signed into law by President [[wikipedia:George H. W. Bush|George H. W. Bush]]. While mostly focused on legal temporary and permanent immigration, some provisions of the Act are relevant to enforcement. In particular, the Family Unity Policy passed as part of the Act supersedes the Family Fairness executive action.
+|-
+| 1993 || October 18 || Leadership change || [[Doris Meissner]] becomes INS Commissioner.<ref name=ins>{{cite web|url = https://www.uscis.gov/history-and-genealogy/our-history-19|title = Doris Meissner. Commissioner of Immigration and Naturalization Service, October 18, 1993 - November 18, 2000|accessdate = July 5, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref><ref name=nyt-ins-start>{{cite web|url = http://www.nytimes.com/1993/06/19/us/president-chooses-an-expert-to-halt-smuggling-of-aliens.html|title = President Chooses an Expert To Halt Smuggling of Aliens|last = Ifill|first = Gwen|date = June 19, 1993|accessdate = July 5, 2016|publisher = ''[[New York Times]]''}}</ref>
+|-
+| 1996 || || 
+|}
