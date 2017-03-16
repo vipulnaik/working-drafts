@@ -155,7 +155,7 @@ We consider comparative statics between two situations:
 * A world where there are no sales taxes
 * A world where sales taxes are introduced on a ''single'' good (or class of goods) that is supplied by a single seller (the monopolist) that seeks to maximizing profit.
 
-The marginal revenue from the sale of a good equals <math>d(PQ)/dQ</math>, as <math>PQ</math> is revenue and we are interested in the rate of change of revenue as quantity changes. Using the Product Rule of calculus, we find that <math>MR = Q*dP/dQ + P</math>. As explained previously, we expect that dP/dQ is negative in accordance with the law of demand. As such, marginal revenue is less than the price paid, and it may even be zero or negative.
+The marginal revenue from the sale of a good equals <math>d(PQ)/dQ</math>, as <math>PQ</math> is revenue and we are interested in the rate of change of revenue as quantity changes. Using the [[calculus:product rule for differentiation|product rule for differentiation]], we find that <math>MR = Q*dP/dQ + P</math>. As explained previously, we expect that dP/dQ is negative in accordance with the law of demand. As such, marginal revenue is less than the price paid, and it may even be zero or negative.
 
 Unlike the perfectly competitive market case discussed previously, we do not perform two separate analyses (pre-tax and post-tax). Rather, we consider various pre-tax and post-tax curves together. The reason is that a "post-tax supply curve" does not make sense in the monopoly case. Also, the analysis is complicated enough as it is, so creating two versions of it isn't worth it!
 
@@ -273,16 +273,20 @@ Consider two goods <math>A,B</math> that are partial substitutes for each other 
 
 # The ''post-tax'' market prices for both <math>A</math> and <math>B</math> are higher than the market price in a world without taxes.
 # The ''pre-tax'' market price for ''at least'' one of <math>A</math> and <math>B</math> must fall (or stay the same) relative to its market price. In other words, it cannot happen that ''both'' pre-tax market prices are higher than the respective market prices in a world without taxes.
-# The equilibrium quantity traded for ''at least'' one of <math>A</math> and <math>B</matH> must fall (or stay the same) relative to the original equilibrium quantity traded. In other words, it cannot happen that the quantity traded for ''both'' goods rises relative to the world without taxes.
+# The equilibrium quantity traded for ''at least'' one of <math>A</math> and <math>B</math> must fall (or stay the same) relative to the original equilibrium quantity traded. In other words, it cannot happen that the quantity traded for ''both'' goods rises relative to the world without taxes.
 
-The justification of these using a combined partial equilibrium analysis is hard, but we can try to do a ''seriatim'' analysis of the two goods:
+==== Justification for conclusion about post-tax market price ====
 
-* In the first approximation, ignore the substitution effects entirely. Then, the analysis proceeds as in the preceding section, so we expect that for both <math>A</math> and <math>B</math>, in the first approximation, that the pre-tax price is lower than the original market price, the post-tax price is higher than the original market price, and the equilibrium quantity traded is lower than the original.
-* We now consider the substitution effects. Since the post-tax price for <math>B</math> has risen, this is a change to one of the [[determinants of demand]] for <math>A</math>, and the effect of the change is an ''expansion'' in the demand curve for <math>A</math>. This expansion applies to both the pre-tax and post-tax demand curves. The upshot is that the pre-tax price goes up and the post-tax price goes up too, while the equilibrium quantity traded rises.
-* The combined effect on the pre-tax price is ambiguous (in the first approximation, it goes down, but the substitution effect pushes it back up, and it is unclear which effect dominates). The combined effect on the equilibrium quantity traded is also ambiguous. However, the combined effect on the post-tax price is unambiguous: both reasons cause it to go up.
-* Of course, these are just two approximations. We can continue the process ad infinitum -- we can use the changes to the price of <math>A</math> to shift the demand curve for <math>B</math> via the substitution effect, and then again back to <math>A</math>, and so on. The hope is that the process will eventually converge. To avoid this kind of infinite process, a combined partial equilibrium analysis is useful.
+The conclusion for post-tax price is easiest to justify. We proceed in two steps:
 
-The crude seriatim analysis ''does'' show that the post-tax price goes up. However, it does not clearly show the conclusions mentioned about pre-tax price and quantity traded. Those conclusions can be better derived by thinking of the ''combined market'' for both goods and applying a single analysis to that.
+* First, let us introduce sales tax only on <math>A</math>. Using the analysis for a single good, we obtain that the post-tax price on <math>A</math> increases relative to a world without sales tax, and the quantity traded decreases. Since the goods are substitutes, the increase in price of <math>A</math> pushes the demand curve for <math>B</math> ''outward'' (i.e., demand for <math>B</math> expands). Therefore, the market price for <math>B</math> increases.
+* Now, apply the sales tax on <math>B</math>. Using the analysis for a single god, we obtain that the post-tax price on <math>B</math> increases relative to the market price when there was no sales tax on <math>B</math>.
+
+Since both steps increase the post-tax price, the overall effect on the post-tax price is an increase. A similar logic applies to <math>A</math>.
+
+==== Justification for conclusion about pre-tax market price and quantity traded ====
+
+The conclusion about pre-tax market price and quantity traded is harder to justify since it involves an ''either/or'' of two possibilities. The explanation hinges on the [[law of joint demand for two goods]].
 
 ===Sales tax on two mutually complementary goods===
 
@@ -292,12 +296,16 @@ Consider two goods <math>A,B</math> that are complements for each other as far a
 # The ''post-tax'' market price for ''at least'' one of <math>A</math> and <math>B</math> must rise (or stay the same) relative to its market price. In other words, it cannot happen that ''both'' post-tax market prices are lower than the respective market prices in a world without taxes.
 # The equilibrium quantity traded for ''both'' <math>A</math> and <math>B</math> must fall (or stay the same) relative to the original equilibrium quantity traded.
 
-The justification of these using a combined partial equilibrium analysis is hard, but we can try to do a ''seriatim'' analysis of the two goods, similar to that done for substitution effects.
+==== Justification for conclusion about pre-tax market price and quantity traded ====
 
-* In the first approximation, ignore the complementarity effects entirely. Then, the analysis proceeds as in the preceding section, so we expect that for both <math>A</math> and <math>B</math>, in the first approximation, that the pre-tax price is lower than the original market price, the post-tax price is higher than the original market price, and the equilibrium quantity traded is lower than the original.
-* We now consider the complementarity effects. Since the post-tax price for <math>B</math> has risen, this is a change to one of the [[determinants of demand]] for <math>A</math>, and the effect of the change is an ''contraction'' in the demand curve for <math>A</math>. This contraction applies to both the pre-tax and post-tax demand curves. The upshot is that the pre-tax price goes down and the post-tax price goes down too, while the equilibrium quantity traded falls.
-* The combined effect on the post-tax price is ambiguous (in the first approximation, it goes up, but the complementarity effect pushes it back down, and it is unclear which effect dominates). The combined effects on the pre-tax price and equilibrium quantity traded are unambiguous, however: both reasons cause them to go down.
-* Of course, these are just two approximations. We can continue the process ad infinitum -- we can use the changes to the price of <math>A</math> to shift the demand curve for <math>B</math> via the complementarity effect, and then again back to <math>A</math>, and so on. The hope is that the process will eventually converge. To avoid this kind of infinite process, a combined partial equilibrium analysis is useful.
+We proceed in two steps:
 
-The crude seriatim analysis ''does'' show that the pre-tax price and quantity traded both go down. However, it does not clearly show the conclusions mentioned about the post-tax price. Those conclusions can be better derived by thinking of the ''combined market'' for both goods and applying a single analysis to that.
+* First, let us introduce sales tax only on <math>A</math>. Using the analysis for a single good, we obtain that the post-tax price on <math>A</math> increases relative to a world without sales tax, and the quantity traded decreases. Since the goods are complements, the increase in price of <math>A</math> pushes the demand curve for <math>B</math> ''inward'' (i.e., demand for <math>B</math> expands). Therefore, the market price for <math>B</math> and the quantity traded decrease.
+* Now, apply the sales tax on <math>B</math>. Using the analysis for a single god, we obtain that the pre-tax price on <math>B</math> as well as the quantity traded decrease.
+
+Since both steps decrease pre-tax market price and quantity traded, the overall effect on the pre-tax market price and quantity traded is a decrease. A similar logic applies to <math>A</math>.
+
+==== Justification for conclusion about post-tax market price and quantity traded ====
+
+The conclusion about pre-tax market price and quantity traded is harder to justify since it involves an ''either/or'' of two possibilities. The explanation hinges on the [[law of joint demand for two goods]].
 

@@ -37,5 +37,36 @@ The demand surface is two-dimensional and is embedded in four-dimensional space.
 |-
 | (own-)price-elasticity of demand for <math>B</math> || <math>\frac{p_B \partial q_B}{q_B \partial p_B}</math> || Negative || [[Law of demand]] for <math>B</math>
 |-
-| cross-price elasticity of demand for <math>B</math> with respect to <math>A</math> || <math>\frac{p_A \partial q_B}{q_B \partial p_A}</math>  || ||
+| cross-price elasticity of demand for <math>B</math> with respect to <math>A</math> || <math>\frac{p_A \partial q_B}{q_B \partial p_A}</math>  || Ambiguous || If the goods are [[complementary goods]], it is negative; if they are [[substitute goods]], it is positive
+|-
+| cross-price elasticity of demand for <math>A</math> with respect to <math>B</math> || <math>\frac{p_B \partial q_A}{q_A \partial p_B}</math>  || Ambiguous || If the goods are [[complementary goods]], it is negative; if they are [[substitute goods]], it is positive
 |}
+
+== Cases for the goods ==
+
+There are three broad cases of interest for the relationship between the goods:
+
+* [[Complementary goods]]: This means that an increase in the price of <math>A</math> causes the demand curve for <math>B</math> to move inward (i.e., contract). Similarly, an increase in the price of <math>B</math> causes the demand curve for <math>A</math> to move inward (i.e., contract). Another way of framing it is that the cross-price elasticities of demand (for <math>A</math> with respect to <math>B</math>, and for <math>B</math> with respect to <math>A</math>) are both negative.
+* [[Substitute goods]]: This means that an increase in the price of <math>A</math> causes the demand curve for <math>B</math> to move outward (i.e., expand). Similarly, an increase in the price of <math>B</math> causes the demand curve for <math>A</math> to move outward (i.e., expand).  Another way of framing it is that the cross-price elasticities of demand (for <math>A</math> with respect to <math>B</math>, and for <math>B</math> with respect to <math>A</math>) are both positive.
+* Independent goods: This means that changes in the price of one good have no effect on the demand curve for the other good. Another way of framing this is that the cross-price elasticities of demand are both zero. In the case of independent goods, the graph of the surface is the Cartesian product of the demand curves for <math>A</math> and <math>B</math>.
+
+== Law of joint demand for two goods ==
+
+{{further|[[Law of joint demand for two goods]]}}
+
+The law of joint demand for two goods says that if we have:
+
+<math>p_{A,1} < p_{A,2}, p_{B,1} < p_{B,2}</math>
+
+then ''at least'' one of these must hold:
+
+<math>q_A(p_{A,1}, p_{B,1}) \ge q_A(p_{A,2}, p_{B,2})</math>
+
+<math>q_B(p_{A,1}, p_{B,1}) \ge q_B(p_{A,2}, p_{B,2})</math>
+
+In other words, it '''cannot''' happen that the quantity demanded increases for ''both'' goods when both their increases.
+
+When the goods are [[complementary goods]], then in fact, '''both''' the above inequalities hold (i.e., both quantities demanded decrease or stay the same). However, when the goods are substitute goods, it is possible for the quantity demanded to increase for one of them when both prices increase. This is because the increase in price of one good pushes some of the demand for it to the other good.
+
+The law of joint demand places a constraint on the nature of the demand surface.
+
