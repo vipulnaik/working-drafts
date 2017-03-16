@@ -1,6 +1,6 @@
 == Definition ==
 
-A '''demand surface''' is a geometrical construct that is the analogue, for two goods, of the [[demand curve]] for one good. It is ideal for describing situations where the demand for two goods interacts (this could be because they are [[complementary goods]] or [[substitute goods]], but it also allows for more complicated relationships).
+A '''demand surface''', also known as a '''joint demand surface''', is a geometrical construct that is the analogue, for two goods, of the [[demand curve]] for one good. It is ideal for describing situations where the demand for two goods interacts (this could be because they are [[complementary goods]] or [[substitute goods]], but it also allows for more complicated relationships).
 
 Explicitly, suppose <math>A</math>and <math>B</math> are two goods. The demand surface of <math>A</math>and <math>B</math> is a pictorial representation of a function that takes as input the prices of both <math>A</math>and <math>B</math>, and outputs the quantity demanded for both <math>A</math>and <math>B</math>. The demand surface graphs this function in four-dimensional space.
 
@@ -26,4 +26,16 @@ The demand surface is two-dimensional and is embedded in four-dimensional space.
 | Fix a value of <math>p_B</math> || <math>(p_A, q_A)</math> || [[Demand curve]] for <math>A</math> (with specific choice of <math>p_B</math> part of the backdrop) || 1 || 2
 |-
 | Fix a value of <math>p_B</math> || <math>(p_A, q_B)</math> || Cross-demand curve, showing how the quantity demanded for <math>B</math> varies with the price of <math>A</math> (with specific choice of <math>p_B</math> part of the backdrop)  || 1 || 2
+|}
+
+== Elasticities ==
+
+{| class="sortable" border="1"
+! Name of elasticity !! Formula !! Sign !! Explanation
+|-
+| (own-)price-elasticity of demand for <math>A</math> || <math>\frac{p_A \partial q_A}{q_A \partial p_A}</math> || Negative || [[Law of demand]] for <math>A</math>
+|-
+| (own-)price-elasticity of demand for <math>B</math> || <math>\frac{p_B \partial q_B}{q_B \partial p_B}</math> || Negative || [[Law of demand]] for <math>B</math>
+|-
+| cross-price elasticity of demand for <math>B</math> with respect to <math>A</math> || <math>\frac{p_A \partial q_B}{q_B \partial p_A}</math>  || ||
 |}
