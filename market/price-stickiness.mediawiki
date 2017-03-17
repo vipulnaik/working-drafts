@@ -1,0 +1,25 @@
+==Definition==
+
+'''Price stickiness''' or '''sticky prices''' or '''price rigidity''' refers to a situation where the [[price]] of a good does not change immediately or readily to the new [[market-clearing price]] when there are shifts in the demand and supply curve. It could be of the following types:
+
+* ''Downward rigidity'' or ''sticky downward'' means that there is resistance to the prices adjusting downward. Therefore, when the market-clearing price drops (due to an inward shift of the demand curve or an outward shift of the supply curve), the price remains artificially higher than the new market-clearing level, resulting in [[excess supply]] (surplus).
+
+[[File:Surplusabovemarketprice.png|500px]]
+
+* ''Upward rigidity'' or ''sticky upward'' means that there is resistance to the prices adjusting upward. Therefore, when the market-clearing price rises (due to an outward shift of the demand curve or an inward shift of the supply curve), the price remains artificially lower than the new market-clearing level, resulting in [[excess demand]] (shortfall).
+
+[[File:Shortfallbelowmarketprice.png|500px]]
+
+==Explanations for price stickiness==
+
+===Menu costs===
+
+[[Menu cost]]s are the costs incurred by sellers in determining and conveying new price information (and can also include costs incurred by buyers in obtaining up-to-date information). Higher menu costs tend to make prices sticky both ways -- both sellers and buyers may prefer to transact at a non-equilibrium price if the resultant inefficiency is lower than the menu costs.
+
+===Psychology===
+
+An explanation offered, particularly in the context of wages, is that wages are rigid downward for the reason that reducing workers' wages is bad for employee morale (''this goes beyond simply saying that lower wages are bad for employee morale. Rather, what this says is that the act of reducing wages itself carries bad consequences for morale, even if the new wage is high in absolute terms.'') This effect is believed by some to operate at the level of ''nominal'' wages, i.e., a decrease in real wages achieved through inflation (with no decrease in nominal wages) may be less of a problem according to this theory. The theory is called [[nominal wage rigidity]].
+
+==Related phenomena==
+
+Price stickiness refers to a failure of buyers and sellers to adapt to new market conditions and arrive at the market-clearing price, rather than a regulatory impediment to their doing so. Regulatory impediments that may have somewhat similar effects (of creating a price that is different from the market-clearing price) are [[price ceiling]]s and [[price floor]]s. A ''binding'' price ceiling is a price ceiling lower than the market-clearing price, and it results in [[excess demand]]. A ''binding'' price floor is a price floor higher than the market-clearing price, and it results in [[excess supply]].

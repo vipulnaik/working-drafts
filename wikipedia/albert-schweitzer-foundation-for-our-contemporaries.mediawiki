@@ -1,0 +1,44 @@
+The '''Albert Schweitzer Foundation for Our Contemporaries (ASF)''' is an animal protection organization focused on reducing the suffering of [[Intensive animal farming|farmed animals]].<ref name="about">{{cite web |url=http://www.albertschweitzerfoundation.org/about-us |title=About Us |accessdate=June 27, 2016}}</ref>  Its activities include campaigns to change corporate [[animal welfare]] policies and spreading information about [[vegetarianism]] and [[veganism]].<ref name="campaigns">{{cite web |url=http://www.albertschweitzerfoundation.org/campaigns |title=Our Campaigns |author=Albet Schweitzer Foundation |accessdate=June 27, 2016}}</ref>
+
+== Organizational History ==
+
+ASF was founded by attorney Wolfgang Schindler in 2000.  It is named for French-German theologian [[Albert Schweitzer]], who was awarded the [[Nobel Peace Prize]] for his "[[Reverence for Life]]" philosophy<ref>{{Citation | contribution-url = http://nobelprize.org/nobel_prizes/peace/laureates/1952/press.html | contribution = Award Ceremony Speech | title = The Nobel Peace Prize 1952 | first = Albert | last = Schweitzer | publisher = The Nobel prize | date = 10 December 1953 }}</ref> and practiced [[vegetarianism]].<ref name="veg">{{cite web |url=http://www.worldvegfest.org/history/europe20a/schweitzer.html |title=Dr Albert Schweitzer (1875-1965) |author=International Vegetarian Union |accessdate=June 27, 2016}}</ref>  The Foundation's website states that its mission is to relieve as much suffering as possible, and therefore their focus in on helping farmed animals, 60 billion of which are raised and killed each year.<ref name="about" />
+
+Despite its name, ASF does not make grants like a typical foundation but works as a nonprofit.<ref name="ace">{{cite web |url=http://www.animalcharityevaluators.org/research/organizations/albert-schweitzer-foundation-review/ |title=Albert Schweitzer Foundation Review |author=Animal Charity Evaluators |date=May 4, 2016 |accessdate=June 26, 2016}}</ref>
+
+== Campaigns ==
+
+ASF's largest program in terms of budget is its corporate outreach program.  In 2013 corporate outreach led to 33 corporate policy changes: 26 companies switched to cage-free eggs, 1 stopped selling [[foie gras]], 2 removed eggs from [[Meat analogue|meat alternatives]], and 4 added vegan menu items.  In addition, four universities switched to cage-free eggs.<ref name="ace" />  In a 2012-2013 campaign ASF successfully convinced all of Germany's major grocery store chains to stop selling lobster.<ref name="lobster">{{cite web |url=http://www.cbc.ca/news/canada/new-brunswick/german-supermarkets-ban-lobster-sales-1.1393419 |title=German supermarkets ban lobster sales |author=CBC News |date=March 18, 2013 |accessdate=June 26, 2016}}</ref>  In January 2016, along with American animal protection group [[The Humane League]], ASF secured a cage-free pledge from [[Mondelez International]].<ref name="thl">{{cite web |url=http://blog.thehumaneleague.com/dennys-cage-free |title=Updated: 2016 Scores its First Anti-Confinement Grand Slams! |author=The Humane League |date=January 14, 2016 |accessdate=June 27, 2016}}</ref>
+
+According to their website, ASF played a major role in convincing all supermarket chains and the most important [[Cash and carry (wholesale)|cash-and-carry wholesalers]] in Germany to stop selling eggs from chickens raised in [[battery cage]]s.<ref name="campaigns" />
+
+Another ASF campaign is their Pig Mobile Tour, a plant-based diet outreach campaign across Germany.  In 2013 the tour made 142 stops throughout Germany and distributed 95,000 leaflets.<ref name="ace" />
+
+ASF also does outreach by printing pro-vegan and animal rights messages on truck canvasses, publishing scientific information related to animal protection, organizing and supporting local groups and protests, lobbying, and reaching out to media.<ref name="ace" />
+
+== Animal Charity Evaluators review ==
+ASF has been one of Animal Charity Evaluators' (ACE) Standout Charities since December 2014.<ref name=ace-review>{{cite web |url=https://animalcharityevaluators.org/research/charity-review/albert-schweitzer-foundation/ |title=Albert Schweitzer Foundation |author=Animal Charity Evaluators |date=November 2016 |access-date=November 29, 2016}}</ref>  ACE designates as Standout Charities those organizations which they do not feel are as strong as their Top Charities, but which excel in at least one way and are exceptionally strong compared to animal charities in general.<ref name=smith>{{cite web |url=http://animalcharityevaluators.org/blog/our-thinking-on-standout-organizations/ |title=Our Thinking on Standout Organizations |author=Allison Smith |date=June 9, 2016 |accessdate=November 29, 2016}}</ref>
+
+In their November 2016 review of ASF, ACE lists the organization's strengths as understanding the value of goal-setting and measuring impact; working with corporations to affect large numbers of animals; and collaborating with other organizations.  Their weaknesses include, according to ACE, a limited reach, as most of their work is in Germany.<ref name=ace-review />
+
+== See also ==
+
+=== General ===
+*[[Animal rights movement]]
+*[[Timeline of animal welfare and rights]]
+*[[Timeline of animal welfare and rights in Europe]]
+*[[Animal consciousness]]
+
+=== Animal activist organizations ===
+*[[Animal Equality]]
+*[[The Humane League]]
+*[[Mercy for Animals]]
+*[[Farm Animal Rights Movement]]
+*[[Vegan Outreach]]
+
+== References ==
+{{reflist|30em}}
+
+
+
+[[Category:Animal rights movement]]
