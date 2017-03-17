@@ -1,0 +1,74 @@
+This page describes the process by which the price at which a good is traded in a competitive market converges to the [[market price]], starting from a value that is slightly greater or smaller. The process of convergence towards market price plays a role in understanding the effect of [[demand shock]]s and [[supply shock]]s that move the demand curve or supply curve, and therefore underpins the [[comparative statics for demand and supply]].
+
+For the discussion, we assume that sellers are the ones who ''directly'' decide both the price and the total quantity produced, and buyers respond by deciding how much to buy. Thus, the situation is asymmetric between buyers and sellers. Thus, sellers are the ones taking action first (by changing price and quantity produced) and buyers respond. (However, none of our conclusions hinge on this asymmetry).
+
+For simplicity, the model also assumes that both buyers and sellers are able to perceive shortages and gluts, and adjust accordingly. In the real world, price fluctuations and increases in demand may be due to [[inflation]], [[animal spirits]], or other factors, and this may lead to inappropriate adjustments. Nonetheless, even in the real world, with deviations from [[perfect information]], non-negligible [[transaction cost]]s, and not-quite [[rational behavior]], there is a significant tendency to converge towards a market price.
+
+==Basic model==
+
+===Convergence from a higher price===
+
+[[File:Surplusabovemarketprice.png|500px|thumb|right|Surplus of magnitude AB occurs above market price]]
+When the price of a good exceeds the market price, supply exceeds demand. This is a situation of [[excess supply]], or surplus. For instance, in the adjacent figure, the surplus is given by the length of the segment AB). A situation of surplus has the following effects:
+
+* Sellers, seeing unsold inventory, tend to reduce the quantity supplied as well as reduce their price. In other words, they move downward and leftward along the supply curve. (This may typically happen in two ways: sellers cut down their individual production, and some sellers go out of business).
+* As sellers lower their price, buyers become willing to buy more. In other words, buyers move downward and rightward along the demand curve.
+
+This process is expected to continue until the price equals the market price, at which demand equals supply.
+
+===Convergence from a lower price===
+
+[[File:Shortfallbelowmarketprice.png|400px|thumb|right|Shortfall of magnitude AB occurs below market price]]
+When the price of a good is less than the market price, demand exceeds supply. This is a situation of [[excess demand]], or shortfall, or scarcity. For instance, in the adjacent figure, the shortfall (or scarcity) is the length of the segment AB. A situation of scarcity has the following effects:
+
+* Sellers, seeing the competition among buyers for the commodity, try to raise price. Simultaneously, seeing the unmet demand, they tend to raise the quantity produced. In other words, they move upward and rightward along the supply curve. (This may typically happen in two ways: existing sellers increase their individual production, and new sellers enter).
+* As sellers increase their price, demand falls. In other words, buyers move upward and leftward along the demand curve.
+
+This process is expected to continue until the price equals the market price, at which demand equals supply.
+
+==The quasi-paradox of control of price==
+
+In the discussion of [[determination of quantity supplied by firm in perfectly competitive market in the short run]], we assumed that individual firms do not have any control over the price, and must treat it as a "given" from the market. The logic was that:
+
+* Because the firm is very small relative to the whole market, reducing the price below the market price will shift much more consumer demand to that firm than the firm can handle.
+* Similarly, increasing the price above the market price will cause the firm to lose all its customers to competing firms.
+
+That analysis, however, cannot explain convergence ''towards'' market prices, because it involves sellers actively ''changing'' their prices in search of a new equilibrium. This creates a quasi-paradox.
+
+The best resolution of this quasi-paradox is that:
+
+* When the market is in equilibrium, and sellers believe it to be so, they will not fiddle with the price at all.
+* If, however, sellers receive signals that the market is not in equilibrium, they are willing to ''cautiously'' make ''small'' changes to the price -- small enough that they don't run the risks cited above. As enough sellers do that, the market price as a whole shifts.
+
+===Reacting to signals that the price is too high===
+
+Explicitly, in this case, what's happening is that there is surplus: the quantity supplied exceeds the quantity demanded. Sellers see this in terms of the huge piles of unsold inventory.
+
+When a seller faces this situation, the seller has to figure out how to ''interpret'' the finding. Being only a small part of the market, the seller does not know for sure how steep the drop in market price is (it may even be the case that the new market price is below the seller's [[reservation price]], so that the optimal short-run strategy for the seller would be to go idle). However, the seller knows the ''direction'' in which to experiment: reduce the price, hoping to see the unsold inventory clear out. As the majority of sellers do this, the market shifts to the somewhat lower price. Unlike the equilibrium case, where lowering the price would attract too large a market share for the seller to be able to bear, in this case, buyers are insufficiently interested and actually need to be enticed into buying stuff.
+
+If there continues to be excess supply, then there is a further round of price reduction by the majority of sellers. This process may happen in a manner resembling continuous rather than discrete change.
+
+A key facet of the model is that sellers simultaneously adjust both the price and quantity supplied so that at any given price choice, the quantity supplied is optimal based on the [[determination of quantity supplied by firm in perfectly competitive market in the short run|static demand]].
+
+===Reacting to signals that the price is too low===
+
+Explicitly, in this case, what's happening is that there is shortfall: the quantity demanded exceeds the quantity supplied. Sellers may see this in terms of long waiting lists for their items, [[queueing]] among customers, and shelves emptying out before new stocks arrive.
+
+The seller responds by raising the price and simultaneously the quantity supplied, As with the preceding case, the raise is in tandem, so that at any given price choice, the quantity supplied is optimal based on the [[determination of quantity supplied by firm in perfectly competitive market in the short run|static demand]]. The idea is to simultaneously disincentivize customers from buying so much that there's nothing left for other customers (hence the increase in price) and having more stuff for customers to buy (hence the increase in quantity supplied). The increases are gradual, since any individual seller is typically unsure about just how far it is possible to raise prices without losing the entire market to competitors. Unlike the equilibrium case, where raising the price would cause the seller to lose all market share, buyers need to be dissuaded from buying stuff anyway, so raising the price does not pose a catastrophic downside.
+
+==Rapidity of convergence==
+
+How rapidly convergence occurs depends on the amount of information available to sellers about their market, as well as the frequency with which they interact and collect information.
+
+===Advantages of rapidity===
+
+Rapid convergence, which may be approximated as ''instantaneous'' convergence, means that there are no sustained periods of shortfalls or surpluses, reducing the amount of waste or unmet demand, and making markets more efficient.
+
+===Disadvantages of rapidity===
+
+Rapid convergence can be harmful if ''other'' parts of the system find it difficult to cope with rapid changes. For instance:
+
+* Rapid and frequent price changes impose huge [[menu cost]]s on sellers.
+* Rapid and frequent changes in the quantity produced might also impose its own costs in terms of the need to invest in infrastructure and technology that is capable of quickly adjusting.`
+* Rapid and frequent changes in prices make it more difficult for buyers to engage in prior planning. For instance, if a customer visiting a shop remembers a certain price from a week back, he/she may budget for the same price, plus or minus 10%, but be surprised if the price has shifted much more.
+* In cases with many moving parts, rapid and frequent price changes in one part can trigger similar changes in other parts, leading to rapid and frequent cascades with unclear implications. This might be the situation with [[high-frequency trading]].
