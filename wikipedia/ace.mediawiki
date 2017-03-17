@@ -1,9 +1,5 @@
-<!-- Please do not remove or change this AfD message until the issue is settled -->
-{{Article for deletion/dated|page=Animal Charity Evaluators|timestamp=20160130103613|year=2016|month=January|day=30|substed=yes|help=off}}
-<!-- Once discussion is closed, please place on talk page: {{Old AfD multi|page=Animal Charity Evaluators|date=30 January 2016|result='''keep'''}} -->
-<!-- End of AfD message, feel free to edit beyond this point -->
 {{Infobox organization
-|image       =[[File:Animal Charity Evaluators logo.svg|250px]]
+|image       =
 |name        =
 |image_border = 
 |size         =
@@ -120,15 +116,26 @@ Charity evaluator [[GiveWell]] conducted and published notes on a conversation w
 
 The Ultimate Fundraiser blog reviewed ACE, concluding: "The suffering that animals endure often caused by human self-interest is enormous. By educating people about how they can best advocate for animals, this organization hopes to contribute to the largest possible reduction of suffering for the largest number of animals. Animal Charity Evaluators is an organization that is taking the lead in helping us progress towards effective altruism."<ref>{{cite web|url=https://theultimatefundraiser.wordpress.com/2014/12/28/nonprofit-spotlight-animal-charity-evaluators/|title = Nonprofit Spotlight: Animal Charity Evaluators|date = December 28, 2014|accessdate = August 2, 2015|publisher = The Ultimate Fundraiser}}</ref> The Effective Altruism Hub has recommended to donors interested in animal welfare that they should donate to ACE-recommended charities.<ref>{{cite web|url=http://effectivealtruismhub.com/donations/plans/animal-welfare|title = Planned donations: animal welfare|publisher = Effective Altruism Hub|accessdate = August 2, 2015}}</ref>
 
+==Notes/TODO==
+
+* Incorporate info from <ref>{{cite web |url=http://www.huffingtonpost.com/entry/farm-animal-rights-revolution_us_577304f6e4b0352fed3e5b16 |author=Nico Pitney |date=July 6, 2016 |title=We're Finally Waking Up To The Horrific Ways We Treat The Animals We Eat |publisher=''[[The Huffington Post]]'' |accessdate=July 18, 2016}}</ref>, <ref>{{cite web |url=http://www.slate.com/articles/health_and_science/science/2016/08/animal_activists_crunched_the_numbers_to_learn_that_the_creature_most_in.html |author=Daniel Engber |title=How the Chicken Became the Unlikely Focus of the Animal Rights Movement |publisher=Slate Magazine |accessdate=August 18, 2016}}</ref>
+* Fix logo
+
+__INDЕX__ 
+
 == References ==
 
-{{reflist}}
+{{reflist|30em}}
+
+__INDЕX__ 
 
 == External links ==
 
-{{official website|www.animalcharityevaluators.org}}
+* {{official website|http://www.animalcharityevaluators.org}}
 
 {{Effective altruism}}
 
-[[Category:Animal welfare organizations in the United States]]
-[[Category:Charity review websites]]
+[[:Category:Animal welfare organizations in the United States]]
+[[:Category:Charity review websites]]
+
+__INDЕX__

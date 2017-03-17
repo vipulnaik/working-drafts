@@ -164,8 +164,28 @@ Note that equality would occur only in the case that the (post-tax price, quanti
 
 We've already seen that consumer surplus goes down, and the sum of producer surplus and government surplus goes down. Summing up, we obtain that total economic surplus goes down.
 
-
 ==Effects of sales tax meant to correct externalities==
 
 Sales taxes of this form are examples of [[Pigovian tax]]es. The analysis of these is somewhat different from the usual analysis. Roughly speaking, there is an optimal value for the Pigovian tax. A Pigovian tax at the optimal value maximized economic surplus. A higher Pigovian tax has the same type of effects as sales taxes in the non-Pigovian world do in general, and a lower Pigovian tax has the same type of effects as subsidies do in the non-Pigovian world in general.
+
+=== Introduction of an external marginal cost curve ===
+
+We work here with the assumption that the external cost of the activity depends only on the quantity traded. Since we are dealing with a market-clearing scenario here, quantity produced and traded are equal, so it does not matter here whether the external costs are generated in the production process, trade, or consumption process.
+
+The external marginal cost curve can therefore be plotted along with the demand and supply curves, with marginal cost (price axis) as a function of quantity.
+
+A perfect Pigovian tax would be one where marginal government revenue, as a function of quantity, matches the external marginal cost curve.
+
+In the simple case that the external cost is proportional to the quantity traded (i.e., the costs scale constantly), we can obtain a perfect Pigovian tax as a quantity-proportional sales tax, with the quantity per unit of the good equal to the external cost per unit. However, in general, the perfect Pigovian tax may not be achievable through either a quantity-proportional or a revenue-proportional sales tax.
+
+=== Optimal price and loss estimation ===
+
+The socially optimal price is one where the vertical aggregation of the supply curve and the external marginal cost curve intersects the demand curve. This price is greater than the market price in a world without taxes. In the case of no tax, ''more'' of the good gets traded than is socially optimal, and the utility loss is represented by a Harberger triangle (albeit one pointing ''left'' rather than typical Harberger triangles that point right). The Harberger triangle is bounded by the demand curve, the curve that is the sum of the short-run supply curve and the external marginal cost curve, and the vertical line for the quantity traded at equilibrium.
+
+In the case of a sales tax, the loss is once again represented by a Harberger triangle, with the only difference being that the quantity traded is now different (and less). There are two cases:
+
+* The sales tax is low enough that the post-tax price is greater than the market price and less than the socially optimal price. In this case, the Harberger triangle still points leftward.
+* The sales tax is ''just right'', so that the post-tax price equals the socially optimal price. In this case, economic surplus is maximized.
+* The sales tax is high enough that the post-tax price is greater than the socially optimal price. In this case, the Harberger triangle points rightward, and represents a ''deadweight loss'' (rather than a loss arising from too much trade).
+
 ==Effects of sales tax that also affects complementary and substitute goods==
