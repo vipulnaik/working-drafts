@@ -1,4 +1,4 @@
-Mirror of deleted page https://en.wikipedia.org/wiki/Animal_Charity_Evaluators released under the [CC-by-SA license](https://creativecommons.org/licenses/by-sa/4.0/).
+Mirror of deleted page https://en.wikipedia.org/wiki/Animal_Charity_Evaluators released under the [https://creativecommons.org/licenses/by-sa/4.0/ CC-by-SA license].
 
 {{Infobox organization
 |image       =
