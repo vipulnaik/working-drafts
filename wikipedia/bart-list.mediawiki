@@ -1,4 +1,4 @@
-Mirror of station list https://en.wikipedia.org/wiki/List_of_Bay_Area_Rapid_Transit_stations#Stations released under the [CC-by-SA license](https://creativecommons.org/licenses/by-sa/4.0/).
+Mirror of station list https://en.wikipedia.org/wiki/List_of_Bay_Area_Rapid_Transit_stations#Stations released under the [https://creativecommons.org/licenses/by-sa/4.0/ CC-by-SA license].
 
 ==Stations==
 [[File:North Concord BART In Station 02.jpg|thumb|right|Entrance of the North Concord/Martinez station|alt=An empty entrance of a train station with many ticket machines located in a distance]]
