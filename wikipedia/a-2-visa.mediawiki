@@ -1,3 +1,5 @@
+Mirror of https://en.wikipedia.org/wiki/A-2_visa released under the [CC-by-SA license](https://creativecommons.org/licenses/by-sa/4.0/).
+
 The '''A-2 visa''' is a non-immigrant [[Visa (document)|visa]] which allows travel to [[United States]] for certain government officials, employees, their immediate families, and their technical and support staff.<ref name=pocket>{{cite book |last= |first= |date=2013 |title=Immigration pocket field guide|url= |location= |publisher=Matthew Bender & Company, Inc|page=50 |isbn=}}</ref> This includes military personnel traveling for reasons not related to [[NATO]].{{efn|Those whose travel directly relates to NATO will normally qualify for one of the seven NATO visa classes.}} Those typically admitted under an A-2 visa include:
 
 * Individuals travelling to work at a [[consulate]] or [[embassy]] in the US

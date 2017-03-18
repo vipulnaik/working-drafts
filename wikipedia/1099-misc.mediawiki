@@ -1,3 +1,5 @@
+Draft notes by Vipul Naik that were the basis for initial version of https://en.wikipedia.org/wiki/Form_1099-MISC by Issa Rice.
+
 Form 1099-MISC is used to report misc. income paid by businesses (incl. nonprofits) to individual independent contractors (not incorporated) who are U.S. residents but not employed by the business (any other major caveats).
 
 == Conditions ==

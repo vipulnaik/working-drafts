@@ -1,3 +1,5 @@
+Mirror of https://en.wikipedia.org/wiki/Dustin_Moskovitz released under the [CC-by-SA license](https://creativecommons.org/licenses/by-sa/4.0/).
+
 {{Infobox person
 | image       = Dustin Moskovitz Headshot.jpg
 | image_size  = 200px
