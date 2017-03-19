@@ -1,0 +1,72 @@
+{{Infobox software
+| name                   = Google Surveys
+| logo                   = [[File:Google consumer surveys logo.png|200px|Google consumer surveys logo]]
+| screenshot             = [[File:Google consumer surveys screenshot.svg|200px|Google consumer surveys logo]]
+| collapsible            =
+| caption                =
+| developer              = [[Google]]
+| released = {{Start date|2012|03|29|df=no}}<ref name="news blog">{{cite web|last=McDonald|first=Paul|title=A new way to access quality content online|url=http://googlenewsblog.blogspot.co.uk/2012/03/new-way-to-access-quality-content.html?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed:+GoogleNewsBlog+%28Google+News+Blog%29|publisher=Google News|accessdate=11 November 2012}}</ref> 
+| latest_preview_version =
+| latest_preview_date    =
+| operating_system       = [[Cross-platform]] (web-based application)
+| genre                  = [[Statistics]], [[Statistical survey|Survey]]s<ref name=USAToday2012Scott>{{cite news|last=Scott|first=Martin|title=Customer research easier in digital era|url=http://usatoday30.usatoday.com/MONEY/usaedition/2012-08-28-Efficient-Small-Business-Ecommerce_CV_U.htm|accessdate=20 February 2013|newspaper=USA Today|date=27 August 2012}}</ref>
+| license                =
+| website                = {{URL|http://www.google.com/insights/consumersurveys/}}
+}}
+'''Google Surveys''' (formerly '''Google Consumer Surveys''')<ref name="mcgee_oct2016">{{cite web |url=http://marketingland.com/google-surveys-360-joins-analytics-360-suite-195524 |title=Google Surveys 360 joins the Analytics 360 Suite |publisher=Marketing Land |date=October 19, 2016 |accessdate=October 21, 2016 |first1=Matt |last1=McGee}}</ref> is a business product by [[Google]] that facilitates customized [[market research]].<ref name="news blog" /> The product was designed by Google as an alternative to internet [[pay wall]]s for websites that publish content. The program was launched by several online publishers such as [[Pandora Radio|Pandora]], [[AdWeek]], and the ''[[New York Daily News]]''.<ref name=mashable>{{cite news|last=Indvik|first=Lauren|title=Google Partners With Publishers on a New Kind of Paywall|url=http://mashable.com/2012/03/30/google-survey-paywall/|accessdate=11 November 2012|newspaper=Mashable|date=March 30, 2012}}</ref>
+
+==Model==
+[[File:Google_Consumer_Surveys_model.svg|thumb|300px|right|Diagram of the model]]
+
+===For survey creators===
+
+Google Surveys provides both a web interface with which to design the survey as well as the audience that takes the survey. The survey questions are subject to some requirements in length and content.
+
+The survey creators are the source of money in the model.
+
+===Monetization by Google===
+
+Google receives money from business customers such as market research firms and small businesses who create the surveys. In addition to the paid services, Google also offers a free survey for websites with predefined questions targeted at people visiting the website.<ref>{{cite web |url=https://www.google.com/insights/consumersurveys/pricing |title=Pricing |publisher=Google Consumer Surveys |accessdate=September 22, 2016}}</ref>
+
+===For publishers===
+
+Every time a user responds to a survey, the publishers earn {{US$|0.05}}.<ref name=billboard>{{cite news|last=Peoples|first=Glenn|title=Business Matters: Google Consumer Surveys Pick Up Where Micropayments Left Off|url=http://www.billboard.biz/bbbiz/industry/digital-and-mobile/business-matters-google-consumer-surveys-1006632752.story|accessdate=11 November 2012|newspaper=Billboard|date=March 30, 2012}}</ref>
+
+===For consumers===
+
+The consumer surveys work as a "soft paywall" (also called a "surveywall") for websites offering premium content.<ref name="google_whitepaper">{{cite web |url=https://www.google.com/insights/consumersurveys/static/consumer_surveys_whitepaper.pdf |title=Comparing Google Consumer Surveys to Existing Probability and Non-Probability Based Internet Surveys |first1=Paul |last1=McDonald |first2=Matt |last2=Mohebbi |first3=Brett |last3=Slatkin |publisher=Google Inc. |accessdate=September 22, 2016}}</ref>
+
+Users visiting these websites have the option of responding to a survey to access content for free.<ref name=billboard/>
+
+==History==
+
+The product was launched on March 29, 2012.
+
+On February 19, 2015, Google announced Consumer Surveys as a platform for publishers to monetize their online content.<ref>{{cite web|last=John|first=Tony|title=Google Consumer Surveys: An additional way to monetize your site|url=http://adsense.blogspot.in/2015/02/sign-up-for-google-consumer-surveys.html|publisher=Google|accessdate=19 February 2015|date=19 February 2015}}</ref> Initially, this platform will be available only for publishers from USA, UK and Canada.<ref>{{cite web|last=John|first=Tony|title=Google introduces Consumer Surveys Platform for publishers|url=http://www.techulator.com/resources/14166-How-to-join-Google-Consumer-Surveys.aspx|publisher=Techulator|accessdate=19 February 2015|date=19 February 2015}}</ref> Publishers payments are made through the [[AdSense]] payment system, but the platform has its own management and reporting console.
+
+On October 19, 2016, Google announced that it had renamed the product from Google Consumer Surveys to Google Surveys and was moving it to part of the [[Google Analytics]] product suite.<ref name="mcgee_oct2016" />
+
+==Reception==
+[[File:Google_Consumer_Surveys_results_page.png|thumb|right|Google Surveys results page]]
+
+Notable uses of Google Surveys include voter information tools and behavior surveys of holiday travelers.<ref name=timesunion>{{cite news|last=PR Web|title=Older Consumers Plan To Do the Most Holiday Shopping Online|url=http://www.timesunion.com/business/press-releases/article/Older-Consumers-Plan-To-Do-the-Most-Holiday-4019957.php|accessdate=11 November 2012|newspaper=Times Union|date=November 8, 2012}}</ref> Google Surveys published voter [[opinion poll]]s leading up to the [[2012 US presidential elections]]. According to ''[[New York Times]]''' blogger and statistician [[Nate Silver]], the Google Surveys' election polls were ranked second in terms of reliability and lack of bias in predicting election results.<ref name=fivethirtyeight>{{cite news|last=Silver|first=Nate|title=Which Polls Fared Best (and Worst) in the 2012 Presidential Race|url=http://fivethirtyeight.blogs.nytimes.com/2012/11/10/which-polls-fared-best-and-worst-in-the-2012-presidential-race/#more-37396|accessdate=11 November 2012|newspaper=The New York Times|date=November 10, 2012}}</ref>
+
+[[Pew Research Center]] has conducted a series of tests to evaluate Google Surveys in consultation with Google. In November 2012, Pew independently published an analysis of the results up to that point which stated in part that a "comparison of several demographic questions asked by Pew Research indicates that the Google Consumer Surveys sample appears to conform closely to the demographic composition of the overall internet population".<ref>{{cite web |url=http://www.people-press.org/2012/11/07/a-comparison-of-results-from-surveys-by-the-pew-research-center-and-google-consumer-surveys/ |date=November 7, 2012 |title=A Comparison of Results from Surveys by the Pew Research Center and Google Consumer Surveys |publisher=[[Pew Research Center]] |accessdate=September 22, 2016}}</ref>
+
+Google Surveys has been compared to [[SurveyMonkey]] (which also offers both a survey creation interface as well as a way to purchase an audience), where it was praised for its low cost per response but was found to have less flexibility in designing the survey.<ref>{{cite web |url=http://e-m-marketing.com/blog/2016/02/head-to-head-google-surveys-vs-survey-monkey/ |date=February 9, 2016 |title=Head-to-Head: SurveyMonkey vs. Google Consumer Surveys |publisher=[[EM Marketing, Inc.]] |accessdate=September 23, 2016 |author=Ryan Rigoli}}</ref><ref>{{cite web |url=http://www.siegemedia.com/creation/google-consumer-surveys-for-content-marketers |date=November 6, 2014 |title=Google Consumer Surveys: A Guide for Content Marketers |publisher=[[Siege Media]] |accessdate=September 23, 2016}}</ref>
+
+Google has also reviewed Google Surveys in a [[white paper]], concluding that "Google Consumer Surveys can be used in place of more traditional Internet-based panels without sacrificing accuracy" while also stating that "[s]ince Google Consumer Surveys only allows one-question or screening two-question surveys, analysis of the relationships between survey questions are difficult or sometimes not even possible".<ref name="google_whitepaper" />{{rp|10}}
+
+==See also==
+* [[Comparison of survey software]]
+* [[Survata]]<ref>{{Cite web|title = Online Surveys & Market Research by Survata|url = http://survata.com|website = Survata|accessdate = 2015-07-20}}</ref>
+* [[Google Forms]], another product of Google that provides a different interface for designing surveys and forms, but does not provide a paid audience
+
+==References==
+{{reflist|2}}
+
+{{google Inc.}}
+{{Survey data collection|Survata = Survata}}
+
+[[Category:Google services|Consumer Surveys]]
+[[Category:Polling companies]]

@@ -1,0 +1,38 @@
+This timeline covers opinion polling and survey research.
+
+== Full timeline ==
+
+{| class="wikitable sortable"
+! Year !! Month and date (if available) !! Polling modality !! Event type !! Details !! Geographical location
+|-
+| 1935 || || Organization founding || Offline || [[wikipedia:George Gallup|George Gallup]] founds the American Institute of Public Opinion, one of the main predecessors to Gallup, Inc.<ref name=gallup-history>{{cite web|url = http://www.gallup.com/corporate/178136/george-gallup.aspx|title = George H. Gallup, Founder: 1901-1984|accessdate = March 18, 2017|publisher = [[wikipedia:Gallup (company)|Gallup]]}}</ref> || [[wikipedia:United States|United States]]
+|-
+| 1941 || || Organization founding || Offline || [[wikipedia:NORC at the University of Chicago|NORC at the University of Chicago]] is founded as the National Opinion Research Center. || [[wikipedia:United States|United States]] ([[wikipedia:Chicago|Chicago]])
+|-
+| 1947 || May || Organization founding || Offline|| The [[wikipedia:Gallup International Association|Gallup International Association]] is formed. It is an association of polling organizations around the world || [[wikipedia:Switzerland|Switzerland]] ([[wikipedia:Zurich|Zurich]])
+|-
+| 1958 || || Organization founding || Offline || [[wikipedia:George Gallup|George Gallup]] consolidates all his polling operations under [[wikipedia:Gallup (company)|Gallup, Inc.]] || [[wikipedia:United States|United States]]
+|-
+| 1975 || || Organization founding || Offline || [[wikipedia:Ipsos|Ipsos]] is founded by Didier Truchot in Paris, France.<ref name=ipsos-history>{{cite web|url = https://www.ipsos.com/en/our-history|title = Our history|publisher = Ipsos|accessdate = March 18, 2017}}</ref> || [[wikipedia:France|France]] ([[wikipedia:Paris|Paris]])
+|-
+| 1990 || || Organization founding || Offline || The Times Mirror Company founds the Times Mirror Center for the People & the Press to conduct polls on politics and policy. This would later become the [[wikipedia:Pew Research Center|Pew Research Center]].<ref name=pew-research-center-history>{{cite web|url = http://www.pewresearch.org/about/our-history/|title = Our History|publisher = [[wikipedia:Pew Research Center|Pew Research Center]]|accessdate = March 18, 2017}}</ref> || [[wikipedia:United States|United States]]
+|-
+| 1996 || || Organization changes || Offline || The Times Mirror Center for the People & Press becomes the [[wikipedia:Pew Research Center|Pew Research Center]] for the People & Press, as a result of the [[wikipedia:Pew Charitable Trusts|Pew Charitable Trusts]] becoming its primary sponsor. || [[wikipedia:United States|United States]]
+|-
+| 1997 || || Organization founding || Offline || [[wikipedia:Harris Interactive|Harris Interactive]], an opinion polling company, is created as a result of a merger between the Gordon Black Corporation and Louis Harris & Associates. || [[wikipedia:United States|United States]]
+|-
+| 1999 || || Organization founding || Online || Online survey tool company [[wikipedia:SurveyMonkey|SurveyMonkey]] is founded by [[wikipedia:Ryan Finley|Ryan Finley]].<ref>{{cite web|url = https://techcrunch.com/2009/09/08/survey-monkey-growing-like-a-weed-fills-out-exec-team/|title = 
+Survey Monkey Growing Like A Weed, Fills Out Exec Team|last = Arrington|first = Michael|date = September 8, 2009|accessdate = March 18, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref> || [[wikipedia:United States|United States]]
+|-
+| 2003 || || Organization founding || Offline || [[wikipedia:Rasmussen Reports|Rasmussen Reports]] is founded by [[wikipedia:Scott Rasmussen|Scott Rasmussen]].<ref name=huffpo>{{cite news |last=Blumenthal|first=Mark|title=Pollster Scott Rasmussen Leaves Firm He Founded A Decade Ago|url=http://www.huffingtonpost.com/2013/08/22/scott-rasmussen_n_3798379.html|accessdate=24 August 2013|newspaper=Huffington Post|date=2013-08-22|author2=Edwards-Levy, Ariel}}</ref><ref name=media>{{cite web |last=Siegelheim|first=Matt|title=Scott Rasmussen to Launch New Media Venture| url=http://www.rasmussenmediagroup.com/|publisher=Rasmussen Media Group|accessdate=11 August 2013}}</ref><ref name=wall>{{cite news|last=Prang|first=Allison|title=Founder Departs Polling Firm Rasmussen Reports |url=http://blogs.wsj.com/washwire/2013/08/22/founder-departs-polling-firm-rasmussen-reports/|accessdate=23 August 2013|newspaper=Wall Street Journal|date=2013-08-22}}</ref><ref name=bloomberg>{{cite web|url=http://investing.businessweek.com/research/stocks/private/snapshot.asp?privcapId=52850713|title=Company Overview of Rasmussen Reports, LLC |work=[[wikipedia:Bloomberg Businessweek|Bloomberg Businessweek]]|accessdate=2012-06-12}}</ref><ref>{{cite web|title=Scott Rasmsusen |url=http://www.linkedin.com/pub/scott-rasmussen/6/943/716 |publisher=LinkedIn|accessdate=11 August 2013}}</ref><ref>{{cite news|title=Rasmussen Reports Announces a Change in Management |url=http://www.rasmussenreports.com/public_content/about_us/public_relations/press_room/press_releases/rasmussen_reports_announces_a_change_in_management |accessdate=24 August 2013|publisher=Rasmussen Reports|date=2013-08-22}}</ref><ref>{{cite news |last=Byers |first=Dylan|title=Rasmussen founder leaves company |url=http://www.politico.com/blogs/media/2013/08/rasmussen-founder-out-after-disagreements-171041.html |accessdate=24 August 2013|newspaper=Politico|date=2013-08-22}}</ref> || [[wikipedia:United States|United States]]
+|-
+| 2004 || || Organization changes || Offline || The Pew Research Center moves to Washington, D.C. || [[wikipedia:United States|United States]] ([[wikipedia:Washington, D.C.|Washington, D.C.]])
+|-
+| 2008 || March 7 || Organization founding || N/A || The website [[wikipedia:FiveThirtyEight|FiveThirtyEight]] is launched by [[wikipedia:Nate Silver|Nate Silver]]. The website performs analyses of opinion polling results and also generally discusses predictions in politics, sports, and other domains.<ref>{{cite web|url=http://whois.domaintools.com/fivethirtyeight.com|title=FiveThirtyEight.com WHOIS, DNS, & Domain Info – DomainTools|work=[[wikipedia:WHOIS|WHOIS]]|date= |accessdate=2016-09-03}}</ref> || [[wikipedia:United States|United States]] (primary focus)
+|-
+| 2012 || March 29 || Product launch || Online || [[wikipedia:Google Surveys|Google Surveys]] launches as Google Consumer Surveys.<ref>{{cite web|url = http://www.adweek.com/digital/google-unveils-new-revenue-option-web-publishers-139261/|title = Google Unveils New Revenue Option for Web Publishers. Microsurvey product to provide an alternative to paywalls|publisher = ''[[wikipedia:AdWeek|AdWeek]]''|date = March 29, 2012|last = Shields|first = Mike|accessdate = March 18, 2017}}</ref><ref>{{cite web|url = http://marketingland.com/google-consumer-surveys-9008|title = Google Launches Consumer Surveys|last = Schwarz|first = Barry|date = March 29, 2012|accessdate = March 18, 2017}}</ref> || limited set of countries including [[wikipedia:United States|United States]] (list of countries at launch unclear)
+|}
+
+== References ==
+
+{{reflist|30em}}
