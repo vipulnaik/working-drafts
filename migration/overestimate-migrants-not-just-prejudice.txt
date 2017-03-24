@@ -217,7 +217,7 @@ Here are the highlights of the Hopkins, Sides, and Citrin results. We include in
 <tr>
 <td>0% to 2%</td>
 <td>0.46%</td>
-<td>1.94%<td>
+<td>1.94%</td>
 <td>0%</td>
 </tr>
 <tr>
@@ -268,6 +268,15 @@ Here are the highlights of the Hopkins, Sides, and Citrin results. We include in
 
 After conducting initial surveys on this subject, I sought explanations from other people and the literature. A hypothesis that often came up in discussions was that people are extrapolating from their own local circumstances and/or their interpretation of local circumstances. On further investigation, my current view is that people's own local circumstances, or interpretation thereof, explains things to only a small extent.
 
+A related paper that explores some similar hypotheses (but in the context of racial and ethnic groups rather than foreign-born status) is <a href="https://github.com/cjwong/cjwong.github.io/blob/master/Papers/WongPOQ.pdf">"Little" and "Big" Pictures in Our Heads: Race, Local Context, and Innumeracy and Racial Groups in the United States</a> by Cara Wong. This paper is also focused on the United States. A few of the observations made in the paper are listed below. We'll see some overlap between the observations and our own.
+
+<ul>
+	<li><em>Local estimates are less exaggerated than national estimates</em>: Individuals' estimates of the population composition of their local surroundings are closer to the population composition of the nation than their national estimates.</li>
+	<li><em>Local estimates correlate with national estimates</em>: Individuals' estimates of the population composition of their local surroundings are more correlated with their country-level estimates than the actual local surroundings are.</li>
+        <li><em>Local estimates correlate with actual local values</em></li>
+	<li><em>The effect of one's own group membership on local estimates dissipates when looking at national estimates</em>: People of different racial and ethnic groups perceive the same local surroundings differently, but these differences are lost when we look at their national estimates.</li>
+</ul>
+
 <h4>(2.1): State-level estimates: More conservative (and more realistic) than nation-wide estimates, but poorly correlated with actual state population</h4>
 
 First off, here are the state-level questions corresponding to Q1 and Q2:
@@ -284,86 +293,71 @@ Below, the distribution of responses for these questions is presented.
 <tr>
 <th>Option</th>
 <th>Q3 as MLM Q6 (N=103)</th>
-<th>Q3 raw percentage of responses</th>
 <th>Q3 as FBPER Q3 (N=314)</th>
-<th>Q3 raw percentage of responses</th>
 <th>Q4 as FBPER Q4 (N=314)</th>
-<th>Q4 raw percentage of responses</th>
 </tr>
 <tr>
 <td>0% to 2%</td>
-<td>10</td>
 <td>9.71%</td>
-<td>32</td>
 <td>10.19%</td>
-<td>82</td>
 <td>26.11%</td>
 </tr>
 <tr>
 <td>2% to 5%</td>
-<td>14</td>
 <td>13.59%</td>
-<td>55</td>
 <td>17.52%</td>
-<td>77</td>
 <td>24.52%</td>
 </tr>
 <tr>
 <td>5% to 10%</td>
-<td>16</td>
 <td>15.53%</td>
-<td>64</td>
 <td>20.38%</td>
-<td>47</td>
 <td>14.97%</td>
 </tr>
 <tr>
 <td>10% to 15%</td>
-<td>16</td>
 <td>15.53%</td>
-<td>50</td>
 <td>15.92%</td>
-<td>34</td>
 <td>10.83%</td>
 </tr>
 <tr>
 <td>15% to 20%</td>
-<td>11</td>
 <td>10.68%</td>
-<td>28</td>
 <td>8.92%</td>
-<td>30</td>
 <td>9.55%</td>
 </tr>
 <tr>
 <td>20% to 30%</td>
-<td>13</td>
 <td>12.62%</td>
-<td>52</td>
 <td>16.56%</td>
-<td>23</td>
 <td>7.32%</td>
 </tr>
 <tr>
 <td>30% to 50%</td>
-<td>20</td>
 <td>19.42%</td>
-<td>23</td>
 <td>7.32%</td>
-<td>16</td>
 <td>5.10%</td>
 </tr>
 <tr>
 <td>More than 50%</td>
-<td>3</td>
 <td>2.91%</td>
-<td>10</td>
 <td>3.18%</td>
-<td>5</td>
 <td>1.59%</td>
 </tr>
 </table>
 
+A couple easy observations:
+
+<ul>
+	<li>Just as with country-level foreign-born populations, people overestimate state-level foreign-born populations. However, the <em>extent</em> of overestimation is less. In particular, very few people select "More than 50%", though the percentage of people estimating "30% to 50%" is about the same.</li>
+	<li>The estimates of state-level foreign-born population have a very low correlation with the actual state-level foreign-born population. In other words, people's estimates for the state-level foreign-born population isn't much higher in states with larger foreign-born populations.</li>
+	<li>Finally, what is the correlation between the state-level and country-level estimates?</li>
+</ul>
+
+We will see 
+<h4>(2.2): Estimates of local migrant populations correlate weakly</h4>
+
+One of the most recent
 The most recent survey, Migration levels and migrants (MLM) began by asking people about their own foreign-born status and exposure to foreign-born people, and then asked them about the foreign-born proportion in their state and then the whole United States.
 
 Q2 of MLM asked people to estimate the foreign-born proportion among people they knew. Specifically, with the same options as Q7 of MLM:
@@ -377,67 +371,50 @@ Of the 103 SurveyMonkey Audience respondents, 29 selected "Between 0% and 2% (1 
 <table>
 <tr>
 <th>Option</th>
-<th>Q6 number of responses (N=49)</th>
-<th>Q6 percentage of responses</th>
-<th>Q7 number of responses (N=49)</th>
-<th>Q7 percentage of responses</th>
+<th>Q6 (N=49)</th>
+<th>Q7 (N=49)</th>
 </tr>
 <tr>
 <th>0% to 2%</td>
-<td>8</td>
 <td>16.33%</td>
-<td>3</td>
 <td>6.12%</td>
 </tr>
 <tr>
 <th>2% to 5%</td>
-<td>8</td>
 <td>16.33%</td>
-<td>4</td>
 <td>8.16%</td>
 </tr>
 <tr>
 <th>5% to 10%</td>
-<td>12</td>
 <td>24.49%</td>
-<td>11</td>
 <td>22.45%</td>
 </tr>
 <tr>
 <th>10% to 15%</td>
-<td>10</td>
 <td>20.41%</td>
-<td>10</td>
 <td>20.41%</td>
 </tr>
 <tr>
 <th>15% to 20%</td>
-<td>4</td>
 <td>8.16%</td>
-<td>8</td>
 <td>16.33%</td>
 </tr>
 <tr>
 <th>20% to 30%</td>
-<td>3</td>
 <td>6.12%</td>
-<td>5</td>
 <td>10.20%</td>
 </tr>
 <tr>Between 30% to 50%</td>
-<td>4</td>
 <td>8.16%</td>
-<td>6</td>
 <td>12.24%</td>
 </tr>
 <tr>
 <td>More than 50%</td>
-<td>0</td>
 <td>0%</td>
-<td>2</td>
 <td>4.08%</td>
 </tr>
 </table>
 
 As you can see, despite not knowing too many foreign-born themselves, these people were only slightly less likely to estimate unreasonably high foreign-born proportions in the United States. It is, however, the case that they did place lower estimates for the foreign-born proportion in their own state. In other words, the reason people are overestimating the foreign-born proportion of the population appears to be not so much feedback from their local circumstances but rather, attempts to abstractly reason about the wider world.
 
+See also <a href="https://github.com/cjwong/cjwong.github.io/blob/master/Papers/WongPOQ.pdf">Little and Big Pictures in our Heads</a> by Cara Wong.
