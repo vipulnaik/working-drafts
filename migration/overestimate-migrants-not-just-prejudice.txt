@@ -196,7 +196,9 @@ So we see that for both Q1 and Q2, across both Google Surveys and SurveyMonkey A
 
 <h4>1.3: Surveys reported in Hopkins, Sides, and Citrin (2007) report significantly more overestimation</h4>
 
-Hopkins, Sides and Citrin generously shared raw data for two of the four surveys described in their paper, specifically, the responses to the 2006 CCES question and the 2008 survey conducted by Knowledge Networks.
+Hopkins, Sides and Citrin generously shared raw data for two of the four surveys described in their paper, specifically, the responses to the 2006 CCES question and the 2008 survey conducted by Knowledge Networks. The question of interest was:
+
+<blockquote>Out of every 100 people living in the United States, how many do you think were born outside the country?</blockquote>
 
 There were a couple of reasons that might account for the differences:
 
