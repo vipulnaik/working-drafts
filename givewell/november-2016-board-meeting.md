@@ -1,4 +1,4 @@
-Some notes from November 2016 board meeting. Audio available at http://www.givewell.org/about/official-records/board-meeting-34
+Some notes from November 7, 2016 board meeting. Audio, minutes, and agenda available at http://www.givewell.org/about/official-records/board-meeting-34
 
 Begins with discussion of split. Alexander Berger did initial work, Sarah Ward now managing it as GiveWell Operations person. Said Alexander shouldn't be main person involved as he is moving to Open Phil.
 
