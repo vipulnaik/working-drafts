@@ -2,6 +2,8 @@ Some notes from November 2016 board meeting.
 
 Begins with discussion of split. Alexander Berger did initial work, Sarah Ward now managing it as GiveWell Operations person. Said Alexander shouldn't be main person involved as he is moving to Open Phil.
 
+GiveWell has hired a bunch of lawyers and is also in talks with a valuations firm to value the companies etc.
+
 Elie clarifies he will continue to do Open Phil work even after the split, and will bill to Open Phil.
 
 Post-split, hours will be cross-billed, and hours on both will be tracked.
