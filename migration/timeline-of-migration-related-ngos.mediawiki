@@ -1,0 +1,18 @@
+This page provides a timeline of major organizations not affiliated with the United States government, that deal with migration-related matters for the United States. Some of them have a more global focus. The list includes:
+
+* Think tanks for research or advocacy, on any side of the issue (for migration, against migration, for more selective migration, etc.)
+* Research or advocacy centers in existing universities or think tanks
+* Legal resource groups (that provide legal information and services to migrants, potential migrants, and those related to them)
+* Grassroots/community organizing efforts
+* Mailing lists, websites, and other forums where people congregate to discuss these issues
+
+
+== Full timeline ==
+
+{| class="wikitable sortable"
+! Year !! Month and date (if available) !! Event type !! Organization type !! Details
+|-
+| 1985 || || Launch || Restrictionist think tank || The [[wikipedia:Center for Immigration Studies|Center for Immigration Studies]] (CIS), a think tank with the tagline "low-immigration, pro-immigrant", is founded.<ref name=cis-about>{{cite web|url = http://cis.org/About|title = About the Center for Immigration Studies|publisher = Center for Immigration Studies|accessdate = March 28, 2017}}</ref>
+|-
+| 2001 || || Launch || Research think tank || The [[wikipedia:Migration Policy Institute|Migration Policy Institute]] (MPI), a think tank focused on analysis of migration worldwide, is founded in Washington, D.C. by Demetrios G. Papademetriou and Kathleen Newland.<ref>{{cite web|url = http://www.migrationpolicy.org/about/mission|title = Mission|publisher = Migration Policy Institute|accessdate = Marh 28, 2017}}</ref>
+|}
