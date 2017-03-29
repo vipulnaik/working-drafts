@@ -55,6 +55,14 @@ This page provides a timeline of key events related to immigration enforcement i
 |-
 | 1994 || October 1 || Program rollout || United States Border Patrol || [[wikipedia:Operation Gatekeeper|Operation Gatekeeper]] is launched under Attorney General Janet Reno and USCIS Commissioner Doris Meissner. The initial launch is at [[wikipedia:Imperial Beach Station|Imperial Beach Station]] in the San Diego Sector of the United States Border Patrol.<ref>{{cite web|url = https://oig.justice.gov/special/9807/gkp01.htm|title = BACKGROUND TO THE OFFICE OF THE INSPECTOR GENERAL INVESTIGATION|accessdate = March 18, 2017}}</ref>
 |-
+| 1994 || November (?) || State ballot || California || A statewide ballot is held in [[wikipedia:California|California]] for [[wikipedia:California Proposition 187|California Proposition 187]] (also known as the '''Save Our State''' (SOS) Initiative), an initiative to establish a statewide citizenship screening system and prohibit unauthorized aliens from accessing non-emergency healthcare, public education, and other services.<ref name=cvf>{{cite web|
+url=http://www.calvoter.org/archive/94general/props/187.html|
+title=#187 Illegal immigrants. Ineligibility for public services. Verification and Reporting. |
+accessdate=June 13, 2010|
+author=Nancy H. Martis|
+year=1994|
+publisher=California Voter Foundation}}</ref> The initiative passes with a 59% vote.
+|-
 | 1995 || || Program rollout || Immigration and Naturalization Services; current equivalent: U.S. Immigration and Customs Enforcement || [[wikipedia:stipulated removal|Stipulated removal]] is launched with the stated goal of alleviating overcrowding in federal, state, and local detention centers.<ref name=azcentral>{{cite web|url = http://archive.azcentral.com/arizonarepublic/news/articles/2011/11/06/20111106immigration-arizona-deportation-program.html|title = Immigration officials back away from deportation program. Effort quickened process but raised rights issues|last = Gonzalez|first = Daniel|publisher = ''The Arizona Republic''|date = November 6, 2011|accessdate = July 24, 2015}}</ref>
 |-
 | 1996 || August 22 || Legislation (adjacent) || Numerous federal and state government agencies || [[wikipedia:Personal Responsibility and Work Opportunity Act|Personal Responsibility and Work Opportunity Act]] is signed into law by President [[wikipedia:Bill Clinton|Bill Clinton]] after passing both chambers of the [[wikipedia:104th United States Congress|104th United States Congress]]. Though not focused on migration, the legislation includes provisions restricting migrant access to the welfare state, and would lead to expansion in the use of SAVE.
