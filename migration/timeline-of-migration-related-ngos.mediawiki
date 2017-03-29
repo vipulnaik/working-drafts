@@ -12,23 +12,53 @@ This page provides a timeline of major organizations not affiliated with the Uni
 {| class="wikitable sortable"
 ! Year !! Month and date (if available) !! Event type !! Organization type !! Details
 |-
+| 1920 || || Launch || Legal advocacy || The [[wikipedia:American Civil Liberties Union|American Civil Liberties Union]] (ACLU), a nonprofit focused on civil liberties advocacy, launches.<ref>{{cite web|url = https://www.aclu.org/about-aclu|title = About the ACLU|accessdate = March 28, 2017}}</ref> Although the ACLU does not advocate for any particular immigration policy, it engages in civil liberties litigation against many immigration enforcement approaches.
+|-
 | 1946 || October 14 || Launch || Professional association || The [[wikipedia:American Immigration Lawyers Association|American Immigration Lawyers Association]] (AILA) launches.<ref name=aila-about>{{cite web|url=http://www.aila.org/content/default.aspx?docid=1021 |title=About AILA |accessdate=2012-03-07 |publisher=American Immigration Lawyers Association |deadurl=yes |archiveurl=https://web.archive.org/web/20120306171136/http://aila.org/content/default.aspx?docid=1021 |archivedate=2012-03-06 |df= }}</ref>
+|-
+| 1964 || || Launch || Research think tank || The [[wikipedia:Center for Migration Studies of New York|Center for Migration Studies of New York]] launches.<ref>{{cite web|url = http://cmsny.org/about/|title = About|publisher = [[wikipedia:Center for Migration Studies of New York|Center for Migration Studies of New York]]|publisher = March 28, 2017}}</ref>
 |-
 | 1979 || January 2 || Launch || Restrictionist think tank || The [[wikipedia:Federation for American Immigration Reform|Federation for American Immigration Reform]] (FAIR) launches. [[wikipedia:John Tanton|John Tanton]] plays a key founding role.
 |-
-| 1979 || || Launch || Pro-immigrant advocacy think tank || The [[wikipedia:National Immigration Law Center]] (NILC), an organization dedicated to defending and advancing the rights of low-income immigrants in the United States, launches.<ref>{{cite web|url = https://www.nilc.org/about-us/what_we_do/|title = What We Do|publisher = National Immigration Law Center|accessdate = March 28, 2017}}</ref>
+| 1979 || || Launch || Pro-immigrant advocacy think tank || The [[wikipedia:National Immigration Law Center|National Immigration Law Center]] (NILC), an organization dedicated to defending and advancing the rights of low-income immigrants in the United States, launches.<ref>{{cite web|url = https://www.nilc.org/about-us/what_we_do/|title = What We Do|publisher = National Immigration Law Center|accessdate = March 28, 2017}}</ref>
 |-
+| 1982 || || Launch || Pro-immigrant advocacy think tank || The [[wikipedia:National Immigration Forum|National Immigration Forum]] launches.<ref>{{cite web|url = http://immigrationforum.org/about/|title = About|publisher = National Immigration Forum|accessdate = March 28, 2017}}</ref>
+|-
+| 1983 || || Launch || Anti-immigrant advocacy group || The [[wikipedia:American Immigration Control Foundation|American Immigration Control Foundation]] (AICF), an advocacy group for low immigration levels, launches.<ref>{{cite web|url = http://www.aicfoundation.com/about.html|title = About|publisher = American Immigration Control Foundation}}</ref>
+|- 
 | 1985 || || Launch || Restrictionist think tank || The [[wikipedia:Center for Immigration Studies|Center for Immigration Studies]] (CIS), a think tank with the tagline "low-immigration, pro-immigrant", is founded.<ref name=cis-about>{{cite web|url = http://cis.org/About|title = About the Center for Immigration Studies|publisher = Center for Immigration Studies|accessdate = March 28, 2017}}</ref>
 |-
+| 1986 || || Launch || Immigrant rights || Border Angels is founded. The organization focuses on migrant rights, migrant advocacy, and preventing migrant deaths along the border.<ref>{{cite web|url = http://www.borderangels.org/about-us/|title = ABOUT US|publisher = Border Angels|accessdate = March 28, 2017}}</ref>
+|-
+| 1986 || || Launch || Anti-immigration litigation || The Immigration Reform Law Institute (IRLI) launches as a litigation arm of the Federation for American Immigration Reform FAIR).<ref>{{cite web|url = http://www.irli.org/mission-vision|title = About Us|publisher = Immigration Reform Law Institute|accessdate = March 28, 2017}}</ref>
+|-
 | 1987 || || Launch || Pro-immigrant advocacy think tank || The American Immigration Council (AIC), a nonprofit that does immigration research and promotes pro-immigration and pro-immigrant policies in the United States, launches.<ref name=aic-mission>{{cite web|url = https://www.americanimmigrationcouncil.org/about/our-mission|title = About the American Immigration Council: Honoring our Immigrant Past, Shaping our Immigrant Future|publisher = American Immigration Council|accessdate = March 28, 2017}}</ref>
+|-
+| 1994 || || Launch || Restrictionist think tank || The [[wikipedia:California Coalition for Immigration Reform]] (CCIR) launches. The group advocates for immigration reduction. The CCIR would be a co-sponsor of [[wikipedia:California Propositon 187|California Proposition 187]].
+|-
+| 1996 || December || Launch || Restrictionist think tank || [[wikipedia:NumbersUSA|NumbersUSA]] is founded by [[wikipedia:Roy Beck|Roy Beck]], initially with a launch of the website NumbersUSA.com.<ref name=numbersusa-about>{{Cite web|url = https://www.numbersusa.com/about|title = About Us. Moderates, conservatives & liberals working for immigration numbers that serve America's finest goals|publisher = [[wikipedia:NumbersUSA|NumbersUSA]]|accessdate = March 28, 2017}}</ref>
 |-
 | 1999 || March || Launch || Academic research center || The Center for Comparative Immigration Studies (CCIS), a center that focuses on global migration, including migration to and from North America, Europe, Africa, and the Asia-Pacific region, launches at the [[wikipedia:University of California, San Diego|University of California, San Diego]] (UCSD) under Dr. Wayne Cornelius.<ref name=ccis-about>{{cite web|url = http://ccis.ucsd.edu/about/index.html|title = About CCIS|accessdate = March 28, 2017}}</ref>
 |-
 | 1999 || || Launch || Restrictionist website || [[wikipedia:VDARE|VDARE]], a website covering United States politics and culture, and with a focus on advocating for reduced immigration to the United States, is launched.<ref>{{cite web|last = Sanneh|first = Kalefa|url = http://www.newyorker.com/news/daily-comment/a-sermon-on-race-from-national-review|title = A Sermon on Race from National Review|publisher = [[wikipedia:The New Yorker|The New Yorker]]|date = July 24, 2013|accessdate = May 20, 2015}}</ref>
 |-
+| 2000 || May 1 || Launch || Newsletter || [[wikipedia:Immigration Daily|Immigration Daily]], a daily newsletter focusing on immigration law and related issues, has its first issue.<ref>{{cite web|url = http://www.ilw.com/immigrationdaily/digest/2000,0501.shtm|title = Immigration Daily|date = May 1, 2000|accessdate = March 28, 2017}}</ref>
+|-
 | 2001 || || Launch || Research think tank || The [[wikipedia:Migration Policy Institute|Migration Policy Institute]] (MPI), a think tank focused on analysis of migration worldwide, is founded in Washington, D.C. by Demetrios G. Papademetriou and Kathleen Newland.<ref>{{cite web|url = http://www.migrationpolicy.org/about/mission|title = Mission|publisher = Migration Policy Institute|accessdate = March 28, 2017}}</ref>
 |-
+| 2004 || August || Launch || Border monitoring || The [[wikipedia:Minuteman Project|Minuteman Project]] launches. It is a group of private individuals in the United States to extrajudicially monitor the United States – Mexico border's flow of illegal aliens.
+|-
+| 2005 || || Launch || Advocacy group and discussion forum || [[wikipedia:Immigration Voice|Immigration Voice]], a group to advocate for immigration policies more friendly to high-skilled immigrants, launches.<ref>{{cite web|url = https://immigrationvoice.org/index.php?option=com_content&task=view&id=5&Itemid=47|title = About Immigration Voice|publisher = Immigration Voice|acccessdate = March 28, 2017}}</ref> The website also hosts a wiki and discussion forum to help people understand immigration law.
+|-
 | 2006 || || Launch || Academic research center || The [[wikipedia:International Migration Institute|International Migration Institute]] is founded at [[wikipedia:Oxford University|Oxford University]].<ref name=imi-history>{{cite web|url=http://www.imi.ox.ac.uk/about-us/history-of-the-international-migration-institute|title = History of IMI|accessdate = May 28, 2014}}</ref>
+|-
+| 2008 || || Launch || Legal defense and assistance || The International Refugee Asistance Project (IRAP) launches as a project by five students at Yale Law School.<ref>{{cite web|url = https://irap.urbanjustice.org/irap-history|title = Our History|accessdate = March 28, 2017}}</ref>
+|-
+| 2011 || June 22 || Launch || Immigrant experience discussion || [[wikipedia:Jose Antonio Vargas|Jose Antonio Vargas]] launches Define American, a nonprofit organization intended to open up dialogue about the criteria people use to determine who is an American.<ref>{{cite web|url = http://www.nytimes.com/2011/06/26/magazine/my-life-as-an-undocumented-immigrant.html|title = My Life as an Undocumented Immigrant|publisher = ''[[wikipedia:New York Times|New York Times]]''|date = June 22, 2011|accessdate = March 28, 2017}}</ref>
+|-
+| 2013 || April 11 || Launch || Pro-immigrant advocacy group || [[wikipedia:FWD.us|FWD.us]], a pro-immigrant advocacy group focused on high-skilled immigration, dealing with the current unauthorized population, border security, and better enforcement, launches. It is headed by [[wikipedia:Joe Green (enrepreneur)|Joe Green]], and Facebook principal founder and CEO [[wikipedia:Mark Zuckerberg|Mark Zuckerberg]] is its public face.<ref name=zuck-op-ed>{{cite web|url=http://www.washingtonpost.com/opinions/mark-zuckerberg-immigrants-are-the-key-to-a-knowledge-economy/2013/04/10/aba05554-a20b-11e2-82bc-511538ae90a4_story.html|title = Facebook’s Mark Zuckerberg: Immigration and the knowledge economy|last = Zuckerberg|first = Mark|date = 2013-04-11|accessdate = 2013-04-17|publisher = ''[[wikipedia:Washington Post|Washington Post]]''}}</ref>
+|-
+| 2015 || July || Launch || Grassroots movement || Cosecha (English website: http://movimientocosecha.com/, Spanish website: lahuelga.com) launches publicly. It is a non-violent movement for the "permanent protection, dignity and respect" of unauthorized aliens in the United States.<ref>{{Cite web|url = http://www.lahuelga.com/sobre/|title = Information|publisher = Cosecha|accessdate = March 28, 2017}}</ref>
 |}
 
 == References == 
