@@ -1,0 +1,7 @@
+I added a bunch of sites to be quantified, and have added the tracking code to them. The websites says it will take 1-2 days before data for the sites starts showing up. I have two questions:
+
+(1) Can I see a list of properties with pending quantification requests anywhere?
+
+(2) I think the total number of sites I've added is more than the limit of 10 that you allow for free accounts. Is there a way for me to cancel some of the low-traffic sites from the pending request list?
+
+Thank you
