@@ -1,0 +1,451 @@
+{{Attribute English Wikipedia}}
+
+This page is a '''timeline of [[wikipedia:online advertising|online advertising]]'''. Major launches, milestones and other major events are included.{{E-commerce}}
+
+== Overview ==
+{| class="wikitable"
+!Decade
+!Description
+|-
+|Late 1970s–
+1980s
+|Much of online advertising during this time period is done through [[wikipedia:Email|Email]], in the form of [[wikipedia:spamming|spamming]].<ref name=":1">{{Cite web|url=http://www.templetons.com/brad/spam/spam25.html|title=Reflections on the 25th Anniversary of Spam|website=www.templetons.com|access-date=2017-01-07}}</ref> Such activities have continued to this day, but became much more common after the ban against the commercial use of the internet was lifted in 1991.<ref name=":2">{{Cite web|url=http://www.livinginternet.com/i/ii_nsfnet.htm|title=NSFNET - The Internet Launching Pad|website=www.livinginternet.com|access-date=2017-01-07}}</ref>
+|-
+|1990s–
+2000s
+|With people now having their own websites, [[wikipedia:banner ads|banner ads]] are used as a source of income to pay for these websites and as side money. Companies like [[wikipedia:Prodigy (online service)|Prodigy]], [[wikipedia:Global Network Navigator|Global Network Navigator]] (GNN), and [[wikipedia:HotWired|HotWired]] are pioneers in the business of online advertising.<ref name=":0">{{Cite web|url=http://www.vantagelocal.com/history-of-online-display-advertising-2/|title=History of Online Display Advertising {{!}} Vantage Local|website=www.vantagelocal.com|access-date=2017-01-07}}</ref>
+|-
+|2000s–
+2010s
+|As more companies capable of providing advertising services emerge, several major successful companies such as [[wikipedia:Google|Google]], [[wikipedia:Facebook|Facebook]], [[wikipedia:Yahoo!|Yahoo!]], [[wikipedia:Microsoft|Microsoft]], and [[wikipedia:AOL|AOL]] begin to dominate the market.<ref name=":0" />
+|}
+
+== Timeline ==
+{| class="wikitable sortable"
+!Year
+!Month and date
+!Event Type
+!Advertisement Type
+!Description
+|-
+|1978
+|May 3
+|Milestone
+|[[wikipedia:Email marketing|Email marketing]]
+|The first instance of email spam is sent, the purpose of which is advertising.<ref name=":1" />
+|-
+|1980
+|
+|Launch
+|N/A
+|[[wikipedia:Usenet|Usenet]], a popular discussion forum, launches, and is occasionally overwhelmed with advertising spam posts.<ref name=":3">{{Cite news|url=https://www.adpushup.com/blog/the-history-of-online-advertising/|title=The History of Online Advertising|date=2013-07-03|newspaper=AdPushup Blog|language=en-US|access-date=2017-01-07}}</ref>
+|-
+|1984
+|
+|Launch
+|[[wikipedia:Banner advertising|Banner advertising]]
+|Prodigy launches, offering one of the first online advertising services; although these ads are always in the same spot on the screen, and are non-clickable.<ref name=":3" />
+|-
+|1991
+|March
+|Milestone
+|N/A
+|The ban on commercial use on the [[wikipedia:NSFNET|NSFNET]] is lifted by the [[wikipedia:National Science Foundation|National Science Foundation]] (NSF).<ref name=":2" /><ref>{{Cite web|url=https://www.nsf.gov/od/lpa/nsf50/nsfoutreach/htm/n50_z2/pages_z3/28_pg.htm#answer2|title=Nifty 50: THE INTERNET|website=www.nsf.gov|access-date=2017-01-07}}</ref>
+|-
+|1993
+|
+|Launch
+|Banner advertising
+|GNN, one of the first web publication and web advertising services, is launched by [[wikipedia:O'Reilly Media|O'Reilly Media]].<ref name="computerhistory.org">{{Cite web|url=http://www.computerhistory.org/revolution/the-web/20/392|title=Electronic Commerce - CHM Revolution|website=www.computerhistory.org|access-date=2017-01-07}}</ref>
+|-
+|1994
+|
+|Milestone
+|Banner advertising
+|The first ever clickable advertisement is sold to a [[wikipedia:Silicon Valley|Silicon Valley]] law firm by GNN.<ref name=":4">{{Cite news|url=http://www.marketingtechnews.net/news/2013/sep/11/online-advertising-history-1993-present-day-infographic/|title=Online advertising: A history from 1993 to the present day [infographic]|newspaper=Marketing Tech News|access-date=2017-01-07}}</ref>
+|-
+|1994
+|
+|Launch
+|N/A
+|HotWired, the first commercial web magazine, launches.<ref name="computerhistory.org"/><ref name=":3" />
+|-
+|1994
+|October 27
+|Milestone
+|Banner advertising
+|The first ever banner is sold to [[wikipedia:AT&T|AT&T]], and is visible on the first issue of HotWired.<ref>{{Cite web|url=http://mashable.com/2013/08/09/first-banner-ad/|title=This Is the World's First Banner Ad|last=Wasserman|first=Todd|website=Mashable|access-date=2017-01-07}}</ref><ref name=":4" /><ref name=":0" />
+|-
+|1995
+|May
+|Acquisition
+|Banner advertising
+|GNN is acquired by AOL for $11 million.<ref>{{Cite web|url=https://tidbits.com/article/1459|title=AOL Buys Everyone|website=tidbits.com|access-date=2017-01-07}}</ref><ref name=":3" />
+|-
+|1995
+|August
+|Launch
+|Ad serving
+|NetGravity is founded by Paul Nakada, Tom Shields, and John Danner, and builds its ad serving product with [[wikipedia:Yahoo!|Yahoo!]] as the first customer. The product, Netvertiser, launches on Yahoo! on October 23, 1995.<ref name=basswood>{{cite web|url = http://www.basswood.com/ts/briefhist.html|title = A Brief History of NetGravity|accessdate = April 3, 2017}}</ref>
+|-
+|1996
+|
+|Launch
+|Association
+|The [[wikipedia:Interactive Advertising Bureau|Interactive Advertising Bureau]] (IAB) launches.<ref>{{cite web|url = https://www.iab.com/our-story/|title = About: Our Story|publisher = Interactive Advertising Bureau|accessdate = April 3, 2017}}</ref>
+|-
+|1996
+|
+|Launch
+|[[wikipedia:Ad serving|Ad serving]]
+|[[wikipedia:DoubleClick|DoubleClick]], a prominent online advertising company, launches.<ref name=":3" /><ref>{{Cite web|url=http://www.bloomberg.com/research/stocks/private/snapshot.asp?privcapid=27707|title=DoubleClick Inc.: Private Company Information - Bloomberg|website=www.bloomberg.com|access-date=2017-02-09}}</ref> DoubleClick uses the new technology of browser cookies to track users as they travel between websites.<ref name=adbrain-retargeting>{{cite web|url = http://www.adbrain.com/blog/a-brief-history-of-retargeting/|title = A Brief History of Retargeting Cross-Device|date = July 28, 2015|accessdate = April 3, 2017|publisher = AdBrain|last = Hallward|first = Derek}}</ref>
+|-
+|1996
+|June
+|Launch
+|Demand-side platform
+|Connexity, a company providing advertising solutions for e-commerce companies, is founded.<ref>{{cite web|url = http://connexity.com/about/|title = About Connexity|publisher = Connexity|accessdate = April 3, 2017}}</ref>
+|-
+|1996
+|July
+|Launch, Milestone
+|[[wikipedia:Search advertising|Search advertising]]
+|Yahoo! launches the very first search ads in their search engine.<ref>{{Cite web|url=http://www.adweek.com/news/technology/heres-timeline-showing-20-years-after-banner-ad-161000|title=20 Years of Digital Advertising: From Banner Ads to Sponsored Snapchats|last=Heine|first=Christopher|date=27 October 2014|website=Adweek|publisher=Adweek|access-date=6 January 2017}}</ref>
+|-
+|1997
+|
+|Invention
+|[[wikipedia:Pop-up ad|Pop-up ad]]s
+|Pop-up ads are invented by [[wikipedia:Ethan Zuckerman|Ethan Zuckerman]] at [[wikipedia:Tripod.com|Tripod.com]], and considered to be a more aggressive and disliked advertising strategy.<ref name=":5" /><ref name=theatlantic-hating-on-ads>{{cite web|url = https://www.theatlantic.com/technology/archive/2014/08/advertising-is-the-internets-original-sin/376041/|title = The Internet's Original Sin. It's not too late to ditch the ad-based business model and build a better web.|last = Zuckerman|first = Ethan|date = August 14, 2014|publisher = ''[[wikipedia:The Atlantic|The Atlantic]]''}}</ref>
+|-
+|1998
+|September 4
+|Launch
+|N/A
+|Google, an online search engine, launches.<ref>{{Cite web|url=https://www.google.com/intl/en/about/company/|title=Company – Google|website=www.google.com|access-date=2017-01-07}}</ref><ref>{{Cite web|url=http://web.archive.org/web/20110628231125/http://www.informationweek.com/news/internet/google/210603678|title=Google Founded By Sergey Brin, Larry Page... And Hubert Chang?!? -- InformationWeek|date=2011-06-28|access-date=2017-02-09}}</ref> Google would later come to be the dominant player in search (and hence, search advertising) as well as display advertising.
+|-
+|1998
+|October 5
+|New feature
+|Retargeting, behavioral targeting
+|DoubleClick launches two new products: DataBank, that allows for targeting users based on their known correlations between their activity (the types of sites they visit) and purchase patterns, and Boomerang, a retargeting solution.<ref>{{Cite web|url = http://www.prnewswire.com/news-releases/doubleclick-launches-closed-loop-marketing-solutions-76833867.html|title = DoubleClick Launches Closed-Loop Marketing Solutions. Suite of New Products Answers the Question of ROI and Standardizes Ad Management for Online Advertising|date = October 5, 1998|accessdate = April 3, 2017|publisher = DoubleClick, Inc.}}</ref> Boomerang is the first retargeting solution.<ref name=adbrain-retargeting/>
+|-
+|1998
+|November 5
+|Acquisition
+|Web-ring advertising
+|[[wikipedia:Microsoft|Microsoft]] announces that it has acquired [[wikipedia:LinkExchange|LinkExchange]], a company that worked on monetization of web-rings.<ref>{{cite web|url = https://www.wsj.com/articles/SB910216110299783500|title = Microsoft Buys LinkExchange For About $250 Million in Stock|last = Wingfield|first = Nick|date = November 5, 1998|accessdate = April 3, 2017|publisher = ''[[wikipedia:Wall Street Journal|Wall Street Journal]]}}</ref><ref name=ad-tech-acquisition-history>{{cite web|url = http://www.adopsinsider.com/ad-ops-strategy/a-history-of-ad-tech-acquisitions/|title = A History of Ad Tech Acquisitions|date = July 19, 2015|accessdate = April 3, 2017|publisher = Ad Ops Insider}}</ref><ref>{{cite web|url = https://news.microsoft.com/1998/11/05/microsoft-acquires-linkexchange-to-greatly-expand-small-business-services-from-msn/|title = Microsoft Acquires LinkExchange to Greatly Expand Small-Business Services From MSN|date = November 5, 1998|accessdate = April 3, 2017|publisher = [[wikipedia:Microsoft|Microsoft]]}}</ref>
+|-
+|1998
+|
+|Invention, Launch, Milestone
+|[[wikipedia:Ad exchange|Ad exchange]]
+|OpenX, one of the first ad exchanges, launches as an open source project.<ref>{{Cite news|url=http://openx.com/company-facts/|title=Company Facts - OpenX|newspaper=OpenX|language=en-US|access-date=2017-01-13}}</ref>
+|-
+|1998
+|
+|Launch
+|Search advertising
+|GoTo (now [[wikipedia:Yahoo! Search Marketing|Yahoo! Search Marketing]]), a search engine which offers search advertising, launches.<ref name=":5">{{Cite web|url=https://blog.hubspot.com/marketing/history-of-online-advertising|title=A Brief History of Online Advertising|last=Cook|first=Karla|date=12 September 2016|website=HubSpot|publisher=|access-date=6 January 2016}}</ref>
+|-
+|1999
+|
+|Defunction
+|N/A
+|HotWired is shutdown after its domain is re-purposed by [[wikipedia:Lycos|Lycos]].<ref>{{Cite news|url=http://www.ibtimes.com/20-years-web-publishing-former-hotwired-pathfinder-execs-look-back-1994-1770232|title=20 Years Of Web Publishing: Former HotWired And Pathfinder Execs Look Back On 1994|date=2014-12-31|newspaper=International Business Times|access-date=2017-01-07}}</ref>
+|-
+|1999
+|July 13
+|Acquisition
+|Ad serving
+|DoubleClick acquires NetGravity for $530 million in stock.<ref name=basswood/><ref name=doubleclick-acquires-netgravity-wsj>{{cite web|url = https://www.wsj.com/articles/SB931823854604934844|title = DoubleClick to Acquire NetGravity In Push to Own Online-Ad Market|last = Petersen|first = Andrea|date = July 13, 1999|accessdate = April 3, 2017|publisher = ''[[wikipedia:Wall Street Journal|Wall Street Journal]]''}}</ref><ref name=doubleclick-acquires-netgravity-cnn>{{cite web|url = http://money.cnn.com/1999/07/13/deals/doubleclick/|title = DoubleClick, NetGravity tie|publisher = ''[[wikipedia:CNN|CNN]]''|date = July 13, 1999|accessdate = April 3, 2017}}</ref><ref name=ad-tech-acquisition-history/>
+|-
+|2000
+|October 23
+|Launch
+|Search advertising
+|Google launches the prominent [[wikipedia:AdWords|AdWords]] service, which allows for advertising based on a user's browsing habits and their search keywords.<ref>{{Cite news|url=http://searchengineland.com/google-adwords-turns-15-a-look-back-at-the-origins-of-a-60-billion-business-234579|title=Google AdWords Turns 15: A Look Back At The Origins Of A $60 Billion Business|date=2015-10-28|newspaper=Search Engine Land|language=en-US|access-date=2017-01-07}}</ref><ref name=":4" />
+|-
+|2002
+|
+|Invention, Milestone
+|Pop-up ads
+|With the annoyance brought about by pop-up ads, many prominent web browsers such as [[wikipedia:Firefox|Firefox]], [[wikipedia:Netscape (web browser)|Netscape]], and [[wikipedia:Opera (web browser)|Opera]] begin to roll out features to block these ads.<ref>{{Cite news|url=https://www.geek.com/news/pop-up-ads-now-even-worse-548091/|title=Pop-up ads: now even worse - Geek.com|date=2002-12-24|newspaper=Geek.com|language=en-US|access-date=2017-01-07}}</ref>
+|-
+|2003
+|October 7
+|Acquisition
+|Search advertising
+|Overture (formerly GoTo) is acquired by Yahoo! to enrich their search engine.<ref>{{Cite web|url=https://web.archive.org/web/20080331051159/http://yhoo.client.shareholder.com/press/ReleaseDetail.cfm?ReleaseID=119477|title=Yahoo! Inc. - Press Release|date=2008-03-31|access-date=2017-01-07}}</ref>
+|-
+|2004
+|February
+|Launch
+|Social media advertising
+|Facebook, the most popular [[wikipedia:Social Media Network|social media network]], launches.<ref>{{Cite news|url=https://www.theguardian.com/technology/2007/jul/25/media.newmedia|title=A brief history of Facebook|last=Phillips|first=Sarah|date=2007-07-25|newspaper=The Guardian|language=en-GB|issn=0261-3077|access-date=2017-01-07}}</ref> 
+|-
+|2005
+|February 14
+|Launch
+|Banner advertising
+|[[wikipedia:YouTube|YouTube]], a popular video sharing website, launches.<ref>{{Cite news|url=http://newmediarockstars.com/2013/02/youtube-grows-up-a-visual-history-of-how-the-video-sharing-site-has-changed-over-the-past-8-years/|title=YouTube Grows Up: A Visual History of How the Video-Sharing Site Has Changed Over The Past 8 Years - New Media Rockstars|date=2013-02-14|newspaper=New Media Rockstars|language=en-US|access-date=2017-01-07}}</ref>
+|-
+|2005
+|
+|Launch
+|[[wikipedia:Demand-side platform|Demand-side platform]]
+|[[wikipedia:Criteo|Criteo]], one of the first demand-side platforms, launches.<ref>{{Cite web|url=http://www.criteo.com/about-us/|title=Performance Marketing That Drives More Sales {{!}} Criteo|website=www.criteo.com|access-date=2017-01-12}}</ref>
+|-
+|2006
+|April 10
+|Launch
+|Mobile advertising
+|Mobile advertising platform [[wikipedia:AdMob|AdMob]] launches.<ref name="tmcnet.com">{{cite web|url=http://www.tmcnet.com/usubmit/2009/11/04/4462302.htm|title=AdMob: STA Travel's iPhone advertising campaign takes flight|accessdate=November 9, 2009}}</ref><ref>{{cite web|url=https://opencorporates.com/companies/us_de/4140533|title=ADMOB GOOGLE INC. :: OpenCorporates|work=[[OpenCorporates]]|date=2015-10-10|accessdate=2016-03-08}}</ref>
+|-
+|2006
+|August
+|Launch
+|[[wikipedia:Native advertising|Native advertising]]
+|YouTube launches its video advertising platform, which has a giant reach today.<ref>{{Cite web|url=http://www.mediapost.com/publications/article/47113/youtube-launches-video-ad-platform.html?edition=|title=YouTube Launches Video Ad Platform|website=www.mediapost.com|access-date=2017-01-07}}</ref>
+|-
+|2006
+|October
+|Acquisition
+|N/A
+|YouTube is acquired by Google for $1.65 billion.<ref>{{Cite news|url=https://www.nytimes.com/2006/10/09/business/09cnd-deal.html|title=Google to Acquire YouTube for $1.65 Billion|last=Sorkin|first=Andrew Ross|date=2006-10-09|last2=Peters|first2=Jeremy W.|newspaper=The New York Times|issn=0362-4331|access-date=2017-01-07}}</ref>
+|-
+|2006
+|
+|Invention, Launch, Milestone
+|[[wikipedia:Ad blocking|Ad blocking]]
+|[[wikipedia:Adblock Plus|Adblock]], a very prominent ad-blocking add-on for [[wikipedia:web browser|web browser]]s, is released.<ref>{{Cite web|url=https://adblockplus.org/en/about|title=About Adblock Plus|website=adblockplus.org|access-date=2017-01-12}}</ref>
+|-
+|2006
+|
+|Launch
+|[[wikipedia:Behavioral targeting|Content discovery platform]]
+|[[wikipedia:Outbrain|Outbrain]], a notable advertising company that powers external recirculation widgets, launches.<ref>{{Cite news|url=http://startupcamel.com/ep-43-ori-lahav-outbrain/|title=EP 43: Ori Lahav / OutBrain - Startup Camel Podcast|date=2014-10-05|newspaper=Startup Camel Podcast|language=en-US|access-date=2017-01-12}}</ref>
+|-
+|2007
+|
+|Launch
+|Content discovery platform
+|[[wikipedia:Taboola|Taboola]], a notable advertising company that powers external recirculation widgets, launches.<ref>{{Cite web|url=https://www.crunchbase.com/organization/taboola|title=Taboola {{!}} crunchbase|website=www.crunchbase.com|access-date=2017-02-09}}</ref><ref>{{Cite web|url=https://www.taboola.com/our-story|title=Our Story {{!}} World's Largest Discovery Platform {{!}} Taboola|website=www.taboola.com|access-date=2017-02-09}}</ref>
+|-
+|2007
+|
+|Launch
+|[[wikipedia:Behavioral targeting|Behavioral targeting]], [[wikipedia:Social Media Advertising|Social media advertising]] 
+|Facebook launches [[wikipedia:Facebook Beacon|Beacon]], an intricate advertising platform that tracks Facebook user's activities on websites outside of Facebook.<ref>{{Cite web|url=http://www.pcworld.com/article/140182/article.html|title=Facebook's Beacon More Intrusive Than Previously Thought|website=PCWorld|access-date=2017-01-07}}</ref>
+|-
+|2007
+|April
+|Launch
+|Demand-side platform
+|[[wikipedia:Invite Media|Invite Media]] launches. It is the creator of Bid Manager, a demand-side platform (DSP). It would eventually be acquired by Google and the Bid Manager would be rebranded as DoubleClick Bid Manager (DBM).
+|-
+|2007
+|April 14
+|Acquisition
+|Ad serving
+|Google acquires [[wikipedia:DoubleClick|DoubleClick]], an advertising platform, for $3.1 billion.<ref>{{Cite news|url=https://www.nytimes.com/2007/04/14/technology/14DoubleClick.html|title=Google Buys DoubleClick for $3.1 Billion|last=Story|first=Louise|date=2007-04-14|last2=Helft|first2=Miguel|newspaper=The New York Times|issn=0362-4331|access-date=2017-01-13}}</ref>
+|-
+|2007
+|May 1
+|Launch
+|Ad serving
+|The [[wikipedia:Rubicon Project|Rubicon Project]] is founded as an advertising network, by Frank Addante, Craig Roah, Duc Chau and Julie Matter.
+|-
+|2007
+|May 18
+|Acquisition
+|Ad serving
+|Microsoft acquires [[wikipedia:AQuantive|AQuantive]], an advertising platform, for $6.5 billion.<ref>{{Cite web|url=http://news.microsoft.com/2007/05/18/microsoft-to-acquire-aquantive-inc/|title=Microsoft to Acquire aQuantive, Inc. {{!}} News Center|website=news.microsoft.com|access-date=2017-01-07}}</ref><ref name=":6">{{Cite news|url=http://adage.com/article/digitalnext/facebook-s-atlas-means-brands-agencies/295293/|title=What Facebook's Atlas Means for Brands and Agencies|access-date=2017-01-07}}</ref>
+|-
+|2007
+|July 23
+|Launch
+|Video advertising
+|[[wikipedia:TubeMogul|TubeMogul]] launches, initially as a cross-platform video analytics tool.<ref>{{cite web|url = http://mashable.com/2007/07/23/tubemogul/#lop9W.P44Eqz|title = TubeMogul Launches Cross-Network Video Tracking Tool|last = Nicole|first = Kristen|date = July 23, 2007|accessdate = April 3, 2017|publisher = ''[[wikipedia:Mashable|Mashable]]}}</ref> It would eventually become an online video advertising network and solution.
+|-
+|2007
+|
+|Launch
+|Ad serving/demand-side platform
+|[[wikipedia:AppNexus|AppNexus]], a company offering online advertising auction technology and advertising campaign management, launches.
+|-
+|2007
+|
+|Launch
+|Demand-side platform
+|[[wikipedia:MediaMath|MediaMath]], a notable demand-side platform, launches.<ref>{{Cite web|url=http://www.mediamath.com/about/|title=About MediaMath – MediaMath|website=www.mediamath.com|access-date=2017-02-09}}</ref>
+|-
+|2008
+|March
+|Launch
+|Demand-side platform
+|[[wikipedia:Rocket Fuel Inc.|Rocket Fuel Inc.]], a notable demand-side platform, launches.<ref>{{Cite news|url=https://rocketfuel.com/about-us/|title=Programmatic Marketing Company {{!}} Rocket Fuel|newspaper=Rocket Fuel|language=en-US|access-date=2017-01-12}}</ref>
+|-
+|2008
+|
+|Launch
+|Publication
+|AdExchanger, a company with an eponymous website, that tracks the ad serving and ad exchange space, launches.<ref>{{cite web|url = https://adexchanger.com/about/|title = About AdExchanger. An Award-Winning Media and Events Company|accessdate = April 3, 2017|publisher = AdExchanger}}</ref>
+|-
+|2008
+|
+|Launch
+|Ad blocking
+|[[wikipedia:Rick Petnel|Rick Petnel]] creates [[wikipedia:Easylist|Easylist]], one of the most popular filter lists available for ad-blocking web browser add-ons.<ref>{{Cite news|url=http://www.washingtonpost.com/wp-dyn/content/article/2008/06/24/AR2008062401287.html|title=One Man, One Long List, No More Web Ads|last=Whoriskey|first=Peter|date=2008-06-25|newspaper=The Washington Post|access-date=2017-02-08|language=en-US|issn=0190-8286}}</ref> The filter list Easylist Privacy is also available, and focuses on the blocking of web elements that may invade a user's privacy. 
+|-
+|2008
+|
+|Launch
+|Data management platform
+|[[wikipedia:BlueKai|BlueKai]], a cloud-based data management platform, launches as a marketing tech startup.<ref name=bluekai-oracle-sale>{{cite web|last1=Bort|first1=Julie|title=CONFIRMED: Oracle Buys Marketing Tech Startup BlueKai|url=http://www.businessinsider.com/rumor-oracle-buying-bluekai-2014-2|website=BusinessInsider.com|publisher=Business Insider News|accessdate=22 February 2015}}</ref>
+|-
+|2009
+|
+|Launch
+|Demand-side platform
+|[[wikipedia:DataXu|DataXu]], a software copmany that runs a real-time bidding platform and would co-found the OpenRTB Consortium, launches.<ref name="dataxu-crunchbase">{{cite web |url=http://www.crunchbase.com/company/dataxu |title=DataXu |date=April 2014 |publisher=[[CrunchBase]]}}</ref>
+|-
+|2009
+|September 18
+|Launch
+|Ad exchange
+|Google launches its own ad exchange platform with DoubleClick.<ref>{{Cite news|url=https://www.bloomberg.com/news/articles/2009-09-18/google-launches-doubleclick-ad-exchange|title=Google Launches DoubleClick Ad Exchange|date=2009-09-18|newspaper=Bloomberg.com|access-date=2017-01-13}}</ref>
+|-
+|2009
+|November 9
+|Acquisition
+|Mobile advertising
+|Google announces that it is in the process of acquiring mobile advertising platform AdMob for $750 million.<ref>{{cite web|url = https://techcrunch.com/2009/11/09/google-acquires-admob/|title = Google Acquires AdMob For $750 Million|date = November 9, 2009|accessdate = April 3, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref><ref>{{cite web|url = http://www.nytimes.com/2009/11/10/technology/companies/10google.html|title = Google Set to Acquire AdMob for $750 Million|last = Helft|first = Miguel|date = November 9, 2009|accessdate = April 3, 2017|publisher = ''[[wikipedia:New York Times|New York Times]]''}}</ref> The completion of the acquisition is announced on the Google blog on May 27, 2010.<ref>{{cite web|url = https://googleblog.blogspot.com/2010/05/weve-officially-acquired-admob.html|title = We’ve officially acquired AdMob!|date = May 27, 2010|accessdate = April 3, 2017|publisher = Google Official Blog}}</ref>
+|-
+|2010
+|
+|Launch
+|Publication
+|Digiday, a company and eponymous daily publication focused on digital marketing and digital media, launches. It would be one of the important publications covering news in the world of digital advertising.<ref>{{Cite web|url = http://digiday.com/about/|title = About|publisher = Digiday|accessdate = April 3, 2017}}</ref>
+|-
+|2010
+|February 22
+|Launch
+|Ad serving
+|Google launches [[wikipedia:DoubleClick for Publishers|DoubleClick for Publishers]] (DFP), an advertising software as a service, as well as the sister product, DFP Small Business.<ref>{{Cite web|url=https://googleblog.blogspot.com/2010/02/next-generation-of-ad-serving-for.html|title=The next generation of ad serving for online publishers|website=Official Google Blog|access-date=2017-01-13}}</ref><ref>{{cite web|url = https://adexchanger.com/ad-exchange-news/google-announces-doubleclick-for-publishers-as-yield-optimization-war-continues-to-heat-up/|title = Google Announces DoubleClick For Publishers As Yield Optimization War Continues To Heat Up|publisher = AdExchanger|date = February 23, 2010|accessdate = April 3, 2017}}</ref> DFP is a rebranding of the service previously called DoubleClick's DART ad server, and DFP Small Business is a rebranding of Google Ad Manager.<ref>{{cite web|url = https://techcrunch.com/2010/02/22/doubleclick-new-interface-branding-api-dfp-small-business/|title = DART Is Now DoubleClick For Publishers, Google Ad Manager Gets Rebranded DFP Small Business|last = Schonfeld|first = Erick|date = February 22, 2010|accessdate = April 3, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref>
+|-
+|2010
+|April 12
+|Launch
+|Social media advertising
+|[[wikipedia:Twitter|Twitter]] launches [[wikipedia:Promoted Tweets|Promoted Tweets]], which allows advertisers to pay for tweets to be shown in a user's feed.<ref>{{Cite news|url=http://www.telegraph.co.uk/technology/twitter/7586446/Twitter-launches-promoted-tweets-in-a-bid-to-make-money.html|title=Twitter launches 'promoted tweets'  in a bid to make money|newspaper=Telegraph.co.uk|access-date=2017-01-07}}</ref>
+|-
+|2010
+|May
+|Launch
+|Data management platform
+|Krux, a data management platform (DMP), gets seed funding.<ref>{{cite web|url = http://www.krux.com/company/about-krux/|title = About Krux|publisher = Krux|accessdate = April 3, 2017}}</ref>
+|-
+|2010
+|October
+|Launch
+|End user control standard
+|The Digital Advertising Alliance (DAA) launches the [[wikipedia:AdChoices|AdChoices]] program.<ref name=all-about-adchoices>{{cite web|url=http://www.aboutads.info/blog/daa-celebrates-its-first-anniversary|title = DAA Celebrates its First Anniversary|date = Oct 25, 2011|accessdate = June 6, 2016}}</ref>
+|-
+|2012
+|January
+|Launch
+|Real-time bidding standard
+|OpenRTB 2.0, a specification for [[wikipedia:real-time bidding|real-time bidding]] (RTB), is released.<ref>{{cite web|url = https://www.iab.com/guidelines/real-time-bidding-rtb-project/|title = Real-Time Bidding (RTB) Project: OpenRTB 2.5|publisher = [[wikipedia:Interactive Advertising Bureau|Interactive Advertising Bureau]]|accessdate = April 3, 2017}}</ref>
+|-
+|2013
+|April 26
+|Acquisition
+|Ad serving
+|Facebook acquires [[wikipedia:Atlas Solutions|Atlas Solutions]] from Microsoft for $100 million, in order to enrich its already bustling advertising platform.<ref>{{Cite web|url=https://gigaom.com/2013/02/28/facebook-purchases-microsofts-atlas-solutions-for-reported-100-million/|title=Facebook purchases Microsoft’s Atlas Solutions for reported $100 million|last=Kern|first=Eliza|date=2013-02-28|website=gigaom.com|access-date=2017-01-07}}</ref><ref>{{Cite web|url=https://atlassolutions.com/about-atlas/|title=About Atlas {{!}} Atlas Solutions|website=atlassolutions.com|access-date=2017-01-07}}</ref><ref name=":6" /><ref>{{Cite news|url=http://newsroom.fb.com/news/2013/02/facebook-to-acquire-atlas-from-microsoft/|title=Facebook to Acquire Atlas from Microsoft {{!}} Facebook Newsroom|access-date=2017-02-09|language=en}}</ref>
+|-
+|2013
+|October
+|Launch
+|Social media advertising
+|[[wikipedia:Instagram|Instagram]], a popular image sharing platform, releases its feature of having sponsored posts appear on user's feeds.<ref>{{Cite web|url=http://social.techcrunch.com/2013/10/24/first-look-at-instagram-ads/|title=This Is What Instagram Ads Look Like|last=Constine|first=Josh|last2=Crook|first2=Jordan|website=TechCrunch|access-date=2017-01-07}}</ref>
+|-
+|2014
+|January 16
+|Open release
+|Real-time bidding standard
+|The first commit on the [[wikipedia:GitHub|GitHub]] repository for the OpenRTB standard is recorded.<ref>{{cite web|url = https://github.com/openrtb/OpenRTB/commit/586b88485d931e0da54d935f12d27a9163da07cb|date = January 16, 2014|accessdate = April 3, 2017|publisher = OpenRTB via GitHub}}</ref>
+|-
+|2014
+|February 24
+|Acquisition
+|Data management platform
+|[[wikipedia:Oracle|Oracle]] acquires data management platform (DMP) company Bluekai.<ref name=bluekai-oracle-sale/>
+|-
+|2014
+|March 24
+|Launch
+|Social media advertising
+|[[wikipedia:Pinterest|Pinterest]], a creative image sharing platform, launches it [[wikipedia:Promoted Pins|Promoted Pins]] service which allows for additional advertising in a user's feed.<ref>{{Cite web|url=http://venturebeat.com/2014/03/24/pinterest-gets-serious-about-ad-revenue-with-new-promoted-pins/|title=Pinterest gets serious about ad revenue with new ‘promoted pins’|website=VentureBeat|access-date=2017-01-12}}</ref>
+|-
+|2014
+|June 23
+|Launch
+|Ad blocking
+|[[wikipedia:UBlock Origin|UBlock Origin]], a very prominent ad-blocking extension for web browsers, launches.<ref>{{Cite web|url=https://github.com/gorhill/uBlock/wiki/Change-log#0100|title=gorhill/uBlock|website=GitHub|language=en|access-date=2017-02-08}}</ref>
+|-
+|2014
+|November 14
+|Launch*
+|Ad serving
+|Facebook re-launches Atlas.<ref>{{Cite news|url=http://www.wsj.com/articles/facebook-discontinues-atlas-ad-serving-tool-1479496840|title=Shrugging off ‘Atlas,’ Facebook Continues Pivot from Ad Tech|last=Marshall|first=Jack|date=2016-11-18|newspaper=Wall Street Journal|issn=0099-9660|access-date=2017-01-07}}</ref>
+|-
+|2015
+|July 19
+|New feature
+|Header bidding
+|The first commit for Prebid.js on GitHub is made by Paul Young.<ref>{{cite web|url = https://github.com/prebid/Prebid.js/commit/49fa6daeeb7f37e58463d4da44f60bb37091cdd2|title = first commit: Prebid.js|date = July 19, 2015|accessdate = April 3, 2017|publisher = Prebid.js team on GitHub}}</ref> Prebid.js is a project at AppNexus to facilitate header bidding integrations.<ref>{{cite web|url = https://blog.appnexus.com/2016/prebid-js-a-year-in-the-life-of-an-open-sourced-ad-tech-project/|title = Prebid.js: a year in the life of an open-sourced ad tech project|last = Yang|first = Paul|date = August 1, 2016|accessdate = April 3, 2017|publisher = [[wikipedia:AppNexus|AppNexus]]}}</ref><ref>{{cite web|url = https://adexchanger.com/ad-exchange-news/news-corp-exits-rubicon-project-investment/|title = News Corp. Exits Rubicon Project Investment|publisher = AdExchanger|date = February 13, 2017|accessdate = April 3, 2017}}</ref>
+|-
+|2015
+|November 2
+|New feature
+|Ad serving
+|Google DFP launches First Look, to allow buyers to access high-value users early on, and allow publishers to bring in high-value inventory at a higher priority than reserved impressions. Commentators view this as Google's answer to header bidding.<ref>{{cite web|url = https://adexchanger.com/ad-exchange-news/google-is-beta-testing-its-answer-to-header-bidding-called-dfp-first-look/|title = Google Is Beta Testing Its Answer To Header Bidding, Called 'DFP First Look'|date = November 2, 2015|accessdate = April 3, 2017|publisher AdExchanger}}</ref>
+|-
+|2016
+|April 13
+|New feature
+|Ad serving
+|Google announces that First Look is available to all DFP clients globally, and that it is testing exchange bidding in dynamic allocation (EBDA) with select partners, including Index Exchange and Rubicon Project.<ref>{{cite web|url = https://doubleclick-publishers.googleblog.com/2016/04/improving-yield-speed-and-control-with-dfp-first-look-and-exchange-bidding.html|title =  Improving yield, speed and control with DoubleClick for Publishers First Look and exchange bidding|date = April 13, 2016|accessdate = April 3, 2017|publisher = Google Official Blog}}</ref> The move is seen as an effort to reduce the value of or need for header bidding.<ref>{{Cite web|url = http://www.businessinsider.com/header-bidding-was-the-latest-trend-in-ad-tech-designed-to-take-on-google-now-google-has-effectively-stamped-it-out-2016-4|title = Header bidding was the latest trend in ad tech designed to take on Google — now Google has effectively stamped it out|last = O'Reilly|first = Lara|date = April 13, 2016|accessdate = April 3, 2017|publisher = ''[[wikipedia:Business Insider|Business Insider]]''}}</ref><ref>{{cite web|url = https://adexchanger.com/platforms/the-end-of-header-bidding-google-opens-up-dynamic-allocation-to-outside-demand/|title = The End Of Header Bidding? Google Opens Up Dynamic Allocation To Outside Demand|last = Sluis|first = Sarah|date = April 13, 2016|accessdate = April 3, 2017|publisher = AdExchanger}}</ref>
+|-
+|2016
+|June 14
+|Launch
+|Social media advertising
+|[[wikipedia:Snapchat|Snapchat]], a popular [[wikipedia:messaging app|messaging app]], begins to include advertisements between user's "stories".<ref>{{Cite web|url=http://www.theverge.com/2016/6/14/11930386/snapchat-ads-api-stories|title=Snapchat will start showing ads between your friends' stories|last=Vincent|first=James|date=2016-06-14|website=The Verge|access-date=2017-01-07}}</ref>
+|-
+|2016
+|August
+|Major event
+|Ad blocking
+|Facebook states that they will start blocking the use of ad blocking extensions, specifically [[wikipedia:Adblock Plus|Adblock Plus]] and Adblock. In response to this, these ad-blockers began to block Facebook's blocking in a back-and-forth "war."<ref>{{Cite web|url=http://fortune.com/2016/08/12/facebook-ad-blocking-war/|title=Here's Why Facebook Is Always Going to Win the Ad-Blocking War|website=Fortune|access-date=2017-02-08}}</ref>
+|-
+|2017
+|March 31
+|New feature
+|Ad serving
+|Google announces that it is removing the "last-look" advantage for Ad Exchange in exchanging bidding in dynamic allocation (EBDA). Previously, all exchanges other than the Ad Exchange would have to submit bids first, and Ad Exchange would submit the final bid. Now, Ad Exchange would submit its bid along with all the other exchanges.<ref>{{cite web|url = https://adexchanger.com/platforms/google-removes-last-look-auction-advantage/|title = Google Removes Its 'Last-Look' Auction Advantage|last = Sluis|first = Sarah|date = March 31, 2017|accessdate = April 3, 2017|publisher = AdExchanger}}</ref><ref>{{cite web|url = https://martechtoday.com/countering-header-bidding-google-drops-last-look-advantage-196889|title = Countering header bidding, Google drops its ‘last look’ advantage. The ad giant opens a beta version of its Exchange Bidding in Dynamic Allocation.|last = Levine|first = Barry|date = March 31, 2017|accessdate = April 3, 2017|publisher = MarTech Today}}</ref>
+|}
+(*) Such launches are not initial launches, but rather re-launches.
+
+== See also ==
+* [[wikipedia:Timeline of e-commerce|Timeline of e-commerce]]
+* [[wikipedia:Online advertising|Online advertising]]
+
+== References ==
+
+{{reflist|30em}}
+
+[[wikipedia:Category:E-commerce|Category:E-commerce]]
+[[wikipedia:Category:Computing timelines|Online Advertising]]
+[[wikipedia:Category:Online advertising|Category:Online advertising]]
