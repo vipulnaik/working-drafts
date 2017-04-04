@@ -173,6 +173,17 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |With the annoyance brought about by pop-up ads, many prominent web browsers such as [[wikipedia:Firefox|Firefox]], [[wikipedia:Netscape (web browser)|Netscape]], and [[wikipedia:Opera (web browser)|Opera]] begin to roll out features to block these ads.<ref>{{Cite news|url=https://www.geek.com/news/pop-up-ads-now-even-worse-548091/|title=Pop-up ads: now even worse - Geek.com|date=2002-12-24|newspaper=Geek.com|language=en-US|access-date=2017-01-07}}</ref>
 |-
 |2003
+|March
+|Launch
+|Content-targeted advertising
+|Google launches its Content-Targeted Advertising Program, that would later be renamed [[wikipedia:AdSense|AdSense]]. The advertisements come from [[wikipedia:AdWords|AdWords]] advertisers, but rather than being related to the user's search intent, they are related to the content of the page..<ref>{{cite web|last=Matt |first=Cutts |title=Google Guy |url=http://www.webmasterworld.com/forum81/376.htm |publisher=Web Master World |deadurl=yes |archiveurl=https://web.archive.org/web/20140304190508/http://www.webmasterworld.com/forum81/376.htm |archivedate=2014-03-04 |df= }}</ref>
+|-
+|2003
+|April 23
+|Acquisition
+|Content-targeted advertising
+|Google acquires Applied Semantics, a company specializing in advertising targeted to the content of the pages on which the ad shows.<ref name=digiday-google-acquires-applied-semantics>{{cite web|url = http://digiday.com/social/today-in-history-google-buys-applied-semantics/|title = Today in History: Google Buys Applied Semantics|last = Morrissey|first = Brian|date = April 23, 2013|accessdate = April 4, 2017|publisher = Digiday}}</ref> The acquisition comes a month after Google's own release of its Content-Targeted Advertising Program, and leads to the progra being renamed AdSense.
+|2003
 |October 7
 |Acquisition
 |Search advertising
@@ -189,6 +200,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Launch
 |Banner advertising
 |[[wikipedia:YouTube|YouTube]], a popular video sharing website, launches.<ref>{{Cite news|url=http://newmediarockstars.com/2013/02/youtube-grows-up-a-visual-history-of-how-the-video-sharing-site-has-changed-over-the-past-8-years/|title=YouTube Grows Up: A Visual History of How the Video-Sharing Site Has Changed Over The Past 8 Years - New Media Rockstars|date=2013-02-14|newspaper=New Media Rockstars|language=en-US|access-date=2017-01-07}}</ref>
+|-
+|2005
+|June 10
+|Acquisition
+|Ad formats
+|[[wikipedia:Gannett|Gannett]] announcing that it is acquiring rich ad media formats company PointRoll for $100 million.<ref>{{cite web|url = http://www.adweek.com/brand-marketing/gannett-buys-pointroll-100-mil-79990/|title = Gannett Buys PointRoll for $100 Mil.|last = Morrissey|first = Brian|date = June 10, 2005|accessdate = April 4, 2017|publisher = [[wikipedia:AdWeek|AdWeek]]}}</ref><ref>{{cite web|url = https://technical.ly/philly/2014/01/22/biggest-philly-tech-exits/|title = 17 biggest Philadelphia tech business acquisitions since 2000. When Boomi, a Berwyn-based cloud computing company, got acquired by Dell, the Wired headline read: “Dell Discovers Internet Mojo...in Philadelphia?” Maybe after a few more local exits, Wired will drop the question mark.|last = Reyes|first = Juliana|date= January 22, 2014|accessdate = April 4, 2017|publisher = technical.ly}}</ref>
 |-
 |2005
 |
