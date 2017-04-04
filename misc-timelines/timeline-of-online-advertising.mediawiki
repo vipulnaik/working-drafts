@@ -352,11 +352,44 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |End user control standard
 |The Digital Advertising Alliance (DAA) launches the [[wikipedia:AdChoices|AdChoices]] program.<ref name=all-about-adchoices>{{cite web|url=http://www.aboutads.info/blog/daa-celebrates-its-first-anniversary|title = DAA Celebrates its First Anniversary|date = Oct 25, 2011|accessdate = June 6, 2016}}</ref>
 |-
+|2010
+|December
+|New feature
+|End user control standard
+|Microsoft announces that the Do Not Track (DNT) standard will be supported in [[wikipedia:Internet Explorer 9|Internet Explorer 9]].<ref>{{Cite web
+ | url = http://blogs.msdn.com/b/ie/archive/2010/12/07/ie9-and-privacy-introducing-tracking-protection-v8.aspx
+ | title = IE9 and Privacy: Introducing Tracking Protection
+ | author = IEBlog
+ | date = 2010-12-07
+}}</ref> Subsequently, [[wikipedia:Firefox|Firefox]] becomes the first browser to implement DNT, and Internet Explorer, Safari, Chrome, and Opera follow/<ref name="online">{{cite news
+ | url = https://www.wsj.com/article/SB10001424052748704213404576100441609997236.html
+ | title = Web Tool On Firefox To Deter Tracking
+ | last = Angwin
+ | first = Julia
+ | work = Wall Street Journal
+ | date = 2011-01-21
+ | accessdate = 22 February 2012
+}}</ref><ref name="Nick Wingfield">{{Cite journal
+ | title = Apple Adds Do-Not-Track Tool to New Browser
+ | url = https://www.wsj.com/article/SB10001424052748703551304576261272308358858.html
+ | author = Nick Wingfield
+ | journal = Wall Street Journal
+ | accessdate = 2011-04-14
+ | date=2011-04-14
+ | postscript = <!-- Bot inserted parameter. Either remove it; or change its value to "." for the cite to end in a ".", as necessary. -->{{inconsistent citations}}
+}}</ref>
+|-
 |2012
 |January
 |Launch
 |Real-time bidding standard
 |OpenRTB 2.0, a specification for [[wikipedia:real-time bidding|real-time bidding]] (RTB), is released.<ref>{{cite web|url = https://www.iab.com/guidelines/real-time-bidding-rtb-project/|title = Real-Time Bidding (RTB) Project: OpenRTB 2.5|publisher = [[wikipedia:Interactive Advertising Bureau|Interactive Advertising Bureau]]|accessdate = April 3, 2017}}</ref>
+|-
+|2012
+|
+|New feature
+|End user control standard
+|The Express installation settings for Microsoft's web browser, Internet Explorer 10, turn Do Not Track on by default. The Digital Advertising Alliance protests this decision<ref>{{cite web|title=Microsoft ticks off advertisers with IE10 'Do Not Track' policy|url=http://news.cnet.com/8301-10805_3-57445568-75/microsoft-ticks-off-advertisers-with-ie10-do-not-track-policy/|publisher=CNET|accessdate=8 September 2012}}</ref> while a Microsoft spokesperson defends it.<ref name=dig-msdnt>{{cite news|title=Microsoft's "Do Not Track" Move Angers Advertising Industry|url=http://blogs.wsj.com/digits/2012/05/31/microsofts-do-not-track-move-angers-advertising-industry/|work=Digits|publisher=The Wall Street Journal|accessdate=8 September 2012}}</ref> On September 7, [[wikipedia:Roy Fielding|Roy Fielding]], one of the authors of the DNT standard, submits a change to ignore the header for users coming from IE10,<ref>{{Cite web|title = Apache does not tolerate deliberate abuse of open standards · apache/httpd@a381ff3|url = https://github.com/apache/httpd/commit/a381ff35fa4d50a5f7b9f64300dfd98859dee8d0|website = GitHub|accessdate = 2016-01-02}}</ref> leading to controversy.<ref>{{Cite web|title = Apache does not tolerate deliberate abuse of open standards · apache/httpd@a381ff3|url = https://github.com/apache/httpd/commit/a381ff35fa4d50a5f7b9f64300dfd98859dee8d0#commitcomment-1819635|website = GitHub|accessdate = 2016-01-03}}</ref><ref>{{cite web |url=http://arstechnica.com/information-technology/2012/08/microsoft-sticks-to-its-guns-keeps-do-not-track-on-by-default-in-ie10/ |title=Microsoft sticks to its guns, keeps Do Not Track on by default in IE10 |publisher=Ars Technica |accessdate=14 May 2013}}</ref> The patch is commented out on October 9, restoring original behavior.<ref>{{cite web|title= Apache Won't Override Do-Not-Track Headers |url= http://www.mediapost.com/publications/article/184855/apache-wont-override-do-not-track-headers.html |publisher= MediaPost Communications|accessdate=22 December 2012}}</ref> On April 3, 2015, Microsoft announces that the Express installation will no longer activate Do Not Track, but Microsoft will continue to highlight the option to users so that they are aware of it.<ref name=cw-dntdisabledms>{{cite web|title=Microsoft rolls back commitment to Do Not Track|url=http://www.computerworld.com/article/2905551/microsoft-rolls-back-commitment-to-do-not-track.html|website=Computerworld|publisher=IDG|accessdate=3 April 2015}}</ref>
 |-
 |2013
 |April 26
