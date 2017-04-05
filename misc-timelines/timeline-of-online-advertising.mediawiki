@@ -403,6 +403,30 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
  | postscript = <!-- Bot inserted parameter. Either remove it; or change its value to "." for the cite to end in a ".", as necessary. -->{{inconsistent citations}}
 }}</ref>
 |-
+|2011
+|January 24
+|Launch
+|Social media advertising
+|Facebook launches Sponsored Stories, where brands can pay money to have their posts or other interactions related to the brand (such as friend activity) appear in front of more users. The Sponsored Stories would appear in place of existing ads and would not increase the ad load on the site (later, Sponsored Stories would become part of the News Feed; however, at this time, they are not).<ref>{{cite web|url = http://www.adweek.com/digital/sponsored-stories-feed-ads/|title = Facebook’s Sponsored Stories Turns News Feed Posts Into Home Page Ads|last = Constine|first = Josh|date = January 24, 2011|accessdate = April 5, 2017|publisher = [[wikipedia:Adweek|Adweek]]}}</ref><ref>{{Cite web|url = http://www.adweek.com/digital/facebook-launches-sponsored-stories-125531/|title = Facebook Launches ‘Sponsored Stories’|last = Morrissey|first = Brian|publisher = [[wikipedia:Adweek|Adweek]]|date = January 25, 2011|accessdate = April 5, 2017}}</ref>
+|-
+|2011
+|September 29
+|New terminology
+|Native advertising
+|At the Online Media, Marketing and Advertising Conference, Fred Wilson first uses the term "native advertising".<ref>{{cite web|url = http://nativeadvertising.com/infographic-native-advertisings-3-rd-birthay-something-celebrate/|title = Infographic: The History of Native Advertising|date = October 7, 2014|accessdate = April 5, 2017|publisher = nativeadvertising.com}}</ref>
+|-
+|2011
+|November 4
+|New publisher
+|Native advertising
+|Viral content publisher [[wikipedia:BuzzFeed|BuzzFeed]] launches its advertising page, inviting brands to run viral advertising campaigns on BuzzFeed.<ref>{{cite web|url = http://www.buzzfeed.com/help/advertising|archiveurl = https://web.archive.org/web/20111111001836/http://www.buzzfeed.com/help/advertising|archivedate = November 11, 2011|title = Help / Advertising and Partnerships|publisher = [[wikipedia:BuzzFeed|BuzzFeed]]}}</ref> (Note: the archived link is from November 11; the date of November 4 comes from Google Search snippet).
+|-
+|2012
+|December 20
+|Launch
+|Social media advertising
+|Facebook announces that, starting in January 2012, it will be showing ads in the news feed on web (''not'' on mobile), with the name "Featured Stories".<ref>{{cite web|url = http://adage.com/article/digital/facebook-start-placing-ads-user-news-feeds-january/231691/|title = Facebook to Start Placing Ads in User News Feeds in January. 'Sponsored Stories' in the News Feed, But Not in Mobile for Now|last = Delo|first = Cotton|date = December 20, 2011|accessdate = April 5, 2017|publisher = [[wikipedia:Advertising Age|Advertising Age]]}}</ref><ref>{{cite web|url = https://techcrunch.com/2011/12/20/sponsored-stories-news-feed/|title = Facebook Sponsored Story Ads To Appear In The Web News Feed In 2012|last = Constine|first = Josh|date = December 20, 2011|accessdate = April 5, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref><ref>{{cite web|url = https://www.ft.com/content/a6e33c1a-2b7a-11e1-9fd0-00144feabdc0|title = Facebook to allow advertising in news feed|date = April 21, 2011|accessdate = April 5, 2017|publisher = ''[[wikipedia:Financial Times|Financial Times]]''|last = Dembowsky|first = April}}</ref> The stories must be based on actions by the viewer's friends or from pages that the viewer has liked. As of January 10, 2012, the feature has launched.<ref>{{cite web|url = http://www.zdnet.com/article/facebook-starts-displaying-ads-in-the-news-feed/|title = Facebook starts displaying ads in the News Feed. Facebook has finally put ads in your News Feed. These new ads, which are labelled as Featured Stories, are displayed based on actions made by your friends and Pages you have Liked.|last = Protalski|first = Emil|date = January 10, 2012|accessdate = April 6, 2017|publisher = ''[[wikipedia:ZDNet|ZDNet]]''}}</ref> The change was announced on December 20, 2011.
+|-
 |2012
 |January
 |Launch
