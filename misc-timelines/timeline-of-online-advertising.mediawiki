@@ -183,6 +183,7 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Acquisition
 |Content-targeted advertising
 |Google acquires Applied Semantics, a company specializing in advertising targeted to the content of the pages on which the ad shows.<ref name=digiday-google-acquires-applied-semantics>{{cite web|url = http://digiday.com/social/today-in-history-google-buys-applied-semantics/|title = Today in History: Google Buys Applied Semantics|last = Morrissey|first = Brian|date = April 23, 2013|accessdate = April 4, 2017|publisher = Digiday}}</ref> The acquisition comes a month after Google's own release of its Content-Targeted Advertising Program, and leads to the progra being renamed AdSense.
+|-
 |2003
 |October 7
 |Acquisition
@@ -364,6 +365,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Krux, a data management platform (DMP), gets seed funding.<ref>{{cite web|url = http://www.krux.com/company/about-krux/|title = About Krux|publisher = Krux|accessdate = April 3, 2017}}</ref>
 |-
 |2010
+|June 3
+|Acquisition
+|Demand-side platform
+|Google confirms the acquisition of Invite Media.<ref>{{cite web|url = https://doubleclick-advertisers.googleblog.com/2010/06/investing-in-exchange-bidding.html|title = Investing in Exchange Bidding|date = June 3, 2010|accessdate = April 5, 2017|publisher = DoubleClick Advertiser Blog}}</ref><ref>{{cite web|url = https://techcrunch.com/2010/06/03/google-confirms-invite-media/|title = Google Confirms Invite Media Acquisition, Brings Bidding To Display Ads|last = Schonfeld|first = Erick|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref> The Bid Manager would be rebranded as DoubleClick Bid Manager (DBM).
+|-
+|2010
 |October
 |Launch
 |End user control standard
@@ -479,6 +486,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Major event
 |Ad blocking
 |Facebook states that they will start blocking the use of ad blocking extensions, specifically [[wikipedia:Adblock Plus|Adblock Plus]] and Adblock. In response to this, these ad-blockers began to block Facebook's blocking in a back-and-forth "war."<ref>{{Cite web|url=http://fortune.com/2016/08/12/facebook-ad-blocking-war/|title=Here's Why Facebook Is Always Going to Win the Ad-Blocking War|website=Fortune|access-date=2017-02-08}}</ref>
+|-
+|2017
+|February to April
+|Controversy
+|Ad serving
+|Google has a "brand safety" fiasco, after ''The Times of London'' publishes an article showing that advertisements are being shown alongside "extremist" YouTube videos.<ref>{{Cite web|url = https://www.thetimes.co.uk/edition/news/google-faces-questions-over-videos-on-youtube-3km257v8d|title = Google faces questions over videos on YouTube|last = Mostrous|first = Alexi|date = February 9, 2017|accessdate = April 5, 2017}}</ref> As a result, advertisers and agencies, initially in the United Kingdom,<ref>{{cite web|url = https://adexchanger.com/platforms/google-gets-brexited-havas-uk-gov-guardian-yank-ads-brand-safety/|title = Google Gets Brexited As Havas UK, Gov and The Guardian Yank Ads Over Brand Safety|last = Sluis|first = Sarah|date = March 17, 2017|accessdate = April 3, 2017|publisher = AdExchanger}}</ref> and later in the United States as well, pause their ads on YouTube.<ref>{{cite web|url = https://adexchanger.com/platforms/rounding-industry-coverage-googles-brand-safety-fiasco/|title = Rounding Up The Industry Coverage Of Google's Brand Safety Fiasco|last = Weissbrot|first = Alison|date = March 27, 2017|accessdate = April 5, 2017|publisher = AdExchanger}}</ref> In response, Google promises to make improvements to its process for determining videos that are safe for ads, and also to give advertisers more visibility and control into the sort of content their ads are being shown against.<ref>{{cite web|url = https://www.wsj.com/articles/google-to-allow-brand-safety-monitoring-by-outside-firms-1491256676|title = Google to Allow ‘Brand Safety’ Monitoring by Outside Firms. Alphabet unit offers new tools to marketers after ads ran alongside objectionable content|last = Marshall|first = Jack|last2 = Nicas|first2 = Jack|date = April 3, 2017|accessdate = April 5, 2017|publisher = ''[[wikipedia:Wall Street Journal|Wall Street Journal]]''}}</ref><ref>{{cite web|url = https://www.nytimes.com/2017/04/03/technology/google-training-ad-placement-computers-to-be-offended.html?_r=0|title = Google Training Ad Placement Computers to Be Offended|last = Wakabayashi|first = Daisuke|date = April 3, 2017|accessdate = April 5, 2017|publisher = ''[[wikipedia:New York Times|New York Times]]''}}</ref>
 |-
 |2017
 |March 31
