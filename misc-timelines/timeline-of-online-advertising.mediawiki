@@ -201,6 +201,7 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Acquisition
 |Ad serving
 |AOL acquires Advertising.com for $435 million.<ref>{{cite web|url = http://adage.com/article/digital/aol-acquires-advertising-435-million/40495/|title = AOL Acquires Advertising.com for $435 Million. Looks to Bolster Online Ad Growth With Pay-per-performance Model|date = June 24, 2004|accessdate = April 7, 2017|publisher = [[wikipedia:Advertising Age|Advertising Age]]}}</ref><ref name=ad-tech-acquisition-history/>
+|-
 |2005
 |February 14
 |Launch
