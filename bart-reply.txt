@@ -1,0 +1,11 @@
+Q: Do you have any comments about any of these options?  How would these potential changes impact you, if at all?
+
+I'm not sure how you calculate the increased revenue from extra charges on paper tickets. Are you taking into account that more people may switch over to Clipper cards given the higher cost of paper tickets? Or even that fewer people might ride BART? I am similarly uncertain around the revenue increase estimates from parking (though in that case the adjustments seem less important, as parking is heavily oversubscribed right now).
+
+I also don't know about the cost structure of paper tickets versus Clipper cards. Are paper tickets actually more costly to the BART system? (I am guessing it could be, because of longer queues at ticket machines, more frequent need to refresh cash at these machines, etc.) If so, by how much? If not, the extra charge on them is just an artificial tax on the use of one means of payment.
+
+Other factors in the paper ticket versus Clipper card calculation:
+
+- Paper tickets may be used disproportionately by tourists or very irregular system users, who may also be less price-sensitive.
+- Paper tickets may be used by poorer people and increasing the price on those could be viewed as regressive.
+- Nudging people to buy Clipper cards might encourage them to use the BART system (and other Bay Area transit systems that rely on Clipper) more in the longer term, since they've already invested in the card.
