@@ -196,6 +196,11 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Social media advertising
 |Facebook, the most popular [[wikipedia:Social Media Network|social media network]], launches.<ref>{{Cite news|url=https://www.theguardian.com/technology/2007/jul/25/media.newmedia|title=A brief history of Facebook|last=Phillips|first=Sarah|date=2007-07-25|newspaper=The Guardian|language=en-GB|issn=0261-3077|access-date=2017-01-07}}</ref> 
 |-
+|2004
+|June 24
+|Acquisition
+|Ad serving
+|AOL acquires Advertising.com for $435 million.<ref>{{cite web|url = http://adage.com/article/digital/aol-acquires-advertising-435-million/40495/|title = AOL Acquires Advertising.com for $435 Million. Looks to Bolster Online Ad Growth With Pay-per-performance Model|date = June 24, 2004|accessdate = April 7, 2017|publisher = [[wikipedia:Advertising Age|Advertising Age]]}}</ref><ref name=ad-tech-acquisition-history/>
 |2005
 |February 14
 |Launch
@@ -273,6 +278,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Launch
 |Ad serving
 |The [[wikipedia:Rubicon Project|Rubicon Project]] is founded as an advertising network, by Frank Addante, Craig Roah, Duc Chau and Julie Matter.
+|-
+|2007
+|May 16
+|Acquisition
+|Ad serving
+|AOL acquires AdTech AG, an online ad-serving company based in Germany, at undisclosed terms. The company would operate as an independent subsidiary of the AOL-owned advertising.com.<ref>{{cite web|url = https://techcrunch.com/2007/05/16/aol-acquires-adtech/|title = AOL Acquires ADTECH|last = Wauters|first = Robin|date = May 16, 2007|accessdate = April 7, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref>
 |-
 |2007
 |May 18
@@ -494,10 +505,22 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Facebook re-launches Atlas.<ref>{{Cite news|url=http://www.wsj.com/articles/facebook-discontinues-atlas-ad-serving-tool-1479496840|title=Shrugging off ‘Atlas,’ Facebook Continues Pivot from Ad Tech|last=Marshall|first=Jack|date=2016-11-18|newspaper=Wall Street Journal|issn=0099-9660|access-date=2017-01-07}}</ref>
 |-
 |2015
+|May 12
+|Acquisition
+|Ad serving
+|Mobile data carrier [[wikipedia:Verizon|Verizon]] acquires [[wikipedia:AOL|AOL]] for $4.4 billion; the main value of the acquisition to Verizon is the ad technology owned by AOL. The deal is expected to help Verizon target ads better to users across devices, through the combination of AOL's ad tech and data and Verizon's data.<ref>{{cite web|url = http://adage.com/article/media/ad-tech-is-king-verizon-aol/298574/|title = Ad-Tech, not Content, Is King in the Verizon-AOL Deal. Takeaways From This Morning's Announcement|last = Kantrowitz|first = Alex|date = May 12, 2015|accessdate = April 7, 2017|publisher = ''[[wikipedia:Advertising Age|Advertising Age]]''}}</ref><ref>{{cite web|url = http://www.theverge.com/2015/5/12/8590669/verizon-aol-merger-news-explained-ad-tech|title = Forget blogs, Verizon bought AOL for its ad tech business. This is about mobile marketing and video advertising, as dollars move from TV to the web|last = Popper|first = Ben|date = May 12, 2015|accessdate = April 7, 2017|publisher = ''[[wikipedia:The Verge|The Verge]]''}}</ref><ref>{{cite web|url = http://www.businessinsider.com/ad-tech-industry-on-aol-selling-to-verizon-2015-5|title = Here’s what the ad industry thinks of Tim Armstrong selling AOL for $4.4 billion to Verizon|last = O'Reilly|first = Lara|date = May 12, 2015|accessdate = April 7, 2017|publisher = ''[[wikipedia:Business Insider|Business Insider]]''}}</ref>
+|-
+|2015
 |July 19
 |New feature
 |Header bidding
 |The first commit for Prebid.js on GitHub is made by Paul Young.<ref>{{cite web|url = https://github.com/prebid/Prebid.js/commit/49fa6daeeb7f37e58463d4da44f60bb37091cdd2|title = first commit: Prebid.js|date = July 19, 2015|accessdate = April 3, 2017|publisher = Prebid.js team on GitHub}}</ref> Prebid.js is a project at AppNexus to facilitate header bidding integrations.<ref>{{cite web|url = https://blog.appnexus.com/2016/prebid-js-a-year-in-the-life-of-an-open-sourced-ad-tech-project/|title = Prebid.js: a year in the life of an open-sourced ad tech project|last = Yang|first = Paul|date = August 1, 2016|accessdate = April 3, 2017|publisher = [[wikipedia:AppNexus|AppNexus]]}}</ref><ref>{{cite web|url = https://adexchanger.com/ad-exchange-news/news-corp-exits-rubicon-project-investment/|title = News Corp. Exits Rubicon Project Investment|publisher = AdExchanger|date = February 13, 2017|accessdate = April 3, 2017}}</ref>
+|-
+|2015
+|September 3
+|Acquisition
+|Ad serving
+|Verizon-owned AOL confirms the acquisition of Millennial Media for $238 million, to expand in mobile ads.<ref>{{cite web|url = https://techcrunch.com/2015/09/03/aol-acquires-millennial-media/|title = AOL Confirms It Is Buying Millennial Media In $238M Deal To Expand In Mobile Ads|last = Lunden|first = Ingrid|date = September 3, 2015|accessdate = April 7, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref>
 |-
 |2015
 |November 2
