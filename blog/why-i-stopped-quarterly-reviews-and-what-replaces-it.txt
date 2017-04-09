@@ -1,0 +1,87 @@
+Recently, I stopped publishing quarterly reviews. In this blog post, I explain te reasons, and describe what I'm doing instead.
+
+Quarterly reviews previously served to provide periodic updates of three things:
+
+<ol>
+	<li>My recent activity.</li>
+	<li>Total pageviews and other reach and impact metrics of my recent and lifetime activity.</li>
+	<li>Updates to my beliefs and habits.</li>
+</ol>
+
+Unfortunately, they weren't an ideal vehicle for any of the three. Among the problems:
+
+<ul>
+	<li>The updates were too <em>infrequent</em> to provide insight into what I've worked on and where, and to allow others to track my work.</li>
+	<li>There was too much number-crunching involved in collating data from different sources.</li>
+	<li>The quarterly period was an <em>unnatural</em> way of subdividing my work and reporting incremental progress, and therefore created extra load on me in terms of efforts to summarize progress.</li>
+	<li>The things that people liked most (my updates) received too little attention, as I (rightly) believed in the importance of reporting objectively on activity and reach/impact measures.</li>
+</ul>
+
+My solution going forward is as follows:
+
+<ol>
+	<li>My recent activity: With a few stated exceptions (as described below), all my activity can be tracked by following me on GitHub. I explain this in more depth below. This is near-real-time, and provides a lot more granularity and insight.</li>
+	<li>Reach and impact metrics: I am working to make these available in publicly accessible locations, updated at approximately daily frequency, so that people can check them out any time.</li>
+	<li>Updates to beliefs and habits: I will publish these occasionally, at logically natural points, just as I occasionally publish blog posts or articles summarizing work I've been doing or key insights I've had.</li>
+</ol>
+
+<h4>#1: Following my activity</h4>
+
+My activity is of roughly three kinds:
+
+<ul>
+	<li>Self-contained projects, that usually involve a mix of code (to render results, allow for programmatic querying) and data. Each such project has its own GitHub repository, as well as a public-facing website. Currently, there are three projects I am working on: <a href="http://github.com/vipulnaik/contractwork">contractwork</a> (website: <a href="https://contractwork.vipulnaik.com">contractwork.vipulnaik.com</a>), <a href="https://github.com/vipulnaik/donations">donations</a> (website: <a href="https://github.com/vipulnaik/donations">donations.vipulnaik.com</a>), and <a href="https://github.com/vipulnaik/wikipediaviews">Wikipedia Views</a> (website: <a href="https://wikipediaviews.org">wikipediaviews.org</a>). I also have a project on <a href="https://github.com/vipulnaik/bart">BART</a> (intended website: <a href="https://bart.vipulnaik.com">bart.vipulnaik.com</a>) that does not yet have a public website, but some of the backend code is written.</li>
+	<li>Miscellaneous written content I create or improve, in the form of wiki pages, blog posts, articles, Facebook posts, and comments. Some of it is related to a larger project of understanding a specific aspect of the world, but it isn't a self-contained project. This content is scattered across numerous venues. To name a few: <a href="https://vipulnaik.com/blog">blog</a>, the <a href="https://timelines.issarice.com">Timelines wiki</a>, <a href="http://www.wikihow.com">wikiHow</a>, <a href="https://market.subwiki.org">Market subwiki</a>, the Effective Altruism Forum, LessWrong. I generally keep a copy of the content I create (or, in case of significant updates, the content I update) in the <a href="https://github.com/vipulnaik/working-drafts">working-drafts repository mirrored on GitHub</a>. In case of updates, I usually keep a copy of the entire content, though if my updates are modular enough, I might only keep a copy of my updates. I also use this repository to maintain copies of drafts for content not yet published, or background material I want to link people to without "formally" publishing it as a finished piece of work. In some cases, I also keep copies of comments I leave on blog posts, Facebook posts, Facebook comments, survey responses, and (drafts of) emails I send to people.</li>
+	<li>Other forms of activity: The bulk of my activity on Facebook, and almost all of my activity on <a href="https://vipulnaik.com/predictionbook">PredictionBook</a>, is not mirrored in working-drafts. To keep track of these, you'd need to follow me on Facebook and check me out on PredictionBook.</li>
+</ul>
+
+The upshot: following all my public activity on GitHub (for instance, by cloning all the GitHub repositories and pulling updates), as well as on Facebook and PredictionBook, should give a reasonably comprehensive picture of what I've been up to and how I work. Note that these are not comprehensive ways of seeing all work I've ever done; I've only started mirroring my edits/updates in the working-drafts folder in the last twelve months or so.
+
+I have included more detail on the first two bullet points on my <a href="https://vipulnaik.com/github">website page about GitHub</a>.
+
+<h4>#2: Keeping track of total pageviews, reach and impact metrics</h4>
+
+For my Wikipedia content, you can keep track of it through Wikipedia Views, as described on <a href="https://vipulnaik.com/wikipedia/">my site page about Wikipedia</a>. Specifically, here's the links to get data for pages I created:
+
+<ul>
+	<li><a href="http://wikipediaviews.org/displayviewsformultiplemonths.php?tag=Pages+created+by+Vipul+Naik&allmonths=allmonths">by month</a></li>
+	<li><a href="http://wikipediaviews.org/displayviewsformultipleyears.php?tag=Pages+created+by+Vipul+Naik&allyears=allyears&drilldown=all">by year</a></li>
+</ul>
+
+For websites that I own or manage, I am trying to make the website data public in three ways:
+
+<ul>
+	<li>Quantcast Measure (QM), with details on pageviews, visits, uniques, and demographic and geographic distribution of visitors: QM has a limit of ten sites, and does not show sites with too little data, so I am restricting its use to relatively high-traffic sites. Currently it applies to the five top subject wikis (you can see the list of subject wikis with links to their Quantcast pages, at <a href="https://subwiki.org">subwiki.org</a>). In addition, I've also activated QM for <a href="https://www.quantcast.com/openborders.info">openborders.info</a>. QM numbers are usually a little lower than those of Google Analytics, but in the same ballpark, and they help capture the relative trends reasonably well. The main downside is that QM works only from the point in time that it was turned on. I turned QM on for openborders.info, calculus.subwiki.org, and market.subwiki.org on November 27, 2015, and for groupprops.subwiki.org, topospaces.subwiki.org, and mech.subwiki.org around April 2, 2017.</li>
+	<li>SimilarWeb: I am trying to connect SimilarWeb to Google Analytics, so that it uses certified metrics from Google Analytics when displaying data. I have submitted information to SimilarWeb; as of the time of writing this (April 8, 2017) it does not seem to have started incorporating Google Analytics data.</li>
+	<li>Using the Google Analytics API to make key metrics from Google Analytics publicly visible: I expect to do this with some help from Issa Rice some time in the next few months. This will give everybody access to key metrics from Google Analytics that are currently visible only to people I've given access (we probably won't make all metrics available, to maintain simplicity and preserve privacy).</li>
+</ul>
+
+Beyond this, I will also update <a href="https://subwiki.org">subwiki.org</a> annually with total Google Analytics pageview counts for subject wikis, as I have been doing.
+
+I have not worked out a suitable solution yet for websites that I do not own or manage, although once we have the setup to make Google Analytics data publicly available, I can apply that to websites I do not own but have (or can get) Google Analytics access for.
+
+<h4>#3: Updates to my beliefs and habits</h4>
+
+This is the aspect of my quarterly reviews and other writings that has attracted the most positive feedback. Freed of the need to publish quarterly reviews (given the superior alternatives that now exist), I can devote more time to writing up updates in my thoughts. Broadly, there are two kinds of posts I expect to write, and both will be fairly occasional:
+
+<ul>
+	<li>"Wrapper" posts that provide a summary of a project I am working on, and of key findings. These wrapper posts could be to advertise the project, to checkpoint an accomplishment milestone (because the project <em>per se</em> never ends), and to convey key conclusions that might be of interest to people who aren't interested in the project <em>per se</em>. The "wrapper" jargon is borrowed from <a href="http://distill.pub/about/">distill.pub</a>, which says "Non-traditional contributions often don’t get credit unless authors wrap them with proxy papers. Unfortunately, this multiplies effort and divides attention."</li>
+	<li>General posts about my thought processes, beliefs about the world, ways of working, etc. My <a href="https://vipulnaik.com/blog/my-three-guiding-principles/">three guiding principles</a> and <a href="https://vipulnaik.com/blog/debugging-my-apparent-2016-stagnation/">Debugging my apparent 2016 stagnation</a> blog posts are examples.</li>
+</ul>
+
+My goal with both these kinds of posts is to, essentially, write them <em>only</em> once the ideas are all in my head and reasonably clear, so that it's just a straight exercise of transcribing from my head to the computer. Given that I have no particular pressure to "publish", I believe it does not make much sense to artificially try to put in custom, "hacky" effort to push out posts of either of the above kinds in a way that interrupts the flow of the larger projects I am working on.
+
+In other words, there is a strategy where I decide to work hard on pushing out a wrapper post about a topic I've been learning about, such as trends in Wikipedia pageviews, or the history of immigration enforcement in the United States since 1986. And there was a time, early on, when I found that this kind of effort helped me focus and collate information. However, my current belief is that in this sort of situation, it's better to just keep collating background information in accessible formats (such as continued work on the Wikipedia Views website, to make it easier and easier to look up Wikipedia view trends, or work on <a href="https://timelines.issarice.com/wiki/Timeline_of_immigration_enforcement_in_the_United_States">timeline of immigration enforcement in the United States</a>). And then to start working on the wrapper post only when I feel I have enough to say that I can just sit down and say it.
+
+There are times when I feel like I can't do background work on the project, but I don't have a wrapper post in my head either. In that case, I might start an exercise of <em>faux</em>-writing the wrapper post: just starting to draft it, and notice the pain points that are stopping me from writing it. And then use those to decide where next to continue to make progress with the project.
+
+Regarding general posts about my thought processes, I generally feel the need to write these when there is a huge dissonance between things I have said or believed in the past, and the way I am behaving right now, and I feel like I have something to say on the subject. For instance, the current post (that you are reading right now) was born of a dissonance between my past intent to publish quarterly reviews and frequent wrapper posts, and the current reality of no quarterly review. Unlike many people in the rationality community whom I know (and know of), I don't engage in goal-setting and introspection exercises of my own volition, but rather, I wait for things to boil over before I decide to write about it.
+
+<h4>Concluding thoughts on transparency and ease of understanding</h4>
+
+I want others, including my future self, to be able to easily figure out what I am doing, where it is headed, and what impact it is having. At the same time, I want this "transparency" to be low-friction and effortless for me. I have moved away from an approach of periodically summarizing things, to one of continuously revealing information as part of my modus operandi (and therefore requiring no special effort).
+
+Is this style of transparency actually more helpful to others? Yes and no. Because there is more information available in real time, in a more "computable" format (commit histories on GitHub, public website data at daily granularity), people can dig in much deeper than having to wait for a quarterly review. On the other hand, a quarterly review provides an important function of summarization, making it easier for a casual follower to get the big picture (as sumarized by me).
+
+In the longer run, I expect that the disadvantages of lack of hand-crafted summarization will be overcome by the advantages of more granular, computable, real time data. That's because more tools will become available for analysis and summarization of activity. These include some I might create myself, through code improvements in the projects, and general ones such as GitHub's activity graphs.
+

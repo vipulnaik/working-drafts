@@ -1,0 +1,12 @@
+I have an account with username <a href="http://predictionbook.com/users/vipulnaik">vipulnaik</a> on PredictionBook. I created my <a href="http://predictionbook.com/predictions/180236">first prediction</a> on the site on November 13, 2016, and have been using it reasonably regularly since then.
+
+I generally make lots of predictions together. Predictions are often at monthly, quarterly, or annual cadence, so I'll make a bunch of predictions around the turn of the month. Some domains where I make predictions:
+
+<ul>
+	<li>Wikipedia view count trends (this is related to my ongoing work on <a href="https://wikipediaviews.org">Wikipedia Views</a> and my <a href="https://github.com/vipulnaik/working-drafts/blob/master/wikipediaviews/revisiting-the-great-decline-in-wikipedia-pageviews.md">great decline revisited draft blog post</a>).</li>
+	<li>Whether a product or service will continue to be active at a certain date.</li>
+	<li>Expected technological or product improvements as of a certain date.</li>
+	<li>Valuations, revenue, money moved estimates.</li>
+	<li>Whether a piece of information will be published by a certain date.</li>
+	<li>Predictions related to BART: station opening dates, riderships, fares.</li>
+</ul>

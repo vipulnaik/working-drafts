@@ -1,0 +1,61 @@
+If you're reading this, you might be interested in reading <a href="/wikipedia">my page on Wikipedia</a> first.
+
+For the most up-to-date information on the contributors and their contributions, see my <a href="https://contractwork.vipulnaik.com">contract work portal</a> (underlying data and code is in <a href="https://github.com/vipulnaik/contractwork">this repository</a>). The information provided below is more for historical purposes and may not be up-to-date.
+
+<h4>2015</h4>
+
+In April 2015, as part of an Experimental Content Creation Grant (ECCG) to Alex K. Chen, I included reimbursement for Wikipedia page creation. The scheme was as follows: for the period from April 1, 2015, to December 31, 2015, I'd pay Alex:
+
+<ul>
+	<li>$1 for every 1000 pageviews of pages he had created before 2015.</li>
+	<li>$1 for every 500 pageviews of pages he created in 2015.</li>
+	<li>If the pages he created were specific ones that I had requested him to create or approved the creation of, and the page as created by him met my standard for quality and completeness, then I'd add a one-time payment for each such page. The one-time payment would be determined per page, but the standard would be $25.</li>
+</ul>
+
+(There is some fine print that caps the total amount I need to pay Alex, but that's not relevant here since Wikipedia pageviews don't contribute enough to the overall ECCG to trigger that fine print).
+
+Alex is <a href="http://en.wikipedia.org/wiki/User:Simfish">user Simfish on Wikipedia</a>. You can also access his <a href="http://en.wikipedia.org/wiki/Special:Contributions/Simfish">contribution history</a>.
+ 
+The ECCG was my first foray into highly open-ended and long-term content creation funding. It fit in with my general belief in payment that was based on performance but flexible as to the specifics.
+
+One of the interesting things I found was that, despite my suggesting a large number of pages for Alex to create, he ended up creating other pages that were more aligned with his interests, and often too short or incomplete to meet the standards I would set for a $25 one-time payment. However, the pages still earned money through pageviews of those pages.
+
+Later, I decided to experiment more with incentivizing the creation of particular pages to high quality standards. So I gave a shorter list of pages, with a higher price per page, but also with a deadline. If Alex failed to create the page by the deadline and to the quality standards I requested, then he wouldn't get any money (we could extend the deadline and reduce the payment by mutual consent).
+
+You can see the views in June 2015 for all pages created by Alex K. Chen in 2015 <a href="http://wikipediaviews.org/displayviewsforonemonth.php?tag=Pages%20created%20by%20Alex%20K.%20Chen%20in%202015&month=201506">here</a>. There are three pages for which he has received one-time payment for creating the page:
+
+<ul>
+	<li><a href="http://en.wikipedia.org/wiki/Parker_Conrad">Parker Conrad</a>: Although I hadn't pre-approved the page, I found the level of detail in his created page sufficient to merit my usual $25 payment.</li>
+	<li><a href="http://en.wikipedia.org/wiki/Timeline_of_Reddit">Timeline of Reddit</a>: This was created at my request, but aligned well with Alex's deep interest in Reddit's history. The bounty value was $60.</li>
+	<li><a href="http://en.wikipedia.org/wiki/Timeline_of_Uber">Timeline of Uber</a>: This was created at my request. The original bounty value was $60, but Alex couldn't complete the page by my original deadline. I extended the deadline twice while reducing the bounty value each time, and he eventually finished the page to receive $35.</li>
+</ul>
+
+I'd like to thank <a href="http://issarice.com">Issa Rice</a> for helping with the mechanics of the deal, suggesting pages for Alex to create, and providing other guidance and support to both Alex and me as we experimented with the process.
+
+<h4>2016</h4>
+
+I renewed my content creation grant for 2016 with AKC, with some changes to the rules surrounding payments. I would pay AKC:
+
+<ul>
+	<li>$1 for every 2000 pageviews of pages he had created before 2015, or $0.50 per 1000 pageviews.</li>
+	<li>$1 for every 800 pageviews of pages he created in 2015, or $1.25 per 1000 pageviews.</li>
+	<li>$1 for every 500 pageviews of pages he created in 2016, or $2 per 1000 pageviews.</li>
+</ul>
+
+My goal was that, while AKC could still make money of pageviews of pages he created of his own accord, the focus of his work should shift more in the direction of creating pages I wanted him to create, with a fixed pay from me (i.e., something like the previous bounty system). Therefore, after consulting with Issa Rice, I redesigned the bounty system. With the new system, I would maintain a <a href="http://github.com/vipulnaik/working-drafts/blob/master/akc-list.mediawiki">list of articles he could work on</a>, and he needed to do them in a way that on any given Sunday, he had done at least as many articles by then as the number of weeks in 2016 so far (minus an offset). The details are on the page. This system would give AKC more flexibility with respect to articles to create and allow him to plan ahead, while also allowing me to get more work done and make sure I was getting a steady stream of output. I reserved the right to edit the list and change prices for things he has not yet done or started work on, though I would rarely remove items or reduce their prices on a whim (but I might remove an item if the article gets created, or the importance of the topic declines). The changes seem to have benefited both AKC and me.
+
+In addition, I am experimenting with per-article payments to Issa (list <a href="http://github.com/vipulnaik/working-drafts/blob/master/contributor-lists/issa-list.mediawiki">here</a>) and Ethan, a friend of Issa (list <a href="http://github.com/vipulnaik/working-drafts/blob/master/contributor-lists/ethan-list.mediawiki">here</a>). I also have a list for Milo King (list <a href="http://github.com/vipulnaik/working-drafts/blob/master/contributor-lists/milo-list.mediawiki">here</a>), that we might experiment with during his summer break. Since these experiments are fairly new it'll take time to report how well they are going.
+
+Here are some of the pages that Alex and Issa have created in 2016, that I am particularly impressed by:
+
+<ul>
+	<li><a href="http://en.wikipedia.org/wiki/Form_1040">Form 1040</a>, that Issa worked on in 2015 and published on January 1, 2016. This page is about one of the world's most widely used tax forms: the form for United States residents' tax returns. As of mid-April 2016, it <a href="http://wikipediaviews.org/displayviewsformultiplemonths.php?page=Form%201040&year=2016">over 20,000 pageviews in 2016</a>, since Issa created it.</li>
+	<li><a href="http://en.wikipedia.org/wiki/Form_1099">Form 1099</a>. Published in January 2016, this page about a United States information return has already received <a href="http://wikipediaviews.org/displayviewsformultiplemonths.php?page=Form%201099&year=2016">over 20,000 pageviews in 2016</a>.</li>
+	<li><a href="http://en.wikipedia.org/wiki/Timeline_of_global_health">Timeline of global health</a> by Issa. Published in April 2016, the page was more akin to a paper trail of a research project than something intended for getting lots of pageviews. I consider it the best summary on the Internet of the way global health has evolved as a field since the 1850s.</li>
+	<li><a href="http://en.wikipedia.org/wiki/Open_Philanthropy_Project">Open Philanthropy Project</a> by Issa. It won't get a lot of pageviews, but this article does a good job summarizing Open Phil from a neutral perspective. When I try to explain what Open Phil is to people, this is a page I can point to.</li>
+	<li><a href="http://en.wikipedia.org/wiki/Timeline_of_Microsoft">Timeline of Microsoft</a>, <a href="http://en.wikipedia.org/wiki/Timeline_of_Amazon.com">Timeline of Amazon.com</a>, and <a href="http://en.wikipedia.org/wiki/Timeline_of_Intel">Timeline of Intel</a> by Alex.</li>
+</ul>
+
+<h4>2017</h4>
+
+In March 2017, the sponsored Wikipedia editing experiment came to an abrupt end after it created controversy in the Wikipedia community. While much of the existing sponsored content continues to live on Wikipedia, I am no longer sponsoring the creation of content on Wikipedia. Some of the sponsored editing activity has moved to the <a href="https://timelines.issarice.com">Timelines wiki</a> managed by Issa Rice (with some funding from me).

@@ -1,0 +1,9 @@
+I started out with creating <a href="http://groupprops.subwiki.org">Groupprops</a> in December 2006, while still an undergraduate. In March 2008, I purchased the <a href="http://subwiki.org">subwiki.org</a> domain name, and setup/installation of the subject wikis was done in May 2008. In 2013, the subject wikis received <strong>over one million pageviews</strong> and <strong>over one million viewer minutes</strong>, based on usage statistics tracked by Google Analytics. In 2014, the corresponding numbers were a little over 1.2 million.
+
+<ul>
+	<li>The full list of public subject wikis, along with page counts and usage statistics, is available <a href="https://subwiki.org/">here</a>.</li>
+	<li>The full history of subject wikis is available <a href="http://subwiki.org/wiki/Subwiki:History_of_subject_wikis">here</a>.</li>
+	<li>The <a href="http://blog.subwiki.org">Subject Wikis Blog</a> (not regularly updated) provides some insight into my initial thinking into the subject of subject wikis. You can read my initial blog posts on the <a href="http://blog.subwiki.org/2009/02/02/the-goal-of-subject-wikis/">goal</a> and <a href="http://blog.subwiki.org/2009/02/02/the-history-of-subject-wikis/">history</a>.</li>
+</ul>
+
+I have recently added the five most popular subject wikis to Quantcast Measure, so you should be able to see public data on usage patterns. The full list of public subject wikis includes links to their Quantcast Measure pages if they have Quantcast Measure activated. For instance, for Groupprops, you can get public data at <a href="https://www.quantcast.com/groupprops.subwiki.org">https://www.quantcast.com/groupprops.subwiki.org</a>.

@@ -1,0 +1,30 @@
+I mirror a lot of my activity on GitHub, mostly in the form of public repositories. I have two different ways of using GitHub, described below.
+
+<h4>Self-contained projects with a public-facing website</h4>
+
+These projects include a mix of code (to generate the public-facing website) and data (stored in a MySQL backend). The GitHub repository for the project includes all the code, as well as either the data itself, or code to generate the data.
+
+I have the following self-contained projects right now:
+
+<ul>
+	<li>Wikipedia Views, website <a href="https://wikipediaviews.org">wikipediaviews.org</a>, GitHub repository <a href="https://github.com/vipulnaik/wikipediaviews">wikipediaviews</a>. This makes it easy to look up Wikipedia views of multiple pages across multiple months and multiple drilldowns and languages. The project initially helped me keep track of views of pages I created. I am now using it to understand the <a href="https://github.com/vipulnaik/working-drafts/blob/master/wikipediaviews/revisiting-the-great-decline-in-wikipedia-pageviews.md">trends in Wikipedia pageviews on the whole</a>.</li>
+	<li>Contract work, website <a href="https://contractwork.vipulnaik.com">contractwork.vipulnaik.com</a>, GitHub repository <a href="https://github.com/vipulnaik/contractwork">contractwork</a>. This provides detailed information on contract work I have paid for, and helps third parties, the workers, and me better understand the work and its impact.</li>
+	<li>Donations, website <a href="https://donations.vipulnaik.com">donations.vipulnaik.com</a>, GitHub repository <a href="https://github.com/vipulnaik/donations">donations</a>. This is an attempt by me to gather public information on donations, ranging from foundation grants to individual donations, as well as information about donors, donees, and documents discussing related subjects.</li>
+	<li>BART, intended website <a href="http://bart.vipulnaik.com">bart.vipulnaik.com</a>, GitHub repository <a href="https://github.com/vipulnaik/bart">bart</a>. This is intended to include information on historical ridership, fares, and schedules for BART stations. It is low-priority right now (so I only work on it when I don't feel like doing anything else). Currently, I have uploaded ridership data into a database.</li>
+</ul>
+
+<h4>General content</h4>
+
+I use the GitHub repository <a href="https://github.com/vipulnaik/working-drafts">working-drafts</a> as a dump for all general content, including:
+
+<ul>
+	<li>Drafts and completed versions of blog posts and articles I write for venues like the Effective Altruism Forum, LessWrong, and my blog.</li>
+	<li>Drafts and completed versions of articles I am creating or editing on Wikipedia, wikiHow, the Timelines wiki, the Markets wiki, or other wikis.</li>
+	<li>Drafts of content I might publish some day, in an as yet undecided venue.</li>
+	<li>"Perpetual" drafts. This is supplemental content that I want to link people to but don't want to "formally" publish. An example is <a href="https://github.com/vipulnaik/working-drafts/blob/master/givewell/website-redesign-costs.md">website-redesign-costs.md</a> that I linked to from a <a href="https://www.facebook.com/vipulnaik.r/posts/10210743203232119">Facebook post</a> (mirrored <a href="https://github.com/vipulnaik/working-drafts/blob/master/givewell/website-redesign-costs-fb-post.txt">here</a>).</li>
+	<li>Facebook posts, comments on Facebook posts, comments on blog posts or articles, survey responses, or emails or messages I send to others, <em>only if</em> these required a decent amount of effort to draft and/or have sufficient substantive content to be worth recording publicly. Needless to say, sensitive, private, or confidential information is not included here.</li>
+</ul>
+
+By tracking my commits to this repository, you can get a fairly good idea of what I'm up to.
+
+I've started using working-drafts in this fashion in 2016. So content I created or edited before that will not be covered in working-drafts. Also, I make no claims to comprehensiveness; the canonical reference for my edits or updates in any particular forum is my contributions page on that forum, rather than working-drafts.
