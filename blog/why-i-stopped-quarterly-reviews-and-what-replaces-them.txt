@@ -22,9 +22,10 @@ My solution going forward is as follows:
 <ol>
 	<li>My recent activity: With a few stated exceptions (as described below), all my activity can be tracked by following me on GitHub. I explain this in more depth below. This is near-real-time, and provides a lot more granularity and insight.</li>
 	<li>Reach and impact metrics: I am working to make these available in publicly accessible locations, updated at approximately daily frequency, so that people can check them out any time.</li>
-	<li>Updates to beliefs and habits: I will publish these occasionally, at logically natural points, just as I occasionally publish blog posts or articles summarizing work I've been doing or key insights I've had.</li>
+	<li>Updates to beliefs and habits: I will publish these occasionally, at logically natural points, just as I occasionally publish blog posts or articles summarizing work I've been doing or key insights I've had. I don't try to pressure myself to do these; I write them quickly when the ideas are in my head.</li>
 </ol>
 
+Note: As I hint at right above, I try to write these "updates to beliefs and habits" posts quickly, without thinking through them too much. Otherwise they wouldn't pass a cost-benefit analysis for me. So I basically wrote the current post in one straight sitting of about three hours (which included a bunch of other website updates that were triggered by this draft). That might explain why this doesn't look like it has undergone editorial review and improvement.
 <h4>#1: Following my activity</h4>
 
 My activity is of roughly three kinds:
@@ -88,5 +89,3 @@ I want others, including my future self, to be able to easily figure out what I 
 Is this style of transparency actually more helpful to others? Yes and no. Because there is more information available in real time, in a more "computable" format (commit histories on GitHub, public website data at daily granularity), people can dig in much deeper than having to wait for a quarterly review. On the other hand, a quarterly review provides an important function of summarization, making it easier for a casual follower to get the big picture (as sumarized by me).
 
 In the longer run (and I thank Issa Rice for this insightful observation), I expect that the disadvantages of lack of hand-crafted summarization will be overcome by the advantages of more granular, computable, real time data. That's because more tools will become available for analysis and summarization of activity. These include some I might create myself, through code improvements in the projects, and general ones such as GitHub's activity graphs.
-
-PS: As I describe a few paragraphs above, I try to write these "updates to thoughts and habits" posts quickly, without thinking through them too much. Otherwise they wouldn't pass a cost-benefit analysis for me. So I basically wrote this post in one straight sitting of about three hours (which included a bunch of other website updates that were triggered by this draft). That might explain why this doesn't look like it has undergone editorial review and improvement.
