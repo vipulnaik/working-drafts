@@ -1,6 +1,6 @@
 {{group property}}
 
-{{variationof|simplicity}}
+{{variation of|simple group}}
 
 ==Definition==
 
