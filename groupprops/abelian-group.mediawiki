@@ -174,14 +174,18 @@ where <tt>group</tt> either defines the group or gives the name to a group previ
 {| class="sortable" border="1"
 ! Book !! Page number !! Chapter and section !! Contextual information !! View
 |-
-| {{booklink-defined-tabular|DummitFoote|17|Formal definition (definition as point (2) in general definition of group)|}}
+| {{booklink-defined-tabular|DummitFoote|17|Formal definition (definition as point (2) in general definition of group)|}} ||
 |-
-| {{booklink-defined-tabular|AlperinBell|2|1.1 (Rudiments of Group Theory/Review)|definition introduced in paragraph|https://books.google.com/books?id=EroGCAAAQBAJ&pg=PA2}}
+| {{booklink-defined-tabular|AlperinBell|2|1.1 (Rudiments of Group Theory/Review)|definition introduced in paragraph}} || [https://books.google.com/books?id=EroGCAAAQBAJ&pg=PA2 Google Books]
 |-
-| {{booklink-defined-tabular|Artin|42||definition introduced in paragraph (immediately after definition of group)|}}
-* {{booklink-defined-tabular|Herstein|28||Formal definition|}}
-* {{booklink-defined-tabular|RobinsonGT|2|1.1 (Binary Operations, Semigroups, and Groups)|formal definition|https://books.google.com/books?id=EroGCAAAQBAJ&pg=PA2}}
-* {{booklink-defined|FGTAsch|1|1.1 (Elementary group theory)|definition introduced in paragraph|https://books.google.com/books?id=BprbtnlI6HEC&pg=PA1}}
+| {{booklink-defined-tabular|Artin|42||definition introduced in paragraph (immediately after definition of group)}} ||
+|-
+| {{booklink-defined-tabular|Herstein|28||Formal definition}} ||
+|-
+| {{booklink-defined-tabular|RobinsonGT|2|1.1 (Binary Operations, Semigroups, and Groups)|formal definition}} || [https://books.google.com/books?id=EroGCAAAQBAJ&pg=PA2 Google Books]
+|-
+| {{booklink-defined-tabular|FGTAsch|1|1.1 (Elementary group theory)|definition introduced in paragraph}} || [https://books.google.com/books?id=BprbtnlI6HEC&pg=PA1 Google Books]
+|}
 
 ==External links==
 
