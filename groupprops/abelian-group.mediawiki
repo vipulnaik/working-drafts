@@ -98,12 +98,6 @@ The maximal abelian quotient of any group is termed its [[abelianization]], and 
 | [[satisfies metaproperty::direct product-closed group property]] || Yes || [[abelianness is direct product-closed]] || Suppose <math>G_i, i \in I</math>, are abelian groups. Then, the external direct product <math>\prod_{i \in I} G_i</math> is also abelian.
 |}
 
-==Formalisms==
-
-{{obtainedbyapplyingthe|diagonal-in-square operator|normal subgroup}}
-
-A group <math>G</math> is an abelian group if and only if, in the [[external direct product]] <math>G \times G</math>, the diagonal subgroup <math>\{ (g,g) \mid g \in G \}</math> is a [[normal subgroup]].
-
 ==Relation with other properties==
 
 ===Stronger properties===
@@ -143,6 +137,12 @@ A group <math>G</math> is an abelian group if and only if, in the [[external dir
 
 * [[Supersolvable group]] is a group that has a [[normal series]] where all the successive quotient groups are [[cyclic group]]s. An abelian group is supersolvable if and only if it is [[finitely generated abelian group|finitely generated]].
 * [[Polycyclic group]] is a group that has a [[subnormal series]] where all the successive quotent groups are [[cyclic group]]s. An abelian group is polycyclic if and only if it is finitely generated.
+
+==Formalisms==
+
+{{obtainedbyapplyingthe|diagonal-in-square operator|normal subgroup}}
+
+A group <math>G</math> is an abelian group if and only if, in the [[external direct product]] <math>G \times G</math>, the diagonal subgroup <math>\{ (g,g) \mid g \in G \}</math> is a [[normal subgroup]].
 
 ==Testing==
 
