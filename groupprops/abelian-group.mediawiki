@@ -109,11 +109,11 @@ The maximal abelian quotient of any group is termed its [[abelianization]], and 
 |-
 | [[weaker than::homocyclic group]] || direct product of isomorphic cyclic groups || || {{strictness examples|abelian group|homocyclic group}} || {{intermediate notions short|abelian group|homocyclic group}}||
 |-
-| [[Weaker than::residually cyclic group]] || every non-identity element is outside a normal subgroup with a cyclic quotient group || || {{strictness examples|abelian group|residually cyclic group}} || {{intermediate notions short|abelian group|residually cyclic group}}
+| [[Weaker than::residually cyclic group]] || every non-identity element is outside a normal subgroup with a cyclic quotient group || || {{strictness examples|abelian group|residually cyclic group}} || {{intermediate notions short|abelian group|residually cyclic group}} ||
 |-
-| [[Weaker than::locally cyclic group]] || every finitely generated subgroup is cyclic || || {{strictness examples|abelian group|locally cyclic group}} || {{intermediate notions short|abelian group|locally cyclic group}}
+| [[Weaker than::locally cyclic group]] || every finitely generated subgroup is cyclic || || {{strictness examples|abelian group|locally cyclic group}} || {{intermediate notions short|abelian group|locally cyclic group}} ||
 |-
-| [[Weaker than::epabelian group]] || abelian group whose exterior square is the trivial group || || {{strictness examples|abelian group|epabelian group}} || {{intermediate notions short|abelian group|epabelian group}}
+| [[Weaker than::epabelian group]] || abelian group whose exterior square is the trivial group || || {{strictness examples|abelian group|epabelian group}} || {{intermediate notions short|abelian group|epabelian group}} ||
 |-
 | [[weaker than::finite abelian group]] || abelian and a [[finite group]] || || {{strictness examples|abelian group|finite group}} || {{intermediate notions short|abelian group|finite abelian group}}||
 |-
@@ -131,6 +131,10 @@ The maximal abelian quotient of any group is termed its [[abelianization]], and 
 | [[stronger than::metabelian group]] || has [[abelian normal subgroup]] with abelian quotient group || || {{strictness examples|metabelian group|abelian group}} || {{intermediate notions short|metabelian group|abelian group}}
 |-
 | [[stronger than::virtually abelian group]] || has abelian subgroup of finite index || || {{strictness examples|virtually abelian group|abelian group}} || {{intermediate notions short|virtually abelian group|abelian group}}
+|-
+| [[stronger than::FZ-group]] || center has finite index || || {{strictness examples|FZ-group|abelian group}} || {{intermediate notions short|FZ-group|abelian group}}
+|-
+| [[stronger than::FC-group]] || every conjugacy class is finite || || {{strictness examples|FC-group|abelian group}} || {{intermediate notions short|FC-group|abelian group}}
 |}
 
 ===Incomparable properties===
