@@ -1,0 +1,195 @@
+{{basicdef}}
+
+{{pivotal group property}}
+
+==History==
+
+===Origin of the term===
+
+The term '''abelian group''' comes from Niels Henrick Abel, a mathematician who worked with groups even before the formal theory was laid down, in order to prove unsolvability of the quintic.
+
+The word ''abelian'' is usually begun with a small ''a''.
+
+{{quotation|'''wikinote''': Some older content on the wiki uses capital A for Abelian. We're trying to update this content.}} 
+
+<section begin=beginner/>
+==Definition==
+
+An '''abelian group''' is a [[group]] where any two elements commute. In symbols, a [[group]] <math>G</math> is termed '''abelian''' if for any elements <math>x</math> and <math>y</math> in <math>G</math>, <math>xy = yx</math> (here <math>xy</math> denotes the product of <math>x</math> and <math>y</math> in <math>G</math>). Note that <math>x,y</math> are allowed to be equal, though equal elements commute anyway, so we can restrict attention if we wish to unequal elements.
+
+<center>{{#widget:YouTube|id=uMVm9oSoa6A}}</center>
+
+<section end=beginner/>
+
+===Full definition===
+
+An '''abelian group''' is a set <math>G</math> equipped with a (infix) binary operation <math>+</math> (called the addition or group operation), an identity element <math>0</math> and a (prefix) unary operation <math>-</math>, called the inverse map or negation map, satisfying the following:
+
+* For any <math>a,b,c \in G</math>, <math>a + (b + c) = (a + b) + c</math>. This property is termed [[associativity]].
+* For any <math>a \in G</math>, <math>a + 0 = 0 + a = a</math>. <math>0</math> thus plays the role of an additive [[identity element]] or [[neutral element]].
+* For any <math>a \in G</math>, <math>a + (-a) = (-a) + a = 0</math>. Thus, <math>-a</math> is an [[inverse element]] to <math>a</math> with respect to <math>+</math>.
+* For any <math>a,b \in G</math>, <math>a + b = b + a</math>. This property is termed [[commutativity]].
+
+===Equivalent formulations===
+
+A group <math>G</math> is termed abelian if it satisfies the following equivalent conditions:
+
+* Its [[defining ingredient::center]] <math>Z(G)</math> is the whole group.
+* Its [[defining ingredient::derived subgroup]] <math>G' = [G,G]</math> is trivial.
+* (Choose a generating set <math>S</math> for <math>G</math>). For any elements <math>a,b \in S</math>, <math>ab = ba</math>.
+<section begin=beginner/>
+
+==Notation==
+
+When <math>G</math> is an abelian group, we typically use ''additive'' notation and terminology. Thus, the group multiplication is termed ''addition'' and the product of two elements is termed the ''sum''. 
+
+# The infix operator <math>+</math> is used for the group multiplication, so the sum of two elements <math>a</math> and <math>b</math> is denoted by <math>a + b</math>. The group multiplication is termed ''addition'' and the product of two elements is termed the ''sum''. 
+# The identity element is typically denoted as <math>0</math> and termed ''zero''
+# The inverse of an element is termed its ''negative'' or ''additive inverse''. The inverse of <math>a</math> is denoted <math>-a</math>
+# <math>a + a + \ldots + a</math> done <math>n</math> times is denoted <math>na</math>, (where <math>n \in \mathbb{N}</math>) while <math>(-a) + (-a) + (-a) + \ldots + (-a)</math> done <math>n</math> times is denoted <math>(-n)a</math>.
+
+This convention is typically followed in a situation where we are dealing with the abelian group <math>G</math> in isolation, rather than as a subgroup of a possibly non-abelian group. If we are working with subgroups in a non-abelian group, we typically use multiplicative notation even if the subgroup happens to be abelian.
+
+==Examples==
+
+{{group property see examples}}
+
+===Some infinite examples===
+
+The additive group of integers <math>\mathbb{Z}</math>, the additive group of rational numbers <math>\mathbb{Q}</math>, the additive group of real numbers <math>\mathbb{R}</math>, the multiplicative group of nonzero rationals <math>\mathbb{Q}^*</math>, and the multiplicative group of nonzero real numbers <math>\mathbb{R}^*</math> are some examples of Abelian groups.
+
+(More generally, for any field, the additive group, and the multiplicative group of nonzero elements, are Abelian groups).
+<section end=beginner/>
+<section begin=revisit/>
+===Finite examples===
+[[Cyclic group]]s are good examples of abelian groups, where the cyclic group of order <math>n</math> is the group of integers modulo <math>n</math>. 
+
+Further, any direct product of cyclic groups is also an abelian group. Further, every [[finitely generated group|finitely generated]] Abelian group is obtained this way. This is the famous [[structure theorem for finitely generated abelian groups]].
+
+The structure theorem can be used to generate a complete listing of finite abelian groups, as described here: [[classification of finite Abelian groups]].
+
+===Non-examples===
+
+Not every group is abelian. The smallest non-abelian group is [[symmetric group:S3|the symmetric group on three letters]]: the group of all permutations on three letters, under composition. Its being non-abelian hinges on the fact that the order in which permutations are performed, matters.
+<section end=revisit/>
+
+==Facts==
+
+===Occurrence as subgroups===
+
+Every [[cyclic group]] is abelian. Since each group is generated by its cyclic subgroups, every group is generated by a family of abelian subgroups. A trickier question is: do there exist abelian [[normal subgroup]]s? A good candidate for an abelian normal subgroup is the [[center]], which is the collection of elements of the group that commute with ''every'' element of the group.
+
+===Occurrence as quotients===
+
+The maximal abelian quotient of any group is termed its [[abelianization]], and this is the quotient by the [[commutator subgroup]]. A subgroup is an [[abelian-quotient subgroup]] (i.e., normal with abelian quotient group) if and only if the subgroup contains the commutator subgroup.
+
+==Metaproperties==
+
+{| class="sortable" border="1"
+! Metaproperty name !! Satisfied? !! Proof !! Statement with symbols
+|-
+| [[satisfies metaproperty::varietal group property]] || Yes || || The collection of abelian groups forms a subvariety of the variety of groups. In particular, it is closed under taking subgroups, quotients, and arbitrary direct products
+|-
+| [[satisfies metaproperty::subgroup-closed group property]] || Yes || [[abelianness is subgroup-closed]] || If <math>G</math> is an abelian group and <math>H</math> is a subgroup of <math>G</math>, then <math>H</math> is abelian.
+|-
+| [[satisfies metaproperty::quotient-closed group property]] || Yes || [[abelianness is quotient-closed]] || If <math>G</math> is an abelian group and <math>H</math> is a normal subgroup of <math>G</math>, the [[quotient group]] <math>G/H</math> is abelian.
+|-
+| [[satisfies metaproperty::direct product-closed group property]] || Yes || [[abelianness is direct product-closed]] || Suppose <math>G_i, i \in I</math>, are abelian groups. Then, the external direct product <math>\prod_{i \in I} G_i</math> is also abelian.
+|}
+
+==Formalisms==
+
+{{obtainedbyapplyingthe|diagonal-in-square operator|normal subgroup}}
+
+A group <math>G</math> is an abelian group if and only if, in the [[external direct product]] <math>G \times G</math>, the diagonal subgroup <math>\{ (g,g) \mid g \in G \}</math> is a [[normal subgroup]].
+
+==Relation with other properties==
+
+===Stronger properties===
+
+{| class="sortable" border="1"
+! Property !! Meaning !! Proof of implication !! Proof of strictness (reverse implication failure) !! Intermediate notions !! Comparison
+|-
+| [[weaker than::cyclic group]] || generated by one element || [[cyclic implies abelian]] || [[abelian not implies cyclic]] {{strictness examples|abelian group|cyclic group}} || {{intermediate notions short|abelian group|cyclic group}} ||
+|-
+| [[weaker than::homocyclic group]] || direct product of isomorphic cyclic groups || || {{strictness examples|abelian group|homocyclic group}} || {{intermediate notions short|abelian group|homocyclic group}}||
+|-
+| [[Weaker than::residually cyclic group]] || every non-identity element is outside a normal subgroup with a cyclic quotient group || || {{strictness examples|abelian group|residually cyclic group}} || {{intermediate notions short|abelian group|residually cyclic group}}
+|-
+| [[Weaker than::locally cyclic group]] || every finitely generated subgroup is cyclic || || {{strictness examples|abelian group|locally cyclic group}} || {{intermediate notions short|abelian group|locally cyclic group}}
+|-
+| [[Weaker than::epabelian group]] || abelian group whose exterior square is the trivial group || || {{strictness examples|abelian group|epabelian group}} || {{intermediate notions short|abelian group|epabelian group}}
+|-
+| [[weaker than::finite abelian group]] || abelian and a [[finite group]] || || {{strictness examples|abelian group|finite group}} || {{intermediate notions short|abelian group|finite abelian group}}||
+|-
+| [[weaker than::finitely generated abelian group]] || abelian and a [[finitely generated group]] || || {{strictness examples|abelian group|finitely generated group}} || {{intermediate notions short|abelian group|finitely generated abelian group}}||
+|}
+
+===Weaker properties===
+{| class="sortable" border="1"
+! Property !! Meaning !! Proof of implication !! Proof of strictness (reverse implication failure) !! Intermediate notions 
+|-
+| [[stronger than::nilpotent group]] || [[lower central series]] reaches identity, [[upper central series]] reaches whole group || [[abelian implies nilpotent]] || [[nilpotent not implies abelian]] {{strictness examples|nilpotent group|abelian group}} || {{intermediate notions short|nilpotent group|abelian group}}
+|-
+| [[stronger than::solvable group]] || [[derived series]] reaches identity, has [[normal series]] with abelian factor groups || [[abelian implies solvable]] || [[solvable not implies abelian]] {{strictness examples|solvable group|abelian group}} || {{intermediate notions short|solvable group|abelian group}}
+|-
+| [[stronger than::metabelian group]] || has [[abelian normal subgroup]] with abelian quotient group || || {{strictness examples|metabelian group|abelian group}} || {{intermediate notions short|metabelian group|abelian group}}
+|-
+| [[stronger than::virtually abelian group]] || has abelian subgroup of finite index || || {{strictness examples|virtually abelian group|abelian group}} || {{intermediate notions short|virtually abelian group|abelian group}}
+|}
+
+===Incomparable properties===
+
+* [[Supersolvable group]] is a group that has a [[normal series]] where all the successive quotient groups are [[cyclic group]]s. An abelian group is supersolvable if and only if it is [[finitely generated abelian group|finitely generated]].
+* [[Polycyclic group]] is a group that has a [[subnormal series]] where all the successive quotent groups are [[cyclic group]]s. An abelian group is polycyclic if and only if it is finitely generated.
+
+==Testing==
+
+===The testing problem===
+
+{{further|[[Abelianness testing problem]]}}
+
+The abelianness testing problem is the problem of testing whether a group (described using some [[group description rule]], such as an [[encoding of a group]] or a [[multi-encoding of a group]]) is abelian.
+
+Algorithms for the abelianness testing problem range from the [[brute-force black-box group algorithm for abelianness testing]] (that involves testing for ''every'' pair of elements whether they commute, and is quadratic in the order of the group) to the [[generating set-based black-box group algorithm for abelianness testing]] (that involves testing only on a generating set, and is quadratic in the size of the generating set).
+
+{{GAP command for gp|
+test = IsAbelian|
+class = AbelianGroups}}
+
+To test whether a group is abelian, the GAP syntax is:
+
+<tt>IsAbelian (group)</tt>
+
+where <tt>group</tt> either defines the group or gives the name to a group previously defined.
+
+==Study of this notion==
+
+{{msc class|20K}}
+
+==References==
+===Textbook references===
+
+{| class="sortable" border="1"
+! Book !! Page number !! Chapter and section !! Contextual information !! View
+|-
+| {{booklink-defined-tabular|DummitFoote|17|Formal definition (definition as point (2) in general definition of group)|}}
+|-
+| {{booklink-defined-tabular|AlperinBell|2|1.1 (Rudiments of Group Theory/Review)|definition introduced in paragraph|https://books.google.com/books?id=EroGCAAAQBAJ&pg=PA2}}
+|-
+| {{booklink-defined-tabular|Artin|42||definition introduced in paragraph (immediately after definition of group)|}}
+* {{booklink-defined-tabular|Herstein|28||Formal definition|}}
+* {{booklink-defined-tabular|RobinsonGT|2|1.1 (Binary Operations, Semigroups, and Groups)|formal definition|https://books.google.com/books?id=EroGCAAAQBAJ&pg=PA2}}
+* {{booklink-defined|FGTAsch|1|1.1 (Elementary group theory)|definition introduced in paragraph|https://books.google.com/books?id=BprbtnlI6HEC&pg=PA1}}
+
+==External links==
+
+===Definition links===
+
+* {{wp-defined|Abelian group}}
+* {{planetmath-defined|AbelianGroup2}}
+* {{mathworld|AbelianGroup}}
+* {{sor-defined|A/a010230.htm}}
+
+===Perspective links===
+* {{chapman|Abelian_groups}}
