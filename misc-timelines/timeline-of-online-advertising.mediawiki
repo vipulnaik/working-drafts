@@ -101,6 +101,23 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |[[wikipedia:DoubleClick|DoubleClick]], a prominent online advertising company, launches.<ref name=":3" /><ref>{{Cite web|url=http://www.bloomberg.com/research/stocks/private/snapshot.asp?privcapid=27707|title=DoubleClick Inc.: Private Company Information - Bloomberg|website=www.bloomberg.com|access-date=2017-02-09}}</ref> DoubleClick uses the new technology of browser cookies to track users as they travel between websites.<ref name=adbrain-retargeting>{{cite web|url = http://www.adbrain.com/blog/a-brief-history-of-retargeting/|title = A Brief History of Retargeting Cross-Device|date = July 28, 2015|accessdate = April 3, 2017|publisher = AdBrain|last = Hallward|first = Derek}}</ref>
 |-
 |1996
+|March
+|Launch
+|Web-ring advertising
+|[[wikipedia:LinkExchange|LinkExchange]] is founded by [[wikipedia:Tony Hsieh|Tony Hsieh]] (who would later become CEO of Zappos) and [[wikipedia:Sanjay Madan]].<ref>{{cite web
+ |url= http://ibconsultants.com.au/wp-content/uploads/2015/06/Running-Your-Own-Show.pdf
+ |title= The American Dream: Running Your Own Show
+ |first= Perla |last= Ni |date= May 27, 1999
+ |publisher= [[AsianWeek]]
+}}</ref> [[Ali Partovi]] later joined them as a third partner in August 1996.<ref>{{cite web|title=Ali Partovi on LinkedIn|url=https://www.linkedin.com/in/apartovi|publisher=LinkedIn|accessdate=10 July 2015}}</ref> In November 1996, when the company consisted of about 10 people, it moved from Hsieh's and Madan's living room to an office<ref>{{cite web
+ |url= http://linkexchange.com/compinfo/comp_index.html
+ |title= Company Info
+ |publisher= LinkExchange.com
+ |archiveurl= https://web.archive.org/web/19980128015233/linkexchange.com/compinfo/comp_index.html
+ |archivedate= January 28, 1998
+}}</ref>
+|-
+|1996
 |June
 |Launch
 |Demand-side platform
@@ -111,6 +128,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Launch, Milestone
 |[[wikipedia:Search advertising|Search advertising]]
 |Yahoo! launches the very first search ads in their search engine.<ref>{{Cite web|url=http://www.adweek.com/news/technology/heres-timeline-showing-20-years-after-banner-ad-161000|title=20 Years of Digital Advertising: From Banner Ads to Sponsored Snapchats|last=Heine|first=Christopher|date=27 October 2014|website=Adweek|publisher=Adweek|access-date=6 January 2017}}</ref>
+|-
+|1997
+|
+|Launch
+|Ad serving
+|[[wikipedia:aQuantive|aQuantive]] launches.<ref>{{cite web|url = http://www.zdnet.com/article/aquantive-who-are-these-guys/|title = aQuantive: Who are these guys? The instant messages and emails about Microsoft's $6 billion purchase of aQuantive go something like this: Whoa that's a big deal. I'd hate to be short aQuantive.|last = Dignan|first = Larry|date = May 18, 2007|accessdate = April 13, 2017|publisher = ''[[wikipedia:ZDNet|ZDNet]]''}}</ref>
 |-
 |1997
 |
@@ -190,6 +213,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Search advertising
 |Overture (formerly GoTo) is acquired by Yahoo! to enrich their search engine.<ref>{{Cite web|url=https://web.archive.org/web/20080331051159/http://yhoo.client.shareholder.com/press/ReleaseDetail.cfm?ReleaseID=119477|title=Yahoo! Inc. - Press Release|date=2008-03-31|access-date=2017-01-07}}</ref>
 |-
+|2003
+|December 15
+|Acquisition
+|Search advertising
+|aQuantive acquires Go Toast, a Denver-based pay-per-click online search technology company.<ref>{{cite web|url = http://www.bizjournals.com/denver/stories/2003/12/15/daily12.html|title = AQuantive buys Denver paid-search firm|date = December 16, 2003|accessdate = April 13, 2017|publisher = Puget Sound Business Journal}}</ref><ref>{{cite web|url = https://www.clickz.com/aquantive-acquires-go-toast/78760/|title = aQuantive Acquires Go Toast|last = Parker|first = Pamela|date = December 15, 2003|accessdate = April 13, 2017}}</ref><ref name=ad-tech-acquisition-history/>
+|-
 |2004
 |February
 |Launch
@@ -242,7 +271,7 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |
 |Invention, Launch, Milestone
 |[[wikipedia:Ad blocking|Ad blocking]]
-|[[wikipedia:Adblock Plus|Adblock]], a very prominent ad-blocking add-on for [[wikipedia:web browser|web browser]]s, is released.<ref>{{Cite web|url=https://adblockplus.org/en/about|title=About Adblock Plus|website=adblockplus.org|access-date=2017-01-12}}</ref>
+|[[wikipedia:Adblock Plus|Adblock Plus]], a very prominent ad-blocking add-on for [[wikipedia:web browser|web browser]]s, is released.<ref>{{Cite web|url=https://adblockplus.org/en/about|title=About Adblock Plus|website=adblockplus.org|access-date=2017-01-12}}</ref>
 |-
 |2006
 |
@@ -290,7 +319,7 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |May 18
 |Acquisition
 |Ad serving
-|Microsoft acquires [[wikipedia:AQuantive|AQuantive]], an advertising platform, for $6.5 billion.<ref>{{Cite web|url=http://news.microsoft.com/2007/05/18/microsoft-to-acquire-aquantive-inc/|title=Microsoft to Acquire aQuantive, Inc. {{!}} News Center|website=news.microsoft.com|access-date=2017-01-07}}</ref><ref name=":6">{{Cite news|url=http://adage.com/article/digitalnext/facebook-s-atlas-means-brands-agencies/295293/|title=What Facebook's Atlas Means for Brands and Agencies|access-date=2017-01-07}}</ref>
+|Microsoft acquires [[wikipedia:AQuantive|AQuantive]], an advertising platform, for $6.5 billion. This includes Atlas DMT, the advertising technology division.<ref>{{Cite web|url=http://news.microsoft.com/2007/05/18/microsoft-to-acquire-aquantive-inc/|title=Microsoft to Acquire aQuantive, Inc. {{!}} News Center|website=news.microsoft.com|access-date=2017-01-07}}</ref><ref name=":6">{{Cite news|url=http://adage.com/article/digitalnext/facebook-s-atlas-means-brands-agencies/295293/|title=What Facebook's Atlas Means for Brands and Agencies|access-date=2017-01-07}}</ref>
 |-
 |2007
 |July 23
@@ -439,7 +468,7 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Native advertising
 |Viral content publisher [[wikipedia:BuzzFeed|BuzzFeed]] launches its advertising page, inviting brands to run viral advertising campaigns on BuzzFeed.<ref>{{cite web|url = http://www.buzzfeed.com/help/advertising|archiveurl = https://web.archive.org/web/20111111001836/http://www.buzzfeed.com/help/advertising|archivedate = November 11, 2011|title = Help / Advertising and Partnerships|publisher = [[wikipedia:BuzzFeed|BuzzFeed]]}}</ref> (Note: the archived link is from November 11; the date of November 4 comes from Google Search snippet).
 |-
-|2012
+|2011
 |December 20
 |Launch
 |Social media advertising
@@ -450,6 +479,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Launch
 |Real-time bidding standard
 |OpenRTB 2.0, a specification for [[wikipedia:real-time bidding|real-time bidding]] (RTB), is released.<ref>{{cite web|url = https://www.iab.com/guidelines/real-time-bidding-rtb-project/|title = Real-Time Bidding (RTB) Project: OpenRTB 2.5|publisher = [[wikipedia:Interactive Advertising Bureau|Interactive Advertising Bureau]]|accessdate = April 3, 2017}}</ref>
+|-
+|2012
+|July 12
+|Write-off
+|Ad serving
+|Microsoft writes off the value of its aQuantive acquisition, leading to post-mortems regarding what went wrong with the acquisition.<ref>{{cite web|url = http://www.geekwire.com/2012/writedown-microsoft-squandered-62b-purchase-ad-giant-aquantive/|title = After the writedown: How Microsoft squandered its $6.3B buy of ad giant aQuantive|date = July 12, 2012|accessdate = April 13, 2017|publisher = GeekWire}}</ref>
 |-
 |2012
 |
