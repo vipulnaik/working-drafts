@@ -206,6 +206,7 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Launch
 |Ad exchange
 |[[wikipedia:Right Media|Right Media]], the company that operates the Right Media Exchange (RMX) launches.<ref>{{cite web|url=http://whois.domaintools.com/rightmedia.com|title=RightMedia.com WHOIS, DNS, & Domain Info - DomainTools|work=[[WHOIS]]|date= |accessdate=2016-07-19}}</ref> It would eventually be acquired by [[wikipedia:Yahoo!|Yahoo!]].<ref name=yahoo-rmx-acquisition>{{cite web|last=Auchard|first=Eric|title=Yahoo to buy rest of Right Media for $680 mln|url=http://www.reuters.com/article/2007/04/30/us-rightmedia-yahoo-idUSN3037037520070430|publisher=Reuters|accessdate=April 30, 2007}}</ref>
+|-
 |2003
 |April 23
 |Acquisition
@@ -313,6 +314,7 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Acquisition
 |Ad exchange
 |Yahoo! acquires Right Media, the company behind the Right Media Exchange (RMX).<ref name=yahoo-rmx-acquisition/>
+|-
 |2007
 |May 1
 |Launch
@@ -584,7 +586,7 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |November 2
 |New feature
 |Ad serving
-|Google DFP launches First Look, to allow buyers to access high-value users early on, and allow publishers to bring in high-value inventory at a higher priority than reserved impressions. Commentators view this as Google's answer to header bidding.<ref>{{cite web|url = https://adexchanger.com/ad-exchange-news/google-is-beta-testing-its-answer-to-header-bidding-called-dfp-first-look/|title = Google Is Beta Testing Its Answer To Header Bidding, Called 'DFP First Look'|date = November 2, 2015|accessdate = April 3, 2017|publisher AdExchanger}}</ref>
+|Google DFP launches First Look, to allow buyers to access high-value users early on, and allow publishers to bring in high-value inventory at a higher priority than reserved impressions. Commentators view this as Google's answer to header bidding.<ref>{{cite web|url = https://adexchanger.com/ad-exchange-news/google-is-beta-testing-its-answer-to-header-bidding-called-dfp-first-look/|title = Google Is Beta Testing Its Answer To Header Bidding, Called 'DFP First Look'|date = November 2, 2015|accessdate = April 3, 2017|publisher = AdExchanger}}</ref>
 |-
 |2016
 |April 13
