@@ -202,6 +202,11 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Google launches its Content-Targeted Advertising Program, that would later be renamed [[wikipedia:AdSense|AdSense]]. The advertisements come from [[wikipedia:AdWords|AdWords]] advertisers, but rather than being related to the user's search intent, they are related to the content of the page..<ref>{{cite web|last=Matt |first=Cutts |title=Google Guy |url=http://www.webmasterworld.com/forum81/376.htm |publisher=Web Master World |deadurl=yes |archiveurl=https://web.archive.org/web/20140304190508/http://www.webmasterworld.com/forum81/376.htm |archivedate=2014-03-04 |df= }}</ref>
 |-
 |2003
+|March 30
+|Launch
+|Ad exchange
+|[[wikipedia:Right Media|Right Media]], the company that operates the Right Media Exchange (RMX) launches.<ref>{{cite web|url=http://whois.domaintools.com/rightmedia.com|title=RightMedia.com WHOIS, DNS, & Domain Info - DomainTools|work=[[WHOIS]]|date= |accessdate=2016-07-19}}</ref> It would eventually be acquired by [[wikipedia:Yahoo!|Yahoo!]].<ref name=yahoo-rmx-acquisition>{{cite web|last=Auchard|first=Eric|title=Yahoo to buy rest of Right Media for $680 mln|url=http://www.reuters.com/article/2007/04/30/us-rightmedia-yahoo-idUSN3037037520070430|publisher=Reuters|accessdate=April 30, 2007}}</ref>
+|2003
 |April 23
 |Acquisition
 |Content-targeted advertising
@@ -304,6 +309,11 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Google acquires [[wikipedia:DoubleClick|DoubleClick]], an advertising platform, for $3.1 billion.<ref>{{Cite news|url=https://www.nytimes.com/2007/04/14/technology/14DoubleClick.html|title=Google Buys DoubleClick for $3.1 Billion|last=Story|first=Louise|date=2007-04-14|last2=Helft|first2=Miguel|newspaper=The New York Times|issn=0362-4331|access-date=2017-01-13}}</ref>
 |-
 |2007
+|April 30
+|Acquisition
+|Ad exchange
+|Yahoo! acquires Right Media, the company behind the Right Media Exchange (RMX).<ref name=yahoo-rmx-acquisition/>
+|2007
 |May 1
 |Launch
 |Ad serving
@@ -380,6 +390,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Launch
 |Ad exchange
 |Google launches its own ad exchange platform with DoubleClick.<ref>{{Cite news|url=https://www.bloomberg.com/news/articles/2009-09-18/google-launches-doubleclick-ad-exchange|title=Google Launches DoubleClick Ad Exchange|date=2009-09-18|newspaper=Bloomberg.com|access-date=2017-01-13}}</ref>
+|-
+|2009
+|October 1
+|Launch
+|Demand-side platform
+|'''The Trade Desk''', a technology company that operates a demand-side platform, launches.<ref>{{cite web|url = https://www.crunchbase.com/organization/the-trade-desk|title = The Trade Desk|publisher = [[wikipedia:CrunchBase|CrunchBase]]|accessdate = April 14, 2017}}</ref>
 |-
 |2009
 |November 9
@@ -485,6 +501,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Write-off
 |Ad serving
 |Microsoft writes off the value of its aQuantive acquisition, leading to post-mortems regarding what went wrong with the acquisition.<ref>{{cite web|url = http://www.geekwire.com/2012/writedown-microsoft-squandered-62b-purchase-ad-giant-aquantive/|title = After the writedown: How Microsoft squandered its $6.3B buy of ad giant aQuantive|date = July 12, 2012|accessdate = April 13, 2017|publisher = GeekWire}}</ref>
+|-
+|2012
+|October 2
+|Launch
+|Demand-side platform
+|[[wikipedia:Amazon.com|Amazon.com]] announces its advertising ambitions at Advertising Week. This includes building out the Amazon Advertising Platform (AAP) into a full-fledged demand-side platform, and opening it up to agencies.<ref>{{cite web|url = http://adage.com/article/special-report-advertising-week/amazon-breaks-silence-ad-ambitions-advertising-week-foray/237546/|title = Amazon Breaks Silence on Ad Ambitions in Advertising Week Foray. A Coming-Out Party for Tech's Newest Entrant Into Ad Biz|last = Learmonth|first = Michael|date = October 2, 2012|accessdate = April 14, 2017|publisher=''[[wikipedia:Advertising age|Advertising age]]''}}</ref> Commentators note the huge potential of Amazon's rich data on people's purchase intent and interest in powering targeted advertising.<ref>{{cite web|url = https://www.wired.com/2012/10/amazon-next-advertising-giant/|title = Amazon’s Next Big Business Is Selling You|last = Wohlsen|first = Marcus|date = October 16, 2012|accessdate = April 14, 2017|publisher = ''[[wikipedia:Wired Magazine|Wired Magazine]]}}</ref><ref>{{cite web|url = http://www.adweek.com/digital/amazon-advertisings-sleeping-giant-awaken-2013-145964/|title = Amazon, Advertising’s Sleeping Giant, to Awaken in 2013. E-commerce behemoth preps self-serve RTB platform|last = Peterson|first = Tim|date = December 17, 2012|accessdate = April 14, 2017|publisher = ''[[wikipedia:Adweek|Adweek]]''}}</ref>
 |-
 |2012
 |
