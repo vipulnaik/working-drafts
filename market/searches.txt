@@ -1,0 +1,17 @@
+Posted at https://www.facebook.com/vipulnaik.r/posts/10211636783251061
+
+What kinds of web searches do you or would you do* to explore and understand how economic theory applies to topics you are interested in?
+
+My impression is that the level of economic theory that's needed to answer interesting real-world questions is often just a tad bit higher than the basic "Econ 101" level that people who have a basic econ grounding are usually familiar with. Kinds of things I have in mind are:
+
+- You remember the supply-demand logic for some argument (like "taxes impose deadweight losses") under perfect competition assumptions, but are wondering how that affects the long run, or how that plays out in cases of monopoly, or heterogeneous markets (like housing)
+
+- You remember some theoretical construct (like the demand curve) and are wondering what that looks like empirically in a specific market, or how it's empirically estimated.
+
+- You've read something about some behavioral econ idea and are wondering just what aspects of Econ 101 get modified by it.
+
+- You know about some market failure mode but are wondering just what the efficiency analysis of the intervention to solve it looks like, and how issues of regulatory capture/government failure would affect that analysis.
+
+I'm envisaging cases where you don't necessarily want to dive into a full-fledged research paper at the cutting edge, just a reasonable level of information that you can read to update your overall mental model, with more depth optionally available if you want to cross-check.
+
+*This could be searches you do right now, or searches you might do if you had higher confidence that there would be a resource with the information you are looking for.
