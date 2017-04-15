@@ -7,17 +7,26 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 !Decade
 !Description
 |-
-|Late 1970s–
-1980s
-|Much of online advertising during this time period is done through [[wikipedia:Email|Email]], in the form of [[wikipedia:spamming|spamming]].<ref name=":1">{{Cite web|url=http://www.templetons.com/brad/spam/spam25.html|title=Reflections on the 25th Anniversary of Spam|website=www.templetons.com|access-date=2017-01-07}}</ref> Such activities have continued to this day, but became much more common after the ban against the commercial use of the internet was lifted in 1991.<ref name=":2">{{Cite web|url=http://www.livinginternet.com/i/ii_nsfnet.htm|title=NSFNET - The Internet Launching Pad|website=www.livinginternet.com|access-date=2017-01-07}}</ref>
+|1978–1992
+|This era pre-dates the World Wide Web. Much of online advertising during this time period is done through [[wikipedia:Email|Email]], in the form of [[wikipedia:spamming|spamming]].<ref name=":1">{{Cite web|url=http://www.templetons.com/brad/spam/spam25.html|title=Reflections on the 25th Anniversary of Spam|website=www.templetons.com|access-date=2017-01-07}}</ref> Such activities have continued to this day, but became much more common after the ban against the commercial use of the internet was lifted in 1991.<ref name=":2">{{Cite web|url=http://www.livinginternet.com/i/ii_nsfnet.htm|title=NSFNET - The Internet Launching Pad|website=www.livinginternet.com|access-date=2017-01-07}}</ref>
 |-
-|1990s–
-2000s
-|With people now having their own websites, [[wikipedia:banner ads|banner ads]] are used as a source of income to pay for these websites and as side money. Companies like [[wikipedia:Prodigy (online service)|Prodigy]], [[wikipedia:Global Network Navigator|Global Network Navigator]] (GNN), and [[wikipedia:HotWired|HotWired]] are pioneers in the business of online advertising.<ref name=":0">{{Cite web|url=http://www.vantagelocal.com/history-of-online-display-advertising-2/|title=History of Online Display Advertising {{!}} Vantage Local|website=www.vantagelocal.com|access-date=2017-01-07}}</ref>
+|1993–1999
+|With people now having their own websites, [[wikipedia:banner ads|banner ads]] are used as a source of income to pay for these websites and as side money. Companies like [[wikipedia:Prodigy (online service)|Prodigy]], [[wikipedia:Global Network Navigator|Global Network Navigator]] (GNN), and [[wikipedia:HotWired|HotWired]] are pioneers in the business of online advertising.<ref name=":0">{{Cite web|url=http://www.vantagelocal.com/history-of-online-display-advertising-2/|title=History of Online Display Advertising {{!}} Vantage Local|website=www.vantagelocal.com|access-date=2017-01-07}}</ref> Some of the companies that would later dominate online advertising are created, including Google and DoubleClick. Some models that originated at this time include: display advertising (specifically, banner ads), pay-per-click advertising (starting with Overture/Goto.com, in the context of search), ad exchanges (starting with OpenX), popup ads (by Ethan Zuckerman of Tripod.com), and behavioral targeting and retargeting (by DoubleClick).
 |-
-|2000s–
-2010s
-|As more companies capable of providing advertising services emerge, several major successful companies such as [[wikipedia:Google|Google]], [[wikipedia:Facebook|Facebook]], [[wikipedia:Yahoo!|Yahoo!]], [[wikipedia:Microsoft|Microsoft]], and [[wikipedia:AOL|AOL]] begin to dominate the market.<ref name=":0" />
+|2000–2002
+|This period sees the burst of the tech bubble. There are few launches and acquisitions in this period. The main development during this period is Google's launch of Adwords (its search advertising tool) and the growth of Adwords along with increased Internet and search engine use.
+|-
+|2003–2006
+|After recovery from the bursting of the tech bubble, the pace of acquisitions and new company formation increases again. During this period, companies such as Google, Microsoft, Yahoo!, and AOL acquire many nascent advertising companies, and new companies such as Criteo form.
+|-
+|2007–2010
+|The period begins with Google's acquisition of DoubleClick (that would prove to be a great success) and Microsoft's acquisition of aQuantive (that would ultimately be written off). Big companies continue to buy key ad technology companies in this period. Acquisitions by Google/DoubleClick prove the most valuable, including the acquisition of AdMob and Invite Media. Yahoo! and AOL also acquire some companies, and Apple enters the game with its acquisition of Quattro.<br/>The period also sees the launch of Digiday and AdExchanger, two online publications devoted to online advertising and digital media.
+|-
+|2011–2013
+|With the rebranding of DoubleClick's core offerings as DoubleClick For Publishers (DFP), and significant expansion in features available, DoubleClick Ad Exchange comes to dominate the ad exchange world, and DFP comes to dominate the publisher-facing side of ad serving. This puts Google in a strong position with respect to display advertising, in addition to its search stronghold.<br/>Two other players that enter advertising at a larger scale at this time are Facebook (through the use of sponsored stories) and Amazon (with the introduction of the Amazon Advertising Platform). Twitter also starts monetizing through promoted tweets.<br/> The period also sees more development of standards around real-time bidding (with OpenRTB 2.0) and norms around what advertisers can track and how they should disclose this information.
+|-
+|2014–2017
+|Social media advertising continues to grow; Instagram, Pinterest and Snapchat are among the new players in the space.<br/> Google retains its dominant position in display advertising, but faces more pressure from both buyers and sellers to make its policies more friendly to their needs. Inefficiencies in the ad serving process lead to opportunities for innovations like header bidding. Google attempts to render these redundant by allowing for more competition in the ad serving.<br/>Verizon acquires AOL and then Yahoo!, with the former acquisition explicitly being justified as an ad tech acquisition.
 |}
 
 == Timeline ==
@@ -252,8 +261,8 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |2005
 |
 |Launch
-|[[wikipedia:Demand-side platform|Demand-side platform]]
-|[[wikipedia:Criteo|Criteo]], one of the first demand-side platforms, launches.<ref>{{Cite web|url=http://www.criteo.com/about-us/|title=Performance Marketing That Drives More Sales {{!}} Criteo|website=www.criteo.com|access-date=2017-01-12}}</ref>
+|[[wikipedia:Demand-side platform|Demand-side platform]], retargeting
+|[[wikipedia:Criteo|Criteo]], one of the first demand-side platforms, launches.<ref>{{Cite web|url=http://www.criteo.com/about-us/|title=Performance Marketing That Drives More Sales {{!}} Criteo|website=www.criteo.com|access-date=2017-01-12}}</ref> Its focus is on retargeting, and it would bring its product to market after four years of product development.
 |-
 |2006
 |April 10
