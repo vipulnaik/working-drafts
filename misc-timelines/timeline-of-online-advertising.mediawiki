@@ -235,6 +235,11 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |aQuantive acquires Go Toast, a Denver-based pay-per-click online search technology company.<ref>{{cite web|url = http://www.bizjournals.com/denver/stories/2003/12/15/daily12.html|title = AQuantive buys Denver paid-search firm|date = December 16, 2003|accessdate = April 13, 2017|publisher = Puget Sound Business Journal}}</ref><ref>{{cite web|url = https://www.clickz.com/aquantive-acquires-go-toast/78760/|title = aQuantive Acquires Go Toast|last = Parker|first = Pamela|date = December 15, 2003|accessdate = April 13, 2017}}</ref><ref name=ad-tech-acquisition-history/>
 |-
 |2004
+|January 7
+|Launch
+|Ad network
+|[[wikipedia:BlueLithium|BlieLithium]] is founded by [[wikipedia:Gurbaksh Chahal|Gurbaksh Chahal]] and [[wikipedia:Krishna Subramanian|Krishna Subramanian]] as an ad network focused on behavioral targeting.<ref>{{cite web|url=http://whois.domaintools.com/bluelithium.com|title=BlueLithium.com WHOIS, DNS, & Domain Info - DomainTools|work=[[WHOIS]]|date= |accessdate=2016-07-19}}</ref> The company would later be acquired by Yahoo! and its product woud become [[wikipedia:Yahoo! Advertising|Yahoo! Advertising]].<ref name=yahoo-bluelithium=acquisition>{{cite web|url=https://techcrunch.com/2007/09/04/yahoo-acquires-ad-network-bluelithium/|title = Yahoo! Acquires Ad Network BlueLithium|last = Hendrickson|first = Mark|date = September 4, 2007|accessdate = April 14, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref><ref name=yahoo-acquires-bluelithium-2>{{cite web|url = http://searchengineland.com/yahoo-acquires-ad-network-bluelithium-12087|title = Yahoo Acquires Ad Network BlueLithium|last = Sterling|first = Greg|date = September 4, 2007|accessdate = April 14, 2017|publisher = Search Engine Land}}</ref>
+|2004
 |February
 |Launch
 |Social media advertising
@@ -349,6 +354,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |[[wikipedia:TubeMogul|TubeMogul]] launches, initially as a cross-platform video analytics tool.<ref>{{cite web|url = http://mashable.com/2007/07/23/tubemogul/#lop9W.P44Eqz|title = TubeMogul Launches Cross-Network Video Tracking Tool|last = Nicole|first = Kristen|date = July 23, 2007|accessdate = April 3, 2017|publisher = ''[[wikipedia:Mashable|Mashable]]}}</ref> It would eventually become an online video advertising network and solution.
 |-
 |2007
+|September 4
+|Acquisition
+|Ad network
+|Yahoo! acquires ad network company BlueLithium, leading to it being rebranded as [[wikipedia:Yahoo! Advertising|Yahoo! Advertising]].<ref name=yahoo-bluelithium-acquisition/><ref name=yahoo-bluelithium-acquisition/><ref name=ad-tech-acquisition-history/>
+|-
+|2007
 |
 |Launch
 |Ad serving/demand-side platform
@@ -419,6 +430,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Launch
 |Publication
 |Digiday, a company and eponymous daily publication focused on digital marketing and digital media, launches. It would be one of the important publications covering news in the world of digital advertising.<ref>{{Cite web|url = http://digiday.com/about/|title = About|publisher = Digiday|accessdate = April 3, 2017}}</ref>
+|-
+|2010
+|January 4
+|Acquisition
+|Mobile advertising
+|[[wikipedia:Apple, Inc.|Apple]] acquires Quatto Wireless, a mobile advertising company. The acquisition comes shortly after Google's acquisition of AdMob.<ref>{{cite web|url = https://dealbook.nytimes.com/2010/01/06/apple-buys-quattro-an-ad-firm/comment-page-1/?_r=0|title = Apple Buys Quattro, an Ad Firm|publisher = ''[[wikipedia:New York Times|New York Times]]''}}</ref><ref>{{cite web|url = https://techcrunch.com/2010/01/04/apple-acquires-quattro-wireless/|title = Denied AdMob, Apple Buys Competing Ad Platform Quattro Wireless For $275 Million|last = Kincaid|first = Jason|date = January 4, 2010|accessdate = April 14, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref>
 |-
 |2010
 |February 22
