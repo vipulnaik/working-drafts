@@ -1,0 +1,30 @@
+{{subgroup property implication|
+stronger = conjugate-join-closed subnormal subgroup|
+weaker = join-transitively subnormal subgroup}}
+
+==Statement==
+
+Suppose <math>H</math> is a [[conjugate-join-closed subnormal subgroup]] of a [[group]] <math>G</math>: for any subset <math>S</math> of <math>G</math>, the subgroup <math>H^S = \langle H^s \mid s \in S \rangle</math> is a subnormal subgroup of <math>G</math>.
+
+Then, <math>H</math> is a [[join-transitively subnormal subgroup]] of <math>G</math>: for any subnormal subgroup <math>K</math> of <math>G</math>, the [[join of subgroups]] <math>\langle H, K \rangle</math> is also a subnormal subgroup of <math>G</math>.
+
+==Facts used==
+
+# [[uses::Join of subnormal subgroups is subnormal iff their commutator is subnormal]]: Suppose <math>H, K \le G</math> are subnormal subgroups. Then <math>[H,K]</math> is subnormal if and only if <math>H^K</math> is subnormal, if and only if <math>\langle H, K \rangle</math> is subnormal.
+
+==Related facts==
+
+* [[Join-transitively subnormal implies finite-automorph-join-closed subnormal]]
+* [[Join-transitively subnormal of normal implies finite-conjugate-join-closed subnormal]]
+* [[2-subnormal implies join-transitively subnormal]]
+* [[2-subnormality is conjugate-join-closed]]
+==Proof==
+
+'''Given''': A conjugate-join-closed subnormal subgroup <math>H</math> of a group <math>G</math>, a subnormal subgroup <math>K</math> of <math>G</math>.
+
+'''To prove''': <math>\langle H, K \rangle</math> is subnormal.
+
+'''Proof''':
+
+# ('''Given data used''': <math>H</math> is conjugate-join-closed subnormal in <math>G</math>): Since <math>H</math> is conjugate-join-closed subnormal in <math>G</math>, <math>H^K</math> is subnormal in <math>G</math>.
+# ('''Given data used''': <math>H, K</math> are subnormal in <math>G</math>; '''Fact used''': fact (1)): By fact (1), we get that <math>\langle H, K \rangle</math> is subnormal in <math>G</math>.

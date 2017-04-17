@@ -1,0 +1,53 @@
+{{market structure}}
+
+== Definition ==
+
+=== Perfect competition among sellers ===
+
+'''Perfect competition''' among sellers refers to a market structure where:
+
+* There is a large number of sellers, and every individual seller is small (in terms of production capacity) relative to the totality of sellers.
+* The only axis of competition between sellers is price. In other words, a buyer deciding between two sellers would choose the one with lower price. In other words, there is no [[product differentiation]].
+
+In particular, this means that no seller has [[market power]], i.e., no seller can strategically influence the [[market price]].
+
+=== Perfect competition among buyers ===
+
+'''Perfect competition''' among buyers refers to a market structure where:
+
+* There is a large number of buyers, and every individual buyer is small (in terms of the maximum the buyer can buy) relative to the totality of buyers.
+* Sellers are agnostic between buyers, i.e., given a choice between two different buyers, the one who offers the higher price is more attractive to the seller. Note that this is the analogous condition to the absence of product differentiation between sellers; however, it cannot be labeled product differentiation as the buyer does not create the product.
+
+In particular, this means that no buyer has [[market power]], i.e., no buyer can strategically influence the [[market price]].
+
+=== Perfect competition among both buyers and sellers ===
+
+'''Perfect competition''' among both buyers and sellers refers to a situation where there is perfect competition among buyers and perfect competition among sellers.
+
+In particular, this means that no individual buyer or seller can strategically influence the market price.
+
+=== Note on use of the term "perfect competition" ===
+
+When the term "perfect competition" is used without qualification, it generally refers either to perfect competition among sellers, or to perfect competition among both buyers and sellers.
+
+== Terminological caution ==
+
+The term ''perfect'' is used to refer to a theoretical limit where no seller and/or buyer has market power. The term ''perfect'' is not used in the sense of ''ideal''. There are some respects in which perfect competition is theoretically ideal, though the practical interpretation is more mixed.
+
+As "perfect competition" represents a theoretical limit, very few real-world situations resemble perfect competition. However, the theoretical limit allows for the derivation of simple forms of key results, that can then be extended with more realistic assumptions.
+
+== Types of analysis in perfect competition ==
+
+=== Analysis of the behavior of individual firms ===
+
+In the short run, individual firms receive a price from the market and respond by deciding how much to produce.
+
+Some analyses of behavior are as follows:
+
+* [[Determination of quantity supplied by firm in perfectly competitive market in the short run]]
+* [[Determination of quantity supplied by firm in perfectly competitive market in the long run]]
+
+=== Analysis of the market as a whole (focusing on the supply side, treating demand as exogenous) ===
+
+* [[Determination of price and quantity supplied in perfectly competitive market in the short run treating demand as exogenous]]
+* [[Determination of price and quantity supplied in perfectly competitive market in the long run treating demand as exogenous]]

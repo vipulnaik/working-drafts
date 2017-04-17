@@ -239,6 +239,7 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Launch
 |Ad network
 |[[wikipedia:BlueLithium|BlieLithium]] is founded by [[wikipedia:Gurbaksh Chahal|Gurbaksh Chahal]] and [[wikipedia:Krishna Subramanian|Krishna Subramanian]] as an ad network focused on behavioral targeting.<ref>{{cite web|url=http://whois.domaintools.com/bluelithium.com|title=BlueLithium.com WHOIS, DNS, & Domain Info - DomainTools|work=[[WHOIS]]|date= |accessdate=2016-07-19}}</ref> The company would later be acquired by Yahoo! and its product woud become [[wikipedia:Yahoo! Advertising|Yahoo! Advertising]].<ref name=yahoo-bluelithium=acquisition>{{cite web|url=https://techcrunch.com/2007/09/04/yahoo-acquires-ad-network-bluelithium/|title = Yahoo! Acquires Ad Network BlueLithium|last = Hendrickson|first = Mark|date = September 4, 2007|accessdate = April 14, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref><ref name=yahoo-acquires-bluelithium-2>{{cite web|url = http://searchengineland.com/yahoo-acquires-ad-network-bluelithium-12087|title = Yahoo Acquires Ad Network BlueLithium|last = Sterling|first = Greg|date = September 4, 2007|accessdate = April 14, 2017|publisher = Search Engine Land}}</ref>
+|-
 |2004
 |February
 |Launch
