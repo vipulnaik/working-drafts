@@ -1,0 +1,9 @@
+Post at https://www.facebook.com/photo.php?fbid=10211677897358888
+
+The Institute for Health Metrics and Evaluation has a really good data hub for global health information. I've been going through their Financing Global Health portion of the hub, and using that to get a sense of global health spending. It's been helpful.
+
+<strike>The main bad side is that there doesn't seem to be a URL I can point to for a specific chart, so you'd have to painstakingly select all the options I did to regenerate any chart I did. That does get in the way of use.</strike>
+
+It seems like the share button on the top right does not work by default because it uses plain HTTP rather than HTTPS. On Chrome, you can make shareable links work by clicking on the shield icon on the URL bar and allowing it to "Load unsafe scripts". Once you do that, the share button will work and you can generate URL shortlinks.
+
+HT Issa for highlighting this resource and also correcting me regarding shareable links. You can read more in his overview of the subject of global health spending: https://issarice.com/total-spending-in-global-health

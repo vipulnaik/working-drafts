@@ -1,0 +1,17 @@
+Post at https://www.facebook.com/photo.php?fbid=10211678488933677
+
+As you can see from the image below for total Developmental Assistance for Health (DAH) spending (taken from https://vizhub.healthdata.org/fgh/ -- the IHME's Financing Global Health interface; http://ihmeuw.org/426i is the URL shortlink), spending for HIV/AIDS accounts for 5 times spending for malaria (AIDS DAH is around $10-15 billion, malaria DAH is around $2-3 billion). Most of this is due to a significant increase in AIDS spending in the 2000s.
+
+A few relevant thoughts:
+
+(a) Most top charity recommendations coming out of evaluators like GiveWell, Giving What We Can, etc., are dominated by malaria control and prevention, and AIDS prevention and control don't even show up. In other words, people focused on identifying the best individual interventions have selected malaria and not AIDS.
+
+(b) In absolute terms, the number of people who get malaria every year (about 200 million) is more than the number of people with AIDS (about 40 million). On the flip side, AIDS is generally a permanent condition whereas malaria lasts a few weeks, so total time spent being HIV-positive exceeds total time spent having malaria (DAH spending per day of having the two conditions is pretty comparable). On the third hand, being HIV-positive per se isn't a source of as much agony as having malaria at a given time, so that probably isn't a fair comparison either.
+
+(c) From a Caplanian perspective, HIV/AIDS is easier for a potential victim to avoid getting than malaria. Unless you're an infant being breastfed or got in an accident and need a blood transfusion, the rule to avoid getting AIDS is simple: avoid (unsafe) sex except with trusted, tested individuals. Malaria, on the other hand, is harder to avoid in specific geographic locations. That means that the use of charitable or tax money for HIV/AIDS is prima facie less defensible than for malaria.
+
+In light of all these, I think that, prima facie, there's a case for DAH to be directed away from AIDS and toward malaria, at least at the current margins. But I don't have much confidence and I wonder if I'm missing specific reasons that the existing allocation ratio makes sense.
+
+Thoughts?
+
+cc Issa
