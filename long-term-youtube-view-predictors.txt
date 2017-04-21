@@ -1,0 +1,21 @@
+Copy of Facebook post at https://www.facebook.com/vipulnaik.r/posts/10211697440687459
+
+After following the list of most viewed YouTube videos for about 1.5 years, I've made some observations regarding which music videos tend to do better in the long term relative to the short term. Here are some hypotheses based on the data I've observed so far:
+
+(1) Music videos by artists who keep releasing new music get more long-term views, holding short-term views constant. That's partly because a lot of the recommended video recirculation, as well as people's organic interest, is artist-driven. So e.g. every time Taylor Swift releases a new video, people will go back and listen to some of her older videos. The effect per video is stronger for people who release music more rarely, but the total effect favors people who release them more frequently.
+
+For instance, Justin Bieber and Taylor Swift videos do better over the long term than Adele's videos, controlling for short-term success.
+
+(2) Music videos with more "danceability" tend to do better in the long term.
+
+For instance, "Shake it Off" by Taylor Swift did worse than "Blank Space" in its initial year, but over the longer term, it overtook Blank Space.
+
+Also, "Sorry" by Justin Bieber, released on the same day as "Hello" by Adele, did much worse in the first three months but eventually overtook and it now leading by 500 million views.
+
+Music videos like "Work from Home" and "Closer" (lyric video) have done a great job of doing better over the long term than you'd predict from their initial performance.
+
+(3) Music videos featuring explicit content do not fare well over the long term, relative to the short term. For instance, "Wrecking Ball" by Miley Cyrus reached 100 million views in record time (for its era) but it has been growing very slowly of late. I think the reason is that videos with explicit content are shown less frequently as recommendations by YouTube, perhaps only on other explicit content videos or for some subset of users. So they accumulate fewer views in the long term.
+
+Thoughts?
+
+PS: Forgot to link https://en.wikipedia.org/w/index.php?title=List_of_most_viewed_YouTube_videos&action=history which is my main way of keeping track of the growth of YouTube video views.
