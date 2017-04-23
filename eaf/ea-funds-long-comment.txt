@@ -2,7 +2,7 @@ Thanks again for writing about the situation of the EA Funds, and thanks also to
 
 My main concern about this fund is that it's not really a "Global Health and Development" fund -- it's much more GiveWell-centric than global health- and development-centric. The decision to allocate all fund money to GiveWell's top charity reinforces some of my concerns, but it's actually something that is clear from the fund description.
 
-From the description, it seems to be serving largely as a backup to GiveWell Incubation Grants (in cases where e.g. Good Ventures chooses not to fund the full amount) and as additional funding for GiveWell top charities.
+From the [description](https://app.effectivealtruism.org/funds/global-development), it seems to be serving largely as a backup to GiveWell Incubation Grants (in cases where e.g. Good Ventures chooses not to fund the full amount) and as additional funding for GiveWell top charities.
 
 > This fund will support charities that the fund manager believes may be better in expectation than those recommended by GiveWell, a charity evaluator focused on outstandingly effective giving opportunities. For example, by pooling the funds of many individual donors, the fund could support new, but very promising global health charities in getting off the ground (e.g. Charity Science Health or No Lean Season). These organizations may not be able to meet GiveWell’s rigorous evaluation criteria at the moment, but may be able to meet the criteria in the future. If no such options are available, the fund will likely donate to GiveWell for granting. This means we think there is a strong likelihood that the fund will be at least as good as donating in accordance with GiveWell’s recommendations, but could be better in expectation.
 
