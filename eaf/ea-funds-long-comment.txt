@@ -1,0 +1,36 @@
+Thanks again for writing about the situation of the EA Funds, and thanks also to the managers of the individual funds for sharing their allocations and the thoughts behind it. In light of the new information, I want to raise some concerns regarding the Global Health and Development fund.
+
+My main concern about this fund is that it's not really a "Global Health and Development" fund -- it's much more GiveWell-centric than global health- and development-centric. The decision to allocate all fund money to GiveWell's top charity reinforces some of my concerns, but it's actually something that is clear from the fund description.
+
+From the description, it seems to be serving largely as a backup to GiveWell Incubation Grants (in cases where e.g. Good Ventures chooses not to fund the full amount) and as additional funding for GiveWell top charities.
+
+> This fund will support charities that the fund manager believes may be better in expectation than those recommended by GiveWell, a charity evaluator focused on outstandingly effective giving opportunities. For example, by pooling the funds of many individual donors, the fund could support new, but very promising global health charities in getting off the ground (e.g. Charity Science Health or No Lean Season). These organizations may not be able to meet GiveWell’s rigorous evaluation criteria at the moment, but may be able to meet the criteria in the future. If no such options are available, the fund will likely donate to GiveWell for granting. This means we think there is a strong likelihood that the fund will be at least as good as donating in accordance with GiveWell’s recommendations, but could be better in expectation.
+
+Both the cited examples are recipients of GiveWell Incubation Grants, and in the pipeline for evaluation by GiveWell for top charity status. Even setting aside actual grantees, the value of the fund, according to the fund manager, is in terms of its value *to GiveWell* (emphasis mine):
+
+> Nonetheless, donating to this fund is valuable because it helps demonstrate *to GiveWell* that there is donor demand for higher-risk, higher-reward global health and development giving opportunities.
+
+The GiveWell-centric nature of the fund is fine except that the fund's name (and therefore people's surface impressions of it) are that it is a fund for global health and development, without affiliation to any institution.
+
+Even beyond the GiveWell-as-an-organization-centered nature of the fund, there is a sense in which the fund reinforces the association of global health and development with quantifiable-and-low-risk, linear, easy buys. That association makes sense in the context of GiveWell (whose job it is to recommend linear-ish buys) but seems out of place to me here. Again quoting from the page about the fund:
+
+> Interventions in global health and development are generally tractable and have strong evidence to support them. 
+
+There are two distinct senses in which the statement could be interpreted:
+
+* There is large enough room for more funding for interventions in global health that have a strong evidence base, so that donors who want to stick to things with a strong evidence base won't run out of stuff to buy (i.e., lots of low-hanging fruit)
+* There's not much scope in global health for high-risk but high-expected value investments, because any good buy in global health would have a strong evidence base
+
+I'd agree with the first interpretation, but the second interpretation seems quite false (looking at the Gates Foundation's portfolio shows a fair amount of risky, nonlinear efforts including new vaccine development, storage and surveillance technology breakthroughs, breakthroughs in toilet technology, etc.). The framing of the sentence, however, most naturally suggests the second interpretation, and moreover, may lead the reader to a careless conflation of the two. It seems to me like there's a lot of conflation in the EA community (and penumbra) between "global health and development" and "GiveWell current and potential top charities", and the setup of this EA Fund largely reflects that. So in that sense, my criticism isn't just of the fund but of what seems to me an implicit conflation.
+
+Similar issues exist with two of the other funds: the animal welfare fund and the far future fund, but I think they are less concerning there. With "animal welfare" and "far future", the way the terms are used in EA Funds and in the EA community are different from the picture they'll conjure in the minds of people in general. But as far as I know, there isn't so much of an established existing cohesive infrastructure of organizations, funding sources, etc. that is at odds with the EA community.* Whereas with global health and development, you have things like WHO, Gates Foundation, Global Fund, and even an associated academic discipline etc. so the appropriation of the term for a fund that's somewhat of a GiveWell satellite seems jarring to me.
+
+Some longer-term approaches that I think might help; obviously they wouldn't be changes you can make quickly:
+
+(a) Rename funds so that the names capture more specifically the sort of things the funds are doing. e.g. if a fund is only being used for last-mile delivery of interventions as opposed to e.g. vaccine development, that can be specified within the fund name.
+
+(b) Possibly have multiple funds within the same domain (e.g., global health & development) that capture different kinds of use cases (intervention delivery versus biomedical research) and have fund managers with relevant experience in the domains. e.g. it's possible that somebody with experience at the Gates Foundation, Global Fund, WHO, IHME, etc. could do fund allocation in some domains of global health and development better for some use cases.
+
+Anyway, these are my thoughts. I'm not a contributor (or potential contributor, in the near term) to the funds, so take with appropriate amount of salt.
+
+*It could be that if I had deeper knowledge of mainstream animal welfare and animal rights, or of mainstream far future stuff (like climate change) then I would find these jarring as well.

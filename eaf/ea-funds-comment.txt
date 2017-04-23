@@ -1,0 +1,5 @@
+Comment posted at http://effective-altruism.com/ea/19d/update_on_effective_altruism_funds/asf
+
+I appreciate the information being posted here, in this blog post, along with all the surrounding context. However, I don't see the information on these grants on the actual EA Funds website. Do you plan to maintain a grants database on the EA Funds website, and/or list all the grants made from each fund on the fund page (or linked to from it)? That way anybody can check in at any time to see how how much money has been raised, and how much has been allocated and where.
+
+The Open Philanthropy Project grants database might be a good model, though your needs may differ somewhat.
