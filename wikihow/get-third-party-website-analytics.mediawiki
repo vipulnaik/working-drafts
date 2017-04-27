@@ -2,7 +2,7 @@ This guide explore strategies for getting web traffic data for third-party websi
 
 == Steps ==
 === Quantcast Measure ===
-# Get data on the website, if available, at https://www.quantcast.com/<domainname>.
+# Get data about the website, if available, at https://www.quantcast.com/<domainname>.
 #* For instance, for the website Trello, with domain name trello.com, you can get data at https://www.quantcast.com/trello.com.<ref name=quantcast-trello>[https://www.quantcast.com/trello.com Quantcast data for Trello]. Retrieved April 26, 2017</ref> Similarly, for the website Glassdoor, with domain name glassdoor.com, you can get data at https://www.quantcast.com/glassdoor.com.<ref name=quantcast-glassdoor>[https://www.quantcast.com/glassdoor.com Quantcast data for Glassdoor]. Retrieved April 26, 2017</ref>
 #* In case of subdomains, you should enter the subdomain name instead of the domain. For instance, for the Math Stack Exchange (math.stackexchange.com), you would look for data at https://www.quantcast.com/math.stackexchange.com.<ref name=quantcast-math-stackexchange>[https://www.quantcast.com/math.stackexchange.com Quantcast data for Math Stack Exchange]. Retrieved April 26, 2017</ref>
 #* There are two kinds of websites: those that use Quantcast Measure (that Quantcast calls "quantified"), and those that do not. For websites that use Quantcast Measure, you will see the website name and a check mark in front of the name on top, and website traffic data below. For websites that do not use Quantcast Measure you will see a message on top of the form: "<website> is not currently using Quantcast Measure. As a result, we're unable to show you a full breakout of their audience data. If you own or work at <website> sign up for Quantcast Measure and place the measurement tag on your site to get all the audience insights detailed below."
@@ -24,7 +24,7 @@ This guide explore strategies for getting web traffic data for third-party websi
 
 === SimilarWeb ===
 
-# Get data on the website, if available, at https://www.similarweb.com/website/<domainname>
+# Get data about the website, if available, at https://www.similarweb.com/website/<domainname>
 #* For instance, for the domain zillow.com, you can get data at https://www.similarweb.com/website/zillow.com.<ref name=similarweb-zillow>[https://www.similarweb.com/website/zillow.com SimilarWeb profile for Zillow (zillow.com)]. Retrieved April 26, 2017</ref>
 #* In case of subdomains, enter the subdomain name instead of the domain name. For instance, to get data on ocw.mit.edu, you would go to https://www.similarweb.com/website/ocw.mit.edu.<ref name=similarweb-ocw-mit>[https://www.similarweb.com/website/ocw.mit.edu SimilarWeb profile for ocw.mit.edu]. Retrieved April 26, 2017</ref> Data shown for a domain name aggregates data over all subdomains. Profiles for subdomains are fairly similar to profiles for domains, with a few differences: ranks and subdomain breakdowns are available only on domain profiles.
 #* For some websites, SimilarWeb may redirect to the error page https://www.similarweb.com/error/notfound. This means that SimilarWeb saw too little traffic to the website and has not built a profile for it.
@@ -40,3 +40,53 @@ This guide explore strategies for getting web traffic data for third-party websi
 # Record any data you want to reference in the future.
 #* SimilarWeb only shows a six-month history for visits and one month of estimated data for other metrics. Therefore, you should record, by saving or screenshotting, any data you want to reference in the future.
 #* You can request archival of the existing profile using archive.is. Note that the archived page will not have the full functionality of the original page because of limitations in the way archival interacts with JavaScript.
+# Keep in mind the following regarding error ranges, in cases where the data is estimated and not measured with Google Analytics.
+#* The estimated values (for visits and pageviews) reported by SimilarWeb vary between half of and three times the values directly measured by sources such as Quantcast Measure.
+#** Glassdoor reported about 40 million visits and 140 million pageviews on Quantcast Measure in March 2017,<ref name=quantcast-glassdoor/> compared with 54.5 million visits and about 200 million pageviews on SimilarWeb in the same time period.<ref name=similarweb-glassdoor>[https://www.similarweb.com/website/glassdoor.com SimilarWeb profit for Glassdoor (glassdoor.com)]. Retrieved April 26, 2017</ref>
+#** Trello reported about 46 million visits and 75 million pageviews on Quantcast Measure in March 2017,<ref name=quantcast-trello/> compared with about 85 million visits and 600 million pageviews on SimilarWeb.<ref name=similarweb-trello>[https://www.similarweb.com/website/trello.com/ SimilarWeb profile for Trello (trello.com)]. Retrieved April 26, 2017</ref>
+#* Stack Overflow reported about 265 million visits and 660 million pageviews on Quantcast Measure in March 2017,<ref name=quantcast-stackoverflow>[https://www.quantcast.com/stackoverflow.com Quantcast report for Stack Overflow]. Retrieved April 26, 2017</ref> compared with 337 million visits and 1 billion pageviews on SimilarWeb.<ref name=similarweb-stackoverflow>[https://www.similarweb.com/website/stackoverflow.com SimilarWeb profile for Stack Overflow (stackoverflow.com)]. Retrieved April 26, 2017</ref>
+#** Upworthy reported 9.6 million visits and 11.3 million pageviews on Quantcast Measure in March 2017,<ref name=quantcast-upworthy>[https://www.quantcast.com/upworthy.com Quantcast report on Upworthy]. Retrieved April 26, 2017</ref> compared with 7.5 million visits and 9.5 million pageviews on SimilarWeb.<ref>[https://www.similarweb.com/website/upworthy.com SimilarWeb profile for Upworthy]. Retrieved April 26, 2017</ref>
+#* Accuracy in estimation of visits and pageviews is higher for websites with more traffic, and more unique visitors.
+#* Ranks and category ranks should be treated as loose estimates.
+
+=== Alexa Internet ===
+
+# Get data about the website, if available, at http:/www.alexa.com/siteinfo/<domainname>.
+#* For instance, for the website zillow.com of Zillow, you can get data at http://www.alexa.com/siteinfo/zillow.com.<ref name=alexa-zillow>[http://www.alexa.com/siteinfo/zillow.com zillow.com traffic statistics from Alexa]. Retrieved April 26, 2017</ref> Similarly, for the website trello.com of Trello, you can get data at http://www.alexa.com/siteinfo/trello.com.<ref name=alexa-trello>[http://www.alexa.com/siiteinfo/trello.com trello.com traffic statistics from Alexa]. Retrieved April 26, 2017</ref>
+#* Traffic for subdomains is included in traffic for the main domain, and if you enter a subdomain in the URL structure above, it redirects to the page for the main domain. For instance, http://www.alexa.com/siteinfo/ocw.mit.edu redirects to http://www.alexa.com/siteinfo/mit.edu.
+#* For ''most'' websites, Alexa uses estimated data, rather than direct first-party measured data. You will see a box on the top right saying "This site's metrics are estimated" and, below that, "Is this your site? Certify your site's metrics." Some sites have certified their site metrics with Alexa, which means that Alexa uses direct first-party measurement for the site's traffic. However, this only means that Alexa measures the site's traffic correctly; the site's rank is still estimated since that relies on comparison with many other sites, most of which are estimated and not directly measured.
+#* Paying users can access more data, including subdomain traffic.
+#* If you want historical data, check for archives of the Alexa page on archive.is. 
+# Examine the various parts of the page.
+#* The top of the page includes a "Global rank" and Rank in the country where the rank is highest. For websites in the top 100,000, historical data on global rank over the past year is also displayed. For others, there is space for the graph but it is not populated.
+#* Other sections that show some information are: Audience Geography, engagement data, search traffic and keywords, upstream sites, linking sites, related sites, subdomains, load speed, site description, and audience demographics. The free version only shows the top five results for some of these categories; paying users can access longer lists.
+#* Monthly Unique Visitor Metrics and sites people go to next are available to paying users.
+#* Notably, there is ''no direct data'' on the number of visitors and pageviews available to non-paying users, even though the ranking is based on those metrics.
+#  Record any data you want to reference in the future.
+#* Alexa Internet shows a one-year history of the site rank, and moreover, does not show even this data for sites not in the top 100,000.
+#* You can request archival of the existing profile using archive.is. Note that the archived page will not have the full functionality of the original page because of limitations in the way archival interacts with JavaScript.
+# Keep in mind the following regarding error ranges.
+#* Alexa's traffic estimates can be off from first-party measurements by a factor of three in either direction.
+#* Since Alexa does not publicly release its traffic estimates, but only releases a rank, the rank should be treated as only a loose estimate.
+
+=== HypeStat ===
+
+# Get data about the website, if available, at <domainname>.hypestat.com
+#* For instance, to get data about Imgur, you can visit imgur.com.hypestat.com.<ref name=hypestat-imgur>[http://imgur.com.hypestat.com/ HypeStat profile for imgur.com]. Retrieved April 26, 2017</ref>
+#* You can also visit subdomains. For instance, you can visit starwars.wikia.com.hypestat.com to get data on the subdomain starwars.wikia.com under wikia.com.<ref name=hypestat-starwars-wikia>[http://starwars.wikia.com.hypestat.com/ HypeStat profile for starwars.wikia.com]. Retrieved April 26, 2017</ref>
+# Examine the various parts of the page.
+#* Most of the page is obtained by cobbling together data available from different sources, including Alexa, Quantcast, SEO Majestic, SemRush, Moz, Google PageSpeed Insights, Google Safe Browsing, MyWot.com reputation ratings, and WhoIs lookups.
+#* The data includes an estimate for total traffic (daily and monthly unique visitors and pgaeviews). No source is provided for this data. 
+
+=== Website business and advertising pages and intermediaries ==
+
+# Look for information on pages created by the website for potential advertisers.<ref>[https://bloggerspassion.com/check-website-traffic-5-ways-to-determine-traffic-to-a-website/#8_The_business_pages_of_websites_A_good_way_to_track_website_traffic_for_free Check Website Traffic: 9 FREE Ways To Estimate Traffic Of Any Website (8. The business pages of websites: A good way to track website traffic for free)], Anil Agarwal, Bloggers Passion</ref>
+#* The page typically has a URL of the form <domainname>/advertise or <domainname>/advertising
+#* Some examples of websites that provide some traffic data are BuzzFeed,<ref name=buzzfeed-advertise>[https://www.buzzfeed.com/advertise BuzzFeed Advertise]. Retrieved April 26, 2017</ref> Mashable<ref name=mashable-advertise>[http://mashable.com/advertise/ Advertise with Mashable]. Retrieved April 26, 2017</ref> and Dezeen.<ref name=dezeen-advertise>[https://www.dezeen.com/advertise/ Dezeen advertising information]. Retrieved April 26, 2017</ref
+#* One downside is that the data is not automatically updated, and therefore provides only an estimate based on the time the page was updated. You may be able to use the Internet Archive's Wayback Machine to get an estimate of when the page was last updated and how current the data is.
+# Contact the website directly using the contact address they provide for advertisers.
+#* Some websites offer an email address for potential advertisers to get in touch with them. If you are an advertiser or can represent yourself as asking on behalf of an advertiser, you may be able to use email to get the website owners to share traffic data, or address questions about the nature of their audience.
+# Use ad networks or ad planners that the website has hooked to.
+#* Google Display Planner can be used to get traffic estimates for some websites.
+#* We can use other ad networks sometimes.
+
