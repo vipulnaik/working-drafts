@@ -556,6 +556,11 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Facebook acquires [[wikipedia:Atlas Solutions|Atlas Solutions]] from Microsoft for $100 million, in order to enrich its already bustling advertising platform.<ref>{{Cite web|url=https://gigaom.com/2013/02/28/facebook-purchases-microsofts-atlas-solutions-for-reported-100-million/|title=Facebook purchases Microsoft’s Atlas Solutions for reported $100 million|last=Kern|first=Eliza|date=2013-02-28|website=gigaom.com|access-date=2017-01-07}}</ref><ref>{{Cite web|url=https://atlassolutions.com/about-atlas/|title=About Atlas {{!}} Atlas Solutions|website=atlassolutions.com|access-date=2017-01-07}}</ref><ref name=":6" /><ref>{{Cite news|url=http://newsroom.fb.com/news/2013/02/facebook-to-acquire-atlas-from-microsoft/|title=Facebook to Acquire Atlas from Microsoft {{!}} Facebook Newsroom|access-date=2017-02-09|language=en}}</ref>
 |-
 |2013
+|September 20
+|IPO
+|Demand-side platform
+|Rocket Fuel IPOs. Shares double on the first day of trading. This is the most successful ad tech IPO of 2013.<ref>{{cite web|url = http://adage.com/article/digital/rocket-fuel-marks-successful-ad-tech-ipo-2013/244282/|title = Rocket Fuel IPO Soars on First Day of Trading. Shares of Automated Ad Buyer Immediately More Than Double in Debut|last = Peterson|first = Tim|last2 = Kantrowitz|first2 = Alex|date = September 20, 2013|accessdate = April 29, 2017|publisher = ''[[wikipedia:Advertising age|Advertising age]]''}}</ref>
+|2013
 |October
 |Launch
 |Social media advertising
@@ -632,6 +637,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Major event
 |Ad blocking
 |Facebook states that they will start blocking the use of ad blocking extensions, specifically [[wikipedia:Adblock Plus|Adblock Plus]] and Adblock. In response to this, these ad-blockers began to block Facebook's blocking in a back-and-forth "war."<ref>{{Cite web|url=http://fortune.com/2016/08/12/facebook-ad-blocking-war/|title=Here's Why Facebook Is Always Going to Win the Ad-Blocking War|website=Fortune|access-date=2017-02-08}}</ref>
+|-
+|2016
+|September 21
+|IPO
+|Demand-side platform
+|The Trade Desk IPOs, and within a day, is trading at 60% more than the IPO offer price. It is the only "pure ad-tech" IPO of the year.<ref>{{cite web|url = http://www.businessinsider.com/the-trade-desk-ipo-2016-9|title = Ad tech company The Trade Desk goes public at $28.75 per share — a huge pop on its $18 price target|last = O'Reilly|first = Lara|date = September 21, 2016|accessdate = April 29, 2017|publisher = ''[[wikipedia:Business Insider|Business Insider]]''}}</ref><ref>{{cite web|url = https://techcrunch.com/2016/09/21/trade-desk-ipo/|title = The Trade Desk finishes strong at $30.10 per share after its first day on NASDAQ|last = Ha|first = Anthony|date = September 29, 2016|accessdate = April 29, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref>
 |-
 |2017
 |February to April
