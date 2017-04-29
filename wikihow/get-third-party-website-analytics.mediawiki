@@ -120,7 +120,7 @@ If you want analytics for your ''own'' websites, then you should install analyti
 #* You can search in publications that cover news in the domain of the website (using web search with the site: operator, or within-site search). For instance, for publisher websites, search in sources such as digiday.com, adexchanger.com, adweek.com, and adage.com. For technology companies, search in sources such as techcrunch.com and mashable.com.
 #* You can search the whole Internet with a search term such as "<domainname> pageviews" or "<domainname> traffic statistics" (try both with and without quotes). Keep in mind that the top results are likely to be services such as Quantcast, SimilarWeb, or Alexa, plus other similar services and fake or paywalled services. You should probably check up to three pages of results.
 
-=== Surveys: use existing ones or conduct your own ===
+=== Surveys: using existing ones or conducting your own ===
 
 # Look for existing surveys that give an estimate of use.
 #* Survey data can generally help give an estimate of the number of users, and the average frequency of visits. They are too crude a tool to estimate the number of ''pageviews''.
