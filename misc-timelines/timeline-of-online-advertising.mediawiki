@@ -560,6 +560,7 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |IPO
 |Demand-side platform
 |Rocket Fuel IPOs. Shares double on the first day of trading. This is the most successful ad tech IPO of 2013.<ref>{{cite web|url = http://adage.com/article/digital/rocket-fuel-marks-successful-ad-tech-ipo-2013/244282/|title = Rocket Fuel IPO Soars on First Day of Trading. Shares of Automated Ad Buyer Immediately More Than Double in Debut|last = Peterson|first = Tim|last2 = Kantrowitz|first2 = Alex|date = September 20, 2013|accessdate = April 29, 2017|publisher = ''[[wikipedia:Advertising age|Advertising age]]''}}</ref>
+|-
 |2013
 |October
 |Launch
