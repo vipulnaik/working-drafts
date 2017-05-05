@@ -1,0 +1,86 @@
+{{Attribute English Wikipedia|original-exists=yes}}
+
+This is a [[wikipedia:timeline|timeline]] of [[wikipedia:Online food ordering|online food delivery]].
+
+==Big picture==
+
+{| class="wikitable sortable"
+! Time period !! class="unsortable" | Key developments in online food delivery
+|-
+|1996–2001 || This era is characterized by the rise of the Internet, the [[wikipedia:dotcom boom|dotcom boom]] and the subsequent crash. Dotcom startups like [[wikipedia:Webvan|Webvan]], [[wikipedia:HomeGrocer|HomeGrocer]], and [[wikipedia:Kozmo|Kozmo]] started online grocery delivery, but ended up closing in 2001 after the [[wikipedia:dotcom crash|dotcom crash]]. [[wikipedia:Seamless (company)|Seamless]] is also founded.
+|-
+|2001–2010|| [[wikipedia:GrubHub|GrubHub]] is founded. By the late 2000s, major pizza chains have created their own mobile applications and started doing 20-30% of their business online.<ref name="MyUser_Adage.com_January_10_2016c">{{cite web |url=http://adage.com/article/digital/pizza-giants-customers-click-call-delivery/136087/ |title=Why Pizza Giants Want Customers to Click, Not Call, for Delivery |newspaper=Adage.com |date=  |author= |accessdate= January 10, 2016}}</ref>
+|-
+|2011–2015 || With increased smartphone penetration, and the growth of both [[wikipedia:Uber (company)|Uber]] and the [[wikipedia:sharing economy|sharing economy]], food delivery startups start to receive more attention again. This era is associated with the founding of [[wikipedia:Caviar|Caviar]] and [[wikipedia:Instacart|Instacart]].<ref name="NYT_Food_Delivery_startupsBack">{{cite web |url=https://www.nytimes.com/2014/08/24/magazine/delivery-start-ups-are-back-like-its-1999.html |title=Delivery Start-Ups Are Back Like It's 1999 |newspaper=The New York Times |date=  |author= |accessdate= January 10, 2016}}</ref> By 2015, online ordering is about to overtake phone ordering.<ref name="MyUser_Qz.com_January_10_2016c">{{cite web |url=http://qz.com/452609/online-food-delivery-ordering-is-about-to-overtake-phone-ordering-in-the-us/ |title=Online food delivery ordering is about to overtake phone ordering in the US - Quartz |newspaper=Qz.com |date=  |author= |accessdate= January 10, 2016}}</ref>
+|} But by September, online delivery still accounted for just about 3 percent of the 61 billion U.S. restaurant "visits" or transactions.<ref name="MyUser_Columbian.com_January_10_2016c">{{cite web |url=http://www.columbian.com/news/2016/jan/10/home-delivery-pay-restaurant-meal-2016/ |title=Restaurant food delivery heating up |newspaper=Columbian.com |date=  |author= |accessdate= January 10, 2016}}</ref>
+
+==Full timeline==
+
+{| class="wikitable sortable"
+! Year !! Month and date (if available) !! Event type !! Details
+|-
+|1989||  ||Foundings||[[wikipedia:Peapod|Peapod]], which pioneers the online grocery delivery concept, is foundedby Andrew and Thomas Parkinson in Evanston, IL.<ref name="peapod">{{cite web |url=https://www.peapod.com/site/companyPages/our-company-overview.jsp |title=Peapod |newspaper= |date=  |author= |accessdate= January 8, 2016}}</ref>
+|-
+|1994||January||New Entrants|| "PizzaNet"{{snd}}Pizza Hut’s digital ordering hub, launches, and accepts the first-ever online order, a large pepperoni, mushroom and extra cheese pizza.<ref name="MyUser_Restaurantnews.com_January_8_2016c">{{cite web |url=http://www.restaurantnews.com/pizza-hut-celebrates-20th-anniversary-of-worlds-first-online-purchase-with-50-percent-off-online-deal-for-hut-lovers-members/ |title=Pizza Hut Celebrates 20th Anniversary of World's First Online Purchase With 50 Percent Off Online Deal for Hut Lovers Members |newspaper=Restaurantnews.com |date=  |author= |accessdate= January 8, 2016}}</ref>
+|-
+|1996||July||Foundings||[[wikipedia:Webvan|Webvan]], an online grocery delivery service, is founded by [[wikipedia:Louis Borders|Louis Borders]]. It IPOs on November 5, 1999.<ref name="CNNWebvan1">{{cite web |url=http://money.cnn.com/2001/07/09/technology/webvan/ |title=Webvan announces shutdown, Chapter 11 filing - Jul. 9, 2001 |newspaper=CNN |date=  |author= |accessdate= January 10, 2016}}</ref>
+|-
+|1998||March||Foundings||[[wikipedia:Kozmo|Kozmo]], an online delivery services for many services (including groceries) founded.<ref name="MyUser_Threeg1b.blogspot.com_January_10_2016c">{{cite web |url=http://threeg1b.blogspot.com/2009/06/failure-of-kozmocom.html |title=E-Commerce: The failure of Kozmo.com |newspaper=Threeg1b.blogspot.com |date=  |author= |accessdate= January 10, 2016}}</ref>
+|-
+|1999||December 1||Foundings||[[wikipedia:SeamlessWeb|SeamlessWeb]] is founded in order to provide companies with a web-based system for ordering food from restaurants and caterers.<ref name="MyUser_Https:_January_8_2016c">{{cite web |url=https://www.americanexpress.com/us/small-business/openforum/articles/building-an-empire-jason-finger-of-seamless-com/ |title=Jason Finger of Seamless: The Random Idea That Sparked a $100M Business |newspaper=: |date=  |author= |accessdate= January 8, 2016}}</ref>
+|-
+|2000||June 26||Mergers and Acquisitions||[[wikipedia:Webvan|Webvan]] buys out [[wikipedia:HomeGrocer|HomeGrocer]].<ref name="MyUser_CNN_January_10_2016c">{{cite web |url=http://money.cnn.com/2000/06/26/deals/webvan/ |title=Webvan Group buys HomeGrocer.com in $1.2B deal- - Jun. 26, 2000 |newspaper=CNN |date=  |author= |accessdate= January 10, 2016}}</ref>
+|-
+|2001||April 12||Closings||[[wikipedia:Kozmo|Kozmo]] shuts down.<ref name="MyUser_The_New_York_Times_January_10_2016c">{{cite web |url=https://www.nytimes.com/2001/04/12/nyregion/kozmo-to-end-operations-1100-people-to-lose-jobs.html |title=Kozmo to End Operations - 1,100 People to Lose Jobs |newspaper=The New York Times |date= April 12, 2001 |author= |accessdate= January 10, 2016}}</ref> The company had made profits in New York, Boston and San Francisco in December and secured $25 million in investments prior to shutdown.
+|-
+|2001||July||Closings||[[wikipedia:Webvan|Webvan]] shuts down.<ref name="Webvan">{{cite web |url=http://www.sfgate.com/news/article/Webvan-goes-under-Online-grocer-shuts-down-2901586.php |title=Webvan goes under / Online grocer shuts down -- $830 million lost, 2,000 workers fired - SFGate |newspaper=Sfgate.com |date=  |author= |accessdate= January 8, 2016}}</ref>
+|-
+|2001|| ||New Entrants|| [[wikipedia:Papa John's|Papa John's]] pizza launches online ordering.<ref name="MyUser_Https:_January_10_2016c">{{cite web |url=https://www.qsrmagazine.com/news/papa-john-s-launches-mobile-gift-card-ordering-site |title=Papa John's Launches Mobile Gift Card Ordering Site - Restaurant News - QSR magazine |newspaper= |date=  |author= |accessdate= January 10, 2016}}</ref>
+|-
+|2002||March||New Entrants||[[wikipedia:Safeway Inc.|Safeway]] begins delivering online grocery orders.<ref name="MyUser_Sfgate.com_January_8_2016c">{{cite web |url=http://www.sfgate.com/bayarea/article/Safeway-begins-delivering-online-grocery-orders-2866803.php |title=Safeway begins delivering online grocery orders / Albertson's also will help fill the gap left when Webvan closed down - SFGate |newspaper=Sfgate.com |date=  |author= |accessdate= January 8, 2016}}</ref>
+|-
+|2004|| ||Foundings||[[wikipedia:GrubHub|GrubHub]], an online restaurant delivery service, is founded in 2004 by two web developers, Matt Maloney and Mike Evans, who were looking for an alternative to paper menus.<ref name="MyUser_Businessinsider.com_January_8_2016c">{{cite web |url=http://www.businessinsider.com/grubhubs-ceo-on-the-shock-of-outgrowing-three-offices-in-a-few-short-years-2012-2 |title=GrubHub's CEO On The Shock Of Outgrowing Three Offices In A Few Short Years - Business Insider |newspaper=Businessinsider.com |date=  |author= |accessdate= January 8, 2016}}</ref>
+|-
+|2007||August||New Entrants||[[wikipedia:AmazonFresh|AmazonFresh]] initially offers home grocery delivery to residents of the Seattle suburb of Mercer Island in an invitation-only beta test in August 2007.<ref name="MyUser_Seattlepi.com_January_8_2016c">{{cite web |url=http://www.seattlepi.com/business/article/Amazon-starts-grocery-delivery-service-1245445.php |title=Amazon starts grocery delivery service - seattlepi.com |newspaper=Seattlepi.com |date=  |author= |accessdate= January 8, 2016}}</ref>
+|-
+|2008||March 1||Foundings||[[wikipedia:Eat24hours|Eat24hours]], an online restaurant delivery service, is founded.<ref name="CBEat24">{{cite web |url=https://www.crunchbase.com/organization/eat24hours#/entity |title=Eat24 |newspaper= |date=  |author= |accessdate= January 10, 2016}}</ref>
+|-
+|2009||January||Foundings||[[wikipedia:ZeroCater|ZeroCater]], a startup for delivering catered food to businesses, is founded.<ref name="MyUser_Foodtechconnect.com_January_12_2016c">{{cite web |url=http://www.foodtechconnect.com/2015/10/28/how-zerocater-became-a-100m-startup-with-1-5m-of-investment/ |title=How ZeroCater Became A $100M Startup With $1.5M Of Investment |newspaper=Foodtechconnect.com |date=  |author= |accessdate= January 12, 2016}}</ref><ref name="MyUser_Https:_January_12_2016c">{{cite web |url=https://startupgenome.co/zerocater |title=ZeroCater |newspaper= |date=  |author= |accessdate= January 12, 2016}}</ref>
+|-
+|2009||July||New Entrants||Pizza Hut launches a free iPhone application today that offers mobile ordering and games to play while one waits for delivery.<ref name="MyUser_Adage.com_January_8_2016c">{{cite web |url=http://adage.com/article/digital/pizza-hut-pizza-chain-launch-iphone-app/137952/ |title=Pizza Hut First Pizza Chain to Launch iPhone App |newspaper=Adage.com |date=  |author= |accessdate= January 8, 2016}}</ref>
+|-
+|2009||August||New Entrants||[[wikipedia:Roaming Hunger|Roaming Hunger]], a website for finding food trucks, launches the first website dedicated to booking catering from food trucks at any location.<ref name="MyUser_FastCompany.com_January_26_2016c">{{cite web |url=https://www.fastcompany.com/1487276/meals-wheels-online-new-site-tracks-food-trucks-nationwide |title=Meals on Wheels Online: New Site Tracks Food Trucks Nationwide |newspaper=FastCompany.com |date=  |author= |accessdate= January 22, 2016}}</ref>
+|-
+|2012||February||Foundings|| [[wikipedia:DoorDash|DoorDash]], which would later become a [[wikipedia:Y-Combinator|Y-Combinator]] summer 2013 food delivery company, issues its first delivery.<ref name="TCDoorDash">{{cite web |url=http://techcrunch.com/2013/07/26/y-combinator-backed-doordash-delivers-food-quickly-in-south-bay-hopes-to-expand-beyond-food/ |title=Y Combinator-Backed DoorDash Delivers Food Quickly In South Bay, Hopes To Expand Beyond Food |newspaper=Techcrunch.com |date=  |author= |accessdate= January 10, 2016}}</ref>
+|-
+|2012||July 1||Foundings||[[wikipedia:Instacart|Instacart]], which offers an app that lets users order groceries and delivers them, is founded.<ref name="CBInsta">{{cite web |url=https://www.crunchbase.com/organization/instacart#/entity |title=Instacart |newspaper= |date=  |author= |accessdate= January 10, 2016}}</ref>
+|-
+|2012||September 12||Foundings|| Caviar launches, and starts off offering delivery in the [[wikipedia:San Francisco|San Francisco]] area from high-end restaurants rated 4-stars or higher on [[wikipedia:Yelp|Yelp]].<ref name="MyUser_Techcrunch.com_January_10_2016c">{{cite web |url=http://techcrunch.com/2012/09/20/former-munchonme-team-launches-caviar-a-curated-seamless/ |title=Former ‘MunchOnMe' Team Launches Caviar, A Curated ‘Seamless' |newspaper=Techcrunch.com |date=  |author= |accessdate= January 10, 2016}}</ref>
+|-
+|2013||April||Foundings|| Sprig, a delivery service for healthy meals, launches in [[wikipedia:San Francisco|San Francisco]].<ref name="TC_Sprig">{{cite web |url=http://techcrunch.com/2013/11/06/sprig/ |title=With $1.2 Million In Seed Funding, Sprig Launches To Bring Fast, Healthy Meals To SF Eaters For $12 Each |newspaper=Techcrunch.com |date=  |author= |accessdate= January 12, 2016}}</ref>
+|-
+|2013||June||Foundings||[[wikipedia:SpoonRocket|SpoonRocket]], a [[wikipedia:Y-Combinator|Y-Combinator]]-backed company for delivering fast food meals, is founded.<ref name="MyUser_Eastbayexpress.com_January_12_2016c">{{cite web |url=http://www.eastbayexpress.com/WhatTheFork/archives/2013/06/25/spoonrocket-delivery-service-takes-flight |title=SpoonRocket Delivery Service Takes Flight |newspaper=Eastbayexpress.com |date=  |author= |accessdate= January 12, 2016}}</ref>
+|-
+|2013||June||Companies||[[wikipedia:AmazonFresh|AmazonFresh]] expands out to [[wikipedia:Los Angeles|Los Angeles]].<ref name="MyUser_Geeky-gadgets.com_January_8_2016c">{{cite web |url=http://www.geeky-gadgets.com/amazonfresh-grocery-delivery-service-now-available-in-los-angeles-10-06-2013/ |title=AmazonFresh Grocery Delivery Service Now Available In Los Angeles |newspaper=Geeky-gadgets.com |date=  |author= |accessdate= January 8, 2016}}</ref> It would later expand out to [[wikipedia:San Francisco|San Francisco]] by December 2013.
+|-
+|2013||August||Mergers and Acquisitions||Seamless and GrubHub merge.<ref name="MyUser_Bizjournals.com_January_8_2016c">{{cite web |url=http://www.bizjournals.com/chicago/news/2013/08/09/grubhub-and-seamless-complete-merger.html |title=GrubHub and Seamless complete merger - Chicago Business Journal |newspaper=Bizjournals.com |date=  |author= |accessdate= January 8, 2016}}</ref>
+|-
+|2014||August 4||Mergers and Acquisitions||[[wikipedia:Square, Inc.|Square]] acquires Caviar.<ref name="TCSquare">{{cite web |url=http://techcrunch.com/2014/08/04/its-official-square-acquires-food-delivery-service-caviar/ |title=Square Acquires Food Delivery Service Caviar |newspaper=Techcrunch.com |date=  |author= |accessdate= January 10, 2016}}</ref>
+|-
+|2015||February 10||Mergers and Acquisitions||[[wikipedia:Yelp|Yelp]] acquires [[wikipedia:Eat24|Eat24]].<ref name="CBEat24"/>
+|-
+|2015||February 18||New Entrants||[[wikipedia:Uber (company)|Uber]] launches into the food delivery space with UberEATS, starting off in Barcelona.<ref name="TCUber">{{cite web |url=https://newsroom.uber.com/barcelona-your-meal-is-arriving-now/ |title=Barcelona, your meal is arriving now! |newspaper= |date=  |author= |accessdate= January 10, 2016}}</ref>
+|-
+|2015||April 16||Indian Market||Online food ordering business in India witnessing exponential growth. Organized food business reaches worth US$48 billion, of which food delivery is US$15 billion.<ref name="IBEF Report">{{cite web |url=http://www.ibef.org/industry/indian-food-industry.aspx |title=Food Industry - India Brand Equity Foundation |newspaper= |date=January 31, 2016  |author=IBEF |accessdate= February 29, 2016}}</ref> Several startups rose in 2015 including [[wikipedia:Zomato|Zomato]], [[wikipedia:TinyOwl|TinyOwl]], [[wikipedia:Swiggy|Swiggy]], [[wikipedia:Innerchef|Innerchef]], [[wikipedia:Food Panda|Food Panda]], [[wikipedia:TheFirstMeal|The First Meal]] and Fresh Menu with focus on apps.<ref>{{cite web |url=http://forbesindia.com/article/ecommerce-in-india/indias-growing-appetite-for-food-service-startups/39833/1 |title=Indias growing appetite for food service startups}}</ref>
+|-
+|2015
+|October 5
+|Companies
+|[[wikipedia:Tapingo|Tapingo]] announces launch of large scale cooperation with [[wikipedia:Aramark|Aramark]] to expand its services into many university campuses across the [[wikipedia:United States|United States]]
+|}
+
+==References==
+{{Reflist|30em}}
+
+[[wikipedia:Category:Technology company timelines|Category:Technology company timelines]]
+[[wikipedia:Category:Online food ordering|Category:Online food ordering]]

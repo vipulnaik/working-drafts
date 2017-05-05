@@ -141,7 +141,7 @@ Most of our data and examples are in English and most relevant to the United Sta
 #* Examples are the Cooking Stack Exchange,<ref name=quantcast-cooking-stackexchange/> home improvement site Apartment Therapy,<ref name=quantcast-apartment-therapy/> cooking site The Kitchn (actual name, not a misspelling),<ref name=quantcast-thekitchn/> vegan recipe site Oh She Glows,<ref name=quantcast-ohsheglows/> the Home Improvement (DIY) Stack Exchange,<ref name=quantcast-diy-stackexchange/> and the Gardening Stack Exchange.<ref name=quantcast-gardening-stackexchange/>
 #* You can also use Google Trends to verify the weekly pattern in topics related to cooking and home improvement. Example search terms include "eggplant",<ref>[https://www.google.com/trends/explore?date=today%203-m&q=eggplant Google Trends for "eggplant" over the past 90 days]</ref> "tomato",<ref>[https://www.google.com/trends/explore?date=today%203-m&q=tomato Google Trends for "tomato" over the past 90 days]</ref> and "stew".<ref>[https://www.google.com/trends/explore?date=today%203-m&q=stew Google Trends for "stew" over the past 90 days]</ref>  
 #* Unfortunately, Wikipedia pageview trends do ''not'' display the same weekly cycles. Rather, they are all over the place. This is probably because most people who are looking for cooking recipes and advice don't go to Wikipedia for it, and variation in Wikipedia pageviews for these pages is governed by other factors.
-#* Cooking-related subreddits display a similar weekly cycle, albeit the traffic peak appears to be on Monday rather than Sunday. However, this is partly a result of timezone aggregation (Reddit reports daily traffic using UTC). Explicitly, traffic peaks around Monday, falls through the week, reaching its lowest point around Friday or Saturday. It then increases through Sunday to its peak. Examples include the subreddits for recipes,<ref>[https://www.reddit.com/r/recipes/about/traffic traffic statistics for r/recipes], Reddit. Retrieved March 3, 2017</ref> and cooking.<ref>[https://www.reddit.comr/Cooking/about/traffic traffic statistics for r/Cooking], Reddit. Retrieved March 3, 2017</ref>
+#* Cooking-related subreddits display a similar weekly cycle, albeit the traffic peak appears to be on Monday rather than Sunday. However, this is partly a result of timezone aggregation (Reddit reports daily traffic using UTC). Explicitly, traffic peaks around Monday, falls through the week, reaching its lowest point around Friday or Saturday. It then increases through Sunday to its peak. Examples include the subreddits for recipes,<ref>[https://www.reddit.com/r/recipes/about/traffic traffic statistics for r/recipes], Reddit. Retrieved March 3, 2017</ref> and cooking.
 # Keep in mind the following heuristic for websites related to eating out.[[Image:Quantcast Yelp weekly cycle.png|center]]
 #* Relative search interest related to eating out (as shown in Google Trends) goes ''up'' during the weekend, peaking on Saturday, somewhat lower on Sunday, and lowest from Monday to Thursday.<ref>[https://www.google.com/trends/explore?date=today%203-m&q=restaurant,menu Google Trends for restaurant and menu]</ref>[[Image:Google Trends restaurant and menu weekly cycle.png|center]]
 #* However, websites related to eating out see their lowest traffic on Sunday. The highest traffic is generally during the week, between Tuesday and Friday. Traffic dips partly on Saturday and goes down more on Sunday. Examples include eater.com,<ref name=quantcast-eater/> yelp.com, <ref name=quantcast-yelp/> and eat24.com.<ref name=quantcast-eat24/>[[Image:Quantcast Eater weekly cycle.png|center]]
@@ -330,13 +330,14 @@ Most of our data and examples are in English and most relevant to the United Sta
 #* For a history of Facebook news feed algorithm changes, see the events related to Product (news feed) in the Wikipedia timeline of Facebook page, and follow the references to get more details on the updates.<ref>[https://en.wikipedia.org/wiki/Timeline_of_Facebook Timeline of Facebook], Wikipedia, the free encyclopedia</ref> If you see sharp changes in the reach and engagement of your posts, or the traffic to your website from Facebook, at the time Facebook makes algorithm changes, then you are likely affected by those changes.
 
 == Related wikiHows ==
-
+* [[Get Traffic Analytics for a Website You Don't Own|How to Get Traffic Analytics for a Website You Don't Own]]
 * [[Understand Your Website Audience Profile|How to Understand Your Website Audience Profile]]
 * [[Gauge the Popularity of a Topic Online|How to Gauge the Popularity of a Topic Online]]
 * [[Conduct Audience Analysis|How to Conduct Audience Analysis]]
 * [[Promote Your Business|How to Promote Your Business]]
 * [[Effectively Advertise|How to Effectively Advertise]]
 * [[Make a Website|How to Make a Website]]
+
 == Sources and Citations ==
 {{reflist}}
 __PARTS__
