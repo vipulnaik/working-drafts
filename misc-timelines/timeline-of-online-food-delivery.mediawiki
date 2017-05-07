@@ -55,6 +55,10 @@ This is a [[wikipedia:timeline|timeline]] of [[wikipedia:Online food ordering|on
 |-
 |2009||August||Launch||Catering service||[[wikipedia:Roaming Hunger|Roaming Hunger]], a website for finding food trucks, launches the first website dedicated to booking catering from food trucks at any location.<ref name="MyUser_FastCompany.com_January_26_2016c">{{cite web |url=https://www.fastcompany.com/1487276/meals-wheels-online-new-site-tracks-food-trucks-nationwide |title=Meals on Wheels Online: New Site Tracks Food Trucks Nationwide |newspaper=FastCompany.com |date=  |author= |accessdate= January 22, 2016}}</ref>
 |-
+| 2011 || March || Launch || Food preparation, online food ordering, and delivery || Munchery, a service that allows people to order food online from professional chefs and have it delivered, launches in private beta. The company was formally founded four months ago, in November 2010.<ref>{{cite web|url = http://vator.tv/news/2016-10-17-when-munchery-was-young-the-early-years|title = When Munchery was young: the early years. Hundreds of meals served four months after launch; over 200,000 meals served by its third year|last = Kerr|first = Ronny|date = October 17, 2016|accessdate = March 6, 2017|publisher = Vator.tv}}</ref>
+|-
+|2012 || || Launch || Meal kit delivery || [[wikipedia:Blue Apron|Blue Apron]] launches. The company delivers meal kits to people for home food preparation.<ref>{{cite web|url = https://www.forbes.com/sites/alexkonrad/2015/10/14/inside-blue-apron-and-the-meal-kit-rush/#534c6a486461|title = Blue Apron's Got Big Plans For Dinner -- But So Do Its Hungry Rivals|publisher = ''[[wikipedia:Forbes|Forbes]]''|date = October 14, 2015|accessdate = May 6, 2017}}</ref><ref>{{cite web|url = www.thetimesherald.com/story/life/2016/09/01/meal-kits-put-test/89743878/|title = Meal kits put to the test|last = Sherwood|first = Alison|date = September 1, 2016|accessdate = May 6, 2017|publisher = ''[[wikipedia:The Times Herald|The Times Herald]]''}}</ref>
+|-
 |2012 || February || Launch || Online food ordering and delivery || [[wikipedia:DoorDash|DoorDash]], which would later become a [[wikipedia:Y-Combinator|Y-Combinator]] summer 2013 food delivery company, issues its first delivery.<ref name="TCDoorDash">{{cite web |url=http://techcrunch.com/2013/07/26/y-combinator-backed-doordash-delivers-food-quickly-in-south-bay-hopes-to-expand-beyond-food/ |title=Y Combinator-Backed DoorDash Delivers Food Quickly In South Bay, Hopes To Expand Beyond Food |newspaper=Techcrunch.com |date=  |author= |accessdate= January 10, 2016}}</ref>
 |-
 |2012 || July 1 || Launch || Online food ordering and delivery || [[wikipedia:Instacart|Instacart]], which offers an app that lets users order groceries and delivers them, is founded.<ref name="CBInsta">{{cite web |url=https://www.crunchbase.com/organization/instacart#/entity |title=Instacart |newspaper= |date=  |author= |accessdate= January 10, 2016}}</ref>
@@ -98,7 +102,7 @@ This is a [[wikipedia:timeline|timeline]] of [[wikipedia:Online food ordering|on
 |2016
 |October 25
 |Shutdown
-|Recipe ingredient delivery
+|Meal kit delivery
 |Recipe delivery service Din shuts down after failing to become profitable. Despite achieving profitability on a unit economics basis, it failed to make enough of a margin to offset operational overhead.<ref>{{cite web|url = https://sf.eater.com/2016/10/25/13398674/din-shut-down-san-francisco|title = Recipe Delivery Service Din Has Shut Down. Blame a crowded market|last = Tuder|first = Stefanie|date = October 25, 2016|accessdate = May 5, 2017|publisher = Eater (San Francisco)}}</ref>
 |-
 |2016
