@@ -1,6 +1,6 @@
-{{Attribute English Wikipedia}}
+{{Attribute English Wikipedia|original-exists=yes|substantial-edits=yes}}
 
-This page is a '''timeline of [[wikipedia:online advertising|online advertising]]'''. Major launches, milestones and other major events are included.{{E-commerce}}
+This page is a '''timeline of [[wikipedia:online advertising|online advertising]]'''. Major launches, milestones and other major events are included.
 
 == Overview ==
 {| class="wikitable"
@@ -113,7 +113,7 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |March
 |Launch
 |Web-ring advertising
-|[[wikipedia:LinkExchange|LinkExchange]] is founded by [[wikipedia:Tony Hsieh|Tony Hsieh]] (who would later become CEO of Zappos) and [[wikipedia:Sanjay Madan]].<ref>{{cite web
+|[[wikipedia:LinkExchange|LinkExchange]] is founded by [[wikipedia:Tony Hsieh|Tony Hsieh]] (who would later become CEO of Zappos) and [[wikipedia:Sanjay Madan|Sanjay Madan]].<ref>{{cite web
  |url= http://ibconsultants.com.au/wp-content/uploads/2015/06/Running-Your-Own-Show.pdf
  |title= The American Dream: Running Your Own Show
  |first= Perla |last= Ni |date= May 27, 1999
@@ -659,8 +659,28 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |}
 (*) Such launches are not initial launches, but rather re-launches.
 
+== Meta information on the timeline ==
+
+=== How the timeline was built ===
+
+* The first iteration of the timeline was created by [[wikipedia:User:Avigl|Avi Glozman]] on Wikipedia with payment from Vipul Naik, who also provided a list of event types and some sample events to get started with. The completion of the iteration (at the time of import into Timelines Wiki) is [https://timelines.issarice.com/index.php?title=Timeline_of_online_advertising&oldid=11704 here].
+* The second iteration was worked on by Vipul Naik. The methods used in this iteration include:
+** Reading through recent posts and archives of digital advertising and digital content publications like Digiday and AdExchanger to get a better qualitative sense of the sorts of topics discussed around digital advertising.
+** Using web search engines with various search keywords that combine ad tech terms with history terms, along with date range selection tools in search, to get a bunch of pages that talk of the history of ad tech. Then, using the lists of companies and events obtained this way and explicitly searching with those as keywords to get more specific data on them.
+
+=== What the timeline is still missing ===
+
+The timeline is lacking in a few important respects:
+
+* It does not provide a clear sense on the timeline of ''migration to digital'' for advertisers who have (or previously had) a big advertising presence. A number of lists of largest advertisers is available online.<ref>{{cite web|url = http://adage.com/article/advertising/world-s-largest-advertisers/306983/|title = What You Need to Know About the World's Largest Advertisers, from Adidas to Yili. Total for Ad Age's First Ranking of 100 Biggest Spenders: $241B|publisher = ''[[wikipedia:Advertising age|Advertising age]]''|date = December 4, 2016|accessdate = May 11, 2017|last = Johnson|first = Bradley}}</ref><ref>{{cite web|url = http://www.businessinsider.com/10-biggest-advertising-spenders-in-the-us-2015-7|title = These are the 10 companies that spend the most on advertising|last = O'Reilly|first = Lara|date = July 6, 2015|accessdate = May 11, 2017|publisher = ''[[wikipedia:Business Insider|Business Insider]]''}}</ref>
+* It does not give enough importance to advertising ''agencies'', the intermediaries between the companies on behalf of which advertisements are made, and the DSPs or ad networks that actually manage ad pacing, bidding, and delivery. Advertising agencies are responsible for designing ad creatives and manage the relationship with the DSP (or sometimes directly with the ad network or publisher). They again pre-date the Internet, so their ''migration to digital'' (or the evolution of new digital-focused agencies) is worth understanding. Examples include [[wikipedia:Havas|Havas]] and [[wikipedia:GroupM|GroupM]].
+* More coverage is needed of "brand safety" issues.
+* More coverage is needed of issues related to viewability, ad fraud, and third-party measurement and verification.
+* Maybe a row or two on hacks such as floor price optimization, and other evolutions in the real-time bidding space?
+* More coverage of attribution and connection with offline purchases (to the extent that it strongly connects with online advertising)
+
 == See also ==
-* [[wikipedia:Timeline of e-commerce|Timeline of e-commerce]]
+* [[Timeline of e-commerce]]
 * [[wikipedia:Online advertising|Online advertising]]
 
 == References ==
