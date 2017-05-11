@@ -1,0 +1,20 @@
+This timeline covers Chinese immigration to the United States, including both temporary and permanent migration. Among the topics discussed are: migration patterns, source and target regions of migration, laws (U.S. federal and state, and Chinese) that target or significantly affect migration patterns, court cases and administrative/bureaucratic developments affecting migration.
+
+{| class="wikitable sortable" border="1"
+! Year !! Month and date (if available) !! Event type !! Details
+|-
+| 1848 || January || Beginning of migration || Gold is discovered in California, leading to a [[wikipedia:California Gold Rush|California Gold Rush]]. A number of people from China arrive in the United States to participate in the Gold Rush. Before 1848, the total number of Chinese in the United States is only 325; soon, annual immigration from China exceeds this amount.
+|-
+| 1848 || February || Jurisdictional definitions and boundaries || The [[Mexican-American War]] concludes, and Alta California (which includes the modern U.S. state of California, plus nearby regions) is established to be part of the United States.
+|-
+| 1850 || || Jurisdictional definitions and boundaries || The state of California comes into formal existence (...)
+|-
+| 1850 || || Tax || The state of California passes a Foreign Miners' Tax of $20/month on foreign miners in California. The decision to focus on foreign ''miners'' reflects the majority view that the presence of Chinese in city services is appreciated but their competition in mining is not.
+|-
+| 1851 || || Tax || The Foreign Miners' Tax is repealed, after failing to raise sufficient revenue, and causing impoverishment among miners, making them flee to cities with no money
+|-
+| 1852 || || Tax || The state of California imposes a Foreign Miners' License Tax of $3/month on foreign miners. The amount of the tax would increase gradually and eventually get to $20/month in 1870, at which point it would be repealed.
+|-
+| 1854 || || Court case || In ''[[wikipedia:People v. Hall|People v. Hall]]'', George Hall is accused of murdering a foreign miner Ling Sing, but all witnesses are Chinese. The court rejects their testimony, arguing that Section 394 (which forbade Indians and blacks from testifying against whites) also forbade Chinese from testifying againt whites.
+|-
+| 1854 || || Prostition || Chinese madam Ah Toy shuts down h
