@@ -1,0 +1,132 @@
+{{Attribute English Wikipedia|original-exists=yes}}
+
+This is a timeline of [[wikipedia:Netflix|Netflix]], an American global provider of streaming films and television series.
+
+==Big picture==
+{| class="wikitable sortable"
+! Time period !! class="unsortable" | Key developments at Netflix
+|-
+| 1997–2006|| Netflix is founded on a mail-rental DVD service, goes IPO, and faces vicious competition with Blockbuster.
+|-
+|2007–2015 || Netflix starts its online subscription service in 2007 (a year after just over 50% of American households have broadband access), and online streaming ultimately forms the basis of Netflix's business model (as usage of DVDs starts declining). Netflix starts internationalization in 2010, reaches over 26 million subscribers worldwide by April 2011, 40.4 million subscribers by September 2013, and 81 million by April 2016. By 2015, it starts accounting for over one-third of all US Internet traffic.<ref name="MyUser_Time.com_May_22_2016c">{{cite web |url=http://time.com/3901378/netflix-internet-traffic/ |title=Netflix Accounts for More Than One-Third of Internet Traffic |newspaper=Time.com |date=  |author= |accessdate= May 22, 2016}}</ref> As Blockbuster declines, Netflix's primary competition is with other [[wikipedia:online streaming|online streaming]] services like [[wikipedia:Amazon Video|Amazon Video]] and [[wikipedia:Hulu|Hulu]] in the US.
+|}
+
+==Full timeline==
+{| class="wikitable sortable" border="1"
+! Year !! Month and date !! Event type !! Details
+|-
+| 1997 || August 29 || Company || Netflix founded in [[wikipedia:Scotts Valley|Scotts Valley]], California by [[wikipedia:Marc Randolph|Marc Randolph]]<ref>{{cite web|url=http://www.linkedin.com/profile/view?id=17958160|title=Marc Randolph LinkedIn Profile|author=self|accessdate=October 31, 2011}}</ref><ref>{{cite web|url=http://techcrunch.com/2010/05/07/marc-randolph-bookrenter/|title=Marc Randolph Techcrunch|author=Robin Wauters|accessdate=October 31, 2011}}</ref> and [[wikipedia:Reed Hastings|Reed Hastings]], who previously had worked together at [[wikipedia:Pure Software|Pure Software]]. 
+|-
+| 1998 || April 14 || Product || Netflix launches its website <ref>{{Cite book|title = Netflixed: The Epic Battle for America's Eyeballs|last = Keating|first = Gina|publisher = Portfolio/ Penguin|year = 2012|isbn = |location = |pages = }}</ref> with 925 works available for rent through a traditional pay-per-rental model (50[[wikipedia:United States cent|¢US]] per rental U.S. postage; late fees applied).<ref>{{cite web|author=Stephen Czar|year=1998|url=http://www.dvdfile.com/news/special_report/features/timeline/timeline.htm|title= DVD Historical Timeline|accessdate =January 30, 2006}}</ref>
+|-
+| 1999 || July || Funding || Netflix raises up $30 million in [[wikipedia:private equity|private equity]].<ref name="MyUser_Https:_May_21_2016c">{{cite web |url=https://www.crunchbase.com/organization/netflix#/entity |title=Netflix |newspaper=Crunchbase |date=  |author= |accessdate= May 21, 2016}}</ref>
+|-
+| 1998 || September || Product || Netflix launches its monthly subscription concept.<ref>{{Cite news|first=Jeffrey M.|last=O'Brien|url=https://www.wired.com/wired/archive/10.12/netflix.html?pg=2|title= The Netflix Effect|publisher=Wired News|date=December 2002}}</ref> 
+|-
+| 2000 || ||Company || Netflix offers itself for acquisition to [[wikipedia:Blockbuster LLC|Blockbuster]] for $50 million; however, Blockbuster declines the offer.<ref>{{Cite news|url= https://www.wsj.com/articles/SB10001424052748703384204575509331302481448|title=Blockbuster to Remake Itself Under Creditors|work=The Wall Street Journal|date=September 24, 2010}}</ref> 
+|-
+| 2001 || October || Company || Netflix announces that it will lay off one-third of its employees.
+|-
+| 2002 || || Competition || [[wikipedia:Redbox|Redbox]] is founded. It offers [[wikipedia:DVD|DVD]] rentals via [[wikipedia:automated retail|automated retail]] [[wikipedia:kiosk|kiosk]]s. A year later, it poaches [[wikipedia:Mitch Lowe|Mitch Lowe]], who was a founding executive at Netflix.
+|-
+| 2002 || May 29 || Company || Netflix initiates [[wikipedia:initial public offering|initial public offering]] (IPO), selling 5.5 million shares of [[wikipedia:common stock|common stock]] at the price of [[wikipedia:United States dollar|US$]]15.00 per share. It brings in $82.5 million.
+|-
+| 2003 || April || Growth || Netflix announces that it reaches 1 million subscribers.<ref name="MyUser_Ir.net_May_23_2016c">{{cite web |url=http://ir.netflix.com/releasedetail.cfm?ReleaseID=105475 |title=Netflix Announces First Quarter 2003 Ending Subscribers of 1,052,000, Up 74% Over The Prior Year (NASDAQ:NFLX) |newspaper=Ir.net |date=  |author= |accessdate= May 23, 2016}}</ref>
+|-
+| 2004 || August 11 || Competition || Blockbuster launches Blockbuster online to compete with Netflix, offering unlimited DVD rentals at the flat fee of $19.99/month.<ref name="MyUser_Prnewswire.com_May_23_2016c">{{cite web |url=http://www.prnewswire.com/news-releases/blockbuster-launches-blockbuster-onlinetm---the-movie-store-at-your-doortm-71586907.html |title=Blockbuster Launches BLOCKBUSTER Online(TM) – The Movie Store at Your Door(TM) |newspaper=Prnewswire.com |date=  |author= |accessdate= May 23, 2016}}</ref>
+|-
+| 2006 || September 7 || Competition || Amazon introduces [[wikipedia:video on demand|video on demand]] service [[wikipedia:Amazon Video|Amazon Video]].
+|-
+| 2006 || October 1 || Company || Netflix offers a [[wikipedia:Netflix Prize|$1,000,000 prize]] to the first developer of a video-recommendation [[wikipedia:algorithm|algorithm]] that could beat its existing algorithm, [[wikipedia:Cinematch|Cinematch]], at predicting customer ratings by more than 10%.<ref>{{cite web|url=http://www.netflixprize.com/|title=Netflix Prize Website|accessdate=December 8, 2006}}</ref>
+|-
+| 2007 || January 15 || Product || Netflix announces that it will launch streaming video.<ref name="MyUser_The_New_York_Times_May_21_2016c">{{cite web |url=https://www.nytimes.com/2007/01/16/technology/16netflix.html |title=Netflix to Deliver Movies to the PC |newspaper=The New York Times |date= January 16, 2007 |author= |accessdate= May 21, 2016}}</ref>
+|-
+| 2007 || February || Product || Netflix delivers its billionth DVD<ref>{{cite news|url=https://news.google.com/newspapers?id=Qqc_AAAAIBAJ&sjid=p1YMAAAAIBAJ&pg=2709,435491&dq=netflix+1+billionth+dvd&hl=en|title=The Victoria Advocate – Feb 26, 2007|page=B4}}</ref> and begins to move away from its original core business model of mailing DVDs by introducing [[wikipedia:video on demand|video on demand]] via the Internet. 
+|-
+| 2008 || March 12 || Competition || [[wikipedia:Hulu|Hulu]], a competing [[wikipedia:online streaming|online streaming]] service, launches for public access in the United States.<ref name="MyUser_Blog.hulu.com_May_30_2016c">{{cite web |url=http://blog.hulu.com/2008/03/12/welcome-to-hulu/ |title=Welcome to Hulu « The Hulu Blog |newspaper=Blog.hulu.com |date=  |author= |accessdate= May 30, 2016}}</ref>
+|-
+| 2008 || August || Product || Netflix experiences a giant database corruption. This drives it to shift moving all its data to the [[wikipedia:Amazon Web Services|Amazon Web Services]] cloud. It finally shifts all its data to the cloud by January 2016.<ref name="MyUser_Https:_May_30_2016c">{{cite web |url=https://media.netflix.com/en/company-blog/completing-the-netflix-cloud-migration |title=Completing the Netflix Cloud Migration |newspaper= |date=  |author= |accessdate= May 30, 2016}}</ref>
+|-
+| 2010 || September 22 || International || Netflix starts expanding its streaming service to the international market, starting with Canada."<ref name="Canada Stumble">{{cite web|last1=Star Staff|last2=Canadian Press|title=Netflix stumbles as it launches in Canada|url=http://www.thestar.com/entertainment/2010/09/22/netflix_stumbles_as_it_launches_in_canada.html|website=Toronto Star|publisher=Toronto Star|accessdate=December 3, 2014|date=September 10, 2010}}</ref>
+|-
+| 2010 || December || Legal || The [[wikipedia:FCC Open Internet Order 2010|FCC Open Internet Order]] bans cable television and telephone service providers from preventing access to competitors or certain web sites such as [[wikipedia:Netflix|Netflix]]. 
+|-
+| 2011 || April || Competition || [[wikipedia:Vudu|Vudu]] announces the launch of its [[wikipedia:online streaming|online streaming]] service.<ref name="Vudu ">{{cite web |url=https://www.thewrap.com/vudu-launches-streaming-service-26373/ |title=Vudu Launches Streaming Service |newspaper=|date=  |author= |accessdate= May 30, 2016}}</ref>
+|-
+| 2011 || June || Team || Netflix CEO [[wikipedia:Reed Hastings|Reed Hastings]] joins Facebook's board of directors.<ref name="MyUser_Engadget.com_May_30_2016c">{{cite web |url=http://www.engadget.com/2011/06/23/netflix-ceo-reed-hastings-joins-facebooks-board-of-directors/ |title=Netflix CEO Reed Hastings joins Facebook's Board of Directors |newspaper=Engadget.com |date=  |author= |accessdate= May 30, 2016}}</ref>
+|-
+|2011
+|September 5
+|International
+|Netflix launches streaming service in Brazil
+|-
+|2011
+|September 7
+|International
+|Netflix launches streaming service in Argentina, Uruguay, & Paraguay
+|-
+|2011
+|September 8
+|International
+|Netflix launches streaming service in Chile & Bolivia
+|-
+|2011
+|September 9
+|International
+|Netflix launches streaming service in Andean region, including Peru and Ecuador
+|-
+|2011
+|September 12
+|International
+|Netflix launches streaming service in Mexico, Central America, and the Caribbean
+|-
+| 2011 || September 18 || Product || [[wikipedia:Reed Hastings|Reed Hastings]] says in a Netflix blog post that the DVD section of Netflix would be split off and renamed Qwikster, and the only major change would be separate websites for the services.<ref>{{cite web|url=http://blog.netflix.com/2011/09/explanation-and-some-reflections.html |title= An Explanation and Some Reflections|work=Qwikster|accessdate=September 19, 2011}}</ref> This change would be retracted a month later.
+|-
+| 2011 || November || Finance || Netflix stock plunges from 42.16/share in July to 9.12/share in November, as 800,000 subscribers quit.<ref name="MyUser_CNN_May_30_2016c">{{cite web |url=http://money.cnn.com/2011/10/25/technology/netflix_stock/ |title=Netflix stock sinks as 800,000 subscribers quit – Oct. 25, 2011 |newspaper=CNN |date=  |author= |accessdate= May 30, 2016}}</ref>
+|-
+| 2012 || January 4 || International || Netflix starts its expansion in Europe, launching in the United Kingdom and Ireland.<ref name="BBC News">{{cite news| title = Netflix launches UK film and TV streaming service| date = January 9, 2012| url = http://www.bbc.co.uk/news/technology-16467432| accessdate = January 9, 2012|work=BBC News}}</ref> By September 18 it has expanded to Denmark, Finland, Norway and Sweden.<ref name="prnewswire.com">{{cite press release| title = Netflix Launches In Sweden, Denmark, Norway And Finland| date = October 18, 2012| url = http://www.prnewswire.com/news-releases/netflix-launches-in-sweden-denmark-norway-and-finland-174749581.html| accessdate = November 14, 2014|work=PRNewswire}}</ref>
+|-
+| 2012 || April || Company || Netflix files with the [[wikipedia:Federal Election Commission|Federal Election Commission]] (FEC) to form a [[wikipedia:political action committee|political action committee]] (PAC) called FLIXPAC.<ref name="FLIXPAC">{{cite news|last=Levinthal|first=Dave|title=Netflix forms PAC|url=http://www.politico.com/news/stories/0412/74929.html|newspaper=Politico|date=April 7, 2012}}</ref> 
+|-
+| 2012 || December || Product || Netflix experiences massive [[wikipedia:Christmas Eve|Christmas Eve]] outage, due to its hosting on [[wikipedia:Amazon Web Services|Amazon Web Services]]. Amazon issues apology several days later.<ref name="MyUser_Cnet.com_May_30_2016c">{{cite web |url=http://www.cnet.com/news/netflix-outage-mars-christmas-eve/ |title=Netflix outage mars Christmas Eve – CNET |newspaper=Cnet.com |date=  |author= |accessdate= May 30, 2016}}</ref>
+|-
+| 2013 || February 1 || Product || [[wikipedia:Netflix|Netflix]] starts streaming [[wikipedia:House of Cards (U.S. TV series)|House of Cards]], its first original content.<ref>{{Cite book|title = Netflixed: The Epic Battle for America's Eyeballs|last = Keating|first = Gina|publisher = Portfolio/ Penguin|year = 2012|isbn = |location = |pages = }}</ref>
+|-
+| 2013 || August 1 || Product || Netflix announces a "Profiles" feature that permits accounts to accommodate up to five user profiles, associated either with individuals or themes of their choosing (e.g., "Date Night").
+|-
+| 2013 || November || Competition || [[wikipedia:Dish Networks|Dish Networks]] announces that [[wikipedia:Blockbuster LLC|Blockbuster]] will close all remaining stores by the end of the year.<ref name="MyUser_The_Washington_Post_May_21_2016c">{{cite web |url=https://www.washingtonpost.com/blogs/the-switch/wp/2013/11/06/netflix-has-won-blockbuster-is-closing-their-last-retail-stores |title=Netflix has won: Blockbuster is closing its last retail stores |newspaper=The Washington Post |date=  |author= |accessdate= May 21, 2016}}</ref>
+|-
+|2014 || February || Product || Netflix discovers that [[wikipedia:Comcast Cable|Comcast Cable]] has been slowing its traffic down, and announces that it will pay Comcast to end the slowdown.<ref name="ComcastSlowdown">{{cite web |url=https://consumerist.com/2014/02/23/netflix-agrees-to-pay-comcast-to-end-slowdown/ |title=Netflix Agrees To Pay Comcast To End Slowdown – Consumerist |newspaper=Consumerist |date=  |author= |accessdate= May 30, 2016}}</ref>
+|-
+| 2014 || September 10 || Product || Netflix participates in the "Internet Slowdown" by intentionally slowing down its speeds, announcing its opposition to proposed changes in [[wikipedia:net neutrality|net neutrality]] rules that act against net neutrality by giving preferred websites the option to pay telecommunication companies for a guaranteed fast lane, in effect slowing down websites that don't pay for that fast lane.<ref>{{cite web|url=https://www.theatlantic.com/technology/archive/2014/09/todays-net-neutrality-campaign-explained/379973/|title=Why Netflix Is 'Slowing Down' Its Website Today|author=Rose Eveleth|date=September 10, 2014|work=The Atlantic|accessdate=February 26, 2015}}</ref>
+|-
+| 2015 || July || Finance || Netflix announces that its stock has surged to an all-time high (to almost $100/share), a growth of 574% over the past five years.<ref name="MyUser_CNN_May_30_2016cSURGE">{{cite web |url=http://money.cnn.com/2015/07/16/investing/netflix-stock-surge/ |title=Netflix is up over 500% in 5 years – Jul. 16, 2015 |newspaper=CNN |date=  |author= |accessdate= May 30, 2016}}</ref>
+|-
+|2015
+|September 2
+|International
+|Netflix launches streaming service in Japan.
+|-
+| 2015 || October || Product || Netflix announces that it will raise the price of its standard HD plan to $10 per month, up from $9 per month for recent customers. This price hike will be gradually rolled in, a strategy it calls "un-grandfathering." <ref name="MyUser_CNN_September_11_2016c">{{cite web |url=http://money.cnn.com/2016/04/19/technology/netflix-prices/ |title=Netflix prices are going up. Here's when you'll have to pay more - Apr. 19, 2016 |newspaper=CNN |date=  |author= |accessdate= September 11, 2016}}</ref>
+|-
+| 2016 || January 6 || International || At the [[wikipedia:Consumer Electronics Show|Consumer Electronics Show]], Netflix announces a major international expansion into 130 new territories; with this expansion, the company promoted that its service would now be available nearly "worldwide", with the only notable exclusions including China, and regions subject to U.S. sanctions, such as [[wikipedia:Crimea|Crimea]] ([[wikipedia:Ukraine|Ukraine]]), [[wikipedia:Syria|Syria]], and [[wikipedia:North Korea|North Korea]].<ref name="nyt-ces">{{cite web |url=https://www.nytimes.com/2016/01/07/business/media/netflix-expands-its-streaming-service-worldwide.html?_r=0 |title=At CES, Netflix Adds Over 130 Countries to Streaming Service |newspaper=The New York Times |date= January 6, 2016 |author= |accessdate= September 11, 2016}}</ref>
+|-
+| 2016 || January || Product || Netflix announces that it will launch originals targeting kids.<ref name="MyUser_The_Wall_Street_Journal_September_11_2016c">{{cite web |url=https://www.wsj.com/articles/netflix-to-ramp-up-originals-targeting-kids-1453058812 |title=Netflix To Ramp Up Originals Targeting Kids |newspaper=The Wall Street Journal |date=  |author= |accessdate= September 11, 2016}}</ref>
+|-
+| 2016 || February 11 || Product || Netflix finishes its massive migration of its data servers to [[wikipedia:Amazon Web Services|Amazon Web Services]].<ref name="MyUser_Ars_Technica_May_30_2016c">{{cite web |url=http://arstechnica.com/information-technology/2016/02/netflix-finishes-its-massive-migration-to-the-amazon-cloud/ |title=Netflix finishes its massive migration to the Amazon cloud |newspaper=Ars Technica |date= February 11, 2016 |author=Jon Brodkin |accessdate= May 30, 2016}}</ref><ref name="wsj-aws">{{cite web |url=http://blogs.wsj.com/cio/2016/02/11/netflix-shifts-all-it-to-amazons-public-cloud/ |title=Netflix Shifts All IT to Amazon's Public Cloud - CIO Journal. |newspaper=The Wall Street Journal |date=  |author= |accessdate= September 11, 2016}}</ref>
+|-
+| 2016 || March || Legal || Netflix, supposedly a defender of [[wikipedia:net neutrality|net neutrality]], admits that it sends lower quality video to mobile subscribers on AT&T and Verizon’s networks for the past 5 years.<ref name="MyUser_Wired.com_May_30_2016c">{{cite web |url=https://www.wired.com/2016/03/netflix-no-net-neutrality-hypocrite-slowing-video/ |title=Netflix Is No Net Neutrality Hypocrite for Slowing Down Video |newspaper=Wired.com |date=  |author= |accessdate= May 30, 2016}}</ref> This may hand the telecommunication giants a potent weapon in their legal fight against Net Neutrality. Some accuse Netflix of hypocrisy.<ref name="wsj-throttle">{{cite web |url=https://www.wsj.com/articles/netflix-throttles-its-videos-on-at-t-verizon-phones-1458857424 |title=Netflix Throttles Its Videos on AT&T, Verizon Networks |newspaper=The Wall Street Journal |date=  |author= |accessdate= September 11, 2016}}</ref>
+|-
+| 2016 || May || Partnerships || Netflix partners with [[wikipedia:Univision|Univision]] to broadcast the first season of its original show “Narcos” - testing whether airing old seasons on traditional TV can lure people to sign up for its service ahead of the next season.<ref name="wsj-blogs">{{cite web |url=http://blogs.wsj.com/moneybeat/2016/05/17/at-netflix-whats-old-is-new-again/ |title=At Netflix, What's Old Is New Again - MoneyBeat |newspaper=The Wall Street Journal |date=  |author= |accessdate= September 11, 2016}}</ref>
+|-
+| 2016 || November 30 || Product || After years of requests from subscribers, Netflix rolls out an offline playback feature to all of its subscribers in all of its markets.<ref>{{cite web|url=https://www.washingtonpost.com/news/the-switch/wp/2016/11/30/netflix-is-finally-letting-you-download-videos-for-offline-viewing/|title=Netflix is finally letting you download videos for offline viewing|last=Fung|first=Brain|website=The Washington Post|access-date=November 30, 2016}}</ref>
+|-
+|}
+
+==References==
+{{reflist|30em}}
+
+{{Technology company timelines}}
+
+[[wikipedia:Category:Technology company timelines|Netflix]]
+[[wikipedia:Category:Netflix|Category:Netflix]]
