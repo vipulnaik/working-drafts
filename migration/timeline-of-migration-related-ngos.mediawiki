@@ -34,7 +34,7 @@ This page provides a timeline of major organizations not affiliated with the Uni
 |-
 | 1987 || || Launch || Pro-immigrant advocacy think tank || The American Immigration Council (AIC), a nonprofit that does immigration research and promotes pro-immigration and pro-immigrant policies in the United States, launches.<ref name=aic-mission>{{cite web|url = https://www.americanimmigrationcouncil.org/about/our-mission|title = About the American Immigration Council: Honoring our Immigrant Past, Shaping our Immigrant Future|publisher = American Immigration Council|accessdate = March 28, 2017}}</ref>
 |-
-| 1994 || || Launch || Restrictionist think tank || The [[wikipedia:California Coalition for Immigration Reform]] (CCIR) launches. The group advocates for immigration reduction. The CCIR would be a co-sponsor of [[wikipedia:California Propositon 187|California Proposition 187]].
+| 1994 || || Launch || Restrictionist think tank || The [[wikipedia:California Coalition for Immigration Reform|California Coalition for Immigration Reform]] (CCIR) launches. The group advocates for immigration reduction. The CCIR would be a co-sponsor of [[wikipedia:California Propositon 187|California Proposition 187]].
 |-
 | 1996 || December || Launch || Restrictionist think tank || [[wikipedia:NumbersUSA|NumbersUSA]] is founded by [[wikipedia:Roy Beck|Roy Beck]], initially with a launch of the website NumbersUSA.com.<ref name=numbersusa-about>{{Cite web|url = https://www.numbersusa.com/about|title = About Us. Moderates, conservatives & liberals working for immigration numbers that serve America's finest goals|publisher = [[wikipedia:NumbersUSA|NumbersUSA]]|accessdate = March 28, 2017}}</ref>
 |-
@@ -48,7 +48,7 @@ This page provides a timeline of major organizations not affiliated with the Uni
 |-
 | 2004 || August || Launch || Border monitoring || The [[wikipedia:Minuteman Project|Minuteman Project]] launches. It is a group of private individuals in the United States to extrajudicially monitor the United States – Mexico border's flow of illegal aliens.
 |-
-| 2005 || || Launch || Advocacy group and discussion forum || [[wikipedia:Immigration Voice|Immigration Voice]], a group to advocate for immigration policies more friendly to high-skilled immigrants, launches.<ref>{{cite web|url = https://immigrationvoice.org/index.php?option=com_content&task=view&id=5&Itemid=47|title = About Immigration Voice|publisher = Immigration Voice|acccessdate = March 28, 2017}}</ref> The website also hosts a wiki and discussion forum to help people understand immigration law.
+| 2005 || || Launch || Advocacy group and discussion forum || [[wikipedia:Immigration Voice|Immigration Voice]], a group to advocate for immigration policies more friendly to high-skilled immigrants, launches.<ref>{{cite web|url = https://immigrationvoice.org/index.php?option=com_content&task=view&id=5&Itemid=47|title = About Immigration Voice|publisher = Immigration Voice|accessdate = March 28, 2017}}</ref> The website also hosts a wiki and discussion forum to help people understand immigration law.
 |-
 | 2006 || || Launch || Academic research center || The [[wikipedia:International Migration Institute|International Migration Institute]] is founded at [[wikipedia:Oxford University|Oxford University]].<ref name=imi-history>{{cite web|url=http://www.imi.ox.ac.uk/about-us/history-of-the-international-migration-institute|title = History of IMI|accessdate = May 28, 2014}}</ref>
 |-
