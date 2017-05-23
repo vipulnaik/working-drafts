@@ -1,0 +1,146 @@
+{{Attribute English Wikipedia|original-exists=yes}}
+
+This is a '''timeline of [[wikipedia:Instagram|Instagram]]'''.
+
+==Big picture==
+
+{| class="wikitable sortable"
+! Time period !! class="unsortable" | Key developments at Instagram
+|-
+| 2010–2012|| Instagram launches on the [[wikipedia:iPhone|iPhone]] and grows to 13 employees and to 30 million users (closing at $50 million at a $500 million valuation). It eventually gets acquired by Facebook in 2012.
+|-
+| 2013–2016 || Instagram introduces features such as videos, direct messaging, and advertising, and grows to over 400 million users. Instagram started insta-stories in August 2016.
+|}
+
+==Full timeline==
+
+{| class="wikitable sortable" border="1"
+! Year !! Month and date !! Event type !! Details
+|-
+| 2009 || October 21 || Product || [[wikipedia:Kevin Systrom|Kevin Systrom]] starts working on the project with the name Burbn.<ref>[https://twitter.com/burbn/status/5032925886 Well hello there good lookin'], @burbn Twitter account, October 21, 2009</ref>
+|-
+| 2010 || March 5 || Funding || Systrom closes a US$500,000 [[wikipedia:seed funding|seed funding]] round with Baseline Ventures and [[wikipedia:Andreessen Horowitz|Andreessen Horowitz]] while working on Burbn.<ref name="tcmar2010">{{cite web|last=Siegler|first=MG|title=Burbn's Funding Goes Down Smooth. Baseline, Andreessen Back Stealthy Location Startup.|url=http://techcrunch.com/2010/03/05/burbn-funding/|work=[[wikipedia:TechCrunch|TechCrunch]]|accessdate=October 4, 2011|date=March 5, 2010}}</ref>
+|-
+| 2010 || May 19 || Team || [[wikipedia:Mike Krieger|Mike Krieger]] joins the Burbn project<ref>[https://twitter.com/burbn/status/14315548793 Very excited to welcome @mikeyk to the Burbn team!], @burbn Twitter account, May 19, 2010</ref>
+|-
+| 2010 || October 6 || Product || Instagram launches (from Systrom and Krieger) with the hope of facilitating communication through images.<ref name="TCLaunch">{{cite web |url=http://techcrunch.com/2010/10/06/instagram-launch/ |title=Instagram Launches With The Hope Of Igniting Communication Through Images |newspaper=Techcrunch.com |date=  |author= |accessdate= April 15, 2016}}</ref> It nabs 100K users in one week.<ref name="MyUser_Mashable.com_April_15_2016c">{{cite web |url=http://mashable.com/2010/10/13/instagram-100k-users/#e8nU0D3CAaqb |title=iPhone Photo App Instagram Nabs 100K Users in One Week |newspaper=Mashable.com |date=  |author= |accessdate= April 15, 2016}}</ref>
+|-
+| 2010 || December 12 || Growth || Instagram hits 1 million users.<ref name="MyUser_Wersm.com_April_15_2016c">{{cite web |url=http://wersm.com/the-complete-history-of-instagram/#!prettyPhoto |title=The Complete History of Instagram (infographic) |newspaper=Wersm.com |date=  |author= |accessdate= April 15, 2016}}</ref>
+|-
+| 2011 || January || Product || Instagram adds [[wikipedia:hashtag|hashtag]]s to help users discover both photographs and each other.<ref name="igjan2011">{{cite web|title=Introducing Hashtags on Instagram|url=http://blog.instagram.com/post/8755963247/introducing-hashtags-on-instagram|work=Instagram Blog|publisher=[[wikipedia:Facebook|Facebook]]|accessdate=October 4, 2011|date=January 27, 2011}}
+</ref> Instagram encourages users to make tags both specific and relevant, rather than tagging generic words like "photo", to make photographs stand out and to attract like-minded Instagram users.<ref name="Instagram Blog">
+{{cite web|url=http://blog.instagram.com/post/17674993957/instagram-tips-using-hashtags|title=Instagram Tips: Using Hashtags|work=Instagram Blog|publisher=[[wikipedia:Facebook|Facebook]]|date=February 16, 2012|accessdate=July 11, 2012}}</ref>
+|-
+| 2011 || February 2 || Funding || Instagram has raised US$7 million in [[wikipedia:Series A round|Series A]] funding from a variety of investors, including [[wikipedia:Benchmark Capital|Benchmark Capital]], [[wikipedia:Jack Dorsey|Jack Dorsey]], [[wikipedia:Chris Sacca|Chris Sacca]] (through Capital fund), and [[wikipedia:Adam D'Angelo|Adam D'Angelo]].<ref name="tcfeb2011">
+{{cite web|last=Siegler|first=MG|title=Instagram Filters Through Suitors To Capture $7 Million In Funding Led By Benchmark|url=http://techcrunch.com/2011/02/02/instagram-funding/|work=[[wikipedia:TechCrunch|TechCrunch]]|accessdate=October 4, 2011|date=February 2, 2011}}</ref> The deal values Instagram at around $25 million.<ref name="fortune12"/>
+|-
+| 2011 || June || Growth || Instagram hits 5 million [[wikipedia:monthly active users|monthly active users]].<ref name="constine_maus" />
+|-
+| 2011 || September || Growth || Instagram hits 10 million [[wikipedia:monthly active users|monthly active users]].<ref name="constine_maus" />
+|-
+| 2011 || September || Product || Version 2.0 of Instagram goes live in the App Store (iOS) and included new and live [[wikipedia:Photographic filter|filters]], instant [[wikipedia:Tilt–shift photography|tilt–shift]], high resolution photographs, optional borders, one-click rotation, and an updated icon.<ref name="igsept20112">{{cite web|title=Introducing Instagram v2.0|url=http://blog.instagram.com/post/10444123475/v20|work=Instagram Blog|publisher=[[wikipedia:Facebook|Facebook]]|accessdate=October 4, 2011|date=September 20, 2011}}</ref>
+|-
+| 2012 || April 3 || Product || Instagram is released for Android phones running the [[wikipedia:Android froyo|2.2 Froyo]] version of the OS,<ref name="androidarrives">{{cite web|title=Instagram for android arrives|url=http://gizmodo.com/5898706/instagram-for-android-arrives|first1=Mat|last1=Honan|first2=Brent|last2=Rose|work=[[wikipedia:Gizmodo|Gizmodo]]|date=April 3, 2012|accessdate=April 10, 2012}}</ref> and it is downloaded more than one million times in less than one day.<ref name="1million 1day">{{cite web|url=http://www.theverge.com/2012/4/4/2924600/instagram-android-1-million-downloads|title=Instagram for Android breaks 1 million downloads in less than a day|first=Jeff|last=Blagdon|work=[[wikipedia:The Verge (website)|The Verge]]|date=April 4, 2012|accessdate=August 13, 2012}}
+</ref>
+|-
+| 2012 || April 9 || Funding || Instagram raises US$50 million from venture capitalists for a share of the company; the process values Instagram at US$500 million.<ref name="fortune12">{{cite news|url=http://finance.fortune.cnn.com/2012/04/09/did-facebook-panic/|title=Did Facebook panic?|first=Dan|last=Primack|work=[[wikipedia:CNNMoney.com|CNNMoney.com]]|publisher=CNN|date=April 9, 2012|accessdate=April 9, 2012}}</ref>
+|-
+| 2012 || April 30 || Growth || Instagram hits 50 million [[wikipedia:monthly active users|monthly active users]].<ref name="constine_maus" />
+|-
+| 2012 || April || Acquisitions || Facebook acquires Instagram for approximately US$1&nbsp;billion in cash and stock.<ref>{{cite news|title=Breaking: Facebook buying Instagram for $1 billion|url=http://finance.fortune.cnn.com/2012/04/09/breaking-facebook-buying-instagram-for-1-billion/|first=Dan|last=Primack|website=[[wikipedia:CNNMoney.com|CNNMoney.com]]|date=April 9, 2012|accessdate=April 9, 2012}}</ref><ref name="Facebook">{{cite web|title=Facebook to Acquire Instagram|url=http://newsroom.fb.com/Announcements/Facebook-to-Acquire-Instagram-141.aspx|work=Facebook Newsroom|publisher=[[wikipedia:Facebook|Facebook]]|accessdate=April 9, 2012|date=April 9, 2012}}</ref>
+|-
+| 2012 || June || Competition || [[wikipedia:Vine (service)|Vine (service)]], a short-form video sharing service, launches.<ref name="vinelaunch">{{cite web |url=https://www.crunchbase.com/organization/vine |title=Vine |newspaper=Https: |date=  |author= |accessdate= September 11, 2016}}</ref>
+|-
+| 2012 || December 17 || Product || Instagram updates its Terms of Service, granting itself the right{{snd}}starting on January 16, 2013{{snd}}to sell users' photos to third parties without notification or compensation.<ref name="bbc1">{{cite news|title=Instagram wants right to sell users' photos to advertisers|url=http://www.bbc.co.uk/news/technology-20767537|newspaper=BBC|date=18 December 2012}}</ref><ref name="wsj-tos">{{cite web |url=http://blogs.wsj.com/digits/2012/12/18/why-the-web-is-freaking-out-over-instagrams-new-terms-of-service/ |title=Why the Web Is Freaking Out Over Instagram's New Terms of Service - Digits |newspaper=The Wall Street Journal |date=  |author= |accessdate= September 7, 2016}}</ref>
+|-
+| 2013 || February || Growth || Instagram hits 100 million [[wikipedia:monthly active users|monthly active users]].<ref name="constine_maus" />
+|-
+| 2013 || May || Product || Instagram introduces photo tagging and "Photos of You," a new tab on a user’s profile listing every picture he or she is tagged in.<ref name="MyUser_Https:_April_15_2016c">{{cite web |url=https://blog.dashburst.com/history-of-instagram/ |title=The History of Instagram |newspaper= |date=  |author= |accessdate= April 15, 2016}}</ref>
+|-
+| 2013 || June 13 || Product || Instagram launches video sharing.<ref name="TCvideosharing">{{cite web |url=http://techcrunch.com/2013/06/20/facebook-instagram-video/ |title=Instagram Launches 15-Second Video Sharing Feature, With 13 Filters And Editing |newspaper=Techcrunch.com |date=  |author= |accessdate= April 15, 2016}}</ref>
+|-
+| 2013 || July || Product || Instagram makes it easier to share posts by adding links to embed photos and videos.<ref name="MyUser_Https:_April_15_2016c">{{cite web |url=https://blog.dashburst.com/history-of-instagram/ |title=The History of Instagram |newspaper= |date=  |author= |accessdate= April 15, 2016}}</ref>
+|-
+| 2013 || September || Growth || Instagram hits 150 million [[wikipedia:monthly active users|monthly active users]].<ref name="constine_maus" />
+|-
+| 2013 || October || Controversy || Instagram deletes the account of Canadian photographer [[wikipedia:Petra Collins|Petra Collins]] after Collins posted a photo of herself in which pubic hair was visible beneath her bikini bottom.<ref name=Collins1>{{cite news|title=Petra's pubic post deemed too personal for public consumption, Instagram deletes account|url=http://www.news.com.au/technology/petras-pubic-post-deemed-too-personal-for-public-consumption-instagram-deletes-account/story-e6frfro0-1226743977983|accessdate=October 25, 2014|newspaper=news.com.au|date=October 29, 2013}}</ref> Collins claims the account deletion was unfounded because it did not break any of Instagram's terms and conditions.<ref>{{cite web|last=Stoeffel|first=Kat|title=Instagram Censors Artistic Bush|url=http://nymag.com/thecut/2013/10/instagram-censors-artistic-bush.html|work=The Cut|publisher=New York Magazine|accessdate=October 25, 2014|date=October 17, 2013}}</ref>
+|-
+| 2013 || November || Controversy || Instagram acts in response to a 2013 investigation from the [[wikipedia:BBC|BBC]] regarding the role of Instagram in sales of illicit drugs. The BBC had discovered that users, mostly located in the US, were posting images of drugs they were selling and then completing transactions via instant messaging applications such as [[wikipedia:WhatsApp|WhatsApp Messenger]]. Corresponding hashtags are blocked as part of the company's response.<ref>{{cite news|title=Instagram acts after BBC finds site users are advertising illegal drugs|url=https://www.theguardian.com/technology/2013/nov/07/instagram-illegal-drugs-bbc-investigation |accessdate=8 November 2013|newspaper=The Guardian|date=8 November 2013|author=David Batty}}</ref>
+|-
+| 2013 || November || Product || Instagram introduces [[wikipedia:sponsored post|sponsored post]] advertising targeting US users.<ref name="wsj-ads1">{{cite web |url=http://www.wsj.com/articles/SB10001424127887324577304579059230069305894 |title=Instagram Pictures Itself Making Money |newspaper=The Wall Street Journal |date=  |author= |accessdate= September 7, 2016}}</ref><ref>{{cite web|last=Crabbe |first=Lauren |url= http://thenextweb.com/facebook/2013/11/01/fashion-designer-brand-michael-kors-becomes-first-run-ads-instagram-screenshot/ |title=Fashion designer brand Michael Kors becomes the first to run ads on Instagram |publisher= The Next Web |date=November 1, 2013 |accessdate= November 1, 2013}}</ref>
+|-
+| 2013 || December || Team || [[wikipedia:Snapchat|Snapchat]] announces that it will poach [[wikipedia:Emily White|Emily White]], director of business operations of Instagram. Emily White will move to Snapchat in January.<ref name="MyUser_The_Wall_Street_Journal_September_7_2016c">{{cite web |url=http://blogs.wsj.com/digits/2013/12/03/snapchat-snags-instagram-exec/ |title=Snapchat Snags Instagram Exec - Digits |newspaper=The Wall Street Journal |date=  |author= |accessdate= September 7, 2016}}</ref>
+|-
+| 2013 || December 12 || Product || Instagram adds Direct, a feature that allows users to send photos to specific people directly from the app. Instagram's primary intention with the Direct feature is to compete against messaging services, including [[wikipedia:Snapchat|Snapchat]].<ref>{{cite news |url=http://articles.washingtonpost.com/2013-10-04/business/42711198_1_instagram-facebook-advertising |title=Instagram adding ads boosts Facebook’s outlook, analysts say – The Washington Post |publisher=Washington Post |date=2011-03-25 |accessdate=2014-01-24 |first=Hayley |last=Tsukayama}}</ref><ref>{{cite web|last=Frier |first=Sarah |url=http://www.businessweek.com/news/2013-12-12/facebook-s-instagram-adds-messaging-service-to-fend-off-startups |title=Facebook’s Instagram Adds Private Messaging for Users |publisher=Businessweek |date=2013-12-12 |accessdate=2014-01-24}}</ref>
+|-
+| 2014 || March || Growth || Instagram hits 200 million [[wikipedia:monthly active users|monthly active users]].<ref name="constine_maus" />
+|-
+| 2014 || June || Product || Instagram launches new series of editing tools{{snd}}allowing users to minutely customize image characteristics like brightness, contrast, highlights, and shadows.<ref name="insta-editing">{{cite web |url=https://www.nytimes.com/2014/06/05/technology/personaltech/for-instagram-a-photo-editing-system-of-uncommon-power.html |title=Instagram Goes Beyond Its Gauzy Filters |newspaper=The New York Times |date= June 3, 2014 |author= |accessdate= September 11, 2016}}</ref>
+|-
+| 2014 || August || Team || The company's Global Head of Business and Brand Development{{snd}}a new position for Instagram{{snd}}is announced. Facebook's former Regional Director James Quarles was assigned the role.<ref>{{cite web|author1=Kurt Wagner|title=Instagram Hires New Ad Chief|url=http://recode.net/2014/08/13/instagram-hires-new-ad-chief/|website=recode|publisher=Revere Digital LLC|accessdate=16 August 2014|date=13 August 2014}}</ref>
+|-
+| 2014 || August 21 || Product || Instagram makes itself more advertising-friendly by introducing a suite of business tools aimed at brands which offer insights and analytics related to their use of the image-sharing network.<ref name="InstaAds">{{cite web |url=http://techcrunch.com/2014/08/21/instagram-woos-advertisers-brands-with-new-suite-of-business-tools/ |title=Instagram Starts Offering Essential Ad Tools At Last |newspaper=Techcrunch.com |date=  |author= |accessdate= April 15, 2016}}</ref>
+|-
+| 2014 || December || Growth || Instagram hits 300 million [[wikipedia:monthly active users|monthly active users]].<ref name="MyUser_Time.com_September_11_2016c">{{cite web |url=http://time.com/4045339/instagram-400-million/ |title=Instagram Keeps on Getting Bigger |newspaper=Time.com |date=  |author= |accessdate= September 11, 2016}}</ref>
+|-
+| 2015 || January || Controversy || In a similar incident to Collins's, Instagram deletes Australian Photography and Fashion Agency Sticks and Stones Agency's Instagram account because of a photograph including pubic hair sticking out of bikini bottoms.<ref>{{cite web|url=http://www.huffingtonpost.co.uk/2015/01/21/instagram-ban-the-bush_n_6508694.html|title=Did Instagram Ban This Account Because Of A Photo Showing Women's Pubic Hair?|work=The Huffington Post UK}}</ref>
+|-
+| 2015 || June || Product || Instagram bolsters up its advertising capabilities, testing ad formats that prompt users to do things such as installing an app, signing up for an email newsletter, or link to a retailer’s site to purchase a product.<ref name="wsj-ads">{{cite web |url=http://blogs.wsj.com/cmo/2015/06/02/instagram-bolsters-ad-offerings/ |title=Instagram Bolsters Ad Offerings - CMO Today |newspaper=The Wall Street Journal |date=  |author= |accessdate= September 7, 2016}}</ref>
+|-
+| 2015 || September 9 || Product || Instagram allows 30-second ads for all advertisers{{snd}}twice the 15-second limit given for users.<ref name="MyUser_Marketingland.com_April_15_2016c">{{cite web |url=http://marketingland.com/instagram-has-arrived-as-a-haven-for-ad-dollars-thanks-to-global-ad-roll-out-new-ad-options-141909 |title=Instagram Has Arrived As A Haven For Ad Dollars, Thanks To Global Ad Roll-out & New Ad Options |newspaper=Marketingland.com |date=  |author= |accessdate= April 15, 2016}}</ref>
+|-
+| 2015 || September || International || Instagram ads go global.<ref name="instagram-global">{{cite web |url=https://techcrunch.com/2015/09/08/all-grown-up-and-ready-to-make-money/ |title=Instagram Ads Go Global, Including New 30-Second Commercials |newspaper=Https: |date=  |author= |accessdate= September 11, 2016}}</ref>
+|-
+| 2015 || September || Growth || Instagram hits 400 million [[wikipedia:monthly active users|monthly active users]].<ref name="MyUser_Time.com_September_11_2016c">{{cite web |url=http://time.com/4045339/instagram-400-million/ |title=Instagram Keeps on Getting Bigger |newspaper=Time.com |date=  |author= |accessdate= September 11, 2016}}</ref>
+|-
+| 2015 || October || Product || Instagram launches Boomerang,<ref>{{cite news|title=Introducing Boomerang from Instagram|url=http://blog.instagram.com/post/131684343987/boomerang-from-instagram|accessdate=27 November 2015|agency=Instagram|publisher=Instagram|date=22 October 2015}}</ref> an app where the user shoots a one-second burst of five photos that is turned into a silent video that plays forwards and then reverses in a loop.<ref>{{Cite web|title = Instagram’s New Standalone App Boomerang Captures 1-Second Video Loops|url = http://social.techcrunch.com/2015/10/22/instagram-boomerang/|website = TechCrunch|accessdate = 2015-10-23|first = Josh|last = Constine}}</ref>
+|-
+| 2015 || November 17 || Product || Instagram kills off support from feed-reading applications.<ref name="MyUser_Techcrunch.com_April_15_2016c">{{cite web |url=http://techcrunch.com/2015/11/17/just-instagram/ |title=Instagram Kills Off Feed Reading Apps |newspaper=Techcrunch.com |date=  |author= |accessdate= April 15, 2016}}</ref>
+|-
+| 2016 || February || Product || Instagram starts enabling users to easily switch between multiple accounts.<ref name="tc-multiple">{{cite web |url=https://techcrunch.com/2016/02/08/instagram-finally-makes-it-easy-to-use-multiple-accounts/ |title=Instagram Finally Makes It Easy To Use Multiple Accounts |newspaper=Https: |date=  |author= |accessdate= September 11, 2016}}</ref>
+|-
+| 2016 || March || Controversy || The ''[[wikipedia:Daily Star (British newspaper)|Daily Star]]'' reports 'one million' explicit porn films found on Instagram. The videos were unearthed by tech blogger [[wikipedia:Jed Ismael|Jed Ismael]], who says he's discovered over one million porn films on the site.<ref>{{cite web|url=http://www.dailystar.co.uk/tech/news/500293/Shock-thousands-explicit-porn-films-hidden-Instagram|title=Shock as one million explicit porn films found on Instagram - Tech - Technology & Gaming News & Reviews - Daily Star|work=Dailystar.co.uk}}</ref><ref>{{cite web|url=http://www.news.com.au/technology/online/social/instagrot-the-shocking-explicit-porn-films-hidden-on-instagram-under-arabic-hashtags/news-story/a0b5198ef7596dd4908ea192a31e6b06|title=Instagram porn hidden under Arabic hashtags|date=March 12, 2016|work=NewsComAu}}</ref>
+|-
+| 2016 || March 15 || Product || Instagram switches its feed from chronological to algorithmically-driven best posts first.<ref name="TCFeed">{{cite web |url=http://techcrunch.com/2016/03/15/filteredgram/ |title=Instagram is switching its feed from chronological to best posts first |publisher=TechCrunch |date=March 15, 2016 |author=Josh Constine |accessdate= April 15, 2016}}</ref>
+|-
+| 2016 || May 11 || Product || Instagram introduces a new look as well as an updated icon and app design for Instagram. Inspired by the previous app icon, the new icon represents a simpler camera and the rainbow lives on in gradient form.<ref>{{cite web|url = http://www.theverge.com/2016/5/11/11656252/instagram-redesigns-icon-app|title = Instagram launches redesigned app and icon|last = Kastrenakes|first = Jacob|date = May 11, 2016|accessdate = August 13, 2016|publisher = ''[[wikipedia:The Verge|The Verge]]''}}</ref>
+|-
+| 2016 || May || Product || Instagram announces that it will launch new business tools{{snd}}including analytics that allow users to see audience demographics, post impressions, and reach.<ref name="insta-analytics">{{cite web |url=https://techcrunch.com/2016/05/16/instagrams-analytics-will-offer-audience-demographics-post-impressions-reach-more/ |title=Instagram's analytics will offer audience demographics, post impressions, reach & more |newspaper=Https: |date=  |author= |accessdate= September 11, 2016}}</ref><ref name="MyUser_Blog.business.instagram.com_September_11_2016c">{{cite web |url=http://blog.business.instagram.com/post/145212269021/new-business-tools |title=Coming Soon: New Instagram Business Tools - Instagram for Business |newspaper=Blog.business.instagram.com |date=  |author= |accessdate= September 11, 2016}}</ref>
+|-
+| 2016 || June || Growth || Instagram announces that it has over 500 million [[wikipedia:monthly active users|monthly active users]].<ref name="constine_maus">{{cite web |url=https://techcrunch.com/2016/06/21/instagram-500-million/ |date=June 21, 2016 |publisher=TechCrunch |title=Instagram doubles monthly users to 500M in 2 years, sees 300M daily |author=Josh Constine |accessdate=February 22, 2017}}</ref>
+|-
+| 2016 || June || Product || Instagram announces instant translation feature.<ref name="time-translation">{{cite web |url=http://time.com/4379615/instagram-new-feature-translate/ |title=Instagram Is Getting An Instant Translation Feature |newspaper=Time.com |date=  |author= |accessdate= September 11, 2016}}</ref>
+|-
+| 2016 || July || Product || Instagram announces that it will start allowing users to filter out comment streams{{snd}}giving users the choice about which comments are acceptable or not for themselves. It also starts allowing users the opportunity to entirely turn off comments.<ref name="MyUser_The_Washington_Post_September_7_2016c">{{cite web |url=https://www.washingtonpost.com/news/the-switch/wp/2016/07/29/instagram-will-soon-let-you-filter-comments-on-your-own-account/ |title=Instagram will soon let you filter comments on your own account |newspaper=The Washington Post |date=  |author= |accessdate= September 7, 2016}}</ref>
+|-
+| 2016 || August 2 || Product || Instagram launches Instagram Stories. The product works like Snapchat Stories: users can post 24-hour ephemeral photo and video slideshows that disappear.<ref>{{cite web|url = https://techcrunch.com/2016/08/02/instagram-stories/|title = Instagram launches “Stories,” a Snapchatty feature for imperfect sharing|last = Constine|first = Josh|date = August 2, 2016|accessdate = August 13, 2016|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref> Instagram CEO Kevin Systrom openly admits that the feature is copied from Snapchat, based on the success of Snapchat stories.<ref>{{cite web|url = https://techcrunch.com/2016/08/02/silicon-copy/|title = Instagram CEO on Stories: Snapchat deserves all the credit|last = Constine|first = Josh|date = August 2, 2016|accessdate = August 13, 2016|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref> The feature is viewed as part of Instagram's goal of attracting users away from Snapchat.<ref>{{cite web|url = https://www.nytimes.com/2016/08/03/technology/instagram-stories-snapchat-facebook.html|title = Instagram Takes a Page From Snapchat, and Takes Aim at It, Too|last = Isaac|first = Mike|date = August 2, 2016|accessdate = August 13, 2016|publisher = ''[[wikipedia:New York Times|New York Times]]''}}</ref>
+|-
+| 2016 || August || Product || Instagram brings in Image Zoom, allowing users to zoom into images.<ref name="wsj-zoom">{{cite web |url=http://www.wsj.com/articles/instagram-finally-brings-image-zoom-to-apps-but-its-a-letdown-1472668214 |title=Instagram Finally Brings Image Zoom to Apps, But It's a Letdown |newspaper=The Wall Street Journal |date=  |author= |accessdate= September 11, 2016}}</ref>
+|-
+| 2016 || September || Product || Instagram removes the Photo Maps feature from its mobile apps, claiming that the feature was not widely used on the platform.<ref>{{Cite web|url=http://www.theverge.com/2016/9/6/12817340/instagram-photo-map-removals|title=Instagram is getting rid of photo maps|last=Newton|first=Casey|date=September 6, 2016|website=The Verge|archive-url=|archive-date=|dead-url=|access-date=February 15, 2017}}</ref>
+|-
+| 2016 || October 13 || Product || Instagram launches a desktop client for the first time on the [[wikipedia:Windows 10|Windows 10]] platform, which can be downloaded via the Windows Store. 
+|-
+| 2016 || November 21 || Product || Instagram launches live video, which allows users to broadcast live on Instagram, for up to one hour. Live videos on Instagram are not preserved, and are removed from the service once a user is done broadcasting. Instagram also launches disappearing photos and videos for the Instagram Direct feature on the same day, and images and videos sent using this method disappear after a certain amount of time.<ref>{{Cite news|url=http://blog.instagram.com/post/153474421572/161121-launches|title=New Ways to Share in the Moment|last=|first=|date=November 21, 2016|newspaper=Instagram Blog|access-date=February 15, 2017|archive-url=|archive-date=|dead-url=|work=|language=en|via=}}</ref><ref>{{Cite web|url=https://help.instagram.com/292478487812558|title=How do I share a live video on Instagram?|last=|first=|date=|website=Instagram Help Center|language=en|archive-url=|archive-date=|dead-url=|access-date=February 15, 2017}}</ref>
+|-
+| 2016 || December 15 || Growth || Instagram announces that it has over 600 million [[wikipedia:monthly active users|monthly active users]].<ref>{{cite web |url=https://techcrunch.com/2016/12/15/instagram-surges-past-600m-users-fueled-by-algorithmic-feed/ |date=December 15, 2016 |publisher=TechCrunch |title=Instagram surges past 600M users, fueled by algorithmic feed |author=Fitz Tepper |accessdate=February 22, 2017}}</ref>
+|-
+|2017
+|February 22
+|Product
+|Instagram launches a feature allowing users to post multiple photos in one post, in a slideshow-like fashion.<ref>{{Cite news|url=http://www.telegraph.co.uk/technology/0/post-multiple-photos-instagram/|title=How to post multiple photos in Instagram|work=The Telegraph|access-date=2017-03-02|language=en-GB}}</ref>
+|}
+
+==See also==
+* [[wikipedia:Timeline of Pinterest|Timeline of Pinterest]]
+* [[wikipedia:Timeline of Snapchat|Timeline of Snapchat]]
+* [[wikipedia:Timeline of Twitter|Timeline of Twitter]]
+* [[wikipedia:Timeline of Facebook|Timeline of Facebook]]
+* [[wikipedia:Timeline of social media|Timeline of social media]]
+
+==References==
+{{reflist|30em}}
+
+{{Technology company timelines}}
+
+[[wikipedia:Category:Technology company timelines|Instagram]]
