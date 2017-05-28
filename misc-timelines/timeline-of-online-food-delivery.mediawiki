@@ -1,4 +1,4 @@
-{{Attribute English Wikipedia|original-exists=yes}}
+{{Attribute English Wikipedia|original-exists=yes|substantial-edits=yes}}
 
 This is a [[wikipedia:timeline|timeline]] of [[wikipedia:Online food ordering|online food delivery]].
 
@@ -82,6 +82,12 @@ This is a [[wikipedia:timeline|timeline]] of [[wikipedia:Online food ordering|on
 |2015 || April 16 || Market size || Online food ordering and delivery || Online food ordering business in India witnessing exponential growth. Organized food business reaches worth US$48 billion, of which food delivery is US$15 billion.<ref name="IBEF Report">{{cite web |url=http://www.ibef.org/industry/indian-food-industry.aspx |title=Food Industry - India Brand Equity Foundation |newspaper= |date=January 31, 2016  |author=IBEF |accessdate= February 29, 2016}}</ref> Several startups rose in 2015 including [[wikipedia:Zomato|Zomato]], [[wikipedia:TinyOwl|TinyOwl]], [[wikipedia:Swiggy|Swiggy]], [[wikipedia:Innerchef|Innerchef]], [[wikipedia:Food Panda|Food Panda]], [[wikipedia:TheFirstMeal|The First Meal]] and Fresh Menu with focus on apps.<ref>{{cite web |url=http://forbesindia.com/article/ecommerce-in-india/indias-growing-appetite-for-food-service-startups/39833/1 |title=Indias growing appetite for food service startups}}</ref>
 |-
 |2015
+|April 28
+|Launch
+|Food preparation, online food ordering, and delivery
+|Prepared food delivery startup Maple launches in [[wikipedia:New York City|New York City]]. Like Sprig and SpoonRocket, Maple handles all aspects, from preparation to ordering to delivery.<ref>{{cite web|url = https://techcrunch.com/2015/04/28/maple-nyc-launch/|Maple Launches In NYC’s Financial District With A Fresh Approach To Food Delivery|last = Ha|first = Anthony|date = April 28, 2015|accessdate = May 28, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref>
+|-
+|2015
 |October 5
 |Partnership
 |Online food ordering and delivery
@@ -112,6 +118,12 @@ This is a [[wikipedia:timeline|timeline]] of [[wikipedia:Online food ordering|on
 |Bento, a delivery service that provides pan-Asian cuisine, shuts down. Despite achieving unit economics profitability, the service has to shut down after running out of money and failing to raise more.<ref>{{cite web|url = https://sf.eater.com/2017/1/10/14231188/bento-closed-san-francisco|title = Bento Is the Latest Meal Delivery Service to Shut Down. Following in the same footsteps as Din and Spoonrocket|date = January 10, 2017|accessdate = May 5, 2017|last = Tuder|first = Stefanie|publisher = Eater (San Francisco)}}</ref> Upon shutdown, the co-founders share more information on the company's trajectory, struggles, mistakes, and difficult decision to shut down.<ref>{{cite web|url = https://gimletmedia.com/episode/kitchen-confidential-season-3-episode-6/|title = Kitchen Confidential: Season 3, Episode 6|accessdate = May 5, 2017}}</ref> Prior to the shutdown, the company transitioned from high burn to profitability by transitioning from an on-demand delivery model to a catering model.<ref>{{cite web|url = https://medium.com/@review/the-food-delivery-death-star-85f9a121313|title = The Food Delivery Death Star. VCs still give billions to food delivery startups. But what’s their endgame?|publisher = The California Review|date = November 3, 2016|accessdate = May 5, 2017}}</ref>
 |-
 |2017
+|March 1
+|Acquisition
+|Online food ordering and delivery
+|Square, owner of online food ordering and delivery service Caviar, acquires online food ordering and delivery service OrderAhead. Simultaneously, Caviar launches a takeout service, a feature taken from its acquisition of OrderAhead.<ref>{{cite web|url = https://www.bloomberg.com/news/articles/2017-03-01/square-buys-orderahead-to-grab-pickup-business-at-restaurants|title = Square Buys OrderAhead to Grab Pickup Business at Restaurants|last = Wang|first = Selina|date = March 1, 2017|accessdate = May 28, 2017|publisher = ''[[wikipedia:Bloomberg|Bloomberg]]''}}</ref><ref>{{cite web|url = https://techcrunch.com/2017/03/01/squares-caviar-now-lets-people-order-food-ahead-for-pickup/|title = Square’s Caviar now lets people order food ahead for pickup|last = Dickey|first = Megan Rose|date = March 1, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''|accessdate = May 28, 2017}}</ref>
+|-
+|2017
 |March 21
 |Robot delivery
 |Online food ordering and delivery
@@ -122,6 +134,18 @@ This is a [[wikipedia:timeline|timeline]] of [[wikipedia:Online food ordering|on
 |Robot delivery
 |Online food ordering and delivery
 |San Francisco-based startup Marble announces a partnership with Yelp's Eat24 where Marble's robots deliver food for partner restaurants, initially geographically limited to some parts of San Francisco. The robots are maintained by Marble, and initially have both a human chaperone and a remote person monitoring the robot.<ref>{{cite web|url = https://techcrunch.com/2017/04/12/marble-and-yelp-eat24-start-robot-food-delivery-in-san-francisco/|title = Marble and Yelp Eat24 start robot food delivery in San Francisco|last = Kolodny|first = Lora|date = April 12, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref>
+|-
+|2017
+|may 8
+|Shutdown
+|Food preparation, online food ordering, and delivery
+|Prepared food delivery startup Maple, that had raised over $25 million, shuts down operations in New York City (the only place it had been running). Its technology would live on and be used by UK-based food delivery startup Deliveroo.<ref>{{cite web|url = https://techcrunch.com/2017/05/08/maple-shuts-down/|title = Food startup Maple shuts down operations in New York to join Deliveroo|last = Dickey|first = Megan Rose|date = May 8, 2017|accessdate = May 28, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref><ref>{{cite web|url = https://www.recode.net/2017/5/8/15581880/maple-shuts-down-food-delivery-app-david-chang-deliveroo|title = The food-delivery startup Maple has shut down. Leaked documents last year showed the company was in trouble.|last = Del Rey|first = Jason|publisher = Re/Code|date = May 8, 2017|accessdate = May 28, 2017}}</ref><ref>{{cite web|url = http://www.nrn.com/operations/delivery-only-maple-shuts-down-operations|title = Delivery-only Maple shuts down operations. NYC-based startup joins UK-based Deliveroo|date = May 8, 2017|accessdate = May 28, 2017|last = Ruggless|first = Ron|publisher = ''Nation's Restaurant News''}}</ref>
+|-
+|2017
+|May 26
+|Shutdown
+|Food preparation, online food ordering, and delivery
+|Sprig shuts down after several months of struggling. Prior to shutting down, Sprig had closed its Chicago business, started using Caviar to deliver food, and started serving food to walk-in customers. The company had raised $56.7 million over its lifetime.<ref>{{cite web|url = https://techcrunch.com/2017/05/26/on-demand-food-startup-sprig-is-shutting-down-today/|title = On-demand food startup Sprig is shutting down today|date = May 26, 2017|accessdate = May 28, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref><ref>{{cite web|url = http://www.businessinsider.com/san-francisco-food-delivery-startup-sprig-is-shutting-down-2017-5|title = Sprig, a food-delivery startup that has raised over $56 million, is shutting down|last = Carson|first = Biz|date = May 26, 2017|accessdate = May 28, 2017|publisher = ''[[wikipedia:Business Insider|Business Insider]]''}}</ref>
 |}
 
 ==References==

@@ -129,6 +129,12 @@ This is a '''timeline of [[wikipedia:Instagram|Instagram]]'''.
 |February 22
 |Product
 |Instagram launches a feature allowing users to post multiple photos in one post, in a slideshow-like fashion.<ref>{{Cite news|url=http://www.telegraph.co.uk/technology/0/post-multiple-photos-instagram/|title=How to post multiple photos in Instagram|work=The Telegraph|access-date=2017-03-02|language=en-GB}}</ref>
+|-
+| 2017 || March 22 || Growth || Instagram announces that it has over 1 million monthly active advertisers, compared to 500,000 last September and 200,000 a year ago.<ref>{{cite web|url = https://techcrunch.com/2017/03/22/instagram-grows-to-1m-active-advertisers-plans-to-add-more-data-and-direct-booking/|title = Instagram grows to 1M active advertisers, plans to add more data and direct booking|last = Ha|first = Anthony|date = March 22, 2017|accessdate = May 23, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref>
+|-
+|2017 || April 26 || Growth || Instagram announces that it has over 700 million monthly active users.<ref>{{cite web|url = https://techcrunch.com/2017/04/26/instagram-700-million-users/|title = Instagram’s growth speeds up as it hits 700 million users|date = April 26, 2017|accessdate = May 23, 2017|last = Constine|first = Josh|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref>
+|-
+| 2017 || May 23 || Product || Instagram launches Story Search for hashtags and locations.<ref>{{cite web|url = https://techcrunch.com/2017/05/23/instagram-stories-search/|title = Instagram launches Story Search for hashtags and locations|date = May 23, 2017|accessdate = May 23, 2017|last = Constine|first = Josh|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref>
 |}
 
 ==See also==
