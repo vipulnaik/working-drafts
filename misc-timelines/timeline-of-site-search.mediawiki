@@ -23,3 +23,7 @@ This timeline covers within-site or within-app search as used by websites rangin
 |-
 | 2017 || || Shutdown || Search as a service || Google discontinues sales of Google Site Search, its offering for websites that offers a highly site-customized site search solution. The product will be completely shut down by April 1, 2018.<ref>{{cite web|url = https://support.google.com/customsearch/answer/72325?hl=en|title = About Google Site Search|accessdate = May 28, 2017}}</ref><ref>{{cite web|url = https://blog.algolia.com/google-site-search-alternative/|title = Algolia: Picking up where Google Site Search left off|last = Utard|first = Sylvain|date = March 2, 2017|accessdate = May 28, 2017|publisher = Algolia}}</ref>
 |}
+
+== References ==
+
+{{reflist|30em}}
