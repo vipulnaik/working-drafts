@@ -3,19 +3,27 @@
 {| class="wikitable sortable"
 ! Year !! Month and date !! Event type !! Details
 |-
-| 1957 || || County coordination || The San Francisco Bay Area Rapid Transit District is formed by the [[wikipedia:California|California]] state legislature, comprising the counties of Alameda, Contra Costa, Marin, San Francisco, and San Mateo. Santa Clara county is not included.
+| 1947 || || Report || A joint review board by the United States Army and Navy concludes that an additional link is needed between San Francisco and Oakland to reduce congestion on the Bay Bridge. The proposed link is an underwater tube to carry high-speed electric trains.<ref name=bart-concept-born/>
+|-
+| 1951 || || Report || The California State Legislature creates a 26-member San Francisco Bay Area Rapid Transit Commission, comprised of representatives from each of the nine counties which touch the Bay. The Commission's charge is to study the Bay Area's long range transportation needs in the context of environmental problems and then recommend the best solution.<ref name=bart-concept-born/>
+|-
+| 1957 || || County coordination || Based on the findings of the San Francisco Bay Area Rapid Transit Commission, the San Francisco Bay Area Rapid Transit District is formed by the [[wikipedia:California|California]] state legislature, comprising the counties of Alameda, Contra Costa, Marin, San Francisco, and San Mateo. Santa Clara county is not included.<ref name=bart-concept-born>{{cite web|url = http://www.bart.gov/about/history/history|title = A History of BART: The Concept is Born|accessdate = May 28, 2017|publisher = [[wikipedia:Bay Area Rapid Transit|BART]]}}</ref>
 |-
 | 1959 || || Financing plan || A bill is passed in the California state legislature providing for financing of what would later become the [[wikipedia:Transbay Tube|Transbay Tube]] through surplus toll revenues from the [[wikipedia:San Francisco–Oakland Bay Bridge|San Francisco–Oakland Bay Bridge]].
 |-
-| 1961 || || System plan || A final plan is sent to the boards of supervisors of the five counties. The system would have three endpoints in the East Bay: Concord, Richmond, and Fremont; one in the Northwest at Novato, and one in the South Bay at Palo Alto.
+| 1961 || || System plan || A final plan is sent to the boards of supervisors of the five counties. The system would have three endpoints in the East Bay: Concord, Richmond, and Fremont; one in the Northwest at Novato, and one in the South Bay at Palo Alto.<ref name=bart-concept-born/>
 |-
-| 1962 || April || County coordination || San Mateo County opts out of BART, citing high costs, existing service provided by Southern Pacific commuter trains, and concerns over shoppers going to San Francisco, hurting local businesses. The withdrawal of San Mateo County leads to Daly City (just at the border between the counties) as the southwest terminus.
+| 1962 || April || County coordination || San Mateo County opts out of BART, citing high costs, existing service provided by Southern Pacific commuter trains, and concerns over shoppers going to San Francisco, hurting local businesses. The withdrawal of San Mateo County leads to Daly City (just at the border between the counties) as the southwest terminus.<ref name=bart-concept-born/>
 |-
-| 1962 || May || County coordination || Following the withdrawal of San Mateo County, Marin County also withdraws, citing engineering objections and the potential for not getting enough votes. This leads to cancellation of the plans for a northwest terminus and the Gear Subway section of the system.
+| 1962 || May || County coordination || Following the withdrawal of San Mateo County, Marin County also withdraws, citing engineering objections and the potential for not getting enough votes. This leads to cancellation of the plans for a northwest terminus and the Gear Subway section of the system.<ref name=bart-concept-born/>
 |-
-| 1962 || November || County coordination || The remaining three counties (Alameda, Contra Costa, and San Francisco) agree to the modified BART plan, with terminuses at Richmond, Concord, Fremont, and Daly City.
+| 1962 || November || County coordination || The remaining three counties (Alameda, Contra Costa, and San Francisco) agree to the modified BART plan, with terminuses at Richmond, Concord, Fremont, and Daly City.<ref name=bart-concept-born/>
 |-
-| 1964 || June 19 || Construction || BART construction is officially inaugurated by President [[wikipedia:Lyndon Johnson|Lyndon Johnson]], presiding over the ground-breaking ceremony for a 4.4-mile test track between Concord and Walnut Creek.
+| 1963 (?) || || Work contracts || A consortium of three engineering firms, referred to as Parrsons, Brinkerhoff-Tudor-Bechtel (PBTB) is retained by BART to direct and engineer the construction of the system.<ref name="Ethics Center"/><ref name=bart-begins/>
+|-
+| 1964 || June 19 || Construction || BART construction is officially inaugurated by President [[wikipedia:Lyndon Johnson|Lyndon Johnson]], presiding over the ground-breaking ceremony for a 4.4-mile test track between Concord and Walnut Creek.<ref name=bart-begins>{{cite web|url = http://www.bart.gov/about/history/history|title = A History of BART: The Project Begins|accessdate = May 28, 2017|publisher = [[wikipedi:Bay Area Rapid Transit|BART]]}}</ref>
+|-
+| 1967 || || Work contracts || The contract for the operation of BART's [[wikipedia:Automated Train Control|Automated Train Control]] (ATC) system is won by [[wikipedia:Westinghouse Electric Corporation|Westinghouse]] for $26 million.<ref name="Ethics Center">{{cite web | url = http://www.onlineethics.org/Topics/ProfPractice/Exemplars/AwardWinners/BARTcase.aspx |author= Stephen Unger |title= The BART Case |publisher= The Online Ethics Center for engineering and science |date= April 29, 2010 | accessdate = March 15, 2017 }}</ref>
 |-
 | 1969 || August || Construction || Construction of the [[wikipedia:Transbay Tube|Transbay Tube]] is completed.
 |-
