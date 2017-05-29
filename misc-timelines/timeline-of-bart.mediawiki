@@ -1,0 +1,35 @@
+== Full timeline ==
+
+{| class="wikitable sortable"
+! Year !! Month and date !! Event type !! Details
+|-
+| 1957 || || County coordination || The San Francisco Bay Area Rapid Transit District is formed by the [[wikipedia:California|California]] state legislature, comprising the counties of Alameda, Contra Costa, Marin, San Francisco, and San Mateo. Santa Clara county is not included.
+|-
+| 1959 || || Financing plan || A bill is passed in the California state legislature providing for financing of what would later become the [[wikipedia:Transbay Tube|Transbay Tube]] through surplus toll revenues from the [[wikipedia:San Francisco–Oakland Bay Bridge|San Francisco–Oakland Bay Bridge]].
+|-
+| 1961 || || System plan || A final plan is sent to the boards of supervisors of the five counties. The system would have three endpoints in the East Bay: Concord, Richmond, and Fremont; one in the Northwest at Novato, and one in the South Bay at Palo Alto.
+|-
+| 1962 || April || County coordination || San Mateo County opts out of BART, citing high costs, existing service provided by Southern Pacific commuter trains, and concerns over shoppers going to San Francisco, hurting local businesses. The withdrawal of San Mateo County leads to Daly City (just at the border between the counties) as the southwest terminus.
+|-
+| 1962 || May || County coordination || Following the withdrawal of San Mateo County, Marin County also withdraws, citing engineering objections and the potential for not getting enough votes. This leads to cancellation of the plans for a northwest terminus and the Gear Subway section of the system.
+|-
+| 1962 || November || County coordination || The remaining three counties (Alameda, Contra Costa, and San Francisco) agree to the modified BART plan, with terminuses at Richmond, Concord, Fremont, and Daly City.
+|-
+| 1964 || June 19 || Construction || BART construction is officially inaugurated by President [[wikipedia:Lyndon Johnson|Lyndon Johnson]], presiding over the ground-breaking ceremony for a 4.4-mile test track between Concord and Walnut Creek.
+|-
+| 1969 || August || Construction || Construction of the [[wikipedia:Transbay Tube|Transbay Tube]] is completed.
+|-
+| 1972 || February and March || Controversy || Three engineers working for BART, Max Blankenzee, Robert Bruder, and Holger Hjortsvang, had identified safety problems with the [[wikipedia:Automated Train Control|Automated Train Control]] (ATC) in 1969–1971. The issue is taken to the board of directors in February 1972. All but two of the directors vote to support management and reject the safety concerns. Management fire the workers in March.
+|-
+| 1972 || September 11 || Service start || BART opens service. Initial service is between the stations of MacArthur and Fremont (completely in the East Bay). The stations are: MacArthur, 19th Street, 12th Street, Lake Merritt, Fruitvalue, Coliseum, San Leandro, Bay Fair, Hayward, South Hayward, Union City, and Fremont.
+|-
+| 1973 || January 29 || New stations || BART opens service from MacArthur to Richmond (in the East Bay). The newly opened stations are: Ashby, Berkeley, North Berkeley, El Cerrito Plaza, El Cerrito Del Norte, and Richmond.
+|-
+| 1973 || May 21 || New stations || BART opens service from MacArthur to Concord (in the East Bay) completing the East Bay part of its initial plan. The newly opened stations are: Rockridge, Orinda, Lafayette, Walnut Creek, Pleasant Hill, and Concord.
+|-
+| 1973 || November 5 || New stations || BART opens its service in San Francisco (not yet connected with the East Bay), from Montgomery to Daly City. The stations are: Montgomery, Powell Street Station, Civil Center/UN Plaza, 16th Street/Mission, 24th Street/Mission, Glen Park, Balboa Park, and Daly City.
+|-
+| 1974 || September 16 || New stations || BART opens its station in West Oakland and begins trans-bay service between its East Bay and San Francisco stations.
+|-
+| 1976 || May 27 || New stations || BART opens its Embarcadero station, its first infill station. This would become BART's busiest station.
+|}
