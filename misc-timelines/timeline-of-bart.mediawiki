@@ -25,9 +25,15 @@
 |-
 | 1964 || June 19 || Construction || BART construction is officially inaugurated by President [[wikipedia:Lyndon Johnson|Lyndon Johnson]], presiding over the ground-breaking ceremony for a 4.4-mile test track between Concord and Walnut Creek.<ref name=bart-begins>{{cite web|url = http://www.bart.gov/about/history/history|title = A History of BART: The Project Begins|accessdate = May 28, 2017|publisher = [[wikipedi:Bay Area Rapid Transit|BART]]}}</ref>
 |-
+| 1965 || || Construction || Construction on the [[wikipedia:Transbay Tube|Transbay Tube]] begins.
+|-
+| 1967 || July || Construction || Construction for BART tracks along the [[wikipedia:Market Street Subway|Market Street Subway]] in San Francisco commences. The construction is carried out using [[wikipedia:cut-and-cover|cut-and-cover]].
+|-
 | 1967 || || Work contracts || The contract for the operation of BART's [[wikipedia:Automated Train Control|Automated Train Control]] (ATC) system is won by [[wikipedia:Westinghouse Electric Corporation|Westinghouse]] for $26 million.<ref name="Ethics Center">{{cite web | url = http://www.onlineethics.org/Topics/ProfPractice/Exemplars/AwardWinners/BARTcase.aspx |author= Stephen Unger |title= The BART Case |publisher= The Online Ethics Center for engineering and science |date= April 29, 2010 | accessdate = March 15, 2017 }}</ref>
 |-
-| 1969 || August || Construction || Construction of the [[wikipedia:Transbay Tube|Transbay Tube]] is completed.
+| 1969 || April 3 || Construction || The final section of the [[wikipedia:Transbay Tube|Transbay Tube]] is laid out (it has not yet been fitted for use by trains).<ref name=Lodi69-2>{{cite news |url=https://news.google.com/newspapers?id=vuAzAAAAIBAJ&sjid=VzIHAAAAIBAJ&pg=3681%2C7454411 |title=BART Tunnel Completion Moves Near |author=<!--Staff writer(s); no by-line.--> |agency=UPI |date=31 March 1969 |newspaper=Lodi News-Sentinel |accessdate=20 August 2016}}</ref>
+|-
+| 1969 || November 9 || Preview || A section of the Transbay Tube is opened for pedestrian traffic, prior to being fitted out for train use.<ref>{{cite news |url=https://news.google.com/newspapers?id=fnwzAAAAIBAJ&sjid=4DIHAAAAIBAJ&pg=7115%2C3602744 |title=BART Tube Is Opened For Sunday Visitors |author=<!--Staff writer(s); no by-line.--> |agency=UPI |newspaper=Lodi News-Sentinel |date=10 November 1969 |accessdate=20 August 2016}}</ref>
 |-
 | 1972 || February and March || Controversy || Three engineers working for BART, Max Blankenzee, Robert Bruder, and Holger Hjortsvang, had identified safety problems with the [[wikipedia:Automated Train Control|Automated Train Control]] (ATC) in 1969–1971. The issue is taken to the board of directors in February 1972. All but two of the directors vote to support management and reject the safety concerns. Management fire the workers in March.
 |-
@@ -36,6 +42,8 @@
 | 1973 || January 29 || New stations || BART opens service from MacArthur to Richmond (in the East Bay). The newly opened stations are: Ashby, Berkeley, North Berkeley, El Cerrito Plaza, El Cerrito Del Norte, and Richmond.
 |-
 | 1973 || May 21 || New stations || BART opens service from MacArthur to Concord (in the East Bay) completing the East Bay part of its initial plan. The newly opened stations are: Rockridge, Orinda, Lafayette, Walnut Creek, Pleasant Hill, and Concord.
+|-
+| 1973 || August 10 || Preview || The first test run of a train under automatic control from West Oakland to Montgomery is performed. The train runs at full speed, taking seven minutes and returning in another six minutes.<ref>{{cite news |url=https://news.google.com/newspapers?id=KJozAAAAIBAJ&sjid=kzIHAAAAIBAJ&pg=3805%2C3336413 |title=Bay tube run made by BART |author=<!--Staff writer(s); no by-line.--> |agency=UPI |date=11 August 1973 |newspaper=Lodi News-Sentinel |accessdate=20 August 2016}}</ref>
 |-
 | 1973 || November 5 || New stations || BART opens its service in San Francisco (not yet connected with the East Bay), from Montgomery to Daly City. The stations are: Montgomery, Powell Street Station, Civil Center/UN Plaza, 16th Street/Mission, 24th Street/Mission, Glen Park, Balboa Park, and Daly City.
 |-
