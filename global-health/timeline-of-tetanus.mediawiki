@@ -1,0 +1,120 @@
+This is a timeline of tetanus, atempting to describe major events such as scientific and medical developments concerning the disease.
+
+==Big picture==
+{| class="sortable wikitable"
+! Year/period !! Key developments
+|-
+| Ancient times < || Tetanus is first described in Egypt around 3000 years ago, and is considered to be prevalent throughout the ancient world.<ref name="Clostridium tetani (Tetanus)">{{cite web|title=Clostridium tetani (Tetanus)|url=http://www.antimicrobe.org/b100.asp|website=antimicrobe.org|accessdate=23 May 2017}}</ref>. Tetanus would be a major menace and a master killer in all the wars during most of history.<ref name="THE U. S. NAVY'S WAR RECORD WITH TETANUS TOXOID(THE U. S. NAVY'S WAR RECORD WITH TETANUS TOXOID*)"/>
+|-
+| 1880s–1920s || Most crucial developments on the understanding and treatment of tetanus happen in this period, starting from the discovery of tetanus bacterium in 1884 until the first effective vaccine around 1923.<ref name="Bacterial Vaccines"/><ref name="Tetanus cdc.gov"/>  
+|-
+| 1930s < || Routine vaccination starts to be implemented in several countries.<ref name="Vaccines: A Biography"/><ref name="Tetanus: a review of the literature"/><ref name="Epidemiology of tetanus in Italy in years 1971-2000"/> The adoption of tetanus toxoid prophylaxis during World War II presents an opportunity to note the incidence of tetanus with and without active immunization and to some extent to compare success attained by different programs of immunization.<ref name="THE U. S. NAVY'S WAR RECORD WITH TETANUS TOXOID(THE U. S. NAVY'S WAR RECORD WITH TETANUS TOXOID*)">{{cite web|title=THE U. S. NAVY'S WAR RECORD WITH TETANUS TOXOID(THE U. S. NAVY'S WAR RECORD WITH TETANUS TOXOID*)|url=http://annals.org/aim/article/673745/u-s-navy-s-war-record-tetanus-toxoid|website=annals.org|accessdate=26 May 2017}}</ref>
+|-
+| 1980 < || The [[wikipedia:WHO|World Health Organization]] starts collecting data on diphtheria–pertussis–tetanus (DPT3) vaccination coverage. All regions apart from Americas and Europe are found to have a coverage under 20%. Since then, global coverage of DTP3 vaccination would increase steeply. By 2013 the lowest regional coverage stands at 75% in the WHO African Region and the global average at 86%.<ref name="Tetanus disease and deaths in men reveal need for vaccination"/>
+|-
+| Recent years || Tetanus remains a public health problem in many parts of the world and is often fatal, even within modern intensive care facilities.<ref name="Tetanus disease and deaths in men reveal need for vaccination">{{cite journal|title=Tetanus disease and deaths in men reveal need for vaccination|journal=US National Library of Medicine|doi=10.2471/BLT.15.166777|url=https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4969990/}}</ref> The disease remains a major health problem in the developing world and is still encountered in the developed world. Between 800000 and 1 million deaths due to tetanus are reported each year, of which approximately 400,000 are due to neonatal tetanus. Africa and South East Asia account for 80% of these deaths. Tetanus remains endemic in 90 countries world-wide.<ref name="Clostridium tetani (Tetanus)"/>
+|-
+|}
+
+== Visual data ==
+[[File:Total neonatal tetanus cases given by 194 countries. Period 1980–2015.png|thumb|center|1200px|Total neonatal tetanus cases given by 194 countries. Period 1980–2015.]]
+[[File:Reported cases and deaths from tetanus in the United States. Period 1950–2013..png|thumb|center|1200px|Reported cases and deaths from tetanus in the United States. Period 1950–2013.]]
+[[File:Tetanus total reported cases for the period 1980–2015. Table 1..png|thumb|center|1200px|Tetanus total reported cases for the period 1980–2015, with Bangladesh, Angola and Afghanistan showing non–negligible figures. Table 1.]]
+[[File:Tetanus total reported cases for the period 1980–2015. Table 2..png|thumb|center|1200px|Tetanus total reported cases for the period 1980–2015. Table 2.]]
+[[File:Tetanus total reported cases for the period 1980–2015. Table 3..png|thumb|center|1200px|Tetanus total reported cases for the period 1980–2015. Table 3.]]
+[[File:Tetanus total reported cases for the period 1980–2015. Table 4..png|thumb|center|1200px|Tetanus total reported cases for the period 1980–2015, showing Egypt and DR Congo as the most affected countries. Table 4.]]
+
+== Timeline ==
+
+{| class="sortable wikitable"
+! Year/period !! Type of event !! Event !! Location
+|-
+| 3000 BP || Early record || Tetanus is described in Egypt. The disease is thought to be prevalent throughout the ancient world.<ref>{{cite journal|title=Tetanus|journal=BMJ Journals|url=http://jnnp.bmj.com/content/69/3/292|accessdate=26 May 2017}}</ref><ref name="Clostridium tetani (Tetanus)"/> || [[wikipedia:Egypt|Egypt]]
+|-
+| 5th century BC || Early record || Records from these time contain descriptions of tetanus.<ref name="Tetanus, diphtheria and pertussis:  ancient diseases in modern times">{{cite web|title=Tetanus, diphtheria and pertussis:  ancient diseases in modern times|url=http://pntonline.co.za/index.php/PNT/article/viewFile/532/632|website=pntonline.co.za|accessdate=23 May 2017}}</ref><ref name="Tetanus cdc.gov">{{cite web|title=Tetanus|url=https://www.cdc.gov/vaccines/pubs/pinkbook/downloads/tetanus.pdf|website=cdc.gov|accessdate=24 May 2017}}</ref> ||
+|-
+| 1884 || Scientific development || Tetanus bacterium ''[[wikipedia:Clostridium tetani|clostridium tetani]]'' is discovered when Italian scientists [[wikipedia:Giorgio Rattone|Giorgio Rattone]] and [[wikipedia:Antonio Carle|Antonio Carle]] first produce tetanus in animals by injecting them with pus from a human case.<ref name="Tetanus, diphtheria and pertussis:  ancient diseases in modern times"/><ref name="Diphtheria, Tetanus (Lockjaw), and Pertussis (Whooping Cough) Cases and Deaths, and DTaP Vaccination Rates"/><ref name="Tetanus Sanchez">{{cite web|last1=Sanchez|first1=Alexandra|title=Tetanus|url=http://www.austincc.edu/microbio/2993s/ct.htm|website=austincc.edu|accessdate=24 May 2017}}</ref><ref name="Tetanus cdc.gov"/> || [[wikipedia:Italy|Italy]]
+|-
+| 1884 || Scientific development || Shortly after the advent of the germ theory of infectious diseases, German internist [[wikipedia:Arthur Nicolaier|Arthur Nicolaier]] finds through experimentation with animals that tetanus is associated with bacilli of the soil. Nicolaier would produce tetanus in animals by injecting them with soil samples.<ref name="Bacterial Vaccines">{{cite web|last1=Germanier|first1=Rene|title=Bacterial Vaccines|url=https://books.google.com.ar/books?id=_gZjoDlfarwC&pg=PA38&lpg=PA38&dq=%22ramon%22+%22tetanus%22+%22in+1923%22&source=bl&ots=tv5U0IN4t5&sig=F8ahS57j9S0ffqu4tNsyHur_ym0&hl=en&sa=X&redir_esc=y#v=onepage&q=%22ramon%22%20%22tetanus%22%20%22in%201923%22&f=false|accessdate=24 May 2017}}</ref><ref name="Tetanus cdc.gov"/> || [[wikipedia:Germany|Germany]]
+|-
+| 1889 || Scientific development || Japanese bacteriologist [[wikipedia:Shibasaburo Kitasato|Shibasaburo Kitasato]] manages to isolate tetanus bacteria from an infected person, showing that they cause disease when injected into animals, and reports that the toxin could be neutralised by specific antibodies. This would be considered the first vaccine for passive immunology.<ref name="Tetanus, diphtheria and pertussis:  ancient diseases in modern times"/><ref name="Diphtheria, Tetanus (Lockjaw), and Pertussis (Whooping Cough) Cases and Deaths, and DTaP Vaccination Rates"/><ref name="Tetanus Sanchez"/><ref name="Tetanus cdc.gov"/>  || [[wikipedia:Germany|Germany]] ([[wikipedia:Berlin|Berlin]])
+|-
+| 1890 || Scientific development || Danish researcher [[wikipedia:Knud Faber|Knud Faber]] demonstrates the existence of a toxin by producing tetanus in animals injected with culture filtrates.<ref name="Bacterial Vaccines"/> || [[wikipedia:Denmark|Denmark]]
+|-
+| 1893 || Scientific development || French microbiologist and veterinarian [[wikipedia:Edmond Nocard|Edmond Nocard]] demonstrates passive tetanus immunization by successfully treating with serum therapy and curing horses suffering from tetanus.<ref name="Clostridium tetani (Tetanus)"/> <ref name="Diphtheria, Tetanus (Lockjaw), and Pertussis (Whooping Cough) Cases and Deaths, and DTaP Vaccination Rates">{{cite web|title=Diphtheria, Tetanus (Lockjaw), and Pertussis (Whooping Cough) Cases and Deaths, and DTaP Vaccination Rates|url=http://vaccines.procon.org/view.resource.php?resourceID=005971|website=procon.org|accessdate=23 May 2017}}</ref> || [[wikipedia:France|France]]
+|-
+| 1893 || Scientific development || French bacteriologist [[wikipedia:Pierre Paul Émile Roux|Pierre Paul Émile Roux]] and colleague L. Ann Vaillard, working at [[wikipedia:Pasteur Institute|Pasteur Institute]], attenuate the tetanus toxin by treatment with an iodine–potassium iodide solution.<ref name="Bacterial Vaccines"/><ref>{{cite book|title=The Anærobic Bacteria and Their Activities in Nature and Disease: Subject index|url=https://books.google.com.ar/books?id=0j_749XM9cgC&pg=PA228&lpg=PA228&dq=%22Roux%22+%22Vaillard%22+tetanus&source=bl&ots=_an06PCZGK&sig=KXyVpU66Nwm1Dl5wgBGdVvmKx9o&hl=en&sa=X&ved=0ahUKEwioqqzapY7UAhWGlZAKHQZ-DnQQ6AEIPTAH#v=onepage&q=%22Roux%22%20%22Vaillard%22%20tetanus&f=false|accessdate=26 May 2017}}</ref> || [[wikipedia:France|France]] 
+|-
+| 1897 || Scientific development || [[wikipedia:Edmond Nocard|Edmond Nocard]] demonstrates the protective effect of passively transferred antitoxin. Passive immunization in humans would be used for treatment and prophylaxis during World War I.<ref name="Tetanus cdc.gov"/> Passive tetanus profilaxis with equine antiserum is recognized as being able to prevent tetanus.<ref name="Vaccinology: An Essential Guide">{{cite book|last1=Milligan|first1=Gregg N.|last2=Barrett|first2=Alan D. T.|title=Vaccinology: An Essential Guide|url=https://books.google.com.ar/books?id=93i8BQAAQBAJ&pg=PA6&dq=%22tetanus%22+%22in+1900..2016%22&hl=en&sa=X&ved=0ahUKEwiY8c3i44PUAhWFH5AKHfejBz8Q6AEIPDAF#v=onepage&q=%22tetanus%22%20%22in%201900..2016%22&f=false|accessdate=24 May 2017}}</ref><ref name="Tetanus cdc.gov"/><ref name="Tetanus, diphtheria and pertussis:  ancient diseases in modern times"/> ||
+|-
+| 1902 || Scientific development || Marie and Morax postulate the nervous pathway of transport of tetanus toxin.  This would be demonstrated later by various investigators.<ref name="Bacterial Vaccines"/> ||
+|-
+| 1914 || Medical development || Anti-tetanus serum is introduced. This would be followed by an abrupt fall in tetanus incidence, even during [[wikipedia:World War I|World War I]].<ref name="Tetanus, diphtheria and pertussis:  ancient diseases in modern times"/><ref name="Prevention of tetanus during the First World War.">{{cite journal|title=Prevention of tetanus during the First World War.|journal=US National Library of Medicine|url=https://www.ncbi.nlm.nih.gov/pubmed/22543225|accessdate=23 May 2017}}</ref> ||
+|-
+| 1917 || Medical development || Vallé and Bazy carry out the vaccination of wounded during [[wikipedia:World War I|World War I]] with toxin detoxified by iodine treatment.<ref name="Bacterial Vaccines"/> ||
+|-
+| 1923 || Scientific discovery || French veterinarian and biologist [[wikipedia:Gaston Ramon|Gaston Ramon]] reports the preparation of an antigenic toxoid by formaldehyde and heat treatment of the tetanus toxin. It would be considered the first inactive tetanus toxoid discovered and produced. The diphtheria and tetanus toxoid (TT), for which Ramon is considered their discoverer, are then referred to as ''anatoxins''.<ref name="Bacterial Vaccines"/><ref name="Tetanus cdc.gov"/>"<ref name="Tetanus, diphtheria and pertussis:  ancient diseases in modern times"/><ref>{{cite book|title=Medical Sciences - Volume I|edition=B.P. Mansourian, S.M. Mahfouz, A. Wojtezak|url=https://books.google.com.ar/books?id=Fb3VCwAAQBAJ&pg=PA124&dq=%221924%22+%22gaston+ramon%22+%22diphtheria%22&hl=en&sa=X&ved=0ahUKEwjfi-GgruPTAhVLgpAKHbY-BIIQ6AEIITAA#v=onepage&q=%221924%22%20%22gaston%20ramon%22%20%22diphtheria%22&f=false|accessdate=9 May 2017}}</ref><ref name="Tetanus Sanchez"/><ref name="Tetanus cdc.gov"/> || [[wikipedia:France|France]]
+|-
+| 1924 || Medical development || [[wikipedia:Gaston Ramon|Gaston Ramon]] student P. Descombey produces the tetanus toxoid that would be used in the United States military during World War II."<ref name="Diphtheria, Tetanus (Lockjaw), and Pertussis (Whooping Cough) Cases and Deaths, and DTaP Vaccination Rates"/><ref name="Tetanus cdc.gov"/> ||
+|-
+| 1926 || Medical development || [[wikipedia:Gaston Ramon|Gaston Ramon]] and Christian Zoeller successfully immunize human subjects with tetanus toxoid.<ref name="Bacterial Vaccines"/><ref name="Vaccines: A Biography">{{cite book|last1=Artenstein|first1=Andrew W.|title=Vaccines: A Biography|url=https://books.google.com.ar/books?id=ewdL8ilILZAC&pg=PA113&lpg=PA113&dq=%22zoeller%22+%22tetanus%22&source=bl&ots=bozaXpAwFE&sig=g682bYGBYp2gJTOfntduv7rlZ1w&hl=en&sa=X&ved=0ahUKEwi0kMf3gI7UAhVEDJAKHSPzAIwQ6AEIOzAF#v=onepage&q=%22zoeller%22%20%22tetanus%22&f=false|accessdate=26 May 2017}}</ref> ||
+|-
+| 1933 || Medical development || Fluid form of tetanus toxoid is licensed in the United States. Absorbed forms would follow later.<ref name="Vaccines: A Biography"/> || [[wikipedia:United States|United States]]
+|-
+| 1937 || Medical development || Tetanus toxoid is first licensed as a vaccine.<ref name="Tetanus disease and deaths in men reveal need for vaccination"/> ||
+|-
+| 1947 || Medical development || Combination diphtheria and tetanus toxoids for pediatric use is first licensed in the United States.<ref name="Vaccine Timeline">{{cite web|title=Vaccine Timeline|url=http://www.immunize.org/timeline/|website=immunize.org|accessdate=8 May 2017}}</ref><ref name="Vaccinology: An Essential Guide"/> || [[wikipedia:United States|United States]]
+|-
+| 1948 || Scientific development || Researchers first isolate the tetanus toxin in crystalline form.<ref name="Bacterial Vaccines"/> ||
+|-
+| 1953 || Medical development || Tetanus and diphtheria toxoids (adult formulation) are first licensed in the United States, after the concentration of diphtheria toxoid is reduced.<ref name="Vaccine Timeline">{{cite web|title=Vaccine Timeline|url=http://www.immunize.org/timeline/|website=immunize.org|accessdate=8 May 2017}}</ref>  || [[wikipedia:United States|United States]]
+|-
+| 1961 || Policy || Routine vaccination is implemented in the United Kingdom.<ref name="Tetanus: a review of the literature">{{cite web|last1=Cook|first1=T. M.|last2=Protheroe|first2=R. T.|last3=Handel|first3=J. M.|title=Tetanus: a review of the literature|url=https://academic.oup.com/bja/article-lookup/doi/10.1093/bja/87.3.477|website=oup.com|accessdate=23 May 2017}}</ref> || [[wikipedia:United Kingdom|United Kingdom]]
+|-
+| 1968 || Scientific development || Researchers first report the structure of the tetanus toxin.<ref name="Bacterial Vaccines"/> ||
+|-
+| 1968 || Policy || Italy introdouces routine vaccination against tetanus for all new-borns.<ref name="Epidemiology of tetanus in Italy in years 1971-2000">{{cite web|title=Epidemiology of tetanus in Italy in years 1971-2000|url=http://www.eurosurveillance.org/ViewArticle.aspx?ArticleId=357|website=eurosurveillance.org|accessdate=24 May 2017}}</ref> || [[wikipedia:Italy|Italy]]
+|-
+| 1974 || Program launch || Diphtheria toxoid combined with tetanus and pertussis vaccines (DTP) is included in the newly incepted [[wikipedia:World Health Organization|World Health Organization]] [[wikipedia:Expanded Program on Immunization|Expanded Programme on Immunization]].<ref name="Biologicals">{{cite web|title=Diphtheria|url=http://www.who.int/biologicals/vaccines/diphtheria/en/|website=who.int|accessdate=10 May 2017}}</ref> ||
+|-
+| 1975 || Scientific development || Soviet scientist Georgy N. Kryzhanovsky defines tetanus as a polysystemic disease due to the implication of many other organic systems in the effect of tetanus toxin, in addition to its prominent effect on the central nervous system.<ref name="Bacterial Vaccines"/> || 
+|-
+| 1980 || Program launch || The [[wikipedia:World Health Organization|World Health Organization]] starts collecting data on diphtheria-tetanus-pertussis (DTP3) vaccination coverage. All regions apart from the Americas and Europe are found to have coverage under 20%.<ref name="Tetanus disease and deaths in men reveal need for vaccination"/> ||
+|-
+| 1989 || Program launch || The 42nd [[wikipedia:World Health Assembly|World Health Assembly]] calls for global neonatal tetanus elimination by 1995. Elimination is defined as less than one cases per 1,000 live births in every district of every country. The WHA goal would not be met.<ref name="Tetanus, diphtheria and pertussis:  ancient diseases in modern times"/><ref name="Maternal immunization  against tetanus">{{cite web|title=Maternal immunization  against tetanus|url=http://www.who.int/reproductivehealth/publications/maternal_perinatal_health/immunization_tetanus.pdf|website=who.int|accessdate=23 May 2017}}</ref><ref name="Clostridium tetani (Tetanus)"/><ref name="Tetanus: a review of the literature"/><ref name="Maternal and Neonatal Tetanus Elimination (MNTE)">{{cite web|title=Maternal and Neonatal Tetanus Elimination (MNTE)|url=http://www.who.int/immunization/diseases/MNTE_initiative/en/|website=who.int|accessdate=26 May 2017}}</ref> ||
+|-
+| 1990 || Program launch || The [[wikipedia:World Summit for Children|World Summit for Children]] lists neonatal tetanus elimination as one of its goals, and this goal is again endorsed by the 44th [[wikipedia:World Health Assembly|World Health Assembly]].<ref name="Maternal and Neonatal Tetanus Elimination (MNTE)"/> ||
+|-
+| 1996 || Medical development || [[wikipedia:Lederle Laboratories|Lederle Laboratories]] licenses diphtheria and tetanus toxoids, and acellular pertussis vaccine Acel-Imune, for use as the first through fifth doses in the series.<ref name="Vaccine Timeline"/> ||
+|-
+| 1997 || Medical development || British pharmaceutical company [[wikipedia:GlaxoSmithKline|SmithKline Beecham]] licenses Infanrix (diphtheria and tetanus toxoids and acellular pertussis vaccine adsorbed), for the first four doses of the series.<ref name="Vaccine Timeline"/> ||
+|-
+| 1998 || Medical development || North American Vaccine Inc licenses Certiva (diphtheria and tetanus toxoids and acellular pertussis vaccine adsorbed), for boosting immunization of infants and children.<ref name="Vaccine Timeline"/> ||
+|-
+| 1999 || Medical development || [[wikipedia:Connaught Laboratories|Connaught Laboratories]] licenses diphtheria and tetanus toxoids and acellular pertussis vaccine Tripedia.<ref name="Vaccine Timeline"/> ||
+|-
+| 1999 || Program launch || Progress towards the attainment of the global tetanus elimination goal is reviewed by UNICEF, WHO and UNFPA. This Initiative is re-constituted and elimination of maternal tetanus is added to the goal with a 2005 target date (later shifted to 2015).<ref name="Maternal and Neonatal Tetanus Elimination (MNTE)"/> ||
+|-
+| 2000–2007 || || An average of 31 cases in the United States is given in this period, with an all time low of 21 cases in the year 2003.<ref name="Tetanus Sanchez"/> || [[wikipedia:United States|United States]]
+|-
+| 2002 || Medical development || British pharmaceutical [[wikipedia:GlaxoSmithKline|GlaxoSmithKline]] licenses Pediarix, a vaccine combining diphtheria, tetanus, acellular [[wikipedia:pertussis|pertussis]], inactivated polio, and [[wikipedia:hepatitis B|hepatitis B]] antigens.<ref name="Vaccine Timeline"/> ||
+|-
+| 2002 || Medical development || [[wikipedia:Sanofi Pasteur|Aventis Pasteur]] licenses diphtheria and tetanus toxoids and acellular pertussis vaccine Daptacel.<ref name="Vaccine Timeline"/>  ||
+|-
+| 2004 || Medical development || [[wikipedia:Sanofi Pasteur|Aventis Pasteur]] licenses vaccine Decavac, indicated for active immunization against [[wikipedia:tetanus|tetanus]] and diphtheria.<ref name="Vaccine Timeline"/><ref>{{cite web|title=HIGHLIGHTS OF PRESCRIBING INFORMATION|url=https://www.vaccineshoppe.com/assets/pdf/decavac.pdf|website=vaccineshoppe.com|accessdate=8 May 2017}}</ref> ||
+|-
+| 2011 || Medical development || United States [[wikipedia:Food and Drug Administration|Food and Drug Administration]] approves Boostrix (developed by [[wikipedia:GlaxoSmithKline|GlaxoSmithKline]]) to prevent tetanus, [[wikipedia:diphtheria|diphtheria]], and pertussis in older people.<ref name="Vaccine Timeline">{{cite web|title=Vaccine Timeline|url=http://www.immunize.org/timeline/|website=immunize.org|accessdate=8 May 2017}}</ref> || [[wikipedia:United States|United States]]
+|-
+| 2013 || || The WHO African Region reports the highest number of non-neonatal tetanus cases at 4.0 per million population (3732 cases), followed by the South-East Asia Region at 1.9 per million population (3432 cases). Of the 12 African countries reporting any cases of non-neonatal tetanus, [[wikipedia:Uganda|Uganda]] – the only country among them implementing voluntary medical male circumcision for HIV prevention – would report the highest number of non-neonatal tetanus cases at 67.1 per million population (2522 cases).<ref name="Tetanus disease and deaths in men reveal need for vaccination"/> ||
+|-
+| 2015 || Report || Neonatal tetanus remains a major public health problem in 23 countries: Afghanistan, Angola, Cambodia, Central African Republic, Chad, Congo DR, Equatorial Guinea, Ethiopia, Haiti, India, Indonesia, Iraq, Kenya, Mali, Niger, Nigeria, Pakistan, Papua New Guinea, Philippines, Somalia, Sudan, South Sudan, and Yemen.<ref name="Vaccines for women for preventing neonatal tetanus">{{cite web|title=Vaccines for women for preventing neonatal tetanus|url=http://onlinelibrary.wiley.com/doi/10.1002/14651858.CD002959.pub4/full|website=wiley.com|accessdate=23 May 2017}}</ref> || [[wikipedia:Afghanistan|Afghanistan]], [[wikipedia:Angola|Angola]], [[wikipedia:Cambodia|Cambodia]], [[wikipedia:Central African Republic|Central African Republic]], [[wikipedia:Chad|Chad]], [[wikipedia:Congo DR|Congo DR]], [[wikipedia:Equatorial Guinea|Equatorial Guinea]], [[wikipedia:Ethiopia|Ethiopia]], [[wikipedia:Haiti|Haiti]], [[wikipedia:India|India]], [[wikipedia:Indonesia|Indonesia]], [[wikipedia:Iraq|Iraq]], [[wikipedia:Kenya|Kenya]], [[wikipedia:Mali|Mali]], [[wikipedia:Niger|Niger]], [[wikipedia:Nigeria|Nigeria]], [[wikipedia:Pakistan|Pakistan]], [[wikipedia:Papua New Guinea|Papua New Guinea]], [[wikipedia:Philippines|Philippines]], [[wikipedia:Somalia|Somalia]], [[wikipedia:Sudan|Sudan]], [[wikipedia:South Sudan|South Sudan]], [[wikipedia:Yemen|Yemen]].
+|-
+| 2015 || Report || The [[wikipedia:WHO|World Health Organization]] estimates that 34,019 newborns died from neonatal tetanus, a 96% reduction from the situation in the late 1980s.<ref name="Maternal and Neonatal Tetanus Elimination (MNTE)"> ||
+|-
+|}
+
+==See also==
+
+* [[Timeline of diphtheria]]
+
+== References ==

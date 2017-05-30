@@ -1,0 +1,120 @@
+This is a '''timeline of [[wikipedia:diphtheria|diphtheria]]''', describing major events such as epidemics and medical developments. 
+
+== Big picture ==
+
+{| class="sortable wikitable"
+! Year/period !! Key developments  
+|-
+| 1600s onward || [[wikipedia:diphtheria|Diphtheria]] infection grows significantly since the 17th century and becomes one of the major causes of death, fuelled by the [[wikipedia:industrial revolution|Industrial Revolution]] and increasingly crowded urban centers.<ref name="The strangler"/>
+|-
+| 1800s || Major scientific breakthroughs consolidate the knowledge on diphtheria, which is given its actual name in this century<ref name="The strangler"/>. Bacterium ''[[wikipedia:corynebacterium diphtheriae|corynebacterium diphtheriae]]'' and the [[wikipedia:diphtheria toxin|diphtheria toxin]] are discovered.<ref name="Diphtheria in Europe"/><ref name="The Comprehensive Sourcebook of Bacterial Protein Toxins"/> Also, the first effective therapeutic serum against diphtheria is developed.<ref name="Emil von Behring: The Founder of Serum Therapy"/>
+|-
+| 1923 onward || After the first [[wikipedia:diphtheria|diphtheria]] toxoid vaccine is developed, its subsequent widespread use would lead to a dramatic decrease of diphtheria rates worldwide.<ref name="Diphtheria Facts"/><ref>{{cite web|title=Clinicians|url=https://www.cdc.gov/diphtheria/clinicians.html|website=cdc.gov|accessdate=10 May 2017}}</ref> A more than 90% decrease in number of cases globally results later, between 1980 and 2000.<ref name="Diphtheria :  Clinical Manifestations ,  Diagnosis ,  and Role  of Immunization In  Prevention"/>
+|-
+| Recent years || Currently most [[wikipedia:diphtheria|diphtheria]] cases occur in [[wikipedia:Sub-Sharan Africa|Sub-Sharan Africa]], [[wikipedia:India|India]], and [[wikipedia:Indonesia|Indonesia]]. Globally 4,530 cases were officially reported in 2015, down from nearly 100,000 in 1980.<ref>{{cite web|title=Diphtheria reported cases|url=http://apps.who.int/immunization_monitoring/globalsummary/timeseries/tsincidencediphtheria.html|website=who.int|accessdate=12 May 2017}}</ref><ref name="Diphtheria :  Clinical Manifestations ,  Diagnosis ,  and Role  of Immunization In  Prevention">{{cite web|title=Diphtheria :  Clinical Manifestations ,  Diagnosis ,  and Role  of Immunization In  Prevention|url=http://www.iosrjournals.org/iosr-jdms/papers/Vol15-Issue%208/Version-3/O1508037176.pdf|website=iosrjournals.org|accessdate=10 May 2017}}</ref>
+|-
+|}
+
+== Visual data ==
+[[File:Diphtheria world.png||thumb|center|1100px|Global diphtheria cases reported by the World Health Organization in the period (1980-2015). Local maxima around mid-1990s correlate with large epidemic in the Post-Soviet states.]]
+[[File:Diphtheria cases and deaths per year in the United States. Non-logarithmic scale.png|thumb|center|1100px|Diphtheria cases and deaths per year in the United States. Period (1950-2013).]]
+[[File:Diphtheria cases and deaths per year in the United States. Logarithmic scale..png|thumb|center|1100px|Diphtheria cases and deaths per year in the United States. Period (1950-2013). Logarithmic scale.]]
+
+== Timeline ==
+
+{| class="sortable wikitable"
+! Year/period !! Type of event !! Event !! Present time geographical location
+|-
+| 5th century BC || Scientific development || [[wikipedia:diphtheria|diphtheria]] is first described by  Greek physician [[wikipedia:Hippocrates|Hippocrates]].<ref>{{cite web|title=Diphtheria|url=http://emedicine.medscape.com/article/782051-overview|website=medscape.com|accessdate=8 May 2017}}</ref><ref name="Corynebacterium diphtheriae"/> || [[wikipedia:Greece|Greece]]
+|-
+| 1600s || Scientific development || Medical reports of a "deadly" strangulation disease first appear early in the century, and emerges as a greater threat with the growth of urbanizations.<ref name="The strangler">{{cite web|title=The strangler|url=http://www.museumofhealthcare.ca/explore/exhibits/vaccinations/diphtheria.html|website=museumofhealthcare.ca|accessdate=9 May 2017}}</ref><ref name="Corynebacterium diphtheriae"/> ||
+|-
+| 1613 || Epidemic || [[wikipedia:diphtheria|diphtheria]] epidemic in Spain causes the year to be named ''"El año de los Garotillos"'' ("year of strangulations"), due to the many deaths caused by diphtheria suffocation.<ref name="Current Developments in Biotechnology and Bioengineering">{{cite book|title=Current Developments in Biotechnology and Bioengineering: Human and Animal Health Applications|edition=Vanete Thomaz Soccol, Ashok Pandey, Rodrigo R. Resende|url=https://books.google.com.ar/books?id=8HN_CwAAQBAJ&pg=PA480&lpg=PA480&dq=%221613%22+%22spain%22+%22diphtheria%22&source=bl&ots=t9VgOAXeRX&sig=-JV8FJpe13qyPa-5__xiestFOgI&hl=en&sa=X&ved=0ahUKEwiDgbDuwuXTAhVKjpAKHc0pA88Q6AEIPzAG#v=onepage&q=%221613%22%20%22spain%22%20%22diphtheria%22&f=false|accessdate=10 May 2017}}</ref> || [[wikipedia:Spain|Spain]]
+|-
+| 1771 || Medical development || American physician [[wikipedia:Samuel Bard (physician)|Samuel Bard]] publishes ''An Enquiry into the Nature, Cause and Cure, of the Angina Suffocativa, or, Sore Throat Distemper'', one of the earliest accurate descriptions of diphtheria as well as one of the first original contributions to pediatrics made by an American.<ref>{{cite web|title=Archives & Special Collections Acquires Samuel Bard Work|url=http://library.cumc.columbia.edu/archives-special-collections-acquires-samuel-bard-work|website=columbia.edu|accessdate=11 May 2017}}</ref> || [[wikipedia:United States|United States]] 
+|-
+| 1826 || Scientific development || French physician [[wikipedia:Pierre Bretonneau|Pierre Bretonneau]] gives diphtheria its official name ''diphtérite'', derived from the Greek word for "leather" or "hide", which describes the pseudomembrane in the throat of the victims.<ref name="The strangler"/><ref name="Pierre Bretonneau">{{cite web|title=Pierre Bretonneau|url=https://www.historyofvaccines.org/content/diphtheria-given-its-name|website=historyofvaccines.org|accessdate=9 May 2017}}</ref><ref name="Current Developments in Biotechnology and Bioengineering"/> || 
+|-
+| 1856 || Epidemic || [[wikipedia:San Francisco|San Francisco]] doctor [[wikipedia:Victor Fourgeaud|Victor Fourgeaud]] describes an epidemic of diphtheria in California.<ref name="Diphtheria :  Clinical Manifestations ,  Diagnosis ,  and Role  of Immunization In  Prevention"/> || [[wikipedia:United States|United States]] 
+|-
+| 1883 || Scientific development || Swiss pathologist [[wikipedia:Edwin Klebs|Edwin Klebs]] first observes the bacterium ''[[wikipedia:Corynebacterium diphtheriae|corynebacterium diphtheriae]]'' in diphtheritic membranes.<ref name="Corynebacterium diphtheriae">{{cite web|title=Corynebacterium diphtheriae|url=https://www.cdc.gov/vaccines/pubs/pinkbook/downloads/dip.pdf|website=cdc.gov|accessdate=10 May 2017}}</ref><ref name="Current Developments in Biotechnology and Bioengineering"/> ||
+|-
+| 1884 || Scientific development || German bacteriologist [[wikipedia:Friedrich Loeffler|Friedrich Loeffler]] first grows ''[[wikipedia:Corynebacterium diphtheriae|corynebacterium diphtheriae]]'' in pure culture.<ref name="Diphtheria in Europe">{{cite web|last1=KWANTES|first1=W.|title=Diphtheria in Europe|url=https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2129475/pdf/jhyg00015-0039.pdf|website=nih.gov|accessdate=8 May 2017}}</ref><ref name="Diphtheria Facts">{{cite web|title=Diphtheria Facts|url=http://www.emedicinehealth.com/diphtheria/article_em.htm|website=emedicinehealth.com|accessdate=9 May 2017}}</ref><ref name="Corynebacterium diphtheriae"/><ref name="Current Developments in Biotechnology and Bioengineering"/> || [[wikipedia:Germany|Germany]]
+|-
+| 1888 || Scientific development || French physicians [[wikipedia:Pierre Paul Émile Roux|Pierre Paul Émile Roux]] and [[wikipedia:Alexandre Yersin|Alexandre Yersin]], working at [[wikipedia:Pasteur Institute|Pasteur Institute]], discover the [[wikipedia:diphtheria toxin|diphtheria toxin]].<ref name="The Comprehensive Sourcebook of Bacterial Protein Toxins">{{cite book|last1=Ladant|first1=Daniel|last2=Alouf|first2=Joseph E.|last3=Popoff|first3=Michel R.|title=The Comprehensive Sourcebook of Bacterial Protein Toxins|url=The Comprehensive Sourcebook of Bacterial Protein Toxins|url=https://books.google.com.ar/books?id=gFol3jKI03EC&pg=PA4&lpg=PA4&dq=%22+Emile+Roux%22+%221888%22+%22diphtheria+toxin%22&source=bl&ots=uCjVueYEPm&sig=ECi9rW7RCyHsUbgPno8Az7emNZg&hl=en&sa=X&ved=0ahUKEwjF04uJ1uPTAhWDW5AKHby-AYQQ6AEIJTAA#v=onepage&q=%22%20Emile%20Roux%22%20%221888%22%20%22diphtheria%20toxin%22&f=false}}</ref><ref name="Current Developments in Biotechnology and Bioengineering"/> || [[wikipedia:France|France]]
+|-
+| 1890 || Medical development || Japanese bacteriologist [[wikipedia:Kitasato Shibasaburo|Kitasato Shibasaburo]], and German physiologist [[wikipedia:Emil von Behring|Emil von Behring]], successfully immunize guinea pigs with a heat-treated diphtheria toxin, thus creating the first effective therapeutic serum against diphtheria. In 1901 Von Bering would be awarded the first [[wikipedia:Nobel Prize in Physiology or Medicine|Nobel Prize in Physiology or Medicine]] for this work.<ref name="Emil von Behring: The Founder of Serum Therapy">{{cite web|title=Emil von Behring: The Founder of Serum Therapy|url=https://www.nobelprize.org/nobel_prizes/medicine/laureates/1901/behring-article.html|website=nobelprize.org|accessdate=9 May 2017}}</ref><ref name="Vaccine Timeline"/><ref name="Diphtheria, Tetanus (Lockjaw), and Pertussis (Whooping Cough) Cases and Deaths, and DTaP Vaccination Rates">{{cite web|title=Diphtheria, Tetanus (Lockjaw), and Pertussis (Whooping Cough) Cases and Deaths, and DTaP Vaccination Rates|url=http://vaccines.procon.org/view.resource.php?resourceID=005971|website=procon.org|accessdate=23 May 2017}}</ref> || [[wikipedia:Germany|Germany]] ([[wikipedia:Berlin|Berlin]])
+|-
+| 1891 || Medical development || The first successful therapeutic serum treatment of a child suffering from [[wikipedia:diphtheria|diphtheria]] is performed.<ref name="Emil von Behring: The Founder of Serum Therapy"/> || 
+|-
+| 1894 || Medical development || The production and marketing of the diphtheria therapeutic serum begins in Germany.<ref name="Emil von Behring: The Founder of Serum Therapy"/> || [[wikipedia:Germany|Germany]]
+|-
+| 1894 || Medical development || American pharmaceutical [[wikipedia:H. K. Mulford Company|H. K. Mulford Company]] of [[wikipedia:Philadelphia|Philadelphia]] starts production and testing of diphtheria antitoxin in the United States.<ref>{{cite book|title=A Brief History of Pharmacy: Humanity's Search for Wellness|edition=Virgil Schijns, Derek O'Hagan|url=https://books.google.com.ar/books?id=ab1mCgAAQBAJ&pg=PT237&lpg=PT237&dq=%22H.+K.+Mulford+Company%22+%22diphtheria+antitoxin%22+%22in+1895%22&source=bl&ots=xpOETd2nVe&sig=-l21t0pY67ItI0pUZkxJZM72544&hl=en&sa=X&ved=0ahUKEwjY1tXFw-bTAhWBUZAKHZoZBw0Q6AEIMjAE#v=onepage&q=%22H.%20K.%20Mulford%20Company%22%20%22diphtheria%20antitoxin%22%20%22in%201895%22&f=false|accessdate=11 May 2017}}</ref> || [[wikipedia:United States|United States]] 
+|-
+| 1901 || Medical development || [[wikipedia:Emil von Behring|Emil von Behring]], for the first time, uses a diphtheria [[wikipedia:inoculation|inoculation]] of bacteria with reduced virulence, hoping with this active immunization to help the body also produce antitoxins.<ref name="Emil von Behring: The Founder of Serum Therapy"/> || [[wikipedia:Germany|Germany]]
+|-
+| 1905 || Medical development || Franklin Royer publishes a paper urging timely treatment for diphtheria and adequate doses of antitoxin.<ref name="Diphtheria :  Clinical Manifestations ,  Diagnosis ,  and Role  of Immunization In  Prevention"/> ||
+|-
+| 1913 || Medical development || [[wikipedia:Emil von Behring|Emil von Behring]] publishes his diphtheria protective agent, T.A. (Toxin-Antitoxin), which contains a mixture of diphtheria toxin and therapeutic serum antitoxin. Designed to provide long-term protection, the new drug would further be tested at various clinics and proven to be non-harmful and effective.<ref name="Emil von Behring: The Founder of Serum Therapy"/> || [[wikipedia:Germany|Germany]]
+|-
+| 1921 || Report || A high of 206,000 cases of [[wikipedia:diphtheria|diphtheria]] and 15,520 deaths (case-fatality ratio of 7.5%) are recorded in the United States.<ref name="Diphtheria: The Plague Among Children">{{cite web|title=Diphtheria: The Plague Among Children|url=https://www.historyofvaccines.org/timeline?timeline_categories[]=50|website=historyofvaccines.org|accessdate=8 May 2017}}</ref><ref name="Diphtheria. Symptoms and Causative Agent">{{cite web|title=Diphtheria. Symptoms and Causative Agent|url=https://www.historyofvaccines.org/content/articles/diphtheria|website=historyofvaccines.org|accessdate=10 May 2017}}</ref> || [[wikipedia:United States|United States]]
+|-
+| 1923 || Scientific development || French biologist [[wikipedia:Gaston Ramon|Gaston Ramon]], working at [[wikipedia:Pasteur Institute|Pasteur Institute]], develops diphtheria toxoid that could later be used for a toxoid vaccination. The product is licensed; prepared from inactivated bacterial toxin that has lost its toxicity but retaining its antitoxin producing properties. This would be considered the first diphtheria vaccine.<ref name="Diphtheria, Tetanus (Lockjaw), and Pertussis (Whooping Cough) Cases and Deaths, and DTaP Vaccination Rates"/><ref name="Diphtheria :  Clinical Manifestations ,  Diagnosis ,  and Role  of Immunization In  Prevention"/><ref name="Vaccine Timeline"/>  || [[wikipedia:France|France]]
+|-
+| 1924 || Scientific development || [[wikipedia:Gaston Ramon|Gaston Ramon]] discovers diphtheria and tetanus toxoid, then referred to as ''anatoxins''.<ref>{{cite book|title=Medical Sciences - Volume I|edition=B.P. Mansourian, S.M. Mahfouz, A. Wojtezak|url=https://books.google.com.ar/books?id=Fb3VCwAAQBAJ&pg=PA124&dq=%221924%22+%22gaston+ramon%22+%22diphtheria%22&hl=en&sa=X&ved=0ahUKEwjfi-GgruPTAhVLgpAKHbY-BIIQ6AEIITAA#v=onepage&q=%221924%22%20%22gaston%20ramon%22%20%22diphtheria%22&f=false|accessdate=9 May 2017}}</ref> || [[wikipedia:France|France]]
+|-
+| 1926 || Medical development || British immunologist [[wikipedia:Alexander Glenny|Alexander Glenny]], working at [[wikipedia:Wellcome Research Laboratories|Wellcome Research Laboratories]], develops the [[wikipedia:adjuvant|adjuvant]] (the substance that enhances the body's immune response to an antigen) for the toxoid vaccine by increasing the effectiveness of diphtheria toxoid when treating it with aluminum salts.<ref name="Diphtheria :  Clinical Manifestations ,  Diagnosis ,  and Role  of Immunization In  Prevention"/><ref name="Diphtheria, Tetanus (Lockjaw), and Pertussis (Whooping Cough) Cases and Deaths, and DTaP Vaccination Rates"/> || [[wikipedia:United Kingdom|United Kingdom]] ([[wikipedia:London|London]])
+|-
+| 1926 || Medical development || Fluid form of diphtheria toxoid is licensed in the United States.<ref name="Vaccines: A Biography">{{cite book|last1=Artenstein|first1=Andrew W.|title=Vaccines: A Biography|url=https://books.google.com.ar/books?id=ewdL8ilILZAC&pg=PA113&lpg=PA113&dq=%22zoeller%22+%22tetanus%22&source=bl&ots=bozaXpAwFE&sig=g682bYGBYp2gJTOfntduv7rlZ1w&hl=en&sa=X&ved=0ahUKEwi0kMf3gI7UAhVEDJAKHSPzAIwQ6AEIOzAF#v=onepage&q=%22zoeller%22%20%22tetanus%22&f=false|accessdate=26 May 2017}}</ref> || [[wikipedia:United States|United States]]
+|-
+| 1947 || Medical development || Combination diphtheria and tetanus toxoids for pediatric use is first licensed in the United States.<ref name="Vaccine Timeline"/>  || [[wikipedia:United States|United States]]
+|-
+| 1949 || Medical development || American Microbiologist, Stephen Dyonis Elek develops the immuno diffusion technique, also called [[wikipedia:Elek's test|Elek's test]].  It is used to test for toxigenicity of ''[[wikipedia:corynebacterium diphtheriae|corynebacterium diphtheriae]]''.<ref name="The Plate Virulence Test for Diphtheria">{{cite web|last1=|title=The Plate Virulence Test for Diphtheria|url=http://jcp.bmj.com/content/2/4/250.long|website=bmj.com|accessdate=11 May 2017}}</ref> || [[wikipedia:United States|United States]]
+|-
+| 1953 || Medical development || Tetanus and diphtheria toxoids (adult formulation) are first licensed in the United States, after the concentration of diphtheria toxoid is reduced.<ref name="Vaccine Timeline"/>  || [[wikipedia:United States|United States]]
+|-
+| 1964 || Policy || [[wikipedia:World Health Organization|World Health Organization]] recommendations for the production and quality control of diphtheria vaccines are first formulated.<ref name="Biologicals"/> ||
+|-
+| 1971 || Epidemic || [[wikipedia:Seattle|Seattle]] experiences the last major [[wikipedia:diphtheria|diphtheria]] outbreak in the United States.<ref name="History in Focus: Diphtheria Epidemic">{{cite web|title=History in Focus: Diphtheria Epidemic|url=http://www.hampton.lib.nh.us/hampton/history/diphtheriaepidemicHU20080627.htm|website=hampton.lib.nh.us|accessdate=10 May 2017}}</ref> || [[wikipedia:United States|United States]] 
+|-
+| 1974 || Program launch || Diphtheria toxoid combined with tetanus and pertussis vaccines (DTP) is included in the newly incepted [[wikipedia:World Health Organization|World Health Organization]] [[wikipedia:Expanded Program on Immunization|Expanded Programme on Immunization]].<ref name="Biologicals">{{cite web|title=Diphtheria|url=http://www.who.int/biologicals/vaccines/diphtheria/en/|website=who.int|accessdate=10 May 2017}}</ref> ||
+|-
+| 1974 || Epidemic || Diphtheria epidemic breaks out in [[wikipedia:Lisbon|Lisbon]]. 500 persons are involved, and about 40 deaths are recorded.<ref name="Diphtheria in Europe"/> || [[wikipedia:Portugal|Portugal]]
+|-
+| 1982 || Epidemic || 5 deaths are recorded in Germany during a diphtheria outbreak.<ref name="Diphtheria in Europe"/> || [[wikipedia:Germany|Germany]]
+|-
+| 1990-1998 || Epidemic || Massive diphtheria epidemic breaks out in the ex-Soviet Union. Starting in [[wikipedia:Russia|Russia]], the outbreak reaches the [[wikipedia:Post-Soviet states|Newly Independent States]] in 1991. By 1998, the [[wikipedia:Red Cross|Red Cross]] estimates as many as 200,000 cases, with 5,000 deaths in the region.<ref>{{cite web|title=Diphtheria|url=http://the-medical-dictionary.com/diphtheria.htm|website=the-medical-dictionary.com|accessdate=11 May 2017}}</ref><ref name="Diphtheria Outbreak -- Russian Federation, 1990-1993">{{cite web|title=Diphtheria Outbreak -- Russian Federation, 1990-1993|url=https://www.cdc.gov/mmwr/preview/mmwrhtml/00022128.htm|website=cdc.gov|accessdate=10 May 2017}}</ref><ref name="History in Focus: Diphtheria Epidemic"/> || [[wikipedia:Post-Soviet states|Post-Soviet states]]
+|-
+| 1993 || Organization || The European Laboratory Working Group on Diphtheria (ELWGD) is formed as a result of the epidemic situation in [[wikipedia:Eastern Europe|Eastern Europe]].<ref>{{cite book|last1=Wheeler|first1=Ben S.|title=Trends in Diphtheria Research|url=https://books.google.com.ar/books?id=sucL_unjKVwC&pg=PA7&lpg=PA7&dq=Diphtheria&source=bl&ots=GrSGrV50fd&sig=ne3p8FCGbAXTdLIyO7K8wG52ZRw&hl=en&sa=X&ved=0ahUKEwiwv9WGzujTAhUFDZAKHdtFDygQ6AEIgAEwBQ#v=onepage&q=Diphtheria&f=false|accessdate=12 May 2017}}</ref> ||
+|-
+| 1996 || Medical development || Lederle Laboratories licenses diphtheria and tetanus toxoids, and acellular pertussis vaccine Acel-Imune, for use as the first through fifth doses in the series.<ref name="Vaccine Timeline"/> ||
+|-
+| 1997 || Medical development || British pharmaceutical company [[wikipedia:GlaxoSmithKline|SmithKline Beecham]] licenses Infanrix (diphtheria and tetanus toxoids and acellular pertussis vaccine adsorbed), for the first four doses of the series.<ref name="Vaccine Timeline"/> ||
+|-
+| 1998 || Medical development || North American Vaccine Inc licenses Certiva (diphtheria and tetanus toxoids and acellular pertussis vaccine adsorbed), for boosting immunization of infants and children.<ref name="Vaccine Timeline"/> ||
+|-
+| 1999 || Medical development ||  Connaught Laboratories licenses diphtheria and tetanus toxoids and acellular pertussis vaccine Tripedia.<ref name="Vaccine Timeline"/> ||
+|-
+| 2002 || Medical development || British pharmaceutical [[wikipedia:GlaxoSmithKline|GlaxoSmithKline]] licenses Pediarix, a vaccine combining diphtheria, tetanus, acellular [[wikipedia:pertussis|pertussis]], inactivated polio, and [[wikipedia:hepatitis B|hepatitis B]] antigens.<ref name="Vaccine Timeline"/> ||
+|-
+| 2002 || Medical development || [[wikipedia:Sanofi Pasteur|Aventis Pasteur]] licenses diphtheria and tetanus toxoids and acellular pertussis vaccine Daptacel.<ref name="Vaccine Timeline"/>  ||
+|-
+| 2004 || Medical development || [[wikipedia:Sanofi Pasteur|Aventis Pasteur]] licenses vaccine Decavac, indicated for active immunization against [[wikipedia:tetanus|tetanus]] and diphtheria.<ref name="Vaccine Timeline"/><ref>{{cite web|title=HIGHLIGHTS OF PRESCRIBING INFORMATION|url=https://www.vaccineshoppe.com/assets/pdf/decavac.pdf|website=vaccineshoppe.com|accessdate=8 May 2017}}</ref> ||
+|-
+| 2005 || Medical development || [[wikipedia:Sanofi Pasteur|Sanofi Pasteur]] licenses [[wikipedia:Menactra|Menactra]], the first meningococcal polysaccharide (Serogroups A, C, Y and W-135) diphtheria toxoid conjugate vaccine. This would be the first immunogenic meningococcal vaccine indicated for children younger than 2 years of age.<ref name="Vaccine Timeline"/> ||
+|-
+| 2007 || Report || 4,190 cases of [[wikipedia:diphtheria|diphtheria]] are reported globally.<ref name="Diphtheria: The Plague Among Children"/> ||
+|-
+| 2011 || Medical development || United States [[wikipedia:Food and Drug Administration|Food and Drug Administration]] approves Boostrix (developed by [[wikipedia:GlaxoSmithKline|GlaxoSmithKline]]) to prevent tetanus, [[wikipedia:diphtheria|diphtheria]], and pertussis in older people.<ref name="Vaccine Timeline">{{cite web|title=Vaccine Timeline|url=http://www.immunize.org/timeline/|website=immunize.org|accessdate=8 May 2017}}</ref> || [[wikipedia:United States|United States]]
+|-
+| 2016 || Epidemic || Diphtheria reemerges in Venezuela. A cumulative total of 324 diphtheria cases are reported in the country.<ref>{{cite web|title=Venezuela releases 1st Epi bulletin in a long time: Malaria and diphtheria summary|url=http://outbreaknewstoday.com/venezuela-releases-1st-epi-bulletin-long-time-malaria-diphtheria-summary-94649/|website=outbreaknewstoday.com|accessdate=12 May 2017}}</ref> || [[wikipedia:Venezuela|Venezuela]]
+|-
+| 2017 || Report || [[wikipedia:World Health Organization|World Health Organization]] vaccine advisors report diphtheria as a "newly neglected disease that still resides among the cracks of the most privileged health systems."<ref>{{cite web|title=WHO vaccine advisors weigh in on polio, cholera, Ebola, diphtheria|url=http://www.cidrap.umn.edu/news-perspective/2017/04/who-vaccine-advisors-weigh-polio-cholera-ebola-diphtheria|website=umn.edu|accessdate=12 May 2017}}</ref> ||
+|-
+|}
+
+==See also==
+
+* [[Timeline of tetanus]]
+
+== References ==
