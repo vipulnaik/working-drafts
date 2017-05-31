@@ -1,0 +1,46 @@
+'''A. Alan Post''' (1914-2011) worked for 28 years (1949 to 1977) as [[California Legislative Analyst's Office|California's legislative analyst]].<ref name=sfgate-obit>{{Cite news|url=http://www.sfgate.com/news/article/A-Alan-Post-longtime-legislative-analyst-dies-2376453.php|title=A. Alan Post, longtime legislative analyst, dies|work=SFGate|access-date=2017-05-31}}</ref><ref name=princeton-obit>{{Cite news|url=https://paw.princeton.edu/memorial/alan-post-69|title=Alan Post *69|date=2016-01-21|work=Princeton Alumni Weekly|access-date=2017-05-31|language=en}}</ref><ref name=latimes-obit>{{Cite news|url=http://articles.latimes.com/2011/apr/03/local/la-me-a-alan-post-20110403|title=A. Alan Post dies at 96; longtime California budget analyst|last=Thursby|first=Keith|date=2011-04-03|work=Los Angeles Times|access-date=2017-05-31|language=en-US|issn=0458-3035}}</ref><ref name=sacmag>{{Cite news|url=http://www.sacmag.com/Sacramento-Magazine/July-2006/Personality-Alan-Post/|title=Alan Post|last=|first=|date=|work=Sacramento Magazine|access-date=2017-05-31|archive-url=|archive-date=|dead-url=}}</ref>
+
+== Early life and education ==
+
+Post was born on September 17, 1914 in [[Alhambra, California|Alhambra]] in [[Los Angeles County, California]], the second of four children of developer Edwin Post and teacher Edna.<ref name=sfgate-obit/><ref name=latimes-obit/> The family initially grew up in South [[Pasadena, California|Pasadena]] and moved to [[Lancaster, California|Lancaster]] during the [[Great Depression]].<ref name=latimes-obit/>
+
+Post received his undergraduate education at [[Occidental College]] in [[economics]] and art, earning his degrees in 1938.<ref name=sfgate-obit/><ref name=latimes-obit/><ref name=princeton-obit/> He also learned painting from the [Chouinard Institute of the Arts]] in [[Los Angeles, California]].<ref name=latimes-obit/><ref name=princeton-obit/> He started work on his Ph.D. in economics at [[Princeton University]] but left before completing, to go teach economics at Occidental College.<ref name=latimes-obit/> While at Princeton, he also married Helen Wills, a painter and sculptor, and sold his first painting.<ref name=sfgate-obit/>
+
+== Career ==
+
+=== Till 1949 ===
+Post served in the U.S. Navy in [[World War II]], from 1943 to 1944.<ref name=sfgate-obit/><ref name=latimes-obit/>
+
+Post briefly worked for the State Department and in Utah, and in 1946 arrived in [[Sacramento, California]] to work as the chief economic and administrative analyst for the Legislature's joint budget committee.<ref name=latimes-obit/>
+
+=== California's Legislative Analyst (1949 to 1977) ===
+
+In 1949, after the then legislative auditor Rolland Vandegrift passed away, he became acting legislative auditor, heading [[California Legislative Analyst's Office]].<ref name=lao>{{cite web|url = http://www.lao.ca.gov/lao75|title = Legislative Analyst’s Office|accessdate = May 31, 2017}}</ref> The role name was later changed to "legislative analyst".<ref name=latimes-obit/>
+
+Post's work as legislative analyst largely involved providing recommendations about the state budget, and he was supposed to perform his role in an independent, nonpartisan, fact-driven manner.<ref name=latimes-obit/><ref name=sfgate-obit/> Post's work was praised by a number of politicians whose tenure overlapped with his, including [[Jerry Brown]] (California Governor) and [[Willie Brown]] ([[San Francisco]] Mayor) although he also had conflicts with some politicians, including California Governor [[Ronald Reagan]].<ref name=sfgate-obit/>
+
+Although primarily focused on the budget, Post also dealt with a number of other issues. For instance, in 1972, after controversy arose over the safety of the [[Bay Area Rapid Transit]], he commenced an investigation, hiring [[Bill Wattenburg]] as a consultant.<ref>{{cite book|url = https://books.google.com/books?id=NsRgNh35XPEC|title = Divided Loyalties: Whistle-blowing at BART|author = Robert Morris Anderson}}</ref><ref name="Dr. Wattenburg2">{{cite web | url = http://www.pushback.com/Wattenburg/bio/BART.html |author= Peter Sheerin |title= Bill Wattenburg’s Background: BART—Bay Area Rapid Transit System |date= October 1, 1990 | accessdate = March 15, 2017 }}</ref>
+
+In 1977, Post retired from his job,<ref name=latimes-obit/> and was succeeded by William G. Hamm.<ref name=lao/>
+
+=== Later life ===
+
+After retirement from the Legislative Analyst's Office, Post continued to serve in various capacities on state commissions. In 1992, he wrote a report critical of executive compensation in the [[University of California]] system.<ref name=sfgate-obit/>
+
+Post was one of the founding directors of the [[Public Policy Institute of California]], that was founded in 1994.<ref name=sfgate-obit/><ref>{{cite web|url = http://www.ppic.org/main/pressrelease.asp?i=829|title = A. Alan Post Donates California Landscape Paintings to PPIC|date = April 21, 2008|accessdate = May 31, 2017|publisher = Public Policy Institute of California}}</ref>
+
+== Awards and recognition ==
+
+In 2007, Post received the League of California Cities Past Presidents’ Lifetime Achievement Award during the closing session of the League’s annual conference in Sacramento.<ref>{{Cite web|url = http://www.westerncity.com/Western-City/December-2007/2007-Annual-Conference-Review/|title = 2007 Annual Conference Review League Celebrates “Cities Shaping California’s Future”|publisher = Western City|accessdate = May 31, 2017}}</ref><ref name=sfgate-obit/>
+
+== Death ==
+
+Post died in Sacramento, California on March 26, 2011 at age 96.<ref name=sfgate-obit/><ref name=latimes-obit/><ref name=princeton-obit/> He was pre-deceased by his wife Helen, who had died in 2010.<ref name=sfgate-obit/>
+
+== References ==
+{{Reflist}}
+
+{{DEFAULTSORT:Post, A. Alan}}
+[[Category:People from California]]
+[[Category:1914 births]]
+[[Category:2011 deaths]]
