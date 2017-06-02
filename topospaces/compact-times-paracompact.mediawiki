@@ -1,0 +1,43 @@
+{{product computation|
+left = compact space|
+right = paracompact space|
+final = paracompact space}}
+
+==Statement==
+
+===Verbal statement===
+
+The product of a [[compact space]] with a [[paracompact space]] (given the [[product topology]]), is paracompact
+
+===Statement with symbols===
+
+Let <math>X</math> be a [[compact space]] and <math>Y</math> a [[paracompact space]]. Then <math>X \times Y</math> is paracompact.
+
+==Related facts==
+
+Other results using the same proof technique:
+
+* [[Compact times metacompact implies metacompact]]
+* [[Compact times orthocompact implies orthocompact]]
+* [[Compact times Lindelof implies Lindelof]]
+
+==Facts used==
+
+# [[uses::Tube lemma]]: Suppose <math>X</math> is a compact space and <math>Y</math> is a topological space. Then, given any open subset <math>U</math> of <math>X \times Y</math> containing <math>X \times \{ y \}</math> for some <math>y \in Y</math>, there exists an open subset <math>V</math> of <math>Y</math> such that <math>y \in V</math> and <math>X \times V \subseteq U</math>.
+
+==Proof==
+
+'''Given''': A compact space <math>X</math>, a paracompact space <math>Y</math>.
+
+'''To prove''' If <math>U_i</math> form an open cover of <math>X \times Y</math>, there exists a locally finite open refinement of the <math>U_i</math>.
+
+'''Proof''':
+
+# For any point <math>y \in Y</math>, there is a finite collection of <math>U_i</math> that cover <math>X \times \{ y \}</math>: Since <math>X</math> is compact, the subspace <math>X \times \{ y \}</math> of <math>X \times Y</math> is also compact, so the cover by the open subsets <math>U_i</math> has a finite subcover.
+# Let <math>W_y</math> be the union of this finite collection of open subsets <math>U_i</math>. By fact (1), there exists an open subset <math>V_y</math> of <math>Y</math> such that <math>X \times V_y \subseteq W_y</math>.
+# The <math>V_y</math> form an open cover of <math>Y</math>.
+# There exists a locally finite open refinement, say <math>\mathcal{P}</math> of the <math>V_y</math> in <math>Y</math>: This follows from the fact that <math>Y</math> is paracompact.
+# We can construct a locally finite open refinement of <math>U_i</math> from these: 
+## For each member <math>P \in \mathcal{P}</math>, there exists <math>V_y</math> such that <math>P \subseteq V_y</math>. Thus, <math>X \times P \subseteq X \times V_y \subseteq W_y</math>. <math>W_y</math>, in turn, is a union of a finite collection of <math>U_i</math>s. Thus, <math>X \times P</math> is the union of the intersections <math>(X \times P) \cap U_i</math>. 
+## Since the <math>X \times P</math> together cover <math>X \times Y</math>, the <math>(X \times P) \cap U_i</math> are an open cover of <math>X \times Y</math> that refines the <math>U_i</math>s.
+## Finally, we argue that <math>(X \times P) \cap U_i</math> is a ''locally finite'' open cover: Suppose <math>(x,y) \in X \times Y</math>. Since <math>\mathcal{P}</math> is a locally finite open cover of <math>Y</math>, there exists an open subset <math>Q</math> of <math>Y</math> containing <math>y</math> such that <math>Q</math> intersects only finitely many members of <math>\mathcal{P}</math>. Thus, the neighborhood <math>X \times Q</math> intersects only finitely many <math>X \times P</math>s, which in turn give rise to finitely many <math>(X \times P) \cap U_i</math>s each. Thus, <math>X \times Q</math> intersects only finitely many members of the open cover.
