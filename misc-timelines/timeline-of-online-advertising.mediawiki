@@ -567,6 +567,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Social media advertising
 |[[wikipedia:Instagram|Instagram]], a popular image sharing platform, releases its feature of having sponsored posts appear on user's feeds.<ref>{{Cite web|url=http://social.techcrunch.com/2013/10/24/first-look-at-instagram-ads/|title=This Is What Instagram Ads Look Like|last=Constine|first=Josh|last2=Crook|first2=Jordan|website=TechCrunch|access-date=2017-01-07}}</ref>
 |-
+|2013
+|October 30
+|IPO
+|Demand-side platform, retargeting
+|Retargeting-focused DSP Criteo IPOs on the [[wikipedia:NASDAQ|NASDAQ]], initially pricing its shares at $31.<ref name=adexchanger-criteo-ipo>{{cite web|url = https://adexchanger.com/investment/criteo-goes-public-stock-jumps-30/|title = Criteo Goes Public, And Stock Jumps 30%|last = Rodgers|first = Zach|date = October 30, 2013|accessdate = June 1, 2017|publisher = AdExchanger}}</ref><ref>{{cite web|url = http://www.nasdaq.com/article/ad-tech-company-criteo-raises-251-million-by-pricing-upsized-ipo-at-31-above-its-upwardly-revised-2729-range-cm293576|title = Ad tech company Criteo raises $251 million by pricing upsized IPO at $31, above its upwardly revised $27-$29 range|date= October 29, 2013|accessdate = June 1, 2017}}</ref>
+|-
 |2014
 |January 16
 |Open release
@@ -590,6 +596,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Launch
 |Ad blocking
 |[[wikipedia:UBlock Origin|UBlock Origin]], a very prominent ad-blocking extension for web browsers, launches.<ref>{{Cite web|url=https://github.com/gorhill/uBlock/wiki/Change-log#0100|title=gorhill/uBlock|website=GitHub|language=en|access-date=2017-02-08}}</ref>
+|-
+|2014
+|July 18
+|IPO
+|Video advertising
+|Video advertising platform TubeMogul IPOs at $7 per share (half of its original intended IPO price), and rises 50% on its first day of trading.<ref>{{cite web|url = https://techcrunch.com/2014/07/18/tubemogul-surges-48-in-its-debut-after-cutting-its-ipo-price/|title = TubeMogul Surges 48% In Its Debut After Cutting Its IPO Price|last = Wilhelm|first = Alex|date = July 18, 2014|accessdate = June 1, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref><ref>{{cite web|url = https://www.forbes.com/sites/alexkonrad/2014/07/18/tubemogul-ipo-jump-looks-great-but-ad-tech-struggles/#7f0872e6345f|title = TubeMogul's 50% IPO Jump Looks Great, But It's Actually A Sign Of Ad Tech Struggles|last = Konrad|first = Alex|publisher = ''[[wikipedia:Forbes|Forbes]]''}}</ref><ref>{{Cite web|url = https://adexchanger.com/platforms/tubemogul-prices-ipo-shares-lower-valuation-shrinks-to-244m/|title = TubeMogul Prices IPO Shares Lower, Valuation Shrinks To $244M|date = July 17, 2014|last = Rodgers|first = Zach|accessdate = June 1, 2017}}</ref><ref>{{cite web|url = http://adage.com/article/digital/tubemogul-raises-expected-ipo/294210/|title = TubeMogul Raises Less Than Expected With IPO. Wall Street Still Cold On Ad-Tech Companies It Sometimes Sees as too Labor-Intensive|last = Kantrowitz|first = Alex|date = July 18, 2014|accessdate = June 1, 2017|publisher = ''[[wikipedia:Advertising age|Advertising age]]''}}</ref>
 |-
 |2014
 |November 14
