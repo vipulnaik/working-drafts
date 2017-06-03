@@ -5,13 +5,7 @@ final = paracompact space}}
 
 ==Statement==
 
-===Verbal statement===
-
-The product of a [[compact space]] with a [[paracompact space]] (given the [[product topology]]), is paracompact
-
-===Statement with symbols===
-
-Let <math>X</math> be a [[compact space]] and <math>Y</math> a [[paracompact space]]. Then <math>X \times Y</math> is paracompact.
+Let <math>X</math> be a [[compact space]] and <math>Y</math> a [[paracompact space]]. Then <math>X \times Y</math>, the Cartesian product endowed with the [[product topology]], is paracompact.
 
 ==Related facts==
 
@@ -27,17 +21,33 @@ Other results using the same proof technique:
 
 ==Proof==
 
-'''Given''': A compact space <math>X</math>, a paracompact space <math>Y</math>.
+'''Given''': A compact space <math>X</math>, a paracompact space <math>Y</math>. <math>\{ U_i \}_{i \in I}</math> form an open cover of <math>X \times Y</math>.
 
-'''To prove''' If <math>U_i</math> form an open cover of <math>X \times Y</math>, there exists a locally finite open refinement of the <math>U_i</math>.
+'''To prove''': There exists a locally finite open refinement of the <math>U_i</math>s, i.e., an open cover <math>\{ Q_k \}_{k \in K}</math> of <math>X \times Y</math> such that:
+* It is locally finite: For any point <math>(x,y) \in X \times Y</math>, there exists an open set <math>R</math> containing <math>(x,y)</math> that intersects only finitely many of the <math>Q_k</math>s.
+* It refines <math>\{ U_i \}_{i \in I}</math>: Every <math>Q_k</math> is contained in one of the <math>U_i</math>s.
 
-'''Proof''':
+'''Proof''': Note that in the proof below, Step (4) has three aspects (locally finite, cover, and refinement) and different later steps use different aspects of Step (4), with the specific aspect used indicated parenthetically in the Previous steps used column.
 
-# For any point <math>y \in Y</math>, there is a finite collection of <math>U_i</math> that cover <math>X \times \{ y \}</math>: Since <math>X</math> is compact, the subspace <math>X \times \{ y \}</math> of <math>X \times Y</math> is also compact, so the cover by the open subsets <math>U_i</math> has a finite subcover.
-# Let <math>W_y</math> be the union of this finite collection of open subsets <math>U_i</math>. By fact (1), there exists an open subset <math>V_y</math> of <math>Y</math> such that <math>X \times V_y \subseteq W_y</math>.
-# The <math>V_y</math> form an open cover of <math>Y</math>.
-# There exists a locally finite open refinement, say <math>\mathcal{P}</math> of the <math>V_y</math> in <math>Y</math>: This follows from the fact that <math>Y</math> is paracompact.
-# We can construct a locally finite open refinement of <math>U_i</math> from these: 
-## For each member <math>P \in \mathcal{P}</math>, there exists <math>V_y</math> such that <math>P \subseteq V_y</math>. Thus, <math>X \times P \subseteq X \times V_y \subseteq W_y</math>. <math>W_y</math>, in turn, is a union of a finite collection of <math>U_i</math>s. Thus, <math>X \times P</math> is the union of the intersections <math>(X \times P) \cap U_i</math>. 
-## Since the <math>X \times P</math> together cover <math>X \times Y</math>, the <math>(X \times P) \cap U_i</math> are an open cover of <math>X \times Y</math> that refines the <math>U_i</math>s.
-## Finally, we argue that <math>(X \times P) \cap U_i</math> is a ''locally finite'' open cover: Suppose <math>(x,y) \in X \times Y</math>. Since <math>\mathcal{P}</math> is a locally finite open cover of <math>Y</math>, there exists an open subset <math>Q</math> of <math>Y</math> containing <math>y</math> such that <math>Q</math> intersects only finitely many members of <math>\mathcal{P}</math>. Thus, the neighborhood <math>X \times Q</math> intersects only finitely many <math>X \times P</math>s, which in turn give rise to finitely many <math>(X \times P) \cap U_i</math>s each. Thus, <math>X \times Q</math> intersects only finitely many members of the open cover.
+{| class="sortable" border="1"
+! Step no. !! Assertion/construction !! Facts used !! Given data used !! Previous steps used !! Explanation !! Commentary
+|-
+| 1 || For any point <math>y \in Y</math>, there is a finite collection of <math>U_i</math> that cover <math>X \times \{ y \}</math>. || ||  <math>X</math> is compact || || Since <math>X</math> is compact, the subspace <math>X \times \{ y \}</math> of <math>X \times Y</math> is also compact, so the cover by the open subsets <math>U_i</math> has a finite subcover. || Begin focusing on a slice.
+|-
+| 2 || For any point <math>y \in Y</math>, let <math>W_y</math> be the union of the finite collection of open subsets <math>U_i</math> as obtained in Step (1). There exists an open subset <math>V_y</math> of <math>Y</math> such that <math>y \in V_y</math> and <math>X \times V_y \subseteq W_y</math>. || Fact (1) || <math>X</math> is compact || Step (1) || Follows from Fact (1), setting the <math>U</math> of Fact (1) to be <math>W_y</math>. || Use compactness to get a tube around the slice.
+|-
+| 3 || The open subsets <math>V_y, y \in Y</math> obtained in Step (2) form an open cover of <math>Y</math>. || || || Step (2) || By Step (2), <math>y \in V_y</math>. Since <math>\bigcup_{y \in Y} \{ y \} = Y</math>, and <math>y \in V_y \subseteq Y</math>, we get <math>\bigcup_{y \in Y} V_y = Y</math>. || Project down to the paracompact space.
+|-
+| 4 || There exists a locally finite open refinement <math>\{ P_j \}_{j \in J}</math> of the <math>V_y</math> in <math>Y</math>. || || <math>Y</math> is paracompact || Step (3) || Step-given combination direct. || Use paracompactness to get the locally finite open refinement, in the projected-down setting.
+|-
+| 5 || For each <math>P_j</math>, <math>X \times P_j</math> is a union of finitely many intersections <math>(X \times P_j) \cap U_i</math>, all of which are open subsets. || || || Steps (1), (2), (4) (refinement aspect) || <toggledisplay>Since <math>P_j</math>s refine <math>V_y</math>s (Step (4)), there exists <math>y \in Y</math> such that <math>P_j \subseteq V_y</math>. In turn, by the definition of <math>V_y</math> (Step (2)), we have <math>X \times V_y \subseteq W_y</math>, which in turn is a union of finitely many <math>U_i</math>s (Step (1)). Thus, <math>X \times P_j</math> is contained in a union of finitely many <math>U_i</math>s, and hence, is the union of its intersection with those <math>U_i</math>s. Since <math>U_i</math> are all open, the intersections  <math>(X \times P_j) \cap U_i</math> are all open.</toggledisplay> || Go back to the big space, reversing the projection step.
+|-
+| 6 || The open subsets of the form <math>(X \times P_j) \cap U_i</math> of Step (5) form an open cover of <math>X \times Y</math> that refines the <math>U_i</math>s (note that not every combination of <math>P_j</math> and <math>U_i</math> is included -- only the finitely many <math>U_i</math>s needed as in Step (5)). We will index this open cover by indexing set <math>K \subseteq I \times J</math>, and call it <math>\{ Q_k \}_{k \in K}</math>, where <math>Q_k = (X \times P_j) \cap U_i</math>. In particular, if <math>k = (i,j)</math>, then <math>Q_k \subseteq X \times P_j</math> and <math>Q_k \subseteq U_i</math>, and for any <math>j</math>, there are finitely many <math>k \in K</math> with the second coordinate of <math>k</math> equal to <math>j</math>. || || || Steps (4) (cover aspect), (5) || <math>\{ P_j \}_{j \in J}</math> cover <math>Y</math>, so <math>\{ X \times P_j \}_{j \in J}</math> cover <math>X \times Y</math>. By Step (5), <math>X \times P_j</math> is the union of finitely many <math>(X \times P_j) \cap U_i</math>, so the latter also form an open cover of <math>X \times Y</math>. || Wrap things up.
+|-
+| 7 || The open cover <math>\{ Q_k \}_{k \in K}</math> of Step (6) is a locally finite open cover. In other words, for any <math>(x, y) \in X \times Y</math>, there is an open subset <math>R \ni (x,y)</math> such that <math>R</math> intersects only finite many <math>Q_k</math>s. || || || Steps (4) (locally finite aspect), (6) || <toggledisplay>Since <math>\{ P_j \}_{j \in J}</math> form a locally finite open cover of <math>Y</math> (Step (4)), there exists an open subset <math>S</math> of <math>Y</math> such that <math>S</math> contains <math>y</math> and <math>S</math> intersects only finitely many of the <math>P_j</math>s. Set <math>R  = X \times S</math>, so <math>R</math> is open in <math>X \times Y</math>. <math>R</math> therefore intersects only finitely many of the <math>X \times P_j</math>s. For any <math>Q_k</math>, with <math>k = (i,j)</math>, we have <math>Q_k \subseteq X \times P_j</math> by construction (Step (6)), so if <math>Q_k</math> intersects <math>R</math> so does <math>X \times P_j</math>. Thus, the <math>Q_k</math>s that intersect <math>R</math> must correspond to the finitely many <math>j</math>s for which <math>R</math> intersects <math>X \times P_j</math>. Since there are finitely many <math>k</math>s for each <math>j</math>, this gives that there are finitely many <math>Q_k</math>s intersecting <math>R</math>.</toggledisplay> || Wrap things up.
+|-
+| 8 || The open cover <math>\{ Q_k \}_{k \in K}</math> is as desired || || || Steps (6), (7) || Combine the two steps to get what we wanted to prove. || --
+|}
+
+{{tabular proof format}}
+
