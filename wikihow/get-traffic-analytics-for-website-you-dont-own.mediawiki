@@ -3,10 +3,12 @@ This guide explore strategies for getting web traffic data for third-party websi
 The tools discussed here are classified based on cost to users ''viewing'' the analytics (free versus freemium versus paid; the freemium tools have a publicly accessible free version but more data available in a paid version), method of estimation (direct measurement (using server logs or a tracking beacon) versus estimation by extrapolating from a panel of users who are being tracked) and website coverage (some websites only, versus most or all websites).
 
 If you want analytics for your ''own'' websites, then you should install analytics tools such as Google Analytics, Adobe Analytics, Quantcast Measure, Chartbeat, or others directly on your site, rather than use the methods below. The methods below can give you some insight into how ''others'' might be trying to estimate your traffic data.
+[[Category:Website Traffic and Advertising]]
 
 == Steps ==
-=== Quantcast Measure: free, direct measurement, some websites only ===
+=== Using Quantcast Measure ===
 # Get data about the website, if available, at https://www.quantcast.com/<domainname>.[[Image:Quantcast Trello weekly cycle.png|center]]
+#* This service is free and provides direct measurement, but it's available for some websites only.
 #* For instance, for the website Trello, with domain name trello.com, you can get data at https://www.quantcast.com/trello.com.<ref name=quantcast-trello>[https://www.quantcast.com/trello.com Quantcast data for Trello]. Retrieved April 26, 2017</ref> Similarly, for the website Glassdoor, with domain name glassdoor.com, you can get data at https://www.quantcast.com/glassdoor.com.<ref name=quantcast-glassdoor>[https://www.quantcast.com/glassdoor.com Quantcast data for Glassdoor]. Retrieved April 26, 2017</ref>
 #* In case of subdomains, you should enter the subdomain name instead of the domain. For instance, for the Math Stack Exchange (math.stackexchange.com), you would look for data at https://www.quantcast.com/math.stackexchange.com.<ref name=quantcast-math-stackexchange>[https://www.quantcast.com/math.stackexchange.com Quantcast data for Math Stack Exchange]. Retrieved April 26, 2017</ref>
 #* There are two kinds of websites: those that use Quantcast Measure (that Quantcast calls "quantified"), and those that do not. For websites that use Quantcast Measure, you will see the website name and a check mark in front of the name on top, and website traffic data below. For websites that do not use Quantcast Measure you will see a message on top of the form: "<website> is not currently using Quantcast Measure. As a result, we're unable to show you a full breakout of their audience data. If you own or work at <website> sign up for Quantcast Measure and place the measurement tag on your site to get all the audience insights detailed below." Previously, Quantcast used to show indirectly estimated data for sufficiently high-traffic websites not using Quantcast Measure, but now it does not show this data.[[Image:Quantcast Zillow not available.png|center]]
@@ -30,9 +32,10 @@ If you want analytics for your ''own'' websites, then you should install analyti
 #* If the website owner is ''not'' using Quantcast Measure, consider contacting the website owner proposing it.
 #* If the website owner ''is'' using Quantcast Measure, and has not made the data available, consider contacting the website owner regarding making the data publicly available. However, since Quantcast Measure makes data publicly visible ''by default'', website owners who choose to hide the data are usually convinced of the superiority of doing so, and you may not be persuasive.
 
-=== SimilarWeb: freemium, (mostly) estimation, almost all websites ===
+=== Using SimilarWeb  ===
 
 # Get data about the website, if available, at https://www.similarweb.com/website/<domainname>[[Image:SimilarWeb Zillow.png|center]]
+#* This service is a freemium one, and offers mostly estimated results, but for almost all websites.
 #* For instance, for the domain zillow.com, you can get data at https://www.similarweb.com/website/zillow.com.<ref name=similarweb-zillow>[https://www.similarweb.com/website/zillow.com SimilarWeb profile for Zillow (zillow.com)]. Retrieved April 26, 2017</ref>
 #* In case of subdomains, enter the subdomain name instead of the domain name. For instance, to get data on ocw.mit.edu, you would go to https://www.similarweb.com/website/ocw.mit.edu.<ref name=similarweb-ocw-mit>[https://www.similarweb.com/website/ocw.mit.edu SimilarWeb profile for ocw.mit.edu]. Retrieved April 26, 2017</ref> Data shown for a domain name aggregates data over all subdomains. Profiles for subdomains are fairly similar to profiles for domains, with a few differences: ranks and subdomain breakdowns are available only on domain profiles.
 #* For some websites, SimilarWeb may redirect to the error page https://www.similarweb.com/error/notfound.<ref>[https://www.similarweb.com/website/openborders.com SimilarWeb profile of non-existent (redirecting) website that redirects to the notfound page]. Retrieved April 27, 2017</ref> This means that SimilarWeb saw no traffic, or too little traffic, to the website and has not built a profile for it.
@@ -63,9 +66,9 @@ If you want analytics for your ''own'' websites, then you should install analyti
 #* With this extension, you will be able to, whenever you visit a website, view the SimilarWeb metrics from within your browser itself, without having to separately visit the SimilarWeb profile of the website. The extension does not give you access to any other information beyond what you can get from the profile -- it just makes the lookup process quicker.
 #* In return, installing the extension means that you get included in the panel of users whose behavior is collected by SimilarWeb to estimate website traffic.
 
-=== Alexa Internet: freemium, (mostly) estimation, almost all websites ===
-
+=== Using Alexa Internet ===
 # Get data about the website, if available, at http:/www.alexa.com/siteinfo/<domainname>.[[Image:Alexa Zillow.png|center]][[Image:Alexa Charity Navigator annual cycle.png|center]]
+#* This service is a freemium one, and offers mostly estimated results, but for almost all websites.
 #* For instance, for the website zillow.com of Zillow, you can get data at http://www.alexa.com/siteinfo/zillow.com.<ref name=alexa-zillow>[http://www.alexa.com/siteinfo/zillow.com zillow.com traffic statistics from Alexa]. Retrieved April 26, 2017</ref> Similarly, for the website trello.com of Trello, you can get data at http://www.alexa.com/siteinfo/trello.com.<ref name=alexa-trello>[http://www.alexa.com/siiteinfo/trello.com trello.com traffic statistics from Alexa]. Retrieved April 26, 2017</ref>
 #* Traffic for subdomains is included in traffic for the main domain, and if you enter a subdomain in the URL structure above, it redirects to the page for the main domain. For instance, http://www.alexa.com/siteinfo/ocw.mit.edu redirects to http://www.alexa.com/siteinfo/mit.edu.
 #* For ''most'' websites, Alexa uses estimated data, rather than direct first-party measured data. You will see a box on the top right saying "This site's metrics are estimated" and, below that, "Is this your site? Certify your site's metrics." Some sites have certified their site metrics with Alexa, which means that Alexa uses direct first-party measurement for the site's traffic. However, this only means that Alexa measures the site's traffic correctly; the site's rank is still estimated since that relies on comparison with many other sites, most of which are estimated and not directly measured.
@@ -89,17 +92,16 @@ If you want analytics for your ''own'' websites, then you should install analyti
 #* With this extension, you will be able to, whenever you visit a website, view the SimilarWeb metrics from within your browser itself, without having to separately visit the Alexa Internet profile of the website. The extension does not give you access to any other information beyond what you can get from the profile -- it just makes the lookup process quicker.
 #* In return, installing the extension means that you get included in the panel of users whose behavior is collected by Alexa Internet to estimate website traffic.
 
-=== HypeStat: free, (mostly) estimation (collates data from other services), almost all websites ===
-
+=== Using HypeStat ===
 # Get data about the website, if available, at <domainname>.hypestat.com
+#* This service is a free one, and offers mostly estimated results (collecting data from other services), but for almost all websites.
 #* For instance, to get data about Imgur, you can visit imgur.com.hypestat.com.<ref name=hypestat-imgur>[http://imgur.com.hypestat.com/ HypeStat profile for imgur.com]. Retrieved April 26, 2017</ref>[[Image:HypeStat Imgur.png|center]]
 #* You can also visit subdomains. For instance, you can visit starwars.wikia.com.hypestat.com to get data on the subdomain starwars.wikia.com under wikia.com.<ref name=hypestat-starwars-wikia>[http://starwars.wikia.com.hypestat.com/ HypeStat profile for starwars.wikia.com]. Retrieved April 26, 2017</ref>
 # Examine the various parts of the page.
 #* Most of the page is obtained by cobbling together data available from different sources, including Alexa, Quantcast, SEO Majestic, SemRush, Moz, Google PageSpeed Insights, Google Safe Browsing, MyWot.com reputation ratings, and WhoIs lookups.
 #* The data includes an estimate for total traffic (daily and monthly unique visitors and pageviews). No source is provided for this data. 
 
-=== Website traffic statistics pages, business and advertising pages and intermediaries: free, usually direct measurement, some websites only ===
-
+=== Using Website Traffic Statistics Pages and Similar Options ===
 # For user-generated content/self-published content websites, look for statistics pages that include traffic and social data for items.
 #* User-generated content sites often include lists of top items and the traffic they receive. In some cases, they also include overall summaries, or summaries by category. Look for these.
 #* Starting July 16, 2013, subreddits within Reddit could make their desktop traffic statistics available online at https://www.reddit.com/r/<subredditname>/about/traffic.<ref>[https://www.reddit.com/r/changelog/comments/1ifxys/reddit_change_moderators_can_now_set_their/ reddit change: Moderators can now set their subreddit's traffic statistics page public], July 16, 2013. Retrieved June 1, 2017</ref><ref name=reddit-unixporn>[https://www.reddit.com/r/EffectiveAltruism/about/traffic Reddit traffic statistics for /r/unixporn]. Retrieved April 27, 2017</ref><ref>[https://www.reddit.com/r/EffectiveAltruism/about/traffic Reddit traffic statistics for r/EffectiveAltruism]. Retrieved April 27, 2017</ref> This includes desktop data at hourly granularity for the past week, daily granularity for the past eight weeks, and monthly granularity for the past year. Data is calculated directly by Reddit using its server logs. From May 15, 2017 onward, Reddit disabled public access to traffic pages, but it may reinstate public access later, after incorporating mobile traffic data into the pages.<ref>[https://www.reddit.com/r/ModSupport/comments/6atvgi/upcoming_changes_view_counts_users_here_now_and/ Upcoming Changes: View counts, users here now and traffic pages], Reddit, May 12, 2017. Retrieved June 3, 2017.</ref>[[Image:Reddit linux.png|center]]
@@ -118,8 +120,7 @@ If you want analytics for your ''own'' websites, then you should install analyti
 #* Google Display Planner can be used to get traffic estimates for some websites.
 #* We can use other ad networks sometimes.
 
-=== Other web sources ===
-
+=== Using Other Web Sources ===
 # Check the Wikipedia page about the website or associated organizations.
 #* The Wikipedia page may have an infobox that contains entries with information about the traffic. This could include the Alexa rank.
 #* The text of the Wikipedia page may have information about traffic. The information may be in the introduction, a section on traffic, or a history or growth section. Check the sources cited to determine the reliability and methodology.
@@ -128,8 +129,7 @@ If you want analytics for your ''own'' websites, then you should install analyti
 #* You can search in publications that cover news in the domain of the website (using web search with the site: operator, or within-site search). For instance, for publisher websites, search in sources such as digiday.com, adexchanger.com, adweek.com, and adage.com. For technology companies, search in sources such as techcrunch.com and mashable.com.
 #* You can search the whole Internet with a search term such as "<domainname> pageviews" or "<domainname> traffic statistics" (try both with and without quotes). Keep in mind that the top results are likely to be services such as Quantcast, SimilarWeb, or Alexa, plus other similar services and fake or paywalled services. You should probably check up to three pages of results.
 
-=== Surveys: using existing ones or conducting your own ===
-
+=== Using Surveys  ===
 # Look for existing surveys that give an estimate of use.
 #* Survey data can generally help give an estimate of the number of users, and the average frequency of visits. They are too crude a tool to estimate the number of ''pageviews''.
 #* Surveys have both upsides and downsides. They rely on ''memory'', and therefore tend to give more weight to visits to websites that the user ''remembers''. This can be a positive, if we are trying to measure the extent of genuine, intentional and/or impactful visits, but it can also lead to underestimation of sites that have a less distinctive brand (for instance, websites that people visit from search results to quickly answer a question, but do not register mentally as a source).
@@ -140,14 +140,14 @@ If you want analytics for your ''own'' websites, then you should install analyti
 #* Alternatively, you can distribute the survey to a more targeted audience by sharing it in a Facebook group or a subreddit that reaches that audience. This is most useful for websites that cater to that audience, so that you can extrapolate from the surveyed sample to the total population to get a decent estimate of website traffic.
 
 == Related wikiHows ==
+* [[Understand Your Website Traffic Variation with Time]]
+* [[Understand Your Website Audience Profile]]
+* [[Gauge the Popularity of a Topic Online]]
+* [[Conduct Audience Analysis]]
+* [[Promote Your Business]]
+* [[Effectively Advertise]]
+* [[Make a Website]]
 
-* [[Understand Your Website Traffic Variation with Time|How to Understand Your Website Traffic Variation with Time]]
-* [[Understand Your Website Audience Profile|How to Understand Your Website Audience Profile]]
-* [[Gauge the Popularity of a Topic Online|How to Gauge the Popularity of a Topic Online]]
-* [[Conduct Audience Analysis|How to Conduct Audience Analysis]]
-* [[Promote Your Business|How to Promote Your Business]]
-* [[Effectively Advertise|How to Effectively Advertise]]
-* [[Make a Website|How to Make a Website]]
 == Sources and Citations ==
 {{reflist}}
 __METHODS__
