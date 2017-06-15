@@ -83,7 +83,7 @@ This is a timeline of [[wikipedia:Bay Area Rapid Transit|Bay Area Rapid Transit]
 |-
 | 1963 || || Team || B. R. Stokes, who was BART's first employee serving as BART's Director of Information, becomes the General Manager of BART.<ref name=stokes-obit/>
 |-
-| 1964 || June 19 || Construction || BART construction is officially inaugurated by President [[wikipedia:Lyndon Johnson|Lyndon Johnson]], presiding over the ground-breaking ceremony for a 4.4-mile test track between Concord and Walnut Creek.<ref name=bart-begins>{{cite web|url = http://www.bart.gov/about/history/history2|title = A History of BART: The Project Begins|accessdate = May 28, 2017|publisher = [[wikipedi:Bay Area Rapid Transit|BART]]}}</ref><ref name=clr/><ref name=bart-40-years/> || Concord, Walnut Creek
+| 1964 || June 19 || Construction || BART construction is officially inaugurated by President [[wikipedia:Lyndon Johnson|Lyndon Johnson]], presiding over the ground-breaking ceremony for a 4.4-mile test track between Concord and Walnut Creek.<ref name=bart-begins>{{cite web|url = http://www.bart.gov/about/history/history2|title = A History of BART: The Project Begins|accessdate = May 28, 2017|publisher = [[wikipedia:Bay Area Rapid Transit|BART]]}}</ref><ref name=clr/><ref name=bart-40-years/> || Concord, Walnut Creek
 |-
 | 1965 || October/November || Construction || Construction of the Berkeley Hills Tunnel begins.<ref name=bart-begins/> || Berkeley Hills Tunnel
 |-
