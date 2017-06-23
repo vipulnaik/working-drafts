@@ -11,15 +11,23 @@ This timeline covers Chinese immigration to the United States, including both te
 |-
 | 1848 || February || Jurisdictional definitions and boundaries || California || The [[Mexican-American War]] concludes, and Alta California (which includes the modern U.S. state of California, plus nearby regions) is established to be part of the United States.
 |-
+| 1849 || || Organization || California (San Francisco) || The Chew Yick Association, one of the earliest organizations of Chinese in the United States, elects Norman As-sing, a prominent Chinese merchant, as their leader. Allegedly an American citizen naturalized in Charleston, South Carolina and converted to Christianity, As-sing acts as a bridge between Chinese and American cultures.<ref name=nps/>
+|-
 | 1850 || || || California (San Francisco) || [[wikipedia:Chinatown, San Francisco|Chinatown, San Francisco]] begins to be formed, as Chinese settle in the area (partly because of being unable to move into other parts of the city).
 |-
 | 1850 || || Jurisdictional definitions and boundaries || California || The state of California comes into formal existence (...)
 |-
-| 1850 || || Tax || California || The state of California passes a Foreign Miners' Tax of $20/month on foreign miners in California. The decision to focus on foreign ''miners'' reflects the majority view that the presence of Chinese in city services is appreciated but their competition in mining is not.
+| 1850 || || Tax || California || The state of California passes a Foreign Miners' Tax of $20/month on foreign miners in California. The decision to focus on foreign ''miners'' reflects the majority view that the presence of Chinese in city services is appreciated but their competition in mining is not.<ref name=nps>{{cite web|url = https://www.nps.gov/parkhistory/online_books/5views/5views3b.htm|title = A History of Chinese Americans in California: THE 1850s|accessdate = June 22, 2017}}</ref><ref name=i2us-foreign-miner-taxes>{{cite web|url = http://immigrationtounitedstates.org/506-foreign-miner-taxes.html|title = Foreign miner taxes|accessdate = June 22, 2017|publisher = Immigration to the United States}}</ref><ref name=teachingresources/><ref name=chinhate/>
 |-
-| 1851 || || Tax || California || The Foreign Miners' Tax is repealed, after failing to raise sufficient revenue, and causing impoverishment among miners, making them flee to cities with no money
+| 1851 || || Tax || California || The Foreign Miners' Tax is repealed, after failing to raise sufficient revenue, and causing impoverishment among miners, making them flee to cities with no money.<ref name=chinhate>{{cite web|url = http://www.sfmuseum.org/hist6/chinhate.html|title = The Chinese|author = Henry Kittredge Norton|accessdate = June 22, 2017}}</ref><ref name=teachingresources>{{cite web|url = http://teachingresources.atlas.illinois.edu/chinese_exp/resources/resource_2_4.pdf|title = Some state of California and city of San Francisco anti-Chinese legislation and subsequent action}}</ref>
 |-
-| 1852 || || Tax || California || The state of California imposes a Foreign Miners' License Tax of $3/month on foreign miners. The amount of the tax would increase gradually and eventually get to $20/month in 1870, at which point it would be repealed.
+| 1851 || || Organization || California (San Francisco) || Tong K. Achick arrives in San Francisco. He knew some English and some American customs from mission schools in China. He would go on to found the Yeong Wo Association for immigrants from his native district of Heung Shan.<ref name=nps/> ||
+|-
+| 1852 || Late April || Violence, ultimatum || California (Yuba County) || A miners' convention meeting at Foster and Atchinson's General Store in [[wikipedia:Yuba County, California|Yuba County]] leads to the issuing of an an ultimatum stating that no Chinese miner can hold a mining claim after May 1 and none can remain in the county after May 3. However, violence against Chinese erupts even before them, leading to the Chinese being forced out.<ref name=driven-out/>{{rp|62}}<ref name=nps/>
+|-
+| 1852 || May 8 || Ultimatum || California (Columbia, Shasta County) || At the second [[wikipedia:Columbia, California|Columbia]] Miners Convention, the attending white miners declared that "no Asiatic or South Sea Islander shall be permitted to mine in this district either for himself or for others." The miners' udnerlying frustrations stemmed from the dwindling of gold reserves, the supplanting of individual miners by larger corporations (as more expensive tooles were needed), and competition from Chinese miners.<ref name=nps/><ref name=driven-out/>{{rp|63-64}}
+|-
+| 1852 || || Tax || California || The state of California imposes a Foreign Miners' License Tax of $3/month on foreign miners. The amount of the tax would increase gradually and eventually get to $20/month in 1870, at which point it would be repealed.<ref name=teachingresources/><ref name=history-of-chinese-in-california>{{cite web|url = https://himmarklai.org/wordpress/wp-content/uploads/A-History-of-the-Chinese-in-CA-Syllabus-Part-III.pdf?x42697|title = A history of the Chinese in California|accessdate = June 22, 2017}}</ref><ref name=i2us-foreign-miner-taxes/>
 |-
 | 1854 || || Court case || California || In ''[[wikipedia:People v. Hall|People v. Hall]]'', George Hall is accused of murdering a foreign miner Ling Sing, but all witnesses are Chinese. The court rejects their testimony, arguing that Section 394 (which forbade Indians and blacks from testifying against whites) also forbade Chinese from testifying againt whites. The opinion is delivered in 1854 by Chief Justice [[wikipedia:Hugh Murray (judge)|Hugh Murray]] with the concurrence of Justice [[wikipedia:Solomon Heydenfeldt|Solomon Heydenfeldt]].<ref name=cetel>{{cite web|url = http://www.cetel.org/1854_hall.html|title = THE PEOPLE, RESPONDENT, v. GEORGE W. HALL, APPELLANT. Supreme Court of the State of California, 1854.|accessdate = March 20, 2016}}</ref><ref name=meloukhia>{{cite web|url = http://meloukhia.net/2011/12/laying_some_history_on_you_people_v_hall/|title = Laying Some History On You: People v. Hall|accessdate = March 20, 2016|last = Smith|first = S. E.}}</ref>
 |-
@@ -75,3 +83,10 @@ This timeline covers Chinese immigration to the United States, including both te
 == References ==
 
 {{reflist|30em}}
+
+Further links:
+
+https://www.jstor.org/stable/41169382?seq=1#fndtn-page_thumbnails_tab_contents
+
+
+https://himmarklai.org/wordpress/wp-content/uploads/A-History-of-the-Chinese-in-CA-Syllabus-Part-III.pdf?x42697
