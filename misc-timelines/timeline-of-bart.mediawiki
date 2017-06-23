@@ -22,6 +22,20 @@ This is a timeline of [[wikipedia:Bay Area Rapid Transit|Bay Area Rapid Transit]
 | 2009–present || BART extends service south of Fremont, with the ultimate goal of going all the way to San Jose. Multiple delays in financing, construction, and technical aspects of operations delay the opening of Warm Springs/South Fremont to March 2017.
 |}
 
+==Visual data==
+
+=== Overall ridership ===
+
+The image below shows BART average weekday, Saturday, and Sunday ridership by month from January 2001 to May 2017. Traffic is highest on weekdays, lower on Saturdays, and even lower on Sundays. The referenced source will update the graph every month; the version shown below does not auto-update.<ref name=bart-ridership-graph>{{cite web|url = https://bart.vipulnaik.com/ridership.php?entryStation=total&exitStation=total|title = BART Ridership: total to total|accessdate = June 22, 2017}}</ref>
+
+[[File:BART ridership.png|500px]]
+
+=== Ridership to Embarcadero, the busiest station ===
+
+The image below shows BART ridership to and from Embarcadero: average weekday, Saturday, and Sunday ridership values by month from January 2001 to May 2017. Traffic is highest on weekdays, lower on Saturdays, and even lower on Sundays. Traffic ''to'' Embarcadero is a little higher than traffic ''from'' Embarcadero for any given month and day type, but differences between type of day dominate entry/exit differences. The referenced source will update the graph every month; the version shown below does not auto-update.<ref name=bart-ridership-graph-embarcadero>{{cite web|url = https://bart.vipulnaik.com/ridership.php?entryStation=total&exitStation=EM|title = ART Ridership: total to EM|accessdate = June 22, 2017}}</ref>
+
+[[File:BART ridership to Embarcadero.png|500px]]
+
 == Full timeline ==
 
 {| class="wikitable sortable"
@@ -304,7 +318,7 @@ This is a timeline of [[wikipedia:Bay Area Rapid Transit|Bay Area Rapid Transit]
 |-
 | 2017 || March 25 || New stations || BART opens its [[wikipedia:Warm Springs/South Fremont station|Warm Springs/South Fremont station]] for revenue service on this day (a Saturday), after an inauguration ceremony on Friday, March 24.<ref>{{cite web|url = https://www.bart.gov/news/articles/2017/news20170310|title = Warm Springs Station to open March 25|date = March 10, 2017|accessdate = June 18, 2017|publisher = [[wikipedia:Bay Area Rapid Transit|Bay Area Rapid Transit]]}}</ref> || Warm Springs/South Fremont, indirect effect on Fremont (which is no longer the terminus, and therefore has reduced passenger load)
 |-
-| 2017 || April 22 || Violence || A mass robbery occurs at around 9:30 PM at [[wikipedia:Oakland Coliseum station|Oakland Coliseum station]]. A number of juveniles jump the faregates at the station, board a train, threaten the passengers, and extract valuables. By the time BART police arrives, they are already gone.<ref>{{cite web|url = http://www.eastbaytimes.com/2017/04/25/audio-dispatch-of-oakland-bart-mob-its-a-group-of-50-they-bum-rushed-the-entire-train/|title = Audio dispatch of Oakland BART mob: ‘It’s a group of 50. They bum-rushed the entire train’|last = Hurd|first = Rick|last2 = Badassari|first2 = Erin|date = April 25, 2017|accessdate = June 18, 2017|publisher = ''East Bay Times''}}</ref><ref>{{cite web|url = http://www.sfgate.com/crime/article/BART-takeover-robbery-50-to-60-teens-swarm-11094745.php|title = BART takeover robbery: 40 to 60 teens swarm train, hold up riders|last = Bulwa|first = Demian|last2 = Cabanatuan|first2 = Michael|date = April 24, 2017|accessdate = June 18, 2017|publisher = ''[[wikipedia:San Francisco Chronicle|San Francisco Chronicle]]''}}</ref><ref>{{cite web|url = http://sanfrancisco.cbslocal.com/2017/04/26/police-id-bart-train-takeover-beating-suspects/|title = Police Identify BART Train Takeover Robbery Suspects|date = April 26, 2017|accessdate = June 18, 2107|publisher = CBS Local}}</ref> || Coliseum
+| 2017 || April 22 || Violence || A mass robbery occurs at around 9:30 PM at [[wikipedia:Oakland Coliseum station|Oakland Coliseum station]]. A number of juveniles jump the faregates at the station, board a train, threaten the passengers, and extract valuables. By the time BART police arrives, they are already gone.<ref>{{cite web|url = http://www.eastbaytimes.com/2017/04/25/audio-dispatch-of-oakland-bart-mob-its-a-group-of-50-they-bum-rushed-the-entire-train/|title = Audio dispatch of Oakland BART mob: ‘It’s a group of 50. They bum-rushed the entire train’|last = Hurd|first = Rick|last2 = Badassari|first2 = Erin|date = April 25, 2017|accessdate = June 18, 2017|publisher = ''East Bay Times''}}</ref><ref>{{cite web|url = http://www.sfgate.com/crime/article/BART-takeover-robbery-50-to-60-teens-swarm-11094745.php|title = BART takeover robbery: 40 to 60 teens swarm train, hold up riders|last = Bulwa|first = Demian|last2 = Cabanatuan|first2 = Michael|date = April 24, 2017|accessdate = June 18, 2017|publisher = ''[[wikipedia:San Francisco Chronicle|San Francisco Chronicle]]''}}</ref><ref>{{cite web|url = http://sanfrancisco.cbslocal.com/2017/04/26/police-id-bart-train-takeover-beating-suspects/|title = Police Identify BART Train Takeover Robbery Suspects|date = April 26, 2017|accessdate = June 18, 2017|publisher = CBS Local}}</ref> || Coliseum
 |}
 
 == References ==
