@@ -32,7 +32,7 @@ The image below shows BART average weekday, Saturday, and Sunday ridership by mo
 
 === Ridership to Embarcadero, the busiest station ===
 
-The image below shows BART ridership to and from Embarcadero: average weekday, Saturday, and Sunday ridership values by month from January 2001 to May 2017. Traffic is highest on weekdays, lower on Saturdays, and even lower on Sundays. Traffic ''to'' Embarcadero is a little higher than traffic ''from'' Embarcadero for any given month and day type, but differences between type of day dominate entry/exit differences. The referenced source will update the graph every month; the version shown below does not auto-update.<ref name=bart-ridership-graph-embarcadero>{{cite web|url = https://bart.vipulnaik.com/ridership.php?entryStation=total&exitStation=EM|title = ART Ridership: total to EM|accessdate = June 22, 2017}}</ref>
+The image below shows BART ridership to and from Embarcadero: average weekday, Saturday, and Sunday ridership values by month from January 2001 to May 2017. Traffic is highest on weekdays, lower on Saturdays, and even lower on Sundays. Traffic ''to'' Embarcadero is a little higher than traffic ''from'' Embarcadero for any given month and day type, but differences between type of day dominate entry/exit differences. The referenced source will update the graph every month; the version shown below does not auto-update.<ref name=bart-ridership-graph-embarcadero>{{cite web|url = https://bart.vipulnaik.com/ridership.php?entryStation=total&exitStation=EM|title = BART Ridership: total to EM|accessdate = June 22, 2017}}</ref>
 
 [[File:BART ridership to Embarcadero.png|500px]]
 
