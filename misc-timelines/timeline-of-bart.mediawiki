@@ -127,7 +127,7 @@ The image below shows BART ridership to and from Embarcadero: average weekday, S
 |-
 | 1969 || April 3 || Construction || The final section of the [[wikipedia:Transbay Tube|Transbay Tube]] is laid out (it has not yet been fitted for use by trains).<ref name=Lodi69-2>{{cite news |url=https://news.google.com/newspapers?id=vuAzAAAAIBAJ&sjid=VzIHAAAAIBAJ&pg=3681%2C7454411 |title=BART Tunnel Completion Moves Near |author=<!--Staff writer(s); no by-line.--> |agency=UPI |date=31 March 1969 |newspaper=Lodi News-Sentinel |accessdate=20 August 2016}}</ref> ||  Transbay Tube
 |-
-| 1969 || April || Legislation || After three years of debate, the California state legislature approves BARTD's request for $150 million in funds, by levying a 0.5-cent sales tax in the BART counties.<ref name=bart-begins/>
+| 1969 || April || Legislation || After three years of debate, the California state legislature approves BARTD's request for $150 million in funds, by levying a 0.5% sales tax in the BART counties.<ref name=bart-begins/><ref name=stokes-obit/>
 |-
 | 1969 || July || Train cars || The contract for making BART's electric train cars is won by Rohr Industries, Inc. of Chula Vista, California. The initial contract is for 250 train cars, at a cost of $80 million.<ref name=bart-begins/><ref name=bart-rescued/> ||
 |-
