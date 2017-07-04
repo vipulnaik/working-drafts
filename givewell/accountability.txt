@@ -8,7 +8,7 @@ Some examples:
 
 (3) GiveWell used to publish its annual web traffic and money moved report every year around February or March. Then, last year, they moved the publication to May. This year, they still haven't published it, though they've alluded to publishing this summer: http://blog.givewell.org/2017/03/21/march-2017-open-thread/#comment-943448
 
-(4) GiveWell used to commission external reviews and invite people to evaluate its research; they've discontinued that practice: http://benjaminrosshoffman.com/effective-altruism-is-self-recommending/#Version_0_GiveWell_and_passive_funding
+(4) GiveWell used to commission external reviews and invite people to evaluate its research; they've discontinued that practice: http://benjaminrosshoffman.com/effective-altruism-is-self-recommending/#Version_0_GiveWell_and_passive_funding (scroll to end of section)
 
 Basically, things that involve predictable publication schedules or specific external accountability mechanisms seem to be going down in number and scope; GiveWell still publishes a fair amount of stuff, but on its own schedule and at its own pace.
 
