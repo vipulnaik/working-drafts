@@ -1,0 +1,19 @@
+Over the last several years of observing GiveWell, my impression is that GiveWell has moved more and more away from external accountability and predictable external measurability of its work, and toward having its external publications driven by internal goals. I wonder if my impression is shared by others.
+
+Some examples:
+
+(1) When inaugurating the GiveWell blog, Holden​ wrote: "I’m the guy who will be making sure this blog gets updated twice a week (Tuesday and Saturday) at a minimum." See http://blog.givewell.org/2006/12/23/nice-to-meet-you/ Today, with about 10x the headcount, the blog gets 2 to 3 posts a month (Holden is no longer employed by GiveWell). 
+
+(2) Until last year, GiveWell published regular quarterly reviews of its money moved and web traffic. However, they abruptly stopped, citing it as too much work; see http://blog.givewell.org/2016/07/19/update-givewells-web-traffic-money-moved-q1-2016/#comment-940476 So now we get updates on GiveWell's money moved and audience growth metrics much less frequently than once a quarter, if at all (see also (3)).
+
+(3) GiveWell used to publish its annual web traffic and money moved report every year around February or March. Then, last year, they moved the publication to May. This year, they still haven't published it, though they've alluded to publishing this summer: http://blog.givewell.org/2017/03/21/march-2017-open-thread/#comment-943448
+
+(4) GiveWell used to commission external reviews and invite people to evaluate its research; they've discontinued that practice: http://benjaminrosshoffman.com/effective-altruism-is-self-recommending/#Version_0_GiveWell_and_passive_funding
+
+Basically, things that involve predictable publication schedules or specific external accountability mechanisms seem to be going down in number and scope; GiveWell still publishes a fair amount of stuff, but on its own schedule and at its own pace.
+
+Should we see this as an unalloyed good? One could reasonably argue that, having established its credibiility, GiveWell has little reason to continue signaling legitimacy through the sort of things I describe above. And by being free of those requirements it can focus more on things that drive actual value (like finding new charities, new interventions, better approaches to evaluating cost-effectiveness). On the other hand, if we think of GiveWell not just as an organization that comes up with charity recommendations but as a model of accountability and transparency, then it seems to have declined in its suitability for that role.
+
+Thoughts?
+
+Related: http://effective-altruism.com/ea/17o/some_thoughts_on_public_discourse/ by Holden, who used to work at and still sits on the board of GiveWell.
