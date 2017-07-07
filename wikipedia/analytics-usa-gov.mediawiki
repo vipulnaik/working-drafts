@@ -16,64 +16,81 @@ On February 18, 2016, analytics.usa.gov introduced agency-specific dashboards fo
 
 Around April 22, 2015, the government of [[Philadelphia]] launched its own analytics website at analytics.phila.gov, built using a forked version of the source code developed for analytics.usa.gov.<ref name=philly>{{cite web|url=http://analytics.phila.gov/#explanation|title = analytics.phila.gov|accessdate = May 10, 2015|publisher = [[Philadelphia]] government}}</ref><ref>{{cite web|url=http://gcn.com/blogs/pulse/2015/04/philadelphia-analytics.aspx|title = Philadelphia forks Analytics.USA.gov for local use|publisher = GCN|date = April 22, 2015|accessdate = May 10, 2015}}</ref>
 
-On January 6, 2016, a blog post on analytics.usa.gov discussed adaptations of analytics.usa.gov by three regional governments and government agencies in the United States, including comments by people who had worked on each of the adaptations.<ref>{{cite web|url = https://18f.gsa.gov/2016/01/06/tips-for-adapting-analytics-usa-gov/|title = Tips for adapting analytics.usa.gov from Tennessee, Boulder, and Philadelphia|last = Kramer|first = Melody|date = January 6, 2016|accessdate = July 7, 2017|publisher = GSA}}</ref> The adaptations were for: the city of Philadelphia (noted above), the [[Tennessee Department of Environment and Conservation]],<ref>{{cite web|url = http://analytics.tdec.tn.gov/|title = Tennesse Department of Environment & Conservation Analytics|accessdate = July 7, 2017}}</ref> and the city of [[Boulder, Colorado]].
+On January 6, 2016, a blog post on analytics.usa.gov discussed adaptations of analytics.usa.gov by three regional governments and government agencies in the United States, including comments by people who had worked on each of the adaptations.<ref>{{cite web|url = https://18f.gsa.gov/2016/01/06/tips-for-adapting-analytics-usa-gov/|title = Tips for adapting analytics.usa.gov from Tennessee, Boulder, and Philadelphia|last = Kramer|first = Melody|date = January 6, 2016|accessdate = July 7, 2017|publisher = GSA}}</ref> The adaptations were for: the city of Philadelphia (noted above), the [[Tennessee Department of Environment and Conservation]],<ref name=tn-dec-analytics>{{cite web|url = http://analytics.tdec.tn.gov/|title = Tennesse Department of Environment & Conservation Analytics|accessdate = July 7, 2017}}</ref> and the city of [[Boulder, Colorado]].
 
 As of July 7, 2017, the following adaptations are listed on the main README of the analytics.usa.gov GitHub repository:<ref>{{cite web|url = https://github.com/18F/analytics.usa.gov/blob/master/README.md|title = README for analytics.usa.gov|accessdate = July 7, 2017}}</ref>
 
 ==== City governments ====
 
 {| class="wikitable sortable" border="1"
-! City !! State !! Population in thousands (latest estimate from Wikipedia page as of July 7, 2017) !! Launch date (if available)
+! Entity !! Type of entity !! U.S. state (if applicable)!! Population in thousands (latest estimate from Wikipedia page as of July 7, 2017) !! Launch date (if available)
 |-
-| [[Anchorage, Alaska|Anchorage]]<ref>{{cite web|url = http://analytics.muni.org/|title = analytics.muni.org (Analytics for Anchorage, Alaska)|accessdate = July 7, 2017}}</ref> || [[Alaska]] || 298 || 
+| [[Anchorage, Alaska|Anchorage]]<ref>{{cite web|url = http://analytics.muni.org/|title = analytics.muni.org (Analytics for Anchorage, Alaska)|accessdate = July 7, 2017}}</ref> || City || [[Alaska]] || 298 || 
 |-
-| [[Apex, North Carolina|Apex]]<ref>{{cite web|url = http://apexnc.seamlessreports.com/|title = Town of Apex, NC Analytics|accessdate = July 7, 2017}}</ref> || [[North Carolina]] || 47 ||
+| [[Apex, North Carolina|Apex]]<ref>{{cite web|url = http://apexnc.seamlessreports.com/|title = Town of Apex, NC Analytics|accessdate = July 7, 2017}}</ref> || City || [[North Carolina]] || 47 ||
 |-
-| [[Boulder, Colorado|Boulder]] || [[Colorado]] || 108 ||
+| [[Boulder, Colorado|Boulder]] || City || [[Colorado]] || 108 ||
 |-
-| [[Chesapeake, Virginia|Chesapeake]]<ref>{{cite web|url = http://cityofchesapeakeva.seamlessreports.com/|title = City of Chesapeake, VA Analytics|acccessdate = July 7, 2017}}</ref> || [[Virginia]] || 233 ||
+| [[Cabarrus County, North Carolina|Cabarrus County]]<ref>{{cite web|url = http://analytics.cabarruscounty.us/|title = Carabbus County Analytics|accessdate = July 7, 2017}}</ref> || County || [[North Carolina]] || 202 ||
 |-
-| [[Concord, North Carolina|Concord]]<ref>{{cite web|url = http://concordnc.seamlessreports.com/|title = City of Concord, NC Analytics|accessdate = July 7, 2017}}</ref> || [[North Carolina]] || 90 ||
+| [[Chesapeake, Virginia|Chesapeake]]<ref>{{cite web|url = http://cityofchesapeakeva.seamlessreports.com/|title = City of Chesapeake, VA Analytics|acccessdate = July 7, 2017}}</ref> || City || [[Virginia]] || 233 ||
 |-
-| [[Eagle Mountain, Utah|Eagle Mountain]]<ref>{{cite web|url = http://eaglemountaincityut.seamlessreports.com/|title = Eagle Mountain City, UT Analytics|accessdate = July 7, 2017}}</ref> || [[Utah]] || 23 ||
+| [[Concord, North Carolina|Concord]]<ref>{{cite web|url = http://concordnc.seamlessreports.com/|title = City of Concord, NC Analytics|accessdate = July 7, 2017}}</ref> || City || [[North Carolina]] || 90 ||
 |-
-| [[Evanston, Illinois|Evanston]]<ref>{{cite web|url = http://evanstonil.seamlessreports.com/|title = Evanston, IL Analytics|accessdate = July 7, 2017}}</ref> || [[Illinois]] || 75 ||
+| [[Cook County, Illinois|Cook County]]<ref>{{cite web|url = http://opendocs.cookcountyil.gov/analytics/|title = Cook County Government Analytics|accessdate = July 7, 2017}}</ref> || County || [[Illinois]] || 5238 ||
 |-
-| [[Jersey City, New Jersey|Jersey City]]<ref>{{cite web|url = http://datajerseycitynj.seamlessreports.com/|title = Jersey City, NJ Data Portal|accessdate = July 7, 2017}}</ref> || [[New Jersey]] || 264 ||
+| [[Douglas County, Nebraska|Douglas County]]<ref>{{cite web|url = https://analytics.douglascounty-ne.gov/|title = Nebraska Douglas County Analytics|accessdate = July 7, 2017}}</ref> || County || [[Nebraska]] || 550 ||
+|-
+| [[Eagle Mountain, Utah|Eagle Mountain]]<ref>{{cite web|url = http://eaglemountaincityut.seamlessreports.com/|title = Eagle Mountain City, UT Analytics|accessdate = July 7, 2017}}</ref> || City || [[Utah]] || 23 ||
+|-
+| [[Evanston, Illinois|Evanston]]<ref>{{cite web|url = http://evanstonil.seamlessreports.com/|title = Evanston, IL Analytics|accessdate = July 7, 2017}}</ref> || City || [[Illinois]] || 75 ||
+|-
+| [[Jersey]] ([[States of Jersey]])<ref>{{cite web|url = http://webanalytics.gov.je/|title = webanalytics.gov.je (States of Jersey analytics)|accessdate = July 7, 2017}}</ref> || Country || N/A || ||
+|-
+| [[Jersey City, New Jersey|Jersey City]]<ref>{{cite web|url = http://datajerseycitynj.seamlessreports.com/|title = Jersey City, NJ Data Portal|accessdate = July 7, 2017}}</ref> || City || [[New Jersey]] || 264 ||
 |-
 | [[Los Angeles]]<ref>{{cite web|url = http://webanalytics.lacity.org/|title = webanalytics.lacity.gov (Los Angeles City Government Analytics)|accessdate = July 7, 2017}}</ref> || [[California]] || 3976 ||
 |-
-| [[Newark, New Jersey|Newark]]<ref>{{cite web|url = http://newarknj.seamlessreports.com/|title = Newark, NJ Analytics|accessdate = July 7, 2017}}</ref> || [[New Jersey]] || 282 ||
+| Moulton Niguel Water District ([[Laguna Niguel, California|Laguna Niguel]])<ref>{{cite web|url = http://mnwd.seamlessreports.com/|title = Moulton Niguel Water District Analytics|accessdate = July 7, 2017}}</ref> || District || [[California]] || ||
 |-
-| [[New Orleans]]<ref>{{cite web|url = http://webanalytics.nola.gov/|title = webanalytics.nola.gov (Analytics for New Orleans, Louisiana)|accessdate = July 7, 2017}}<ref> || [[Louisiana]] || 391 ||
+| [[Newark, New Jersey|Newark]]<ref>{{cite web|url = http://newarknj.seamlessreports.com/|title = Newark, NJ Analytics|accessdate = July 7, 2017}}</ref> || City || [[New Jersey]] || 282 ||
 |-
-| [[Omaha, Nebraska|Omaha]]<ref>{{cite web|url = https://analytics.cityofomaha.org/|title = City of Omaha Analytics|accessdate = July 7, 2017}}</ref> || [[Nebraska]] || 447 ||
+| [[New Orleans]]<ref>{{cite web|url = http://webanalytics.nola.gov/|title = webanalytics.nola.gov (Analytics for New Orleans, Louisiana)|accessdate = July 7, 2017}}</ref> || City || [[Louisiana]] || 391 ||
 |-
-| [[Philadelphia]]<ref name=philly/> || [[Pennsylvania]] || 1568 || April 22, 2015
+| [[New York State Energy Research and Development Authority]] (NYSERDA)<ref>{{cite web|url = http://nyserda.seamlessreports.com/|title = NYSERDA|accessdate = July 7, 2017}}</ref> || Agency within state government || [[New York (state)|New York]] || 19745 ||
 |-
-| [[Pleasanton, California|Pleasanton]]<ref>{{cite web|url = http://cityofpleasantonca.seamlessreports.com/|title = City of Pleasanton, CA Analytics|accessdate = July 7, 2017}}</ref> || [[California]] || 82 ||
+| [[Norristown, Pennsylvania|Norristown]]<ref>{{cite web|url = http://norristownpa.seamlessreports.com/|title = Norristoen, PA Analytics|accessdate = July 7, 2017}}</ref> || Borough || [[Pennsylvania]] || 34 ||
 |-
-| [[Princeton, New Jersey|Princeton]]<ref>{{cite web|url = http://princeton.seamlessreports.com/|title = Princeton, NJ Analytics|accessdate = July 7, 2017}}</ref> || [[New Jersey]] || 31 ||
+| [[Omaha, Nebraska|Omaha]]<ref>{{cite web|url = https://analytics.cityofomaha.org/|title = City of Omaha Analytics|accessdate = July 7, 2017}}</ref> || City || [[Nebraska]] || 447 ||
 |-
-| [[Sacramento, California|Sacramento]]<ref>{{cite web|url = http://analytics.cityofsacramento.org/|title = City of Sacramento Analytics|accessdate = July 7, 2017}}</ref> || [[California]] || 495 ||
+| [[Philadelphia]]<ref name=philly/> || City || [[Pennsylvania]] || 1568 || April 22, 2015
 |-
-| [[San Francisco]]<ref>{{cite web|url = http://analytics.sfgov.org/|title = San Francisco SFGOV Analytics|accessdate = July 7, 2017}}</ref> || [[California]] || 870 ||
+| [[Pleasanton, California|Pleasanton]]<ref>{{cite web|url = http://cityofpleasantonca.seamlessreports.com/|title = City of Pleasanton, CA Analytics|accessdate = July 7, 2017}}</ref> || City || [[California]] || 82 ||
 |-
-| [[San Leandro, California|San Leandro]]<ref>{{cite web|url = http://sanleandroca.seamlessreports.com/|title = City of San Leandro, CA Analytics|accessdate = July 7, 2017}}</ref> || [[California]] || 90 ||
+| [[Princeton, New Jersey|Princeton]]<ref>{{cite web|url = http://princeton.seamlessreports.com/|title = Princeton, NJ Analytics|accessdate = July 7, 2017}}</ref> || City || [[New Jersey]] || 31 ||
 |-
-| [[Santa Monica, California|Santa Monica]]<ref>{{cite web|url = https://analytics.smgov.net/|title = analytics.smgov.net (Santa Monica Analytics)|accessdate = July 7, 2017}}</ref> || [[California]] || 92 ||
+| [[Rowan County, North Carolina|Rowan County]] || County || [[North Carolina]] || 139 ||
+|-
+| [[Sacramento, California|Sacramento]]<ref>{{cite web|url = http://analytics.cityofsacramento.org/|title = City of Sacramento Analytics|accessdate = July 7, 2017}}</ref> || City || [[California]] || 495 ||
+|-
+| [[San Francisco]]<ref>{{cite web|url = http://analytics.sfgov.org/|title = San Francisco SFGOV Analytics|accessdate = July 7, 2017}}</ref> || City || [[California]] || 870 ||
+|-
+| [[San Leandro, California|San Leandro]]<ref>{{cite web|url = http://sanleandroca.seamlessreports.com/|title = City of San Leandro, CA Analytics|accessdate = July 7, 2017}}</ref> || City || [[California]] || 90 ||
+|-
+| [[Santa Monica, California|Santa Monica]]<ref>{{cite web|url = https://analytics.smgov.net/|title = analytics.smgov.net (Santa Monica Analytics)|accessdate = July 7, 2017}}</ref> || City || [[California]] || 92 ||
+|-
+| [[Seattle]]<ref>{{cite web|url = http://seattlewa.seamlessreports.com/|title = Seattle, WA Analytics|accessdate = July 7, 2017}}</ref> || City || [[Washington (state)|Washington]] || 704 ||
+|-
+| [[Tennessee Department of Environment and Conservation]]<ref name=tn-dec-analytics/> || Agency within federal government || [[Tennessee]] || 6651 ||
+|-
+| [[United States Department of Education]]<ref>{{cite web|url = https://www2.ed.gov/analytics/index.html|title = ED Web Dashboard|accessdate = July 7, 2017}}</ref> || Agency within federal government || 325146 ||
+|-
+| [[United States Department of Veterans Affairs]]<ref>{{cite web|url = https://www.oit.va.gov/analytics/|title = VA Website Analytics|accessdate = July 7, 2017}}</ref> || Agency within federal government || 325146 ||
+|-
+| [[Washington State University]]<ref>{{cite web|url = https://analytics.wsu.edu/|title = analytics.wsu.edu (Washington State University Analytics)|accessdate = July 7, 2017}}</ref> || University || 30 ||
+|-
 |}
 
-==== County governments ====
-
-{| class="wikitable sortable" border="1"
-! County !! State !! Population in thousands (latest estimate from Wikipedia page as of July 7, 2017) !! Launch date (if available)
-|-
-| [[Cabarrus County, North Carolina|Cabarrus County]]<ref>{{cite web|url = http://analytics.cabarruscounty.us/|title = Carabbus County Analytics|accessdate = July 7, 2017}}</ref> || [[North Carolina]] || 202 ||
-|-
-| [[Cook County, Illinois|Cook County]]<ref>{{cite web|url = http://opendocs.cookcountyil.gov/analytics/|title = Cook County Government Analytics|accessdate = July 7, 2017}}</ref> || [[Illinois]] || 5238 ||
-|-
-| 
 ==Technology==
 
 The 18F blog provided a detailed description of the technology stack used to build the website,<ref name=18F>{{cite web|url=https://18f.gsa.gov/2015/03/19/how-we-built-analytics-usa-gov/|title = How we built analytics.usa.gov|date = March 19, 2015|accessdate = March 21, 2015|publisher = 18F}}</ref> which was picked up by ''[[Hacker News]]''<ref name=hn/> and formed the basis of a more picture-heavy version in [[Storify]].<ref name=storify>{{cite web|url=https://storify.com/GSA/capturing|title = Building and releasing analytics.usa.gov. The U.S. federal government now has a public dashboard and dataset for its web traffic, analytics.usa.gov. Here's a look at how it was built and what people said after it was released.|publisher = [[General Services Administration]] via [[Storify]]|date = March 20, 2015|accessdate = May 10, 2015}}</ref> The data is collected through a unified [[Google Analytics]] account that stores anonymized [[IP address]]es to preserve privacy. This is periodically queried using an open source analytics tool built by 18F called the analytics reporter, whose repository is available on [[GitHub]].<ref>{{cite web|url=https://github.com/18F/analytics-reporter|title = analytics-reporter|accessdate = March 21, 2015|publisher = 18F on [[GitHub]]}}</ref> The [[JSON]] result is stored to [[Amazon S3]] and served statically through [[Amazon CloudFront]].<ref name=18F/> The entire website's code is also available in a [[GitHub]] repository.<ref>{{cite web|url=https://github.com/GSA/analytics.usa.gov|title = analytics.usa.gov|publisher = GSA on [[GitHub]]|accessdate = March 21, 2015}}</ref>
