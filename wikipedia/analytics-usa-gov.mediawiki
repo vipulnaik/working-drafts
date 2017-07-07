@@ -1,0 +1,102 @@
+{{Infobox website
+| registration = None
+| owner = [[General Services Administration]]
+| author = [[18F]]
+| launch_date = {{Start date and age|2015|03|15}}
+}}'''Analytics.usa.gov''' is a website of the [[government of the United States]], created through a collaboration between [[General Services Administration|GSA]]'s Digital Analytics Program and [[18F]], based on unified [[Google Analytics]] data for some [[.gov]] domains.<ref name=explanation>{{cite web|url=https://analytics.usa.gov/#explanation|title = Explanation, analytics.usa.gov|accessdate = March 21, 2015}}</ref>
+
+==History==
+
+=== Website development ===
+Analytics.usa.gov was launched on March 19, 2015 with data for about 300 (out of 1350) .gov domains, including every cabinet department.<ref name=whitehouse>{{cite web|url=https://www.whitehouse.gov/blog/2015/03/19/turning-government-data-better-public-service|title = Turning Government Data into Better Public Service|date = March 19, 2015|accessdate = March 21, 2015|publisher = [[White House]]}}</ref><ref name=nyt>{{cite web|url=http://bits.blogs.nytimes.com/2015/03/20/government-website-analytics/?_r=0|title = A Real-Time Peek at Traffic to U.S. Government Websites|last = Ruiz|first = Rebecca|date = March 20, 2015|accessdate = March 21, 2015|publisher = ''[[New York Times]]'' Bits blog}}</ref><ref name=geekwire>{{cite web|url=http://www.geekwire.com/2015/several-u-s-government-websites-now-offer-real-time-analytics/|title = Several U.S. government websites now offer real-time analytics|last = Brown|first = Molly|date = March 19, 2015|accessdate = March 21, 2015|publisher = ''[[GeekWire]]''}}</ref><ref>{{cite web|url=http://gcn.com/articles/2015/03/20/18f-web-analytics.aspx|title = Who’s online now? 18F builds web analytics dashboard|date = March 19, 2015|accessdate = March 21, 2015|publisher = GCN}}</ref>
+
+On February 18, 2016, analytics.usa.gov introduced agency-specific dashboards for its participating agencies: users could now filter to results only from that specific agency.<ref>{{cite web|url = http://www.digitalgov.gov/2016/02/18/analytics-usa-gov-now-with-agency-specific-dashboards/|title = Analytics.usa.gov: Now with Agency-Specific Dashboards|date = February 18, 2016|accessdate = June 9, 2016|publisher = DigitalGov|last = Lowden|first = Tim|last2 = Brooks|first2 = Gray|last3 = Ramirez|first3 = Gabriel|last4 = Mill|first4 = Eric|last5 = Winn|first5 = Julia|last6 = Craig|first6 = Colin}}</ref>
+
+=== Forks ===
+
+Around April 22, 2015, the government of [[Philadelphia]] launched its own analytics website at analytics.phila.gov, built using a forked version of the source code developed for analytics.usa.gov.<ref name=philly>{{cite web|url=http://analytics.phila.gov/#explanation|title = analytics.phila.gov|accessdate = May 10, 2015|publisher = [[Philadelphia]] government}}</ref><ref>{{cite web|url=http://gcn.com/blogs/pulse/2015/04/philadelphia-analytics.aspx|title = Philadelphia forks Analytics.USA.gov for local use|publisher = GCN|date = April 22, 2015|accessdate = May 10, 2015}}</ref>
+
+On January 6, 2016, a blog post on analytics.usa.gov discussed adaptations of analytics.usa.gov by three regional governments and government agencies in the United States, including comments by people who had worked on each of the adaptations.<ref>{{cite web|url = https://18f.gsa.gov/2016/01/06/tips-for-adapting-analytics-usa-gov/|title = Tips for adapting analytics.usa.gov from Tennessee, Boulder, and Philadelphia|last = Kramer|first = Melody|date = January 6, 2016|accessdate = July 7, 2017|publisher = GSA}}</ref> The adaptations were for: the city of Philadelphia (noted above), the [[Tennessee Department of Environment and Conservation]],<ref>{{cite web|url = http://analytics.tdec.tn.gov/|title = Tennesse Department of Environment & Conservation Analytics|accessdate = July 7, 2017}}</ref> and the city of [[Boulder, Colorado]].
+
+As of July 7, 2017, the following adaptations are listed on the main README of the analytics.usa.gov GitHub repository:<ref>{{cite web|url = https://github.com/18F/analytics.usa.gov/blob/master/README.md|title = README for analytics.usa.gov|accessdate = July 7, 2017}}</ref>
+
+==== City governments ====
+
+{| class="wikitable sortable" border="1"
+! City !! State !! Population in thousands (latest estimate from Wikipedia page as of July 7, 2017) !! Launch date (if available)
+|-
+| [[Anchorage, Alaska|Anchorage]]<ref>{{cite web|url = http://analytics.muni.org/|title = analytics.muni.org (Analytics for Anchorage, Alaska)|accessdate = July 7, 2017}}</ref> || [[Alaska]] || 298 || 
+|-
+| [[Apex, North Carolina|Apex]]<ref>{{cite web|url = http://apexnc.seamlessreports.com/|title = Town of Apex, NC Analytics|accessdate = July 7, 2017}}</ref> || [[North Carolina]] || 47 ||
+|-
+| [[Boulder, Colorado|Boulder]] || [[Colorado]] || 108 ||
+|-
+| [[Chesapeake, Virginia|Chesapeake]]<ref>{{cite web|url = http://cityofchesapeakeva.seamlessreports.com/|title = City of Chesapeake, VA Analytics|acccessdate = July 7, 2017}}</ref> || [[Virginia]] || 233 ||
+|-
+| [[Concord, North Carolina|Concord]]<ref>{{cite web|url = http://concordnc.seamlessreports.com/|title = City of Concord, NC Analytics|accessdate = July 7, 2017}}</ref> || [[North Carolina]] || 90 ||
+|-
+| [[Eagle Mountain, Utah|Eagle Mountain]]<ref>{{cite web|url = http://eaglemountaincityut.seamlessreports.com/|title = Eagle Mountain City, UT Analytics|accessdate = July 7, 2017}}</ref> || [[Utah]] || 23 ||
+|-
+| [[Evanston, Illinois|Evanston]]<ref>{{cite web|url = http://evanstonil.seamlessreports.com/|title = Evanston, IL Analytics|accessdate = July 7, 2017}}</ref> || [[Illinois]] || 75 ||
+|-
+| [[Jersey City, New Jersey|Jersey City]]<ref>{{cite web|url = http://datajerseycitynj.seamlessreports.com/|title = Jersey City, NJ Data Portal|accessdate = July 7, 2017}}</ref> || [[New Jersey]] || 264 ||
+|-
+| [[Los Angeles]]<ref>{{cite web|url = http://webanalytics.lacity.org/|title = webanalytics.lacity.gov (Los Angeles City Government Analytics)|accessdate = July 7, 2017}}</ref> || [[California]] || 3976 ||
+|-
+| [[Newark, New Jersey|Newark]]<ref>{{cite web|url = http://newarknj.seamlessreports.com/|title = Newark, NJ Analytics|accessdate = July 7, 2017}}</ref> || [[New Jersey]] || 282 ||
+|-
+| [[New Orleans]]<ref>{{cite web|url = http://webanalytics.nola.gov/|title = webanalytics.nola.gov (Analytics for New Orleans, Louisiana)|accessdate = July 7, 2017}}<ref> || [[Louisiana]] || 391 ||
+|-
+| [[Omaha, Nebraska|Omaha]]<ref>{{cite web|url = https://analytics.cityofomaha.org/|title = City of Omaha Analytics|accessdate = July 7, 2017}}</ref> || [[Nebraska]] || 447 ||
+|-
+| [[Philadelphia]]<ref name=philly/> || [[Pennsylvania]] || 1568 || April 22, 2015
+|-
+| [[Pleasanton, California|Pleasanton]]<ref>{{cite web|url = http://cityofpleasantonca.seamlessreports.com/|title = City of Pleasanton, CA Analytics|accessdate = July 7, 2017}}</ref> || [[California]] || 82 ||
+|-
+| [[Princeton, New Jersey|Princeton]]<ref>{{cite web|url = http://princeton.seamlessreports.com/|title = Princeton, NJ Analytics|accessdate = July 7, 2017}}</ref> || [[New Jersey]] || 31 ||
+|-
+| [[Sacramento, California|Sacramento]]<ref>{{cite web|url = http://analytics.cityofsacramento.org/|title = City of Sacramento Analytics|accessdate = July 7, 2017}}</ref> || [[California]] || 495 ||
+|-
+| [[San Francisco]]<ref>{{cite web|url = http://analytics.sfgov.org/|title = San Francisco SFGOV Analytics|accessdate = July 7, 2017}}</ref> || [[California]] || 870 ||
+|-
+| [[San Leandro, California|San Leandro]]<ref>{{cite web|url = http://sanleandroca.seamlessreports.com/|title = City of San Leandro, CA Analytics|accessdate = July 7, 2017}}</ref> || [[California]] || 90 ||
+|-
+| [[Santa Monica, California|Santa Monica]]<ref>{{cite web|url = https://analytics.smgov.net/|title = analytics.smgov.net (Santa Monica Analytics)|accessdate = July 7, 2017}}</ref> || [[California]] || 92 ||
+|}
+
+==== County governments ====
+
+{| class="wikitable sortable" border="1"
+! County !! State !! Population in thousands (latest estimate from Wikipedia page as of July 7, 2017) !! Launch date (if available)
+|-
+| [[Cabarrus County, North Carolina|Cabarrus County]]<ref>{{cite web|url = http://analytics.cabarruscounty.us/|title = Carabbus County Analytics|accessdate = July 7, 2017}}</ref> || [[North Carolina]] || 202 ||
+|-
+| [[Cook County, Illinois|Cook County]]<ref>{{cite web|url = http://opendocs.cookcountyil.gov/analytics/|title = Cook County Government Analytics|accessdate = July 7, 2017}}</ref> || [[Illinois]] || 5238 ||
+|-
+| 
+==Technology==
+
+The 18F blog provided a detailed description of the technology stack used to build the website,<ref name=18F>{{cite web|url=https://18f.gsa.gov/2015/03/19/how-we-built-analytics-usa-gov/|title = How we built analytics.usa.gov|date = March 19, 2015|accessdate = March 21, 2015|publisher = 18F}}</ref> which was picked up by ''[[Hacker News]]''<ref name=hn/> and formed the basis of a more picture-heavy version in [[Storify]].<ref name=storify>{{cite web|url=https://storify.com/GSA/capturing|title = Building and releasing analytics.usa.gov. The U.S. federal government now has a public dashboard and dataset for its web traffic, analytics.usa.gov. Here's a look at how it was built and what people said after it was released.|publisher = [[General Services Administration]] via [[Storify]]|date = March 20, 2015|accessdate = May 10, 2015}}</ref> The data is collected through a unified [[Google Analytics]] account that stores anonymized [[IP address]]es to preserve privacy. This is periodically queried using an open source analytics tool built by 18F called the analytics reporter, whose repository is available on [[GitHub]].<ref>{{cite web|url=https://github.com/18F/analytics-reporter|title = analytics-reporter|accessdate = March 21, 2015|publisher = 18F on [[GitHub]]}}</ref> The [[JSON]] result is stored to [[Amazon S3]] and served statically through [[Amazon CloudFront]].<ref name=18F/> The entire website's code is also available in a [[GitHub]] repository.<ref>{{cite web|url=https://github.com/GSA/analytics.usa.gov|title = analytics.usa.gov|publisher = GSA on [[GitHub]]|accessdate = March 21, 2015}}</ref>
+
+==Reception==
+
+===Privacy concerns===
+
+A number of people expressed concerns about the storage of potentially private user data in Google Analytics, despite the IP address anonymization.<ref name=hn>{{cite web|url=https://news.ycombinator.com/item?id=9234420|title = How we built analytics.usa.gov (comments)|publisher = [[Hacker News]]|accessdate = March 21, 2015}}</ref> The creators of analytics.usa.gov emphasized that they were concerned with privacy and therefore only revealed aggregated data to the public, rather than allowing arbitrary queries on the data.<ref name=geekwire/><ref name=mashable>{{cite web|url=http://mashable.com/2015/03/19/white-house-open-source-analytics/|title = You can now see analytics for U.S. government websites|date = March 19, 2015|accessdate = March 21, 2015|publisher = ''[[Mashable]]''|last = Bell|first = Karissa}}</ref>
+
+===Analysis of data and suggestions for improvement===
+
+Discussion of the analytics focused on the fact that pages from the [[Internal Revenue Service]] were among the most visited, and the "Where's My Refund?" page had the top spot. This was explained by the timing: taxes were due April 15 and many people had started the process of tax filing.<ref name=nyt/><ref name=geekwire/> Other top visited pages were on the websites of the [[National Weather Service]], [[National Park Service]], [[United States Citizenship and Immigration Services]], and StopBullying.gov.<ref name=site>{{cite web|url=https://analytics.usa.gov|title = analytics.usa.gov|accessdate = March 21, 2015}}</ref> Greg Boone wrote that analytics.usa.gov is an active expression of government "for the people, of the people, and by the people." He elaborated: "All told, there were nearly 1.4 billion (with a b) people who interacted with the government in the last 90 days. [...] They're coming to the government for information and help they know only the US government can provide. They're coming for public services and resources they can use to improve people lives."<ref>{{cite web|url=http://greg.harmsboone.org/2015/03/18/why-analytics-usa-gov-matters/|title = Why analytics.usa.gov Matters|date = March 18, 2015|accessdate = May 10, 2015|last = Boone|first = Greg}}</ref>
+
+Writing for GovFresh, Luke Fretwell praised analytics.usa.gov and suggested it would be helpful if each agency's website had an analytics subpage that provided information on analytics just for that agency. He also suggested that government agencies avoid spending resources on apps and instead aim to make their main websites more mobile-friendly, and that they reduce their sites' focus on information about the agency and make the services offered more front-and-center. He also recommended that data on spending on websites be made available in conjunction with data on website traffic so that the return on investment to spending would be clearer.<ref name=govfresh>{{cite web|title = Quick thoughts, takeaways from the new federal government analytics dashboard|url =http://govfresh.com/2015/03/quick-thoughts-takeaways-from-the-new-federal-government-analytics-dashboard/|date = March 23, 2015|accessdate = May 10, 2015|publisher = GovFresh|last = Fretwell|first = Luke}}</ref>
+
+==References==
+{{reflist}}
+
+==External links==
+*{{official website|https://analytics.usa.gov}}
+
+[[Category:Government services web portals in the United States]]
+[[Category:Website article topics with .gov domain names]]
+[[Category:Open government in the United States]]
+[[Category:General Services Administration]]
