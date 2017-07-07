@@ -50,6 +50,8 @@ The image below shows Google Trends data from 2004 (the start of availability of
 
 The image below shows Google Trends data for just one week, with times shown in Pacific Time (the local timezone for BART). Relative interest appears to peak in the evenings, around 5 PM.<ref>{{cite web|url = https://trends.google.com/trends/explore?date=now%207-d&q=%2Fm%2F0gdjj|title = Bay Area Rapid Transit (Metro System)|publisher = Google Trends|accessdate = July 7, 2017}}</ref>
 
+[[File:BART Google trends one week.png|500px]]
+
 == Full timeline ==
 
 {| class="wikitable sortable"
