@@ -88,9 +88,9 @@ Survey Monkey Growing Like A Weed, Fills Out Exec Team|last = Arrington|first = 
 |-
 | 2005 || || Periodic survey || || The first full implementation of the [[wikipedia:American Community Survey|American Community Survey]] happens, with data collected throughout the year. This is inspired by the long-form survey previously included inside the United States Census. || United States
 |-
-| 2005 || || Organization founding || || The [[wikipedia:Monmouth University Polling Institute|Monmouth University Polling Institute]] is founded.
+| 2005 || || Organization founding || || The [[wikipedia:Monmouth University Polling Institute|Monmouth University Polling Institute]] is founded. || United States
 |-
-| 2006 || || Periodic survey || Offline || The Cooperative Congressional Election Study (CCES) is conducted for the first time by a consortium of 39 universities, and managed by a team at Harvard University. The CCES includes a mix of standard questions (included in all surveys) (called "Common Content") and custom questions requested by researchers, which are administered to different subsets of the participants (called "Team Content"). The CCES is conducted on 1000 people.<ref>{{cite web|url = http://cces.gov.harvard.edu/pages/welcome-cooperative-congressional-election-study|title = Welcome to the Cooperative Congressional Election Study!|accessdate = March 19, 2017}}</ref>
+| 2006 || || Periodic survey || Offline || The Cooperative Congressional Election Study (CCES) is conducted for the first time by a consortium of 39 universities, and managed by a team at Harvard University. The CCES includes a mix of standard questions (included in all surveys) (called "Common Content") and custom questions requested by researchers, which are administered to different subsets of the participants (called "Team Content"). The CCES is conducted on 1000 people.<ref>{{cite web|url = http://cces.gov.harvard.edu/pages/welcome-cooperative-congressional-election-study|title = Welcome to the Cooperative Congressional Election Study!|accessdate = March 19, 2017}}</ref> || United States
 |-
 | 2008 || March 7 || Meta-analysis website founding || N/A || The website [[wikipedia:FiveThirtyEight|FiveThirtyEight]] is launched by [[wikipedia:Nate Silver|Nate Silver]]. The website performs analyses of opinion polling results and also generally discusses predictions in politics, sports, and other domains.<ref>{{cite web|url=http://whois.domaintools.com/fivethirtyeight.com|title=FiveThirtyEight.com WHOIS, DNS, & Domain Info – DomainTools|work=[[wikipedia:WHOIS|WHOIS]]|date= |accessdate=2016-09-03}}</ref> || United States (primary focus)
 |-
@@ -106,4 +106,3 @@ Survey Monkey Growing Like A Weed, Fills Out Exec Team|last = Arrington|first = 
 == References ==
 
 {{reflist|30em}}
-
