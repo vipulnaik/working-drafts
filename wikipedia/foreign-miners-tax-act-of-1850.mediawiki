@@ -1,4 +1,4 @@
-The '''Foreign Miners Tax Act of 1850''' was an Act passed by the [[United States]] state of [[California]] in 1850, imposing a tax of $20/month on foreign miners.<ref name=us-labor-history>{{cite book|url=https://books.google.com/books?id=zEWsZ81Bd3YC|title = Encyclopedia of U.S. Labor and Working-class History, Volume 1|last = Arnesen|first = Eric}}</ref>{{rp|468}}<ref name=driven-out>{{cite book|url = https://books.google.com/books?id=koQalf4HiZ4C|title = Driven Out: The Forgotten War Against Chinese Americans|last = Pfaelzer|first = Jean|accessdate = June 22, 2017}}</ref>{{rp|50}}<ref name=nps>{{cite web|url = https://www.nps.gov/parkhistory/online_books/5views/5views3b.htm|title = A History of Chinese Americans in California: THE 1850s|accessdate = June 22, 2017}}</ref><ref name=i2us-foreign-miner-taxes>{{cite web|url = http://immigrationtounitedstates.org/506-foreign-miner-taxes.html|title = Foreign miner taxes|accessdate = June 22, 2017|publisher = Immigration to the United States}}</ref><ref name=chinhate>{{cite web|url = http://www.sfmuseum.org/hist6/chinhate.html|title = The Chinese|author = Henry Kittredge Norton|accessdate = June 22, 2017}}</ref><ref name=teachingresources>{{cite web|url = http://teachingresources.atlas.illinois.edu/chinese_exp/resources/resource_2_4.pdf|title = Some state of California and city of San Francisco anti-Chinese legislation and subsequent action}}</ref><ref>{{cite web|url = http://asianamgroup9.blogspot.com/2010/11/foreign-miners-tax-act.html|title =  The Result of the Foreign Miners Tax Act|date = November 26, 2010|accessdate = June 24, 2017|publisher = Asian American Blog (1880 - 1900)}}</ref><ref>{{cite web|url = http://www.californiascapitol.com/2011/11/happy-birthday-governor-3/|title = Happy Birthday Governor Burnett!|date = November 15, 2011|accessdate = June 24, 2017}}</ref> The Act was repealed in 1851,<ref name=us-labor-history/>{{rp|468}}<ref name=teachingresources/><ref name=chinhate/> and subsequently replaced by the [[Foreign Miners License Tax Act of 1852]], that charged $3/month.
+The '''Foreign Miners' Tax Act of 1850''' (official name '''An Act for the better regulation of the Mines and the government of foreign Miners''', nickname ''the miserable law of 20 piastres'')<ref name=roaring-camp/>{{rp|210}} was an Act passed by the [[United States]] state of [[California]] in 1850, imposing a tax of $20/month on foreign miners.<ref name=oac/><ref name=us-labor-history>{{cite book|url=https://books.google.com/books?id=zEWsZ81Bd3YC|title = Encyclopedia of U.S. Labor and Working-class History, Volume 1|last = Arnesen|first = Eric}}</ref>{{rp|468}}<ref name=driven-out>{{cite book|url = https://books.google.com/books?id=koQalf4HiZ4C|title = Driven Out: The Forgotten War Against Chinese Americans|last = Pfaelzer|first = Jean|accessdate = June 22, 2017}}</ref>{{rp|50}}<ref name=roaring-camp>{{cite book|title = Roaring Camp: The Social World of the California Gold Rush|url = https://books.google.com/books?id=Q8YRFjb5Bl8C|last = Johnson|first = Susan Lee}}</ref>{{rp|210}}<ref name=chinhate>{{cite web|url = http://www.sfmuseum.org/hist6/chinhate.html|title = The Chinese|author = Henry Kittredge Norton|accessdate = June 22, 2017}}</ref><ref name=teachingresources>{{cite web|url = http://teachingresources.atlas.illinois.edu/chinese_exp/resources/resource_2_4.pdf|title = Some state of California and city of San Francisco anti-Chinese legislation and subsequent action}}</ref><ref name=i2us-foreign-miner-taxes>{{cite web|url = http://immigrationtounitedstates.org/506-foreign-miner-taxes.html|title = Foreign miner taxes|accessdate = June 22, 2017|publisher = Immigration to the United States}}</ref><ref name=asianam>{{cite web|url = http://asianamgroup9.blogspot.com/2010/11/foreign-miners-tax-act.html|title =  The Result of the Foreign Miners Tax Act|date = November 26, 2010|accessdate = June 24, 2017|publisher = Asian American Blog (1880 - 1900)}}</ref><ref>{{cite web|url = http://www.californiascapitol.com/2011/11/happy-birthday-governor-3/|title = Happy Birthday Governor Burnett!|date = November 15, 2011|accessdate = June 24, 2017}}</ref> The Act was repealed in 1851,<ref name=us-labor-history/>{{rp|468}}<ref name=teachingresources/><ref name=chinhate/> and subsequently replaced by the [[Foreign Miners License Tax Act of 1852]], that charged $3/month.<ref name=us-labor-history/>{{rp|469}}<ref name=i2us-foreign-miner-taxes/><ref name=harpweek-california-anti/>
 
 == Background ==
 
@@ -8,13 +8,46 @@ The competition from foreign miners would lead to resentment among the white min
 
 On December 20, 1849, [[Peter Hardeman Burnett]] became the first Governor of the state of California.<ref name=burnett-bio>{{cite web|url = http://governors.library.ca.gov/01-Burnett.html|title = Peter Burnett 1849–1851|publisher = The Governor's Gallery, State of California|accessdate = June 24, 2017}}</ref> Burnett was a proponent of the state's exclusionary policies towards foreign miners, and in particular Chinese ones.
 
-== Response and repeal ==
+== The Act ==
 
-On May 19, 1850, a group of mostly Mexican and Peruvian miners, led by two French miners, protested against the tax.<ref name=us-labor-history/>{{rp|468}}<ref name=driven-out/>{{rp|50}}
+=== Passage ===
 
-The Act failed to raise the expected revenues and caused impoverishment among miners, leading to many of them fleeing to cities.<ref name=chinhate/> Landowners in Tuolomne County were concerned about the drop in rents and prices as miners left the area in response to the high taxes, and therefore lobbied for the repeal of the tax.<ref name=us-labor-history/>{{rp|468}}
+The Act was signed into law by Governor Peter Hardeman Burnett on Saturday, April 13, 1850.<ref name=roaring-camp/>{{rp|210}} The text of the Act was printed in California newspapers over the next two weeks.<ref name=roaring-camp/>{{rp|210}}
 
-On January 9, 1851, [[John McDougall (California politician)|John McDougall]] (sometimes spelled John McDougal) succeeded Peter Burnett as California governor.<ref name=mcdougall-bio>{{cite web|url = http://governors.library.ca.gov/02-Mcdougal.html|title = John McDougal 1851–1852|publisher = The Governors' Gallery, State of California|accessdate = June 24, 2017}}</ref> Unlike his predecessor and successor, McDougall has a favorable view of Chinese immigration, and sees it as a way to cope with California's labor shortage, proposing to employ Chinese immigrants in projects to reclaim swamps and flooded lands.<ref name=nps/> Under McDougall's governorship, the Act was repealed.
+=== Statement ===
+
+The Act stated that all miners in the state of California who were not citizens of the United States, and who had not become citizens by the [[Treaty of Guadalupe Hidalgo]],had to pay a monthly fee of $20, equivalent to several hundred dollars in current United States dollars (sources include estimates of $400 and $500).<ref name=us-labor-history/>{{rp|468}}<ref name=driven-out/>{{rp|50}}<ref name=i2us-foreign-miner-taxes/> Of this, the tax collector would keep $3 and the rest would be remitted to the state. The goal of the Act was to raise $200,000 in revenue for the state.<ref name=us-labor-history/>{{rp|468}}<ref name=driven-out/>{{rp|50}} A special exemption covered California's Native Americans.<ref name=i2us-foreign-miner-taxes/>
+
+== Response ==
+
+=== Modification to exclude free whites and people eligible for citizenship ===
+
+The Act met with protests from Irish, English, Canadian, and German miners, and was rewritten to exempt any miner who was a "free white person" or any miner who could become an American citizen (the "free white person" designation was borrowed from the [[Naturalization Act of 1790]]).<ref name=driven-out/>{{rp|50}}
+
+=== Sonora protest ===
+
+On Sunday, May 19, 1850, a group of about 4000 mostly Mexican and Peruvian miners, led by two exiled French miners, protested against the tax in the plaza in [[Sonora, California|Sonora]], [[Tuolomne County, California|Tuolomne County]]. They were chased by a volunteer militia comprising about 500 tax collectors and Anglo miners. The protest broke up after some of the Anglos raised their rifles and fired on the rebels.<ref name=us-labor-history/>{{rp|468}}<ref name=driven-out/>{{rp|50}}
+
+=== Revenue shortfall and effect on Mexican and Chinese miners ===
+
+The Act had a number of effects:
+
+* It raised much less revenue than expected, primarily because a number of Mexican and Chinese miners quit mining in response to the Act.<ref name=chinhate/>
+* While both Mexican and Chinese miners quit in large numbers, and many mining camps depopulated, the effect on their presence in the country was different: many Mexicans returned home, whereas Chinese mostly moved to the cities in an impoverished state, further increasing resentment felt by whites toward the Chinese.<ref name=chinhate/>
+* Landowners and merchants in Tuolomne County were concerned about the drop in rents and prices and the decrease in demand in their region due to the exodus of miners. They lobbied for the repeal of the tax.<ref name=us-labor-history/>{{rp|468}}
+
+=== Repeal ===
+
+On January 9, 1851, [[John McDougall (California politician)|John McDougall]] (sometimes spelled John McDougal) succeeded Peter Burnett as California governor.<ref name=mcdougall-bio>{{cite web|url = http://governors.library.ca.gov/02-Mcdougal.html|title = John McDougal 1851–1852|publisher = The Governors' Gallery, State of California|accessdate = June 24, 2017}}</ref> Unlike his predecessor and successor, McDougall has a favorable view of Chinese immigration, and sees it as a way to cope with California's labor shortage, proposing to employ Chinese immigrants in projects to reclaim swamps and flooded lands.<ref name=nps>{{cite web|url = https://www.nps.gov/parkhistory/online_books/5views/5views3b.htm|title = A History of Chinese Americans in California: THE 1850s|accessdate = June 22, 2017}}</ref> Under McDougall's governorship, the Act was repealed in 1851.<ref name=teachingresources/><ref name=asianam/><ref name=oac>{{cite web|url = http://www.oac.cdlib.org/search?style=oac4;titlesAZ=f;idT=001482545|title = Foreign Miners Tax documents, 1850-1867.|accessdate = July 19, 2017|publisher = Online Archive of California}}</ref>
+
+=== Subsequent legislation ===
+
+A new [[Foreign Miners' License Tax Act of 1852|Foreign Miners' License Tax]] was introduced in 1852 under Governor [[John Bigler]], who, like Burnett (but unlike McDougal) was not friendly to Chinese immigration. The new tax was $3/month, unlike the original $20/month, and it would rise gradually over the next few years.<ref name=i2us-foreign-miner-taxes/><ref name=us-labor-history/>{{rp|469}}<ref name=harpweek-california-anti>{{Cite web|url = http://immigrants.harpweek.com/ChineseAmericans/2KeyIssues/CaliforniaAnti.htm|title = California Anti-Chinese Legislation, 1852-1878|publisher = Harpweek|accessdate = June 24, 2017}}</ref>
+
+== See also ==
+
+* ''[[People v. Hall]]''
+* [[Greaser Act]]
 
 == References ==
 
