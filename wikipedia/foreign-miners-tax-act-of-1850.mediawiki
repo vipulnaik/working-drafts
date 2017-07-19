@@ -2,11 +2,11 @@ The '''Foreign Miners' Tax Act of 1850''' (official name '''An Act for the bette
 
 == Background ==
 
-In 1848, the [[Mexican–American War]] concluded and Alta California (that includes the modern U.S. state of California, plus nearby regions) became part of the United States. At around the same time, gold was discovered in California, leading to an influx of miners into California, both from within the United States, and from other regions, primarily China and Latin America (including Mexico and Guatemala).<ref>{{cite book |last= Ward |first= Geoffrey |title= ''The West: An Illustrated History'' |publisher= Little, Brown & Co |year= 1997||isbn= 0-316-92236-6}}</ref>{{rp|147}}
+In 1848, the [[Mexican–American War]] concluded and Alta California (that includes the modern U.S. state of California, plus nearby regions) became part of the United States. At around the same time, gold was discovered in California, leading to an influx of miners into California, both from within the United States, and from other regions, primarily China and Latin America (including Mexico, Peru, and Guatemala). This was the beginning of the [[California Gold Rush]].<ref>{{cite book |last= Ward |first= Geoffrey |title= ''The West: An Illustrated History'' |publisher= Little, Brown & Co |year= 1997||isbn= 0-316-92236-6}}</ref>{{rp|147}}
 
-The competition from foreign miners would lead to resentment among the white miners, leading to calls to limit foreign competition in mining.
+The competition from foreign miners would lead to resentment among the white miners, leading to calls to limit foreign competition in mining.<ref name=chinhate/>
 
-On December 20, 1849, [[Peter Hardeman Burnett]] became the first Governor of the state of California.<ref name=burnett-bio>{{cite web|url = http://governors.library.ca.gov/01-Burnett.html|title = Peter Burnett 1849–1851|publisher = The Governor's Gallery, State of California|accessdate = June 24, 2017}}</ref> Burnett was a proponent of the state's exclusionary policies towards foreign miners, and in particular Chinese ones.
+On December 20, 1849, [[Peter Hardeman Burnett]] became the first Governor of the state of California.<ref name=burnett-bio>{{cite web|url = http://governors.library.ca.gov/01-Burnett.html|title = Peter Burnett 1849–1851|publisher = The Governor's Gallery, State of California|accessdate = June 24, 2017}}</ref> Burnett was a proponent of the state's exclusionary policies towards foreign miners, and in particular Chinese ones (he would later support the [[Chinese Exclusion Act]], and also pushed for blacks to leave the state of California or face public flogging).<ref>{{cite web|url = https://oregonencyclopedia.org/articles/burnett_peter/#.WW-ZftPyvBI|title = Peter Burnett (1807-1895)|publisher = The Oregon Encyclopedia|accessdate = July 19, 2017}}</ref><ref>{{cite web|url = http://www.mercurynews.com/2011/05/20/san-francisco-school-swaps-out-name-of-racist-california-governor/|title = San Francisco school swaps out name of racist California governor|publisher = [[Associated Press]] via ''Mercury News''|date = May 20, 2011|accessdate = July 20, 2017}}</ref>
 
 == The Act ==
 
@@ -16,7 +16,7 @@ The Act was signed into law by Governor Peter Hardeman Burnett on Saturday, Apri
 
 === Statement ===
 
-The Act stated that all miners in the state of California who were not citizens of the United States, and who had not become citizens by the [[Treaty of Guadalupe Hidalgo]],had to pay a monthly fee of $20, equivalent to several hundred dollars in current United States dollars (sources include estimates of $400 and $500).<ref name=us-labor-history/>{{rp|468}}<ref name=driven-out/>{{rp|50}}<ref name=i2us-foreign-miner-taxes/> Of this, the tax collector would keep $3 and the rest would be remitted to the state. The goal of the Act was to raise $200,000 in revenue for the state.<ref name=us-labor-history/>{{rp|468}}<ref name=driven-out/>{{rp|50}} A special exemption covered California's Native Americans.<ref name=i2us-foreign-miner-taxes/>
+The Act stated that all miners in the state of California who were not citizens of the United States, and who had not become citizens by the [[Treaty of Guadalupe Hidalgo]] had to pay a monthly fee of $20, equivalent to several hundred dollars in current United States dollars (sources include estimates of $400 and $500).<ref name=us-labor-history/>{{rp|468}}<ref name=driven-out/>{{rp|50}}<ref name=i2us-foreign-miner-taxes/> Of this, the tax collector would keep $3 and the rest would be remitted to the state. The goal of the Act was to raise $200,000 in revenue for the state.<ref name=us-labor-history/>{{rp|468}}<ref name=driven-out/>{{rp|50}} A special exemption covered California's Native Americans.<ref name=i2us-foreign-miner-taxes/>
 
 == Response ==
 
@@ -26,7 +26,7 @@ The Act met with protests from Irish, English, Canadian, and German miners, and 
 
 === Sonora protest ===
 
-On Sunday, May 19, 1850, a group of about 4000 mostly Mexican and Peruvian miners, led by two exiled French miners, protested against the tax in the plaza in [[Sonora, California|Sonora]], [[Tuolomne County, California|Tuolomne County]]. They were chased by a volunteer militia comprising about 500 tax collectors and Anglo miners. The protest broke up after some of the Anglos raised their rifles and fired on the rebels.<ref name=us-labor-history/>{{rp|468}}<ref name=driven-out/>{{rp|50}}
+On Sunday, May 19, 1850, a group of about 4000 mostly Mexican and Peruvian miners, led by two exiled French miners, protested against the tax in the plaza in [[Sonora, California|Sonora]], [[Tuolumne County, California|Tuolumne County]]. They were chased by a volunteer militia comprising about 500 tax collectors and Anglo miners. The protest broke up after some of the Anglos raised their rifles and fired on the rebels.<ref name=us-labor-history/>{{rp|468}}<ref name=driven-out/>{{rp|50}}
 
 === Revenue shortfall and effect on Mexican and Chinese miners ===
 
@@ -48,6 +48,11 @@ A new [[Foreign Miners' License Tax Act of 1852|Foreign Miners' License Tax]] wa
 
 * ''[[People v. Hall]]''
 * [[Greaser Act]]
+* [[Act for the Government and Protection of Indians]]
+* [[List of historical acts of tax resistance]]
+* [[History of coal miners]]
+* [[History of Chinese Americans]]
+* [[California Gold Rush]]
 
 == References ==
 
