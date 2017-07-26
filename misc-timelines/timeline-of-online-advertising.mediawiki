@@ -238,7 +238,7 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |January 7
 |Launch
 |Ad network
-|[[wikipedia:BlueLithium|BlieLithium]] is founded by [[wikipedia:Gurbaksh Chahal|Gurbaksh Chahal]] and [[wikipedia:Krishna Subramanian|Krishna Subramanian]] as an ad network focused on behavioral targeting.<ref>{{cite web|url=http://whois.domaintools.com/bluelithium.com|title=BlueLithium.com WHOIS, DNS, & Domain Info - DomainTools|work=[[WHOIS]]|date= |accessdate=2016-07-19}}</ref> The company would later be acquired by Yahoo! and its product woud become [[wikipedia:Yahoo! Advertising|Yahoo! Advertising]].<ref name=yahoo-bluelithium=acquisition>{{cite web|url=https://techcrunch.com/2007/09/04/yahoo-acquires-ad-network-bluelithium/|title = Yahoo! Acquires Ad Network BlueLithium|last = Hendrickson|first = Mark|date = September 4, 2007|accessdate = April 14, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref><ref name=yahoo-acquires-bluelithium-2>{{cite web|url = http://searchengineland.com/yahoo-acquires-ad-network-bluelithium-12087|title = Yahoo Acquires Ad Network BlueLithium|last = Sterling|first = Greg|date = September 4, 2007|accessdate = April 14, 2017|publisher = Search Engine Land}}</ref>
+|[[wikipedia:BlueLithium|BlieLithium]] is founded by [[wikipedia:Gurbaksh Chahal|Gurbaksh Chahal]] and [[wikipedia:Krishna Subramanian|Krishna Subramanian]] as an ad network focused on behavioral targeting.<ref>{{cite web|url=http://whois.domaintools.com/bluelithium.com|title=BlueLithium.com WHOIS, DNS, & Domain Info - DomainTools|work=[[WHOIS]]|date= |accessdate=2016-07-19}}</ref> The company would later be acquired by Yahoo! and its product woud become [[wikipedia:Yahoo! Advertising|Yahoo! Advertising]].<ref name=yahoo-bluelithium-acquisition>{{cite web|url=https://techcrunch.com/2007/09/04/yahoo-acquires-ad-network-bluelithium/|title = Yahoo! Acquires Ad Network BlueLithium|last = Hendrickson|first = Mark|date = September 4, 2007|accessdate = April 14, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref><ref name=yahoo-acquires-bluelithium-2>{{cite web|url = http://searchengineland.com/yahoo-acquires-ad-network-bluelithium-12087|title = Yahoo Acquires Ad Network BlueLithium|last = Sterling|first = Greg|date = September 4, 2007|accessdate = April 14, 2017|publisher = Search Engine Land}}</ref>
 |-
 |2004
 |February
@@ -451,6 +451,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |[[wikipedia:Twitter|Twitter]] launches [[wikipedia:Promoted Tweets|Promoted Tweets]], which allows advertisers to pay for tweets to be shown in a user's feed.<ref>{{Cite news|url=http://www.telegraph.co.uk/technology/twitter/7586446/Twitter-launches-promoted-tweets-in-a-bid-to-make-money.html|title=Twitter launches 'promoted tweets'  in a bid to make money|newspaper=Telegraph.co.uk|access-date=2017-01-07}}</ref>
 |-
 |2010
+|April 13
+|Launch
+|Viewability standard
+|The {{w|Media Rating Council}} approves RealVu's acccreditation for the Viewable Impression metric and related viewability metrics. This is the first viewability metric, and is an early harbinger of a shift toward viewability standard that would unfold over the next several years.<ref>{{cite web|url = http://www.realvu.com/mrc-accredited-viewable-impressions/|title = MRC Accredited Viewable Impressions|publisher = RealVu|accessdate = July 25, 2017}}</ref> Later in the year, RealVu would be awarded a certificate of excellence as a finalist for the prestigious Direct Marketing Association's (DMA) Innovation Awards for the Company's Viewable Impression metric.<ref>{{cite web|url = http://www.marketwired.com/press-release/realvu-honored-direct-marketing-association-with-certificate-excellence-as-1326003.htm|title = RealVu Honored by the Direct Marketing Association With Certificate of Excellence as Innovation Award Finalist|date = September 28, 2010|accessdate = July 24, 2017}}</ref>
+|-
+|2010
 |May
 |Launch
 |Data management platform
@@ -502,6 +508,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Facebook launches Sponsored Stories, where brands can pay money to have their posts or other interactions related to the brand (such as friend activity) appear in front of more users. The Sponsored Stories would appear in place of existing ads and would not increase the ad load on the site (later, Sponsored Stories would become part of the News Feed; however, at this time, they are not).<ref>{{cite web|url = http://www.adweek.com/digital/sponsored-stories-feed-ads/|title = Facebook’s Sponsored Stories Turns News Feed Posts Into Home Page Ads|last = Constine|first = Josh|date = January 24, 2011|accessdate = April 5, 2017|publisher = [[wikipedia:Adweek|Adweek]]}}</ref><ref>{{Cite web|url = http://www.adweek.com/digital/facebook-launches-sponsored-stories-125531/|title = Facebook Launches ‘Sponsored Stories’|last = Morrissey|first = Brian|publisher = [[wikipedia:Adweek|Adweek]]|date = January 25, 2011|accessdate = April 5, 2017}}</ref>
 |-
 |2011
+|August
+|Standard change
+|End user control standard
+|Apple announces that it is deprecating UDID, the unique device identifier that advertisers and others can use to identify a device.<ref>{{cite web|url = https://www.engadget.com/2011/08/19/ios-5-deprecates-udid-as-identifier-for-developers-but-its-not/|title = iOS 5 deprecates UDID as identifier for developers, but it's not the end of the world|last = Rawson|first = Chris|date = August 19, 2011|accessdate = July 24, 2017|publisher = Engadget}}</ref><ref>{{cite web|url = https://stackoverflow.com/questions/6993325/uidevice-uniqueidentifier-deprecated-what-to-do-now|title = UIDevice uniqueIdentifier Deprecated - What To Do Now?|date = August 9, 2011|accessdate = July 24, 2017|publisher = Stack Overflow}}</ref>
+|-
+|2011
 |September 29
 |New terminology
 |Native advertising
@@ -526,6 +538,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |OpenRTB 2.0, a specification for [[wikipedia:real-time bidding|real-time bidding]] (RTB), is released.<ref>{{cite web|url = https://www.iab.com/guidelines/real-time-bidding-rtb-project/|title = Real-Time Bidding (RTB) Project: OpenRTB 2.5|publisher = [[wikipedia:Interactive Advertising Bureau|Interactive Advertising Bureau]]|accessdate = April 3, 2017}}</ref>
 |-
 |2012
+|June
+|New feature
+|End user control standard
+|Apple announces two new identifiers, IDFA (Identifier for Advertisers) (a cross-app/cross-publisher identifier) and IDFV (Identifier for Vendors) (a publisher-specific identifier), which is hailed as good news for the mobile app advertising industry.<ref>{{cite web|url = https://apsalar.com/2012/06/apples-new-advertising-id/|title = Apple’s New Advertising ID in iOS6 Sets the Standard|last = Oiknine|first = Michael|date = June 28, 2012|accessdate = July 22, 2017|publisher = Apsalar}}</ref><ref>{{cite web|url = http://www.businessinsider.com/ifa-apples-iphone-tracking-in-ios-6-2012-10|title = Apple Has Quietly Started Tracking iPhone Users Again, And It's Tricky To Opt Out|last = Edwards|first = Jim|date = October 11, 2012|accessdate = July 22, 2017|publisher = Business Insider}}</ref>
+|-
+|2012
 |July 12
 |Write-off
 |Ad serving
@@ -543,6 +561,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |End user control standard
 |The Express installation settings for Microsoft's web browser, Internet Explorer 10, turn Do Not Track on by default. The Digital Advertising Alliance protests this decision<ref>{{cite web|title=Microsoft ticks off advertisers with IE10 'Do Not Track' policy|url=http://news.cnet.com/8301-10805_3-57445568-75/microsoft-ticks-off-advertisers-with-ie10-do-not-track-policy/|publisher=CNET|accessdate=8 September 2012}}</ref> while a Microsoft spokesperson defends it.<ref name=dig-msdnt>{{cite news|title=Microsoft's "Do Not Track" Move Angers Advertising Industry|url=http://blogs.wsj.com/digits/2012/05/31/microsofts-do-not-track-move-angers-advertising-industry/|work=Digits|publisher=The Wall Street Journal|accessdate=8 September 2012}}</ref> On September 7, [[wikipedia:Roy Fielding|Roy Fielding]], one of the authors of the DNT standard, submits a change to ignore the header for users coming from IE10,<ref>{{Cite web|title = Apache does not tolerate deliberate abuse of open standards · apache/httpd@a381ff3|url = https://github.com/apache/httpd/commit/a381ff35fa4d50a5f7b9f64300dfd98859dee8d0|website = GitHub|accessdate = 2016-01-02}}</ref> leading to controversy.<ref>{{Cite web|title = Apache does not tolerate deliberate abuse of open standards · apache/httpd@a381ff3|url = https://github.com/apache/httpd/commit/a381ff35fa4d50a5f7b9f64300dfd98859dee8d0#commitcomment-1819635|website = GitHub|accessdate = 2016-01-03}}</ref><ref>{{cite web |url=http://arstechnica.com/information-technology/2012/08/microsoft-sticks-to-its-guns-keeps-do-not-track-on-by-default-in-ie10/ |title=Microsoft sticks to its guns, keeps Do Not Track on by default in IE10 |publisher=Ars Technica |accessdate=14 May 2013}}</ref> The patch is commented out on October 9, restoring original behavior.<ref>{{cite web|title= Apache Won't Override Do-Not-Track Headers |url= http://www.mediapost.com/publications/article/184855/apache-wont-override-do-not-track-headers.html |publisher= MediaPost Communications|accessdate=22 December 2012}}</ref> On April 3, 2015, Microsoft announces that the Express installation will no longer activate Do Not Track, but Microsoft will continue to highlight the option to users so that they are aware of it.<ref name=cw-dntdisabledms>{{cite web|title=Microsoft rolls back commitment to Do Not Track|url=http://www.computerworld.com/article/2905551/microsoft-rolls-back-commitment-to-do-not-track.html|website=Computerworld|publisher=IDG|accessdate=3 April 2015}}</ref>
 |-
+|2012
+|December 11
+|Adoption
+|Viewability standard
+|{{w|Adweek}} reports that, starting 2013, the viewability standard will start rolling out seriously, through an initiative called the Making Measurement Making Sense (3MS) involving the Association of National Advertisers (ANA), Interactive Advertising Bureau (IAB), and American Association of Advertising Agencies (4A's). In particular, Media Rating Council-accredited third-party researchers and analytics vendors will begin counting only viewable ad impressions.<ref>{{cite web|url = http://www.adweek.com/digital/advertisers-ready-make-impression-145801/|title = Advertisers Ready to Make an Impression. Web ad business finally moves to a new measurement standard, but it could get messy|last = Warzel|first = Charlie|date = December 11, 2012|accessdate = July 25, 2017|publisher = Adweek}}</ref>
+|-
 |2013
 |March
 |Adoption
@@ -554,6 +578,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Acquisition
 |Ad serving
 |Facebook acquires [[wikipedia:Atlas Solutions|Atlas Solutions]] from Microsoft for $100 million, in order to enrich its already bustling advertising platform.<ref>{{Cite web|url=https://gigaom.com/2013/02/28/facebook-purchases-microsofts-atlas-solutions-for-reported-100-million/|title=Facebook purchases Microsoft’s Atlas Solutions for reported $100 million|last=Kern|first=Eliza|date=2013-02-28|website=gigaom.com|access-date=2017-01-07}}</ref><ref>{{Cite web|url=https://atlassolutions.com/about-atlas/|title=About Atlas {{!}} Atlas Solutions|website=atlassolutions.com|access-date=2017-01-07}}</ref><ref name=":6" /><ref>{{Cite news|url=http://newsroom.fb.com/news/2013/02/facebook-to-acquire-atlas-from-microsoft/|title=Facebook to Acquire Atlas from Microsoft {{!}} Facebook Newsroom|access-date=2017-02-09|language=en}}</ref>
+|-
+|2013
+|May 1
+|Standard change
+|End user control standard
+|Apple announces that it is discontinuing accepting apps that use its deprecated identifier (the UDID) starting this date. Apple had announced the discontinuation of the identifier in August 2011 and introduced a replacement (the IDFA and IDFV) in June 2012.<ref>{{cite web|url = https://www.theverge.com/2013/3/21/4133288/apple-to-finally-stop-accepting-apps-that-use-outdated-udid-device-identifier-may-1st|title = Apple to finally stop accepting apps that use outdated UDID device identifier on May 1st|last = Bishop|first = Bryan|date = March 21, 2013|accessdate = July 24, 2017|publisher = ''The Verge''}}</ref>
 |-
 |2013
 |September 20
@@ -572,6 +602,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |IPO
 |Demand-side platform, retargeting
 |Retargeting-focused DSP Criteo IPOs on the [[wikipedia:NASDAQ|NASDAQ]], initially pricing its shares at $31.<ref name=adexchanger-criteo-ipo>{{cite web|url = https://adexchanger.com/investment/criteo-goes-public-stock-jumps-30/|title = Criteo Goes Public, And Stock Jumps 30%|last = Rodgers|first = Zach|date = October 30, 2013|accessdate = June 1, 2017|publisher = AdExchanger}}</ref><ref>{{cite web|url = http://www.nasdaq.com/article/ad-tech-company-criteo-raises-251-million-by-pricing-upsized-ipo-at-31-above-its-upwardly-revised-2729-range-cm293576|title = Ad tech company Criteo raises $251 million by pricing upsized IPO at $31, above its upwardly revised $27-$29 range|date= October 29, 2013|accessdate = June 1, 2017}}</ref>
+|-
+|2013
+|October 31
+|Standard change
+|End user control standard
+|Google announces that it is replacing "Android ID" with "Advertising ID" on Android devices. The move is analogized to Apple's move from UDID to Identifier for Advertising (IDFA).<ref>{{cite web|url = http://marketingland.com/google-replacing-android-id-with-advertising-id-similar-to-apples-idfa-63636|title = Google Replacing “Android ID” With “Advertising ID” Similar To Apple’s IDFA|last = Sterling|first = Greg|date = October 31, 2013|accessdate = July 24, 2017|publisher = Marketing Land}}</ref><ref name=tune-advertising-id-changes>{{cite web|url = https://www.tune.com/blog/old-new-advertising-attribution-2013/|title = Out With the Old, In With the New: Looking Back At Advertising Attribution Changes in 2013|last = Hamilton|first = Peter|date = January 3, 2014|accessdate = July 24, 2017|publisher = Tune}}</ref>
 |-
 |2014
 |January 16
@@ -596,6 +632,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Launch
 |Ad blocking
 |[[wikipedia:UBlock Origin|UBlock Origin]], a very prominent ad-blocking extension for web browsers, launches.<ref>{{Cite web|url=https://github.com/gorhill/uBlock/wiki/Change-log#0100|title=gorhill/uBlock|website=GitHub|language=en|access-date=2017-02-08}}</ref>
+|-
+|2014
+|June 30
+|Launch
+|Viewability standard
+|The Media Rating Council releases Version 1.0 (Final) of its Viewable Ad Impression Measurement Guidelines.<ref>{{cite web|url = http://mediaratingcouncil.org/063014%20Viewable%20Ad%20Impression%20Guideline_Final.pdf|title = MRC Viewable Ad Impression Measurement Guidelines. Prepared in collaboration with IAB Emerging Innovations Task Force|date = June 30, 2014|accessdate = July 24, 2017|publisher = Media Rating Council}}</ref>
 |-
 |2014
 |July 18
@@ -646,16 +688,40 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |[[wikipedia:Snapchat|Snapchat]], a popular [[wikipedia:messaging app|messaging app]], begins to include advertisements between user's "stories".<ref>{{Cite web|url=http://www.theverge.com/2016/6/14/11930386/snapchat-ads-api-stories|title=Snapchat will start showing ads between your friends' stories|last=Vincent|first=James|date=2016-06-14|website=The Verge|access-date=2017-01-07}}</ref>
 |-
 |2016
+|June 30
+|Shutdown
+|Ad serving
+|Apple shuts down the iAd app network and disbands the sales team, in favor of a new publisher-driven system.<ref>{{Cite web|url = http://www.adweek.com/digital/iad-shuts-down-apple-may-be-about-get-shot-advertising-redemption-172319/|title = As iAd Shuts Down, Apple May Be About to Get a Shot of Advertising Redemption. Marketers predict success for new app-install ads|last = Heine|first = Christopher|date = June 30, 2016|accessdate = July 25, 2017|publisher = Adweek}}</ref><ref>{{cite web|url = https://www.buzzfeed.com/johnpaczkowski/apple-iad?utm_term=.rg3dQr9gn#.cwo0aDRYl|title = Apple To Disband iAd Sales Team. Six years after launching its advertising platform, Apple is moving to phase out its in-house iAd sales team in favor of a new publisher-driven system.|date = January 13, 2016|accessdate = July 25, 2017|publisher = BuzzFeed|last = Paczkowski|first = John}}</ref>
+|-
+|2016
 |August
 |Major event
 |Ad blocking
 |Facebook states that they will start blocking the use of ad blocking extensions, specifically [[wikipedia:Adblock Plus|Adblock Plus]] and Adblock. In response to this, these ad-blockers began to block Facebook's blocking in a back-and-forth "war."<ref>{{Cite web|url=http://fortune.com/2016/08/12/facebook-ad-blocking-war/|title=Here's Why Facebook Is Always Going to Win the Ad-Blocking War|website=Fortune|access-date=2017-02-08}}</ref>
 |-
 |2016
+|September 15
+|Launch
+|Association
+|17 companies including the Interactive Advertising Bureau, Google, Procter & Gamble, Unilever, GroupM, and the Washington Post form the Coalition for Better Ads.<ref>{{cite web|url = http://www.marketingdive.com/news/google-pg-industry-groups-try-to-repair-broken-consumer-trust-in-online/426468/|title = Google, P&G, industry groups try to repair broken consumer trust in online ads|date = September 16, 2016|accessdate = July 24, 2017|publisher = Marketing Dive}}</ref><ref>{{cite web|url = http://www.businessinsider.com/coaltion-for-better-ads-launched-by-iab-google-unilever-2016-9|title = Google and 16 other companies have formed a coalition that wants to police ads on the web|last = O'Reilly|first = Lara|date = September 15, 2016|accessdate = July 24, 2017|publisher = Business Insider}}</ref><ref>{{cite web|url = Google, Facebook, IAB & major brands form Coalition for Better Ads. In response to ad blocking, a global initiative forms to set new standards and develop technology to improve ad experiences.|last = Marvin|first = Ginny|date = September 16, 2016|accessdate = July 24, 2017}}</ref><ref>{{Cite web|url = https://www.betterads.org/global-online-media-leaders-join-forces-to-improve-consumer-ad-experience/|title = Coalition for Better Ads Will Use Research, Advocacy to Develop and Implement New Standards|publisher = Coalition for Better Ads|date = September 15, 2016|accessdate = July 24, 2017}}</ref>
+|-
+|2016
 |September 21
 |IPO
 |Demand-side platform
 |The Trade Desk IPOs, and within a day, is trading at 60% more than the IPO offer price. It is the only "pure ad-tech" IPO of the year.<ref>{{cite web|url = http://www.businessinsider.com/the-trade-desk-ipo-2016-9|title = Ad tech company The Trade Desk goes public at $28.75 per share — a huge pop on its $18 price target|last = O'Reilly|first = Lara|date = September 21, 2016|accessdate = April 29, 2017|publisher = ''[[wikipedia:Business Insider|Business Insider]]''}}</ref><ref>{{cite web|url = https://techcrunch.com/2016/09/21/trade-desk-ipo/|title = The Trade Desk finishes strong at $30.10 per share after its first day on NASDAQ|last = Ha|first = Anthony|date = September 29, 2016|accessdate = April 29, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref>
+|-
+|2016
+|September 26
+|Acquisition
+|Ad serving
+|{{w|Applovin}} is acquired by Chinese private equity firm Orient Hentai Capital for $1.42 billion.<ref>{{cite web|url = http://fortune.com/2016/09/26/applovin-orient-hontai-capital/|title = Exclusive: AppLovin to Be Acquired by Chinese Investor for $1.4 Billion|last = Primack|first = Dan|date = September 26, 2016|accessdate = July 24, 2017|publisher = ''Fortune''}}</ref><ref>{{cite web|url = http://www.businessinsider.com/applovin-acquired-orient-hon-hai-2016-9|title = AppLovin, a 115 employee, profitable startup that never raised money from VCs, sold itself for $1.4 billion|last = Bort|first = Julie|date = September 27, 2016|accessdate = July 24, 2017|publisher = ''Business Insider''}}</ref>
+|-
+|2016
+|September 27
+|Launch
+|Ad guidelines
+|The {{w|Interactive Advertising Bureau}} introduces updates to its guidelines to address different ad sizes and formats, including 360 degree video, autoplays, emojis, and other emerging formats.<ref>{{cite web|url = http://www.marketingdive.com/news/iab-overhauls-ad-guidelines-to-address-autoplay-video-emerging-formats/427102/|title = IAB overhauls ad guidelines to address autoplay video, emerging formats|last = Tode|first = Chantal|date = September 27, 2016|accessdate = July 24, 2017}}</ref>
 |-
 |2017
 |February to April
