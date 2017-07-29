@@ -1,0 +1,32 @@
+'''Bitcoin Cash''' is a major proposed fork of the [[cryptocurrency]] [[bitcoin]]. The fork is slated to occur on August 1st, 2017.<ref>{{Cite web|url=http://english.alarabiya.net/en/business/markets/2017/07/28/Bitfinex-says-miners-to-create-chain-called-Bitcoin-Cash.html|title=Bitfinex says miners to create chain called Bitcoin Cash|last=|first=|date=|website=|archive-url=|archive-date=|dead-url=|access-date=July 28, 2017}}</ref><ref name=nyt-split>{{Cite news|url=https://www.nytimes.com/2017/07/25/business/dealbook/bitcoin-cash-split.html|title=Some Bitcoin Backers Are Defecting to Create a Rival Currency|last=Popper|first=Nathaniel|date=2017-07-25|work=The New York Times|access-date=2017-07-28|language=en-US|issn=0362-4331}}</ref><ref name=qz-bitcoin-civil-war>{{Cite news|url=https://qz.com/1037971/bitcoin-cash-is-a-new-twist-in-the-hard-fork-debate-and-a-way-to-bet-on-the-outcome-of-the-cryptocurrencys-civil-war/|title=There’s a strange new twist in bitcoin’s “civil war”—and a way to bet on the outcome|last=Wong|first=Joon Ian|work=Quartz|access-date=2017-07-28|language=en-US}}</ref> Bitcoin Cash is also referred to as the "User Activated Soft Fork".<ref>{{Cite web|url=http://www.cnbc.com/2017/07/18/bitcoin-soars-as-miners-move-to-solve-the-digital-currency-scaling-problem.html|title=Bitcoin soars as miners move to solve the digital currency's scaling problem|last=Graham|first=Luke|date=2017-07-18|access-date=2017-07-28}}</ref><ref>{{Cite web|url=http://www.cnbc.com/2017/07/25/bitcoin-slammed-by-more-than-10-percent-to-below-2500-ethereum-down-big.html|title=Bitcoin slammed by more than 10% to below $2,500; Ethereum down big|last=Cheng|first=Evelyn|date=2017-07-25|access-date=2017-07-28}}</ref>
+
+== Background ==
+
+On July 20, 2017, the Bitcoin community voted, 97% in favor, on the Bitcoin Improvement Proposal (BIP) 91. The proposal, by Bitmain Warranty engineer James Hilliard, was to activate Segregated Witness (SegWit) on August 1, 2017, without increasing the 1 MB block size of transactions, and maintaining backwards compatibility.<ref>{{Cite web|url = https://www.inverse.com/article/34693-bitcoin-hard-fork-soft-fork-explained-august-1|title = When Will Bitcoin Fork, and What's It Mean for Crypto's Future? A fork could change the equation for thousands of bitcoin users.|last = Crosbie|first = Jack|date = July 26, 2017|accessdate = July 29, 2017|publisher = ''Inverse''}}</ref><ref>{{cite web|url = https://bitcoinmagazine.com/articles/bip-91-has-activated-heres-what-means-and-what-it-does-not/|title = BIP 91 Has Locked In. Here’s What That Means (and What It Does Not)|author = Aaron van Wirdum|date = July 20, 2017|accessdate = July 29, 2017|publisher = ''Bitcoin Magazine''}}</ref><ref>{{cite web|url = https://www.coindesk.com/bip-91-locks-means-bitcoin-not-scaled-yet/|title = BIP 91 Locks In: What This Means for Bitcoin and Why It's Not Scaled Yet|last = Hertig|first = Alyssa|date = July 21, 2017|accessdate = July 29, 2017|publisher = CoinDesk}}</ref>
+
+Some member of the Bitcoin community felt that simply adopting BIP 91, without increasing the block-size limit, was simply kicking the can down the road, and that it favored people who wanted to treat Bitcoin as digital gold rather than transactional cash.<ref name=nyt-split/><ref name=qz-bitcoin-civil-war/> They implemented a fork of the Bitcoin cryptocurrency, called Bitcoin Cash, that started trading on July 23. The forked cryptocurrency inherited the transaction history of the main Bitcoin currency until that point, but further transactions were separate. Bitcoin Cash is scheduled to implement an eight-fold increase in the block size limit on August 1, making it backwards-incompatible with the main Bitcoin. Bitcoin Cash started out trading at 0.5 BTC on July 23, its first day of trading, but dropped to 0.2 BTC by July 25.<ref name=qz-bitcoin-civil-war/>
+
+== Supporters and opponents ==
+
+=== Response from exchanges ===
+
+The following exchanges and platforms announced that they would not support Bitcoin Cash:<ref name=bitcoin-cash-support>{{cite web|url = https://news.bitcoin.com/fork-watch-these-bitcoin-exchanges-will-not-support-bitcoin-cash/|title = Fork Watch: These Bitcoin Exchanges Will Not Support 'Bitcoin Cash'|last = Redman|first = Jaime|date = July 27, 2017|accessdate = July 29, 2017}}</ref><ref>{{cite web|url = http://www.livebitcoinnews.com/major-exchanges-will-not-support-bitcoin-cash/|title = Most Major Exchanges Will not Support Bitcoin Cash|last = Buntinx|first = JP|date = July 28, 2017|accessdate = July 29, 2017|publisher = Live Bitcoin News}}</ref>
+
+* [[Coinbase]]<ref>{{cite web|url = https://blog.coinbase.com/update-for-customers-with-bitcoin-stored-on-coinbase-99e2d4790a53|title = Update for customers with bitcoin stored on Coinbase|last = Farmer|first = David|date = July 27, 2017|accessdate = July 29, 2017|publisher = Coinbase}}<?ref>
+* [[GDAX]] (a Coinbase subsidiary)
+* BitMEX<ref>{{cite web|url = https://blog.bitmex.com/site_announcement/policy-on-bitcoin-hard-forks/|title = Policy on Bitcoin Hard Forks|last = Hayes|first = Arthur|date = July 25, 2017|accessdate = July 29, 2017|publisher = BitMEX}}</ref>
+* Exodus
+* [[Bitstamp]]
+
+Altcoin exchange Poloniex had not announced a decision as of near the end of July, but said that they were making a decision keeping the security of user's bitcoins in mind.<ref>{{cite web|url = https://poloniex.com/press-releases/2017.07.24-Our-plans-to-handle-potential-BTC-network-disruptions/|title = OUR PLANS TO HANDLE POTENTIAL BTC NETWORK DISRUPTIONS|date = July 24, 2017|accessdate = July 29, 2017|publisher = Poloniex}}</ref><ref name=bitcoin-cash-support/>
+
+=== Supporters ===
+
+Supporters of Bitcoin Cash (both the idea of increasing the block size and the split of the cryptocurrency) include [[Tokyo]]-based investor Roger Ver.<ref name=nyt-split/>
+
+== References ==
+{{Reflist}}
+
+[[Category:Bitcoin clients]]
+[[Category:Bitcoin]]
+[[Category:Cryptocurrencies]]
