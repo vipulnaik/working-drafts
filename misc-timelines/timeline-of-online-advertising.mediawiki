@@ -429,6 +429,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |2010
 |
 |Launch
+|Ad measurement (search, viewability)
+|Moat is founded by Jonah and Noah Goodhart and Mike Walrath, who were previously involved with Right Media Exchange. The company provides an ad search tool and Internet-wide ad viewability data and insights.<ref>{{cite web|url = https://www.crunchbase.com/organization/moat|title = Moat|publisher = CrunchBase|accessdate = August 1, 2017}}</ref><ref>{{cite web|url = https://techcrunch.com/2011/04/18/moat/|title = MOAT: A Search Engine For Ads, And So Much More|last = Schonfeld|first = Erick|date = April 18, 2011|accessdate = August 1, 2017|publisher = ''TechCrunch''}}</ref>
+|-
+|2010
+|
+|Launch
 |Publication
 |Digiday, a company and eponymous daily publication focused on digital marketing and digital media, launches. It would be one of the important publications covering news in the world of digital advertising.<ref>{{Cite web|url = http://digiday.com/about/|title = About|publisher = Digiday|accessdate = April 3, 2017}}</ref>
 |-
@@ -734,6 +740,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |New feature
 |Ad serving
 |Google announces that it is removing the "last-look" advantage for Ad Exchange in exchanging bidding in dynamic allocation (EBDA). Previously, all exchanges other than the Ad Exchange would have to submit bids first, and Ad Exchange would submit the final bid. Now, Ad Exchange would submit its bid along with all the other exchanges.<ref>{{cite web|url = https://adexchanger.com/platforms/google-removes-last-look-auction-advantage/|title = Google Removes Its 'Last-Look' Auction Advantage|last = Sluis|first = Sarah|date = March 31, 2017|accessdate = April 3, 2017|publisher = AdExchanger}}</ref><ref>{{cite web|url = https://martechtoday.com/countering-header-bidding-google-drops-last-look-advantage-196889|title = Countering header bidding, Google drops its ‘last look’ advantage. The ad giant opens a beta version of its Exchange Bidding in Dynamic Allocation.|last = Levine|first = Barry|date = March 31, 2017|accessdate = April 3, 2017|publisher = MarTech Today}}</ref>
+|-
+|2017
+|April 18
+|Acquisition
+|Ad measurement (search, viewability)
+|Oracle acquires ad measurement company Moat for $850 million.<ref>{{cite web|url = https://www.oracle.com/corporate/pressrelease/oracle-buys-moat-041817.html|title = Oracle Buys Moat. Creates the World’s Most Comprehensive Cloud Platform for Marketing Data and Analytics|publisher = Oracle|date = April 18, 2017|accessdate = August 1, 2017}}</ref><ref>{{cite web|url = https://techcrunch.com/2017/04/18/oracle-acquires-moat/|title = Oracle acquires ad measurement company Moat|date = April 18, 2017|accessdate = August 1, 2017|last = Ha|first = Anthony}}</ref><ref>{{cite web|url = https://news.crunchbase.com/news/morning-report-context-moats-850-million-oracle-exit/|title = Morning Report: The Context Of Moat’s $850 Million Oracle Exit|last = Wilhelm|first = Alex|date = April 20, 2017|accessdate = August 1, 2017|publisher = CrunchBase}}</ref>
 |}
 (*) Such launches are not initial launches, but rather re-launches.
 
