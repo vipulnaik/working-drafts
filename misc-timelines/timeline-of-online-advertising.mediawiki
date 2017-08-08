@@ -405,6 +405,11 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |2009
 |
 |Launch
+|Ad measurement
+|{{w|Integral Ad Science}} is launched as AdSafe Media. The company would be known for addressing issues around fraud, viewability, brand risk and TRAQ, a proprietary media quality score.<ref>{{Cite web|url=http://www.adweek.com/news/technology/adsafe-rebrands-integral-ad-science-145493|title=AdSafe Rebrands as Integral Ad Science|publisher=''[[Adweek]]''|date=November 29, 2012|accessdate=March 29, 2015|author=Peterson, Tim}}</ref><ref>{{Cite web|url=https://techcrunch.com/2014/01/02/integral-ad-science-raises-30m-august-capital-led-round-to-find-high-quality-ad-impressions/| title = Integral Ad Science Raises $30M, August Capital-Led Round To Find High Quality Ad Impressions|publisher=''[[TechCrunch]]''|date=January 2, 2014|accessdate=March 29, 2015|author=Ha, Anthony}}</ref>
+|2009
+|
+|Launch
 |Demand-side platform
 |[[wikipedia:DataXu|DataXu]], a software copmany that runs a real-time bidding platform and would co-found the OpenRTB Consortium, launches.<ref name="dataxu-crunchbase">{{cite web |url=http://www.crunchbase.com/company/dataxu |title=DataXu |date=April 2014 |publisher=[[CrunchBase]]}}</ref>
 |-
@@ -730,6 +735,16 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |The {{w|Interactive Advertising Bureau}} introduces updates to its guidelines to address different ad sizes and formats, including 360 degree video, autoplays, emojis, and other emerging formats.<ref>{{cite web|url = http://www.marketingdive.com/news/iab-overhauls-ad-guidelines-to-address-autoplay-video-emerging-formats/427102/|title = IAB overhauls ad guidelines to address autoplay video, emerging formats|last = Tode|first = Chantal|date = September 27, 2016|accessdate = July 24, 2017}}</ref>
 |-
 |2017
+|February 10
+|Third-party verification
+|{{w|Facebook}} agrees to have its ad serving audited by the {{w|Media Rating Council}}.<ref>{{cite web|url = https://adexchanger.com/platforms/facebook-slowly-embraces-mrc-agrees-independent-audit/|title = Facebook Slowly Embraces MRC, Agrees To Independent Audit|last = Schiff|first = Allison|date = February 10, 2017|accessdate = July 29, 2017|publisher = AdExchanger}}</ref><ref>{{cite web|url = https://www.wsj.com/articles/facebook-agrees-to-audit-of-its-metrics-following-data-controversy-1486735200|title = Facebook Slowly Embraces MRC, Agrees To Independent Audit|last = Shields|first = Mike|date = February 10, 2017|accessdate = July 29, 2017|publisher = ''[[Wall Street Journal]]''}}</ref>
+|-
+|2017
+|February 21
+|Third-party verification
+|{{w|YouTube}} agrees to have its ad serving audited by the {{w|Media Rating Council}}.<ref>{{cite web|url = http://marketingland.com/google-youtube-mrc-audit-video-viewability-207223|title = Google’s YouTube to undergo MRC audits for video viewability measurement. The audits encompass all aspects of YouTube's third-party measurement integrations with MOAT, DoubleVerify and Integral Ad Science.|date = February 21, 2017|accessdate = July 29, 2017|publisher = MarketingLand}}</ref><ref>{{cite web|url = https://www.wsj.com/articles/google-agrees-to-youtube-metrics-audit-to-ease-advertisers-concerns-1487678403|title = Google Agrees to YouTube Metrics Audit to Ease Advertisers’ Concerns. Third party data collection partnerships will be vetted to boost marketers’ confidence in ad viewing measurements agreed to get audited by the MRC.|last = Shields|first = Mike|date = February 21, 2017|accessdate = July 29, 2017|publisher = ''[[Wall Street Journal]]''}}</ref>
+|-
+|2017
 |February to April
 |Controversy
 |Ad serving
@@ -746,6 +761,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Acquisition
 |Ad measurement (search, viewability)
 |Oracle acquires ad measurement company Moat for $850 million.<ref>{{cite web|url = https://www.oracle.com/corporate/pressrelease/oracle-buys-moat-041817.html|title = Oracle Buys Moat. Creates the World’s Most Comprehensive Cloud Platform for Marketing Data and Analytics|publisher = Oracle|date = April 18, 2017|accessdate = August 1, 2017}}</ref><ref>{{cite web|url = https://techcrunch.com/2017/04/18/oracle-acquires-moat/|title = Oracle acquires ad measurement company Moat|date = April 18, 2017|accessdate = August 1, 2017|last = Ha|first = Anthony}}</ref><ref>{{cite web|url = https://news.crunchbase.com/news/morning-report-context-moats-850-million-oracle-exit/|title = Morning Report: The Context Of Moat’s $850 Million Oracle Exit|last = Wilhelm|first = Alex|date = April 20, 2017|accessdate = August 1, 2017|publisher = CrunchBase}}</ref>
+|-
+|2017
+|June 1
+|Shutdown
+|Ad agency
+|AudienceScience shuts down after losing {{w|Procter & Gamble}}, its biggest client.<ref>{{cite web|url = https://adexchanger.com/platforms/audiencescience-shuts-doors-less-month-pg-client-loss/|title = AudienceScience Shuts Its Doors Less Than A Month After P&G Client Loss|last = Schiff|first = Allison|last2 = Rodgers|first2 = Zach|date = June 1, 2017|accessdate = August 7, 2017|publisher = AdExchanger}}</ref>
 |}
 (*) Such launches are not initial launches, but rather re-launches.
 
