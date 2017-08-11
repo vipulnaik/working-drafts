@@ -181,13 +181,14 @@ publisher=California Voter Foundation}}</ref> The initiative passes with a 59% v
 |-
 | 2017 || January 25 || Program rollout || U.S. Immigration and Customs Enforcement, local law enforcement agencies || Secure Communities is revived through Executive Order 13768 by newly elected President Donald Trump.<ref name=ice-scomm/>
 |-
-| 2017 || January 27 || Executive order || U.S. Customs and Border Protection (specifically, Office of Field Operations), U.S. Department of State (specifically, Bureau of Consular Affairs) || One week into his presidency, Donald Trump signs [[wikipedia:Executive Order 13769|Executive Order 13769]], immediately suspending the entry of people (and issuance of new visas to people) from seven countries listed as [[wikipedia:State Sponsors of Terrorism|State Sponsors of Terrorism]].<ref name="auto">Executive Order 13769 of January 27, 2017: Protecting the Nation From Foreign Terrorist Entry Into the United States. Executive Office of the President. {{Federal Register|82|8977}}–8982. Published: February 1, 2017.</ref>
+| 2017 || January 27 || Executive order || U.S. Customs and Border Protection (specifically, Office of Field Operations), U.S. Department of State (specifically, Bureau of Consular Affairs) || One week into his presidency, Donald Trump signs [[wikipedia:Executive Order 13769|Executive Order 13769]], immediately suspending the entry of people (and issuance of new visas to people) from seven countries listed as {{w|State Sponsors of Terrorism}}.<ref name="auto">Executive Order 13769 of January 27, 2017: Protecting the Nation From Foreign Terrorist Entry Into the United States. Executive Office of the President. {{Federal Register|82|8977}}–8982. Published: February 1, 2017.</ref>
 |}
 
 == See also ==
 
 * [[Timeline of immigrant processing and visa policy in the United States]]
 * [[Timeline of Chinese immigration to the United States]]
+* [[Timeline of migration-related nongovernmental organizations in the United States]]
 
 == References ==
 
