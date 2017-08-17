@@ -1,5 +1,23 @@
 This timeline covers the history of the {{w|H-1B visa}} and associated work status. The timeline incorporates some content from {{w|H-1B visa#Changes to legal and administrative rules}} and {{w|Premium Processing Service#Pre-announced delays for processing cap-subject petitions}}. Although much of the copied content was added by the author of the current Timelines wiki page, it also incorporates edits from others. The original content was released under the Creative Commons Attribution/Share-Alike License (CC-BY-SA), so this page inherits this license.
 
+== Visual data ==
+
+=== Google Trends ===
+
+The graph below shows Google Trends data from 2004 (the start of availability of data) to the present.<ref name=h-1b-google-trends>{{cite web|url = https://trends.google.com/trends/explore?date=all&q=%2Fm%2F026375|title = H-1B Visa (topic) on Google Trends|accessdate = August 17, 2017}}</ref>
+
+[[File:H-1B visa Google Trends.png|500px]]
+
+Interest peaks annually during the H-1B filing season, which is during the calendar months of March and April. Interest was higher in 2017 (corresponding to filing for Fiscal Year 2018) due to proposals for major rule changes after the election of Donald Trump.
+
+=== Wikipedia pageviews ===
+
+The graph below shows Wikipedia pageviews for the H-1B visa from December 2007 (the start of availability of data) to July 2017.<ref name=h-1b-wv>{{cite web|url = https://wikipediaviews.org/displayviewsformultiplemonths.php?page=H-1B+visa&allmonths=allmonths&language=en&drilldown=all|title = H-1B visa Wikipedia pageviews|publisher = Wikipedia Views|accessdate = August 17, 2017}}</ref>
+
+[[File:H-1B visa Wikipedia views.png|500px]]
+
+Interest peaks annually during the H-1B filing season, which is during the calendar months of March and April. Interest was higher in 2017 (corresponding to filing for Fiscal Year 2018) due to proposals for major rule changes after the election of Donald Trump.
+
 == Full timeline ==
 
 When inline citations are missing, this is usually because the Wikipedia article for the subject of that row has adequate detail and its own citations.
