@@ -1,10 +1,14 @@
 {{Infobox officeholder
  | name               = Thomas E. Margro
- | office1            = General Manager of the [[Bay Area Rapid Transit]] system
- | term_start1        = September 30, 1996
- | term_end1          = June 29, 2007
- | predecessor1       = [[Richard A. White]] (1994 – 1996)
- | successor1         = [[Dorothy Dugger]] (2007 – 2011)
+ | office1           = General Manager of the [[Bay Area Rapid Transit]] system
+ | term_start1   = September 30, 1996
+ | term_end1     = June 29, 2007
+ | predecessor1= [[Richard A. White]] (1994 – 1996)
+ | successor1    = [[Dorothy Dugger]] (2007 – 2011)
+ | office2           = CEO of [[Transportation Corridor Agencies]]
+ | term_start2    = 2007
+ | term_end2     = 2012
+ | successor2    = Neil Peterson
 }}
 
 '''Thomas E. "Tom" Margro''' is a mass transportation specialist most famous for being the longest-serving General Manager for the San Francisco [[Bay Area Rapid Transit]] district (serving from 1996 to 2007).<ref name=apta-margro-retires>{{cite web|url = http://www.apta.com/passengertransport/Documents/archive_3857.htm|title = Margro to Retire as BART General Manager|date = April 16, 2007|accessdate = August 20, 2017|publisher = American Public Transportation Association}}</ref><ref name=bart-margro-retires/><ref name=sfgate-margro-retires/> He also served as CEO of the [[Transportation Corridor Agencies]] from 2007 to 2012.<ref name=tca-margro-retires>{{cite web|url = http://www.thecapistranodispatch.com/tca-hires-search-firm-for-new-ceo/|title = TCA Hires Search Firm for New CEO|last = Swanson|first = Justin|date = November 20, 2012|accessdate = August 21, 2017|publisher = The Capistrano Dispatch}}</ref>
