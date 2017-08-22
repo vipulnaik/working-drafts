@@ -1,5 +1,5 @@
 {{Infobox officeholder
- | name               = Thomas Margro
+ | name               = Thomas E. Margro
  | office1            = General Manager of the [[Bay Area Rapid Transit]] system
  | term_start1        = September 30, 1996
  | term_end1          = June 29, 2007
