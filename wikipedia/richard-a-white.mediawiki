@@ -1,5 +1,19 @@
 {{For|Richard Alan White the U.S. Congressman from Washington|Rick White (politician)}}
 {{more footnotes|date=January 2014}}
+{{Infobox officeholder
+ | name               = Richard A. White
+ | office1           = General Manager of the [[Bay Area Rapid Transit]] system
+ | term_start1   = April 1994
+ | term_end1     = July 26, 2007
+ | predecessor1= Frank Wilson (1989 – 1994)
+ | successor1    = [[Thomas Margro]] (1996 – 2007)
+ | office2           = General Manager of [[Washington Metropolital Area Transit Authority]]
+ | term_start2    = 1996
+ | term_end2     = January 11, 2006
+ | predecessor2  = [[Lawrence G. Reuter]]
+ | successor2    = [[Dan Tangherlini]]
+}}
+
 
 '''Richard A. White''' is an American public transportation official who served as the CEO and General Manager of the [[Washington Metropolitan Area Transit Authority]] during 1996&ndash;2006.<ref>"[http://www.wmata.com/about/board_gm/general_manager_history.cfm History of Metro's general managers]," Washington Metropolitan Area Transit Authority, accessed August 31, 2007</ref>  Prior to joining WMATA as CEO, he served as the general manager at [[Bay Area Rapid Transit]] in the San Francisco area. White also spent six years with the federal Urban Mass Transit Administration, which is now the [[Federal Transit Administration]]. White is from [[Massachusetts]].
 
@@ -11,25 +25,23 @@ From 1981 to 1991, White worked for [[New Jersey Transit]].<ref name=sfgate-whit
 
 ===BART===
 
-In 1991, White was hired as BART's deputy general manager under Frank Wilson. In April 1994, he became the General Manager of BART after Wilson was appointed
+In 1991, White was hired as BART's deputy general manager under Frank Wilson. In April 1994, he became the General Manager of BART after Wilson was appointed Secretary of Transportation for the state of New Jersey.<ref name=sfgate-white-leaves-bart/> [[Dorothy Dugger]] succeeded White as Deputy General Manager.<ref name=bart-dugger-becomes-gm>{{cite web|url = http://www.bart.gov/news/articles/2007/newsx20070823|title = BART Board makes history, picks first female to lead agency. Board promotes Dorothy Dugger to General Manager|date = August 23, 2007|accessdate = August 20, 2017|publisher = [[Bay Area Rapid Transit]]}}</ref>
 
-When White left BART, his annual salary was about $141,000 per year, not including benefits that increased his total compensation per year to about $180,000.
+When White left BART, his annual salary was about $141,000 per year,<ref name=sfgate-white-leaves-bart/> not including benefits that increased his total compensation per year to about $180,000.{{citation needed}}
 
-White inherited an agency with fractious labor relations. Union officials often criticized White's predecessor, Frank Wilson, as autocratic, arrogant, and distrustful of the rank-and-file.
+White inherited an agency with fractious labor relations.<ref name=sfgate-white-leaves-bart/> Union officials often criticized White's predecessor, Frank Wilson, as autocratic, arrogant, and distrustful of the rank-and-file.
 
-Just months after he assumed the helm in 1994, union members threatened to strike. Governor Pete Wilson imposed a 30-day cooling-off period in July, and the period was later extended to sixty days by a [[Contra Costa County Superior Court]] order. Management and members of the unions, which included the Service Employees International Union Local 790 and the Amalgamated Transit Union Local 1555, disgareed over a proposed contract provision that would have allowed management to transfer workers anywhere within the system. The two sides also disagreed over pay provisions.
+Just months after he assumed the helm in 1994, union members threatened to strike. Governor Pete Wilson imposed a 30-day cooling-off period in July,<ref name=sfgate-white-leaves-bart/> and the period was later extended to sixty days by a [[Contra Costa County Superior Court]] order.{{citation needed}} Management and members of the unions, which included the [[Service Employees International Union]] Local 790 and the Amalgamated Transit Union Local 1555, disagreed over a proposed contract provision that would have allowed management to transfer workers anywhere within the system. The two sides also disagreed over pay provisions.{{citation needed}} 
 
-During the dispute White revealed his temper in public: "BART's top administrator yesterday angrily told union negotiators, 'It's time for a reality check.'"<ref name="03Sep94Chron">Kevin Fagan, "BART Chief Says Union is Wrong," ''San Francisco Chronicle'', September 13, 1994, page A15.</ref> White asserted that "The issue is money" and that the members of ATU Local 1555 were engaged in "a campaign of misinformation and a lack of honesty" designed to make people believe the primary root of the dispute was work rules. "We have been as flexible and creative as we can...but this hardly resembles a good faith effort," White said.
+During the dispute White revealed his temper in public: "BART's top administrator yesterday angrily told union negotiators, 'It's time for a reality check.'"<ref name="03Sep94Chron">Kevin Fagan, "BART Chief Says Union is Wrong," ''San Francisco Chronicle'', September 13, 1994, page A15.</ref> White asserted that "The issue is money" and that the members of ATU Local 1555 were engaged in "a campaign of misinformation and a lack of honesty" designed to make people believe the primary root of the dispute was work rules. "We have been as flexible and creative as we can...but this hardly resembles a good faith effort," White said.<ref name="03Sep94Chron"/> A strike was averted in late September when workers approved new contracts.{{citation needed}} The handling of the negotiations by SEIU Local 790 director [[Paul Varacalli]] met with mixed responses from BART workers, with some praise for him getting a good deal for workers, and some criticism for major givebacks to BART management.<ref>{{{cite web|url = http://www.sfgate.com/bayarea/article/Struggle-for-the-Heart-of-a-Union-Aides-put-3033008.php|title = Struggle for the Heart of a Union / Aides put service employees chief on trial over power, money|last = DelVecchio|first = Rick|date = May 11, 1995|accessdate = August 22, 2017|publisher = ''[[San Francisco Chronicle]]''}}</ref>
 
-A strike was averted in late September when workers approved new contracts.
+White pushed through a three-year, 45-percent fare increase, the largest cumulative increase in the agency's history. The increase was part of a 10-year, $1-billion renovation program that included restoration of BART's original fleet and major improvements to stations, ticket machines, lighting and communications equipment.<ref name=sfgate-white-leaves-bart/> White was also a proponent of the the BART SFO extension (extending BART to the [[San Francisco International Airport station]] and [[Millbrae Intermodal Terminal]]), which would be completed in 2003 under his successor [[Thomas Margro]].<ref name=ebt-margro-retires>{{cite web|url = http://www.eastbaytimes.com/2007/04/10/bart-gm-to-retire/|title = BART general manager to retire|publisher = East Bay Times|date = April 10, 2007|accessdate = August 21, 2017|publisher = East Bay Times}}</ref><ref name=bart-40-years>{{cite web|url = https://www.bart.gov/sites/default/files/40thFactsheet_v1.pdf|title = Forty BART Achievements Over the Years|accessdate = June 14, 2017|publisher = Bay Area Rapid Transit}}</ref>
 
-White pushed through a three-year, 45-percent fare increase, the largest cumulative increase in the agency's history. The increase was part of a 10-year, $1-billion program of capital investment.
-
-On June 1, 1996, it was announced that White was leaving BART to become general manager of the [[Washington Metropolitan Area Transit Authority]], with July 26 being his last day at BART.<ref name=sfgate-white-leaves-bart>{{cite web|url = http://www.sfgate.com/bayarea/article/BART-Boss-Leaving-to-Run-D-C-Transit-Authority-2979604.php|title = BART Boss Leaving to Run D.C. Transit Authority|last = Fimrite|first = Peter|date = June 1, 1996|accessdate = August 21, 2017|publisher = ''[[San Francisco Chronicle]]''}}</ref> White was succeeded by [[Thomas Margro]] who began as General Manager on September 30, 1996.<ref name=apta-margro-retires>{{cite web|url = http://www.apta.com/passengertransport/Documents/archive_3857.htm|title = Margro to Retire as BART General Manager|date = April 16, 2007|accessdate = August 20, 2017|publisher = American Public Transportation Association}}</ref>
+On June 1, 1996, it was announced that White was leaving BART to become general manager of the [[Washington Metropolitan Area Transit Authority]], with July 26 being his last day at BART.<ref name=sfgate-white-leaves-bart>{{cite web|url = http://www.sfgate.com/bayarea/article/BART-Boss-Leaving-to-Run-D-C-Transit-Authority-2979604.php|title = BART Boss Leaving to Run D.C. Transit Authority|last = Fimrite|first = Peter|date = June 1, 1996|accessdate = August 21, 2017|publisher = ''[[San Francisco Chronicle]]''}}</ref> Potential successor candidates mentioned at the time of his departure were Deputy General Manager [[Dorothy Dugger]] (who would become General Manager in 2007), Jim Gallagher (assistant general manager of operations), Larry Williams (assistant general manager of operations), and John Haley (former deputy general manager at BART, at the time deputy general manager of the port authority in New York).<ref name=sfgate-white-leaves-bart/> White was succeeded by [[Thomas Margro]] who began as General Manager on September 30, 1996.<ref name=apta-margro-retires>{{cite web|url = http://www.apta.com/passengertransport/Documents/archive_3857.htm|title = Margro to Retire as BART General Manager|date = April 16, 2007|accessdate = August 20, 2017|publisher = American Public Transportation Association}}</ref>
 
 ===WMATA===
 
- after [[Lawrence G. Reuter]] left to take the top job at the [[Metropolitan Transportation Authority|MTA]] New York City transit system. White was chosen from a field of over 60 candidates, and three other finalists, when he became general manager at WMATA. WMATA was a much larger agency than BART: when White assumed the job, WMATA had over 7,000 employees and a $750 million operating budget. In contrast, BART had about 3,000 workers and a $270 million budget. When WMATA hired White, his total compensation was about $200,000 per year.
+White became general manager at the [[Washington Metropolitan Area Transit Authority]]<ref name=sfgate-white-leaves-bart/> after [[Lawrence G. Reuter]] left to take the top job at the [[Metropolitan Transportation Authority|MTA]] New York City transit system. White was chosen from a field of over 60 candidates, and three other finalists, when he became general manager at WMATA. WMATA was a much larger agency than BART: when White assumed the job, WMATA had over 7,000 employees and a $750 million operating budget. In contrast, BART had about 3,000 workers and a $270 million budget. When WMATA hired White, his total compensation was about $200,000 per year.
 
 A string of incidents in 2004&ndash;2005 and complaints of mismanagement at WMATA, however, eventually led to his dismissal on January 11, 2006.  White stepped down on February 16, 2006 and was replaced by [[Dan Tangherlini]], as interim CEO.
 
@@ -43,11 +55,8 @@ A string of incidents in 2004&ndash;2005 and complaints of mismanagement at WMAT
 * Kevin Fagan, "No BART strike -- Workers Ratify New Contract," ''San Francisco Chronicle'', September 29, 1994, page A1.
 * Katherine Corcoran, "BART Exec to Lead N.J. Agency," ''San Jose Mercury News'', January 14, 1994, page 1B.
 
-{{s-start}}
-{{succession box | before=[[Lawrence G. Reuter]] | title=[[Washington Metropolitan Area Transit Authority|WMATA]] General Manager | years=1996-2006 | after=[[Dan Tangherlini]] }}
-{{s-end}}
-
 {{Washington Metro}}
+{{Bay Area Rapid Transit}}
 
 {{DEFAULTSORT:White, Richard A.}}
 [[Category:American railroad executives of the 20th century]]
