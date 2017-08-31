@@ -4,7 +4,7 @@ They also removed relationship disclosures from most of the pages that previousl
 
 This change to policy comes shortly after the split from GiveWell (made June 2017, see http://www.openphilanthropy.org/blog/open-philanthropy-project-now-independent-organization for the announcement) and three recent hires in the grants and communications space:
 
-* Michael Levine www.openphilanthropy.org/about/team/michael-levine hired June 2017, as Communications Officer
+* Michael Levine www.openphilanthropy.org/about/team/michael-levine hired June 2017, as Communications Officer. I previously noted Levine's arrival at Open Philanthropy Project in this comment https://www.facebook.com/vipulnaik.r/posts/10212373102538583?comment_id=10212762928523989
 * Dev Basumallik www.openphilanthropy.org/about/team/dev-basumallik hired June 2017, as Grants Associate
 * Derek Hopf www.openphilanthropy.org/about/team/derek-hopf hired July 2017, as Grants Associate and Content Specialist
 
@@ -12,7 +12,11 @@ It also closely follows a change to start adding grant investigator names to gra
 
 Beyond the stated reasons, the split from GiveWell, and new communications hires, one possible contributing factor to the removal of relationship disclosures was the critiques that the Open Philanthropy Project attracted for the relationships it disclosed for the OpenAI grant, for instance at https://news.ycombinator.com/item?id=14008569 https://twitter.com/Pinboard/status/848009582492360704 and https://www.facebook.com/groups/effective.altruists/permalink/1350683924987961/
 
+The absence of relationship disclosures on new grants was first noticed by Peter Hurford who commented about it at http://www.openphilanthropy.org/blog/march-2017-open-thread?page=1#comment-314
+
 Thoughts?
+
+Disclosure: I manage the linked website donations.vipulnaik.com and have discussed this matter with Peter Hurford and Issa Rice. Peter paid Issa to add donation data grouped by disclosure on donatiosn.vipulnaik.com; see https://contractwork.vipulnaik.com/tasks.php?receptacle=Donation+amounts+by+disclosures+and+year&matching=exact for the task details and https://donations.vipulnaik.com/donor.php?donor=Open+Philanthropy+Project#donorDonationAmountsByDisclosuresAndYear for the result. All views here are solely my own :).
 
 Posted to GitHub at https://github.com/vipulnaik/working-drafts/blob/master/open-phil/relationship-disclosure-policy.txt
 
