@@ -13,3 +13,6 @@ It also closely follows a change to start adding grant investigator names to gra
 Beyond the stated reasons, the split from GiveWell, and new communications hires, one possible contributing factor to the removal of relationship disclosures was the critiques that the Open Philanthropy Project attracted for the relationships it disclosed for the OpenAI grant, for instance at https://news.ycombinator.com/item?id=14008569 https://twitter.com/Pinboard/status/848009582492360704 and https://www.facebook.com/groups/effective.altruists/permalink/1350683924987961/
 
 Thoughts?
+
+Posted to GitHub at https://github.com/vipulnaik/working-drafts/blob/master/open-phil/relationship-disclosure-policy.txt
+
