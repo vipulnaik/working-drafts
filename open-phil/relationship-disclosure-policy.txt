@@ -1,0 +1,15 @@
+The Open Philanthropy Project recently updated its relationship disclosure policy: http://www.openphilanthropy.org/about/relationship-disclosure-policy (archived at http://web.archive.org/web/20170831050410/http://www.openphilanthropy.org/about/relationship-disclosure-policy and http://archive.is/do2U40 and announced at https://groups.google.com/a/openphilanthropy.org/forum/#!topic/newly.published/4-0KIw2aVmQ earlier today).
+
+They also removed relationship disclosures from most of the pages that previously had them -- the number of grants with relationship disclosures appears to have gone down from 26 as you can see at https://donations.vipulnaik.com/donor.php?donor=Open+Philanthropy+Project#donorDonationAmountsByDisclosuresAndYear to 2 (the OpenAI grant http://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/openai-general-support and a Waitlist Zero grant http://www.openphilanthropy.org/focus/us-policy/miscellaneous/waitlist-zero-general-support).
+
+This change to policy comes shortly after the split from GiveWell (made June 2017, see http://www.openphilanthropy.org/blog/open-philanthropy-project-now-independent-organization for the announcement) and three recent hires in the grants and communications space:
+
+* Michael Levine www.openphilanthropy.org/about/team/michael-levine hired June 2017, as Communications Officer
+* Dev Basumallik www.openphilanthropy.org/about/team/dev-basumallik hired June 2017, as Grants Associate
+* Derek Hopf www.openphilanthropy.org/about/team/derek-hopf hired July 2017, as Grants Associate and Content Specialist
+
+It also closely follows a change to start adding grant investigator names to grants; see http://www.openphilanthropy.org/blog/march-2017-open-thread?page=1#comment-290 for more details.
+
+Beyond the stated reasons, the split from GiveWell, and new communications hires, one possible contributing factor to the removal of relationship disclosures was the critiques that the Open Philanthropy Project attracted for the relationships it disclosed for the OpenAI grant, for instance at https://news.ycombinator.com/item?id=14008569 https://twitter.com/Pinboard/status/848009582492360704 and https://www.facebook.com/groups/effective.altruists/permalink/1350683924987961/
+
+Thoughts?
