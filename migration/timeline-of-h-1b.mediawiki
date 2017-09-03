@@ -22,7 +22,7 @@ Interest peaks annually during the H-1B filing season, which is during the calen
 
 When inline citations are missing, this is usually because the Wikipedia article for the subject of that row has adequate detail and its own citations.
 {| class="wikitable sortable"
-! Year !! Month and date (if available) !! Event type !! Event name !! Authorities in power !! Effect on fees !! Effect on cap !! Effect on LCA attestations and DOL investigative authority !! Effect on adjudication process !! Details 
+! Year !! Month and date (if available) !! Event type !! Event name !! Actors !! Effect on fees !! Effect on cap !! Effect on LCA attestations and DOL investigative authority !! Effect on adjudication process !! Details 
 |-
 | 1952 || June 27 || Legislation || {{w|Immigration and Nationality Act of 1952}} || {{w|82nd United States Congress}}, President {{w|Harry S. Truman}} (vetoed but overridden) || || || || || Creates the H-1 and H-2 visa categories for skilled and unskilled workers; the H-1 would give rise to the modern H-1B visa.
 |-
