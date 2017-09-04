@@ -1,0 +1,51 @@
+My very first blog post on <em>Open Borders: The Case</em> asked <a href="https://openborders.info/blog/why-was-immigration-freer-in-19th-century-usa/">Why was immigration freer in 19th century USA?</a> The post looked at three hypotheses: (1) different opinions about the wisdom/desirability of restriction, (2) technological/financial feasibility, (3) moral permissibility. Later, in the post <a href="https://openborders.info/blog/south-south-migration-and-the-natural-state/">South-South migration and the “natural state”</a>, I talked about the historical (and in many parts of the world, present) "natural state" of migration where migration is met with native hostility that ranges from private prejudice to riots, but is still freer than under the modern immigration enforcement apparatus. Recently, I've been looking more into the <a href="https://timelines.issarice.com/wiki/Timeline_of_Chinese_immigration_to_the_United_States">history of Chinese immigration to the United States</a>, and as a result, I've updated my views somewhat. I now think that, at least in the case of Chinese migration to the western United States, organized private action, with tacit state support, continued for a long time and both complemented and paved the way for formal state action.
+
+I still stand by the sentiment of my earlier posts: this private action was much more serious and significant than I thought, but migration restrictions with the full formal backing of the state were way more effective in putting an end to migration than all the organized private action. But appreciating both the extent and the format of organized private action has led me to revisit a favorite sophisticated argument against open borders: the <a href="https://openborders.info/anarcho-capitalist-counterfactual/">anarcho-capitalist counterfactual</a>.
+
+In brief:
+
+<ul>
+	<li>Some of the early organized private action against migrants seems to be the sort of thing you could see in an anarcho-capitalist world; it was fundamentally "extra-state". The state's role in this was mostly in terms of either staying out (something that a nonexistent state would also do!) with a few exceptions.</li>
+	<li>To the extent this is true, it makes the anarcho-capitalist counterfactual look more respectable: reasoning from an anarcho-capitalist counterfactual would not justify an open borders position. The <a href="https://openborders.info/libertarian/">libertarian case</a> for open borders in a current state-dominated world follows from basic libertarian principles, but the same argument would not apply <em>mutatis mutandis</em> to an anarcho-capitalist world.</li>
+	<li>With all that said, the anarcho-capitalist counterfactual, even if not completely for open borders, does not provide support for a large-scale restrictions apparatus.</li>
+</ul>
+
+<h4>Organized private action in the past</h4>
+
+I'm going to mainly pick events from the <a href="https://timelines.issarice.com/wiki/Timeline_of_Chinese_immigration_to_the_United_States">imeline of Chinese immigration to the United States</a>, which has more references for each event. One of the more interesting sources used was <em>Driven Out: The Forgotten War Against Chinese Americans</em>, which included a lot of the private organized violence against Chinese.
+
+Here are some examples. April/May 1852, Yuba County, California:
+
+<blockquote>A miners' convention meeting at Foster and Atchinson's General Store in Yuba County leads to the issuing of an an ultimatum stating that no Chinese miner can hold a mining claim after May 1 and none can remain in the county after May 3. However, violence against Chinese erupts even before them, leading to the Chinese being forced out.</blockquote>
+
+May 1852, Shasta County, California:
+
+<blockquote>At the second Columbia Miners Convention, the attending white miners declared that "no Asiatic or South Sea Islander shall be permitted to mine in this district either for himself or for others." The miners' underlying frustrations stem from the dwindling of gold reserves, the supplanting of individual miners by larger corporations (as more expensive tools become necessary once the low-hanging fruit is plucked), and competition from Chinese miners.</blockquote>
+
+January and February 1855, Shasta County, California:
+
+<blockquote>In January, white miners issue an ultimatum to Chinese to stop working in the country, and to white men to stop employing Chinese labor. The deadline is specified as February 25. The Chinese refuse to leave, leading to a mob of white men chasing Chinese out at gunpoint. Clay Stockton (the new Sheriff) chases the white mob and arrests many of its members, but is unable to keep them locked up as a scared judge releases the prisoners.</blockquote>
+
+1859, Shasta County, California:
+
+<blockquote>The "Shasta Wars" occur -- a battle between white miners who seek to evict Chinese, against Chinese miners who refuse to vacate and Sheriff Clay Stockton, keen to maintain law and order. White miners convene at Brannan's General Store on Middle Creek in the Siskiyous for the Shasta Miners Convention, and on February 5 issue an ultimatum to Chinese to vacate the area in three weeks. Chinese refuse to leave, and a gang of white miners attacks their claims. Four days later, they attack rich Chinese claims close to Shasta City. Sheriff Stockton disperses the mob and frees about 200 Chinese. After securing more ammunition from the Governor John Weller, Stockton manages to suppress the gang violence, causing Chinese to celebrate. However, Chinese mostly leave the area by 1860, and Justice Keene declares all the rioters arrested by Stockton "not guilty".</blockquote>
+
+1871, Los Angeles, California:
+
+<blockquote>The Chinese massacre of 1871 occurs in Los Angeles, California. 500 people enter Chinatown to attack, rob, and murder Chinese residents. An estimated 17 to 20 Chinese are tortured and hanged, making the event the largest mass lynching in American history.</blockquote>
+
+This organized private violence was not occurring in a vacuum. State laws were being passed, appealed, overturned, and modified in parallel. Politicians were making pronouncements, mostly decrying and some defending the Chinese. Local Chinese leaders and businessmen were defending the Chinese. Private violence was a <em>part</em> of the conversation, both emboldened by, and influential to, state actions. See the <a href="https://timelines.issarice.com/wiki/Timeline_of_Chinese_immigration_to_the_United_States">full timeline</a> for more.
+
+Interestingly, the private violence appears to not have stopped after the Chinese Exclusion Act of 1882 that effectively halted new Chinese migration. Just consider the years 1885 to 1887:
+
+<blockquote>The Rock Springs Massacre, also known as the Rock Springs Riot, a riot between Chinese immigrant miners and white immigrant miners, occurs at Rock Springs in Sweetwater County, Wyoming, due to racial tensions created by an ongoing labor dispute over the Union Pacific Coal Department's policy of paying Chinese miners less than white miners, and giving them a preference in hiring. The riot, instigated by white miners, leads to at least 28 (and likely more) Chinese miners dead, and many non-fatal injuries. There is some speculation that the Knights of Labor organization is connected to the riots, but no definitive evidence.</blockquote>
+
+<blockquote>The Attack on Squak Valley Chinese laborers, 1885 occurs.</blockquote>
+
+<blockquote>The Tacoma Riot of 1885 occurs. The city of Tacoma had proposed a November 1 deadline for the Chinese population to leave the city. On November 3, two days after the deadline, an angry mob consisting of prominent businessmen, law enforcement, and political leaders marches Chinese residents to the railroad station and forces them to board a train to Portland. In the following days, structures belonging to the now expelled Chinese residents are razed.</blockquote>
+
+<blockquote>The Seattle Riot of 1886 occurs after a Knights of Labor chapter attempts forcible expulsion of all Chinese from the city. Violence occurs between chapter members and federal troops ordered in by President Grover Cleveland.</blockquote>
+
+<blockquote>The Hells Canyon Massacre occurs, with 34 Chinese miners ambushed and murdered. The site of the violence is renamed Chinese Massacre Cove in 2005, and a memorial is placed there in 3 languages in 2012.</blockquote>
+
+
