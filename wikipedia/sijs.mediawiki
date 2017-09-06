@@ -44,7 +44,7 @@ The form may be filled by the child or a guardian acting on the child's behalf. 
 * The court order must be valid at the time of filing of the form.
 * The child must be a minor at the time of filing of the form (the age could be 18 or 21 depending on the state).
 
-As part of a settlement agreement for a class action lawsuit, the USCIS has agreed to accept Form I-360 petitions where the underlying court order has ceased to be valid solely on account of age.<refn name=perez-olano/>
+As part of a settlement agreement for a class action lawsuit, the USCIS has agreed to accept Form I-360 petitions where the underlying court order has ceased to be valid solely on account of age.<ref name=perez-olano/>
 
 === Form I-485 for Adjustment of Status ===
 
