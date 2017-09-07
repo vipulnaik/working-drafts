@@ -1,0 +1,25 @@
+'''''Pacific Appeal''''' was an African-American newspaper based in [[San Francisco]], [[California]] and published from April 1862 to June 1880.<ref name=internet-archive>{{cite web|url = https://archive.org/details/pacificappeal00pand|title = The Pacific Appeal|publisher = Internet Archive|accessdate = September 7, 2017}}</ref><ref name=chronicling-america>{{cite web|url = http://chroniclingamerica.loc.gov/lccn/sn83027099/|title = About The Pacific appeal. volume (San Francisco, Cal.) 1862-188?|publisher = [[Library of Congress]]|accessdate = September 7, 2017}}</ref><ref name=antislavery-poetry>{{cite web|url = http://antislavery.eserver.org/poetry/pacific-appeal-antislavery-poetry-1862|title = Pacific Appeal Antislavery Poetry (1862)|accessdate = September 7, 2017}}</ref><ref name=philip-bell-bio>{{cite web|url = http://www.blackpast.org/aaw/bell-philip-alexander-1808-1889|title = Bell, Philip Alexander (1808-1889)|publisher = BlackPast.org|accessdate = September 7, 2017}}</ref>
+
+== History ==
+
+''Pacific Appeal'' was co-founded by [[Philip Alexander Bell]], an African-American civil rights and antislavery activist who had established ''Weekly Advocate'' (edited by [[Samuel Cornish]]) and worked for [[William Lloyd Garrison]]'s ''Liberator'',<ref name=philip-bell-bio/> and Peter Anderson, a San Francisco civil rights activist and delegate at the California Colored Citizens Convention.<ref name=peter-anderson-bio>{{cite web|url = http://www.blackpast.org/aaw/anderson-peter-c-1822-1879|title = Anderson, Peter (c.1822-1879)|publisher = BlackPast.org|accessdate = September 7, 2017}}</ref> It was the successor to ''The Mirror of the Times'', another San Francisco-based African-American newspaper that had been established in 1855,<ref name=antislavery-poetry/> with the change of name occurring along with a change of proprietor from Judge Mifflin W. Gibbs<ref name=aape/>{{rp|76}}<ref name=negro-journal>{{cite book|url = https://books.google.com/books?id=jKU4AAAAIAAJ|title = Negro Journalism: An Essay on the History and Present Conditions of the Negro|author = George William Gore|accessdate = September 7, 2017}}</ref>{{rp|8}} to William H. Carter.<ref name=aape/>{{rp|91}} Its contemporaries at the time included the ''Anglo-African'', and it was regarded as the official organ of African-Americans on the Pacific slope.<ref name=aape/>{{rp|91}}
+
+The paper’s motto was “He who would be free, himself must strike the blow.”<ref name=aape/>{{rp|92}}<ref name=antislavery-poetry/> It began publishing in April 1862.<ref name=internet-archive/><ref name=chronicling-america/>
+
+Later, Bell and Anderson would split, with Bell accusing Anderson of becoming less antislavery and more accommodationist.<ref name=antislavery-poetry/>
+
+== External coverage ==
+
+The coverage of antislavery and civil rights issues in the first few years has been covered by historians and chroniclers of black abolitionism of the era, including in ''[[The Afro-American Press and Its Editors]]''.<ref name=aape>{{cite book|url = https://books.google.com/books?id=Y80OAAAAIAAJ|title = The Afro-American Press and Its Editors|accessdate = September 7, 2017}}</ref>{{rp|92}}<ref name=bap>{{cite web|url = http://bap.chadwyck.com/infoCenter/infoCenter.do?page=bap_guide_front|title = Black Abolitionist Papers: Front Matter from A Guide to the Microfilm Collection|accessdate = September 7, 2017}}</ref><ref name=antislavery-poetry/>
+
+== Notable content ==
+
+The inaugural 1862 volume contained eight antislavery poems, including four poems by San Francisco poet [[James Madison Bell]], writing under the initials JMB.<ref name=antislavery-poetry/>
+
+''Pacific Appeal'' also published a number of letters by [[Emperor Norton]], self-proclaimed Emperor of the United States, including his proposals for what would later become the [[San Francisco–Oakland Bay Bridge]] and the [[Transbay Tube]].<ref>{{cite web|url = http://www.emperorsbridge.org/emperor/bridge-proclamations/|title = EMPEROR NORTON  ::  Bridge Proclamations|accessdate = June 3, 2017|publisher = The Emperor's Bridge Campaign}}</ref><ref name=emperor-norton-bridge-1>{{cite web|url = https://cdnc.ucr.edu/cgi-bin/cdnc?a=d&d=PA18720106.2.7&e=-------en--20--1--txt-txIN------|title = Emperor Norton Bridge Proclamation I|date = January 6, 1872|accessdate = June 3, 2017|author = [[w:Emperor Norton|Emperor Norton]]|publisher = ''Pacific Appeal''}}</ref><ref name=emperor-norton-bridge-2>{{cite web|url = https://cdnc.ucr.edu/cgi-bin/cdnc?a=d&d=PA18720323.2.3&e=-------en--20--1--txt-txIN------|title = Emperor Norton Second Bridge Proclamation|date = March 23, 1872|accessdate = June 3, 2017|author = {{w|Emperor Norton}}|publisher = ''Pacific Appeal''}}</ref><ref name=emperor-norton-transbay-tube>{{cite web|url = https://cdnc.ucr.edu/cgi-bin/cdnc?a=d&d=PA18720615.2.4&e=-------en--20--1--txt-txIN------|title = Emperor Norton Transbay Tube Declaration|author = Emperor Norton|publisher = ''Pacific Appeal''}}</ref>
+
+== References ==
+
+{{reflist|30em}}
+
+[[Category: African-American newspapers]]
