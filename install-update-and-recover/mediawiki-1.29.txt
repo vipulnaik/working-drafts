@@ -1,0 +1,61 @@
+NNTR = no need to repeat (if done once, should persist on my VM)
+
+== Upgrade MediaWiki ==
+
+=== Update PHP ===
+
+* Assume you are starting with PHP 7.0 (NNTR)
+
+* install mbstring with `apt-get install php7.0-mbstring` (NNTR)
+
+* restart nginx and php7.0-fpm
+
+=== Get basic MediaWiki setup in place ===
+
+* Create folder ~/software/mediawiki/1.29 (NNTR)
+
+* Run `wget https://releases.wikimedia.org/mediawiki/1.29/mediawiki-1.29.1.tar.gz` in that folder (NNTR)
+
+* Run `tar -xvzf mediawiki-1.29.1.tar.gz` in that folder (NNTR)
+
+* Create new copy ~/mediawiki/<project>-new/ with subfolders w/ and logs/ and copy ~/software/mediawiki/1.29/mediawiki-1.29.1/ into the subfolder w/
+
+* Also touch logs/access.log and logs/error.log
+
+* Copy over ~/mediawiki/<project>/w/LocalSettings.php to ~/mediawiki/<project>-new/w/LocalSettings.php
+
+* Copy over ~/mediawiki/<project>/w/extensions/ to ~/mediawiki/<project>-new/w/extensions/
+
+* Add the following in ~/mediawiki/<project>-new/w/LocalSettings.php
+
+wfLoadSkin( 'CologneBlue' );
+wfLoadSkin( 'Modern' );
+wfLoadSkin( 'MonoBook' );
+wfLoadSkin( 'Vector' );
+
+* Go to ~/mediawiki/<project>/w/maintenance and run `php7.0 update.php`
+
+=== Scribunto ===
+
+* Create ~/software/mediawiki/extensions/scribunto/
+
+* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-Scribunto.git
+
+* mkdir ~/mediawiki/<project>-new/w/extensions/Scribunto
+
+* In Scribunto, cp -r ~/software/mediawiki/extensions/scribunto/mediawiki-extensions-Scribunto/* ./
+
+
+=== Upgrade Semantic MediaWiki ===
+
+(Still not done)
+
+* wget SMW 1.8.0.5 (NNTR) and put in ~/software/mediawiki/extensions/semanticmediawiki/1.8.0.5/ and rename to something without spaces
+
+* `tar -xvzf <downloaded>`
+
+* Delete your old SemanticMediaWiki/ and Validator/ in ~/mediawiki/<project>-new/w/extensions/ and copy the new SemanticMediaWiki/ and Validator/ into that
+
+* Update ~/mediawiki/<project>-new/w/semanticsettings.inc adding the line `$smwgDefaultStore = 'SMWSQLStore2';` as per https://www.semantic-mediawiki.org/wiki/Help:Installation_1.8.0#Upgrading_existing_installations
+
+* Go to ~/mediawiki/devec-new/w/extensions/SemanticMediaWiki/maintenance and run `php7.0 SMW_setup.php -b SMWSQLStore3`
