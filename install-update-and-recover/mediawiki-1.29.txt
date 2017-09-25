@@ -35,16 +35,83 @@ wfLoadSkin( 'Vector' );
 
 * Go to ~/mediawiki/<project>/w/maintenance and run `php7.0 update.php`
 
+* Turn off Semantic MediaWiki (since that needs separate upgrading)
+
+=== Nginx ===
+
+* Change <project>/ to <project>-new/ in the nginx config
+
+* Restart Nginx and PHP7.0-FPM
+
 === Scribunto ===
 
-* Create ~/software/mediawiki/extensions/scribunto/
+* Create ~/software/mediawiki/extensions/scribunto/ (NNTR)
 
-* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-Scribunto.git
+* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-Scribunto.git (NNTR)
+
+* Switch to branch REL1_29 (NNTR)
 
 * mkdir ~/mediawiki/<project>-new/w/extensions/Scribunto
 
 * In Scribunto, cp -r ~/software/mediawiki/extensions/scribunto/mediawiki-extensions-Scribunto/* ./
 
+* chmod a+x ~/mediawiki/<project>-new/w/extensions/Scribunto/engines/LuaStandalone/binaries/lua5_1_5_linux_64_generic/lua
+
+* Add these two lines in ~/mediawiki/<project>-new/w/extensionlist.inc
+
+require_once("extensions/Scribunto/Scribunto.php");
+$wgScribuntoDefaultEngine = 'luastandalone';
+
+* Go check that things are still running
+
+=== ParserFunctions ===
+
+* Create ~/software/mediawiki/extensions/ParserFunctions/ (NNTR)
+
+* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-Scribunto.git (NNTR)
+
+* Switch to branch REL1_29 (NNTR)
+
+* Empty out if already present ~/mediawiki/<project>-new/w/extensions/ParserFunctions
+
+* In ParserFunctions, cp -r ~/software/mediawiki/extensions/ParserFunctions/mediawiki-extensions-ParserFunctions/* ./
+
+* In ~/mediawiki/<project>-new/w/extensionlist.inc, add the line:
+
+wfLoadExtension( 'ParserFunctions' );
+
+=== Cite ===
+
+* Create ~/software/mediawiki/extensions/Cite/ (NNTR)
+
+* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-Scribunto.git (NNTR)
+
+* Switch to branch REL1_29 (NNTR)
+
+* Empty out if already present ~/mediawiki/<project>-new/w/extensions/Cite
+
+* In Cite, cp -r ~/software/mediawiki/extensions/Cite/mediawiki-extensions-Cite/* ./
+
+* In ~/mediawiki/<project>-new/w/extensionlist.inc, add the line:
+
+wfLoadExtension( 'Cite' );
+
+=== MobileFrontend ===
+
+* Create ~/software/mediawiki/extensions/MobileFrontend/ (NNTR)
+
+* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-Scribunto.git (NNTR)
+
+* Switch to branch REL1_29 (NNTR)
+
+* Empty out if already present ~/mediawiki/<project>-new/w/extensions/MobileFrontend
+
+* In MobileFrontend, cp -r ~/software/mediawiki/extensions/MobileFrontend/mediawiki-extensions-MobileFrontend/* ./
+
+* In ~/mediawiki/<project>-new/w/extensionlist.inc, add the line:
+
+wfLoadExtension( 'MobileFrontend' );
+$wgMFAutodetectMobileView = true;
 
 === Upgrade Semantic MediaWiki ===
 
