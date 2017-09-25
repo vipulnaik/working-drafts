@@ -2,13 +2,13 @@ NNTR = no need to repeat (if done once, should persist on my VM)
 
 == Upgrade MediaWiki ==
 
-=== Update PHP ===
+=== Update PHP (NNTR) ===
 
 * Assume you are starting with PHP 7.0 (NNTR)
 
 * install mbstring with `apt-get install php7.0-mbstring` (NNTR)
 
-* restart nginx and php7.0-fpm
+* restart nginx and php7.0-fpm (NNTR)
 
 === Get basic MediaWiki setup in place ===
 
