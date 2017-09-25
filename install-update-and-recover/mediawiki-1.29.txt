@@ -68,7 +68,7 @@ $wgScribuntoDefaultEngine = 'luastandalone';
 
 * Create ~/software/mediawiki/extensions/ParserFunctions/ (NNTR)
 
-* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-Scribunto.git (NNTR)
+* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-ParserFunctions.git (NNTR)
 
 * Switch to branch REL1_29 (NNTR)
 
@@ -84,7 +84,7 @@ wfLoadExtension( 'ParserFunctions' );
 
 * Create ~/software/mediawiki/extensions/Cite/ (NNTR)
 
-* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-Scribunto.git (NNTR)
+* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-Cite.git (NNTR)
 
 * Switch to branch REL1_29 (NNTR)
 
@@ -100,7 +100,7 @@ wfLoadExtension( 'Cite' );
 
 * Create ~/software/mediawiki/extensions/MobileFrontend/ (NNTR)
 
-* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-Scribunto.git (NNTR)
+* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-MobileFrontend.git (NNTR)
 
 * Switch to branch REL1_29 (NNTR)
 
@@ -112,6 +112,22 @@ wfLoadExtension( 'Cite' );
 
 wfLoadExtension( 'MobileFrontend' );
 $wgMFAutodetectMobileView = true;
+
+=== Math ===
+
+* Create ~/software/mediawiki/extensions/Math/ (NNTR)
+
+* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-Math.git (NNTR)
+
+* Switch to branch REL1_29 (NNTR)
+
+* Empty out if already present ~/mediawiki/<project>-new/w/extensions/Math
+
+* In Math, cp -r ~/software/mediawiki/extensions/Math/mediawiki-extensions-Math/* ./
+
+* In ~/mediawiki/<project>-new/w/mathsettings.inc, add the line:
+
+wfLoadExtension( 'Math' );
 
 === Upgrade Semantic MediaWiki ===
 
