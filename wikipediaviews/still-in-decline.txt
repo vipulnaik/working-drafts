@@ -1,0 +1,31 @@
+Text of https://www.lesserwrong.com/posts/ghBZDavgywxXeqWSe/wikipedia-pageviews-still-in-decline
+
+In March 2015, I wrote about a decline in Wikipedia desktop pageviews over the last few years (and posted a short version to LessWrong). With a lot of help from Issa Rice over the last year, and a lot more quality data, I've revisited the claims of that post.
+
+This post provides a high-level summary of my takeaways. If enough people express interest in the comments, I intend to write up in more detail on the aspects that people express interest in. If I do a more detailed writeup, it will probably be in the latter half of 2018, giving enough additional data to evaluate how well the decline hypothesis holds up.
+
+Here are the top-level conclusions.
+
+Have English desktop Wikipedia pageviews (i.e., pageviews of Wikipedia pages from desktop devices) actually declined? Short answer: Yes, they have declined by over 50% since the peak between late 2012 and late 2013. Some supposedly timeless page types have declined by up to 75-80%. The effect of per-page decline is partly cancelled by increase in number of pages. If I do a longer post, I'll compare the time periods September to November 2012 against September to November 2017, and April to June 2013 against April to June 2018. Both are three-month periods, with equal representation of all days of week, the same time of the year, and with a separation of five years.
+
+Why have English desktop pageviews declined? Short answer: Substitution to mobile could explain between 10 and 40 percentage points of the desktop decline. I personally gravitate to the lower end of the estimate range. Inclusion/exclusion of non-human traffic could explain between 5 and 20 percentage points of the decline. Switch to HTTPS and the block of Wikipedia in China explain a sharp mid-2015 decline, but use of Chinese Wikipedia (which should have been most affected) has recovered, and I expect the long-term effect to be close to zero. At most, it is 5 percentage points. The residual decline is between 0 and 20 percentage points, which, after rebasing, is between 0 and 40% for desktop. Two leading candidates to explain the residual are increased reliance on social media and search engine algorithm changes.
+
+Have total (desktop + mobile) human English Wikipedia pageviews declined? Why? Short answer: Total (desktop + mobile) human pageviews likely peaked around late 2013, and have declined by about 20% since then. Per-page pageviews have gone down significantly more for the page types that saw the biggest desktop declines. Effect of per-page decline is partly cancelled by increase in number of pages. Candidate explanations are the same as for (2): increased reliance on social media and search engine algorithm changes.
+
+Is there a compensating increase in other language Wikipedias? Short answer: No. In fact, other top language Wikipedias (German, Russian, Spanish, Japanese, French) have a broadly similar decline trend as the English Wikipedia, both overall and per-page. Some minor language Wikipedias saw a huge proportional increase but not enough to compensate for the English Wikipedia decline. For instance, monthly Hindi Wikipedia mobile web pageviews exploded from about 1 million in early 2013 to over 30 million in 2017, which is peanuts compared to 3-4 billion monthly English desktop and English mobile web Wikipedia pageviews. The lowest-traffic language Wikipedias saw a huge proportional decline in desktop and mobile web traffic in 2015, which is explained by bot filtering being activated.
+
+Do people subjectively feel they are using Wikipedia less? How do we square their subjective impressions with the statistics? People generally perceive either no change in use or say they don't use Wikipedia at all. But in a head-to-head comparison of "use more now" versus "use less now", the former wins.
+
+Why might this be an interesting thing to study?
+
+Wikipedia pageview data is one of the most comprehensive and granular open datasets covering a wide variety of areas of interest, so they provide a useful way to understand both people's relative interest in different topics, and the trends in individual topics as well as the Internet as a whole. Specifically:
+
+If you're interested in how interest in specific topics has evolved over time, or if you're interested in how people's Internet use has changed over time, Wikipedia pageviews are a useful part of your toolkit, just like Google Trends. Having a good sense of the general trends in Wikipedia pageviews allows you to better "normalize" for these trends and give more context to the numbers you see.
+
+If you're interested in the overall growth (or decline!) of the Internet, Wikipedia, as one of the top sites on the Internet, and one that does not engage in a lot of advertising and view optimization, offers some insight.
+
+One of the hypotheses that might explain part of the decline, namely increased reliance on social media, is of particular interest to rationalists and LessWrong. LessWrong pageviews also peaked at roughly the same time as Wikipedia pageviews, and social media (particularly Facebook) has been implicated in the decline of LessWrong (see the comments here).
+
+So, what do you think? How interesting do you find this topic? What parts are you skeptical of? What parts are you most interested in seeing explored or justified more rigorously?
+
+PS: If you're curious what a more detailed report might look like, check out the draft Issa and I worked on last year. All responsibility for errors, both in the draft and in this teaser post, is mine. You can also check out the timeline of Wikimedia analytics to understand changes relevant to interpreting analytics.
