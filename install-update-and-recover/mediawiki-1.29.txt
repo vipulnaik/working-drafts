@@ -26,6 +26,8 @@ NNTR = no need to repeat (if done once, should persist on my VM)
 
 * Copy over ~/mediawiki/<project>/w/extensions/ to ~/mediawiki/<project>-new/w/extensions/
 
+* Copy over images if you have any (TBF)
+
 * Add the following in ~/mediawiki/<project>-new/w/LocalSettings.php
 
 wfLoadSkin( 'CologneBlue' );
