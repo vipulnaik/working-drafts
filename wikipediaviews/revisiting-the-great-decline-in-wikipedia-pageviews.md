@@ -1963,7 +1963,7 @@ is based off of.
 [gkg_sel]: http://searchengineland.com/google-launches-knowledge-graph-121585 "Danny Sullivan. “Google Launches Knowledge Graph To Provide Answers, Not Just Links”. May 16, 2012. Search Engine Land."
 [gkg_wiki]: https://en.wikipedia.org/wiki/Knowledge_Graph " “Knowledge Graph”. Wikipedia, the Free Encyclopedia."
 [great_decline]: http://lesswrong.com/lw/lxc/the_great_decline_in_wikipedia_pageviews/ "Vipul Naik. “The great decline in Wikipedia pageviews (condensed version)”. March 27, 2015. LessWrong."
-[great_decline_full]: http://vipulnaik.com/blog/the-great-decline-in-wikipedia-pageviews-full-version/ "“The great decline in Wikipedia pageviews (full version)”. Vipul Naik. March 25, 2015."
+[great_decline_full]: https://vipulnaik.com/blog/the-great-decline-in-wikipedia-pageviews-full-version/ "“The great decline in Wikipedia pageviews (full version)”. Vipul Naik. March 25, 2015."
 [grok_faq]: http://stats.grok.se/about "“Wikipedia article traffic statistics”. stats.grok.se. Retrieved September 27, 2016."
 [gt_plot_doc]: https://github.com/riceissa/wikipedia-decline#exporting-google-trends-data
 [mob_stats]: https://stats.wikimedia.org/EN/TablesPageViewsMonthlyMobile.htm "“Page Views for Wikipedia, Mobile site, Normalized”. Wikimedia. Retrieved September 27, 2016."
