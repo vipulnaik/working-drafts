@@ -1,0 +1,8 @@
+In my experience, writing full-fledged, thoroughly researched material is pretty time-consuming, and if you push that out to the audience immediately, (1) you've sunk a lot of time and effort that the audience may not appreciate or care about, and (2) you might have too large an inferential gap with the audience for them to meaningfully engage.
+
+The alternative I've been toying with is something like this: when I'm roughly halfway through an investigation, I publish a short post that describes my tentative conclusions, without fully rigorous backing, but with (a) clearly stated conclusions, and (b) enough citations and other signals that there's decent research backing my process. Then I ask people what they think of the thesis, which parts they are interested in, and what they are skeptical of. Then after I finish the rest of the investigation I push a polished writeup only for those parts (for the rest, it's just informal notes + general pointers).
+
+For examples, see https://www.lesserwrong.com/posts/ghBZDavgywxXeqWSe/wikipedia-pageviews-still-in-decline and http://effective-altruism.com/ea/1f9/the_aidsmalaria_puzzle_bleg/ (both are just the first respective steps for their projects).
+
+I feel like this both makes comments more valuable to me and gives more incentive to commenters to share their thoughts, but the jury is still out.
+
