@@ -1,0 +1,31 @@
+GiveWell-style analyses focus on a cost-benefit framework: how much extra benefit do we get from marginal spending? For instance, an analysis of bednet distribution will focus on whether the bednets would have been distributed anyway, whether people would have bought them themselves, how much having a bednet reduces incidence of and mortality from malaria.
+
+Missing from most of these analyses are concepts of moral responsibility and desert. Part of the "effective altruist" triumph has been to sidestep such questions to focus on cost-benefit calculations, which seems to create less rancor :). With that said, as I think more about what I'd like my money used for, concepts of moral responsibility are at the fore.
+
+For instance, when I think of bednet distribution, one of my first questions is -- why aren't people buying enough bednets themselves? Three kinds of answers come to my mind:
+
+(a) They haven't seen the power of bednets in action (maybe because these were never yet distributed in their region, or not for long enough).
+
+(b) They have rational reasons for not wanting to buy the bednets (for instance, better uses of their money, or maybe it's pretty stifling to sleep under a bednet at night (something I can related to, having lived in a place with mosquitoes!)). Or maybe they don't see malaria as that big of a deal.
+
+(c) They're being irrational despite having good reason to believe the bednets will be effective
+
+(b) and (c) aren't easy to separate in practice, but it doesn't matter. I believe that (a) is a good reason for free or heavily subsidized distributions, whereas (b) and (c) leave us on shaky ground -- in (b) they have come to a best judgment based on considering factors, so who are we to override them? And in case of (c), the moral responsibility question comes in -- if somebody has seen evidence of something working, and is irrationally rejecting it, does it make sense for me to keep gifting it to them?
+
+Even in the presence of (b) and (c), the intervention could make sense, but my point is that I'd want to impose a higher cost-effectiveness bar on it than in the case of (a). For me, for instance, case (a) would justify an intervention if the cost of saving a life was a few thousand dollars, whereas cases (b) and (c) would only justify it if the cost were under a thousand dollars (these are arbitrary numbers partly influenced by the current amount of money I have).
+
+Some implications of my overall direction of thinking:
+
+(1) I am interested in understanding how easy it is for a reasonably determined and minimally knowledgeable person living in the affected areas to avoid the disease (basically, controlling for (b) and (c)). Based on my (very preliminary) understanding of disease transmission, some diseases are very easily avoidable, such as HIV/AIDS. Some diseases are harder to avoid, such as malaria, though we can still look at whether people are taking the basic precautions that proposed interventions might be trying to spread.
+
+(2) I'm also interested in better understanding _why_ the precautions that might seem (to me) easy to take aren't being taken. Could it be because of (a), (b), or (c)? I feel this should be something we should be very curious about, in the spirit of the kinds of questioning and curiosity showcased in _Poor Economics_.
+
+PS: It's possible to make corresponding utilitarian/consequentialist points to the points I make, e.g., in terms of signaling and incentives for the future. That's the sort of point that GiveWell has made in the past, e.g., https://blog.givewell.org/2012/05/30/giving-cash-versus-giving-bednets/
+
+"""Two different people told us in off-the-record conversations that they thought that this occurred because the mothers offered subsidized bednets believed that they would be able to acquire free nets at some other point. There have been periodic free ITN distributions in many sub-Saharan African countries over the last decade, and the international consensus seems to be that governments should distribute ITNs free of charge in malaria-endemic areas. Accordingly, it should not be especially surprising that citizens may expect bednets to be provided free of charge, and may not move to purchase them even if they are available at subsidized prices in the marketplace. If we reasonably expect to be given something for free in a relatively short time window, why buy it now?
+
+This wouldn’t necessarily have been the case if philanthropy had never funded bednets, but having started down this path, I think it provides another consideration in favor of continuing. If we could credibly and cheaply communicate that no more bednets would be forthcoming, this consideration wouldn’t matter, but there is no obvious way to do so."""
+
+The irony is that the GiveWell blog post, arguing from a more consequentialist standpoint, comes to a somewhat opposite conclusion to what I would come to.
+
+Cross-posted from https://www.facebook.com/groups/1520172064903930/permalink/1955906287997170/
