@@ -1,0 +1,138 @@
+{{economic statistics project}}
+
+The '''Maddison Project''', also known as the '''Maddison Historical Statistics Project''', is a project to collate historical [[economic statistics]], such as [[Gross Domestic Product|GDP]], GDP per capita, and labor productivity.<ref name=official-website>{{cite web|url = http://www.ggdc.net/maddison/maddison-project/home.htm|title = Maddison Project|accessdate = October 3, 2017}}</ref><ref name=ggdc-linking-page>{{cite web|url = http://www.rug.nl/ggdc/historicaldevelopment/maddison/|title = The Database|publisher = Groningen Growth and Development Centre|accessdate = October 3, 2017}}</ref><ref name=worldbank-long-era>{{cite web|url = http://blogs.worldbank.org/developmenttalk/end-long-era|title = The end of a long era|last = Milanović|first = Branko|authorlink = Branko Milanović|date = July 19, 2013|accessdate = October 3, 2017|publisher = [[World Bank]]}}</ref> It was launched in March 2010 to continue the work of the late economic historian [[Angus Maddison]]. The project is under the Groningen Growth and Development Centre at the [[University of Groningen]],<ref name=ggdc-linking-page/> which also hosts the [[Penn World Table]], another economic statistics project.<ref name=ggdc-pwt>{{cite web|url = http://www.rug.nl/ggdc/productivity/pwt/|title = The Database. Penn World Table version 9.0|accessdate = October 3, 2017|publisher = Groningen Growth and Development Centre}}</ref>
+
+This page describes the data and methods both produced by the explicit Maddison Project and produced by Angus Maddison before his death (since the Maddison Project is continuation of his work).
+
+== Summary ==
+
+{| class="wikitable" border="1"
+! Item !! Value
+|-
+| Start date || March 2010 for the explicit Maddison Project<ref name=official-website/><br/>1960s for the original work by Angus Maddison that was the genesis of the project.<ref name=maddison-project-2013-update>{{cite web |url=http://www.ggdc.net/maddison/maddison-project/publications/wp4.pdf |title=The First Update of the Maddison Project Re-Estimating Growth Before 1820 |first1=Jutta |last1=Bolt |first2=Jan Luiten |last2=van Zanden |date=January 2013 |accessdate=October 3, 2017}}</ref>{{rp|3}}
+|-
+| Data versioning || Only one update released as Maddison Project, published January 2013 with data till 2010.<ref name=maddison-project-2013-update/><ref name=maddison-project-2013-data/><br/>Multiple versions by Angus Maddison, the last of which was published in February/March 2010.<ref name=angus-maddison-2010-update>{{cite web|url = http://www.ggdc.net/maddison/Historical_Statistics/BackgroundHistoricalStatistics_03-2010.pdf|title = Background notes on "Historical Statistics" in www.ggdc.net/Maddison|date = March 1, 2010|accessdate = October 7, 2017|}}</ref>
+|-
+| Focus || Historical: identify general ballparks and trends in living standards and economic growth over long time periods.<br/>Provide better insight into the timeline of the [[Great Divergence]] between Western Europe and other regions that were historically similarly situated, such as China and India.
+|-
+| PPP comparison method used || The method developed by Kravis, Heston, and Summers for the {{w|International Comparison Program}}.<ref name=angus-maddison-2010-update/> The same method is used by the [[Penn World Table]].
+|}
+
+== Versions ==
+
+The list of versions is incomplete.
+
+{| class="wikitable sortable" border="1"
+! Version !! Formats available !! Year of publication !! Month of publication !! Most recent year till which data is present !! Dimensions (inputs) !! Metrics (outputs)
+|-
+| Maddison 2010 (version published at start of Maddison Project)<ref name=angus-maddison-2010-update/> || Excel spreadsheet, both horizontal (years are columns)<ref name=angus-maddison-2010-data-horizontal>{{cite web|url = http://www.ggdc.net/maddison/Historical_Statistics/horizontal-file_02-2010.xls|title = Horizontal file|date = February 1, 2010|accessdate = October 7, 2017}}</ref> and vertical (years are rows)<ref name=angus-maddison-2010-data-vertical>{{cite web|url = http://www.ggdc.net/maddison/Historical_Statistics/vertical-file_02-2010.xls|title = Vertical file|date = February 1, 2010|accessdate = October 7, 2017}}</ref> || 2010 || March (for explanatory note), February (for data) || 2008 || Country (or geographical region) and year || Population, real GDP, real GDP per capita, population growth, real GDP growth, real GDP per capita growth
+|-
+| Maddison 2013 (first update by Maddison Project)<ref name=maddison-project-2013-update/> || Excel spreadsheet, only vertical (years are rows)<ref name=maddison-project-2013-data/> || 2013 || January || 2010 || Country (or geographical region) and year || Real GDP per capita
+|}
+
+== Data description ==
+
+=== Data dimensions and metrics ===
+
+The data presented in the Maddison Project database is a partial function where:
+
+* The inputs (the dimensions) are country and year.
+* The metrics include:
+** Population: Included in 
+** Real GDP
+** Real GDP per capita, expressed in 1990 international [[Geary–Khamis dollar]]s. For simplicity, we will refer to this as GDP per capita.
+
+==== Year dimension ====
+
+While calendar years are the finest granularity at which data is presented, not all calendar years have data. Here is a description of how the granularity changes over time. Note that we count an year is present if there is data for at least one country for that year.<ref name=maddison-project-2013-data/><ref name=angus-maddison-2010-data-vertical/>
+
+{| class="wikitable sortable" border="1"
+! Year range !! Data granularity for Maddison 2010 !! Data granularity for Maddison 2013
+|-
+| 2009 to 2010 || Not present || Every year
+|-
+| 1820 to 2008 || Every year || Every year
+|-
+| 1800 to 1819 || Not present || Every year
+|-
+| 1700 to 1799 || 1700 (only one year) || 1700, 1725, 1750, 1775
+|-
+| 1400 to 1699 || 1400, 1500, 1600 (once every 100 years) || 1400, 1450, 1500, 1550, 1600, 1650 (once every 50 years)
+|-
+| Before 1400 || 1, 1000 || 1, 730, 1000 1150, 1280, 1300, 1348
+|}
+
+==== Country dimension ====
+
+The country dimension includes most modern countries, but also includes historical countries (such as the former USSR) and regions within countries (such as centre-north Italy) for which it is easier to get historical data than their modern country equivalents. The working paper says:<ref name=maddison-project-2013-update/>
+
+{{quotation|A related issue is that historical estimates often refer to different territorial entities than the countries within the borders of 1990, the basic unit of account used in the Maddison framework. He made many corrections for (minor) changes in borders (an overview will be provided in future work). However, moving back in time sometimes means that we have only estimates for Northern Italy (instead of Italy as a whole), for Holland (Netherlands) or for the Cape Colony (South Africa). When those smaller regions represented less than two-third of the population and/or the GDP of the modern country (within current borders), we have presented the estimates in italics to warn users.}}
+
+In addition, data is also presented on aggregate regions (such as Western Europe) and the whole world. Data on aggregate regions and former countries is presented in bold.
+
+==== Other information ====
+
+As mentioned in connection with the country dimension, italics and bold are used for some cells.
+
+Notes are added for some estimates, that are visible by hovering over the cell in spreadsheet software. A triangle at the top right of a cell indicates that there are notes for that cell.
+
+Although the estimates ''should'' be color-coded (see [[#Accuracy and precision]]), this color-coding does not seem to show up in Google Sheets or Mac's Numbers software (it might show up only in Excel).
+
+=== Caveats ===
+
+==== Completeness ====
+
+Data is not present for every combination of country and year. This could be because of the absence of reliable sources that could be used to construct the data.
+
+Data on former countries continues to be calculated for years after that country ceases to exist as a geopolitical entity. 
+
+==== Accuracy and precision ====
+
+Data is fairly inaccurate and imprecise, with the accuracy and precision getting worse the farther back in time we go, and also varying significantly across geographical regions. However, the database does not provide error bars or any other explicit quantification of uncertainty. 
+
+The working paper uses [[Steve Broadberry's classification of data sources]], listing four broad types of data sources in decreasing order of reliability, along with the color coding that should show up in the database.<ref name=maddison-project-2013-update/>{{rp|5}} Unfortunately, the color coding does not seem to show up in Mac's Numbers or in Google Sheets.<ref name=maddison-project-2013-data/>
+
+{| class="wikitable" border="1"
+! Rank !! Type of estimate !! Color coding in database
+|-
+| 1 ||  official estimates of GDP, made by national statistical offices or by international agencies (UN, for example) || black
+|-
+| 2 || historical estimates based on the same methods and broad range of data|| blue
+|-
+| 3 || historical estimates based on indirect proxy variables || orange
+|-
+| 4 || guesstimates || red
+|}
+
+==== Design decisions that might lead to systematic biases ====
+
+Maybe something about the purchasing power parity marking China as too expensive?<ref name=maddison-right>{{cite web|url = http://www.ggdc.net/maddison/maddison-project/publications/wp7.pdf|title = What Makes Maddison Right?|author = Jan Luiten van Zanden|author2 = Debin Ma|date = September 1, 2017|accessdate = October 5, 2017}}</ref>
+
+== Reception ==
+
+{| class="wikitable" border="1"
+! Person !! Affiliation !! Qualification !! Opinion
+|-
+| {{w|Branko Milanović}}<ref name=worldbank-long-era/> ||  [[World Bank]] || Development economist || Only source for long-run national GDPs going back to 1920s<br/>Also, differing conclusions about Chinese GDP and growth rates due to higher estimates of their price levels
+|-
+| {{w|Morten Jerven}}<ref>{{cite web|url = http://www.ras.org.in/print/discrepancies_why_do_GDP_growth_rates_differ|title = Why Do GDP Growth Rates Differ?|last = Jerven|first = Morten|accessdate = October 3, 2017}}</ref> || Norwegian University of Life Sciences || Development economist || One of three main sources of GDP numbers
+|-
+| [[Bill Gates]]<ref name=gates-guardian>{{cite web|url = https://www.theguardian.com/business/economics-blog/2013/may/08/measuring-growth-gdp-africa|title = Bill Gates: how GDP understates economic growth. GDP may be an inaccurate indicator in sub-Saharan Africa, which is a concern for those who want to use statistics to help the world's poorest people|last = Gates|first = Bill|authorlink = Bill Gates|publisher = ''[[The Guardian]]''|date = May 8, 2013|accessdate = October 3, 2017}}</ref> || Bill & Melinda Gates Foundation || Smart well-read person || Mostly echoes Jerven
+|-
+| [[Paul Krugman]]<ref>{{cite web|url = https://krugman.blogs.nytimes.com/2013/04/26/debt-and-growth-data/|title = Debt and Growth Data|last = Krugman|first = Paul|authorlink = Paul Krugman|date = April 26, 2013|accessdate = October 3, 2017|publisher = ''[[New York Times]]''}}</ref> || New York Times || Economist, columnist || Data source for historical debt, growth, and labor output and productivity data.
+|}
+
+== See also ==
+
+* [[Penn World Table]]
+* [[World Development Indicators]]
+* ''[[The World Economy: Historical Statistics]]'', a 2004 book by Angus Maddison that is an early precursor of the work done by the Maddison Project
+* [[Angus Maddison statistics of the ten largest economies by GDP (PPP)]]
+
+== References ==
+
+{{reflist|30em}}
+
+== External links ==
+
+* {{official website|http://www.ggdc.net/maddison/maddison-project/home.htm}}
