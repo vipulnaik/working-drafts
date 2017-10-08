@@ -1,0 +1,34 @@
+Here are some of the posts I had in mind that I had trouble understanding, and believe that the three factors I highlighted are at play (note (1) is always in play on LesserWrong, so I'm really talking (2) and (3)).
+
+I have put (magical score, comment count) as of the time of this comment in parentheses.
+
+Hardest to follow:
+
+https://www.lesserwrong.com/posts/GEZzHQLQETHW9vBER/placing-yourself-as-an-instance-of-a-class (50, 4) -- illustrates (2): I just couldn't follow this. After asking better minds about it, I was told this was a way of connecting decision theory (that I don't know much about) with some otherwise basic insights.
+
+https://www.lesserwrong.com/posts/ikMvvDgzFCSrYMRfd/the-problematic-third-person-perspective (28, 3) -- illustrates (2): I got some vague sense that this was saying that a neutral third party is a fiction, but didn't understand where the author was going with it other than that.
+
+https://www.lesserwrong.com/posts/SMoA83ERSPsy8CLa3/buckets-and-bayes (43, 20) -- illustrates (2) and to some extent (3): I could follow a little bit here and there, but had trouble getting the "big picture". I found it particularly strange that I would have so much trouble comprehending a post whose purpose includes (or seems to, based on my possibly flawed understanding) helping people communicate their ideas more effectively.
+
+https://www.lesserwrong.com/posts/yLLkWMDbC9ZNKbjDG/slack (81, 58)-- illustrates both (2) and (3).
+
+Middle:
+
+https://www.lesserwrong.com/posts/EctieqKwDQcQHhqZy/different-worlds (80, 13) -- illustrates (3): I think I had a little easier time with this because I have become used to Scott's writing style, so I knew how to skim while still getting the main points.
+
+https://www.lesserwrong.com/posts/53pxcve5kgwoLFvzD/instrumental-rationality-2-planning-101 (19, 1): Makes main points reasonably clearly, using terminology I am familiar with. But parts of it seem to exemplify (2): lots of CFAR-specific jargon like Murphyjitsu.
+
+https://www.lesserwrong.com/posts/D3njbydiue2qEYfXt/meaningfulness-and-the-scope-of-experience (32, 1) -- illustrates mostly (2) and to a lesser extent (3): I think this post was a good effort at beinf clear, but I wasn't able to really keep pace with it.
+
+Easy to follow:
+
+https://www.lesserwrong.com/posts/GHBLFPDhzeSQHx2eM/writing-that-provokes-comments (51, 26): I liked this post. It was totally understandable to me. It made a bunch of points clearly, in bullet form, which allowed me to get the gist and structure.
+
+https://www.lesserwrong.com/posts/aSEqqEBmsRm5mwbyP/actually-good-advice-on-dealing-with-an-ego (6, 1): I didn't like the post a lot, but its brevity made it relatively easy to follow. And though it did seem a bit verbose, the verbosity didn't hurt much given that it was short.
+
+And here's one that I wrote, that I _think_ would be easy for me to follow even if somebody else wrote it: https://www.lesserwrong.com/posts/ghBZDavgywxXeqWSe/wikipedia-pageviews-still-in-decline
+
+
+
+
+
