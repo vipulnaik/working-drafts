@@ -1,0 +1,140 @@
+'''Statistics of Income''' ('''SOI''') is a program of the [[Internal Revenue Service]] (IRS) in the [[United States]] to make statistics collected from income tax returns and information returns available to other government agencies and the general public.<ref name=soi-tax-stats-pf>{{cite web|url = https://www.irs.gov/statistics/soi-tax-stats-purpose-and-function-of-statistics-of-income-soi-program|title = SOI Tax Stats - Purpose and Function of Statistics of Income (SOI) Program|accessdate = October 15, 2017|publisher = [[Internal Revenue Service]]}}</ref> It fulfills an IRS function mandated by the [[Revenue Act of 1916]].<ref name=soi-tax-stats-pf/>
+
+== Budget ==
+
+The SOI's annnual budget, as of 2017, is $40 million.<ref nam=soi-tax-stats-pf/>
+
+== Structure ==
+
+SOI is a division of the IRS with four branches, focusing respectively on:<ef name=soi-tax-stats-pf/>
+
+* Individuals and sole proprietorships
+* Corporations and partnerships
+* Special studies (include international, tax exempts, and estates)
+* Statistical computing, which provides support to the other three Branches, and IRS Operating Division
+
+Each branch has four sections. The three subject-specific Branches each have two sections staffed with economists, one with computer specialists, and one with researchers or information dissemination specialists.<ref name=soi-tax-stats-pf/>
+
+SOI has a Statistical Information Services (SIS), established 1989, that is used to address questions from outside users about SOI products.<ref name=soi-tax-stats-pf/><ref name=history-90-years/>
+
+== Use by others ==
+
+=== Primary clients ===
+
+The SOI's primary clients, who are both entitled to receive detailed tax returns, are:<ref name=soi-tax-stats-pf/>
+
+* [[Office of Tax Analysis]] (OTA) under the [[United States Department of the Treasury]]
+* [[United States Congress Joint Committee on Taxation]]
+
+=== Other federal government clients ===
+
+Other agencies within the federal government that are clients of the SOI program include:<ref name=soi-tax-stats-pf/>
+
+* The [[Bureau of Economic Analysis]] (BEA) under the [[United States Department of Commerce]]: BEA uses this data as one of its principal data sources for annual updates to the [[National Income and Product Accounts]].<ref name=bea-data-sources>{{cite web|url = https://www.bea.gov/national/pdf/chapter3.pdf|title = NIPA Handbook: Concepts and Methods of the U.S. National Income and Product Accounts. Chapter 3: Principal Source Data|date = October 1, 2016|accessdate = October 15, 2017|publisher = [[Bureau of Economic Analysis]]}}</ref>{{rp|15}} Other data sources are surveys conducted by the [[United States Census Bureau]], farm statistics from the [[United States Department of Agriculture]], census data from the [[Bureau of Labor Statistics]], and the federal government annual budget from the [[Office of Management and Budget]].
+* The [[Federal Reserve Board of Governors]]: The Federal Reserve Board makes use of SOI data to commission the [[National Opinion Research Center]] to conduct the [[Survey of Consumer Finances]].<ref name=scf-ssa>{{cite journal|url = https://www.ssa.gov/policy/docs/ssb/v72n3/v72n3p59.html|title = Shifting Income Sources of the Aged|publisher = [[Social Security Administration]]|journal = Social Security Bulletin|volume = 72|number = 3|year = 2012|accessdate = October 15, 2017|last = Anguelov|first= Chris E.|last2 = Iams|first2 = Howard M.|last3 = Purcell|first3 = Patrick J.}}</ref>
+* [[Government Accountability Office]] (GAO) (previously known as the General Accounting Office): GAO has published some reports based on Statistics of Income data.<ref name=gao-corporate-income-tax>{{cite web|url = http://www.gao.gov/assets/680/675844.pdf|title = Most Large Profitable U.S. Corporations Paid Tax But Effective Tax Rates Differed Significantly from the Statutory Rate|publisher = [[Government Accountability Office]]|date = March 1, 2016|accessdate = October 15, 2017}}</ref>
+* The [[Social Security Administration]]: The SSA uses SOI data, along with many other sources, for its Modeling Income in the Near Term (MINT) model.<ref>{{cite journal|url = https://www.ssa.gov/policy/docs/ssb/v69n3/v69n3p1.html|title = The Disappearing Defined Benefit Pension and Its Potential Impact on the Retirement Incomes of Baby Boomers|last = Butrica|first = Barbara A.|last2 = Iams|first2 = Howard M.|last3 = Smith|first3 = Karen E.|last4 = Toder|first4 = Eric J.|journal = Social Security Bulletin|volume = 69|number = 3|year = 2009|accessdate = October 15, 2017}}</ref>
+* The [[Centers for Medicare and Medicaid Services]] (previously known as the Health Care Financing Administration)
+
+=== Others ===
+
+Data from the IRS SOI program is made publicly available on the IRS Tax Stats homepage, and has also historically been available in the form of IRS print publications.<ref name=tax-stats>{{cite web|url = https://www.irs.gov/statistics|title = Welcome to Tax Stats|accessdate = October 15, 2017}}</ref> The IRS says that the data is used by tax practitioners, policy researchers, demographers, economic analysts, consultants, business associations, state and local governments, universities, public libraries, and the media.<ref name=soi-tax-stats-pf/>
+
+SOI data has been used by the [[Congressional Research Service]], for instance in an analysis of the top tax rates since 1945.<ref>{{cite web|url = http://graphics8.nytimes.com/news/business/0915taxesandeconomy.pdf|title = Taxes and the Economy: An Analysis of the Top Tax Rates Since 1945|last = Hungerford|first = Thomas|date = September 14, 2012|accessdate = October 15, 2017|publisher = [[Congressional Research Service]] via ''[[New York Times]]''}}</ref>
+
+SOI data has been cited in publications of think tanks such as the [[Tax Policy Center]],<ref name=tpc-estate-tax>{{cite web|url = http://www.taxpolicycenter.org/briefing-book/how-many-people-pay-estate-tax|title = How many people pay the estate tax?|publisher = Tax Policy Center|accessdate = October 15, 2017}}</ref> [[RAND Corporation]],<ref>{{cite web|url = https://www.rand.org/content/dam/rand/www/external/labor/seminars/allca/LaLumia-2011.pdf|title = The EITC, Tax Refunds, and Unemployment Spells|last = LaLumia|first = Sara|date = October 1, 2011|accessdate = October 15, 2017}}</ref> and [[Cato Institute]].<ref>{{Cite web|url = https://www.cato.org/publications/congressional-testimony/proposal-dualrate-income-tax|title = Proposal for a “Dual-Rate Income Tax”|last = Edwards|first = Chris|date = May 11, 2005|accessdate = October 15, 2017|publisher = [[Cato Institute]]}}</ref>
+
+SOI data has also been cited by publications such as the ''[[New York Times]]'',<ref name=reagan-data-sharing-nyt><ref>{{cite web|url = https://www.nytimes.com/2008/06/24/business/worldbusiness/24iht-24tax.13933715.html|title = One-time tax break saved 843 U.S. corporations $265 billion|last = Browning|first = Lynnley|date = June 24, 2008|accessdate = October 15, 2017|publisher = ''[[New York Times]]''}}</ref><ref>{{Cite web|url = https://www.nytimes.com/2015/06/06/business/dealbook/how-a-carried-interest-tax-could-raise-180-billion.html|title = How a Carried Interest Tax Could Raise $180 Billion|last = Fleischer|first = Victor|date = June 5, 2015|accessdate = October 15, 2017|publisher = ''[[New York Times]]''}}</ref> the ''[[Wall Street Journal]]'',<ref>{{cite web|url = https://www.wsj.com/articles/SB121979650939374865|title = The Ranks of the Ultrawealthy Grow|last = Herman|first = Tom|date = August 27, 2008|accessdate = October 15, 2017|publisher = ''[[Wall Street Journal]]''}}</ref> and ''[[Forbes]]''.<ref>{{cite web|url = https://www.forbes.com/sites/pensionresearchcouncil/2017/08/09/do-americans-participate-enough-in-retirement-plans/#29e6d70e705c|title = Do Americans Participate Enough In Retirement Plans?|last = Brady|first = Peter|last2 = Mitchell|first2 = Olivia|date = August 9, 2017|accessdate = October 15, 2017}}</ref>
+
+== History ==
+
+{| class="wikitable sortable" border="1"
+! SOI Director !! Years served
+|-
+| Edward White || 1918–1946
+|-
+| James Turner || 1946–1949
+|-
+| Bryce Bratt || 1949–1953
+|-
+| Ernest Enquist || 1953–1964
+|-
+| Vito Natrella || 1964–1980
+|-
+| Fritz Scheuren || 1980–1993
+|-
+| Dan Skelly || 1993–2001
+|-
+| Tom Petska || 2001–?
+|}
+
+== Legislative mandate (1913, 1916) ===
+
+The [[Revenue Act of 1913]] reintroduced the federal income tax, giving the United States federal government access to income data for individuls and businesses. The [[Revenue Act of 1916]] made some updates to the tax code, and also mandated the publication of statistics of income based on the tax returns filed.<ref name=soi-tax-stats-pf/><ref name=history-90-years>{{cite web|url = https://www.irs.gov/pub/irs-soi/08rpsoi90.pdf|title = Statistics of Income: A Collection of Historical Articles|accessdate = October 15, 2017|publisher = [[Internal Revenue Service]]}}</ref>
+
+=== Initial work under Edward White (1918–1946) ===
+
+The organization was initially headed by Dr. Edward White, who joined as the head of the SOI program in 1918.<ref name=history-90-years/>
+
+The dates of first publication, under White, are as follows:<ref name=history-90-years/>
+
+{| class="wikitable sortable" border="1"
+! Report type !! Year ''for'' which the earliest data was published !! Year ''in'' which the earliest data was published
+|-
+| Personal and corporate income tax returns || 1916 || 1918
+|-
+| Sole proprietorships || 1917 || 1919
+|-
+| Estate tax returns || 1916–1922 || 1925
+|-
+| Corporation tax data, in a ''Source Book'' || 1926 || 1928
+|-
+| Fiduciary income statistics || 1937 || 1940
+|-
+| Detailed partnership statistics || 1939 || 1945
+|}
+
+Around 1928, White took SOI from nonelectric comptometers to punch cards and machine tabulation. He also intrduced sampling of individual income tax returns, and later moved to stratified systematic sampling.<ref name=history-90-years/>{{rp|5}}
+
+Archives from 1916 to 1937 are available via [[FRASER]].<ref name=fraser>{{cite web|url = https://fraser.stlouisfed.org/title/61|title = Statistics of Income: 1916-1937|accessdate = October 15, 2017}}</ref>
+
+=== James Turner (1946–1949) ===
+
+Turner had a brief tenure before he was promoted to Director of IRS.<ref name=history-90-years/>{{rp|5}}
+
+=== Bryce Bratt (1949–1953) ===
+
+Bratt extended sampling to corporate tax returns, achieving a sampling rate of 41.5% (285,000 out of 687,000). He faced a backlog of statistical reporting due to the aftereffects of [[World War II]].<ref name=history-90-years/>{{rp|5}}
+
+=== Ernest Enquist (1953–1964) ===
+
+Enquist doubled SOI staff and also funded half the cost of a Remington Rand [[UNIVAC I]] along with the [[Census Bureau]]. This was the first computer purchased by the IRS. He doubled SOI staff and reassigned manual statistical processing to the field (with the resources saved through the use of a computer). This allowed SOI to develop its first quality control program and focus on specialized topics such as capital gains and corporate foreign tax credit.<ref name=history-90-years/>{{rp|5}}
+
+=== Vito Natrella (1964–1980) ===
+
+Natrella, a former [[Securities and Exchange Commission]] statistician, increased the use of computers, switched to using integer weights (for greater consistency in reporting and easier data review). Under his leadership, SOI published a one-time study on depletion (for 1960 in 1966), initiated the first SOI estimates of personal wealth based on estate tax returns (for 1962 in 1967), and conducted other such "first" studies.<ref name=history-90-years/>{{rp|5-6}}<ref name=natrella-wapo-obit>{{cite web|url = https://www.washingtonpost.com/wp-dyn/content/article/2009/02/07/AR2009020701829.html|title = Obituaries: Vito Natrella|date = February 8, 2009|accessdate = October 15, 2017|publisher = ''[[Washington Post]]''}}</ref>
+
+=== Fritz Scheuren (1980–1993) ===
+
+Under Scheuren's leadership, SOI founded several print publications to better disseminate income statistics, including the ''Statistics of Income Bulletin'' (first published 1981) and the SOI methodological report series (started 1982).<ref name=history-90-years/>{{rp|6}}
+
+Scheuren also instituted the annual program on tax-exempt organizations (based on data such as [[Form 990]] filings). He published the first SOI statistics on employee benefit plans (for 1977 in 1982), and the first copmendiums on international income and taxes (1979–1983) and partnerships (1978–1982) in 1985.<ref name=history-90-years/>{{rp|6}}
+
+In 1989, SOI established the Statistical Information Services (SIS) to answer phone, walk-in, and written requests about SOI products. In 1992, the SOI began disseminating data via electronic bulletin.<ref name=history-90-years/>{{rp|6}}
+
+While in office, Scheuren was critical of a Reagan administration plan that would require the IRS and Census Bureau to share the data they collected with other government agencies.<ref name=reagan-data-sharing-nyt>{{cite web|url = https://www.nytimes.com/1983/11/20/us/census-bureau-fighting-plan-to-share-its-personal-data.html?pagewanted=all|title = CENSUS BUREAU FIGHTING PLAN TO SHARE ITS PERSONAL DATA|last = Burnham|first = David|date = November 20, 1983|accessdate = October 15, 2017|publisher = ''[[New York Times]]''}}</ref>
+=== Dan Skelly (1993–2001) ===
+
+Skelly expanded SOI, increasing the number of annual studies conducted to 60, and recruiting more senior talent to improve the quality of statistics. It was also under his leadership that SOI began its Internet presence.<ref name=history-90-years/>{{rp|6-7}}
+
+=== Tom Petska (2001–2009) ===
+
+Under Petska, the SOI program increased its number of reports to 130 semiannual reports, and also improved visibility by presenting at conferences of the [[American Accounting Association]], [[American Economic Association]], [[American Statistical Association]], and [[National Tax Association]].<ref name=history-90-years/>{{rp|7}} He retired in 2009.<ref name=petska-retires-tpc>{{cite web|url = http://www.taxpolicycenter.org/taxvox/farewell-tom-petska|title = Farewell Tom Petska|accessdate = October 15, 2017|publisher = [[Tax Policy Center]]}}</ref>
+
+== References ==
+
+{{reflist|30em}}
+
+
+
+
