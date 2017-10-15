@@ -1,12 +1,12 @@
-'''Statistics of Income''' ('''SOI''') is a program of the [[Internal Revenue Service]] (IRS) in the [[United States]] to make statistics collected from income tax returns and information returns available to other government agencies and the general public.<ref name=soi-tax-stats-pf>{{cite web|url = https://www.irs.gov/statistics/soi-tax-stats-purpose-and-function-of-statistics-of-income-soi-program|title = SOI Tax Stats - Purpose and Function of Statistics of Income (SOI) Program|accessdate = October 15, 2017|publisher = [[Internal Revenue Service]]}}</ref> It fulfills an IRS function mandated by the [[Revenue Act of 1916]].<ref name=soi-tax-stats-pf/>
+'''Statistics of Income''' ('''SOI''') is a program and associated division of the [[Internal Revenue Service]] (IRS) in the [[United States]] to make statistics collected from income tax returns and information returns available to other government agencies and the general public.<ref name=soi-tax-stats-pf>{{cite web|url = https://www.irs.gov/statistics/soi-tax-stats-purpose-and-function-of-statistics-of-income-soi-program|title = SOI Tax Stats - Purpose and Function of Statistics of Income (SOI) Program|accessdate = October 15, 2017|publisher = [[Internal Revenue Service]]}}</ref> It fulfills an IRS function mandated by the [[Revenue Act of 1916]].<ref name=soi-tax-stats-pf/>
 
 == Budget ==
 
-The SOI's annnual budget, as of 2017, is $40 million.<ref nam=soi-tax-stats-pf/>
+The SOI's annnual budget, as of 2017, is $40 million.<ref name=soi-tax-stats-pf/>
 
 == Structure ==
 
-SOI is a division of the IRS with four branches, focusing respectively on:<ef name=soi-tax-stats-pf/>
+SOI is a division of the IRS with four branches, focusing respectively on:<ref name=soi-tax-stats-pf/>
 
 * Individuals and sole proprietorships
 * Corporations and partnerships
@@ -65,10 +65,10 @@ SOI data has also been cited by publications such as the ''[[New York Times]]'',
 |-
 | Dan Skelly || 1993–2001
 |-
-| Tom Petska || 2001–?
+| Tom Petska || 2001–2009
 |}
 
-== Legislative mandate (1913, 1916) ===
+=== Legislative mandate (1913, 1916) ===
 
 The [[Revenue Act of 1913]] reintroduced the federal income tax, giving the United States federal government access to income data for individuls and businesses. The [[Revenue Act of 1916]] made some updates to the tax code, and also mandated the publication of statistics of income based on the tax returns filed.<ref name=soi-tax-stats-pf/><ref name=history-90-years>{{cite web|url = https://www.irs.gov/pub/irs-soi/08rpsoi90.pdf|title = Statistics of Income: A Collection of Historical Articles|accessdate = October 15, 2017|publisher = [[Internal Revenue Service]]}}</ref>
 
@@ -135,6 +135,8 @@ Under Petska, the SOI program increased its number of reports to 130 semiannual 
 
 {{reflist|30em}}
 
+== External links ==
 
+* {{official website|https://www.irs.gov/statistics}}
 
-
+[[Category: Internal Revenue Service]]
