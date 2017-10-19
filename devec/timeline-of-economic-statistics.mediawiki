@@ -215,10 +215,13 @@ From Coyle:
 * Jan Tinbergen's work on GDP in the context of the Netherlands
 * PARIS21
 * 1996 Boskin Commission
-
+* 1969: Material Product System (MPS), like SNA except it only focuses on material production. Used by communist countries.
+* 1940: Colin Clark does the first work on Purchasing Power Parity (PPP), a precursor to the International Comparison Project and the Penn World Table
+* 2007: World Bank cuts estimates of China's real GDP in PPP terms by 40% and does similar downgrading of other countries as a result of 2005 International Comparison Program survey
 
 When were specific concepts introduced
 
+* Purchasing power parity (PPP)
 * International Geary-Khamis dollar
 * Chain-weighting
 * Laspeyres (?)
