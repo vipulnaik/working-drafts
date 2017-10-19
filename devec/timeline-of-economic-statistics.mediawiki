@@ -193,6 +193,12 @@ The initial version of the timeline was written by [[User:Issa|Issa Rice]].
 
 ===What the timeline is still missing===
 
+* Greece 2006 GDP massaging and subsequent investigation, see https://www.ft.com/content/171aaa36-d8f1-11e0-aff1-00144feabdc0 and Coyle (gdp-brief-history)
+* Nordhaus and Tobin 1972 work on including other things in GDP calculation like leisure, off-market work, etc. (from Wikipedia page on green GDP, go to citation)
+* History of Human Development Index, specifically 1990 publication of Human Development Reports by Mahbub ul Haq. Also maybe 1968 speech by Haq that challenged GDP.
+* More on green GDP
+* Some stuff on Chinese GDP figures and official processes and question marks around it
+
 ===Timeline update strategy===
 
 ==See also==
