@@ -201,6 +201,29 @@ The initial version of the timeline was written by [[User:Issa|Issa Rice]].
 * United States Census and United States Economic Census
 * Japan statistics and censuses starting 1721 (?)
 
+From Coyle:
+
+* 1890 publication of Alfred Marshall's ''Principles of Economics'' -- include both material goods and services, ''contra'' Adam Smith
+* 1920s and 1930s: Colin Clark produced national estimates for te UK, and in 1930 was appointed to the newly created National Economic Advisory Council
+* Mention name of Milton Gilbert of Commerce Department as person Kuznets warred with?
+* 1942: First American GNP statistics are published.
+* Wesley J. Mitchell's statement about how GDP was critical to financing and justifying war efforts
+* 1940: John Maynard Keys publishes ''How to Pay for the War''
+* 1941: Austin Robinson commissiones Richard Stone and James Meade to publish national accounts and GDP for UK, numbers published in 1941
+* May 1946: First set of recommendations for UN statistics, a a meeting of the Committee of Statistical Experts at Hunter College in New York.
+* Reinforce references for Marshall Plan using GDP
+* Jan Tinbergen's work on GDP in the context of the Netherlands
+* PARIS21
+* 1996 Boskin Commission
+
+
+When were specific concepts introduced
+
+* International Geary-Khamis dollar
+* Chain-weighting
+* Laspeyres (?)
+* Penn effect and its cousins
+
 ===Timeline update strategy===
 
 ==See also==
