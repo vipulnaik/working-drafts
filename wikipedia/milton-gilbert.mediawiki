@@ -1,8 +1,8 @@
-'''Milton Gilbert''' (1908 or 1909 – September 29, 1979) was an economist and finance expert who worked at the [[United States Department of Commerce]], [[OECD|Organisation for European Economic Cooperation]] (OEEC) and [[Bank of International Settlements]].<ref name=nyt-obit>{{cite web|url = http://www.nytimes.com/1979/10/04/archives/milton-gilbert-70-was-finance-expert-a-former-adviser-for-the-bank.html|title = MILTON GILBERT, 70; WAS FINANCE EXPERT|last = Clark|first = Alfred E.|date = October 4, 1979|accessdate = October 19, 2017|publisher = ''[[New York Times]]''}}</ref><ref name=wapo-obit>{{cite web|url = https://www.washingtonpost.com/archive/local/1979/09/30/milton-gilbert-economist-authority-on-gold/a7983cbc-dba7-47ae-8e92-c2aa501e41ae/?utm_term=.ad1481dc053d|title = Milton Gilbert, Economist, Authority on Gold|publisher = ''[[Washington Post]]''|date = September 30, 1979|accessdate = October 19, 2017}}</ref>
+'''Milton Gilbert''' (1909 – September 28 or 29, 1979) was an economist and finance expert who worked at the [[United States Department of Commerce]], [[OECD|Organisation for European Economic Cooperation]] (OEEC) and [[Bank for International Settlements]].<ref name=bis-bio>{{cite web|url = https://www.bis.org/about/biomg.htm|title = Biographical note: Milton Gilbert (1909-79), former Economic Adviser|accessdate = October 19, 2017|publisher = Bank for International Settlements}}</ref><ref name=nyt-obit>{{cite web|url = https://www.nytimes.com/1979/10/04/archives/milton-gilbert-70-was-finance-expert-a-former-adviser-for-the-bank.html|title = MILTON GILBERT, 70; WAS FINANCE EXPERT|last = Clark|first = Alfred E.|date = October 4, 1979|accessdate = October 19, 2017|publisher = ''[[New York Times]]''}}</ref><ref name=wapo-obit>{{cite web|url = https://www.washingtonpost.com/archive/local/1979/09/30/milton-gilbert-economist-authority-on-gold/a7983cbc-dba7-47ae-8e92-c2aa501e41ae/|title = Milton Gilbert, Economist, Authority on Gold|publisher = ''[[Washington Post]]''|date = September 30, 1979|accessdate = October 19, 2017}}</ref>
 
 == Early life and education ==
 
-Gilbert was born in [[Philadelphia]] in 1908 or 1909.<ref name=nyt-obit/><ref name=wapo-obit/> He obtained a Bachelor of Science degree at [[Temple University]] and in 1937 received a Ph.D. in economics from the [[University of Pennsylvania]].<ref name=nyt-obit/><ref name=wapo-obit/>
+Gilbert was born in [[Philadelphia]] in 1909.<ref name=bis-bio/><ref name=nyt-obit/><ref name=wapo-obit/> He obtained a Bachelor of Science degree at [[Temple University]] and in 1937 received a Ph.D. in economics from the [[University of Pennsylvania]].<ref name=nyt-obit/><ref name=wapo-obit/>
 
 == Career ==
 
@@ -14,5 +14,32 @@ While at the U.S. Department of Commerce, Gilbert co-edited ''Studies in Income 
 
 === Organisation for European Economic Cooperation (1951–1960) ===
 
-From 1951 to 1960, Gilbert worked as an economist at the Organisation for European Economic Cooperation (OEEC),<ref name=nyt-obit/><ref name=wapo-obit/> which would be renamed in 1961 to [[OECD]] (its present name). The OEEC had, since the start of the [[Marshall Plan]] in 1946, been tasked with monitoring spending and economic growth in Europe.<ref name=gdp-modernity-making>{{cite book|title = The Great Invention: The Story of GDP and the Making and Unmaking of the Modern World|url = https://books.google.com/books?id=fE89DAAAQBAJ|accessdate = October 16, 2017}}</ref>{{rp|35}} While there, he collaborated with [[Irvin B. Kravis]] on ''An International Comparison of National Products and the Purchasing Power of Currencies'', a pioneering work on international comparison of production and purchasing power.<ref name=wapo-obit/> This was an early precursor to the [[International Comparison Program]] that would be created in 1968 at the University of Pennsylvania,ref>{{cite web |url=http://web.worldbank.org/WBSITE/EXTERNAL/DATASTATISTICS/ICPEXT/0,,contentMDK:22377133~menuPK:6782010~pagePK:60002244~piPK:62002388~theSitePK:270065,00.html |title=International Comparison Program - History |accessdate=October 5, 2017}}</ref> which in turn would lead to ''Real GDP Per Capita for More Than One Hundred Countrie'' by Kravis, [[Alan W. Heston]] and [[Robert Summers]] in 1978, the first version of the [[Penn World Table]].<ref>{{cite web |url=http://voxeu.org/article/newer-better-penn-world-table-growth-estimates |title=Is newer better? The Penn World Table growth estimates |first1=Simon |last1=Johnson |first2=Arvind |last2=Subramanian |first3=Will |last3=Larson |first4=Chris |last4=Papageorgiou |publisher=VOX, CEPR's Policy Portal |date=December 7, 2009 |accessdate=October 3, 2017}}</ref>
+From 1951 to 1960, Gilbert worked as an economist at the Organisation for European Economic Cooperation (OEEC),<ref name=nyt-obit/><ref name=wapo-obit/> which would be renamed in 1961 to [[OECD]] (its present name). The OEEC had, since the start of the [[Marshall Plan]] in 1946, been tasked with monitoring spending and economic growth in Europe.<ref name=gdp-modernity-making>{{cite book|title = The Great Invention: The Story of GDP and the Making and Unmaking of the Modern World|url = https://books.google.com/books?id=fE89DAAAQBAJ|accessdate = October 16, 2017}}</ref>{{rp|35}} While there, he collaborated with [[Irvin B. Kravis]] on ''An International Comparison of National Products and the Purchasing Power of Currencies'', a pioneering work on international comparison of production and purchasing power.<ref name=wapo-obit/> This was an early precursor to the [[International Comparison Program]] that would be created in 1968 at the University of Pennsylvania<ref>{{cite web |url=http://web.worldbank.org/WBSITE/EXTERNAL/DATASTATISTICS/ICPEXT/0,,contentMDK:22377133~menuPK:6782010~pagePK:60002244~piPK:62002388~theSitePK:270065,00.html |title=International Comparison Program - History |accessdate=October 5, 2017}}</ref> which in turn would lead to ''Real GDP Per Capita for More Than One Hundred Countries'' by Kravis, [[Alan W. Heston]] and [[Robert Summers]] in 1978, the first version of the [[Penn World Table]].<ref>{{cite web |url=http://voxeu.org/article/newer-better-penn-world-table-growth-estimates |title=Is newer better? The Penn World Table growth estimates |first1=Simon |last1=Johnson |first2=Arvind |last2=Subramanian |first3=Will |last3=Larson |first4=Chris |last4=Papageorgiou |publisher=VOX, CEPR's Policy Portal |date=December 7, 2009 |accessdate=October 3, 2017}}</ref>
 
+=== Bank for International Settlements (1960–1975) ===
+
+Gilbert served as Economic Adviser for the [[Bank for International Settlements]] (BIS) in [[Basel]], [[Switzerland]]<ref name=nyt-obit/> from November 1, 1960, to December 31, 1975.<ref name=bis-bio/> He then retired.<ref name=wapo-obit/>
+
+While at BIS, Gilbert became a recognized authority of gold, and wrote ''The Gold Dollar System -- Conditions of Equilibrium and the the Price of Gold'' (''Essays in International Finance'', No. 70), which was published by [[Princeton University Press]] in October 1968.<ref name=wapo-obit/><ref name=ies-pdf>{{cite web|url = https://www.princeton.edu/~ies/IES_Essays/E70.pdf|title = The Gold Dollar System -- Conditions of Equilibrium and the the Price of Gold (PDF)|last = Gilbert|first = Milton|date = October 1, 1968|accessdate = October 19, 2017}}</ref> The book is available as a PDF from the website of Princeton University's International Economics Section.<ref name=ies-pdf/>
+
+== Personal life ==
+
+Gilbert lived in Basel, Switzerland, after his retirement in 1975. He was planning his move back to the United States. While making arrangements, he died of a heart attack at [[George Washington University Hospital]] in [[Washington, D.C.]] on September 28 or 29, 1979.<ref name=nyt-obit/><ref name=wapo-obit/>
+
+Gilbert was survived by his wife Ruth, who is from Basel, three children, Arnold and Sheryl of Washington and Carla of San Diego, California, a brother Mort of San Diego, California, and one grandchild.<ref name=wapo-obit/><ref name=nyt-obit/>
+
+== See also ==
+
+* [[Simon Kuznets]]
+* [[Richard Stone]]
+
+== References ==
+
+{{reflist|30em}}
+
+{{DEFAULTSORT:Gilbert, Milton}}
+[[Category:1909 births]]
+[[Category:1979 deaths]]
+[[Category:American economists]]
+[[Category:University of Pennsylvania alumni]]
+[[Category:Temple University alumni]]
