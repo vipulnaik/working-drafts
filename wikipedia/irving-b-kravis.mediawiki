@@ -1,0 +1,45 @@
+'''Irving B. Kravis''' (1917 – January 3, 1992) was an American economist famous for his work on international price comparisons, leading to the first version of the [[Penn World Table]].<ref name=nyt-obit>{{cite web|url = http://www.nytimes.com/1992/01/06/us/irving-b-kravis-75-who-was-specialist-in-comparing-prices.html|title = Irving B. Kravis, 75, Who Was Specialist In Comparing Prices|date = January 6, 1992|accessdate = October 19, 2017|publisher = ''[[New York Times]]''}}</ref><ref name=aea-memoir>{{cite journal|url = http://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.7.3.175|title = Irving B. Kravis: Memoir of a Distinguished Fellow|last = Klein|first = Lawrence|date = Summer 1993|journal = ''[[Journal of Economic Perspectives]]''|volume = 7|number = 3|accessdate = October 19, 2017}}</ref><ref name=roiw-memoir>{{cite journal|title = In Memoriam: Irving B. Kravis|journal = Review of Income and Wealth|volume = 38|number = 3|date = September 1, 1992|accessdate = October 19, 2017}}</ref>
+
+== Early life and education ==
+
+Kravis was born in 1917.<ref name=roiw-memoir/> He obtained his undergraduate and graduate degrees at the [[University of Pennsylvania]].<ref name=aea-memoir/><ref name=nyt-obit/> There, he was a student of [[Simon Kuznets]], whose interest in national income accounting was influential to Kravis's areas of research.<ref name=aea-memoir/>{{rp|181}} Kravis would also follow Kuznets in associating with the [[National Bureau of Economic Research]].<ref name=aea-memoir/>{{rp|181}}<ref name=kravis-nber>{{cite web|url = http://www.nber.org/people/irving_kravis|title = Irving Kravis|publisher = [[National Bureau of Economic Research]]|accessdate = October 19, 2017}}</ref>
+
+== Career ==
+
+=== Military service ===
+
+Kravis served the United States in [[World War II]] as a first lieutenant in [[China]] with the [[Flying Tigers]], for which he received a Bronze Star.<ref name=nyt-obit/>
+
+=== Academic career at the University of Pennsylvania ===
+
+After the war, Kravis returned to the University of Pennsylvania to become a faculty member.<ref name=aea-memoir/> He served as chairman of the economics department from 1955 to 1958 and again from 1962 to 1967.<ref name=nyt-obit/> He also served as associate dean of the Wharton School of Finance and Commerce (the business school of the University of Pennsylvania) from 1958 to 1960.<ref name=nyt-obit/> In total, he was on the faculty of the University of Pennsylvania for 37 years.<ref name=nyt-obit/>
+
+Kravis played an important role in raising the prestige of the business school, strengthening the undergraduate program to make it more comparable to a liberal arts program, recruiting faculty, and instituting improvements in the quality of education to meet the expansion needs created by the Baby Boomers.<ref name=aea-memoir/>
+
+=== Research work ===
+
+In the 1950s, during a visit to [[Paris]], [[France]], Kravis worked with [[Milton Gilbert]], an economist at the Organisation for European Economic Cooperation (OEEC) (the predecessor to [[OECD}]) on international price comparison. This led to ''An International Comparison of National Products and the Purchasing Power of Currencies'', a pioneering work on international comparison of production and purchasing power.<ref name=wapo-gilbert-obit>{{cite web|url = https://www.washingtonpost.com/archive/local/1979/09/30/milton-gilbert-economist-authority-on-gold/a7983cbc-dba7-47ae-8e92-c2aa501e41ae/|title = Milton Gilbert, Economist, Authority on Gold|publisher = ''[[Washington Post]]''|date = September 30, 1979|accessdate = October 19, 2017}}</ref><ref name=aea-memoir/>{{rp|177-178}}
+
+In 1968, the [[International Comparison Program]] was created at the University of Pennsylvania to house further research on price comparisons.<ref>{{cite web |url=http://web.worldbank.org/WBSITE/EXTERNAL/DATASTATISTICS/ICPEXT/0,,contentMDK:22377133~menuPK:6782010~pagePK:60002244~piPK:62002388~theSitePK:270065,00.html |title=International Comparison Program - History |accessdate=October 5, 2017}}</ref> Kravis, [[Alan Heston|Alan W. Heston]], and [[Robert Summers]] continued work on price comparisons, leading to the 1978 paper ''Real GDP Per Capita for More Than One Hundred Countries'' that would be the first version of the [[Penn World Table]].<ref>{{cite web |url=http://voxeu.org/article/newer-better-penn-world-table-growth-estimates |title=Is newer better? The Penn World Table growth estimates |first1=Simon |last1=Johnson |first2=Arvind |last2=Subramanian |first3=Will |last3=Larson |first4=Chris |last4=Papageorgiou |publisher=VOX, CEPR's Policy Portal |date=December 7, 2009 |accessdate=October 3, 2017}}</ref><ref name=aea-memoir/>{{rp|178}}
+
+Kravis collaborated on further versions of the Penn World Table; the next version, started in1975, and published in 1982, incorporated the [[Geary–Khamis dollar]] for international price comparison.<ref name=aea-memoir/>{{rp|179}}
+
+One of Kravis's last NBER publications was a review, with [[Robert E. Lipsey]], of the current status of problems with the International Comparison Program.<ref>{{cite web|url = http://www.nber.org/chapters/c8437|title = The International Comparison Program: Current Status and Problems|last = Kravis|first = Irving B.|last2 = Lipsey|first2 = Robert E.|accessdate = October 19, 2017}}</ref><ref name=kravis-nber/>
+
+=== Awards and honors ===
+
+Kravis received fellowships from the [[Ford Foundation]] as well as the [[John Simon Guggenheim Memorial Foundation]] (the [[Guggenheim Fellowship]]).<ref name=nyt-obit/><ref name=gf>{{cite web|url = https://www.gf.org/fellows/all-fellows/irving-b-kravis/|title = Irving B. Kravis|accessdate = October 19, 2017}}</ref> He was a research associate of the [[National Bureau of Economic Research]] and a consultant to [[OECD]].<ref name=nyt-obit/> He was posthmously honored as ''Distinguished Fellow'' of the [[American Economic Association]].<ref name=roiw-memoir/>
+
+== Personal life ==
+
+Kravis died on January 3, 1992 after falling ill at the Philadelphia airport on the way to receiving the ''Distinguished Fellow'' award of the [[American Economic Association]].<ref name=nyt-obit/><ref name=roiw-memoir/> He was suffering from both [[lymphoma]] and [[Parkinson's disease]] at the time of his death.<ref name=nyt-obit/> He was survived by his wife, sister, two sons, two daughters, and six grandchildren.<ref name=nyt-obit/>
+
+== References ==
+
+{{reflist|30em}}
+
+{{DEFAULTSORT:Kravis, Irving B.}}
+[[Category:1917 births]]
+[[Category:1992 deaths]]
+[[Category:American economists]]
+[[Category:University of Pennsylvania alumni]]
