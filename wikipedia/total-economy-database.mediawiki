@@ -1,0 +1,38 @@
+The '''Total Economy Database''' describes itself as "a comprehensive database with annual data covering GDP, population, employment, hours, labor quality, capital services, labor productivity, and Total Factor Productivity for 123 countries in the world".<ref name=tcb-about>{{cite web |url=https://www.conference-board.org/data/economydatabase/index.cfm?id=27722 |title=About the Total Economy Database |accessdate=October 17, 2017}}</ref><ref name=tcb-archive-historical>{{cite web |url=https://www.conference-board.org/data/economydatabase/ |title=The Conference Board Total Economy Database |publisher=The Conference Board |archiveurl=https://web.archive.org/web/20100708232452/https://www.conference-board.org/data/economydatabase/ |archivedate=July 8, 2010 |dead-url=yes}}</ref><ref name=krugman-debt-and-growth-data>{{cite web |url=https://krugman.blogs.nytimes.com/2013/04/26/debt-and-growth-data/ |author=Paul Krugman |date=April 26, 2013 |title=Debt and Growth Data |publisher=Paul Krugman Blog |accessdate=October 20, 2017}}</ref><ref name=wolf>{{cite web |url=https://www.ft.com/content/cd1c369c-84c7-11e6-8897-2359a58ac7a5 |title=Economic ills of the UK extend well beyond Brexit |date=September 29, 2016 |publisher=[[Financial Times]] |author=Martin Wolf |accessdate=October 21, 2017}}</ref><ref name=roser>{{cite web |url=https://ourworldindata.org/economic-growth#data-sources |publisher=Our World in Data |title=Economic Growth § Data Sources |year=2017 |accessdate=October 21, 2017}}</ref>
+
+== History ==
+
+The Total Economy Database was developed at the Groningen Growth and Development Centre (GGDC) in the [[University of Groningen]] in the Netherlands in the early 1990s. Starting in the late 1990s, it began to be produced jointly by GGDC and [[The Conference Board]], a nonprofit founded in 1916 that works on the relationship between business and labor in 60 countries. In 2007, the database was transferred over to The Conference Board, and remains with The Conference Board as of 2017.<ref name=tcb-about/><ref name=tcb-about-ggdc>{{cite web|url = http://www.ggdc.net/databases/ted.htm.|title = Total Economy Database|publisher = Groningen Growth and Development Centre at the [[University of Groningen]]|accessdate = October 21, 2017}}</ref>
+
+== Data and refresh frequency ==
+
+The database used to be refreshed annually, in January to include data till the most recent completed year.<ref name=tcb-archive>{{cite web|url = https://www.conference-board.org/data/economydatabase/index.cfm?id=30565|title = Total Economy Database™ - Archive|accessdate = October 21, 2017|publisher = The Conference Board}}</ref><ref name=tcb-archive-historical/><ref name=tcb-about-ggdc/> However, starting 2015, the database has been updated twice a year, once in May and once later in the year (September or November).<ref name=tcb-archive/> The database usually includes:
+
+* Output, labor, and productivity from 1950 to the present or most recently completed year
+* Regional aggregates from 1990 to the most recently completed year
+* Growth accounting and total factor productivity from 1990 or 1995 to the most recently completed year
+
+== Reception ==
+
+Economist and ''[[New York Times]]'' columnist [[Paul Krugman]] has called the Total Economy Database "the easy source for 1950 onwards" for obtaining GDP data<ref name=krugman-debt-and-growth-data/> and has cited it in blog posts and articles about economic performance, employment, and number of work hours versus leisure hours.<ref>{{cite web|url = https://krugman.blogs.nytimes.com/2013/02/09/japanese-relative-performance/|title = Japanese Relative Performance|date = January 9, 2013|accessdate = October 21, 2017|publisher = ''[[New York Times]]''}}</ref><ref>{{cite web|url = https://krugman.blogs.nytimes.com/2011/01/28/the-wal-mart-decade/|title = The Wal-Mart Decade|date = January 28, 2011|accessdate = October 21, 2017|publisher = ''[[New York Times]]''}}</ref><ref>{{cite web|url = https://krugman.blogs.nytimes.com/2013/01/26/what-we-have-less-of/|title = What We Have Less Of|date = January 26, 2013|accessdate = October 21, 2017|publisher = ''[[New York Times]]''}}</ref><ref>{{cite web|url = https://krugman.blogs.nytimes.com/2010/09/08/japanese-demography/|title = Japanese Demography|date = September 8, 2010|accessdate = October 21, 2017|publisher = ''[[New York Times]]''}}</ref>
+
+''[[Financial Times]]'' columnist [[Martin Wolf]] called the Total Economy Database invaluable while using it to make a point about the effects of [[Brexit]].<ref name=wolf/>
+
+''[[Our World in Data]]'', a website with data-driven discussion of a number of topics related to long-run economic and human development, uses the Total Economy Database as one of its sources.<ref name=roser/>
+
+[[McKinsey & Company]] has cited the Total Economy Database in its report on Mexico's "two-speed" development.<ref>{{cite web|url = https://www.mckinsey.com/global-themes/americas/a-tale-of-two-mexicos|title = A tale of two Mexicos: Growth and prosperity in a two-speed economy|last = Bolio|first = Eduardo|last2 = Remes|first2 = Jaana|last3 = Lajous|first3 = Tomás|last4 = Manyika|first4 = James|last5 = Ramirez|first5 = Eugenia|last6 = Rossé|first6 = Morten}}</ref>
+
+== See also ==
+
+The following economic data projects are maintained by the Groningen Growth and Development Centre, which was also the original creator of the Total Economy Database:
+
+* [[Maddison Project]]
+* [[Penn World Table]]
+
+Some other datasets that cover similar data:
+
+* [[World Development Indicators]]
+
+== References ==
+
+{{reflist|30em}}
