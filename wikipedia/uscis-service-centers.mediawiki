@@ -5,7 +5,7 @@ Unlike USCIS Field Offices, Service Centers do not have walk-in facilities: all 
 
 == List of USCIS Service Centers ==
 
-Below is a list of the USCIS Service Centers, along with the acronyms used to describe them and more information on their location and history. The location included is based on the [[Form I-129]] or [[Form I-140]] mailing addresses; the service center may have additiona offices elsewhere in the state.
+Below is a list of the USCIS Service Centers, along with the acronyms used to describe them and more information on their location and history. The location included is based on the [[Form I-129]] or [[Form I-140]] mailing addresses; the service center may have additional offices elsewhere in the state.
 
 
 {| class="wikitable" border="1"
