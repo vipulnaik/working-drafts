@@ -18,9 +18,11 @@ Economist and ''[[New York Times]]'' columnist [[Paul Krugman]] has called the T
 
 ''[[Financial Times]]'' columnist [[Martin Wolf]] called the Total Economy Database invaluable while using it to make a point about the effects of [[Brexit]].<ref name=wolf/>
 
-''[[Our World in Data]]'', a website with data-driven discussion of a number of topics related to long-run economic and human development, uses the Total Economy Database as one of its sources.<ref name=roser/>
+''[[Our World In Data]]'', a website with data-driven discussion of a number of topics related to long-run economic and human development, uses the Total Economy Database as one of its sources.<ref name=roser/>
 
-[[McKinsey & Company]] has cited the Total Economy Database in its report on Mexico's "two-speed" development.<ref>{{cite web|url = https://www.mckinsey.com/global-themes/americas/a-tale-of-two-mexicos|title = A tale of two Mexicos: Growth and prosperity in a two-speed economy|last = Bolio|first = Eduardo|last2 = Remes|first2 = Jaana|last3 = Lajous|first3 = Tomás|last4 = Manyika|first4 = James|last5 = Ramirez|first5 = Eugenia|last6 = Rossé|first6 = Morten}}</ref>
+[[McKinsey & Company]] has cited the Total Economy Database in its report on Mexico's "two-speed" development.<ref>{{cite web|url = https://www.mckinsey.com/global-themes/americas/a-tale-of-two-mexicos|title = A tale of two Mexicos: Growth and prosperity in a two-speed economy|last = Bolio|first = Eduardo|last2 = Remes|first2 = Jaana|last3 = Lajous|first3 = Tomás|last4 = Manyika|first4 = James|last5 = Ramirez|first5 = Eugenia|last6 = Rossé|first6 = Morten|publisher = [[McKinsey & Company]]}}</ref>
+
+The Total Economy Database is included in a [[University of California, Berkeley]] library guide as a source of macroeconomic data.<ref name=berkeley-lib-guide>{{cite web|url = http://guides.lib.berkeley.edu/c.php?g=4395&p=15528|title = Economics: Data|publisher = University of California, Berkeley Library|accessdate = October 21, 2017}}</ref>
 
 == See also ==
 
