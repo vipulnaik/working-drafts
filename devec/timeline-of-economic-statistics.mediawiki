@@ -50,6 +50,8 @@ This is a '''timeline of economic statistics'''.
 |-
 | 1941 || {{dts|January 27}} || Government statistics || A formal announcement is made to establish the {{w|Central Statistical Office}} for the United Kingdom. This would be responsible for collating and publishing economic statistics for the UK, and would be succeeded by the {{w|Office of National Statistics}}. || United Kingdom || United Kingdom
 |-
+| 1941 || || Government statistics || The first American GNP statistics are published, distinguishing between the types of expenditure, including by government, and permitting economists to see the economy's potential for war production.<ref name-gdp-brief-history/>{{rp|28}} || United States || United States
+|-
 | 1944 || || || At a three-way meeting between the United States, United Kingdom, and Canada, Richard Stone (influenced by John Maynard Keynes), representing the UK delegation, pushes for the inclusion of government expenditure in GDP calculation, and his approach is accepted.<ref name=gdp-modernity-making/>{{rp|33-35}} Simon Kuznets, the main influence in United States GDP calculation, who is not in favor of Stone's method, is not present at the meeting to oppose Stone; the United States government officials, such as {{w|Milton Gilbert}} of the Commerce Department, are in favor of including government spending.<ref name=gdp-brief-history/>{{rp|27-28}} The change is believed to be a factor in making governments turn to increasing government spending to boost measured GDP, including European governments under pressure to show growth as a result of the {{w|Marshall Plan}} as well as developing country governments in the 1950s and 1960s.<ref name=gdp-modernity-making>{{cite book|title = The Great Invention: The Story of GDP and the Making and Unmaking of the Modern World|url = https://books.google.com/books?id=fE89DAAAQBAJ|accessdate = October 16, 2017}}</ref>{{rp|33-35}}
 |-
 | 1944 || {{dts|July 1}}–22 || || The {{w|Bretton Woods Conference}} is held, leading to the creation of the {{W|International Monetary Fund}} and {{w|International Bank for Reconstruction and Development}}, and currency exchange standards. The use of GDP as a measure of a country's economic standing would be attributed to this conference.<ref name=fp-gdp>{{cite web|url = http://foreignpolicy.com/2011/01/03/gdp-a-brief-history/|title = GDP: a brief history. One stat to rule them all.|last = Dickinson|first = Elizabeth|publisher = ''Foreign Policy''|date = January 3, 2011|accessdate = October 15, 2017}}</ref><ref name=solutions-journal/> || United States || Various
@@ -217,7 +219,6 @@ The initial version of the timeline was written by [[User:Issa|Issa Rice]].
 
 From Coyle:
 
-* 1942: First American GNP statistics are published.
 * Wesley J. Mitchell's statement about how GDP was critical to financing and justifying war efforts
 * 1941: Austin Robinson commissions Richard Stone and James Meade to publish national accounts and GDP for UK, numbers published in 1941
 * May 1946: First set of recommendations for UN statistics, a a meeting of the Committee of Statistical Experts at Hunter College in New York.
