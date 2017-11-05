@@ -407,6 +407,7 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Launch
 |Ad measurement
 |{{w|Integral Ad Science}} is launched as AdSafe Media. The company would be known for addressing issues around fraud, viewability, brand risk and TRAQ, a proprietary media quality score.<ref>{{Cite web|url=http://www.adweek.com/news/technology/adsafe-rebrands-integral-ad-science-145493|title=AdSafe Rebrands as Integral Ad Science|publisher=''[[Adweek]]''|date=November 29, 2012|accessdate=March 29, 2015|author=Peterson, Tim}}</ref><ref>{{Cite web|url=https://techcrunch.com/2014/01/02/integral-ad-science-raises-30m-august-capital-led-round-to-find-high-quality-ad-impressions/| title = Integral Ad Science Raises $30M, August Capital-Led Round To Find High Quality Ad Impressions|publisher=''[[TechCrunch]]''|date=January 2, 2014|accessdate=March 29, 2015|author=Ha, Anthony}}</ref>
+|-
 |2009
 |
 |Launch
@@ -436,6 +437,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Launch
 |Ad measurement (search, viewability)
 |Moat is founded by Jonah and Noah Goodhart and Mike Walrath, who were previously involved with Right Media Exchange. The company provides an ad search tool and Internet-wide ad viewability data and insights.<ref>{{cite web|url = https://www.crunchbase.com/organization/moat|title = Moat|publisher = CrunchBase|accessdate = August 1, 2017}}</ref><ref>{{cite web|url = https://techcrunch.com/2011/04/18/moat/|title = MOAT: A Search Engine For Ads, And So Much More|last = Schonfeld|first = Erick|date = April 18, 2011|accessdate = August 1, 2017|publisher = ''TechCrunch''}}</ref>
+|-
+| 2010
+|
+|Launch
+|Ad measurement (real-time price data, inventory discovery, bid monitoring)
+|Metamarkets launches. The company is an ad tech startup that provides programmatic ad data-related services to marketers, such as a data dashboard to measure how campaigns are performing; an API to import your programmatic data into other apps; and inventory discovery and bid monitoring for exchanges.<ref>{{cite web|url = https://techcrunch.com/2017/11/03/snap-metamarkets/|title = Sources: Snap has acquired Metamarkets for less than $100M to step up its ad tech play|last = Lunden|first = Ingrid|date = November 3, 2017|accessdate = November 5, 2017|publisher = TechCrunch}}</ref><ref>{{cite web|url = https://gigaom.com/2015/02/24/advertising-analytics-platform-metamarkets-raises-another-15m/|title = Advertising analytics platform Metamarkets raises another $15M|last = Harris|first = Derrick|date = February 24, 2015|accessdate = November 5,  2017|publisher = GigaOm}}</ref>
 |-
 |2010
 |
@@ -761,6 +768,18 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Acquisition
 |Ad measurement (search, viewability)
 |Oracle acquires ad measurement company Moat for $850 million.<ref>{{cite web|url = https://www.oracle.com/corporate/pressrelease/oracle-buys-moat-041817.html|title = Oracle Buys Moat. Creates the World’s Most Comprehensive Cloud Platform for Marketing Data and Analytics|publisher = Oracle|date = April 18, 2017|accessdate = August 1, 2017}}</ref><ref>{{cite web|url = https://techcrunch.com/2017/04/18/oracle-acquires-moat/|title = Oracle acquires ad measurement company Moat|date = April 18, 2017|accessdate = August 1, 2017|last = Ha|first = Anthony}}</ref><ref>{{cite web|url = https://news.crunchbase.com/news/morning-report-context-moats-850-million-oracle-exit/|title = Morning Report: The Context Of Moat’s $850 Million Oracle Exit|last = Wilhelm|first = Alex|date = April 20, 2017|accessdate = August 1, 2017|publisher = CrunchBase}}</ref>
+|-
+|2017
+|May
+|Launch
+|Social media advertising
+|{{w|Snapchat}} begins rolling out its self-serve ad manager for buying video Snap Ads.<ref>{{cite web|url = https://techcrunch.com/2017/05/04/snapchat-ad-manager/|title = Snapchat launches self-serve ad manager|date = May 4, 2017|accessdate = November 5, 2017|publisher = TechCrunch|last = Constine|first = Josh}}</ref><ref>{{cite web|url = https://digiday.com/marketing/snapchat-launching-self-serve-platform-snap-ads/|title = Snapchat is launching a self-serve platform for Snap ads|last = Dua|first = Tanya|date = April 17, 2017|accessdate = November 5, 2017|publisher = Digiday}}</ref>
+|-
+| 2017
+|May 23
+|Launch
+|Social media advertising
+|{{w|Quora}} launches a self-serve ad platform. Previously, advertising on Quora was open only to a small number of select partners.<ref>{{cite web|url = https://techcrunch.com/2017/05/23/quora-just-launched-a-self-serve-ad-platform/|title = Quora just launched a self-serve ad platform|last = Tepper|first = Fitz|date = May 23, 2017|accessdate = November 5, 2017|publisher = TechCrunch}}</ref><ref>{{Cite web|url = http://www.clixmarketing.com/blog/2017/06/29/5-things-you-should-know-about-quora-ads/|title = 5 Things You Should Know About Quora Ads|date = June 29, 2017|accessdate = November 5, 2017|publisher = Clix Marketing}}</ref><ref>{{cite web|url = https://zatomarketing.com/blog/quora-ads/|title = Pros and Cons of Quora Ads – A 90 Day Look|date = June 15, 2017|accessdate = November 5, 2017|last = Halloran|first = Tim}}</ref> Initial advertiser feedback praises the interface and the cost-effectiveness but asks for larger reach and more granular targeting options.<ref>{{cite web|url = https://marketingland.com/what-performance-advertisers-saying-quora-ad-platform-220261|title = Here’s what performance advertisers are saying about Quora’s new ad platform. Whether they've been on the platform for one month or seven, advertiser feedback is strikingly similar: We like the performance -- when can we scale?|last = Marvin|first = Ginny|date = July 21, 2017|accessdate = November 5, 2017|publisher = Marketing Land}}</ref>
 |-
 |2017
 |June 1
