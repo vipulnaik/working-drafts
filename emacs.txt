@@ -1,0 +1,455 @@
+
+;; Added by Package.el.  This must come before configurations of
+;; installed packages.  Don't delete this line.  If you don't want it,
+;; just comment it out by adding a semicolon to the start of the line.
+;; You may delete these explanatory comments.
+(package-initialize)
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(auto-compression-mode t nil (jka-compr))
+ '(case-fold-search t)
+ '(column-number-mode t)
+ '(current-language-environment "English")
+ '(default-input-method "latin-1-prefix")
+ '(set-global-font "georgia")
+ '(global-font-lock-mode t nil (font-lock))
+ '(jit-lock-stealth-time 0.01)
+ '(package-archives
+   (quote
+    (("" . "")
+     ("MELPA" . "http://melpa.milkbox.net/packages/")
+     ("gnu" . "http://elpa.gnu.org/packages/"))))
+ '(package-selected-packages (quote (ensime)))
+ '(rmail-preserve-inbox t)
+ '(save-place t nil (saveplace))
+ '(show-paren-mode t nil (paren))
+ '(transient-mark-mode t))
+(condition-case ()
+    (quietly-read-abbrev-file)
+  (file-error nil))
+
+(add-hook 'text-mode-hook
+	  (lambda ()
+	    (setq abbrev-mode t)))
+(add-to-list 'default-frame-alist '(foreground-color . "white"))
+(add-to-list 'default-frame-alist '(background-color . "black"))
+(add-to-list 'default-frame-alist '(cursor-color . "coral"))
+
+(setq make-backup-files nil)
+(when window-system
+  (setq normal-erase-is-backspace t))
+					; Auto insert on opening file
+(add-hook 'find-file-hooks 'auto-insert)
+(setq auto-insert-directory "~/.autoinsert")
+(setq auto-insert-query nil)
+(setq auto-insert-alist
+      '(
+	("\\.cpp$" . ["cpp.cpp" ])
+	("\\.tex$" . ["tex.tex" ])
+	))
+(define-abbrev-table 'perl-mode-abbrev-table'(
+					      ("s" "#!/usr/bin/perl
+use warnings;
+use strict;
+
+")))
+(define-abbrev-table 'text-mode-abbrev-table '(
+					       ("adn" "and")
+					       ("nad" "and")
+					       ("beign" "being")
+					       ("doign" "doing")
+					       ("ot" "to")
+					       ("proeprty" "property")
+					       ("ro" "or")
+					       ("proeprty" "property")
+					       ("thier" "their")
+					       ("soem" "some")
+					       ("understnad" "understand")
+					       ("importnat" "important")
+					       ("frmo" "from")
+					       ("understnading" "understanding")
+					       ("ponit" "point")
+					       ("iamge" "image")
+					       ("cha" "\\chapter{}")
+					       ("ssec" "\\subsection{}")
+					       ("sssec" "\\subsubsection{}")
+					       ("beq" "\\begin{eqnarray}")
+					       ("beqn" "\\begin{equation}")
+					       ("bpr""\\begin{proof}
+
+\\end{proof}")
+					       ("bct" "\\begin{concepttester}
+
+\\item
+
+\\end{concepttester}")
+					       ("bptp" "\\begin{pointstoponder}
+
+\\item
+
+\\end{pointstoponder}")
+					       ("sart" "\\documentclass{amsart}
+
+%Packages in use
+\\usepackage{fullpage, hyperref, vipul, graphicx}
+
+%Title details
+\\title{}
+%\\author{Vipul Naik}
+
+\\begin{document}
+\\maketitle
+%\\tableofcontents
+
+\\begin{abstract}
+
+\\end{abstract}
+
+\\section{}
+
+\\printindex
+
+\\end{document}")
+					       ("sint" "\\documentclass[a4paper]{amsart}
+
+%Packages in use
+\\usepackage{fullpage}
+%\\usepackage{setspace} %To provide double spacing
+%\\usepackage{float,graphicx} %To allow images
+%\\usepackage{hyperref} %To make links clickable -- only for PDF
+%\\usepackage{showkeys} %To show the list of labels
+%\\usepackage{index} %To construct an advanced index
+
+\\input{/home/students/vipul/math/ownworks/seriousart.sty}
+
+%Title details
+\\title{}
+%\\author{Vipul Naik}
+%\\thanks{\\copyright Vipul Naik, B.Sc. (Hons) Math, 2nd Year, Chennai Mathematical Institute}
+
+%List of new commands
+
+\\makeindex
+
+\\begin{document}
+\\maketitle
+%\\tableofcontents
+
+\\begin{abstract}
+
+\\end{abstract}
+
+\\section{}
+
+\\printindex
+
+\\end{document}")
+					       ("olart" "\\documentclass[12pt,a4paper]{amsart}
+\\input{/home/students/vipul/math/ownworks/olympiadarticle.sty}
+\\title{}
+\\author{Vipul Naik}
+
+%List of new commands
+
+\\makeindex
+
+\\begin{document}
+\\maketitle
+\\tableofcontents
+
+\\begin{abstract}
+This article is intended for high school students interested in olympiad math.
+\\end{abstract}
+
+\\section{}
+
+\\printindex
+\\end{document}")
+
+					       ("sbook" "\\documentclass[12pt]{amsbook}
+\\input{/home/students/vipul/math/ownworks/seriousart.sty}
+\\title{}
+\\author{Vipul Naik}
+
+%\\makeindex
+
+\\begin{document}
+\\maketitle
+\\tableofcontents
+
+\\chapter{}
+% Chapter specific commands
+
+\\section{}
+\\printindex
+\\end{document}")
+					       ("bi" "\\begin{itemize}
+
+\\item
+
+\\end{itemize}" nil 2)
+					       ("ben" "\\begin{enumerate}
+
+\\item
+
+\\end{enumerate}")
+					       ("cha" "\\chapter{}")
+					       ("ssec" "\\subsection{}")
+					       ("beq" "\\begin{eqnarray}")
+					       ("beq*" "\\begin{eqnarray*}")
+					       ("beqn" "\\begin{equation}")))
+(define-abbrev-table 'c++-mode-abbrev-table '(
+					      ("s"
+					       "// Header files
+#include <stdio.h> //Used for printf, scanf
+#include <fstream> // Used for file and data input and output
+//#include <vector>
+//#include <algorithm>
+
+using namespace std;
+
+//Constants
+
+//Structures and classes used
+
+//Utilities and functions
+
+//Main flow of program
+int main()
+{
+  return 0;
+}
+" nil 2)
+					      ("while0" "while ();")
+					      ("while1"
+					       "while () {
+}")
+					      ("str" "struct 
+{
+};")
+					      ("cl" "class 
+{
+protected:
+public:
+};")
+					      ("dowhile" "do {
+
+}
+while ();")
+					      ("foriup" "for (i=0;i<n;i++) {
+}")
+					      ("foridown" "for (i=;i>0;i--) {
+}")
+					      ("r0" "return 0;")
+					      ("rm" "return -1;")
+					      ("switchc" "switch 
+{
+default :
+}")
+					      ("inarr"   "int arr[max+1],i, size; // max is a predeclared constant
+  int flag = 1;
+  for (i=0;i<max && flag;i++) {
+    scanf(\"\%d\",\&arr[i]);
+    flag = (arr[i] != -1);  
+  }
+   if (i == max)
+    size = i;
+  else
+    size = i-1;")
+					      ("ifelse0" "if ()
+;
+else
+;")
+					      ("ifelse1" "if () {
+}
+else {
+}")
+					      ("b" "{
+return ;
+}")
+					      ("bv" "{
+}")
+					      ("br" "{
+return 0;
+};")
+					      ("brm" "{
+  return -1;
+}")
+					      ("bsearch" "int binarysearch(int arr[], int size, int x)
+{
+  int low = 0, high = size - 1, mid;
+  if (arr[low]>x || arr[high]<x)
+    return -1;
+  else if (arr[low]==x)
+    return low;
+  else if (arr[high]==x)
+    return high;
+  while (low<=high) {
+    mid=(low+high)/2;
+    if (arr[mid]==x) return mid;  
+    if (arr[mid]<x)
+      low=mid+1;
+    else
+      high=mid-1;
+  }
+
+  return -1;
+}")
+					      ("bsearchd" "int binarysearch(int arr[], int size, int x);")
+
+					      ("swapfunc" "template <typename T>
+inline void swap(T *i, T *j) // Takes pointers to two elements, swaps their values
+{
+  T temp = *i;
+  *i = *j;
+  *j = temp;
+}")
+					      ))
+(define-abbrev-table 'c-mode-abbrev-table '(
+					    ("s"
+					     "// Header files
+#include <stdio.h> // Functions used -- scanf, printf
+
+//Functions
+
+
+//Main flow of program
+int main()
+{
+  return 0;
+}
+" nil 0)
+					    ("while0" "while ();")
+					    ("while1"
+					     "while () {
+}")
+					    ("str" "struct 
+{
+};")
+					    ("dowhile" "do {
+
+}
+while ();")
+					    ("foriup" "for (i=0;i<n;i++) {
+}")
+					    ("foridown" "for (i=;i>0;i--) {
+}")
+					    ("r" "return ;")
+					    ("r0" "return 0;")
+					    ("rm" "return -1")
+					    ("switchc" "switch 
+{
+default :
+}")
+					    ("inarr"   "int arr[max+1],i, size; // max is a predeclared constant
+  int flag = 1;
+  for (i=0;i<max && flag;i++) {
+    scanf(\"%d\",\&arr[i]);
+    flag = (arr[i] != -1);  
+  }
+  size = i-1;")
+					    ("ifelse0" "if ()
+;
+else
+;")
+					    ("ifelse1" "if () {
+}
+else {
+}")
+					    ("b" "{
+  return ;
+}")
+					    ("bv" "{
+}")
+					    ("br" "{
+  return 0;
+};")
+					    ("brm" "{
+  return -1;
+}")
+					    ("bsearch" "int binarysearch(int arr[], int size, int x)
+{
+  int low = 0, high = size - 1, mid;
+  if (arr[low]>x || arr[high]<x)
+    return -1;
+  else if (arr[low]==x)
+    return low;
+  else if (arr[high]==x)
+    return high;
+  while (low<=high) {
+    mid=(low+high)/2;
+    if (arr[mid]==x) return mid;  
+    if (arr[mid]<x)
+      low=mid+1;
+    else
+      high=mid-1;
+  }
+
+  return -1;
+}")
+					    ("bsearchd" "int binarysearch(int arr[], int size, int x);")
+					    ("swapfunc" "inline void swap(int *i, int *j) // Takes pointers to two integers, swaps their values
+{
+int temp = *i;
+*i = *j;
+*j = temp;
+}")
+					    ))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+
+(defun up-slightly () (interactive) (scroll-up 5))
+(defun down-slightly () (interactive) (scroll-down 5))
+(global-set-key [mouse-4] 'down-slightly)
+(global-set-key [mouse-5] 'up-slightly)
+
+(defun up-one () (interactive) (scroll-up 1))
+(defun down-one () (interactive) (scroll-down 1))
+(global-set-key [S-mouse-4] 'down-one)
+(global-set-key [S-mouse-5] 'up-one)
+
+(defun up-a-lot () (interactive) (scroll-up))
+(defun down-a-lot () (interactive) (scroll-down))
+(global-set-key [C-mouse-4] 'down-a-lot)
+(global-set-key [C-mouse-5] 'up-a-lot)
+(defun TeX-compile-interactive ()
+  "Run PDFLaTeX Interactive on the current document."
+  (interactive)
+  (TeX-command "PDFLaTeX Interactive" 'TeX-master-file))
+
+(defun TeX-compile ()
+  "Run PDFLaTeX on the current document."
+  (interactive)
+  (TeX-command "PDFLaTeX" 'TeX-master-file))
+
+(defun TeX-spell ()
+  "Run spell on the current document"
+  (interactive)
+  (TeX-command "Spell" 'TeX-master-file))
+
+(defun TeX-index ()
+  "Create index for the current document"
+  (interactive)
+  (TeX-command "Index" 'TeX-master-file))
+
+					;(defun TeX-getheaders ()
+					;  "Create a file with the chapter, section and subsection headings"
+					;  (interactive)
+					;  ())
+
+(global-set-key (kbd "C-c c") 'TeX-compile-interactive)
+(global-set-key (kbd "C-c v") 'TeX-compile)
+(global-set-key (kbd "C-c s") 'TeX-spell)
+(global-set-key (kbd "C-c i") 'TeX-index)
+					;(global-set-key (kbd "C-c h") 'TeX-getheaders)
+
+(global-set-key (kbd "C-x g") 'goto-line)
+(global-set-key (kbd "C-x ,") 'speedbar)
