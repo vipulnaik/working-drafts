@@ -1,0 +1,47 @@
+In November 2010, the [government of Ghana]] made a number of changes to the way it calculates GDP, resulting in a 60% upward change in the country's GDP estimate.<ref name=ghanaweb>{{cite web|url = https://www.ghanaweb.com/GhanaHomePage/NewsArchive/Ghana-s-GDP-goes-up-by-60-196833|title = Ghana's GDP goes up by 60%|date = November 5, 2010|accessdate = November 18, 2017|publisher = GhanaWeb}}</ref><ref name=gss>{{cite web|url = http://www.statsghana.gov.gh/docfiles/news/gdp_newsletter_rebased_gdp_nov_2010.pdf|title = News Brief: New Series of the Gross Domestic Product (GDP) Estimates|date = November 3, 2010|accessdate = November 18, 2017|publisher = Ghana Statistical Service}}</ref> The change led to discussion of the accuracy of GDP estimates, particularly in the context of Africa, mostly kickstarted by an article by [[Morten Jerven]] about the rebasing.<ref name=cgd-ghana-says>{{cite web|url = https://www.cgdev.org/blog/ghana-says-hey-guess-what-we%E2%80%99re-not-poor-anymore|title = Ghana Says, Hey, Guess What? We’re Not Poor Anymore!|last = Moss|first = Todd|date = November 5, 2010|accessdate = November 18, 2017|publisher = [[Center for Global Development]]}}</ref><ref name=africas-statistical-tragedy>{{cite web|url = http://blogs.worldbank.org/africacan/africa-s-statistical-tragedy|title = Africa’s statistical tragedy|last = Devarajan|first = Shanta|date = October 6, 2011|accessdate = November 18, 2017|publisher = [[World Bank]]}}</ref><ref name=wapo>{{cite web|url = https://www.washingtonpost.com/news/wonk/wp/2012/11/24/think-u-s-gdp-numbers-are-unreliable-check-out-ghanas/|title = Think U.S. GDP numbers are unreliable? Check out Ghana.|last = Plumer|first = Brad|date = November 24, 2012|accessdate = October 16, 2017|publisher = ''Washington Post''}}</ref><ref name=afdb>{{cite journal|url = https://www.afdb.org/fileadmin/uploads/afdb/Documents/Publications/ASJ15%20Section1%20Eng.pdf|title = Revising GDP estimates in Sub-Saharan Africa: Lessons from Ghana|last = Jerven|first = Morten|last2 = Duncan|first2 = Magnus Ebo|journal = The African Statistical Journal|volume = 15|date = August 1, 2012|accessdate = October 16, 2017}}</ref><ref name=lies-damn-lies-and-gdp>{{cite web|url = https://www.theguardian.com/business/2012/nov/20/economics-ghana|title = Lies, damn lies and GDP. Or, how Ghana went from being one of the poorest countries in the world one day to an aspiring middle-income one the next|last = Jerven|first = Morten|date = November 20, 2012|accessdate = October 16, 2017}}</ref> It was also the first of many rebasings undertaken by African economies, most of which led to significant upward revisions in their estimate of GDP.
+
+== Changes made ==
+
+=== Change of base year ===
+
+The base year for calculations was changed from 1993 to 2006.<ref name=gss/> In a paper discussing the change, development economists Morten Jerven and Magnus Ebo Duncan noted: "Upward revisions stemming from changes in outdated base years are common in developed countries such as the United States (Runkle 1998)" and also said that one contributor to the high magnitude of the upward revision was the huge increment in base year (by 13 years) as opposed to more regular updates done in countries such as the United States.<ref name=afdb/>
+
+=== Change in compilation methodology ===
+
+The compilation methodology was changed from one based on the 1968 [[System of National Accounts]] (SNA) to the 1993 SNA.<ref name=gss/> In a speech at the IARIW-SSA conference, World Bank economist [[Shanta Devarajan]] identified this as the main cause for the huge upward bump in GDP.<ref name=africas-statistical-tragedy/><ref name=afdb/>
+
+=== Improvement and revision of data sources ===
+
+New and better data sources were used for the new GDP series.<ref name=gss/>
+
+=== Change in industry classification ===
+
+The new GDP series used the [[International Standard Industrial Classification]] (ISIC) version 4.<ref name=gss/>
+
+== Effect on data series ==
+
+=== Total GDP estimate went up by 60% ===
+
+The news brief from the Ghana Statistical Service announcing the change noted that the new GDP series estimated a 60.3% larger GDP in the base year 2006 than the old GDP series.<ref name=gss/> This number of 60% would be echoed by other sources discussing the matter.<ref name=afdb/><ref name=africas-statistical-tragedy/> This would contrast with the [[2015 India GDP rebasing]], which would result in a slight downward revision of India's total GDP estimate.<ref name=ft/>
+
+=== Sectoral distribution of GDP changed but trends remained similar ===
+
+The new method showed lower shares in GDP of agriculture (dropped by about 8 percentage points) and industry (dropped by about 8 percentage points) and a compensatingly higher share in GDP of services (increased by about 16 percentage points). Trend lines for all three sectors were fairly similar between the new and old series.<ref name=gss/> This would contrast with the [[2015 India GDP rebasing]], where the share of services in GDP would be revised downward and the share of industry would be revised upward.<ref name=ft>{{cite web |url=https://ftalphaville.ft.com/2015/02/03/2108792/india-gdp-growth-rate-up-confidence-in-statistics-down/ |title=India: GDP growth rate up, confidence in statistics down? |author=David Keohane |date=February 3, 2015 |publisher=''[[Financial Times]] |accessdate=October 21, 2017}}</ref>
+
+== Reception by development economists ==
+
+Immediately after the announcement, Todd Moss wrote in the [[Center for Global Development]] blog: "Boy, we really don’t know anything."<ref name=cgd-ghana-says/><ref name=afdb/> Moss noted that Ghana had been one of the more heavily scrutizined economies of Ghana, and that Moss had himself done a Ph.D. on Ghana, yet the numbers were so off. This made him pessimistic about the quality of statistics for other countries.<ref name=cgd-ghana-says/>
+
+On October 6, 2011, [[Shanta Devarajan]], [[World Bank]] economist, penned a blog post titled ''Africa's statistical tragedy'', a wordplay on Easterly and Levine's classic ''Africa's Growth Tragedy''.<ref name=africas-statistical-tragedy/><ref name=easterly-levine>{{cite web|url = https://williameasterly.files.wordpress.com/2010/08/17_easterly_levine_africasgrowthtragedy_prp.pdf|title = Africa's Growth Tragedy: Policies and Ethnic Divisions|date = April 1, 1997|accessdate = November 18, 2017}}</ref> In the post , Devarajan noted that the absence of high-quality statistical data hampered Africa, development economists and international institutions, and donors, but that the problem could be rectified.<ref name=africas-statistical-tragedy/>
+
+In August 2012, ''Revising GDP estimates in Sub-Saharan Africa: Lessons from Ghana'' by Morten Jerven and Magnus Ebo Ducan was published in ''The African Statistical Journal''.<ref name=afdb/> Jerven also wrote about the issue in ''[[The Guardian]]'' in November 2012,<ref name=lies-damn-lies-and-gdp/> leading to additional commentary from the ''[[Washington Post]]''.<ref name=wapo/>
+
+== See also ==
+
+* [2015 India GDP rebasing]]
+
+== References ==
+
+{{reflist|30em}}
+
+[[Category: Economy of Ghana]]
