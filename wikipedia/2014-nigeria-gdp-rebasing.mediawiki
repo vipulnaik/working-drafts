@@ -1,0 +1,38 @@
+In April 2014, the [[National Bureau of Statistics, Nigeria]], under the [[government of Nigeria]], announced changes to the way it calculated GDP, changing the calculation to more accurately reflect current prices and market structure, thus giving more weight to [[Nollywood]] and mobile phone services that had grown a lot recently. As a result, Nigeria's estimate of its GDP increased by 89%, moving it from Africa's second biggest economy (after [[South Africa]]) to the biggest economy. These changes were known as the '''2014 Nigeria GDP rebasing''' or simply the '''rebasing'''.<ref name=gdp-brief-history>{{cite web|url = https://books.google.com/books/about/GDP.html?id=t7pKCAAAQBAJ|title = GDP: A Brief but Affectionate History|last = Coyle|first = Diane|accessdate = October 17, 2017}}</ref>{{rp|viii}}}<ref name=ft>{{cite web|url = https://www.ft.com/content/70b594fe-bd94-11e3-a5ba-00144feabdc0?mhq5j=e7|title =  Nigeria almost doubles GDP in recalculation|date = April 7, 2014|accessdate = October 17, 2017|last = Blas|first = Javier|last2 = Wallis|first2 = William|publisher = ''Financial Times''}}</ref><ref name=economist>{{cite web|url = https://www.economist.com/news/finance-and-economics/21600734-revised-figures-show-nigeria-africas-largest-economy-step-change|title = Step change. Revised figures show that Nigeria is Africa’s largest economy|publisher = ''The Economist''|date = April 12, 2014|accessdate = October 17, 2017}}</ref><ref name=brookings-rebasing>{{cite web|url = https://www.brookings.edu/blog/africa-in-focus/2015/03/03/are-african-countries-rebasing-gdp-in-2014-finding-evidence-of-structural-transformation/|title = Are African countries rebasing GDP in 2014 finding evidence of structural transformation?|last = Sy|first = Amadou|date = March 3, 2015|accessdate = October 17, 2017|publisher = Brookings Institution}}</ref><ref name=hbr>{{cite web|url = https://hbr.org/2014/04/nigerias-gdp-just-doubled-on-paper-what-it-means-in-practice|title = Nigeria’s GDP Just Doubled on Paper: What It Means in Practice|last = Mezue|first = Bryan|date = April 9, 2014|accessdate = November 19, 2017|publisher = ''[[Harvard Business Review]]''}}</ref>
+
+== Changes made ==
+
+=== Change of base year ===
+
+The base year for calculation (including information on the market structure) was updated from 1990 to 2010.<ref name=economist/><ref name=ft/> This was a fairly huge increment in base year; for comparison, the [[2010 Ghana GDP rebasing]] updated the base year from 1993 to 2006,<ref name=gss>{{cite web|url = http://www.statsghana.gov.gh/docfiles/news/gdp_newsletter_rebased_gdp_nov_2010.pdf|title = News Brief: New Series of the Gross Domestic Product (GDP) Estimates|date = November 3, 2010|accessdate = November 18, 2017|publisher = Ghana Statistical Service}}</ref>><ref name=afdb>{{cite journal|url = https://www.afdb.org/fileadmin/uploads/afdb/Documents/Publications/ASJ15%20Section1%20Eng.pdf|title = Revising GDP estimates in Sub-Saharan Africa: Lessons from Ghana|last = Jerven|first = Morten|last2 = Duncan|first2 = Magnus Ebo|journal = The African Statistical Journal|volume = 15|date = August 1, 2012|accessdate = October 16, 2017}}</ref> and the [[2015 India GDP rebasing]] updated the base year from 2004/05 to 2011/12.<ref name=worstall-sensible>{{cite web|url = https://www.forbes.com/sites/timworstall/2015/04/18/indias-change-in-gdp-calculation-method-seems-highly-sensible/#501f4847e235|title = India's Change In GDP Calculation Method Seems Highly Sensible|last = Worstall|first = Tim|date = April 18, 2015|accessdate = October 15, 2017|publisher = ''Forbes''}}</ref>
+
+=== Change of data sources ===
+
+GDP can be estimated through three methods: production, income, and expenditure.<ref>{{Cite web|url = http://econtutorials.com/blog/three-approaches-calculating-gdp/|title = Three Approaches of Calculating GDP|publisher = Econtutorials|accessdate = November 19, 2017}}</ref> GDP calculations in Nigeria were previously done purely through the production method. The new data included results on income and expenditure, allowing for better reconciliation of data.<ref name=economist/>
+
+== Effect on data series ==
+
+=== Overall estimate of economy size increased significantly ===
+
+The estimate of total GDP of Nigeria increased from 42.4 trillion naira ($270 billion USD at exchange rates) to 80.2 trillion naira ($510 billion USD at exchange rates), an 89% increase.<ref name=economist/><ref name=ft/><ref name=brookings/> This was similar to te result of rebasings in other African economies around that time, including [[Kenya]], [[Uganda]], [[Tanzania]], and [[Zambia]],<ref name=brookings/> and also matched the result of the [[2010 Ghana GDP rebasing]].<ref name=gss/><ref name=afdb/> It contrasted with the experience of the [[2015 India GDP rebasing]], where the overall estimate of the size of the economy was slightly reduced.<ref name=ceic>{{cite web |url=https://www.ceicdata.com/en/blog/early-evaluation-indias-gdp-rebasing |title=An Early Evaluation of India's GDP Rebasing |publisher=CEICdata |date=February 17, 2015 |accessdate=October 21, 2017}}</ref><ref name=ft-india>{{cite web |url=https://ftalphaville.ft.com/2015/02/03/2108792/india-gdp-growth-rate-up-confidence-in-statistics-down/ |title=India: GDP growth rate up, confidence in statistics down? |author=David Keohane |date=February 3, 2015 |publisher=''[[Financial Times]] |accessdate=October 21, 2017}}</ref>
+
+Nigeria's GDP increase far exceeded the expectations of analysts who had forecast an increase of between 40 and 60 per cent following the rebasing exercise.<ref name=ft/>
+
+As a result of the size change, the stock market capitalization to GDP ratio estimate reduced from 33% to 18% (for comparison, the corresponding ratio for [[South Africa]] at the time was 270%). Nigeria's finance minister [[Ngozi Okonjo-Iweala]] believed this would be interesting to foreign investors interested in the upside potential of emerging markets.<ref name=hbr/>
+
+=== Sectoral composition shifted toward services and away from oil ===
+
+As a result of this change, more weight was given in the new series to services, with the role of [[Nollywood]] (the film industry) and mobile phones increasing significantly.<ref name=gdp-brief-history/>{{rp|viii}}<ref name=hbr/> In particular, the telecom industry accounting for more than a quarter of the increase in the GDP estimate.<ref name=economist/> After telecoms, the biggest contributor to the upward shift was traders; this was achieved by increasing the sample of firms from which GDP data are calculated by a factor of about ten.<ref name=economist/> The fraction of the economy devoted to oil reduced by more than half to 14%.<ref name=economist/>
+
+In a report for the Brookings Institution on the rebasing in Nigeria as well as similar rebasings in [[Kenya]], [[Tanzania]], [[Uganda]], and [[Zambia]], Amadou Sy noted that the rebasings highlighted the problems of relying on outdated data ad calculation methods that was prevalent prior to the rebasings, and also that the rebasings showed the importance and growth of the services sector. Sy called this a ''structural transformation'' in African economies that needed to be understood better.<ref name=brookings-rebasing/> The increase in the size of the services sector was also noticed in the [[2010 Ghana GDP rebasing]].<ref name=gss/><ref name=afdb/> In contrast, the [[2015 India GDP rebasing]] saw a ''downward'' correction in the size of the services sector and a corresponding upward correction in the size of industry.<ref name=ft-india/>
+
+== See also ==
+
+* [[2010 Ghana GDP rebasing]]
+* [[2015 India GDP rebasing]]
+
+== References ==
+
+{{reflist|30em}}
+
+[[Category:Economy of Nigeria]]
