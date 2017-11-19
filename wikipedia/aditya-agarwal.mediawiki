@@ -1,0 +1,40 @@
+'''Aditya Agarwal''' is a computer engineer and engineering manager of Indian origin. He has worked at [[Facebook]], Cove, and [[Dropbox]].<ref name=cmu-profile/><ref name=agarwal-leaves-dropbox>{{cite web|url = https://techcrunch.com/2017/07/21/dropbox-cto-aditya-agarwal-is-leaving/|title = Dropbox CTO Aditya Agarwal is leaving|last = Lynley|first = Matthew|date = July 21, 2017|accessdate = November 19, 2017|publisher = ''[[TechCrunch]]''}}</ref><ref name=agarwal-backstory-et>{{cite web|url = https://economictimes.indiatimes.com/magazines/panache/how-a-chance-meeting-with-mark-zuckerberg-led-aditya-agarwal-to-be-on-facebooks-original-team/articleshow/46049628.cms|title = How a chance meeting with Mark Zuckerberg led Aditya Agarwal to be on Facebook's original team|last = Gupte|first = Masoom|date = January 29, 2015|accessdate = November 19, 2017|publisher = ''Economic Times'', ''[[Times of India]]''}}</ref><ref name=agarwal-backstory-latimes>{{cite web|url = http://www.latimes.com/business/la-fi-tn-himi-aditya-agarwal-20170518-htmlstory.html|title = How being thrown into the deep end by Mark Zuckerberg prepared Aditya Agarwal to lead|last = Lien|first = Tracey|date = May 19, 2017|accessdate = November 19, 2017|publisher = ''[[Los Angeles Times]]''}}</ref>
+
+== Early life and education ==
+
+Agarwal was born in India. His father was a chemical engineer and his mother was a homemaker. Agarwal movd with his family to many countries: [[Cameroon]], [[Singapore]], [[Malaysia]], [[Indonesia]] and [[Thailand]], and eventually settled in the [[United States]]. He was interested in computers and programming since a young age, and took programming classes while in Indonesia.<ref name=agarwal-backstory-latimes/><ref name=cmu-profile>{{cite web|url = https://www.cmu.edu/news/stories/archives/2017/august/dropbox-cto.html|title = Challenges, Adventure Empower Agarwal|last = Rouvalis|first = Cristina|date = August 8, 2017|accessdate = November 19, 2017|publisher = [[Carnegie Mellon University]]}}</ref>
+
+After completing high school, Agarwal went to [[Carnegie Mellon University]] to pursue computer science.<ref name=agarwal-backstory-latimes/><ref name=cmu-profile/>
+
+== Career ==
+
+=== Facebook ===
+
+After graduating CMU in 2004, Agarwal saw many of his batchmates move to [[Wall Street]] (the financial sector), but he wanted to enter the technology sector, so he began work at [[Oracle]] in the [[San Francisco Bay Area]].<ref name=agarwal-backstory-latimes/> In 2005, he met [[Mark Zuckerberg]] after being introduced by a mutual acquaintaince. Zuckerberg, who had started [[Facebook]] in 2004, impressed Agarwal, leading Agarwal to begin work at Facebook. Agarwal also persuaded his former CMU colleague and future wife [[Ruchi Sanghvi]]<ref name=marieclaire-profile>{{cite web|url=http://www.marieclaire.com/career-money/advice/ruchi-sanghvi|title = Ruchi Sanghvi|publisher = ''Marie Claire''|accessdate = 2013-04-23}}</ref> to work at Facebook.<ref name=agarwal-backstory-latimes/><ref name=agarwal-backstory-et/>
+
+Agarwal and Sanghvi worked at Facebook till 2010.<ref name=agarwal-backstory-et/>
+
+=== Cove and Dropbox ===
+
+After leaving Facebook, Agarwal and his wife Ruchi Sanghvi, co-founded Cover, a stealth collaboration startup. In February 2012, it was announced that Dropbox was acquiring Cove, and that both Agarwal and Sanghvi were joining Dropbox.<ref name=dropbox-buys-cove/><ref name=agarwal-backstory-et/>
+
+In October 2016, Agarwal was promoted from vice-president of engineering to chief technology officer (CTO), replacing co-founder [[Arash Ferdowsi]].<ref>{{cite web|url = https://blogs.dropbox.com/dropbox/2016/10/our-new-cto-aditya-agarwal/|title = Introducing our new CTO, Aditya Agarwal|last = Houston|first = Drew|last2 = Ferdowsi|first2 = Arash|date = October 13, 2016|accessdate = November 19, 2017|publisher = Dropbox}}</ref><ref>{{cite web|url = http://www.businessinsider.com/Dropbox-cofounder-Arash-Ferdowsi-passes-off-CTO-role-to-VP-of-engineering/articleshow/54840924.cms|title = Dropbox cofounder Arash Ferdowsi passes off CTO role to VP of engineering|last = Kim|first = Eugene|date = October 14, 2016|accessdate = November 19, 2017|publisher = ''[[Business Insider'']]}}</ref><ref>{{cite web|url = https://venturebeat.com/2016/10/13/dropbox-appoints-new-cto-aditya-agarwal-replacing-cofounder-arash-ferdowsi/|title = Dropbox appoints new CTO, Aditya Agarwal, takes over for cofounder Arash Ferdowsi|last = Novet|first = Jordan|date = October 13, 2016|accessdate = November 19, 2017|publisher = ''[[VentureBeat]]''}}</ref>
+
+In July 2017, Agarwal announced in a Facebook post that he was leaving Dropbox, while expressing excitement about its trajectory.<ref name=agarwal-leaves-dropbox/>
+
+== Personal life ==
+
+Agarwal is married to engineer [[Ruchi Sanghvi]], who was also his co-worker at [[Facebook]] and [[Dropbox]] and co-founder wiht him of Cove (which was acquired by Dropbox).<ref name=dropbox-buys-cove>{{cite web|url=https://techcrunch.com/2012/02/27/dropbox-buys-cove-to-bring-former-facebookers-ruchi-sanghvi-and-aditya-agarwal-to-the-team/|title = Dropbox Buys Cove To Bring Former Facebookers Ruchi Sanghvi And Aditya Agarwal To The Team|publisher = ''[[TechCrunch]]''|last = Tsotsis|first = Alexia|accessdate = 2013-04-23|date = 2012-02-27}}</ref><re name=cmu-profile/> The couple married in 2010 in India, with [[Mark Zuckerberg]] attending the wedding.<ref name=agarwal-backstory-et/><ref name=livemint>{{cite web|url=http://www.livemint.com/Companies/XmqafmHKXq3U45sB3LdsYL/I-just-happen-to-be-a-woman-who-is-aggressive-Ruchi-Sanghvi.html|title = I just happen to be a woman who is aggressive: Ruchi Sanghvi Facebook’s first woman engineer on the US immigration Bill, her reasons for investing in firms such as Flipkart, and being a member of FWD.us|last = D'Monte|first = Leslie|last2 = Khan|first2 = Zahra|date = November 29, 2013|accessdate = June 30, 2014|publisher = ''[[Mint (newspaper)|Livemint]]''}}</ref><ref>{{cite web|url=https://www.facebook.com/pages/Ruchi-Aditya-wedding/248466307840|title = Ruchi-Aditya wedding|publisher = [[Facebook]]|accessdate = June 30, 2014}}</ref>
+
+== See also ==
+
+* [[Ruchi Sanghvi]]
+
+== References
+
+{{reflist|30em}}
+
+[[Category:21st-century Indian engineers]]
+[[Category:Living people]]
+[[Category:Computer engineers]]
+[[Category:Facebook employees]]
