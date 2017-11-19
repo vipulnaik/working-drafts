@@ -1,0 +1,30 @@
+This page provides a timeline of key events related to immigrant processing and visa policy of the United States. It focuses on laws, policies, and programs affecting pathways for authorized entry to the United States and long-term immigrant and non-immigrant statuses. It is complementary to the [[timeline of immigration enforcement in the United Kingdom]].
+
+The timeline is still under construction. We aim for it to have comparable coverage to [[timeline of immigrant processing and visa policy in the United States]]. In the meantime, a useful Wikipedia reference article is {{w|History of UK immigration control}}.
+
+== Full timeline ==
+
+{| class="wikitable sortable"
+! Year !! Month and date (if available) !! Event type !! Affected agencies (past, and present equivalents) !! Details
+|-
+| 1351 || || Legislation || || ''{{w|De natis ultra mare}}'', also known as the Status of Children Born Abroad Act 1350, dates back to this period. The law regulates the rights of people born overseas, and addresses the issue of inheritance of foreign-born children.
+|-
+| 1705 || || Legislation || || The {{w|Alien Act 1705}} is passed, declaring that Scottish nationals would be treated as foreign nationals. This would be superseded by the {{w|Act of Union 1707}} that would unite the two countries as the {{w|Kingdom of Great Britain}}.
+|-
+| 1905 || {{dts|August 11}} || Legislation || Executive branch, specifically home ministry || The {{w|Aliens Act 1905}} is the first Act to introduce immigration controls and registration. The {{w|Home Secretary}} is given overall responsibility for immigration and nationality matters. While the Act is ostensibly designed to prevent paupers and criminals from migrating and to deport those who migrated, its unstated motivation seems to be to control Jewish immigration from Eastern Europe.
+|-
+| 1914 || {{dts|August 5}} || Legislation || Executive branch, specifically home ministry || The {{w|Aliens Restriction Act 1914}} is passed in a single day on the eve of {{w|World War I}}. The Act requires every person entering the country to produce evidence of identity at the time of entry. The Act effectively supersedes the Aliens Act 1905 due to much more stringent provisions.<ref>{{cite web |url= http://www.nationalarchives.gov.uk/documentsonline/aliens.asp |title= Aliens Registration Cards |publisher=[[The National Archives (United Kingdom)|The National Archives]] |accessdate=25 August 2011}}</ref> The power still remains in use.<ref>https://www.gov.uk/register-with-the-police</ref><ref>{{cite web|url = https://www.legislation.gov.uk/ukpga/1914/12/pdfs/ukpga_19140012_en.pdf|title = Aliens Restriction Act, 1914|accessdate = November 19, 2017}}</ref>
+|-
+| 1914 || {{dts|August 7}} || Legislation || Executive branch || The British Nationality and Status of Aliens Act 1914 is passed. The Act lays out the definition of natural-born British subjects, as well as the naturalisation process for aliens and the ways that people might lose their British citizen status.<ref>{{cite web|url = http://www.legislation.gov.uk/ukpga/1914/17/pdfs/ukpga_19140017_en.pdf|title = British Nationality and Status of Aliens Act, 1914|date = August 7, 1914|accessdate = November 19, 2017}}</ref>
+|-
+| 1915 || {{dts|April}} || ? || Executive branch, specifically home ministry || Only passengers with exit permits are allowed to leave the UK. Officers are tasked with retrieving ration documents from exiting passengers.{{citation needed}}
+|-
+| 1916 || || || Executive branch, specifically home ministry || A "traffic index" is created from the landing and embarkation cards collected at ports and matched together at the Home Office's Aliens Branch HQ to show whether the person had complied with their conditions for entry.
+|-
+| 1919 || {{dts|December 23}} || Legislation || Executive branch, specifically home ministry || The {{w|Aliens Restriction (Amendment) Act 1919}} is passed. The Act continues and extends the provisions of the Aliens Restriction Act 1914 and the British Nationality and Status of Aliens Act 1914.<ref>{{cite web|url = http://www.legislation.gov.uk/ukpga/1919/92/pdfs/ukpga_19190092_en.pdf|title = An Act to continue and extend the provisions of the Aliens Restriction Act, 1914|date = December 23, 1919|accessdate = November 19, 2017}}</ref> Its provisions would be repealed or superseded by subsequent Acts, most of them in 1970 or 1971.
+|}
+
+== References ==
+
+{{reflist|30em}}
+
