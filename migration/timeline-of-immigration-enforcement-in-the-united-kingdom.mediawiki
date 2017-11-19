@@ -1,0 +1,29 @@
+This page provides a timeline of key events related to immigration enforcement in the {{w|United Kingdom}}. The focus is on enforcement activities such as those carried out by {{w|Immigration Enforcement}}, detention operations, and border patrol carried out by the {{w|Border Force}}. Changes to visa policy or nationality policy are not included, except insofar as they very directly tie in with enforcement.
+
+== Full timeline ==
+
+{| class="wikitable sortable"
+! Year !! Month and date (if available) !! Event type !! Affected agencies (past, and present equivalents) !! Details
+|-
+| 1905 || {{dts|August 11}} || Legislation || Executive branch, specifically home ministry || The {{w|Aliens Act 1905}} is the first Act to introduce immigration controls and registration. The {{w|Home Secretary}} is given overall responsibility for immigration and nationality matters. While the Act is ostensibly designed to prevent paupers and criminals from migrating and to deport those who migrated, its unstated motivation seems to be to control Jewish immigration from Eastern Europe.
+|-
+| 1914 || {{dts|August 5}} || Legislation || Executive branch, specifically home ministry || The {{w|Aliens Restriction Act 1914}} is passed in a single day on the eve of {{w|World War I}}. The Act requires every person entering the country to produce evidence of identity at the time of entry. The Act effectively supersedes the Aliens Act 1905 due to much more stringent provisions.<ref>{{cite web |url= http://www.nationalarchives.gov.uk/documentsonline/aliens.asp |title= Aliens Registration Cards |publisher=[[The National Archives (United Kingdom)|The National Archives]] |accessdate=25 August 2011}}</ref> The power still remains in use.<ref>https://www.gov.uk/register-with-the-police</ref><ref>{{cite web|url = https://www.legislation.gov.uk/ukpga/1914/12/pdfs/ukpga_19140012_en.pdf|title = Aliens Restriction Act, 1914|accessdate = November 19, 2017}}</ref>
+|-
+| 1920 || || || || The {{w|UK Immigration Service}} begins operation under the {{w|Home Office}}, under the name of '''Aliens Branch'''.
+|-
+| 1925 || || || || By this time, an immigration officer is present at {{w|Croydon Airport}}, the UK's main airport (taken from Wikipedia page, no citation present).
+|-
+| 1933 || || || || The Aliens Branch changes its name to the '''Immigration Branch'''. The most recent name prior to being disbanded is {{w|UK Immigration Service}}.
+|-
+| 1973 || || || || The Immigration Branch changes its name to the {{w|UK Immigration Service}}.
+|-
+| 2007 || {{dts|April 1}} || Organizational restructuring || Border and Immigration Agency; current equivalents: Immigration Enforcement, Border Force, UK Visas and Immigration || The {{w|Border and Immigration Agency}} (BIA) is created through as an executive agency of the British {{w|Home Office}}. It replaces the {{w|Immigration and Nationality Directorate}} (IND), and its operational arm, the {{w|UK Immigration Service}}.
+|-
+| 2008 || {dts|April 1}} || Organizational restructuring || UK Border Agency; current equivalents: Immigration Enforcement, Border Force, UK Visas and Immigration || The {{w|UK Border Agency}} is created as part of the {{w|Home Office}}, through a merger of the {{w|Border and Immigration Agency}}, {{w|UKvisas}}, and the detection function of {{w|Her Majesty's Revenue and Customs}}. The agency would suffer a similar fate as the similar {{w|Immigration and Naturalization Service}} in the United States: it would be shut down and its functions handed over to more specific agencies.
+|-
+| 2012 || {{dts|March 1}} || Organizational restructuring || Border Force || The {{w|Border Force}} is spun off from the UK Border Agency. It controls air and sea ports of entry and also monitors the rest of the border. It is similar to {{w|U.S. Customs and Border Protection}}.
+|-
+| 2012 || {{dts|April 1}} || Organizational restructuring || Immigration Enforcement || {{w|Immigration Enforcement}} is spun off from the UK Border Agency. It carries out ''visits'' in residential and business premises to identify people present without an authorised status, and initiate removal proceedings. It is similar to {{w|U.S. Immigration and Customs Enforcement}}.
+|-
+| 2013 || {{dts|April 1}} || Organizational restructuring || UK Border Agency; current equivalents: Immigration Enforcement, Border Force, UK Visas and Immigration || The UK Border Agency is dissolved. Border Force and Immigration Enforcement already report directly to the Home Office; the visas function is spun off as {{w|UK Visas and Immigration}} (the UK equivalent of {{w|United States Citizenship and Immigration Services}}).
+|}
