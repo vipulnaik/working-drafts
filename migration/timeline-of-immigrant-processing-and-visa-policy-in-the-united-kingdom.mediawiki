@@ -11,6 +11,10 @@ The timeline is still under construction. We aim for it to have comparable cover
 |-
 | 1705 || || Legislation || || The {{w|Alien Act 1705}} is passed, declaring that Scottish nationals would be treated as foreign nationals. This would be superseded by the {{w|Act of Union 1707}} that would unite the two countries as the {{w|Kingdom of Great Britain}}.
 |-
+| 1708 || || Legislation || || The {{w|Foreign Protestants Naturalization Act 1708}} is passed, allowing for the naturalisation of French Protestants ({{w|Huguenot}}s) who had fled to Britain since the {{w|Edict of Fontainebleau}}.
+|-
+| 1772 || || Legislation || || The {{w|British Nationality Act 1772}} is passed. The Act makes general provision allowing natural-born allegiance (citizenship) to be assumed if the father alone is British.
+|-
 | 1905 || {{dts|August 11}} || Legislation || Executive branch, specifically home ministry || The {{w|Aliens Act 1905}} is the first Act to introduce immigration controls and registration. The {{w|Home Secretary}} is given overall responsibility for immigration and nationality matters. While the Act is ostensibly designed to prevent paupers and criminals from migrating and to deport those who migrated, its unstated motivation seems to be to control Jewish immigration from Eastern Europe.
 |-
 | 1914 || {{dts|August 5}} || Legislation || Executive branch, specifically home ministry || The {{w|Aliens Restriction Act 1914}} is passed in a single day on the eve of {{w|World War I}}. The Act requires every person entering the country to produce evidence of identity at the time of entry. The Act effectively supersedes the Aliens Act 1905 due to much more stringent provisions.<ref>{{cite web |url= http://www.nationalarchives.gov.uk/documentsonline/aliens.asp |title= Aliens Registration Cards |publisher=[[The National Archives (United Kingdom)|The National Archives]] |accessdate=25 August 2011}}</ref> The power still remains in use.<ref>https://www.gov.uk/register-with-the-police</ref><ref>{{cite web|url = https://www.legislation.gov.uk/ukpga/1914/12/pdfs/ukpga_19140012_en.pdf|title = Aliens Restriction Act, 1914|accessdate = November 19, 2017}}</ref>
@@ -22,6 +26,22 @@ The timeline is still under construction. We aim for it to have comparable cover
 | 1916 || || || Executive branch, specifically home ministry || A "traffic index" is created from the landing and embarkation cards collected at ports and matched together at the Home Office's Aliens Branch HQ to show whether the person had complied with their conditions for entry.
 |-
 | 1919 || {{dts|December 23}} || Legislation || Executive branch, specifically home ministry || The {{w|Aliens Restriction (Amendment) Act 1919}} is passed. The Act continues and extends the provisions of the Aliens Restriction Act 1914 and the British Nationality and Status of Aliens Act 1914.<ref>{{cite web|url = http://www.legislation.gov.uk/ukpga/1919/92/pdfs/ukpga_19190092_en.pdf|title = An Act to continue and extend the provisions of the Aliens Restriction Act, 1914|date = December 23, 1919|accessdate = November 19, 2017}}</ref> Its provisions would be repealed or superseded by subsequent Acts, most of them in 1970 or 1971.
+|-
+| 1925 || || || || By this time, an immigration officer is present at {{w|Croydon Airport}}, the UK's main airport (taken from Wikipedia page, no citation present).
+|-
+| 1947 || || Legislation || || The {{w|Polish Resettlment Act 1947}} is passed, offering British citizenship to over 200,000 displaced Polish troops on British soil who had fought against Nazi Germany and opposed the Soviet takeover of their homeland.
+|-
+| 1948 || {{dts|July 30}} || Legislation || || The {{w|British Nationality Act 1948}} receives royal assent, to be effective starting January 1, 1949. Previously, all members of Commonwealth countries had a Commonwealth citizenship. However, the {{w|Canadian Citizenship Act, 1946}} created a Canadian citizenship. The British Nationality Act of 1948 says that each Commonwealth country can create its own citizenship, while retaining elements of a common Commonwealth citizenship.
+|-
+| 1952 || || || || A {{w|Common Travel Area}} is created.
+|-
+| 1962 || || Legislation || || The {{w|Commonwealth Immigrants Act 1962}} is passed. Previously, citizens of Commonwealth countries had extensive rights to migrate to the UK. The new Act specified that only those who had a connection to the UK, or their wives or underage children, could move freely to the UK.
+|-
+| 1968 || || Legislation || || The {{w|Commonwealth Immigrants Act 1968}} is passed. The Act further restricts the rights of Commonwealth citizens to move to the UK, by restricting the right to people who were either born in the UK or had at least one parent or grandparent born in the UK.
+|-
+| 1971 || || Legislation || || The {{w|Immigration Act 1971}} is passed. In the spirit of the Commonwealth Immigrants Acts of 1962 and 1968, the Act introduces the concept of ''patrial'' immigrants and attempts to prevent permanent migration of Commonwealth citizens without strong UK ties to the UK. The Act would come into force on January 1, 1973.
+|-
+| 1981 || || Legislation || || The {{w|British Nationality Act 1981}} is passed under the Conservative government, tightening citizenship criteria. The Act supersedes the British Nationality Act 1948, and is effective on January 1, 1983.
 |}
 
 == References ==
