@@ -17,9 +17,13 @@ This page provides a timeline of key events related to immigration enforcement i
 |-
 | 1973 || || || || The Immigration Branch changes its name to the {{w|UK Immigration Service}}.
 |-
+| 1987 || || || || The Carriers' Liability Act is passed. The Act places liability on carriers for passengers they bring without proper documents.<ref>{{cite web|url = http://www.legislation.gov.uk/ukpga/1987/24/enacted|title = Immigration (Carriers' Liability) Act 1987|accessdate = November 19, 2017}}</ref>
+|-
+| 1993 || || || || The {{w|Campsfield House}} deention centre is opened. This is to provide the Immigration Service with additional capacity of 200 to detail people, beyond the 180 or so places available at airports.
+|-
 | 2007 || {{dts|April 1}} || Organizational restructuring || Border and Immigration Agency; current equivalents: Immigration Enforcement, Border Force, UK Visas and Immigration || The {{w|Border and Immigration Agency}} (BIA) is created through as an executive agency of the British {{w|Home Office}}. It replaces the {{w|Immigration and Nationality Directorate}} (IND), and its operational arm, the {{w|UK Immigration Service}}.
 |-
-| 2008 || {dts|April 1}} || Organizational restructuring || UK Border Agency; current equivalents: Immigration Enforcement, Border Force, UK Visas and Immigration || The {{w|UK Border Agency}} is created as part of the {{w|Home Office}}, through a merger of the {{w|Border and Immigration Agency}}, {{w|UKvisas}}, and the detection function of {{w|Her Majesty's Revenue and Customs}}. The agency would suffer a similar fate as the similar {{w|Immigration and Naturalization Service}} in the United States: it would be shut down and its functions handed over to more specific agencies.
+| 2008 || {{dts|April 1}} || Organizational restructuring || UK Border Agency; current equivalents: Immigration Enforcement, Border Force, UK Visas and Immigration || The {{w|UK Border Agency}} is created as part of the {{w|Home Office}}, through a merger of the {{w|Border and Immigration Agency}}, {{w|UKvisas}}, and the detection function of {{w|Her Majesty's Revenue and Customs}}. The agency would suffer a similar fate as the similar {{w|Immigration and Naturalization Service}} in the United States: it would be shut down and its functions handed over to more specific agencies.
 |-
 | 2012 || {{dts|March 1}} || Organizational restructuring || Border Force || The {{w|Border Force}} is spun off from the UK Border Agency. It controls air and sea ports of entry and also monitors the rest of the border. It is similar to {{w|U.S. Customs and Border Protection}}.
 |-
