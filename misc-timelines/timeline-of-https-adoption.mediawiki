@@ -7,7 +7,7 @@ This timeline describes the gradual increase in websites and clients using HTTPS
 |-
 | 1994 || || Browser || Netspace Navigator || Protocol support || {{w|Netscape Communications}} creates HTTPS for its {{w|Netscape Navigator}} web browser, originally for use with the {{w|Secure Sockets Layer}} (SSL) protocol.
 |-
-| 2000 || {{dts|May}} || Standard || RFC 2818 || || RFC 2818 of the {{w|Internet Engineering Task Force}} describes the standard for HTTPS, using HTTP over {{w|Transport Layer Security}} (TLS). This is considered a superior, more secure form of HTTPS than HTTPS over SSL.
+| 2000 || {{dts|May}} || Standard || RFC 2818 || || RFC 2818 of the {{w|Internet Engineering Task Force}} describes the standard for HTTPS, using HTTP over {{w|Transport Layer Security}} (TLS). This is considered a superior, more secure form of HTTPS than HTTP over SSL.
 |-
 | 2008 || {{dts|July 24}} || Website || Google (Gmail) || Opt-in HTTPS-only || Google adds a setting in Gmail for users to always use HTTPS. Even before this, users could (since the inception of Gmail) access it securely by explicitly typing https:// in the browser. With the new setting, users who have opted in to it will be redirected from HTTP to HTTPS.<ref>{{cite web|url = https://gmail.googleblog.com/2008/07/making-security-easier.html|title = Making security easier|date = July 24, 2008|accessdate = November 19, 2017|last = Rideout|first = Ariel|publisher = Google}}</ref>
 |-
