@@ -1,0 +1,31 @@
+== Full timeline ==
+
+{| class="wikitable sortable"
+! Year !! Month and date (if available) !! Entity type !! Entity name !! Stage !! Details
+|-
+| 2011 || {{dts|January 11}} || ISP || Comcast || IPv6 access support || Internet Service Provider (ISP) {{w|Comcast}} activates its first 25 IPv6-enabled users in the Littleton, Colorado area using Apple computers. Comcast uses a Native Dual Stack configuration that supports both IPv4 and IPv6, using DOCSIS 3.0.<ref>{{cite web|url = http://corporate.comcast.com/comcast-voices/comcast-activates-first-users-with-ipv6-native-dual-stack-over-docsis|title = COMCAST ACTIVATES FIRST USERS WITH IPV6 NATIVE DUAL STACK OVER DOCSIS|last = Brzozowski|first = John|date = January 31, 2011|accessdate = November 20, 2017}}</ref><ref>{{cite web|url = https://www.pcmag.com/article2/0,2817,2379363,00.asp|title = Comcast Deploys Some Dual-Stack IPv6 Cable Modems. Comcast said this week that it has successfully seeded a tiny group of customers with a new type of dual-stack cable modem that can access IPv4 and IPv6 IP addresses without compromises.|date = February 4, 2011|accessdate = November 20, 2017|publisher = PC Magazine}}</ref>
+|-
+| 2011 || {{dts|May 3}} || Hosting service || Linode || IPv6 hosting support || Server hosting service {{w|Linode}} begins offering native IPv6 support.<ref>{{cite web|url = https://blog.linode.com/2011/05/03/linode-launches-native-ipv6-support/|title = Linode Launches Native IPv6 Support|date = May 3, 2011|accessdate = November 20, 2017|publisher = Linode}}</ref>
+|-
+| 2011 || {{dts|May 24}} || Hosting service || Amazon Web Services || IPv6 hosting support || {{w|Amazon Web Services}} offers IPv6 support for its Elastic Load Balancers (ELBs) in US East and Ireland. All load balancers in these regions have publicly routable IPv6 addresses in addition to their IPv4 addresses.<ref>{{cite web|url = https://aws.amazon.com/blogs/aws/elastic-load-balancing-ipv6-zone-apex-support-additional-security/|title = Elastic Load Balancing – IPv6, Zone Apex Support, Additional Security|date = May 24, 2011|accessdate = November 20, 2017|publisher = Amazon Web Services}}</ref>
+|-
+| 2011 || {{dts|June 8}} || || || || World IPv6 Day happens. On this day, major websites, including Google services, Facebook, Yahoo, and Bing, activate IPv6. The vast majority of devices are expected to be unaffected: they will either use IPv6 or fallback to IPv4.<ref>{{cite web|url = https://googleblog.blogspot.com/2011/06/world-ipv6-day-begins-24-hours-from-now.html|title = World IPv6 Day begins 24 hours from now. Websites, start your engines.|date = June 6, 2011|accessdate = November 20, 2017|publisher = Google Official Blog}}</ref> The day is deemed successful.<ref>{{cite web|url = https://www.networkworld.com/article/2229440/cisco-subnet/cisco-subnet-world-ipv6-day-results-new-internet-protocol-proves-it-s-ready.html|title = World IPv6 Day Results: New Internet Protocol Proves It's Ready|last = Hogg|first = Scott|date = June 8, 2011|accessdate = November 20, 2017}}</ref> See {{w|World IPv6 Day and World IPv6 Launch Day}} for more.
+|-
+| 2012 || {{dts|June 6}} || || || || World IPv6 launch occurs. This is a permanent version of the IPv6 launch that occurred on the previous World IPv6 Day in 2011, instead of the 24-hour version used that day.<ref>{{cite web|url = https://googleblog.blogspot.com/2012/01/ipv6-countdown-to-launch.html|title = IPv6: countdown to launch|date = January 17, 2012|accessdate = November 20, 2017}}</ref> See {{w|World IPv6 Day and World IPv6 Launch Day}} for more.
+|-
+| 2014 || {{dts|June 17}} || Hosting service || DigitalOcean || IPv6 hosting support || Server hosting service {{w|DigitalOcean}} begins offering native IPv6 support.<ref>{{cite web|url = https://venturebeat.com/2014/06/17/digitalocean-ipv6/|title = DigitalOcean starts giving out IPv6 addresses in its cloud|last = Novet|first = Jordan|publisher = VentureBeat}}</ref><ref>{{cite web|url = https://www.digitalocean.com/community/questions/is-ipv6-supported-and-how-to-get-ipv6-adress-assigned-to-my-server|title = Is ipv6 supported and how to get ipv6 adress assigned to my server?|date = September 2, 2013|accessdate = November 20, 2017|publisher = DigitalOcean}}</ref>
+|-
+| 2017 || {{dts|January 25}} || Hosting service || Amazon Web Services || IPv6 hosting support || Amazon Web Services begins offering IPv6 support for EC2 instances in virtual private clouds (VPCs) in 15 regions, and Application Load Balancers in 9 regions.<ref>{{cite web|url =https://aws.amazon.com/blogs/aws/aws-ipv6-update-global-support-spanning-15-regions-multiple-aws-services/|title = AWS IPv6 Update – Global Support Spanning 15 Regions & Multiple AWS Services|date = January 25, 2017|accessdate = November 20, 2017}}</ref> An initial announcement around this appears to have been made on December 1, 2016.<ref>{{cite web|url = https://aws.amazon.com/about-aws/whats-new/2016/12/announcing-internet-protocol-version-6-support-for-ec2-instances-in-amazon-virtual-private-cloud/|title = Announcing Internet Protocol Version 6 (IPv6) support for EC2 instances in Amazon Virtual Private Cloud (VPC)|date = December 1, 2016|accessdate = November 20, 2017|publisher = Amazon Web Services}}</ref>
+|-
+| 2017 || {{dts|September 20}} || Hosting service || Google Cloud Platform || IPv6 hosting support || Google Cloud Platform announces general availability (GA) for IPv6 global load balancing.<ref>{{cite web|url = https://cloudplatform.googleblog.com/2017/09/announcing-ipv6-global-load-balancing-ga.html|title = Announcing IPv6 global load balancing GA|last = Joshi|first = Prajakta|date = September 20, 2017|accessdate = November 20, 2017}}</ref>
+|}
+
+== Meta information on the timeline ==
+
+=== What the timeline is still missing ===
+
+Add old events from [[w:IPv6 deployment#Major milestones]] and add appropriate attribution.
+
+== References ==
+
+{{reflist|30em}}
