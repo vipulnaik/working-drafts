@@ -39,3 +39,7 @@ This page provides a timeline of key events related to immigration enforcement i
 |-
 | 2013 || {{dts|April 1}} || Organizational restructuring || UK Border Agency; current equivalents: Immigration Enforcement, Border Force, UK Visas and Immigration || The UK Border Agency is dissolved. Border Force and Immigration Enforcement already report directly to the Home Office; the visas function is spun off as {{w|UK Visas and Immigration}} (the UK equivalent of {{w|United States Citizenship and Immigration Services}}).
 |}
+
+== References ==
+
+{{reflist|30em}}
