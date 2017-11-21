@@ -41,9 +41,13 @@ The timeline is still under construction. We aim for it to have comparable cover
 |-
 | 1971 || || Legislation || || The {{w|Immigration Act 1971}} is passed. In the spirit of the Commonwealth Immigrants Acts of 1962 and 1968, the Act introduces the concept of ''patrial'' immigrants and attempts to prevent permanent migration of Commonwealth citizens without strong UK ties to the UK. The Act would come into force on January 1, 1973.
 |-
+| 1973 || {{dts|January 1}} || || || The United Kingdom enters the European Economic Community (EEC), the precursor to the {{w|European Union}}. This would allow for freer movement from within Europe. The change happens on the same day as the Immigration Act 1971, that restricts Commonwealth immigration heavily, becomes effective.
+|-
 | 1981 || || Legislation || || The {{w|British Nationality Act 1981}} is passed under the Conservative government, tightening citizenship criteria. The Act supersedes the British Nationality Act 1948, and is effective on January 1, 1983.
 |-
 | 1986 || {{dts|September 1}} || Legislation || || New restrictions are placed on visas for people from India, Pakistan, Bangladesh, Nigeria and Ghana. The resrtictions would come into force on October 15 (23 for Ghana).
+|-
+| 2001 || {{dts|February}} || || || The Immigration and Nationality Directorate's (IND) Casework Application Programme contract with Siemens Business Services is cancelled, after it is determined that Siemens would be unable to deliver what IND wants. The goal was to provide a strong information technology backbone for IND operations. The contract was signed in April 1996 for delivery in October 1998, but delivery had been repeatedly delayed prior to the cancellation of the contract.<ref>{{cite web|url = http://www.computerweekly.com/feature/Home-Office-cancels-key-immigration-IT-system|title = Home Office cancels key immigration IT system|last = Simons|first = Mike|date = February 1, 2001|accessdate = November 21, 2017}}</ref>
 |}
 
 == References ==
