@@ -1,0 +1,19 @@
+'''Consular Lookout and Support System''' ('''CLASS''') is an automated system managed by the Bureau of Consular Affairs under the [[United States Department of State]] used for name checks of visa and passport applicants in support of issuance processing and document verification.<ref name=pia>{{cite web|url = https://2001-2009.state.gov/documents/organization/96128.pdf|title = U.S. Department of State Privacy Impact Assessment Summary: Consular Lookout and Support System (CLASS)|date = May 22, 2007|accessdate = November 21, 2017|publisher = [[United States Department of State]]}}</ref> It is described in [[Foreign Affairs Manual|9 FAM 303.3-2(B)]].<ref>{{cite web|url = https://fam.state.gov/fam/09FAM/09FAM030303.html|title = 9 FAM 303.3 (U) CLASS - CONSULAR LOOKOUT AND SUPPORT SYSTEM|date = August 11, 2017|accessdate = November 21, 2017}}</ref><ref>{{cite web|url = http://international.cua.edu/ImmigrationBasics/arrests.cfm|title = The Effect of Unlawful Behavior on Immigration Status|publisher = The Catholic University of America|accessdate = November 21, 2017}}</ref>
+
+== Sources and users of data ==
+
+Data from CLASS is primarily used for visa and passport processing by the Bureau of Consular Affairs, and in particular finding people who may be ineligible for a passport or visa.<ref name=pia/> CLASS only contains ''lookout'' data, i.e., data on people who pose a potential security threat to the United States, based on the data sources below.
+
+CLASS data may also be shared with, and be modified based on information from, the following other agencies of the United States government:<ref name=pia/>
+
+* [[United States Department of State]]
+* [[U.S. Department of Homeland Security]] ([[U.S. Customs and Border Protection]], [[U.S. Immigration and Customs Enforcement]], [[Terrorist Screening Center]])
+* [[United States Department of Justice]] ([[Interpol]], [[Federal Bureau of Investigation]], [[Drug Enforcement Administration]], and [[United States Marshals Service]])
+* [[U.S. Health and Human Services]
+
+CLASS supplements the [[Consular Consolidated Database]] (CCD), the main database used to inform consular decisions.
+
+== References ==
+
+{{reflist|30em}}
+
