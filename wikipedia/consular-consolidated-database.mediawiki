@@ -40,10 +40,17 @@ In April 2016, it was revealed that an internal review by the U.S. Department of
 
 The following are the two main databases linked with CCD:<ref name=crs/>{{rp|6}}<ref name=pia-2010/>
 
-* Auomatic Biometric Identification System (IDENT) managed by the [[U.S. Department of Homeland Security]]
+* Auomatic Biometric Identification System (IDENT; formerly ABIS<ref name=pia-2008/>) managed by the [[U.S. Department of Homeland Security]]
 * [[Federal Bureau of Investigation]] (FBI) Integrated Automated Fingerprint Identification System (IAFIS)
 
+The Department of State's Bureau of Consular Affairs additionally uses data from the Consular Lookout and Support System (CLASS) to augment the data in CCD when processing visa cases.<ref name=murthy/>
+
 The 2015 [[Privacy Impact Assessment]] for CCD gives a lengthy list of systems within the Department of State that are connected to CCD.<ref name=pia/> The 2008 PIA lists a number of databases with which there is bi-directional data flow, along with the type of data in each, but the list may be outdated.<ref name=pia-2008/>
+
+== See also ==
+
+* [[Systematic Alien Verification for Entitlements]]
+* [[E-Verify]]
 
 == References ==
 
