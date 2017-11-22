@@ -1,23 +1,49 @@
-The '''Consular Consolidated Database''' ('''CCD''') is a database used by the [[Bureau of Consular Affairs]] under the [[United States Department of State]], that has over 290 million passport records, 184 million visa records, and 25 million records of U.S. citizens living overseas.<ref name=pia>{{cite web|url = https://www.state.gov/documents/organization/242316.pdf|title = Privacy Impact Assessment (PIA) Consular Consolidated Database (CCD)|date = July 17, 2015|accessdate = November 21, 2017|publisher = [[United States Department of State]]}}</ref><ref name=abc>{{cite web|url = http://abcnews.go.com/US/exclusive-security-gaps-found-massive-visa-database/story?id=38041051|title = EXCLUSIVE: Security Gaps Found in Massive Visa Database|last = Levine|first = Mike|last2 = Fishel|first2 = Justin|date = March 31, 2016|accessdate = November 21, 2017|publisher = [[ABC News]]}}</ref><ref name=securityaffairs>{{cite web|url = http://securityaffairs.co/wordpress/46005/security/consular-consolidated-database-flaws.html|title = Homeland Security – US Consular Consolidated Database vulnerable to cyber attacks|date = April 6, 2016|accesdate = November 21, 2017|publisher = Security Affairs}}</ref><ref name=crs>{{cite web|url = https://fas.org/sgp/crs/homesec/R43589.pdf|title = Immigration: Visa Security Policies|last = Wasem|first = Ruth Ellen|date = November 18, 2015|accessdate = November 21, 2017|publisher = [[Congressional Research Service]]}}</ref><ref name=murthy>{{cite web|url = https://www.murthy.com/2014/08/07/document-screening-for-applicants-at-u-s-consulates/|title = Document Screening for Applicants at U.S. Consulates|date = August 7, 2014|accessdate = November 21, 2017|publlisher = Murthy Law Firm}}</ref><ref name=ccd-issues>{{cite web|url = https://travel.state.gov/content/travel/en/news/ccd-performance-issues.html|title = Information Regarding Ongoing Consular Consolidated Database (CCD) Performance Issues and Steps Taken|date = August 4, 2014|accessdate = November 21, 2017|publisher = [[United States Department of State]] Bureau of Consular Affairs}}</ref>
+The '''Consular Consolidated Database''' ('''CCD''') is a database used by the [[Bureau of Consular Affairs]] under the [[United States Department of State]], that has over 290 million passport records, 184 million visa records, and 25 million records of U.S. citizens living overseas, and adding 35,000 visa cases a day.<ref name=pia>{{cite web|url = https://www.state.gov/documents/organization/242316.pdf|title = Privacy Impact Assessment (PIA) Consular Consolidated Database (CCD)|date = July 17, 2015|accessdate = November 21, 2017|publisher = [[United States Department of State]]}}</ref><ref name=abc>{{cite web|url = http://abcnews.go.com/US/exclusive-security-gaps-found-massive-visa-database/story?id=38041051|title = EXCLUSIVE: Security Gaps Found in Massive Visa Database|last = Levine|first = Mike|last2 = Fishel|first2 = Justin|date = March 31, 2016|accessdate = November 21, 2017|publisher = [[ABC News]]}}</ref><ref name=securityaffairs>{{cite web|url = http://securityaffairs.co/wordpress/46005/security/consular-consolidated-database-flaws.html|title = Homeland Security – US Consular Consolidated Database vulnerable to cyber attacks|date = April 6, 2016|accesdate = November 21, 2017|publisher = Security Affairs}}</ref><ref name=crs>{{cite web|url = https://fas.org/sgp/crs/homesec/R43589.pdf|title = Immigration: Visa Security Policies|last = Wasem|first = Ruth Ellen|date = November 18, 2015|accessdate = November 21, 2017|publisher = [[Congressional Research Service]]}}</ref><ref name=murthy>{{cite web|url = https://www.murthy.com/2014/08/07/document-screening-for-applicants-at-u-s-consulates/|title = Document Screening for Applicants at U.S. Consulates|date = August 7, 2014|accessdate = November 21, 2017|publlisher = Murthy Law Firm}}</ref><ref name=ccd-issues>{{cite web|url = https://travel.state.gov/content/travel/en/news/ccd-performance-issues.html|title = Information Regarding Ongoing Consular Consolidated Database (CCD) Performance Issues and Steps Taken|date = August 4, 2014|accessdate = November 21, 2017|publisher = [[United States Department of State]] Bureau of Consular Affairs}}</ref>
 
 == History ==
 
-Some CCD records date back to the mid-1990s. Since February 2001, CCD has stored photographs of all visa applicants in electronic form. Since 2007, CCD has been storing ten-print scans.<ref name=crs/> In 2009, the number of visa cases in the CCD were over 100 million, and there were 75 million photographs.<ref name=crs/> In 2016, an ''[[ABC News]]'' report mentioned that CCD had 290 million passport records, 184 million visa records, and 25 million records of U.S. citizens living overseas.<ref name=crs/>{{rp|6}}
+=== Size estimates ===
 
-On July 20, 2014, after a software update, CCD started having significant performance issues. On July 23, CCD was brought back online with limited capacity. The Department of State worked with Microsoft and Oracle to restore the old level of performance. Due to issues with CCD, visa caseload processing was slowed down.<ref name=ccd-issues/>
+{| class="wikitable sortable"
+! Year !! Estimated number of passport records in CCD !! Estimated number of visa cases in CCD !! Estimated number of photographs in CCD !! Estimated number of records in CCD of U.S. citizens living overseas !! EStimated daily rate of growth of visa cases 
+|-
+| 2009<ref name=pia-2010/><ref name=crs/>{{rp|6}}<ref name=fcw/> || No estimate || 100 million+ || 75 million+ || No estimate || 35,000
+|-
+| 2016<ref name=abc/> || 290 million || 184 million || No estimate || 25 million || No estimate
+|}
 
-The most recent [[Privacy Impact Assessment]] of CCD was completed on July 17, 2015.<ref name=pia/> A [[Congressional Research Service]] report about visa issuances, published November 18, 2015, discussed the CCD at some length.<ref name=crs/>
+=== Privacy Impact Assessments ===
+
+A number of [[Privacy Impact Assessment]]s have been conducted for CCD. The list below is not necessarily comprehensive.
+
+{| class="wikitable sortable"
+! Year !! Month and date !! Number of pages !! Additional notes 
+|-
+| 2008<ref name=pia-2008>{{cite web|url = https://2001-2009.state.gov/documents/organization/93772.pdf|title = Privacy Impact Assessment: Consular Consolidated Database|last = Grafeld|first = Margaret P.|date = December 11, 2008|accessdate = November 22, 2017|publisher = [[United States Department of State]]}}</ref> || {{dts|December 11}} || 9 || --
+|-
+| 2010<ref>{{cite web|url = http://foia.state.gov/_docs/PIA/93772.pdf|title = Consular Consolidated Database (CCD) Privacy Impact Assessment (PIA)|date = March 22, 2010|accessdate = November 22, 2017|publisher = [[United States Department of State]]|archive-url = https://www.state.gov/documents/organization/242316.pdf}}</ref> || {{dts|March 22}} || 20 || Original document seems unavailable online (except via [[Wayback Machine]]); however, it is referenced in a few places.<ref name=crs/>{{rp|6}}<ref name=fcw/>
+|-
+| 2015<ref name=pia/> || {{dts|July 17}} || 15 || --
+|}
+
+=== Qualitative history ===
+
+Some CCD records date back to the mid-1990s. Since February 2001, CCD has stored photographs of all visa applicants in electronic form. Since 2007, CCD has been storing ten-print scans.<ref name=crs/>
+
+On July 19 or 20, 2014, after a software update, CCD started having significant performance issues. On July 23, CCD was brought back online with limited capacity. The Department of State worked with Microsoft and Oracle to restore the old level of performance. Due to issues with CCD, visa caseload processing was slowed down, disrupting travel experiences of people around the world.<ref name=ccd-issues/><ref name=fcw>{{cite web|url = https://fcw.com/articles/2014/07/24/state-systems-crash.aspx|title = State's passport and visa system crashes|last = Rockwell|first = Mark|date = July 24, 2014|accessdate = November 22, 2017}}</ref><ref name=fcw-2>{{cite web|url = https://fcw.com/articles/2014/10/20/state-department-database-crash-1.aspx|title = Understanding State's big database crash: Q&A with Greg Ambrose. The department's director of consular systems and technology explains what happened this summer, and how his office is trying to prevent a repeat.|last = Lyngaas|first = Sean|date = October 20, 2014|accessdate = November 21, 2017}}</ref> The system was processing at normal rates as of August 2, but the problem was declared fully fixed a month later.<ref name=fcw-2/>
+
+A [[Congressional Research Service]] report about visa issuances, published November 18, 2015, discussed the CCD at some length.<ref name=crs/>
 
 In April 2016, it was revealed that an internal review by the U.S. Department of State of its cyber-defenses had found that CCD was at risk of being compromised, though no breach had been detected.<ref name=abc/><ref name=securityaffairs/>
 
 == Linked databases ==
 
-The following databases are linked with CCD:<ref name=crs/>{{rp|6}}
+The following are the two main databases linked with CCD:<ref name=crs/>{{rp|6}}<ref name=pia-2010/>
 
 * Auomatic Biometric Identification System (IDENT) managed by the [[U.S. Department of Homeland Security]]
 * [[Federal Bureau of Investigation]] (FBI) Integrated Automated Fingerprint Identification System (IAFIS)
 
-The [[Privacy Impact Assessment]] for CCD gives a lengthy list of systems within the Department of State that are connected to CCD.<ref name=pia/>
+The 2015 [[Privacy Impact Assessment]] for CCD gives a lengthy list of systems within the Department of State that are connected to CCD.<ref name=pia/> The 2008 PIA lists a number of databases with which there is bi-directional data flow, along with the type of data in each, but the list may be outdated.<ref name=pia-2008/>
 
 == References ==
 
