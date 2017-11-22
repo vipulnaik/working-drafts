@@ -14,11 +14,11 @@ NNTR = no need to repeat (if done once, should persist on my VM)
 
 * Create folder ~/software/mediawiki/1.29 (NNTR)
 
-* Run `wget https://releases.wikimedia.org/mediawiki/1.29/mediawiki-1.29.1.tar.gz` in that folder (NNTR)
+* Run `wget https://releases.wikimedia.org/mediawiki/1.29/mediawiki-1.29.2.tar.gz` in that folder (NNTR)
 
-* Run `tar -xvzf mediawiki-1.29.1.tar.gz` in that folder (NNTR)
+* Run `tar -xvzf mediawiki-1.29.2.tar.gz` in that folder (NNTR)
 
-* Create new copy ~/mediawiki/<project>-new/ with subfolders w/ and logs/ and copy ~/software/mediawiki/1.29/mediawiki-1.29.1/ into the subfolder w/
+* Create new copy ~/mediawiki/<project>-new/ with subfolders w/ and logs/ and copy ~/software/mediawiki/1.29/mediawiki-1.29.2/ into the subfolder w/
 
 * Also touch logs/access.log and logs/error.log
 
