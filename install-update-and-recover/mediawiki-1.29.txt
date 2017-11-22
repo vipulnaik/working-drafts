@@ -123,9 +123,13 @@ $wgMFAutodetectMobileView = true;
 
 * Switch to branch REL1_29 (NNTR)
 
+* Make some changes to math/render.ml by converting to absolute paths
+
 * Empty out if already present ~/mediawiki/<project>-new/w/extensions/Math
 
 * In Math, cp -r ~/software/mediawiki/extensions/Math/mediawiki-extensions-Math/* ./
+
+* chmod -R 777 ~/mediawiki/<project>-new/w/images/
 
 * In ~/mediawiki/<project>-new/w/mathsettings.inc, add the line:
 
