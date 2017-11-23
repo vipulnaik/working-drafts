@@ -123,7 +123,7 @@ $wgMFAutodetectMobileView = true;
 
 * Switch to branch REL1_29 (NNTR)
 
-* Make some changes to math/render.ml by converting to absolute paths
+* Make some changes to math/render.ml by converting to absolute paths (NNTR)
 
 * Empty out if already present ~/mediawiki/<project>-new/w/extensions/Math
 
@@ -143,8 +143,42 @@ wfLoadExtension( 'Math' );
 
 * `tar -xvzf <downloaded>`
 
-* Delete your old SemanticMediaWiki/ and Validator/ in ~/mediawiki/<project>-new/w/extensions/ and copy the new SemanticMediaWiki/ and Validator/ into that
+* Delete your old SemanticMediaWiki/ and Validator/ in ~/mediawiki/<project>-new/w/extensions/ and copy the new SemanticMediaWiki/ and Validator/ into that (BREAKS)
 
 * Update ~/mediawiki/<project>-new/w/semanticsettings.inc adding the line `$smwgDefaultStore = 'SMWSQLStore2';` as per https://www.semantic-mediawiki.org/wiki/Help:Installation_1.8.0#Upgrading_existing_installations
 
 * Go to ~/mediawiki/devec-new/w/extensions/SemanticMediaWiki/maintenance and run `php7.0 SMW_setup.php -b SMWSQLStore3`
+
+* Now run `php7.0 SMW_refreshData.php -v -b SMWSQLStore3 -fp`
+
+* Comment out the line `$smwgDefaultStore = 'SMWSQLStore2';` from semanticsettings.inc
+
+* Make sure inclusion of semanticsettings.inc is commented out
+
+* Download and install Composer (NNTR)
+
+apt-get install php7.0-gd
+cd ~/software
+php7.0 -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php7.0 -r "if (hash_file('SHA384', 'composer-setup.php') === '544e09ee996cdf60ece3804abc52599c22b1f40f4323403c44d44fdfdd586475ca9813a858088ffbc1f233e9b180f061') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+mkdir -p composer
+mkdir -p composer/bin
+php7.0 composer-setup.php --install-dir=composer/bin --filename=composer
+cp composer/bin/composer /usr/bin/
+php7.0 -r "unlink('composer-setup.php');"
+
+* Now install Semantic MediaWiki 2.5 (latest)
+
+cd ~/mediawiki/<project>-new/w/
+composer require mediawiki/semantic-media-wiki "~2.5" --update-no-dev
+
+* Now:
+
+php7.0 maintenance/update.php --skip-external-dependencies
+
+* Comment out Semantic MediaWiki and Validator inclusions from semanticsettings.inc, and uncomment inclusion of semanticsettings.inc
+
+* Just to double-check, rerun:
+
+php7.0 maintenance/update.php --skip-external-dependencies
+
