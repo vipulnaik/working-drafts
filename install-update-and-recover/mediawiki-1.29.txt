@@ -26,6 +26,8 @@ NNTR = no need to repeat (if done once, should persist on my VM)
 
 * Copy over ~/mediawiki/<project>/w/extensions/ to ~/mediawiki/<project>-new/w/extensions/
 
+* Copy over ~/mediawiki/<project>/w/*.inc to ~/mediawiki/<project>-new/w/
+
 * Copy over images if you have any
 
 * chmod -R 777 ~/mediawiki/<project>-new/w/images/
@@ -131,9 +133,19 @@ $wgMFAutodetectMobileView = true;
 
 * In Math, cp -r ~/software/mediawiki/extensions/Math/mediawiki-extensions-Math/* ./
 
+* Run make
+
 * In ~/mediawiki/<project>-new/w/mathsettings.inc, add the line:
 
 wfLoadExtension( 'Math' );
+
+and remove the line include_once ...
+
+=== Other extensions to disable or upgrade ===
+
+* Password Reset to disable
+
+* Quiz to upgrade or disable; upgrade if the extension exists and quiz pages are being used on the site, cp -r ~/software/mediawiki/extensions/Quiz/mediawiki-extensions-Quiz/* ./
 
 === Upgrade Semantic MediaWiki ===
 
@@ -174,11 +186,14 @@ composer require mediawiki/semantic-media-wiki "~2.5" --update-no-dev
 
 * Now:
 
-php7.0 maintenance/update.php --skip-external-dependencies
+php7.0 maintenance/update.php --quick --skip-external-dependencies
 
 * Comment out Semantic MediaWiki and Validator inclusions from semanticsettings.inc, and uncomment inclusion of semanticsettings.inc
 
 * Just to double-check, rerun:
 
-php7.0 maintenance/update.php --skip-external-dependencies
+php7.0 maintenance/update.php --quick --skip-external-dependencies
 
+* Finally, we need to rebuild all the data, so run
+
+php7.0 extensions/SemanticMediaWiki/maintenance/rebuildData.php
