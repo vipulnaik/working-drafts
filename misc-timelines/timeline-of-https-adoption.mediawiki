@@ -49,15 +49,25 @@ Other intermediaries, like Internet Service Providers (ISPs), routers, networkin
 {| class="wikitable sortable"
 ! Year !! Month and date (if available) !! Entity type !! Entity name !! Stage !! Details
 |-
-| 1994 || || Browser || Netspace Navigator || Protocol support || {{w|Netscape Communications}} creates HTTPS for its {{w|Netscape Navigator}} web browser, originally for use with the {{w|Secure Sockets Layer}} (SSL) protocol.
+| 1994 || || Standard || SSL v1.0 || Protocol || {{w|Netscape Communications}} creates HTTPS for its {{w|Netscape Navigator}} web browser, originally for use with the {{w|Secure Sockets Layer}} (SSL) protocol (SSL version 1.0). Due to security issues, this is never officially published. See [[w:Transport Layer Security#SSL_1.0.2C_2.0_and_3.0]].
 |-
-| 2000 || {{dts|May}} || Standard || RFC 2818 || || RFC 2818 of the {{w|Internet Engineering Task Force}} (IETF) describes the standard for HTTPS, using HTTP over {{w|Transport Layer Security}} (TLS). This is considered a superior, more secure form of HTTPS than HTTP over SSL.
+| 1995 || {{w|February}} || Standard || SSL v2.0 || Protocol || SSL v2.0 is released. It has a number of security flaws. See [[w:Transport Layer Security#SSL_1.0.2C_2.0_and_3.0]].
 |-
-| 2003 || {{dts|June}} || Standard || RFC 3546 || || RFS 3546 of the IETF describes a number of augmentations to TLS, including {{w|Server Name Indication}} (SNI).<ref>{{cite web|url = https://tools.ietf.org/html/rfc3546|title = Transport Layer Security (TLS) Extensions|date = June 1, 2003|accessdate = November 20, 2017|publisher = Internet Engineering Task Force}}</ref>
+| 1996 || || Standard || SSL v3.0 || Protocol || SSL v3.0 is released and its specification is drafted. IETF would publish this draft as a historical document in 2011.<ref>{{Cite web|url = https://tools.ietf.org/html/rfc6101|title = The Secure Sockets Layer (SSL) Protocol Version 3.0|date = August 1, 2011|accessdate = November 23, 2017|publisher = [[Internet Engineering Task Force]]}}</ref>
+|-
+| 1999 || {{dts|January}} || Standard || TLS 1.0 || Protocol || Version 1.0 of the {{w|Transport Layer Security}} (TLS) protocol is published as RFC 2246. TLS would replace SSL as the protocol used for HTTPS.<ref>{{cite web|url = https://tools.ietf.org/html/rfc2246|title = The TLS Protocol Version 1.0|date = January 1, 1999|accessdate = November 23, 2017|publisher = Internet Engineering Task Force}}</ref>
+|-
+| 2000 || {{dts|May}} || Standard || HTTP over TLS || Protocol || RFC 2818 of the {{w|Internet Engineering Task Force}} (IETF) describes the standard for HTTPS, using HTTP over {{w|Transport Layer Security}} (TLS).<ref>{{cite web|url = https://tools.ietf.org/html/rfc2818|title = HTTP Over TLS|date = May 1, 2000|accessdate = November 23, 2017|publisher = Internet Engineering Task Force}}</ref>
+|-
+| 2003 || {{dts|June}} || Standard || SNI || Protocol || RFS 3546 of the IETF describes a number of augmentations to TLS, including {{w|Server Name Indication}} (SNI).<ref>{{cite web|url = https://tools.ietf.org/html/rfc3546|title = Transport Layer Security (TLS) Extensions|date = June 1, 2003|accessdate = November 20, 2017|publisher = Internet Engineering Task Force}}</ref>
 |-
 | 2005 || || || || || The {{w|CA/Browser Forum}} is founded. Ir is a voluntary consortium of certification authorities, vendors of Internet browser software, operating systems, and other PKI-enabled applications that promulgates industry guidelines governing the issuance and management of X.509 v.3 digital certificates that chain to a trust anchor embedded in such applications.
 |-
+| 2006 || {{dts|April}} || Standard || TLS 1.1 || Protocol || RFC 4346 defines TLS 1.1, the next version of TLS after TLS 1.0.<ref>{{cite web|url = https://tools.ietf.org/html/rfc4346|title = The Transport Layer Security (TLS) Protocol Version 1.1|date = April 1, 2006|accessdate = November 23, 2017|publisher = Internet Engineering Task Force}}</ref>
+|-
 | 2008 || {{dts|July 24}} || Webmail || Google (Gmail) || Opt-in HTTPS-only || Google adds a setting in Gmail for users to always use HTTPS. Even before this, users could (since the inception of Gmail) access it securely by explicitly typing https:// in the browser. With the new setting, users who have opted in to it will be redirected from HTTP to HTTPS.<ref>{{cite web|url = https://gmail.googleblog.com/2008/07/making-security-easier.html|title = Making security easier|date = July 24, 2008|accessdate = November 19, 2017|last = Rideout|first = Ariel|publisher = Google}}</ref>
+|-
+| 2008 || {{dts|August}} || Standard || TLS 1.2 || Protocol || RFC 5246 defines TLS 1.2, the next version of TLS after TLS 1.1.<ref>{{Cite web|url = https://tools.ietf.org/html/rfc5246|title = The Transport Layer Security (TLS) Protocol Version 1.2|date = August 1, 2008|accessdate = November 23, 2017|publisher = Internet Engineering Task Force}}</ref>
 |-
 | 2010 || {{dts|January 12}} || Webmail|| Google (Gmail) || Default HTTPS-only || Google switches all Gmail users to redirect to HTTPS; users can change their setings to not redirect to HTTPS. Previously, the default option for this setting was to not redirect, and users had to explicitly choose the option to redirect HTTP to HTTPS.<ref>{{cite web|url = https://gmail.googleblog.com/2010/01/default-https-access-for-gmail.html|title = Default https access for Gmail|date = January 12, 2010|accessdate = November 19, 2017|publisher = Google|last = Schillace|first = Sam}}</ref>
 |-
