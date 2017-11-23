@@ -26,7 +26,9 @@ NNTR = no need to repeat (if done once, should persist on my VM)
 
 * Copy over ~/mediawiki/<project>/w/extensions/ to ~/mediawiki/<project>-new/w/extensions/
 
-* Copy over images if you have any (TBF)
+* Copy over images if you have any
+
+* chmod -R 777 ~/mediawiki/<project>-new/w/images/
 
 * Add the following in ~/mediawiki/<project>-new/w/LocalSettings.php
 
@@ -35,7 +37,7 @@ wfLoadSkin( 'Modern' );
 wfLoadSkin( 'MonoBook' );
 wfLoadSkin( 'Vector' );
 
-* Go to ~/mediawiki/<project>/w/maintenance and run `php7.0 update.php`
+* Go to ~/mediawiki/<project>-new/w/maintenance and run `php7.0 update.php`
 
 * Turn off Semantic MediaWiki (since that needs separate upgrading)
 
@@ -128,8 +130,6 @@ $wgMFAutodetectMobileView = true;
 * Empty out if already present ~/mediawiki/<project>-new/w/extensions/Math
 
 * In Math, cp -r ~/software/mediawiki/extensions/Math/mediawiki-extensions-Math/* ./
-
-* chmod -R 777 ~/mediawiki/<project>-new/w/images/
 
 * In ~/mediawiki/<project>-new/w/mathsettings.inc, add the line:
 
