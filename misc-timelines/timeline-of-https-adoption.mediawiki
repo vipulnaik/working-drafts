@@ -182,6 +182,8 @@ Other intermediaries, like Internet Service Providers (ISPs), routers, networkin
 | 2017 || {{dts|October}} || Browser || Chrome || Security warning || Starting with version 62, Chrome begins marking all non-HTTPS webpages as "Not Secure" for users in incognito mode.<ref name=zdnet-noose/>
 |-
 | 2017 || || Report || Research at Google || State of HTTPS adoption || Research at Google publishes a paper titled ''Measuring HTTPS adoption on the web''.<ref>{{cite web|url = https://research.google.com/pubs/pub46197.html|title = Measuring HTTPS adoption on the web|accessdate = November 20, 2017|last = Feit|first = Adrienne Porter|last2 = Barnes|first2 = Richard|last3 = King|first3 = April|last4 = Palmer|first4 = Chris|last5 = Bentzel|first5 = Chris|last6 = Tabriz|first6 = Parisa}}</ref><ref>{{cite web|url = https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/46197.pdf|title = Measuring HTTPS adoption on the web|accessdate = November 20, 2017|last = Feit|first = Adrienne Porter|last2 = Barnes|first2 = Richard|last3 = King|first3 = April|last4 = Palmer|first4 = Chris|last5 = Bentzel|first5 = Chris|last6 = Tabriz|first6 = Parisa}}</ref>
+|-
+| 2017 || || Standard || TLS 1.3 || Protocol || The standard for TLS 1.3 is under discussion, but not finalized. Browsers support it for a while as the default but then stop due to issues. See [[w:Transport Layer Security#TLS_1.3_.28draft.29]] for more.
 |}
 
 == References ==
