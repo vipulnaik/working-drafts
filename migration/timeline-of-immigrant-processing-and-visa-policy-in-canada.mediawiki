@@ -1,0 +1,35 @@
+This page provides a timeline of key events related to immigrant processing and visa policy of Canada. This page provides a timeline of key events related to immigrant processing and visa policy of Canada. It focuses on laws, policies, and programs affecting pathways for authorized entry to Canada and long-term immigrant and non-immigrant statuses. It is complementary to the [[timeline of immigration enforcement in Canada]].
+
+The timeline is still under construction. We aim for it to have comparable coverage to [[timeline of immigrant processing and visa policy in the United States]]. In the meantime, check out references 1 and 2.<ref name=pier21>{{cite web|url = https://www.pier21.ca/research/immigration-history/canadian-immigration-acts-and-legislation|title = Canadian Immigration Acts and Legislation|last = Van Dyk|first = Lindsay|accessdate = November 24, 2017|publisher = Canada Museum of Immigration at Pier21}}</ref><ref name=passagetocanada>{{cite web|url = http://passagestocanada.com/wp-content/uploads/2016/04/Primer_discrimination-in-immigration-policy_final1.pdf|title = Historical Timeline: Changes to Canada’s Immigration Policies|accessdate = November 24, 2017}}</ref>
+
+== Full timeline ==
+
+{| class="wikitable sortable"
+! Year !! Month and date (if available) !! Event type !! Affected agencies (past, and present equivalents) !! Details
+|-
+| 1869 || || Legislation || Department of Agriculture|| The Immigration Act of 1869 is passed. The Act allows largely free migration, and is made as such to encourage settlement of the Western provinces (as opposed to using Canada as a transit stop on the way to the United States). It includes provisions regulating the conditions of travel on ships arriving in Canada. Immigration is now under the Department of Agriculture<ref name=pier21-immigration-act-1869>{{cite web|url = https://www.pier21.ca/research/immigration-history/immigration-act-1869|title = Immigration Act, 1869|accessdate = November 24, 2017|publisher = Canada Museum of Immigration at Pier21}}</ref><ref>{{cite web|url = http://immigrationtous.net/139-immigration-act-canada-1869.html|title = IMMIGRATION ACT (CANADA) (1869)|accessdate = November 24, 2017|publisher = Immigration to North America}}</ref><ref name=passagetocanada/><ref name=pier21/>
+|-
+| 1885 || {{dts|July 20}} || Legislation || || The {{w|Chinese Immigration Act of 1885}} becomes law. The Act places a head tax of $50 (current Canadian dollars) on all Chinese immigrants coming to Canada, and restricts ships entering Canada to carrying only one Chinese immigrant per 50 tonnes of the ship's weight. The Act comes shortly after the passage of the United States' {{w|Immigration Act of 1882}} (that places a much smaller head tax on all immigrants coming to the United States) and the {{w|Chinese Exclusion Act}} of 1882 (that forbids Chinese skilled and unskilled laborers from migrating to the United States).
+|-
+| 1887 || || Legislation || || The Chinese Immigration Act of 1885 is amended to allow Chinese women married to non-Chinese men to enter Canada, as well as Chinese passing through Canada via railway.<ref name=pier21/>
+|-
+| 1892 || || Legislation || || The Chinese Immigration Act of 1885 is amended to require Chinese residents of Canada to register before leaving the country.<ref name=pier21/>
+|-
+| 1900 || || Legislation || || The head tax for Chinese immigrants to Canada (imposed in the Chinese Immigration Act of 1885) is raised from $50 to $100.<ref name=pier21/>
+|-
+| 1903 || || Legislation || || The head tax for Chinese immigrants to Canada (imposed in the Chinese Immigration Act of 1885) is raised from $100 to $500.<ref name=pier21/><ref name=passagetocanada/>
+|-
+| 1904-1905 || || || || The ''Royal Commission on Italian Immigration'' investigates the exploitation of Italian labourers by employment brokers known as ''padroni''.<ref name=pier21/>
+|-
+| 1906 || || Legislation || || The Immigration Act of 1906 is passed. The Act is developed under the guidance of Frank Oliver, minister of the interior from 1905 to 1911, and a critic of unrestricted European immigration. The Act significantly expands the class of "undesirable" immigrants from the orginal specifications in 1869. It also formalizes the deportation process for people who would be denied entry, allowing for any person who wuld be denied entry to be deportable within two years of entering Canada. The Act also establishes boards of inquiry at each port to decide cases of immigrants seeking entry.<ref name=pier21-immigration-act-1906>{{cite web|url = https://www.pier21.ca/research/immigration-history/immigration-act-1906|title = Immigration Act, 1906|title = Immigration Act, 1906|accessdate = November 24, 2017|publisher = Canada Museum of Immigration at Pier21}}</ref><ref>{{cite web|url = http://immigrationtous.net/140-immigration-act-canada-1906.html|title = IMMIGRATION ACT (CANADA) (1906)|accessdate = November 20, 2017|publisher = Immigration to North America}}</ref><ref>{{Cite journal|url = https://journals.library.ualberta.ca/pi/index.php/pi/article/download/1415/958|title = "A brake upon the wheel": Frank Oliver and the Creation of the Immigration Act of 1906|last = Hollihan|first = K. Tony|journal = Past Imperfect|pages = 93-112|volume = 1|year = 1992|accessdate = November 24, 2017}}</ref><ref name=canada-immigration-policy-1896-1910/><ref name=pier21/><ref name=passagetocanada/>
+|-
+| 1908 || || Agreement || || Gentlemen's Agreement, 1908.<ref name=pier21/> This is after negotiations began in 1907.<ref name=passagetocanada/>
+|-
+| 1908 || || Legislation || || Continuous Journey Regulation.<ref name=pier21/><ref name=passagetocanada/>
+|-
+| 1910 || || Legislation || || The Immigration Act of 1910 is passed. The Act reinforces and expands upon the provisions of the Immigration Act of 1906.<ref name=pier21-immigration-act-1910>{{cite web|url = https://www.pier21.ca/research/immigration-history/immigration-act-1910|title = Immigration Act, 1910|accessdate = November 24, 2017|publisher = Canada Museum of Immigration at Pier21}}</ref><ref>{{cite web|url = http://blogs.ubc.ca/rajinsidhu/2015/03/06/3-1-immigration-act-1910/|title = 3.1 Immigration Act 1910|date = March 6, 2015|accessdate = November 24, 2017}}</ref><ref name=eugenicsarchive>{{cite web|url = http://eugenicsarchive.ca/discover/timeline/5495c2414dcf0b0000000001|publisher = Eugenics Archive|accessdate = November 24, 2017}}</ref><ref name=canada-immigration-policy-1896-1910>{{cite journal|url = https://www.jstor.org/stable/138931|title = Canada's Immigration Policy, 1896-1910|journal = The Canadian Journal of Economics and Political Science|volume = 26|number = 4|date = November 1, 1960|accessdate = November 24, 2017}}</ref>
+|}
+
+== References ==
+
+{{reflist|30em}}

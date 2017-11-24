@@ -11,6 +11,10 @@ The programs discussed here mostly come under the purview of the [[wikipedia:Uni
 |-
 | 1798 || || Legislation || Executive branch || The {{w|Alien and Sedition Acts}} (a total of four bills) are passed by the {{w|5th United States Congress}} (that is Federalist-dominated) and signed into law by President {{w|John Adams}}.
 |-
+| 1819 || || Legislation || Executive branch || The {{w|Steerage Act of 1819}}, also known as the Manifest of Immigrants Act, is passed. The Act regulates the conditions of travel on ships landing in the United States, and imposes a requirement that ships submit a manifest of all immigrants aboard.
+|-
+| 1855 || || Legislation || Executive branch || The {{w|Carriage of Passengers Act of 1855}} is passed, replacing the Steerage Act o 1819.
+|-
 | 1868 || July 28 || Treaty or trade agreement || || Terms for what would later be known as the [[wikipedia:Burlingame Treaty|Burlingame Treaty]] between the United States and China are finalized. The treaty would be ratified by China in 1869. The Treaty grants most-favored-nation status to China, and allows free movement of people between the countries, but withholding the privilege of naturalization.
 |-
 | 1870 || July 14 || Legislation || Executive branch || The [[wikipedia:Naturalization Act of 1870|Naturalization Act of 1870]] is signed into law by President [[wikipedia:Ulysses S. Grant|Ulysses S. Grant]] after passing both chambers of the [[wikipedia:41st United States Congress|41st United States Congress]]. The Act extends the naturalization process to ''persons of African nativity and to persons of African descent'' (going beyond the Naturalization Act of 1790 that was limited to free white persons) while still excluding the Chinese and others.
