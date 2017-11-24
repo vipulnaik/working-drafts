@@ -1,0 +1,27 @@
+This timeline covers {{w|immigration detention in the United States}}.
+
+It is a complement to the [[timeline of immigration enforcement in the United States]] and [[timeline of immigrant processing and visa policy in the United States]].
+
+See also {{w|List of detention sites in the United States}} fr a list of detention centers.
+
+== Full timeline ==
+
+{| class="wikitable sortable"
+! Year !! Month and date (if available) !! Event type !! Affected agencies (past, and present equivalents) !! Details
+|-
+| 1892 || || Immigration inspection station || || {{w|Ellis Island}} becomes an immigration inspection station, handling immigrants arriving via the Atlantic. Immigrants could be temporarily detained upon arrival for closer examination, or to hold till they are deported.
+|-
+| 1902 || || Immigration inspection station || || The {{w|Ellis Island Immigrant Hospital}} is opened. It is both a general hospital and a contagious disease hospital. It also serves as a detention facility for new immigrants deemed unfit to enter the United States or held back for further examination.
+|-
+| 1910 || || Immigration inspection station || || {{w|Angel Island Immigration Station}}, an immigrant inspection facility with a detention center, opens for operations. It handles immigrants arriving via the Pacific.
+|-
+| 2003 || March 1 || Organizational restructuring || Immigration and Naturalization Services and U.S. Department of Homeland Security || The Immigration and Naturalization Services (INS) (that was under the Department of Justice) is disbanded. Its functions are divided into three sub-agencies of the U.S. Department of Homeland Security: [[wikipedia:United States Citizenship and Immigration Services|United States Citizenship and Immigration Services]] (USCIS), [[wikipedia:U.S. Immigration and Customs Enforcement|Immigration and Customs Enforcement]] (ICE), and [[wikipedia:U.S. Customs and Border Protection|Customs and Border Protection]] (CBP).
+|-
+| 2003 || || Detention center ||  || The {{w|Willacy County Regional Detention Center}} opens for operations in {{w|Raymondville, Texas}}, operated by {{wManagement and Training Corporation}} under contract with the {{w|United States Marshal Service}}.
+|-
+| 2004 || || Detention center || || The {{w|Stewart Detention Center}} opens for operations in {{w|Lumpkin, Georgia}}.
+|-
+| 2004 || || Detention center || || The {{w|Northwest Detention Center}} opens for operations in {{w|Tacoma, Washington}}, operated by {{w|Correctional Services Corporation}} on contract with the {{w|U.S. Department of Homeland Security}}.
+|-
+| 2005 || {{dts|May}} || Detention center || || The {{w|South Texas Detention Facility}}, a privately operated prison, opens for operation in {{w|Pearsall, Texas}} as the Pearsall Immigration Detention Center. The prison houses people for the {{w|U.S. Immigration and Customs Enforcement}} as well as {{w|United States Marshal Service}}.
+|}
