@@ -1,0 +1,31 @@
+This timeline covers the student visa policy of the United States.
+
+It is a complement to the [[timeline of immigration enforcement in the United States]] and [[timeline of immigrant processing and visa policy in the United States]].
+
+Get more details from {{w|F visa#History}} (written by author of this timeline so no need for additional attribution).
+
+== Full timeline ==
+
+{| class="wikitable sortable"
+! Year !! Month and date (if available) !! Event type !! Affected agencies (past, and present equivalents) !! Details
+|-
+| 1855 || || || || The {{w|Carriage of Passengers Act of 1855}} recognizes students as a category of temporary immigrant.<ref name=shareok>{{cite web|url = https://shareok.org/bitstream/handle/11244/917/3187222.PDF?sequence=1|title = A Descriptive Case Study of the Impact of 9/11 on International Student Visa Policy in the 20 Months Following the Attacks|author = Mary Helen Reeves|accessdate = February 10, 2016}}</ref>
+|-
+| 1882 || || || || The {{w|Chinese Exclusion Act}} of 1882 significantly restricts the immigration of Chinese sklled and unskilled laborers, but carves out an exception for students.<ref name=shareok/>
+|-
+| 1913 || || || || The U.S. Bureau of Education records indicate that 4,222 international students were enrolled in 275 U.S. universities, colleges, and technical schools; most of them were sent by foreign governments for education and training that would be useful when the students returned home.<ref name=shareok/>
+|-
+| 1918 || || || || All noncitizens are required to obtain visas prior to entry to the United States.<ref name=americanbar>{{cite web|url = http://www.americanbar.org/content/dam/aba/publications/supreme_court_preview/BriefsV4/13-1402_amicus_resp_lawprofs.authcheckdam.pdf|title = Brief of ''Amicus Curiae'' Law Professors in Support of Respondent (Kerry v. Din)|publisher = [[American Bar Association]]}}</ref>
+|-
+| 1919 || || || || The [[Institute of International Education]] is formed to protect and promote the interests of international students and exchange visitors.<ref name=shareok/>
+|-
+| 1921 || || || || Lobbying by the IIE to the classification of students as nonimmigrants and the creation of a separate nonimmigrant visa for students, thereby exempting students from the numerical quotas placed in the {{w|Emergency Quota Act}} of 1921 and the {{w|Immigration Act of 1924}}.<ref name=shareok/><ref name=iie-history>{{cite web|url = http://www.iie.org/Who-We-Are/History|title = A Brief History of IIE|accessdate = February 10, 2016}}</ref>
+|-
+| 1924 || || || || The United States Congress requires consular officers to make a determination of admissibility prior to issuing a visa.<ref name=americanbar/>
+|-
+| 1989 || {{dts|April 11}} || || || {{w|Executive Order 12711}} is issued by President {{w|George H. W. Bush}}. It defers deportation of Chinese nationals and their direct dependents who were in the US between 5 June 1989 and 11 April 1990, waives the 2-year home country residency requirement, and gives them employment authorization through 1 January 1994. In particular, this Act affects students, who constitute a large fraction of Chinese nationals temporarily present in the United States.
+|-
+| 1992 || {{dts|October 9}} || || || The {{w|Chinese Student Protection Act of 1992}} is signed into law by President George H. W. Bush. It formalizes the protections created by Executive Order 12711.
+|-
+| 1993 || {{dts|February 26}} || || || The {{w|1993 World Trade Center bombing}} occurs. It is discovered that {{w|Eyad Ismoil}}, one of the terrorists, is in the United States on an expired student visa.
+|}
