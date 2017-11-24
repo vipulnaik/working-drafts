@@ -159,7 +159,7 @@ and remove the line include_once ...
 
 * Update ~/mediawiki/<project>-new/w/semanticsettings.inc adding the line `$smwgDefaultStore = 'SMWSQLStore2';` as per https://www.semantic-mediawiki.org/wiki/Help:Installation_1.8.0#Upgrading_existing_installations
 
-* Go to ~/mediawiki/devec-new/w/extensions/SemanticMediaWiki/maintenance and run `php7.0 SMW_setup.php -b SMWSQLStore3`
+* Go to ~/mediawiki/<project>-new/w/extensions/SemanticMediaWiki/maintenance and run `php7.0 SMW_setup.php -b SMWSQLStore3`
 
 * Now run `php7.0 SMW_refreshData.php -v -b SMWSQLStore3 -fp`
 
@@ -186,7 +186,7 @@ composer require mediawiki/semantic-media-wiki "~2.5" --update-no-dev
 
 * Now:
 
-php7.0 maintenance/update.php --quick --skip-external-dependencies
+php7.0 maintenance/update.php --quick --skip-external-dependencies # For Groupprops or other large wikis: --nopurge
 
 * Comment out Semantic MediaWiki and Validator inclusions from semanticsettings.inc, and uncomment inclusion of semanticsettings.inc
 
