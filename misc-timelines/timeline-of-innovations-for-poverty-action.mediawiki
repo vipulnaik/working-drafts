@@ -1,0 +1,27 @@
+This is a timeline of {{w|Innovations for Poverty Action}}.
+
+{| class="sortable wikitable"
+! Year !! Month and date !! Event type !! Details
+|-
+| 2002 || || || {{w|Dean Karlan}} proposes the idea behind Innovations for Poverty Action (IPA) to his graduate advisors {{W|Abhijit Banerjee}}, {{w|Esther Duflo}}, and {{w|Sendhil Mullainathan}} at MIT.<ref name=history>{{cite web|url = https://www.poverty-action.org/about/history|title = History: About|accessdate = November 26, 2017}}</ref>
+|-
+| 2003 || {{Dts|June 14}} || Domain || The domain <code>poverty-action.org</code> is registered.<ref>{{cite web|url = https://whois.icann.org/en/lookup?name=poverty-action.org|title = Showing results for: POVERTY-ACTION.ORG|accessdate = November 26, 2017}}</ref>
+|-
+| 2003 || {dts|September 12}} || Domain || The domain <code>povertyactionlab.org</code> of the sister organization, the {{w|Abdul Latif Jameel Poverty Action Lab}} at MIT, is registered.<ref>{{cite web|url = https://whois.icann.org/en/lookup?name=povertyactionlab.org|title = Showing results for: POVERTYACTIONLAB.ORG|accessdate = November 26, 2017}}</ref> This also matches the approximate founding date for the Poverty Action Lab.<ref name=history/>
+|-
+| 2003 || {{dts|December 23}} || || The earliest Internet Archive Wayback Machine snapshot of the IPA website is available for this date.<ref>{{cite web|url = http://web.archive.org/web/20031223003031/http://www.poverty-action.org:80/|title = Innovations for Poverty Action|accessdate = November 26, 2017}}</ref>
+|-
+| 2003 || || || The first {{w|Form 990}} of the Innovations for Poverty Action is filed for this year. The filing date is May 11, 2004, and the stamped date of receipt is August 11, 2004. The address as of this time is in {{w|Princeton, New Jersey}}, at what appears to be Dean Karlan's home.<ref name=form-990-2003>{{cite web|url = https://www.poverty-action.org/sites/default/files/2003%20990.pdf|title = Form 990: Return of Organization Exempt from Income Tax, Innovations for Poverty Action|accessdate = November 26, 2017}}</ref><ref name=annual-reports-finances>{{cite web|url = https://www.poverty-action.org/about/annual-reports-finances|title = Annual Reports & Finances|publisher = Innovations for Poverty Action|accessdate = November 26, 2017}}</ref><ref name=history/>
+|-
+| 2006 || || || The Innovations for Poverty Action moves office from Princeton, New Jersey to New Haven, Connecticut. The exact date of the move is not known; the approximate time is inferred from the fact that the Form 990 for 2005 (filed in 2006) has a Princeton address and the Form 990 for 2006 (filed in 2007) has a New Haven address.<ref name=form-990-2005>{{cite web|url = https://www.poverty-action.org/sites/default/files/2005%20990.pdf|title = Form 990: Return of Organization Exempt from Income Tax, Innovations for Poverty Action|accessdate = November 26, 2017}}</ref><ref name=form-990-2006>{{cite web|url = https://www.poverty-action.org/sites/default/files/2006%20990.pdf|title = Form 990: Return of Organization Exempt from Income Tax, Innovations for Poverty Action|accessdate = November 26, 2017}}</ref><ref name=annual-reports-finances/> Also, the Wayback Machine snapshot for October 13, 2006 shows a New Haven address; however, no earlier snapshots are available for 2006 so we cannot narrow the date down further.<ref>{{cite web|url = http://web.archive.org/web/20061020093631/http://www.poverty-action.org:80/aboutus/contact-us|title = Contact Us|publisher = Innovations for Poverty Action|accessdate = November 26, 2017}}</ref>
+|-
+| 2009 || || || The earliest Annual Report available on the IPA website (and the first ever, assuming the website is comprehensive) is published for this year.<ref>{{cite web|url = https://www.poverty-action.org/sites/default/files/publications/ipa_2009_annual_report.pdf|title = IPA 2009 Annual Report|publisher = Innovations for Poverty Action|accessdate = November 26, 2017}}</ref><ref name=annual-reports-finances/>
+|-
+| 2011 || || || The earliest Audited Financials available on the IPA website (and the first ever, assuming the website is comprehensive) are published for this year. The audit also covers financials for 2010.<ref>{{cite web|url = https://www.poverty-action.org/sites/default/files/2011%20Audited%20Financials.pdf|title = Financial Statements and Supplementary Information Together with Report of Independent Certified Public Accountants|publisher = Innovations for Poverty Action|accessdate = November 26, 2017}}</ref><ref name=annual-reports-finances/>
+|-
+| 2012 || {{dts|May}} || || {{w|Good Ventures}} makes a $50,000 grant to Innovations for Poverty Action to "support IPA’s efforts to research what works in developing world aid and advocate for the use of evidence in decision-making". This is part of a set of similarly sized grants to a number of "standout charities" identified by charity evaluator GiveWell, that works closely with Good Ventures.<ref>{{cite web|url = http://www.goodventures.org/our-portfolio/grants/innovations-for-poverty-action-general-support-may-2012|title = Innovations for Poverty Action — General Support|date = May 1, 2012|accessdate = November 26, 2017|publisher = Good Ventures}}</ref>
+|}
+
+== References ==
+
+{{reflist|30em}}
