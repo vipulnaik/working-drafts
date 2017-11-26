@@ -1,0 +1,13 @@
+This is a timeline of the {{w|Center for Global Development}}, a Washington, D.C.-based think-and-do tank focused on global development.
+
+== Full timeline ==
+
+{| class="sortable wikitable"
+! Year !! Month and date !! Event type !! Details
+|-
+| 2001 || {{dts|November}} || || The Center for Global Development is founded by former senior U.S. official {{w|Edward W. Scott}}, director of the {{w|Peterson Institute for International Economics}}, {{w|C. Fred Bergsten}}, and {{w|Nancy Birdsall}}. Scott provided $25 million in funding, of which $5 million was provided to the IIE (under Bergsten) to help the CGD get off the ground; Birdsall would lead the newly formed CGD.<ref>{{cite web|url = https://www.openphilanthropy.org/blog/history-philanthropy-case-study-founding-center-global-development|title = History of Philanthropy Case Study: The Founding of the Center for Global Development|last = Karnofsky|first = Holden|date = June 15, 2016|accessdate = November 26, 2017|publisher = Open Philanthropy Project}}</ref>{{rp|20}}
+|-
+| 2003-2005 || || || The idea of {{w|advance market commitments}} is explored in a working group, as a way to create better incentives for the development of vaccines.
+== References ==
+
+{{reflist|30em}}
