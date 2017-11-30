@@ -1,0 +1,8 @@
+You mention "Proportion of the global funding need for the program that is filled" as one of the factors, and give the example of bednet versus chomoprevention. I am wondering if you additionally give high weight to the proportion of funding need for the specific charity of program that is likely to be met by GiveWell-influenced donors. 
+
+Concretely, it's plausible that GiveWell-influenced donors who have been following GiveWell for some time would feel more comfortable donating to AMF or SCI than to a new player in the GiveWell landscape like Malaria Consortium. If you expect this, then asking Good Ventures to fund the newer charities heavily, while recommending the "easier" more established charities as top choices for other donors, is an easier sell. I'm wondering if that was a factor in your recommendation this year.
+
+To put it another way, suppose Open Phil had refused to raise the budget for GiveWell top and standout charities from $50 million to $75 million. In that case, the highest-priority unmet gap in your analysis would have been Malaria Consortium. Would you then have recommended Malaria Consortium, rather than AMF/SCI, as the top charity to donors, despite the possible adverse effects of the novelty on the willingness and magnitude of people's donations? Or would you have adjusted something in the existing $50 million budget (e.g. scaled down the $75 million to $50 million, rather than just spend on the highest-priority $50 million in that) to keep AMF/SCI the top charities?
+
+https://blog.givewell.org/2017/11/27/our-top-charities-for-giving-season-2017/#comment-946021
+
