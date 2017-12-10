@@ -1,0 +1,58 @@
+The '''Immigration Act, 1869''' (also written as the '''Immigration Act of 1869''', assented June 22, 1869) was the first immigration act passed by the government of Canada after [[Canadian Confederation]] (July 1, 1867).<ref name=pier21-immigration-act-1869>{{cite web|url = https://www.pier21.ca/research/immigration-history/immigration-act-1869|title = Immigration Act, 1869|accessdate = November 24, 2017|publisher = Canada Museum of Immigration at Pier21}}</ref><ref>{{cite web|url = http://immigrationtous.net/139-immigration-act-canada-1869.html|title = IMMIGRATION ACT (CANADA) (1869)|accessdate = November 24, 2017|publisher = Immigration to North America}}</ref><ref name=mosaic>{{cite book|url = https://books.google.com/books/about/The_Making_of_the_Mosaic.html?id=2WcFbML-92QC&printsec=frontcover&source=kp_read_button#v=onepage&q=1869&f=false|title = The Making of the Mosaic: A History of Canadian Immigration Policy|last = Kelley|first = Ninette|last2 = Trebilcock|first2 = M.|date = October 2, 2010|accessdate = December 10, 2017|publisher = University of Toronto Press}}</ref><ref name=whitaker>{{cite book|url = https://books.google.com/books?id=d6eNAAAAMAAJ&focus=searchwithinvolume&q=1869|title = Canadian Immigration Policy Since Confederation|last = Whitaker|first = Reginald|publisher = Canadian Historical Association|accessdate = December 10, 2017}}</ref><ref name=pier21>{{cite web|url = https://www.pier21.ca/research/immigration-history/canadian-immigration-acts-and-legislation|title = Canadian Immigration Acts and Legislation|last = Van Dyk|first = Lindsay|accessdate = November 24, 2017|publisher = Canada Museum of Immigration at Pier21}}</ref><ref name=passagetocanada>{{cite web|url = http://passagestocanada.com/wp-content/uploads/2016/04/Primer_discrimination-in-immigration-policy_final1.pdf|title = Historical Timeline: Changes to Canada’s Immigration Policies|accessdate = November 24, 2017}}</ref>
+
+== Background ==
+
+The [[British colonization of the Americas#British colonies in North America|British colonies]] of [[Province of Canada|Canada]], [[Nova Scotia]], and [[New Brunswick]] were united into one [[Dominion]] of [[Canada]] on July 1, 1867. This process was called [[Canadian Confederation]].<ref>{{cite web |url=http://laws-lois.justice.gc.ca/eng/Const/page-1.html#h-3 |title=Constitution Act, 1867 | publisher=Her Majesty the Queen in Right of Canada | date=March 29, 1867 | accessdate=September 3, 2012| page=s.9}}</ref><ref>{{cite book | url=https://books.google.ca/books?hl=en&lr=&id=VelV-rBz24sC&oi=fnd&pg=PR7&dq=canadian+confederation&ots=9ehm_J1pIQ&sig=OUrb0p1EOgBNAk0QU8-6qKqyOsQ#v=onepage&q=canadian%20confederation&f=false | title=Britain and the Origins of Canadian Confederation, 1837–67 | publisher=University of British Columbia Press | author=Martin, Ged | year=1995 | location=Vancouver | pages=1 | isbn=978-0774804875}}</ref> [[John A. Macdonald|Sir John Alexander Macdonald]] became the first Prime Minister of the new Dominion of Canada.
+
+At the time, the Canadian government was concerned about expansionist impulses of Canada's southern neighbor, the [[United States]], and sought to increase the population and economic prosperity of Canada to be able to reduce the associated risks. Increasing the population density and development of the Canadian West was considered a strategy for doing so, as the West was seen as a rich source of natural resources and fertile lands. Settling the West would provide new markets for the output of industrial manufacturing in the East. Encouraging immigration and the settlement of immigrants in the West was seen as one strategy for growing the West.<ref name=mosaic/> One of the big challenges for Canada was that although a lot of people entered the country, most of them did so only in transit to the United States, so Canada did not see much settlement.<ref name=mosaic/><ref name=pier21-immigration-act-1869/>
+
+The Immigration Act of 1869 was intended to encourage immigrants to settle the Canadian West,<ref name=mosaic/><ref name=pier21-immigration-act-1869/> as well as reenacting controls previously enacted by the British North American colonies (responsibility for legislating the controls had shifted from the former colonies to the Dominion as a result of the Canadian Confederation in 1867).<ref name=whitaker/>
+
+== Provisions ==
+
+The Immigration Act of 1869 had provisions dealing with establishment of immigration offices, duties payable on immigrants, condition of travel and reporting requirements, duties of quarantine officers, pauper immigrants, passenger protection, and recovery of duties and penalties.<ref name=pier21-immigration-act-1869/>
+
+=== Establishment of immigration offices ===
+
+Immigration offices were to be established in London, England, as well as elsewhere in the United Kingdom and in various parts of Canada.
+
+=== Duty payable on immigrants ===
+
+A duty of one dollar was imposed for immigrants arriving in any port of Canada from any port of the United Kingdom or elsewhere in Europe.
+
+=== Regulations on the conditions of travel ===
+
+All vessels were required to meet specific regulations on the conditions of travel, specifically at most one adult passenger for every two tons of tonnage. A penalty of between 8 and 20 dollars would be assessed for each passenger in excess of the limit.
+
+=== Reporting and other requirements of master of the vessel ===
+
+The master of the vessel was required to submit to the Collector of Customs, within 24 hours of arrival, a list of all the passengers who boarded the vessel, along with various details. The master was also required to not let passengers leave until this list had been delivered. Passengers who left the vessel before departing the vessel still needed to be included on the list, along with information that they departed before landing in Canada.
+
+=== Special duties of quarantine officers ===
+
+In accordance with the Quarantine and Health Act of 1868, the Medical Superintendent at the Quarantine Station at the port of entry, or a person appointed by the superintendent, was to examine all landing passengers to find any "Lunatic, Idiotic, Deaf and Dumb, Blind or Infirm Person" not belonging to an immigrant family, or anybody else deemed likely to permanently become a public charge. If such passengers were found, the master of the ship would be required to post a bond for 300 dollars as surety for the passenger in order for the passenger to be allowed into Canada.
+
+=== Pauper immigrants ===
+
+The Act allowed for the landing of pauper immigrants to be prohibited by proclamation of the Governor, and allowed the Governor to temporarily detain such immigrants in the ship they had landed in.
+
+=== Passenger protection ===
+
+The master of the ship was required to allow passengers to stay for up to 48 hours on the ship after landing, with a penalty of up to 20 dollars for requiring the passenger to vacate before that time. Further, the master of the ship was required to return all the passenger's luggage to the passenger within that time. Some provisions on the time of day for the luggage hand-off were also included.
+
+=== Recovery of duties and penalties ===
+
+Information was included in the Act on how the duties and penalties imposed on the master of the ship were to be paid, and how disputes around these could be settled.
+
+=== Monies levied and expended ===
+
+The money for carrying out the provisions of the Act was to come from money periodically provided by Parliament for the purpose. The money levied would be paid out by the Collector of Customs (who would receive it) to the Receiver General, to form part of the Consolidated Revenue Fund of Canada.
+
+== See also ==
+
+* [[Steerage Act of 1819]], a similar first legislation in the United States, with a focus on regulating conditions of travel and requiring the submission of information on the people on board the ship
+* [[Carriage of Passengers Act of 1855]], a similar legislation in the United States
+
+== References ==
+
+{{reflist|30em}}

@@ -1,0 +1,293 @@
+This is a timeline of [[wikipedia:Against Malaria Foundation|Against Malaria Foundation]] (AMF).
+
+==Big picture==
+
+{| class="wikitable"
+! Time period !! Development summary !! More details
+|-
+| 2003 || Early days || The documentary "Being Terri", about a child who was badly burned in a fire, airs on British television. This documentary inspires Rob Mather to start the fundraising event "Swim For Terri", which would morph into World Swim Against Malaria (which would later become the Against Malaria Foundation).
+|-
+| 2004–2005 || Establishment of World Swim Against Malaria || Following the initial "Swim For Terri" event, Mather keeps the idea of swimming as a fundraiser but changes the target to fighting malaria through the purchase of bednets. AMF is established as the World Swim for Malaria Foundation (but called "World Swim Against Malaria"), and a fundraiser takes place in December 2005.
+|-
+| 2006–2008 || Continued growth || The first bednet distributions due to AMF take place in mid-2006. Throughout this period, bednet distributions due to AMF would expand into numerous countries, and various fundraisers take place (both swim and non-swim). By mid-2007, AMF would formally change its name to the current "Against Malaria Foundation".
+|-
+| 2009–present || Discovery and recommendation by effective altruist organizations || Contact between AMF and the charity evaluator GiveWell takes place around April 2009. By July 2009, GiveWell lists AMF as a "recommended organization", and in 2010 GiveWell ranks AMF a "Silver Medal organization". Other evaluator organizations associated with the effective altruism movement follow in their recommendation of AMF. Since 2010, in every year except 2013, GiveWell has listed AMF as a top charity.
+|}
+
+==Full timeline==
+
+<!--
+TODO:
+
+- what were rob mather and andrew garner doing before AMF? very little info of them anywhere.
+- when was the AMF malaria advisory group established?
+- "changes to the distribution guidelines and post-distribution checkup rules" -- kinda hard to find exact dates around this, imo.
+- keep track of max nets distributed per distribution?
+- tax deductibility event for Switzerland through EAF; this page https://www.againstmalaria.com/CharityStatus.aspx does not list a date or documentation for this, so it is unclear when this happened.
+- when did it hire the two other people? and how many people does it have anyway?
+- the other occurrences of "madness against malaria". During which years did this happen?
+-->
+
+{| class="sortable wikitable"
+! Year !! Month and date !! Event type !! Details
+|-
+| 2003 || {{dts|June 9}} || || The documentary "Being Terri", about a child who was badly burned in a fire, airs on British television. This documentary inspires Rob Mather to start the fundraising event "Swim For Terri", which would morph into World Swim Against Malaria (which would later become the Against Malaria Foundation).<ref name="history_page">{{cite web |url=https://www.againstmalaria.com/History.aspx |publisher=The Against Malaria Foundation |title=History |accessdate=April 24, 2017}}</ref><ref>{{cite web |url=http://www.swimforterri.org/ |title=Swim for Terri |accessdate=April 24, 2017}}</ref><ref>{{cite web |url=http://www.nytimes.com/2008/07/20/opinion/20kristof.html |date=July 20, 2008 |publisher=[[wikipedia:The New York Times|The New York Times]] |title=Opinion - Geezers Doing Good |author=Nicholas D. Kristof |accessdate=April 24, 2017 |quote=another general in the war on malaria is Rob Mather, a British management consultant who — thank heaven! — isn't very handy with a TV remote. Mr. Mather was trying to turn off his set in June 2003 when he accidentally flipped to another channel and was riveted by the image of a 5-year-old girl who was struggling to overcome severe burns all over her body.}}</ref>
+|-
+| 2003 || {{dts|December 6}} || Swim || "Swim For Terri" takes place.<ref name="history_page" />
+|-
+| 2004 || {{dts|June 24}} || Legal || AMF's Memorandum and Articles of Association (in the United Kingdom) dates to this day.<ref>{{cite web |url=https://www.againstmalaria.com/downloads/MemorandumOfAssociation.pdf |title=Memorandum and Articles of Association of the World Swim for Malaria Foundation |accessdate=April 24, 2017}}</ref>
+|-
+| 2004 || {{dts|August}} || Legal (?) || The Against Malaria Foundation is set up (not totally clear what this means).<ref name="old_about_page">{{cite web |archivedate=February 19, 2010 |archiveurl=https://web.archive.org/web/20100219084813/http://www.againstmalaria.com:80/AboutUs.aspx |title=About us |url=http://www.againstmalaria.com:80/AboutUs.aspx |quote=The Foundation was set up in August 2004 with the explicit aim of handling the money raised through World Swim Against Malaria.}}</ref>
+|-
+| 2005 || {{dts|July 19}} || Legal || In the United States, the Internal Revenue Service grants tax exempt status to AMF under section 501(c)(3) of the Internal Revenue Code.<ref>{{cite web |url=https://www.againstmalaria.com/downloads/AMF_Charity_IRSDeterminationLetter.pdf |title=AMF Charity IRS Determination Letter |date=July 19, 2005 |accessdate=April 24, 2017}}</ref>
+|-
+| 2005 || {{dts|July 19}} || Money milestone || AMF finishes raising its first $1000.<ref name=milestones>{{cite web |url=https://www.againstmalaria.com/Milestones.aspx?tab=money |publisher=The Against Malaria Foundation |title=Milestones |accessdate=April 24, 2017}}</ref>
+|-
+| 2005 || {{dts|October 18}} || Money milestone || AMF passes the $10,000 mark in money raised since inception.<ref name="money_milestones" />
+|-
+| 2005 || {{dts|November 23}} || Money milestone || AMF passes the $100,000 mark in money raised since inception.<ref name="money_milestones" />
+|-
+| 2005 || {{dts|December 3}} || Swim || AMF launches World Swim Against Malaria.<ref name="old_about_page" />
+|-
+| 2005 || {{dts|December}} || || World Swim for Malaria is reported to have had over 250,000 swimmers and raised over $1 million by this time.<ref>{{cite web |url=http://www.malaria.org/mac/mac2006.html |title=MALARIA FOUNDATION INTERNATIONAL |accessdate=April 25, 2017 |year=2006}}</ref>
+|-
+| 2006 || {{dts|March 17}} || Money milestone || AMF passes the $1 million mark in money raised since inception.<ref name="money_milestones" />
+|-
+| 2006 || {{dts|May}} ||  || The first net distributions due to AMF take place. These distributions are done by the [[wikipedia:International Red Cross and Red Crescent Movement|Red Cross]].<ref>{{cite web |url=https://www.againstmalaria.com/distributions.aspx |publisher=The Against Malaria Foundation |title=Distributions |accessdate=April 24, 2017}}</ref>
+|-
+| 2006 || {{dts|July}} || New country || The first net distributions in [[wikipedia:Zambia|Zambia]] take place in [[wikipedia:Livingstone, Zambia|Livingstone]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=8 |publisher=The Against Malaria Foundation |title=Livingstone, Zambia |accessdate=April 25, 2017}}</ref>
+|-
+| 2006 || {{dts|July}} || New country || The first net distributions in [[wikipedia:Uganda|Uganda]] take place in [[wikipedia:Soroti|Soroti]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=7 |publisher=The Against Malaria Foundation |title=Soroti, Uganda |accessdate=April 25, 2017}}</ref>
+|-
+| 2006 || {{dts|July}} || New country || The first net distributions in [[wikipedia:Rwanda|Rwanda]] take place in [[wikipedia:Kigali|Kigali]], the capital city.<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=6 |publisher=The Against Malaria Foundation |title=Kigali, Rwanda |accessdate=April 25, 2017}}</ref>
+|-
+| 2006 || {{dts|July}} || New country || The first net distributions in [[wikipedia:Namibia|Namibia]] take place in [[wikipedia:Caprivi Strip|Caprivi]], [[wikipedia:Kavango Region|Kavango]], and [[wikipedia:Ohangwena Region|Ohangwena]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=5 |publisher=The Against Malaria Foundation |title=Capr/Kava/Ohang, Namibia |accessdate=April 25, 2017}}</ref>
+|-
+| 2006 || {{dts|August}} || New country || The first net distributions in [[wikipedia:Zimbabwe|Zimbabwe]] take place in [[wikipedia:Victoria Falls, Zimbabwe|Victoria Falls]] and [[wikipedia:Mount Darwin, Zimbabwe|Mount Darwin]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=9 |publisher=The Against Malaria Foundation |title=Victoria Falls/Mount Darwin, Zimbabwe |accessdate=April 25, 2017}}</ref>
+|-
+| 2006 || {{dts|August}} || New country || The first net distributions in [[wikipedia:Malawi|Malawi]] take place in [[wikipedia:Blantyre|Blantyre]], [[wikipedia:Mchinji|Mchinji]], [[wikipedia:Nkhotakota|Nkhotakota]], and [[wikipedia:Nkhata Bay|Nkhata Bay]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=4 |publisher=The Against Malaria Foundation |title=Blan/Mch/Nkh/Nkh, Malawi |accessdate=April 25, 2017}}</ref>
+|-
+| 2006 || {{dts|August}} || New country || The first net distributions in [[wikipedia:Kenya|Kenya]] take place in [[wikipedia:Mombasa|Mombasa]] and [[wikipedia:Siaya County|Siaya]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=3 |publisher=The Against Malaria Foundation |title=Mombasa/Siaya, Kenya |accessdate=April 25, 2017}}</ref>
+|-
+| 2006 || {{dts|August}} || New country || The first net distributions in [[wikipedia:Ethiopia|Ethiopia]] take place in [[wikipedia:Amhara Region|Amhara]] and other locations.<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=2 |publisher=The Against Malaria Foundation |title=Amh/Tig/Afar/Som, Ethiopia |accessdate=April 25, 2017}}</ref>
+|-
+| 2006 || {{dts|August}} || New country || The first net distributions in [[wikipedia:Botswana|Botswana]] take place in [[wikipedia:Kazungula District|Kazungula]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=1 |publisher=The Against Malaria Foundation |title=Kasane/Kazungula, Botswana |accessdate=April 25, 2017}}</ref>
+|-
+| 2006 || {{dts|August 31}} || Fundraiser (non-swim) || The first Madness Against Malaria is announced. Madness Against Malaria is a fundraising tournament inspired by the basketball tournament [[wikipedia:March Madness|March Madness]]. The competition is planned to last from September 2006 to February 2007.<ref>{{cite web |url=http://www.fightingmalaria.org/news/365.html |title=Madness Against Malaria |accessdate=April 24, 2017 |date=August 31, 2006 |first=Lance |last=Laifer |publisher=Africa Fighting Malaria}}</ref> AMF acts as an operating partner for the tournament and hosts the website.<ref>{{cite web |url=https://www.againstmalaria.com/Madness.aspx |publisher=The Against Malaria Foundation |title=Madness Against Malaria |accessdate=April 24, 2017}}</ref> 168 teams register for the tournament, which raises $104,000.<ref>{{cite web |url=http://www.nytimes.com/2007/11/12/giving/12malaria.html |date=November 12, 2007 |publisher=[[wikipedia:The New York Times|The New York Times]] |title=Fighting a Disease of Logistics, He Means Business |author=Jenny Anderson |accessdate=April 25, 2017 |quote=For the inaugural Madness Against Malaria, 168 teams registered (anyone can; teams included sixth-grade students in Philadelphia and hedge fund managers like Whitney Tilson), and the 64 that raised the most money qualified to compete in March 2007. [&hellip;] In the end, more than $104,000 was generated to buy approximately 20,000 insecticide-treated bed nets, a highly effective tool in preventing malaria.}}</ref>
+|-
+| 2007 || {{dts|January}} || New country || The first net distributions in [[wikipedia:Cameroon|Cameroon]] take place in [[wikipedia:Batouri|Batouri]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=24 |publisher=The Against Malaria Foundation |title=Batouri, Cameroon |accessdate=April 25, 2017}}</ref>
+|-
+| 2007 || {{dts|January 23}} || Legal || AMF achieves "tax-exempt status as a registered charity" in Canada.<ref>{{cite web |url=https://www.againstmalaria.com/downloads/WSM_Canada_2.pdf |title=Subject: Notification of Registration The World Swim For Malaria Foundation (Canada) / La Foundation The World Swim For Malaria (Canada) |accessdate=April 27, 2017 |date=January 23, 2007}}</ref>
+|-
+| 2007 || {{dts|February}} || New country || The first net distributions in [[wikipedia:Sudan|Sudan]] take place in [[wikipedia:Khartoum|Khartoum]] IDP camps.<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=30 |publisher=The Against Malaria Foundation |title=Khartoum IDP camps, Sudan |accessdate=April 25, 2017}}</ref>
+|-
+| 2007 || {{dts|February}} || New country || The first net distributions in [[wikipedia:São Tomé and Príncipe|São Tomé and Príncipe]] take place in [[wikipedia:Caué District|Caué]] and other locations.<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=35 |publisher=The Against Malaria Foundation |title=Cau/Lem/Can, Sao Tome and Principe |accessdate=April 25, 2017}}</ref>
+|-
+| 2007 || {{dts|February}} || New country || The first net distributions in [[wikipedia:Cambodia|Cambodia]] take place in the [[wikipedia:Siem Reap Province|Siem Reap Province]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=46 |publisher=The Against Malaria Foundation |title=Siem Reap Province, Cambodia |accessdate=April 25, 2017}}</ref>
+|-
+| 2007 || {{dts|March}} || New country || The first net distributions in the [[wikipedia:Democratic Republic of the Congo|Democratic Republic of the Congo]] take place in [[wikipedia:Bukavu|Bukavu]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=49 |publisher=The Against Malaria Foundation |title=Bukavu, Congo (Dem. Rep.) |accessdate=April 25, 2017}}</ref>
+|-
+| 2007 || {{dts|April}} || New country || The first net distributions in [[wikipedia:Madagascar|Madagascar]] take place in [[wikipedia:Mahajanga|Majunga]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=36 |publisher=The Against Malaria Foundation |title=Majunga, Madagascar |accessdate=April 25, 2017}}</ref>
+|-
+| 2007 || {{dts|April}} || New country || The first net distributions in [[wikipedia:Angola|Angola]] take place.<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=12 |publisher=The Against Malaria Foundation |title=Angola, Angola |accessdate=April 25, 2017}}</ref>
+|-
+| 2007 || {{dts|May 18}} || Legal || In the United Kingdom, AMF formally changes its name from "The World Swim for Malaria Foundation" to "The Against Malaria Foundation".<ref>{{cite web |url=https://www.againstmalaria.com/downloads/AMF_Charity_UK_ChangeOfNameCertificate.pdf |title=Certificate of Incorporation on Change of Name |accessdate=April 24, 2017}}</ref>
+|-
+| 2007 || {{dts|May}} || New country || The first net distributions in [[wikipedia:Nepal|Nepal]] take place.<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=40 |publisher=The Against Malaria Foundation |title=Bardiya District, Nepal |accessdate=April 25, 2017}}</ref><ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=39 |publisher=The Against Malaria Foundation |title=Kanchnapur District, Nepal |accessdate=April 25, 2017}}</ref>
+|-
+| 2007 || {{dts|June}} || New country || The first net distributions in [[wikipedia:Indonesia|Indonesia]] take place in [[wikipedia:Mentawai|Mentawai]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=20 |publisher=The Against Malaria Foundation |title=Mentawai, Indonesia |accessdate=April 25, 2017}}</ref>
+|-
+| 2007 || {{dts|June}} || New country || The first net distributions in [[wikipedia:Burundi|Burundi]] take place in [[wikipedia:Gatumba|Gatumba]] and [[wikipedia:Citiboke|Citiboke]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=38 |publisher=The Against Malaria Foundation |title=Gatumba, Burundi |accessdate=April 25, 2017}}</ref><ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=33 |publisher=The Against Malaria Foundation |title=Cibitoke, Burundi |accessdate=April 25, 2017}}</ref>
+|-
+| 2007 || {{dts|June}} || New country || The first net distributions in [[wikipedia:Ghana|Ghana]] take place.<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=42 |publisher=The Against Malaria Foundation |title=Kumasi Tamale, Ghana |accessdate=April 25, 2017}}</ref>
+|-
+| 2007 || {{dts|June}} || New country || The first net distributions in [[wikipedia:Senegal|Senegal]] take place in [[wikipedia:Bandafassi|Bandafassi]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=71 |publisher=The Against Malaria Foundation |title=Bandafassi, Senegal |accessdate=April 25, 2017}}</ref>
+|-
+| 2007 || {{dts|October}} || New country || The first net distributions in [[wikipedia:Haiti|Haiti]] take place in various locations.<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=34 |publisher=The Against Malaria Foundation |title=W, SE, C Plat,Nippes, Haiti |accessdate=April 25, 2017}}</ref>
+|-
+| 2007 || {{dts|October}} || New country || The first net distributions in [[wikipedia:Tanzania|Tanzania]] take place in the Bunda district.<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=66 |publisher=The Against Malaria Foundation |title=Bunda district, Tanzania |accessdate=April 25, 2017}}</ref>
+|-
+| 2007 || {{dts|November}} || New country || The first net distributions in [[wikipedia:Nicaragua|Nicaragua]] take place in the [[wikipedia:North Caribbean Coast Autonomous Region|North Caribbean Coast Autonomous Region]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=74 |publisher=The Against Malaria Foundation |title=RAAN, Nicaragua |accessdate=April 25, 2017}}</ref>
+|-
+| 2007 || {{dts|November}} || New country || The first net distributions in [[wikipedia:The Gambia|The Gambia]] take place in the Lower River Region, the North Bank Region, and the Central River District.<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=65 |publisher=The Against Malaria Foundation |title=Lower River Region, Gambia |accessdate=April 25, 2017}}</ref><ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=56 |publisher=The Against Malaria Foundation |title=North Bank Region, Gambia |accessdate=April 25, 2017}}</ref><ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=50 |publisher=The Against Malaria Foundation |title=CRD, Sami, Gambia |accessdate=April 25, 2017}}</ref>
+|-
+| 2007 || {{dts|December}} || New country || The first net distributions in [[wikipedia:Liberia|Liberia]] take place.<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=75 |publisher=The Against Malaria Foundation |title=Maryland, Sinoe, Liberia |accessdate=April 25, 2017}}</ref>
+|-
+| 2008 || {{dts|January 25}} || Social media || The AMF YouTube account is created. AMF would use this account to upload bednet distribution videos and other informational videos.<ref>{{cite web |url=https://www.youtube.com/user/AgainstMalaria/about |title=AgainstMalaria |publisher=YouTube |accessdate=April 25, 2017}}</ref>
+|-
+| 2008 || {{dts|January}} || New country || The first net distributions in [[wikipedia:Togo|Togo]] take place in Danyi N'Digbe.<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=86 |publisher=The Against Malaria Foundation |title=Danyi N'Digbe, Togo |accessdate=April 25, 2017}}</ref>
+|-
+| 2008 || {{dts|February 8}} || Social media || AMF's first news update dates back to this day. The update announces the launch of the news section of their site, which they call (at least at the time) the "Information Hub".<ref>{{cite web |url=https://www.againstmalaria.com/NewsItem.aspx?newsitem=Launching-our-Information-Hub |publisher=The Against Malaria Foundation |title=Launching our Information Hub |date=February 8, 2008 |accessdate=April 27, 2017}}</ref><ref>{{cite web |url=https://www.againstmalaria.com/News.aspx?Year=2008&Month=2 |publisher=The Against Malaria Foundation |title=News for 2008, February |accessdate=April 27, 2017}}</ref>
+|-
+| 2008 || {{dts|February}} || New country || The first net distributions in [[wikipedia:Nigeria|Nigeria]] take place in [[wikipedia:Benin City|Benin City]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=83 |publisher=The Against Malaria Foundation |title=Benin City, Nigeria |accessdate=April 25, 2017}}</ref>
+|-
+| 2008 || {{dts|April 5}} || Swim || World Swim Against Malaria 2008 takes place.<ref>{{cite web |archivedate=February 22, 2009 |archiveurl=https://web.archive.org/web/20090222190848/http://www.worldswimagainstmalaria.com:80/About.aspx |title=World Swim Against Malaria |url=http://www.worldswimagainstmalaria.com:80/About.aspx}}</ref><ref>{{cite web |url=http://www.malariaconsortium.org/userfiles/file/News%20archive/opening_ceremony_of_the_2008_world_swim_against_malaria_uganda_friday_4th_april_2008.pdf |accessdate=April 25, 2017 |title=Opening Ceremony of the 2008 World Swim Against Malaria Uganda Friday 4th April 2008}}</ref>
+|-
+| 2008 || {{dts|June}} || New country || The first net distributions in [[wikipedia:India|India]] take place in [[wikipedia:Tamil Nadu|Tamil Nadu]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=84 |publisher=The Against Malaria Foundation |title=Kanyakumari, Tamil Nadu, India |accessdate=April 25, 2017}}</ref>
+|-
+| 2008 || {{dts|July}} || New country || The first net distributions in [[wikipedia:Mali|Mali]] take place in [[wikipedia:Bancoumana|Bancoumana]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=93 |publisher=The Against Malaria Foundation |title=Bancomana, Mali |accessdate=April 25, 2017}}</ref>
+|-
+| 2008 || {{dts|July}} || New country || The first net distributions in [[wikipedia:Burkina Faso|Burkina Faso]] take place in the Bousse Health District.<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=92 |publisher=The Against Malaria Foundation |title=Bousse, Burkina Faso |accessdate=April 25, 2017}}</ref>
+|-
+| 2009 || {{dts|February}} || New country || The first net distributions in [[wikipedia:Gabon|Gabon]] take place in [[wikipedia:Libreville|Libreville]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=137 |publisher=The Against Malaria Foundation |title=Libreville, Gabon |accessdate=April 25, 2017}}</ref>
+|-
+| 2009 || {{dts|February}} || New country || The first net distributions in [[wikipedia:Peru|Peru]] take place in villages along the upper [[wikipedia:Marañón River|Marañón River]] and its tributaries.<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=100 |publisher=The Against Malaria Foundation |title=Maracon, Peru |accessdate=April 25, 2017}}</ref>
+|-
+| 2009 || {{dts|April 28}} || || Possibly the first phone conversation between AMF and GiveWell is from this day.<ref name="givewell_2010_amf_review" />
+|-
+| 2009 || {{dts|May 7}} || Social media || The AgainstMalaria Twitter account is created.<ref>{{cite web |url=https://twitter.com/againstmalaria?lang=en |accessdate=April 24, 2017 |publisher=Twitter |title=Against Malaria (@AgainstMalaria)}}</ref>
+|-
+| 2009 || {{dts|June}} || New country || The first net distributions in [[wikipedia:Sierra Leone|Sierra Leone]] take place in villages in the [[wikipedia:Malen Chiefdom|Malen chiefdom]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=125 |publisher=The Against Malaria Foundation |title=Malen, Pujehun, Sierra Leone |accessdate=April 25, 2017}}</ref>
+|-
+| 2009 || {{dts|June}} || New country || The first net distributions in [[wikipedia:Papua New Guinea|Papua New Guinea]] take place in the [[wikipedia:Abau District|Abau District]].<ref>{{cite web |url=https://www.againstmalaria.com/Distribution.aspx?ProposalID=115 |publisher=The Against Malaria Foundation |title=Abau District, Papua New Guinea |accessdate=April 25, 2017}}</ref>
+|-
+| 2009 || {{dts|July 4}} || || Earliest available record of GiveWell listing AMF as a "recommended organization" dates back to this day.<ref>{{cite web |url=http://givewell.net/AMF |archivedate=July 4, 2009 |archiveurl=https://web.archive.org/web/20090704155603/http://givewell.net/AMF |title=Against Malaria Foundation |publisher=GiveWell}}</ref>
+|-
+| 2009 || {{dts|July 8}} || || AMF reaches 1 million mosquito nets (distributed or funded?).<ref>{{cite web |url=https://www.againstmalaria.com/Newsitem.aspx?NewsItem=1-MILLION-nets-reached |publisher=The Against Malaria Foundation |title=1 MILLION nets reached |date=July 8, 2009 |first=Andrew |last=Garner |accessdate=April 24, 2017}}</ref>
+|-
+| 2010 || || GiveWell review || GiveWell publishes its first review of AMF, ranking it a "Silver Medal organization".<ref name="givewell_2010_amf_review">{{cite web |url=http://www.givewell.org/charities/AMF/2010-review |title=Against Malaria Foundation (AMF) - 2010 Review |publisher=[[wikipedia:GiveWell|GiveWell]] |accessdate=April 24, 2017 |year=2010}}</ref>
+|-
+| 2010 || {{dts|January 14}} || Social media || AMF's first post to its Facebook page dates back to this day.<ref>{{cite web |url=https://www.facebook.com/AgainstMalaria/posts/250842325911 |date=January 14, 2010 |publisher=The Against Malaria Foundation |title=The immediate needs in Haiti are search and rescue teams and medical aid. |accessdate=April 27, 2017}}</ref><ref>{{cite web |url=https://www.facebook.com/pg/AgainstMalaria/posts/?ref=page_internal |title=The Against Malaria Foundation |accessdate=April 27, 2017 |publisher=The Against Malaria Foundation}}</ref>
+|-
+| 2010 || {{dts|March 30}} || || AMF is first recommended by Giving What We Can around this time.<ref>{{cite web |url=https://www.againstmalaria.com/Newsitem.aspx?NewsItem=Giving-What-We-Can-Recomended-Charity |publisher=The Against Malaria Foundation |title=Giving What We Can - Recomended Charity |accessdate=April 24, 2017 |date=March 30, 2010 |first=Andrew |last=Garner}}</ref>
+|-
+| 2010 || {{dts|June 17}} || || The Life You Can Save recommends AMF as far back as this date. It cites GiveWell's work.<ref>{{cite web |url=http://www.thelifeyoucansave.com/organizations |archivedate=June 17, 2010 |archiveurl=https://web.archive.org/web/20100617041418/http://www.thelifeyoucansave.com/organizations |title=Organizations to give to |publisher=The Life You Can Save}}</ref>
+|-
+| 2010 || {{dts|June 19}} || Fundraiser (non-swim) || Madness Against Malaria takes place again, with the tournament concluding around this time.<ref>{{cite web |url=https://www.againstmalaria.com/Newsitem.aspx?NewsItem=Madness-Against-Malaria-is-reaching-an-exciting-conclusion |publisher=The Against Malaria Foundation |title=Madness Against Malaria is reaching an exciting conclusion |first=Andrew |last=Garner |accessdate=April 27, 2017}}</ref>
+|-
+| 2010 || {{dts|June 25}} || Swim || World Swim Against Malaria 2010 takes place.<ref name="swim_about_2011" />
+|-
+| 2010 || {{dts|November 30}} || || GiveWell ranks AMF third on its list of top international charities, and gives it a silver rating. AMF is also listed as the top malaria charity in its list of top charities by cause.<ref>{{cite web |url=http://www.givewell.org/charities/top-charities/2010 |title=Top-Rated Charities - 2010 Archived Version |publisher=[[wikipedia:GiveWell|GiveWell]] |accessdate=April 24, 2017 |year=2010}}</ref><ref>{{cite web |url=https://www.againstmalaria.com/Newsitem.aspx?NewsItem=Top-five-charity-rating |publisher=The Against Malaria Foundation |title=Against Malaria: Top five charity rating |accessdate=April 24, 2017 |date=November 30, 2010}}</ref>
+|-
+| 2011 || {{dts|February 11}} || || At this point in time, AMF conducts "Post-Distribution Surveys" (PDSs) 6, 18, 30, and 42 months after distribution of nets.<ref>{{cite web |url=http://files.givewell.org/files/DWDA%202009/AMF/Conversation%20with%20Rob%20Mather%202011%2002%2011%20v2.pdf |title=Conversation between Against Malaria Foundation (Rob Mather) and GiveWell (Natalie Stone) on February 11, 2011 |publisher=GiveWell |accessdate=April 27, 2017}}</ref>
+|-
+| 2011 || {{dts|October 19}}–22 || GiveWell site visit || GiveWell visits Concern Universal (CU) in Malawi as part of its evaluation of AMF. CU is one of the bednet distributors AMF works with.<ref>{{cite web |url=http://www.givewell.org/research/site-visits/october-2011#AgainstMalariaFoundationConcernUniversal |title=Site Visits: October 2011 § Against Malaria Foundation/Concern Universal |publisher=[[wikipedia:GiveWell|GiveWell]] |accessdate=April 25, 2017 |date=October 2011}}</ref>
+|-
+| 2011 || {{dts|November 8}} || Social media || AMF's first Google Plus post dates back to this day.<ref>{{cite web |url=https://plus.google.com/+Againstmalaria/posts/at1u9BVT15y |title=Every donation from every person counts as the total of $7,005,124 from 41,98... |accessdate=April 27, 2017 |date=November 8, 2011}}</ref>
+|-
+| 2011 || {{dts|November}} || GiveWell review || GiveWell publishes its 2011 review of AMF, in which AMF is considered one of the two top charities.<ref name="gw_nov_2011_review">{{cite web |url=http://www.givewell.org/charities/AMF/2011-review |title=Against Malaria Foundation (AMF) - 2011 Review |publisher=GiveWell |accessdate=April 27, 2017}}</ref>
+|-
+| 2011 || {{dts|December}} || Good Ventures grant || Good Ventures awards a grant of $500,000 to AMF.<ref>{{cite web |url=http://www.goodventures.org/our-portfolio/grants/against-malaria-foundation-general-support-december-2011 |title=Against Malaria Foundation — General Support |publisher=Good Ventures |accessdate=April 24, 2017}}</ref> Cari Tuna announces the grant in a guest post on the GiveWell blog.<ref>{{cite web |url=http://blog.givewell.org/2011/12/23/guest-post-from-cari-tuna/ |title=Guest post from Cari Tuna |website=The GiveWell Blog |publisher=[[wikipedia:GiveWell|GiveWell]] |date=July 9, 2014 |accessdate=April 24, 2017 |first=Cari |last=Tuna}}</ref>
+|-
+| 2012 || {{dts|March}} || GiveWell update || GiveWell publishes an update on AMF's activities.<ref>{{cite web |url=http://www.givewell.org/charities/amf/March-2012 |title=Against Malaria Foundation - March 2012 Update |publisher=[[wikipedia:GiveWell|GiveWell]] |accessdate=April 27, 2017}}</ref>
+|-
+| 2012 || {{dts|March 15}} || Money milestone ||  AMF passes the $10 million mark in money raised since inception.<ref name="money_milestones">{{cite web |url=https://www.againstmalaria.com/Milestones.aspx |publisher=The Against Malaria Foundation |title=Milestones - Money raised |accessdate=April 26, 2017}}</ref>
+|-
+| 2012 || {{dts|June 29}} || Swim || World Swim Against Malaria 2012 takes place.<ref name="swim_about_2011">{{cite web |archivedate=September 9, 2011 |archiveurl=https://web.archive.org/web/20110909053818/http://www.worldswimagainstmalaria.com/About.aspx |url=http://www.worldswimagainstmalaria.com/About.aspx |title=World Swim Against Malaria}}</ref>
+|-
+| 2012 || {{dts|September}} || GiveWell update || GiveWell publishes an update on AMF.<ref>{{cite web |url=http://www.givewell.org/charities/amf/September-2012 |title=Against Malaria Foundation - September 2012 Update |publisher=[[wikipedia:GiveWell|GiveWell]] |accessdate=April 27, 2017}}</ref>
+|-
+| 2012 || {{dts|November 26}} || GiveWell review || GiveWell publishes a blog post announcing its 2012 top charities, placing AMF as one of its three top charities.<ref>{{cite web |url=http://blog.givewell.org/2012/11/26/our-top-charities-for-the-2012-giving-season/ |title=Our top charities for the 2012 giving season |website=The GiveWell Blog |publisher=GiveWell |date=July 25, 2016 |accessdate=April 27, 2017}}</ref> GiveWell also publishes its 2012 review of AMF.<ref name="gw_nov_2012_review">{{cite web |url=http://www.givewell.org/charities/AMF/2012-review |title=Against Malaria Foundation (AMF) - 2012 Review |publisher=GiveWell |accessdate=April 27, 2017}}</ref>
+|-
+| 2012 || {{dts|December}} || Good Ventures grant || Good Ventures awards a grant of $1.25 million to AMF.<ref>{{cite web |url=http://www.openphilanthropy.org/focus/global-health-and-development/miscellaneous/against-malaria-foundation-general-support |title=Against Malaria Foundation — General Support |publisher=Open Philanthropy Project |accessdate=April 24, 2017}}</ref>
+|-
+| 2013 || {{dts|February}} || GiveWell update || GiveWell publishes an update on AMF.<ref>{{cite web |url=http://www.givewell.org/charities/amf/February-2013 |title=Against Malaria Foundation - February 2013 Update |publisher=[[wikipedia:GiveWell|GiveWell]] |accessdate=April 27, 2017}}</ref>
+|-
+| 2013 || {{dts|February 1}} || || Starting around this time, AMF begins paying for non-net costs using separate funds (i.e. money not received through public donations).<ref>{{cite web |url=https://www.againstmalaria.com/NonNetCostsExplained.aspx |publisher=The Against Malaria Foundation |title=Non-net costs: why we fund them in certain circumstances |accessdate=April 26, 2017 |date=February 1, 2013}}</ref>
+|-
+| 2013 || {{dts|May}}–{{dts|July}} || || Charity Science launches as Effective Fundraising<ref>{{cite web |url=http://www.charityscience.com/operations-details/keep-charity-science-running |publisher=Charity Science |title=Keep Charity Science running |accessdate=April 27, 2017 |date=January 26, 2015 |quote=Charity Science (previously Effective Fundraising) is an organization that conducts experiments in building awareness of and raising funds for the most scientifically based charities.}}</ref> around this time,<ref>{{cite web |url=http://www.effectivefundraising.net/1/post/2013/07/our-strategy.html |archivedate=July 31, 2013 |archiveurl=https://web.archive.org/web/20130731031323/http://www.effectivefundraising.net/1/post/2013/07/our-strategy.html |publisher=Effective Fundraising |title=Our Strategy |quote=Archives [&hellip;] May 2013 |date=July 19, 2013}}</ref> recommending AMF as its charity of choice in human rights.<ref>{{cite web |url=http://www.effectivefundraising.net:80/our-charity-choice.html |archivedate=July 31, 2013 |archiveurl=https://web.archive.org/web/20130731025636/http://www.effectivefundraising.net:80/our-charity-choice.html |publisher=Effective Fundraising |title=Our Charity Choice |quote=Our current choice in human rights is the Against Malaria Foundation. They are a top recommended charity by both Givewell and Giving What We Can and have a strong track record of doing large amounts of good.}}</ref>
+|-
+| 2013 || {{dts|November 26}} || || [[wikipedia:Holden Karnofsky|Holden Karnofsky]] publishes a post on the [[wikipedia:GiveWell|GiveWell]] blog saying that GiveWell plans not to recommend more donations to AMF due to room-for-more-funding issues.<ref>{{cite web |url=http://blog.givewell.org/2013/11/26/change-in-against-malaria-foundation-recommendation-status-room-for-more-funding-related/ |title=Change in Against Malaria Foundation recommendation status (room-for-more-funding-related) |website=The GiveWell Blog |publisher=[[wikipedia:GiveWell|GiveWell]] |date=February 22, 2016 |accessdate=April 24, 2017 |first=Holden |last=Karnofsky}}</ref>
+|-
+| 2013 || {{dts|November}} || GiveWell review || GiveWell publishes a new version of its review of AMF, in which AMF is removed from the list of top charities.<ref name="gw_nov_2013_review">{{cite web |url=http://www.givewell.org/charities/AMF/2013-review |title=Against Malaria Foundation (AMF) - 2013 Review |publisher=GiveWell |accessdate=April 27, 2017}}</ref>
+|-
+| 2013 || {{dts|December 2}} || || The mobile video game ''Nightmare: Malaria'' is released. The game is created by Psyop Games in partnership with AMF.<ref>{{cite web |url=http://nightmare.againstmalaria.com/press/sheet.php?p=nightmare |title=Psyop Games Presskit - Nightmare: Malaria |accessdate=April 24, 2017}}</ref>
+|-
+| 2013 || {{dts|December 12}} || || Following GiveWell's removal of AMF from its list of top charities, Giving What We Can publishes a blog post explaining why it continues to recommend AMF.<ref>{{cite web |url=https://www.givingwhatwecan.org/post/2013/12/why-we-continue-to-recommend-the-against-malaria-foundation/ |title=Why we continue to recommend the Against Malaria Foundation |accessdate=April 24, 2017 |first=Andreas |last=Mogensen |date=December 12, 2013 |publisher=Giving What We Can}}</ref>
+|-
+| 2014 || {{dts|March 25}} || || AMF finalizes an agreement to fund 676,000 mosquito nets in the Democratic Republic of Congo.<ref>{{cite web |url=https://www.againstmalaria.com/Newsitem.aspx?newsitem=676000-LLIN-distribution-agreed-in-the-Democratic-Republic-of-Congo-(DRC) |publisher=The Against Malaria Foundation |title=676,000 LLIN distribution agreed in the Democratic Republic of Congo (DRC) |accessdate=April 24, 2017 |date=March 25, 2014}}</ref> The charity evaluator GiveWell notes that this is AMF's largest single net distribution finalized to date at the time.<ref>{{cite web |url=http://blog.givewell.org/2014/03/26/against-malaria-foundation-finalizes-distribution-agreement-for-676000-nets/ |title=Against Malaria Foundation finalizes distribution agreement for ~676,000 nets |website=The GiveWell Blog |publisher=[[wikipedia:GiveWell|GiveWell]] |date=May 12, 2014 |accessdate=April 24, 2017}}</ref>
+|-
+| 2014 || {{dts|August}} || GiveWell update || GiveWell publishes an update on AMF. Regarding room-for-more-funding, the update states "We continue to believe that AMF has limited room for more funding (though we believe there are ways in which AMF's actions are being affected by funding constraints) and are not planning to re-recommend it at this time."<ref>{{cite web |url=http://www.givewell.org/charities/amf/August-2014 |title=Against Malaria Foundation - August 2014 Update |publisher=[[wikipedia:GiveWell|GiveWell]] |accessdate=April 27, 2017}}</ref>
+|-
+| 2014 || {{dts|November}} || GiveWell review || GiveWell publishes its 2014 review of AMF, in which AMF is reinstated as a top charity.<ref name="gw_nov_2014_review">{{cite web |url=http://www.givewell.org/charities/AMF/2014-review |title=Against Malaria Foundation (AMF) - 2014 Review |publisher=GiveWell |accessdate=April 27, 2017}}</ref>
+|-
+| 2014 || {{dts|December}} || Good Ventures grant || Good Ventures awards a $5 million grant to AMF.<ref>{{cite web |url=http://www.goodventures.org/our-portfolio/grants/against-malaria-foundation-general-support |title=Against Malaria Foundation — General Support |publisher=Good Ventures |accessdate=April 24, 2017}}</ref>
+|-
+| 2015 || {{dts|June 26}} || Swim || World Swim Against Malaria 2015 is scheduled to take place on this day. However, the main sources mentioning the event are from 2013, so it's not clear whether the event actually took place.<ref>{{cite web |url=https://twitter.com/AgainstMalaria/status/397778507549270016 |quote=World Swim Against Malaria 2015. A million swimming. Please will you swim on 26th June 2015? #WorldSwim #Malaria |title=Against Malaria on Twitter |date=November 5, 2013 |publisher=Twitter}}</ref><ref>{{cite web |archiveurl=https://web.archive.org/web/20131109064330/http://www.againstmalaria.com:80/WorldSwim.aspx |archivedate=November 9, 2013 |url=http://www.againstmalaria.com:80/WorldSwim.aspx |title=World Swim Against Malaria |quote=The next big swim will be on 26 June 2015, but you can swim at anytime! |publisher=Against Malaria Foundation}}</ref>
+|-
+| 2015 || {{dts|July}} || GiveWell update || GiveWell publishes its "May 2015" update on AMF, continuing to recommend it.<ref>{{cite web |url=http://www.givewell.org/charities/amf/May-2015 |title=Against Malaria Foundation - May 2015 Update |publisher=[[wikipedia:GiveWell|GiveWell]] |accessdate=April 27, 2017}}</ref>
+|-
+| 2015 || {{dts|August}} || GiveWell update || GiveWell publishes an update on AMF, continuing to recommend it.<ref>{{cite web |url=http://www.givewell.org/charities/amf/August-2015 |title=Against Malaria Foundation - August 2015 Update |publisher=[[wikipedia:GiveWell|GiveWell]] |accessdate=April 27, 2017}}</ref>
+|-
+| 2015 || {{dts|August 4}} || Legal || AMF is granted Deductible Gift Recipient status in Australia. The news would reach the public on September 3, but all donations since the August date are considered tax deductible.<ref>{{cite web |url=https://www.againstmalaria.com/CharityStatus.aspx |publisher=The Against Malaria Foundation |title=Registered Charity Status |accessdate=April 26, 2017 |quote=The ATO granted AMF (Australia) DGR status effective 04 August 2015 so any donations made to AMF (Australia) on or after that date can be considered tax deductible by the donor.}}</ref><ref>{{cite web |url=https://www.againstmalaria.com/downloads/AMF_Charity_Australia_DGR.pdf |title=Your organisation is endorsed as a deductible gift recipient |date=September 3, 2015 |accessdate=April 26, 2017}}</ref><ref>{{cite web |url=https://www.againstmalaria.com/NewsItem.aspx?newsitem=Sharing-information-on-the-process-to-achieve-DGR-status-in-Australia |publisher=The Against Malaria Foundation |title=Sharing information on the process to achieve DGR status in Australia |date=September 4, 2015 |first=Rob |last=Mather |accessdate=April 26, 2017}}</ref><ref>{{cite web |url=https://twitter.com/AgainstMalaria/status/639345767262625792 |date=September 3, 2015 |title=Against Malaria |quote=Delighted to report AMF has been granted DGR status (tax-deductible for donors) in Australia |publisher=Twitter |accessdate=April 26, 2017}}</ref> AMF had applied for this particular status in July,<ref>{{cite web |url=https://www.againstmalaria.com/NewsItem.aspx?newsitem=Application-submitted-for-DGR-status-in-Australia |publisher=The Against Malaria Foundation |title=Application submitted for DGR status in Australia |date=July 6, 2015 |first=Rob |last=Mather |accessdate=April 26, 2017}}</ref> but had been seeking tax-deductible status since 2009.<ref>{{cite web |url=http://blog.givewell.org/2015/09/08/a-tax-deductible-top-charity-for-australians/ |title=A tax-deductible top charity for Australians |website=The GiveWell Blog |publisher=GiveWell |date=September 9, 2015 |accessdate=April 27, 2017 |first=Rebecca |last=Raible |quote=AMF has been seeking this status since 2009 and we are glad that its efforts have paid off.}}</ref>
+|-
+| 2015 || {{dts|September 9}} || || At this point in time, AMF conducts post-distribution checkups (PDCUs) 6, 12, 18, 24, and 30 months after distribution.<ref>{{cite web |url=http://files.givewell.org/files/conversations/Rob_Mather_and_Peter_Sherrat_9-9-2015_(public).pdf |title=A conversation with Rob Mather and Peter Sherratt, September 9, 2015 |publisher=GiveWell |accessdate=April 27, 2017}}</ref>
+|-
+| 2015 || {{dts|November}} || GiveWell review || GiveWell publishes a new version of its review of AMF.<ref name="gw_review_nov_2015_jan_2016">{{cite web |url=http://www.givewell.org/international/top-charities/amf/2015-review-updated-January-2016 |title=Against Malaria Foundation (AMF) – 2015 Review, Updated January 2016 |publisher=GiveWell |accessdate=April 27, 2017}}</ref> AMF continues to be listed as a top charity.
+|-
+| 2016 || {{dts|January}} || GiveWell review || GiveWell updates its November 2015 review of AMF.<ref name="gw_review_nov_2015_jan_2016" />
+|-
+| 2016 || {{dts|January}} || Good Ventures grant || Good Ventures awards a $22.8 million grant to AMF.<ref>{{cite web |url=http://www.goodventures.org/our-portfolio/grants/against-malaria-foundation-general-support1 |title=Against Malaria Foundation — General Support |publisher=Good Ventures |accessdate=April 24, 2017}}</ref>
+|-
+| 2016 || {{dts|February 15}} || Legal || Tax deductible donations to AMF become possible in Belgium, Bulgaria, Croatia, France, Hungary, Ireland, Luxembourg, Poland, Portugal, Romania, Slovakia, Slovenia and Spain. This is made possible through Transnational Giving Europe, a partnership of various European foundations that takes donations in one country and routes it to the destination country, taking a 5% cut in the process.<ref>{{cite web |url=https://www.againstmalaria.com/NewsItem.aspx?newsitem=Additional-countries-where-tax-deductible-donations-can-now-be-made-to-AMF |publisher=The Against Malaria Foundation |title=Additional countries where tax-deductible donations can now be made to AMF |date=February 15, 2016 |first=Rob |last=Mather |accessdate=April 26, 2017}}</ref><ref>{{cite web |url=https://giving.mit.edu/sites/default/files/documents/tge-fund-countries.pdf |accessdate=April 26, 2017 |title=About Transnational Giving Europe |publisher=Massachusetts Institute of Technology}}</ref>
+|-
+| 2016 || {{dts|May 5}} || || AMF begins accepting donations in Bitcoin around this time.<ref>{{cite web |url=https://themerkle.com/against-malaria-foundation-now-accepts-bitcoin-donations/ |title=Against Malaria Foundation Now Accepts Bitcoin Donations |publisher=The Merkle |accessdate=April 24, 2017 |date=May 5, 2016 |author=JP Buntinx}}</ref><ref>{{cite web |url=https://www.againstmalaria.com/Newsitem.aspx?NewsItem=We-now-accept-donations-in-bitcoins |publisher=The Against Malaria Foundation |title=We now accept donations in bitcoins |accessdate=April 24, 2017 |date=May 9, 2016 |first=Andrew |last=Garner}}</ref>
+|-
+| 2016 || {{dts|June 23}} || GiveWell review || GiveWell publishes a new version of its review of AMF,<ref name="gw_june_2016_review">{{cite web |url=http://www.givewell.org/charities/against-malaria-foundation/june-2016-version |title=Against Malaria Foundation (AMF) – June 2016 version |publisher=GiveWell |accessdate=April 27, 2017}}</ref> as well as a blog post announcing a mid-year update to its top charity recommendations. AMF continues to be included in the list of top charities, and GiveWell recommends donors to allocate all money to AMF.<ref>{{cite web |url=http://blog.givewell.org/2016/06/23/top-charities-refresh/ |title=Mid-year update to top charity recommendations |website=The GiveWell Blog |publisher=GiveWell |date=July 28, 2016 |accessdate=April 27, 2017}}</ref>
+|-
+| 2016 || {{dts|August 15}}–18 || GiveWell site visit || GiveWell visits a long-lasting insecticide-treated net distribution program in Greater Accra, Ghana. The program is funded by AMF, and GiveWell's visit is part of its evaluation of AMF.<ref>{{cite web |url=http://www.givewell.org/research/site-visits/august-2016#AMF |title=Site visit: August 2016 § AMF |publisher=[[wikipedia:GiveWell|GiveWell]] |accessdate=April 25, 2017 |date=October 2016}}</ref><ref>{{cite web |url=http://files.givewell.org/files/conversations/Givewell_AMF_Ghana_site_visit_August_15-18_2016.pdf |accessdate=April 25, 2017 |title=Notes from a site visit to a Long-Lasting Insecticide-treated Net (LLIN) distribution program funded by the Against Malaria Foundation (AMF) in Greater Accra, Ghana, August 15-18, 2016}}</ref>
+|-
+| 2016 || {{dts|November 28}} || GiveWell review || GiveWell publishes a blog post announcing its updated top charities for end-of-year 2016. AMF continues to be included in the list of top charities.<ref>{{cite web |url=http://blog.givewell.org/2016/11/28/updated-top-charities-giving-season-2016/ |title=Our updated top charities for giving season 2016 |website=The GiveWell Blog |publisher=GiveWell |date=December 15, 2016 |accessdate=April 27, 2017}}</ref> GiveWell also publishes a new version of its review of AMF.<ref>{{cite web |url=http://www.givewell.org/charities/against-malaria-foundation/november-2016-version |title=Against Malaria Foundation – November 2016 version |publisher=GiveWell |accessdate=April 27, 2017}}</ref>
+|-
+| 2016 || {{dts|November 28}}{{snd}}{{dts|December 15}} || Fundraiser (non-swim) || The fundraising event Philosophers Against Malaria takes place. The event raises $58,000 among university philosophy departments for AMF.<ref>{{cite web |url=https://www.crowdrise.com/PhilosophersAgainstMalaria |title=Philosophers Against Malaria |publisher=CrowdRise |accessdate=April 26, 2017}}</ref><ref>{{cite web |url=http://benjaminrosshoffman.com/on-philosophers-against-malaria/ |title=On Philosophers Against Malaria |date=December 6, 2016 |website=Compass Rose |accessdate=April 26, 2017 |first=Ben |last=Hoffman}}</ref><ref>{{cite web |url=https://twitter.com/AgainstMalaria/status/803669058642124800 |date=November 29, 2016 |publisher=Twitter |accessdate=April 26, 2017 |title=Against Malaria |quote=Thank you to all #PhilosophersAgainstMalaria who are raising funds for AMF!}}</ref>
+|-
+| 2017 || {{dts|January 9}} || Money milestone || AMF passes the $100 million mark in money raised since inception.<ref>{{cite web |url=https://www.againstmalaria.com/newsitem.aspx?newsitem=US-100-million-milestone |publisher=The Against Malaria Foundation |title=US$100 million milestone! |accessdate=April 26, 2017 |first=Rob |last=Mather |date=January 9, 2017}}</ref>
+|-
+| 2017 || {{dts|January}} || Good Ventures grant || Good Ventures awards a grant of $15 million to AMF.<ref>{{cite web |url=http://www.goodventures.org/our-portfolio/grants/against-malaria-foundation-general-support2 |title=Against Malaria Foundation — General Support |publisher=Good Ventures |accessdate=April 24, 2017}}</ref>
+|-
+| 2017 || {{dts|February}} || || AMF posts job postings for two positions: IT Developer and Operations Manager.<ref>{{cite web |url=https://www.againstmalaria.com/Newsitem.aspx?NewsItem=AMF-is-hiring-IT-Developer |publisher=The Against Malaria Foundation |title=AMF is hiring! IT Developer |first=Rob |last=Mather |date=February 20, 2017 |accessdate=April 27, 2017}}</ref><ref>{{cite web |url=https://www.againstmalaria.com/Newsitem.aspx?NewsItem=AMF-is-hiring-Operations-Manager |publisher=The Against Malaria Foundation |title=AMF is hiring! Operations Manager |date=February 20, 2017 |first=Rob |last=Mather |accessdate=April 27, 2017}}</ref>
+|-
+| 2017 || {{dts|February 23}}{{snd}}{{dts|March 8}} || Fundraiser (non-swim) || The Big Varsity Match 2017 fundraiser takes place. The fundraiser is structured as a competition between Giving What We Can: Oxford and Giving What We Can: Cambridge.<ref>{{cite web |url=https://www.againstmalaria.com/FundraiserGroup.aspx?FundraiserID=7305 |publisher=The Against Malaria Foundation |title=The Big Varsity Match 2017! |accessdate=April 27, 2017}}</ref>
+|-
+| 2017 || {{dts|April 3}} || GiveWell review || GiveWell does a mid-year update to its recommendations. Against Malaria Foundation remains a top charity, and GiveWell now recommends that donors allocate 100% of their funds to it. Also, from the funds GiveWell holds for discretionary regranting, GiveWell grants $4.4 million to AMF and $0.5 million to Deworm the World Initiative.<ref>{{Cite web|url = https://blog.givewell.org/2017/04/03/allocation-of-discretionary-funds/|title = Allocation of discretionary funds and new recommendation for donors|last = Crispin|first = Natalie|date = April 3, 2017|accessdate = December 3, 2017}}</ref>
+|-
+| 2017 || {{dts|April 27}} || Money milestone || In a single day, AMF's reported lifetime money raised goes up from a little over $121 million (but under $122 million) to over $126 million. The reason for the jump is unclear; it looks like it is driven by multiple donors.<ref name=milestones/> The increase is due to GiveWell regranting money from donors who had donated to AMF through GiveWell.<ref name=mather-pc/>
+|-
+| 2017 || {{dts|August 15}} || Money milestone || In a single day, AMF's reported lifetime money raised goes up from a little over $139 million (but under $131 million) to over $133 million. The increase seems to be driven by multiple donors.<ref name=milestones/> It is due to the discretionary regranting of $4.4 million announced by GiveWell on April 3.<ref name=mather-pc>Email communication from Rob Mather of AMF</ref>
+|-
+| 2017 || {{dts|September 4}} || Money milestone || In a single day, lifetime money raised jumps by over $1 million, from under $136 million to over $137 million. This is largely driven by an anonymous donor from Zug, Switzerland who donates two amounts of $520,032.<ref name=milestones/>
+|-
+| 2017 || {{dts|November 27}} || GiveWell review || GiveWell publishes its 2017 end-of-year recommendations. It continues to recommend AMF as a top charity, and recommends that donors donate 70% of their funds to AMF and 30% to Schistosomiasis Control Initiative (SCI). It also announces that it is recommending to Good Ventures to donate $2.5 million to AMF, the minimum amount granted to all top charities. A new review of AMF is also published.<ref>{{cite web|url = https://blog.givewell.org/2017/11/27/our-top-charities-for-giving-season-2017/|title = Our top charities for giving season 2017|date = November 27, 2017|accessdate = December 3, 2017|last = Crispin|first = Natalie}}</ref>
+|}
+
+==Evolution of cost-per-life-saved estimates==
+
+GiveWell's estimate of the cost-per-life-saved equivalent for AMF has varied over the years. The estimates are summarized below.
+
+In a blog post, GiveWell clarifies that its estimates in recent years have not been of the cost to save a life, but rather of the cost to do good equivalent to saving a life:<ref>{{cite web|url = https://blog.givewell.org/2016/12/12/amf-population-ethics/|title = AMF and Population Ethics|last = Cotra|first = Ajeya|date = December 12, 2016|accessdate = November 24, 2017}}</ref>
+
+{{quote|That is, our cost-effectiveness estimate does not predict that if you give $3400 to AMF you will, on expectation, prevent the death of one young child. It predicts that if you give $3400 to AMF, you will on expectation cause a combination of outcomes that, according to the values of the median GiveWell staff member, are morally equivalent to saving the life of one young child.}}
+
+{| class="sortable wikitable"
+! Review date !! Estimated cost per long-lasting insecticide net distributed !! Estimate cost per life saved or cost per life saved equivalent !! References
+|-
+| {{dts|November 2016}} || $4.85<ref name="givewell-nov-2016-ce-analysis-spreadsheet" />{{rp|B28}} || $3,376<ref name="givewell-nov-2016-ce-analysis-spreadsheet" />{{rp|B74}} || <ref name="givewell-nov-2016-ce-analysis-spreadsheet">{{cite web |url=https://docs.google.com/spreadsheets/d/1KiWfiAGX_QZhRbC9xkzf3I8IqsXC5kkr-nwY_feVlcM/edit#gid=115155829 |title=GiveWell cost-effectiveness analysis — November 2016: Bednets sheet |date=November 2016 |publisher=GiveWell |accessdate=November 29, 2016}}</ref>
+|-
+| {{dts|June 2016}} || $4.47 (for distributions being considered in the near future) || $3,500 || <ref name="gw_june_2016_review" />
+|-
+| {{dts|November 2015}} || $5.31 (but possibly higher for some distributions) || $2,838 (assuming the $5.31 figure) || <ref name="gw_review_nov_2015_jan_2016" />
+|-
+| {{dts|November 2014}} || $5.80 (averaged across different distribution types) || $3,340 || <ref name="gw_nov_2014_review" />
+|-
+| {{dts|November 2013}} || $6.13 || $3,400 || <ref name="gw_nov_2013_review" />
+|-
+| {{dts|November 2012}} ||  $5.15 (marginal), $5.54 (total)|| $2,300 (using marginal cost), $2,500 (using total cost) || <ref name="gw_nov_2012_review" />
+|-
+| {{dts|November 2011}} || $5.15 (marginal), $5.54 (total) || $1,600 (using marginal cost), $1,700 (using total cost) || <ref name="gw_nov_2011_review" />
+|}
+
+==See also==
+
+* [[Timeline of malaria]]
+* [[Timeline of mosquito net distribution]]
+* [[Timeline of malaria vaccine]]
+
+==External links==
+
+* [https://www.againstmalaria.com/default.aspx Official website]
+* {{funding info}}
+
+==References==
+
+{{Reflist|30em}}
+
