@@ -1,0 +1,36 @@
+The '''Emigration Act, 1983''' is an Act passed by the [[Government of India]] to regulate emigration of people from India, with the stated goal of reducing fraud or exploitation of Indian workers recruited to work overseas. The Act imposed a requirement of obtaining '''emigration clearance''' (also called '''POE clearance''') from the office of Protector of Emigrants (POE), Ministry of Overseas Indian Affairs for people emigrating from India for work; presently, this requirement applies only for people going to one of 18 listed countries.<ref name=ecr>{{cite web|url = https://boi.gov.in/content/encrecr|title = ECNR/ECR|publisher = Bureau of Immigration, Ministry of Home Affairs, Government of India|accessdate = December 10, 2017}}</ref><ref name=epcom-fulltext>{{cite web|url = http://www.epcom.org/Emigration-Act-1983.pdf|title = The Emigration Act, 1983 Alongwith The Emigration Rules, 1983, As Amended by Emigration (Amendment) Rules, 2004 vide GSR 143(E), dt. 26-2-2004, w.e.f. 15-3-2004|accessdate = December 10, 2017}}</ref><ref name=emigration-and-you>{{Cite web|url = http://mea.gov.in/images/pdf/emigration_and_you_new.pdf|title = Emigration and You|publisher = Government of India|accessdate = December 10, 2017}}</ref><ref name=goi-fulltext>{{cite web|url = https://emigrate.gov.in/ext/static/emig-act.pdf|title = The Emigration Act, 1983|accessdate = December 10, 2017|publisher = Government of India|accessdate = December 10, 2017}}</ref>
+
+== Background ==
+
+Indians emigrated, both temporarily and permanently, to a number of countries, including the [[United States]], [[United Kingdom]], [[Germany]], [[Canada]], [[Australia]], and the economies of south-east Asia. The bulk of emigration from the 1970s onward was to the [[Arab states of the Persian Gulf]].<ref name=emigration-and-you/> Recruiting agents played a role in connecting workers to foreign jobs and charged the workers or the employers some share of the revenue. The Emigration Act, 1983 was passed to address concerns related to defrauding and exploitation of workers by the recruiting agents and other problems they might face upon going abroad.<ref name=emigration-and-you/>
+
+== Provisions ==
+
+=== Creation of the office of Protector of Emigrants (Chapter II) ===
+
+Chapter II, Section 3 of the Act provided that the Central Government may appoint a Protector General of Emigrants and as many Protectors of Emigrants (POE) as it sees fit, as well as their respective areas of operation. Later Sections of Chapetr II defined the duties of Protectors of Emigrants in more detail, provided for emigration check-points, and provided for other emigration officers.<ref name=epcom-fulltext/><ref name=emigration-and-you/>{{rp|7}}
+
+=== Registration of recruiting agents (Chapter III) ===
+
+The Act made the Protector General of Emigrants and other Protectors of Emigrants the authorities who could register recruiting agents. A person could operate as a recruiting agent for emigrants only if registered. The Act also provided details on the application, terms and conditions, renewal, and cancellation of registration.<ref name=epcom-fulltext/><ref name=emigration-and-you/>{{rp|7}}
+
+=== Permits for recruitment by employers (Chapter IV) ===
+
+All employers were required to recruit either through a recruiting agent with a valid registration, or obtain a permit for recruitment. The procedure for obtaining, validity period, and cancellation of permits was detailed in the law.<ref name=epcom-fulltext/>
+
+=== Emigration clearance (Chapter V) ===
+
+Any citizen of India seeking to emigrate was required to have emigration clearance from the Protectorate of Emigrants (POE). The application process for emigration clearance, and potential grounds for rejection, were detailed.<ref name=epcom-fulltext/>
+
+Presently, passport holders could either have ECR status (emigration check required) in which case they need to obtain emigration clearance, or have ECNR status (emigration check not required) in which case they do not need to obtain emigration clearance.<ref name=emigration-and-you/> The ECR/ECNR distinction does not appear to have been stated in the original language of the Emigration Act, 1983, which seems to suggest that anybody emigrating for work is required to obtain emigration clearance.<ref name=epcom-fulltext/> The requirements for getting to ECNR status have been progressively relaxed over time, starting from being restricted to people such as graduates and income tax payers and now applying to a much wider set of people including those who have completed [[matriculation in India|matriculation]] (class 10 of school).<ref name=quora>{{Cite web|url = https://www.quora.com/What-does-ECR-and-ECNR-mean-on-an-Indian-passport|title = What does ECR and ECNR mean on an Indian passport?|publisher = Quora|accessdate = December 10, 2017}}</ref>
+
+=== Other provisions ===
+
+* Chapter VI described the appeals process
+* Chapter VII provided details on offences and penalties
+* Chapter VIII covered miscellaneous items
+
+
+== References ==
+
+{{reflist|30em}}
