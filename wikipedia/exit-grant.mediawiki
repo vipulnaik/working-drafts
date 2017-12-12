@@ -1,0 +1,11 @@
+An '''exit grant''' is a grant made (typically by a private foundation or other large donor to a nonprofit) with the clear expectation that the donor will not make any further similar grants to the donee.
+
+== Reasons for exit grant ==
+
+Typical reasons for exit grants include the donor winding down its activities (by exhausting its fund), the donor stopping or reducing resources spent on the program or initiative under which the grant is made,<ref name=nmi-givewell-exit>{{cite web|url = https://blog.givewell.org/2014/08/05/thoughts-on-the-end-of-hewletts-nonprofit-marketplace-initiative/|title = Thoughts on the end of Hewlett’s Nonprofit Marketplace Initiative|date = August 5, 2014|accessdate = December 12, 2017|publisher = GiveWell|last = Karnofsky|first = Holden}}</ref><ref name=open-phil-for-exit>{{cite web|url = https://www.openphilanthropy.org/focus/scientific-research/miscellaneous/future-research-exit-grant-2017|title = Future of Research — Exit Grant|accessdate = December 12, 2017|publisher = Open Philanthropy Project}}</ref> or the emergence of evidence suggesting to the donor that argues against continuing to support the grantee organization or specific grantee program.<ref name=open-phil-ptp-grant>{{cite web|url = https://www.openphilanthropy.org/focus/us-policy/immigration-policy/october-2017-update-protect-people-seasonal-migration-haiti|title = October 2017 Update on Protect the People Grant|accessdate = December 12, 2017|publisher = Open Philanthropy Project}}</ref><ref name=givewell-new-incentives-exit>{{cite web|url = https://www.givewell.org/charities/new-incentives/november-2016-grant|title = New Incentives — Exit Grant and Immunizations Pilot|accessdate = December 12, 2017|publisher = GiveWell}}</ref>
+
+Exit grants are preferred by donors because they give grantees sufficient time to find alternative sources or make other plans to deal with the loss of a funding source, and therefore improve the reputation of the donor among current and potential grantees.
+
+== References ==
+
+{{reflist|30em}}
