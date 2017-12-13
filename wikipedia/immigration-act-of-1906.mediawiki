@@ -2,13 +2,35 @@ The '''Immigration Act, 1906''' (also written as the '''Immigration Act of 1906'
 
 == Background ==
 
-Frank Oliver, a British Canadian who had arrived in Edmonton, Canada, had experience serving as an elected represetative for [[Alberta (Provisional District)]], [[Edmonton (electoral district)|Edmonton]], and [[Edmonton West]].<ref>{{cite book |first=Brian|last=Brennan|title=Alberta Originals: Stories of Albertans Who Made a Difference|year=2001 |publisher= Fifth House |pages= 18|isbn= 1-894004-76-0}}</ref> He succeeded [[Clifford Sifton]] as [[Minister of the Interior]] in April 1905, and would continue to serve in that capacity until the defeat of the Liberal Party (under [[Wilfrid Laurier]]) in September 1911.<ref name=frank-oliver/><ref name=pier21-immigration-act-1906/>
+=== General backdrop ===
 
 Prior to Oliver, Canada's immigration policy had been driven primarily by economic considerations, and was relatively open-door. For instance, the [[Immigration Act, 1869]] excluded only paupers and the disabled with no relatives accompanying and supporting them, and imposed relatively small fees. It was designed to encourage settlement of the the Western provinces.<ref name=pier21-immigration-act-1869>{{cite web|url = https://www.pier21.ca/research/immigration-history/immigration-act-1869|title = Immigration Act, 1869|accessdate = November 24, 2017|publisher = Canada Museum of Immigration at Pier21}}</ref><ref>{{cite web|url = http://immigrationtous.net/139-immigration-act-canada-1869.html|title = IMMIGRATION ACT (CANADA) (1869)|accessdate = November 24, 2017|publisher = Immigration to North America}}</ref><ref name=mosaic>{{cite book|url = https://books.google.com/books/about/The_Making_of_the_Mosaic.html?id=2WcFbML-92QC&printsec=frontcover&source=kp_read_button#v=onepage&q=1869&f=false|title = The Making of the Mosaic: A History of Canadian Immigration Policy|last = Kelley|first = Ninette|last2 = Trebilcock|first2 = M.|date = October 2, 2010|accessdate = December 10, 2017|publisher = University of Toronto Press}}</ref> The [[Chinese Immigration Act of 1885]] and subsequent modifications to that did impose significant restrictions on migration from China, but migration from the rest of world was mostly free.
 
-Clifford Sifton, who served as Minister of the Interior from 1897 to 1905, hewed to the philosophy of immigration for economic prosperity. He encouraged migration of Americans, particularly affluent ones, and also Europeans, especially European farmers, including those from southwest Europe. He did not hold British immigrants in special regard.<ref name=frank-oliver/>{{rp|95-96}}
+=== Immigration policy and philosophy of Clifford Sifton (1897 to 1905) and its effects ===
 
-Oliver shifted the focus of immigration policy away from economic and toward cultural considerations. He believed that the Western provinces needed immigrants from Britain, Northwestern Europe, and the United States in order for them to develop a culture that hewed close to British traditions. He 
+Clifford Sifton, who served as Minister of the Interior from 1897 to 1905, hewed to the philosophy of immigration for economic prosperity. He encouraged migration of Americans, particularly affluent ones, and also Europeans, especially European farmers, including those from southwest Europe. He did not hold British immigrants in special regard.<ref name=frank-oliver/>{{rp|95-96}} As a result of his policies, Canada saw an increase in the proportion of immigrants from outside Britain, France, and the United States, with Austro-Hungarians and Italians accounting for a big part of the increase. These increases had huge effects in some regions of the country, such as Edmonton and Alberta, both of which had been represented by Frank Oliver, the next Minister of the Interior and the architect of the Immigration Act, 1906.<ref name=frank-oliver/>{{rp|96-97}}
+
+=== Immigration policy and philosophy of Frank Oliver (1905 to 1911) and its role in the Act ===
+
+Frank Oliver, a British Canadian who had arrived in Edmonton, Canada, had experience serving as an elected represetative for [[Alberta (Provisional District)]], [[Edmonton (electoral district)|Edmonton]], and [[Edmonton West]].<ref>{{cite book |first=Brian|last=Brennan|title=Alberta Originals: Stories of Albertans Who Made a Difference|year=2001 |publisher= Fifth House |pages= 18|isbn= 1-894004-76-0}}</ref> He succeeded [[Clifford Sifton]] as [[Minister of the Interior]] in April 1905, and would continue to serve in that capacity until the defeat of the Liberal Party (under [[Wilfrid Laurier]]) in September 1911.<ref name=frank-oliver/><ref name=pier21-immigration-act-1906/>
+
+After becoming Minister of the Interior, Oliver guided the drafting of the Immigration Act, 1906. He initially hoped to have the Act ready and assented in 1905, but due to delays with the drafting, it could not be introduced until 1906. Unconstrained by parliamentary procedure, Oliver gave advance notice, in the April 1906 ''Bulletin'', of his intent to introduce a comprehensive immigration bill. The announcement by Oliver laid out his vision of judging a country's immigration success on a cultural rather than economic scale, and pointed to the United States as a cautionary tale for a policy that he saw as being too open-door to European immigrants.<ref name=frank-oliver/>{{rp|98}}
+
+== Passage of the Act ==
+
+On May 21, 1906, Oliver introduced Bill 170 "To Amend the Immigration Act" to Parliament, stating that its purpose was "to give the department in control of immigration greater authority to deal with immigrants who, for one reason or another, may be properly subjected to restriction on their landing in Canada or deportation." He argued that the language of the existing law was outdated, having been written at a time when immigration was a responsibility of the Department of Agriculture, and not adapted to the fact that the west was already settled to a much greater extent than when the laws were written.<ref name=frank-oliver/>{{rp|100-101}}
+
+On June 13, the bill was read for the second time and sent to committee. Oliver argued that the bill was a "continuation of the existing law, with certain small amendments and with certain additions also, which are intended to make it suit modern requirements."<ref name=frank-oliver/>{{rp|101}}
+
+The bill was assented on July 13, 1906, and became the Immigration Act, 1906.<ref name=pier21-immigration-act-1906/>
+
+== Provisions ==
+
+Provisions that engendered debate: classification of second-class passengers, head tax flexibility and magnitude, too much power in hands of executive rather than Parliament, concern that people who got sick or into accidents in Canada would be deported (struck out).
+
+== Implementation challenges ==
+
+Demand due to labor needed for Grand Trunk Pacific Railway, where immigrants from southeastern Europe and Asia were most willing to do the jobs at a pay that was economic. Vision was realized more after reduced labor demand due to 1907-1908 recession.
 
 == References ==
 
