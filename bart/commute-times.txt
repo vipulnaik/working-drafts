@@ -1,0 +1,10 @@
+Before I started commuting by train, I had the following naive theory: people who live far from work will have the same range of work hours as people who live close to work, so they'll just leave home earlier and get back home later by the same margin on each side.
+
+However, my experience with commuting, trying many different times of the day for my commute, suggests something different. People who live far from work seem to have earlier work hours than people who live closer to work. So they end up leaving home much earlier, but then get back home at about the same time as the ones who live close to work.
+
+My evidence: Before 7:15 AM, BART trains get a lot of passengers from their very first few stations (Richmond, El Cerrito Del Norte, El Cerrito Plaza) to the point that there's only a few seating spots left by the time it gets to North Berkeley. But there's just 1-2 new passengers per car at each of the stations North Berkeley onward. Between 8:15 AM and 9 AM, trains are emptier till North Berkeley, but pick up a lot of passengers at North Berkeley and downtown Berkeley, and end up being *more crowded* on net. Between 9 AM and 10 AM, the locus shifts a bit to downtown Berkeley and Ashby, and then by 10 AM or so to MacArthur. For context, here's the train line I am referring to: https://en.wikipedia.org/wiki/Richmond%E2%80%93Daly_City/Millbrae_line
+
+Does this match your experience? Does it make intuitive sense?Is there any formal data or any name for the phenomenon?
+
+PS: I generally avoid starting my commute between 7:15 and 8:15, to avoid peak traffic, so those data points are missing from my experience :).
+
