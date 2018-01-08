@@ -40,7 +40,7 @@ The image below shows BART ridership to and from Embarcadero: average weekday, S
 
 === Wikipedia pageviews ===
 
-The image below shows pageviews of the Wikipedia page {{w|Bay Area Rapid Transit}} from December 2007 to June 2017 on desktop, and from July 2015 to June 2017 on mobile web, mobile app, desktop spider, and mobile web spider. The image will not auto-update with data for new months; you can visit the source page to get up-to-date data.<ref>{{cite web|url = https://wikipediaviews.org/displayviewsformultiplemonths.php?page=Bay+Area+Rapid+Transit&allmonths=allmonths&language=en&drilldowns=all|title = Wikipedia Views for Bay Area Rapid Transit|accessdate = July 6, 2017}}</ref>
+The image below shows pageviews of the Wikipedia page {{w|Bay Area Rapid Transit}} from December 2007 to June 2017 on desktop, and from July 2015 to June 2017 on mobile web, mobile app, desktop spider, and mobile web spider. The image will not auto-update with data for new months; you can visit the source page to get up-to-date data.<ref>{{cite web|url = https://wikipediaviews.org/displayviewsformultiplemonths.php?page=Bay+Area+Rapid+Transit&allmonths=allmonths&language=en&drilldown=all|title = Wikipedia Views for Bay Area Rapid Transit|accessdate = July 6, 2017}}</ref>
 
 [[File:BART Wikipedia views.png|500px]]
 
