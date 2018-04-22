@@ -741,14 +741,22 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Ad guidelines
 |The {{w|Interactive Advertising Bureau}} introduces updates to its guidelines to address different ad sizes and formats, including 360 degree video, autoplays, emojis, and other emerging formats.<ref>{{cite web|url = http://www.marketingdive.com/news/iab-overhauls-ad-guidelines-to-address-autoplay-video-emerging-formats/427102/|title = IAB overhauls ad guidelines to address autoplay video, emerging formats|last = Tode|first = Chantal|date = September 27, 2016|accessdate = July 24, 2017}}</ref>
 |-
+|2016
+|October 3
+|Acquisition
+|Data management platform
+|Salesforce acquires Krux for $700 million and rebrands it as Salesforce DMP.<ref>{{cite web|url = http://adage.com/article/digital/salesforce-buys-krux-data-management-platform-700-million/306139/|title = SALESFORCE BUYS KRUX, THE DATA-MANAGEMENT PLATFORM, FOR $700 MILLION|last = Slefo|first = George|date = October 3, 2016|accessdate = April 22, 2018|publisher = Advertising age}}</ref>
+|-
 |2017
 |February 10
 |Third-party verification
+|Viewability standard
 |{{w|Facebook}} agrees to have its ad serving audited by the {{w|Media Rating Council}}.<ref>{{cite web|url = https://adexchanger.com/platforms/facebook-slowly-embraces-mrc-agrees-independent-audit/|title = Facebook Slowly Embraces MRC, Agrees To Independent Audit|last = Schiff|first = Allison|date = February 10, 2017|accessdate = July 29, 2017|publisher = AdExchanger}}</ref><ref>{{cite web|url = https://www.wsj.com/articles/facebook-agrees-to-audit-of-its-metrics-following-data-controversy-1486735200|title = Facebook Slowly Embraces MRC, Agrees To Independent Audit|last = Shields|first = Mike|date = February 10, 2017|accessdate = July 29, 2017|publisher = ''[[Wall Street Journal]]''}}</ref>
 |-
 |2017
 |February 21
 |Third-party verification
+|Viewability standard
 |{{w|YouTube}} agrees to have its ad serving audited by the {{w|Media Rating Council}}.<ref>{{cite web|url = http://marketingland.com/google-youtube-mrc-audit-video-viewability-207223|title = Google’s YouTube to undergo MRC audits for video viewability measurement. The audits encompass all aspects of YouTube's third-party measurement integrations with MOAT, DoubleVerify and Integral Ad Science.|date = February 21, 2017|accessdate = July 29, 2017|publisher = MarketingLand}}</ref><ref>{{cite web|url = https://www.wsj.com/articles/google-agrees-to-youtube-metrics-audit-to-ease-advertisers-concerns-1487678403|title = Google Agrees to YouTube Metrics Audit to Ease Advertisers’ Concerns. Third party data collection partnerships will be vetted to boost marketers’ confidence in ad viewing measurements agreed to get audited by the MRC.|last = Shields|first = Mike|date = February 21, 2017|accessdate = July 29, 2017|publisher = ''[[Wall Street Journal]]''}}</ref>
 |-
 |2017
@@ -756,6 +764,12 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Controversy
 |Ad serving
 |Google has a "brand safety" fiasco, after ''The Times of London'' publishes an article showing that advertisements are being shown alongside "extremist" YouTube videos.<ref>{{Cite web|url = https://www.thetimes.co.uk/edition/news/google-faces-questions-over-videos-on-youtube-3km257v8d|title = Google faces questions over videos on YouTube|last = Mostrous|first = Alexi|date = February 9, 2017|accessdate = April 5, 2017}}</ref> As a result, advertisers and agencies, initially in the United Kingdom,<ref>{{cite web|url = https://adexchanger.com/platforms/google-gets-brexited-havas-uk-gov-guardian-yank-ads-brand-safety/|title = Google Gets Brexited As Havas UK, Gov and The Guardian Yank Ads Over Brand Safety|last = Sluis|first = Sarah|date = March 17, 2017|accessdate = April 3, 2017|publisher = AdExchanger}}</ref> and later in the United States as well, pause their ads on YouTube.<ref>{{cite web|url = https://adexchanger.com/platforms/rounding-industry-coverage-googles-brand-safety-fiasco/|title = Rounding Up The Industry Coverage Of Google's Brand Safety Fiasco|last = Weissbrot|first = Alison|date = March 27, 2017|accessdate = April 5, 2017|publisher = AdExchanger}}</ref> In response, Google promises to make improvements to its process for determining videos that are safe for ads, and also to give advertisers more visibility and control into the sort of content their ads are being shown against.<ref>{{cite web|url = https://www.wsj.com/articles/google-to-allow-brand-safety-monitoring-by-outside-firms-1491256676|title = Google to Allow ‘Brand Safety’ Monitoring by Outside Firms. Alphabet unit offers new tools to marketers after ads ran alongside objectionable content|last = Marshall|first = Jack|last2 = Nicas|first2 = Jack|date = April 3, 2017|accessdate = April 5, 2017|publisher = ''[[wikipedia:Wall Street Journal|Wall Street Journal]]''}}</ref><ref>{{cite web|url = https://www.nytimes.com/2017/04/03/technology/google-training-ad-placement-computers-to-be-offended.html?_r=0|title = Google Training Ad Placement Computers to Be Offended|last = Wakabayashi|first = Daisuke|date = April 3, 2017|accessdate = April 5, 2017|publisher = ''[[wikipedia:New York Times|New York Times]]''}}</ref>
+|-
+|2017
+|March 28
+|Lawsuit
+|Ad serving
+|UK-based news webite ''The Guardian'' sues the Rubicon Project for allegedly not disclosing its fees when buying the publisher's inventory.<ref>{{cite web|url = https://digiday.com/media/gloves-off-guardian-sues-rubicon-project-undisclosed-fees/|title = The gloves are off: The Guardian sues Rubicon Project for undisclosed fees|date = March 28, 2017|last = Davies|first = Jessica|accessdate = April 22, 2018|publisher = Digiday}}</ref>
 |-
 |2017
 |March 31
@@ -770,10 +784,22 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Oracle acquires ad measurement company Moat for $850 million.<ref>{{cite web|url = https://www.oracle.com/corporate/pressrelease/oracle-buys-moat-041817.html|title = Oracle Buys Moat. Creates the World’s Most Comprehensive Cloud Platform for Marketing Data and Analytics|publisher = Oracle|date = April 18, 2017|accessdate = August 1, 2017}}</ref><ref>{{cite web|url = https://techcrunch.com/2017/04/18/oracle-acquires-moat/|title = Oracle acquires ad measurement company Moat|date = April 18, 2017|accessdate = August 1, 2017|last = Ha|first = Anthony}}</ref><ref>{{cite web|url = https://news.crunchbase.com/news/morning-report-context-moats-850-million-oracle-exit/|title = Morning Report: The Context Of Moat’s $850 Million Oracle Exit|last = Wilhelm|first = Alex|date = April 20, 2017|accessdate = August 1, 2017|publisher = CrunchBase}}</ref>
 |-
 |2017
+|April 20
+|
+|Ad fraud
+|The Interactive Advertising Bureau (IAB) gives its 463 members until June 1, 2018 to register with the Trustwothy Accountability Group (TAG), the digital ad industry’s program to fight fraud and other criminal activity, to remain eligible for continued membership in the industry’s leading trade association.<ref>{{cite web|url = https://www.iab.com/news/iab-make-tag-registration-mandatory-members-fight-fraud-improve-brand-safety/|title = IAB To Make TAG Registration Mandatory For Members To Fight Fraud and Improve Brand Safety|date = April 20, 2017|accessdate = April 22, 2018|publisher = Interactive Advertising Bureau}}</ref>
+|-
+|2017
 |May
 |Launch
 |Social media advertising
 |{{w|Snapchat}} begins rolling out its self-serve ad manager for buying video Snap Ads.<ref>{{cite web|url = https://techcrunch.com/2017/05/04/snapchat-ad-manager/|title = Snapchat launches self-serve ad manager|date = May 4, 2017|accessdate = November 5, 2017|publisher = TechCrunch|last = Constine|first = Josh}}</ref><ref>{{cite web|url = https://digiday.com/marketing/snapchat-launching-self-serve-platform-snap-ads/|title = Snapchat is launching a self-serve platform for Snap ads|last = Dua|first = Tanya|date = April 17, 2017|accessdate = November 5, 2017|publisher = Digiday}}</ref>
+|-
+|2017
+|May
+|
+|Ad fraud
+|The Interactive Advertising Bureau (IAB) Tech Lab introduces ads.txt as a tool that can help ad buyers avoid illegitimate sellers who arbitrage inventory and spoof domains.<ref>{{cite web|url = https://digiday.com/marketing/wtf-ads-txt/|title = WTF is ads.txt?|last = Benes|first = Ross|date = June 7, 2017|accesdate = April 22, 2018}}</ref>
 |-
 | 2017
 |May 23
@@ -786,6 +812,18 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Shutdown
 |Ad agency
 |AudienceScience shuts down after losing {{w|Procter & Gamble}}, its biggest client.<ref>{{cite web|url = https://adexchanger.com/platforms/audiencescience-shuts-doors-less-month-pg-client-loss/|title = AudienceScience Shuts Its Doors Less Than A Month After P&G Client Loss|last = Schiff|first = Allison|last2 = Rodgers|first2 = Zach|date = June 1, 2017|accessdate = August 7, 2017|publisher = AdExchanger}}</ref>
+|-
+|2017
+|November
+|Information
+|Political manipulation
+|At the request of the United States House Intelligence Committee, Facebook publishes details of political advertisements bought in 2016 by social media accounts based in Russia, many of which were suspected to be connected with the Internet Research Agency, a company with Kremlin ties. This is amidst suspicion that the influence of these advertisements could hvae led to Donald Trump's victory in the 2016 election.<ref>{{cite web|url = https://www.nytimes.com/2017/11/01/us/politics/russia-2016-election-facebook.html|title = These Are the Ads Russia Bought on Facebook in 2016|date = November 1, 2017|accessdate = April 22, 2018|publisher = ''New York Times''|last = Shane|first = Scott}}</ref><ref>{{cite web|url = https://medium.com/@ushadrons|title = UsHadrons|accessdate = April 22, 2018}}</ref> Subsequently, Rob Goldman, vice-president of ads at Facebook, would say that sowing division in United States politics, rather than electing Trump, was the goal of these ads, citing a protest in Houston, both sides of which appear to have been orchestrated by the fake social media accounts.<ref>{{cite web|url = https://www.cnbc.com/2018/02/17/facebooks-vp-of-ads-says-russian-meddling-aimed-to-divide-us.html|title = Trump backs Facebook's VP of ads, who says Russia's meddling was designed to divide America|last = Aiello|first = Chloe|date = February 17, 2018|accessdate = April 22, 2018|publisher = CNBC}}</ref>
+|-
+|2018
+|May 25
+|Regulation
+|End user control standard, general privacy standard
+|The European Union's {{w|General Data Protection Regulation}} (GDPR) takes effect on this date. GDPR imposes a number of restrictions and requirements around how companies can collect user data, what information they need to make available to end users if asked, and end users' right to request that their data be erased. It is expected to have significant impact on the advertising and third-party data ecosystems, both in the European Union and worldwide.<ref>{{cite web|url = https://adexchanger.com/data-driven-thinking/post-gdpr-clients-will-own-data-and-agencies-must-get-creative/|title = Post-GDPR, Clients Will Own Data And Agencies Must Get Creative|date = April 20, 2018|accessdate = April 22, 2018|publisher = AdExchanger|last = Snyder|first = Jon}}</ref> GDPR is expected to have some impact on the operations of Google<ref>{{cite web|url = https://digiday.com/media/googles-gdpr-approach-raises-publisher-concerns/|title = Google’s GDPR approach raises publisher concerns|date = April 16, 2018|last = Davies|first = Jessica|date = April 16, 2018|accessdate = April 22, 2018|publisher = Digiday}}</ref> and Facebook.<ref>{{cite web|url = https://digiday.com/media/gdpr-will-change-facebook-ad-targeting/|title = The GDPR is coming and will change Facebook ad targeting|last = Davies|first = Jessica|date = April 18, 2018|publisher = Digiday}}</ref> It also leads to two US-based ad tech companies (location-based mobile marketing platform Verve and cross-device marketing platform Drawbridge) quitting Europe.<ref>{{cite web|url = https://adexchanger.com/mobile/verve-closes-european-business-thanks-to-gdpr/|title = Verve Closes European Business Thanks To GDPR|last = Schiff|first = Allison|date = April 18, 2018|accessdate = April 22, 2018|publisher = AdExchanger}}</ref><ref>{{cite web|url = https://digiday.com/media/ad-tech-firms-quitting-europe-blaming-gdpr-often-scapegoat/|title = Ad tech firms are quitting Europe, blaming the GDPR (often as a scapegoat)|date = April 19, 2018|accessdate = April 22, 2018}}</ref>
 |}
 (*) Such launches are not initial launches, but rather re-launches.
 
