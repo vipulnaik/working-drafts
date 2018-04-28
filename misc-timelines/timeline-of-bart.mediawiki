@@ -54,8 +54,7 @@ The image below shows Google Trends data for just one week, with times shown in 
 
 [[File:BART Google trends one week.png|500px]]
 
-== Full timeline ==
-
+== Full timeline == 
 {| class="wikitable sortable"
 ! Year !! Month and date !! Event type !! Details !! Associated parts of BART (stations or parts of track)
 |-
