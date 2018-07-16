@@ -1,0 +1,67 @@
+{{italic title}}
+{{Infobox website
+| name = LessWrong
+| logo = LessWrong logo.svg
+| logo_size = 250px
+| logocaption = <!-- LessWrong logo. -->
+| screenshot = <!-- Screenshot of the home page -->
+| caption = <!-- Screenshot of the LessWrong home page. -->
+| collapsible = <!-- yes -->
+| collapsetext = <!-- ? -->
+| url = {{URL|https://www.lesswrong.com/|LessWrong.com}}
+| commercial = <!-- ? -->
+| type = [[Internet forum]], [[blog]]
+| registration = Optional, but is required for contributing content
+| language = English
+| num_users = <!-- The number of registered users the website has. -->
+| content_license = <!-- The license of the content of the site. Works same as content_licence. -->
+| owner = <!-- ? -->
+| author = [[Eliezer Yudkowsky]]
+| editor = <!-- The person or entity that edits the website. -->
+| launch_date = {{start date and age|2009|02|01|df=no}}
+| revenue = <!-- The approximate revenue of the site. -->
+| alexa = {{IncreaseNegative}} [http://www.alexa.com/siteinfo/lesswrong.com 77,017] {{small|{{nowrap|(Global, March 2018)}}}}
+| ip = <!-- ? -->
+| current_status = Active
+| footnotes = <!-- ? -->
+| programming_language = [[Python (programming language)|Python]], [[JavaScript]], [[Cascading Style Sheets|CSS]] (powered by [[Reddit]] source code)
+}}
+
+'''''LessWrong''''', also written as '''''Less Wrong''''', is a community blog and forum focused on discussion of [[cognitive bias]]es, [[philosophy]], [[psychology]], [[economics]], [[rationality]], and [[artificial intelligence]], among other topics.<ref name=faq>{{cite web|url=http://wiki.lesswrong.com/wiki/FAQ#What_is_Less_Wrong.3F|title = Less Wrong FAQ|publisher = LessWrong}}</ref><ref name="businessinsider">{{cite web|url=http://www.businessinsider.com/ten-things-you-should-learn-from-lesswrongcom-2011-7|title = You Can Learn How To Become More Rational|last = Miller|first = James|publisher = ''[[Business Insider]]''|date = July 28, 2011|accessdate = March 25, 2014}}</ref>
+
+==Purpose==
+LessWrong promotes lifestyle changes believed to lead to increased rationality and self-improvement. Posts often focus on avoiding biases related to decision-making and the evaluation of evidence. One suggestion is the use of [[Bayes' theorem]] as a decision-making tool.<ref name=businessinsider/> There is also a focus on psychological barriers that prevent good decision-making, including fear conditioning<ref>{{cite web|url=https://www.theguardian.com/lifeandstyle/2011/jul/08/change-your-life-ugh-fields|title = This column will change your life: Feel the ugh and do it anyway. Can the psychological flinch mechanism be beaten?|last = Burkeman|first = Oliver|date = July 8, 2011|accessdate = March 25, 2014|publisher = ''[[The Guardian]]''}}</ref> and cognitive biases that have been studied by the psychologist [[Daniel Kahneman]].<ref>{{cite web|url=https://www.theguardian.com/lifeandstyle/2012/mar/09/change-life-answer-easier-question|title = This column will change your life: asked a tricky question? Answer an easier one. We all do it, all the time. So how can we get rid of this eccentricity?|last = Burkeman|first = Oliver|date = March 9, 2012|accessdate = March 25, 2014|publisher = ''[[The Guardian]]''}}</ref>
+
+== History ==
+LessWrong developed from Overcoming Bias, an earlier group blog focused on human rationality, which began in November 2006, with artificial intelligence theorist [[Eliezer Yudkowsky]] and economist [[Robin Hanson]] as the principal contributors. In February 2009, Yudkowsky's posts were used as the seed material to create the community blog ''LessWrong'', and ''Overcoming Bias'' became Hanson's personal blog.<ref>{{cite web|url=http://wiki.lesswrong.com/wiki/FAQ#Where_did_Less_Wrong_come_from.3F|title = Where did Less Wrong come from? (LessWrong FAQ)|accessdate = March 25, 2014}}</ref>
+
+In 2017, it was announced that [[Weidenfeld & Nicolson]] would be publishing a book about LessWrong by former [[BuzzFeed]] science correspondent Tom Chivers.<ref>{{cite web|last1=Cowdrey|first1=Katherine|title=W&N wins Buzzfeed science reporter's debut after auction|url=https://www.thebookseller.com/news/wn-wins-three-way-auction-buzzfeed-science-reporters-debut-642406|website=The Bookseller|accessdate=2017-09-21}}</ref>
+
+In 2017 and 2018, LessWrong moved over to a redesigned website (sometimes called ''LessWrong 2.0''), with all the past content ported over, and users having the option to migrate accounts. There were significant changes to the UI and the karma system.<ref>{{cite web|url = https://www.lesswrong.com/posts/HJDbyFFKf72F52edp/welcome-to-lesswrong-2-0|title = Welcome to Lesswrong 2.0|last = Habryka|first = Oliver|date = June 18, 2017|accessdate = July 9, 2018|publisher = LessWrong}}</ref><ref>{{cite web|url = https://www.lesswrong.com/posts/rEHLk9nC5TtrNoAKT/lw-2-0-strategic-overview|title = LW 2.0 Strategic Overview|last = Habryka|first = Oliver|date = September 14, 2017|accessdate = July 9, 2018|publisher = LessWrong}}</ref><ref>{{cite web|url = https://www.lesswrong.com/posts/qGyeouB9qwJtdLQ9J/lw-migration-announcement|title = LW Migration Announcement|date = March 21, 2018|accessdate = July 9, 2018|publisher = LessWrong}}</ref> In 2018, GreaterWrong, an alternative way to browse LessWrong, was launched.<ref>{{cite web|url = https://www.lesswrong.com/posts/66DXhQJyPEJNsXgfw/an-alternative-way-to-browse-lesswrong-2-0|title = An alternative way to browse LessWrong 2.0|date = February 18, 2018|accessdate = July 9, 2018|publisher = LessWrong}}</ref>
+
+===Roko's basilisk===
+
+In July 2010, LessWrong contributor Roko posted a [[thought experiment]] similar to [[Pascal's Wager]] to the site in which an otherwise benevolent<!-- LW itself refers to it as a "friendly AI"--> future AI system tortures simulations of those who did not work to bring the system into existence. This idea came to be known as "Roko's [[basilisk]]," based on Roko's idea that merely hearing about the idea would give the hypothetical AI system stronger incentives to employ blackmail. Yudkowsky deleted Roko's posts on the topic, calling posting it "stupid". Discussion of Roko's basilisk was banned on ''LessWrong'' for several years<ref name="insider">{{cite web | url=http://www.businessinsider.com/what-is-rokos-basilisk-2014-8 | title=WARNING: Just Reading About This Thought Experiment Could Ruin Your Life | publisher=Business Insider | date=6 August 2014 | accessdate=6 December 2014 | author=Love, Dylan}}</ref><ref name="Slate July 2014">{{cite news|last1=Auerbach|first1=David|authorlink=David Auerbach|title=The Most Terrifying Thought Experiment of All Time|url=http://www.slate.com/articles/technology/bitwise/2014/07/roko_s_basilisk_the_most_terrifying_thought_experiment_of_all_time.single.html|accessdate=18 July 2014|work=Slate|date=17 July 2014}}</ref> before the ban was lifted in October 2015.<ref>{{cite web|url=http://lesswrong.com/r/discussion/lw/mge/a_few_misconceptions_surrounding_rokos_basilisk/|quote=The Roko's basilisk ban isn't in effect anymore|author=RobbBB|date=5 October 2015|accessdate=10 April 2016|title= A few misconceptions surrounding Roko's basilisk |publisher=LessWrong}}</ref>
+
+Allusions to Roko's basilisk in [[popular culture]] include the actions of the character Gilfoyle in Season 5, Episode 5 of ''[[Silicon Valley (TV series)|Silicon Valley]]'',<ref>{{Cite web|url=http://www.vulture.com/2018/04/silicon-valley-recap-season-5-episode-5.html|title=Silicon Valley Recap: The Terminator Problem|last=Henderson|first=Odie|date=2018-04-23|website=[[Vulture]]|archive-url=|archive-date=|dead-url=|access-date=2018-04-23}}</ref> the character Roccoco Basilisk in [[Grimes (musician)|Grimes]]' video for "[[Flesh Without Blood]]", explicitly named for Roko's basilisk,<ref>{{Cite web|url=http://www.fuse.tv/videos/2015/12/grimes-fuse-first-interview-flesh-without-blood|title=Grimes Explains the 4 Characters in Her "Flesh Without Blood" Video: Exclusive|last=Benjamin|first=Jeff|date=7 December 2015|website=Fuse|archive-url=|archive-date=|dead-url=|access-date=2017-06-09|quote=She's doomed to be eternally tortured by an artificial intelligence, but she's also kind of like Marie Antoinette.}}</ref> the plot of ''Magnus: Robot Fighter'' #8 by [[Fred Van Lente]],<ref>{{Cite web|url=https://www.bleedingcool.com/2014/11/22/turning-the-gold-key-frank-barbiere-talks-with-fred-van-lente-about-mangus-robot-fighter/|title=Turning The Gold Key - Frank Barbiere Talks With Fred Van Lente About Mangus: Robot Fighter|last=Wickline|first=Dan|date=2014-11-22|website=[[Bleeding Cool]]|archive-url=|archive-date=|dead-url=|access-date=2017-06-09}}</ref> and various webcomics such as ''[[xkcd]]''{{'}}s "AI-Box Experiment"<ref>https://xkcd.com/1450/</ref> and ''[[Questionable Content]]''{{'}}s AI Police Officer Roko Basilisk.<ref>http://www.questionablecontent.net/view.php?comic=3362</ref>
+
+==Neoreaction==
+
+The [[Dark Enlightenment|neoreactionary movement]] takes an interest in LessWrong,<ref>{{cite web|url=https://techcrunch.com/2013/11/22/geeks-for-monarchy/|title = Geeks for Monarchy: The Rise of the Neoreactionaries|last = Finley|first = Klint|date = November 22, 2013|accessdate = March 25, 2014|publisher = ''[[TechCrunch]]''}}</ref><ref>{{Cite journal|last=Riggio|first=Adam|date=23 September 2016|title=The Violence of Pure Reason: Neoreaction: A Basilisk|url=https://social-epistemology.com/2016/09/23/the-violence-of-pure-reason-neoreaction-a-basilisk-adam-riggio/|journal=Social Epistemology Review and Reply Collective|volume=5|issue=9|pages=34–41|issn=2471-9560|quote=The embryo of the movement lived in the community pages of Yudkowsky’s blog LessWrong, a website dedicated to refining human rationality.}}</ref> attracted by discussions on the site of [[eugenics]] and [[evolutionary psychology]].<ref>{{Cite web|url=http://fusion.net/story/312592/peter-thiel-transhumanist/|title=The Strange and Conflicting World Views of Silicon Valley Billionaire Peter Thiel|last=Keep|first=Elmo|date=22 June 2016|website=Fusion|publisher=|access-date=2016-10-05|quote=Thanks to LessWrong’s discussions of eugenics and evolutionary psychology, it has attracted some readers and commenters affiliated with the alt-right and neoreaction, that broad cohort of neofascist, white nationalist and misogynist trolls.}}</ref>  Yudkowsky has strongly repudiated neoreaction.<ref>{{Cite journal|last=Riggio|first=Adam|date=23 September 2016|title=The Violence of Pure Reason: Neoreaction: A Basilisk|url=https://social-epistemology.com/2016/09/23/the-violence-of-pure-reason-neoreaction-a-basilisk-adam-riggio/|journal=Social Epistemology Review and Reply Collective|volume=5|issue=9|pages=34–41|issn=2471-9560|quote=Land and Yarvin are openly allies with the new reactionary movement, while Yudkowsky counts many reactionaries among his fanbase despite finding their racist politics disgusting. }}</ref><ref>{{cite web|url=http://yudkowsky.tumblr.com/post/142497361345/this-isnt-going-to-work-but-for-the-record-and|title=Untitled|author=Eliezer Yudkowsky|date=8 April 2016|work=Optimize Literally Everything (blog)|accessdate=7 October 2016}}</ref>
+
+== Effective altruism ==
+LessWrong played a role in the development of the [[effective altruism]] movement.<ref>{{cite book|last1=de Lazari-Radek|first1=Katarzyna|last2=Singer|first2=Peter|title=Utilitarianism: A Very Short Introduction|date=2017-09-27|publisher=Oxford University Press|page=110}}</ref>
+
+== References ==
+{{Reflist|30em}}
+
+== External links ==
+* {{Official website|http://lesswrong.com/}}
+* {{cite web|url=http://www.jdpressman.com/public/lwsurvey2016/Survey_554193_LessWrong_Diaspora_2016_Survey(2).pdf|title =  2016 Survey Results |author=Ingres|date =14 May 2016|accessdate = 9 April 2017}} &mdash; survey of LessWrong subculture opinions
+
+{{LessWrong}}
+{{Effective altruism}}
+{{Portal bar|Internet}}
+
+[[Category:Virtual communities]]
+[[Category:Transhumanist organizations]]
