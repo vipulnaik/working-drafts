@@ -282,7 +282,7 @@ The image below shows Google Trends data for just one week, with times shown in 
 |-
 | 1994 || August 31 || Train cars || The first of a new generation of transit cars arrives at the Hayward maintenance facility. The transit car is part of an 80-car order.<ref name=bart-40-years/> ||
 |-
-| 1995 || || Train cars || BART contracts with ADTranz, a subsidiary of Mercedes Benz (and later acquierd by Bombardier Corporation) to replace the brown seats in train cars with polyurethane cusioning.<ref name=bart-vinyl-seats>{{cite web|url = https://www.huffingtonpost.com/2011/11/18/vinyl-bart-seats-to-replace-carpeting_n_1101843.html|title = Vinyl BART Seats To Send Infamous Carpeting To The Scrap Heap|last = Sankin|first = Aaron|date = November 18, 2011|accessdate = July 27, 2018|publisher = ''Huffington Post''}}
+| 1995 || || Train cars || BART contracts with ADTranz, a subsidiary of Mercedes Benz (and later acquierd by Bombardier Corporation) to replace the brown seats in train cars with polyurethane cusioning.<ref name=bart-vinyl-seats>{{cite web|url = https://www.huffingtonpost.com/2011/11/18/vinyl-bart-seats-to-replace-carpeting_n_1101843.html|title = Vinyl BART Seats To Send Infamous Carpeting To The Scrap Heap|last = Sankin|first = Aaron|date = November 18, 2011|accessdate = July 27, 2018|publisher = ''Huffington Post''}}</ref>
 |-
 | 1995 || November 15 || Fare collection || BART and County Connection abandon Translink, their smart fare collection program, due to high costs.<ref name="1995 Translink-end"/> ||
 |-
