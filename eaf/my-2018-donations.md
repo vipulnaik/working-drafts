@@ -2,8 +2,8 @@ At the end of 2018 (specifically, on December 22, 2018), I donated
 $3,000 USD with the following allocation:
 
 * $2,000 to GiveWell for discretionary regranting to top charities, by [check](https://www.givewell.org/about/donate/check)
-* $500 to the [$500,000 EA Donor Lottery](https://app.effectivealtruism.org/lotteries/63715163508813), on behalf of Issa Rice. This means that, in the 0.1%-probability case that I win the lottery, he will choose the allocation of the funds
-* $500 to the [Machine Intelligence Research Institute](https://intelligence.org/donate/), on behalf of Issa Rice
+* $500 to the [$500,000 EA Donor Lottery](https://app.effectivealtruism.org/lotteries/63715163508813) by check, on behalf of Issa Rice. This means that, in the 0.1%-probability case that I win the lottery, he will choose the allocation of the funds
+* $500 to the [Machine Intelligence Research Institute](https://intelligence.org/donate/) by ACH, on behalf of Issa Rice
 
 This is my first set of normal charity donations since 2012, when I
 donated $500 to GiveDirectly. In this post, I describe:
@@ -21,7 +21,14 @@ donated $500 to GiveDirectly. In this post, I describe:
 * The selection of recipients: For the money directly allocated by me,
   GiveWell top charities won as a default baseline because the
   alternatives were not yet compelling enough.
-  
+
+General background:
+
+* My [donation history page](https://vipulnaik.com/donation-history/)
+  which provides a summary of my lifetime donations
+* [The page for my donations on the Donations list website
+  (DLW)](https://donations.vipulnaik.com/donor.php?donor=Vipul+Naik)
+
 ### My reason for donating now rather than earlier
 
 After my last donation of $500 to GiveDirectly on December 24, 2012,
@@ -45,20 +52,24 @@ I've paid for contract work since I started on it has been around
 $115,000. This is a significant amount of money that has taken
 precedence over donating money to charity.
 
-At this point, while taking stock of my finances, I realized a few things:
+A few weeks ago, while taking stock of my finances, I realized a few
+things:
 
-* The amount of money I'm paying per month for contract work has
-  reduced, partly because Issa Rice (one of the two main people
-  working for me) is now working fewer hours for me and spending more
-  time [learning background math for AI safety
+* The [amount of money I'm paying per month for contract work has
+  reduced](https://contractwork.vipulnaik.com/#paymentsDueByTypeAndMonth),
+  partly because [Issa Rice](https://issarice.com/) (one of the two
+  main people working for me) is now working fewer hours for me and
+  spending more time [learning background math for AI safety
   research](https://issarice.wordpress.com/). This dovetails well with
   the fact that some of the projects he was working on with me have
   transitioned to maintenance mode where they don't need many active
   hours from him.
 
-* My income has increased somewhat, and I also realized some windfall
-  gains from cryptocurrency price increases in 2017, which have put me
-  in a somewhat better shape financially.
+* My [income has increased
+  somewhat](https://github.com/vipulnaik/incomeandtaxes/blob/master/sql/earned_income.sql),
+  and I also realized some windfall gains from cryptocurrency price
+  increases in 2017, which have put me in a somewhat better shape
+  financially.
 
 Together, these factors mean that I have a little more money available
 to donate to charity now than I did till recently.
@@ -78,10 +89,10 @@ In the absence of compelling opportunities to fund, my default is to
 donate some minimum amount. Some reasons to keep my current donation
 to a minimum amount:
 
-* The maintenance of funds that can cater to the possibility of
-  discovering more compelling opportunities later, which could involve
-  scaling up contract work (if it's a project I can fund or direct) or
-  donating to another person, project, or organization.
+* The desire to keep funds available to spend on more compelling
+  opportunities later, which could involve scaling up contract work
+  (if it's a project I can fund or direct) or donating to another
+  person, project, or organization.
 
 * The potential benefits of a larger financial buffer to support
   transitions to "direct work" careers in the future (though I don't
