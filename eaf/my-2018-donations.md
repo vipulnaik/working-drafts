@@ -8,19 +8,24 @@ $3,000 USD with the following allocation:
 This is my first set of normal charity donations since 2012, when I
 donated $500 to GiveDirectly. In this post, I describe:
 
-* My reason for donating now, rather than earlier or later: Till now,
+* [My reason for donating now, rather than earlier or later](#my-reason-for-donating-now-rather-than-earlier-or-later): Till now,
   I was first building up a saving buffer and then funding contract
   work heavily. With recent reduction in contract work spending and
   increase in income, I am better positioned to donate.
 
-* My reason for choosing this amount to donate: It's the minimum
-  amount that is substantive yet unlikely to materially affect me; I
-  would donate more if I saw more compelling opportunities, and want
-  to keep a reserve that will allow me to donate more in the future
+* [My reason for choosing this amount to
+  donate](#my-reason-for-choosing-this-amount-to-donate): It's the
+  minimum amount that is substantive yet unlikely to materially affect
+  me; I would donate more if I saw more compelling opportunities, and
+  want to keep a reserve that will allow me to donate more in the
+  future
 
-* The selection of recipients: For the money directly allocated by me,
-  GiveWell top charities won as a default baseline because the
-  alternatives were not yet compelling enough.
+* [The selection of recipients](#the-selection-of-recipients): For the
+  money directly allocated by me, GiveWell top charities won as a
+  default baseline because the alternatives were not yet compelling
+  enough.
+
+I conclude with a [summary](#summary).
 
 General background:
 
@@ -29,7 +34,7 @@ General background:
 * [The page for my donations on the Donations list website
   (DLW)](https://donations.vipulnaik.com/donor.php?donor=Vipul+Naik)
 
-### My reason for donating now rather than earlier
+### My reason for donating now rather than earlier or later
 
 After my last donation of $500 to GiveDirectly on December 24, 2012,
 my personal focus shifted toward building a good saving buffer and
