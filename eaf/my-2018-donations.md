@@ -1,4 +1,5 @@
-At the end of 2018, I donated $3,000 USD with the following allocation:
+At the end of 2018 (specifically, on December 22, 2018), I donated
+$3,000 USD with the following allocation:
 
 * $2,000 to GiveWell for discretionary regranting to top charities, by [check](https://www.givewell.org/about/donate/check)
 * $500 to the [$500,000 EA Donor Lottery](https://app.effectivealtruism.org/lotteries/63715163508813), on behalf of Issa Rice. This means that, in the 0.1%-probability case that I win the lottery, he will choose the allocation of the funds
@@ -23,12 +24,13 @@ donated $500 to GiveDirectly. In this post, I describe:
   
 ### My reason for donating now rather than earlier
 
-After my last donation of $500 to GiveDirectly, my personal focus
-shifted toward building a good saving buffer and acquiring personal
-financial stability. For these reasons, I deferred donating, with the
-expectation that I might potentially donate larger amounts later, as I
-had done prior to 2012. You can see some related thoughts from me in a
-[post to the Effective Altruists Facebook group in March
+After my last donation of $500 to GiveDirectly on December 24, 2012,
+my personal focus shifted toward building a good saving buffer and
+acquiring personal financial stability. For these reasons, I deferred
+donating, with the expectation that I might potentially donate larger
+amounts later, as I had done prior to 2012. You can see some related
+thoughts from me in a [post to the Effective Altruists Facebook group
+in March
 2014](https://www.facebook.com/groups/effective.altruists/permalink/655328167856877/).
 
 By 2015, I had a decent saving rate and I was quite interested in
@@ -76,10 +78,10 @@ In the absence of compelling opportunities to fund, my default is to
 donate some minimum amount. Some reasons to keep my current donation
 to a minimum amount:
 
-* The possibility of discovering more compelling opportunities later,
-  which could involve scaling up contract work (if it's a project I
-  can fund or direct) or donating to another person, project, or
-  organization.
+* The maintenance of funds that can cater to the possibility of
+  discovering more compelling opportunities later, which could involve
+  scaling up contract work (if it's a project I can fund or direct) or
+  donating to another person, project, or organization.
 
 * The potential benefits of a larger financial buffer to support
   transitions to "direct work" careers in the future (though I don't
@@ -105,10 +107,10 @@ To figure out the amount to donate, I used a few heuristics:
 
 ### The selection of recipients
 
-For 2017 and 2018, I had given Issa the option of assigning $500 of my
-money to charitable causes of his choosing (with no strict requirement
-that these be recognized as charities). In 2017, Issa deferred the use
-of the money, so he had $1,000 to allocate.
+For each of the years 2017 and 2018, I had given Issa the option of
+assigning $500 of my money to charitable causes of his choosing (with
+no strict requirement that these be recognized as charities). In 2017,
+Issa deferred the use of the money, so he had $1,000 to allocate.
 
 Issa ultimately decided to allocate 50% of the $1,000 (i.e., $500) to
 the [$500,000 EA Donor
