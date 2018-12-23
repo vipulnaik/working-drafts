@@ -1,16 +1,26 @@
-At the end of 2018, I donated $3000 USD with the following allocation:
+At the end of 2018, I donated $3,000 USD with the following allocation:
 
-* $2000 to GiveWell for discretionary regranting to top charities, by [check](https://www.givewell.org/about/donate/check)
+* $2,000 to GiveWell for discretionary regranting to top charities, by [check](https://www.givewell.org/about/donate/check)
 * $500 to the [$500,000 EA Donor Lottery](https://app.effectivealtruism.org/lotteries/63715163508813), on behalf of Issa Rice. This means that, in the 0.1%-probability case that I win the lottery, he will choose the allocation of the funds
 * $500 to the [Machine Intelligence Research Institute](https://intelligence.org/donate/), on behalf of Issa Rice
 
 This is my first set of normal charity donations since 2012, when I
 donated $500 to GiveDirectly. In this post, I describe:
 
-* My reason for donating now, rather than earlier or later
-* My reason for choosing this amount to donate
-* The selection of recipients
+* My reason for donating now, rather than earlier or later: Till now,
+  I was first building up a saving buffer and then funding contract
+  work heavily. With recent reduction in contract work spending and
+  increase in income, I am better positioned to donate.
 
+* My reason for choosing this amount to donate: It's the minimum
+  amount that is substantive yet unlikely to materially affect me; I
+  would donate more if I saw more compelling opportunities, and want
+  to keep a reserve that will allow me to donate more in the future
+
+* The selection of recipients: For the money directly allocated by me,
+  GiveWell top charities won as a default baseline because the
+  alternatives were not yet compelling enough.
+  
 ### My reason for donating now rather than earlier
 
 After my last donation of $500 to GiveDirectly, my personal focus
@@ -115,7 +125,7 @@ this allocation, I considered a few different options.
 
 * GiveWell top charities
 * Effective Altruism Funds
-* A few small organizations
+* Interesting "rising stars"
 
 #### GiveWell top charities
 
@@ -160,3 +170,68 @@ I ultimately decided to watch the EA Funds (as well as the general
 landscape in which they operate) for a little longer before making a
 decision to donate to them.
 
+#### Interesting "rising stars"
+
+Some organizations start becoming donation targets in the effective
+altruism community after word of mouth from a few people. These could
+be:
+
+* Organizations that have been around for a while and have no other
+  direct connection to the movement, but that get picked up by a few
+  people in the community. Examples:
+  [Tostan](https://donations.vipulnaik.com/donee.php?donee=Tostan) in
+  2016,
+  [StrongMinds](https://donations.vipulnaik.com/donee.php?donee=StrongMinds)
+  (2016 to present), [No Means No
+  Worldwide](https://donations.vipulnaik.com/donee.php?donee=No+Means+No+Worldwide). I
+  thought a bit about donating in this space, but decided that these
+  organizations have plenty of funding sources, and I also wasn't
+  convinced of the thoroughness of the evaluation of them.
+
+* Organizations that started out from within the effective altruism
+  community, and are still in a startup stage where they
+  have enough funding to survive but maybe not enough to grow
+  fast. Potential examples: [AI
+  Impacts](https://donations.vipulnaik.com/donee.php?donee=AI+Impacts),
+  [Alliance to Feed the Earth in
+  Disasters](https://donations.vipulnaik.com/donee.php?donee=Alliance+to+Feed+the+Earth+in+Disasters),
+  [LessWrong
+  2.0](https://donations.vipulnaik.com/donee.php?donee=LessWrong+2.0). While
+  I might have been interested in funding specific organizations in
+  this reference class, none of the ones I know fit the bill for me; I
+  believe the funding flowing to these organizations is adequate and
+  the constraints hampering their growth are not primarily those of
+  funding. However, this is just with my current state of knowledge;
+  I'm keeping an eye on a lot of these and might change my mind about
+  specific ones.
+
+* Fledgling, not-quite-started organizations. Their very survival is
+  unclear. At present, I don't have a clear idea of which of them
+  might be worth funding; the data I've seen didn't point to a clear
+  example of something that would be a compelling use of funds.
+
+As you can see from the numerous links I've included above, I have
+(with help from Issa Rice) been collating a lot of donation
+information and discussion documents on the [donations list
+website](https://donations.vipulnaik.com/), and this has helped me get
+a sense of the landscape. I hope to continue to learn more and might
+find good opportunities.
+
+### Summary
+
+The upshot is that GiveWell top charities "won" as the default
+baseline, and that's where I ended up donating. But I also ended up
+making this donation smaller, opening the possibility for larger
+donations later.
+
+I hope to continue working on projects like the [Donations list
+website](https://donations.vipulnaik.com/) on my personal time and
+through contract work. I also hope to get a clearer picture of a
+number of things that might lead to more interesting donation
+decisions in the future.
+
+Despite not finding anything immediately worthwhile or exciting to
+donate to, I did see a lot of potential opportunities. And in many
+cases, the limiting factor was that there were already many other
+donors who had snapped up the best opportunities. To me, this is a
+good problem to have :).
