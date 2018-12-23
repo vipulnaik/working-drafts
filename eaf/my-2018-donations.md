@@ -253,3 +253,10 @@ donate to, I did see a lot of potential opportunities. And in many
 cases, the limiting factor was that there were already many other
 donors who had snapped up the best opportunities. To me, this is a
 good problem to have :).
+
+PS: The post is cross-posted to [my personal
+blog](https://vipulnaik.com/blog/my-2018-donations/) and to the
+[Effective Altruism
+Forum](https://forum.effectivealtruism.org/posts/dznyZNkAQMNq6HtXf/my-2018-donations). The
+versions may differ slightly due to formatting adjustments and
+limitations.
