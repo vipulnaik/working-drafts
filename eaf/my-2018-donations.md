@@ -3,7 +3,7 @@ $3,000 USD with the following allocation:
 
 * $2,000 to GiveWell for discretionary regranting to top charities, by [check](https://www.givewell.org/about/donate/check)
 * $500 to the [$500,000 EA Donor Lottery](https://app.effectivealtruism.org/lotteries/63715163508813) by check, on behalf of Issa Rice. This means that, in the 0.1%-probability case that I win the lottery, he will choose the allocation of the funds
-* $500 to the [Machine Intelligence Research Institute](https://intelligence.org/donate/) by ACH, on behalf of Issa Rice
+* $500 to the [Machine Intelligence Research Institute](https://intelligence.org/donate/) by ACH, on behalf of Issa Rice. The donation qualified for donation double from Raising for Effective Giving's [Double Up Drive](https://doubleupdrive.com/)
 
 This is my first set of normal charity donations since 2012, when I
 donated $500 to GiveDirectly. In this post, I describe:
