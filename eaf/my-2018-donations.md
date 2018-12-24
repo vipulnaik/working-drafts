@@ -33,6 +33,7 @@ General background:
   which provides a summary of my lifetime donations
 * [The page for my donations on the Donations list website
   (DLW)](https://donations.vipulnaik.com/donor.php?donor=Vipul+Naik)
+* [Issa Rice's donation history page](https://issarice.com/donation-history)
 
 ### My reason for donating now rather than earlier or later
 
@@ -136,6 +137,9 @@ and another 50% to the Machine Intelligence Research Institute
 entry was under my name, Issa would make the decision as to how to
 allocate the winnings in the (0.1% probability) event that I win the
 lottery.
+
+More of Issa's reasoning can be found in the [2018 section of Issa's
+donation history page](https://issarice.com/donation-history#section-3).
 
 Since my overall giving budget was $3,000, and $1,000 was to be
 determined by Issa, that left $2,000 to allocate. When thinking about
