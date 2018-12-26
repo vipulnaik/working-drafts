@@ -1,0 +1,93 @@
+{{Infobox software
+| name = Prometheus
+| logo = Prometheus_software logo.svg
+| released = {{Start date and age|2012|11|24}}
+| latest release version = v2.2.1
+| latest release date = {{release date and age|2018|03|13}}
+| programming language = [[Go (programming language)|Go]]
+| operating system = [[Cross-platform]]
+| genre = [[Time series database]]
+| license = [[Apache_License|Apache 2]] 
+| website = {{URL|https://prometheus.io/|prometheus.io}}
+| repo = https://github.com/prometheus/prometheus
+}}
+
+'''Prometheus''' is an open-source software project written in [[Go (programming language)|Go]] that is used to record metrics in a [[time series database]] (allowing for high dimensionality) built using a HTTP pull model, with flexible queries and real-time alerting.<ref name=website>{{cite web|url = https://prometheus.io/|title = Prometheus: From metrics to insight. Power your metrics and alerting with a leading open-source monitoring solution.|accessdate = December 26, 2018}}</ref> The project is licensed under the Apache 2 License, with source code available on [[GitHub]],<ref name=github>{{cite web|url = https://github.com/prometheus|title = Prometheus|accessdate = December 26, 2018}}</ref> and is a graduated project of the [[Cloud Native Computing Foundation]], along with [[Kubernetes]] and Envoy.<ref name=cncf-prometheus-graduates>{{cite web|url = https://www.cncf.io/announcement/2018/08/09/prometheus-graduates/|title = Cloud Native Computing Foundation Announces Prometheus Graduation|last = Evans|first = Kristen|date = August 9, 2018|accessdate = December 26, 2018}}</ref>
+
+== History ==
+
+Prometheus was developed at [[SoundCloud]] starting in 2012, when the company discovered that their existing metrics and monitoring solutions (using StatsD and [[Graphite (software)|Graphite]]) was not sufficient for their needs. Specifically, the identified needs that Prometheus was built to meet included: a multi-dimensional data model, operational simplicity, scalable data collection, and a powerful query language, all in a single tool.<ref name=soundcloud-prometheus>{{cite web|url = https://developers.soundcloud.com/blog/prometheus-monitoring-at-soundcloud|title = Prometheus: Monitoring at SoundCloud|last = Volz|first = Julius|last2 = Rabenstein|first2 = Björn|publisher = [[SoundCloud]]}}</ref> The project was open-source from the beginning, and began to be used by Boxever and [[Docker (software)|Docker]] users as well, despite not being explicitly announced.<ref name=soundcloud-prometheus/><ref name=docker-prometheus>{{cite web|url = http://5pi.de/2015/01/26/monitor-docker-containers-with-prometheus/|title = Monitor Docker Containers with Prometheus|date = January 26, 2015|publisher = 5π Consulting}}</ref>  Prometheus was inspired by the monitoring tool [[Kubernetes|Borgmon]] used at Google.<ref>{{cite book|url=http://shop.oreilly.com/product/0636920041528.do |title=Site Reliability Engineering:How Google Runs Production Systems |first1=Niall |last1=Murphy |first2=Betsy |last2=Beyer |first3=Chris |last3=Jones |first4=Jennifer |last4=Petoff |publisher=O'Reilly Media |year=2016 |isbn=978-1491929124 |quote=Even though Borgmon remains internal to Google, the idea of treating time-series data as a data source for generating alerts is now accessible to everyone through those open source tools like Prometheus ... }}</ref><ref>{{cite web |first=Julius |last=Volz |url=https://www.youtube.com/watch?v=4Pr-z8-r1eo |title=PromCon 2017: Conference Recap |date=4 September 2017 |publisher= |via=YouTube |quote=I joined SoundCloud back in 2012 coming from Google...we didn't yet have any monitoring tools that that works with this kind of dynamic environment. We were kind of missing the way Google did its monitoring for its own internal cluster scheduler and we were very inspired by that and finally decided to build our own open-source solution.}}</ref>
+
+By 2013, Prometheus was introduced for production monitoring at SoundCloud.<ref name=soundcloud-prometheus/> The official public announcement was made in January 2015.<ref name=soundcloud-prometheus/>
+
+In May 2016, the [[Cloud Native Computing Foundation]] accepted Prometheus as its second incubated project, after [[Kubernetes]]. The blog post announcing this stated that the tool was in use at many companies including [[Digital Ocean]], [[Ericsson]], [[CoreOS]], [[Weaveworks]], [[Red Hat]], and [[Google, Inc.|Google]].<ref name=cncf-incubates-prometheus>{{cite web|url = https://www.cncf.io/announcement/2016/05/09/cloud-native-computing-foundation-accepts-prometheus-as-second-hosted-project/|title = Cloud Native Computing Foundation Accepts Prometheus as Second Hosted Project|date = May 9, 2016|publisher = [[Cloud Native Computing Foundation]]|accessdate = December 26, 2018}}</ref>
+
+Prometheus 1.0 was released in July 2016.<ref>{{cite web|url = https://www.cncf.io/blog/2016/07/18/prometheus-1-0-is-here/|title = Prometheus 1.0 Is Here|date = July 18, 2016|accessdate = December 26, 2018|publisher = [[Cloud Native Computing Foundation]]}}</ref> Subsequent versions were released through 2016 and 2017, leading to Prometheus 2.0 in November 2017.<ref>{{cite web|url = https://www.robustperception.io/new-features-in-prometheus-1-1-0|title = New Features in Prometheus 1.1.0|date = September 5, 2016|accessdate = December 26, 2018|publisher = Robust Perception}}</ref><ref>{{cite web|url = https://www.robustperception.io/new-features-in-prometheus-1-2-0|title = New Features in Prometheus 1.2.0|date = October 10, 2016|accessdate = December 26, 2018|publisher = Robust Perception}}</ref><ref>{{cite web|url = https://www.robustperception.io/new-features-in-prometheus-1-3-0|title = New Features in Prometheus 1.3.0|date = November 7, 2016|accessdate = December 26, 2018|publisher = Robust Perception}}</ref><ref>{{cite web|url = https://www.robustperception.io/new-features-in-prometheus-1-4-0|title = New Features in Prometheus 1.4.0|date = November 28, 2016|accessdate = December 26, 2018|publisher = Robust Perception}}</ref><ref>{{cite web|url = https://www.robustperception.io/new-features-in-prometheus-1-5-0|title = New Features in Prometheus 1.5.0|date = October 10, 2016|accessdate = December 26, 2018|publisher = Robust Perception}}</ref><ref>{{cite web|url = https://www.robustperception.io/new-features-in-prometheus-1-6-0|title = New Features in Prometheus 1.6.0|date = April 17, 2017|accessdate = December 26, 2018|publisher = Robust Perception}}</ref><ref>{{cite web|url = https://www.robustperception.io/new-features-in-prometheus-1-7-0|title = New Features in Prometheus 1.7.0|date = October 9, 2017|accessdate = December 26, 2018|publisher = Robust Perception}}</ref><ref>{{cite web|url = https://www.robustperception.io/new-features-in-prometheus-1-8-0|title = New Features in Prometheus 1.8.0|date = October 9, 2017|accessdate = December 26, 2018|publisher = Robust Perception}}</ref><ref>{{cite web|url = https://www.robustperception.io/new-features-in-prometheus-2-0-0|title = New Features in Prometheus 2.0.0|date = November 8, 2017|accessdate = December 26, 2018|publisher = Robust Perception}}</ref>
+
+In August 2018, the Cloud Native Computing Foundation announced that the Prometheus project had graduated.<ref name=cncf-prometheus-graduates/>
+
+== Architecture ==
+A typical monitoring platform with Prometheus is composed of multiple tools:{{cn}}
+* Multiple '''exporters''' that typically run of the monitored host to export local metrics.
+* Prometheus to centralize and store the metrics.
+* '''Alertmanager''' to trigger alert based on those metrics.
+* '''Grafana''' to produce dashboards. 
+* '''PromQL''' is the query language used to create dashboard and alerts.
+
+=== Data storage format ===
+
+Prometheus data is stored in the form of metrics, with each metric having a name that is used for referencing and querying it. Each metric can be drilled down by an arbitrary number of labels. Labels can include information on the data source (which server the data is coming from) and other application-specific breakdown information such as the HTTP status code (for metrics related to HTTP responses), query method (GET versus POST), endpoint, etc. The ability to specify an arbitrary list of labels and to query based on these in real time is why Prometheus' data model is called multi-dimensional.<ref name=data-model>{{cite web|url = https://prometheus.io/docs/concepts/data_model/|title = Data model|publisher = Prometheus|accessdate = December 26, 2018}}</ref><ref name=soundcloud-prometheus/><ref name=docker-prometheus/>
+
+Prometheus stores data locally on disk, which helps for fast data storage and fast querying.<ref name=soundcloud-prometheus/>
+
+=== Data collection ===
+
+Prometheus collects data in the form of time series. The time series are built through a pull model: the Prometheus server queries a list of data sources (sometimes called exporters) at a specific polling frequency. Each of the data sources serves the current values of the metrics for that data source at the endpoint queried by Prometheus. The Prometheus server then aggregates data across the data sources.<ref name=soundcloud-prometheus/> Prometheus has a number of mechanisms to automatically discover resources that it should be using as data sources.<ref>{{cite web|url = http://www.openwebit.com/c/prometheus-collects-metrics-provides-alerting-and-graphs-web-ui/|title = Prometheus: Collects metrics, provides alerting and graphs web UI|date = March 18, 2017|accessdate = December 26, 2018}}</ref>
+
+=== Alerts and monitoring ===
+
+Configuration for alerts can be specified in Prometheus that specifies a condition that needs to be maintained for a specific duration in order for an alert to trigger. When alerts trigger, they are forwarded to Alertmanager, another Prometheus service. Alertmanager can include logic to silence alerts and also to forward them to email, Slack, or notification services such as [[PagerDuty]].<ref>{{cite web|url = https://medium.com/@abhishekbhardwaj510/alertmanager-integration-in-prometheus-197e03bfabdf|title = AlertManager Integration with Prometheus|last = Dubey|first = Abhishek|date = March 25, 2018|accessdate = December 26, 2018}}</ref>
+
+===Dashboards ===
+
+Prometheus is not intended as a dashboarding solution. Although it can be used to graph specific queries, it is not a full-fledged dashboarding solution and needs to be hooked up with [[Grafana]] to generate dashboards; this has been cited as a disadvantage due to the additional setup complexity.<ref>{{cite web|url = https://jaxenter.com/prometheus-monitoring-pros-cons-136019.html|title = Prometheus monitoring: Pros and cons|date = July 28, 2017|last = Ryckbosch|first = Frederick|accessdate = December 26, 2018}}</ref>
+
+=== Interoperability ===
+
+Prometheus favors white-box monitoring. Applications are encouraged to publish (export) internal metrics to be collected periodically by Prometheus.<ref>{{cite web |url=https://prometheus.io/docs/practices/instrumentation/|title=Instrumentation - Prometheus|last=Prometheus|website=prometheus.io}}</ref>. Some exporters and agents for various applications are available to provide metrics.<ref>{{cite web |url=https://prometheus.io/docs/instrumenting/exporters/ |title=Exporters |website=prometheus.io}}</ref> Prometheus supports some monitoring and administration protocols to allow interoperability for  transitioning: [[Graphite]], StatsD, [[SNMP]], [[JMX]], and CollectD.
+
+Prometheus focuses on the availability of the platform and basic operations<ref>{{cite web|url=https://prometheus.io/|title=Prometheus - Monitoring system & time series database|last=Prometheus|website=prometheus.io}}</ref>, the metrics are typically stored for few weeks. For long term storage, the metrics can be migrated to a third-party databases like Cortex, CrateDB, InfluxDB, PostgreSQL/TimescaleDB: <ref>{{cite web|url=https://prometheus.io/docs/operating/integrations/#remote-endpoints-and-storage|title=Integrations - Prometheus|website=prometheus.io}}</ref>
+
+=== Standardization into OpenMetrics ===
+
+There is an effort to promote Prometheus exposition format into a standard known as OpenMetrics.<ref>{{cite web |url=https://github.com/RichiH/OpenMetrics  |website=GitHub |title=OpenMetrics|date=2018-11-13 }}</ref> Some products adopted the format: InfluxData's TICK suite<ref>{{cite web |url=https://github.com/influxdata/telegraf/tree/master/plugins/inputs/prometheus |title=Telegraf from InfluxData |date=2018-12-25 }}</ref>, InfluxDB, [[Google Cloud Platform]]<ref>{{cite web |url=https://cloudplatform.googleblog.com/2018/05/Announcing-Stackdriver-Kubernetes-Monitoring-Comprehensive-Kubernetes-observability-from-the-start.html |title=Announcing Stackdriver Kubernetes Monitoring}}</ref>, and  DataDog<ref>{{cite web |url=https://docs.datadoghq.com/agent/prometheus/ |title=DataDogHQ}}</ref>
+
+== Usage ==
+
+Prometheus was first used in-house at SoundCloud, where it was developed, for monitoring their systems.<ref name=soundcloud-prometheus/> The Cloud Native Computing Foundation has a number of case studies of other companies using Prometheus. These include digital hosting service [[Digital Ocean]],<ref>{{cite web|url = https://www.cncf.io/blog/2017/02/28/prometheus-user-profile-digitalocean-uses-prometheus/|title = Prometheus User Profile: How DigitalOcean Uses Prometheus|last = Evans|first = Kristen|date = February 28, 2017|accessdate = December 26, 2018|publisher = [[Cloud Native Computing Foundation]]}}</ref> digital festival DreamHack,<ref>{{cite web|url = https://www.cncf.io/blog/2016/08/24/prometheus-user-profile-monitoring-the-worlds-largest-digital-festival-dreamhack/|title = Prometheus User Profile: Monitoring the World’s Largest Digital Festival – DreamHack|last = Evans|first = Kristen|date = August 24, 2016|accessdate = December 26, 2018|publisher = [[Cloud Native Computing Foundation]]}}</ref> and email and contact migration service ShuttleCloud.<ref>{{cite web|url = https://www.cncf.io/blog/2017/05/17/prometheus-user-profile-shuttlecloud-explains-prometheus-good-small-startup/|title = Prometheus User Profile: ShuttleCloud Explains Why Prometheus Is Good for Your Small Startup|date = May 17, 2017|accessdate = December 26, 2018|last = Evans|first = Kirsten|publisher = [[Cloud Native Computing Foundation]]}}</ref> Separately, [[Pandora Radio]] has mentioned using Prometheus to monitor its data pipeline.<ref>{{cite web|url = https://engineering.pandora.com/apache-airflow-at-pandora-1d7a844d68ee|title = Apache Airflow at Pandora|last = Haidrey|first = Ace|date = March 15, 2018|accessdate = December 26, 2018|publisher = Engineering at Pandora}}</ref>
+
+[[GitLab]] provides a Prometheus integration guide to export GitLab metrics to Prometheus.<ref>{{Cite web|url = https://docs.gitlab.com/ee/administration/monitoring/prometheus/gitlab_metrics.html|title = GitLab Prometheus metrics|accessdate = December 26, 2018}}</ref>
+
+==See also==
+{{Portal|Free and open-source software}}
+* [[Ganglia (software)]]
+* [[Zabbix]]
+* [[Comparison of network monitoring systems]]
+* [[List of systems management systems]]
+
+== References ==
+<!-- Inline citations added to your article will automatically display here. See https://en.wikipedia.org/wiki/WP:REFB for instructions on how to add citations. -->
+{{reflist}}
+
+== Further reading ==
+* {{Cite book|title=Monitoring Docker : monitor your Docker containers and their apps using various native and third-party tools with the help of this exclusive guide!|last=Russ|first=McKendrick|isbn=9781785885501|location=Birmingham, UK|oclc=933610431|date = 2015-12-15}}
+* {{Cite book|title=KUBERNETES FOR DEVELOPERS use kubernetes to develop, test, and deploy your applications with the help of containers;use kubernetes to develop.|last=JOSEPH.|first=HECK|date=2018|publisher=PACKT PUBLISHING|isbn=978-1788830607|location=[S.l.]|oclc=1031909876}}
+* {{Cite book|title=Designing distributed systems : patterns and paradigms for scalable, reliable services|last=1976-|first=Burns, Brendan|isbn=9781491983614|edition=First|location=Sebastopol, CA|oclc=1023861580|date = 2018-02-20}}
+* {{Cite book|title=Cloud Native programming with Golang Develop microservice-based high performance web apps for the cloud with Go.|last=Martin.|first=Helmich|date=2017|publisher=Packt Publishing|others=Andrawos, Mina., Snoeck, Jelmer.|isbn=9781787127968|location=Birmingham|oclc=1020029257}}
+* {{Cite book|title=Hybrid cloud for architects : build robust hybrid cloud solutions using AWS and OpenStack|last=Alok|first=Shrivastwa|isbn=9781788627986|location=Birmingham, UK|oclc=1028641698|date = 2018-02-23}}
+* {{cite book|title=Native Docker Clustering with Swarm |first=Chanwit |last=Kaewkasi |year=2016 |isbn=978-1786469755}}
+
+[[:Category:System_monitors]]
+[[:Category:Software_using_the_Apache_license]]
+[[:Category:Time series software]]
+[[:Category:Free software programmed in Go]]
