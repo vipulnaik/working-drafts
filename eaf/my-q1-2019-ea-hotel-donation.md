@@ -89,8 +89,7 @@ building and financing the first year of the hotel's operations, at a
 time when getting outside support would be hard.
 
 Also, browsing through the [Coordination of Rationality/EA/SSC Housing
-Project group](https://www.facebook.com/groups/664817953593844/) was
-[created](https://www.facebook.com/groups/664817953593844/permalink/664817956927177/)
+Project group](https://www.facebook.com/groups/664817953593844/)
 archives, it looks like both Greg and Toon Alfrink, the hotel's
 manager, have participated in the group for quite a while. While that
 doesn't in and of itself mean much, it does underscore their long-term
@@ -101,6 +100,18 @@ sizable donation to an organization that has not yet achieved the
 level of financial stability that would make its survival automatic.
 
 ## I like the execution so far
+
+This breaks down into a lot of pieces:
+
+* I like both the high demand and the competence exhibited in meeting
+  the demand effectively
+* I like that the residents are very positive about the hotel
+* I find the resident profiles and their projects reasonably
+  impressive
+* I like the cost-effectiveness of the hotel and think it solves the
+  problem (of providing low-cost living) that it set out to solve
+
+### I like both the high demand and the competence exhibited in meeting the demand effectively
 
 Starting a new project and immediately getting traction is
 impressive. It's even more impressive to have been able to cope well
