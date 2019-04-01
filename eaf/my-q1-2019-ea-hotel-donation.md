@@ -1,4 +1,4 @@
-On March 31, 2019, I made a donation of 3200 GBP to the [EA
+On March 31, 2019, I donated 3200 GBP to the [EA
 Hotel](https://eahotel.org)
 [fundraiser](https://eahotel.org/fundraiser/) via
 [GoFundMe](https://www.gofundme.com/ea-hotel). The donation cost me
@@ -13,15 +13,15 @@ donate. I *didn't draft the post **before** donating*, so some of the
 elaboration includes aspects that didn't (at least consciously)
 influence my donation decision.
 
-I limited the time I spend writing the post, and will most likely not
+I limited the time I spent writing the post, and will most likely not
 be able to respond to comments. But please feel free to comment with
 your thoughts in response to my post or other comments!
 
 **NOTE: I have no affiliation with the EA Hotel. I have never visited
-  it, nor have I closely collaborated with any of the EA Hotel's
-  long-term residents. I did not show this post to anybody affiliated
-  with the EA Hotel prior to posting. Nothing here should be taken as
-  an official statement about the EA Hotel.**
+  it, nor have I closely collaborated with anybody living there. I did
+  not show this post to anybody affiliated with the EA Hotel before
+  posting. Nothing here should be taken as an official statement about
+  the EA Hotel.**
 
 The sections of the post:
 
@@ -72,7 +72,7 @@ group](https://www.facebook.com/groups/664817953593844/) was
 through the archives of that Facebook group is interesting because it
 shows the amount of effort that has gone in over the years in
 identifying lower-cost living places for EAs. This is the group where
-Greg Colbourn [first
+EA Hotel founder Greg Colbourn [first
 announced](https://www.facebook.com/groups/664817953593844/permalink/1481373815271583/)
 his intention to buy a hotel in Blackpool.
 
@@ -170,7 +170,7 @@ potential hotel residents, but also for others interested in
 understanding the progress of the hotel. For instance, it includes a
 description of current guests and their work, a historical occupancy
 chart, and detailed information about food, cleaning and laundry,
-showers, wife, and more.
+showers, wifi, and more.
 
 The EA Hotel team has also been quite forthcoming in sharing
 information in their fundraiser posts, including information they
@@ -219,14 +219,17 @@ The disadvantages of these options:
 * Living in places with different culture and language may not be
   conducive to focusing on an EA project: Going to Thailand or Romania
   to cut costs may mean too much adjustment time and effort and not
-  enough resources left to focus on the project.
+  enough resources left to focus on the project. For some people, this
+  option might actually work well, based on their background and
+  comfort levels in different places. But for others, this option may
+  not work.
 
 * In both cases, one does not have the advantage of being plugged into
   a network of other people also working on and motivated to make
   progress on similar projects.
 
 Based on this analysis, I think the EA Hotel offers a good option that
-is not clearly dominated by any other. Morevoer, the general idea of
+is not clearly dominated by any other. Moreover, the general idea of
 having such a hotel, if successful, could be replicated in other
 locations. That would lead to a wider range of price points to meet
 the needs of people with different trade-offs.
@@ -277,12 +280,12 @@ supporting the EA Hotel. In this view, the evidence emerging from the
 EA Hotel so far does not meaningfully alter that prior. Different
 variants of this story:
 
-* Challenging the idea of the hotel as a hub: The very idea of having
+* *Challenging the idea of the hotel as a hub*: The very idea of having
   people congregate at the EA Hotel to work doesn't make sense; it
   doesn't add value relative to them going to other places and
   working.
 
-* Challenging the financing model of the hotel: The EA Hotel is a
+* *Challenging the financing model of the hotel*: The EA Hotel is a
   great idea, and should continue to exist as an option for
   individuals working on projects, but individuals coming to the EA
   Hotel should get their own funding and pay at cost. This will reduce
@@ -291,7 +294,7 @@ variants of this story:
   Wong's
   [comment](https://forum.effectivealtruism.org/posts/ek299LpWZvWuoNeeg/usd100-prize-to-best-argument-against-donating-to-the-ea#WhZ8JQ2Dwsj5r4jvL)).
 
-* Challenging the specific accomplishments so far: The specifics that
+* *Challenging the specific accomplishments so far*: The specifics that
   we have of the EA Hotel residents and their outputs is not yet
   strong enough evidence that the EA Hotel can generate significant
   value. However, if in the future, much more high-value stuff comes
@@ -330,13 +333,13 @@ In the same comment, Colbourn says:
 > another day.
 
 With this model of spending, I can concretely think of my donation of
-3200 GBP as having added about 12 days to the hotel's runway.
+3200 GBP as having added about 13 days to the hotel's runway.
 
 The aspect of this that's hard to quantify: I'm not actually just
-buying 12 days of the hotel's operations. My goal is to help the hotel
+buying 13 days of the hotel's operations. My goal is to help the hotel
 extend its runway so that it can be better equipped to do some
 combination of raising more money and making the operational changes
-needed to survive with whatever money it has. How good 12 days is in
+needed to survive with whatever money it has. How good 13 days is in
 terms of making the hotel more likely to fundraise enough money to
 survive in the long term, I don't know. Nonetheless, it is still a
 relatively clear calculation with a potential for high impact.
@@ -345,7 +348,8 @@ The other part that is hard to predict in advance: how much my
 donation might trigger other donations. It is possible that some large
 donations can spur other large donations by sending a signal. It's
 even possible that this post might convince more people to donate to
-the EA Hotel.
+the EA Hotel, though that is not the primary purpose of my writing
+this post.
 
 One area of concern I have is that the
 [fundraiser](https://www.gofundme.com/ea-hotel) has not gone well. I
