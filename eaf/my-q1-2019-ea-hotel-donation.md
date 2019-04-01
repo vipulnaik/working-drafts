@@ -28,9 +28,10 @@ The sections of the post:
 * [I like the idea of the EA Hotel](#i-like-the-idea-of-the-ea-hotel)
 * [I like the skin-in-the-game of the key players](#i-like-the-skin-in-the-game-of-the-key-players)
 * [I like the execution so far](#i-like-the-execution-so-far)
-* [I see institutional risk reasons for lack of institutional funding](#i-see-institutional-risk-reasons-for-lack-of-institutional-funding): These reasons don't apply to individual donors, so I am not too concerned about the lack of institutional funding as a reason to dissuade me from donating
+* [I see institutional risk reasons for lack of institutional funding](#i-see-institutional-risk-reasons-for-lack-of-institutional-funding): These reasons don't apply to individual donors, so I don't see the lack of institutional funding as a reason to dissuade me from donating
 * [I have not been dissuaded by the reasons against donating that I have seen so far](#i-have-not-been-dissuaded-by-the-reasons-against-donating-that-i-have-seen-so-far)
 * [I find the value of marginal donations high and easy to grasp](#i-find-the-value-of-marginal-donations-high-and-easy-to-grasp)
+* [How I decided to donate and determined the donation amount](#how-i-decided-to-donate-and-determined-the-donation-amount)
 
 ## I like the idea of the EA Hotel
 
@@ -371,7 +372,89 @@ donate despite this because:
   Berkeley REACH, there may well be an inflection point coming soon
   when the donation volume to the EA Hotel goes up. With Berkeley
   REACH, the situation seemed quite dire till June 2018, but then with
-  both Eliezer and Ben Hoffman plugging REACH, a number of people made
-  pledges. Later, REACH also got institutional funding from BERI and
-  EA Funds. Today, REACH has [$3,528 in committed monthly
-  funds](https://www.patreon.com/berkeleyreach).
+  both Eliezer Yudkowsky and Ben Hoffman plugging REACH, a number of
+  people made pledges. Later, REACH also got institutional funding
+  from BERI and EA Funds. Today, REACH has [$3,528 in committed
+  monthly funds](https://www.patreon.com/berkeleyreach).
+
+## How I decided to donate and determined the donation amount
+
+Unlike the other sections, this section is a more personal one that
+discusses how I traded off my own finances against what I saw as a
+funding gap that needed filling. For background, see my [donation
+history page](https://vipulnaik.com/donation-history/) or my [2018
+donations
+post](https://forum.effectivealtruism.org/posts/dznyZNkAQMNq6HtXf/my-2018-donations).
+
+A few months ago, back when the [first EA Hotel fundraiser
+post](https://forum.effectivealtruism.org/posts/MeTrGqRXJQzoLoDia/ea-hotel-fundraiser-1-the-story)
+was published, I had looked at the EA Hotel fundraiser and dug around
+a bit on their website. I remember doing so while [doing the initial
+round of adding documents related to the EA Hotel on the donations
+list
+website](https://github.com/vipulnaik/donations/commit/346b569015fb116dce318b618f295a8f4b1d9cea#diff-e37901f60964e8e079f7a920b87ff5ed)
+(the date of this commit was January 9, about two weeks after the
+fundraiser post).
+
+Since then, I didn't think actively about the EA Hotel till I saw more
+posts of theirs on the Effective Altruism Forum in the past week. On
+March 30, I [added a bunch more documents related to the EA Hotel to
+the donations list
+website](https://github.com/vipulnaik/donations/commit/bace66f2f4c5dabd3bd350e13d3d8f80dede1ab1#diff-e37901f60964e8e079f7a920b87ff5ed). As
+I read through the documents, I started thinking through the arguments
+described in this post. I came to the tentative conclusion that there
+was an important funding gap that urgently needed to be filled.
+
+I ran this thinking by my esteemed friend and
+collaborator-on-many-projects [Issa Rice](https://issarice.com/), who
+did not immediately point out major flaws in my thinking. I slept over
+the thought on the night of March 30. On the morning of March 31, I
+reviewed the information, and read a new post [The case for the EA
+Hotel](https://forum.effectivealtruism.org/posts/sigun924gsxN4oZq2/the-case-for-the-ea-hotel). This
+solidified my decision to donate.
+
+When I had initially been pondering how much to donate, I had been
+thinking of an amount in the range of 1500 to 4000 USD. I ultimately
+decided on a value slightly above the high end of this range. My
+reasons for donating as much as I did were:
+
+* In the past few months, I've ended up spending less on some other
+  projects than I had anticipated, and therefore built up savings at a
+  greater rate than expected. This has made it more feasible for me to
+  donate a larger amount.
+
+* In light of all the overhead, both for me and for the recipient, I
+  wanted a donation amount that made a big enough difference to
+  justify the overhead. One week of operations did not intuitively
+  feel like enough, but two weeks did.
+
+The main reasons I didn't donate more:
+
+* The primary constraint was how much I felt I could comfortably
+  afford to donate without compromising my long-term saving
+  targets. Although I could probably donate a little more, being
+  confident of that would have required more careful financial
+  calculation. The amount I ultimately ended up donating was at the
+  high end of what I felt I could donate without having to do much
+  calculation.
+
+* I am also interested in seeing the dynamic of how further donations
+  play out. I think this amount is enough to serve as social proof
+  that outsiders are willing to give money to the EA Hotel. Depending
+  on how fundraising dynamics proceed, I may make one more donation.
+
+The main reasons I didn't defer the donation:
+
+* I felt I had enough information (thanks to all the extensive
+  discussion on the EA Forum about the EA Hotel in the past few days)
+  and was unlikely to get anything in the next few days that would
+  change my stance significantly.
+
+* I felt a sense of urgency given that the existing runway was
+  expected to last till May. Donating now, I felt, could extend the
+  runway enough to let the fundraiser pick up pace.
+
+* Also, since I'm quite busy during the week, I felt that the weekend
+  is a good time to ake the donation and do the auxiliary work such as
+  documenting it in this post.
+
