@@ -382,7 +382,7 @@ donate despite this because:
 Unlike the other sections, this section is a more personal one that
 discusses how I traded off my own finances against what I saw as a
 funding gap that needed filling. For background, see my [donation
-history page](https://vipulnaik.com/donation-history/) or my [2018
+history page](https://vipulnaik.com/donation-history/) and my [2018
 donations
 post](https://forum.effectivealtruism.org/posts/dznyZNkAQMNq6HtXf/my-2018-donations).
 
