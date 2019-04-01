@@ -129,7 +129,7 @@ This breaks down into a lot of pieces:
 
 ### I like both the high demand and the competence exhibited in meeting the demand effectively
 
-The public announcement about the specific EA Hotel, after buying it, was made by Greg Colbourn on [June 18, 2018](https://forum.effectivealtruism.org/posts/JdqHvyy2Tjcj3nKoD/ea-hotel-with-free-accommodation-and-board-for-two-years). Occupany started climbing through July and August. On August 9, the website had been launched and bookings could be made through the website.
+The public announcement about the specific EA Hotel, after buying it, was made by Greg Colbourn on [June 18, 2018](https://forum.effectivealtruism.org/posts/JdqHvyy2Tjcj3nKoD/ea-hotel-with-free-accommodation-and-board-for-two-years). Occupancy started climbing through July and August. On August 9, the website had been launched and bookings could be made through the website.
 
 By September, the hotel appeared to be running in full steam, and even
 got press coverage in [The
