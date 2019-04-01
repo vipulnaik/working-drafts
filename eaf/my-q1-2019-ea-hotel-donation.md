@@ -76,7 +76,7 @@ Greg Colbourn [first
 announced](https://www.facebook.com/groups/664817953593844/permalink/1481373815271583/)
 his intention to buy a hotel in Blackpool.
 
-Peter McCluskey's
+Side note: Peter McCluskey's
 [comment](https://forum.effectivealtruism.org/posts/ek299LpWZvWuoNeeg/usd100-prize-to-best-argument-against-donating-to-the-ea#zSKSj4py552iHfdSQ)
 suggests that complaining about the high rent in major hubs is a
 signal of low status, because the most successful and influential
@@ -93,8 +93,10 @@ solving it.
 One of the main problems with executing a project like the EA Hotel is
 that it is capital-intensive: a lot of money needs to be put in to
 implement an idea like this in a manner that is low-cost in the long
-run. For instance, a lot more money is needed to buy a hotel
-wholesale, like Greg did, even at the low rates he was able to get.
+run. In this case, Greg Colbourn had to spend 130,000 GBP to buy the
+EA Hotel, and this was after getting it at a cheap price! For
+comparison, Berkeley REACH pays something like $6,000 per month for
+rent for a cafe in Berkeley.
 
 I find it impressive that Greg put his own money into purchasing the
 building and financing the first year of the hotel's operations, at a
