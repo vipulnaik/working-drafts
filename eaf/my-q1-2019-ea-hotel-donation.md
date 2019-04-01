@@ -151,7 +151,7 @@ Hotel residents appear quite positive about their experience at the
 hotel; see for instance
 [grue_slinky](https://forum.effectivealtruism.org/posts/ek299LpWZvWuoNeeg/usd100-prize-to-best-argument-against-donating-to-the-ea)
 and
-[halffull](https://forum.effectivealtruism.org/posts/sigun924gsxN4oZq2/the-case-for-the-ea-hotel).
+[Matt Goldenberg (halffull)](https://forum.effectivealtruism.org/posts/sigun924gsxN4oZq2/the-case-for-the-ea-hotel).
 
 ### I find the resident profiles and their projects reasonably impressive
 
