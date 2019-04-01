@@ -455,6 +455,6 @@ The main reasons I didn't defer the donation:
   runway enough to let the fundraiser pick up pace.
 
 * Also, since I'm quite busy during the week, I felt that the weekend
-  is a good time to ake the donation and do the auxiliary work such as
-  documenting it in this post.
+  is a good time to make the donation and do the auxiliary work such
+  as documenting it in this post.
 
