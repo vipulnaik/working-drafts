@@ -9,19 +9,19 @@ Hotel](https://donations.vipulnaik.com/donee.php?donee=EA+Hotel#doneeDocumentLis
 which include the recent Effective Altruism Forum posts.
 
 In this post, I describe the reasons that influenced my decision to
-donate. I did think through the skeleton of this post before donating,
-but didn't draft the post *before* donating, so some of the
-elaboration includes aspects I had not explicitly considered before
-donating.
+donate. I *didn't draft the post **before** donating*, so some of the
+elaboration includes aspects that didn't (at least consciously)
+influence my donation decision.
 
 I limited the time I spend writing the post, and will most likely not
 be able to respond to comments. But please feel free to comment with
 your thoughts in response to my post or other comments!
 
-**NOTE: I have no affiliation with the EA Hotel. I did not show this
-  post to anybody affiliated with the EA Hotel prior to
-  posting. Nothing here should be taken as an official statement about
-  the EA Hotel.**
+**NOTE: I have no affiliation with the EA Hotel. I have never visited
+  it, nor have I closely collaborated with any of the EA Hotel's
+  long-term residents. I did not show this post to anybody affiliated
+  with the EA Hotel prior to posting. Nothing here should be taken as
+  an official statement about the EA Hotel.**
 
 The sections of the post:
 
