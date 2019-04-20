@@ -1,0 +1,37 @@
+As more and more professional work and personal enjoyment moves to online environments, and as more and more access to the Internet happens through mobile devices while people are on the move, it is important to be able to operate well with Internet connectivity that is poor or unreliable. This guide explores how to deal with poor Internet connectivity. It builds on top of the ideas in the guide on how to [[Efficiently Work Offline|efficiently work offline]].
+
+== Steps ==
+
+=== Understanding the Phenomena Underlying Poor Internet Connectivity ===
+
+# Understand the different ways that Internet connectivity can be poor.
+#* Low bandwidth: This usually means that downloads take a long time, because the amount of data that can be transferred per second is low
+#* High latency: This means that the time it takes for each round trip from the remote websites to your Internet device is high (usually, higher than for a good Internet connection by hundreds of milliseconds)
+#* High packet loss: This means that a lot of pieces of information get lost in transit between your Internet device and the remote websites
+#* Brief periods of very bad or no connectivity: This means that there are brief periods, ranging from a few seconds to a few minutes, when you are unable to connect to the Internet or when one of the above problems (low bandwidth, high latency, high packet loss) becomes much worse than normal. In some cases, these problems are self-correcting; in others, they may require a manual action such as disconnecting and reconnecting your device or router.
+# Understand the meaning of low bandwidth.
+#* Bandwidth refers to the amount of data that can be transferred per second for uploads and downloads. It is usually reported as a pair of numbers, one for the download speed and one for upload speed.
+#* A typical home broadband connection or 4G mobile Internet connection should offer download speeds in excess of 5 Mbps (which means in excess of around 600 KB/s) and upload speeds in excess of 2 Mbps (which means in excess of 250 KB/s).
+#* Most Internet use relies primarily on downloads, and most home broadband and 4G networks offer higher download than upload speeds. Uploads usuallyt become important when you are uploading a large file to the cloud or to a remote server. For mos use cases, such as visiting web pages or streaming video, download speed is the bottleneck, so we will focus on download speeds.
+#* However, it's important to keep in mind that in some cases, continuous large uploads can reduce download speeds and even cause downloads to time out.
+#* Rule of thumb 1: Download speeds of under 3 Mbps (or about 350 KB/s) will tend to feel frustratingly slow for purposes such as streaming high-definition video and browsing websites with images, flash, and videos. This will include sites like YouTube, Netflix, and a number of news sites that are extremely cluttered with slow-loading ads.
+#* Rule of thumb 2: Downloads speeds of under 1 Mbps (or about 125 KB/s) will tend to feel slow (but not frustratingly slow) for sites that have a decent number of images or dynamically loaded components. Generally, the non-dynamic components will load faster, but some dynamic components may take more time, giving the sense of a not-quite-complete site load. Examples include Gmail and Google Docs.
+#* Rule of thumb 3: Download speeds of under 250 Kbps (or about 30 KB/s) will tend to feel slow for text-heavy sites. Examples include GitHub and Wikipedia.
+#* You can measure the bandwidth of your Internet connection by running the speed test at speedtest.net<ref name=speedtest>[https://www.speedtest.net Speed Test]</ref> or any of its competing services. NOTE: It may not be a good idea to run a speed test if your data usage is metered, since you may incur a lot of data usage charges.
+# Understand the meaning of high latency.
+#* High latency means that the round trip time between your Internet device and the servers of the remote websites it is connecting to is high. The latency depends on the location of the server for the remote site as well as the quality of your Internet connection.
+#* A good proxy that approximates the part of latency that's due to your Internet connection is the ping metric in speed tests.<ref name=speedtest/> If this metric is under 50 ms, your Internet connection is generally good.
+#* The impact of latency on the loading of websites depends partly on the way the website loads resources. If there are many sequential steps of loading content dynamically from servers, even a slightly higher ping metric can translate to a significantly higher load time for the website.
+#* Symptoms of this on Chrome: Simple webpages like example.com will take a long time to load (note that if latency were low but we had limited bandwidth, pages such as example.com would load fast). You are also likely to see errors such as ERR_NAME_NOT_RESOLVED, DNS_PROBE_FINISHED_NXDOMAIN, ERR_EMPTY_RESPONSE, ERR_SSL_VERSION_INTERFERENCE, ERR_SSL_PROTOCOL_ERROR, or ERR_TIMED_OUT when attempting to load webpages.
+# Understand the meaning of high packet loss.
+#* If packet loss is high, this could cause some connections to fail randomly. You will see a number of errors in loading webpages, such as SSL version interference errors, DNS not found errors, and no response errors.
+#* Overall, this is similar to intermittent disconnection from the Internet, with the key difference being that it does not happen uniformly to everything. You may therefore see similar error codes as explained in the next point.
+# Understand the meaning of brief periods of very bad or no connectivity.
+#* This means that for brief periods ranging from a few seconds to a few minutes, websites fail to load, or take really long to load. This could be a mix of significantly reduced bandwidth and significantly increased latency.
+#* Other symptoms of this on Chrome: If the immediate upstream disconnects, this may show up as ERR_INTERNET_DISCONNECTED. Otherwise, you may see errors such as ERR_NAME_NOT_RESOLVED, DNS_PROBE_FINISHED_NXDOMAIN, ERR_EMPTY_RESPONSE, ERR_SSL_VERSION_INTERFERENCE, ERR_SSL_PROTOCOL_ERROR, or ERR_TIMED_OUT. While these errors have specific meanings, they are thrown for spurious reasons when the Internet connection is poor.
+# Understand the factors affecting Internet connectivity.
+#* One key factor is the quality of the connection to the immediate upstream. For home broadband, the immediate upstream is the router. For mobile devices, the immediate upstream is the cell tower that the phone is talking to.
+#* A second key factor is the quality of the connection of the upstream (your router or cell tower) to the rest of the Internet.
+#* A third key factor is how much other load exists on your upstream and how that varies over time. For instance, if there are a lot of devices on your home network, and many of them are engaging in heavy uploads or downloads, you may experience low bandwidth and high latency.
+#* The above two factors may also apply to more indirect upstream points. For instance, your router and other routers in the buildings near you may be connecting to a point in your ISP network through which all their traffic passes. The amount of bandwidth that can go through this point, compared with the load on this point, will affect how much bandwidth and latency you have.
+
