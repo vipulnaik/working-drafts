@@ -1,0 +1,37 @@
+As more and more professional work moves to online environments, being without good Internet connectivity can cause work plans to get stalled. This page goes over strategies to maximize work productivity while offline, and is useful for people whose work involves using the Internet, but who find themselves on flaky Internet connections, or without connectivity for parts of the day (such as while traveling).
+
+[[Category:Productivity]]
+
+== Steps ==
+
+=== Considering Alternatives ===
+#Upgrade to a smartphone and data plan that allow for [[Tether Cellphone Internet to a Laptop|tethering]], so you can create a hotspot with your smartphone and use that to access the Internet over your computer. Keep in mind the data and speed limitations of tethering.[[Image:Efficiently Work Offline Step 1.jpg|center]]
+#Check for wi-fi options provided by your transit agency, cafe, or other area where you work frequently, so you can [[Connect to a Wireless Internet Connection|connect to Wi-Fi Internet]]. Beware of security issues particularly if accessing stuff over non-secure sites. Consider [[Use a VPN|using a VPN]] if you have security concerns.[[Image:Efficiently Work Offline Step 2.jpg|center]]
+#Think about your distractions. If you're working offline because you have many distractions online, consider [[Block Websites|browser plugins that block distractions]].[[Image:Efficiently Work Offline Step 3.jpg|center]]
+
+=== Keeping Things on Your Local Drive ===
+#Keep as much stuff as possible on your local drive. Download relevant documents to the local hard drive on your machine. If using Google Docs, enable the work offline feature.<ref>https://support.google.com/docs/answer/2375012?hl=en</ref>[[Image:Efficiently Work Offline Step 4.jpg|center]]
+#Use your browser's "Work Offline" feature to access the cached version on your hard drive of pages you visited recently. You can increase the cache size to maximize the power of the feature. If "Work Offline" proves insufficient, explore plugins or extensions to your browser that automatically save all pages you visit.[[Image:Efficiently Work Offline Step 5.jpg|center]]
+#If your work involves listening to music or watching videos, get software to download the music or videos. [[Image:Efficiently Work Offline Step 6.jpg|center]]
+
+=== Being Up to Date ===
+#Be up-to-date prior to going offline. If using Dropbox or Google Docs, make sure you're synced up on all the material you intend to work on before you go offline. Similarly, if working on a code repository using Git or something similar, make sure to pull in changes from the remote branch so you are working with up-to-date code.[[Image:Efficiently Work Offline Step 7.jpg|center]]
+#If you intend to browse particular webpages, open them all up in browser tabs prior to your departure. Unless your computer has memory or processing power limitations, it's better to open more pages than the ones you are absolutely sure you'll need. A typical laptop with 8GB of RAM can handle 50+ tabs open in Chrome just fine.[[Image:Efficiently Work Offline Step 8.jpg|center]]
+#If you intend to watch videos, load up the video page and let the video buffer up completely on your local drive. YouTube allows you to continue watching videos offline if the video is buffered completely, as long as you don't close the tab or navigate away from the video page in the tab.[[Image:Efficiently Work Offline Step 9.jpg|center]]
+#If your offline work involves editing a Google Doc, WordPress blog post, Wikipedia page, or something similar, open the editing area prior to going offline. WordPress and most CMSs allow you to continue editing offline as long as you keep that tab open and don't navigate away. You can also open the editing areas of other documents or pages that you might want to copy/paste from.[[Image:Efficiently Work Offline Step 10.jpg|center]]
+#If you want to develop web applications that work offline and automatically synchronize data when connectivity is restored, use the Meteor.js framework[[Image:Efficiently Work Offline Step 11.jpg|center]]
+
+=== While Working Offline ===
+#If you have a smartphone with online access, use that to check any quick facts that you need.[[Image:Efficiently Work Offline Step 12.jpg|center]]
+#Don't sweat out every detail of your work, particularly details that require you to be online. Just mark those as things you need to check when you get back online. If there are many such things, pick up another piece of work.[[Image:Efficiently Work Offline Step 13.jpg|center]]
+#Avoid working offline in cases where the situation is evolving rapidly. Or at any rate, if doing so, be prepared to have to discard much of your work once you get back online. Examples are reports on evolving news events, and work on documents where others are also making changes to the same document.[[Image:Efficiently Work Offline Step 14.jpg|center]]
+
+=== When You Get Back Online ===
+#Make sure you have local copies of whatever you were working on. Do this if you are afraid that the syncing process might mess it up.[[Image:Efficiently Work Offline Step 15.jpg|center]]
+#Fill in any details that you had marked as things to check when you get back offline.[[Image:Efficiently Work Offline Step 16.jpg|center]]
+#Sync up your offline work. For some things (like Google Docs and Dropbox) this can be automatic, whereas for others, it requires a manual syncing step.[[Image:Efficiently Work Offline Step 17.jpg|center]]
+
+== References ==
+{{reflist}}
+
+__PARTS__
