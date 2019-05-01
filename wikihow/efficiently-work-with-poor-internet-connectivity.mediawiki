@@ -57,7 +57,7 @@ As more and more professional work and personal enjoyment moves to online enviro
 # Consider the use of ad blockers.
 #* If the websites you tend to visit are ad-heavy, then using ad blockers might save on a lot of bandwidth and latency. Use ana ad blocker such as uBlock Origin or Adblock Plus. You can configure exceptions, and you can also choose whether to only block showing ads or also block sending data to analytics tools. You'll get most of the benefit from simply blocking showing ads, but can save even more on network costs by blocking all analytics tools.
 #* If you don't want to use a full-fledged ad blocker, consider using a video adblocker such as Video Adblocker.<ref>[https://chrome.google.com/webstore/detail/video-adblocker/imjnhcoogkbmemieaehgnopdleejnmll/related?hl=en-US Video Adblocker], Chrome Web Store. Retrieved May 1, 2019</ref> Video ads tend to be the most bandwidth-intensive, so blocking these out will give you good bang for the buck.
-#* If you don't want to install an ad blocker, consider using Chrome's ad settings at {{nowiki|chrome://settings/content/ads}} where you can block ads from specific websites. Chrome's default is to block ads on sites that it deems as showing intrusive and misleading ads.
+#* If you don't want to install an ad blocker, consider using Chrome's ad settings at <nowiki>chrome://settings/content/ads</nowiki> where you can block ads from specific websites. Chrome's default is to block ads on sites that it deems as showing intrusive and misleading ads.
 #* You can also try the ''Send a "Do Not Track" request with your browsing traffic'' option in Chrome settings, or equivalent settings in other browsers, to reduce overhead of third-party tracking.
 # Consider turning off extensions that send additional data to third parties on each site visit.
 #* Examples include Alexa and SimilarWeb extensions.
@@ -67,7 +67,7 @@ As more and more professional work and personal enjoyment moves to online enviro
 #* If you do a decent amount of web browsing, the default cache size of most web browsers is too small.
 #* Unfortunately, for Chrome, you cannot increase cache size using any settings available within Chrome. Rather, you have to pass in a startup parameter. Details are available for Windows<ref>[https://www.thewindowsclub.com/change-chrome-cache-size-performance How to change Google Chrome’s Cache Size for better performance on Windows 10], The Windows Club. Retrieved May 1, 2019</ref> and Mac OS X.<ref>[https://superuser.com/questions/602924/change-google-chrome-cache-size-on-os-x Change Google Chrome cache size on OS X], Stack Overflow. Retrieved May 1, 2019</ref>
 # Tweak your automatic downloads settings.
-#* In Chrome, you can access these settings at {{nowiki|chrome://settings/content/automaticDownloads?search=cache}}
+#* In Chrome, you can access these settings at <nowiki>chrome://settings/content/automaticDownloads</nowiki>
 
 === Minimizing Resource Reload ===
 
