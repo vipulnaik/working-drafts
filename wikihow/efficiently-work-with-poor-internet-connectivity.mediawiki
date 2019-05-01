@@ -22,16 +22,65 @@ As more and more professional work and personal enjoyment moves to online enviro
 #* High latency means that the round trip time between your Internet device and the servers of the remote websites it is connecting to is high. The latency depends on the location of the server for the remote site as well as the quality of your Internet connection.
 #* A good proxy that approximates the part of latency that's due to your Internet connection is the ping metric in speed tests.<ref name=speedtest/> If this metric is under 50 ms, your Internet connection is generally good.
 #* The impact of latency on the loading of websites depends partly on the way the website loads resources. If there are many sequential steps of loading content dynamically from servers, even a slightly higher ping metric can translate to a significantly higher load time for the website.
-#* Symptoms of this on Chrome: Simple webpages like example.com will take a long time to load (note that if latency were low but we had limited bandwidth, pages such as example.com would load fast). You are also likely to see errors such as ERR_NAME_NOT_RESOLVED, DNS_PROBE_FINISHED_NXDOMAIN, ERR_EMPTY_RESPONSE, ERR_SSL_VERSION_INTERFERENCE, ERR_SSL_PROTOCOL_ERROR, or ERR_TIMED_OUT when attempting to load webpages.
+#* Symptoms of this on Chrome: Simple webpages like example.com will take a long time to load (note that if latency were low but we had limited bandwidth, pages such as example.com would load fast). You are also likely to see errors such as ERR_NAME_NOT_RESOLVED, DNS_PROBE_FINISHED_NXDOMAIN, ERR_EMPTY_RESPONSE, ERR_SSL_VERSION_INTERFERENCE, ERR_SSL_PROTOCOL_ERROR, ERR_CONNECTION_CLOSED, or ERR_TIMED_OUT when attempting to load webpages.
 # Understand the meaning of high packet loss.
 #* If packet loss is high, this could cause some connections to fail randomly. You will see a number of errors in loading webpages, such as SSL version interference errors, DNS not found errors, and no response errors.
 #* Overall, this is similar to intermittent disconnection from the Internet, with the key difference being that it does not happen uniformly to everything. You may therefore see similar error codes as explained in the next point.
 # Understand the meaning of brief periods of very bad or no connectivity.
 #* This means that for brief periods ranging from a few seconds to a few minutes, websites fail to load, or take really long to load. This could be a mix of significantly reduced bandwidth and significantly increased latency.
-#* Other symptoms of this on Chrome: If the immediate upstream disconnects, this may show up as ERR_INTERNET_DISCONNECTED. Otherwise, you may see errors such as ERR_NAME_NOT_RESOLVED, DNS_PROBE_FINISHED_NXDOMAIN, ERR_EMPTY_RESPONSE, ERR_SSL_VERSION_INTERFERENCE, ERR_SSL_PROTOCOL_ERROR, or ERR_TIMED_OUT. While these errors have specific meanings, they are thrown for spurious reasons when the Internet connection is poor.
+#* Other symptoms of this on Chrome: If the immediate upstream disconnects, this may show up as ERR_INTERNET_DISCONNECTED. Otherwise, you may see errors such as ERR_NAME_NOT_RESOLVED, DNS_PROBE_FINISHED_NXDOMAIN, ERR_EMPTY_RESPONSE, ERR_SSL_VERSION_INTERFERENCE, ERR_SSL_PROTOCOL_ERROR, ERR_CONNECTION_CLOSED, or ERR_TIMED_OUT. While these errors have specific meanings, they are thrown for spurious reasons when the Internet connection is poor.
 # Understand the factors affecting Internet connectivity.
 #* One key factor is the quality of the connection to the immediate upstream. For home broadband, the immediate upstream is the router. For mobile devices, the immediate upstream is the cell tower that the phone is talking to. The quality of the connection can depend on various factors such as geographical distance, physical obstacles, and channel interference.
 #* A second key factor is the quality of the connection of the upstream (your router or cell tower) to the rest of the Internet.
 #* A third key factor is how much other load exists on your upstream and how that varies over time. For instance, if there are a lot of devices on your home network, and many of them are engaging in heavy uploads or downloads, you may experience low bandwidth and high latency.
 #* The above two factors may also apply to more indirect upstream points. For instance, your router and other routers in the buildings near you may be connecting to a point in your ISP network through which all their traffic passes. The amount of bandwidth that can go through this point, compared with the load on this point, will affect how much bandwidth and latency you have. In particular, for instance, the hours of 7 PM to 9 PM (in some cases, even further out to 11 PM) are called Internet rush hour because the bandwidth load on ISPs providing Internet to homes is much higher than during the rest of the day.
 
+=== Being Up to Date ===
+
+#Be up-to-date prior to going offline. If using Dropbox or Google Docs, make sure you're synced up on all the material you intend to work on before you go offline. Similarly, if working on a code repository using Git or something similar, make sure to pull in changes from the remote branch so you are working with up-to-date code.
+#If you intend to browse particular webpages, open them all up in browser tabs prior to your departure. Unless your computer has memory or processing power limitations, it's better to open more pages than the ones you are absolutely sure you'll need. A typical laptop with 8GB of RAM can handle 50+ tabs open in Chrome just fine.
+#If you intend to watch videos, load up the video page and let the video buffer up completely on your local drive. YouTube allows you to continue watching videos offline if the video is buffered completely, as long as you don't close the tab or navigate away from the video page in the tab.
+#* You might find it useful to turn off Autoplay on YouTube, so that it doesn't try navigating to the next video after the video completes playing.
+#If your offline work involves editing a Google Doc, WordPress blog post, Wikipedia page, or something similar, open the editing area prior to going offline. WordPress and most CMSs allow you to continue editing offline as long as you keep that tab open and don't navigate away. You can also open the editing areas of other documents or pages that you might want to copy/paste from.
+#If you want to develop web applications that work offline and automatically synchronize data when connectivity is restored, use the Meteor.js framework.
+
+=== Using Network-Conserving Settings ===
+
+# If using a mobile device, use data-saving settings on it to reduce the amount of data it communicates in the background.
+#* Mobile devices have a Data Saver mode available from their data usage settings.
+#* Individual apps within the mobile device may also have settings to minimize background downloads and use lower bandwidth and less frequent syncing. These settings will apply over and above the settings on your device. For instance, Facebook has a Data Saver mode, and also an option to turn Data Saver mode off when on wi-fi connections.
+#* For some apps that have autoplaying video when you scroll to it in the feed, you may want to turn off the autoplay feature for videos. Similarly, for apps like YouTube that autoplay the next video after completing the existing one, you may want to turn off that autoplay feature.
+# If you use video websites frequently on poor connections, configure them to use less bandwidth.
+#* Most modern video websites use HTML5 with adaptive bitrate streaming, so they will automatically stream at a lower bandwidth if your connection quality is poor. This system works quite well compared to the earlier method of non-adaptive streaming, and you may find it is good enough for you. However, in practice these settings may not be conservative enough, because the adaptive determination of bandwidth is a somewhat hit-and-miss process and can be fooled by short bursts of good connectivity.
+#* Netflix allows you to control both your general data usage and your data usage when on mobile cellular connections.<ref>[https://help.netflix.com/en/node/87 How can I control how much data Netflix uses?], Netflix. Retrieved May 1, 2019</ref>
+#* Similar settings are available in other video streaming sites. For instance, Viki allows for a control on the maximum video quality, though the quality in a given case may be lower than that based both on screen size and bandwidth (via adaptive bitrate streaming).<ref>[https://support.viki.com/hc/en-us/articles/360014619693-How-do-I-control-how-much-data-Viki-uses- How do I control how much data Viki uses?], Joshua, Viki. Retrieved May 1, 2019</ref>
+# Consider the use of ad blockers.
+#* If the websites you tend to visit are ad-heavy, then using ad blockers might save on a lot of bandwidth and latency. Use ana ad blocker such as uBlock Origin or Adblock Plus. You can configure exceptions, and you can also choose whether to only block showing ads or also block sending data to analytics tools. You'll get most of the benefit from simply blocking showing ads, but can save even more on network costs by blocking all analytics tools.
+#* If you don't want to use a full-fledged ad blocker, consider using a video adblocker such as Video Adblocker.<ref>[https://chrome.google.com/webstore/detail/video-adblocker/imjnhcoogkbmemieaehgnopdleejnmll/related?hl=en-US Video Adblocker], Chrome Web Store. Retrieved May 1, 2019</ref> Video ads tend to be the most bandwidth-intensive, so blocking these out will give you good bang for the buck.
+#* If you don't want to install an ad blocker, consider using Chrome's ad settings at {{nowiki|chrome://settings/content/ads}} where you can block ads from specific websites. Chrome's default is to block ads on sites that it deems as showing intrusive and misleading ads.
+#* You can also try the ''Send a "Do Not Track" request with your browsing traffic'' option in Chrome settings, or equivalent settings in other browsers, to reduce overhead of third-party tracking.
+# Consider turning off extensions that send additional data to third parties on each site visit.
+#* Examples include Alexa and SimilarWeb extensions.
+# Consider disabling JavaScript on sites that have a lot of unnecessary dynamic reloading.
+#* In Chrome, you can control these settings at <nowiki>chrome://settings/content/javascript</nowiki>.
+# Increase your cache size.
+#* If you do a decent amount of web browsing, the default cache size of most web browsers is too small.
+#* Unfortunately, for Chrome, you cannot increase cache size using any settings available within Chrome. Rather, you have to pass in a startup parameter. Details are available for Windows<ref>[https://www.thewindowsclub.com/change-chrome-cache-size-performance How to change Google Chrome’s Cache Size for better performance on Windows 10], The Windows Club. Retrieved May 1, 2019</ref> and Mac OS X.<ref>[https://superuser.com/questions/602924/change-google-chrome-cache-size-on-os-x Change Google Chrome cache size on OS X], Stack Overflow. Retrieved May 1, 2019</ref>
+# Tweak your automatic downloads settings.
+#* In Chrome, you can access these settings at {{nowiki|chrome://settings/content/automaticDownloads?search=cache}}
+
+=== Minimizing Resource Reload ===
+
+# Prefer switching to an already loaded browser tab rather than loading the page again.
+#* When you start typing words from the title and url into the address bar, browsers such as Chrome and Firefox (on desktop) give you the option to switching to the existing tab, if it exists. Use this option. On mobile browsers, you'll need to manually go through your existing tabs to identify the relevant one.
+#* This works well for pages that we don't expect to change much over time, so that the old tab for the page should still have accurate information. It also works for pages that we do expect to keep changing over time if the updates are dynamically reflected in the already open tab.
+# If you do need to load a new version of a page already opened in a tab, do so conservatively.
+#* Some websites offer you the ability to dynamically reload specific pieces of the page without reloading the whole page. If the site of interest to you does this, consider using that capability. That way, the amount of resources you're loading over the network is smaller than a full page.
+#* Otherwise, it's better to load the new version of the page in a new tab, and close the existing tab only after verifying that the new tab loaded up successfully.
+# Maximize the use of cache
+#* If you have Chrome Devtools open for the tab, make sure that the Disable Cache box is not checked (if Devtools is not open, then it should attempt to load from cache)
+#* If reloading a page, use Ctrl+R (on Windows) or Cmd+R (on Mac) rather than Ctrl+Shift+R (on Windows) or Cmd+Shift+R (on Mac). Including the Shift in your command will bypass cache and try to load all resources remotely, which can use more network and slow down the page load.
+
+== References ==
+
+{{reflist}}
