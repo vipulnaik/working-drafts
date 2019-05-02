@@ -27,7 +27,7 @@ As more and more professional work and personal enjoyment moves to online enviro
 #* Rule of thumb 2: Ping metrics under 2 seconds are usually fast enough to make web browsing tolerable, though sites with lots of images may take a while for all the images to load. This is also roughly the experience of "Slow 3G" network condition emulation in Chrome.<ref name=slow-3g/>
 #* Rule of thumb 3: Ping metrics under 15 seconds are usually good enough to make it possible to use text-heavy sites for reference, but require patience to use and do not make for a good interactive experience.
 #* One situation where you might see high latency while having an otherwise stable connection and reasonably good bandwidth is if you are using satellite Internet.<ref>[https://www.exede.com/blog/satellite-internet-latency-whats-big-deal/ Satellite internet latency: What’s the big deal?]. Alex Miller. Retrieved September 6, 2017</ref> In this case, the high latency is literally because of the huge distance that the signal needs to travel.
-#* One way to check if your Internet connection effectively has a problem of high latency is to load the domain <nowiki>http://www.example.com</nowiki> (if you've visited the page before, make sure to disable cache when reloading it). The page is just 1.2 KB in size, so the time between getting the first byte and the download completing will usually be under a second. Almost all the time is spent in the round trip.
+#* One way to check if your Internet connection effectively has a problem of high latency (as opposed to only a problem of low bandwidth) is to load the domain <nowiki>http://www.example.com</nowiki> (if you've visited the page before, make sure to disable cache when reloading it). The page is just 1.2 KB in size, so the time between getting the first byte and the download completing will usually be under a second. Almost all the time is spent in the round trip.
 #* One way to distinguish high latency from the other problems (packet loss and temporary loss of connectivity) is to see if there is a reasonably constant lag between making a request and getting the response.
 #* To check the impact of latency on the load of a particular webpage, keep Chrome Devtools open before loading the page, and check for the TTFB metric in the Timing section for each network call.
 # Understand the meaning of high packet loss.
@@ -86,15 +86,30 @@ As more and more professional work and personal enjoyment moves to online enviro
 # If you do need to load a new version of a page already opened in a tab, do so conservatively.
 #* Some websites offer you the ability to dynamically reload specific pieces of the page without reloading the whole page. If the site of interest to you does this, consider using that capability. That way, the amount of resources you're loading over the network is smaller than a full page.
 #* Otherwise, it's better to load the new version of the page in a new tab, and close the existing tab only after verifying that the new tab loaded up successfully.
+# In general, try to load new pages in new tabs.
+#* This conserves the existing tabs, which might be harder to reload because of your poor connectivity.
+#* When opening links from existing pages, right-click and open in new tab.
+#* When typing in a url, use Ctrl+T (Windows) or Cmd+T (Mac) or the new tab option on your phone browser to open a new tab, then type the url there.
 # Maximize the use of cache
 #* If you have Chrome Devtools open for the tab, make sure that the Disable Cache box is not checked (if Devtools is not open, then it should attempt to load from cache)
 #* If reloading a page, use Ctrl+R (on Windows) or Cmd+R (on Mac) rather than Ctrl+Shift+R (on Windows) or Cmd+Shift+R (on Mac). Including the Shift in your command will bypass cache and try to load all resources remotely, which can use more network and slow down the page load.
-# Make sure to refuse any suggested downloads and software upgrades from your operating system or other softwares.
+# Use bookmarks as well as the techniques discussed in [[Navigate to Web Pages Efficiently Without Using Navigation Menus]] to get more quickly to the page you finallty want to get to.
+#* This will cut down on unnecessary intermediate page loads. For instance, you ight otherwise get to a Wikipedia page by first doing a Google Search, then clicking from the search results, or by first going to the Wikipedia homepage, then using the search bar. However, with the advanced techniques, you may be able to get to your desired destination page directly, without intermediate page loads.
+#* On poor connections, the savings from this more efficient navigation can be significant.
 
-=== Avoiding Bandwidth Hogs ===
+=== Avoiding Bandwidth Hogs and Monitoring Results ===
 
 # Use network throttling or go offline on tabs loading less important content.
-#* 
+#* If there's a tab that seems to be continuously reloading resources, or loading videos, but you don't want to close it, open Chrome Devtools on the tab, go to the Network panel, and check the box to go Offline. Network activity from the tab will stop.
+#* In some cases, you may want a tab to continue being online, but avoid it hogging too much bandwidth. For instance, this might be the case for videos playing in the tab that are hogging too much bandwidth, and that are not adapting to sufficiently low resolutions. You can use the network throttling options in Chrome Devtools. The default options are "Slow 3G" and "Fast 3G" but you can create custom throttling profiles with lower bandwidths allocated to them.
+# Make sure to refuse any suggested downloads and software upgrades from your operating system or other softwares.
+#* If a large download started accidentally, make sure to pause it (if allowed) or otherwise cancel it.
+# Examine your network usage settings to identify what might be using up your bandwidth, and identify any unnecessary processes currently using bandwidth.
+#* On Windows, you can get this data from the Windows Task Manager.<ref>[https://www.windowscentral.com/how-monitor-network-usage-your-windows-10-devices How to monitor network usage on Windows 10. When you have a limited data plan, it's a good idea to monitor your network usage to prevent going over your data cap, and in this Windows 10 guide, we'll show you how.] Windows Central. Retrieved May 2, 2019</ref>
+#* On Mac OS, you can get this data via the Network section of the Activity Monitor.<ref>[https://support.apple.com/en-us/HT201464 How to use Activity Monitor on your Mac]. Apple Support. Retrieved May 2, 2019</ref><ref>[https://www.makeuseof.com/tag/activity-monitor-mac-equivalent-ctrlaltdelete/ What Is Activity Monitor? The Mac Equivalent of Task Manager], Rahul Saigal, April 15, 2019. Retrieved May 2, 2019</ref>
+#* In peacetime, if you are not actively downloading or uploading resources, your bandwidth use should be between 1 KB/s and 5 KB/s for both upload and download. If you completely close Chrome and other tools such as Slack or Skype, it should fall to under 1 KB/s for both download and upload. NOTE: The estimates here are purely for benchmarking purposes. It is not recommended that you close these applications, unless you are quite sure you won't need to use them through your period of poor connectivity. That's because the startup of these applications, and the reopening of existing tabs on Chrome, can be heavy on bandwidth.
+#* You can examine the effect of various changes you make (such as closing tabs or taking them offline) on the network activity.
+
 == References ==
 
 {{reflist}}
