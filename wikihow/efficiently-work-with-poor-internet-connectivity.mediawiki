@@ -139,7 +139,8 @@ Lessons in Lie-Fi]. Ricardo Ferreira. Retrieved May 3, 2019</ref> Also, note tha
 #* When you get to a region of good connectivity, carry out all the actions (such as loading webpages, downloading resources, uploading resources) that need the good connectivity.
 #* You can apply a similar principle within a home or work area, if your main station has poor connectivity, but there are other nearby areas that have good connectivity. You can bunch up your work that needs good connectivity, then temporarily go to the other area with good connectivity to execute on those.
 # Try to do bandwidth-heavy pieces of work during low-traffic times of day.
-#* For home Internet, generally speaking, 
+#* For home Internet, generally speaking, traffic is highest and bandwidth may be lowest during the evening "Internet rush hour" which is generally the hours of 7 PM to 9 PM (though in some places can extend to 11 PM). This is due to people using that time to stream videos such as movies and TV shows. Traffic is generally low at night and in the early morning.
+#* Thus, if you have flexibility, you should carry out bandwidth-intensive work such as downloads, uploads, and watching streaming movies in the late night or early morning.
 
 == References ==
 
