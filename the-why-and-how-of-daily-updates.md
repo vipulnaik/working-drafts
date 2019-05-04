@@ -44,6 +44,25 @@ two other kinds of approaches:
   [to](https://blog.standuply.com/stand-up-meetings-are-soon-dead-e74118f788f4)
   [agree](http://blog.idonethis.com/daria-developer-hates-standup/).
 
+A dilemma that sometimes comes up is that some subset of one's daily
+tasks need to be kept private, and therefore cannot be explicitly
+included in a broadly visible daily checklist. I've encountered this
+sort of situation both in my work checklists and non-work checklists.
+
+For these kinds of situations, I've generally found it good enough to
+include stand-in checklist items that may not accurately describe
+exactly what the underlying task is, but frame it in a way that, *when
+I read it, I know what it is*. For instance, a confidential meeting
+may be written up as "meeting to brainstorm ideas" or something
+similar, which is vaguely true and good enough to keep track of
+things.
+
+If most of the items in the checklist need to be highly confidential,
+though, broadly visible checklists may not make sense. It may
+therefore be better to restrict the visibility of the checklist to
+just yourself and one or two other people who collaborate closely with
+you.
+
 ## The benefits of daily granularity
 
 Checklists can be made at different granularies: hourly, daily,
