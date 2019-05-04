@@ -15,6 +15,8 @@
 |-
 | 1996 || || Launch || Job portal/search engine || Academia || HigherEdJobs.com is launched as a job portal for higher education (college/university) jobs.<ref>{{cite web|url = https://www.higheredjobs.com/company/about.cfm|title = About HigherEdJobs|accessdate = May 9, 2017}}</ref> It would become a leading general-purpose academic jobs portal.<ref>{{cite web|url = http://bfc.sfsu.edu/cgi-bin/hsu.pl?Math_Education_Job_Search_Resources|title = Math Education Job Search Resources|accessdate = May 9, 2017}}</ref><ref>{{Cite web|url = https://www.phdproject.org/resources/job-sites/|title = Job Sites|publisher = The Ph.D. Project|accessdate = May 9, 2017}}</ref>
 |-
+| 1996 || September 12 || Launch || Job portal/search engine || Government jobs || {{w|USAJobs}}, a job portal by the United States government that allows for searching for open jobs across federal government agencies, launches.<ref>{{cite web |url=https://www.opm.gov/news/releases/2016/09/usajobs-updates-celebrate-20th-anniversary-milestone/ | title=USAJOBS Updates Celebrate 20th Anniversary Milestone |work= United States Office of Personnel Management |date= 2016-09-12 |accessdate=2018-02-10}}</ref>
+|-
 | 1997 || || Launch || Job portal/search engine || Architecture || Archinect, a website for architects, that incudes a job board, launches.<ref>{{cite web|url = http://archinect.com/about|title = Archinect: About|publisher = Archinect|accessdate = May 9, 2017}}</ref>
 |-
 | 1997 || March || Launch || Job portal/search engine || || [[wikipedia:Naukri.com|Naukri.com]], an online Indian job portal, launches in [[wikipedia:Noida|Noida]], [[wikipedia:India|India]].<ref name="NicolopoulouKarata--Ozkan2011">{{cite book|author1=Katerina Nicolopoulou|author2=Mine Karata--Ozkan|author3=Ahu Tatli|title=Global Knowledge Work: Diversity and Relational Perspectives|url=https://books.google.com/books?id=h64WwkRyrEAC&pg=PA122|accessdate=29 July 2016|year=2011|publisher=Edward Elgar Publishing|isbn=978-0-85793-635-6|pages=122–}}</ref>
@@ -41,9 +43,19 @@
 |-
 | 2009 (?) || || Launch || Job advertising || Information technology || Stack Overflow starts showing job ads tailored to applicant's interests. (uses Adzerk?).
 |-
+| 2009 || || Launch || Contract work matching || || {{w|Freelancer.com}}, a global crowdsourcing marketplace website, which allows potential employers to post jobs that freelancers can then bid to complete, launches.
+|-
+| 2009 || November 20 || Job portal/search engine || Government jobs || The first Wayback Machine snapshot of sarkariexam.com, a website that provides information on Indian government jobs, is from this date.<ref>{{cite web|url = http://web.archive.org/web/20091120185824/http://www.sarkariexam.com/|title = Sarkari Exam|date = November 20, 2009|accessdate = May 4, 2019}}</ref>
+|-
 | 2010 || || Launch || Job portal/search engine || || Jobs2Careers, a service that bills itself as a "programmatic marketplace to find talent", launches.<ref>{{cite web|url = http://www.jobs2careers.com/about-us/|title = About Us|publisher = Jobs2Careers|accessdate = May 9, 2017}}</ref>
 |-
+| 2010 || || Launch || Job advertising, job portal/search engine || || ZipRecruiter launches as a tool to help small businesses distribute job postings affordably.<ref>{{cite web|url = https://www.ziprecruiter.com/about|title = About Us|publisher = ZipRecruiter|accessdate = May 4, 2019}}</ref>
+|-
 | 2011 || February || Launch || Job matching || || [[wikipedia:Bright.com|Bright.com]], a company and eponymous website that uses a computer algorithm to determine a potential employee's fitness for an advertised position, launches.<ref name="BS">{{cite web | url=http://buzzsparks.org/bright-media-corporation | title=Bright Media Corporation | publisher=''BuzzSparks'' | accessdate=February 14, 2013}}</ref><ref name="PD">{{cite web |url=http://pandodaily.com/2012/12/05/job-application-hack-bright-turns-recruiters-resume-tools-against-them/ | title=Job application hack: Bright turns recruiters’ resume tools against them | publisher=''[[PandoDaily]]'' | date=December 5, 2012 | accessdate=February 14, 2013 | author=Michael Carney}}</ref><ref name="CB">{{cite web | url=http://www.crunchbase.com/company/bright-media-corporation |title=Bright Media Corporation | publisher=''[[CrunchBase]]'' | accessdate=February 14, 2013}}</ref>
+|-
+| 2011{{snd}}2012 || || Launch || Job portal/search engine || Philosophy || The PhilPapers Foundation launches PhilJobs, a job portal for philosophers at any level of training. PhilJobs would later merge with ''Jobs for Philosophers'', a long-standing publication of the American Philosophers Association, to form PhilJobs:JFP.<ref>{{cite web|url = https://philjobs.org/job/about|title = PhilJobs:Jobs for Philosophers|accessdate = May 4, 2019}}</ref>
+|-
+| 2012 || || Launch || Job portal/search engine || || The first Wayback Machine snapshot of the 80,000 Hours High Impact Job Board is from this day.<ref>{{cite web|url = http://web.archive.org/web/20120325164007/https://80000hours.org/job-board/|title = High Impact Job Board|publisher = 80,000 Hours|date = March 25, 2012|accessdate = May 4, 2019}}</ref> It appears that the job board gets taken down some time between late 2012 and 2014, and the next snapshot of it after 2012 is from May 13, 2017, with a new design.<ref>{{cite web|url = http://web.archive.org/web/20170513070410/https://80000hours.org/job-board/|title = The most exciting jobs we know about|publisher = 80,000 Hours|date = May 13, 2017|accessdate = May 4, 2019}}</ref>
 |-
 | 2012 || April/May || Launch || Job matching || Information technology || Hired.com, a job matching site focused on the information technology industry, launches with the name ''Developer Auction''.<ref>{{cite web|url = http://www.telegraphresearch.com/hired/|title = Analysis of Hired - The Marketplace Where Tech Companies Compete to Hire You|last = Thomas|first = Philip I.|last2 = Hess|first2 = Andrew|date = February 19, 2014|accessdate = May 9, 2017}}</ref> The platform allows job-seekers as well as companies to create profiles, and hides a job-seeker's profile from his or her own company, so that people who already have jobs can seek new ones. It offers a 1% annual salary per month payment plan, to allow young, cash-strapped startups to hire and to better align its own incentives with those of employers.<ref>{{cite web|url = https://www.forbes.com/sites/jjcolao/2013/10/30/hired-com-has-built-what-every-tech-company-wants-a-pipeline-of-top-technical-talent/#68632375176d|title = Hired.com Has Built What Every Tech Company Wants: A Pipeline Of Top Talent|last = Colao|first = J. J.|date = October 30, 2013|accessdate = May 9, 2017|publisher = ''[[wikipedia:Forbes|Forbes]]''}}</ref>
 |-
@@ -74,9 +86,19 @@
 | 2017 || July 18 || New product || Job applicant tracking tool || Companies hiring workers || Google announces the launch of Hire as part of its G Suite for companies. The tool helps companies keep track of applicants in the hiring process.<ref>{{cite web|url = https://www.blog.google/products/g-suite/google-introduces-hire-new-recruiting-app-integrates-g-suite/|title = Google introduces Hire, a new recruiting app that integrates with G Suite|last = Johnson|first = Berit|date = July 18, 2017|accessdate = July 18, 2017|publisher = Google}}</ref><ref>{{cite web|url = https://techcrunch.com/2017/07/18/google-launches-hire-a-new-service-for-helping-businesses-recruit/|title = Google launches Hire, a new service for helping businesses recruit|last = Lardinois|first = Frederic|date = July 18, 2017|accessdate = July 18, 2017|publisher = ''TechCrunch''}}</ref>
 |}
 
+==Meta information on the timeline==
+
+===How the timeline was built===
+
+The timeline was written by [[User:Vipul|Vipul Naik]].
+
+===What the timeline is still missing===
+
+* A lot of the websites listed in https://www.similarweb.com/top-websites/category/career-and-education/jobs-and-employment are still not covered in the timeline.
+
 == See also ==
 
-* [[wikipedia:Timeline of LinkedIn|Timeline of LinkedIn]] (LinkedIn is the world's most widely used professional social network, and an important tool for job-seekers and recruiters)
+* [[Timeline of LinkedIn]] (LinkedIn is the world's most widely used professional social network, and an important tool for job-seekers and recruiters)
 
 == References ==
 
