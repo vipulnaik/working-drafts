@@ -21,7 +21,8 @@ In this post, I'll talk briefly about the following:
 I'm using the term "broadly visible" instead of public, because in
 some cases (such as companies) daily updates of employees refer to a
 lot of confidential company information, and therefore can only be
-visible within the company.
+visible within the company. In this context, "broadly visible" would
+mean visible within the company.
 
 The emphasis on "broadly visible written document" is to contrast with
 two other kinds of approaches:
