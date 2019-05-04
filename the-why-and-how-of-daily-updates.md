@@ -11,12 +11,12 @@ projects or tasks beyond daily personal maintenance.
 
 In this post, I'll talk briefly about the following:
 
-* The benefits of a broadly visible written document
-* The benefits of daily granularity
+* The benefits of a broadly visible written document for a personal checklist
+* The benefits of daily granularity for a personal checklist
 * The benefits of using GitHub issues to record daily updates
 * Some protocol questions I don't have clear answers to
 
-## The benefits of a broadly visible written document
+## The benefits of a broadly visible written document for a personal checklist
 
 I'm using the term "broadly visible" instead of public, because in
 some cases (such as companies) daily updates of employees refer to a
