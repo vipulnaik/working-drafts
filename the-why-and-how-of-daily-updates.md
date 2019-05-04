@@ -71,7 +71,7 @@ reasons:
   in practice at a daily granularity. Project management tools can be
   quite complex, and while they may be better at overall task
   tracking, they may not be that good at getting a sense of "how much
-  work of what kind can be done within a day?:
+  work of what kind can be done within a day?"
 
 ## The benefits of using GitHub issues to record daily updates
 
@@ -106,7 +106,8 @@ My approach is to just add it to the list.
 If it's particularly important to know what fraction of work is
 pre-planned versus spontaneous, the stuff added later can be put in a
 separate section for spontaneous tasks. I've tried this in the past,
-back when getting that sense was important to me. However, I nowadays
+back when getting a sense of the level of pre-planned versus
+spontaneous in the task mix was important to me. However, I nowadays
 organize my checklist by topic instead.
 
 ### Should boxes be checked if the whole task as intended wasn't completed, but part of it was?
@@ -120,5 +121,5 @@ I think that as an organizational requirement, there should be only a
 requirement to create the checklist (open the issue) early in the day,
 and close it either at end of day or early in the next day. People who
 want to update the checklist more frequently are welcome to, but there
-is no requirement. For some organizations, there may be a requirement
-for more real-time up-to-dateness.
+is no requirement. For some organizations, there may be good reasons
+to impose a requirement for more real-time up-to-dateness.
