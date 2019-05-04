@@ -97,7 +97,7 @@ Lessons in Lie-Fi]. Ricardo Ferreira. Retrieved May 3, 2019</ref> Also, note tha
 #* If you have Chrome Devtools open for the tab, make sure that the Disable Cache box is not checked (if Devtools is not open, then it should attempt to load from cache)
 #* If reloading a page, use Ctrl+R (on Windows) or Cmd+R (on Mac) rather than Ctrl+Shift+R (on Windows) or Cmd+Shift+R (on Mac). Including the Shift in your command will bypass cache and try to load all resources remotely, which can use more network and slow down the page load.
 # Use bookmarks as well as the techniques discussed in [[Navigate to Web Pages Efficiently Without Using Navigation Menus]] to get more quickly to the page you finallty want to get to.
-#* This will cut down on unnecessary intermediate page loads. For instance, you ight otherwise get to a Wikipedia page by first doing a Google Search, then clicking from the search results, or by first going to the Wikipedia homepage, then using the search bar. However, with the advanced techniques, you may be able to get to your desired destination page directly, without intermediate page loads.
+#* This will cut down on unnecessary intermediate page loads. For instance, you might otherwise get to a Wikipedia page by first doing a Google Search, then clicking from the search results, or by first going to the Wikipedia homepage, then using the search bar. However, with the advanced techniques, you may be able to get to your desired destination page directly, without intermediate page loads.
 #* On poor connections, the savings from this more efficient navigation can be significant.
 # Use full paths with the protocol when entering urls in the address bar.
 #* For instance, if the site is HTTPS-only, with HTTP redirecting to HTTPS, enter the full url with <nowiki>https://</nowiki> at the beginning. This will avoid an unnecessary redirect step, which can add a lot to the load time for high-latency connections.
@@ -147,6 +147,14 @@ Lessons in Lie-Fi]. Ricardo Ferreira. Retrieved May 3, 2019</ref> Also, note tha
 
 # If multiple people who share your wi-fi network are interested in watching the same video, TV show, movie, or sports event, it may be better to watch it together, on a living room screen, rather than stream it separately for each person.
 # If different people are watching different things, it may be better to stagger timings.
+
+=== Using good settings for SSH connections ===
+
+# When using SSH, use methods like screen, tmux, or nohup so that your session or job is not lost if you disconnect.
+#* Starting terminals within screen or tmux will cause the terminal to persist even if your connection is lost. You can reenter later.
+#* If you run jobs using nohup, the job will survive even after you log out of or disconnect from the terminal from which you started the job.
+# If using a REPL on a remote machine, use appropriate settings to reduce the frequency at which progress is synced with the remote.
+#* For instance, in Spark, the setting is ...
 
 == References ==
 
