@@ -27,12 +27,12 @@ mean visible within the company.
 The emphasis on "broadly visible written document" is to contrast with
 two other kinds of approaches:
 
-* Personal checklists, that each person manages on their own, but are
-  not visible to others: The advantage of a broadly visible document
-  rather than a personal checklist is that people can check any time
-  what the others are working on. This allows them to offer thoughts
-  and feedback, and also gives a better organization-wide picture of
-  what is going on.
+* Private personal checklists, that each person manages on their own,
+  but are not visible to others: The advantage of a broadly visible
+  document rather than a private personal checklist is that people can
+  check any time what the others are working on. This allows them to
+  offer thoughts and feedback, and also gives a better
+  organization-wide picture of what is going on.
 
 * Daily stand-ups, where everybody describes what they plan to do
   during the day: Written documents are preferable to daily stand-ups
