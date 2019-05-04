@@ -55,7 +55,7 @@ reasonable set of things to fit in (without being too prescriptive
 about what to do at what time) while still short enough to plan even
 in chaotic environments.
 
-For larger teamsn and/or more complex projects, planning needs to be
+For larger teams and/or more complex projects, planning needs to be
 done on longer timescales, but a flat checklist of items may be too
 simplistic for longer timescales, and tailored project management
 tools (such as Jira) may be better suited to such planning. Such
