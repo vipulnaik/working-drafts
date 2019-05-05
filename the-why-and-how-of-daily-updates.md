@@ -45,7 +45,7 @@ two other kinds of approaches:
   [agree](http://blog.idonethis.com/daria-developer-hates-standup/).
 
 A dilemma that sometimes comes up is that some subset of one's daily
-tasks need to be kept private, and therefore cannot be explicitly
+tasks needs to be kept private, and therefore cannot be explicitly
 included in a broadly visible daily checklist. I've encountered this
 sort of situation both in my work checklists and non-work checklists.
 
@@ -96,11 +96,14 @@ reasons:
 
 Using GitHub issues for daily updates is a bit of a hack, since that's
 not the original purpose of GitHub issues. Nonetheless, the hack has
-worked well. Here are some of the advantages of GitHub issues for
-daily updates:
+worked well in the two contexts where I've tried it (work-related
+checklists at my company, and personal checklists). Here are some of
+the advantages of GitHub issues for daily updates:
 
 * GitHub has good checklist/checkbox support, which makes it easy to
-  track progress.
+  track progress. On the main issues page, one can see at a glance the
+  number of checklist items per day and how many of them were
+  completed.
 
 * The concept of closing an issue helps create a sense of finality:
   once somebody has finished checking boxes and updating their daily
@@ -116,7 +119,9 @@ daily updates:
 
 ## Some protocol questions I don't have clear answers to
 
-Some of the questions I've wondered about, but don't have clear answers to.
+Some of the questions I've wondered about, but don't have clear
+answers to, are below. There are pros and cons of various approaches
+and I'm guessing the optimal answer varies by context.
 
 ### How should we handle stuff that came in after the original checklist was made?
 
