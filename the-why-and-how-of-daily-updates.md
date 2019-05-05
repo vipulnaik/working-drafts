@@ -3,7 +3,8 @@ idea of using GitHub issues to keep track of daily work checklists. We
 created a private GitHub repository called `daily-updates`. In
 October, I copied over the idea to managing personal checklists; you
 can see [my first issue created October
-20](https://github.com/vipulnaik/daily-updates/issues/1).
+20](https://github.com/vipulnaik/daily-updates/issues/1) or [my issue
+for yesterday](https://github.com/vipulnaik/daily-updates/issues/63).
 
 Since then, I've been creating daily updates issues on my personal
 repository on any days where I'm doing meaningful work on personal
