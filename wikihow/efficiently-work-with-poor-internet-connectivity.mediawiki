@@ -71,7 +71,7 @@ Lessons in Lie-Fi]. Ricardo Ferreira. Retrieved May 3, 2019</ref> Also, note tha
 #If your offline work involves editing a Google Doc, WordPress blog post, Wikipedia page, or something similar, open the editing area prior to going offline. WordPress and most CMSs allow you to continue editing offline as long as you keep that tab open and don't navigate away. You can also open the editing areas of other documents or pages that you might want to copy/paste from.
 #If you want to develop web applications that work offline and automatically synchronize data when connectivity is restored, use the Meteor.js framework.
 
-=== Using Network-Conserving Settings (Setup Effort, Mostly Doable in Advance) ===
+=== Using Network-Conserving Settings (Setup Effort, Mostly Doable Before Poor Connectivity) ===
 
 # If using a mobile device, use data-saving settings on it to reduce the amount of data it communicates in the background.
 #* Mobile devices have a Data Saver mode available from their data usage settings.
