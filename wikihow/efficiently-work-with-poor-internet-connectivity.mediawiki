@@ -1,8 +1,10 @@
 As more and more professional work and personal enjoyment moves to online environments, and as more and more access to the Internet happens through mobile devices while people are on the move, it is important to be able to operate well with Internet connectivity that is poor or unreliable. This guide explores how to deal with poor Internet connectivity. It builds on top of the ideas in the guide on how to [[Efficiently Work Offline|efficiently work offline]].
 
+The methods discussed here are mostly independent, but the first method ("Understanding the Phenomena ...") provides important background knowledge useful to all the methods. Some of the methods are about things you can do during periods of poor connectivity, whereas others are things you must do before the period of poor connectivity. Some methods can be implemented either before or during poor connectivity. Which of these buckets a method falls under is mentioned parenthetically in the method title.
+
 == Steps ==
 
-=== Understanding the Phenomena Underlying Poor Internet Connectivity ===
+=== Understanding the Phenomena Underlying Poor Internet Connectivity (Background Knowledge) ===
 
 # Understand the different ways that Internet connectivity can be poor.
 #* Low bandwidth: This usually means that downloads take a long time, because the amount of data that can be transferred per second is low
@@ -46,7 +48,20 @@ Lessons in Lie-Fi]. Ricardo Ferreira. Retrieved May 3, 2019</ref> Also, note tha
 #* A third key factor is how much other load exists on your upstream and how that varies over time. For instance, if there are a lot of devices on your home network, and many of them are engaging in heavy uploads or downloads, you may experience low bandwidth and high latency.
 #* The above factors may also apply to more indirect upstream points. For instance, your router and other routers in the buildings near you may be connecting to a point in your ISP network through which all their traffic passes. The amount of bandwidth that can go through this point, compared with the load on this point, will affect how much bandwidth and latency you have. In particular, for instance, the hours of 7 PM to 9 PM (in some cases, even further out to 11 PM) are called Internet rush hour because the bandwidth load on ISPs providing Internet to homes is much higher than during the rest of the day.
 
-=== Being Up to Date ===
+=== Improving Connectivity (Diagnosis Before and During Poor Connectivity) ===
+
+#Check that you are on the wi-fi or cellular network that you intend to be.
+#* For instance, you may have been using tethering with a portable hotspot of your phone, and then forgotten to switch from that to a home wi-fi network, so you may be experiencing poor connectivity.
+#* If you regularly have issues like this, edit your wi-fi preferences to prioritize your networks in the correct order. For instance, you will usually put your home wi-fi network on top, and any trusted high-speed wi-fi networks above the network of your phone hotspot.
+#* If you are using a cellular network, it may have a data cap for fast speeds (for instance, only the first 6 GB of data will be accessible using a 4G network; after that, you will be switched to 3G). If you are seeing reduced speeds compared to what you expect, check if you have exceeded the data cap for fast speeds. You may be able to purchase some more data at fast speeds for the rest of the billing cycle.
+#See if you can move to a different location to get a better quality of connection.
+#* In general, the greater your distance from the closest access point of your router, the lower your bandwidth.
+#* If there are physical obstacles between your device and the closest access point, this could interfere with your connection speed. Different obstacles have different levels of impact, with metal and mirrors causing the highest interference.<ref name=netspot>[https://www.netspotapp.com/wifi-interference.html How to troubleshoot Wi-Fi Interference with NetSpot]</ref>
+#* Other devices can interfere if they connect to the same router or access point. They can also interfere if they use similar frequencies. To reduce frequency, you may wish to switch from a 2.4 GHz band to a 5 GHz band, and choose a less crowded channel. These are both router-level settings that may or may not be available in your router.<ref name=netspot/>
+#* For large public networks (such as libraries or large cafes) you may not know the location of the access points. You can use the Speedtest app and walk around the area, running the app, to identify which parts have good connectivity and which parts don't. In general, you will find that corners will have poor connectivity, unless the access points are located close to them. In a test on the Berkeley Public Library, connectivity was 50 Mbps up and down in the main, open seating areas, but dropped to 20-30 Mbps in corners, and to under 10 Mbps behind a corner bookshelf.
+#* For cellular networks, connectivity are generally higher closer to the outdoors. Areas that are very far inside the building may have poor connectivity. Connections are also poorer inside concrete buildings compared to wooden buildings (because of greater signal interference from concrete).<ref>[https://www.pcworld.com/article/2039683/is-3g-4g-slower-indoors-not-as-much-as-you-might-think.html Is 3G/4G slower indoors? Not as much as you might think]</ref>
+
+=== Being Up to Date (Setup Effort Shortly Before Having Poor Connectivity) ===
 
 #Be up-to-date just before you go into a zone of bad connectivity. If using Dropbox or Google Docs, make sure you're synced up on all the material you intend to work on before you go offline. Similarly, if working on a code repository using Git or something similar, make sure to pull in changes from the remote branch so you are working with up-to-date code.
 #If you intend to browse particular webpages, open them all up in browser tabs prior to your departure. Unless your computer has memory or processing power limitations, it's better to open more pages than the ones you are absolutely sure you'll need. A typical laptop with 8GB of RAM can handle 50+ tabs open in Chrome just fine.
@@ -55,7 +70,7 @@ Lessons in Lie-Fi]. Ricardo Ferreira. Retrieved May 3, 2019</ref> Also, note tha
 #If your offline work involves editing a Google Doc, WordPress blog post, Wikipedia page, or something similar, open the editing area prior to going offline. WordPress and most CMSs allow you to continue editing offline as long as you keep that tab open and don't navigate away. You can also open the editing areas of other documents or pages that you might want to copy/paste from.
 #If you want to develop web applications that work offline and automatically synchronize data when connectivity is restored, use the Meteor.js framework.
 
-=== Using Network-Conserving Settings ===
+=== Using Network-Conserving Settings (Setup Effort, Mostly Doable in Advance) ===
 
 # If using a mobile device, use data-saving settings on it to reduce the amount of data it communicates in the background.
 #* Mobile devices have a Data Saver mode available from their data usage settings.
@@ -80,7 +95,7 @@ Lessons in Lie-Fi]. Ricardo Ferreira. Retrieved May 3, 2019</ref> Also, note tha
 # Tweak your automatic downloads settings to reduce the risk of accidentally starting large downloads.
 #* In Chrome, you can access these settings at <nowiki>chrome://settings/content/automaticDownloads</nowiki>
 
-=== Minimizing Resource Reload ===
+=== Minimizing Resource Reload (During Poor Connectivity) ===
 
 # Prefer switching to an already loaded browser tab rather than loading the page again.
 #* When you start typing words from the title and url into the address bar, browsers such as Chrome and Firefox (on desktop) give you the option to switching to the existing tab, if it exists. Use this option. On mobile browsers, you'll need to manually go through your existing tabs to identify the relevant one.
@@ -105,8 +120,11 @@ Lessons in Lie-Fi]. Ricardo Ferreira. Retrieved May 3, 2019</ref> Also, note tha
 #* For some sites, this is less of an issue because the redirects are handled server-side, but for others, it can require additional round trips between the client and the server.
 #* For sites that you are visiting for the first time, plain HTTP is faster than HTTPS; if the site offers both options and does not redirect HTTP to HTTPS, using the plain HTTP version will be faster. But for repeat visits, if the site has good configurations for dealing with HTTPS, then HTTPS and HTTP are comparable for subsequent loads.
 
-=== Avoiding Bandwidth Hogs and Monitoring Results (Advanced) ===
+=== Avoiding Bandwidth Hogs and Monitoring Results (During Poor Connectivity; Advanced) ===
 
+# Avoid opening websites that you know tend to be bandwidth hogs.
+#* News and opinion sites often have autoplaying videos that will start downloading and playing when you visit them. If you see a link to such a site, it may be best to either not open the link or use some of the later tips to open it carefully.
+#* If it's a site you already know and have configured appropriately using earlier tips (for instance, turned off JavaScript, ads, or videos on that site) then you may safely open it.
 # Use network throttling or go offline on tabs loading less important content.
 #* If there's a tab that seems to be continuously reloading resources, or loading videos, but you don't want to close it, open Chrome Devtools for the tab, go to the Network panel, and check the box to go Offline. Network activity from the tab will stop. You need to keep DevTools open to keep the settings active. The settings apply only to that tab.
 #* In some cases, you may want a tab to continue being online, but avoid it hogging too much bandwidth. For instance, this might be the case for videos playing in the tab that are hogging too much bandwidth, and that are not adapting to sufficiently low resolutions. You can use the network throttling options in Chrome Devtools. The default options are "Slow 3G" and "Fast 3G" but you can create custom throttling profiles with lower bandwidths allocated to them. You need to keep DevTools open to keep the settings active. The settings apply only to that tab.
@@ -122,7 +140,7 @@ Lessons in Lie-Fi]. Ricardo Ferreira. Retrieved May 3, 2019</ref> Also, note tha
 #* In peacetime, if you are not actively downloading or uploading resources, your bandwidth use should be between 1 KB/s and 5 KB/s for both upload and download. If you completely close Chrome and other tools such as Slack or Skype, it should fall to under 1 KB/s for both download and upload. NOTE: The estimates here are purely for benchmarking purposes. It is not recommended that you close these applications, unless you are quite sure you won't need to use them through your period of poor connectivity. That's because the startup of these applications, and the reopening of existing tabs on Chrome, can be heavy on bandwidth.
 #* You can examine the effect of various changes you make (such as closing tabs or taking them offline) on the network activity.
 
-=== Understanding Failure Modes of Tools When Network Calls Fail ===
+=== Understanding Failure Modes of Tools When Network Calls Fail (Acquire Understanding Before Poor Connectivity; Apply During Poor Connectivity) ===
 
 # If using an online communications tool such as Facebook Messenger or Slack, pay attention to how to confirm if messages were actually sent. These tools will not usually immediately tell you if your message failed to deliver, but they offer subtle cues that allow you to know.
 #* Facebook Messenger will show a hollow circle at the bottom right of the message. If you hover over that, a tooltip of "Sending" will show up. Once the delivery is confirmed, this will change to either a blue checkmark with a whilte background (tooltip of "Sent") or a white checkmark with a blue background (tooltip of "Delivered"). If, after a certain amount of time, the delivery of the message is not confirmed, Messenger will show you an explicit message saying that the message failed to deliver, and asking you to try again. If you're using Facebook Messenger on the web, you can map the visual cues to actual behavior of network calls by keeping your network panel open and comparing.
@@ -132,7 +150,7 @@ Lessons in Lie-Fi]. Ricardo Ferreira. Retrieved May 3, 2019</ref> Also, note tha
 #* In particular, if there's a case where you see missing or misleading data during a period of poor connectivity, but see the right data show up later, the site could have the silent failures problem. You can further verify the hypothesis by looking at the network panel and seeing the problem in loading the resources.
 #* Consider reporting silent failure issues as bug reports to the website. For instance, if they develop the website using GitHub, you may be able to file a GitHub issue.
 
-=== Dealing with Known Patterns of Connectivity ===
+=== Dealing with Known Patterns of Connectivity (During Poor Connectivity) ===
 
 # Use your knowledge of when and where you'll have good connectivity to plan your work around it. For instance, if you're traveling in a train that goes through areas with poor connectivity and areas with good connectivity, you can use this information to improve your experience.
 #* While you're going through a region of poor connectivity, focus on the parts of your work that you can carry out offline, and use the tips discussed (e.g., not reloading existing tabs) to make the experience efficient. Also, start building a list (mentally or digitally) of the things you need to do when you get to a region of good connectivity.
@@ -143,12 +161,12 @@ Lessons in Lie-Fi]. Ricardo Ferreira. Retrieved May 3, 2019</ref> Also, note tha
 #* Mass transit systems get more crowded during morning and evening rush hour, and cellular connectivity and bandwidth can be worse during those times. If you schedule your commute to a different time, you may be able to get a higher quality of connection and better bandwidth, in addition to the other benefits of [[Avoid Crowds in Mass Transit|avoiding crowds]].
 #* For restaurants and cafes as well, connectivity may be better when they are less crowded.
 
-=== Synchronizing with Other Users of the Network ===
+=== Synchronizing with Other Users of the Network (Advance Planning Before Poor Connectivity) ===
 
 # If multiple people who share your wi-fi network are interested in watching the same video, TV show, movie, or sports event, it may be better to watch it together, on a living room screen, rather than stream it separately for each person.
 # If different people are watching different things, it may be better to stagger timings.
 
-=== Using good settings for SSH connections ===
+=== Using good settings for SSH connections (Before and During Poor Connectivity) ===
 
 # When using SSH, use methods like screen, tmux, or nohup so that your session or job is not lost if you disconnect.
 #* Starting terminals within screen or tmux will cause the terminal to persist even if your connection is lost. You can reenter later.
