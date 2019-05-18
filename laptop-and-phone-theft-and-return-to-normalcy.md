@@ -90,14 +90,18 @@ laptop. The purchase was executed at 12:33 PM. I then went back to the
 Powell Street BART and took the train to work (at San Bruno). I got in
 at work a little bit after 1 PM.
 
-### Installation of new laptop
+### Installation of new laptop and initial account recovery
 
 After getting in at San Bruno, I installed my new laptop, then set up
 various authentication keys. All the setup and account recovery steps
-that were immediately needed were completed by around 5:30 PM. Then, I
-started documenting the recovery steps for future reference by
-others. In addition to work-related recovery, I also initiated
-recovery procedures for personal accounts (Facebook and Gmail).
+that were immediately needed were completed by around 5:30 PM. In
+addition to work-related recovery, I also initiated recovery
+procedures for personal accounts (Facebook and Gmail).
+
+Then, I started documenting the recovery steps for future reference by
+others. I would continue this documentation work over the next few
+days; people in my company can see the work at
+[ER-727](https://liftigniter.atlassian.net/browse/ER-727).
 
 I left work a little after 6 PM along with other work
 colleagues.
@@ -114,6 +118,11 @@ authentications on the phone.
 
 I was able to recover my personal Gmail on Sunday May 12 evening after
 Gmail support removed the two-factor authentication on the account.
+
+After recovering personal Gmail, I was also able to recover GitHub (my
+GitHub recovery codes were recorded in my personal Gmail). Next, I was
+able to email the serial number of my stolen laptop to the BART Police
+officer (the receipt for the laptop purchase was in my Gmail inbox).
 
 ### Purchase of SIM card for an older number
 
