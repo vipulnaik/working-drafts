@@ -1,5 +1,10 @@
 # Laptop and phone theft and return to normalcy
 
+In this document:
+
+* [Theft](#theft)
+* [Recovery](#recovery)
+
 ## Theft
 
 On Friday, May 10, 2019, I got up quite late (around 9 AM, compared to
@@ -80,6 +85,22 @@ bag. I confirmed that the phone was no longer in it. This was
 completed around 12:15.
 
 ## Recovery
+
+Recovery was significantly complicated by a few factors:
+
+* Simultaneous loss of both laptop and phone
+* The phone number on some of my accounts was an older phone number,
+  so I had to recover two phone numbers rather than one
+
+It was, however, helped by a few factors:
+
+* Work-related stuff was recovered with the help of other people at
+  work
+* I didn't lose any of my payment cards, cash, or identifications
+  (such as the California state ID)
+* Since my laptop had encryption, my data wasn't compromised
+* Since most of my active work is synced with GitHub, or otherwise in
+  the cloud, I lost very little data
 
 ### Purchase of new laptop
 
