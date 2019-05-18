@@ -8,23 +8,30 @@ In this document:
 ## Theft
 
 On Friday, May 10, 2019, I got up quite late (around 9 AM, compared to
-my usual 6 AM). I took the Millbrae BART (train 445) at North Berkeley
-around 10:37 AM, heading to work at San Bruno. At 10:40 AM, when the
-train arrived in downtown Berkeley, an individual in my train car
-snatched my laptop from me and ran. I ran after him, leaving my bag
-behind. My bag had my phone, and it seems like somebody else took the
-phone from the bag. I was able to recover the bag later, without the
-phone.
+my usual 6 AM). Timeline of theft:
 
-### Journey from North Berkeley BART to downtown Berkeley BART
+* 10:37 AM: I took the Millbrae BART (train 445) at North Berkeley
+  around 10:37 AM, heading to work at San Bruno.
 
-I got on to the last car of a 5-car San Francisco/Millbrae train
-(train 445). I sat on a rear-facing window seat somewhere roughly
-midway between the two train doors on the left side of the train. When
-I got on, there was a group of kids also seated in the middle of the
-train car (but closer to the front train door of the train car). They
-looked like they were of school age. It was a mix of males and
-females. Most but not all of them were black.
+* 10:40 AM: When the train arrived in downtown Berkeley, an individual
+  in my train car snatched my laptop from me and ran. I ran after him,
+  leaving my bag behind. I reported to the station agent and BART
+  Police officer.
+
+* 11:30 AM: I left the downtown Berkeley BART station to go to Powell
+  Street to pick up my bag, which had been turned in.
+
+* 12:15 PM: I picked up my bag from the Powell Street police booth.
+
+### Journey from North Berkeley BART to downtown Berkeley BART (Friday, May 10, 2019, 10:37 AM to 10:40 AM)
+
+At around 10:37 AM, I got on to the last car of a 5-car San
+Francisco/Millbrae train (train 445). I sat on a rear-facing window
+seat somewhere roughly midway between the two train doors on the left
+side of the train. When I got on, there was a group of kids also
+seated in the middle of the train car (but closer to the front train
+door of the train car). They looked like they were of school age. It
+was a mix of males and females. Most but not all of them were black.
 
 They appeared to notice me and seemed to be saying something about me,
 but i assumed those were just kid jokes. One of them also touched my
@@ -35,7 +42,7 @@ During this journey, I was working on my 13'' Space Gray Macbook Pro
 laptop, using my OnePlus 3 phoen for hotspot. My very last action on
 the laptop was to close a GitHub issue in a work repository.
 
-### Laptop snatching at downtown Berkeley
+### Laptop snatching at downtown Berkeley (Friday, May 10, 2019, 10:40 AM to 10:42 AM)
 
 The train arrived at downtown Berkeley around 10:40 AM. After the
 train doors opened, one of the individuals from the group snatched my
@@ -49,21 +56,21 @@ but they all used their Clipper cards or other payment methods to
 exit, rather than jumping the turnstile. Their level of involvement
 with the theft isn't clear.
 
-### Reporting and waiting
+### Reporting and waiting (Friday, May 10, 2019, 10:42 AM to 11:30 AM)
 
 I immediately reported the situation to the station agent at the
 booth. She called the BART Police and also asked the other stations
 down the line if they had received a turned-in bag (the one that I had
 left on the train).
 
-After a while, a BART Police officer came by. The first priority of
-the police officer and the station agent was to help me recover my
-bag. The police agents did try looking for the bag in the train at
-Oakland but did not find it. However, some passengers did report
-seeing the bag. Finally, it was turned in at Civic Center and then
-given to the Powell Street police booth. It looked like the bag had
-been rummaged through and the phone and some coins removed from it. I
-was asked to pick the bag up from Powell Street.
+After around 10 minutes, a BART Police officer came by. The first
+priority of the police officer and the station agent was to help me
+recover my bag. The police agents did try looking for the bag in the
+train at Oakland but did not find it. However, some passengers did
+report seeing the bag. Finally, it was turned in at Civic Center and
+then given to the Powell Street police booth. It looked like the bag
+had been rummaged through and the phone and some coins removed from
+it. I was asked to pick the bag up from Powell Street.
 
 The officer took my statement. I also asked the officer about the
 likelihood of recovery. He said that recovery was quite unlikely
@@ -75,14 +82,14 @@ not be able to identify him in real life.
 The officer gave me his card with his email address and asked me to
 send him any further information over email.
 
-### Pickup of laptop from Powell Street
+### Pickup of laptop from Powell Street (Friday, May 10, 2019, 11:30 AM to 12:15 PM)
 
-I took the train to Powell Street, got off there (around 11:55), then
-went to the police booth. The booth was locked so I used the phone
-right outside to dial in. I was asked to wait for the Community
-Service Officers to come by with the bag. They came by and gave me the
-bag. I confirmed that the phone was no longer in it. This was
-completed around 12:15.
+At 11:30 AM, I took the train from downtown Berkeley to Powell Street,
+got off there (around 11:55), then went to the police booth. The booth
+was locked so I used the phone right outside to dial in. I was asked
+to wait for the Community Service Officers to come by with the
+bag. They came by and gave me the bag. I confirmed that the phone was
+no longer in it. This was completed around 12:15.
 
 ## Recovery
 
@@ -102,22 +109,30 @@ It was, however, helped by a few factors:
 * Since most of my active work is synced with GitHub, or otherwise in
   the cloud, I lost very little data
 
-### Purchase of new laptop
+### Purchase of new laptop (12:15 PM to 12:35 PM)
 
-I exited the BART at Powell Street and went to the Apple Store at
-Union Square (about a 7-minute walk from the station). There, I
-purchased a new $1199 ($1305 after taxes) Macbook Air 13'' space gray
-laptop. The purchase was executed at 12:33 PM. I then went back to the
-Powell Street BART and took the train to work (at San Bruno). I got in
-at work a little bit after 1 PM.
+I exited the BART at Powell Street around 12:15 PM, then went to the
+Apple Store at Union Square (about a 7-minute walk from the
+station). After looking at the laptops on display and discussing with
+the store salesperson, I purchased a new $1199 ($1305 after taxes)
+Macbook Air 13'' space gray laptop. The purchase was executed at 12:33
+PM according to the receipt.
 
-### Installation of new laptop and initial account recovery
+### Heading in to work (12:35 PM to 1:20 PM)
+
+After purchasing my laptop, I then went back to the Powell Street BART
+and took the train to work (at San Bruno). I got in at work at around
+1:20 PM.
+
+### Installation of new laptop and initial account recovery (Friday, May 10, 2019, 1:20 PM to 5:30 PM)
 
 After getting in at San Bruno, I installed my new laptop, then set up
 various authentication keys. All the setup and account recovery steps
 that were immediately needed were completed by around 5:30 PM. In
 addition to work-related recovery, I also initiated recovery
 procedures for personal accounts (Facebook and Gmail).
+
+### Documentation of recovery steps (Friday, May 10, 2019, 5:30 PM onward)
 
 Then, I started documenting the recovery steps for future reference by
 others. I would continue this documentation work over the next few
@@ -127,15 +142,25 @@ days; people in my company can see the work at
 I left work a little after 6 PM along with other work
 colleagues.
 
-### Purchase of new phone with my main phone number
+### Purchase of new phone with my main phone number (Saturday, May 11, 2019, 4:30 PM to 5:30 PM)
 
 On Saturday May 11, after lunch, I went to the T-Mobile store at
 downtown Berkeley and purchased a new phone. I also associated my
 existing phone number to the new phone. The phone purchase happened
-around 5:10 PM. Over the next day, I set up various apps and
-authentications on the phone.
+around 5:10 PM.
 
-### Recovery of personal Gmail
+I opted for the cheapest phone available in the T-Mobile store,
+namely, a Motorola e5. I played around with that and a lot of other
+phones to see if there was any material difference in usability of the
+most common features I would like to use, but didn't see any. The
+phone price was $150. I had to pay $25 for the recovery SIM card, and
+taxes added an extra $32. In total I paid around $207.
+
+Over that day and the next, I set up various apps and authentications
+on the phone, including reinstating two-factor authentication for
+various services for which it had been temporarily disabled.
+
+### Recovery of personal Gmail (Sunday, May 12, 2019, 6 PM onward)
 
 I was able to recover my personal Gmail on Sunday May 12 evening after
 Gmail support removed the two-factor authentication on the account.
@@ -145,15 +170,18 @@ GitHub recovery codes were recorded in my personal Gmail). Next, I was
 able to email the serial number of my stolen laptop to the BART Police
 officer (the receipt for the laptop purchase was in my Gmail inbox).
 
-### Purchase of SIM card for an older number
+### Purchase of SIM card for an older number (Tuesday, May 14, 2019, around noon)
 
 I had an older phone number but the device for that number had died
 out; unfortunately some of my accounts were still tied to the old
 number. Their device-based 2FA was tied to the stolen phone, but the
 number was that of the older phone.
 
-To recover this, I had to purchase a new SIM card for the old number,
-then swap that in whenever I needed authentication of the old number.
+To recover this, I had to purchase a new SIM card for the old number
+($25 + taxes), then swap that in whenever I needed authentication of
+the old number. I did this purchase on Tuesday May 14 at the T-Mobile
+store in the Tanforan Mall in San Bruno (during a short break from
+work).
 
 After getting the SIM card for the older number, I was able to recover
 Facebook and Venmo and initiate recovery for Coinbase.
