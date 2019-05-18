@@ -90,6 +90,10 @@ Lessons in Lie-Fi]. Ricardo Ferreira. Retrieved May 3, 2019</ref> Also, note tha
 #* Examples include Alexa and SimilarWeb extensions.
 # Consider disabling JavaScript on sites that have a lot of unnecessary dynamic reloading.
 #* In Chrome, you can control these settings at <nowiki>chrome://settings/content/javascript</nowiki>.
+# If you generally use a VPN, consider either not using it during periods of poor connectivity, or configuring it to better handle poor connectivity.
+#* Having your traffic routed through the VPN can slow you down if you frequently disconnect and reconnect to the Internet. Every time you have connectivity issues, you will be disconnected from the VPN, so when you reconnect to the Internet, there may be a further delay reestablishing the connection to the VPN. This can double the time taken to effectively get back online. It can be particularly confusing for services such as Slack or Facebook Messenger.
+#* Routing the traffic through the VPN may also affect your bandwidth because all your traffic is being sent using the single connection to the VPN. So you may not be taking advantage of your wi-fi network's parallelism fully.<ref>[https://www.reddit.com/r/tmobile/comments/aeij7i/speedtest_multiconnection/ Speedtest multi-connection], Reddit.</ref>
+#* See if you can configure the VPN to only have some traffic routed through it (i.e., traffic that you need to make go through the VPN).
 # Increase your cache size.
 #* If you do a decent amount of web browsing, the default cache size of most web browsers is too small.
 #* Unfortunately, for Chrome, you cannot increase cache size using any settings available within Chrome. Rather, you have to pass in a startup parameter. Details are available for Windows<ref>[https://www.thewindowsclub.com/change-chrome-cache-size-performance How to change Google Chrome’s Cache Size for better performance on Windows 10], The Windows Club. Retrieved May 1, 2019</ref> and Mac OS X.<ref>[https://superuser.com/questions/602924/change-google-chrome-cache-size-on-os-x Change Google Chrome cache size on OS X], Stack Overflow. Retrieved May 1, 2019</ref>
