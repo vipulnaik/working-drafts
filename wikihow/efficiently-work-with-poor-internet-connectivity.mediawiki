@@ -94,6 +94,9 @@ Lessons in Lie-Fi]. Ricardo Ferreira. Retrieved May 3, 2019</ref> Also, note tha
 #* Having your traffic routed through the VPN can slow you down if you frequently disconnect and reconnect to the Internet. Every time you have connectivity issues, you will be disconnected from the VPN, so when you reconnect to the Internet, there may be a further delay reestablishing the connection to the VPN. This can double the time taken to effectively get back online. It can be particularly confusing for services such as Slack or Facebook Messenger.
 #* Routing the traffic through the VPN may also affect your bandwidth because all your traffic is being sent using the single connection to the VPN. So you may not be taking advantage of your wi-fi network's parallelism fully.<ref>[https://www.reddit.com/r/tmobile/comments/aeij7i/speedtest_multiconnection/ Speedtest multi-connection], Reddit.</ref>
 #* See if you can configure the VPN to only have some traffic routed through it (i.e., traffic that you need to make go through the VPN).
+# Consider using apps instead of mobile websites after investigating the bandwidth implications.
+#* For some sites, the app offers the advantage of preserving more state and data on the device, thus putting less stress on the network to get data.
+#* Note that it's usually a bad idea to try downloading, installing, and authenticating within the app when connectivity is poor. So, the decision and legwork must be done while your connectivity is good.
 # Increase your cache size.
 #* If you do a decent amount of web browsing, the default cache size of most web browsers is too small.
 #* Unfortunately, for Chrome, you cannot increase cache size using any settings available within Chrome. Rather, you have to pass in a startup parameter. Details are available for Windows<ref>[https://www.thewindowsclub.com/change-chrome-cache-size-performance How to change Google Chrome’s Cache Size for better performance on Windows 10], The Windows Club. Retrieved May 1, 2019</ref> and Mac OS X.<ref>[https://superuser.com/questions/602924/change-google-chrome-cache-size-on-os-x Change Google Chrome cache size on OS X], Stack Overflow. Retrieved May 1, 2019</ref>
@@ -127,6 +130,11 @@ Lessons in Lie-Fi]. Ricardo Ferreira. Retrieved May 3, 2019</ref> Also, note tha
 
 === Avoiding Bandwidth Hogs and Monitoring Results (During Poor Connectivity; Advanced) ===
 
+# Use bandwidth-conserving settings on conference calls.
+#* In general, video uses several times as much bandwidth as audio, and it is also continuously on. Turning off your webcam helps, and not receiving video from the other parties can also help.
+#* If you are in a room with others, and don't need to be connected to audio, see if your conferencing software allows you to join without audio.
+#* If you don't need to screenshare or view a screenshare, considering dialing in to the conference call via phone instead.
+#* If you find that your Internet connectivity is very low when you are sharing your screen, consider stopping your screenshare.
 # Avoid opening websites that you know tend to be bandwidth hogs.
 #* News and opinion sites often have autoplaying videos that will start downloading and playing when you visit them. If you see a link to such a site, it may be best to either not open the link or use some of the later tips to open it carefully.
 #* If it's a site you already know and have configured appropriately using earlier tips (for instance, turned off JavaScript, ads, or videos on that site) then you may safely open it.
@@ -136,7 +144,9 @@ Lessons in Lie-Fi]. Ricardo Ferreira. Retrieved May 3, 2019</ref> Also, note tha
 # Use mobile emulation for sites (or the mobile version of site urls) where the mobile version is simpler and leaner but has all the information you need.
 #* In Chrome, you can use mobile emulation by opening DevTools and clicking on the mobile icon in the top left. You need to keep DevTools open to stay in mobile emulation. The settings apply only to that tab.
 #* To get best results, you need to be in mobile emulation before the page load starts, so that the server can, at load time, determine that it needs to load the mobile version.
-#* Some sites have different mobile version urls that you can use even without mobile emulation, to access the mobile version of the site.
+#* Some sites have different mobile version urls that you can use even without mobile emulation, to access the mobile version of the site. Note that mobile versions of sites are not always more lightweight; for instance, for Wikipedia, the size of the desktop and mobile pages is comparable.
+# Use simpler text mirrors for sites that load slowly and have text-only mirrors.
+#* For instance, the LessWrong website (lesswrong.com) has two mirrors: GreaterWrong (greaterwrong.com) and lw2.issarice.com. The same piece of content can have dramatically different sizes in the three locations. For instance, a randomly selected popular post<ref>[https://www.lesswrong.com/posts/brQwWwZSQbWBFRNvh/how-to-use-bureaucracies How To Use Bureaucracies]. LessWrong. July 17, 2018</ref> downloads 1.7 MB on lesswrong.com, but changing the domain name to greaterwrong.com results in 455 KB of resources downloaded, and changing the domain name to lw2.issarice.com results in 23.1 KB of resources downloaded. Of the three versions, the first takes over 10 seconds to load on Chrome's "Slow 3G" network emulation, while the last loads in under 3 seconds even with "Slow 3G" network emulation.
 # Make sure to refuse any suggested downloads and software upgrades from your operating system or other softwares.
 #* If a large download started accidentally, make sure to pause it (if allowed) or otherwise cancel it.
 # Examine your network usage settings to identify what might be using up your bandwidth, and identify any unnecessary processes currently using bandwidth.
