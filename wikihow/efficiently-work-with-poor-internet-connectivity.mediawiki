@@ -109,6 +109,9 @@ Lessons in Lie-Fi]. Ricardo Ferreira. Retrieved May 3, 2019</ref> Also, note tha
 #* Unfortunately, for Chrome, you cannot increase cache size using any settings available within Chrome. Rather, you have to pass in a startup parameter. Details are available for Windows<ref>[https://www.thewindowsclub.com/change-chrome-cache-size-performance How to change Google Chrome’s Cache Size for better performance on Windows 10], The Windows Club. Retrieved May 1, 2019</ref> and Mac OS X.<ref>[https://superuser.com/questions/602924/change-google-chrome-cache-size-on-os-x Change Google Chrome cache size on OS X], Stack Overflow. Retrieved May 1, 2019</ref>
 # Tweak your automatic downloads settings to reduce the risk of accidentally starting large downloads.
 #* In Chrome, you can access these settings at <nowiki>chrome://settings/content/automaticDownloads</nowiki>
+# Consider downloading transit apps that work well offline.
+#* The app called Transit is designed to work even when offline. It uses the phone's GPS and highly compressed route information to provide directions. It does not have real-time arrival information when offline.<ref>[https://transit.helpscoutdocs.com/article/90-does-transit-work-offline Does Transit Work Offline?] Trasit. Retrieved May 19, 2019</ref>
+#* If using Google Maps, preload the route while online and then use the phone's GPS navigation.
 
 === Minimizing Resource Reload (During Poor Connectivity) ===
 
@@ -151,9 +154,13 @@ Lessons in Lie-Fi]. Ricardo Ferreira. Retrieved May 3, 2019</ref> Also, note tha
 # Use mobile emulation for sites (or the mobile version of site urls) where the mobile version is simpler and leaner but has all the information you need.
 #* In Chrome, you can use mobile emulation by opening DevTools and clicking on the mobile icon in the top left. You need to keep DevTools open to stay in mobile emulation. The settings apply only to that tab.
 #* To get best results, you need to be in mobile emulation before the page load starts, so that the server can, at load time, determine that it needs to load the mobile version.
-#* Some sites have different mobile version urls that you can use even without mobile emulation, to access the mobile version of the site. Note that mobile versions of sites are not always more lightweight; for instance, for Wikipedia, the size of the desktop and mobile pages is comparable.
+#* Some sites have different mobile version urls that you can use even without mobile emulation, to access the mobile version of the site. For some sites, the difference is significant. For instance, in a test on Facebook, the desktop version at facebook.com used 4.3 MB, whereas the mobile version at m.facebook.com used 1.3 MB. Note that mobile versions of sites are not always more lightweight; for instance, for Wikipedia, the size of the desktop and mobile pages is comparable.
+# Use other specially designed light versions of sites, where available (these may be different from the main mobile version of the site).
+#* For instance, Facebook has a light mobile version at mbasic.facebook.com, that is even more stripped down than the main mobile site m.facebook.com. Compared to 1.3 MB for m.facebook.com, loading mbasic.facebook.com cost only 101 KB of resources.
+#* Similarly, CNN has a very fast-loading text-only site at http://lite.cnn.com. Compared to https://www.cnn.com that loads over 8 MB including an advertisement, http://lite.cnn.com loads only 6.1 KB. The individual articles are also small, usually under 10 KB.
 # Use simpler text mirrors for sites that load slowly and have such mirrors.
 #* For instance, the LessWrong website (lesswrong.com) has two mirrors: GreaterWrong (greaterwrong.com) and lw2.issarice.com. The same piece of content can have dramatically different sizes in the three locations. For instance, a randomly selected popular post<ref>[https://www.lesswrong.com/posts/brQwWwZSQbWBFRNvh/how-to-use-bureaucracies How To Use Bureaucracies]. LessWrong. July 17, 2018</ref> downloads 1.7 MB on lesswrong.com, but changing the domain name to greaterwrong.com results in 455 KB of resources downloaded, and changing the domain name to lw2.issarice.com results in 23.1 KB of resources downloaded. Of the three versions, the first takes over 10 seconds to load on Chrome's "Slow 3G" network emulation, while the last loads in under 3 seconds even with "Slow 3G" network emulation.
+# Consider using RSS feeds if available, as a substitute for regularly revisiting the homepage to see if there is new content.
 # Make sure to refuse any suggested downloads and software upgrades from your operating system or other softwares.
 #* If a large download started accidentally, make sure to pause it (if allowed) or otherwise cancel it.
 # Examine your network usage settings to identify what might be using up your bandwidth, and identify any unnecessary processes currently using bandwidth.
