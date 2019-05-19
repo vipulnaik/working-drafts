@@ -234,6 +234,24 @@ Other intermediaries, like Internet Service Providers (ISPs), routers, networkin
 | 2019 || {{dts|January}} to February; with some early test efforts in October 2018, and some wrap-up work as late as April 11 || Website || Wikia / Fandom || Default HTTPS-only || Fandom Inc., the company previously known as Wikia, moves the bulk of their community wikis from HTTP to HTTPS, while also changing the domain from wikia.com to fandom.com (to be more consistent with the company's new name and branding). Some domains that do not fit with the Fandom brand are moved to wikia.org instead; these are also migrated to HTTPS.<ref>{{cite web|url = https://community.fandom.com/wiki/Help:Fandom_domain_migration|title = Help:Fandom domain migration|accessdate = April 13, 2019|publisher = Fandom Community Central}}</ref>
 |}
 
+==Meta information on the timeline==
+
+===How the timeline was built===
+
+The initial version of the timeline was written by [[User:Vipul]].
+
+===What the timeline is still missing===
+
+* {{w|DNS over HTTPS}}: [https://tools.ietf.org/html/rfc8484 RFC]
+* {{w|DNS over TLS}}
+* Encrypted SNI: [https://datatracker.ietf.org/doc/draft-ietf-tls-esni/ Draft standard]
+
+===Timeline update strategy===
+
+* Keep pace with the latest developments in HTTPS
+* Look for articles about websites and services transitioning to HTTPS
+* Use the Wayback Machine to identify dates of transition to HTTPS
+
 == See also ==
 
 * [https://www.jefftk.com/p/history-of-https-usage History of HTTPS Usage] by Jeff Kaufman
