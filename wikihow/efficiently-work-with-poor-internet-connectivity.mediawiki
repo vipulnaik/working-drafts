@@ -34,7 +34,7 @@ The methods discussed here are mostly independent, but the first method ("Unders
 #* To check the impact of latency on the load of a particular webpage, keep Chrome Devtools open before loading the page, and check for the TTFB metric in the Timing section for each network call.
 # Understand the meaning of high packet loss.
 #* With high packet loss, you might see a random subset of requests failing, but the set of requests that fails changes on each load.
-#* One way of checking for this is to run a command like `ping example.com` in a terminal and check if some of the pings are failing.
+#* One way of checking for this is to run a command like <nowiki>ping example.com</nowiki> in a terminal and check if some of the pings are failing.
 # Understand the meaning of brief periods of very bad or no connectivity.
 #* This means that for brief periods ranging from a few seconds to a few minutes, websites fail to load, or take really long to load. This could be a mix of significantly reduced bandwidth and significantly increased latency.
 #* The causes could be geographical: for instance, if on a train, you might traverse through network blind spots of your cellular carrier. The causes could also be related to varying levels of network congestion based on who else is using the network.
@@ -110,7 +110,7 @@ Lessons in Lie-Fi]. Ricardo Ferreira. Retrieved May 3, 2019</ref> Also, note tha
 # Tweak your automatic downloads settings to reduce the risk of accidentally starting large downloads.
 #* In Chrome, you can access these settings at <nowiki>chrome://settings/content/automaticDownloads</nowiki>
 # Consider downloading transit apps that work well offline.
-#* The app called Transit is designed to work even when offline. It uses the phone's GPS and highly compressed route information to provide directions. It does not have real-time arrival information when offline.<ref>[https://transit.helpscoutdocs.com/article/90-does-transit-work-offline Does Transit Work Offline?] Trasit. Retrieved May 19, 2019</ref>
+#* The app called Transit is designed to work even when offline. It uses the phone's GPS and highly compressed route information to provide directions. It does not have real-time arrival information when offline.<ref>[https://transit.helpscoutdocs.com/article/90-does-transit-work-offline Does Transit Work Offline?] Trasit. Retrieved May 19, 2019</ref><ref>[https://medium.com/transit-app/how-we-shrank-our-trip-planner-till-it-didnt-need-data-84984ca56663 How we shrank our trip planner till it didn’t need data. Introducing public transit’s fastest, tiniest, offline-capable trip planner]. Transit on Medium. February 25, 2019</ref>
 #* If using Google Maps, preload the route while online and then use the phone's GPS navigation.
 
 === Minimizing Resource Reload (During Poor Connectivity) ===
