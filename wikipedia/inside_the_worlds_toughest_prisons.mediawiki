@@ -1,0 +1,127 @@
+{{Infobox television
+|show_name                = Inside the World's Toughest Prisons
+|image                    = 
+|caption                  = 
+|genre                    = [[Documentary]]
+|creator                  = 
+|director                 = 
+|presenter                = [[Paul Connolly (journalist)|Paul Connolly]] (Season 1), [[Raphael Rowe]] (Seasons 2 and 3)
+|starring                 = 
+|theme_music_composer     = 
+|country                  = [[United Kingdom]]
+|language                 = English (presenter), local languages of countries whose prison systems were visited (Spanish, Portuguese, Ukrainian, Romanian, Polish)
+|num_seasons              = 3
+|num_episodes             = 12
+|executive_producer       = {{Plainlist|
+* Emma Read (Emporium)
+* Gabe Solomon (Emporium)
+* Olivia LaRoche for season 2 onward (commissioned the show for Netflix)
+}}<ref name=variety-season-2/>
+}}
+
+'''''Inside the World's Toughest Prisons''''' is a three-season television documentary produced by London-based Emporium Productions<ref name=variety-season-2/> and available on [[Netflix]].<ref name=netflix>{{cite web|url = https://www.netflix.com/title/80116922|title = Inside the World's Toughest Prisons|accessdate = June 2, 2019|publisher = Netflix}}</ref> The documentary shows life in 12 prisons around the world, mostly from the prisoner perspective but also including the perspective of prison guards and others interacting with the prison system. Season 1 was hosted by Irish journalist [[Paul Connolly (journalist)|Paul Connolly]] and originally aired on [[Channel 5 (UK)]].<ref name=channel5>{{cite web|url = https://www.channel5.com/show/inside-the-worlds-toughest-prisons/|title = Inside the World's Toughest Prisons|publisher = Channel 5|accessdate = June 2, 2019}}</ref><ref name=season-1-poland>{{cite web|url = https://www.independent.co.uk/arts-entertainment/tv/features/inside-the-worlds-toughest-prisons-paul-connolly-spent-time-in-polands-piotrkow-prison-for-channel-5-a6865826.html|title = Inside The World's Toughest Prisons: Paul Connolly spent time in Poland's Piotrkow for Channel 5 series|date = February 10, 2016|accessdate = June 2, 2019|publisher = The Independent|last = Harding|first = Nick}}</ref> Seasons 2 and 3 were commissioned by Netflix and hosted by UK journalist [[Raphael Rowe]], who had himself served 12 years in prison for a crime he was eventually acquitted of.<ref name=variety-season-2>{{cite web|url = https://variety.com/2018/tv/news/netflix-original-inside-the-worlds-toughest-prisons-1202851158/|title = Netflix Locks Up Deal for 'Inside the World's Toughest Prisons'|last = Clarke|first = Stewart|date = June 19, 2018|accessdate = June 2, 2019}}</ref><ref name=deadline-season-2>{{cite web|url = https://deadline.com/2018/06/netflix-goes-inside-the-worlds-toughest-prisons-with-latest-factual-original-1202413436/|title = Netflix Goes ‘Inside The World’s Toughest Prisons’ With Latest Factual Original|last = White|first = Peter|date = June 19, 2018|accessdate = June 2, 2019|publisher = Deadline}}</ref><ref>{{cite web|url = https://us.blastingnews.com/curiosities/2018/06/netflix-brings-a-new-four-part-series-of-inside-the-worlds-toughest-prisons-next-month-002633379.amp.html|title = Netflix brings a new four-part series of 'Inside the World's Toughest Prisons' next month|last = Lease|first = Lawrence|last2 = Flowers|first2 = Jane|publisher = BlastingNews|date = June 20, 2018|accessdate = June 2, 2019}}</ref><ref name=decider-season-2>{{cite web|url = https://decider.com/2018/07/12/inside-the-worlds-toughest-prisons-season-2/|title = ‘Inside the World’s Toughest Prisons’ Looks at Prison Life From an Insider’s Perspective|last = Cobb|first = Kayla|date = July 12, 2018|accessdate = June 2, 2019|publisher = Decider}}</ref>
+
+== Episodes ==
+
+=== Season 1 ===
+
+Season 1, hosted by [[Paul Connolly (journalist)|Paul Connolly]], was aired in 2016 on [[Channel 5 (UK)|Channel 5]] in the United Kingdom.<ref name=season-1-poland/> It is now available on Netflix along with Seasons 2 and 3.<ref name=netflix/>
+
+{{Episode table|total_width= |overall= |title= |airdate= |episodes=
+{{Episode list
+| EpisodeNumber   = 1
+| Title           = Honduras
+| OriginalAirDate = {{start date|2016|04|20}}
+| ShortSummary    = Connolly spends a week inside [[Danlí, El Paraíso|Danli]] [[prisons in Honduras|prison]] in [[Honduras]]. Distinguishing features of the prison: the toughest inmates are armed and act as enforcers for the overwhelmed guards.
+}}
+{{Episode list
+| EpisodeNumber   = 2
+| Title           = Poland
+| OriginalAirDate = {{start date|2016|04|27}}
+| ShortSummary    = Connolly spends time in [[Poland]]'s [[Piotrków Trybunalski|Piotrków]] [[prisons in Poland|prison]]. Distinguishing features of the prison: prisoners have to stay in their cells 23 hours a day, and the prison experience is quite claustrophobic.
+}}
+{{Episode list
+| EpisodeNumber   = 3
+| Title           = Mexico
+| OriginalAirDate = {{start date|2016|03|03}}
+| ShortSummary    = Connolly spends time in [[Mexico]]'s El Hongo prison.
+}}
+{{Episode list
+| EpisodeNumber   = 4
+| Title           = Philippines
+| OriginalAirDate = {{start date|2016|05|04}}
+| ShortSummary    = Connolly spends time in two prisons in the [[Philippines]]. Distinguishing features of the prison: overcrowding, gangs, and intimidation are a way of life.
+}}
+}}
+
+=== Season 2 ===
+
+Season 2, produced by Netflix with host [[Raphael Rowe]], was released on July 6, 2018 on Netflix.
+
+{{Episode table|total_width= |overall= |title= |airdate= |episodes=
+{{Episode list
+| EpisodeNumber   = 1
+| Title           = Brazil: The Gang Prison
+| OriginalAirDate = {{start date|2018|07|06}}
+| ShortSummary    = Rowe spends a few days as both a guard and a prison in [[Brazil]]'s [[Porto Velho]] penitentiary. Distinguishing features of the prison: constant tensions and risk of violence and riots between Brazil's two leading drug gangs, the [[Primeiro Comando da Capital]] (PCC) and [[Comando Vermelho]] (Red Command), due to which the prison guards attempt to segregate the prison based on gang affiliations.
+}}
+{{Episode list
+| EpisodeNumber  =  2
+| Title          =  Ukraine: The Prison in a War Zone
+| OriginalAirDate = {{start date|2018|07|06}}
+| ShortSummary   =  Rowe spends time in [[Ukraine]]'s [[Zhytomyr]] prison. Distinguishing features of the prison: a skeleton crew that allows prisoners to freely roam around the grounds, often with potentially dangerous weapons.
+}}
+{{Episode list
+| EpisodeNumber  =  3
+| Title          =  Papua New Guinea: The Breakout Prison
+| OriginalAirDate = {{start date|2018|07|06}}
+| ShortSummary   =  Rowe visits the short-staffed Bomana Prison in [[Papua New Guinea]]. Distinguishing features of the prison: near-constant food shortages that keep the facility on the brink of chaos.
+}}
+{{Episode list
+| EpisodeNumber  =  4
+| Title          =  Belize: The Prison that Found God
+| OriginalAirDate = {{start date|2018|07|06}}
+| ShortSummary   =  Rowe sends time in Belize Central Prison in [[Belize]]. Distinguishing features of the prison: an approach to rehabilitation based on evangelism (God).
+}}
+}}
+
+=== Season 3 ===
+
+Season 3, produced by Netflix with host [[Raphael Rowe]], was released on December 14, 2018 on Netflix.
+
+{{Episode table|total_width= |overall= |title= |airdate= |episodes=
+{{Episode list
+| EpisodeNumber  =  1
+| Title          =  Costa Rica: Prison on a Knife-Edge
+| OriginalAirDate=  {{start date|2018|12|14}}
+| ShortSummary   =  Rowe spends time in [[Costa Rica]]'s La Reforma Prison, including a visit to the maximum-security part and time spent in the medium-security and low-security parts. Distinguishing features of the prison: the medium-security part of the prison is quite overcrowded and depressing, but the low-security part of the prison feels much more welcoming.
+}}
+{{Episode list
+| EpisodeNumber  =  2
+| Title          =  Colombia: Narco Prison
+| OriginalAirDate= {{start date|2018|12|14}}
+| ShortSummary   =  Rowe spends time in the fortress-like prison in [[Bogotá]], [[Colombia]]. Distinguishing features of the prison: claustrophobic conditions and problems of drug use in the prison despite a lot of monitoring and searching by the authorities.
+}}
+{{Episode list
+| EpisodeNumber  =  3
+| Title          =  Romania: Gypsy Prison
+| OriginalAirDate= {{start date|2018|12|14}}
+| ShortSummary   =  Rowe spends a week in a maximum security prison in [[Craiova]], [[Romania]]. Distinguishing features of the prison: very little outdoor space, so prisons are kept locked in their cells most of the day. Also, the [[Romani people]] make up over half the prison population, significantly overrepresented relative to their share of the overall Romania population.
+}}
+{{Episode list
+| EpisodeNumber  =  4
+| Title          =  Norway: The Perfect Prison?
+| OriginalAirDate= {{start date|2018|12|14}}
+| ShortSummary   =  Rowe spends time in [[Halden Prison]] in [[Norway]], a maximum-security prison. Distinguishing features of the prison: Halden is experimenting with a radically new prison structure based on the principle of normality: try to make prison life closely approximate life outside prison, so as to rehabilitate prisoners and prepare them for successful reentry into society.
+}}
+}}
+
+== References ==
+
+{{reflist|30em}}
+
+== External links ==
+
+* [https://www.netflix.com/title/80116922 Inside the World's Toughest Prisons] on Netflix
+* {{IMDb title|id = 6322264}}
+
