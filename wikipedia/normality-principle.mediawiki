@@ -1,0 +1,34 @@
+The '''normality principle''' (Norwegian: ''normalitetsprinsippet'') is a principle used by the [[Norwegian Correctional Service]] that guides the practice of [[incarceration in Norway]]. The principle drives the punishment for crimes to focus only on the restriction of liberty and to not deprive the sentenced offender of other rights, where feasible.<ref name=ncs-en>{{cite web|url = https://www.kriminalomsorgen.no/information-in-english.265199.no.html|title = About the Norwegian Correctional Service|accessdate = June 22, 2019|publisher = [[Norwegian Correctional Service]]}}</ref><ref name=ncs-no>{{cite web|url = https://www.kriminalomsorgen.no/om-kriminalomsorgen.237840.no.html|title = Om kriminalomsorgen|accessdate = June 22, 2019|publisher = [[Norwegian Correctional Service]]}}</ref><ref name=atlantic-on-scandinavian-prisons>{{cite web|url = https://www.theatlantic.com/international/archive/2013/09/why-scandinavian-prisons-are-superior/279949/|title = Why Scandinavian Prisons Are Superior. 'Open' prisons, in which detainees are allowed to live like regular citizens, should be a model for the U.S.|last = Larson|first = Doran|date = September 24, 2013|accessdate = June 22, 2019}}</ref>
+
+== Description ==
+
+The Norwegian Correctional Service describes the normality principle as follows:<ref name=ncs-en/>
+
+* The punishment is the restriction of liberty; no other rights have been removed by the sentencing court. Therefore the sentenced offender has all the same rights as all other who live in Norway.
+* No-one shall serve their sentence under stricter circumstances than necessary for the security in the community. Therefore offenders shall be placed in the lowest possible security regime.
+* During the serving of a sentence, life inside will resemble life outside as much as possible.
+
+In addition to security reasons, infrastructural and financial reasons are cited as possible reasons for further denying sentenced offenders some rights.
+
+A similar description of the principle is provided by Marianne Vollan, Director General of the Norwegian Correctional Service, in an interview.<ref name=vollan-interview>{{cite web|url = https://justice-trends.press/full-rights-citizens-the-principle-of-normality-in-norwegian-prisons/|title = Interview: Marianne Vollan|publisher = Justice Trends|accessdate = June 22, 2019}}</ref>
+
+== Reception ==
+
+The article ''Maintaining normality when serving a prison sentence in the digital society'' in the ''[[Croatian Medical Journal]]'' discusses the practice of the normality principle in Norway. It notes that the restrictions on Internet use and telephone use runs against the normality principle, and may prevent inmates from learning digital skills necessary to reintegrate into society.<ref>{{cite journal|title = Maintaining normality when serving a prison sentence in the digital society
+|url = https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6330768/|journal = Croatian Medical Journal|volume = 59|issue = 6|pages = 335–339|doi = 10.3325/cmj.2018.59.335|pmid = 30610776|last = Toreld|first = Eva Marie|last2 = Haugli|first2 = Kristin Opaas|last3 = Svalastog|first3 = Anna Lydia}}</ref>
+
+An article in ''[[The Atlantic]]'' about Scandinavian prison systems discusses the normality principle as part of its discussion of the Norwegian prison system.<ref name=atlantic-on-scandinavian-prisons/>
+
+The last episode of ''[[Inside the World's Toughest Prisons]]'', a documentary series with each episode taking an inside look into a prison, look at the [[Halden Prison]] in Norway. The normality principle is discussed in the episode. Are Høidal, the governor of Halden Prison (who is also interviewed in the episode) has also written an article for the ''Federal Sentencing Register'' describing the normality principle in action in Halden Prison.<ref>{{cite journal|url = https://fsr.ucpress.edu/content/31/1/58|title = Normality behind the Walls: Examples from Halden Prison|journal = Federal Sentencing Reporter|volume = 31|issue = 1|pages = 58-66|doi = 10.1525/fsr.2018.31.1.58|last = Høidal|first = Are}}</ref>
+
+== See also ==
+
+* [[Norwegian Correctional Service]]
+* [[Incarceration in Norway]]
+
+== References ==
+
+{{reflist|30em}}
+
+[[Category: Restorative justice]]
+[[Category: Penal system in Norway]]
