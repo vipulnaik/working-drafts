@@ -1,9 +1,12 @@
-NNTR = no need to repeat (if done once, should persist on my VM)
+These instructions are still a work in progress. We are figuring out some rough edges first.
 
-D29 = Done already if upgraded to MediaWiki 1.29
+NNTR = no need to repeat across different MediaWiki installations for 1.33 on the same VM
+
+D29 = Done for MediaWiki 1.29, so no need to redo if the wiki is being upgraded from 1.29 to 1.33
+
 == Upgrade MediaWiki ==
 
-=== Update PHP (NNTR) ===
+=== Update PHP (NNTR; D29) ===
 
 * Assume you are starting with PHP 7.0 (NNTR)
 
@@ -13,11 +16,11 @@ D29 = Done already if upgraded to MediaWiki 1.29
 
 === Get basic MediaWiki setup in place ===
 
-* Create folder ~/software/mediawiki/1.29 (NNTR)
+* Create folder ~/software/mediawiki/1.33 (NNTR)
 
-* Run `wget https://releases.wikimedia.org/mediawiki/1.29/mediawiki-1.29.2.tar.gz` in that folder (NNTR)
+* Run `wget https://releases.wikimedia.org/mediawiki/1.33/mediawiki-1.33.0.tar.gz` in that folder (NNTR)
 
-* Run `tar -xvzf mediawiki-1.29.2.tar.gz` in that folder (NNTR)
+* Run `tar -xvzf mediawiki-1.33.0.tar.gz` in that folder (NNTR)
 
 * Create new copy ~/mediawiki/<project>-new/ with subfolders w/ and logs/ and copy ~/software/mediawiki/1.29/mediawiki-1.29.2/ into the subfolder w/
 
@@ -33,10 +36,10 @@ D29 = Done already if upgraded to MediaWiki 1.29
 
 * chmod -R 777 ~/mediawiki/<project>-new/w/images/
 
-* Add the following in ~/mediawiki/<project>-new/w/LocalSettings.php
+* Add the following in ~/mediawiki/<project>-new/w/LocalSettings.php If the two commented out skins are present, remove them.
 
-wfLoadSkin( 'CologneBlue' );
-wfLoadSkin( 'Modern' );
+# wfLoadSkin( 'CologneBlue' );
+# wfLoadSkin( 'Modern' );
 wfLoadSkin( 'MonoBook' );
 wfLoadSkin( 'Vector' );
 
@@ -44,27 +47,27 @@ wfLoadSkin( 'Vector' );
 
 * Turn off Semantic MediaWiki (since that needs separate upgrading)
 
+* Turn off the following extensions: bookmark.php, labeled section transclusion, and MobileFrontend
+
 === Nginx ===
 
 * Change <project>/ to <project>-new/ in the nginx config
 
 * Restart Nginx and PHP7.0-FPM
 
-=== Scribunto ===
+=== Scribunto (D29) ===
 
-* Create ~/software/mediawiki/extensions/scribunto/ (NNTR)
+* Create ~/software/mediawiki/extensions/scribunto/ (NNTR; D29)
 
-* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-Scribunto.git (NNTR)
+* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-Scribunto.git (NNTR; D29)
 
-* Switch to branch REL1_29 (NNTR)
+* Go to ~/software/mediawiki/extensions/scribunto/mediawiki-extensions-Scribunto/ then `git fetch` and then `git checkout REL1_33` (NNTR)
 
-* mkdir ~/mediawiki/<project>-new/w/extensions/Scribunto
+* mkdir ~/mediawiki/<project>-new/w/extensions/Scribunto (if it exists, empty it out)
 
 * In Scribunto, cp -r ~/software/mediawiki/extensions/scribunto/mediawiki-extensions-Scribunto/* ./
 
-* chmod a+x ~/mediawiki/<project>-new/w/extensions/Scribunto/engines/LuaStandalone/binaries/lua5_1_5_linux_64_generic/lua
-
-* Add these two lines in ~/mediawiki/<project>-new/w/extensionlist.inc
+* Add these two lines in ~/mediawiki/<project>-new/w/extensionlist.inc (NNTR)
 
 require_once("extensions/Scribunto/Scribunto.php");
 $wgScribuntoDefaultEngine = 'luastandalone';
@@ -73,43 +76,43 @@ $wgScribuntoDefaultEngine = 'luastandalone';
 
 === ParserFunctions ===
 
-* Create ~/software/mediawiki/extensions/ParserFunctions/ (NNTR)
+* Create ~/software/mediawiki/extensions/ParserFunctions/ (NNTR; D29)
 
-* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-ParserFunctions.git (NNTR)
+* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-ParserFunctions.git (NNTR; D29)
 
-* Switch to branch REL1_29 (NNTR)
+* Go to ~/software/mediawiki/extensions/ParserFunctions/mediawiki-extensions-ParserFunctions/ run `git fetch` then run `git checkout REL1_33` (NNTR)
 
 * Empty out if already present ~/mediawiki/<project>-new/w/extensions/ParserFunctions
 
 * In ParserFunctions, cp -r ~/software/mediawiki/extensions/ParserFunctions/mediawiki-extensions-ParserFunctions/* ./
 
-* In ~/mediawiki/<project>-new/w/extensionlist.inc, add the line:
+* In ~/mediawiki/<project>-new/w/extensionlist.inc, add the line: (D29)
 
 wfLoadExtension( 'ParserFunctions' );
 
-=== Cite ===
+=== Cite (D29) ===
 
-* Create ~/software/mediawiki/extensions/Cite/ (NNTR)
+* Create ~/software/mediawiki/extensions/Cite/ (NNTR; D29)
 
-* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-Cite.git (NNTR)
+* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-Cite.git (NNTR; D29)
 
-* Switch to branch REL1_29 (NNTR)
+* Go to ~/software/mediawiki/extensions/Cite/mediawiki-extensions-Cite/ run `git fetch` then run `git checkout REL1_33` (NNTR)
 
 * Empty out if already present ~/mediawiki/<project>-new/w/extensions/Cite
 
 * In Cite, cp -r ~/software/mediawiki/extensions/Cite/mediawiki-extensions-Cite/* ./
 
-* In ~/mediawiki/<project>-new/w/extensionlist.inc, add the line:
+* In ~/mediawiki/<project>-new/w/extensionlist.inc, add the line: (D29)
 
 wfLoadExtension( 'Cite' );
 
 === MobileFrontend ===
 
-* Create ~/software/mediawiki/extensions/MobileFrontend/ (NNTR)
+* Create ~/software/mediawiki/extensions/MobileFrontend/ (NNTR; D29)
 
-* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-MobileFrontend.git (NNTR)
+* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-MobileFrontend.git (NNTR; D29)
 
-* Switch to branch REL1_29 (NNTR)
+* Go to ~/software/mediawiki/extensions/MobileFrontend/mediawiki-extensions-MobileFrontend/ then run `git fetch` then run `git checkout REL1_33` (NNTR)
 
 * Empty out if already present ~/mediawiki/<project>-new/w/extensions/MobileFrontend
 
@@ -122,21 +125,17 @@ $wgMFAutodetectMobileView = true;
 
 === Math ===
 
-* Create ~/software/mediawiki/extensions/Math/ (NNTR)
+* Create ~/software/mediawiki/extensions/Math/ (NNTR; D29)
 
-* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-Math.git (NNTR)
+* In there, run git clone git@github.com:wikimedia/mediawiki-extensions-Math.git (NNTR; D29)
 
-* Switch to branch REL1_29 (NNTR)
-
-* Make some changes to math/render.ml by converting to absolute paths (NNTR)
+* Go to ~/software/mediawiki/extensions/Math/mediawiki-extensions-Math/ then run `git fetch` then run `git checkout REL1_33` (NNTR)
 
 * Empty out if already present ~/mediawiki/<project>-new/w/extensions/Math
 
 * In Math, cp -r ~/software/mediawiki/extensions/Math/mediawiki-extensions-Math/* ./
 
-* Run make
-
-* In ~/mediawiki/<project>-new/w/mathsettings.inc, add the line:
+* In ~/mediawiki/<project>-new/w/mathsettings.inc, add the line: (D29)
 
 wfLoadExtension( 'Math' );
 
@@ -148,7 +147,7 @@ and remove the line include_once ...
 
 * Quiz to upgrade or disable; upgrade if the extension exists and quiz pages are being used on the site, cp -r ~/software/mediawiki/extensions/Quiz/mediawiki-extensions-Quiz/* ./
 
-=== Upgrade Semantic MediaWiki ===
+=== Upgrade Semantic MediaWiki (D29) ===
 
 (Still not done)
 
@@ -198,3 +197,5 @@ php7.0 maintenance/update.php --quick --skip-external-dependencies
 * Finally, we need to rebuild all the data, so run
 
 php7.0 extensions/SemanticMediaWiki/maintenance/rebuildData.php
+
+
