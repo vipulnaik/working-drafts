@@ -1,0 +1,224 @@
+This article gives formula(s) for the conjugacy class sizes in a [[general linear group]] of finite degree <math>n</math> over a [[finite field]] with <math>q</math> elements, which we denote by <math>GL(n,q)</math>.
+
+See also [[element structure of general linear group over a finite field]].
+==Case of semisimple elements==
+
+===Elements diagonalizable over <math>\mathbb{F}_q</math>===
+
+==== Setup ====
+Suppose <math>g \in GL(n,q)</math> is diagonalizable over <math>\mathbb{F}_q</math>, with eigenvalues <math>\lambda_1, \dots, \lambda_k</math> having multiplicities <math>r_1,r_2,\dots,r_k</math> respectively (the <math>\lambda_i</math>s are all distinct). Note that <math>\sum_{i=1}^k r_i = n</math>.
+
+Further, let's say that among the <math>r_i</math>s, there are <math>s_1</math> 1s, <math>s_2</math> 2s, and so on till <math>s_n</math> <math>n</math>s.
+
+Then, the centralizer of the diagonal representative of this conjugacy class is isomorphic to:
+
+<math>GL(r_1,q) \times GL(r_2,q) \times GL(r_3,q) \times \dots \times GL(r_k,q)</math>
+
+In fact, if the diagonal entries are arranged so that all the <math>\lambda_1</math>s occur first, then the <math>\lambda_2</math>s, and so on, then the centralizer is the set of invertible block diagonal matrices with blocks of sizes <math>r_1, r_2, \dots, r_k</math>.
+
+==== Summary information ====
+
+{| class="sortable" border="1"
+! Item !! Value !! Degree as polynomial in <math>q</math> !! Largest power of <math>q</math> in polynomial for value !! Largest power of <math>q - 1</math> in polynomial for value !! Leading coefficient
+|-
+| Order of centralizer || <math>q^{\sum_{i=1}^k \binom{r_i}{2}} \prod_{i=1}^k \prod_{j=0}^{r_i} (q^{r_i - j} - 1)</math> || <math>\sum_{i=1}^k r_i^2</math> || <math>\sum_{i=1}^k \binom{r_i}{2} = \frac{1}{2} \left(\sum_{i=1}^k r_i^2 \right) - \frac{n}{2}</math> || <math>n</math> || 1
+|-
+| Size of conjugacy class (obtained as order of <math>GL(n,q)</math> divided by order of centralizer) || complicated polynomial, but it is the <math>q</math>-analogue of the binomial coefficient and is written as <math>\binom{n}{r_1,r_2,\dots,r_k}_q</math> || <math>n^2 - \sum_{i=1}^k r_i^2</math> || <math>\frac{1}{2}\left(n^2 - \sum_{i=1}^k r_i^2 \right)</math> || 0 || 1
+|-
+| Number of such conjugacy classes || <math>\binom{q - 1}{k} \binom{k}{s_1, s_2, \dots, s_n}</math> || <math>k</math> || 0 || 1 || <math>\frac{1}{\prod_{j=1}^n s_j!}</math>
+|}
+
+==== Examples of conjugacy classes diagonalizable over <math>\mathbb{F}_q</math> ====
+
+Some particular cases for the partition of <math>n</math> as a sum of <math>r_i</math>s, and the corresponding sizes, are given below.
+
+{| class="sortable" border="1"
+! <math>n</math> !! Partition of <math>n</math> !! <math>k</math> !! <math>|GL(n,q)|</math> !! Order of centralizer of diagonal element !! Degree as polynomial of <math>q</math> (equals <math>\sum_{i=1}^k r_i^2</math>) !!  Size of conjugacy class !! Degree as polynomial of <math>q</math> (equals <math>n^2 - \sum_{i=1}^k r_i^2</math>) !! Number of conjugacy classes (degree <math>k</math> polynomial in <math>q</math>) 
+|-
+| 1 || 1 || 1|| <math>q - 1</math> || <math>q - 1</math> || 1 || 1 || 0 || <math>q - 1</math> 
+|-
+| 2 || 2  || 1 || <math>q(q^2 - 1)(q - 1)</math> || <math>q(q^2 - 1)(q - 1)</math> || 4 || 1 || 0 || <math>q - 1</math>
+|-
+| 2 || 1 + 1 || 2 || <math>q(q^2 - 1)(q - 1)</math> || <math>(q - 1)^2</math> || 2 || <math>q(q + 1)</math> || 2 || <math>\binom{q - 1}{2} = \frac{(q - 1)(q - 2)}{2}</math> 
+|-
+| 3 || 3 || 1 || <math>q^3(q^3 - 1)(q^2 - 1)(q - 1)</math> || <math>q^3(q^3 - 1)(q^2 - 1)(q - 1)</math> || 9 || 1 || 0 || <math>q - 1</math>
+|-
+| 3 || 2 + 1 || 2 || <math>q^3(q^3 - 1)(q^2 - 1)(q - 1)</math> || <math>q(q^2 - 1)(q - 1)^2</math> || 5 || <math>q^2(q^2 + q + 1)</math> || 4 || <math>2\binom{q-1}{2} = (q - 1)(q - 2)</math>
+|-
+| 3 || 1 + 1 + 1 || 3 || <math>q^3(q^3 - 1)(q^2 - 1)(q - 1)</math> || <math>(q - 1)^3</math> || 3 || <math>q^3(q^2 + q + 1)(q + 1)</math> || 6 || <math>\binom{q-1}{3} = \frac{(q - 1)(q - 2)(q - 3)}{6}</math>
+|-
+| <math>n</math> || <math>n</math> || 1 || <math>q^{\binom{n}{2}} \prod_{i=0}^{n-1} (q^{n - i} - 1)</math> || <math>q^{\binom{n}{2}} \prod_{i=0}^{n-1} (q^{n-i} - 1)</math> || <math>n^2</math> || 1 || 0 || <math>q - 1</math>
+|-
+| <math>n</math> || <math>1 + 1 + \dots + 1</math> || <math>n</math>  || <math>q^{\binom{n}{2}} \prod_{i=0}^{n-1} (q^{n - i} - 1)</math> || <math>(q - 1)^n</math> || <math>n</math> || <math>q^{\binom{n}{2}}\prod_{i=1}^{n-1} \left[\left(\sum_{j=0}^i q^j \right)\right]</math> || <math>n(n - 1)</math> || <math>\binom{q - 1}{n}</math>
+|}
+
+===Regular semisimple elements not necessarily diagonalizable over the original field===
+
+==== Setup ====
+
+Some elements may be semisimple but not diagonalizable over <math>\mathbb{F}_q</math>, i.e., they can be diagonalized over a suitable field extension of <math>\mathbb{F}_q</math>. We begin by considering the ''regular semisimple'' case -- elements that can be diagonalized over some field extension of <math>\mathbb{F}_q</math> such that all their diagonal entries are pairwise distinct. We can show that these elements are precisely the ones that can be converted over <math>\mathbb{F}_q</math> to a block diagonal form for some partition <math>r_1 + r_2 + \dots + r_k = n</math>, where the entry in block <math>r_i</math> is diagonalizable with distinct diagonal entries over the field <math>\mathbb{F}_{q^{r_i}}</math> and no smaller field.
+
+==== Summary information ====
+In this case, the centralizer of the element in this block diagonal form is:
+
+<math>\mathbb{F}_{q^{r_1}}^\ast \times \mathbb{F}_{q^{r_2}}^\ast \times \dots \times \mathbb{F}_{q^{r_k}}^\ast</math>
+
+{| class="sortable" border="1"
+! Item !! Value !! Degree as polynomial in <math>q</math> || Largest power of <math>q</math> in polynomial for value !! Largest power of <math>q - 1</math> in polynomial for value !! Leading coefficient
+|-
+| Order of centralizer || <math>\prod_{i=1}^k (q^{r_i} - 1)</math> || <math>n</math> || 0 || <math>k</math> || 1
+|-
+| Size of conjugacy class (obtained as order of <math>GL(n,q)</math> divided by order of centralizer) || (complicated polynomial) || <math>n(n - 1)</math> || <math>\binom{n}{2}</math> || <math>n - k</math> || 1
+|-
+| Number of such conjugacy classes || <math>\prod_{j=1}^n \binom{M(q,j)- E(j)}{s_j}</math> (where <math>M(q,j)</math> is a necklace polynomial and <math>E</math> is the characteristic function at 1; see explanation below) || <math>n</math> || <math>\sum_{j=2}^n s_j \frac{j}{\operatorname{square-free part of } j}</math> || number of <math>j</math> with nonzero <math>s_j</math>, i.e., the number of distinct parts in the partition of <math>n</math>. It is less than or equal to <math>k</math> || <math>\prod_{j=1}^n \frac{1}{j^{s_j}(s_j)!}</math> (this is the fraction of elements in the symmetric group <math>S_n</math> whose cycle decomposition matches the partition)
+|}
+
+==== Most elements are regular semisimple ====
+
+As noted in the summary table above:
+
+* For each partition of <math>n</math>, the number of conjugacy classes is a polynomial of degree <math>n</math> and the size of each conjugacy class is a polynomial of degree <math>n(n - 1)</math>. In total, therefore, the number of elements corresponding to that partition is a polynomial of degree <math>n^2</math> in <math>q</math>.
+* The leading coefficient of that polynomial is the product of the leading coefficient for the size of conjugacy class polynomial (which is 1) and the number of conjugacy classes (which is the fraction of elements in the symmetric group <math>S_n</math> whose cycle decomposition corresponds to that partition).
+* Therefore, the total number of regular semisimple elements is a polynomial of degree <math>n^2</math> whose leading coefficient is 1 (this is the sum of "the fraction of elements in the symmetric group <math>S_n</math> whose cycle decomposition corresponds to that partition" over all partitions).
+* The polynomial giving the size of <math>GL(n,q)</math> is also a polynomial of degree <math>n^2</math> with leading coefficient 1.
+* Thus, the number of elements that are not regular semisimple is the difference of the two polynomials, which is a polynomial of degree strictly less than <math>n^2</math>.
+
+Therefore, as <math>q \to \infty</math>, holding <math>n</math> constant, the fraction of elements that are regular semisimple goes to 1. Or, in simple terms, ''most elements are regular semisimple''.
+
+This statement also has an algebraic interpretation when we consider the analogous statement over an infinite algebraic group. Being regular semisimple corresponds to the discriminant of the characteristic polynomial being nonzero. The discriminant of the characteristic polynomial can be written as a polynomial function of the coefficients of the characteristic polynomial (which are the elementary symmetric functions) and hence of the matrix entries. Therefore, the set of regular semisimple elements is an open and hence dense subset, and therefore comprises most elements.
+
+Among the regular semisimple elements, the partition <math>n = n</math>, which corresponds to the case of elements with irreducible characteristic polynomial, gives rise to the largest number of conjugacy classes. Its leading coefficient is <math>1/n</math>. In contrast, the partition <math>n = 1 + 1 + \dots + 1</math>, corresponding to the case of elements diagonalizable over <math>\mathbb{F}_q</math>, gives the fewest number of conjugacy classes; the leading coefficient is <math>1/(n!)</math>.
+
+Finally, note that not only are most elements regular semisimple, most conjugacy classes are also regular semisimple, for very similar reasons.
+
+==== Derivation of number of conjugacy classes in the regular semisimple case ====
+
+{| class="sortable" border="1"
+! Step no. !! Statement !! Justification
+|-
+| 1 || The[[wikipedia:necklace polynomial|necklace polynomial]] <math>M(q,j)</math> is the number of irreducible monic polynomials of degree <math>j</math> over <math>\mathbb{F}_q</math>. The formula for <math>M(q,j)</math> is as follows: <math>M(q, j) = \frac{1}{j} \sum_{d \mid j} \mu\left( \frac{j}{d} \right) q^d</math> || Define <math>N(q,j) = jM(q,j)</math>. We have, by element-counting, that <math>q^j = \sum_{d \mid j} dN(q,d)</math>. Apply Mobius inversion to get <math>N(q,j) = \sum_{d \mid j} \mu\left( \frac{j}{d} \right) q^d</math> and then rewrite <math>N(q,j)</math> in terms of <math>M(q,j)</math>
+|-
+| 2 || The number of irreducible polynomials of degree <math>j</math> over <math>\mathbb{F}_q</math> with invertible roots is <math>M(q,j) - E(j)</math>, where <math>M(q,j)</math> is the necklace polynomial as defined in step (1), and <math>E(j)</math> is the function that is 1 if <math>j = 1</math> and zero otherwise. || When <math>j = 1</math>, the irreducible polynomials include the polynomial with 0 as a root. This is not invertible, so in this case we need to subtract 1 from <math>M(q,1)</math> to get the number of polynomials with invertible roots. For <math>j > 1</math>, the roots are outside <math>\mathbb{F}_q</math>, hence all nonzero, and hence invertible, so nothing needs to be subtracted.
+|-
+| 3 || The total number of conjugacy classes is <math>\prod_{j=1}^n \binom{M(q,j)- E(j)}{s_j}</math> || For each <math>j</math>, there are <math>s_j</math> distinct irreducible polynomials with invertible roots (distinctness follows from the regularity assumption). In other words, we need to select <math>s_j</math> elements out of a pool of <math>M(q,j) - E(j)</math> possibilities. The number of ways to select these elements is <math>\binom{M(q,j)- E(j)}{s_j}</math>. Multiplying this expression over <math>j</math> gives the number of possible conjugacy classes.
+|}
+
+==== Example necklace polynomial values ====
+
+{| class="sortable" border="1"
+! Value of <math>j</math> || <math>M(q,j)</math> !! <math>M(q,j) - E(j)</math>
+|-
+| 1 || <math>q</math> || <math>q - 1</math>
+|-
+| a prime number || <math>\frac{q^i - q}{i}</math> || <math>\frac{q^i - q}{i}</math>
+|-
+| a power of a prime <math>t</math> || <math>\frac{q^i - q^{i/t}}{i}</math> || <math>\frac{q^i - q^{i/t}}{i}</math>
+|}
+
+==== Examples of regular semisimple conjugacy classes ====
+
+Note that in the particular cases of the partition <math>1 +1 + \dots + 1</math>, this simplifies to <math> \binom{q - 1}{n}</math>; also this special case is the only case that overlaps with the previous section.
+
+{| class="sortable" border="1"
+! <math>n</math> !! Partition of <math>n</math> !! <math>|GL(n,q)|</math> !! Order of centralizer of representative (degree <math>n</math> polynomial in <math>q</math>) !!  Size of conjugacy class (degree <math>n(n - 1)</math> polynomial in <math>q</math>) !! Number of conjugacy classes (degree <math>n</math> polynomial in <math>q</math>)
+|-
+| 1 || 1 || <math>q - 1</math> || <math>q - 1</math> || 1 || <math>q - 1</math> 
+|-
+| 2 || 2 || <math>q(q^2 - 1)(q - 1)</math> || <math>q^2 - 1</math> || <math>q(q - 1)</math> || <math>M(q, 2) = \frac{q^2 - q}{2} = \frac{q(q - 1)}{2}</math> 
+|-
+| 2 || 1 + 1 || <math>q(q^2 - 1)(q - 1)</math> || <math>(q - 1)^2</math> || <math>q(q + 1)</math> || <math>\binom{M(q,1) - 1}{2} = \binom{q - 1}{2} = \frac{(q - 1)(q - 2)}{2}</math> 
+|-
+| 3 || 3 || <math>q^3(q^3 - 1)(q^2 - 1)(q - 1)</math> || <math>q^3 - 1</math> || <math>q^3(q - 1)^2(q + 1)</math> || <math>M(q, 3) = \frac{q^3 - q}{3} = \frac{q(q^2 - 1)}{3}</math> 
+|-
+| 3 || 2 + 1 || <math>q^3(q^3 - 1)(q^2 - 1)(q - 1)</math>|| <math>(q^2 - 1)(q - 1)</math> || <math>q^3(q^3 - 1)</math> || <math>M(q, 2)(M(q,1) - 1) = \frac{q^2 - q}{2}(q - 1) = \frac{q(q - 1)^2}{2}</math>
+|-
+| 3 || 1 + 1 + 1 || <math>q^3(q^3 - 1)(q^2 - 1)(q - 1)</math>|| <math>(q - 1)^3</math> || <math>q^3(q^2 + q + 1)(q + 1)</math> || <math>\binom{M(q,1) - 1}{3} = \binom{q - 1}{3} = \frac{(q - 1)(q - 2)(q - 3)}{6}</math>
+|-
+| 4 || 4 || <math>q^6(q^4 - 1)(q^3 - 1)(q^2 - 1)(q - 1)</math> || <math>q^4 - 1</math> || <math>q^6(q^3 - 1)(q^2 - 1)(q - 1)</math> || <math>M(q,4) = \frac{q^4 - q^2}{4} = q^2(q^2 - 1)/4</math>
+|-
+| 4 || 3 + 1 || <math>q^6(q^4 - 1)(q^3 - 1)(q^2 - 1)(q - 1)</math> || <math>(q^3 - 1)(q - 1)</math> || <math>q^6(q^4 - 1)(q^2 - 1)</math> || <math>M(q,3)(M(q,1) - 1) = \frac{q^3 - q}{3}(q - 1) = \frac{q(q^2 - 1)(q - 1)}{3}</math>
+|-
+| 4 || 2 + 2 || <math>q^6(q^4 - 1)(q^3 - 1)(q^2 - 1)(q - 1)</math> || <math>(q^2 - 1)^2</math> || <math>q^6(q^3 - 1)(q^2 + 1)(q - 1)</math> || <math>\binom{M(q,2)}{2} = \frac{q(q - 1)(q + 1)(q - 2)}{8}</math>
+|-
+| 4 || 2 + 1 + 1 || <math>q^6(q^4 - 1)(q^3 - 1)(q^2 - 1)(q - 1)</math> || <math>(q^2 - 1)(q - 1)^2</math> || <math>q^6(q^4 - 1)(q^2 + q + 1)</math> || <math>M(q,2)\binom{M(q,1) - 1}{2} = \frac{q^2 - q}{2} \binom{q - 1}{2} = q(q - 1)^2(q - 2)/2</math>
+|-
+| 4 || 1 + 1 + 1 + 1  || <math>q^6(q^4 - 1)(q^3 - 1)(q^2 - 1)(q - 1)</math> || <math>(q - 1)^4</math> || <math>q^6(q^3 + q^2 + q + 1)(q^2 + q + 1)(q + 1)</math> || <math>\binom{M(q,1) - 1}{4} = \binom{q - 1}{4} = \frac{(q - 1)(q - 2)(q - 3)(q - 4)}{24}</math>
+|}
+
+=== General semisimple case ===
+
+The general semisimple case combines ideas from both the preceding cases (the diagonalizable over <math>\mathbb{F}_q</math> case, and the regular semisimple case), and generalizes both of them.
+
+For a given conjugacy class in <math>GL(n,q)</math>, and for <math>i,j \in \{ 1, 2, \dots, n \}</math> define <math>s_{i,j}</math> to be the number of distinct cases where the conjugacy class contains exactly <math>j</math> conjugate elements of <math>\mathbb{F}_{q^i}^\ast</math> (i.e., a multiplicity of <math>j</math> for an extension of degree <math>i</math> over <math>\mathbb{F}_q</math>).
+
+We have:
+
+<math>\sum_{i, j} ijs_{i,j} = n</math>
+
+The formula for the order of the centralizer:
+
+<math>\prod_{i,j} \left |GL(j,q^i) \right|^{s_{i,j}}</math>
+
+The size of the conjugacy class can be calculated by dividing <math>|GL(n,q)|</math> by the order of the centralizer as given above.
+
+The formula for the number of conjugacy classes can now be given in terms of [[wikipedia:necklace polynomial|necklace polynomial]]s <math>M(q,i)</math>:
+
+<math>\prod_{i=1}^n \binom{M(q,i)}{s_{i,1}, s_{i,2},\dots,s_{i,n}} = \prod_{i=1}^n \left( \binom{M(q,i)}{\sum_j s_{i,j}} \binom{\sum_j s_{i,j}}{s_{i,1}, \dots, s_{i,n}} \right)</math>
+
+Here, we define the necklace polynomial <math>M(q,i)</math> as follows:
+
+<math>M(q,i) = \frac{1}{i} \sum_{d \mid i} \mu \left(\frac{i}{d} \right) q^d</math>
+
+==Case of non-semisimple elements==
+
+===Regular elements with all eigenvalues over <math>\mathbb{F}_q</math>===
+
+We begin by considering a very easy class of non-semisimple elements: those where all the eigenvalues are over <math>\mathbb{F}_q</math>, and where all distinct Jordan blocks correspond to distinct eigenvalues, i.e., they are ''regular elements''.  This means that the minimal polynomial coincides with the characteristic polynomial.
+
+Suppose the Jordan block sizes are <math>r_1, r_2, \dots, r_k</math>.
+
+The centralizer for each Jordan block of size <math>r_i</math> is the invertible matrices in the subalgebra generated by the Jordan block. This corresponds to the units in <math>\mathbb{F}_q[t]/(t^{r_i})</math>, and the size of this group is <math>q^{r_i - 1}(q - 1)</math>.
+
+The order of the centralizer is therefore:
+
+<math>\prod_{i=1}^k (q^{r_i - 1}(q - 1)) = q^{n - k}(q - 1)^k</math>
+
+The size of the conjugacy class is obtained by dividing the order of the group by this expression.
+
+For each partition:
+
+<math>n = r_1 + r_2 + \dots + r_k</math>
+
+The number of conjugacy classes associated with that partition can be calculated as follows. Suppose that, among the <math>r_j</math>s, there are <math>s_1</math> 1s, <math>s_2</math> 2s, and so on. Then, the total number of conjugacy classes is:
+
+<math>\binom{q - 1}{k}\binom{k}{s_1, s_2, \dots, s_n}</math>
+
+The total number of conjugacy classes corresponding to a choice of <math>k</math> is therefore:
+
+<math>\binom{q - 1}{k} \sum \binom{k}{s_1, s_2, \dots, s_n}</math>
+
+where the sum is across all the possible partitions.
+
+{| class="sortable" border="1"
+! <math>n</math> !! Partition of <math>n</math> !! <math>k</math> (number of parts) !! <math>|GL(n,q)|</math> !! Order of centralizer of representative (equals <math>q^{n-k}(q - 1)^k</math>, a degree <math>n</math> polynomial over <math>q</math>) !! Size of conjugacy class (degree <math>n(n - 1)</math> polynomial over <math>q</math>) !! Number of conjugacy classes (degree <math>k</math> polynomial over <math>q</math>)
+|-
+| 1 || 1 || 1 || <math>q - 1</math> || <math>q - 1</math> || 1 || <math>q - 1</math>
+|-
+| 2 || 2 || 1 || <math>q(q^2 - 1)(q - 1)</math> || <math>q(q - 1)</math> || <math>q^2 - 1</math> || <math>q - 1</math>
+|-
+| 2 || 1 + 1 || 2 || <math>q(q^2 - 1)(q - 1)</math> || <math>(q - 1)^2</math> || <math>q(q + 1)</math> || <math>\binom{q - 1}{2} = \frac{(q - 1)(q - 2)}{2}</math>
+|-
+| 3 || 3 || 1 || <math>q^3(q^3 - 1)(q^2 - 1)(q - 1)</math> || <math>q^2(q - 1)</math> || <math>q(q^3 - 1)(q^2 - 1)</math> || <math>q - 1</math>
+|-
+| 3 || 2 + 1 || 2 || <math>q^3(q^3 - 1)(q^2 - 1)(q - 1)</math> || <math>q(q - 1)^2</math> || <math>q^2(q^3 - 1)(q + 1)</math> || <math>2 \binom{q - 1}{2} = (q - 1)(q - 2)</math>
+|-
+| 3 || 1 + 1 + 1 || 3 || <math>q^3(q^3 - 1)(q^2 - 1)(q - 1)</math> || <math>(q - 1)^3</math> || <math>q^3(q^2 + q + 1)(q + 1)</math> || <math>\binom{q - 1}{3} = \frac{(q - 1)(q - 2)(q - 3)}{6}</math>
+|}
+
+=== General case with all eigenvalues over <math>\mathbb{F}_q</math> ===
+
+{{fillin}}
+
+=== Most general case ===
+
+{{fillin}}
