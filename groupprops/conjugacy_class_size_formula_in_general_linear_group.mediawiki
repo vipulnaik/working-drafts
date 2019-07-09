@@ -232,7 +232,7 @@ The centralizer is then described as follows:
 
 * The "diagonalizable over <math>\mathbb{F}_q</math>" case is the special case where <math>s_{i,j} = 0</math> for <math>i > 1</math>. Moreover, <math>s_{1,j}</math> in this general notation matches up with <math>s_j</math> in the notation for that case.
 * The "regular semisimple" case is the special case where <math>s_{i,j} = 0</math> for <math>j > 1</math>. Moreover, <math>s_{i,1}</math> in this general notation matches <math>s_i</math> in the notation for that case.
-* The "scalar over a field extension" case is the special case where there is only one nonzero <math>s_{i,j}</math>. The value of <math>i</math> equals <math>d</math> and <math>j</math> equals <math>n/d</math>.
+* The "scalar over a field extension" case is the special case where there is only one nonzero <math>s_{i,j}</math>. The value of <math>i</math> equals <math>n/d</math> and <math>j</math> equals <math>d</math>.
 
 ==== Summary table ====
 
@@ -247,6 +247,10 @@ We can verify that restricting the formulas in the table below to the special ca
 |-
 | Number of conjugacy classes || <math>\prod_{i=1}^n \binom{M(q,i)}{s_{i,1}, s_{i,2},\dots,s_{i,n}} = \prod_{i=1}^n \left( \binom{M(q,i)}{\sum_j s_{i,j}} \binom{\sum_j s_{i,j}}{s_{i,1}, \dots, s_{i,n}} \right)</math> where <math>M(q,i)</math> is the necklace polynomial || <math> \sum_{i,j} is_{i,j}</math> || <math>\sum_{i=2}^n \sum_{j=1}^n s_{i,j} \frac{i}{\operatorname{square-free part of } i}</math>|| Number of <math>i</math> for which there is at least one nonzero <math>s_{i,j}</math> || <math>\prod_{i,j} \frac{1}{i^{s_{i,j}}(s_{i,j})!}</math>
 |}
+
+==== Examples ====
+
+The smallest example that is not covered by any of the three preceding special cases ("diagonalizable over <math>\mathbb{F}_q</math>", "regular semisimple", and "scalar over a field extension") is where <math>n = 4</math>, with <math>s_{1,2} = s_{2,1} = 1</math> and all other <math>s_{i,j}</math> equal to zero.
 
 ==Case of non-semisimple elements==
 
