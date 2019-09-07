@@ -213,7 +213,9 @@ This is a '''timeline of AI safety'''. AI safety is the field focused on reducin
 |-
 | 2018 || {{dts|April 5}} || Documentary || The documentary ''{{w|Do You Trust This Computer?}}'', directed by {{w|Chris Paine}}, is released. It covers issues related to AI safety and includes interviews with prominent individuals relevant to AI, such as {{w|Ray Kurzweil}}, {{w|Elon Musk}} and {{w|Jonathan Nolan}}.
 |-
-| 2018 || {{dts|May}} || Grant || The Open Philanthropy Project announces the first set of grants for its AI Fellows Program, to 7 AI Fellows pursuing research relevant to AI risk. It also makes a grant of $525,000 to Ought and $100,000 to AI Impacts.<ref name="donations-portal-open-phil-ai-safety" />
+| 2018 || {{dts|April 12}} to 22 || Conference || The first AI Safety Camp is held in Gran Canaria.<ref>{{cite web|url = https://aisafetycamp.com/previous-camps/|title = Previous Camps|accessdate = September 7, 2019}}</ref> The AI Safety Camp team runs about two camps a year.
+|-
+| 2018 || {{dts|May}} || Grant || The Open Philanthropy Project announces the first set of grants for the Open Phil AI Fellowship, to 7 AI Fellows pursuing research relevant to AI risk. It also makes a grant of $525,000 to Ought and $100,000 to AI Impacts.<ref name="donations-portal-open-phil-ai-safety" />
 |-
 | 2018 || {{dts|July}} || Grant || The Open Philanthropy Project grants $429,770 to the University of Oxford to support research on the global politics of advanced artificial intelligence. The work will be led by Professor Allan Dafoe at the Future of Humanity Institute in Oxford, United Kingdom.<ref name="donations-portal-open-phil-ai-safety" />
 |-
@@ -232,6 +234,8 @@ This is a '''timeline of AI safety'''. AI safety is the field focused on reducin
 | 2019 || {{dts|February}} || Grant || The Open Philanthropy Project grants $2,112,500 to the Machine Intelligence Research Institute (MIRI) over two years. This is part of the first batch of grants decided by the Committee for Effective Altruism Support, which will set "grant sizes for a number of our largest grantees in the effective altruism community, including those who work on long-termist causes."<ref name="donations-portal-open-phil-ai-safety" /> Around the same time, BERI grants $600,000 to MIRI.<ref name="donations-portal-beri-ai-safety">{{cite web|url =  https://donations.vipulnaik.com/donor.php?donor=Berkeley+Existential+Risk+Initiative&cause_area_filter=AI+safety|title = Berkeley Existential Risk Initiative donations made (filtered to cause areas matching AI safety)|accessdate = August 18, 2019}}</ref>
 |-
 | 2019 || {{dts|April 7}} || Grant || The Long Term Future Fund, one of the Effective Altruism Funds, announces a set of 23 grants totaling $923,150. About half the grant money is to organizations or projects directly working in AI safety. Recipients include the Machine Intelligence Research Institute (MIRI), AI Safety Camp, Ought, and a number of individuals working on AI safety projects, including three in deconfusion research.<ref name="donations-portal-ea-funds-ai-safety" />
+|-
+| 2019 || {{dts|May}} || Grant || The Open Philanthropy Project announces the second class of the Open Phil AI Fellowship, with 8 machine learning researchers in the class, receiving a total of $2,325,000 in grants.<ref name="donations-portal-open-phil-ai-safety"/>
 |-
 | 2019 || {{dts|June 7}} || Fictional portrayal || The movie ''{{w|I Am Mother}}'' is released on Netflix. According to a comment on Slate Star Codex: "you can use it to illustrate everything from paperclip maximization to deontological kill switches".<ref>{{cite web|url = https://slatestarcodex.com/2019/06/05/open-thread-129-25/|title = OPEN THREAD 129.25|date = June 8, 2019|accessdate = August 18, 2019}}</ref>
 |}
@@ -260,6 +264,7 @@ Issa likes to work locally and track changes with Git, so the revision history o
 * Translations of ''Superintelligence''?
 * universal prior/distant superintelligences stuff
 * Steven Pinker?
+* AI summer school
 * when did the different [https://causeprioritization.org/Template_for_views_on_AI_safety#approaches-to-alignment approaches to alignment] come along?
 * the name change from "friendly AI" to "AI safety" and "AI alignment" is probably worth adding, though this was gradual so kind of hard to pin down as an event. See also [https://forum.effectivealtruism.org/posts/cuB3GApHqLFXG36C6/i-am-nate-soares-ama#AGZGEwsQ6QWda8Xnt this comment].
 * [http://inst.eecs.berkeley.edu/~cs294-149/fa18/ CS 294-149: Safety and Control for Artificial General Intelligence (Fall 2018)], taught by Andrew Critch and Stuart Russell
