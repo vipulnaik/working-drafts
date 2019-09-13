@@ -26,6 +26,11 @@ immediately, so I was not run over.
 The car was a Hyundai Elantra. The driver provided some contact
 details.
 
+The driver explained that although she'd seen me, she thought I wasn't
+crossing, and she failed to notice me because the sun was in her eyes;
+as mentioned above, she was driving westward and it was near the end
+of the day, so this is consistent.
+
 ## Injuries and recovery
 
 ### External injuries
