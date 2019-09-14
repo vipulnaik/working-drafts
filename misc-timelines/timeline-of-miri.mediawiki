@@ -404,7 +404,11 @@ The red vertical line (for June 2015) represents a change in the method of estim
 |-
 | 2018 || {{dts|November 26}} || Financial || MIRI's 2018 fundraiser begins.<ref name=miris-2018-fundraiser>{{cite web |url=https://intelligence.org/2018/11/26/miris-2018-fundraiser/ |title=MIRI's 2018 Fundraiser |publisher=Machine Intelligence Research Institute |date=November 26, 2018 |accessdate=February 14, 2019}}</ref> The fundraiser would conclude on December 31 with $951,817 raised from 348 donors.<ref>{{cite web |url=https://intelligence.org/2019/02/11/our-2018-fundraiser-review/ |title=Our 2018 Fundraiser Review - Machine Intelligence Research Institute |publisher=Machine Intelligence Research Institute |date=February 11, 2019 |accessdate=February 14, 2019}}</ref>
 |-
+| 2018 || {{dts|August}} (joining) {{dts|November 28}} (announcement), {{dts|December 1}} (AMA) || Staff || MIRI announces that prolific Haskell developer Edward Kmett has joined.<ref>{{cite web|url = https://intelligence.org/2018/11/28/miris-newest-recruit-edward-kmett/|title = MIRI’s newest recruit: Edward Kmett!|last = Bensinger|first = Rob|date = November 28, 2018|accessdate = September 14, 2019|publisher = Machine Intelligence Research Institute}}</ref> Kmett participates in an Ask Me Anything (AMA) on Reddit's Haskell subreddit on December 1, 2018. In reply to questions, he clarifies that MIRI's nondisclosure policy will not affect the openness of his work, but as the main researcher at MIRI who publishes openly, he will feel more pressure to produce higher-quality work as the whole organization may be judged by the quality of his work.<ref>{{cite web|url = https://www.reddit.com/r/haskell/comments/a24hw7/miris_newest_recruit_edward_kmett/|title = MIRI's newest recruit: Edward Kmett!|date = December 1, 2018|accessdate = September 14, 2019|publisher = Reddit}}</ref>
+|-
 | 2018 || {{dts|December 15}} || Publication || MIRI announces a new edition of Eliezer Yudkowsky's ''Rationality: From AI to Zombies'' (i.e. the book version of "the Sequences"). At the time of the announcement, the new edition of only two sequences, ''Map and Territory'' and ''How to Actually Change Your Mind'', are available.<ref>{{cite web |url=https://intelligence.org/2018/12/15/announcing-new-raz/ |title=Announcing a new edition of "Rationality: From AI to Zombies" |publisher=Machine Intelligence Research Institute |date=December 16, 2018 |accessdate=February 14, 2019}}</ref><ref>{{cite web |url=https://www.lesswrong.com/posts/NjFgqv8bzjhXFaELP/new-edition-of-rationality-from-ai-to-zombies |title=New edition of "Rationality: From AI to Zombies" |publisher=LessWrong 2.0 |author=Rob Bensinger |accessdate=February 14, 2019}}</ref>
+|-
+| 2019 || {{dts|February}} || Financial || The Open Philanthropy Project grants MIRI $2,112,500 over two years. The grant amount is decided by the Committee for Effective Altruism Support, which also decides on amounts for grants to 80,000 Hours and the Centre for Effective Altruism at around the same time.<ref>{{cite web|url = https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/machine-intelligence-research-institute-general-support-2019|title = Machine Intelligence Research Institute — General Support (2019)|publisher = Open Philanthropy Project|date = April 1, 2019|accessdate = September 14, 2019}}</ref> The Berkeley Existential Risk Initiative (BERI) grants $600,000 to MIRI att around the same time. MIRI discusses both grants in a blog post.<ref>{{cite web|url = https://intelligence.org/2019/04/01/new-grants-open-phil-beri/|title = New grants from the Open Philanthropy Project and BERI|date = April 1, 2019|accessdate = September 14, 2019|publisher = Machine Intelligence Research Institute|last = Bensinger|first = Rob}}</ref>
 |}
 
 ==Meta information on the timeline==
@@ -446,7 +450,6 @@ Feedback for the timeline can be provided at the following places:
 * modal combat and some other domains: [https://github.com/machine-intelligence/provability/blob/master/src/ModalCombat.hs], [http://viewdns.info/reversewhois/?q=Machine%20Intelligence%20Research%20Institute], [http://viewdns.info/reversewhois/?q=Nate%20Soares]
 * https://www.lesswrong.com/posts/yGZHQYqWkLMbXy3z7/video-q-and-a-with-singularity-institute-executive-director
 * https://intelligence.org/2012/01/12/qa-2-with-luke-muehlhauser-singularity-institute-executive-director/
-* https://www.reddit.com/r/haskell/comments/a24hw7/miris_newest_recruit_edward_kmett/ (kmett notes that his own work is outside the non-disclosure policy)
 
 ===Timeline update strategy===
 
@@ -464,6 +467,7 @@ Also general stuff like big news coverage.
 * [[Timeline of Against Malaria Foundation]]
 * [[Timeline of Center for Applied Rationality]]
 * [[Timeline of decision theory]]
+* [[Timeline of Future of Humanity Institute]]
 
 ==External links==
 
