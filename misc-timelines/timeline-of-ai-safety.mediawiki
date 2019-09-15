@@ -89,7 +89,7 @@ This is a '''timeline of AI safety'''. AI safety is the field focused on reducin
 |-
 | 2009 || {{dts|December 11}} || Publication || The third edition of ''{{w|Artificial Intelligence: A Modern Approach}}'' by {{w|Stuart J. Russell}} and {{w|Peter Norvig}} is published. In this edition, for the first time, Friendly AI is mentioned and Eliezer Yudkowsky is cited.
 |-
-| 2010 || || Organization || {{w|DeepMind}} is founded by {{w|Demis Hassabis}}, {{w|Shane Legg}}, and {{w|Mustafa Suleyman}}.
+| 2010 || || Organization || {{w|DeepMind}} is founded by {{w|Demis Hassabis}}, {{w|Shane Legg}}, and {{w|Mustafa Suleyman}}. Legg had previously received the $10,000 Canadian Singularity Institute for Artificial Intelligence Prize.<ref>{{cite web|url = http://www.vetta.org/about-me/|title = About|last = Legg|first = Shane|accessdate = September 15, 2019}}</ref>
 |-
 | 2010 || || Organization || [[w:Vicarious (company)|Vicarious]] is founded by Scott Phoenix and Dileep George. The company "has publicly expressed some concern about potential risks from future AI development" and the founders are signatories on the FLI open letter.<ref name="landscape-current-work-potential-risks" />
 |-
@@ -117,7 +117,7 @@ This is a '''timeline of AI safety'''. AI safety is the field focused on reducin
 |-
 | 2014 || || Publication || Müller and Bostrom's "Future Progress in Artificial Intelligence: A Survey of Expert Opinion" is published.<ref>{{cite web |url=http://www.nickbostrom.com/papers/survey.pdf |title=Future Progress in Artificial Intelligence: A Survey of Expert Opinion - survey.pdf |accessdate=July 28, 2017}}</ref>
 |-
-| 2014 || {{dts|January 26}} || || Google announces that it has acquired {{w|DeepMind}}.
+| 2014 || {{dts|January 26}} || || Google announces that it has acquired {{w|DeepMind}}. At the same time, it sets up an AI ethics board. DeepMind co-founders Shane Legg and Demis Hassabis, as well as AI safety funders Peter Thiel and Jaan Tallinn, are believed to have been influential in the process.<ref>{{cite web|url = https://www.theinformation.com/articles/Google-beat-Facebook-For-DeepMind-Creates-Ethics-Board|title = Google Beat Facebook for DeepMind, Creates Ethics Board|last = Efrati|first = Amir|date = January 26, 2014|accessdate = September 15, 2019|publisher = Huffington Post}}</ref><ref>{{cite web|url = https://www.huffpost.com/entry/google-ai_n_4683343|title = Google’s New A.I. Ethics Board Might Save Humanity From Extinction|last = Bosker|first = Bianca|date = January 29, 2014|accessdate = September 15, 2019}}</ref>
 |-
 | 2014 || {{dts|March}}–May || Organization || {{w|Future of Life Institute}} (FLI) is founded.<ref>{{cite web |url=http://lesswrong.com/lw/kcm/new_organization_future_of_life_institute_fli/ |title=New organization - Future of Life Institute (FLI) |author=Victoria Krakovna |accessdate=July 6, 2017 |publisher=[[w:LessWrong|LessWrong]] |quote=As of May 2014, there is an existential risk research and outreach organization based in the Boston area. The Future of Life Institute (FLI), spearheaded by Max Tegmark, was co-founded by Jaan Tallinn, Meia Chita-Tegmark, Anthony Aguirre and myself.}}</ref>
 |-
