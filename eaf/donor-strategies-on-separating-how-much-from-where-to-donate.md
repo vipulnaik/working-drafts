@@ -1,21 +1,29 @@
+Of late, I have been quite interested in undesrtanding the motivations
+and strategies of different donors. My goal is to better understand
+the entire dynamics of the ecosystem (of donors and donees affecting
+each other). Ultimately, I hope this will help with better figuring
+out where this is the most scope for marginal impact.
+
 In this post, I describe different donor strategies on the extent to
 which they separate the questions of "how much" to donate from "where"
 to donate. In other words, does the donor first decide that they'll
 donate a specific amount, and then decide how tot allocate that, or
 does the donor first determine whom to donate to, then figure out the
-amount to donate.
+amount to donate?
 
 I describe:
 
-* Three broad strategies that donors use (ignoring now versus later
-  considerations): predetermined rule for amount, target selection
-  first, and joint optimization
+* Three broad strategies that donors use (setting aside now versus
+  later considerations): predetermined rule for amount, target
+  selection first, and joint optimization
 
 * The role that saving plays in adding nuance to the strategies
 
 * Philosophical assumptions and beliefs that might justify different
   strategies. In particular, I am interersted in exploring assumptions
   and justifications for the predetermined rule strategy.
+
+* Questions for readers
 
 ## Three broad strategies that donors use
 
@@ -24,7 +32,7 @@ I describe:
 A number of donors use prespecified rules for figuring out how much to donate. For instance:
 
 * Jeff Kaufman and Julia Wise: [goal is 50% of pre-tax income](https://www.jefftk.com/p/what-should-income-mean-in-pledging); their donations are [consistent with this goal](https://www.jefftk.com/donations)
-* Ben Kuhn: [goal is 50% of pre-tax income](https://www.benkuhn.net/giving-2018); donations for 2017 and 2018 have been consistent with this goal
+* Ben Kuhn: [goal is 50% of pre-tax income](https://www.benkuhn.net/giving-2018); donations for [2017](https://www.benkuhn.net/giving-2017) and [2018](https://www.benkuhn.net/giving-2018) have been consistent with this goal
 * Haseeb Qureshi: [goal is 33% of pre-tax income](https://haseebq.com/2018-donations/); donation amounts since 2015 are [consistent with this goal](https://donations.vipulnaik.com/donor.php?donor=Haseeb+Qureshi)
 * Aaron Gertler: [goal is 10% of pre-tax income](https://aarongertler.net/donations/)
 
@@ -37,7 +45,7 @@ Beyond individual donors, this strategy also seems encouraged by
 various donor pledges. For instance:
 
 * The [One for the World pledge](https://www.1fortheworld.org) sets a target of at least 1% of income to donate
-* The pGiving What We Can pledge](https://www.givingwhatwecan.org/pledge/) sets a target of 10% of income to donate
+* The [Giving What We Can pledge](https://www.givingwhatwecan.org/pledge/) sets a target of 10% of income to donate
 * [The Life You Can Save pledge](https://www.thelifeyoucansave.org/take-the-pledge) allows the pledge-taker to determine a percentage, but still pegs the percentage to income
 * The [Giving Pledge](https://givingpledge.org) sets a target of 50% of lifetime wealth to donate
 
@@ -78,15 +86,15 @@ another; particularly good opportunities may displace others.
 
 ### Charity, consumption, and saving
 
-If it were not possible to save from one year to the extent, the
+If it were not possible to save from one year to the next, the
 problem of allocation would simplistically boil down to deciding how
 much of one's money to allocate to charity versus how much to allocate
 to consumption. Donors following the predetermined rule strategy would
 be determining this allocation beforehand, and only after that
 allocating *within* the charity and consumption buckets.
 
-However, the ability to save now makes it possible to defer charity or
-consumption to a future year.
+However, the ability to save now makes it possible to defer both
+charity and consumption to a future year.
 
 With saving introduced into the picture, we could adopt either of two
 positions:
@@ -112,8 +120,9 @@ Donor-advised funds present tax benefits if they are restricted to
 only donate for charitable purposes. Some donors who want the
 flexibility to donate to things not recognized as charitable in the
 tax code may therefore use another vehicle (or perhaps just store the
-money in personal savings) while still clearly demarcating the money
-as "only to be used" for charity.
+money in personal savings), thereby not being able to take immediate
+tax benefits, while still clearly demarcating the money as "only to be
+used" for charity.
 
 ### The role of saving for other strategies
 
@@ -152,7 +161,7 @@ whether they still have room for more funding) and on the consumption
 side (e.g., whether the donor had unexpected personal expenses, or
 loss of income).
 
-### A predetermined rule strategy may make sense for couples because it avoids haggling and may promote harrmony
+### A predetermined rule strategy may make sense for couples because it avoids haggling and may promote harmony
 
 Disputes over allocation of money can affect a couple's
 relationship. If the two members of a couple have different feelings
@@ -170,6 +179,28 @@ donor-advised fund (that requires the money to be spent on charity) is
 a similar precommitment to hedge against a future, less-charitable
 self.
 
+### A prerdetermined rule strategy might be good for norm-setting and community-level predictability
+
+When donors precommit to donating a specific percentage of their
+income, this sets a norm for other donors. We can think of the
+pledges, such as the One for the World Pledge, GWWC Pledge, and TYLCS
+Pledge, as strengthening these norms by giving them more explicit
+labels. This norm may encourage other donors to donate more than they
+otherwise would.
+
+Also, when there's a significant amount of money flowing into
+charities' coffers from the predetermined rule, charities, and the
+community as a whole, know that some amount of money can be counted
+on. This is true even if individual charities don't know for sure if
+the money will go to them -- at least they know that there's enough of
+a pool of money that's committed to charity that they might hope to
+get. If the amount of money that's committed is more than enough to
+meet the budgets of the charities that the donors are considering,
+each charity can be somewhat confident that they'll get at least some
+of it (because the other charities' room for more funding would be
+exhausted before the donors had spent out all the money they
+committed).
+
 ### Predetermined rule strategies make sense for people who believe that their opinion of the "right" amount to donate to charity isn't likely to change with new evidence or developments
 
 Having a predetermined rule doesn't seem to hurt much if the donor
@@ -183,9 +214,9 @@ believes things in this general cluster about giving opportunities:
   right amount to donate is not sensitive to cost-effectiveness
   estimates (see below).
 
-* The entry of exit of other major donors to the cause areas or
-  charities of interest to the donor won't affect the right amount for
-  the donor to donate, *or* such entry or exit is unlikely
+* The entry or exit of other major donors to the cause areas or
+  charities of interest is unlikely, *or* such entry or exit won't
+  affect the right amount to donate
 
 Also, it makes sense if the donor believes things in this general
 cluster about personal finances:
@@ -218,3 +249,26 @@ this](https://blog.givewell.org/2013/06/11/the-moral-case-for-giving-doesnt-rely
 I asked the question on the [Effective Altruism Facebook
 group](https://www.facebook.com/groups/effective.altruists/permalink/656749537714740/),
 where there were a number of interesting replies.
+
+## Questions for readers
+
+My goal with posting this to the Effective Altruism Forum is partly to
+provide a concrete public record of my thoughts. However, I'm also
+interested in hearing thoughts from people on the Forum, many of whom
+are donors of the sort I try to understand in the post.
+
+Some questions I'm particularly interested in hearing thoughts on:
+
+* What's your strategy as a donor? Does it fit within the three broad
+  types of strategies I describe in the post?
+
+* Are there other aspects of these strategies that you consider
+  important, that I missed? For instance, are there some other pros
+  and cons of predetermined rule strategies?
+
+* My imperssion is that the effective altruism (EA) community uses
+  predetermined rules more than other donors, who come closer to
+  "target selection first" or "joint optimization" in their strategy
+  (i.e., they are more likely to be moved by specific events or
+  developments in their decision of how much to donate). Am I right,
+  and if so, is this good?
