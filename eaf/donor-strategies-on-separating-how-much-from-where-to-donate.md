@@ -1,4 +1,4 @@
-Of late, I have been quite interested in undesrtanding the motivations
+Of late, I have been quite interested in understanding the motivations
 and strategies of different donors. My goal is to better understand
 the entire dynamics of the ecosystem (of donors and donees affecting
 each other). Ultimately, I hope this will help with better identifying
@@ -20,7 +20,7 @@ I describe:
 * The role that saving plays in adding nuance to the strategies
 
 * Philosophical assumptions and beliefs that might justify different
-  strategies. In particular, I am interersted in exploring assumptions
+  strategies. In particular, I am interested in exploring assumptions
   and justifications for the predetermined rule strategy.
 
 * Questions for readers
@@ -179,6 +179,10 @@ year. The couple may also decide how much each member controls of the
 charity allocation (just as they may have similar rules on the
 consumption side).
 
+[Although I can't find a link to where I read this, I believe the 50%
+figure that Jeff Kaufman and Julia Wise came up with is an example of
+this sort of compromise in action.]
+
 ### A predetermined rule strategy may be viewed as beneficial in dealing with time-inconsistency issues (people who don't trust their future selves)
 
 The header explains it. Further, saving for charity into a
@@ -186,7 +190,7 @@ donor-advised fund (that requires the money to be spent on charity) is
 a similar precommitment to hedge against a future, less-charitable
 self.
 
-### A prerdetermined rule strategy might be good for norm-setting and community-level predictability
+### A predetermined rule strategy might be good for norm-setting and community-level predictability
 
 When donors precommit to donating a specific percentage of their
 income, this sets a norm for other donors. We can think of the
@@ -255,14 +259,18 @@ estimates. I even wrote a [long comment on the GiveWell blog about
 this](https://blog.givewell.org/2013/06/11/the-moral-case-for-giving-doesnt-rely-on-questionable-quantitative-estimates/#comment-572951). Later,
 I asked the question on the [Effective Altruism Facebook
 group](https://www.facebook.com/groups/effective.altruists/permalink/656749537714740/),
-where there were a number of interesting replies.
+where there were a number of interesting replies that resolved much of
+my puzzlement.
 
 ## Questions for readers
 
 My goal with posting this to the Effective Altruism Forum is partly to
-provide a concrete public record of my thoughts. However, I'm also
-interested in hearing thoughts from people on the Forum, many of whom
-are donors of the sort I try to understand in the post.
+provide a concrete public record of my thoughts. I can link to this
+post and build upon it as I further explore the dynamics of donations.
+
+However, I'm also interested in hearing thoughts from people on the
+Forum, many of whom are donors of the sort I try to understand in the
+post.
 
 Some questions I'm particularly interested in hearing thoughts on:
 
