@@ -266,7 +266,7 @@ Some questions I'm particularly interested in hearing thoughts on:
   important, that I missed? For instance, are there some other pros
   and cons of predetermined rule strategies?
 
-* My imperssion is that the effective altruism (EA) community uses
+* My impression is that the effective altruism (EA) community uses
   predetermined rules more than other donors, who come closer to
   "target selection first" or "joint optimization" in their strategy
   (i.e., they are more likely to be moved by specific events or
