@@ -7,7 +7,7 @@ the true marginal impact of donations.
 In this post, I describe different donor strategies on the extent to
 which they separate the questions of "how much" to donate from "where"
 to donate. In other words, does the donor first decide that they'll
-donate a specific amount, and then decide how tot allocate that, or
+donate a specific amount, and then decide how to allocate that, or
 does the donor first determine whom to donate to, then figure out the
 amount to donate?
 
@@ -194,7 +194,7 @@ self.
 
 When donors precommit to donating a specific percentage of their
 income, this sets a norm for other donors. We can think of the
-pledges, such as the One for the World Pledge, GWWC Pledge, and TYLCS
+pledges, such as the One for the World Pledge, GWWC Pledge, and TLYCS
 Pledge, as strengthening these norms by giving them more explicit
 labels. This norm may encourage other donors to donate more than they
 otherwise would.
