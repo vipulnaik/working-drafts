@@ -1,8 +1,8 @@
 Of late, I have been quite interested in undesrtanding the motivations
 and strategies of different donors. My goal is to better understand
 the entire dynamics of the ecosystem (of donors and donees affecting
-each other). Ultimately, I hope this will help with better figuring
-out where this is the most scope for marginal impact.
+each other). Ultimately, I hope this will help with better identifying
+the true marginal impact of donations.
 
 In this post, I describe different donor strategies on the extent to
 which they separate the questions of "how much" to donate from "where"
@@ -39,24 +39,27 @@ A number of donors use prespecified rules for figuring out how much to donate. F
 The charities to which they donate may vary quite a bit between
 years. For instance, Haseeb Qureshi switched from donating to a mix of
 global health and effective altruism charities, to donating to a mix
-of AI safety and effective altruism charities
+of AI safety and effective altruism charities.
 
 Beyond individual donors, this strategy also seems encouraged by
 various donor pledges. For instance:
 
 * The [One for the World pledge](https://www.1fortheworld.org) sets a target of at least 1% of income to donate
-* The [Giving What We Can pledge](https://www.givingwhatwecan.org/pledge/) sets a target of 10% of income to donate
+* The [Giving What We Can pledge](https://www.givingwhatwecan.org/pledge/) sets a target of at least 10% of income to donate
 * [The Life You Can Save pledge](https://www.thelifeyoucansave.org/take-the-pledge) allows the pledge-taker to determine a percentage, but still pegs the percentage to income
-* The [Giving Pledge](https://givingpledge.org) sets a target of 50% of lifetime wealth to donate
+* The [Giving Pledge](https://givingpledge.org) sets a target of at least 50% of lifetime wealth to donate
 
 ### Target selection first strategy: Identify the "where" first, then decide "how much"
 
-I don't know of donors who explicitly declare that they are following
-this strategy, but it's probably an implicit one for many donors. This
-is a more opportunistic approach to donation: the donor finds a
-charity that seems promising to donate to, then figures out how much
-the donor can afford to donate to that charity and how much the
-charity needs. The donor decides the amount based on that.
+I don't know of too many donors who explicitly declare that they are
+following this strategy, but it's probably an implicit one for many
+donors (I believe [my own
+donations](https://vipulnaik.com/donation-history/) have largely
+followed this pattern). This is a more opportunistic approach to
+donation: the donor finds a charity that seems promising to donate to,
+then figures out how much the donor can afford to donate to that
+charity and how much the charity needs. The donor decides the amount
+based on that.
 
 Donors who follow this strategy will differ from donors who follow
 predetermined rules in a few ways:
@@ -67,7 +70,11 @@ predetermined rules in a few ways:
 ### Joint optimization strategy: Decide the "how much" and "where" together
 
 I don't know of donors who explicitly declare that they are following
-this strategy, but it's probably an implicit one for many donors.
+this strategy, but it's probably an implicit one for many donors. I
+believe [Peter Hurford](http://peterhurford.com/other/donations.html)
+and [Patrick
+Brinich-Langlois](https://www.patbl.com/misc/other/donations/) fit
+this strategy.
 
 For instance, this could be a donor who, periodically, looks at their
 finances to identify the general range of money that person is willing
