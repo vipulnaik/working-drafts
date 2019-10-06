@@ -23,19 +23,18 @@ characteristics:
    timeframe. In the EA community, some funds that have acted as
    top-up donors for many charities are: the EA Funds (the Animal
    Welfare Fund, Long Term Future Fund, Meta Fund, and Global Health
-   and Development Fund), GiveWell discretionary regranting (funded by
-   Good Ventures), Animal Charity Evaluators' Recommended Charity
-   Fund, and the Berkeley Existential Risk Initiative (BERI) (which
-   appears to have transitioned this role to the Survival and
-   Flourishing Fund (SFF)).
+   and Development Fund), GiveWell discretionary regranting, Animal
+   Charity Evaluators' Recommended Charity Fund, and the Berkeley
+   Existential Risk Initiative (BERI) (which appears to have
+   transitioned this role to the Survival and Flourishing Fund (SFF)).
 
 3. Other donors, usually individual and smaller foundation donors:
    They grant more erratically, and the total amount per donor is
    lower.
 
-I see the value of this post primarily in terms of shedding light on
-the role of top-up donors, who are a relatively new feature of the EA
-funding ecosystem.
+I believe a key value-add of this post is shedding light on the role
+of top-up donors, who are a relatively new feature of the EA funding
+ecosystem
 
 ## The role of primary donors such as the Open Philanthropy Project (Open Phil)
 
@@ -135,3 +134,6 @@ covered by BERI/SFF.
 My general estimate is that donating to a charity reduces the
 likelihood and amount of funding it will receive from top-up donors in
 the short term.
+
+That's partly because of the nature of top-up donations -- they help
+close funding gaps.
