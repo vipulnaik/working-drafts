@@ -6,9 +6,9 @@ donees affecting each other). Ultimately, I hope this will help with
 better identifying the true marginal impact of donations.
 
 For this post, I'll use the term "donee" instead of charity. Most
-donees are charities, but we can imagine nonprofit organizations as
-well as individuals who are fundraising, and to whom the same dynamics
-apply.
+donees are charities, but we can imagine organizations that don't have
+charity status, non-incorporated projects, as well as individuals who
+are fundraising, and to whom the same dynamics apply.
 
 In the context of the effective altruist (EA) funding ecosystem, I
 identified three types of donors with different qualitative
