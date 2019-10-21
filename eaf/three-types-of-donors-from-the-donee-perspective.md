@@ -5,12 +5,17 @@ better understand the entire dynamics of the ecosystem (of donors and
 donees affecting each other). Ultimately, I hope this will help with
 better identifying the true marginal impact of donations.
 
+For this post, I'll use the term "donee" instead of charity. Most
+donees are charities, but we can imagine nonprofit organizations as
+well as individuals who are fundraising, and to whom the same dynamics
+apply.
+
 In the context of the effective altruist (EA) funding ecosystem, I
 identified three types of donors with different qualitative
 characteristics:
 
 1. Primary donors: They fund over long timeframes (1 to 5 years),
-   cover a large share of the charity's budget (25% or higher), and
+   cover a large share of the donee's budget (25% or higher), and
    usually have a more formal structure. In the EA community, the Open
    Philanthropy Project (Open Phil) is a dominant primary donor to
    many AI safety orgs, many animal welfare orgs, many EA meta orgs,
@@ -19,7 +24,7 @@ characteristics:
 
 2. Top-up donors: They usually have more frequent funding cycles
    (several times a year), fund smaller amounts per cycle, and help
-   close the room for more funding of the charity over shorter
+   close the room for more funding of the donee over shorter
    timeframe. In the EA community, some funds that have acted as
    top-up donors for many charities are: the EA Funds (the Animal
    Welfare Fund, Long Term Future Fund, Meta Fund, and Global Health
@@ -41,14 +46,14 @@ ecosystem
 Primary donors play a number of important roles:
 
 * The primary donors provide a large proportional share of the
-  charity's budget, and likely pay upfront, giving the recipient
-  charity flexibility and financial liquidity.
+  donee's budget, and likely pay upfront, giving the recipient
+  donee flexibility and financial liquidity.
 
 * The primary donors provide long-term funding, which helps the
-  recipient charity plan for the longer term.
+  donee plan for the longer term.
 
 * The primary donors play an important role in validating the
-  recipient charity and its budget. That's because when the primary
+  donee and its budget. That's because when the primary
   donor agrees to fund the charity, that is an implicit endorsement
   that the charity's overall budget is reasonable, even if the primary
   donor does not fully fill the budget. For instance, if an
@@ -67,7 +72,7 @@ from the primary donor. If anything, there may be a weak positive
 feedback from other donors to the primary donor. That's because the
 primary donor makes decisions at the timescale of a year or more, and
 when it decides whether to donate next year, it is more likely to
-donate more if the recipient charity has been able to grow more due to
+donate more if the donee has been able to grow more due to
 other donations.
 
 In the case of Open Phil, their rule to limit funding to 50% of the
@@ -99,7 +104,7 @@ Some features of top-up donors:
 
 * Top-up donors generally make granting decisions every few months
   (ranging from 3 to 6 months). They may not, however, select a
-  particular charity in a specific grant round, even though they
+  particular donee in a specific grant round, even though they
   select it in earlier or later rounds.
 
 * Top-up donors pay more attention to the current financials of the
@@ -131,7 +136,7 @@ covered by BERI/SFF.
 
 ### Top-up donors and donation-funging
 
-My general estimate is that donating to a charity reduces the
+My general estimate is that donating to a donee reduces the
 likelihood and amount of funding it will receive from top-up donors in
 the short term.
 
