@@ -129,7 +129,7 @@ Examples of top-up donations include:
 I am not claiming here that all or even most grants by the EA Funds or
 BERI are top-up grants. The EA Funds, in particular, make a number of
 other donations to individuals or smaller organizations, many of which
-aren't being supported by Open Phil or any other prrimary donor at
+aren't being supported by Open Phil or any other primary donor at
 all. Also, BERI/SFF has played the role of primary donor for LessWrong
 2.0, whose budget is small enough that it can be almost entirely
 covered by BERI/SFF.
