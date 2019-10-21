@@ -39,15 +39,15 @@ characteristics:
 
 I believe a key value-add of this post is shedding light on the role
 of top-up donors, who are a relatively new feature of the EA funding
-ecosystem
+ecosystem.
 
 ## The role of primary donors such as the Open Philanthropy Project (Open Phil)
 
 Primary donors play a number of important roles:
 
-* The primary donors provide a large proportional share of the
-  donee's budget, and likely pay upfront, giving the recipient
-  donee flexibility and financial liquidity.
+* The primary donors provide a large proportional share of the donee's
+  budget, and likely pay upfront, giving the donee flexibility and
+  financial liquidity.
 
 * The primary donors provide long-term funding, which helps the
   donee plan for the longer term.
@@ -86,7 +86,7 @@ complicated and vary case-by-case.
 
 Until 2015, I believe many of the top organizations supported in the
 EA community, including EA meta orgs, animal welfare orgs, and AI
-safety orgs, lacked a primary donor, or were in tthe process of losing
+safety orgs, lacked a primary donor, or were in the process of losing
 their primary donor (for instance, the Thiel Foundation supported MIRI
 till only about 2015). In 2016 and 2017, Open Phil took on the role of
 primary donor for these organizations.
@@ -110,8 +110,8 @@ Some features of top-up donors:
 * Top-up donors pay more attention to the current financials of the
   organization, and the funding they provide within each round is only
   sufficient for a short time horizon. In particular, they help
-  provide a hedge to recipient charities against unexpected expenses
-  or fundraising difficulties.
+  provide a hedge to donees against unexpected expenses or fundraising
+  difficulties.
 
 ### Examples of top-up donations
 
