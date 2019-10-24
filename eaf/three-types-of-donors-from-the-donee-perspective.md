@@ -14,7 +14,7 @@ In the context of the effective altruist (EA) funding ecosystem, I
 identified three types of donors with different qualitative
 characteristics:
 
-1. Primary donors: They fund over long timeframes (1 to 5 years),
+1. **Primary donors**: They fund over long timeframes (1 to 5 years),
    cover a large share of the donee's budget (25% or higher), and
    usually have a more formal structure. In the EA community, the Open
    Philanthropy Project (Open Phil) is a dominant primary donor to
@@ -22,7 +22,7 @@ characteristics:
    and (if annual grants recommended to GiveWell top charities are
    included) many of the GiveWell top charities.
 
-2. Top-up donors: They usually have more frequent funding cycles
+2. **Top-up donors**: They usually have more frequent funding cycles
    (several times a year), fund smaller amounts per cycle, and help
    close the room for more funding of the donee over shorter
    timeframe. In the EA community, some funds that have acted as
@@ -33,7 +33,7 @@ characteristics:
    Existential Risk Initiative (BERI) (which appears to have
    transitioned this role to the Survival and Flourishing Fund (SFF)).
 
-3. Other donors, usually individual and smaller foundation donors:
+3. **Other donors, usually individual and smaller foundation donors**:
    They grant more erratically, and the total amount per donor is
    lower.
 
