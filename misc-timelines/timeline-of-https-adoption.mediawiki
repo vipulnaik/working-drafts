@@ -2,7 +2,7 @@ This timeline gives a history of HTTPS usage and adoption, describing the gradua
 
 == Sample questions ==
 
-* What were the major protocols related to HTTPS and when were they defined? (Sort the Full timeline by "Entity type" and look for the group of rows for which this says "Standard")
+* What were the major Internet standards related to HTTPS and when were they defined? (Sort the Full timeline by "Entity type" and look for the group of rows for which this says "Standard")
 * When did various leading news sites migrate to HTTPS, and what challenges did they face while migrating? (Sort the Full timeline by "Entity type" and look for the group of rows for which this says" Website"; scan the "Entity name" column to find the news websites or other sites of interest to you; then read the "Details" column and look at the cited reference)
 * How can we get quantitative data on how many sites and how much traffic uses HTTPS? (Sort the Full timeline by "Entity type" and look for the rows for which this says "Report" or "Report/Observatory")
 
