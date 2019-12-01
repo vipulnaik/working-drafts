@@ -31,7 +31,7 @@ Other intermediaries, like Internet Service Providers (ISPs), routers, networkin
 |-
 | Proxy/load balancer || Server-side || Amazon Web Services || Early SSL termination || Load balancers can manage the SSL/TLS certificates and forward only plain HTTP requests to the servers that have to actually respond to the request.
 |-
-| CDN || Server-side || Amazon CloudFront || Custom SSL || {{w|Content delivery network}}s are used to serve static content at low latency and low cost around the world. CDNs have evolved to allow customers to upload their own SSL certificates for content.
+| CDN || Server-side || Cloudflare, Amazon CloudFront || Custom SSL || {{w|Content delivery network}}s are used to serve static content at low latency and low cost around the world. CDNs have evolved to allow customers to upload their own SSL certificates for content.
 |-
 | Ecosystem || Server-side || Advertising || || Various backend ecosystems that power the technology and monetization of the web, such as advertising, need to support HTTPS in order to complete the transition to HTTPS.
 |}
