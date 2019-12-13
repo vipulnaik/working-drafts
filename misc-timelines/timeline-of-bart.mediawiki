@@ -497,8 +497,16 @@ BART board may fire Dorothy Dugger|last = Cabanatuan|first = Michael|date = Febr
 |-
 | 2019 || March 9 || Service disruption || At 2:45 AM on this day (Saturday) BART experiences a computer network failure. To recover properly from this failure, BART delays the start of dispatching trains to 9 AM, instead of the usual 6 AM start of Saturday service.<ref>{{cite web|url = https://www.bart.gov/news/articles/2019/news20190309|title = BART service resumes following earlier computer problem|date = March 9, 2019|accessdate = March 23, 2019|publisher = Bay Area Rapid Transit}}</ref> BART provides a more detailed update on March 14, and states that the last similar failure had happened in March 2006. The failure in 2006 was due to a human error when upgrading software, whereas the failure this time is due to a failure of a switch (i.e., a hardware failure). BART also describes efforts underway to both reduce the incidence and mitigate the impact of such failures.<ref>{{cite web|url = https://www.bart.gov/news/articles/2019/news20190314|title = BART provides update on Saturday's computer network failure|date = March 14, 2019|accessdate = March 23, 2019}}</ref>
 |-
-| 2019 || November 1 (tentative) || New stations || The {{w|Milpitas station}} and {{w|Berryessa/North San José station}} are scheduled to open for revenue service at this time, based on projections made in February 2019.<ref>{{cite web|url = https://www.mercurynews.com/2019/02/08/bart-testing-to-san-jose-picks-up-nov-1-opening-tentatively-set/|title = BART testing to San Jose picks up; Nov. 1 opening tentatively set|date = February 8, 2019|accessdate = March 23, 2019}}</ref> || Milpitas, Berryessa (North San Jose)
+| 2020 || || New stations || The {{w|Milpitas station}} and {{w|Berryessa/North San José station}} are scheduled to open for revenue service at this time, after being delayed by over three years.<ref name= "SJ Mercury 2019October" >{{cite news |url= https://www.mercurynews.com/2019/10/01/san-jose-bart-delay-milpitas-berryessa-stations-likely-to-miss-2019-opening/ |title = San Jose BART delay: Milpitas, Berryessa stations likely to miss 2019 opening: Officials had hoped to open the stations by the end of the year |newspaper = San Jose Mercury News |date= October 1, 2019 |quote= But the agency’s general manager revealed this week that BART is likely to miss that target, and trains probably won’t start taking passengers to those stations until sometime in 2020. |accessdate= October 10, 2019}}</ref> || Milpitas, Berryessa (North San Jose)
 |}
+
+== Feedback and comments ==
+
+The timeline was posted in the following Facebook groups: Fans of BART - Bay Area Rapid Transit [https://www.facebook.com/groups/1479703232264580/permalink/2504304849804408/]
+
+Feedback for the timeline can be provided at the following places:
+
+* FIXME
 
 == See also ==
 
