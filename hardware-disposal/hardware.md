@@ -2,6 +2,9 @@
 
 Purchase date: August/September 2014
 
+Disposal status: Completed by dropping off at e-waste SF on December
+31, 2019. Disk also destroyed.
+
 Disposal plan: I don't expect the laptop to be much use to people now,
 so I am thinking of dropping it off at an e-waste facility. **I will
 also check for power cord and other accessories and dispose all of
@@ -18,12 +21,26 @@ Every time I turn it on it's quite slow, though that's probably
 because of all the upgrades that need to happen since I haven't turned
 it on for several months at the time of turn-on.
 
+## Windows Nokia Lumia 921 phone
+
+Purchase date: August 2014
+
+Disposal status: Completed by dropping off at e-waste SF on December
+31, 2019 after doing a factory reset of the device.
+
+Disposal plan: Drop off at e-waste facility after doing a factory
+reset of the phone and erasing all personal data
+
 ## Kindle Deluxe (Kindle DX)
 
 Purchase date: December 2013
 
+Intended disposal date: January 4, 2020 (deadline: January 21, 2020)
+
 Disposal plan: Returning to Amazon using their Kindle Trade-In
-Program. I will get $5 back on net (along with free shipping).
+Program. I will get $5 back on net (along with free shipping);
+however, depending on the kind of packaging I use, the packaging cost
+may approximately cancel that $5.
 
 More information:
 
@@ -40,9 +57,8 @@ Amazon account so it's mostly just useful for reading PDFs.
 Purchase date: Probably over ten years ago. I don't remember the exact
 purchase date.
 
-Disposal plan: I might keep this if it's still functional, or I might
-transfer the information to a more compact form of storage and then
-drop it off at an e-waste faciility.
+Disposal plan: It's still functional (though clunky) so I'm going to
+keep it for now, i.e., I won't dispose it.
 
 ## Sony Lens G Camera
 
@@ -50,9 +66,10 @@ Purchase date: Before July 2012. A friend gave it to me when she was
 leaving (we were doing some video shooting together, and she didn't
 need the camera and gave it to me so I could shoot more videos).
 
-Disposal plan: ?? -- I think the camera is perfectly functional and
-may be good for shooting videos. So if there isn't anybody else who
-wants it, I will prefer to keep it than send it to e-waste.
+Disposal plan: I think the camera is perfectly functional and may be
+good for shooting videos. I'll do a casual search for interested
+parties who might have use for the camera, and I'll hold on to the
+camera until then.
 
 More information:
 
@@ -65,15 +82,8 @@ upload to the Internet more quickly from my smartphone).
 
 Purchase date: ~2011
 
-Disposal plan: Drop off at e-waste facility after verifying that the
-flash drives are no longer usable
-
-## Windows Nokia Lumia 921 phone
-
-Purchase date: August 2014
-
-Disposal plan: Drop off at e-waste facility after doing a factory
-reset of the phone and erasing all personal data
+Disposal plan: Not disposing. The USB flash drives are all readable,
+so I'm labeling them and keeping them handy.
 
 ## Video CDs and DVDs
 
