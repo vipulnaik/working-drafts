@@ -93,3 +93,5 @@ Disposal plan: I will review the whole list, then get rid of the ones
 that I either: (a) have digital backups of, (b) can access on
 streaming services, or (c) don't really need. My goal is to get rid of
 all of them so I can have a lighter existence.
+
+See [vcds-and-dvds.md](vcds-and-dvds.md) for more information.
