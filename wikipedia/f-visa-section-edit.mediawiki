@@ -1,0 +1,48 @@
+=== F-1 visas by country for major countries ===
+The data below is from the [[U.S. Department of State]] visa statistics.<ref name=visa-approvals/>
+
+When interpreting the table below, note that a country where visas are issued for shorter durations and single entry will see more visa applications for the same total number of students in the United States. In particular, one of the main factors inflating the number of student visas issued to students from China was that the visa issued was a single-entry visa valid for one year, so a student visiting family every year had to renew the visa. The United States and China switched to a 5-year validity multiple-entry visa in November 2014 and the corresponding reduction in the number of F-1 visas issued should therefore be seen in the statistics starting Fiscal Year 2016 (since the first multi-entry five-year validity visas will be issued in Fiscal Year 2015, there will be less need for visa renewal starting in Fiscal Year 2016).<ref name=lawandborder>{{cite web|url = http://lawandborder.com/u-s-china-reach-agreement-longer-business-tourist-student-visa-validity/|title = U.S., China Agree on Longer Visa Validity|last = Chodorow|first = Gary|accessdate = April 8, 2016}}</ref><ref name=us-china>{{cite web|url = https://2009-2017.state.gov/r/pa/prs/ps/2014/11/233904.htm|title = The United States and China To Extend Visas for Short-term Business Travelers, Tourists, and Students|accessdate = April 8, 2016}}</ref> In the table below, the columns are arranged in decreasing order of F-1 visa usage in FY 2015.
+
+{| class="wikitable sortable" border="1"
+! scope="col" style="width: 100px;" | Year !! ! scope="col" style="width: 100px;" | Worldwide total of F-1 visas issued !! ! scope="col" style="width: 100px;" | [[Mainland China]] !! ! scope="col" style="width: 100px;" | [[India]] !! ! scope="col" style="width: 100px;" | [[Saudi Arabia]] !! ! scope="col" style="width: 100px;" | [[South Korea]] !! ! scope="col" style="width: 100px;" | [[Japan]] !! ! scope="col" style="width: 100px;" | [[Brazil]] !! ! scope="col" style="width: 100px;" | [[Taiwan]] 
+|-
+| align=center| 1997 || align=right| 266,483 || align=right| 11,909 || align=right| 10,532 || align=right| 3,529 || align=right| 36,188 || align=right| 35,157  || align=right| 12,293  ||  align=right| 14,794 
+|-
+| align=center| 1998 || align=right| 251,565 || align=right| 13,958 || align=right| 12,154 || align=right| 3,796 || align=right| 21,271 || align=right| 34,063  || align=right| 14,812 || align=right| 13,867 
+|-
+| align=center| 1999 || align=right| 262,542 || align=right| 16,303 || align=right| 15,286 || align=right| 3,893 || align=right| 20,883 || align=right| 33,762  || align=right| 13,985 || align=right| 14,709 
+|-
+| align=center| 2000 || align=right| 284,053 || align=right| 21,586 || align=right| 20,469 || align=right| 4,038 || align=right| 27,520 || align=right| 32,661  || align=right| 12,452 || align=right| 16,084 
+|-
+| align=center| 2001 || align=right| 293,357 || align=right| 25,218 || align=right| 24,106 || align=right| 4,359 || align=right| 28,977 || align=right| 32,237  || align=right| 12,524 || align=right| 24,106 
+|-
+| align=center| 2002 || align=right| 234,322 || align=right| 21,784 || align=right| 20,771 || align=right| 1,515 || align=right| 26,670 || align=right| 25,036  || align=right| 8,335 || align=right| 13,952 
+|-
+| align=center| 2003 || align=right| 215,695 || align=right| 16,169 || align=right| 19,152 || align=right| 1,158 || align=right| 28,695 || align=right| 24,825  || align=right| 7,066 || align=right| 11,490 
+|-
+| align=center| 2004 || align=right| 218,898 || align=right| 18,089 || align=right| 18,309 || align=right| 1,008 || align=right| 29,673 || align=right| 24,562  || align=right| 6,683 || align=right| 14,224 
+|-
+| align=center| 2005 || align=right| 237,890 || align=right| 21,642 || align=right| 20,173 || align=right| 2,166 || align=right| 35,310 || align=right| 24,554  || align=right| 5,845 || align=right| 15,488 
+|-
+| align=center| 2006 || align=right| 273,870 || align=right| 28,444 || align=right| 26,342 || align=right| 9,240 || align=right| 42,681 || align=right| 23,417  || align=right| 5,926 || align=right| 16,727 
+|-
+| align=center| 2007 || align=right| 298,393 || align=right| 39,535 || align=right| 34,471 || align=right| 5,776 || align=right| 45,915 || align=right| 21,900  || align=right| 7,418 || align=right| 14,973 
+|-
+| align=center| 2008 || align=right| 340,711 || align=right| 56,258 || align=right| 36,149 || align=right| 8,038 || align=right| 50,078 || align=right| 19,876  || align=right| 10,556 || align=right| 14,640 
+|-
+| align=center| 2009 || align=right| 331,208 || align=right| 81,842 || align=right| 26,890 || align=right| 11,193 || align=right| 39,040 || align=right| 16,423  || align=right| 9,160  || align=right| 10,978 
+|-
+| align=center| 2010 || align=right| 385,210 || align=right| 113,772 || align=right| 25,783 || align=right| 21,101 || align=right| 44,328 || align=right| 15,014  || align=right| 10,532 || align=right| 10,785 
+|-
+| align=center| 2011 || align=right| 447,410 || align=right| 153,026 || align=right| 25,649 || align=right| 27,738 || align=right| 45,638 || align=right| 16,811  || align=right| 14,408 || align=right| 11,200 
+|-
+| align=center| 2012 || align=right| 486,900 || align=right| 189,402 || align=right| 23,446 || align=right| 27,932 || align=right| 39,159 || align=right| 18,669  || align=right| 15,506 || align=right| 10,621 
+|-
+| align=center| 2013 || align=right| 534,320 || align=right| 217,593 || align=right| 36,141 || align=right| 28,597 || align=right| 33,584 || align=right| 18,837  || align=right| 14,890 || align=right| 9,921 
+|-
+| align=center| 2014 || align=right| 595,569 || align=right| 244,927 || align=right| 56,653 || align=right| 32,006 || align=right| 29,324 || align=right| 18,258  || align=right| 14,371 || align=right| 9,731 
+|-
+| align=center| 2015 || align=right| 644,233 || align=right| 274,460 || align=right| 74,831 || align=right| 28,171 || align=right| 27,324 || align=right| 17,203 || align=right| 14,344 || align=right| 9,791
+|-
+| align=center| 2016 || align=right| 471,728 || align=right| 148,016 || align=right| 62,537 || align=right| 16,474 || align=right| 
+|}
