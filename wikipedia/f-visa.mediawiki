@@ -239,6 +239,12 @@ When interpreting the table below, note that a country where visas are issued fo
 | align=center| 2014 || align=right| 595,569 || align=right| 244,927 || align=right| 56,653 || align=right| 32,006 || align=right| 29,324 || align=right| 18,258  || align=right| 14,371 || align=right| 9,731 
 |-
 | align=center| 2015 || align=right| 644,233 || align=right| 274,460 || align=right| 74,831 || align=right| 28,171 || align=right| 27,324 || align=right| 17,203 || align=right| 14,344 || align=right| 9,791
+|-
+| align=center| 2016 || align=right| 471,728 || align=right| 148,016 || align=right| 62,537 || align=right| 16,474 || align=right| 25,355 || align=right| 16,668 || align=right| 10,978 || align=right| 9,730
+|-
+| align=center| 2017 || align=right| 393,573 || align=right| 112,817 || align=right| 44,741 || align=right| 11,414 || align=right| 22,856 || align=right| 15,982 || align=right| 12,178 || align=right| 9,117
+|-
+| align=center| 2018 || align=right| 362,929 || align=right| 98,904 || align=right| 42,694 || align=right| 12,502 || align=right| 20,959 || align=right| 14,413 || align=right| 13,288 || align=right| 8,474
 |}
 
 === Detailed statistics for 2012 ===
@@ -508,4 +514,3 @@ Some countries have tax treaties with the United States that allow for a reducti
 [[Category:Student migration]]
 [[Category:United States visas by type]]
 [[Category:International education industry]]
-
