@@ -62,6 +62,9 @@ In bag:
 - [ ] Some extra tissues
   - [x] Already have it
   - [x] Can be carried on flight
+- [ ] Shorts
+  - [x] Already have it
+  - [x] Can be carried on flight
 
 List of items to remove from person and put in bag or directly on tray
 
