@@ -1,13 +1,13 @@
 On person:
 
-- [ ] One set of clothes, belt, shoes
-- [ ] Wallet
-- [ ] Keys
-- [ ] Cards
-- [ ] Pens
-- [ ] Bandages
-- [ ] Basic supply of tissues
-- [ ] Lip balm
+- [x] One set of clothes, belt, shoes
+- [x] Wallet
+- [x] Keys
+- [x] Cards
+- [x] Pens
+- [x] Bandages
+- [x] Basic supply of tissues
+- [x] Lip balm
 
 In bag:
 
@@ -17,19 +17,19 @@ In bag:
 - [x] I-797A
   - [x] Already have it
   - [x] Can be carried on flight
-- [ ] Laptop
+- [x] Laptop
   - [x] Already have it
   - [x] Can be carried on flight
-- [ ] Laptop charger (shareable)
+- [x] Laptop charger (shareable)
   - [x] Already have it
   - [x] Can be carried on flight
 - [x] Headphones
   - [x] Already have it
   - [x] Can be carried on flight
-- [ ] Phone
+- [x] Phone
   - [x] Already have it
   - [x] Can be carried on flight
-- [ ] Phone charger
+- [x] Phone charger
   - [x] Already have it
   - [x] Can be carried on flight
 - [x] Blank USB and connector cable
@@ -41,7 +41,7 @@ In bag:
 - [x] Two sets of changes of clothes (incl. shirts, pants, inner wear, socks)
   - [x] Already have it
   - [x] Can be carried on flight
-- [ ] Night sweatshirt
+- [x] Night sweatshirt
   - [x] Already have it
   - [x] Can be carried on flight
 - [x] Umbrella
@@ -56,7 +56,7 @@ In bag:
 - [x] More bandages
   - [x] Already have it
   - [x] Can be carried on flight
-- [ ] Laundry bag
+- [x] Laundry bag
   - [x] Already have it
   - [x] Can be carried on flight
 - [x] Garbage bags for easy packaging of stuff
@@ -68,7 +68,7 @@ In bag:
 - [x] Shorts
   - [x] Already have it
   - [x] Can be carried on flight
-- [ ] Comb
+- [x] Comb
   - [x] Already have it
   - [x] Can be carried on flight
 
