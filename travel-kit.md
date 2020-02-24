@@ -11,10 +11,10 @@ On person:
 
 In bag:
 
-- [ ] Passport
+- [x] Passport
   - [x] Already have it
   - [x] Can be carried on flight
-- [ ] I-797C
+- [x] I-797A
   - [x] Already have it
   - [x] Can be carried on flight
 - [ ] Laptop
@@ -23,7 +23,7 @@ In bag:
 - [ ] Laptop charger (shareable)
   - [x] Already have it
   - [x] Can be carried on flight
-- [ ] Headphones
+- [x] Headphones
   - [x] Already have it
   - [x] Can be carried on flight
 - [ ] Phone
@@ -32,37 +32,40 @@ In bag:
 - [ ] Phone charger
   - [x] Already have it
   - [x] Can be carried on flight
-- [ ] Toothbrush
+- [x] Blank USB and connector cable
   - [x] Already have it
   - [x] Can be carried on flight
-- [ ] Two sets of changes of clothes (incl. shirts, pants, inner wear, socks)
+- [x] Toothbrush
+  - [x] Already have it
+  - [x] Can be carried on flight
+- [x] Two sets of changes of clothes (incl. shirts, pants, inner wear, socks)
   - [x] Already have it
   - [x] Can be carried on flight
 - [ ] Night sweatshirt
   - [x] Already have it
   - [x] Can be carried on flight
-- [ ] Umbrella
+- [x] Umbrella
   - [x] Already have it
   - [x] Can be carried on flight
-- [ ] Some loose papers
+- [x] Some loose papers
   - [x] Already have it
   - [x] Can be carried on flight
-- [ ] One $10 pack of quarters
+- [x] One $10 pack of quarters
   - [x] Already have it
   - [x] Can be carried on flight
-- [ ] More bandages
+- [x] More bandages
   - [x] Already have it
   - [x] Can be carried on flight
 - [ ] Laundry bag
   - [x] Already have it
   - [x] Can be carried on flight
-- [ ] Garbage bags for easy packaging of stuff
+- [x] Garbage bags for easy packaging of stuff
   - [x] Already have it
   - [x] Can be carried on flight
-- [ ] Some extra tissues
+- [x] Some extra tissues
   - [x] Already have it
   - [x] Can be carried on flight
-- [ ] Shorts
+- [x] Shorts
   - [x] Already have it
   - [x] Can be carried on flight
 - [ ] Comb
