@@ -50,7 +50,7 @@ avoid it.
 
 * Keep a buffer, but don't engage in panic buying.
 
-## Impact on social life
+## Impact on social life and day-to-day life experience
 
 Staying at home, and refraining from participating in social
 activities, is something that could get harder and harder as the time
@@ -111,3 +111,77 @@ What can we do? Here are a few thoughts:
 
 ## Impact on work life and job security
 
+Some of this overlaps with the previous section, but with a different
+focus. This mostly applies to jobs where the new norm is to work from
+home, rather than ones where you've been furloughed or ones where
+physical presence in the office is still required:
+
+* Negotiate a new work-life balance: The previous work-life balance
+  you worked out probably needs to be adjusted in light of the new
+  situation. For instance, perhaps you can start work earlier and end
+  later, but need more breaks within the day because the grocery store
+  closes earlier so you need to shop during the day. Think through the
+  right balance that works for you and your employer. This may take a
+  few days to figure out.
+
+* Make sure lines of communication and recognition of your work have
+  adjusted to the work-from-home reality: Even if you're doing just as
+  much work as you were doing in the past, your boss or colleagues may
+  not realize that. Make sure that the "optics" angle is
+  well-covered. The specifics will vary from job to job.
+
+* Keep in mind that getting a new job may be harder, so try to secure
+  yourself in your existing job more: At least until the lockdown is
+  in place, and possibly even for a few more months, switching jobs
+  will be hard. So, try as much as possible to get along with your
+  existing job. This is true even if your industry isn't directly
+  affected in a severe way; for people in industries that are heavily
+  affected, the situation is much trickier. NOTE: If you are in a
+  heavily affected industry and have an opportuunity to jump to a less
+  affected one, consider taking it. But secure the new opportunity
+  first before jumping ship.
+
+## Financial impact
+
+* Give more importance to building a liquid savings buffer. In my
+  [simple financial advice
+  doc](https://github.com/vipulnaik/working-drafts/tree/master/simple-financial-advice.md),
+  I recommend building liquid savings up to 30,000 USD under normal
+  circumstances, but in this situation, I suggest increasing your
+  liquid savings to 60,000 to 90,000 USD, times the number of people
+  you are sharing finances with.
+  * Use 60,000 USD if you are not in an industry that seems to be
+    directly heavily affected, use 90,000 USD if your industry seems
+    affected.
+  * This will help ride through a longer recession as well as the risk
+    of job loss. I am assuming that about 30,000 USD can get you
+    through one year with a reasonably frugal lifetstyle but without
+    undue sacrifice.
+  * In other words, I'm suggesting you keep savings for 2 or 3 years,
+    instead of merely 1 year, in light of the coronavirus situation.
+* In particular, I suggest:
+  * Stop contributing to retirement accounts until you have hit the
+    increased liquid savings threshold. With that said, if you do have
+    more liquid savings, increasing contributions to retirement
+    accounts may be a great idea.
+  * Hold off on repaying very-low-interest loans such as student loans
+    until you have hit the increased liquid savings threshold (though
+    it's best to do calculations for each loan to trade off the
+    interest rate against the loss of liquidity).
+  * If you are well below your liquid savings threshold, investigate
+    how much of your money is in retirement accounts and make
+    contingency plans to liquidate some of it to shore up your liquid
+    savings. Liquidating retirement accounts may come with a penalty,
+    which is why it's better to store any new money you're getting in
+    more liquid forms.
+* Beyond the goal of maintaining liquidity to weather you through 2 to
+  3 years, don't engage in panic buying or selling of assets. In
+  relative terms, the stock market may be a good buy right now and
+  putting money there could be a good idea if you expect that you
+  won't need to take money out for the next 2 to 3 years.
+* On a similar note, if you engage in regular philanthropy or in
+  consumer spending that gives you happiness, continue with it as long
+  as (a) it still makes sense in the context of the lockdown, and (b)
+  your liquidity goals are met. In other words, after securing your
+  health and wealth, continue your life as close to normal as
+  possible.
