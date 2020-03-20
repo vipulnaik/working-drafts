@@ -67,7 +67,12 @@ discretionary spending that you can defer at low cost.
 
 Having $30,000 in a savings account or money market account will cover
 6-12 months of expenses, and basically make you have to stop worrying
-about suddenly getting into a bad financial situation.
+about suddenly getting into a bad financial situation. Store this
+money in the form of liquid currency, typically the currency supported
+in your country of primary residence. With that said, if your country
+has problems of currency hyperinflation, you may want to store money
+in the form of another currency that is more stable but can quickly be
+exchanged with yours.
 
 In particular, get to this point before you put money into:
 
