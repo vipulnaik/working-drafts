@@ -10,7 +10,7 @@ keep in mind that the document may get out of date on specifics.
 
 Based on current trends in coronavirus cases and the impact of
 existing lockdowns, I expect that "shelter in place" orders (such as
-[San Francisco's](https://sf.gov/stay-home-except-essential-needs), or
+[San Francisco's](https://sf.gov/stay-home-except-essential-needs)), or
 social pressure to do the equivalent, will last till:
 
 * At least April 28: Greater than 75%
