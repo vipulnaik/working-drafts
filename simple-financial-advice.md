@@ -10,13 +10,13 @@ This simple financial advice is designed around the following goals:
 
 ## Have the money in your checking account fluctuate between 2,500 and 5,000
 
- If you have set up your paycheck to do a direct deposit into your
- checking account, the amount in your checking account will be at its
- minimum right before pay day. If you target having a little over
- $2,500 at this point, you will be good.
+If you have set up your paycheck to do a direct deposit into your
+checking account, the amount in your checking account will be at its
+minimum right before pay day. If you target having a little over
+$2,500 at this point, you will be good.
 
 If you write checks or make credit card payments for large amounts
-(e.g., more tha $500) make sure to increase the balance in your
+(e.g., more than $500) make sure to increase the balance in your
 checking account to be able to cover that extra expense for when the
 check gets deposited or the credit card bill is due.
 
