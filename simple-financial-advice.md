@@ -78,8 +78,8 @@ In particular, get to this point before you put money into:
 
 * Cryptocurrency
 * Index funds
-* 401(k)s and other retirement accounts
-* Certificates of deposit
+* 401(k)s (a US-specific form of retirement account) and other retirement accounts
+* Certificates of deposit / fixed deposits
 
 Once you cross the 30,000 USD threshold, start considering these
 alternatives.
