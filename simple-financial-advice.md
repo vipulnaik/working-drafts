@@ -52,6 +52,17 @@ motivated by specific benefits rather than as a way to borrow money
 you don't have. For instance, if you buy something for $2,000 with a
 credit card, put an extra $2,000 in your checking account.
 
+NOTE: Multiply the threshold by the number of people in your family
+that you maintain finances jointly with.
+
+## Pay off any high-interest loans once you have gotten to the checking account threshold
+
+Once you have hit the goal of always having $2,500 or more in your
+checking account, give priority to paying off high-interest loans or
+any other loans you have an obligation to pay back quickly. Give this
+higher priority than gradually growing your savings buffer, or any
+discretionary spending that you can defer at low cost.
+
 ## Build up a 30,000 USD (6-12 month saving buffer) in a reasonably liquid account before you diversify into other investments
 
 Having $30,000 in a savings account or money market account will cover
@@ -69,13 +80,19 @@ Once you cross the 30,000 USD threshold, start considering these
 alternatives.
 
 If you plan to do something more risky (like start your own company)
-you may want to save much more than $30,000 in liquid form.
+your saving threshold should probably go up to 60,000 to 90,000 USD or
+higher. The same applies for large-scale recessions, or downturns
+specific to the industry you operate in.
+
+NOTE: Multiply the threshold by the number of people in your family
+that you maintain finances jointly with.
 
 ## Once you have crossed a basic liquid threshold, start thinking on longer time horizons
 
 Once you have crossed $30,000 in savings (or whatever higher amount
-you deem necessary), start thinking on the 2-to-5-year time horizon
-with incremental savings.
+you deem necessary based on family size and other longer-term risks),
+start thinking on the 2-to-5-year time horizon with incremental
+savings.
 
 There are two approaches you can take:
 
