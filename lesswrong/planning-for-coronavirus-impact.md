@@ -48,7 +48,7 @@ avoid it.
 * With that in mind, consciously brace for this, adjust, and plan
   accordingly.
 
-* Keep a buffer, but don't engage in panic buying.
+* Keep a buffer, but don't engage in panic actions.
 
 ## Impact on social life and day-to-day life experience
 
