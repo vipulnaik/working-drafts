@@ -244,4 +244,4 @@ working from home, or where you still need to go in for the job.
   containment and social distancing efforts more palatable, and
   mitigate some of the adverse social and eeconomic impacts. My post
   is probably a very small contribution, but I hope it pushes
-  positively in the direction.
+  positively in the general direction.
