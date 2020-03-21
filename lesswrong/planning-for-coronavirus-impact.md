@@ -13,7 +13,8 @@ Many of these ideas are self-justifying, but I have not tried to
 justify their *relative importance* to other ideas that I have
 omitted. Subject to time constraints, I'll be happy to answer specific
 questions challenging the ideas, or comparing them to other ideas I
-didn't list.
+didn't list. If you have a question of that sort, there's a good
+chance I'll just agree that the idea I didn't list was more important.
 
 My initial draft of this post included some discussion of potential
 future timelines, but I decided to omit that in order to make the post
