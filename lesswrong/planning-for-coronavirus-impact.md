@@ -139,9 +139,10 @@ What can we do? Here are a few thoughts:
   bit more. In many cases, more conscious planning and coordination
   may be needed. So make sure to plan and push for the online
   equivalents where feasible. This is important because it's likely
-  the lockdown will last long enough. This may be particularly
-  important for group activities that play an important role providing
-  emotional support to their members.
+  the lockdown will last long enough that completely forgoing some
+  kinds of social interactions will be too costly. This may be
+  particularly important for group activities that play an important
+  role providing emotional support to their members.
 
 ## Impact on work life and job security
 
@@ -155,14 +156,13 @@ working from home, or where you still need to go in for the job.
   home. A lot of people find it helpful to have a physical separation
   of their work station and the rest of their home; if that's feasible
   and desirable for you, consider doing it.
-* **Negotiate a new work-life balance**: The previous work-life balance
-  you worked out probably needs to be adjusted in light of the new
-  situation. For instance, perhaps you can start work earlier or end
-  later, but need more breaks within the day because the grocery store
-  closes earlier so you need to shop during the day, or because you
-  need to cook food at home. Think through the right balance that
-  works for you and your employer. This may take a few days to figure
-  out.
+* **Negotiate a new work-life balance**: The previous work-life
+  balance you worked out probably needs to be adjusted in light of the
+  new situation. For instance, perhaps you can start work earlier or
+  end later, but need more breaks within the day to cook food or deal
+  with your kid who's also staying at home. Think through the right
+  balance that works for you and your employer. This may take a few
+  days to figure out.
 * **Make sure lines of communication and recognition of your work have
   adjusted to the work-from-home reality**: Even if you're doing just as
   much work as you were doing in the past, your boss or colleagues may
