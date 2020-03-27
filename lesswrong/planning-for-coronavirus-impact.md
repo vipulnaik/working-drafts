@@ -102,7 +102,7 @@ balance. Here are some ideas:
 Staying at home, and refraining from participating in social
 activities, is something that could get harder and harder as the time
 period gets longer. Some social activities are easy to forgo for a
-week, but harder to forgo for two months. I expect that this could
+week, but harder to forgo for three months. I expect that this could
 lead to people feeling depression, loneliness, and mental health
 issues, with the risks increasing the longer this continues.
 
@@ -243,6 +243,6 @@ working from home, or where you still need to go in for the job.
   wave of secondary effects as people get frustrated with the
   lockdown. Preparing people in this way could help make sustained
   containment and social distancing efforts more palatable, and
-  mitigate some of the adverse social and eeconomic impacts. My post
+  mitigate some of the adverse social and economic effects. My post
   is probably a very small contribution, but I hope it pushes
   positively in the general direction.
