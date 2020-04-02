@@ -337,12 +337,21 @@ I summarize the predictions from this post here.
   expect the number to be hit by around April 3. For comparison, there
   are currently 4,643 cases.
 
+  *Addendum 2020-04-01*: The super-optimistic case seems pretty much
+   ruled out; I now expect at least 15,000 confirmed cases, and at
+   least April 10 to hit that number.
+  
 * My estimate range for the number of confirmed positive cases from
   people already tested is 10,000 to 40,000. With the optimistic (but
   not super-optimistic) assumption that almost all people who had the
   disease are already tested, I expect us to hit this number by around
   April 3, after which the growth rate of confirmed positive cases
   will slow down to a trickle.
+
+  *Addendum 2020-04-01*: Due to what appears to be test processing
+   backlog, I expect an additional 1 to 2 weeks for the test
+   processing backlog to clear. So, rather than April 3, I will give
+   an estimate of ~April 17.
 
 * Given the huge time lags and variation in time lags, it will be
   hard, even after case growth stops, to know whether level 2 was
