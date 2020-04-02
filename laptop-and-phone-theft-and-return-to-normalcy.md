@@ -189,12 +189,12 @@ Facebook and Venmo and initiate recovery for Coinbase.
 
 ## BART investigation
 
-On April 2, 2020, a BART Police officer called me and told me that,
-based on footage in the BART train car, BART had identified the likely
-suspect who stole my laptop and phone. The suspect does not yet know
-that he is suspected. The suspect is not currently suspected of any
-other incidents. The officer considered it pretty unlikely that my
-laptop or phone could be retrieved.
+On April 2, 2020, at around 9 AM PDT, a BART Police officer called me
+and told me that, based on footage in the BART train car, BART had
+identified the likely suspect who stole my laptop and phone. The
+suspect does not yet know that he is suspected. The suspect is not
+currently suspected of any other incidents. The officer considered it
+pretty unlikely that my laptop or phone could be retrieved.
 
 I had the option to come to the station at Lake Merritt BART to try to
 identify the suspect from a photo lineup of six people (so not a
