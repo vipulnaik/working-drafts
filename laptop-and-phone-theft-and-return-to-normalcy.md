@@ -4,6 +4,7 @@ In this document:
 
 * [Theft](#theft)
 * [Recovery](#recovery)
+* [BART investigation](#bart-investigation)
 
 ## Theft
 
@@ -185,3 +186,34 @@ work).
 
 After getting the SIM card for the older number, I was able to recover
 Facebook and Venmo and initiate recovery for Coinbase.
+
+## BART investigation
+
+On April 2, 2020, a BART Police officer called me and told me that,
+based on footage in the BART train car, BART had identified the likely
+suspect who stole my laptop and phone. The suspect does not yet know
+that he is suspected. The suspect is not currently suspected of any
+other incidents. The officer considered it pretty unlikely that my
+laptop or phone could be retrieved.
+
+I had the option to come to the station at Lake Merritt BART to try to
+identify the suspect from a photo lineup of six people (so not a
+physical, in-person lineup).
+
+* If I came to identify the suspect, and succeeded in identifying the
+  suspect from the lineup: They would file for an arrest
+  warrant. However, the police officer was skeptical of whether the
+  district attorney would approve of the arrest warrant, since the
+  person was a juvenile and it's almost a year since the case. The
+  officer spoke based on experience with other similar cases.
+
+* If I did not come to identify the suspect, then the case would be
+  dropped. The suspect would never know that he had been suspected.
+
+The officer apologized for the delay with reviewing the surveillance
+footage. He clarified that he was not the officer in charge of the
+case and said that if it had been him, the footage would have been
+reviewed earlier.
+
+I decided to not take up the option to identify the suspect in a photo
+lineup, thereby closing this case.
