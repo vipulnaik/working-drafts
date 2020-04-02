@@ -12,16 +12,32 @@ cases in California, and try to address questions such as:
 Skip to [answers and lessons](#answers-and-lessons) for my (incomplete
 and tentative) answers.
 
-## A simple model from true cases to confirmed cases to deaths or recoveries
+NOTE: My original post was based on data till 2020-03-27 (row 17 in
+the
+[spreadsheet](https://docs.google.com/spreadsheets/d/1L8xJs1YNn3iMHHohgtTLhcvUULEj-crwupB72QAJJLg/edit#gid=0)). On
+2020-04-01 (April 1, 2020) I made edits to this post of two kinds:
+
+* Language improvements, based on feedback in the comments, without
+  any substantive changes to the model.
+* Addenda at the end of some sections giving updates based on data
+  seen since I originally published the post. I used data till
+  2020-03-31 (row 21).
+
+## A simple model from true currently-or-eventually-symptomatic cases to confirmed cases to deaths or recoveries
 
 ### The model
 
-For simplicity, I will use the term "true cases" only for cases that
-are eventually symptomatic. I expect that most asymptomatic cases
-won't get diagnosed, and therefore won't count in the number of
-confirmed cases either, so this seems a reasonable approximation for
-the time being. However, if incorrect, this could cause estimates to
-be off by a factor of two.
+For simplicity, I will use the shorthand "true
+currently-or-eventually-symptomatic cases" only for cases where a
+person is already infected and will *eventually* become symptomatic
+(so this will include both currently symptomatic cases and cases that
+are presymptomatic, i.e., will become symptomatic later). I expect
+that most asymptomatic cases (i.e., cases that *never* become
+symptomatic) won't get diagnosed, and therefore won't count in the
+number of confirmed cases either, so this seems a reasonable
+approximation for the model I will present below. However, if
+incorrect, this could cause estimates to be off by a factor of two or
+more, depending on the fraction of cases that are asymptomatic.
 
 The simplistic model identifies the following flow:
 
@@ -41,11 +57,11 @@ obviously very important.
 ### Time lags in the model (1 -> 2 -> 3 -> 4)
 
 The total time lag from 1 to 4 shows up as the lag between any trend
-change in the number of true cases, and the corresponding trend change
-in the number of confirmed cases. The more accurately we can estimate
-and measure this total time lag, the more accurately we can relate the
-timing of social distancing measures and the timing of case growth
-flatlining. Herei s what I know:
+change in the number of true currently-or-eventually-symptomatic cases, and the
+corresponding trend change in the number of confirmed cases. The more
+accurately we can estimate and measure this total time lag, the more
+accurately we can relate the timing of social distancing measures and
+the timing of case growth flatlining. Herei s what I know:
 
 * The 1 -> 2 lag is in the range of 2 to 14 days, according to
   [CDC](https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html).
@@ -62,20 +78,23 @@ flatlining. Herei s what I know:
   median estimate of 1 week.
 
 Using median estimates for each suggests that there is a lag of *3
-weeks* between trend changes in true cases and trend changes in
-confirmed cases. If this 3 weeks were precise, then the trend in
-confirmed cases will be a 3-week time translation of the trend in true
-cases. In practice, however, because each transition has a variable
-time range, varying across individuals, the true time range is more
-like 2 to 6 weeks. And rather than a crisp time translation, we see a
-fuzzy smear -- even if true cases flatline immediately after the
-escalation from level 2 to level 3 (flexible lockdown), the confirmed
-case count will show no such sharp trend change, instead showing a
-leveling off over time.
+weeks* between trend changes in true currently-or-eventually-symptomatic cases and
+trend changes in confirmed cases. If this 3 weeks were precise, then
+the trend in confirmed cases will be a 3-week time translation of the
+trend in true cases. In practice, however, because each transition has
+a variable time range, varying across individuals, the true time range
+is more like 2 to 6 weeks. And rather than a crisp time translation,
+we see a fuzzy smear -- even if true currently-or-eventually-symptomatic cases
+flatline immediately after the escalation from level 2 to level 3
+(flexible lockdown), the confirmed case count will show no such sharp
+trend change, instead showing a leveling off over time.
 
 ## Looking at the California data
 
 ### Description of the data
+
+*Original version written 2020-03-29, possibly edited for clarity but
+ with no substantive model changes.*
 
 The California Department of Public Health publishes [daily
 releases](https://www.cdph.ca.gov/Programs/OPA/Pages/New-Release-2020.aspx)
@@ -88,7 +107,11 @@ the total number of test results returned.
 I put the data together in a
 [spreadsheet](https://docs.google.com/spreadsheets/d/1L8xJs1YNn3iMHHohgtTLhcvUULEj-crwupB72QAJJLg/edit#gid=0)
 where I added columns for the daily increments to each value, as well
-as some percentages and comparisons of interest. A few notes:
+as some percentages and comparisons of interest. *ETA 2020-04-01: I
+have been updating the spreadsheet daily since writing this post;
+please see up to row 17 for 2020-03-27 in the spreadsheet to
+understand the part of it I had in front of me when writing the post.*
+A few notes:
 
 * There are two dates with sharp changes to the incremental number of
   confirmed positive cases (i.e., the "second derivative" of the
@@ -112,6 +135,9 @@ as some percentages and comparisons of interest. A few notes:
   were previously not included have started getting included.
 
 ### Extrapolating the number and timeline of confirmed positive cases for people already tested
+
+*Original version written 2020-03-29, possibly edited for clarity
+ later but with no substantive model changes.*
 
 Let's go back to our simple model:
 
@@ -137,9 +163,9 @@ capacity has not kept pace.
 
 Second, we see that right now, the majority of tests don't yet have
 results (i.e., there is a lot in the 3 -> 4 transition). Therefore,
-even assuming that there are no more true cases coming through 1 -> 2
--> 3 any more, there's still a lot in 3 -> 4 and much of it may be
-confirmed positive.
+even assuming that there are no more true currently-or-eventually-symptomatic cases
+coming through 1 -> 2 -> 3 any more, there's still a lot in 3 -> 4 and
+much of it may be confirmed positive.
 
 Third, at least so far, the cumulative confirmed positive rate
 (confirmed positive cases as a percentage of test results; see column
@@ -192,7 +218,39 @@ tests. More specifically, I expect that the incremental number of
 confirmed positive cases will go up from its current daily value of
 ~800 to a few thousand.
 
+*Addendum 2020-04-01*: Based on data from a few more days of tests (up
+ to row 21 for 2020-03-31 in the spreadsheet), here are my updated
+ thoughts:
+
+* I had not explicitly thought about this possibility, but it seems
+  like the CDPH reports have become a bit more erratic over the
+  days. This has complicated some analysis for the days after I
+  published the original post. I had also not thought explicitly about
+  the possibility of the test count needing to be adjusted downward,
+  though I had been subconsciously suspicious of the huge jump in test
+  count.
+
+* Setting that aside, I still stand by my general prediction range of
+  10,000 to 40,000 confirmed cases from the first ~90,000 tests. In
+  fact, in light of the new data, I narrow the range to 15,000 to
+  40,000. That's because the
+  cumulative confirmed positive rate (columns K and L) has continued
+  to go up.
+
+* My caveat of "assuming that test processing capacity roughly keeps
+  pace" was important because, judging from data till 2020-03-31, test
+  processing capacity has not kept pace with the increase in the
+  number of tests a week ago. This means that I expect that the
+  results for the first ~90,000 tests won't be out by the end of this
+  week. My guess is it will take another 1 or 2 weeks. This means that
+  the count of confirmed positive cases will continue to rise for the
+  next 1 or 2 weeks purely from clearing the backlog on test
+  processing, even if no new tests happen.
+
 ### Thinking about the transitions till testing (1 -> 2 -> 3)
+
+*Original version written 2020-03-29, possibly edited for clarity
+ later but with no substantive model changes.*
 
 The data here doesn't give a clear idea of how the transitions from 1
 to 2, or from 2 to 3 are proceeding. Nonetheless, it may offer some
@@ -200,16 +258,35 @@ clues. So first, let's backtrack and think: let's say California going
 to level 2 or level 3 did in fact effectively stop coronavirus in its
 tracks. What should we see?
 
-Ideally, we should see the number of people with coronavirus getting
-the test drop a lot. However, that doesn't necessarily mean that the
-total number of people getting the test drops, because many people who
-don't have the disease may also start getting tested, causing the
-total number of people getting tested to increase. So, more
-accurately, we should see one of these:
+First, keep in mind that there's a time lag 1 -> 2 and a time lag 2 ->
+3. When describing the model, we estimated these time lags as 1 week
+each, so that's a total of 2 weeks. This means that, about 2 weeks
+after coronavirus is stopped in its tracks, we should see a
+corresponding change in the trend of the number of true
+currently-or-eventually-symptomatic cases that are getting tests.
 
-* A drop in the incremental number of tests each day.
+One complication is that, because there is huge variation between
+people and between regions in the 1 -> 2 time lag and in the 2 -> 3
+time lag, we won't see a sharp trend change after 2 weeks. Rather,
+we'll see the trend change happening a little more gradually.
+
+Another complication: even if the rate at which true
+currently-or-eventually-symptomatic cases are getting to the testing
+stage drops, the number of other cases (e.g., people with a
+cold, flu, or allergy) that's getting the test may increase. In that
+case, we may not see a decrease in the number of tests being done. So,
+more accurately, we should see at least one of these:
+
+* A drop in the incremental number of tests each day. This will happen
+  if the growth of true currently-or-eventually-symptomatic cases
+  slows down, but any increase in tests from other cases does not
+  increase to compensate.
+
 * A drop in the confirmed positive rate on tests (but this metric is
-  available at a further lag of 5 to 7 days).
+  available at a further 3 -> 4 lag of about a week). This will happen
+  if the growth of true currently-or-eventually-symptomatic cases
+  slows down, and proportionally more people who don't have
+  coronavirus are getting the tests.
 
 Unfortunately, we aren't seeing the second yet. As for the first, the
 transition data from March 26 to March 27 suggests that yes, we are
@@ -218,6 +295,14 @@ down from 10,600 to 1,200). But that's just one day of data. If we see
 a similar drop persist, that might mean that we are finally seeing the
 lagged effects of escalating to level 2 or level 3. A week after that
 we should see a drop in the growth rate of confirmed positive cases.
+
+*Addendum 2020-04-01*: In the above para, I noted a sharp drop in the
+ incremental number of tests a day. The reduced number has been
+ sustained over the days since then, but it's hard to get a clear idea
+ because CDPH is also making adjustments to address double-counting of
+ tests. Nonetheless, tentative evidence is consistent with (but
+ doesn't strongly support) the idea that the growth of true
+ eventually-asymptomatic cases slowed down a few weeks ago.
 
 ### Is the data good enough to know whether level 2 is sufficient, or whether we need level 3?
 
