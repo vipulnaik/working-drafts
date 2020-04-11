@@ -33,7 +33,7 @@ This is a timeline of {{w|Bay Area Rapid Transit}} (BART), a mass rapid transit 
 {| class="wikitable sortable"
 ! Year !! Month and date !! Minimum fare !! Excursion fare !! Percentage increase in fares !! Date of approval of series of increases
 |-
-| 2004 || January 1 || 1.25. || 4.40 || ?? || ??
+| 2004 || January 1 || 1.25 || 4.40 || ?? || ??
 |-
 | 2006 || January 1 || 1.40 || ?? || 3.7% || May 2003
 |-
