@@ -126,7 +126,7 @@ Lessons in Lie-Fi]. Ricardo Ferreira. Retrieved May 3, 2019</ref> Also, note tha
 #* You can also set up the new tab appropriately (open DevTools, network throttling, mobile emulation).
 #* When typing in a url, use Ctrl+T (Windows) or Cmd+T (Mac) or the new tab option on your phone browser to open a new tab, then type the url there.
 #* When opening links from existing pages, right-click and open in new tab. However, if you prefer to set up the tab in some way (open DevTools, network throttling, mobile emulation) it is better to copy the link, open the new tab and set it up, then paste the link into the tab address bar.
-# Maximize the use of cache
+# Maximize the use of cache.
 #* If you have Chrome Devtools open for the tab, make sure that the Disable Cache box is not checked (if Devtools is not open, then it should attempt to load from cache)
 #* If reloading a page, use Ctrl+R (on Windows) or Cmd+R (on Mac) rather than Ctrl+Shift+R (on Windows) or Cmd+Shift+R (on Mac). Including the Shift in your command will bypass cache and try to load all resources remotely, which can use more network and slow down the page load.
 # Use bookmarks as well as the techniques discussed in [[Navigate to Web Pages Efficiently Without Using Navigation Menus]] to get more quickly to the page you finallty want to get to.
