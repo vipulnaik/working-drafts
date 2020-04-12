@@ -7,9 +7,9 @@ The methods discussed here are mostly independent, but the first method ("Unders
 === Understanding the Phenomena Underlying Poor Internet Connectivity (Background Knowledge) ===
 
 # Understand the different ways that Internet connectivity can be poor.
-#* Low bandwidth: This usually means that downloads take a long time, because the amount of data that can be transferred per second is low
-#* High latency: This means that the time it takes for each round trip from the remote websites to your Internet device is high (usually, higher than for a good Internet connection by hundreds of milliseconds)
-#* High packet loss: This means that a lot of pieces of information get lost in transit between your Internet device and the remote websites
+#* Low bandwidth: This usually means that downloads take a long time, because the amount of data that can be transferred per second is low.
+#* High latency: This means that the time it takes for each round trip from the remote websites to your Internet device is high (usually, higher than for a good Internet connection by hundreds of milliseconds).
+#* High packet loss: This means that a lot of pieces of information get lost in transit between your Internet device and the remote websites.
 #* Brief periods of very bad or no connectivity: This means that there are brief periods, ranging from a few seconds to a few minutes, when you are unable to connect to the Internet or when one of the above problems (low bandwidth, high latency, high packet loss) becomes much worse than normal. In some cases, these problems are self-correcting; in others, they may require a manual action such as disconnecting and reconnecting your device or router.
 # Understand the meaning of low bandwidth.
 #* Bandwidth refers to the amount of data that can be transferred per second for uploads and downloads. It is usually reported as a pair of numbers, one for the download speed and one for upload speed.
