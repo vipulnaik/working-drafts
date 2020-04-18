@@ -5,7 +5,7 @@ This is a '''timeline of AI safety'''. AI safety is the field focused on reducin
 {| class="wikitable"
 ! Time period !! Development summary !! More details
 |-
-| Until 1950 || Fictional portrayals only || Most discussion of AI safety is in the form of fictional portrayals. It warns of the risks of robots who, either through stupidity or lack of goal alignment, no longer remain under the control of humans.
+| Until 1950 || Fictional portrayals only || Most discussion of AI safety is in the form of fictional portrayals. It warns of the risks of robots who, through either stupidity or lack of goal alignment, no longer remain under the control of humans.
 |-
 | 1950 to 2000 || Scientific speculation + fictional portrayals || During this period, discussion of AI safety moves from merely being a topic of fiction to one that scientists who study technological trends start talking about. The era sees commentary by I. J. Good, Vernor Vinge, and Bill Joy.
 |-
