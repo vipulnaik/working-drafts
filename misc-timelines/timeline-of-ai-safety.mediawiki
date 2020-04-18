@@ -249,11 +249,11 @@ This is a '''timeline of AI safety'''. AI safety is the field focused on reducin
 |-
 | 2018 || {{dts|July}} || Grant || The Open Philanthropy Project grants $429,770 to the University of Oxford to support research on the global politics of advanced artificial intelligence. The work will be led by Professor Allan Dafoe at the Future of Humanity Institute in Oxford, United Kingdom.<ref name="donations-portal-open-phil-ai-safety" />
 |-
-| 2018 || {{dts|August 14}} || Grant || Nick Beckstead grants the Machine Intelligence Research Institute (MIRI) $488,994 from the Long Term Future Fund. This is part of his last set of grants as fund manager; he would subsequently step down and the fund management would move to a different team.<ref>{{cite web|url = https://app.effectivealtruism.org/funds/far-future/payouts/6g4f7iae5Ok6K6YOaAiyK0|title = July 2018 - Long-Term Future Fund Grants|date = August 14, 2018|accessdate = August 18, 2019|publisher = Effective Altruism Funds}}</ref><ref name="donations-portal-ea-funds-ai-safety">{{cite web|url = https://donations.vipulnaik.com/donor.php?donor=Effective+Altruism+Funds&cause_area_filter=AI+safety|title = Effective Altruism Funds donations made (filtered to cause areas matching AI safety)|accessdate = August 18, 2019}}</ref>
+| 2018 || {{dts|August 14}} || Grant || Nick Beckstead grants the Machine Intelligence Research Institute (MIRI) $488,994 from the Long-Term Future Fund. This is part of his last set of grants as fund manager; he would subsequently step down and the fund management would move to a different team.<ref>{{cite web|url = https://app.effectivealtruism.org/funds/far-future/payouts/6g4f7iae5Ok6K6YOaAiyK0|title = July 2018 - Long-Term Future Fund Grants|date = August 14, 2018|accessdate = August 18, 2019|publisher = Effective Altruism Funds}}</ref><ref name="donations-portal-ea-funds-ai-safety">{{cite web|url = https://donations.vipulnaik.com/donor.php?donor=Effective+Altruism+Funds&cause_area_filter=AI+safety|title = Effective Altruism Funds donations made (filtered to cause areas matching AI safety)|accessdate = August 18, 2019}}</ref>
 |-
 | 2018 || {{dts|September}} to October || Grant || During this period, the Berkeley Existential Risk Initiative (BERI) makes a number of grants to individuals working on projects related to AI safety.<ref name="donations-portal-beri-ai-safety" />
 |-
-| 2018 || {{dts|November 29}} || Grant || The Long Term Future Fund, one of the Effective Altruism Funds, announces a set of grants: $40,000 to Machine Intelligence Research Institute, $10,000 to Ought, $21,000 to AI Summer School, and $4,500 to the AI Safety Unconference.<ref name="donations-portal-ea-funds-ai-safety" />
+| 2018 || {{dts|November 29}} || Grant || The Long-Term Future Fund, one of the Effective Altruism Funds, announces a set of grants: $40,000 to Machine Intelligence Research Institute, $10,000 to Ought, $21,000 to AI Summer School, and $4,500 to the AI Safety Unconference.<ref name="donations-portal-ea-funds-ai-safety" />
 |-
 | 2018 || {{dts|December 17}} || Publication || The "2018 AI Alignment Literature Review and Charity Comparison" is published on the Effective Altruism Forum. It surveys AI safety work in 2018. It continues an annual tradition of similar blog posts in 2016 and 2017.<ref>{{cite web|url = https://forum.effectivealtruism.org/posts/BznrRBgiDdcTwWWsB/2018-ai-alignment-literature-review-and-charity-comparison|title = 2018 AI Alignment Literature Review and Charity Comparison|author = Larks|publisher = Effective Altruism Forum|date = December 17, 2018|accessdate = August 18, 2019}}</ref>
 |-
@@ -263,11 +263,23 @@ This is a '''timeline of AI safety'''. AI safety is the field focused on reducin
 |-
 | 2019 || {{dts|February}} || Grant || The Open Philanthropy Project grants $2,112,500 to the Machine Intelligence Research Institute (MIRI) over two years. This is part of the first batch of grants decided by the Committee for Effective Altruism Support, which will set "grant sizes for a number of our largest grantees in the effective altruism community, including those who work on long-termist causes."<ref name="donations-portal-open-phil-ai-safety" /> Around the same time, BERI grants $600,000 to MIRI.<ref name="donations-portal-beri-ai-safety">{{cite web|url =  https://donations.vipulnaik.com/donor.php?donor=Berkeley+Existential+Risk+Initiative&cause_area_filter=AI+safety|title = Berkeley Existential Risk Initiative donations made (filtered to cause areas matching AI safety)|accessdate = August 18, 2019}}</ref>
 |-
-| 2019 || {{dts|April 7}} || Grant || The Long Term Future Fund, one of the Effective Altruism Funds, announces a set of 23 grants totaling $923,150. About half the grant money is to organizations or projects directly working in AI safety. Recipients include the Machine Intelligence Research Institute (MIRI), AI Safety Camp, Ought, and a number of individuals working on AI safety projects, including three in deconfusion research.<ref name="donations-portal-ea-funds-ai-safety" />
+| 2019 || {{dts|April 7}} || Grant || The Long-Term Future Fund, one of the Effective Altruism Funds, announces a set of 23 grants totaling $923,150. About half the grant money is to organizations or projects directly working in AI safety. Recipients include the Machine Intelligence Research Institute (MIRI), AI Safety Camp, Ought, and a number of individuals working on AI safety projects, including three in deconfusion research.<ref name="donations-portal-ea-funds-ai-safety" />
 |-
 | 2019 || {{dts|May}} || Grant || The Open Philanthropy Project announces the second class of the Open Phil AI Fellowship, with 8 machine learning researchers in the class, receiving a total of $2,325,000 in grants.<ref name="donations-portal-open-phil-ai-safety"/>
 |-
 | 2019 || {{dts|June 7}} || Fictional portrayal || The movie ''{{w|I Am Mother}}'' is released on Netflix. According to a comment on Slate Star Codex: "you can use it to illustrate everything from paperclip maximization to deontological kill switches".<ref>{{cite web|url = https://slatestarcodex.com/2019/06/05/open-thread-129-25/|title = OPEN THREAD 129.25|date = June 8, 2019|accessdate = August 18, 2019}}</ref>
+|-
+| 2019 || {{dts|August 25}} || || Grantmaking done by Berkeley Existential Risk Initiative (BERI) funded by {{w|Jaan Tallinn}} moves to the newly created Survival and Flourishing Fund (SFF).<ref>{{cite web|url = http://existence.org/tallinn-grants-future/|title = The Future of Grant-making Funded by Jaan Tallinn at BERI|date = August 25, 2019|accessdate = April 18, 2020|publisher = Berkeley Existential Risk Initiative}}</ref> BERI's grantmaking in this space had previously included AI safety organizations. However, as of April 2020, SFF's grants have not included any grants to organizations exclusively focused on AI safety, but rather been to organizations working on broader global catastrophic risks and other adjacent topics.
+|-
+| 2019 || {{dts|August 30}} || Grant || The Long-Term Future Fund, one of the Effective Altruism Funds, announces a set 13 grants totaling $415,697 USD to organizations and individuals. About half the grant money is to organizations or projects working in AI safety and related AI strategy, governance, and policy issues. With the exception of a grant to AI Safety Camp, all the other grants related to AI safety are to individuals.<ref>{{cite web|url = https://app.effectivealtruism.org/funds/far-future/payouts/4UBI3Q0TBGbWcIZWCh4EQV|title = August 2019: Long-Term Future Fund Grants and Recommendations|date = August 30, 2019|accessdate = April 18, 2020|publisher = Effective Altruism Funds}}</ref>
+|-
+| 2019 || {{dts|November}} || Grant || The Open Philanthropy Project makes a $1 million grant to Ought, double the previous grant of $525,000.<ref name="donations-portal-open-phil-ai-safety" />
+|-
+| 2019 || {{dts|November 21}} || Grant || The Long-Term Future Fund, one of the Effective Altruism Funds, announces a set 13 grants totaling $466,000 USD to organizations and individuals. About a quarter of the grant money is to organizations and individuals working on AI safety. With the exception of a grant to AI Safety Camp, all the other grants related to AI safety are to individuals.<ref>{{cite web|url = https://app.effectivealtruism.org/funds/far-future/payouts/60MJaGYoLb0zGlIZxuCMPg|title = November 2019: Long-Term Future Fund Grants|date = November 21, 2019|accessdate = April 18, 2020|publisher = Effective Altruism Funds}}</ref>
+|-
+| 2019 || {{dts|December 18}} || Publication || The "2019 AI Alignment Literature Review and Charity Comparison" is published on the Effective Altruism Forum. It surveys AI safety work in 2019. It continues an annual tradition of similar blog posts in 2016, 2017, and 2018. One feature new to the document this year is the author's effort to make it easier for readers to jump to and focus on parts of the document most relevant to them, rather than read it beginning to end. To make this easier, the author ends each paragraph with a hashtag, and lists the hashtags at the beginning of the document.<ref>{{cite web|url = https://forum.effectivealtruism.org/posts/dpBB24QsnsRnkq5JT/2019-ai-alignment-literature-review-and-charity-comparison|title = 2019 AI Alignment Literature Review and Charity Comparison|author = Larks|publisher = Effective Altruism Forum|date = December 18, 2019|accessdate = April 18, 2020}}</ref>
+|-
+| 2020 || {{dts|February}} || Grant || The Open Philanthropy Project makes grants to AI safety organizations Ought ($1.59 million) and Machine Intelligence Research Institute ($7.7 million) with the money amount determined by the Committee for Effective Altruism Support (CEAS). Other organizations receiving money based on CEAS recommendations at around the same time are the Centre for Effective Altruism and 80,000 Hours, neither of which is primarily focused on AI safety.<ref name="donations-portal-open-phil-ai-safety" />
 |}
 
 ==Meta information on the timeline==
@@ -315,6 +327,8 @@ Issa likes to work locally and track changes with Git, so the revision history o
 * [[Timeline of Google Brain]]
 * [[Timeline of DeepMind]]
 * [[Timeline of machine learning]]
+* [[Timeline of artificial intelligence]]
+* [[Timeline of robotics]]
 
 ==External links==
 
@@ -322,4 +336,4 @@ Issa likes to work locally and track changes with Git, so the revision history o
 
 ==References==
 
-{{Reflist|30em}}
+{{reflist|30em}}
