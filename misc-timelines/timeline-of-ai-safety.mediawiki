@@ -304,8 +304,11 @@ Issa likes to work locally and track changes with Git, so the revision history o
 * stuff in [http://lesswrong.com/lw/bd6/ai_risk_opportunity_a_timeline_of_early_ideas_and/] and [http://lesswrong.com/lw/b0v/ai_risk_and_opportunity_humanitys_efforts_so_far/]
 * siren/marketing worlds
 * TDT/UDT
-* Paul Christiano AI alignment blog
+* Paul Christiano AI alignment blog. Also, more on Christiano's trajectory in AI safety
 * Intelligent Agent Foundations Forum
+* Alignment Forum (using the LessWrong software), arguably a successor to the Intelligent Agent Foundations Forum?
+* AI Watch
+* The launch of Ought
 * AI alignment prize
 * Translations of ''Superintelligence''?
 * universal prior/distant superintelligences stuff
@@ -314,6 +317,16 @@ Issa likes to work locally and track changes with Git, so the revision history o
 * when did the different [https://causeprioritization.org/Template_for_views_on_AI_safety#approaches-to-alignment approaches to alignment] come along?
 * the name change from "friendly AI" to "AI safety" and "AI alignment" is probably worth adding, though this was gradual so kind of hard to pin down as an event. See also [https://forum.effectivealtruism.org/posts/cuB3GApHqLFXG36C6/i-am-nate-soares-ama#AGZGEwsQ6QWda8Xnt this comment].
 * [http://inst.eecs.berkeley.edu/~cs294-149/fa18/ CS 294-149: Safety and Control for Artificial General Intelligence (Fall 2018)], taught by Andrew Critch and Stuart Russell
+* Survival and Flourishing Fund as the successor to BERI
+* Median Group (insofar as some of their research is about AI)
+* MIRI's nondisclosure-by-default policy
+* Norms set by OpenAI's decision not to release the full GPT2 model, and some of the discussion this sparked
+
+More detail would help for these rows:
+
+* Launch of AI Impacts (who launched it, what sort of stuff it covers)
+* Concrete Problems in AI safety -- main stuff covered, and why it is considered a landmark in some ways
+* Center for Security and Emerging Technology -- talk more about who's founding it, and the relation with AI safety and their approach to it.
 
 ===Timeline update strategy===
 
