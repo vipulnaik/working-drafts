@@ -127,6 +127,8 @@ This is a '''timeline of Center for Applied Rationality'''. Center for Applied R
 | 2019 || {{dts|December 18}}{{snd}}January 15 || Financial || CFAR runs its December fundraiser over this time period. The fundraiser raises $225,552 USD compared to a target of $200,000 and a stretch goal of $650,000.<ref>{{cite web|url = https://rationality.org/fundraiser|title = 2019 CFAR Fundraiser|accessdate = April 18, 2020|publisher = Center for Applied Rationality}}</ref>
 |-
 | 2019 || {{dts|December 19}}{{snd}}22 || AMA || CFAR does an Ask Me Anything (AMA) on LessWrong, aiming to answer all questions posed on December 20. Due to the large volume of questions, replies from CFAR continue at full steam till December 22, and further discussion continues till around January 2. Overall the AMA attracts 329 comments.<ref>{{cite web|url = https://www.lesswrong.com/posts/96N8BT9tJvybLbn5z/we-run-the-center-for-applied-rationality-ama-starts-friday|title = We run the Center for Applied Rationality, AMA|last = Salamon|first = Anna|date = December 19, 2019|accessdate = April 18, 2020}}</ref>
+|-
+| 2020 || {{dts|February}} || Financial || The Open Philanthropy Project makes a $375,000 {{w|exit grant}} to CFAR, that will provide CFAR with approximately one year of operating support.<ref>{{cite web|url = https://www.openphilanthropy.org/giving/grants/center-applied-rationality-general-support-2020|title = Center for Applied Rationality — General Support (2020)|publisher = Open Philanthropy Project|date = April 20, 2020|accessdate = May 16, 2020}}</ref>
 |}
 
 ==Workshops==
