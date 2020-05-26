@@ -1,0 +1,109 @@
+'''Optional Practical Training''' ('''OPT''') is a period during which [[undergraduate]] and graduate students with [[F-1 visa|F-1 status]] who have completed or have been pursuing their degrees for one academic year are permitted by the [[United States Citizenship and Immigration Services]] (USCIS) to work for one year on a [[student visa]] towards getting practical training to complement their education.
+
+On April 2, 2008, the U.S. [[Department of Homeland Security]] (DHS) Secretary [[Michael Chertoff]] announced a 17-month extension to the OPT for students in qualifying [[Science, technology, engineering, and mathematics|STEM]] fields.<ref name=chertoff-memo>{{cite web|url=http://www.gpo.gov/fdsys/pkg/FR-2008-04-08/html/E8-7427.htm|accessdate = January 19, 2015|date = April 2, 2008|title = Federal Register, Volume 73, Number 68 (April 8, 2008)}}</ref><ref>{{cite web|title=Questions and Answers: Extension of Optional Practical Training Program for Qualified Students|url=http://www.uscis.gov/portal/site/uscis/menuitem.5af9bb95919f35e66f614176543f6d1a/?vgnextoid=9a3d3dd87aa19110VgnVCM1000004718190aRCRD&vgnextchannel=68439c7755cb9010VgnVCM10000045f3d6a1RCRD|publisher=[[USCIS]]|date=2012-04-25}}</ref> To be eligible for the 12-month permit, any degree in any field of studies is valid. For the 17-month OPT extension, a student must have received a science, technology, engineering, or mathematics degree as listed on the [http://www.ice.gov/sevis/stemlist.htm USCIS website].
+
+On May 31, 2008, the [[Immigration Reform Law Institute]] filed a lawsuit in federal court on behalf of various organizations and individuals challenging the validity of the 17 month OPT extension. A similar lawsuit in November 2014 challenging the STEM extension was successful, with the Court giving the US government up to February 12, 2016 to formulate new rules.<ref name=2015-lawsuit-uphold/><ref name=opt-vacation/> The deadline was subsequently extended by three months.
+
+On March 11, 2016, the Department of Homeland Security published a final rule allowing certain F-1 students who receive science, technology, engineering, and mathematics (STEM) degrees, and who meet other specified requirements, to apply for a 24-month extension of their post-completion OPT, giving STEM graduates a total of 36 months of OPT. The 24-month extension will replace the 17-month STEM OPT extension previously available to STEM students (see 73 FR 18944). Eligible students may begin applying for a 24-month STEM OPT extension on May 10, 2016.<ref>https://www.uscis.gov/working-united-states/students-and-exchange-visitors/students-and-employment/stem-opt {{PD-notice}}</ref>
+
+There also exists a post-completion Optional Practical Training option for students on [[M-1 visa]]s, but it is significantly more restrictive than that for F-1 students.<ref name=uscis-students-and-employment>{{cite web|url = https://www.uscis.gov/working-united-states/students-and-exchange-visitors/students-and-employment|title = Students and Employment|publisher = [[United States Citizenship and Immigration Services]]|accessdate = March 5, 2016}}</ref><ref name=usavisanow-all-categories>{{cite web|url = https://www.usavisanow.com/opt-optionalpracticaltraining/|title = OPT (Optional Practical Training)|publisher = USA Visa Now|accessdate = March 5, 2016}}</ref> Unless otherwise specified, Optional Practical Training is understood to refer to Optional Practical Training for F-1 students.
+
+== Statistics ==
+
+=== Number of receipts, approvals, denials, and revocations by Fiscal Year ===
+
+Statistics below are for the United States fiscal year, that runs October to September. For instance, Fiscal Year 2008 starts on October 1, 2007 to September 30, 2008. Data is from a [[Government Accountability Office]] report.<ref name=gao-report>{{cite web|url = http://www.gao.gov/assets/670/661192.pdf|title = Student and Exchange Visitor Program. DHS Needs to Assess Risks and Strengthen Oversight of Foreign Students with Employment Authorization|date = February 1, 2014|accessdate = April 8, 2016}}</ref>
+
+Note that the counts here are of receipts, approvals, denials or revocations that happened in the Fiscal Year, regardless of when other activities surrounding that application occurred. For instance, if an application was approved in Fiscal Year 2009 and revoked in Fiscal Year 2010, the revocation would be counted in 2010 rather than 2009. Thus, the number of receipts for a given year need not equal the sum of the number of approvals and denials for that year.<ref name=gao-report/>
+
+{| class="wikitable sortable" border="1"
+! Fiscal Year !! Receipts !! Approvals !! Denials !! Revocations
+|-
+| 2008 || 38,730 || 28,497 || 360 || 1
+|-
+| 2009 || 87,636 || 90,896 || 2,125 || 71
+|-
+| 2010 || 99,876 || 96,916 || 1,731 || 57
+|-
+| 2011 || 109,895 || 105,357 || 2,226 || 67
+|-
+| 2012 || 117,141 || 115,303 || 2,801 || 71
+|-
+| 2013 || 128,591 || 123,328 || 3,400 || 77
+|-
+! Total || 581,869 || 560,297 || 12,643 || 344
+|}
+
+=== IIE data on number of Optional Practical Training students (total and by country) ===
+
+The [[Institute of International Education]] maintains data on the number of international students as part of its ''Open Doors'' project, supported from a grant by the Bureau of Educational and Cultural Affairs in the [[U.S. Department of State]].<ref name=open-doors>{{cite web|url = http://iie.org/Research-and-Publications/Open-Doors|title = Open Doors|publisher = [[Institute of International Education]]|accessdate = April 9, 2016}}</ref> The data is collected through surveys of over 3,000 accredited U.S. higher education institutions, and does not rely on any privileged access to government data; in particular institutions not included in the survey (such as high schools that issue student visas, and non-accredited institutions that are SEVP-certified) may be omitted from the statistics.<ref name=open-doors-faq>{{cite web|url = http://iie.org/Research-and-Publications/Open-Doors/FAQ|title = Open Doors FAQs|publisher = [[Institute of International Education]]|accessdate = April 9, 2016}}</ref> Since the 2006-2007 academic year, these surveys have included data on usage of the Optional Practical Training program.
+
+The data below summarizes both total OPT usage and the usage based on country of origin for the top countries of origin. More detailed data is available at the IIE website.<ref>{{cite web|url = http://iie.org/Research-and-Publications/Open-Doors/Data/International-Students/Place-of-Origin|title = International Place of Origin|publisher = [[Institute of International Educators]]|accessdate = May 26, 2020}}</ref>
+
+Since the Optional Practical Training program duration is a year for most people (though the STEM extension and cap gap allow for longer OPTs under some circumstances), the number of approvals in a given year should roughly match the number of students on Optional Practical Training. However, because of various mismatches such as that between the fiscal and academic year, and between the date of approval and the start date, and the fact that the ''Open Doors'' survey does not cover all SEVP-certified institutions, the numbers may not exactly match those from the GAO table.
+
+{| class="wikitable sortable" border="1"
+! Year !! Total use of OPT !! Mainland [[China]] !! [[India]] !! [[South Korea]] !! [[Taiwan]] !! [[Canada]]  !! [[Japan]]
+|-
+| 2006-07 || 48,387 || 7,171 || 10,703 || 4,497 || 2,993 || 1,653 || 2,350 
+|-
+| 2007-08 || 56,766 || 7,718 || 10,846 || 4,965 || 3,178 || 1,869 || 2,459 
+|-
+| 2008-09 || 66,601 || 8,212 || 14,886 || 5,134 || 3,444  || 1,778 || 2,237
+|-
+| 2009-10 || 67,804 || 11,003 || 19,657 || 5,862 || 3,569 || 1,969 || 2,068
+|-
+| 2010-11 || 76,031 || 13,268 || 24,665 || 6,026 || 3,737 || 2,204 || 1,820
+|-
+| 2011-12 || 85,157 || 18,394 || 26,742 || 5,807 || 3,377 || 2,140 || 1,593
+|-
+| 2012-13 || 94,919 || 23,968 || 27,831 || 6,268 || 3,417 || 2,333 || 1,630 
+|-
+| 2013-14 || 105,997 || 33,401 || 27,696 || 6,639 || 3,540 || 2,568 || 1,458
+|-
+| 2014-15 || 120,287 || 43,114 || 29,388 || 6,635 || 3,622 || 2,683 || 1,285
+|-
+| 2015-16 || 147,498 || 52,193 || 42,328 || 7,039 || 4,017 || 2,897 || 1,416
+|-
+| 2016-17 || 175,695 || 59,835 || 57,132 || 7,784 || 4,223 || 3,139 || 1,447
+|-
+| 2017-18 || 203,462 || 65,680 || 75,390 || 7,714 || 4,496 || 3,225 || 1,501
+|}
+
+== History ==
+
+=== Introduction of the STEM extension ===
+
+The STEM extension was announced in a memo by [[Department of Homeland Security]] Secretary [[Michael Chertoff]] on April 2, 2008, published in the ''[[Federal Register]]'' issue of Tuesday, April 8, 2008.<ref name=chertoff-memo/> The STEM extension appears to be directly attributable to Congressional testimony by [[Microsoft]] co-founder [[Bill Gates]], March 12, 2008.<ref>{{cite web|url=http://www.seyfarth.com/dir_docs/publications/AttorneyPubs/A%20Rare%20Carrot%20for%20Employers.pdf|title = A Rare Carrot for Employers: F-1 Optional Practical Training Extended|last = Chiappari|first = Ted J.|last2 = Paparelli|first2 = Angelo J.|accessdate = December 24, 2014}}</ref><ref>{{cite web|url=http://www.networkworld.com/article/2284389/infrastructure-management/bill-gates-written-transcript-from-today-s-congressional-testimony.html|title = Bill Gates written transcript from today's congressional testimony|publisher = Network World|date = March 12, 2008|accessdate = December 24, 2014}}</ref><ref>{{cite web|url = https://www.youtube.com/watch?v=GC6cSz9gRhc|title = Bill Gates Urges Congress to Foster Innovation & Immigration (video)|date = March 12, 2008|accessdate = December 24, 2014}}</ref> 
+
+===Immigration Reform Law Institute challenge in 2008===
+
+The OPT STEM extension announced in April 2008 was challenged in a lawsuit by the [[Immigration Reform Law Institute]] filed on May 29, 2008. On August 5, 2008, the lawsuit was rejected by a [[New Jersey]] district court judge.<ref>{{cite web|url=http://www.ilw.com/immigrationdaily/cases/2008,0815-guild.pdf|title = Order and Opinion|author = New Jersey District Court|date = August 5, 2008|accessdate = January 19, 2015}}</ref><ref>{{cite magazine|url=http://www.computerworld.com/article/2532232/it-personnel/judge-rejects-student-visa-injunction-sought-by-h-1b-opponents.html|title = Judge rejects student visa injunction sought by H-1B opponents. Tech workers don't have standing to fight Bush administration visa move|last = Thibodeau|first = Patrick|date = August 7, 2008|accessdate = January 19, 2015|magazine = [[Computer World]]}}</ref>
+
+=== Proposed changes as part of the Obama administration's November 20, 2014 immigration executive action ===
+
+A November 20, 2014 memo by [[Department of Homeland Security]] Secretary Jeh Charles Johnson outlining proposed executive action on immigration endorsed by President [[Barack Obama]] included some suggested changes to the OPT program.<ref>{{cite web|url=https://www.dhs.gov/sites/default/files/publications/14_1120_memo_business_actions.pdf|title = Policies Supporting U.S. High-Skilled Businesses and Workers|publisher = [[Department of Homeland Security]]|date = November 20, 2014|accessdate = January 19, 2015}}</ref> The proposals were discussed and critiqued in ''[[National Law Review]]''.<ref>{{cite magazine|url=http://www.natlawreview.com/article/immigration-developments-highly-skilled-workers-changes-business-community-can-expec|title = Immigration Developments for Highly Skilled Workers: Changes the Business Community Can Expect as a Result of President Obama’s Executive Action on Immigration Reform|magazine = [[National Law Review]]|date = November 20, 2014|accessdate = January 19, 2015|last = Cohen|first = Susan J.}}</ref><ref>{{cite magazine|url=http://www.natlawreview.com/article/president-obama-s-executive-immigration-reform-shining-spotlight-reforming-optional-|title = President Obama’s Executive Immigration Reform: Shining a Spotlight on Reforming Optional Practical Training "OPT"|date = December 3, 2014|accessdate = January 19, 2015|magazine = [[National Law Review]]|last = Cohen|first = Susan J.|last2 = Ramos|first2 = Cassie M.}}</ref>
+
+=== November 2014 challenge ===
+
+In August 2015, a US federal court gave the green light to a lawsuit challenging the 17-month OPT STEM extension, filed by the Washington Alliance of Technology Workers and three IT workers who claimed that the OPT STEM extension had created unfair low-wage competition that had materially hurt them.<ref name=2015-lawsuit-uphold>{{cite web|url=https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2014cv0529-17|title = Washington Alliance of Technology Workers vs United States Department of Homeland Security|publisher = United States District Court for the District of Columbia|accessdate = January 19, 2015}}</ref><ref>{{cite magazine|url=http://www.computerworld.com/article/2851852/court-okays-it-worker-lawsuit-over-student-visa-work-program.html|title = Court OKs IT worker lawsuit over student visa work program|last = Thibodeau|first = Patrick|date = November 24, 2014|accessdate = January 19, 2015|magazine = [[Computer World]]}}</ref><ref>{{cite news|url=http://humanevents.com/2014/12/03/court-ruling-challenges-obama-immigration-action/|title = Court ruling challenges Obama immigration action|last = Ward|first = Kenric|date = December 3, 2014|accessdate = January 19, 2015|newspaper = [[Human Events]]}}</ref> On August 12, 2015, the United States District Court for the District of Columbia vacated the 2008 OPT Regulations but stayed the order until February 12, 2016,<ref name="opt-vacation"/> later extended to May 10, 2016,<ref>{{Cite journal|title = Stem OPT Extension Judge Decision - Jan 23, 2016|url = http://www.slideshare.net/happyschools/stem-opt-extension-judge-decision-jan-23-2016|date = 2016-01-23}}</ref> to allow DHS to provide a transition. The D.C. District explicitly rejected the reasoning of the New Jersey District and Third Circuit in dismissing the earlier 2008 challenge.<ref name=opt-vacation>{{Cite journal|title = 17 Months STEM OPT Extension revoked for F1 Visa Students|url = http://www.slideshare.net/happyschools/17-months-stem-opt-extension-revoked-for-f1-visa-students|date = 2015-08-13}}</ref>
+
+=== March 11, 2016: new OPT STEM extension rules effective May 10, 2016 ===
+
+The proposed rules suggested in the November 20, 2014 memo by DHS Secretary Jeh Johnson were finalized by the USCIS on March 11, 2016, to be effective May 10, 2016, just in time to address the November 2014 court challenge to the original STEM extension.<ref name=uscis-stem-opt-change>{{cite web|url = https://www.uscis.gov/working-united-states/students-and-exchange-visitors/students-and-employment/stem-opt|title = Optional Practical Training Extension for STEM Students (STEM OPT)|accessdate = April 11, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref><ref name=nafsa-stem-change>{{cite web|url = http://www.nafsa.org/Find_Resources/Supporting_International_Students_And_Scholars/ISS_Issues/STEM_OPT_Rulemaking/|title = STEM OPT Rulemaking|date = March 22, 2016|accessdate = April 11, 2016|publisher = NAFSA}}</ref><ref name=stem-opt-hub>{{cite web|url = https://studyinthestates.dhs.gov/stem-opt-hub|title = STEM OPT|publisher = Study in the States, [[U.S. Department of Homeland Security]]|accessdate = April 11, 2016}}</ref> While the USCIS changes for the most part expanded the STEM extension, they did add a requirement that the employer attest to non-displacement of US workers, thereby addressing the concerns raised in the lawsuit challenging the STEM extension.<ref name=employers-and-form-i-983>{{cite web|url = https://studyinthestates.dhs.gov/employers-and-the-form-i-983|title = Employers and the Form I-983|accessdate = April 11, 2016|publisher = Study in the States, [[U.S. Department of Homeland Security]]}}</ref>
+
+=== April and May 2020: Trump administration proposals to limit OPT ===
+
+In April and May 2020, in response to the [[COVID-19 pandemic]] and the [[economic impact of the COVID-19 pandemic|increase in unemployment]] due to the [[U.S. state and local government response to the COVID-19 pandemic|pandemic and associated lockdowns]], the administration of President [[Donald Trump]] was reported to be exploring new restrictions on OPT, with the possibility that some of the measures may be targeted specifically at Chinese students.<ref>{{cite web|url = https://www.forbes.com/sites/stuartanderson/2020/05/04/next-trump-immigration-target-opt-for-international-students/#382f450b45f9|title = Next Trump Immigration Target: OPT For International Students|last = Anderson|first = Stuart|date = May 4, 2020|accessdate = May 26, 2020}}</ref><ref>{{cite web|url = https://www.wsj.com/articles/trump-administration-expected-to-limit-work-program-for-foreign-graduates-11590242401|title = Trump Administration Expected to Limit Work Program for Foreign Graduates. White House to curb popular OPT program, saying jobs should go to Americans during downturn; business groups warn move would harm growth, blunt U.S. recovery|last = Hackman|first = Michelle|last2 = Korn|first2 = Melissa|date = May 23, 2020|accessdate = May 26, 2020}}</ref><ref>{{cite web|url = https://www.vox.com/2020/5/24/21266920/trump-h1b-opt-visa-immigration-student|title = Trump reportedly wants to restrict visa programs for skilled workers. Some Republicans are pressuring the president to suspend the programs for a year.|date = May 24, 2020|accessdate = May 26, 2020|publisher = Vox|last = Narea|first = Nicola}}</ref>
+   
+==References==
+<references/>
+
+==External links==
+* [http://www.uscis.gov/laws/8-cfr/title-8-code-federal-regulations Title 8 CFR]: Title 8 Code of Federal Regulations.
+* [http://www.uscis.gov/portal/site/uscis/menuitem.5af9bb95919f35e66f614176543f6d1a/?vgnextoid=73ddd59cb7a5d010VgnVCM10000048f3d6a1RCRD&vgnextchannel=db029c7755cb9010VgnVCM10000045f3d6a1RCRD I-765]: Form I-765
+* [https://www.dhs.gov/xnews/releases/pr_1207334008610.shtm April 2008 extension notice]
+* [https://web.archive.org/web/20100601163525/http://www.uscis.gov/files/article/OPT_FAQ_4apr08.pdf USCIS: OPT FAQs]
+
+[[Category:Employment of foreign-born]]
+[[Category:Education in the United States]]
