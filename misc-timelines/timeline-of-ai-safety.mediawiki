@@ -442,6 +442,10 @@ Issa likes to work locally and track changes with Git, so the revision history o
 
 ===Timeline update strategy===
 
+===Pingbacks===
+
+* [https://twitter.com/EvanSandhoefner/status/945759656952991744 Evan Sandhoefner tweet] (December 26, 2017) emphasizes the accelerating nature of progress on AI safety by screenshotting the part till 2002 that makes up 1/5 of the timeline at the time.
+
 ==See also==
 
 ===Timelines of organizations working in AI safety===
