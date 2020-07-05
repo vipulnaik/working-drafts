@@ -149,6 +149,10 @@ There are separate timelines with more detailed coverage of specific categories 
 |-
 | 2000 || December 21 || Legislation || Immigration and Naturalization Services; current equivalent United States Citizenship and Immigration Services || V, K-3, K-4 || The {{w|Legal Immigration Family Equity Act}} is passed. Among other things, the Act allows for the overlooking of unauthorized presence in the United States for people who have been in the queue for permanent residency for a long time. The Act primarily references immigrant processing functions now under USCIS rather than enforcement functions, but also contains some protection from removal proceedings. Specifically, protection from removal proceedings begins ''after'' the Form I-485 (green card application) is filed; people who are eligible for legalization in the future through this Act but are still in the queue may be subject to removal proceedings.<ref name=uscis-green-card>{{cite web|url = https://www.uscis.gov/green-card/other-ways-get-green-card/green-card-through-legal-immigration-family-equity-life-act|title = Green Card Through the Legal Immigration Family Equity (LIFE) Act|accessdate = February 8, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref><ref name=procon>{{cite web|url = http://immigration.procon.org/view.answers.php?questionID=000793|title = What Was the 2000 Legal Immigration Family Equity (LIFE) Act?|publisher = [[ProCon.org]]|accessdate = February 8, 2016}}</ref><ref name=uscis-press-release>{{cite web|url = https://www.uscis.gov/sites/default/files/files/pressrelease/LegalImmigFamEquityAct_122100.pdf|title = Legal Immigration Family Equity Act|date = December 21, 2000|accessdate =  February 9, 2016|publisher = [[United States Citizenship and Immigration Services]]}}</ref>
 |-
+| 2002 || November 25 || Organizational restructuring || U.S. Department of Homeland Security || The {{w|United States Department of Homeland Security}} (DHS) comes into formal existence. Eventually, the functions handled by the INS (which was under the Department of Justice) would move to the DHS. 
+|-
+| 2003 || March 1 || Organizational restructuring || Immigration and Naturalization Services and U.S. Department of Homeland Security || The Immigration and Naturalization Services (INS) (that was under the Department of Justice) is disbanded. Its functions are divided into three sub-agencies of the U.S. Department of Homeland Security: {{w|United States Citizenship and Immigration Services}} (USCIS), {{w|U.S. Immigration and Customs Enforcement}} (ICE), and {{w|U.S. Customs and Border Protection}} (CBP).
+|-
 | 2004 || || Treaty or trade agreement || USCIS, U.S. Department of State's Bureau of Consular Affairs || H-1B1 || The {{w|Singapore–United States Free Trade Agreement}} and {{w|Chile–United States Free Trade Agreement}} becomes active. While mostly focused on trade, the agreement gives rise to the {{w|H-1B1 visa}} (available to people from Singapore and Chile), providing another option for people from the two countries who want to work in the United States.
 |-
 | 2004 || || Legislation || USCIS, U.S. Department of State's Bureau of Consular Affairs || H-1B || {{w|H-1B Visa Reform Act of 2004}} and {{w|L-1 Visa Reform Act of 2004}}
@@ -169,6 +173,8 @@ There are separate timelines with more detailed coverage of specific categories 
 * [[Timeline of immigration enforcement in the United States]]
 * [[Timeline of Chinese immigration to the United States]]
 * [[Timeline of migration-related nongovernmental organizations in the United States]]
+* [[Timeline of H-1B]]
+* [[Timeline of student visa policy in the United States]]
 
 == References ==
 
