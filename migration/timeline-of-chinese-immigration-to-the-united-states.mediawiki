@@ -1,5 +1,7 @@
 This timeline covers Chinese immigration to the United States, including both temporary and permanent migration. Among the topics discussed are: migration patterns, source and target regions of migration, laws (U.S. federal and state, and Chinese) that target or significantly affect migration patterns, court cases and administrative/bureaucratic developments affecting migration.
 
+==Full timeline==
+
 {| class="wikitable sortable" border="1"
 ! Year !! Month and date (if available) !! Event type !! Affected region !! Details
 |-
