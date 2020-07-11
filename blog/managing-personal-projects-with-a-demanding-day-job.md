@@ -14,9 +14,9 @@ around bookkeeping, but the bookkeeping may be made more important
 because of the other projects I'm working on. For instance, I've been
 spending a lot of time on [financial
 bookkeeping](https://finances.vipulnaik.com/), and one reason for that
-is that my significant expenditure on contract work means I need to
-think more about my finances than somebody else with my income level
-might.
+is that my [significant expenditure on contract
+work](https://contractwork.vipulnaik.com/) means I need to think more
+about my finances than somebody else with my income level might.
 
 Dealing with my day job as well as personal projects is a
 challenge. My lips are somewhat sealed when it comes to the
@@ -35,7 +35,10 @@ responsibilities may change the dynamic.
 
 To get a sense of the kind of day-to-day tasks I do for both personal
 projects and chores, see my [daily updates
-issues](https://github.com/vipulnaik/daily-updates/issues?q=is%3Aissue).
+issues](https://github.com/vipulnaik/daily-updates/issues?q=is%3Aissue)
+(see
+[here](https://www.lesswrong.com/posts/JvTM68yzurLzJ3Xua/the-why-and-how-of-daily-updates)
+for more about my use of daily update issues).
 
 Here is a list of sections:
 
@@ -67,7 +70,7 @@ want, rather than being swayed by the situation. For instance, let's
 say I have observed that, on average, I am spending way more time on
 work than I think I should with the right balance. By setting specific
 hours for work, I can cap the time I spend on work, reducing the
-overwork, and guaranteeing somme minimum amount of time on personal
+overwork, and guaranteeing some minimum amount of time on personal
 projects.
 
 There are, however, a few problems with the set hours approach, that I
@@ -75,14 +78,16 @@ think outweigh the benefits.
 
 First, a lot of my day job work involves coordination with others,
 including coworkers and customers. Different people work in different
-timezones. Starting my day early allows me effective coordination with
+timezones. I'm in Berkeley, California and therefore follow Pacific
+Time. Starting my day early allows me effective coordination with
 colleagues on the East Coast of the United States as well as those on
 the West Coast who start their day early, deal with questions from
 customers in Europe, and also coordinate with a co-worker based in
 South Asia. The majority of my colleagues, though, work roughly 9 AM
-to 7 PM. Maintaining some level of availability throughout the day
-helps a lot. Cutting down on availability can lead to significant
-delays.
+to 7 PM, and some of our customers in Japan benefit from my
+availability late in the evenings. Maintaining some level of
+availability throughout the day helps a lot. Cutting down on
+availability can lead to significant delays.
 
 For instance, if a colleague who works 11 AM to 7 PM asks me a
 question at 5 PM, replying immediately can unblock him for his
@@ -190,7 +195,7 @@ projects. This means that, even for moderate *amounts* of progress, I
 need to set an internal expectation that that progress will take
 several months. For instance, even if a task takes just ten hours, I
 might expect it to take three calendar months to finish. This is
-particularly true of thee tasks that I cannot or do not want to
+particularly true of the tasks that I cannot or do not want to
 delegate. Further complicating this picture is my mood, due to which I
 may choose to spend a large share of personal project time on
 indulgences.
@@ -250,12 +255,12 @@ instead of switching to B.
 ## Why keep such a demanding job?
 
 I think there is a good chance that in the longer term, I will look
-for lower-paying, less time-intensive jobs, or possibly even stopping
-work completely. However, for the near term, both financial
-considerations (building a savings buffer) and other considerations
-(reduced mobility due to COVID-19, immigration laws that require me to
-be in a high-paying job to maintain status) push me toward maintaining
-the status quo.
+for lower-paying, less time-intensive jobs, or possibly even stop work
+completely. However, for the near term, both financial considerations
+(building a savings buffer) and other considerations (reduced mobility
+due to COVID-19, immigration laws that require me to be in a
+high-paying job to maintain status) push me toward maintaining the
+status quo.
 
 ### Financial considerations
 
@@ -275,14 +280,15 @@ to cover about seven years of current expenses (excluding contract
 work and donations). (I expect that I could cut down my actual
 expenses a lot if I weren't working, because rent and health insurance
 form a large fraction of my expenses outside contract work and
-donations, but it's also possible that expenses will increase due to
-other personal circumstances or family responsibilities). At the
-current rate of saving, I expect to hit that level in three years.
+donations, and moving to a cheaper area could cut these expenses a
+lot, but it's also possible that expenses will increase due to other
+personal circumstances or family responsibilities). At the current
+rate of saving, I expect to hit that level in three years.
 
 ### Immigration status considerations
 
 I'm currently living in the United States on a H-1B, and have a
-pending green card applications (I-140 approved, waiting for priority
+pending green card application (I-140 approved, waiting for priority
 date to become current). Currently, applications from 2009 are being
 processed for my category (my date is 2019), so if the processing is
 linear, I expect to wait another ten years. However, various sources
@@ -292,7 +298,7 @@ it'll finally be my turn vary from twenty to over a hundred years.
 Until that time, in order to stay in the United States, I would need
 to stay continuously employed in a roughly similar job to my current
 one. However, I could leave the United States and then come to the
-United States again on H-1B, while my application is still pending.
+United States again on H-1B, while I await my priority date.
 
 Keeping the current type of job for more than a decade is not an
 exciting long-term prospect for me. In the longer term, I want
@@ -305,15 +311,19 @@ gives me freedom to quit my job. The three likely ways are: (a)
 upgrading my application type (EB-2 to EB-1) so I have to wait "only"
 about five years, (b) making a lot of money and going the EB-5
 (investor/entrepreneur) visa route, that would again take at least two
-years after I make the money, or (c) marriage (this is obviously a
+years after I make the money, or (c) marriage. Marriageis obviously a
 little different than the others in that I won't do this purely to get
 a green card, but it's also the only one of the three that will create
-a genuine additional motivation for me to stay in the United States).
+a genuine additional motivation for me to stay in the United States;
+on another note, I think marriage will further decrease my desire to
+continue a demanding day job, because I definitely can't juggle
+demanding day job, personal projects, *and* family, and I think
+demanding day job will be first on the chopping block.
 
 Second, I could leave the United States after a few years, once I want
 to stop doing the current type of job. The good thing about having a
 pending green card application is that I have the ability to come to
-the United States for work on similar lines at any time in thee
+the United States for work on similar lines at any time in the
 future.
 
 The decision of which route to go is a little complex, but what the
@@ -335,4 +345,4 @@ financial uncertainty (if I quit my current job, and later decide I
 need to go back to working, my ability to find a new one may be
 limited by the pandemic). Outside of changes that need to be made now
 for compelling reasons, I prefer to defer major changes till after
-COVID-19 has settled down.
+COVID-19 is mostly under control around the world.
