@@ -7,15 +7,16 @@ unexpected work popping up at odd hours.
 
 I have a number of personal projects that I would like to see steady
 progress on. Some of the personal projects are things I'm doing on my
-own; some are collaborative. Most have a "make the world a bettere
+own; some are collaborative. Most have a "make the world a better
 place" flavor, though I don't know if they would be considered
-philanthropic or effective altriuist in a typical sense. Some are more
+philanthropic or effective altruist in a typical sense. Some are more
 around bookkeeping, but the bookkeeping may be made more important
 because of the other projects I'm working on. For instance, I've been
-spending a lot of time on financial bookkeeping, and one reason for
-that is that my significant expenditure on contract work means I need
-to think more about my finances than somebody else with my income
-level might.
+spending a lot of time on [financial
+bookkeeping](https://finances.vipulnaik.com/), and one reason for that
+is that my significant expenditure on contract work means I need to
+think more about my finances than somebody else with my income level
+might.
 
 Dealing with my day job as well as personal projects is a
 challenge. My lips are somewhat sealed when it comes to the
@@ -31,6 +32,10 @@ these fronts are sporadic. My life therefore boils down to work,
 personal projects, chores (like shopping, cooking, and laundry), and
 entertainment. Adding in significant ongoing family and social
 responsibilities may change the dynamic.
+
+To get a sense of the kind of day-to-day tasks I do for both personal
+projects and chores, see my [daily updates
+issues](https://github.com/vipulnaik/daily-updates/issues?q=is%3Aissue).
 
 Here is a list of sections:
 
@@ -73,7 +78,7 @@ including coworkers and customers. Different people work in different
 timezones. Starting my day early allows me effective coordination with
 colleagues on the East Coast of the United States as well as those on
 the West Coast who start their day early, deal with questions from
-customers in Europe, and also cooordinate with a co-worker based in
+customers in Europe, and also coordinate with a co-worker based in
 South Asia. The majority of my colleagues, though, work roughly 9 AM
 to 7 PM. Maintaining some level of availability throughout the day
 helps a lot. Cutting down on availability can lead to significant
@@ -122,7 +127,7 @@ instead:
   and then some work popped up at the last minute that took
   precedence. Without the promise (that had gotten my hopes high) I
   would have been better equipped to accept the work. Instead, I
-  needeed to figure out other, more indirect, ways to achieve the
+  needed to figure out other, more indirect, ways to achieve the
   benefits that I was using "promises" to obtain. [Promises are a
   weaker form of boundaries, in the sense that a promise is just a
   determination to apply a boundary in specific instances, but that
@@ -171,7 +176,7 @@ the early years (2015 to 2017) on average provides less value for
 money than the work I funded in the later years (2018 to 2020).
 
 I understand that the above is far from a satisfactory description or
-explanation of my funding of conotract work; interested readers are
+explanation of my funding of contract work; interested readers are
 encouraged to explore the [contract work
 portal](https://contractwork.vipulnaik.com/). I might write more of a
 retrospective on funding contract work in the next few years.
@@ -193,7 +198,7 @@ indulgences.
 To handle this and not set myself up for disappointment, I avoid
 setting specific date deadlines for personal projects where such a
 deadline is not externally imposed. Instead, I mostly impose a loose
-relative ordereing within each project, and a general priority
+relative ordering within each project, and a general priority
 ordering between projects. This relative ordering is subject to
 tweaking, particularly to accommodate indulgences, but it provides a
 general framework. If the relative ordering is reasonable, and I end
@@ -234,10 +239,10 @@ These are some of my criteria for the two projects:
 * Both projects are easy to break down into small time chunks, and
   both projects allow for rapid context-switching out of them, and
   pausing for several weeks due to the other project or due to day job
-  responsibilitiees.
+  responsibilities.
 
 Changing the set of two projects will usually happen at least one step
-in advance; for instannce, if I'm alternating between A and B, then at
+in advance; for instance, if I'm alternating between A and B, then at
 some point when doing A, I may decide to switch to alternating between
 A and C. Then I'll complete my current stint on A and switch to C
 instead of switching to B.
@@ -262,7 +267,7 @@ have (including contract work) I will save a minimum of $2,750 per
 month on average; this is extrapolated from my 2019 saving rate. My
 saving rate in 2020 so far has been higher, but 2019 probably gives a
 more accurate picture; I happen to have not made any donations in 2020
-yet, and I also have speent a little less on contract work in 2020 and
+yet, and I also have spent a little less on contract work in 2020 and
 expect to scale that back up to 2019 levels.
 
 Ideally, I would like to get to a level of savings that is sufficient
@@ -280,7 +285,7 @@ I'm currently living in the United States on a H-1B, and have a
 pending green card applications (I-140 approved, waiting for priority
 date to become current). Currently, applications from 2009 are being
 processed for my category (my date is 2019), so if the processing is
-linear, I expecet to wait another ten years. However, various sources
+linear, I expect to wait another ten years. However, various sources
 have estimated that the backlog is growing, and estimates for when
 it'll finally be my turn vary from twenty to over a hundred years.
 
@@ -328,6 +333,6 @@ changes to my job or physical location, both due to the overhead of
 self-isolation (e.g., self-isolation periods every time I move) and
 financial uncertainty (if I quit my current job, and later decide I
 need to go back to working, my ability to find a new one may be
-limited by the pandemic). Outside of changes that need to be madee now
+limited by the pandemic). Outside of changes that need to be made now
 for compelling reasons, I prefer to defer major changes till after
 COVID-19 has settled down.
