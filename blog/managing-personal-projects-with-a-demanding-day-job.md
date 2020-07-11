@@ -23,12 +23,23 @@ strategies I employ on the day job side of this challenge, but I'll
 talk about the approaches I am trying to use on the personal project
 side, as well as on finding the balance.
 
-Here is a list of ideas:
+The ideas here may be interesting to others, though I make no claims
+about applicability to other people. One key factor that might differ
+for other people: I don't have a lot of ongoing family
+responsibilities and other social responsibilities; any things I do on
+these fronts are sporadic. My life therefore boils down to work,
+personal projects, chores (like shopping, cooking, and laundry), and
+entertainment. Adding in significant ongoing family and social
+responsibilities may change the dynamic.
+
+Here is a list of sections:
 
 * Hard time-based separations ("boundaries"), and why I didn't find
   them too practical or useful
 * Delegation in personal projects
-* Thinking about progress when time levels are very uncertain
+* Thinking about progress when time levels and timelines are very uncertain
+* The alternation strategy that I'm trying out
+* Why keep such a demanding day job?
 
 ## Hard time-based separations ("boundaries"), and why I didn't find them too practical or useful
 
@@ -143,25 +154,180 @@ specifically being the doer.
 Another is around the time/money tradeoff. Could I take a job that
 makes less money but gives me more time for personal projects, so I
 can do more direct work on personal projects, and possibly reduce the
-contract work I fund? I think there is a good chance that in the
-longer term, I will look for lower-paying, less time-intensive jobs,
-or possibly even stopping work completely. However, for the near term,
-both financial considerations (building a savings buffer) and other
-considerations (reduced mobility due to COVID-19, immigration laws
-that require me to be in a high-paying job to maintain status) push me
-toward maintaining the status quo. I am, however, thinking of
-alternatives for the longer term as I get a better sense of the
-tradeoff (as well as many other tradeoffs).
+contract work I fund? I discuss that more in the last section, but for
+the near term, I don't plan to drastically change my job situation.
 
 At a very high level, my conclusion is that even though I appear to
-have paid a lot (~$150,000) for contract work, in fact I expect that
-taking a lower-paying job that gives me enough time to do simlar work
+have paid a lot (~$150,000) for contract work, I expect that by taking
+a lower-paying job that gives me enough time to do similar work
 myself, I would have lost a comparable amount in forgone wages. If
 it's reasonable to take a lower-paying job to have enough time for
-pursuits of personal importancee, I think funding contract work is
-reasonable. Also, I have gotten betteer over the years at figuring
-out what to fund, and at structuring the tasks to be more efficient,
-working in close collaboratio with Issa and Sebastian, the main
-contract workers.
+pursuits of personal importance, I think funding contract work is
+reasonable. Also, I have gotten better over the years at figuring out
+what to fund, and at structuring the tasks to be more efficient,
+working in close collaboration with Issa and Sebastian, the main
+contract workers. So, you'd probably find that the work I funded in
+the early years (2015 to 2017) on average provides less value for
+money than the work I funded in the later years (2018 to 2020).
 
-## Thinking
+I understand that the above is far from a satisfactory description or
+explanation of my funding of conotract work; interested readers are
+encouraged to explore the [contract work
+portal](https://contractwork.vipulnaik.com/). I might write more of a
+retrospective on funding contract work in the next few years.
+
+## Thinking about progress when time levels and timelines are very uncertain
+
+In many cases, my personal projects move very slowly. This is largely
+because of the demanding nature of my day job, but also because of a
+lot of competition for my time between the various personal
+projects. This means that, even for moderate *amounts* of progress, I
+need to set an internal expectation that that progress will take
+several months. For instance, even if a task takes just ten hours, I
+might expect it to take three calendar months to finish. This is
+particularly true of thee tasks that I cannot or do not want to
+delegate. Further complicating this picture is my mood, due to which I
+may choose to spend a large share of personal project time on
+indulgences.
+
+To handle this and not set myself up for disappointment, I avoid
+setting specific date deadlines for personal projects where such a
+deadline is not externally imposed. Instead, I mostly impose a loose
+relative ordereing within each project, and a general priority
+ordering between projects. This relative ordering is subject to
+tweaking, particularly to accommodate indulgences, but it provides a
+general framework. If the relative ordering is reasonable, and I end
+up getting enough time on personal projects, I will overall make
+reasonable progress.
+
+Even so, I sometimes feel guilt at "neglecting" a project, or having
+simple tasks (that in all rights are a few hours of work) take several
+months. I have to then remind myself that, during those months I have
+not been idle; I've been doing other tasks that I prioritized more
+highly. And at a higher level, I remind myself that my decision to
+continue to work at a demanding, and well-paying, day job is one of
+the root causes of the slow progress.
+
+## The alternation strategy that I'm trying out
+
+Of late, I am trying a strategy of having two main personal projects
+active. I'll be working on either one of them at a given time, and
+when I tire of it, I'll switch to the other one. I will also try to
+restrict indulgences to within those two projects, if feasible (though
+possibly outside of my sequence of work within those projects).
+
+These are some of my criteria for the two projects:
+
+* The amount of time it takes for me to tire on either project is more
+  than the amount of time I need to recover from either project (while
+  I'm doing the other project). For instance, it takes me at least two
+  calendar weeks of work on either project to tire from it, and I can
+  recover in one week. Technically, all I need is that the time to
+  tire from each project is longer than the time to recover fromm the
+  other project, so that I can successfully alternate.
+
+  If this cannot be achieved, then I need more than two projects to
+  alternate between.
+
+* Both projects are important to me.
+
+* Both projects are easy to break down into small time chunks, and
+  both projects allow for rapid context-switching out of them, and
+  pausing for several weeks due to the other project or due to day job
+  responsibilitiees.
+
+Changing the set of two projects will usually happen at least one step
+in advance; for instannce, if I'm alternating between A and B, then at
+some point when doing A, I may decide to switch to alternating between
+A and C. Then I'll complete my current stint on A and switch to C
+instead of switching to B.
+
+## Why keep such a demanding job?
+
+I think there is a good chance that in the longer term, I will look
+for lower-paying, less time-intensive jobs, or possibly even stopping
+work completely. However, for the near term, both financial
+considerations (building a savings buffer) and other considerations
+(reduced mobility due to COVID-19, immigration laws that require me to
+be in a high-paying job to maintain status) push me toward maintaining
+the status quo.
+
+### Financial considerations
+
+For more background, see my [personal finances
+website](https://finances.vipulnaik.com/).
+
+My current expectation is that, with the pay and expenses I currently
+have (including contract work) I will save a minimum of $2,750 per
+month on average; this is extrapolated from my 2019 saving rate. My
+saving rate in 2020 so far has been higher, but 2019 probably gives a
+more accurate picture; I happen to have not made any donations in 2020
+yet, and I also have speent a little less on contract work in 2020 and
+expect to scale that back up to 2019 levels.
+
+Ideally, I would like to get to a level of savings that is sufficient
+to cover about seven years of current expenses (excluding contract
+work and donations). (I expect that I could cut down my actual
+expenses a lot if I weren't working, because rent and health insurance
+form a large fraction of my expenses outside contract work and
+donations, but it's also possible that expenses will increase due to
+other personal circumstances or family responsibilities). At the
+current rate of saving, I expect to hit that level in three years.
+
+### Immigration status considerations
+
+I'm currently living in the United States on a H-1B, and have a
+pending green card applications (I-140 approved, waiting for priority
+date to become current). Currently, applications from 2009 are being
+processed for my category (my date is 2019), so if the processing is
+linear, I expecet to wait another ten years. However, various sources
+have estimated that the backlog is growing, and estimates for when
+it'll finally be my turn vary from twenty to over a hundred years.
+
+Until that time, in order to stay in the United States, I would need
+to stay continuously employed in a roughly similar job to my current
+one. However, I could leave the United States and then come to the
+United States again on H-1B, while my application is still pending.
+
+Keeping the current type of job for more than a decade is not an
+exciting long-term prospect for me. In the longer term, I want
+the freedom to switch to a lower-paying or part-time job to give
+myself more time for personal projects.
+
+As I see it, there are a few different long-term possibilities. First,
+I find some other reason to stay in the United States long-term that
+gives me freedom to quit my job. The three likely ways are: (a)
+upgrading my application type (EB-2 to EB-1) so I have to wait "only"
+about five years, (b) making a lot of money and going the EB-5
+(investor/entrepreneur) visa route, that would again take at least two
+years after I make the money, or (c) marriage (this is obviously a
+little different than the others in that I won't do this purely to get
+a green card, but it's also the only one of the three that will create
+a genuine additional motivation for me to stay in the United States).
+
+Second, I could leave the United States after a few years, once I want
+to stop doing the current type of job. The good thing about having a
+pending green card application is that I have the ability to come to
+the United States for work on similar lines at any time in thee
+future.
+
+The decision of which route to go is a little complex, but what the
+immigration status considerations make clear is that I will
+simultaneously have to change on many fronts. I can't quit my job and
+still stay where I am, spending a few months to figure out next
+steps. I have to quit my job and leave the United States at pretty
+much the same time. The coordinated nature of these changes makes them
+more complex, which also pushes me toward sticking to the status quo
+till I have a clear alternate plan in mind.
+
+### COVID-19 considerations
+
+I expect that it'll take about three years for the world to fully
+recover from COVID-19. Until that time, it seems risky for me to make
+changes to my job or physical location, both due to the overhead of
+self-isolation (e.g., self-isolation periods every time I move) and
+financial uncertainty (if I quit my current job, and later decide I
+need to go back to working, my ability to find a new one may be
+limited by the pandemic). Outside of changes that need to be madee now
+for compelling reasons, I prefer to defer major changes till after
+COVID-19 has settled down.
