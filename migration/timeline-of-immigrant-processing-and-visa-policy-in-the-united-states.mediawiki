@@ -183,11 +183,11 @@ There are separate timelines with more detailed coverage of specific categories 
 |-
 | 2002 || November 25 || Organizational restructuring || U.S. Department of Homeland Security || || The {{w|United States Department of Homeland Security}} (DHS) comes into formal existence. Eventually, the functions handled by the INS (which was under the Department of Justice) would move to the DHS. 
 |-
-| 2003 || March 1 || Organizational restructuring || || Immigration and Naturalization Services and U.S. Department of Homeland Security || The Immigration and Naturalization Services (INS) (that was under the Department of Justice) is disbanded. Its functions are divided into three sub-agencies of the U.S. Department of Homeland Security: {{w|United States Citizenship and Immigration Services}} (USCIS), {{w|U.S. Immigration and Customs Enforcement}} (ICE), and {{w|U.S. Customs and Border Protection}} (CBP).
+| 2003 || March 1 || Organizational restructuring || Immigration and Naturalization Services and U.S. Department of Homeland Security || || The Immigration and Naturalization Services (INS) (that was under the Department of Justice) is disbanded. Its functions are divided into three sub-agencies of the U.S. Department of Homeland Security: {{w|United States Citizenship and Immigration Services}} (USCIS), {{w|U.S. Immigration and Customs Enforcement}} (ICE), and {{w|U.S. Customs and Border Protection}} (CBP).
 |-
 | 2004 || || Treaty or trade agreement || USCIS, U.S. Department of State's Bureau of Consular Affairs || H-1B1 || The {{w|Singapore–United States Free Trade Agreement}} and {{w|Chile–United States Free Trade Agreement}} becomes active. While mostly focused on trade, the agreement gives rise to the {{w|H-1B1 visa}} (available to people from Singapore and Chile), providing another option for people from the two countries who want to work in the United States.
 |-
-| 2004 || || Legislation || USCIS, U.S. Department of State's Bureau of Consular Affairs || H-1B || {{w|H-1B Visa Reform Act of 2004}} and {{w|L-1 Visa Reform Act of 2004}}
+| 2004 || || Legislation || USCIS, U.S. Department of State's Bureau of Consular Affairs || H-1B, L-1 || {{w|H-1B Visa Reform Act of 2004}} and {{w|L-1 Visa Reform Act of 2004}}
 |-
 | 2005 || || Treaty or trade agreement || USCIS, U.S. Department of State's Bureau of Consular Affairs || E-3 || The {{w|Australia–United States Free Trade Agreement}} becomes active. While pertaining mostly to trade, the Agreement also leads to the creation of the {{w|E-3 visa}} category, making it easier for people from Australia to come to the United States temporarily for work.
 |-
