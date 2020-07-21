@@ -9,7 +9,7 @@ Get more details from {{w|F visa#History}} (written by author of this timeline s
 {| class="wikitable sortable"
 ! Year !! Month and date (if available) !! Event type !! Affected agencies (past, and present equivalents) !! Details
 |-
-| 1855 || || || || The {{w|Carriage of Passengers Act of 1855}} recognizes students as a category of temporary immigrant.<ref name=shareok>{{cite web|url = https://shareok.org/bitstream/handle/11244/917/3187222.PDF?sequence=1|title = A Descriptive Case Study of the Impact of 9/11 on International Student Visa Policy in the 20 Months Following the Attacks|author = Mary Helen Reeves|accessdate = February 10, 2016}}</ref>
+| 1855 || || || || The {{w|Carriage of Passengers Act of 1855}} recognizes a separate category of temporary immigrant; students would later be classed this way.<ref name=shareok>{{cite web|url = https://shareok.org/bitstream/handle/11244/917/3187222.PDF?sequence=1|title = A Descriptive Case Study of the Impact of 9/11 on International Student Visa Policy in the 20 Months Following the Attacks|author = Mary Helen Reeves|accessdate = February 10, 2016}}</ref>
 |-
 | 1882 || || || || The {{w|Chinese Exclusion Act}} of 1882 significantly restricts the immigration of Chinese skilled and unskilled laborers, but carves out an exception for students.<ref name=shareok/>
 |-
