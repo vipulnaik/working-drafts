@@ -125,7 +125,10 @@ instead:
   will give me a lot of satisfaction, I might do so even during time
   that I would normally spend on personal projects. Indulgences of
   this kind are sometimes costly, but the feeling of satisfaction
-  makes it worth it.
+  makes it worth it. Indulgences are also an important source of
+  spontaneity and variety in an otherwise monotonous life,
+  particularly at a time when external sources of spontaneity are
+  reduced due to staying at home in the face of COVID-19.
 
 * No promises: My biggest sources of work-related stress have come
   from situations where I had "promised" myself a time of relaxation,
