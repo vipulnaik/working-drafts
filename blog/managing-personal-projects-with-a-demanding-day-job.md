@@ -36,9 +36,10 @@ responsibilities may change the dynamic.
 To get a sense of the kind of day-to-day tasks I do for both personal
 projects and chores, see my [daily updates
 issues](https://github.com/vipulnaik/daily-updates/issues?q=is%3Aissue)
-(see
+(tabulated in the [updates.vipulnaik.com
+portal](https://updates.vipulnaik.com/)); see
 [here](https://www.lesswrong.com/posts/JvTM68yzurLzJ3Xua/the-why-and-how-of-daily-updates)
-for more about my use of daily update issues).
+for more about my use of daily update issues.
 
 Here is a list of sections:
 
@@ -314,7 +315,7 @@ gives me freedom to quit my job. The three likely ways are: (a)
 upgrading my application type (EB-2 to EB-1) so I have to wait "only"
 about five years, (b) making a lot of money and going the EB-5
 (investor/entrepreneur) visa route, that would again take at least two
-years after I make the money, or (c) marriage. Marriageis obviously a
+years after I make the money, or (c) marriage. Marriage is obviously a
 little different than the others in that I won't do this purely to get
 a green card, but it's also the only one of the three that will create
 a genuine additional motivation for me to stay in the United States;
