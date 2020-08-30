@@ -48,7 +48,9 @@ Here is a list of sections:
 * Delegation in personal projects
 * Thinking about progress when time levels and timelines are very uncertain
 * The alternation strategy that I'm trying out
+* Administrative tasks (such as peresonal finances portal, daily updates portal)
 * Why keep such a demanding day job?
+* How did writing this post help and what could I not do?
 
 ## Hard time-based separations ("boundaries"), and why I didn't find them too practical or useful
 
@@ -168,8 +170,9 @@ specifically being the doer.
 Another is around the time/money tradeoff. Could I take a job that
 makes less money but gives me more time for personal projects, so I
 can do more direct work on personal projects, and possibly reduce the
-contract work I fund? I discuss that more in the last section, but for
-the near term, I don't plan to drastically change my job situation.
+contract work I fund? I discuss that more in the second-to-last
+section, but for the near term, I don't plan to drastically change my
+job situation.
 
 At a very high level, my conclusion is that even though I appear to
 have paid a lot (~$150,000) for contract work, I expect that by taking
@@ -255,6 +258,83 @@ in advance; for instance, if I'm alternating between A and B, then at
 some point when doing A, I may decide to switch to alternating between
 A and C. Then I'll complete my current stint on A and switch to C
 instead of switching to B.
+
+## Administrative tasks (such as personal finances portal, daily updates portal)
+
+At present, a lot of my non-work time goes into tasks that are
+administrative overhead of some sort. For instance, I am spending some
+time on backfilling data for
+[updates.vipulnaik.com](https://updates.vipulnaik.com/), and I also
+worked off and on starting around December 2019 putting together my
+[finances portal](https://finances.vipulnaik.com/). I have also been
+backfilling my income and taxes data over the past few years. And I've
+been both backfilling and keeping up-to-date my [diet, exercise, and
+health
+data](https://github.com/vipulnaik/diet-exercise-health/commits).
+
+Less importantly (and more fun) I'm also [backfilling my entertainment
+and self-education
+data](https://github.com/vipulnaik/entertainment-and-self-education/commits)
+(portal forthcoming!), though I expect that to be a more time-limited
+activity.
+
+These projects are neither the height of fun, nor do they fall under
+"personal projects" that I have a direct desire to see progress in. In
+my time tracking (shown on
+[updates.vipulnaik.com](https://updates.vipulnaik.com/)), I don't track
+work on any of these under personal projects. I track personal
+finances, income and taxes as a separate category. I track daily
+updates work under personal chores, and I track entertainment ald
+self-education portal work under other activities.
+
+Thus, there is a big question around whether it's wise to be
+spending so much time on these administrative overheads, particularly
+given the already-fairly-limited time I have available for non-work
+items.
+
+I go over some of the reasons for spending as much time as I do on
+these administrative tasks, as well as the criteria for picking some
+administrative tasks instead of others.
+
+### Ongoing overhead of administrative tasks should be low (excluding backfill and setup)
+
+I try to design administrative tasks so that the ongoing overhead,
+excluding backfill work and setup work, is fairly low. Moreover, setup
+work shouldn't be too high, and backfill should be doable at my own
+pace, without blocking the value of the rest of the project.
+
+For instance, with personal finances, the ongoing work is mostly a
+monthly update of balances, a few occasional updates to accrued
+expenses when I buy stuff outside the normal purchases, and quarterly
+or semi-annual systematic updates of accrued expenses. For income and
+taxes, there is also annual calculation of income and taxes across
+various jurisdictions where I can be taxed. In addition, occasionally
+I may investigate opportunities to invest or rearrange money, but
+these are usually not time-sensitive.
+
+This is not a lot of work! But in the last few months, I have been
+spending way more time on personal finances than what you'd predict
+looking at the above. The remaining time is mostly going into
+backfilling finances data for the past ten years, so that I can more
+accurately understand patterns and trends. Most of that is because
+I've essentially been trying to catch up in less than a year on ten
+years of finances; moreover, for the earlier years, some
+archaeological effort is needed to reconstruct what happened, because
+I don't have all data in a computable format, and I don't remember
+things that well. As of the end of August 2020, I have perhaps 5 to 8
+more hours of work to mostly wrap up the backfill, but it's quite
+non-urgent, so I've beeen prioritizing other tasks.
+
+A similar story applies to daily updates. I started creating daily
+updates issues in August 2018. I got the idea of the daily updates
+portal in July 2020, and started working on backfilling data to August
+2018, while keeping data up-to-date going forward. Through the latter
+half of July and all of August, I was able to backfill data till
+around mid-August 2019. I expect that in another two months I would
+have completed the backfill, at which point we'd be down to about ten
+minutes a week on updating data in the portal (in addition to some
+time spent creating the updates, but that is usually part of the
+budgets for other tasks).
 
 ## Why keep such a demanding job?
 
@@ -350,3 +430,61 @@ need to go back to working, my ability to find a new one may be
 limited by the pandemic). Outside of changes that need to be made now
 for compelling reasons, I prefer to defer major changes till after
 COVID-19 is mostly under control around the world.
+
+## How did writing this post help and what could I not do?
+
+I prepared the [first draft of this
+post](https://github.com/vipulnaik/working-drafts/commit/7ec8fa8a907a93f0e981b9afb04c09ebe0edf1bc)
+on July 11, 2020, and since then have mostly let it sit around as a
+draft, with minor tweaks. In the end of August, I reviewed the post
+and added a few sections.
+
+### This post led to the creation of the daily updates portal (updates.vipulnaik.com)
+
+Drafting this post made me think more about organizing my daily
+updates into a portal. A couple of weeks after the [first draft of
+this post (July 10,
+2020)](https://github.com/vipulnaik/working-drafts/commit/7ec8fa8a907a93f0e981b9afb04c09ebe0edf1bc),
+I [made a series of commits on July 22 and July
+23](https://github.com/vipulnaik/daily-updates/commits?since=2020-07-22&until=2020-07-23)
+setting up the portal. I believe the idea of the portal had
+crystallized in my mind the preceding weekend, because I had created
+the subdomain DNS zone and installed the TLS certificate during that
+weekend.
+
+### I had to leave out many adjacent topics in this post because they may touch on work-related things
+
+There were many related ideas I could have talked about, but that
+would have been harder to opine on without sharing information about
+my workplace that I think I shouldn't reveal. Topics include figuring
+out exactly how much I should work, tradeoffs between working and
+delegation in the workplace, tradeoffs between hiring for increased
+redundancy versus seeking higher per-capita compensation. The reason
+for my reticence isn't due to any juicy or highly secretive stuff at
+work, but rather, the presumption of secrecy and confidentiality in
+workplaces. So whereas for my personal projects, I start with a
+presumption of public sharing that I then revise based on project
+specifics, the workplace is the opposite: presumption of no sharing,
+with exceptions needing to be explictly justified.
+
+### I wasn't able to come up with a very logical organization of the post, so it's a loose aggregation of thoughts
+
+I couldn't think of a neat logical structure within which to put my
+observations. It's more a list of scattered thoughts. Perhaps with
+more time, I would have been able to structure things better.
+
+### I left out a lot of specifics, both qualitative and quantitative; this is both a plus and a minus
+
+I could have written the post in a way that was colored much more with
+actual examples of things I did, and actual (quantitative) numbers
+that showed where exactly I was in particular trade-offs. I did not do
+so, though I did link to the updates portal and finances portal, that
+have some numbers.
+
+The main reason (for writing the post the way I did) is that I was
+approaching this post at a high level, and wanted to include ideas at
+a general enough level that they didn't get bogged down by debates
+about specifics. I think this may hurt the post by making some parts
+of it too abstract and less fun, but it also keeps to a minimum some
+distractions that more controversial and specific assertioins could
+have created.
