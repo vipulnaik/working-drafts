@@ -38,6 +38,17 @@ This is a '''timeline of AI safety'''. AI safety is the field focused on reducin
 | 2020 || Andrew Critch and David Krueger release their ARCHES paper. OpenAI unveils GPT-3, leading to further discussion of AI safety implications. AI Safety Support launches. The funding ecosystem continues to mature: Open Philanthropy and the Survival and Flourishing Fund continue to make large grants to established organizations, while the Long-Term Future Fund increasingly shifts focus to donating to individuals.
 |}
 
+== Visual data ==
+
+=== Google trends ===
+The chart below shows Google trends data for AI safety (search term) from January 2004 to January 2021, when the screenshot was taken.<ref>{{cite web |title=AI safety |url=https://trends.google.com/trends/explore?date=all&q=AI%20safety |website=trends.google.com/ |access-date=6 January 2021}}</ref>
+
+[[File:AI safety.jpeg|thumb|center|700px]]
+
+=== Google Ngram Viewer ===
+The chart below shows Google Ngram Viewer data for AI safety from 1900 to 2020.<ref>{{cite web |title=AI safety |url=https://books.google.com/ngrams/graph?content=AI+safety&year_start=1990&year_end=2019&corpus=26&smoothing=1&case_insensitive=true&direct_url=t4%3B%2CAI%20safety%3B%2Cc0%3B%2Cs0%3B%3BAI%20safety%3B%2Cc0%3B%3BAI%20Safety%3B%2Cc0%3B%3Bai%20safety%3B%2Cc0%3B%3Bai%20Safety%3B%2Cc0#t4%3B%2CAI%20safety%3B%2Cc0%3B%2Cs0%3B%3BAI%20safety%3B%2Cc1%3B%3BAI%20Safety%3B%2Cc0%3B%3Bai%20safety%3B%2Cc0%3B%3Bai%20Safety%3B%2Cc0 |website=books.google.com |access-date=13 January 2021}}</ref>
+[[File:AI safety ngram.jpeg|thumb|center|700px]]
+
 ==Full timeline==
 
 ===Inclusion criteria===
@@ -431,7 +442,7 @@ Here is a partial list of thoughts on what rows we've included:
 |-
 | 2020 || {{dts|September 3}} || Funding || The Long-Term Future Fund, one of the Effective Altruism Funds, announces a set of 12 grants totaling $394,200. Two of the grants are to AI safety organizations: the Center for Human-Compatible AI and AI Impacts. 7 of the 8 grants made to indiividuals are in the domain of AI safety.<ref>{{cite web|url = https://app.effectivealtruism.org/funds/far-future/payouts/2kbXqc6R9xf6yi0EY0CLl|title = September 2020: Long-Term Future Fund Grants|date = September 3, 2020|accessdate = December 20, 2020|publisher = Effective Altruism Funds}}</ref>
 |-
-| 2020 || {{dts|September 28}} || Publication || Richard Ngo publishes "AGI safety from first principles" as a collection of Alignmment Forum blog posts, also available as a PDF, that makes the case for AGI safety.<ref>{{cite web|url = https://www.alignmentforum.org/s/mzgtmmTKKn5MuCzFJ|title = AGI safety from first principles|date = September 28, 2020|accessdate = December 20, 2020|publishere = Alignment Forum}}</ref> Rohin Shah approvingly discusses it in the Alignment Newsletter, summarizing its argument as the "second species argument", i.e., that sufficiently advanced AGI would make humanity the second species on earth.<ref>{{cite web|url = https://mailchi.mp/051273eb96eb/an-122arguing-for-agi-driven-existential-risk-from-first-principles|title = Alignment Newsletter #122|last = Shah|first = Rohin}}</ref>
+| 2020 || {{dts|September 28}} || Publication || Richard Ngo publishes "AGI safety from first principles" as a collection of Alignmment Forum blog posts, also available as a PDF, that makes the case for AGI safety.<ref>{{cite web|url = https://www.alignmentforum.org/s/mzgtmmTKKn5MuCzFJ|title = AGI safety from first principles|date = September 28, 2020|accessdate = December 20, 2020|publisher = Alignment Forum}}</ref> Rohin Shah approvingly discusses it in the Alignment Newsletter, summarizing its argument as the "second species argument", i.e., that sufficiently advanced AGI would make humanity the second species on earth.<ref>{{cite web|url = https://mailchi.mp/051273eb96eb/an-122arguing-for-agi-driven-existential-risk-from-first-principles|title = Alignment Newsletter #122|last = Shah|first = Rohin}}</ref>
 |-
 | 2020 || {{dts|October 6}} || Publication || The book ''The Alignment Problem: Machine Learning and Human Values'' by Brian Christian is published. Rohin Shah reviews the book for LessWrong (cross-posted to the Alignment Forum).<ref>{{cite web|url = https://www.lesswrong.com/posts/gYfgWSxCpFdk2cZfE/the-alignment-problem-machine-learning-and-human-values|title = The Alignment Problem: Machine Learning and Human Values|last = Shah|first = Rohin|date = October 6, 2020|accessdate = December 20, 2020|publisher = LessWrong}}</ref>
 |-
@@ -448,7 +459,7 @@ Here is a partial list of thoughts on what rows we've included:
 
 ===How the timeline was built===
 
-The initial version of the timeline was written by [[User:Issa|Issa Rice]]. The timeline was later expanded considerably by [[User:Vipul|Vipul Naik]].
+The initial version of the timeline was written by [[User:Issa|Issa Rice]]. The timeline was later expanded considerably by [[User:Vipul|Vipul Naik]]. [[User:Sebastian|Sebastian Sanchez]] also added graphs to the timeline.
 
 Issa likes to work locally and track changes with Git, so the revision history on this wiki only shows changes in bulk. To see more incremental changes, refer to the commit histories at the [https://github.com/riceissa/issarice.com/commits/master/external/timelines.issarice.com/Timeline_of_friendly_artificial_intelligence.mediawiki old location] and the [https://github.com/riceissa/issarice.com/commits/master/external/timelines.issarice.com/Timeline_of_AI_safety.mediawiki new location].
 
@@ -456,6 +467,10 @@ Issa likes to work locally and track changes with Git, so the revision history o
 
 ===What the timeline is still missing===
 
+* some of Paul Christiano's blog posts, like on AI takeoff and "What Failure Looks Like"
+* bunch of people leaving OpenAI in December 2020/January 2021, including people working on AI safety/transparency: "OpenAI departures: Dario Amodei, Sam McCandlish, Tom Brown, Tom Henighan, Chris Olah, Jack Clark, Ben Mann, Paul Christiano et al leave—most for an unspecified new entity (“the elves leave Middle Earth”?)" [https://www.gwern.net/newsletter/2021/01#ai] [https://www.lesswrong.com/posts/7r8KjgqeHaYDzJvzF/dario-amodei-leaves-openai]
+* January 2021: Jan Leike joins OpenAI to lead AI alignment work [https://twitter.com/janleike/status/1352681093007200256]
+* I think some of Abram Demski's work (radical probabilism?) should be included, but I don't know enough to decide which things are most important. I think similar things can be said for other technical researchers too.
 * The Matrix
 * maybe more at [https://wiki.lesswrong.com/wiki/History_of_AI_risk_thought]
 * maybe more from the "earlier work on the topic" at [https://intelligence.org/2013/10/18/richard-posner-on-ai-dangers/ Richard Posner on AI Dangers]
