@@ -1,0 +1,67 @@
+The '''Technology Alert List (TAL)''' is a list developed by the [[United States]] federal government of critical fields where it would like to limit the transfer of goods, technology, and sensitive information, with the goal of supporting nonproliferation of weapons of mass destruction and nontransfer of U.S.-held technologies.<ref name=cmu-tal>{{cite web|url = https://www.cmu.edu/oie/foreign-scholars/travel/tech-alert-list.html|title = Technology Alert List|accessdate = April 29, 2021|publisher = Carnegie Mellon University}}</ref><ref name=oig-report>{{cite web|url = https://www.stateoig.gov/system/files/104036.pdf|title = Review of Export Controls for Foreign Persons Employed at Companies and Universities|date = April 1, 2004|accessdate = April 29, 2021|publisher = United States Department of State and the Broadcasting Board of Governors Office of Inspector General}}</ref> The list is intended as guidance for consular officers reviewing visa applications for activities such as graduate-level studies, teaching, conducting research, participating in exchange programs, receiving training or employment.<ref name=cmu-tal/><ref name=janice-jacobs-testimony>{{cite web|url = https://2001-2009.state.gov/r/pa/ei/othertstmy/32998.htm|title = The Visa Approval Backlog and its Impact on American Small Business|last = Jacobs|first = Janice L.|date = June 4, 2003|accessdate = April 29, 2021}}</ref><ref name=nsb-remarks>{{cite web|url = https://www.nsf.gov/nsb/meetings/2003/nsb03136/visas.htm|title = Remarks to the National Science Board|last = Ramotowski|first = Edward|date = October 16, 2003|accessdate = April 29, 2021}}</ref>
+
+== History ==
+
+The TAL was first introduced by the U.S. Department of State in November 2000.<ref name=bu-tal>{{cite web|url = https://www.bu.edu/isso/files/pdf/tal.pdf|title = Technology Alert List|date = August 1, 2002|accessdate = April 29, 2021|publisher = U.S. Department of State}}</ref> The list was updated in August 2002 based on heightened security concern in response to the [[September 11 attacks]].<ref name=bu-tal/>
+
+The TAL and related use of [[Security Advisory Opinion]]s (via the Visas Mantis program) was described by Janice L. Jacobs, Deputy Assistant Secretary for Visa Services at the U.S. Department of State, in testimony before the Committee on House Small Business on June 4, 2003.<ref name=janice-jacobs-testimony/> It was also described by Edward Ramotowski, Director, Office of Public and Diplomatic Liaison Visa Services at the U.S. Department of State, in remarks to the National Science Board on October 16, 2003.<ref name=nsb-remarks/>
+
+The TAL and several related topics were covered in the report "Review of Export Controls for Foreign Persons Employed at Companies and Universities" by the United States Department of State and the Broadcasting Board of Governors Office of Inspector General in April 2004.<ref name=oig-report/>
+
+== The list of sensitive subjects ==
+
+As of August 2002, the list of critical fields, also known as sensitive subjects, has fifteen items as follows:<ref name=bu-tal/>
+
+A. Conventional munitions
+
+B. Nuclear technology
+
+C. Rocket systems
+
+D. Rocket system and unmanned air vehicle (UAV) subsystems
+
+E. Navigation, avionics, and flight control useable in rocket systems and unmanned air vehicles (UAV)
+
+F. Chemical, biotechnical, and biomedical engineering
+
+G. Remote sensing, imaging, and reconnaissance
+
+H. Advanced computer / microelectronic technology
+
+I. Materials technology
+
+J. Information security
+
+K. Laser and directed energy systems technology
+
+L. Sensors and sensor technology
+
+M. Marine technology
+
+N. Robotics
+
+O. Urban planning (this is a special item that may not fall under the purview of INA Section 212)
+
+== Use of the list in processing visa applications ==
+
+=== Review by consular officers ===
+
+When reviewing visa applications where the applicant's proposed activity would be related to any of the fifteen sensitive subjects listed in the TAL, the consular officer must first review the activity in light of the following broad policy objectives regarding technology transfer:<ref name=nsb-remarks/><ref name=janice-jacobs-testimony/>
+
+* Stem proliferation of weapons of mass destruction and missile delivery systems.
+* Restrain the development of destabilizing conventional military capabilities in certain regions of the world.
+* Prevent the transfer of arms and sensitive dual use items to terrorist states.
+* Maintain U.S. advantages in certain militarily critical technologies.
+
+Second, if the applicant is from any of the countries designated by the U.S. Department of State as one of the [[State Sponsors of Terrorism (U.S. list)|state sponsors of terrorism]] (a list that includes [[Syria]], [[Iran]], [[North Korea]], and [[Cuba]] as of April 2021) consular officers must assume that any visit providing any exposure to any of the fifteen sensitive technologies will conflict with the policy objectives, and seek a [[Security Advisory Opinion]] under the Visas Mantis program.<ref name=nsb-remarks/><ref name=janice-jacobs-testimony/>
+
+Third, consular officers may send to Washington (for a [[Security Advisory Opinion]]) any case that appears to warrant further interagency review (via the Visas Mantis program).<ref name=nsb-remarks/><ref name=janice-jacobs-testimony/> Other than the state sponsors of terrorism, other countries from which visa applicants tend to be subject to more scrutiny if involved with any of the sensitive subjects are the countries that possess some nuclear capability and are deemed "non-proliferation export countries": [[China]], [[India]], [[Israel]], [[Pakistan]], and [[Russia]].<ref name=cmu-tal/><ref name=esf-tal>{{cite web|url = https://www.esf.edu/international/TAL.htm|title = Impact of the Technology Alert List on Visa Acquisition|publisher = SUNY College of Environmental Science and Forestry|accessdate = April 29, 2021}}</ref>
+
+== See also ==
+
+* [[Security Advisory Opinion]]
+* [[State Sponsors of Terrorism (U.S. list)]]
+
+== References ==
+
+{{reflist|30em}}
