@@ -30,6 +30,22 @@ Laws and programs that prevent aliens (unauthorized, or others) from accessing g
 | 2021{{snd}}2024 (?) || President: {{w|Joe Biden}} || The election of {{w|Joe Biden}} begins with the reversal of several Trump-era enforcement changes, bringing immigration enforcement close to where it was at the end of the Obama administration (where Biden had been vice-president).
 |}
 
+== Visual data ==
+
+=== Wikipedia Views ===
+
+The chart below shows pageviews of the English Wikipedia article {{w|U.S. Immigration and Customs Enforcement}}, on desktop, mobile-web, desktop-spider, mobile-web-spider and mobile app, from July 2015 to February 2021.<ref>{{cite web |title=U.S. Immigration and Customs Enforcement |url=https://wikipediaviews.org/displayviewsformultiplemonths.php?page=U.S.+Immigration+and+Customs+Enforcement&allmonths=allmonths-api&language=en&drilldown=all |website=wikipediaviews.org |access-date=14 March 2021}}</ref>
+
+[[File:U.S. Immigration and Customs Enforcement wv.png|thumb|center|600px]]
+
+The chart below shows pageviews of the English Wikipedia article {{w|U.S. Customs and Border Protection}}, on desktop, mobile-web, desktop-spider, mobile-web-spider and mobile app, from July 2015 to February 2021.<ref>{{cite web |title=U.S. Customs and Border Protection |url=https://wikipediaviews.org/displayviewsformultiplemonths.php?page=U.S.+Customs+and+Border+Protection&allmonths=allmonths-api&language=en&drilldown=all |website=wikipediaviews.org |access-date=14 March 2021}}</ref>
+
+[[File:U.S. Customs and Border Protection wv.png|thumb|center|600px]]
+
+The chart below shows pageviews of the English Wikipedia article {{w|United States Border Patrol}}, on desktop, mobile-web, desktop-spider, mobile-web-spider and mobile app, from July 2015 to February 2021.<ref>{{cite web |title=United States Border Patrol |url=https://wikipediaviews.org/displayviewsformultiplemonths.php?page=United+States+Border+Patrol&allmonths=allmonths-api&language=en&drilldown=all |website=wikipediaviews.org |access-date=14 March 2021}}</ref>
+
+[[File:United States Border Patrol wv.png|thumb|center|600px]]
+
 == Full timeline == 
 
 {| class="wikitable sortable"

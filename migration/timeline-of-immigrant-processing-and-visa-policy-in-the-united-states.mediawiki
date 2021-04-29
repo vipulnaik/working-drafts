@@ -28,6 +28,28 @@ There are separate timelines with more detailed coverage of specific categories 
 | 2001{{snd}}2008 || President: {{w|George W. Bush}} || The period sees some restructuring, partly in response to perceived need for more security after the {{w|September 11 attacks}}. Free trade agreements with Australia, Chile, and Singapore create new visa classes for citizens of those countries.
 |}
 
+== Visual data ==
+
+=== Google Trends ===
+The image below shows {{w|Google Trends}} data for Emigrate to  the United States (Search Term) from January 2004 to February 2021, when the screenshot was taken. Interest is also ranked by country and displayed on world map.<ref>{{cite web |title=Emigrate to  the United States |url=https://trends.google.com/trends/explore?date=all&q=Emigrate%20to%20%20the%20United%20States |website=Google Trends |access-date=27 February 2021}}</ref>
+
+[[File:Emigrate to the United States gt.png|thumb|center|800px]]
+
+The comparative chart below shows {{w|Google Trends}} data for Visa for Visa for Canada (Search term), Visa for USA (Search term), Visa for United States (Search term)  and Visa for America (Search term), from March 2004 to March 2021, when the screenshot was taken. Interest is also ranked by country and displayed on world map.<ref>{{cite web |title=Visa for Canada, USA, United States and America |url=https://trends.google.com/trends/explore?date=all&q=Visa%20for%20Canada,Visa%20for%20USA,Visa%20for%20United%20States,Visa%20for%20America |website=Google Trends |access-date=14 March 2021}}</ref>
+
+[[File:Visa for Canada, USA, United States and America gt.png|thumb|center|800px]]
+
+=== Google Ngram Viewer ===
+The chart below shows {{w|Google Ngram Viewer}} data for Emigrate to the United States from 1700 to 2019. <ref>{{cite web |title=Emigrate to the United States |url=https://books.google.com/ngrams/graph?content=emigrate+to+the+United+States&year_start=1700&year_end=2019&corpus=26&smoothing=3 |website=books.google.com |access-date=27 February 2021 |language=en}}</ref>
+
+[[File:Emigrate to the United States ngram.png|thumb|center|800px]]
+
+The chart bellow shows {{w|Google Ngram Viewer}} data for search strings "Visa policy" and "immigrant processing", from 1800 to 2019.<ref>{{cite web |title=Visa policy and immigrant processing |url=https://books.google.com/ngrams/graph?content=visa+policy%2Cimmigrant+processing&year_start=1800&year_end=2019&corpus=26&smoothing=3&direct_url=t1%3B%2Cvisa%20policy%3B%2Cc0%3B.t1%3B%2Cimmigrant%20processing%3B%2Cc0#t1%3B%2Cvisa%20policy%3B%2Cc0%3B.t1%3B%2Cimmigrant%20processing%3B%2Cc0 |website=books.google.com |access-date=27 February 2021 |language=en}}</ref>
+
+[[File:Visa policy and Inmigrant processing ngram.png|thumb|center|800px]]
+
+=== Wikipedia Views ===
+
 == Full timeline == 
 
 {| class="wikitable sortable"
@@ -103,7 +125,7 @@ There are separate timelines with more detailed coverage of specific categories 
 |-
 | 1943 || || Legislation || Executive branch || || The {{w|Magnuson Act}} becomes law. The Act repeals the Chinese Exclusion Act, but in practice immigration from China is still significantly restricted, as a quota of 105 annual Chinese immigrants is calculated through (flawed) use of the National Origins Formula of the Immigration Act of 1924. || China
 |-
-| 1945 || December 28 || Legislation || Executive branch || || The {{w|War Brides Act}} is signed into law by President {{w|Harry Truman}} after passing both chambers of the {{w|79th United States Congress}. The law allows alien spouses, natural children, and adopted children of members of the {{w|United States Armed Forces}}, "if admissible," to enter the U.S. as non-quota immigrants after {{w|World War II}}. This mostly benefits Chinese, whose entry is allowed by the Magnuson Act, but who are subject to strict quotas. The Act would expire on December 31, 1948.
+| 1945 || December 28 || Legislation || Executive branch || || The {{w|War Brides Act}} is signed into law by President {{w|Harry Truman}} after passing both chambers of the {{w|79th United States Congress}}. The law allows alien spouses, natural children, and adopted children of members of the {{w|United States Armed Forces}}, "if admissible," to enter the U.S. as non-quota immigrants after {{w|World War II}}. This mostly benefits Chinese, whose entry is allowed by the Magnuson Act, but who are subject to strict quotas. The Act would expire on December 31, 1948.
 |-
 | 1946 || June 29 || Legislation || Executive branch || || The {{w|Alien Fiancées and Fiancés Act of 1946}} is signed into law by President {{w|Harry Truman}} after passing both chambers of the {{w|79th United States Congress}}. It extends the War Brides Act by eliminating barriers for Filipino and Indian war brides. A 1947 amendment would also remove barriers for Korean and Japanese war brides. The Act would expire on December 31, 1948. || Philippines, India (later also Korea, Japan)
 |-
@@ -220,6 +242,8 @@ There are separate timelines with more detailed coverage of specific categories 
 | 2019 || December 20 || Legislation || USCIS || || The Liberian Refugee Immigration Fairness (LRIF) provision becomes law as part of the National Defense Authorization Act for Fiscal Year 2020. This provides an opportunity for certain Liberian nationals and their spouses, unmarried children under 21 years old, and unmarried sons and daughters 21 years old or older living in the United States who meet the eligibility requirements to obtain lawful permanent resident status (receive Green Cards).<ref>{{cite web|url = https://www.uscis.gov/green-card/green-card-eligibility/liberian-refugee-immigration-fairness|title = Liberian Refugee Immigration Fairness|accessdate = January 31, 2021|publisher = United States Citizenship and Immigration Services}}</ref> || Liberia
 |-
 | 2020 || March 1 || Leadership change || USCIS || || US District Court Judge Randolph D. Moss rules that Cuccinelli was not appointed to serve as acting director lawfully (i.e., his appointment violated the {{w|Federal Vacancies Reform Act of 1998}}) and therefore lacked authority to issue two directives for which a lawsuit has been filed against him. Cuccinelli is replaced by acting director Mark Koumans.
+|-
+| 2020 || June 22 || Executive order || U.S. Department of State's Bureau of Consular Affairs || H-1B, H-2B, H-4 corresponding to H-1B or H-2B, J, L || In light of increased unemployment levels following the {{w|COVID-19 pandemic in the United States}}, United States President Donald Trump issues a presidential proclamation suspending the issuance of new visas in many categories, including H-1B, by United States consulates, till the end of 2020. Existing visas would continue to be honored, and H-1B adjudications by USCIS would continue. The effective impact is that only people already in the United States would be able to transition to or extend H-1B status, and would not be able to travel outside the United States unless they already have a valid visa.<ref>{{cite web|url = https://trumpwhitehouse.archives.gov/presidential-actions/proclamation-suspending-entry-aliens-present-risk-u-s-labor-market-following-coronavirus-outbreak/|title = Proclamation Suspending Entry of Aliens Who Present a Risk to the U.S. Labor Market Following the Coronavirus Outbreak|date = June 22, 2020|accessdate = June 26, 2020|publisher = White House|last = Trump|first = Donald}}</ref><ref>{{cite web|url = https://www.vox.com/policy-and-politics/2020/6/22/21299484/trump-executive-order-immigration-h1b-visa-covid|title = A new Trump proclamation will block foreign workers. It could affect hundreds of thousands of foreigners stranded abroad.|date = June 22, 2020|accessdate = June 26, 2020|publisher = Vox|last = Narea|first = Nicola}}</ref>
 |-
 | 2021 || January 20 || Leadership change || Executive branch || || Democratic politician and former vice-president {{w|Joe Biden}} becomes President of the United States after defeating incument {{w|Donald Trump}} in an election and overcoming several legal challenges from Trump disputing the election results.
 |-
