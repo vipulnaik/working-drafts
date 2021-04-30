@@ -1,19 +1,67 @@
-'''Consular Lookout and Support System''' ('''CLASS''') is an automated system managed by the Bureau of Consular Affairs under the [[United States Department of State]] used for name checks of visa and passport applicants in support of issuance processing and document verification.<ref name=pia>{{cite web|url = https://2001-2009.state.gov/documents/organization/96128.pdf|title = U.S. Department of State Privacy Impact Assessment Summary: Consular Lookout and Support System (CLASS)|date = May 22, 2007|accessdate = November 21, 2017|publisher = [[United States Department of State]]}}</ref> It is described in [[Foreign Affairs Manual|9 FAM 303.3-2(B)]].<ref>{{cite web|url = https://fam.state.gov/fam/09FAM/09FAM030303.html|title = 9 FAM 303.3 (U) CLASS - CONSULAR LOOKOUT AND SUPPORT SYSTEM|date = August 11, 2017|accessdate = November 21, 2017}}</ref><ref>{{cite web|url = http://international.cua.edu/ImmigrationBasics/arrests.cfm|title = The Effect of Unlawful Behavior on Immigration Status|publisher = The Catholic University of America|accessdate = November 21, 2017}}</ref>
+The '''Consular Lookout and Support System''' ('''CLASS''') is a system supporting the [[U.S. Department of State]] Bureau of Consular Affairs by assisting in decisions for visa and passport issuance and to help establish a person's eligibility for overseas services. It is used by U.S. Department of State passport agencies and consular posts as well as [[U.S. Department of Homeland Security]] and other border inspection agencies to perform namechecks on visa and passport applicants to identify individuals who may be ineligible for issuance or require other special action. Potential reasons for ineligibility include past criminal or terrorist activity.<ref name=pia-2018>{{cite web|url = https://www.state.gov/wp-content/uploads/2019/05/Consular-Lookout-and-Support-System-CLASS-PIA.pdf|title = Consular Lookout and Support System (CLASS) PIA|date = September 1, 2018|accessdate = April 30, 2021}}</ref><ref name=pia-2016>{{cite web|url = https://2009-2017.state.gov/documents/organization/242321.pdf|title = Consular Lookout and Support System (CLASS) PIA|date = May 24, 2016|accessdate = April 30, 2021}}</ref><ref name=crs>{{cite web|url = https://fas.org/sgp/crs/homesec/R43589.pdf|title = Immigration: Visa Security Policies|last = Wasem|first = Ruth Ellen|date = November 18, 2015|accessdate = November 21, 2017|publisher = [[Congressional Research Service]]}}</ref>
 
-== Sources and users of data ==
+== History ==
 
-Data from CLASS is primarily used for visa and passport processing by the Bureau of Consular Affairs, and in particular finding people who may be ineligible for a passport or visa.<ref name=pia/> CLASS only contains ''lookout'' data, i.e., data on people who pose a potential security threat to the United States, based on the data sources below.
+CLASS has been used since before the [[September 11 attacks]] of 2001. According to a report in October 2002: "The State Department indicated that at most overseas posts, consular officers relied primarily on the CLASS name check system to detect possible terrorists and did not place a special emphasis on using other elements of the visa process ..." The CLASS name check was historically done after reviewing the applicant's passport and other documents, and after an optional interview.<ref name=visa-process-antiterrorism-tool>{{cite book|title = Border Security: Visa Process Should Be Strengthened As an Antiterrorism Tool|publisher = United States Government Accountability Office|date = October 13, 2002|accessdate = April 30, 2021|url = https://books.google.com/books?id=ocfKVDtNeUwC&q=consular+lookout#v=onepage&q&f=false}}</ref>
 
-CLASS data may also be shared with, and be modified based on information from, the following other agencies of the United States government:<ref name=pia/>
+In the years following the September 11 attacks, more efforts were made to add more information to CLASS. The number of namecheck records in CLASS increased fivefold from 48,000 in September 2001 to approximately 260,000 in June 2005, according to consular officials. Also, as of fall 2004, CLASS had approximately 8 million records from the FBI. The Department of State also established a direct computer link with the FBI's [[National Crime Information Center]] (NCIC) to have information sent from NCIC to CLASS on a daily basis. However, the absence of specific information in CLASS about the nature of crimes (which made it difficult to distinguish between serious and minor crimes) made it hard for consular officers to use CLASS for rapid visa processing as of 2005.<ref>{{cite web|url = https://www.govinfo.gov/content/pkg/GAOREPORTS-GAO-05-994T/html/GAOREPORTS-GAO-05-994T.htm|title = Border Security: Strengthened Visa Process Would Benefit from Additional Management Actions by State and DHS|date = September 13, 2005|accessdate = April 30, 2021}}</ref>
 
-* [[United States Department of State]]
-* [[U.S. Department of Homeland Security]] ([[U.S. Customs and Border Protection]], [[U.S. Immigration and Customs Enforcement]], [[Terrorist Screening Center]])
-* [[United States Department of Justice]] ([[Interpol]], [[Federal Bureau of Investigation]], [[Drug Enforcement Administration]], and [[United States Marshals Service]])
-* [[U.S. Health and Human Services]
+[[Privacy Impact Assessment]]s about CLASS have been published periodically, including in 2016<ref name=pia-2016/> and 2018.<ref name=pia-2018/>
 
-CLASS supplements the [[Consular Consolidated Database]] (CCD), the main database used to inform consular decisions.
+== Details ==
+
+=== Child systems ===
+
+CLASS includes the following child systems:<ref name=pia-2018/>
+
+* eCLASS and iCLASS: These are the namecheck search engines that use a normalized and indexed Oracle database along with an array of Intel-based servers and intelligent load balancers to achieve the required throughput.
+** eCLASS performs namechecks against lookout databases.
+** iCLASS is used to vet electronic Diversity Visa (eDV) applicants and perform [[Consular Consolidated Database]] (CCD) queries.
+* CXI consists of various components that provide database interfaces with agencies outside of the State Department as well as overseas and domestic internal sources whereby these organizations can provide and receive updates to namecheck data.
+* webCLASS is used to perform a required namecheck from any authorized user on the Department of State OpenNet system through the website driven namecheck system.
+* Telecommunications Manager (TCM) is a software application that serves as a connection point (middle-tier) between Consular Affairs (CA) client systems and the namecheck system database, Consular Lookout and Support System (CLASS). TCM performs two main functions: translation and routing.
+
+=== Data sharing with other systems ===
+
+Data from the following systems is forwarded to CLASS for namecheck purposes; in addition, information about visa refusal is also forwarded to CLASS from the visa or passport office:<ref name=pia-2018/>
+
+* Non-Immigrant Visa (NIV): Visa query, bi-directional flow
+* Immigrant Visa Overseas (IVO): Visa query, bi-directional flow
+* [[Consular Consolidated Database]] (CCD)
+* American Citizen Services (ACS): Passport query, bi-directional flow
+* Independent Namecheck (INK): Namecheck query, bi-directional flow
+* Travel Document Issuance System (TDIS): Namecheck query, bi-directional flow
+* Passport Lookout Tracking System (PLOTS): Namecheck query, bi-directional flow
+* Tracking Responses and Inquiries for Passports (TRIP): Passport query, bi-directional flow
+* Passport Information Electronic Records System (PIERS): Passport and Consular Lost and Stolen Passports (CLASP) query, bi-directional flow
+* Passport Records Imaging System Management (PRISM): Passport query, bi-directional flow
+* Diversity Visa Information System (DVIS): Visa query, bi-directional flow
+
+Information from the following law enforcement agencies may be forwarded to CLASS:<ref name=pia-2018/>
+
+* [[Interpol]]
+* [[United States Department of Health and Human Services]] (HHS)
+* [[U.S. Department of Homeland Security]] (DHS)
+* [[United States Marshals Service]] (USMS)
+* [[Federal Bureau of Investigation]] (FBI)
+* [[Terrorist Screening Center]] (TSC)
+* [[Drug Enforcement Administration]] (DEA)
+* [[TECS|Treasury Enforcement Communications System]] (TECS)
+* [[Social Security Administration]] (SSA)
+* [[Internal Revenue Service]] (IRS)
+
+CLASS shares information with the following agencies, all via the [[Consular Consolidated Database]] (CCD):
+
+* Interpol: Lost and stolen passport information is sent to Interpol for the international database of Stolen and Lost Travel Documents (SLTD).
+* [[TECS|Treasury Enforcement Communications System]] (TECS): TECS is used extensively by the law enforcement community and at ports of entry to identify individuals and businesses suspected of or involved in violation of federal law. CLASS updates TECS in real time with visa refusals and lookouts, foreign lost and stolen passports, and U.S. lost and stolen passport.
+* [[National Counterterrorism Center]] (NCTC)
+* Canada Beyond the Border (BtB): CLASS provides a service that allows the Immigration Refugees and Citizenship Canada (IRCC) to run namechecks against CLASS and receive a filtered response, that includes information on foreigners of mutual interest to the US and Canada.
+* Federal Bureau of Investigation (FBI) Brady Act: CLASS sends a list of persons who have renounced US citizenship to the [[National Instant Criminal Background Check System]] (NICS).
+
+== See also ==
+
+* [[Consular Consolidated Database]]
 
 == References ==
 
 {{reflist|30em}}
-
