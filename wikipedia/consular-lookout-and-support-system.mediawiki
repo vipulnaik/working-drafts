@@ -50,7 +50,7 @@ Information from the following law enforcement agencies may be forwarded to CLAS
 * [[Social Security Administration]] (SSA)
 * [[Internal Revenue Service]] (IRS)
 
-CLASS shares information with the following agencies, all via the [[Consular Consolidated Database]] (CCD):
+CLASS shares information with the following agencies, all via the [[Consular Consolidated Database]] (CCD):<ref name=pia-2018/>
 
 * Interpol: Lost and stolen passport information is sent to Interpol for the international database of Stolen and Lost Travel Documents (SLTD).
 * [[TECS|Treasury Enforcement Communications System]] (TECS): TECS is used extensively by the law enforcement community and at ports of entry to identify individuals and businesses suspected of or involved in violation of federal law. CLASS updates TECS in real time with visa refusals and lookouts, foreign lost and stolen passports, and U.S. lost and stolen passport.
