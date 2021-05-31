@@ -38,7 +38,56 @@ This is a '''timeline of AI safety'''. AI safety is the field focused on reducin
 | 2020 || Andrew Critch and David Krueger release their ARCHES paper. OpenAI unveils GPT-3, leading to further discussion of AI safety implications. AI Safety Support launches. The funding ecosystem continues to mature: Open Philanthropy and the Survival and Flourishing Fund continue to make large grants to established organizations, while the Long-Term Future Fund increasingly shifts focus to donating to individuals.
 |}
 
-== Visual data ==
+== Visual and numerical data ==
+
+=== Mentions on Google Scholar ===
+
+The following table summarizes per-year mentions on Google Scholar as of May 13, 2021.
+
+{| class="sortable wikitable"
+! Year
+! artificial intelligence safety
+! ethical artificial intelligence
+! friendly artificial intelligence  
+! global risk artificial intelligence
+|-
+| 1980 || 683 || 478 || 463 || 252 
+|-
+| 1985 || 1,340 || 713 || 1,110 || 537
+|-
+| 1990 || 3,060 || 1,410 || 2,210 || 1,490 
+|-
+| 1995 || 4,160 || 2,110 || 2,930 || 2,510
+|-
+| 2000 || 7,600 || 3,560 || 4,860 || 4,900
+|-
+| 2002 || 8,080 || 4,510 || 5,950 || 6,380 
+|-
+| 2004 || 11,400 || 4,940 || 6,760 || 8,440
+|-
+| 2006 || 13,300 || 6,240 || 7,820 || 10,700 
+|-
+| 2008 || 16,300 || 7,770 || 10,200 || 12,100
+|-
+| 2010 || 20,500 || 9,170 || 12,500 || 16,400
+|-
+| 2012 || 26,000 || 11,300 || 14,800 || 20,900
+|-
+| 2014 || 29,800 || 13,300 || 16,400 || 24,600
+|-
+| 2016 || 34,600 || 16,500 || 18,400 || 30,500   
+|-
+| 2017 || 39,300 || 20,200 || 21,000 || 36,200   
+|-
+| 2018 || 47,300 || 25,300 || 25,300 || 43,300  
+|-
+| 2019 || 52,700 || 27,600 || 28,500 || 48,300  
+|-
+| 2020 || 43,700 || 31,700 || 29,200 || 48,800 
+|-
+|}
+
+[[File:AI safety tables.png|thumb|center|700px]]
 
 === Google trends ===
 The chart below shows Google trends data for AI safety (search term) from January 2004 to January 2021, when the screenshot was taken.<ref>{{cite web |title=AI safety |url=https://trends.google.com/trends/explore?date=all&q=AI%20safety |website=trends.google.com/ |access-date=6 January 2021}}</ref>
@@ -252,7 +301,7 @@ Here is a partial list of thoughts on what rows we've included:
 |-
 | 2016 || {{dts|June 21}} || Publication || "Concrete Problems in AI Safety" by Dario Amodei, Chris Olah, Jacob Steinhardt, Paul Christiano, John Schulman, and Dan Mané is submitted to the {{w|arXiv}}.<ref>{{cite web |url=https://arxiv.org/abs/1606.06565 |title=[1606.06565] Concrete Problems in AI Safety |date=June 21, 2016 |accessdate=July 25, 2017}}</ref> The paper would receive a shoutout from Open Philanthropy.<ref>{{cite web|url = https://www.openphilanthropy.org/blog/concrete-problems-ai-safety|title = Concrete Problems in AI Safety|last = Karnofsky|first = Holden|date = June 23, 2016|accessdate = April 18, 2020}}</ref> It would become a landmark in AI safety literature,<ref>For instance, the 2019 AI Alignment Literature Review has this line, talking about AI safety publications: "While low-quality contributions might help improve Concrete Problems’ citation count, they may use up scarce funding."</ref> and many of its authors would continue to do AI safety work at OpenAI in the years to come.
 |-
-| 2016 || {{dts|June 27}} and 28 || Conference || Carnegie Mellon University (CMU) hosts a two-day Workshop on Safety and Control for AI, thee first day being an "Exploratory Technical Workshop" (co-sponsored by the Carnegie Mellon Science of Security Lablet) and the seconf day being a "Public Workshop" (co-sponsoreed by the {{w|Office of Science and Technology Policy}} (OSTP) and CMU). Participants include {{w|Edward Felten}} of OSTP, Bill Scherlis of CMU, Jason Matheny of IARPA, {{w|Eric Horvitz}} of Microsoft, and many others.<ref>{{cite web|url = https://www.cmu.edu/safartint/index.html|title = Workshop on Safety and Control for Artificial Intelligence|date = June 28, 2016|accessdate = May 16, 2020}}</ref>
+| 2016 || {{dts|June 27}} and 28 || Conference || Carnegie Mellon University (CMU) hosts a two-day Workshop on Safety and Control for AI, the first day being an "Exploratory Technical Workshop" (co-sponsored by the Carnegie Mellon Science of Security Lablet) and the seconf day being a "Public Workshop" (co-sponsoreed by the {{w|Office of Science and Technology Policy}} (OSTP) and CMU). Participants include {{w|Edward Felten}} of OSTP, Bill Scherlis of CMU, Jason Matheny of IARPA, {{w|Eric Horvitz}} of Microsoft, and many others.<ref>{{cite web|url = https://www.cmu.edu/safartint/index.html|title = Workshop on Safety and Control for Artificial Intelligence|date = June 28, 2016|accessdate = May 16, 2020}}</ref>
 |-
 | 2016 || {{dts|August}} || Organization || The UC Berkeley Center for Human-Compatible Artificial Intelligence launches under the leadership of AI expert {{w|Stuart J. Russell}} (co-author with Peter Norvig of ''Artificial Intelligence: A Modern Approach''). The focus of the center is "to ensure that AI systems are beneficial to humans".<ref>{{cite web |url=http://news.berkeley.edu/2016/08/29/center-for-human-compatible-artificial-intelligence/ |title=UC Berkeley launches Center for Human-Compatible Artificial Intelligence |date=August 29, 2016 |publisher=Berkeley News |accessdate=July 26, 2017}}</ref>
 |-
@@ -366,7 +415,7 @@ Here is a partial list of thoughts on what rows we've included:
 |-
 | 2018 || {{dts|December 21}} || Publication || Kelsey Piper writes a lengthy article for the ''Future Perfect'' section of Vox titled "The case for taking AI seriously as a threat to humanity" that gives an overview of AI and AI safety.<ref>{{cite web|url = https://www.vox.com/future-perfect/2018/12/21/18126576/ai-artificial-intelligence-machine-learning-safety-alignment|title = The case for taking AI seriously as a threat to humanity. Why some people fear AI, explained.|date = December 21, 2018|accessdate = April 19, 2020|publisher = Vox|last = Piper|first = Kelsey}}</ref> In an interview with 80,000 Hours in February 2019, Piper would say of the article: "I heard from some people that that gave them a clear explanation of what was going on with AI to point to on. That’s something that seems potentially pretty valuable, just to make sure people are on the same page about that."<ref>{{cite web|url = https://80000hours.org/podcast/episodes/kelsey-piper-important-advocacy-in-journalism/|title = Can journalists still write about important things?|last = Wiblin|first = Robert|last2 = Harris|first2 = Kieran|date = February 27, 2019|accessdate = April 19, 2020|publisher = 80,000 Hours}}</ref>
 |-
-| 2019 || {{dts|January}} || Funding || Open Philanthropy grants $250,000 to the Berkeley Existential Risk Initiative (BERI) to temporarily or permanently hire machine learning research engineers dedicated to BERI’s collaboration with the Center for Human-compatible Artificial Intelligence (CHAI).<ref name="donations-portal-open-phil-ai-safety" />
+| 2019 || {{dts|January}} || Funding || Open Philanthropy grants $250,000 to the Berkeley Existential Risk Initiative (BERI) to temporarily or permanently hire machine learning research engineers dedicated to BERI’s collaboration with the Center for Human-Compatible Artificial Intelligence (CHAI).<ref name="donations-portal-open-phil-ai-safety" />
 |-
 | 2019 || {{dts|January}} || Funding || Open Philanthropy provides a founding grant for the Center for Security and Emerging Technology (CSET) at Georgetown University of $55 million over 5 years.<ref name="donations-portal-open-phil-ai-safety" /><ref>{{cite web|url = https://www.insidephilanthropy.com/home/2019/3/22/why-this-effective-altruist-funder-is-giving-millions-to-ai-security|title = Important But Neglected: Why an Effective Altruist Funder Is Giving Millions to AI Security|last = Williams|first = Tate|date = March 22, 2019|accessdate = May 16, 2020|publisher = Inside Philanthropy}}</ref> CSET is led by {{w|Jason Matheny}}, formerly of IARPA, dedicated to policy analysis at the intersection of national and international security and emerging technologies. Other founding members include Dewey Murdick from the Chan Zuckerberg Initiative, William Hannas from the CIA, and Helen Toner from Open Philanthropy.
 |-
@@ -394,7 +443,7 @@ Here is a partial list of thoughts on what rows we've included:
 |-
 | 2019 || {{dts|June 12}} || Disclosure norms || In a blog post titled "The Hacker Learns to Trust" Connor Leahy explains why he decided against releasing his own replication of OpenAI's GPT-2 model. Leahy says that helpful discussions with OpenAI team members (Jack Clark, Alec Radford and Jeff Wu), and a convincing argument from Buck Shlegeris of MIRI, led him to change his mind. Highlighted text, based on the conversation with Shlegeris: "Because this isn’t just about GPT2. What matters is that at some point in the future, someone will create something truly dangerous and there need to be commonly accepted safety norms before that happens."<ref>{{cite web|url = https://medium.com/@NPCollapse/the-hacker-learns-to-trust-62f3c1490f51|title = The Hacker Learns to Trust|date = June 12, 2019|accessdate = April 19, 2020|last = Leahy|first = Connor}}</ref> The post is linkposted to LessWrong, where it attracts more comments.<ref>{{cite web|url = https://www.lesswrong.com/posts/36fxiKdEqswkedHyG/the-hacker-learns-to-trust|title = The Hacker Learns to Trust|last = Pace|first = Ben|date = June 21, 2019|accessdate = April 19, 2020|publisher = LessWrong}}</ref>
 |-
-| 2019 || {{dts|June 13}} || Publication || The book ''The AI Does Not Hate You: Superintelligence, Rationality and the Race to Save the World'' by Tom Chivers is released in the United Kingdom. The book includes a discussion of AI safety (including the AI box experiments), though it is more focused on the rationality community that built around LessWrong and Slate Star Codex.<ref>{{cite web|url = https://www.reddit.com/r/slatestarcodex/comments/c52l9w/some_notes_on_the_ai_does_not_hate_you/|title = Some Notes on The AI Does Not Hate You: Superintelligence, Rationality and the Race to Save the World|publisher = Reddit (Slate Star Codex subreddit)|date = June 24, 2019|accessdate = May 2, 2020}}</ref><ref>{{cite web|url = http://www.bayesianinvestor.com/blog/index.php/2019/10/24/the-ai-does-not-hate-you/|title = The AI Does Not Hate You|last = McCluskey|first = Peter|date = Octobeer 24, 2019|accessdate = May 2, 2020}}</ref>
+| 2019 || {{dts|June 13}} || Publication || The book ''The AI Does Not Hate You: Superintelligence, Rationality and the Race to Save the World'' by Tom Chivers is released in the United Kingdom. The book includes a discussion of AI safety (including the AI box experiments), though it is more focused on the rationality community that built around LessWrong and Slate Star Codex.<ref>{{cite web|url = https://www.reddit.com/r/slatestarcodex/comments/c52l9w/some_notes_on_the_ai_does_not_hate_you/|title = Some Notes on The AI Does Not Hate You: Superintelligence, Rationality and the Race to Save the World|publisher = Reddit (Slate Star Codex subreddit)|date = June 24, 2019|accessdate = May 2, 2020}}</ref><ref>{{cite web|url = http://www.bayesianinvestor.com/blog/index.php/2019/10/24/the-ai-does-not-hate-you/|title = The AI Does Not Hate You|last = McCluskey|first = Peter|date = October 24, 2019|accessdate = May 2, 2020}}</ref>
 |-
 | 2019 || {{dts|June 20}} || Publication, organization || The blog post ''A case for strategy research: what it is and why we need more of it'' is published by Siebe Rozendal, Justin Shovelain, and David Kristofferson of Convergence Analysis (an organization focused on existential risk strategy, including AI safety strategy); it is published to both LessWrong<ref>{{cite web|url = https://www.lesswrong.com/posts/pE5LgmF9mJptvund9/a-case-for-strategy-research-what-it-is-and-why-we-need-more-1|title = A case for strategy research: what it is and why we need more of it|last = Rozendal|first = Siebe|last2 = Shovelain|first2 = Justin|last3 = Kristofferson|first3 = David|date = June 20, 2019|accessdate = May 2, 2020|publisher = LessWrong}}</ref> and the Effective Altruism Forum.<ref>{{cite web|url = https://forum.effectivealtruism.org/posts/oovy5XXdCL3TPwgLE/a-case-for-strategy-research-what-it-is-and-why-we-need-more|title = A case for strategy research: what it is and why we need more of it|last = Rozendal|first = Siebe|last2 = Shovelain|first2 = Justin|last3 = Kristofferson|first3 = David|date = June 20, 2019|accessdate = May 2, 2020|publisher = Effective Altruism Forum}}</ref> This appeaers to be the organization's first publication in its listed publications,<ref>{{cite web|url = https://docs.google.com/document/d/1ok1nogrd0VrK51MCGtULh2aoB-NXjA5tG11mWBsy1WQ/edit|title = Convergence publications|publisher = Convergence Analysis|accessdate = May 2, 2020}}</ref> although the organization appears to have had a website as far back as Decembr 2015.<ref>{{cite web|url = http://web.archive.org/web/20151208043853/http://convergenceanalysis.org/|title = Convergence analysis|accessdate = December 8, 2015}}</ref>
 |-
@@ -458,7 +507,27 @@ Here is a partial list of thoughts on what rows we've included:
 |-
 | 2020 || {{dts|December 21}} || Publication || The "2020 AI Alignment Literature Review and Charity Comparison" by Larks is published to the Effective Altruism Forum and cross-posted to LessWrong. It surveys AI safety work in 2020. It continues a tradition of similar posts starting 2016, and follows the same format as 2019.<ref name=larks-2020>{{cite web|url = https://forum.effectivealtruism.org/posts/K7Z87me338BQT3Mcv/2020-ai-alignment-literature-review-and-charity-comparison|title = 2020 AI Alignment Literature Review and Charity Comparison|author = Larks|date = December 21, 2020|accessdate = December 21, 2020|publisher = Effective Altruism Forum}}</ref>
 |-
-| 2020{{snd}}2021 || December 2020 {{snd}} January 2021 || || Several safety-focused people working at OpenAI announce their departure, including Dario Amodei<ref name=openai-dario-departure>{{cite web|url = https://openai.com/blog/organizational-update/|title = Organizational Update from OpenAI|date = December 29, 2020|accessdate = February 7, 2021|publisher = OpenAI}}</ref> and Paul Christiano.<ref>{{cite web|url = https://www.facebook.com/paulfchristiano/posts/10225338774794169|title = Today was my last day at OpenAI.|date = January 29, 2021|accessdate = February 7, 2021|last = Christiano|first = Paul}}</ref> Mira Murati of OpenAI becomes "senior vice president of Research, Product, and Partnerships" as part of "greater focus on the integration of research, product, and safety."<ref name=openai-dario-departure/> Jan Leike joins to lead the alignment effort.<ref>{{cite web|url = https://twitter.com/janleike/status/1352681093007200256|title = Last week I joined @OpenAI to lead their alignment effort.|last = Leike|first = Jan|publisher = Twitter|date = January 22, 2021|accessdate = February 7, 2021}}</ref> The departures are discussed on Reddit<ref>{{cite web|url = https://old.reddit.com/r/mlscaling/comments/kmlajp/dario_amodei_et_al_leave_openai/|title = Dario Amodei et al leave OpenAI|author = gwern|publisher = Reddit|date = December 29, 2020|accessdate = February 7, 2021}}</ref> and LessWrong.<ref>{{cite web|url = https://www.lesswrong.com/posts/7r8KjgqeHaYDzJvzF/dario-amodei-leaves-openai|title = Dario Amodei leaves OpenAI|last = Kokotajlo|first = Daniel|date = December 29, 2020|accessdate = February 7, 2021}}</ref> 
+| 2020{{snd}}2021 || December 2020 {{snd}} January 2021 || || Several safety-focused people working at OpenAI announce their departure, including Dario Amodei (who, with many of the others leaving, would co-found Anthropic)<ref name=openai-dario-departure>{{cite web|url = https://openai.com/blog/organizational-update/|title = Organizational Update from OpenAI|date = December 29, 2020|accessdate = February 7, 2021|publisher = OpenAI}}</ref> and Paul Christiano (who would go on to found the Alignment Research Center).<ref>{{cite web|url = https://www.facebook.com/paulfchristiano/posts/10225338774794169|title = Today was my last day at OpenAI.|date = January 29, 2021|accessdate = February 7, 2021|last = Christiano|first = Paul}}</ref> Mira Murati of OpenAI becomes "senior vice president of Research, Product, and Partnerships" as part of "greater focus on the integration of research, product, and safety."<ref name=openai-dario-departure/> Jan Leike joins to lead the alignment effort.<ref>{{cite web|url = https://twitter.com/janleike/status/1352681093007200256|title = Last week I joined @OpenAI to lead their alignment effort.|last = Leike|first = Jan|publisher = Twitter|date = January 22, 2021|accessdate = February 7, 2021}}</ref> The departures are discussed on Reddit<ref>{{cite web|url = https://old.reddit.com/r/mlscaling/comments/kmlajp/dario_amodei_et_al_leave_openai/|title = Dario Amodei et al leave OpenAI|author = gwern|publisher = Reddit|date = December 29, 2020|accessdate = February 7, 2021}}</ref> and LessWrong.<ref>{{cite web|url = https://www.lesswrong.com/posts/7r8KjgqeHaYDzJvzF/dario-amodei-leaves-openai|title = Dario Amodei leaves OpenAI|last = Kokotajlo|first = Daniel|date = December 29, 2020|accessdate = February 7, 2021}}</ref>
+|-
+| 2021 || {{dts|January}} || Funding || Open Philanthropy grants $11,355,246 over five years to the Center for Human-Compatible AI (CHAI) at UC Berkeley. This renews the original founding support in August 2016.<ref>{{cite web|url = https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/uc-berkeley-center-human-compatible-ai-2021|title = UC Berkeley — Center for Human-Compatible Artificial Intelligence (2021)|accessdate = May 31, 2021}}</ref>
+|-
+| 2021 || {{dts|January}} || Funding || Open Philanthopy grants $8 million to the Center for Security and Emerging Technology (CSET) to augment its 5-year, $55 million funding provided in January 2019. Though CSET's activities go beyond AI safety, this grant is specifically for work at the intersection of security and artificial intelligence.<ref>{{cite web|url = https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/center-security-and-emerging-technology-general-support|title = Center for Security and Emerging Technology — General Support|publisher = Open Philanthropy|accessdate = May 31, 2021}}</ref>
+|-
+| 2021 || {{dts|February}} || Funding || Open Philanthropy makes grants to three researchers in the field of adversarial robustness research: Aleksander Madry at MIT<ref>{{cite web|url = https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/mit-adversarial-robustness-research|title = Massachusetts Institute of Technology — Adversarial Robustness Research|publisher = Open Philanthropy|accessdate = May 31, 2021}}</ref> and Dawn Song<ref>{{cite web|url = https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/uc-berkeley-adversarial-robustness-song|title = UC Berkeley — Adversarial Robustness Research (Dawn Song)|publisher = Open Philanthropy|accessdate = May 31, 2021}}</ref> and David Wagner<ref>{{cite web|url = https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/uc-berkeley-adversarial-robustness-wagner|title = UC Berkeley — Adversarial Robustness Research (David Wagner)|publisher = Open Philanthropy|accessdate = May 31, 2021}}</ref> at UC Berkeley.
+|-
+| 2021 || {{dts|March 18}} || Organization || The Nonlinear Fund by Kat Woods (co-founder of Charity Entrepreneurship, Charity Science Health, and Charity Science Outreach) and Emerson Spartz (founder of MuggleNet and Dose Media) is announced in a blog post on the Effective Altruism Forum. The Fund plans to generate, identify, and evaluate high-leverage AI safety opportunities, then make them happen using a variety of tools including grantmaking, advocacy, RFPs, and incubation.<ref>{{cite web|url = https://forum.effectivealtruism.org/posts/fX8JsabQyRSd7zWiD/introducing-the-nonlinear-fund-ai-safety-research-incubation|title = Introducing The Nonlinear Fund: AI Safety research, incubation, and funding|last = Woods|first = Kat|date = March 18, 2021|accessdate = May 31, 2021|publisher = Effective Altruism Forum}}</ref>
+|-
+| 2021 || {{dts|April}} || Funding || For the fourth class of the Open Philanthropy AI Fellowship, Open Philanthropy provides a total of approximately $1 million over five years to four fellows.<ref>{{cite web|url = https://www.openphilanthropy.org/focus/global-catastrophic-risks/potential-risks-advanced-artificial-intelligence/open-phil-ai-fellowship-2021-class|title = Open Phil AI Fellowship — 2021 Class|accessdate = May 31, 2021}}</ref>
+|-
+| 2021 || {{dts|April 26}} || Organization || Paul Christiano (who had left OpenAI at the end of January) announces that he is now working at the Alignment Research Center (ARC), a nonprofit he started that currently has only him. ARC focuses on theoretical research with the hope that it will "yield big alignment improvements within the next few years" that "will be integrated into practice at leading ML labs."<ref>{{cite web|url = https://www.alignmentforum.org/posts/3ejHFgQihLG4L6WQf/announcing-the-alignment-research-center|title = Announcing the Alignment Research Center|date = April 26, 2021|accessdate = May 31, 2021|publisher = Alignment Forum}}</ref>
+|-
+| 2021 || {{dts|April 30}} {{snd}} {{dts|May 1}} || Opinion || Paul Christiano conducts an Ask Me Anything (AMA) cross-posted between LessWrong and the Alignment Forum.<ref>{{cite web|url = https://www.lesswrong.com/posts/7qhtuQLCCvmwCPfXK/ama-paul-christiano-alignment-researcher|title = AMA: Paul Christiano, alignment researcher|date = April 28, 2021|accessdate = May 31, 2021}}</ref>
+|-
+| 2021 || {{dts|May 13}} || Funding || MIRI announces two major donations to it: $15,592,829 in MakerDAO (MKR) from an anonymous donor with a restriction to spend a maximum of $2.5 million per year till 2024, and the remaining funds available in 2025, and 1050 ETH from Vitalik Buterin, worth $4,378,159.<ref>{{cite web|url = https://intelligence.org/2021/05/13/two-major-donations/|title = Our all-time largest donation, and major crypto support from Vitalik Buterin|author = Colm Ó Riain|date = May 13, 2021|accessdate = May 31, 2021}}</ref>
+|-
+| 2021 || {{dts|May 26}} || Funding || The Long-Term Future Fund announces its May 2021 funding recommendations, allocating $1,650,795. The majority of grant money is to individuals, and over half the grant money is specific to AI safety (other grants include grants related to biosecurity and pandemic preparedness, and general longtermism).<ref>{{cite web|url = https://forum.effectivealtruism.org/posts/diZWNmLRgcbuwmYn4/long-term-future-fund-may-2021-grant-recommendations#Introduction|title = Long-Term Future Fund: May 2021 grant recommendations|last = Bergal|first = Asya|publisher = Effective Altruism Forum|date = May 26, 2021|accessdate = May 31, 2021}}</ref>
+|-
+| 2021 || {{dts|May 28}} || Organization || The launch of a new AI safety organization, Anthropic, is announced in the Vox Future Perfect newsletter. The organization's founding team include siblings Dario and Daniela Amodei and other people who left OpenAI in December 2020 and January 2021. It starts off with $124 million in Series A funding led by Jaan Tallinn and including Dustin Moskovitz, Eric Schmidt, and James McClave. Anthropic's focus is on building tools that help AI researchers understand AI programs.<ref>{{cite web|url = https://voxcom.cmail19.com/t/ViewEmail/d/5E61BDB945C3771F2540EF23F30FEDED/7655520C49A52981BA4AF9908B8D85ED|title = Vox Future Perfect newsletter|date = May 28, 2021|accessdate = May 31, 2021|publisher = Vox}}</ref><ref>{{cite web|url = https://www.anthropic.com/|title = Anthropic|accessdate = May 31, 2021|publisher = Anthropic}}</ref>
 |}
 
 ==Meta information on the timeline==
@@ -470,6 +539,12 @@ The initial version of the timeline was written by [[User:Issa|Issa Rice]]. The 
 Issa likes to work locally and track changes with Git, so the revision history on this wiki only shows changes in bulk. To see more incremental changes, refer to the commit histories at the [https://github.com/riceissa/issarice.com/commits/master/external/timelines.issarice.com/Timeline_of_friendly_artificial_intelligence.mediawiki old location] and the [https://github.com/riceissa/issarice.com/commits/master/external/timelines.issarice.com/Timeline_of_AI_safety.mediawiki new location].
 
 {{funding info}} is available.
+
+===Feedback and comments===
+
+Feedback for the timeline can be provided at the following places:
+
+* [https://www.lesswrong.com/posts/SEfjw57Qw8mCzy36n/timeline-of-ai-safety LessWrong link post]
 
 ===What the timeline is still missing===
 
