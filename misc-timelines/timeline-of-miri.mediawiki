@@ -39,9 +39,21 @@ The following are some interesting questions that are difficult or impossible to
 
 ==Visual data==
 
+=== Google Trends ===
+
+The comparative chart below shows {{w|Google Trends}} data Machine Intelligence Research Institute (Research institute) and Machine Intelligence Research Institute (Search term), from January 2004 to March 2021, when the screenshot was taken. Interest is also ranked by country and displayed on world map.<ref>{{cite web |title=Machine Intelligence Research Institute |url=https://trends.google.com/trends/explore?date=all&q=%2Fm%2F02tt0v,Machine%20Intelligence%20Research%20Institute |website=Google Trends |access-date=11 March 2021}}</ref>
+
+[[File:Machine Intelligence Research Institute gt.png|thumb|center|600px]]
+
+=== Google Ngram Viewer ===
+
+The chart below shows {{w|Google Ngram Viewer}} data for Machine Intelligence Research Institute, from 2000 to 2019.<ref>{{cite web |title=Machine Intelligence Research Institute |url=https://books.google.com/ngrams/graph?content=Machine+Intelligence+Research+Institute&year_start=2000&year_end=2019&corpus=26&smoothing=3 |website=books.google.com |access-date=11 March 2021 |language=en}}</ref>
+
+[[File:Machine Intelligence Research Institute ngram.png|thumb|center|700px]]
+
 === Wikipedia desktop pageviews across the different names ===
 
-The image below shows desktop pageviews of the page {{w|Machine Intelligence Research Institute}} and its predecessor pages, "Singularity Institute for Artificial Intelligence" and "Singularity Institute".<ref>{{cite web|url = http://goo.gl/dJNj61|title = Wikipedia desktop pageviews for the three names of MIRI|publisher = Wikipedia Views|accessdate = July 15, 2017}}</ref> The change in names occurred on these dates:<ref>{{cite web|url = https://en.wikipedia.org/w/index.php?title=Singularity_Institute_for_Artificial_Intelligence&action=history|title = Singularity Institute for Artificial Intelligence: Revision history|accessdate = July 15, 2017}}</ref><ref>{{Cite web|url = https://en.wikipedia.org/w/index.php?title=Special%3ALog&type=&user=&page=Singularity%20Institute&year=&month=-1&tagfilter=&hide_thanks_log=1&hide_tag_log=1&hide_review_log=1|title = All public logs: search Singularity Institute|accessdate = July 15, 2017}}</ref>
+The image below shows desktop pageviews of the page {{w|Machine Intelligence Research Institute}} and its predecessor pages, "Singularity Institute for Artificial Intelligence" and "Singularity Institute".<ref>{{cite web |title=Singularity Institute |url=https://wikipediaviews.org/displayviewsformultiplemonths.php?pages[0]=Machine+Intelligence+Research+Institute&pages[1]=Singularity+Institute&pages[2]=Singularity+Institute+for+Artificial+Intelligence&allmonths=allmonths&language=en&drilldown=desktop&sort=original |website=wikipediaviews.org |access-date=17 March 2021}}</ref> The change in names occurred on these dates:<ref>{{cite web|url = https://en.wikipedia.org/w/index.php?title=Singularity_Institute_for_Artificial_Intelligence&action=history|title = Singularity Institute for Artificial Intelligence: Revision history|accessdate = July 15, 2017}}</ref><ref>{{Cite web|url = https://en.wikipedia.org/w/index.php?title=Special%3ALog&type=&user=&page=Singularity%20Institute&year=&month=-1&tagfilter=&hide_thanks_log=1&hide_tag_log=1&hide_review_log=1|title = All public logs: search Singularity Institute|accessdate = July 15, 2017}}</ref>
 
 * December 23, 2011: Two pages "Singularity Institute" and "Singularity Institute for Artificial Intelligence" merged into single page "Singularty Institute for Artificial Intelligence"
 * April 16, 2012: Page moved from "Singularity Institute for Artificial Intelligence" to "Singularity Institute" with the old name redirecting to the new name
@@ -49,7 +61,7 @@ The image below shows desktop pageviews of the page {{w|Machine Intelligence Res
 
 The red vertical line (for June 2015) represents a change in the method of estimating pageviews; specifically, pageviews by bots and spiders are excluded for months on the right of the line.
 
-[[File:MIRI Wikipedia desktop pageviews.png|500px]]
+[[File:MIRI wv.jpeg|thumb|center|400px]]
 
 ==Full timeline==
 
@@ -235,6 +247,8 @@ The red vertical line (for June 2015) represents a change in the method of estim
 | 2011 || {{dts|December 12}} || Project || Luke Muehlhauser announces the creation of Friendly-AI.com, a website introducing the idea of Friendly AI.<ref>{{cite web |url=http://lesswrong.com/lw/8t6/new_landing_page_website_friendlyaicom/ |title=New 'landing page' website: Friendly-AI.com |author=lukeprog |date=December 12, 2011 |accessdate=July 2, 2017 |publisher=[[wikipedia:LessWrong|LessWrong]]}}</ref>
 |-
 | 2012 || || Staff || Michael Vassar leaves MIRI to found {{w|MetaMed}}, a personalized medical advising company.<ref>{{cite web|url = https://harpers.org/archive/2015/01/come-with-us-if-you-want-to-live/|title = Come With Us If You Want to Live. Among the apocalyptic libertarians of Silicon Valley|last = Frank|first = Sam|date = January 1, 2015|accessdate = July 15, 2017|publisher = ''Harper's Magazine''|quote=Vassar had left to found MetaMed, a personalized-medicine company, with Jaan Tallinn of Skype and Kazaa, $500,000 from Peter Thiel, and a staff that included young rationalists who had cut their teeth arguing on Yudkowsky’s website. The idea behind MetaMed was to apply rationality to medicine — "rationality" here defined as the ability to properly research, weight, and synthesize the flawed medical information that exists in the world. Prices ranged from $25,000 for a literature review to a few hundred thousand for a personalized study. "We can save lots and lots and lots of lives," Vassar said (if mostly moneyed ones at first). "But it’s the signal — it's the 'Hey! Reason works!' — that matters. It's not really about medicine." Our whole society was sick — root, branch, and memeplex — and rationality was the only cure.}}</ref>
+|-
+| 2011 {{snd}} 2012 || {{dts|December 10}} and {{dts|January 12}} || Opinion || A two-part Q&A with MIRI's newly appointed Executive Director Luke Muehlhauser is published.<ref>{{cite web|url = https://www.lesswrong.com/posts/yGZHQYqWkLMbXy3z7/video-q-and-a-with-singularity-institute-executive-director|title = Video Q&A with Singularity Institute Executive Director|date = December 10, 2011|accessdate = May 31, 2021|publisher = LessWrong}}</ref><ref>{{cite web|url = https://intelligence.org/2012/01/12/qa-2-with-luke-muehlhauser-singularity-institute-executive-director/|title = Q&A #2 with Luke Muehlhauser, Machine Intelligence Research Institute Executive Director|date = January 12, 2012|accessdate = May 31, 2021|publisher = Machine Intelligence Research Institute}}</ref>
 |-
 | 2012 || {{dts|February 4}}{{snd}}{{dts|May 4}} || Domain || At least during this period, <code>singularity.org</code> redirects to <code>singinst.org</code>.<ref>{{cite web |url=https://web.archive.org/web/20120501000000*/singularity.org |title=Wayback Machine |accessdate=July 4, 2017}}</ref>
 |-
@@ -438,7 +452,7 @@ The red vertical line (for June 2015) represents a change in the method of estim
 |-
 | 2020 || May || Financial || The Survival and Flourishing Fund publishes the outcome of its recommendation S-process for the first half of 2020. This includes three grant recommendations to MIRI: $20,000 from SFF, $280,000 from Jaan Tallinn, and $40,000 from Jed McCaleb.<ref name=sff-2020-h1>{{cite web|url = http://survivalandflourishing.fund/sff-2020-h1|title = SFF-2020-H1 S-process Recommendations Announcement|date = May 29, 2020|accessdate = October 10, 2020|publisher = Survival and Flourishing Fund}}</ref> The grant from SFF to MIRI would also be included in SFF's grant list with a grant date of May 2020.<ref>{{cite web|url = http://survivalandflourishing.fund/|title = Survival and Flourishing Fund|accessdate = October 10, 2020}}</ref>
 |-
-| 2020 || {{dts|October 9}} || || A Facebook post by Rob Bensinger, MIRI's research communications manager, says that MIRI is considering moving its office from its current location in Berkeley, California (in the San Francisco Bay Area) to another location in the United States or Canada. Two areas under active consideration are the Northeastern US (New Hampshire in particular) and the area surrounding Toronto. In response to a question about reasons, Bensinger clarifies that he cannot disclose reasons yet, but that he wanted to announce preemptively so that people can factor this uncertainty into any plans to move or to start new rationalist hubs.<ref>{{cite web|url = https://www.facebook.com/881820446/posts/10163981893970447/|title = MIRI, the place where I work, is very seriously considering moving to a different country soon (most likely Canada), or moving to elsewhere in the US.|last = Bensinger|first = Rob|date = October 9, 2020|accessdate = October 10, 2020|publisher = Facebook}}</ref>
+| 2020 || {{dts|October 9}} || || A Facebook post by Rob Bensinger, MIRI's research communications manager, says that MIRI is considering moving its office from its current location in Berkeley, California (in the San Francisco Bay Area) to another location in the United States or Canada. Two areas under active consideration are the Northeastern US (New Hampshire in particular) and the area surrounding Toronto. In response to a question about reasons, Bensinger clarifies that he cannot disclose reasons yet, but that he wanted to announce preemptively so that people can factor this uncertainty into any plans to move or to start new rationalist hubs.<ref>{{cite web|url = https://www.facebook.com/robbensinger/posts/10163981893970447/|title = MIRI, the place where I work, is very seriously considering moving to a different country soon (most likely Canada), or moving to elsewhere in the US.|last = Bensinger|first = Rob|date = October 9, 2020|accessdate = October 10, 2020|publisher = Facebook}}</ref>
 |-
 | 2020 || {{dts|October 22}} || Publication || Scott Garrabrant publishes (cross-posted to LessWrong and the Effective Altruism Forum) a blog post titled "Introduction to Cartesian Frames" that is is first post in a sequence about Cartesian frames, a new conceptual framework for thinking about agency.<ref>{{cite web|url = https://www.lesswrong.com/posts/BSpdshJWGAW6TuNzZ/introduction-to-cartesian-frames|title = Introduction to Cartesian Frames|last = Garrabrant|first = Scott|date = October 22, 2020|accessdate = December 20, 2020|publisher = LessWrong}}</ref><ref>{{cite web|url = https://intelligence.org/2020/10/23/october-2020-newsletter/|title = October 2020 Newsletter|last = Bensinger|first = Rob|date = October 23, 2020|accessdate = December 20, 2020|publisher = Machine Intelligence Research Institute}}</ref>
 |-
@@ -447,6 +461,12 @@ The red vertical line (for June 2015) represents a change in the method of estim
 | 2020 || {{dts|November 30}} (announcement) || Financial || In the November newsletter, MIRI announces that it will not be running a formal fundraiser this year, but that it will continue participating in Giving Tuesday and other matching opportunities.<ref>{{cite web|url = https://intelligence.org/2020/11/30/november-2020-newsletter/|title = November 2020 Newsletter|last = Bensinger|first = Rob|date = November 30, 2020|accessdate = December 20, 2020|publisher = Machine Intelligence Research Institute}}</ref>
 |-
 | 2020 || {{dts|December 21}} || Strategy || Malo Bourgon publishes MIRI's "2020 Updates and Strategy" blog post. The post talks about MIRI's efforts to relocate staff after the {{w|COVID-19 pandemic}} as well as the generally positive result of the changes, and possible future implications for MIRI itself moving out of the Bay Area. It also talks about slow progress on the research directions initiated in 2017, leading to MIRI feeling the need to change course. The post also talks about the public part of MIRI's progress in other research areas.<ref>{{cite web|url = https://intelligence.org/2020/12/21/2020-updates-and-strategy/|title = 2020 Updates and Strategy|last = Bourgon|first = Malo|date = December 21, 2020|accessdate = December 22, 2020|publisher = Machine Intelligence Research Institute}}</ref>
+|-
+| 2021 || {{dts|May 8}} || || Rob Bensinger publishes a post on LessWrong providing an update on MIRI's current thoughts regarding the possibility of relocation from the San Francisco Bay Area.<ref>{{cite web|url = https://www.lesswrong.com/posts/SgszmZwrDHwG3qurr/miri-location-optimization-and-related-topics-discussion|title = MIRI location optimization (and related topics) discussion|date = May 8, 2021|accessdate = May 31, 2021|last = Bensinger|first = Rob|publisher = LessWrong}}</ref>
+|-
+| 2021 || {{dts|May 13}} || Financial || MIRI announces two major donations to it: $15,592,829 in MakerDAO (MKR) from an anonymous donor with a restriction to spend a maximum of $2.5 million per year till 2024, and the remaining funds available in 2025, and 1050 ETH from Vitalik Buterin, worth $4,378,159.<ref>{{cite web|url = https://intelligence.org/2021/05/13/two-major-donations/|title = Our all-time largest donation, and major crypto support from Vitalik Buterin|author = Colm Ó Riain|date = May 13, 2021|accessdate = May 31, 2021}}</ref>
+|-
+| 2021 || {{dts|May 23}} || || In a talk, MIRI researcher Scott Garrabrandt describes "finite factored sets" and usees it to introduce an "alternative to the Pearlian paradigm."<ref>{{cite web|url = https://intelligence.org/2021/05/23/finite-factored-sets/|title = Finite Factored Sets|last = Garrabrandt|first = Scott|date = May 23, 2021|accessdate = May 31, 2021|publisher = Machine Intelligence Research Institute}}</ref>
 |}
 
 ==Meta information on the timeline==
@@ -487,7 +507,7 @@ Feedback for the timeline can be provided at the following places:
 * TODO who is Tyler Emerson?
 * modal combat and some other domains: [https://github.com/machine-intelligence/provability/blob/master/src/ModalCombat.hs], [http://viewdns.info/reversewhois/?q=Machine%20Intelligence%20Research%20Institute], [http://viewdns.info/reversewhois/?q=Nate%20Soares]
 * https://www.lesswrong.com/posts/yGZHQYqWkLMbXy3z7/video-q-and-a-with-singularity-institute-executive-director
-* https://intelligence.org/2012/01/12/qa-2-with-luke-muehlhauser-singularity-institute-executive-director/
+
 
 ===Timeline update strategy===
 
