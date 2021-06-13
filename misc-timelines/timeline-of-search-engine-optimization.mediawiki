@@ -1,0 +1,365 @@
+This is a '''timeline of {{w|search engine optimization}}''', attempting to describe significant events related to this practice. For the sake of context, many events directly related to {{w|search engine}}s, their evolution, products and updates, are included.  
+
+== Sample questions ==
+
+The following are some interesting questions that can be answered by reading this timeline: 
+
+* What are some notable SEO tool services?
+** Sort the full timeline by "Event type" and look for the group of rows with value "SEO tool launch". 
+** You will see a variety of services (some of them for free) offering analytics, SEO rank tracking software, blogging, etc.
+* What are some events describing practices against search engine guidelines?
+** Sort the full timeline by "Event type" and look for the group of rows with value "{{w|Spamdexing}}".
+** You will see a number of Black hat SEO techniques, and related events.
+* What are some significant updates involving search engines? 
+** Sort the full timeline by "Event type" and look for the group of rows with value "Notable update". 
+** You will see some significant updates by prominent search engines, mainly {{w|Google}}; aimed at combating {{w|spamdexing}}, but also improving aspects like geographic intent, end-user data, etc.
+* What are some of the several competitions specialized in SEO?
+** Sort the full timeline by "Event type" and look for the group of rows with value "{{w|SEO contest}}".
+** You will see a number of notable contests launched throughout the years.  
+* What are some of the numerous books focused on SEO?
+** Sort the full timeline by "Event type" and look for the group of rows with value "Literature".
+** You will see a mostly random list of titles illustrating the literature industry on the topic of CEO.
+* What are some events providing context to SEO?
+** Sort the full timeline by "Event type" and look for the group of rows with value "Background".
+** You will see significant events, some of them describing search evolution, and others related to major search engines.
+
+==Big picture==
+
+{| class="wikitable"
+! Time period !! Development summary !! More details
+|-
+| 1991–2002 || Prelude period<ref name="The Evolution Of SEO Trends Over 25 Years">{{cite web |title=The Evolution Of SEO Trends Over 25 Years |url=https://searchengineland.com/evolution-seo-trends-25-years-223424 |website=searchengineland.com |accessdate=4 January 2020}}</ref> || Early period starting from the launch of the world’s first website by {{w|Tim Berners-Lee}}. As websites start crowding the Internet, the first search engines fill a need for structure and accessibility. in 1993, search platforms like Excite revolutionize how information is cataloged and make finding information easier by sorting results based on keywords found within content and backend optimization. {{w|Webmaster}}s and content providers begin optimizing websites for search engines in the mid-decade. {{w|Yahoo!}} in 1994 and {{w|Google}} in 1997 enter the scene to improve and simplify how data is indexed and delivered. In this primitive stage, marketers would leverage keyword stuffing, excessive tagging, and (often spammy) backlinks to generate high rankings in search. Often, major algorithm updates would take several months to complete, allowing black-hat SEO tactics to remain effective for long stretches of time. In 1994, several new search engines become widely accessible to the public.<ref name="tellmeyourgoal.coms">{{cite web |title=The History of Search Engine Optimization |url=https://www.tellmeyourgoal.com/the-history-of-search-engine-optimization |website=tellmeyourgoal.com |accessdate=10 January 2020}}</ref> In 1996, in which some consider the time when [[w:search engine optimization|SEO]] really took off, {{w|Sergey Brin}} and {{w|Larry Page}} begin building {{w|BackRub}}, the predecessor of {{w|Google}}, which would become the biggest, most recognized search engine.<ref name="bluefrogdm.coms"/> Around 1997, the first algorithm crackers appear. 1997 is the year that several SEO providers decode all 35 parameters of Excite’s algorithm.<ref name="A Brief History of SEOd">{{cite web |title=A Brief History of SEO |url=https://medium.com/tripika/a-brief-history-of-seo-3b35d7fa34d3 |website=medium.com |accessdate=10 January 2020}}</ref>     
+|-
+| 2003–2005 || Early developments<ref name="The Evolution Of SEO Trends Over 25 Years"/> || {{w|Google}}, {{w|MSN}} and {{w|Yahoo!}}, the three major search engines that are left, start incorporating undisclosed page ranking factors into their algorithms. The era of keyword-spamming SEO is long over. {{w|Webmaster}}s and content providers have to rely on more creative ways to promote content and generate inbound links in order to achieve long term increases in search engine rankings.<ref name="A Brief History of SEOd"/>
+|-
+| 2006–2009 || Middle period || This period introduces highlights like Google's Universal Search to offer additionally more engaging content media in search results such as news, images, and video.<ref name="The Evolution Of SEO Trends Over 25 Years"/> 
+|-
+| 2010–2012 || Consolidation period <ref name="The Evolution Of SEO Trends Over 25 Years"/> || Social media becomes a more pivotal piece of SEO strategy.<ref name="A Brief History of Search & SEO">{{cite web |title=A Brief History of Search & SEO |url=https://blog.hubspot.com/marketing/a-brief-history-of-search-seo |website=blog.hubspot.com |accessdate=6 January 2020}}</ref> By 2010, {{w|content farm}}s appear, designed to lure search engine algorithms. As a response, Google decides that the quality of the content should matter more for search engine rankings, and in 2011 launches its {{w|Google Panda}} update which effectively kills the practice.<ref name="A brief history of Search Engine Optimization (SEO)"/> Toward 2012, Google continues setting restrictions to means of improving users' ranking score and continues penalizing websites using unethical methods of rankings.<ref name="gopbn.comd">{{cite web |title=The History of Search Engine Optimization |url=https://gopbn.com/blog/history-of-seo/ |website=gopbn.com |accessdate=10 January 2020}}</ref>
+|-
+| 2013–present || Modern SEO era<ref name="The Evolution Of SEO Trends Over 25 Years"/> || Focus moves towards mobile search. In 2014, the app indexing launches, making apps appear alongside websites in search results. In 2015, the so-called ‘Mobilegeddon’ update appears, making website mobile friendliness a ranking signal in searches.<ref name="A brief history of Search Engine Optimization (SEO)"/> By 2017, SEO is considered, for the most part, a conversation with {{w|Google Search}}.<ref name="A Brief History of SEOd"/> 2018 starts with the continuation of mobile as a key focus for search engines.<ref name="A brief history of Search Engine Optimization (SEO)"/> As of 2019, SEO campaigns are much more laborious and complex than they were a decade ago. Users get better relevant results and webmasters and content providers have to provide actual value in order to rank high on search results.<ref name="A Brief History of SEOd"/>
+|-
+|}
+
+== Visual data ==
+
+=== Google Trends ===
+
+The chart below shows {{w|Google Trends}} data for Search engine optimization (Topic), from January 2004 to April 2021, when the screenshot was taken. Interest is also ranked by country and displayed on world map.<ref>{{cite web |title=Search engine optimization |url=https://trends.google.com/trends/explore?date=all&q=%2Fm%2F019qb_ |website=Google Trends |access-date=16 April 2021}}</ref>
+
+[[File:Search engine optimization gt.png|thumb|center|600px]]
+
+The chart below shows {{w|Google Ngram Viewer}} data for Search engine optimization, from 1990 to 2019.<ref>{{cite web |title=Search engine optimization |url=https://books.google.com/ngrams/graph?content=Search+engine+optimization&year_start=1990&year_end=2019&corpus=26&smoothing=3 |website=books.google.com |access-date=16 April 2021 |language=en}}</ref>
+
+[[File:Search engine optimization ngram.png|thumb|center|700px]]
+
+=== Wikipedia Views ===
+
+The chart below shows pageviews of the English Wikipedia article {{w|Search engine optimization}}, on desktop from December 2007, and on mobile-web, desktop-spider, mobile-web-spider and mobile app, from July 2015; to March 2021.<ref>{{cite web |title=Search engine optimization |url=https://wikipediaviews.org/displayviewsformultiplemonths.php?page=Search+engine+optimization&allmonths=allmonths&language=en&drilldown=all |website=wikipediaviews.org |access-date=16 April 2021}}</ref>
+
+[[File:Search engine optimization wv.png|thumb|center|450px]]
+
+==Full timeline==
+
+{| class="sortable wikitable"
+! Year !! Month and date !! Search engine (when applicable) !! Event type !! Details  
+|-
+| 1991 || || || Early development || The first website is developed for the [[w:SLAC National Accelerator Laboratory (work)|Stanford Linear Accelerator Center]].<ref name="William R.">{{cite book |last1=Parkhurst |first1=William R. |title=Routing First-step |url=https://books.google.com.ar/books?id=IzR8ycHGTEkC&pg=PA279&lpg=PA279&dq=%221993%22+%22600+websites%22&source=bl&ots=P7bG2az1m1&sig=ACfU3U3M67pbWKsSJifP7hSGSq3Lw_eiqA&hl=en&sa=X&ved=2ahUKEwith_WnuNToAhVzIrkGHWoCCHkQ6AEwCnoECAUQKQ#v=onepage&q=%221993%22%20%22600%20websites%22&f=false}}</ref> It is believed that {{w|SEO}} is born in this year, with the launch of the first website.<ref name="bluefrogdm.coms">{{cite web |title=A BRIEF HISTORY OF SEO |url=https://www.bluefrogdm.com/blog/a-brief-history-of-seo |website=bluefrogdm.com |accessdate=7 January 2020}}</ref> 
+|-
+| 1994 || || || Early developent || Greg Boser discovers that he could use the Internet to sell protective foam equipment to fight fires. Boser builds a website and starts seeking ways to drive potential customers to his site for sales.<ref name="thehistoryofseo.com">{{cite web |title=The History of Search Engine Optimization |url=http://www.thehistoryofseo.com/The-Industry/The_History_of_Search_Engine_Optimization.aspx|website=thehistoryofseo.com |accessdate=6 January 2020}}</ref> 
+|-
+| 1995 || || || Organization || John Audette forms Multi-Media Marketing Group, which would produce a popular newsletter with tips for influencing search engines.<ref>{{cite book |title=The SAGE Handbook of Web History |edition=Niels Brügger, Ian Milligan |url=https://books.google.com.ar/books?id=PENeDwAAQBAJ&pg=PT437&lpg=PT437&dq=%22Multi-Media+Marketing+Group%22+%221995%22&source=bl&ots=dkUwAwaqG4&sig=ACfU3U3qN4RdZPOMmvB-2cBZdyolmNaMiA&hl=en&sa=X&ved=2ahUKEwjNlcW0-YvpAhUSA9QKHXKUCL8Q6AEwCnoECAoQAQ#v=onepage&q=%22Multi-Media%20Marketing%20Group%22%20%221995%22&f=false}}</ref><ref name="thehistoryofseo.com"/>  
+|-
+| 1996 || April 1 || || SEO tool launch || Alexa Internet is founded. It offers commercial online traffic data and analytics.<ref>{{cite web |title=Alexa Internet SuccessStory |url=https://successstory.com/companies/alexa-internet#:~:text=Alexa%20Internet%20SuccessStory-,Profile,owned%20subsidiary%20of%20Amazon.com. |website=successstory.com |accessdate=28 June 2020}}</ref>
+|-
+| 1996 || May 22 || || {{w|Spamdexing}} || The earliest known reference<ref name="wspy">"Word Spy - spamdexing" (definition), March 2003, webpage:[http://www.wordspy.com/words/spamdexing.asp WordSpy-spamdexing].</ref> to the term ''{{w|spamdexing}}'' is by Eric Convey, who says:
+
+<blockquote>The problem arises when site operators load their Web pages with hundreds of extraneous terms so search engines will list them among legitimate addresses.
+The process is called "spamdexing," a combination of {{w|spamming}} — the Internet term for sending users unsolicited information — and "[[w:Web indexing|indexing]]."<ref name=wspy/></blockquote>
+|-
+| 1997 || || || Concept development || According to industry analyst [[w:Danny Sullivan (technologist)|Danny Sullivan]], the phrase "search engine optimization" probably comes into use around this time. Sullivan credits Bruce Clay as one of the first people to popularize the term.<ref>{{cite web|url=http://forums.searchenginewatch.com/showpost.php?p=2119&postcount=10|title=Who Invented the Term "Search Engine Optimization"?|author=Danny Sullivan|date=June 14, 2004|publisher={{w|Search Engine Watch}}|archive-url=https://web.archive.org/web/20100423051708/http://forums.searchenginewatch.com/showpost.php?p=2119|archive-date=23 April 2010|accessdate=May 14, 2007}} See [https://groups.google.com/group/alt.current-events.net-abuse.spam/browse_thread/thread/6fee2777dc17b8ab/3858bff94e56aff3?lnk=st&q=%22search+engine+optimization%22&rnum=1#3858bff94e56aff3 Google groups thread].</ref> "all signs definitely point to the term SEO originating around 1997."<ref name="20 Years of SEO: A Brief History of Search Engine Optimization">{{cite web |title=20 Years of SEO: A Brief History of Search Engine Optimization |url=https://www.searchenginejournal.com/seo-101/seo-history/#close |website=searchenginejournal.com |accessdate=4 January 2020}}</ref> "In 1997, the words “search engine optimization” were first used by John Audette and Bruce Clay, and soon after SEO became a widely used term."<ref name="seo.comf">{{cite web |title=THE HISTORY OF SEARCH |url=https://www.seo.com/blog/the-history-of-search-infographic/ |website=seo.com |accessdate=10 January 2020}}</ref>  
+|-
+| 1997 || September || {{w|Google}} || Background || <code>google.com</code> is registered as a domain name.<ref>{{cite web |title=Google domain name was registered 20 years ago |url=https://www.businessinsider.com/heres-what-google-looked-like-the-first-day-it-launched-in-1998-2017-9 |website=businessinsider.com |accessdate=10 April 2020}}</ref> 
+|-
+| 1999 || November 18 || || Conference || {{w|Search Engine Strategies}} (SES) takes place as the first-ever all search marketing conference.<ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/><ref name="amcodigital.com">{{cite web |title=THE HISTORY OF SEO (SEARCH ENGINE OPTIMIZATION) |url=https://www.amcodigital.com/history-of-seo/ |website=amcodigital.com |accessdate=7 January 2020}}</ref><ref name="seo.comf"/>  
+|-
+| 1999 || || || {{w|Spamdexing}} || {{w|Link farm}}s are first developed by [[w:search engine optimization|search engine optimizers]] (SEOs) to take advantage of the [[w:Inktomi (company)|Inktomi]] search engine's dependence upon link popularity.<ref>{{cite book |title=Complete Digital Marketing Guide Book for SEO, Social Media & Brand awareness: Definitive & Hidden Secrets of Digital Marketing to grow your business |publisher=Publicancy |url=https://books.google.com.ar/books?id=rkXHDwAAQBAJ&pg=PA87&lpg=PA87&dq=Link+farms+were+first+developed+by+search+engine+optimizers+(SEOs)+in+1999+to+take+advantage+of+the+Inktomi+search+engine%27s+dependence+upon+link+popularity&source=bl&ots=FNmwxiQUqB&sig=ACfU3U31uGMX92Rr6f0XUYbO2WaZqojgJA&hl=en&sa=X&ved=2ahUKEwjqp9LjqqLqAhVXHrkGHWfSB20Q6AEwAXoECAoQAQ#v=onepage&q=Link%20farms%20were%20first%20developed%20by%20search%20engine%20optimizers%20(SEOs)%20in%201999%20to%20take%20advantage%20of%20the%20Inktomi%20search%20engine's%20dependence%20upon%20link%20popularity&f=false}}</ref>
+|-
+| 1999 || || {{w|Google}} || {{w|Spamdexing}} || [[w:Google bombing|Google bombs]] date back to this year, when a search for "more evil than Satan himself" results in the {{w|Microsoft}} homepage as the top result.<ref>{{cite web|url=https://www.clickz.com/google-bombs-arent-so-scary/61942/|accessdate=27 June 2020|title=Google Bombs Aren't So Scary|first=Danny|last=Sullivan|date=March 18, 2002|work=ClickZ}}</ref><ref name="searchenginepeople.com">{{cite web |title=The 10 Most Incredible Google Bombs |url=https://www.searchenginepeople.com/blog/incredible-google-bombs.html |website=searchenginepeople.com |accessdate=27 June 2020}}</ref>
+|- 
+| 2000 || || {{w|Yahoo!}}, {{w|Google}} || Background || In what is considered to be the worst strategic move in search history<ref name="dailytechmonde.blogspot.com">{{cite web |title=Story SEO: Search Engine Optimization |url=https://dailytechmonde.blogspot.com/2019/12/search-engine-optimization-story.html |website=dailytechmonde.blogspot.com |accessdate=27 April 2020}}</ref>, {{w|Yahoo!}} partners with {{w|Google}} and lets Google power their organic results instead of {{w|Inktomi}}. At this time Google is a little-known search engine. After this, every Yahoo search result would say “Powered by Google”, with Yahoo! ending up introducing their largest competitor to the world and Google becoming a household name.<ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/> 
+|-
+| 2000 || || || Conference || Pubcon launches in {{w|London}} as the first of a large search conference series.<ref>{{cite web |title=10 Things You Might Not Know About Pubcon |url=https://www.pubcon.com/10-things-you-might-not-know-about-pubcon |website=pubcon.com |accessdate=20 April 2020}}</ref><ref>{{cite web |title=15 Facts About #Pubcon You May Not Know |url=https://www.searchenginejournal.com/15-facts-pubcon-may-not-know/140298/#close |website=searchenginejournal.com |accessdate=20 April 2020}}</ref>  
+|-
+| 2000 || || || SEO tool launch || WebCEO is founded.<ref>{{cite web |title=WebCEO |url=https://www.linkedin.com/company/web-ceo/ |website=linkedin.com |accessdate=28 June 2020}}</ref> It offers SEO tool kit for digital agencies.<ref>{{cite web |title=SEO & Digital Marketing Tools |url=https://www.webceo.com/ |website=webceo.com |accessdate=28 June 2020}}</ref> 
+|-
+| 2000 || October 23 || {{w|Google}} || Service launch || {{w|Google AdWords}} launches.<ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/> It is a pay-per-click online advertising platform that allows advertisers to display their ads on Google's search engine results page.<ref>{{cite web |title=How Does Google AdWords Work? The Basics of Google Ads |url=https://www.freshbooks.com/hub/marketing/how-does-google-adwords-work |website=freshbooks.com |accessdate=28 April 2020}}</ref>  
+|-
+| 2000 || December 11 || {{w|Google}} || Notable update || {{w|Google Toolbar}} becomes available as a web browser toolbar for {{w|Internet Explorer}}, allowing SEO practitioners to see their {{w|PageRank}} score (a number between 0-10).<ref>{{cite web |title=Google Toolbar History |url=http://www.seobythesea.com/2007/07/google-toolbar-history/ |website=seobythesea.com |accessdate=28 April 2020}}</ref><ref>{{cite web |title=Google Toolbar & GTPR – Google Algorithm Update December 11, 2000 |url=https://www.seocandyland.com/blog/seo-blog/google-algorithm-updates/google-toolbar-google-algorithm-update-december-2000/ |website=seocandyland.com |accessdate=28 April 2020}}</ref><ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/><ref name="amcodigital.com"/> 
+|-
+| 2001 || || || Concept development || Danny Sullivan, a prominent industry writer, unsuccessfully suggests the term "search engine marketing" as a successor to "search engine optimization", with the purpose to cover the spectrum of activities involved in performing SEO, managing paid listings at the search engines, submitting sites to directories, and developing online marketing strategies for businesses, organizations, and individuals.<ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/><ref name="researchgate.nete">{{cite web |title=History Of Search Engines |url=https://www.researchgate.net/publication/265104813_History_Of_Search_Engines |website=researchgate.net |accessdate=10 January 2020}}</ref> 
+|-
+| 2001 || Year round || {{w|Google}} || Background || Users massively abandon old search engines like {{w|Lycos}}, {{w|Excite}}, {{w|AltaVista}} and {{w|Hotbot}}, and move their interest towards {{w|Google}}.<ref name="A Brief History of SEOd"/><ref name="seo.comf"/> Brett Tabke, Founder of WebmasterWorld, comments: “Many SEOs have sleepless nights as we realize it is Google or bust.”  <ref name="seo.comf"/> 
+|-
+| 2002 || November 15 || || {{w|SEO contest}} || {{w|Schnitzelmitkartoffelsalat}} is launched by German webmasters as the first recorded SEO Contest.<ref>{{cite book |last1=Lenssen |first1=Philipp |title=55 Ways to Have Fun with Google |url=https://books.google.com.ar/books?id=-XDkb3htVikC&pg=PA29&lpg=PA29&dq=2002+November+15+SEO+contest+Schnitzelmitkartoffelsalat&source=bl&ots=q0Mc3fYinG&sig=ACfU3U3KvITDxH4FENSsEr6Rk13eRt-LhA&hl=en&sa=X&ved=2ahUKEwjYzZiqi97oAhWRIrkGHeHcCnMQ6AEwAXoECAwQKw#v=onepage&q=2002%20November%2015%20SEO%20contest%20Schnitzelmitkartoffelsalat&f=false}}</ref> 
+|- 
+| 2002 || || {{w|Google}} || Service launch || {{w|Google}} announces the launch of [[W:Google Shopping|Froogle]], a free product listing and price comparison service where users can discover various products from across the vendors, sort them and make a purchase.<ref name="seo.comf"/><ref>{{cite web |title=AN INTRODUCTION TO GOOGLE SHOPPING |url=https://blog.adnabu.com/google-shopping-introduction/ |website=blog.adnabu.com |accessdate=28 April 2020}}</ref>  
+|-
+| 2003 || || {{w|Google}} || Product launch || After acquiring [[w:Blogger (service)|Blogger.com]], Google launches [[w:Google AdSense|AdSense]], which serves contextually targeted Google AdWords ads on publisher sites.<ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/> 
+|-
+| 2003 || || || SEO evolution || {{w|Blog}}ging becomes popular and is utilized for SEO. {{w|Blogger}} and {{w|WordPress}} become widely used.<ref name="seo.comf"/> 
+|-
+| 2003 || November 16 || {{w|Google}} || Notable update || Google launches its Google Florida update, aimed at combatting {{w|keyword stuffing}}<ref>{{cite web |title=Google Florida: The First Major Algorithm Update |url=https://www.searchenginejournal.com/google-algorithm-history/florida-update/#close |website=searchenginejournal.com |accessdate=23 June 2020}}</ref>, a practice consisting in loading a webpage with keywords or numbers in an attempt to manipulate a site's ranking in search results.<ref>{{cite web |title=Irrelevant keywords |url=https://support.google.com/webmasters/answer/66358?hl=en |website=support.google.com |accessdate=29 June 2020}}</ref>
+|-
+| 2003 || April 3 || {{w|Google}} || {{w|Spamdexing}} || The term ''[[w:Google bombing|Googlewashing]]'' is coined by {{w|Andrew Orlowski}} to describe the use of {{w|media manipulation}} to change the perception of a term, or push out competition from {{w|search engine results page}}s (SERPs).<ref>{{cite news|last=Orlowski|first=Andrew|url=https://www.theregister.co.uk/2003/04/03/antiwar_slogan_coined_repurposed/|title=Anti-war slogan coined, repurposed and Googlewashed ... in 42 days.|date=April 3, 2003|work=The Register|accessdate=January 6, 2007}}</ref><ref name="AdamsMcCrindle2008">{{cite book|author1=Andrew A. Adams|author2=Rachel McCrindle|title=Pandora's Box: Social and Professional Issues of the Information Age|url=https://books.google.com/books?id=dXmx97UzO6IC&pg=PA122|accessdate=30 September 2012|date=15 February 2008|publisher=John Wiley & Sons|isbn=978-0-470-06553-2|pages=122–123}}</ref>
+|-
+| 2004 || March || || {{w|SEO contest}} || Promoweb agency organizes the first French-speaking contest, ''Mangeur de Cigogne'' (eater of stork).<ref name="dsdf">{{cite web |title=SEO contests or web ranking competitions |url=http://www.noname.fr/concours-de-referencement/seo-contest.html |website=noname.fr |accessdate=28 April 2020}}</ref> 
+|-
+| 2004 || May || || {{w|SEO contest}} || Nigritude Ultramarine 2004 launches as the first english language SEO competition, created by darkblue.com and run by SearchGuild.<ref name="Previous SEO Competitions">{{cite web |title=Previous SEO Competitions |url=https://beanseohero.com/seo-competitions.php |website=beanseohero.com |accessdate=8 January 2020}}</ref> 
+|-
+| 2004 || August || || {{w|SEO contest}} || A new contest of SEO is organized in the {{w|United Kingdom}} by a web agency, based this time on keywords seraphim proudleduck.<ref name="dsdf"/> This contest is presented by Salmonbones.<ref name="Previous SEO Competitions"/>  
+|-
+| 2004 || || {{w|Google}} || Notable update || Google and other top search engines start improving results for queries that have a geographic intent (e.g., a restaurant, plumber, or some other type of business or service provider in the user's location).<ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/>  
+|-
+| 2004 || || {{w|Google}} || Notable update || {{w|Google}} and other search engines begin making greater use of end-user data, such as search history and interests, to personalize search results. This means that the results the user sees could be different than what another person obtains sitting next to the user in another computer when searching for the same query.<ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/>
+|-
+| 2004 || || || SEO tool launch || [[w:Moz (marketing software)|SEO Moz]] is founded by Rand Fiskin. First a blog, SEOmoz would grow to become one of the largest providers of SEO Tools.<ref name="seo.comf"/> 
+|-
+| 2004 || || || SEO tool launch || SEO tool company Sistrix launches.<ref>{{cite web|url = https://www.crunchbase.com/organization/sistrix-gmbh|title = Sistrix|publisher = CrunchBase|accessdate = June 12, 2021}}</ref> Their analyses of Google algorithm updates would often be cited on Search Engine Land.
+| 2004 || || {{w|Google}}, {{w|MSN}}, {{w|Yahoo!}} || Notable update || The three major search engines that are left, {{w|Google}}, {{w|MSN}} and {{w|Yahoo!}}, start incorporating undisclosed page ranking factors into their algorithms.<ref name="A Brief History of SEOd"/>  
+|-
+| 2005 || January || {{w|Google}}, {{w|MSN}}, {{w|Yahoo!}} || Background || {{w|Google}} unites with {{w|Yahoo!}} and {{w|MSN}} for the {{w|nofollow}} attribute, which is created in part to decrease the amount of spammy links and comments on websites, especially blogs.<ref name="A Brief History of Search & SEO"/> 
+|-
+| 2005 || March 1 || || {{w|SEO contest}} || Loquine Glupe is held. It is hosted by <code>webmaster-forums.co.uk</code>.<ref name="Previous SEO Competitions"/> 
+|-
+| 2005 || April || || SEO tool launch || {{w|SpyFu}} launches.<ref>{{cite web |title=List of Free Courses and Tools That You Can Use for Free During the Coronavirus Lockdown. |url=https://timesofindia.indiatimes.com/readersblog/hoho-media-agency/list-of-free-courses-and-tools-that-you-can-use-for-free-during-the-coronavirus-lockdown-12407/ |website=timesofindia.indiatimes.com |accessdate=28 June 2020}}</ref> It is a keyword research and competitive intelligence tool used by digital marketers to improve their performance in online search.<ref>{{cite web |title=SpyFu Review, Pricing & Features: Best SEO Tool for Competitor Keyword Research |url=https://www.softwarepundit.com/seo/spyfu-review-pricing-features |website=softwarepundit.com |accessdate=28 June 2020}}</ref>
+|-
+| 2005 || May–December || || {{w|SEO contest}} || Hommingberger Gepardenforelle 2005 launches as another German contest. The goal of this SEO contest is to figure out how search engines determine rankings.<ref name="Previous SEO Competitions"/> 
+|-
+| 2005 || June || {{w|Google}} || Notable update || Google debuts personalized search, which makes use of user personal search and browsing history to make results more relevant,<ref name="A Brief History of Search & SEO"/> thus presenting customized results pages when the user is logged in.<ref name="A Brief History of SEOd"/>
+|-
+| 2005 || || || {{w|Spamdexing}} || {{w|Nofollow tag}}s are created as a means to combat spam. SEO professionals begin using this tag as a way of {{w|PageRank sculpting}}, a technique consisting in distributing the {{w|PageRank}} of a website to other subpages.<ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/> 
+|-
+| 2005 || August || || {{w|Spamdexing}} || The term ''[[w:Spam blog|splog]]'' (short for spam blog) is popularized around the time, when it is used publicly by {{w|Mark Cuban}}, who writes: " A splog is any blog whose creator doesn’t add any written value. I’m sure some might argue that packaging data, such as news feeds or the blog posts of others is added value. I dont think it is."<ref>{{cite web |title=A splog here, a splog there, pretty soon it ads up… and we all lose |url=https://blogmaverick.com/2005/08/15/a-splog-here-a-splog-there-pretty-soon-it-ads-up-and-we/ |website=blogmaverick.com |accessdate=27 June 2020}}</ref> 
+|-
+| 2005 || || || {{w|SEO contest}} || Msnbetter Thangoogle launches as a Polish SEO contest intended to promote SEO in {{w|Poland}} and get the attention of search engines.<ref name="Previous SEO Competitions"/> 
+|-
+| 2005 || || || SEO tool launch || [[w:Conductor (company)|Conductor]] is founded.<ref>{{cite web |title=Conductor |url=https://www.crunchbase.com/organization/conductor#section-overview |website=crunchbase.com |accessdate=29 June 2020}}</ref> It is a SEO technology firm offering a suite of enterprise SEO tools and performance.<ref>{{cite book |last1=Odden |first1=Lee |title=Optimize: How to Attract and Engage More Customers by Integrating SEO, Social Media, and Content Marketing |url=https://books.google.com.ar/books?id=Coku6bhrBcIC&pg=PA206&lpg=PA206&dq=conductor+offers+seo&source=bl&ots=jJvkD2haZN&sig=ACfU3U3ZjvPmNFGzeE-gUAztYtImcGAXCw&hl=en&sa=X&ved=2ahUKEwj2luSR46XqAhV6IbkGHfjzCVgQ6AEwDHoECAoQAQ#v=onepage&q=conductor%20offers%20seo&f=false}}</ref>
+|-
+| 2005 || || || Spamdexing || The practice of {{w|meta-tag stuffing}} becomes ineffective. The practice involves repeating keywords in the Meta tags, and using meta keywords that are unrelated to the site's content.<ref name="Publicancy">{{cite book |title=Complete Digital Marketing Guide Book for SEO, Social Media & Brand awareness: Definitive & Hidden Secrets of Digital Marketing to grow your business |publisher=Publicancy |url=https://books.google.com.ar/books?id=rkXHDwAAQBAJ&pg=PA89&lpg=PA89&dq=Meta-tag+stuffing+ineffective+since+2005&source=bl&ots=FNmwzhRSlI&sig=ACfU3U0Dh3rOtwPfJTH7TxFVjeIUwsQ5kw&hl=en&sa=X&ved=2ahUKEwii3dOz8afqAhVSIrkGHXunB3gQ6AEwAHoECAoQAQ#v=onepage&q=Meta-tag%20stuffing%20ineffective%20since%202005&f=false}}</ref>
+|-
+| 2005 || September || {{w|Google}} || Notable update || {{w|Google}} releases Jagger, an update that helps to diminish the level of unsolicited link exchanges that fly around.<ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/><ref>{{cite web |title=Google’s Jagger Update Rocks Manipulative Link Building |url=https://www.searchenginejournal.com/google-algorithm-history/jagger-update/#close |website=searchenginejournal.com |accessdate=4 January 2020}}</ref> 
+|-
+| 2005 || September 29 || || {{w|Spamdexing}} || The term ''{{w|sping}}'' (a short for "[[w:spam (electronic)|spam]] [[w:ping (blogging)|ping]]") is coined by a French [[w:Search engine optimization|SEO]] blogger, Sébastien Billiard, in an article titled "Spam 2.0".<ref>{{cite web |title=Spam 2.0 |url=http://s.billard.free.fr/referencement/?2005/09/29/146-spam-20 |website=s.billard.free.fr |accessdate=27 June 2020}}</ref>
+|-
+| 2005 || November || {{w|Google}} || SEO tool launch || {{w|Google}} launches {{w|Google Analytics}}. This free, web-based tool would become so popular at launch that webmasters would experience downtime and maintenance warnings.<ref name="A Brief History of Search & SEO"/><ref name="seo.comf"/><ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/> 
+|-
+| 2005 || December || {{w|Google}} || Notable update || Google releases Big Daddy, an update that improves the architecture of Google to allow for improved understanding of the worth and relationship of links between sites.<ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/><ref>{{cite web |title=Google’s Big Daddy Update: Big Changes to Google’s Infrastructure & the SERPs |url=https://www.searchenginejournal.com/google-algorithm-history/big-daddy-update/ |website=searchenginejournal.com |accessdate=4 January 2020}}</ref> 
+|-
+| 2005 || December 20 || || {{w|SEO contest}} || The V7ndotcom Elursrebmem Competition is organized in the United States.<ref name="Previous SEO Competitions"/><ref name="dsdf"/> 
+|-
+| 2005 || || || SEO tool launch || SEO tool company Searchmetrics launches.<ref>{{cite web|url = https://searchmetrics.recruitee.com/l/en#section-101586|title = Grow your career at Searchmetrics|accessdate = June 12, 2021}}</ref> Searchmetrics analyses of Google algorithm updates would often be cited on Search Engine Land.
+|-
+| 2006 || February–May || || SEO contest || "The Four Required Words" SEO Contest launches. It is sponsored by milliondollarscreenshot.com and is the first contest to use an expression in quotes and targeted image search, even though no images are shown in the time of the contest.<ref name="Previous SEO Competitions"/>  
+|-
+| 2006 || March–December || || SEO contest || Carcasherdotcom seocontest launches.<ref name="Previous SEO Competitions"/>  
+|-
+| 2006 || May 11 || || SEO tool launch || {{w|Google Trends}} launches.<ref>{{cite journal |last1=Jun |first1=Seung-Pyo |last2=Yoo |first2=Hyoung Sun |last3=Choi |first3=San |title=Ten years of research change using Google Trends: From the perspective of big data utilizations and applications |doi=10.1016/j.techfore.2017.11.009 |url=https://www.sciencedirect.com/science/article/pii/S0040162517315536#:~:text=Google%20Trends%20was%20first%20introduced%20on%20May%2011%2C%202006.&text=Google%20Trends%20merely%20provides%20the,2016%20(Sullivan%2C%202016).}}</ref> It is a tool for SEO research.<ref>{{cite web |title=7 Ways to Use Google Trends for SEO & Content Marketing |url=https://www.searchenginejournal.com/google-trends/266721/ |website=searchenginejournal.com |accessdate=28 June 2020}}</ref>
+|-
+| 2006 || July 11 || || Literature || ''The Long Tail: Why the Future of Business Is Selling Less of More'' is published by Chris Anderson.<ref>{{cite web |title=The Long Tail: Why the Future of Business is Selling Less of More by Anderson, Chris (July 11, 2006) Hardcover Unknown Binding – January 1, 1800 |url=https://www.amazon.com/Long-Tail-Business-Anderson-Hardcover/dp/B014I8UA36 |website=amazon.com |accessdate=30 June 2020}}</ref>  
+|-
+| 2006 || || {{w|Google}} || Product launch || Google launches Google Webmaster Tools, a suite of SEO tools that provides data and configuration control and lets webmasters view crawling errors, see what searches the user's site showed up for, and request reinclusion.<ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/> 
+|-
+| 2006 || || || Product launch || {{w|XML}} {{w|sitemaps}} are introduced, soon acquiring a great support from the search engines. XML sitemaps allow webmasters to display to the search engines, every {{w|URL}} on their website that is available for crawling. An XML sitemap contains not only a list of URLs but a range of further information, which help search engines to crawl more intelligently.<ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/><ref name="amcodigital.com"/> 
+|-
+| 2006 || || {{w|Google}} || {{w|Spamdexing}} || {{w|BMW}} is banned and utterly removed from {{w|Google}}’s search results for using a technique called {{w|cloaking}}, which means showing one type of content for search engines and another one for users.<ref name="A brief history of Search Engine Optimization (SEO)">{{cite web |title=A brief history of Search Engine Optimization (SEO) |url=https://blog.zooma.se/en/blog/a-brief-history-of-search-engine-optimization-seo |website=blog.zooma.se |accessdate=6 January 2020}}</ref>  
+|-
+| 2006 || || || {{w|SEO contest}} || Redscowl Bluesingsky SEO contest takes place. It is sponsored by SEOLogs.<ref name="Previous SEO Competitions"/> 
+|-
+| 2006 || || {{w|Google}} || SEO tool launch || {{w|Google Webmaster Central}} is launched. It is a free portal from that notifies the user of major technical issues with his/her website.<ref name="seo.comf"/><ref>{{cite web |title=Technical Considerations for Your Local Business Website |url=https://moz.com/learn/seo/local-website-technical-recommendations |website=moz.com |accessdate=28 April 2020}}</ref>  
+|-
+| 2006 || || || Notable update || Since 2006, better methods of accessibility, including {{w|progressive enhancement}}, become available, so {{w|cloaking}} is no longer necessary for regular SEO.<ref>{{cite book |title=Complete Digital Marketing Guide Book for SEO, Social Media & Brand awareness: Definitive & Hidden Secrets of Digital Marketing to grow your busines |edition=Publicancy |url=https://books.google.com.ar/books?id=rkXHDwAAQBAJ&pg=PA201&lpg=PA201&dq=Since+2006,+better+methods+of+accessibility,+including+progressive+enhancement,+have+been+available,+so+cloaking+is+no+longer+necessary+for+regular+SEO&source=bl&ots=FNmvEgVUuF&sig=ACfU3U3kqCoRAnKptRc-ExCnNQSdOzwOHA&hl=en&sa=X&ved=2ahUKEwio6_C8lZnqAhXXLLkGHTc5BGEQ6AEwAHoECAsQAQ#v=onepage&q=Since%202006%2C%20better%20methods%20of%20accessibility%2C%20including%20progressive%20enhancement%2C%20have%20been%20available%2C%20so%20cloaking%20is%20no%20longer%20necessary%20for%20regular%20SEO&f=false}}</ref> 
+|-
+| 2006 || || || Website launch || {{w|BlackHatWorld}} launches as a forum[https://www.blackhatworld.com/] aimed at discussing the latest trends in internet marketing. <ref>{{cite web |title=Advertise on BlackHatWorld.com Review |url=https://toolswelike.com/black-hat-world-review/ |website=toolswelike.com |accessdate=29 June 2020}}</ref>
+|-
+| 2006 || September 15 || || SEO tool launch || DeepCrawl is founded. It offers a SEO platform aimed at helping brands to accelerate growth and mitigate losses in organic search performance.<ref>{{cite web |title=DeepCrawl Launches Automator to Enable SEO Quality Assurance |url=https://www.businesswire.com/news/home/20200428005171/en/DeepCrawl-Launches-Automator-Enable-SEO-Quality-Assurance |website=businesswire.com |accessdate=29 June 2020}}</ref>
+|-
+| 2006 || October || {{w|Google}} || Background || {{w|Google}} acquires {{w|YouTube}} for US$1.65 billion. Youtube would ultimately become the second most used search property in the world.<ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/> 
+|-
+| 2006 || December 11 || || Website launch || <code>searchengineland.com</code> launches as a new search news blog.<ref>{{cite web |title=Danny Sullivan’s Search Engine Land Launches December 11 |url=https://searchengineland.com/danny-sullivans-search-engine-land-launches-december-11-9957 |website=searchengineland.com |accessdate=27 June 2020}}</ref>
+|-
+| 2006 || End of year || || {{w|Spamdexing}} || According to {{w|EURid}} statistics, over 50% of the registrations could be considered at best speculative and at worst {{w|domain name warehousing}}, a practice by [[w:Domain name registrar|registrars]] obtaining control of expired {{w|domain name}}s already under their management, with the intent to hold or “warehouse” names for their own use and/or profit.<ref>{{cite web |title=The .eu domain  2006 |url=https://web.archive.org/web/20111110022315/http://www.eurid.eu/files/2006_annual_report.pdf |website=web.archive.org |accessdate=29 June 2020}}</ref>
+|-
+| 2007 || January 15 || || {{w|SEO contest}} || SEO World Championship launches. It is sponsored by European Internet Marketing company Eastpoin.<ref name="Previous SEO Competitions"/>  
+|-
+| 2007 || March 20 || {{w|Google}} || Product launch || {{w|Google}} announces Plus Box, a new search feature that lets users see more information about individual search results.<ref>{{cite web |title=More than meets the eye |url=https://googleblog.blogspot.com/2007/03/more-than-meets-eye.html |website=googleblog.blogspot.com |accessdate=28 April 2020}}</ref>  
+|-
+| 2007 || May 2 || || Concept development || Jason Gambert attempts to trademark the term SEO by convincing the Trademark Office in Arizona that SEO is a "process" involving manipulation of keywords and not a "marketing service."<ref>{{cite web|title=Trademark/Service Mark Application, Principal Register|url=http://tsdr.uspto.gov/documentviewer?caseId=sn77171330&docId=APP20070505071211#docIndex=71&page=1|accessdate=3 January 2020}}</ref>  
+|-
+| 2007 || May 16 || {{w|Google}} || Product launch || {{w|Google}} undertakes the most radical change to its search results ever, with the introduction of its [[w:Google Search|Universal Search]] system that blends listings from its news, video, images, local and book search engines among those it gathers from crawling web pages.<ref>{{cite web |title=Google Launches “Universal Search” & Blended Results |url=https://searchengineland.com/google-20-google-universal-search-11232 |website=searchengineland.com |accessdate=17 May 2020}}</ref>  
+|-
+| 2007 || || {{w|Google}} || {{w|Spamdexing}} || Google starts a campaign against paid links affecting {{w|PageRank}}.<ref name="A Brief History of SEOd"/>  
+|-
+| 2007 || August || || SEO tool launch || SimilarWeb is founded.<ref>{{cite web |title=We are the measure of the digital world |url=https://www.similarweb.com/corp/about/ |website=similarweb.com |accessdate=28 June 2020}}</ref> It gives users the ability to see their competitors' traffic sources.<ref>{{cite web |title=SimilarWeb |url=https://backlinko.com/hub/content/similarweb#:~:text=Even%20though%20SimilarWeb%20isn't,sense%20for%20their%20respective%20sizes. |website=backlinko.com |accessdate=28 June 2020}}</ref>
+|-
+| 2007 || September ||  || {{w|Spamdexing}} || Ralph Tegtmeier and Ed Purkiss coin the term "mosaic cloaking", which consists in only cloaking parts of the website in an effort to be more stealth.<ref>{{cite web |title=What is cloaking in SEO? How to apply cloaking on my affiliate links(Black Hat SEO technique) |url=https://www.linkedin.com/pulse/what-cloaking-seo-how-apply-my-affiliate-linksblack-hat-raman-sharma/ |website=linkedin.com |accessdate=27 June 2020}}</ref>  
+|-
+| 2008 || February–April || || {{w|SEO contest}} || seocontest2008 launches. It is sponsored by the UK Webmaster World Community.<ref name="Previous SEO Competitions"/>  
+|-
+| 2008 || March 31 || || Literature || ''Search Engine Optimization'' is published by Kristopher B. Jones.<ref>{{cite web |title=Search Engine Optimization: Your visual blueprint for effective Internet marketing |url=https://books.google.com.ar/books/about/Search_Engine_Optimization.html?id=Z91tXQIgxc8C&source=kp_book_description&redir_esc=y |website=books.google.com.ar |accessdate=30 June 2020}}</ref>
+|-
+| 2008 || June–August || || {{w|SEO contest}} || Busby SEO Challenge 2008 is held. It is sponsored by Busby Web Solutions based in {{w|Australia}}.<ref name="Previous SEO Competitions"/><ref>{{cite web |title=Busby SEO Challenge World Cup |url=http://ryangaraygay.com/busby-seo-challenge-world-cup/ |website=ryangaraygay.com |accessdate=27 April 2020}}</ref><ref>{{cite web |title=Busby SEO Challenge Contest 2008 |url=http://www.3seo.com/Busby-SEO-Challenge/ |website=3seo.com |accessdate=27 April 2020}}</ref>  
+|-
+| 2008 || August 3 || || SEO tool launch || {{w|SEMrush}} launches.<ref>{{cite web |title=SEMrush: Russian SEO firm’s Trevose offices build keyword software |url=https://technical.ly/philly/2014/01/03/semrush/ |website=technical.ly |accessdate=28 June 2020}}</ref> It provides an all-in-one tool suite for improving online visibility and discovering marketing insights.<ref>{{cite web |title=What is SEMrush? |url=https://www.semrush.com/kb/995-what-is-semrush#:~:text=SEMrush%20is%20an%20all%2Din,%2C%20Marketing%20Insights%2C%20Campaign%20Management. |website=semrush.com |accessdate=28 June 2020}}</ref>
+|-
+| 2008 || || || Product launch || {{w|Yoast SEO}} starts operations as a SEO tool.<ref>{{cite web |title=YOAST SEO |url=https://wordpress.org/plugins/wordpress-seo/ |website=wordpress.org |accessdate=8 January 2020}}</ref><ref>{{cite web |title=The history of Yoast |url=https://yoast.com/about-us/history/ |website=yoast.com |accessdate=8 January 2020}}</ref> It is a {{w|WordPress}} {{w|plugin}} that makes it easy for users to do things like control titles and meta descriptions, set their targeted keywords and track how often they're using them, manage sitemaps, and other tasks.<ref>{{cite web |title=Everything You Need to Know About Using Yoast SEO for Wordpress |url=https://moz.com/blog/using-yoast-seo-for-wordpress |website=moz.com |accessdate=28 April 2020}}</ref> 
+|-
+| 2009 || January 18 || {{w|Google}} || Notable update || Google Vince Update is released. It favors brand websites when it comes to search results for traffic-rich keywords.<ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/><ref>{{cite web |title=Google’s Vince Update: The Day Big Brands Won |url=https://www.searchenginejournal.com/google-algorithm-history/vince-update/ |website=searchenginejournal.com |accessdate=4 January 2020}}</ref><ref>{{cite web |title=Why is the Vince Update also referred to as the Brand Update? |url=https://www.sistrix.com/ask-sistrix/google-updates-and-algorithm-changes/google-vince-update/why-is-the-vince-update-also-referred-to-as-the-brand-update/ |website=sistrix.com |accessdate=10 April 2020}}</ref>  
+|-
+| 2009 || March–August || || {{w|SEO contest}} || Net Builders SEO Contest is held. The targeted keyword is "sulumits retsambew" which is webmaster stimulus backwards. Backwards seems to be a common trend in these contests.<ref name="Previous SEO Competitions"/>  
+|-
+| 2009 || April || || Literature || ''Search Engine Optimization All-in-One for Dummies'' is published by Bruce Clay and Susan Esparza.<ref>{{cite web |title=Search Engine Optimization All-in-One For Dummies |url=https://books.google.com.ar/books/about/Search_Engine_Optimization_All_in_One_Fo.html?id=JYWBA4FoR7oC&source=kp_book_description&redir_esc=y |website=books.google.com.ar |accessdate=30 June 2020}}</ref>  
+|-
+| 2009 || June 3 || [[w:Bing (search engine)|Bing]] || SEO tool launch || {{w|Bing Webmaster Tools}} launches along with [[w:Bing (search engine)|Bing]].<ref>{{cite web |title=Bing Webmaster Tools vs Google Search Console |url=https://www.fourfront.us/blog/google-search-console-vs-bing-webmaster-tools/ |website=fourfront.us |accessdate=28 June 2020}}</ref> 
+|-
+| 2009 || August 10 || {{w|Google}} || Notable update || {{w|Google}} announces [[w:Google Caffeine Update|Caffeine]], which would become one of the most important updates in the search engine’s history.<ref>{{cite web |title=Google’s Caffeine Update: Better Indexing & Fresher Search Results |url=https://www.searchenginejournal.com/google-algorithm-history/caffeine-update/ |website=searchenginejournal.com |accessdate=4 January 2020}}</ref>  
+|-
+| 2009 || || || SEO tool launch || AuthorityLabs launches as a SEO rank tracking software.<ref>{{cite web |title=Authority Labs Review |url=http://www.seobook.com/authority-labs-review |website=seobook.com |accessdate=28 June 2020}}</ref><ref>{{cite web |title=Authority Labs Review – Features, Tips, Pricing, and More |url=https://www.digitalexaminer.com/authority-labs-review-features-tips-pricing/ |website=digitalexaminer.com |accessdate=28 June 2020}}</ref> 
+|-
+| 2009 || || {{w|Bing}} || Background || After Microsoft Live Search becomes {{w|Bing}}, in an unsuccessful attempt to challenge Google’s nearly 70 percent grip of the U.S. search market, {{w|Yahoo!}} and {{w|Microsoft}} join forces to partner on a 10-year search deal (though it would end up being reworked five years later).<ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/> 
+|-
+| 2009 || September–December || || {{w|SEO contest}} || OES Tsetnoc SEO Contest is held.<ref name="Previous SEO Competitions"/>  
+|-
+| 2009 || October || || Literature || ''The Art of SEO'' is published by Eric Enge, Stephan Spencer, Rand Fishkin, and Jessie Stricchiola.<ref>{{cite web |title=The Art of SEO: Mastering Search Engine Optimization |url=https://books.google.com.ar/books/about/The_Art_of_SEO.html?id=l334y5226sEC&source=kp_book_description&redir_esc=y |website=books.google.com.ar |accessdate=30 June 2020}}</ref>
+|-
+| 2009 || Year round || {{w|Google}} || Notable update || {{w|Google}} executes between 350 and 550 adjustments to its search algorithm along the year, meaning at least once a day, showing the "rapid advancement required to stay on top if playing the game of SEO at the highest level".<ref name="A brief history of Search Engine Optimization (SEO)"/> 
+|-
+| 2009 || || {{w|Google}} || {{w|Spamdexing}} || {{w|Google}} announces attempt to stop the effects of {{w|PageRank}} sculpting that come as a result of nofollow links.<ref name="A Brief History of SEOd"/>  
+|-
+| 2009 || || || SEO tool launch || Rank Ranger (often written as RankRanger), a SEO tool, launches. Their analyses would be frequently referenced in Search Engine Land posts on Google algorithm updates.<ref>{{cite web|url = https://www.crunchbase.com/organization/rank-ranger|title = Rank Ranger|publisher = CrunchBase|accessdate = June 12, 2021}}</ref>
+|-
+| 2010 || January || || SEO tool launch || WooRank launches.<ref>{{cite web |title=So What Is WooRank? |url=https://www.woorank.com/en/p/about |website=woorank.com |accessdate=28 June 2020}}</ref> It is an automated website reviewing tool offering SEO auditing and monitoring.<ref>{{cite web |title=WooRank |url=https://www.capterra.com/p/176630/WooRank/ |website=capterra.com |accessdate=28 June 2020}}</ref>
+|-
+| 2010 || || || SEO tool launch || Screaming Frog launches.<ref>{{cite web |title=3 Ways You Should Be Using Screaming Frog |url=https://www.forwardpmx.com/insights/blog/3-ways-you-should-be-using-screaming-frog/ |website=forwardpmx.com |accessdate=28 June 2020}}</ref> It offers SEO and pay-per-click (PPC) advertising services.<ref>{{cite web |title=We are a UK based search marketing agency and the creators of the famous website crawler and log file analyser tools. |url=https://www.screamingfrog.co.uk/ |website=screamingfrog.co.uk |accessdate=28 June 2020}}</ref>
+|-
+| 2010 || || || {{w|Spamdexing}} || A tactic appears where websites are created from large amounts of low-quality textual content, frequently updated and specifically designed to lure search engine algorithms. These sites are linked together forming so-called ‘{{w|content farm}}s’ whose only purpose is to drive search engine traffic and, just like {{w|doorway page}}s before them, sending the incoming traffic to the final destination.<ref name="A brief history of Search Engine Optimization (SEO)"/> 
+|-
+| 2010 || || || SEO tool launch || SEOPanel is released. It is an open source multi-website SEO monitoring application.<ref>{{cite web |title=Seo Panel |url=https://installatron.com/seopanel |website=installatron.com |accessdate=28 June 2020}}</ref>
+|-
+| 2010 || December || {{w|Google}} || Notable update || Both {{w|Google}} and {{w|Bing}} add "social signals," which first display any written Facebook posts, for example, from the user's own network that matches his/her query.<ref name="A Brief History of Search & SEO"/> 
+|-
+| 2010 || Year round || || Statistics || 52% of the companies are estimated to spend more on SEO, 39% Spending about the same, and 9% Spending less.<ref name="seo.comf"/> 
+|-
+| 2011 || February 14 || {{w|Google}} || Notable update || Google launches the {{w|Google Chrome}} extension "Personal Blocklist", as part of countermeasures against {{w|content farm}}ing.<ref>{{cite web |title=New: Block Sites From Google Results Using Chrome’s “Personal Blocklist” |url=https://searchengineland.com/googles-personal-blocklist-delete-google-search-results-on-chrome-64757 |website=searchengineland.com |accessdate=24 June 2020}}</ref> 
+|-
+| 2011 || February 23 || {{w|Google}} || Notable update || Google launches {{w|Google Panda}}, a algorithm update aimed at combating {{w|content farm}}s by rewarding high-quality websites and diminishing the presence of low-quality websites in Google’s organic search engine results. Google Panda is initially known as "Farmer." The algorithm also combats {{w|keyword stuffing}}.<ref>{{cite web |title=TED 2011: The 'Panda' That Hates Farms: A Q&A With Google's Top Search Engineers |url=https://www.wired.com/2011/03/the-panda-that-hates-farms/ |website=wired.com |accessdate=23 June 2020}}</ref><ref>{{cite web |title=Google Panda |url=https://moz.com/learn/seo/google-panda |website=moz.com |accessdate=18 May 2020}}</ref> 
+|-
+| 2011 || || || SEO tool launch || Ahrefs launches. It is a toolset for backlinks and SEO analysis.<ref>{{cite web |title=What is Ahrefs.com? |url=https://help.ahrefs.com/en/articles/78203-what-is-ahrefs-com |website=help.ahrefs.com |accessdate=28 June 2020}}</ref><ref>{{cite web |title=Ahrefs Review: More Than Just an SEO Backlink Analysis Tool |url=https://www.99signals.com/ahrefs-review/ |website=99signals.com |accessdate=28 June 2020}}</ref>
+|-
+| 2012 || February 28 || || Literature || ''Content Strategy for the Web'' is published by Kristina Halvorson and Melissa Rach.<ref>{{cite web |title=Content Strategy for the Web: Content Strategy Web _p2 |url=https://books.google.com.ar/books/about/Content_Strategy_for_the_Web.html?id=KIIQ3Fq9CM8C&source=kp_book_description&redir_esc=y |website=books.google.com.ar |accessdate=30 June 2020}}</ref>
+|-
+| 2012 || April 24 || {{w|Google}} || Notable update || {{w|Google Penguin}} launches as a Google algorithm update.<ref name="A Brief History of Search & SEO"/><ref name="tellmeyourgoal.coms"/> It is aimed at decreasing [[w:Search engine optimization|search engine rankings]] of websites that violate Google's Webmaster Guidelines.<ref>{{cite web|url=https://support.google.com/webmasters/answer/35769#3|title=Webmaster Guidelines - Webmaster Tools Help|publisher=Support.google.com|accessdate=10 April 2020}}</ref> 
+|-
+| 2012 || May || {{w|Google}} || Product launch || {{w|Google}} unveils the {{w|Knowledge Graph}}, a new visual interface that provides popular facts about people, places and things alongside Google's traditional results. This constitutes a major shift away from interpreting keywords strings to understanding semantics and intent.<ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/><ref>{{cite web |title=Google Testing Semantic Search Update |url=https://www.searchenginejournal.com/google-semantic-search-update/43443/ |website=searchenginejournal.com |accessdate=4 January 2020}}</ref> The {{w|Knowledge Graph}} would become popular in knowledge representation and knowledge management applications widely across search engine, biomedical, media and industrial domains.<ref>{{cite book |last1=Wasny |first1=Garrett |title=Advanced Googling: How to Search Smarter, Faster and More Efficiently on Google |url=https://books.google.com.ar/books?id=2W3CAwAAQBAJ&pg=PA123&dq=%22Knowledge+Graph%22+%222012%22+%22google%22&hl=en&sa=X&ved=0ahUKEwi9uemPwdToAhU3F7kGHQ8VAl0Q6AEIQjAD#v=onepage&q=%22Knowledge%20Graph%22%20%222012%22%20%22google%22&f=false}}</ref><ref>{{cite book |last1=Pan |first1=Jeff Z. |last2=Calvanese |first2=Diego |last3=Eiter |first3=Thomas |last4=Horrocks |first4=Ian |last5=Kifer |first5=Michael |last6=Lin |first6=Fangzhen |last7=Zhao |first7=Yuting |title=Reasoning Web: Logical Foundation of Knowledge Graph Construction and Query Answering: 12th International Summer School 2016, Aberdeen, UK, September 5-9, 2016, Tutorial Lectures |url=https://books.google.com.ar/books?id=-J47DgAAQBAJ&pg=PA1&dq=%22Knowledge+Graph%22+%222012%22+%22google%22&hl=en&sa=X&ved=0ahUKEwi9uemPwdToAhU3F7kGHQ8VAl0Q6AEIKDAA#v=onepage&q=%22Knowledge%20Graph%22%20%222012%22%20%22google%22&f=false}}</ref><ref>{{cite book |last1=Färber |first1=M. |title=Semantic Search for Novel Information |url=https://books.google.com.ar/books?id=wHc2DwAAQBAJ&pg=PA23&dq=%22Knowledge+Graph%22+%222012%22+%22google%22&hl=en&sa=X&ved=0ahUKEwi9uemPwdToAhU3F7kGHQ8VAl0Q6AEIMDAB#v=onepage&q=%22Knowledge%20Graph%22%20%222012%22%20%22google%22&f=false}}</ref> 
+|-
+| 2012 || July 26 || {{w|Google}} || Product launch || Moz launches MozCast, the "Google weather report". The tool, available online at mozcast.com, tracks the "temperature" of changes to Google's search algorithm and rankings on a day-to-day basis, helping provide better context to search algorithm changes beyond just the biggest ones.<ref>{{cite web|url = https://moz.com/blog/announcing-mozcast-the-google-weather-report|title = Announcing MozCast - The Google Weather Report|last = Meyers|first = Peter|date = July 26, 2012|accessdate = 2 July 2020|publisher = [[wikipedia:Moz|Moz]]}}</ref><ref>{{cite web|url = https://web.archive.org/web/20120715000000*/http://mozcast.com|title = Internet Archive's Wayback Machine results for mozcast.com in 2012|accessdate = May 1, 2017}}</ref><ref name=mozcast-v-algoroo>{{cite web|url = http://insideonline.co.uk/mozcast-vs-algoroo/|title = Mozcast Vs. Algoroo – Which Tool Should You Use?|last = Ryan|first = David|date = May 22, 2016|accessdate = May 1, 2017|publisher = Inside Online}}</ref>
+|-
+| 2012 || September 10 || || SEO tool launch|| {{w|Backlink}} is founded as a SEO firm offering website optimization, search engine optimization and {{w|social media}} internet marketing solutions.<ref>{{cite web |title=back-link |url=https://www.crunchbase.com/organization/back-link#section-overview |website=crunchbase.com |accessdate=29 June 2020}}</ref> 
+|-
+| 2012 || || || SEO tool launch || Kerboo launches as LinkRisk. It offers link audits, SEO, {{w|content marketing}}, and {{w|link building}}.<ref>{{cite web |title=2012: The start of our journey. |url=https://kerboo.com/about-us/ |website=kerboo.com |accessdate=29 June 2020}}</ref><ref>{{cite web |title=Kerboo |url=https://www.linkedin.com/company/kerboo-limited/about/ |website=linkedin.com |accessdate=29 June 2020}}</ref>
+|-
+| 2013 || June 27 || || Literature || ''Google Semantic Search'' is published by David Amerland.<ref>{{cite web |title=Google Semantic Search: Search Engine Optimization (SEO) Techniques That Get Your Company More Traffic, Increase Brand Impact, and Amplify Your Online Presence |url=https://books.google.com.ar/books/about/Google_Semantic_Search.html?id=niCJxqdc-eoC&source=kp_book_description&redir_esc=y |website=books.google.com.ar |accessdate=30 June 2020}}</ref>
+
+|-
+| 2013 || August || {{w|Google}} || Notable update || {{w|Google Hummingbird}} launches as an update, helping to combat {{w|keyword stuffing}}.<ref>{{cite web |title=FAQ: All About The New Google “Hummingbird” Algorithm |url=https://searchengineland.com/google-hummingbird-172816 |website=searchengineland.com |accessdate=23 June 2020}}</ref> 
+|-
+| 2013 || October || {{w|Google}} || System launch || Google App Indexing is launched for a limited set of publishers. It is a system that allows searchers to click on listings in Google's search results, taking them into apps on their [[w:Android (operating system)|Android]] and {{w|iOS}} smartphones and tablets.<ref name="A brief history of Search Engine Optimization (SEO)"/> <ref>{{cite web |title=Google: App Indexing |url=https://searchengineland.com/library/google/google-app-indexing |website=searchengineland.com |accessdate=7 January 2020}}</ref><ref>{{cite web |title=The Death of the Desktop: The Future For Mobile SEO |url=https://www.4mation.com.au/blog/death-desktop-future-mobile-seo/ |website=4mation.com.au |accessdate=28 April 2020}}</ref> 
+|-
+| 2013 || November 28 || || Literature || ''SEO Made Easy: Everything You Need to Know about SEO and Nothing More'' is published by Evan Bailyn.<ref>{{cite web |title=SEO Made Easy: Everything You Need to Know About SEO and Nothing More |url=https://books.google.com.ar/books/about/SEO_Made_Easy.html?id=kOJWAgAAQBAJ&source=kp_book_description&redir_esc=y |website=books.google.com.ar |accessdate=30 June 2020}}</ref>
+|-
+| 2013 || || || SEO tool launch || Serpstat is founded.<ref>{{cite web |title=All-in-One SEO platform |url=https://serpstat.com/about/ |website=serpstat.com |accessdate=28 June 2020}}</ref> IT offers a tool for keyword research, PPC analysis and competitor research.<ref>{{cite web |title=Serpstat Review: The Ultimate SEO & PPC Tool for Bloggers |url=https://www.99signals.com/serpstat-review/#:~:text=Serpstat%20is%20an%20exceptional%20tool,SEO%20tools%20in%20the%20market. |website=99signals.com |accessdate=28 June 2020}}</ref>
+|-
+| 2014 || || {{w|Google}} || Notable update || Google releases "Pigeon", an algorithm update whose goal is to improve local search rankings.<ref name="A Brief History of Search & SEO"/><ref>{{cite web |title=Google Pigeon – What Is It and What Should I Do? |url=http://www.leapgo.com/google-pigeon/ |website=leapgo.com |accessdate=28 April 2020}}</ref><ref>{{cite web |title=Google Pigeon |url=https://www.webopedia.com/TERM/G/google-pigeon.html |website=webopedia.com |accessdate=28 April 2020}}</ref> 
+|-
+| 2014 || September || [[w:Bing (search engine)|Bing]] || Notable update || [[w:Bing (search engine)|Bing]] launches update aimed at combating {{w|keyword stuffing}}.<ref>{{cite web |title=URL Keyword Stuffing Spam Filtering |url=https://blogs.bing.com/webmaster/2014/09/09/url-keyword-stuffing-spam-filtering |website=blogs.bing.com |accessdate=23 June 2020}}</ref>  
+|-
+| 2014 || September || {{w|Google}} || {{w|Spamdexing}} || {{w|Google}} targets private blog networks (also known as {{w|link farm}}s) with manual action ranking penalties.<ref>{{cite web |title=Google Targets Sites Using Private Blog Networks With Manual Action Ranking Penalties |url=https://searchengineland.com/google-targets-sites-using-private-blog-networks-manual-action-ranking-penalties-204000 |website=searchengineland.com |accessdate=23 June 2020}}</ref> 
+|-
+| 2014 || October 5 || {{w|Google}} || Notable update || Google launches Penguin 3.0, a new algorithm update aimed to penalize those sites who use black hat {{w|link building}} tactics to build unnatural links to manipulate search engines. The update affects 0.3% English Language queries all over the world.<ref>{{cite web |title=Google Penguin Update 3 Released, Impacts 0.3% Of English-Language Queries |url=https://searchengineland.com/google-penguin-update-3-135527 |website=searchengineland.com |accessdate=24 June 2020}}</ref> Black hat link building tactics are methods used to direct people to a site by exploiting website loopholes, enabling a site to rank higher than it should through "organic" search means.<ref>{{cite web |title=black hat link building |url=https://searchcontentmanagement.techtarget.com/definition/black-hat-link-building#:~:text=Black%20hat%20link%20building%20tactics,system%20and%20boost%20search%20rankings. |website=searchcontentmanagement.techtarget.com |accessdate=30 June 2020}}</ref>
+|-
+| 2014 || November || {{w|Google}} || Notable update || {{w|Google}} adds a "mobile-friendly" label for search results that are optimized for such platforms, where text is readable without zooming or horizontal scrolling, and links are spaced well enough so that there’s a reduced chance of mis-tapping.<ref name="A Brief History of Search & SEO"/><ref>{{cite web |title=Helping users find mobile-friendly pages |url=https://webmasters.googleblog.com/2014/11/helping-users-find-mobile-friendly-pages.html |website=webmasters.googleblog.com |accessdate=6 January 2020}}</ref> 
+|-
+| 2015 || February || {{w|Google}} || Notable update || Google announces a change, with a mobile-friendly test that allows webmasters to view potential issues and make changes before the rollout.<ref name="A Brief History of Search & SEO"/>  
+|-
+| 2015 || March 16 || {{w|Google}} || Notable update || Google introduces a new penalty algorithm to decrease the likelihood of {{w|doorway page}}s ranking in search results.<ref>{{cite web |title=An update on doorway pages |url=https://webmasters.googleblog.com/2015/03/an-update-on-doorway-pages.html |website=webmasters.googleblog.com |accessdate=27 June 2020}}</ref><ref>{{cite web |title=How Doorway Pages Hurt Your Site’s SEO |url=https://thecontentworks.uk/doorway-pages/ |website=thecontentworks.uk |accessdate=27 June 2020}}</ref> Doorway pages are low-quality pages, optimized to rank well for specific keywords that act as a door between users and content.<ref>{{cite web |title=Google’s shutting the door on doorway pages for SEO |url=https://www.brafton.com/news/seo-1/googles-shutting-door-doorway-pages-seo/ |website=brafton.com |accessdate=30 June 2020}}</ref>  
+|-
+| 2015 || April 21 || {{w|Google}} || Notable update || Google introduces search engine algorithm update so-called ‘{{w|Mobilegeddon}}’, which makes website mobile friendliness a ranking signal in searches.<ref name="A brief history of Search Engine Optimization (SEO)"/><ref>{{cite web |title=Finding more mobile-friendly search results |url=https://webmasters.googleblog.com/2015/02/finding-more-mobile-friendly-search.html |website=webmasters.googleblog.com |accessdate=7 January 2020}}</ref>  
+|-
+| 2015 || April || {{w|Google}} || Notable update || Google introduces mobile update. Since then, non-mobile-friendly websites would start getting lower rankings. This means SEO is no longer about keywords and content, with responsive design as new factor.<ref name="A Brief History of Search & SEO"/>  
+|-
+| 2015 || May 1 || || SEO tool launch || Rank Tracker launches. This tool automatically tracks the users' daily keyword positions movements across all major search engines.<ref>{{cite web |title=RankTracker |url=https://www.crunchbase.com/organization/ranktracker |website=crunchbase.com |accessdate=28 June 2020}}</ref>
+|-
+| 2015 || May || || Background || {{w|Mobile search}} surpasses desktop search.<ref>[https://adwords.blogspot.com/2015/05/building-for-next-moment.html "Inside AdWords: Building for the next moment" ''Google Inside Adwords'' May 15, 2015.]</ref> 
+|-
+| 2015 || || {{w|Google}} || Background || {{w|2015}} is known as the Year of Mobile, the point at which {{w|mobile search}}es overtake {{w|desktop search}} for the first time on {{w|Google}}.<ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/> 
+|-
+| 2015 || October || {{w|Google}} || System launch || {{w|Google}} {{w|RankBrain}} is announced. It is a {{w|machine learning}} (AI) algorithm initially used to try to interpret the 15 percent of searches that Google has never seen before, based on the words or phrases the user has entered.<ref name="20 Years of SEO: A Brief History of Search Engine Optimization"/><ref>{{cite web |title=A Complete Guide to the Google RankBrain Algorithm |url=https://www.searchenginejournal.com/google-algorithm-history/rankbrain/ |website=searchenginejournal.com |accessdate=4 January 2020}}</ref>  
+|-
+| 2015 || November 19 || {{w|Google}} || Guidelines release || Google releases the full versions of its search quality raters guidelines (QRG), a 160-page-long handbook that it previously only gave human evaluators to rate websites. The guidelines help websites understand what qualities Google Search would like to see in websites, although ratings made by raters based on these guidelines do not directly change search engine rankings. The release follows a leak in October 2015 of the same guidelines<ref name=qrg-release>{{cite web|url = https://searchengineland.com/google-releases-the-full-version-of-their-search-quality-rating-guidelines-236572|title = Google Releases The Full Version Of Their Search Quality Rating Guidelines. For the first time, Google has released the full version of its Search Quality Raters guidelines and handbook. It is 160 pages of wonderful SEO knowledge.|date = November 19, 2015|accessdate = 7 July 2020|publisher = Search Engine Land}}</ref> Two important pieces of jargon that gain currency in the SEO world due to these guidelines are: YMYL (your money or your life), a term for websites that offer information or allow people to take actions that have the potential to negatively impact the end user's health and wealth (examples include sites related to e-commerce, financial advice, medical advice, and legal advice), and E-A-T (expertise, authoritativeness, and trust), factors that are important to Google Search for ranking sites, and even more important for YMYL sites.<ref>{{cite web|url = https://moz.com/blog/google-search-quality-raters-guidelines|title = 30+ Important Takeaways from Google's Search Quality Rater's Guidelines|last = Slegg|first = Jennifer|date = November 25, 2015|accessdate = 7 July 2020|publisher = SEOMoz}}</ref> The guidelines are described as "160 pages of wonderful SEO knowledge."<ref name=qrg-release/>
+|-
+| 2015 || || {{w|Google}} || Standard development || According to a study, the top-ranking factors for search engines and their algorithms (including Google’s core algorithm) are ranked in order of importance as:
+* Domain-level link features
+* Page-level link features
+* Page-level keyword and content-based features
+* Page-level keyword agnostic features
+* Engagement and traffic/query data
+* Domain-level brand metrics
+* Domain-level keyword usage
+* Domain-level keyword-agnostic features
+* Page-level social metrics<ref name="tellmeyourgoal.coms"/> 
+|-
+| 2016 || March–June || || {{w|SEO contest}} || Apex Forum SEO Contest is held.<ref name="Previous SEO Competitions"/> 
+|-
+| 2016 || September 13 || || Literature || ''SEO for Growth: The Ultimate Guide for Marketers, Web Designers & Entrepreneurs'' is published by John Jantsch and Phil Singleton.<ref>{{cite web |title=SEO for Growth: The Ultimate Guide for Marketers, Web Designers & Entrepreneurs |url=https://www.goodreads.com/book/show/32054694-seo-for-growth |website=goodreads.com |accessdate=30 June 2020}}</ref>
+|-
+| 2016 || December 27 || || Literature || ''Digital Marketing For Dummies'' is published by Russ Henneberry and Ryan Deiss.<ref>{{cite web |title=Digital Marketing For Dummies |url=https://books.google.com.ar/books/about/Digital_Marketing_For_Dummies.html?id=cx7NDQAAQBAJ&source=kp_book_description&redir_esc=y |website=books.google.com.ar |accessdate=30 June 2020}}</ref> 
+|-
+| 2017 || January || {{w|Google}} || Notable update || {{w|Google}} introduces an algorithmic change called the “Intrusive Interstitial Penalty” in order to “punish aggressive interstitials and pop-ups that might damage the mobile user experience.”<ref name="tellmeyourgoal.coms"/>  
+|-  
+| 2017 || March || {{w|Google}} || Notable update || Google introduces update informally known as “Fred”, which would have a major impact on the SEO community.<ref name="tellmeyourgoal.coms"/>  
+|-
+| 2018 || June || {{w|Google}} || Market distribution || As of date, {{w|Google}} accounts for over 72.47% of all global desktop search traffic, followed by {{w|Baidu}} at 13.47%, {{w|Bing}} at 7.64%, and {{w|Yahoo!}} at 4.74%.<ref name="seoexpertbrad.comss">{{cite web |title=GOOGLE LOCAL SEO STATISTICS THAT EVERY SEARCH MARKETER SHOULD READ |url=https://seoexpertbrad.com/local-seo-stats/ |website=seoexpertbrad.com |accessdate=6 April 2020}}</ref>  
+|-
+| 2018 || July || {{w|Google}} || Notable update || {{w|Google}} announces that from then on, page speed would be a ranking factor for mobile searches.<ref name="A brief history of Search Engine Optimization (SEO)"/><ref>{{cite web |title=Using page speed in mobile search ranking |url=https://webmasters.googleblog.com/2018/01/using-page-speed-in-mobile-search.html |website=webmasters.googleblog.com |accessdate=7 January 2020}}</ref>  
+|-
+| 2019 || January 26 || || {{w|Spamdexing}} || {{w|XRumer}} is released is a piece of software made for spamming online forums and comment sections. "It is marketed as a program for search engine optimization and was created by BotmasterLabs."<ref>{{cite web |title=XRumer |url=http://www.botmasterlabs.net/xrumer/ |website=botmasterlabs.net |accessdate=29 June 2020}}</ref>  
+|-
+|}
+
+==Meta information on the timeline==
+
+===How the timeline was built===
+
+The initial version of the timeline was written by [[User:Sebastian]].
+
+{{funding info}} is available.
+
+===Feedback and comments===
+
+Feedback for the timeline can be provided at the following places:
+
+* FIXME
+
+===What the timeline is still missing===
+
+===Timeline update strategy===
+
+==See also==
+
+* [[Timeline of Google Search]]
+* [[Timeline of web search engines]]
+
+==External links==
+
+==References==
+
+{{Reflist|30em}}
