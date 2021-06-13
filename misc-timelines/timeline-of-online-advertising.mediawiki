@@ -834,6 +834,18 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |AudienceScience shuts down after losing {{w|Procter & Gamble}}, its biggest client.<ref>{{cite web|url = https://adexchanger.com/platforms/audiencescience-shuts-doors-less-month-pg-client-loss/|title = AudienceScience Shuts Its Doors Less Than A Month After P&G Client Loss|last = Schiff|first = Allison|last2 = Rodgers|first2 = Zach|date = June 1, 2017|accessdate = August 7, 2017|publisher = AdExchanger}}</ref>
 |-
 |2017
+|June 5
+|New feature
+|Third-party cookies
+|Apple launches a new feature on Safari (both mobile and desktop) called Intelligent Tracking Prevention (ITP). ITP imposes a strict 24-hour limit on the use in a third-party context of persistent cookies that it believes (based on a machine learning algorithm) to be from ad networks. Cookies themselves can last for up to 30 days; it is only their use in a third-party context that is strictly limited to within 24 hours after accessing the website.<ref name=itp-2017>{{cite web|url = https://webkit.org/blog/7675/intelligent-tracking-prevention/|title = Intelligent Tracking Prevention|last = Wilander|first = John|date = June 5, 2017|accessdate = June 13, 2021|publisher = WebKit}}</ref>
+|-
+|2017
+|September 14
+|Protest
+|Third-party cookies
+|Six adversting trade groups (the Interactive Advertising Bureau, American Advertising Federation, the Association of National Advertisers, the 4A’s and two others) publish an open letter critical of Apple's introduction of Intelligent Tracking Prevention (ITP), expressing concerns over how it will "sabotage" the Intenet's current economic model, hurting advertisers and publishers and resulting in less relevant ads for users.<ref>{{cite web|url = https://www.adweek.com/performance-marketing/every-major-advertising-group-is-blasting-apple-for-blocking-cookies-in-the-safari-browser/|title = Every Major Advertising Group Is Blasting Apple for Blocking Cookies in the Safari Browser.They argue it'll hurt user experience and campaign targeting|date = September 14, 2017|accessdate = June 13, 2021|publisher = Adweek|last = Swant|first = Marty}}</ref><ref>{{cite web|url = https://www.theverge.com/2017/9/14/16308138/apple-safari-11-advertiser-groups-cookie-tracking-letter|title = Advertisers are furious with Apple for new tracking restrictions in Safari 11. Time limits on browser cookies are threatening the digital ad industry|date = September 14, 2017|accessdate = June 13, 2021|publisher = The Verge|last = Statt|first = Nick}}</ref>
+|-
+|2017
 |November
 |Information
 |Political manipulation
@@ -852,10 +864,34 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |Google announcees that Google Ad Manager will switch to a unified first-price auction (instead of the second-price auction in use at the time), citing greater complexity in the ad serving process making it more important to have a simpler auction step. Google is among the last to make the switch. Google plans to do tests during the summer and roll out later in the year if the tests go well.<ref>{{cite web|url = https://www.blog.google/products/admanager/simplifying-programmatic-first-price-auctions-google-ad-manager/|title = Simplifying programmatic: first price auctions for Google Ad Manager|last = Cox|first = Sam|date = March 6, 2019|accessdate = June 13, 2021|publisher = Google}}</ref><ref>{{cite web|url = https://www.adexchanger.com/online-advertising/google-switches-to-first-price-auction/|title = Google Switches To First-Price Auction|last = Sluis|first = Sarah|date = March 6, 2019|accessdate = June 13, 2021|publisher = AdExchanger}}</ref><ref>{{cite web|url = https://digiday.com/media/buyers-welcome-auction-standardization-as-google-finally-goes-all-in-on-first-price/|title = What to know about Google’s implementation of first-price ad auctions|last = Davies|first = Jessica|date = September 6, 2019|accessdate = June 13, 2021|publisher = DigiDay}}</ref>
 |-
 |2019
+|May 30
+|New feature
+|Identity solution
+|LiveRamp launches Authenticated Traffic Solutions (ATS) for publishers. This solution matches consented user data with a LiveRamp IdentityLink in real time, enabling personalized third-party advertising without the use of third-party cookies.<ref>{{cite web|url = https://liveramp.com/blog/launching-authenticated-traffic-solution-for-publishers/|title = Launching Authenticated Traffic Solution to Democratize People-Based Identity for Publishers|last = Howe|first = Scott|date = May 30, 2019|accessdate = June 13, 2021|publisher = LiveRamp}}</ref><ref>{{cite web|url = https://www.adweek.com/programmatic/how-liveramp-intends-to-woo-advertisers-now-that-the-cookie-is-starting-to-crumble/|title = How LiveRamp Intends to Woo Advertisers Now That the Cookie Is Starting to Crumble. However, it still comes with privacy questions|last = Shields|first = Ronan|date = May 30, 2019|accessdate = June 13, 2021|publisher = Adweek}}</ref>
+|-
+|2019
+|September 3
+|New feature
+|Third-party cookies
+|Firefox's latest release activates Enhanced Tracking Protection by default for all users. This blocks third-party tracking cookies and cryptominers.<ref>{{cite web|url = https://blog.mozilla.org/en/products/firefox/todays-firefox-blocks-third-party-tracking-cookies-and-cryptomining-by-default/|title = Today’s Firefox Blocks Third-Party Tracking Cookies and Cryptomining by Default|last = Wood|first = Marissa|date = September 3, 2019|accesdate = June 13, 2021|publisher = Mozilla}}</ref><ref>{{cite web|url = https://techcrunch.com/2019/09/03/mozilla-flips-the-default-switch-on-firefox-tracking-cookie-blocking/|title = Mozilla flips the default switch on Firefox tracker cookie blocking|last = Lomas|first = Natasha|date = Septembeer 3, 2019|accesdsate = June 13, 2021|publisher = TechCrunch}}</ref>
+|-
+|2019
 |September 5
 |New feature
 |Ad serving
 |Google announces that it is beginning the rollout of unified first-price auctions for Google Ad Manager. This follows up on a preliminary announcement in March and testing in the intermediate months.<ref>{{cite web|url = https://www.blog.google/products/admanager/rolling-out-first-price-auctions-google-ad-manager-partners/|title = Rolling out first price auctions to Google Ad Manager partners|date = September 5, 2019|accessdate = June 13, 2021|last = Bigler|first = Jason}}</ref><ref>{{cite web|url = https://www.adexchanger.com/ad-exchange-news/googles-first-price-auction-switch-is-making-header-bidding-partners-win-more/|title = Google’s First-Price Auction Switch Is Making Header Bidding Partners Win More|date = September 5, 2019|accessdate = June 13, 2021|publisher = AdExchanger}}</ref>
+|-
+|2020
+|January 14
+|New feature
+|Third-party cookies
+|Google announces a proposal to phase out third-party cookies from Chrome by 2022, and create a "privacy sandbox" through which the browser makes some high-level information about the user available to websites. This is far behind Safari and Firefox, that have largely eliminated third-party cookies by this point.<ref>{{cite web|url = https://www.theverge.com/2020/1/14/21064698/google-third-party-cookies-chrome-two-years-privacy-safari-firefox|title = Google to ‘phase out’ third-party cookies in Chrome, but not for two years. The browser battles are about privacy more than marketshare|date = January 14, 2020|accessdate = June 13, 2021|publisher = The Verge}}</ref><ref>{{cite web|url = https://www.adweek.com/programmatic/google-chrome-will-phase-out-third-party-cookies-by-2022/|title = Google Chrome Will Phase Out Third-Party Cookies by 2022. Privacy Sandbox seeks new standards to support ad-funded web|last = Shields|first = Ronan|date = January 14, 2020|accesdate = June 13, 2021}}</ref><ref>{{cite web|url = https://www.vox.com/recode/2020/1/16/21065641/google-chrome-cookie-ban-advertisers|title = Google Chrome’s cookie ban is good news for Google — and maybe your privacy. But it’s terrible for smaller advertisers.|last = Morrison|first = Sara|last2 = Molla|first2 = Rani|date = January 16, 2020|accessdatte = June 13, 2021}}</ref>
+|-
+|2020
+|March 24
+|New feature
+|Third-party cookies
+|Almost three years after introducing Intelligent Tracking Prevention (ITP), Apple makes several updates to ITP on Safari, the most important of which is that it now fully blocks all use of cookies in a third-party context by default.<ref>{{cite web|url = https://webkit.org/blog/10218/full-third-party-cookie-blocking-and-more/|title = Full Third-Party Cookie Blocking and More|date = March 24, 2020|accessdate = June 13, 2021|publisher = WebKit}}</ref><ref>{{cite web|url = https://www.theverge.com/2020/3/24/21192830/apple-safari-intelligent-tracking-privacy-full-third-party-cookie-blocking|title = Apple updates Safari’s anti-tracking tech with full third-party cookie blocking. Beating Google by two years to the privacy feature|last = Statt|first = Nick|date = March 24, 2020|accessdate = June 13, 2021|publisher = The Verge}}</ref>
 |}
 (*) Such launches are not initial launches, but rather re-launches.
 
