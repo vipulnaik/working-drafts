@@ -29,12 +29,32 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |Social media advertising continues to grow; Instagram, Pinterest and Snapchat are among the new players in the space.<br/> Google retains its dominant position in display advertising, but faces more pressure from both buyers and sellers to make its policies more friendly to their needs. Inefficiencies in the ad serving process lead to opportunities for innovations like header bidding. Google attempts to render these redundant by allowing for more competition in the ad serving.<br/>Verizon acquires AOL and then Yahoo!, with the former acquisition explicitly being justified as an ad tech acquisition.
 |}
 
+== Visual data ==
+
+=== Google Trends ===
+
+The comparative chart below shows {{w|Google Trends}} data for Online advertising (Search term) and Online advertising (Topic), from January 2004 to March 2021, when the screenshot was taken. Interest is also ranked by country and displayed on world map.<ref>{{cite web |title=Online advertising |url=https://trends.google.com/trends/explore?date=all&q=Online%20advertising,%2Fm%2F05b1rx |website=Google Trends |access-date=25 March 2021}}</ref>
+
+[[File:Online advertising gt.png|thumb|center|600px]]
+
+=== Google Ngram Viewer ===
+
+The chart below shows {{w|Google Ngram Viewer}} data for Online advertising, from 1990 to 2019.<ref>{{cite web |title=Online advertising |url=https://books.google.com/ngrams/graph?content=Online+advertising&year_start=1990&year_end=2019&corpus=26&smoothing=3&case_insensitive=true |website=books.google.com |access-date=25 March 2021 |language=en}}</ref>
+
+[[File:Online advertising ngram.png|thumb|center|700px]]
+
+=== Wikipedia Views ===
+
+The chart below shows pageviews of the English Wikipedia article {{w|Online advertising}}, on desktop from December 2007, and on mobile-web, desktop-spider, mobile-web-spider and mobile app, from July 2015; to February 2021.<ref>{{cite web |title=Online advertising |url=https://wikipediaviews.org/displayviewsformultiplemonths.php?page=Online+advertising&allmonths=allmonths&language=en&drilldown=all |website=wikipediaviews.org |access-date=25 March 2021}}</ref>
+
+[[File:Online advertising wv.png|thumb|center|450px]]
+
 == Timeline ==
 {| class="wikitable sortable"
 !Year
 !Month and date
-!Event Type
-!Advertisement Type
+!Event type
+!Topic
 !Description
 |-
 |1978
@@ -817,7 +837,7 @@ This page is a '''timeline of [[wikipedia:online advertising|online advertising]
 |November
 |Information
 |Political manipulation
-|At the request of the United States House Intelligence Committee, Facebook publishes details of political advertisements bought in 2016 by social media accounts based in Russia, many of which were suspected to be connected with the Internet Research Agency, a company with Kremlin ties. This is amidst suspicion that the influence of these advertisements could hvae led to Donald Trump's victory in the 2016 election.<ref>{{cite web|url = https://www.nytimes.com/2017/11/01/us/politics/russia-2016-election-facebook.html|title = These Are the Ads Russia Bought on Facebook in 2016|date = November 1, 2017|accessdate = April 22, 2018|publisher = ''New York Times''|last = Shane|first = Scott}}</ref><ref>{{cite web|url = https://medium.com/@ushadrons|title = UsHadrons|accessdate = April 22, 2018}}</ref> Subsequently, Rob Goldman, vice-president of ads at Facebook, would say that sowing division in United States politics, rather than electing Trump, was the goal of these ads, citing a protest in Houston, both sides of which appear to have been orchestrated by the fake social media accounts.<ref>{{cite web|url = https://www.cnbc.com/2018/02/17/facebooks-vp-of-ads-says-russian-meddling-aimed-to-divide-us.html|title = Trump backs Facebook's VP of ads, who says Russia's meddling was designed to divide America|last = Aiello|first = Chloe|date = February 17, 2018|accessdate = April 22, 2018|publisher = CNBC}}</ref>
+|At the request of the United States House Intelligence Committee, Facebook publishes details of political advertisements bought in 2016 by social media accounts based in Russia, many of which were suspected to be connected with the Internet Research Agency, a company with Kremlin ties. This is amidst suspicion that the influence of these advertisements could have led to Donald Trump's victory in the 2016 election.<ref>{{cite web|url = https://www.nytimes.com/2017/11/01/us/politics/russia-2016-election-facebook.html|title = These Are the Ads Russia Bought on Facebook in 2016|date = November 1, 2017|accessdate = April 22, 2018|publisher = ''New York Times''|last = Shane|first = Scott}}</ref><ref>{{cite web|url = https://medium.com/@ushadrons|title = UsHadrons|accessdate = April 22, 2018}}</ref> Subsequently, Rob Goldman, vice-president of ads at Facebook, would say that sowing division in United States politics, rather than electing Trump, was the goal of these ads, citing a protest in Houston, both sides of which appear to have been orchestrated by the fake social media accounts.<ref>{{cite web|url = https://www.cnbc.com/2018/02/17/facebooks-vp-of-ads-says-russian-meddling-aimed-to-divide-us.html|title = Trump backs Facebook's VP of ads, who says Russia's meddling was designed to divide America|last = Aiello|first = Chloe|date = February 17, 2018|accessdate = April 22, 2018|publisher = CNBC}}</ref>
 |-
 |2018
 |May 25
@@ -849,7 +869,7 @@ The timeline is lacking in a few important respects:
 
 == See also ==
 * [[Timeline of e-commerce]]
-* [[wikipedia:Online advertising|Online advertising]]
+* [[Timeline of search engine optimization]]
 
 == References ==
 
