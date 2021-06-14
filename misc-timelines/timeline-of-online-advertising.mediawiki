@@ -213,6 +213,11 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |DoubleClick acquires NetGravity for $530 million in stock.<ref name=basswood/><ref name=doubleclick-acquires-netgravity-wsj>{{cite web|url = https://www.wsj.com/articles/SB931823854604934844|title = DoubleClick to Acquire NetGravity In Push to Own Online-Ad Market|last = Petersen|first = Andrea|date = July 13, 1999|accessdate = April 3, 2017|publisher = ''[[wikipedia:Wall Street Journal|Wall Street Journal]]''}}</ref><ref name=doubleclick-acquires-netgravity-cnn>{{cite web|url = http://money.cnn.com/1999/07/13/deals/doubleclick/|title = DoubleClick, NetGravity tie|publisher = ''[[wikipedia:CNN|CNN]]''|date = July 13, 1999|accessdate = April 3, 2017}}</ref><ref name=ad-tech-acquisition-history/>
 |-
 |2000
+|
+|Launch
+|Association
+|The {{w|Network Advertising Initiative}} (NAI) is founded. NAI is a membership-based "self-regulatory association dedicated to responsible data collection and its use for digital advertising."<ref>{{cite web|url = https://www.networkadvertising.org/about-nai/about-nai/|title = About The NAI|publisher = Network Advertising Initiative|accessdate = June 13, 2021}}</ref>
+|2000
 |October 23
 |Launch
 |Search advertising
@@ -672,6 +677,11 @@ Adblock Plus 1.3 for Google Chrome™ released|date = October 27, 2012|accessdat
 |Data management platform
 |[[wikipedia:Oracle|Oracle]] acquires data management platform (DMP) company Bluekai.<ref name=bluekai-oracle-sale/>
 |-
+|2014
+|March
+|Acquisition
+|Video advertising
+|It is announced that {{w|Comcast}} is acquiring Freewheel, a video advertising solution used by many online video platforms including the online presence of many TV networks.<ref>{{cite web|url = https://techcrunch.com/2014/03/01/comcast-freewheel/|title = Comcast Is Acquiring Video Ad Company FreeWheel For $320 Million|date = March 1, 2014|accessdate = June 13, 2021|publisher = TechCrunch|last = Lawler|first = Ryan}}</ref>
 |2014
 |March 24
 |Launch
