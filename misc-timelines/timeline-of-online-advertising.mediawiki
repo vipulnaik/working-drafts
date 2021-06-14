@@ -310,26 +310,32 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |-
 |2006
 |
+|Launch
+|Ad serving
+|{{w|PubMatic}} is founded.<ref>{{ccite web|url = https://pubmatic.com/about-us/|title = PubMatic: About|publisher = PubMatic|accessdate = June 13, 2021}}</ref>
+|-
+|2006
+|
 |Invention, Launch, Milestone
 |[[wikipedia:Ad blocking|Ad blocking]]
-|[[wikipedia:Adblock Plus|Adblock Plus]], a very prominent ad-blocking add-on for [[wikipedia:web browser|web browser]]s, is released.<ref>{{Cite web|url=https://adblockplus.org/en/about|title=About Adblock Plus|website=adblockplus.org|access-date=2017-01-12}}</ref>
+|{{w|Adblock Plus}}, a very prominent ad-blocking add-on for [[wikipedia:web browser|web browser]]s, is released.<ref>{{Cite web|url=https://adblockplus.org/en/about|title=About Adblock Plus|website=adblockplus.org|access-date=2017-01-12}}</ref>
 |-
 |2006
 |
 |Launch
-|[[wikipedia:Behavioral targeting|Content discovery platform]]
-|[[wikipedia:Outbrain|Outbrain]], a notable advertising company that powers external recirculation widgets, launches.<ref>{{Cite news|url=http://startupcamel.com/ep-43-ori-lahav-outbrain/|title=EP 43: Ori Lahav / OutBrain - Startup Camel Podcast|date=2014-10-05|newspaper=Startup Camel Podcast|language=en-US|access-date=2017-01-12}}</ref>
+|[[w:Behavioral targeting|Content discovery platform]]
+|{{w|Outbrain}}, a notable advertising company that powers external recirculation widgets, launches.<ref>{{Cite news|url=http://startupcamel.com/ep-43-ori-lahav-outbrain/|title=EP 43: Ori Lahav / OutBrain - Startup Camel Podcast|date=2014-10-05|newspaper=Startup Camel Podcast|language=en-US|access-date=2017-01-12}}</ref>
 |-
 |2007
 |
 |Launch
 |Content discovery platform
-|[[wikipedia:Taboola|Taboola]], a notable advertising company that powers external recirculation widgets, launches.<ref>{{Cite web|url=https://www.crunchbase.com/organization/taboola|title=Taboola {{!}} crunchbase|website=www.crunchbase.com|access-date=2017-02-09}}</ref><ref>{{Cite web|url=https://www.taboola.com/our-story|title=Our Story {{!}} World's Largest Discovery Platform {{!}} Taboola|website=www.taboola.com|access-date=2017-02-09}}</ref>
+|{{w|Taboola}}, a notable advertising company that powers external recirculation widgets, launches.<ref>{{Cite web|url=https://www.crunchbase.com/organization/taboola|title=Taboola {{!}} crunchbase|website=www.crunchbase.com|access-date=2017-02-09}}</ref><ref>{{Cite web|url=https://www.taboola.com/our-story|title=Our Story {{!}} World's Largest Discovery Platform {{!}} Taboola|website=www.taboola.com|access-date=2017-02-09}}</ref>
 |-
 |2007
 |
 |Launch
-|[[wikipedia:Behavioral targeting|Behavioral targeting]], [[wikipedia:Social Media Advertising|Social media advertising]] 
+|{{w|Behavioral targeting}}, {{w|Social media advertising}}
 |Facebook launches [[wikipedia:Facebook Beacon|Beacon]], an intricate advertising platform that tracks Facebook user's activities on websites outside of Facebook.<ref>{{Cite web|url=http://www.pcworld.com/article/140182/article.html|title=Facebook's Beacon More Intrusive Than Previously Thought|website=PCWorld|access-date=2017-01-07}}</ref>
 |-
 |2007
@@ -408,7 +414,7 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |
 |Launch
 |Ad blocking
-|[[wikipedia:Rick Petnel|Rick Petnel]] creates [[wikipedia:Easylist|Easylist]], one of the most popular filter lists available for ad-blocking web browser add-ons.<ref>{{Cite news|url=http://www.washingtonpost.com/wp-dyn/content/article/2008/06/24/AR2008062401287.html|title=One Man, One Long List, No More Web Ads|last=Whoriskey|first=Peter|date=2008-06-25|newspaper=The Washington Post|access-date=2017-02-08|language=en-US|issn=0190-8286}}</ref> The filter list Easylist Privacy is also available, and focuses on the blocking of web elements that may invade a user's privacy. 
+|{{w|Rick Petnel}} creates {{w|Easylist}}, one of the most popular filter lists available for ad-blocking web browser add-ons.<ref>{{Cite news|url=http://www.washingtonpost.com/wp-dyn/content/article/2008/06/24/AR2008062401287.html|title=One Man, One Long List, No More Web Ads|last=Whoriskey|first=Peter|date=2008-06-25|newspaper=The Washington Post|access-date=2017-02-08|language=en-US|issn=0190-8286}}</ref> The filter list Easylist Privacy is also available, and focuses on the blocking of web elements that may invade a user's privacy.
 |-
 |2008
 |
@@ -600,6 +606,13 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |The Express installation settings for Microsoft's web browser, Internet Explorer 10, turn Do Not Track on by default. The Digital Advertising Alliance protests this decision<ref>{{cite web|title=Microsoft ticks off advertisers with IE10 'Do Not Track' policy|url=http://news.cnet.com/8301-10805_3-57445568-75/microsoft-ticks-off-advertisers-with-ie10-do-not-track-policy/|publisher=CNET|accessdate=8 September 2012}}</ref> while a Microsoft spokesperson defends it.<ref name=dig-msdnt>{{cite news|title=Microsoft's "Do Not Track" Move Angers Advertising Industry|url=http://blogs.wsj.com/digits/2012/05/31/microsofts-do-not-track-move-angers-advertising-industry/|work=Digits|publisher=The Wall Street Journal|accessdate=8 September 2012}}</ref> On September 7, [[wikipedia:Roy Fielding|Roy Fielding]], one of the authors of the DNT standard, submits a change to ignore the header for users coming from IE10,<ref>{{Cite web|title = Apache does not tolerate deliberate abuse of open standards · apache/httpd@a381ff3|url = https://github.com/apache/httpd/commit/a381ff35fa4d50a5f7b9f64300dfd98859dee8d0|website = GitHub|accessdate = 2016-01-02}}</ref> leading to controversy.<ref>{{Cite web|title = Apache does not tolerate deliberate abuse of open standards · apache/httpd@a381ff3|url = https://github.com/apache/httpd/commit/a381ff35fa4d50a5f7b9f64300dfd98859dee8d0#commitcomment-1819635|website = GitHub|accessdate = 2016-01-03}}</ref><ref>{{cite web |url=http://arstechnica.com/information-technology/2012/08/microsoft-sticks-to-its-guns-keeps-do-not-track-on-by-default-in-ie10/ |title=Microsoft sticks to its guns, keeps Do Not Track on by default in IE10 |publisher=Ars Technica |accessdate=14 May 2013}}</ref> The patch is commented out on October 9, restoring original behavior.<ref>{{cite web|title= Apache Won't Override Do-Not-Track Headers |url= http://www.mediapost.com/publications/article/184855/apache-wont-override-do-not-track-headers.html |publisher= MediaPost Communications|accessdate=22 December 2012}}</ref> On April 3, 2015, Microsoft announces that the Express installation will no longer activate Do Not Track, but Microsoft will continue to highlight the option to users so that they are aware of it.<ref name=cw-dntdisabledms>{{cite web|title=Microsoft rolls back commitment to Do Not Track|url=http://www.computerworld.com/article/2905551/microsoft-rolls-back-commitment-to-do-not-track.html|website=Computerworld|publisher=IDG|accessdate=3 April 2015}}</ref>
 |-
 |2012
+|October 27 (one of the releases)
+|New feature
+|End user control standard
+|The Acceptable Ads standard is created by eyeo (the company behind Adblock Plus) and the Adblock Plus community. The standard controls which advertisers and ad formats are permitted for users who opt in to Acceptable Ads. It is offered as a middle ground between full ad blocking and no ad blocking.<ref>{{cite web|url = https://acceptableads.com/about/|publisher = Acceptable Ads|accessdate = June 13, 2021}}</ref> The Adblock Plus 1.3 release (October 27) starts showing some of these acceptable ads by default.<ef>{{cite web|url = https://adblockplus.org/releases/adblock-plus-13-for-google-chrome-released|title = Adblock Plus and (a little) more
+Adblock Plus 1.3 for Google Chrome™ released|date = October 27, 2012|accessdate = June 13, 2021|publisher = Adblock Plus}}</ref>
+|-
+|2012
 |December 11
 |Adoption
 |Viewability standard
@@ -696,6 +709,12 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |Mobile data carrier [[wikipedia:Verizon|Verizon]] acquires [[wikipedia:AOL|AOL]] for $4.4 billion; the main value of the acquisition to Verizon is the ad technology owned by AOL. The deal is expected to help Verizon target ads better to users across devices, through the combination of AOL's ad tech and data and Verizon's data.<ref>{{cite web|url = http://adage.com/article/media/ad-tech-is-king-verizon-aol/298574/|title = Ad-Tech, not Content, Is King in the Verizon-AOL Deal. Takeaways From This Morning's Announcement|last = Kantrowitz|first = Alex|date = May 12, 2015|accessdate = April 7, 2017|publisher = ''[[wikipedia:Advertising Age|Advertising Age]]''}}</ref><ref>{{cite web|url = http://www.theverge.com/2015/5/12/8590669/verizon-aol-merger-news-explained-ad-tech|title = Forget blogs, Verizon bought AOL for its ad tech business. This is about mobile marketing and video advertising, as dollars move from TV to the web|last = Popper|first = Ben|date = May 12, 2015|accessdate = April 7, 2017|publisher = ''[[wikipedia:The Verge|The Verge]]''}}</ref><ref>{{cite web|url = http://www.businessinsider.com/ad-tech-industry-on-aol-selling-to-verizon-2015-5|title = Here’s what the ad industry thinks of Tim Armstrong selling AOL for $4.4 billion to Verizon|last = O'Reilly|first = Lara|date = May 12, 2015|accessdate = April 7, 2017|publisher = ''[[wikipedia:Business Insider|Business Insider]]''}}</ref>
 |-
 |2015
+|June 4
+|Analysis
+|Content discovery platform
+|An article by John Mahoney in ''The Awl'' introduces the term {{w|chumbox}} for the external recirculation widgets powered by content discovery platforms such as Taboola and Outbrain.<ref>{{cite web|url = https://www.theawl.com/2015/06/a-complete-taxonomy-of-internet-chum/|title = A Complete Taxonomy of Internet Chum|last = Mahoney|first = John|date = June 4, 2015|accessdate = June 13, 2021}}</ref>
+|-
+|2015
 |July 19
 |New feature
 |Header bidding
@@ -786,6 +805,12 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |Google has a "brand safety" fiasco, after ''The Times of London'' publishes an article showing that advertisements are being shown alongside "extremist" YouTube videos.<ref>{{Cite web|url = https://www.thetimes.co.uk/edition/news/google-faces-questions-over-videos-on-youtube-3km257v8d|title = Google faces questions over videos on YouTube|last = Mostrous|first = Alexi|date = February 9, 2017|accessdate = April 5, 2017}}</ref> As a result, advertisers and agencies, initially in the United Kingdom,<ref>{{cite web|url = https://adexchanger.com/platforms/google-gets-brexited-havas-uk-gov-guardian-yank-ads-brand-safety/|title = Google Gets Brexited As Havas UK, Gov and The Guardian Yank Ads Over Brand Safety|last = Sluis|first = Sarah|date = March 17, 2017|accessdate = April 3, 2017|publisher = AdExchanger}}</ref> and later in the United States as well, pause their ads on YouTube.<ref>{{cite web|url = https://adexchanger.com/platforms/rounding-industry-coverage-googles-brand-safety-fiasco/|title = Rounding Up The Industry Coverage Of Google's Brand Safety Fiasco|last = Weissbrot|first = Alison|date = March 27, 2017|accessdate = April 5, 2017|publisher = AdExchanger}}</ref> In response, Google promises to make improvements to its process for determining videos that are safe for ads, and also to give advertisers more visibility and control into the sort of content their ads are being shown against.<ref>{{cite web|url = https://www.wsj.com/articles/google-to-allow-brand-safety-monitoring-by-outside-firms-1491256676|title = Google to Allow ‘Brand Safety’ Monitoring by Outside Firms. Alphabet unit offers new tools to marketers after ads ran alongside objectionable content|last = Marshall|first = Jack|last2 = Nicas|first2 = Jack|date = April 3, 2017|accessdate = April 5, 2017|publisher = ''[[wikipedia:Wall Street Journal|Wall Street Journal]]''}}</ref><ref>{{cite web|url = https://www.nytimes.com/2017/04/03/technology/google-training-ad-placement-computers-to-be-offended.html?_r=0|title = Google Training Ad Placement Computers to Be Offended|last = Wakabayashi|first = Daisuke|date = April 3, 2017|accessdate = April 5, 2017|publisher = ''[[wikipedia:New York Times|New York Times]]''}}</ref>
 |-
 |2017
+|March 15
+|Transition
+|Ad blocking
+|Eyeo, the company behind Adblock Plus, announces the transition of control for the standards behind Acceptable Ads to an Acceptable Ads Committee.<ref>{{cite web|url = https://www.businessinsider.com/adblock-plus-acceptable-ads-committee-2017-3|title = Adblock Plus has announced the 'Acceptable Ads Committee' who will decide which ads it won't block|last = O'Reilly|first = Sara|date = March 15, 2017|accessdate = June 13, 2021|publisher = Business Insider}}</ref><ref>{{cite web|url = https://digiday.com/media/adblock-committee/|title = ‘Everyone has been wary’: Inside the Adblock Plus ‘acceptable ads’ committee|last = Benes|first = Ross|date = March 17, 2017|accessdate = June 13, 2021}}</ref>
+|-
+|2017
 |March 28
 |Lawsuit
 |Ad serving
@@ -819,7 +844,7 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |May
 |
 |Ad fraud
-|The Interactive Advertising Bureau (IAB) Tech Lab introduces ads.txt as a tool that can help ad buyers avoid illegitimate sellers who arbitrage inventory and spoof domains.<ref>{{cite web|url = https://digiday.com/marketing/wtf-ads-txt/|title = WTF is ads.txt?|last = Benes|first = Ross|date = June 7, 2017|accesdate = April 22, 2018}}</ref>
+|The Interactive Advertising Bureau (IAB) Tech Lab introduces ads.txt as a tool that can help ad buyers avoid illegitimate sellers who arbitrage inventory and spoof domains.<ref>{{cite web|url = https://digiday.com/marketing/wtf-ads-txt/|title = WTF is ads.txt?|last = Benes|first = Ross|date = June 7, 2017|accessdate = April 22, 2018}}</ref>
 |-
 | 2017
 |May 23
@@ -857,6 +882,12 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |End user control standard, general privacy standard
 |The European Union's {{w|General Data Protection Regulation}} (GDPR) takes effect on this date. GDPR imposes a number of restrictions and requirements around how companies can collect user data, what information they need to make available to end users if asked, and end users' right to request that their data be erased. It is expected to have significant impact on the advertising and third-party data ecosystems, both in the European Union and worldwide.<ref>{{cite web|url = https://adexchanger.com/data-driven-thinking/post-gdpr-clients-will-own-data-and-agencies-must-get-creative/|title = Post-GDPR, Clients Will Own Data And Agencies Must Get Creative|date = April 20, 2018|accessdate = April 22, 2018|publisher = AdExchanger|last = Snyder|first = Jon}}</ref> GDPR is expected to have some impact on the operations of Google<ref>{{cite web|url = https://digiday.com/media/googles-gdpr-approach-raises-publisher-concerns/|title = Google’s GDPR approach raises publisher concerns|date = April 16, 2018|last = Davies|first = Jessica|date = April 16, 2018|accessdate = April 22, 2018|publisher = Digiday}}</ref> and Facebook.<ref>{{cite web|url = https://digiday.com/media/gdpr-will-change-facebook-ad-targeting/|title = The GDPR is coming and will change Facebook ad targeting|last = Davies|first = Jessica|date = April 18, 2018|publisher = Digiday}}</ref> It also leads to two US-based ad tech companies (location-based mobile marketing platform Verve and cross-device marketing platform Drawbridge) quitting Europe.<ref>{{cite web|url = https://adexchanger.com/mobile/verve-closes-european-business-thanks-to-gdpr/|title = Verve Closes European Business Thanks To GDPR|last = Schiff|first = Allison|date = April 18, 2018|accessdate = April 22, 2018|publisher = AdExchanger}}</ref><ref>{{cite web|url = https://digiday.com/media/ad-tech-firms-quitting-europe-blaming-gdpr-often-scapegoat/|title = Ad tech firms are quitting Europe, blaming the GDPR (often as a scapegoat)|date = April 19, 2018|accessdate = April 22, 2018}}</ref>
 |-
+|2018
+|June 27
+|Renaming
+|Ad serving
+|Google rebrands its ad products. Google Adwords becomes Google Ads, DoubleClick advertiser products and Google Analytics 360 Suite become Google Marketing Platform, and DoubleClick for Publishers and DoubleClick Ad Exchange become Google Ad Manager.<ref>{{cite web|url = https://www.blog.google/products/admanager/introducing-google-ad-manager/|title = Introducing Google Ad Manager|last = Bellack|first = Jonathan|date = June 27, 2018|accessdate = June 13, 2021|publisher = Google}}</ref><ref>{{cite web|url = https://searchengineland.com/google-is-retiring-the-adwords-doubleclick-brands-in-a-major-rebranding-aimed-at-simplification-301073|title = Google is retiring the AdWords & DoubleClick brands in a major rebranding aimed at simplification. Welcome to Google Ads, Google Marketing Platform, and Google Ad Manager.|date = June 27, 2018|accessdate = June 13, 2021|publisher = Search Engine Land}}</ref>
+|-
 |2019
 |March 6
 |New feature
@@ -873,7 +904,7 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |September 3
 |New feature
 |Third-party cookies
-|Firefox's latest release activates Enhanced Tracking Protection by default for all users. This blocks third-party tracking cookies and cryptominers.<ref>{{cite web|url = https://blog.mozilla.org/en/products/firefox/todays-firefox-blocks-third-party-tracking-cookies-and-cryptomining-by-default/|title = Today’s Firefox Blocks Third-Party Tracking Cookies and Cryptomining by Default|last = Wood|first = Marissa|date = September 3, 2019|accesdate = June 13, 2021|publisher = Mozilla}}</ref><ref>{{cite web|url = https://techcrunch.com/2019/09/03/mozilla-flips-the-default-switch-on-firefox-tracking-cookie-blocking/|title = Mozilla flips the default switch on Firefox tracker cookie blocking|last = Lomas|first = Natasha|date = Septembeer 3, 2019|accesdsate = June 13, 2021|publisher = TechCrunch}}</ref>
+|Firefox's latest release activates Enhanced Tracking Protection by default for all users. This blocks third-party tracking cookies and cryptominers.<ref>{{cite web|url = https://blog.mozilla.org/en/products/firefox/todays-firefox-blocks-third-party-tracking-cookies-and-cryptomining-by-default/|title = Today’s Firefox Blocks Third-Party Tracking Cookies and Cryptomining by Default|last = Wood|first = Marissa|date = September 3, 2019|accessdate = June 13, 2021|publisher = Mozilla}}</ref><ref>{{cite web|url = https://techcrunch.com/2019/09/03/mozilla-flips-the-default-switch-on-firefox-tracking-cookie-blocking/|title = Mozilla flips the default switch on Firefox tracker cookie blocking|last = Lomas|first = Natasha|date = Septembeer 3, 2019|accessdate = June 13, 2021|publisher = TechCrunch}}</ref>
 |-
 |2019
 |September 5
@@ -881,17 +912,47 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |Ad serving
 |Google announces that it is beginning the rollout of unified first-price auctions for Google Ad Manager. This follows up on a preliminary announcement in March and testing in the intermediate months.<ref>{{cite web|url = https://www.blog.google/products/admanager/rolling-out-first-price-auctions-google-ad-manager-partners/|title = Rolling out first price auctions to Google Ad Manager partners|date = September 5, 2019|accessdate = June 13, 2021|last = Bigler|first = Jason}}</ref><ref>{{cite web|url = https://www.adexchanger.com/ad-exchange-news/googles-first-price-auction-switch-is-making-header-bidding-partners-win-more/|title = Google’s First-Price Auction Switch Is Making Header Bidding Partners Win More|date = September 5, 2019|accessdate = June 13, 2021|publisher = AdExchanger}}</ref>
 |-
+|2019
+|October 3
+|Merger
+|Content discovery platform
+|Content discovery platforms Taboola and Outbrain announce plans to merge; the combined entity would be market-dominant among content discovery platforms.<ref>{{cite web|url = https://techcrunch.com/2019/10/03/taboola-outbrain/|title = Publisher adtech startups Taboola and Outbrain merge in $850M deal to take on Google and Facebook|last = Lunden|first = Ingrid|date = October 3, 2019|accessdate = June 13, 2021}}</ref><ref>{{cite web|url = https://www.adweek.com/programmatic/outbrain-taboola-merger/|title = Outbrain and Taboola to Merge. Adam Singolda of Taboola will head up the joint venture|date = October 3, 2019|accessdate = June 13, 2021|publisher = Adwek}}</ref> The planned merger would be called off in late 2020.<ref name=taboola-outbrain-merger-cancel/>
+|-
 |2020
 |January 14
 |New feature
 |Third-party cookies
-|Google announces a proposal to phase out third-party cookies from Chrome by 2022, and create a "privacy sandbox" through which the browser makes some high-level information about the user available to websites. This is far behind Safari and Firefox, that have largely eliminated third-party cookies by this point.<ref>{{cite web|url = https://www.theverge.com/2020/1/14/21064698/google-third-party-cookies-chrome-two-years-privacy-safari-firefox|title = Google to ‘phase out’ third-party cookies in Chrome, but not for two years. The browser battles are about privacy more than marketshare|date = January 14, 2020|accessdate = June 13, 2021|publisher = The Verge}}</ref><ref>{{cite web|url = https://www.adweek.com/programmatic/google-chrome-will-phase-out-third-party-cookies-by-2022/|title = Google Chrome Will Phase Out Third-Party Cookies by 2022. Privacy Sandbox seeks new standards to support ad-funded web|last = Shields|first = Ronan|date = January 14, 2020|accesdate = June 13, 2021}}</ref><ref>{{cite web|url = https://www.vox.com/recode/2020/1/16/21065641/google-chrome-cookie-ban-advertisers|title = Google Chrome’s cookie ban is good news for Google — and maybe your privacy. But it’s terrible for smaller advertisers.|last = Morrison|first = Sara|last2 = Molla|first2 = Rani|date = January 16, 2020|accessdatte = June 13, 2021}}</ref>
+|Google announces a proposal to phase out third-party cookies from Chrome by 2022, and create a "privacy sandbox" through which the browser makes some high-level information about the user available to websites. This is far behind Safari and Firefox, that have largely eliminated third-party cookies by this point.<ref>{{cite web|url = https://www.theverge.com/2020/1/14/21064698/google-third-party-cookies-chrome-two-years-privacy-safari-firefox|title = Google to ‘phase out’ third-party cookies in Chrome, but not for two years. The browser battles are about privacy more than marketshare|date = January 14, 2020|accessdate = June 13, 2021|publisher = The Verge}}</ref><ref>{{cite web|url = https://www.adweek.com/programmatic/google-chrome-will-phase-out-third-party-cookies-by-2022/|title = Google Chrome Will Phase Out Third-Party Cookies by 2022. Privacy Sandbox seeks new standards to support ad-funded web|last = Shields|first = Ronan|date = January 14, 2020|accessdate = June 13, 2021}}</ref><ref>{{cite web|url = https://www.vox.com/recode/2020/1/16/21065641/google-chrome-cookie-ban-advertisers|title = Google Chrome’s cookie ban is good news for Google — and maybe your privacy. But it’s terrible for smaller advertisers.|last = Morrison|first = Sara|last2 = Molla|first2 = Rani|date = January 16, 2020|accessdate = June 13, 2021}}</ref>
 |-
 |2020
 |March 24
 |New feature
 |Third-party cookies
 |Almost three years after introducing Intelligent Tracking Prevention (ITP), Apple makes several updates to ITP on Safari, the most important of which is that it now fully blocks all use of cookies in a third-party context by default.<ref>{{cite web|url = https://webkit.org/blog/10218/full-third-party-cookie-blocking-and-more/|title = Full Third-Party Cookie Blocking and More|date = March 24, 2020|accessdate = June 13, 2021|publisher = WebKit}}</ref><ref>{{cite web|url = https://www.theverge.com/2020/3/24/21192830/apple-safari-intelligent-tracking-privacy-full-third-party-cookie-blocking|title = Apple updates Safari’s anti-tracking tech with full third-party cookie blocking. Beating Google by two years to the privacy feature|last = Statt|first = Nick|date = March 24, 2020|accessdate = June 13, 2021|publisher = The Verge}}</ref>
+|-
+|2020
+|September 8
+|Merger
+|Content discovery platform
+|The planned merger of Taboola and Outbrain is called off.<ref name=taboola-outbrain-merger-cancel>{{cite web|url = https://techcrunch.com/2020/09/08/taboola-and-outbrain-call-off-their-850m-merger/|title = Taboola and Outbrain call off their $850M merger|last = Lunden|first = Ingrid|date = September 8, 2020|accessdate = June 13, 2021|publisher = TechCrunch}}</ref><ref>{{cite web|url = https://www.thedrum.com/news/2021/02/11/not-so-chummy-any-more-after-merger-didn-t-click-what-next-taboola-and-outbrain|title = Not so chummy any more: after merger didn’t click, what next for Taboola and Outbrain? Content recommendation engines Outbrain and Taboola were once primed for a $2bn-valued mega-merger that they said would rival the duopoly and save the open web. Relations between the Israeli startups soured, however, and the deal fell through. The Drum catches the CEOs of both to find out how they plan to innovate their tech, fund publishers and change some marketers’ minds. The ‘chumbox’ cold war continues.|last = McCarthy|first = John|date = February 11, 2021|accessdate = June 13, 2021}}</ref>
+|-
+|2020
+|November
+|Launch
+|Identity solution
+|{{w|The Trade Desk}}'s "Unified ID 2.0" solution gets buy-in from several companies in the ad tech and measurement space including LiveRamp, Criteo, Nielsen, Magnite, Index Exchange, and PubMatic.<ref>{{cite web|url = https://www.adexchanger.com/strategy/the-trade-desks-unified-id-is-gaining-steam-heres-where-things-stand/|title = The Trade Desk’s Unified ID Is Gaining Steam. Here’s Where Things Stand.|last = Schiff|first = Allison|date = November 5, 2020|accessdate = June 13, 2021|publisher = AdExchanger}}</ref><ref>{{cite web|url = https://www.adexchanger.com/publishers/pubmatic-is-the-latest-ad-tech-company-to-join-unified-id-2-0/|title = PubMatic Is The Latest Ad Tech Company To Join Unified ID 2.0|date = November 18, 2020|accessdate = June 13, 2021|publisher = AdExchanger}}</ref>
+|-
+|2021
+|April 26
+|New feature
+|App identity
+|Apple releases iOS 14.5; this includes the long-awaited App Tracking Transparency update; this prompts the user for apps that are tracking the user across websites and apps. This is expected to negatively affect in-app advertising in advertising-supported apps (such as Facebookk) if a lot of users opt out of tracking.<ref>{{cite web|url = https://techcrunch.com/2021/04/26/apples-app-tracking-transparency-feature-has-arrived-heres-what-you-need-to-know/|title = Apple’s App Tracking Transparency feature has arrived — here’s what you need to know|last = Ha|first = Anthony|date = April 26, 2021|accessdate = June 13, 2021}}</ref>
+|-
+|2021
+|June 11
+|Regulation
+|Third-party cookies
+|The UK's competition regulator, the {{w|Competition and Markets Authority}}, announces an agreement with Google whereby Google makes some commitments about the way it will phase out third-party cookies and introduce Privacy Sandbox, so as to minimize the negative effects of tthese steps on its competition.<ref>{{cite web|url = https://www.gov.uk/government/news/cma-to-have-key-oversight-role-over-google-s-planned-removal-of-third-party-cookies|title = CMA to have key oversight role over Google’s planned removal of third-party cookies. Following an investigation, the CMA has secured commitments from Google to address concerns about Google’s proposal to remove third-party cookies on Chrome.|date = June 11, 2021|accessdate = June 13, 2021}}</ref><ref>{{cite web|url = https://www.adexchanger.com/privacy/google-pledges-not-to-kill-third-party-cookies-without-the-uk-competition-watchdogs-say-so/|title = Google Pledges Not To Kill Third-Party Cookies Without The UK Competition Watchdog’s Say-So|date = June 11, 2021|accessdate = June 13, 2021|publisher = AdExchanger}}</ref>
 |}
 (*) Such launches are not initial launches, but rather re-launches.
 
@@ -922,7 +983,3 @@ The timeline is lacking in a few important respects:
 == References ==
 
 {{reflist|30em}}
-
-[[wikipedia:Category:E-commerce|Category:E-commerce]]
-[[wikipedia:Category:Computing timelines|Online Advertising]]
-[[wikipedia:Category:Online advertising|Category:Online advertising]]
