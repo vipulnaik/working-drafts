@@ -1,0 +1,13 @@
+This is a timeline of web vitals, a set of metrics championed by Google that relate to how well web pages load. Of particular interest are three metrics Google calls '''core web vitals''', that are used to inform a "page experience" score that affects search ranking on mobile devices.
+
+== Full timeline ==
+
+{| class="wikitable" border="1"
+! Year !! Month and date (if available) !! Event type !! Aspect of performance !! Type of measurement (field data (from real users) or Lab data (from a bot)?) !! Event
+|-
+| 2010 || || New product || Loading speed || Lab data || Google introduces {{w|Google PageSpeed Tools}}, a suite of tools to help websites understand and improve the speed of their webpages. One of these tools, PageSpeed Insights, would later be a key place where web vitals could be checked for any url.<ref>{{cite web|last1=Ram|first1=Ramani|title=Page Speed Service: Web performance, delivered|url=http://googlecode.blogspot.com/2011/07/page-speed-service-web-performance.html|website=googlecode.blogspot.com/|access-date=17 March 2015|date=2011-07-29}}</ref>
+|-
+| 2016 || || Code commit || All || Lab data || The first code commit to the {{w|Google Lighthouse}} GitHub repository is on this date.<ref>{{Cite web|url = https://github.com/GoogleChrome/lighthouse/commit/c09a442f057469bff6e9a15bb26e78e4f7dc0af5|title = Adds tests.|last = Lewis|first = Paul}}</ref>
+|-
+| 2016 || || Release || All || Lab data || The Lighthouse v1.0.3 tag is created.<ref>{{cite web|url = https://github.com/GoogleChrome/lighthouse/releases/tag/v1.0.3|title = Lighthouse v1.0.3|last = Irish|first = Paul|date = June 30, 2016|accessdate = June 18, 2021}}</ref>
+|}
