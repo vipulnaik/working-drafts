@@ -1,4 +1,4 @@
-This is a timeline of web vitals, a set of metrics championed by Google that relate to how well web pages load. Of particular interest are three metrics Google calls '''core web vitals''', that are used to inform a "page experience" score that affects search ranking on mobile devices.
+This is a timeline of web vitals, a set of metrics championed by Google that relate to how well web pages load. Of particular interest are three metrics Google calls '''core web vitals''', whose values in field data are used to inform a "page experience" score that affects search ranking on mobile devices.
 
 == List of web vitals and corresponding aspects of performance ==
 
