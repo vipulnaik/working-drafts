@@ -1,6 +1,6 @@
 {{Attribute English Wikipedia|original-exists=yes|substantial-edits=yes}}
 
-This page is a '''timeline of [[wikipedia:online advertising|online advertising]]'''. Major launches, milestones and other major events are included.
+This page is a '''timeline of {{w|online advertising}}'''. Major launches, milestones and other major events are included.
 
 == Overview ==
 {| class="wikitable"
@@ -887,6 +887,12 @@ Adblock Plus 1.3 for Google Chrome™ released|date = October 27, 2012|accessdat
 |At the request of the United States House Intelligence Committee, Facebook publishes details of political advertisements bought in 2016 by social media accounts based in Russia, many of which were suspected to be connected with the Internet Research Agency, a company with Kremlin ties. This is amidst suspicion that the influence of these advertisements could have led to Donald Trump's victory in the 2016 election.<ref>{{cite web|url = https://www.nytimes.com/2017/11/01/us/politics/russia-2016-election-facebook.html|title = These Are the Ads Russia Bought on Facebook in 2016|date = November 1, 2017|accessdate = April 22, 2018|publisher = ''New York Times''|last = Shane|first = Scott}}</ref><ref>{{cite web|url = https://medium.com/@ushadrons|title = UsHadrons|accessdate = April 22, 2018}}</ref> Subsequently, Rob Goldman, vice-president of ads at Facebook, would say that sowing division in United States politics, rather than electing Trump, was the goal of these ads, citing a protest in Houston, both sides of which appear to have been orchestrated by the fake social media accounts.<ref>{{cite web|url = https://www.cnbc.com/2018/02/17/facebooks-vp-of-ads-says-russian-meddling-aimed-to-divide-us.html|title = Trump backs Facebook's VP of ads, who says Russia's meddling was designed to divide America|last = Aiello|first = Chloe|date = February 17, 2018|accessdate = April 22, 2018|publisher = CNBC}}</ref>
 |-
 |2018
+|April 25
+|Industry standard
+|End user control standard, general privacy standard
+|The '''Transparency and Consent Framework'''' ('''TCF''') v1.1 is released by the {{w|Interactive Advertising Bureau}} (IAB), specifically IAB Europe and IAB Tech Lab. It is intended as a framework for compliance with the European Union's {{w|General Data Protection Regulation}} that is scheduled to go in effect on May 25. Over time, TCF (mostly the successor version TCFv2) would be supported by consent management platforms and adopted by websites for serving their European traffic.<ref name=tcf>{{cite web|url = https://iabeurope.eu/transparency-consent-framework/|title = What Is The Transparency & Consent Framework (TCF)?|publisher = IAB Europe|accessdate = June 22, 2021}}</ref>
+|-
+|2018
 |May 25
 |Regulation
 |End user control standard, general privacy standard
@@ -909,6 +915,12 @@ Adblock Plus 1.3 for Google Chrome™ released|date = October 27, 2012|accessdat
 |New feature
 |Identity solution
 |LiveRamp launches Authenticated Traffic Solutions (ATS) for publishers. This solution matches consented user data with a LiveRamp IdentityLink in real time, enabling personalized third-party advertising without the use of third-party cookies.<ref>{{cite web|url = https://liveramp.com/blog/launching-authenticated-traffic-solution-for-publishers/|title = Launching Authenticated Traffic Solution to Democratize People-Based Identity for Publishers|last = Howe|first = Scott|date = May 30, 2019|accessdate = June 13, 2021|publisher = LiveRamp}}</ref><ref>{{cite web|url = https://www.adweek.com/programmatic/how-liveramp-intends-to-woo-advertisers-now-that-the-cookie-is-starting-to-crumble/|title = How LiveRamp Intends to Woo Advertisers Now That the Cookie Is Starting to Crumble. However, it still comes with privacy questions|last = Shields|first = Ronan|date = May 30, 2019|accessdate = June 13, 2021|publisher = Adweek}}</ref>
+|-
+|2019
+|August 21
+|Industry standard
+|End user control standard, general privacy standard
+|The '''Transparency and Consent Framework'''' ('''TCF''') v2 is released by the {{w|Interactive Advertising Bureau}} (IAB), specifically IAB Europe and IAB Tech Lab. It is an upgrade to TCFv1.1 and is intended compliance with the European Union's {{w|General Data Protection Regulation}}.Over time, TCFv2 would be supported by consent management platforms and adopted by websites for serving their European traffic.<ref name=tcf/>
 |-
 |2019
 |September 3
