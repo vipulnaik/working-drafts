@@ -137,8 +137,8 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
  |url= http://ibconsultants.com.au/wp-content/uploads/2015/06/Running-Your-Own-Show.pdf
  |title= The American Dream: Running Your Own Show
  |first= Perla |last= Ni |date= May 27, 1999
- |publisher= [[AsianWeek]]
-}}</ref> [[Ali Partovi]] later joined them as a third partner in August 1996.<ref>{{cite web|title=Ali Partovi on LinkedIn|url=https://www.linkedin.com/in/apartovi|publisher=LinkedIn|accessdate=10 July 2015}}</ref> In November 1996, when the company consisted of about 10 people, it moved from Hsieh's and Madan's living room to an office<ref>{{cite web
+ |publisher= {{w|AsianWeek}}
+}}</ref> {{w|Ali Partovi}} later joined them as a third partner in August 1996.<ref>{{cite web|title=Ali Partovi on LinkedIn|url=https://www.linkedin.com/in/apartovi|publisher=LinkedIn|accessdate=10 July 2015}}</ref> In November 1996, when the company consisted of about 10 people, it moved from Hsieh's and Madan's living room to an office<ref>{{cite web
  |url= http://linkexchange.com/compinfo/comp_index.html
  |title= Company Info
  |publisher= LinkExchange.com
@@ -186,7 +186,7 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |November 5
 |Acquisition
 |Web-ring advertising
-|[[wikipedia:Microsoft|Microsoft]] announces that it has acquired [[wikipedia:LinkExchange|LinkExchange]], a company that worked on monetization of web-rings.<ref>{{cite web|url = https://www.wsj.com/articles/SB910216110299783500|title = Microsoft Buys LinkExchange For About $250 Million in Stock|last = Wingfield|first = Nick|date = November 5, 1998|accessdate = April 3, 2017|publisher = ''[[wikipedia:Wall Street Journal|Wall Street Journal]]}}</ref><ref name=ad-tech-acquisition-history>{{cite web|url = http://www.adopsinsider.com/ad-ops-strategy/a-history-of-ad-tech-acquisitions/|title = A History of Ad Tech Acquisitions|date = July 19, 2015|accessdate = April 3, 2017|publisher = Ad Ops Insider}}</ref><ref>{{cite web|url = https://news.microsoft.com/1998/11/05/microsoft-acquires-linkexchange-to-greatly-expand-small-business-services-from-msn/|title = Microsoft Acquires LinkExchange to Greatly Expand Small-Business Services From MSN|date = November 5, 1998|accessdate = April 3, 2017|publisher = [[wikipedia:Microsoft|Microsoft]]}}</ref>
+|[[wikipedia:Microsoft|Microsoft]] announces that it has acquired [[wikipedia:LinkExchange|LinkExchange]], a company that worked on monetization of web-rings.<ref>{{cite web|url = https://www.wsj.com/articles/SB910216110299783500|title = Microsoft Buys LinkExchange For About $250 Million in Stock|last = Wingfield|first = Nick|date = November 5, 1998|accessdate = April 3, 2017|publisher = ''[[wikipedia:Wall Street Journal|Wall Street Journal]]}}</ref><ref name=ad-tech-acquisition-history>{{cite web|url = http://www.adopsinsider.com/ad-ops-strategy/a-history-of-ad-tech-acquisitions/|title = A History of Ad Tech Acquisitions|date = July 19, 2015|accessdate = April 3, 2017|publisher = Ad Ops Insider}}</ref><ref>{{cite web|url = https://news.microsoft.com/1998/11/05/microsoft-acquires-linkexchange-to-greatly-expand-small-business-services-from-msn/|title = Microsoft Acquires LinkExchange to Greatly Expand Small-Business Services From MSN|date = November 5, 1998|accessdate = April 3, 2017|publisher = {{w|Microsoft}}}}</ref>
 |-
 |1998
 |
@@ -217,6 +217,7 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |Launch
 |Association
 |The {{w|Network Advertising Initiative}} (NAI) is founded. NAI is a membership-based "self-regulatory association dedicated to responsible data collection and its use for digital advertising."<ref>{{cite web|url = https://www.networkadvertising.org/about-nai/about-nai/|title = About The NAI|publisher = Network Advertising Initiative|accessdate = June 13, 2021}}</ref>
+|-
 |2000
 |October 23
 |Launch
@@ -239,7 +240,7 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |March 30
 |Launch
 |Ad exchange
-|[[wikipedia:Right Media|Right Media]], the company that operates the Right Media Exchange (RMX) launches.<ref>{{cite web|url=http://whois.domaintools.com/rightmedia.com|title=RightMedia.com WHOIS, DNS, & Domain Info - DomainTools|work=[[WHOIS]]|date= |accessdate=2016-07-19}}</ref> It would eventually be acquired by [[wikipedia:Yahoo!|Yahoo!]].<ref name=yahoo-rmx-acquisition>{{cite web|last=Auchard|first=Eric|title=Yahoo to buy rest of Right Media for $680 mln|url=http://www.reuters.com/article/2007/04/30/us-rightmedia-yahoo-idUSN3037037520070430|publisher=Reuters|accessdate=April 30, 2007}}</ref>
+|[[wikipedia:Right Media|Right Media]], the company that operates the Right Media Exchange (RMX) launches.<ref>{{cite web|url=http://whois.domaintools.com/rightmedia.com|title=RightMedia.com WHOIS, DNS, & Domain Info - DomainTools|work={{w|WHOIS}}|date= |accessdate=2016-07-19}}</ref> It would eventually be acquired by [[wikipedia:Yahoo!|Yahoo!]].<ref name=yahoo-rmx-acquisition>{{cite web|last=Auchard|first=Eric|title=Yahoo to buy rest of Right Media for $680 mln|url=http://www.reuters.com/article/2007/04/30/us-rightmedia-yahoo-idUSN3037037520070430|publisher=Reuters|accessdate=April 30, 2007}}</ref>
 |-
 |2003
 |April 23
@@ -263,7 +264,7 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |January 7
 |Launch
 |Ad network
-|[[wikipedia:BlueLithium|BlieLithium]] is founded by [[wikipedia:Gurbaksh Chahal|Gurbaksh Chahal]] and [[wikipedia:Krishna Subramanian|Krishna Subramanian]] as an ad network focused on behavioral targeting.<ref>{{cite web|url=http://whois.domaintools.com/bluelithium.com|title=BlueLithium.com WHOIS, DNS, & Domain Info - DomainTools|work=[[WHOIS]]|date= |accessdate=2016-07-19}}</ref> The company would later be acquired by Yahoo! and its product woud become [[wikipedia:Yahoo! Advertising|Yahoo! Advertising]].<ref name=yahoo-bluelithium-acquisition>{{cite web|url=https://techcrunch.com/2007/09/04/yahoo-acquires-ad-network-bluelithium/|title = Yahoo! Acquires Ad Network BlueLithium|last = Hendrickson|first = Mark|date = September 4, 2007|accessdate = April 14, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref><ref name=yahoo-acquires-bluelithium-2>{{cite web|url = http://searchengineland.com/yahoo-acquires-ad-network-bluelithium-12087|title = Yahoo Acquires Ad Network BlueLithium|last = Sterling|first = Greg|date = September 4, 2007|accessdate = April 14, 2017|publisher = Search Engine Land}}</ref>
+|[[wikipedia:BlueLithium|BlieLithium]] is founded by [[wikipedia:Gurbaksh Chahal|Gurbaksh Chahal]] and [[wikipedia:Krishna Subramanian|Krishna Subramanian]] as an ad network focused on behavioral targeting.<ref>{{cite web|url=http://whois.domaintools.com/bluelithium.com|title=BlueLithium.com WHOIS, DNS, & Domain Info - DomainTools|work={{w|WHOIS}}|date= |accessdate=2016-07-19}}</ref> The company would later be acquired by Yahoo! and its product woud become [[wikipedia:Yahoo! Advertising|Yahoo! Advertising]].<ref name=yahoo-bluelithium-acquisition>{{cite web|url=https://techcrunch.com/2007/09/04/yahoo-acquires-ad-network-bluelithium/|title = Yahoo! Acquires Ad Network BlueLithium|last = Hendrickson|first = Mark|date = September 4, 2007|accessdate = April 14, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref><ref name=yahoo-acquires-bluelithium-2>{{cite web|url = http://searchengineland.com/yahoo-acquires-ad-network-bluelithium-12087|title = Yahoo Acquires Ad Network BlueLithium|last = Sterling|first = Greg|date = September 4, 2007|accessdate = April 14, 2017|publisher = Search Engine Land}}</ref>
 |-
 |2004
 |February
@@ -275,7 +276,7 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |June 24
 |Acquisition
 |Ad serving
-|AOL acquires Advertising.com for $435 million.<ref>{{cite web|url = http://adage.com/article/digital/aol-acquires-advertising-435-million/40495/|title = AOL Acquires Advertising.com for $435 Million. Looks to Bolster Online Ad Growth With Pay-per-performance Model|date = June 24, 2004|accessdate = April 7, 2017|publisher = [[wikipedia:Advertising Age|Advertising Age]]}}</ref><ref name=ad-tech-acquisition-history/>
+|AOL acquires Advertising.com for $435 million.<ref>{{cite web|url = http://adage.com/article/digital/aol-acquires-advertising-435-million/40495/|title = AOL Acquires Advertising.com for $435 Million. Looks to Bolster Online Ad Growth With Pay-per-performance Model|date = June 24, 2004|accessdate = April 7, 2017|publisher = {{w|Advertising Age}}}}</ref><ref name=ad-tech-acquisition-history/>
 |-
 |2005
 |February 14
@@ -287,7 +288,7 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |June 10
 |Acquisition
 |Ad formats
-|[[wikipedia:Gannett|Gannett]] announcing that it is acquiring rich ad media formats company PointRoll for $100 million.<ref>{{cite web|url = http://www.adweek.com/brand-marketing/gannett-buys-pointroll-100-mil-79990/|title = Gannett Buys PointRoll for $100 Mil.|last = Morrissey|first = Brian|date = June 10, 2005|accessdate = April 4, 2017|publisher = [[wikipedia:AdWeek|AdWeek]]}}</ref><ref>{{cite web|url = https://technical.ly/philly/2014/01/22/biggest-philly-tech-exits/|title = 17 biggest Philadelphia tech business acquisitions since 2000. When Boomi, a Berwyn-based cloud computing company, got acquired by Dell, the Wired headline read: “Dell Discovers Internet Mojo...in Philadelphia?” Maybe after a few more local exits, Wired will drop the question mark.|last = Reyes|first = Juliana|date= January 22, 2014|accessdate = April 4, 2017|publisher = technical.ly}}</ref>
+|[[wikipedia:Gannett|Gannett]] announcing that it is acquiring rich ad media formats company PointRoll for $100 million.<ref>{{cite web|url = http://www.adweek.com/brand-marketing/gannett-buys-pointroll-100-mil-79990/|title = Gannett Buys PointRoll for $100 Mil.|last = Morrissey|first = Brian|date = June 10, 2005|accessdate = April 4, 2017|publisher = {{w|AdWeek}}}}</ref><ref>{{cite web|url = https://technical.ly/philly/2014/01/22/biggest-philly-tech-exits/|title = 17 biggest Philadelphia tech business acquisitions since 2000. When Boomi, a Berwyn-based cloud computing company, got acquired by Dell, the Wired headline read: “Dell Discovers Internet Mojo...in Philadelphia?” Maybe after a few more local exits, Wired will drop the question mark.|last = Reyes|first = Juliana|date= January 22, 2014|accessdate = April 4, 2017|publisher = technical.ly}}</ref>
 |-
 |2005
 |
@@ -299,7 +300,7 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |April 10
 |Launch
 |Mobile advertising
-|Mobile advertising platform [[wikipedia:AdMob|AdMob]] launches.<ref name="tmcnet.com">{{cite web|url=http://www.tmcnet.com/usubmit/2009/11/04/4462302.htm|title=AdMob: STA Travel's iPhone advertising campaign takes flight|accessdate=November 9, 2009}}</ref><ref>{{cite web|url=https://opencorporates.com/companies/us_de/4140533|title=ADMOB GOOGLE INC. :: OpenCorporates|work=[[OpenCorporates]]|date=2015-10-10|accessdate=2016-03-08}}</ref>
+|Mobile advertising platform [[wikipedia:AdMob|AdMob]] launches.<ref name="tmcnet.com">{{cite web|url=http://www.tmcnet.com/usubmit/2009/11/04/4462302.htm|title=AdMob: STA Travel's iPhone advertising campaign takes flight|accessdate=November 9, 2009}}</ref><ref>{{cite web|url=https://opencorporates.com/companies/us_de/4140533|title=ADMOB GOOGLE INC. :: OpenCorporates|work={{w|OpenCorporates}}|date=2015-10-10|accessdate=2016-03-08}}</ref>
 |-
 |2006
 |August
@@ -317,7 +318,7 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |
 |Launch
 |Ad serving
-|{{w|PubMatic}} is founded.<ref>{{ccite web|url = https://pubmatic.com/about-us/|title = PubMatic: About|publisher = PubMatic|accessdate = June 13, 2021}}</ref>
+|{{w|PubMatic}} is founded.<ref>{{cite web|url = https://pubmatic.com/about-us/|title = PubMatic: About|publisher = PubMatic|accessdate = June 13, 2021}}</ref>
 |-
 |2006
 |
@@ -455,7 +456,7 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |October 1
 |Launch
 |Demand-side platform
-|'''The Trade Desk''', a technology company that operates a demand-side platform, launches.<ref>{{cite web|url = https://www.crunchbase.com/organization/the-trade-desk|title = The Trade Desk|publisher = [[wikipedia:CrunchBase|CrunchBase]]|accessdate = April 14, 2017}}</ref>
+|'''The Trade Desk''', a technology company that operates a demand-side platform, launches.<ref>{{cite web|url = https://www.crunchbase.com/organization/the-trade-desk|title = The Trade Desk|publisher = {{w|CrunchBase}}|accessdate = April 14, 2017}}</ref>
 |-
 |2009
 |November 9
@@ -554,7 +555,7 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |January 24
 |Launch
 |Social media advertising
-|Facebook launches Sponsored Stories, where brands can pay money to have their posts or other interactions related to the brand (such as friend activity) appear in front of more users. The Sponsored Stories would appear in place of existing ads and would not increase the ad load on the site (later, Sponsored Stories would become part of the News Feed; however, at this time, they are not).<ref>{{cite web|url = http://www.adweek.com/digital/sponsored-stories-feed-ads/|title = Facebook’s Sponsored Stories Turns News Feed Posts Into Home Page Ads|last = Constine|first = Josh|date = January 24, 2011|accessdate = April 5, 2017|publisher = [[wikipedia:Adweek|Adweek]]}}</ref><ref>{{Cite web|url = http://www.adweek.com/digital/facebook-launches-sponsored-stories-125531/|title = Facebook Launches ‘Sponsored Stories’|last = Morrissey|first = Brian|publisher = [[wikipedia:Adweek|Adweek]]|date = January 25, 2011|accessdate = April 5, 2017}}</ref>
+|Facebook launches Sponsored Stories, where brands can pay money to have their posts or other interactions related to the brand (such as friend activity) appear in front of more users. The Sponsored Stories would appear in place of existing ads and would not increase the ad load on the site (later, Sponsored Stories would become part of the News Feed; however, at this time, they are not).<ref>{{cite web|url = http://www.adweek.com/digital/sponsored-stories-feed-ads/|title = Facebook’s Sponsored Stories Turns News Feed Posts Into Home Page Ads|last = Constine|first = Josh|date = January 24, 2011|accessdate = April 5, 2017|publisher = {{w|Adweek}}}}</ref><ref>{{Cite web|url = http://www.adweek.com/digital/facebook-launches-sponsored-stories-125531/|title = Facebook Launches ‘Sponsored Stories’|last = Morrissey|first = Brian|publisher = {{w|Adweek}}|date = January 25, 2011|accessdate = April 5, 2017}}</ref>
 |-
 |2011
 |August
@@ -572,19 +573,19 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |November 4
 |New publisher
 |Native advertising
-|Viral content publisher [[wikipedia:BuzzFeed|BuzzFeed]] launches its advertising page, inviting brands to run viral advertising campaigns on BuzzFeed.<ref>{{cite web|url = http://www.buzzfeed.com/help/advertising|archiveurl = https://web.archive.org/web/20111111001836/http://www.buzzfeed.com/help/advertising|archivedate = November 11, 2011|title = Help / Advertising and Partnerships|publisher = [[wikipedia:BuzzFeed|BuzzFeed]]}}</ref> (Note: the archived link is from November 11; the date of November 4 comes from Google Search snippet).
+|Viral content publisher [[wikipedia:BuzzFeed|BuzzFeed]] launches its advertising page, inviting brands to run viral advertising campaigns on BuzzFeed.<ref>{{cite web|url = http://www.buzzfeed.com/help/advertising|archiveurl = https://web.archive.org/web/20111111001836/http://www.buzzfeed.com/help/advertising|archivedate = November 11, 2011|title = Help / Advertising and Partnerships|publisher = {{w|BuzzFeed}}}}</ref> (Note: the archived link is from November 11; the date of November 4 comes from Google Search snippet).
 |-
 |2011
 |December 20
 |Launch
 |Social media advertising
-|Facebook announces that, starting in January 2012, it will be showing ads in the news feed on web (''not'' on mobile), with the name "Featured Stories".<ref>{{cite web|url = http://adage.com/article/digital/facebook-start-placing-ads-user-news-feeds-january/231691/|title = Facebook to Start Placing Ads in User News Feeds in January. 'Sponsored Stories' in the News Feed, But Not in Mobile for Now|last = Delo|first = Cotton|date = December 20, 2011|accessdate = April 5, 2017|publisher = [[wikipedia:Advertising Age|Advertising Age]]}}</ref><ref>{{cite web|url = https://techcrunch.com/2011/12/20/sponsored-stories-news-feed/|title = Facebook Sponsored Story Ads To Appear In The Web News Feed In 2012|last = Constine|first = Josh|date = December 20, 2011|accessdate = April 5, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref><ref>{{cite web|url = https://www.ft.com/content/a6e33c1a-2b7a-11e1-9fd0-00144feabdc0|title = Facebook to allow advertising in news feed|date = April 21, 2011|accessdate = April 5, 2017|publisher = ''[[wikipedia:Financial Times|Financial Times]]''|last = Dembowsky|first = April}}</ref> The stories must be based on actions by the viewer's friends or from pages that the viewer has liked. As of January 10, 2012, the feature has launched.<ref>{{cite web|url = http://www.zdnet.com/article/facebook-starts-displaying-ads-in-the-news-feed/|title = Facebook starts displaying ads in the News Feed. Facebook has finally put ads in your News Feed. These new ads, which are labelled as Featured Stories, are displayed based on actions made by your friends and Pages you have Liked.|last = Protalski|first = Emil|date = January 10, 2012|accessdate = April 6, 2017|publisher = ''[[wikipedia:ZDNet|ZDNet]]''}}</ref>
+|Facebook announces that, starting in January 2012, it will be showing ads in the news feed on web (''not'' on mobile), with the name "Featured Stories".<ref>{{cite web|url = http://adage.com/article/digital/facebook-start-placing-ads-user-news-feeds-january/231691/|title = Facebook to Start Placing Ads in User News Feeds in January. 'Sponsored Stories' in the News Feed, But Not in Mobile for Now|last = Delo|first = Cotton|date = December 20, 2011|accessdate = April 5, 2017|publisher = {{w|Advertising Age}}}}</ref><ref>{{cite web|url = https://techcrunch.com/2011/12/20/sponsored-stories-news-feed/|title = Facebook Sponsored Story Ads To Appear In The Web News Feed In 2012|last = Constine|first = Josh|date = December 20, 2011|accessdate = April 5, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref><ref>{{cite web|url = https://www.ft.com/content/a6e33c1a-2b7a-11e1-9fd0-00144feabdc0|title = Facebook to allow advertising in news feed|date = April 21, 2011|accessdate = April 5, 2017|publisher = ''[[wikipedia:Financial Times|Financial Times]]''|last = Dembowsky|first = April}}</ref> The stories must be based on actions by the viewer's friends or from pages that the viewer has liked. As of January 10, 2012, the feature has launched.<ref>{{cite web|url = http://www.zdnet.com/article/facebook-starts-displaying-ads-in-the-news-feed/|title = Facebook starts displaying ads in the News Feed. Facebook has finally put ads in your News Feed. These new ads, which are labelled as Featured Stories, are displayed based on actions made by your friends and Pages you have Liked.|last = Protalski|first = Emil|date = January 10, 2012|accessdate = April 6, 2017|publisher = ''[[wikipedia:ZDNet|ZDNet]]''}}</ref>
 |-
 |2012
 |January
 |Launch
 |Real-time bidding standard
-|OpenRTB 2.0, a specification for [[wikipedia:real-time bidding|real-time bidding]] (RTB), is released.<ref>{{cite web|url = https://www.iab.com/guidelines/real-time-bidding-rtb-project/|title = Real-Time Bidding (RTB) Project: OpenRTB 2.5|publisher = [[wikipedia:Interactive Advertising Bureau|Interactive Advertising Bureau]]|accessdate = April 3, 2017}}</ref>
+|OpenRTB 2.0, a specification for [[wikipedia:real-time bidding|real-time bidding]] (RTB), is released.<ref>{{cite web|url = https://www.iab.com/guidelines/real-time-bidding-rtb-project/|title = Real-Time Bidding (RTB) Project: OpenRTB 2.5|publisher = {{w|Interactive Advertising Bureau}}|accessdate = April 3, 2017}}</ref>
 |-
 |2012
 |June
@@ -614,8 +615,7 @@ The chart below shows pageviews of the English Wikipedia article {{w|Online adve
 |October 27 (one of the releases)
 |New feature
 |End user control standard
-|The Acceptable Ads standard is created by eyeo (the company behind Adblock Plus) and the Adblock Plus community. The standard controls which advertisers and ad formats are permitted for users who opt in to Acceptable Ads. It is offered as a middle ground between full ad blocking and no ad blocking.<ref>{{cite web|url = https://acceptableads.com/about/|publisher = Acceptable Ads|accessdate = June 13, 2021}}</ref> The Adblock Plus 1.3 release (October 27) starts showing some of these acceptable ads by default.<ef>{{cite web|url = https://adblockplus.org/releases/adblock-plus-13-for-google-chrome-released|title = Adblock Plus and (a little) more
-Adblock Plus 1.3 for Google Chrome™ released|date = October 27, 2012|accessdate = June 13, 2021|publisher = Adblock Plus}}</ref>
+|The Acceptable Ads standard is created by eyeo (the company behind Adblock Plus) and the Adblock Plus community. The standard controls which advertisers and ad formats are permitted for users who opt in to Acceptable Ads. It is offered as a middle ground between full ad blocking and no ad blocking.<ref>{{cite web|url = https://acceptableads.com/about/|title=What ads are acceptable?|publisher = Acceptable Ads|accessdate = June 13, 2021}}</ref> The Adblock Plus 1.3 release (October 27) starts showing some of these acceptable ads by default.<ref>{{cite web|url = https://adblockplus.org/releases/adblock-plus-13-for-google-chrome-released|title = Adblock Plus and (a little) more|date = October 27, 2012|accessdate = June 13, 2021|publisher = Adblock Plus}}</ref>
 |-
 |2012
 |December 11
@@ -627,7 +627,7 @@ Adblock Plus 1.3 for Google Chrome™ released|date = October 27, 2012|accessdat
 |March
 |Adoption
 |Ad serving
-|[[wikipedia:Reddit|Reddit]] starts using Adzerk for ad serving. This replaces DFP for serving external ads, and replaces Reddit's in-house ad management system for native advertising.<ref>{{cite web|url = https://www.reddit.com/r/blog/comments/1aqp5c/quick_update_about_ads_on_reddit/|title = Quick update about ads on reddit|publisher = [[wikipedia:Reddit|Reddit]]|date = March 21, 2013|accessdate = April 7, 2017}}</ref><ref>{{cite web|url = https://techcrunch.com/2013/05/30/how-adzerk-made-it-big-by-hitching-their-wagon-to-reddit/|title = How Adzerk Made It Big (With Reddit’s Help)|last = Biggs|first = John|date = May 30, 2013|accessdate = April 7, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref><ref>{{cite web|url = https://adzerk.com/blog/2014/04/why-reddit-built-their-advertising-system-on-the-adzerk-platform/|title = Why Reddit Built Their Advertising System On The Adzerk Platform|date = April 17, 2014|accessdate = April 7, 2017|publisher = Adzerk}}</ref><ref>{{cite web|url = https://moz.com/blog/the-advertisers-guide-to-surviving-reddit|title = The Advertiser's Guide To Surviving Reddit|last = Coraggio|first = Anthony|date = April 28, 2014|accessdate = April 7, 2017|publisher = Moz}}</ref>
+|[[wikipedia:Reddit|Reddit]] starts using Adzerk for ad serving. This replaces DFP for serving external ads, and replaces Reddit's in-house ad management system for native advertising.<ref>{{cite web|url = https://www.reddit.com/r/blog/comments/1aqp5c/quick_update_about_ads_on_reddit/|title = Quick update about ads on reddit|publisher = {{w|Reddit}}|date = March 21, 2013|accessdate = April 7, 2017}}</ref><ref>{{cite web|url = https://techcrunch.com/2013/05/30/how-adzerk-made-it-big-by-hitching-their-wagon-to-reddit/|title = How Adzerk Made It Big (With Reddit’s Help)|last = Biggs|first = John|date = May 30, 2013|accessdate = April 7, 2017|publisher = ''[[wikipedia:TechCrunch|TechCrunch]]''}}</ref><ref>{{cite web|url = https://adzerk.com/blog/2014/04/why-reddit-built-their-advertising-system-on-the-adzerk-platform/|title = Why Reddit Built Their Advertising System On The Adzerk Platform|date = April 17, 2014|accessdate = April 7, 2017|publisher = Adzerk}}</ref><ref>{{cite web|url = https://moz.com/blog/the-advertisers-guide-to-surviving-reddit|title = The Advertiser's Guide To Surviving Reddit|last = Coraggio|first = Anthony|date = April 28, 2014|accessdate = April 7, 2017|publisher = Moz}}</ref>
 |-
 |2013
 |April 26
@@ -682,6 +682,7 @@ Adblock Plus 1.3 for Google Chrome™ released|date = October 27, 2012|accessdat
 |Acquisition
 |Video advertising
 |It is announced that {{w|Comcast}} is acquiring Freewheel, a video advertising solution used by many online video platforms including the online presence of many TV networks.<ref>{{cite web|url = https://techcrunch.com/2014/03/01/comcast-freewheel/|title = Comcast Is Acquiring Video Ad Company FreeWheel For $320 Million|date = March 1, 2014|accessdate = June 13, 2021|publisher = TechCrunch|last = Lawler|first = Ryan}}</ref>
+|-
 |2014
 |March 24
 |Launch
@@ -728,7 +729,7 @@ Adblock Plus 1.3 for Google Chrome™ released|date = October 27, 2012|accessdat
 |July 19
 |New feature
 |Header bidding
-|The first commit for Prebid.js on GitHub is made by Paul Young.<ref>{{cite web|url = https://github.com/prebid/Prebid.js/commit/49fa6daeeb7f37e58463d4da44f60bb37091cdd2|title = first commit: Prebid.js|date = July 19, 2015|accessdate = April 3, 2017|publisher = Prebid.js team on GitHub}}</ref> Prebid.js is a project at AppNexus to facilitate header bidding integrations.<ref>{{cite web|url = https://blog.appnexus.com/2016/prebid-js-a-year-in-the-life-of-an-open-sourced-ad-tech-project/|title = Prebid.js: a year in the life of an open-sourced ad tech project|last = Yang|first = Paul|date = August 1, 2016|accessdate = April 3, 2017|publisher = [[wikipedia:AppNexus|AppNexus]]}}</ref><ref>{{cite web|url = https://adexchanger.com/ad-exchange-news/news-corp-exits-rubicon-project-investment/|title = News Corp. Exits Rubicon Project Investment|publisher = AdExchanger|date = February 13, 2017|accessdate = April 3, 2017}}</ref>
+|The first commit for Prebid.js on GitHub is made by Paul Young.<ref>{{cite web|url = https://github.com/prebid/Prebid.js/commit/49fa6daeeb7f37e58463d4da44f60bb37091cdd2|title = first commit: Prebid.js|date = July 19, 2015|accessdate = April 3, 2017|publisher = Prebid.js team on GitHub}}</ref> Prebid.js is a project at AppNexus to facilitate header bidding integrations.<ref>{{cite web|url = https://blog.appnexus.com/2016/prebid-js-a-year-in-the-life-of-an-open-sourced-ad-tech-project/|title = Prebid.js: a year in the life of an open-sourced ad tech project|last = Yang|first = Paul|date = August 1, 2016|accessdate = April 3, 2017|publisher = {{w|AppNexus}}}}</ref><ref>{{cite web|url = https://adexchanger.com/ad-exchange-news/news-corp-exits-rubicon-project-investment/|title = News Corp. Exits Rubicon Project Investment|publisher = AdExchanger|date = February 13, 2017|accessdate = April 3, 2017}}</ref>
 |-
 |2015
 |September 3
@@ -800,13 +801,13 @@ Adblock Plus 1.3 for Google Chrome™ released|date = October 27, 2012|accessdat
 |February 10
 |Third-party verification
 |Viewability standard
-|{{w|Facebook}} agrees to have its ad serving audited by the {{w|Media Rating Council}}.<ref>{{cite web|url = https://adexchanger.com/platforms/facebook-slowly-embraces-mrc-agrees-independent-audit/|title = Facebook Slowly Embraces MRC, Agrees To Independent Audit|last = Schiff|first = Allison|date = February 10, 2017|accessdate = July 29, 2017|publisher = AdExchanger}}</ref><ref>{{cite web|url = https://www.wsj.com/articles/facebook-agrees-to-audit-of-its-metrics-following-data-controversy-1486735200|title = Facebook Slowly Embraces MRC, Agrees To Independent Audit|last = Shields|first = Mike|date = February 10, 2017|accessdate = July 29, 2017|publisher = ''[[Wall Street Journal]]''}}</ref>
+|{{w|Facebook}} agrees to have its ad serving audited by the {{w|Media Rating Council}}.<ref>{{cite web|url = https://adexchanger.com/platforms/facebook-slowly-embraces-mrc-agrees-independent-audit/|title = Facebook Slowly Embraces MRC, Agrees To Independent Audit|last = Schiff|first = Allison|date = February 10, 2017|accessdate = July 29, 2017|publisher = AdExchanger}}</ref><ref>{{cite web|url = https://www.wsj.com/articles/facebook-agrees-to-audit-of-its-metrics-following-data-controversy-1486735200|title = Facebook Slowly Embraces MRC, Agrees To Independent Audit|last = Shields|first = Mike|date = February 10, 2017|accessdate = July 29, 2017|publisher = ''{{w|Wall Street Journal}}''}}</ref>
 |-
 |2017
 |February 21
 |Third-party verification
 |Viewability standard
-|{{w|YouTube}} agrees to have its ad serving audited by the {{w|Media Rating Council}}.<ref>{{cite web|url = http://marketingland.com/google-youtube-mrc-audit-video-viewability-207223|title = Google’s YouTube to undergo MRC audits for video viewability measurement. The audits encompass all aspects of YouTube's third-party measurement integrations with MOAT, DoubleVerify and Integral Ad Science.|date = February 21, 2017|accessdate = July 29, 2017|publisher = MarketingLand}}</ref><ref>{{cite web|url = https://www.wsj.com/articles/google-agrees-to-youtube-metrics-audit-to-ease-advertisers-concerns-1487678403|title = Google Agrees to YouTube Metrics Audit to Ease Advertisers’ Concerns. Third party data collection partnerships will be vetted to boost marketers’ confidence in ad viewing measurements agreed to get audited by the MRC.|last = Shields|first = Mike|date = February 21, 2017|accessdate = July 29, 2017|publisher = ''[[Wall Street Journal]]''}}</ref>
+|{{w|YouTube}} agrees to have its ad serving audited by the {{w|Media Rating Council}}.<ref>{{cite web|url = http://marketingland.com/google-youtube-mrc-audit-video-viewability-207223|title = Google’s YouTube to undergo MRC audits for video viewability measurement. The audits encompass all aspects of YouTube's third-party measurement integrations with MOAT, DoubleVerify and Integral Ad Science.|date = February 21, 2017|accessdate = July 29, 2017|publisher = MarketingLand}}</ref><ref>{{cite web|url = https://www.wsj.com/articles/google-agrees-to-youtube-metrics-audit-to-ease-advertisers-concerns-1487678403|title = Google Agrees to YouTube Metrics Audit to Ease Advertisers’ Concerns. Third party data collection partnerships will be vetted to boost marketers’ confidence in ad viewing measurements agreed to get audited by the MRC.|last = Shields|first = Mike|date = February 21, 2017|accessdate = July 29, 2017|publisher = ''{{w|Wall Street Journal}}''}}</ref>
 |-
 |2017
 |February to April
@@ -926,7 +927,7 @@ Adblock Plus 1.3 for Google Chrome™ released|date = October 27, 2012|accessdat
 |September 3
 |New feature
 |Third-party cookies
-|Firefox's latest release activates Enhanced Tracking Protection by default for all users. This blocks third-party tracking cookies and cryptominers.<ref>{{cite web|url = https://blog.mozilla.org/en/products/firefox/todays-firefox-blocks-third-party-tracking-cookies-and-cryptomining-by-default/|title = Today’s Firefox Blocks Third-Party Tracking Cookies and Cryptomining by Default|last = Wood|first = Marissa|date = September 3, 2019|accessdate = June 13, 2021|publisher = Mozilla}}</ref><ref>{{cite web|url = https://techcrunch.com/2019/09/03/mozilla-flips-the-default-switch-on-firefox-tracking-cookie-blocking/|title = Mozilla flips the default switch on Firefox tracker cookie blocking|last = Lomas|first = Natasha|date = Septembeer 3, 2019|accessdate = June 13, 2021|publisher = TechCrunch}}</ref>
+|Firefox's latest release activates Enhanced Tracking Protection by default for all users. This blocks third-party tracking cookies and cryptominers.<ref>{{cite web|url = https://blog.mozilla.org/en/products/firefox/todays-firefox-blocks-third-party-tracking-cookies-and-cryptomining-by-default/|title = Today’s Firefox Blocks Third-Party Tracking Cookies and Cryptomining by Default|last = Wood|first = Marissa|date = September 3, 2019|accessdate = June 13, 2021|publisher = Mozilla}}</ref><ref>{{cite web|url = https://techcrunch.com/2019/09/03/mozilla-flips-the-default-switch-on-firefox-tracking-cookie-blocking/|title = Mozilla flips the default switch on Firefox tracker cookie blocking|last = Lomas|first = Natasha|date = September 3, 2019|accessdate = June 13, 2021|publisher = TechCrunch}}</ref>
 |-
 |2019
 |September 5
@@ -975,6 +976,12 @@ Adblock Plus 1.3 for Google Chrome™ released|date = October 27, 2012|accessdat
 |Regulation
 |Third-party cookies
 |The UK's competition regulator, the {{w|Competition and Markets Authority}}, announces an agreement with Google whereby Google makes some commitments about the way it will phase out third-party cookies and introduce Privacy Sandbox, so as to minimize the negative effects of these steps on its competition.<ref>{{cite web|url = https://www.gov.uk/government/news/cma-to-have-key-oversight-role-over-google-s-planned-removal-of-third-party-cookies|title = CMA to have key oversight role over Google’s planned removal of third-party cookies. Following an investigation, the CMA has secured commitments from Google to address concerns about Google’s proposal to remove third-party cookies on Chrome.|date = June 11, 2021|accessdate = June 13, 2021}}</ref><ref>{{cite web|url = https://www.adexchanger.com/privacy/google-pledges-not-to-kill-third-party-cookies-without-the-uk-competition-watchdogs-say-so/|title = Google Pledges Not To Kill Third-Party Cookies Without The UK Competition Watchdog’s Say-So|date = June 11, 2021|accessdate = June 13, 2021|publisher = AdExchanger}}</ref>
+|-
+|2021
+|June 24
+|Announcement
+|Third-party cookies
+|Google announces that the release of Privacy Sandbox, the third-party cookie replacement used by Chrome, will be delayed to 2023.<ref>{{cite web|url = https://blog.google/products/chrome/updated-timeline-privacy-sandbox-milestones/|title = An updated timeline for Privacy Sandbox milestones|date = June 24, 2021|accessdate = June 24, 2021|publisher = Google|last = Goel|first = Vinay}}</ref><ref>{{cite web|url = https://www.adexchanger.com/podcast/the-big-story/the-big-story-googles-third-party-cookie-extension/|title = The Big Story: Google's Third-Party Cookie Extension|date = June 24, 2021|accessdate = June 24, 2021|publisher = Adexchanger}}</ref>
 |}
 (*) Such launches are not initial launches, but rather re-launches.
 
