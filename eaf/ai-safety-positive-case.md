@@ -37,30 +37,25 @@ that I financed and partly wrote.
 Another note: whereas 1 is a strong argument for AI safety even at low
 but nontrivial probabilities of AGI, 2 becomes a strong argument only
 at moderately high probabilities over a short time horizon. So if one
-as a low probability estimate for AGI in the near-term, only 1 may be
+has a low probability estimate for AGI in the near-term, only 1 may be
 a compelling argument even if both 1 and 2 are true.
 
 So, question: what are some interesting analyses involving 2 and their
 implications for the relative prioritization of AI safety and other
-causes that safe, aligned AI might solve? A few example causes I'm
-most interested in:
+causes that safe, aligned AI might solve? The template question I'm
+interested in, for any given cause area C:
 
-* Animal welfare: Would safe, aligned AGI put an end to the suffering
-  of animals endured in factory farming and/or in the wild? Does this
-  consideration meaningfully impact current prioritization of (and
-  within) animal welfare? And does it cause anybody interested in
-  animal welfare to focus more on AI safety?
+> Would safe, aligned AGI help radically with the goals of cause C? Does
+> this consideration meaningfully impact current prioritization of (and
+> within) cause C? And does it cause anybody interested in cause C to
+> focus more on AI safety?
 
-* Life extension: Would safe, aligned AGI result in radical
-  improvements to longevity? Does this consideration meaningfully
-  impact current prioritization of (and within) life extension work?
-  And does it cause anybody interested in life extension to focus more
-  on AI safety?
+Examples of cause area C for which I'm particularly interested in
+answers to the question include:
 
-* Global health: Would safe, aligned AGI solve global health issues?
-  Does this consideration meaningfully impact current prioritization
-  of (and within) global health? And does it cause anybody interested
-  in life extension to focus more on AI safety?
+* Animal welfare
+* Life extension
+* Global health
 
 Thanks to Issa Rice for the *Superintelligence* quote and many of the
 other links!
