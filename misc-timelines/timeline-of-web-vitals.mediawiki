@@ -2,12 +2,12 @@ This is a timeline of web vitals, a set of metrics championed by Google that rel
 
 == List of web vitals and corresponding aspects of performance ==
 
-Note that for the three web vitals measured in both field and Lab data, the thresholds for good and poor for field data match the thresholds for good and poor on Lab data (measured using Lighthouse) respectively. The desktop Lab data thresholds differ for some web vitals, and are not in the table below to keep it simple.
+Note that for the three web vitals measured in both field and Lab data, the thresholds for good and poor for field data match the thresholds for good and poor on Lab data (measured using Lighthouse) respectively. This has been the case since June 2021 updates to field data thresholds and the corresponding release of Lighthouse v8. The desktop Lab data thresholds differ for some web vitals, and are not in the table below to keep it simple.
 
 {| class="wikitable sortable" border="1"
 ! Web vital !! Aspect of performance !! Core web vital? !! Reported in field data (PageSpeed Insights, CrUX report)? !! Reported in Lab data (Lighthouse, PageSpeed Insights)? !! Reported in WebPageTest web vitals?<ref>{{cite web|url = https://github.com/WPO-Foundation/webpagetest/blob/master/www/include/RunResultHtmlTable.php|title = RunResultHtmlTable.php|accessdate = July 7, 2021}}</ref><ref>{{cite web|url = https://webpagetest.org/vitals.php?test=210707_AiDc4M_c6299ff94525675f9654ffcd7dcb9a62&run=1|title = Web page performance test result for www.example.com/|date = July 7, 2021|accessdate = July 7, 2021}}</ref> !! Threshold for "good" on field data (if applicable) and mobile Lab data (if applicable) (in milliseconds except CLS that is unitless) !! Threshold for "poor" on field data (if applicable) and mobile Lab data (if applicable) (in milliseconds except CLS that is unitless)
 |-
-| First Contentful Paint (FCP) || Loading speed || No || Yes || Yes || Not online, but supported in code ||  1,800 (increased from 1,000 in Lighthouse v8) || 3,000
+| First Contentful Paint (FCP) || Loading speed || No || Yes || Yes || Not online, but supported in code ||  1,800 || 3,000
 |-
 | Largest Contentful Paint (LCP) || Loading speed || Yes || Yes || Yes (since v6) || Yes || 2,500 || 4,000
 |-
