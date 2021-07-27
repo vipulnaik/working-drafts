@@ -47,7 +47,9 @@ The comparative chart below shows {{w|Google Ngram Viewer}} data American Civil 
 |-
 | 1994 || || Launch || Restrictionist think tank || The {{w|California Coalition for Immigration Reform}} (CCIR) launches. The group advocates for immigration reduction. The CCIR would be a co-sponsor of [[wikipedia:California Propositon 187|California Proposition 187]].
 |-
-| 1996 || December || Launch || Restrictionist think tank || [[wikipedia:NumbersUSA|NumbersUSA]] is founded by [[wikipedia:Roy Beck|Roy Beck]], initially with a launch of the website NumbersUSA.com.<ref name=numbersusa-about>{{Cite web|url = https://www.numbersusa.com/about|title = About Us. Moderates, conservatives & liberals working for immigration numbers that serve America's finest goals|publisher = [[wikipedia:NumbersUSA|NumbersUSA]]|accessdate = March 28, 2017}}</ref>
+| 1994 || || Launch || Pro-immigrant advocacy group || The {{w|Audre Lorde Project}} is founded. Primarily focused on LGBT people of color, it also has a Working Group on Immigrant Rights, seeking to build the leadership of undocumented immigrants, low-wage workers and trans, two-spirit and gender non-conforming immigrants.
+|-
+| 1996 || December || Launch || Restrictionist think tank || {{w|NumbersUSA}} is founded by {{w|Roy Beck}}, initially with a launch of the website NumbersUSA.com.<ref name=numbersusa-about>{{Cite web|url = https://www.numbersusa.com/about|title = About Us. Moderates, conservatives & liberals working for immigration numbers that serve America's finest goals|publisher = [[wikipedia:NumbersUSA|NumbersUSA]]|accessdate = March 28, 2017}}</ref>
 |-
 | 1999 || March || Launch || Academic research center || The Center for Comparative Immigration Studies (CCIS), a center that focuses on global migration, including migration to and from North America, Europe, Africa, and the Asia-Pacific region, launches at the {{w|University of California, San Diego}} (UCSD) under Dr. {{w|Wayne A. Cornelius}}.<ref name=ccis-about>{{cite web|url = http://ccis.ucsd.edu/about/index.html|title = About CCIS|accessdate = March 28, 2017}}</ref>
 |-
