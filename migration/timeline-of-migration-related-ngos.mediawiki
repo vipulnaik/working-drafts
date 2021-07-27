@@ -6,6 +6,13 @@ This page provides a timeline of major organizations not affiliated with the Uni
 * Grassroots/community organizing efforts
 * Mailing lists, websites, and other forums where people congregate to discuss these issues
 
+== Visual data ==
+
+=== Google Ngram Viewer ===
+
+The comparative chart below shows {{w|Google Ngram Viewer}} data American Civil Liberties Union, Migration Policy Institute and American Immigration Council, from 1850 to 2019.<ref>{{cite web |title=American Civil Liberties Union, Migration Policy Institute and American Immigration Council |url=https://books.google.com/ngrams/graph?content=American+Civil+Liberties+Union%2CMigration+Policy+Institute%2CAmerican+Immigration+Council+&year_start=1850&year_end=2019&corpus=26&smoothing=3&direct_url=t1%3B%2CAmerican%20Civil%20Liberties%20Union%3B%2Cc0%3B.t1%3B%2CMigration%20Policy%20Institute%3B%2Cc0%3B.t1%3B%2CAmerican%20Immigration%20Council%3B%2Cc0#t1%3B%2CAmerican%20Civil%20Liberties%20Union%3B%2Cc0%3B.t1%3B%2CMigration%20Policy%20Institute%3B%2Cc0%3B.t1%3B%2CAmerican%20Immigration%20Council%3B%2Cc0 |website=books.google.com |access-date=31 March 2021 |language=en}}</ref>
+
+[[File:American Civil Liberties Union, Migration Policy Institute and American Immigration Council ngram.png|thumb|center|700px]]
 
 == Full timeline ==
 
@@ -26,7 +33,7 @@ This page provides a timeline of major organizations not affiliated with the Uni
 |-
 | 1982 || || Launch || Pro-immigrant advocacy think tank || The [[wikipedia:National Immigration Forum|National Immigration Forum]] launches.<ref>{{cite web|url = http://immigrationforum.org/about/|title = About|publisher = National Immigration Forum|accessdate = March 28, 2017}}</ref>
 |-
-| 1983 || || Launch || Anti-immigrant advocacy group || The [[wikipedia:American Immigration Control Foundation|American Immigration Control Foundation]] (AICF), an advocacy group for low immigration levels, launches.<ref>{{cite web|url = http://www.aicfoundation.com/about.html|title = About|publisher = American Immigration Control Foundation}}</ref>
+| 1983 || || Launch || Anti-immigrant advocacy group || A pair of sister oganizations is founded. The {{w|American Immigration Control Foundation}} (AICF) and {{w|Americans for Immigration Control}}.<ref>{{cite web|url = http://www.aicfoundation.com/about.html|title = About|publisher = American Immigration Control Foundation}}</ref>
 |- 
 | 1985 || || Launch || Restrictionist think tank || The [[wikipedia:Center for Immigration Studies|Center for Immigration Studies]] (CIS), a think tank with the tagline "low-immigration, pro-immigrant", is founded.<ref name=cis-about>{{cite web|url = http://cis.org/About|title = About the Center for Immigration Studies|publisher = Center for Immigration Studies|accessdate = March 28, 2017}}</ref>
 |-
