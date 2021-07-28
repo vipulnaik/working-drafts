@@ -1,5 +1,19 @@
 This timeline covers Chinese immigration to the United States, including both temporary and permanent migration. Among the topics discussed are: migration patterns, source and target regions of migration, laws (U.S. federal and state, and Chinese) that target or significantly affect migration patterns, court cases and administrative/bureaucratic developments affecting migration.
 
+== Visual data ==
+
+=== Google Trends ===
+
+The image below shows {{w|Google Trends}} data for Chinese immigration to the United States (topic) from January 2004 to January 2021, when the screenshot was taken.<ref>{{cite web |title=Chinese immigration to the United States |url=https://trends.google.com/trends/explore?date=all&q=Chinese%20immigration%20to%20the%20United%20States |website=trends.google.com |access-date=15 January 2021}}</ref>
+
+[[File:Chinese gt.jpeg|thumb|center|800px]]
+
+=== Wikipedia Views ===
+
+The chart below shows pageviews of the English Wikipedia article {{w|Chinese immigration to the United States}} on desktop, mobile-web, desktop-spider, mobile-web-spider and mobile app, from July 2015; to December 2020.<ref>{{cite web |title=Chinese immigration to the United States |url=https://wikipediaviews.org/displayviewsformultiplemonths.php?page=Chinese+immigration+to+the+United+States&allmonths=allmonths-api&language=en&drilldown=all |website=wikipediaviews.org |access-date=19 January 2021}}</ref>
+
+[[File:Chinese inmigration usa.jpeg|thumb|center|1000px]]
+
 ==Full timeline==
 
 {| class="wikitable sortable" border="1"
@@ -117,7 +131,7 @@ This timeline covers Chinese immigration to the United States, including both te
 |-
 | 1885 || November 3 || Violence || Washington (Tacoma) || The [[w:Tacoma Riot of 1885|Tacoma Riot of 1885]] occurs. The city of Tacoma had proposed a November 1 deadline for the Chinese population to leave the city. On November 3, two days after the deadline, an angry mob consisting of prominent businessmen, law enforcement, and political leaders marches Chinese residents to the railroad station and forces them to board a train to Portland. In the following days, structures belonging to the now expelled Chinese residents are razed.<ref>Pfaelzer 2007, pp. 219-223.</ref><ref>Chinese Reconciliation Project Foundation 2013, "[http://www.tacomachinesepark.org/about/the-history-of-the-foundation/ The History of the Foundation]."</ref>
 |-
-| 1886 || January 21 || Court case || United States || ''Wing Hing v. City of Eureka'' is filed by Depuy U.S. Marshal B. J. Alerman on behalf of Wing Hing, representing 50 Chinese expelled from Eureka in 1885, against the City of Eureka for its role in expelling the Chinese. Papers are served to Mayor Tom Walsh of Eureka, who had chaired the meeting that led to the expulsion of Chinese. The case attracts considerable attention, with newspapers expressing concern that a victory for the appellant would lead to similar lawsuits against many other California cities.<ref name=driven-out/>{{rp|226-227}} The appellants lose the case.<ref name=driven-out/>{{rp|236-237}}
+| 1886 || January 21 || Court case || United States || ''Wing Hing v. City of Eureka'' is filed by Deputy U.S. Marshal B. J. Alerman on behalf of Wing Hing, representing 50 Chinese expelled from Eureka in 1885, against the City of Eureka for its role in expelling the Chinese. Papers are served to Mayor Tom Walsh of Eureka, who had chaired the meeting that led to the expulsion of Chinese. The case attracts considerable attention, with newspapers expressing concern that a victory for the appellant would lead to similar lawsuits against many other California cities.<ref name=driven-out/>{{rp|226-227}} The appellants lose the case.<ref name=driven-out/>{{rp|236-237}}
 |-
 | 1886 || February 6–9 || Violence || Washington (Seattle) || The {{w|Seattle riot of 1886}} occurs after a [[w:Knights of Labor|Knights of Labor]] chapter attempts forcible expulsion of all Chinese from the city. Violence occurs between chapter members and federal troops ordered in by President [[w:Grover Cleveland|Grover Cleveland]].
 |-
