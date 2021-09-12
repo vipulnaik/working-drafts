@@ -468,7 +468,7 @@ The red vertical line (for June 2015) represents a change in the method of estim
 |-
 | 2021 || {{dts|May 23}} || || In a talk, MIRI researcher Scott Garrabrandt describes "finite factored sets" and usees it to introduce an "alternative to the Pearlian paradigm."<ref>{{cite web|url = https://intelligence.org/2021/05/23/finite-factored-sets/|title = Finite Factored Sets|last = Garrabrandt|first = Scott|date = May 23, 2021|accessdate = May 31, 2021|publisher = Machine Intelligence Research Institute}}</ref>
 |-
-| 2021 || {{dts|July 1}} || || An update is added to Rob Bensinger's May 8 post about MIRI moving from the San Francisco Bay Area. The update links to a comment by MIRI board member Blake Borgeson, who had been tasked with leading/coordinating MIRI's relocation decision process. The update says that for now, MIRI has decided against moving from its current location, citing uncertainty about long-term strategy and trajectory. However, MIRI will show more flexibility in terms of its staff working remotely.<reef name=miri-move-from-bay-area/>
+| 2021 || {{dts|July 1}} || || An update is added to Rob Bensinger's May 8 post about MIRI moving from the San Francisco Bay Area. The update links to a comment by MIRI board member Blake Borgeson, who had been tasked with leading/coordinating MIRI's relocation decision process. The update says that for now, MIRI has decided against moving from its current location, citing uncertainty about long-term strategy and trajectory. However, MIRI will show more flexibility in terms of its staff working remotely.<ref name=miri-move-from-bay-area/>
 |}
 
 ==Meta information on the timeline==
