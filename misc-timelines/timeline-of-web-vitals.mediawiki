@@ -22,6 +22,48 @@ Note that for the three web vitals measured in both field and Lab data, the thre
 | Cumulative Layout Shift (CLS) || Visual stability || Yes || Yes || Yes || Yes || 0.1 || 0.25
 |}
 
+== Numerical and visual data ==
+
+The table below is based on monthly summaries provided in the CrUX announce mailing list.<ref>{{cite web|url = https://groups.google.com/a/chromium.org/g/chrome-ux-report-announce|title = Chrome UX Report Announce|accessdate = October 15, 2021}}</ref> Note that the total number of origins is not necessarily the denominator for the percentages; individual percentages have as denominator only the number of origins for which there was sufficient data for that particular metric.<ref name=crux-twitter-correction>{{cite web|url = https://twitter.com/ChromeUXReport/status/1273494053833900032|title = Correction. Not all origins have data for these metrics and they should not count against the % of "good" origins.|date = June 17, 2020|accessdate = October 15, 2021|publisher = Chrome UX Report (on Twitter)}}</ref>
+
+{| class="wikitable sortable" border="1"
+! Year and month (YYYY-MM) !! Number of origins covered in dataset !! Percentage good Largest Contentful Paint (LCP) !! Percentage good First Input Delay (FID) !! Percentage good Cumulative Layout Shift (CLS) !! Percentage good on all core web vitals !! Special notes
+|-
+| 2020-05 || 7,103,486 || 46 || 86 || 64 || 27 || corrected data to restrict denominator<ref name=crux-twitter-correction/>
+|-
+| 2020-06 || 7,501,835 || 47.84 || 86.74 || 57.45 || 25.34
+|-
+| 2020-07 || 7,527,878 || 47.6 || 86.9 || 57.2 || 25.2
+|-
+| 2020-08 || 7,773,359 || 47.1 || 86.9 || 57.1 || 24.9 || bump in origin coverage due to a data pipeline change that now accepts all user experiences with a FCP<ref name=coverage-change-202008>{{cite web|url = https://groups.google.com/a/chromium.org/g/chrome-ux-report-announce/c/vXXUE6qslKU|title = The 202008 dataset is live|date = September 9, 2020|accessdate = October 15, 2021}}</ref>
+|-
+| 2020-09 || 7,937,088 || 46.8 || 87.6 || 55.8 || 24.6
+|-
+| 2020-10 || 8,050,755 || 47.0 || 88.2 || 52.3 || 23.7
+|-
+| 2020-11 || 7,942,408 || 47.0 || 88.8 || 51.1 || 23.5
+|-
+| 2020-12 || 7,629,156  || 47.1 || 88.7 || 51.0 || 23.4
+|-
+| 2021-01 || 8,185,540 || 47.81 || 89.28 || 50.25 || 23.71
+|-
+| 2021-02 || 8,264,371 || 47.99 || 89.46 || 45.99 || 21.98
+|-
+| 2021-03 || 8,326,310 || 49.01 || 89.66 || 51.84 || 24.81
+|-
+| 2021-04 || 8,423,302 || 49.4 || 89.8 || 53.8 || 25.8
+|-
+| 2021-05 || 8,411,670 || 50.7 || 89.9 || 60.4 || 29.2 || Metric definition updates released in early June are applied to this data, including the 5-second session window for CLS, and at least partly explains the sharp increase in the percentage of origins with good CLS.<ref>{{cite web|url = https://groups.google.com/a/chromium.org/g/chrome-ux-report-announce/c/tjakkbenFZo|title = The 202105 dataset is live|date = June 8, 2021|accessdate = October 15, 2021}}</ref>
+|-
+| 2021-06 || 8,416,608 || 50.6 || 93.0 || 61.0 || 30.6
+|-
+| 2021-07 || 8,174,923 || 50.0 || 93.2 || 61.2 || 30.4
+|-
+| 2021-08 || 8,431,699 || 50.9 || 93.2 || 62.1 || 31.3
+|-
+| 2021-09 || 8,660,068 || 50.9 || 93.3 || 65.4 || 32.8
+|}
+
 == Full timeline ==
 
 {| class="wikitable sortable" border="1"
