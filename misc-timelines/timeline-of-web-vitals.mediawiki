@@ -55,7 +55,7 @@ The table below is based on monthly summaries provided in the CrUX announce mail
 |-
 | 2021-05 || 8,411,670 || 50.7 || 89.9 || 60.4 || 29.2 || Metric definition updates released in early June are applied to this data, including the 5-second session window for CLS, and at least partly explains the sharp increase in the percentage of origins with good CLS.<ref>{{cite web|url = https://groups.google.com/a/chromium.org/g/chrome-ux-report-announce/c/tjakkbenFZo|title = The 202105 dataset is live|date = June 8, 2021|accessdate = October 15, 2021}}</ref>
 |-
-| 2021-06 || 8,416,608 || 50.6 || 93.0 || 61.0 || 30.6
+| 2021-06 || 8,416,608 || 50.6 || 93.0 || 61.0 || 30.6 || The effect of the double-tap-to-zoom FID metric change in Chrome 91, that improves measured FID, is largely seen in this month, and at least partly eexplains the sharp increase in the percentage of origins with good CLS.<ref>{{cite web|url = https://groups.google.com/a/chromium.org/g/chrome-ux-report-announce/c/CvHQXQBbStA|title = The 202106 dataset is live|date = July 13, 2021|accessdate = October 20, 2021}}</ref>
 |-
 | 2021-07 || 8,174,923 || 50.0 || 93.2 || 61.2 || 30.4
 |-
