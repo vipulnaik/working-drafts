@@ -27,7 +27,7 @@ General links for reference:
 
 * [Open Philanthropy's page on immigration policy](https://www.openphilanthropy.org/focus/us-policy/immigration-policy)
 * [Official Open Philanthropy immigration policy grant list](https://www.openphilanthropy.org/giving/grants?field_focus_area_target_id_selective=90) -- this should update as more grants are added.
-* [Donaations List Website (DLW) page on Open Philanthropy's migration policy grants](https://donations.vipulnaik.com/donor.php?donor=Open+Philanthropy&cause_area_filter=Migration+policy): DLW is a website I manage that includes information on donations by various entities I track. As of the time of writing this post, DLW is up-to-date on Open Philanthropy's migration policy grantmaking, but not on their grantmaking in some other areas including scientific research and criminal justice reform. I expect to continue to update the page but it may be lagged somewhat from the official list.
+* [Donations List Website (DLW) page on Open Philanthropy's migration policy grants](https://donations.vipulnaik.com/donor.php?donor=Open+Philanthropy&cause_area_filter=Migration+policy): DLW is a website I manage that includes information on donations by various entities I track. As of the time of writing this post, DLW is up-to-date on Open Philanthropy's migration policy grantmaking, but not on their grantmaking in some other areas including scientific research and criminal justice reform. I expect to continue to update the page but it may be lagged somewhat from the official list.
 
 ## Evidence that Open Philanthropy is reducing its involvement in and commitments to migration policy
 
@@ -182,7 +182,7 @@ Migration policy clearly isn't in league with these. But perhaps it's
 better to compare migration policy with other areas that are more
 structurally similar: [land use
 reform](https://donations.vipulnaik.com/donor.php?donor=Open+Philanthropy&cause_area_filter=Land+use+reform)
-and [macreconomic stabilization
+and [macroeconomic stabilization
 policy](https://www.openphilanthropy.org/giving/grants?field_focus_area_target_id_selective=91). Here
 is what the comparison indicates:
 
@@ -230,7 +230,7 @@ policy space.
 ### Importance, neglectedness, and tractability and BOTECs
 
 Open Phil follows a framework similar to the framework of importance,
-neglecetdness, and tractability: they want to pick *important* causes
+neglectedness, and tractability: they want to pick *important* causes
 that have been *neglected* by other funders and are *tractable*.
 
 The initial cause report established migration policy as important but
@@ -241,7 +241,7 @@ kinds of areas where money can move things forward.
 
 [One of the practices](https://www.openphilanthropy.org/blog/questions-we-ask-ourselves-making-grant#Evaluating_a_grant8217s_cost-effectiveness) followed commonly in Open Philanthropy's internal
 grant writeups is that of BOTECs (back-of-the-envelope-calculations)
-that roughly estimate the cost-effecttiveness of a grant. BOTECs incorporate the ideas of importance, neglectedness, and tractability all into a single formula.
+that roughly estimate the cost-effectiveness of a grant. BOTECs incorporate the ideas of importance, neglectedness, and tractability all into a single formula.
 
 In addition, beyond individual grants, Open Philanthropy uses similar
 cost-effectiveness calculations to inform how much to focus on
@@ -266,7 +266,7 @@ expected. This evolution is described in detail in the 2019 blog post
 [GiveWell’s Top Charities Are (Increasingly) Hard to
 Beat](https://www.openphilanthropy.org/blog/givewells-top-charities-are-increasingly-hard-beat). As
 the blog post describes, Open Philanthropy's original bar for
-cost-effectiveeness was that it should beat out the 100x multiplier
+cost-effectiveness was that it should beat out the 100x multiplier
 expected for unconditional cash transfers. However, by the time of the
 2019 blog post, Open Philanthropy is considering a bar of 500-1,500x,
 comparable with GiveWell top charities.
@@ -345,7 +345,7 @@ acquired about the migration space:
 * Their efforts to fund programs that directly support worker visas
   (such as grants to the U.S. Association for International Migration
   and Protect the People for Haiti H-2A visas) didn't give the desired
-  magnitude of results. Though not menntioned in their write-ups,
+  magnitude of results. Though not mentioned in their write-ups,
   their efforts to create sustainable flows from Haiti got a big blow
   when [Haiti was removed from the Eligile Countries List in January
   2018](https://www.govinfo.gov/content/pkg/FR-2018-01-18/pdf/2018-00812.pdf). This
@@ -359,7 +359,7 @@ acquired about the migration space:
 As best as I can make out, Open Philanthropy has not significantly
 changed its thinking on the importance of the issue or its
 neglectedness (with the exception of refugee migration where it has
-updated toward that area being more negleceted). Rather, the biggest
+updated toward that area being more neglected). Rather, the biggest
 updates have been around tractability (where there was initially a lot
 of uncertainty). To break that down further, this is talking about the
 tractability of what Open Philanthropy and its grantees can
@@ -389,7 +389,7 @@ they have not found strong opportunities for migration philanthropy,
 that suggests that such options are probably either not available or
 hard to find. So while this shouldn't change our view on the moral
 justness or practical consequences of immigration restrictions, it
-should make us more pessimistic about tthe ability of philanthropy to
+should make us more pessimistic about the ability of philanthropy to
 meaningfully move this. For donors who are moderately cause-agnostic,
 it does look like, relative to other causes, migration policy may not
 be the right thing to focus on.
@@ -402,6 +402,3 @@ the space.
 
 Open Philanthropy has transformed spaces like animal welfare and AI
 safety by pumping huge amounts of money into these spaces.
-
-
-
