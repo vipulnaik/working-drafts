@@ -189,9 +189,9 @@ is what the comparison indicates:
 * All three areas get a similar treatment in Open Philanthropy's
   annual progress / plans report.
 
-* Migration policy has slightly higher overall spend across the
-  years, the dubious distinction of a lot of exit grants, which is
-  more evidence of Open Philanthropy scaling back in the area.
+* Migration policy has slightly higher overall spend across the years,
+  though with the dubious distinction of a lot of exit grants, which
+  is more evidence of Open Philanthropy scaling back in the area.
 
 * Land use reform, like migration policy, has had a relatively quiet
   last couple of years; although the amount donated hasn't fallen
