@@ -262,7 +262,7 @@ macroeconomic stabilization policy.
 One key evolution in Open Philanthropy's thinking, particularly as it
 applies to near-termist, human-centric grantmaking, is in the "bar"
 that grants must satisfy in terms of the cost-effectiveness multiplier
-expected. This evolution is described in deetail in the 2019 blog post
+expected. This evolution is described in detail in the 2019 blog post
 [GiveWell’s Top Charities Are (Increasingly) Hard to
 Beat](https://www.openphilanthropy.org/blog/givewells-top-charities-are-increasingly-hard-beat). As
 the blog post describes, Open Philanthropy's original bar for
@@ -278,7 +278,7 @@ more funding for these charities to use up. In a review of [past
 BOTECs](https://docs.google.com/document/d/1GsE2_TNWn0x6MWL1PTdkZT2vQNFW8VFBslC5qjk4sgo/edit),
 this led to the conclusion that out of 33 grants whose internal
 writeups including *ex ante* BOTECs, all passed the original 100x bar
-but onlly 8 of the 33 passed the 1000x bar.
+but only 8 of the 33 passed the 1000x bar.
 
 A predicted consequence of this raising of the bar would be a
 reduction in grantmaking in near-termist, human-centric areas
@@ -345,8 +345,12 @@ acquired about the migration space:
 * Their efforts to fund programs that directly support worker visas
   (such as grants to the U.S. Association for International Migration
   and Protect the People for Haiti H-2A visas) didn't give the desired
-  magnitude of results but might have succeeded in creating low-level
-  sustainable flows.
+  magnitude of results. Though not menntioned in their write-ups,
+  their efforts to create sustainable flows from Haiti got a big blow
+  when [Haiti was removed from the Eligile Countries List in January
+  2018](https://www.govinfo.gov/content/pkg/FR-2018-01-18/pdf/2018-00812.pdf). This
+  was after they published their [October 2017
+  retrospective](https://www.openphilanthropy.org/focus/us-policy/immigration-policy/october-2017-update-protect-people-seasonal-migration-haiti).
 
 ## Discussion of the implications, both in terms of what we can learn from Open Philanthropy and what it means for the crowdedness or lack thereof of the space
 
