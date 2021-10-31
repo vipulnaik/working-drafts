@@ -396,9 +396,39 @@ be the right thing to focus on.
 
 ### There is space for other donors passionate about migration policy to make donations
 
-Even if we update against migration policy from a purely
+Even if we update against migration policy from a purely near-termist
 cost-effectiveness angle, there's still plenty of room to donate in
-the space.
+the space for donors who are interested both in helping people now and
+in shaping the long-term discourse.
 
 Open Philanthropy has transformed spaces like animal welfare and AI
-safety by pumping huge amounts of money into these spaces.
+safety by pumping huge amounts of money into these spaces. In animal
+welfare, they were a major source of funding for cage-free
+campaigns. With AI safety, they're a major source of funding for
+several AI safety organizations (along with Jann Tallinn via the
+Survival and Flourishing Fund).
+
+In contrast, because of the various reasons discussed in the post,
+they have not flooded the migration policy space with money. For
+donors who are not looking at immediate cost-effectiveness, and are
+passionate about this cause, the many opportunities -- including ones
+that Open Phil has funded and ones it passed up on -- would be worth
+looking into.
+
+A comparison of different migration policy philanthropy options would
+be a separate post; I did one [years
+ago](https://openborders.info/blog/possibilities-for-philanthropy-towards-achieving-more-migration-andor-open-borders/)
+collating comments on an EconLog post. I do have more updated thoughts
+on the matter, but it would take some time to write them up.
+
+## Conclusion
+
+Although funding migration policy did not "take off" as a cause for
+Open Philanthropy, they don't appear to have updated away from the
+importance or neglectedness of the issue. Rather, they have struggled
+to find philanthropic opportunities that are cost-effective. Donors
+with a similar mindset as Open Philanthropy should use this
+information to also update away from migration policy philanthropy;
+those who are passionate aboout migration policy per se should
+consider this evidence that the space is still uncrowded. We probably
+shouldn't update much on the subject of free migration itself.
