@@ -64,29 +64,35 @@ This is a timeline of {{w|Bay Area Rapid Transit}} (BART), a mass rapid transit 
 
 The image below shows BART average weekday, Saturday, and Sunday ridership by month from January 2001 to March 2018. Traffic is highest on weekdays, lower on Saturdays, and even lower on Sundays. The referenced source will update the graph every month; the version shown below does not auto-update.<ref name=bart-ridership-graph>{{cite web|url = https://bart.vipulnaik.com/ridership.php?entryStation=total&exitStation=total|title = BART Ridership: total to total|accessdate = June 22, 2017}}</ref>
 
-[[File:BART ridership.png|500px]]
+[[File:BART ridership.png|thumb|center|500px]]
 
 === Ridership to Embarcadero, the busiest station ===
 
 The image below shows BART ridership to and from Embarcadero: average weekday, Saturday, and Sunday ridership values by month from January 2001 to May 2017. Traffic is highest on weekdays, lower on Saturdays, and even lower on Sundays. Traffic ''to'' Embarcadero is a little higher than traffic ''from'' Embarcadero for any given month and day type, but differences between type of day dominate entry/exit differences. The referenced source will update the graph every month; the version shown below does not auto-update.<ref name=bart-ridership-graph-embarcadero>{{cite web|url = https://bart.vipulnaik.com/ridership.php?entryStation=total&exitStation=EM|title = BART Ridership: total to EM|accessdate = June 22, 2017}}</ref>
 
-[[File:BART ridership to Embarcadero.png|500px]]
+[[File:BART ridership to Embarcadero.png|thumb|center|500px]]
 
 === Wikipedia pageviews ===
 
-The image below shows pageviews of the Wikipedia page {{w|Bay Area Rapid Transit}} from December 2007 to June 2017 on desktop, and from July 2015 to June 2017 on mobile web, mobile app, desktop spider, and mobile web spider. The image will not auto-update with data for new months; you can visit the source page to get up-to-date data.<ref>{{cite web|url = https://wikipediaviews.org/displayviewsformultiplemonths.php?page=Bay+Area+Rapid+Transit&allmonths=allmonths&language=en&drilldown=all|title = Wikipedia Views for Bay Area Rapid Transit|accessdate = July 6, 2017}}</ref>
+The image below shows pageviews of the Wikipedia page {{w|Bay Area Rapid Transit}} from December 2007 to January 2021 on desktop, and from July 2015 to January 2021 on mobile web, mobile app, desktop spider, and mobile web spider. The image will not auto-update with data for new months; you can visit the source page to get up-to-date data.<ref>{{cite web|url = https://wikipediaviews.org/displayviewsformultiplemonths.php?page=Bay+Area+Rapid+Transit&allmonths=allmonths&language=en&drilldown=all|title = Wikipedia Views for Bay Area Rapid Transit|accessdate = July 6, 2017}}</ref>
 
-[[File:BART Wikipedia views.png|500px]]
+[[File:BART wv.jpeg|thumb|center|700px]]
 
 === Google Trends ===
 
-The image below shows Google Trends data from 2004 (the start of availability of the data) to July 2017, when the screenshot was taken.<ref>{{cite web|url = https://trends.google.com/trends/explore?date=all&q=%2Fm%2F0gdjj|title = Bay Area Rapid Transit (Metro System)|publisher = Google Trends|accessdate = July 6, 2017}}</ref>
+The comparative chart below shows {{w|Google Trends}} data ({{w|United States}}) for Bay Area Rapid Transit (Transit line) and New York City Subway (Mass transportation system) from January 2004 to February 2021, when the screenshot was taken.<ref>{{cite web |title=Bay Area Rapid Transit and New York City Subway |url=https://trends.google.com/trends/explore?date=all&geo=US&q=%2Fm%2F0gdjj,%2Fm%2F01pz3b |website=Google Trends |access-date=3 February 2021}}</ref>
 
-[[File:BART Google trends.png|500px]]
+[[File:Bay area gtrends.jpeg|thumb|center|700px]]
 
 The image below shows Google Trends data for just one week, with times shown in Pacific Time (the local timezone for BART). Relative interest appears to peak in the evenings, around 5 PM.<ref>{{cite web|url = https://trends.google.com/trends/explore?date=now%207-d&q=%2Fm%2F0gdjj|title = Bay Area Rapid Transit (Metro System)|publisher = Google Trends|accessdate = July 7, 2017}}</ref>
 
-[[File:BART Google trends one week.png|500px]]
+[[File:BART Google trends one week.png|thumb|center|700px]]
+
+=== Google Ngram Viewer ===
+
+The chart below shows {{w|Google Ngram Viewer}} data for Bay Area Rapid Transit, from 1957 to 2019.<ref>{{cite web |title=Bay Area Rapid Transit |url=https://books.google.com/ngrams/graph?content=Bay+Area+Rapid+Transit&year_start=1957&year_end=2019&corpus=26&smoothing=3&case_insensitive=true |website=books.google.com |access-date=1 February 2021}}</ref>
+
+[[File:Bart ngram.jpeg|thumb|center|800px]]
 
 == Full timeline == 
 {| class="wikitable sortable"
