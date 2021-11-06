@@ -10,7 +10,7 @@ it'd be worth revisiting the body of work.
 
 This post is structured a bit differently than Sebastian's posts,
 which went into detail on the individual grants. Since we now have a
-larger set of grants (21 grants directly identified as being related
+larger set of grants (22 grants directly identified as being related
 to migration policy) it's not that valuable to discuss them
 individually, or even the ones made since Sebastian's last
 post. Instead, the post focuses on Open Philanthropy's overall
@@ -35,16 +35,14 @@ General links for reference:
 
 A few lines of evidence are suggestive:
 
-* The grants database includes *no* grants since November 2020 -- a
-  gap of almost a year as of the time of writing this post. There's
-  usually a lag of a few months between making a grant and publishing
-  a write-up about it, so this absence could still be consistent with
-  *some* grantmaking in 2021, but likely not much.
+* The grants database includes only one grant in 2021 (of $600,000 to
+  the Federation of American Scientists, which is a different flavor
+  than past grants) and otherwise no other grants since November 2020.
 
 * Open Philanthropy has been using [exit
   grants](https://en.wikipedia.org/wiki/Exit_grant) as well as
   reducing levels of commitment even for grantees that they are
-  continuing to support.
+  continuing to support:
 
   * The [March 2020
     grant](https://www.openphilanthropy.org/focus/us-policy/immigration-policy/center-global-development-migration-program-2020)
