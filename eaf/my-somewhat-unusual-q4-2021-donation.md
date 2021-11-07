@@ -1,30 +1,31 @@
 On October 9, 2021, I made a donation that might be considered
 somewhat unusual: a $1,000 gift (along with overhead, this came to
 $1,004.99) to the blogger behind [The Fangirl
-Verdict](https://thefangirlverdict.com/). This may come as a bit
-surprising, given my past [donation
+Verdict](https://thefangirlverdict.com/). This may come as a surprise,
+given my past [donation
 history](https://vipulnaik.com/donation-history/) and my interest in
 [effective altruism](https://vipulnaik.com/effective-altruism/).
 
 I thought I would write a little bit more about my thinking behind
-this donation, as well as more generally my thinking about donation,
-hence this post. Nothing here is being presented as a recommendation
-for others to follow.
+this donation, as well as more generally my personal thoughts on
+donations, hence this post. Nothing here is being presented as a
+recommendation for others to follow.
 
 ## Background on where I am with respect to donations
 
 ### The kinds of donations I am looking to make
 
 My financial state is at the point where I feel like I've accumulated
-enough savings to be comfortable consideering time-sensitive donation
+enough savings to be comfortable considering time-sensitive donation
 opportunities -- and also comfortable investigating potential
 opportunities -- but not enough savings for me to be actively looking
 for ways to give it away. I also haven't signed any pledges around
 giving, and in general I don't feel any obligation to hit specific
 giving targets, but I do in general plan to continue accumulating
 money with the possibility of either donating it or using it to
-finance future activities (such as quitting my job and trying
-something where I don't get paid).
+finance future activities with altruistic side-effects (such as
+quitting my job and trying something where I don't get paid (much) but
+feel I'm directly helping the world more).
 
 There are a number of "fallback" donation targets including the EA
 Funds and the GiveWell Maximum Impact Fund. If I had enough savings
@@ -37,7 +38,7 @@ like this:
    likely to beat the fallback donation targets.
 2. After exhausting those (either not finding any within a
    predetermined time limit, or meeting their funding gaps), donate
-   the rest of the money to the dallback donation targets.
+   the rest of the money to the fallback donation targets.
 
 I am currently *not* at the level of savings where I'm actively
 looking to give it away. So, in particular, I won't do step 2; I will
@@ -55,10 +56,25 @@ money and more information. So it really boils down to just:
 I think of my [Q1 2019 EA Hotel
 donation](https://forum.effectivealtruism.org/posts/BM2DYWpM6rSxyZ7AS/my-q1-2019-ea-hotel-donation)
 as being a donation of the above kind: a time-sensitive donation
-oportunity that, for the windw oof time-sensitivity, is likely to beat
+oportunity that, for the window of time-sensitivity, is likely to beat
 the fallback donation targets. I am planning to write a retrospective
 on it at some point; my preliminary retrospective assessment of that
 donation is positive.
+
+A few notes on background thoughts that inform my views:
+
+* My general impression of EA spaces is that they are not
+  cash-constrained in the short- or medium-term, and the constraints
+  are more on the side of finding productive uses of the money. The
+  recent growth in wealth of Dustin Moskovitz as well as Jaan
+  Tallinn's wealth gains with crypto price increases further cement my
+  belief.
+
+* For this and a variety of other reasons, I think the direct effect
+  in terms of removing funding cnostraints, as well as the
+  demonstration effects, of funding in the EA space, are not enough to
+  make a compelling case for donating now. My decisions to donate are
+  therefore more moved by the case for specific opportunities.
 
 ### The donation amounts I am thinking about
 
