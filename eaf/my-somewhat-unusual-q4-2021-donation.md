@@ -1,6 +1,6 @@
-On October 9, 2021, I made a donation that might be considered
-somewhat unusual: a $1,000 gift (along with overhead, this came to
-$1,004.99) to the blogger behind [The Fangirl
+On Saturday, October 9, 2021, I made a donation that might be
+considered somewhat unusual: a $1,000 gift (along with overhead, this
+came to $1,004.99) to the blogger behind [The Fangirl
 Verdict](https://thefangirlverdict.com/). This may come as a surprise,
 given my past [donation
 history](https://vipulnaik.com/donation-history/) and my interest in
@@ -56,7 +56,7 @@ money and more information. So it really boils down to just:
 I think of my [Q1 2019 EA Hotel
 donation](https://forum.effectivealtruism.org/posts/BM2DYWpM6rSxyZ7AS/my-q1-2019-ea-hotel-donation)
 as being a donation of the above kind: a time-sensitive donation
-oportunity that, for the window of time-sensitivity, is likely to beat
+opportunity that, for the window of time-sensitivity, is likely to beat
 the fallback donation targets. I am planning to write a retrospective
 on it at some point; my preliminary retrospective assessment of that
 donation is positive.
@@ -71,7 +71,7 @@ A few notes on background thoughts that inform my views:
   belief.
 
 * For this and a variety of other reasons, I think the direct effect
-  in terms of removing funding cnostraints, as well as the
+  in terms of removing funding constraints, as well as the
   demonstration effects, of funding in the EA space, are not enough to
   make a compelling case for donating now. My decisions to donate are
   therefore more moved by the case for specific opportunities.
@@ -85,7 +85,9 @@ decisionmaking. So for instance if I make one donation in six months
 it could be anywhere from $1,000 to $6,000.
 
 I decided on this budget starting July 2021, and this is my first
-donation since then (though I have considered others).
+donation since then (though I have considered others). So as of the
+end of October 2021 I have spent aroound $1,000 out of a cumulative
+budget of $4,000.
 
 ### Donations versus gifts
 
@@ -122,9 +124,9 @@ against the corresponding budget).
 I have a qualitative picture of the way I want to see the world move,
 and one of the qualities that interest me is *legibility*: bringing
 the world more within our understanding. I even mooted the idea of
-sponsoring a Legibility Prize at some point, and though I didn't act
-on it, I would probably retroactively declare this donation as being a
-Legibility Prize award.
+sponsoring a Legibility Prize at some point, and if I did end up
+making one, I would probably retroactively declare this donation as
+being a Legibility Prize award.
 
 A bit more background. I think a lot of public social efforts,
 particularly the ones that are more successful, are designed with
@@ -170,9 +172,11 @@ out with public production and then getting a steady stream of income
 as a result of that, is itself a positive incentive to engage in
 public production in the first place. But in my view of the world it
 would be even better if people can stay funded to continue doing great
-work on legibiility -- helping the whole world see more clearly.
+work on legibility -- helping the whole world see more clearly.
 
-### The unlikely world of drama fandom
+## The specific donee and amount
+
+### About The Fangirl Verdict
 
 This brings me to [The Fangirl
 Verdict](https://thefangirlverdict.com/) and its sole author kfangurl;
@@ -181,8 +185,8 @@ part of her public persona, so I will not use it either. There's a
 great [interview of her on
 Audible](https://www.audible.com/pd/96-Interview-With-Kfangurl-of-The-Fangirl-Verdict-Podcast/B08W8NPDJX)
 that goes in some detail on how she got started in this
-space. Remarkably, until the COVID-19 pandeemic, this was just a side
-thing for her that made her very little money; she had a full-time
+space. Remarkably, until the COVID-19 pandemic, this was just a side
+hobby for her that made her very little money; she had a full-time
 job. When the COVID-19 pandemic led to reduced work, she started
 thinking more about switching focus to the blog, and that meant
 looking for ways to monetize it.
@@ -229,4 +233,56 @@ I think the following:
   push a little bit in the direction of no-strings-attached funding;
   such funding tugs in the direction of public production.
 
+* I am reasonably confident that she's on the path to figuring out the
+  right sustainable monetization approach (that is consistent with a
+  lot of public output), but that it's not a no-brainer right now. So
+  this money at the margin *probably* helps provide some much needed
+  runway.
 
+### Decision of how much to donate
+
+As previously mentioned, I generally aim for a minimum donation size
+of $1,000. In this case, I felt that this minimum donation size would
+provide a few additional weeks of runway, which would be enough both
+as a signal of confidence and in terms of making a meaningful
+difference in terms of kfangurl's ability to figure out a long-term
+strategy.
+
+Some reasons I didn't donate more, that were more constraints from my
+side:
+
+* I wanted to maintain a buffer for making other donations; there were
+  some other donations I was still investigating at the time, though
+  as of now it appears that I won't be making them.
+
+* Overall, since I wasn't super-confident that this donation was
+  needed, I wanted to choose a level low enough to be "no-regret" for
+  me even if a retrospective revealed this to be a useless donation.
+
+Some reasons I didn't donate more, that were more based on my
+thinking about the impact on the donee (though I think these
+constraints were less binding than the constraints on my side):
+
+* The donation comes with no string attached; I didn't want to donate
+  a much larger amount that might create a sense of obligation for
+  kfangurl to continue doing this work even if she decided against it.
+
+* Relatedly, I didn't want to make a donation that was large enough to
+  be distortionary to the process of figuring out the monetization
+  strategy. That's because I believe that figuring out the
+  monetization strategy is key to the long-term sustainability of the
+  endeavor -- I don't think donations/philanthropy of the sort I did
+  make sense as a dominant source of funding in the long term.
+
+### Timing of the donation
+
+I had been pondering this donation since September; I mooted the idea
+of the Legibility Prize back on September 22. Initially, I wanted to
+hold off on this because I was expecting to make other, larger
+donations that would use up my $1,000/month budget for a while.
+
+By early October, I had decided that I either wouldn't make the larger
+donations or would make them at a lower size than I had initially
+thought. This left some room for making the donation to kfangurl. The
+ultimate decision to donate was a sort-of-impulsive decision with all
+the background.
