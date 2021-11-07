@@ -92,7 +92,7 @@ this was the case for 2020:
 
 * The [August 2020 exit
   grant](https://www.openphilanthropy.org/focus/us-policy/immigration-policy/labor-mobility-partnerships-international-labor-mobility)
-  to Labor Mobility Partnersips was a little before the end of the
+  to Labor Mobility Partnerships was a little before the end of the
   1.5-year timeframe of the previous 1.5-year [March 2019 incubation
   grant](https://www.openphilanthropy.org/focus/us-policy/immigration-policy/center-global-development-labor-mobility-partnerships). The
   amount was also corresponding lower but at roughly the same rate
