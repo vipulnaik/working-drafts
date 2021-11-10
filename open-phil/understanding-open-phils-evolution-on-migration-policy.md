@@ -1,5 +1,11 @@
 # Understanding Open Philanthropy's evolution on migration policy
 
+NOTE: I sent this post to Open Philanthropy for comment. They wrote:
+
+> We may share an update on our plans for future work on this cause at
+> some point, but don't have anything we're ready to discuss publicly
+> just yet.
+
 My co-blogger Sebastian wrote posts in
 [2015](https://openborders.info/blog/overview-of-the-open-philanthropy-projects-work-on-migration-liberalisation/)
 and
