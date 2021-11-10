@@ -349,9 +349,9 @@ acquired about the migration space:
 * Their efforts to fund programs that directly support worker visas
   (such as grants to the U.S. Association for International Migration
   and Protect the People for Haiti H-2A visas) didn't give the desired
-  magnitude of results. Though not mentioned in their write-ups,
-  their efforts to create sustainable flows from Haiti got a big blow
-  when [Haiti was removed from the Eligile Countries List in January
+  magnitude of results. Though not mentioned in their write-ups, their
+  efforts to create sustainable flows from Haiti got a big blow when
+  [Haiti was removed from the Eligible Countries List in January
   2018](https://www.govinfo.gov/content/pkg/FR-2018-01-18/pdf/2018-00812.pdf). This
   was after they published their [October 2017
   retrospective](https://www.openphilanthropy.org/focus/us-policy/immigration-policy/october-2017-update-protect-people-seasonal-migration-haiti).
