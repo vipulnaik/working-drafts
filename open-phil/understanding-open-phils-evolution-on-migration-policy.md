@@ -1,6 +1,7 @@
 # Understanding Open Philanthropy's evolution on migration policy
 
-NOTE: I sent this post to Open Philanthropy for comment. They wrote:
+NOTE: I sent a draft of this post to Open Philanthropy for
+comment. They wrote:
 
 > We may share an update on our plans for future work on this cause at
 > some point, but don't have anything we're ready to discuss publicly
