@@ -342,7 +342,7 @@ acquired about the migration space:
 * They have struggled to find success in the space of influencing
   policy around labor mobility or migration more generally. They've
   exited the space in various ways, including exiting Niskanen Center,
-  exitig Labor Mobility Partnerships after helping start it, and
+  exiting Labor Mobility Partnerships after helping start it, and
   reducing ongoing commitment to the Center for Global Development's
   migration program to $200,000/year.
 
