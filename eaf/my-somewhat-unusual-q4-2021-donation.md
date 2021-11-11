@@ -1,6 +1,6 @@
 On Saturday, October 9, 2021, I made a donation that might be
 considered somewhat unusual: a $1,000 gift (along with overhead, this
-came to $1,004.99) to the blogger behind [The Fangirl
+came to $1,004.99) to kfangurl, the blogger behind [The Fangirl
 Verdict](https://thefangirlverdict.com/). This may come as a surprise,
 given my past [donation
 history](https://vipulnaik.com/donation-history/) and my interest in
