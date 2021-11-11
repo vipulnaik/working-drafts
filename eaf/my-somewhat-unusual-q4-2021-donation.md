@@ -227,7 +227,7 @@ I think the following:
   continuing to focus on The Fangirl Verdict than returning to her day
   job (though it ultimately would be her call). In particular, I don't
   want her to prematurely give up because of challenges figuring out
-  the monetizatioon side of it (though if she got bored of the work
+  the monetization side of it (though if she got bored of the work
   itself it makes sense to stop doing it!).
 
 * At the margin, I prefer that, even as she figures out ways to
@@ -290,4 +290,4 @@ By early October, I had decided that I either wouldn't make the larger
 donations or would make them at a lower size than I had initially
 thought. This left some room for making the donation to kfangurl. The
 ultimate decision to donate was a sort-of-impulsive decision with all
-the background.
+this information in the backdrop.
