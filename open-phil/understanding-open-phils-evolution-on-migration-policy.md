@@ -444,6 +444,6 @@ importance or neglectedness of the issue. Rather, they have struggled
 to find philanthropic opportunities that are cost-effective. Donors
 with a similar mindset as Open Philanthropy should use this
 information to also update away from migration policy philanthropy;
-those who are passionate aboout migration policy per se should
+those who are passionate about migration policy per se should
 consider this evidence that the space is still uncrowded. We probably
 shouldn't update much on the subject of free migration itself.
