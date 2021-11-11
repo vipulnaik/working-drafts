@@ -81,7 +81,10 @@ intend, even at the time of incubation, to support LaMP in the long
 term -- just to get it off the ground. The "exit grant" should
 therefore not be thought of as a reduction in a previous planned
 commitment, and therefore shouldn't be thought of as a sign that Open
-Philanthropy is trying to exit the migration policy space.
+Philanthropy is trying to exit the migration policy space. It is,
+however, tentative evidence suggesting that the level of future
+grantmaking may be less than the level of grantmaking in 2019 and
+2020 (when LaMP was receiving grants).
 
 A counterpoint to the narrative of exit is a [raw look at the
 numbers](https://donations.vipulnaik.com/donor.php?donor=Open+Philanthropy&cause_area_filter=Migration+policy#donorDonationAmountsByDoneeAndYear)
