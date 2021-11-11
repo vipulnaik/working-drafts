@@ -11,9 +11,10 @@ My co-blogger Sebastian wrote posts in
 [2015](https://openborders.info/blog/overview-of-the-open-philanthropy-projects-work-on-migration-liberalisation/)
 and
 [2016](https://openborders.info/blog/update-open-philanthropy-projects-work-migration-liberalisation/)
-reviewing Open Philanthropy's thinking and grantmaking work in the
-migration space. It's now five years since the last post so I thought
-it'd be worth revisiting the body of work.
+reviewing [Open Philanthropy's](https://openphilanthropy.org/)
+thinking and grantmaking work in the migration space. It's now five
+years since the last post so I thought it'd be worth revisiting the
+body of work.
 
 This post is structured a bit differently than Sebastian's posts,
 which went into detail on the individual grants. Since we now have a
