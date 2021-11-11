@@ -68,7 +68,12 @@ A few notes on background thoughts that inform my views:
   are more on the side of finding productive uses of the money. The
   recent growth in wealth of Dustin Moskovitz as well as Jaan
   Tallinn's wealth gains with crypto price increases further cement my
-  belief.
+  belief. My impression is further cemented by the planned launch of
+  the [FTX
+  Foundation](https://www.facebook.com/13934653/posts/10118866028010570/)
+  to give away Sam Bankman-Fried's and his friends' crypto-derived
+  wealth (I did not have that information at the time of making the
+  donation that this post is about).
 
 * For this and a variety of other reasons, I think the direct effect
   in terms of removing funding constraints, as well as the
