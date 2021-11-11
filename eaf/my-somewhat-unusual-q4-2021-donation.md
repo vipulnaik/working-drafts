@@ -44,7 +44,7 @@ I am currently *not* at the level of savings where I'm actively
 looking to give it away. So, in particular, I won't do step 2; I will
 limit my donation efforts to step 1. And even within step 1, my
 investigation's "proactive" nature will be limited, because giving
-away money is not a priority. Moreover, I will give more priority to
+money away is not a priority. Moreover, I will give more priority to
 relatively time-sensitive donation opportunities, and not focus on
 other donation opportunities that I can revisit later when I have more
 money and more information. So it really boils down to just:
