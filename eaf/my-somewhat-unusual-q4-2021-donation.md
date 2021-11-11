@@ -291,3 +291,20 @@ donations or would make them at a lower size than I had initially
 thought. This left some room for making the donation to kfangurl. The
 ultimate decision to donate was a sort-of-impulsive decision with all
 this information in the backdrop.
+
+### Further donations?
+
+In light of the various considerations that led me to choose the
+donation amount, it's relatively unlikely that I will make further
+donations to kfangurl. I would not rule it out, but I do not expect to
+privilege this donation target for consideration when thinking about
+future donations.
+
+### Retrospective
+
+The donation amount is small enough that I do not feel obliged to
+write up a retrospective on it. I do, however, plan to continue
+monitoring the blog, something that's made easier by the fact that I
+expect to continue to be interested in its content as a consumer. The
+success and the trajectory of The Fangirl Verdict in coming years will
+inform my thinking about such donations.
