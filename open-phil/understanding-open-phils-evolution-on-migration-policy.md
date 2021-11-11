@@ -122,11 +122,12 @@ Center for Global Development migration program (at $200,000/year)
 and the International Refugee Assistance Project general support (at
 $500,000/year).
 
-One positive sign of increased giving was a grant to Mercy Corps for
-seasonal migration in Nigeria. Open Philanthropy has previously funded
-studies of migration around the world, and this seems in line with
-that past funding -- but the magnitude of the Mercy Corps funding is
-significant at $1,000,000. It is unclear, however, if this was a
+One positive sign of increased giving was a [grant to Mercy
+Corps](https://www.openphilanthropy.org/focus/us-policy/immigration-policy/mercy-corps-seasonal-migration-pilot-project-and-rct)
+for seasonal migration in Nigeria. Open Philanthropy has previously
+funded studies of migration around the world, and this seems in line
+with that past funding -- but the magnitude of the Mercy Corps funding
+is significant at $1,000,000. It is unclear, however, if this was a
 one-off, and moreover, this is a bit outside what we normally think of
 as migration *policy* (as the barriers being addressed when promoting
 seasonal migration are more financial and educational than policy
