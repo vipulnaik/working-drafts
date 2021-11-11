@@ -59,9 +59,11 @@ A few lines of evidence are suggestive:
     funding level of $200,000/year (after one year at the old
     funding level) that "may be more sustainable for the long run."
   
-  * They exit-granted Labor Mobility Partnerships in [November
+  * They exit-granted Labor Mobility Partnerships (LaMP) in [November
     2020](https://www.openphilanthropy.org/focus/us-policy/immigration-policy/labor-mobility-partnerships-international-labor-mobility)
-    and Niskanen Center in [January
+    (see note below on the LaMP exit grant being a little different
+    and possibly not evidence of general exit from the space) and
+    Niskanen Center in [January
     2020](https://www.openphilanthropy.org/focus/us-policy/immigration-policy/niskanen-center-research-on-immigration-policy-2020).
 
   * They had previously exit-granted [Protect the
@@ -72,7 +74,15 @@ A few lines of evidence are suggestive:
     the program are
     [here](https://www.openphilanthropy.org/focus/us-policy/immigration-policy/october-2017-update-protect-people-seasonal-migration-haiti).
 
-A counterpoint is a [raw look at the
+The exit grant to LaMP is a little different from the other exit
+grants: I have it on good authority that Open Philanthropy did not
+intend, even at the time of incubation, to support LaMP in the long
+term -- just to get it off the ground. The "exit grant" should
+therefore not be thought of as a reduction in a previous planned
+commitment, and therefore shouldn't be thought of as a sign that Open
+Philanthropy is trying to exit the migration policy space.
+
+A counterpoint to the narrative of exit is a [raw look at the
 numbers](https://donations.vipulnaik.com/donor.php?donor=Open+Philanthropy&cause_area_filter=Migration+policy#donorDonationAmountsByDoneeAndYear)
 which actually shows 2020 as the *biggest year* in terms of money
 donated for migration policy (at $3.7 million donated). That number
