@@ -200,6 +200,8 @@ satisfaction of making donations. With that said, a general theme of
 EA is to de-emphasize the donor's own personal feelings as a factor in
 the donation decision, so I will set this aside.
 
+TODO: Add discussion on relationship with giving now vs giving later.
+
 ### Wealth-based donations suffer from the same decision quality diversity issues as donor lotteries (though with different selection effects)
 
 [Donor lotteries](https://funds.effectivealtruism.org/donor-lottery)
