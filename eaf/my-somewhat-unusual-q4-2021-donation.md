@@ -11,6 +11,12 @@ this donation, as well as more generally my personal thoughts on
 donations, hence this post. Nothing here is being presented as a
 recommendation for others to follow.
 
+Sections of this post:
+
+* [Background on where I am with respect to donations](#background-on-where-i-am-with-respect-to-donations)
+* [Some background thinking motivating this donation](#some-background-thinking-motivating-this-donation)
+* [The specific donee, amount, timing, and followup considerations](#the-specific-donee-amount-timing-and-followup-considerations)
+
 ## Background on where I am with respect to donations
 
 ### The kinds of donations I am looking to make
@@ -179,7 +185,7 @@ public production in the first place. But in my view of the world it
 would be even better if people can stay funded to continue doing great
 work on legibility -- helping the whole world see more clearly.
 
-## The specific donee and amount
+## The specific donee, amount, timing, and followup considerations
 
 ### About The Fangirl Verdict
 
