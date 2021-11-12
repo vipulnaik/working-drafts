@@ -1,3 +1,6 @@
+*See https://vipulnaik.com/blog/my-somewhat-unusual-q4-2021-donation/
+ for the official/published version!*
+
 On Saturday, October 9, 2021, I made a donation that might be
 considered somewhat unusual: a $1,000 gift (along with overhead, this
 came to $1,004.99) to kfangurl, the blogger behind [The Fangirl
