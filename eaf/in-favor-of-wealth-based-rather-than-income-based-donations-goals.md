@@ -28,6 +28,12 @@ income-based/wealth-based approach is almost (but not fully)
 orthogonal to the "how much" versus "where" distinction that was the
 focus of the previous post.
 
+Scope: While this post should be of interest to people of all stripes
+with some philanthropic interests, a lot of the community dynamics
+discussions are specific to the effective altruist (EA) community and
+causes that enjoy support within the community. Readers who don't
+align with the EA community may choose to ignore those parts.
+
 ## The prevailing income-based donation approach
 
 ### Key characteristics
@@ -140,3 +146,94 @@ Alameda Research and FTX, and he's committed to donating pretty much
 all of the exorbitant multi-billion dollar wealth he has amassed (as
 are some of his co-founders).
 
+### At an individual level, income-based donations are better distributed over time; community effects unclear
+
+At an *individual* level, those donating at a regular cadence based on
+income have a more even distribution of donations over time. Whereas
+those using a wealth-based approach will tend to start donating later
+in life once they acquire enough wealth.
+
+The individual level, however, is not super-important; the community
+level matters more. Nonprofits and organizations in the space can't operate on
+expected donations several years in the future, so a steday stream of
+funding is important at the community level.
+
+The key question is: how does the individual level translate to the
+community level? And specifically, how does this work for the EA
+community?
+
+The EA community dominated by younger cohorts would tend to have fewer
+donations in the early years until the people in the cohorts get
+older. So cash flow could be weak in such communities early on, and
+pick up over time. There is also a risk of people experiencing value
+drift and leaving the community right as they get rich.
+
+To some extent, the EA community is dominated by younger cohorts, and
+maybe was particularly so dominated back in the early 2010s. For these
+reasons, the early 2010s might have been a good time for a norm of
+income-based donationo -- particularly from the perspective of
+directing money to the community and its favored causes as well as to
+growing its own infraustructure.
+
+Now, however, the EA community occupies a wider age range, and has
+several grantmaking institutions supporting it, funded by a lot of
+wealth. If an individual chooses a wealth-based rather than an
+income-based strategy, the time delay effects of that individual's
+donations (if the individual happens to be younger) likely have little
+effect, and may cancel the time-acceleration effects for older
+converts with more accumulated wealth.
+
+### Wealth-based donations is more lottery-like: some donors may end up not donating at all
+
+With a wealth-based donation system, some donors may never rise to the
+target levels of wealth needed to start giving money away, whereas
+others may end up giving a lot *more* of it away than if they simply
+used a percentage of income. The profile of donors will have a much
+more "winner-takes-all" feel to it than with an income-based approach.
+
+For those to whom the act of personally making a donation itself
+carries a positive valence, there may be a sense of risk-aversion with
+respect to the risk of not being a "winner" in terms of getting to
+make a donation. Such donors may prefer an income-based approach that
+makes it more likely that they will experience the joy and
+satisfaction of making donations. With that said, a general theme of
+EA is to de-emphasize the donor's own personal feelings as a factor in
+the donation decision, so I will set this aside.
+
+### Wealth-based donations suffer from the same decision quality diversity issues as donor lotteries (though with different selection effects)
+
+[Donor lotteries](https://funds.effectivealtruism.org/donor-lottery)
+have been touted as a way for small donors to get around the problem
+that for small donation amounts. the investigation costs are large
+compared to the amount being donated. By pooling donations and then
+having a winner decide how to spend the money, we benefit from a
+larger pool of money allocated relative to the investigation overhead.
+
+Wealth-based donations are a bit like that, both in terms of the "who"
+and the "how often" of donation. The "who" because not everybody will
+hit the wealth-based targets. The "how often" because they likely
+won't hit the targets for at least part of their life, and so the
+number of times they have to make donation decisions per unit money is
+smaller.
+
+While the reduced investigation overhead is a benefit, the reduced
+diversity in decisionmaking, both across people and across time, could
+be a cost. With income-based donations, everybody is thinking eevery
+year about where to donate. Thus, a diversity of inputs shapes how
+funds are directed. With wealth-based donations, fewer people are
+making fewer decisions.
+
+In addition, there are selection effects (for better or worse): people
+who accumulate wealth are not a random subset of the population, and
+the ways they are unusual may correlate positively or negatively with
+donation decision quality. Moreover, the additional age needed to
+accumulate wealth further creates a bias toward older people.
+
+To some extent, these effects can be reversed if those who have
+accummulated the wealth and are donating it do the opposite of a
+lottery: delegating the decision of "where" to donate to others, such
+as:
+
+* Established organizations like GiveWell
+* Hired people at one's own foundation
+* Private or public input solicited from others
