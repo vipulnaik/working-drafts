@@ -1,3 +1,7 @@
+*See
+ https://forum.effectivealtruism.org/posts/4R5f4ntM6t3GLoLTw/donor-strategies-for-separating-how-much-from-where-to
+ for the official/published version!*
+
 Of late, I have been quite interested in understanding the motivations
 and strategies of different donors. My goal is to better understand
 the entire dynamics of the ecosystem (of donors and donees affecting
