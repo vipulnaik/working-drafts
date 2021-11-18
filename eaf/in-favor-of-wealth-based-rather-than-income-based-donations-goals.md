@@ -20,7 +20,7 @@ This post is a sequel of sorts to my post [Donor strategies for
 separating "how much" from "where" to
 donate](https://forum.effectivealtruism.org/posts/4R5f4ntM6t3GLoLTw/donor-strategies-for-separating-how-much-from-where-to). That
 post was focused on deciding the "how much" to donate versus the
-"where" to donate, and in particular on the benefits of predetermined
+"where" to donate, and in particular on the pros and cons of predetermined
 rules of how much to donate. This post adds a further dimension to the
 "how much" question by distinguishing the prevailing income-based
 approach from the wealth-based approach. This
@@ -118,7 +118,7 @@ interpersonal variance to be less than one order of magnitude).
 Wealth range | Qualitative description | How I think about donating if I were at this level of wealth now
 -- | -- | --
 Under $100,000 | Focus is on maintaining and growing wealth | No proactive donation efforts given current state of world; might be open to truly unusual donation opportunities
-$100,000 to $1,000,000 | Growing wealth is still desirable but less of a focus since I don't expect to run out of money unless trying something very risky | Open to donation opportunities; how much I doate is highly sensitive to assessment of details; not proactively looking to spend down my wealth
+$100,000 to $1,000,000 | Growing wealth is still desirable but less of a focus since I don't expect to run out of money unless trying something very risky | Open to donation opportunities; how much I donate is highly sensitive to assessment of details; not proactively looking to spend down my wealth
 $1,000,000 to $10,000,000 | Whether growing wealth is desirable depends on long-term life choices (do I want to quit my job, take big risks, have children) | Proactively looking for donation targets
 $10,000,000+ | It is almost certain that I will be looking to give away the bulk of my wealth in excess of $10 million | Proactively looking for donation targets and may even fund investigations around identification of such targets if the existing guidance doesn't feel good enough
 
