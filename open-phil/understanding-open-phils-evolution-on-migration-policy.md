@@ -86,8 +86,8 @@ however, tentative evidence suggesting that the level of future
 grantmaking may be less than the level of grantmaking in 2019 and
 2020 (when LaMP was receiving grants).
 
-A counterpoint to the narrative of exit is a [raw look at the
-numbers](https://donations.vipulnaik.com/donor.php?donor=Open+Philanthropy&cause_area_filter=Migration+policy#donorDonationAmountsByDoneeAndYear)
+A counterpoint to the narrative of exit is a [look at the
+raw numbers](https://donations.vipulnaik.com/donor.php?donor=Open+Philanthropy&cause_area_filter=Migration+policy#donorDonationAmountsByDoneeAndYear)
 which actually shows 2020 as the *biggest year* in terms of money
 donated for migration policy (at $3.7 million donated). That number
 alone is misleading because grants often have multi-year timeframes,
@@ -330,6 +330,16 @@ disavows any immediate major changes to grantmaking patterns:
 > about this kind of uncertainty is unusual and can be unnerving, but
 > our hope is that sharing our latest thinking will be useful for
 > others.
+
+More recent developments, however, suggeest that Open Philanthropy is
+following through on its plans to scale back in areas of grantmaking
+where this bar is not met. The most salient example is the [spinout of
+the criminal justice reform grantmaking to its own organization, Just
+Impact](https://www.openphilanthropy.org/blog/our-criminal-justice-reform-program-now-independent-organization-just-impact). While
+the scale of giving in migration policy is probably too small to
+justify a spinout to a separate organization, the general thinking
+around scaling back grantmaking may also apply to migration policy and
+other areas.
 
 ### Specific learning by Open Philanthropy about migration
 
