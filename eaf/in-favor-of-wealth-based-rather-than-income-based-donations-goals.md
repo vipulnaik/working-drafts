@@ -20,10 +20,10 @@ This post is a sequel of sorts to my post [Donor strategies for
 separating "how much" from "where" to
 donate](https://forum.effectivealtruism.org/posts/4R5f4ntM6t3GLoLTw/donor-strategies-for-separating-how-much-from-where-to). That
 post was focused on deciding the "how much" to donate versus the
-"where" to donate, and in particular on the pros and cons of predetermined
-rules of how much to donate. This post adds a further dimension to the
-"how much" question by distinguishing the prevailing income-based
-approach from the wealth-based approach. This
+"where" to donate, and in particular on the pros and cons of
+predetermined rules of how much to donate. This post adds a further
+dimension to the "how much" question by distinguishing the prevailing
+income-based approach from the wealth-based approach. This
 income-based/wealth-based approach is almost (but not fully)
 orthogonal to the "how much" versus "where" distinction that was the
 focus of the previous post.
@@ -155,7 +155,7 @@ in life once they acquire enough wealth.
 
 The individual level, however, is not super-important; the community
 level matters more. Nonprofits and organizations in the space can't operate on
-expected donations several years in the future, so a steday stream of
+expected donations several years in the future, so a steady stream of
 funding is important at the community level.
 
 The key question is: how does the individual level translate to the
@@ -166,7 +166,7 @@ The EA community dominated by younger cohorts would tend to have fewer
 donations in the early years until the people in the cohorts get
 older. So cash flow could be weak in such communities early on, and
 pick up over time. There is also a risk of people experiencing value
-drift and leaving the community right as they get rich.
+drift and leaving the community by the time they get rich.
 
 To some extent, the EA community is dominated by younger cohorts, and
 maybe was particularly so dominated back in the early 2010s. For these
