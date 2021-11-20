@@ -19,7 +19,7 @@ I cover a lot in this review:
 * What is this a review of?
 * Why am I doing this review?
 * Worldview
-* Negotiation strategy
+* Negotiation principles
 * Negotiation techniques
 
 ## What is this a review of?
@@ -50,24 +50,72 @@ You may have seen video ads for MasterClass on YouTube!
 ### What does this cost?
 
 A MasterClass annual subscription all-access pass costs $180. A single
-MasterClass can be purchased for $90.
+MasterClass (such as Chris Voss's) can be purchased for $90.
 
-### Are there other ways of accessing the information without paying for the subscription?
+### How long is the Chris Voss MasterClass?
 
-You may be able to sign up for a free week; however, I'm not sure what subset of the videos in the MasterClass are available. More details [here](https://donotpay.com/learn/masterclass-free-trial).
+There are 18 videos and the total video time is 3 hours 4 minutes;
+this includes three live exercises, that I do *not* discuss here
+(since they are more for demonstration purposes of a range of
+techniques).
 
-For the particular material covered in Chris Voss's MasterClass, many
-of them can individually be found discussed elsewhere on the web,
-including in videos from Chris Voss. I have more links for each of the
-individual tactics.
+The class guide is 14 pages long, including a cover page (this blog
+post overlaps quite a bit with the class guide).
+
+### Are there other ways of watching the MasterClass without paying the subscription fee?
+
+You can sign up and cancel within 30 days to get a full refund. This
+gives you enough time to consume the Chris Voss MasterClass.
+
+You may be able to sign up for a free week; however, I'm not sure what
+subset of the videos in the MasterClass are available. More details
+[here](https://donotpay.com/learn/masterclass-free-trial).
+
+### Are there other ways of accessing the information without watching the MasterClass?
+
+Many of the techniques discussed in the MasterClass are discussed
+online, including in videos from Chris Voss and others. I have more
+links for each of the individual techniques, so you can use my post to
+basically get a "free" version of the MasterClass. You can also Google
+around for more videos and written materials on the techniques.
 
 [Masterwiki.how](https://masterwiki.how/) can be a helpful free
 version of MasterClass, but it does not seem to have Chris Voss's
 MasterClass.
 
+### What's the value-add of the MasterClass beyond the free material in and linked from this blog post?
+
+My blog post didn't exist at the time I bought the MasterClass; I
+think in the absence of such an alternative, the MasterClass was worth
+paying something for. In fact, I would say that the exposure to Chris
+Voss's ideas was worth the price of two full years of MasterClass
+subscription for me, though I could have cancelled after 30 days once
+I had consumed the Chris Voss MasterClass.
+
+Now that this blog post exists, and given the great amount of online
+material, the value-add of the MasterClass is less clear. I think
+there is still a case for it, but it probably isn't worth spending a
+full year's subscription of $180 just for this class, nor is it worth
+spending $90 to buy it. With that said, if you find several other
+MasterClasses that you consider worth watching, the Chris Voss
+MasterClass could tip the scales.
+
+Given the ability to cancel after 30 days, it seems worth trying it
+out if you think there's a chance it will be worthwhile.
+
+Since rationalists have often spent $1,000+ on CFAR workshops and
+found it worthwhile, I think there's a good chance that many will find
+the class worth paying for, even after having access to the material
+in the blog post.
+
 ### What are some interactive discussions where these techniques are critically examined?
 
-The MasterClass is mostly just Chris Voss speaking, with nobody challenging him. I like to see pepole questioned about their ideas, ideally with question that I have or would have if I thought more about it. Since watching the MasterClass, I've [watched several interviews of Chris Voss](https://ese.vipulnaik.com/#consumptionList) that I list below:
+The MasterClass is mostly just Chris Voss speaking, with nobody
+challenging him. I like to see people questioned about their ideas,
+ideally with question that I have or would have if I thought more
+about it. Since watching the MasterClass, I've [watched several
+interviews of Chris Voss](https://ese.vipulnaik.com/#consumptionList)
+that I list below:
 
 * [Master the Art of Negotiating in Business and Life: Lewis Howes](https://www.youtube.com/watch?v=pd7tjnVYMzY)
 * [#MasterClassLive with Chris Voss](https://www.youtube.com/watch?v=nZcBuSCT3Io)
@@ -91,11 +139,11 @@ stuff covered is good.
 
 ### I have already shared several tidbits of insight I learned with friends, but would like to have a public write-up
 
-Several of the ideas I learned from the MasterClass, I've already
-shared with friends. However, given that the MasterClass is paywalled,
-I think it would be helpful to have a public write-up of the ideas
-that I cam link to. A public write-up could benefit people outside my
-inner circle of friends.
+Of the ideas I learned from the MasterClass, I've already shared
+several with friends. However, given that the MasterClass is
+paywalled, I think it would be helpful to have a public write-up of
+the ideas that I cam link to. A public write-up would also benefit people
+outside my inner circle of friends.
 
 ### I broadly think the LessWrong community should be more aware of and engage with these bodies of knowledge
 
@@ -109,10 +157,11 @@ enhance and deepen our rationality.
 ### Outward focus
 
 Negotiation tactics are mostly focused outward: they're focused on how
-to deal with other people, not how to deal with yourself.
+to deal with the other side (known as the "counterpart"), not how to
+deal with yourself.
 
 A large part of the focus of rationality is inward: how to reason
-better, how to tame and use your emotions, howo to achieve
+better, how to tame and use your emotions, how to achieve
 goals. Similarly, many techniques such as meditation and relaxation
 techniques have an inward focus too.
 
@@ -147,18 +196,24 @@ their epistemic goals.
 The negotiation techniques therefore can be quite different from norms
 recommended for rationalist cultures, where there is an assumption
 that all parties are aspiring toward epistemic virtue. For instance,
-"tell culture" can be great as a rationalist norm but would contradict
-many aspects of negotiation techniques.
+[tell
+culture](https://www.lesswrong.com/posts/rEBXN3x6kXgD4pLxs/tell-culture)
+can be great as a rationalist norm but a naive application of tell
+culture principles would contradict many aspects of negotiation
+techniques (thuogh reconciliation is possible).
 
 One concern we might have about negotiation techniques is that they
 specifically *rely* on the irrationality of one's counterparts, and so
-would fall flat or even backfire in more epistemically virtuuos
+would fall flat or even backfire in more epistemically virtuous
 environments. After thinking about the various techniques, I think
 this actually isn't much of a concern, as long as the person applying
 the negotiation techniques adjusts the mix effectively based on what
 is needed. Broadly, I do not think these negotiation techniques are
-what is sometimes called the "dark arts" on LessWrong (though they
-probably could be interpreted as such!).
+what is sometimes called the [dark
+arts](https://www.lesswrong.com/tag/dark-arts) on LessWrong (though
+they probably could be interpreted as such!). Later in this post, as I
+discuss each negotiation technique, I discuss what aspects or variants
+of it I consider "dark arts"y.
 
 ### Emotion-focused or cognitively focused?
 
@@ -175,14 +230,16 @@ very important to understanding how successful the techniques will be.
 Many of the negotiation techniques are applicable to synchronous
 interactions, including in-person and phone interactions. In general,
 the techniques seem optimized for high-bandwidth communication with
-frequent back-and-forth.
+frequent back-and-forth. I found some techniques as well as some
+principles to have broader applicability, including to more
+asynchronous and one-to-may communication contexts.
 
-## Negotiation strategy
+## Negotiation principles
 
-This section covers my own interpretation of key "strategy" ideas
+This section covers my own interpretation of key "principles"
 behind the individual negotiation techniques. The way I frame it
 doesn't always match how Voss presents ideas in the MasterClass or
-elsewhere.
+elsewhere, and may not be endorsed by Voss.
 
 ### Show, don't tell, that you are listening and collaborating in good faith
 
@@ -190,16 +247,16 @@ A lot of the negotiation techniques boil down to a [show, don't
 tell](https://en.wikipedia.org/wiki/Show,_don't_tell) approach of
 demonstrating good faith. Many of these "show"s are constructive proof
 that would be hard to fake for somebody who is not listening and not
-interested in a good faith collaboration. Many of them also directly
-create value by making substantive progress in zeroing in on the
-issues involved.
+interested in a good faith collaboration (examples include labeling
+and the accusations audit). Many of them also directly create value by
+making substantive progress in zeroing in on the issues involved.
 
 A key point: the "show, don't tell" applies at the meta level of your
-sincerity; obviously there will be cases where you have to tell the
-other person factual information or ideas. This is only loosely
-related to pedagogy's "show, don't tell", so actions that are "show"s
-in terms of demonstrating sincerity could be "show"s or "tell"s at the
-object level.
+sincerity and competence; obviously there will be cases where you have
+to tell the other person factual information or ideas. This is only
+loosely related to pedagogy's "show, don't tell", so actions that are
+"show"s in terms of demonstrating sincerity could be "show"s or
+"tell"s at the object level.
 
 ### It's about your counterpart
 
@@ -213,6 +270,15 @@ want ..." or "I need ..." (this is not an absolute injunction, but
 good to start with). Don't make the other person feel you are putting
 them on the spot.
 
+### Slow people down and trigger deeper, reflective thinking
+
+Often, in high-stress situations, people are thinking impulsively,
+defensively, and carelessly. The many negotiation techniques Voss
+teaches are designed partly to get your counterpart to slow down,
+relax, and think more reflectively (Kahneman's "system two"
+thinking). This frame of mind is more conducive to solving challenging
+problems collaboratively.
+
 ### Start low, end high
 
 A general theme in negotiation is how both parties perceive it, and
@@ -221,6 +287,53 @@ endeavor. Starting with the difficult portions and gradually making
 progress to end on a positive note is important.
 
 ## Negotiation techniques
+
+### Tone of voice
+
+Voss identifies three kinds of tones of voice:
+
+* Assertive: Ideally never use this!
+* Playful/accommodating: Use this when learning and
+  collaborating. Generally, this should be used about 80% of the time.
+* Late-night FM DJ: This is a calm, slow, and firm tone used to
+  communicate immovability. Use this instead of the assertive voice
+  whe standing firm. Generally, this should be used about 20% of the
+  time.
+
+He also identifies two kinds of inflections:
+
+* Inquisitive (upward inflection)
+* Declarative (downward inflection)
+
+Inquisitive inflections are good when you want to get the other side
+to talk more.
+
+#### My personal experience with tone of voice
+
+Since a lot of my communication is text-based rather than voice-based,
+these concepts have had limited utility to me. One general idea that
+I've taken from this is to speak more slowly (one of the aspects of
+the late-night FM DJ voice). I might also have reduced my use of
+assertive voice and increased my use of playful/accommodating voice as
+a result of being influenced by these ideas.
+
+Some of the principles also carry over from tone of voice to tone of
+text communication. Even prior to this MasterClass, I adopted a upbeat
+style of communication, sprinkling exclamation points and smileys in
+future drafts. I've continued with this practice.
+
+#### How "dark arts"y is tone of voice?
+
+I don't see anything "dark arts"y about using using a
+playful/accommodating tone of voice.
+
+#### Does tone of voice have a place in rational discourse?
+
+Tone of voice (or tone of text) provides another dimension of
+communication that influences discourse. Using it in a good way seems
+consistent with the idea of rational discourse. Since a lot of ratioal
+discourse is centered around open exchange of ideas, the
+playful/accommodating tone of voice seems suited to it.
 
 ### Mirroring
 
@@ -263,7 +376,7 @@ me.
 
 Mirroring as a way of showing you're listening can be dark arts-y if
 you're *not actually listening*. Somebody practiced enough at
-mirroring coould probably do it automatically without paying close
+mirroring could probably do it automatically without paying close
 attention to what the counterpart is saying. The counterpart then
 thinks you were engaged and listening (because they hear your mirrors
 and don't even realize you were mirroring) but you actually
@@ -286,9 +399,10 @@ A tactical aspect of labeling: Voss recommends using "It
 seems/sounds/feels/looks like ..." or "You seem/sound/look like ..."
 before articulating the label (in a single sentence where possible),
 and being deferential in tone. It is also open to correction (see the
-next section, mislabeling). The use of "I think ..." or "What I'm
-hearing is ..." is discouraged because you want it to be about your
-counterpart and the situation, not about yourself.
+next section, mislabeling). The use of first-person pronoun framings
+such as "I think ..." or "What I'm hearing is ..." is discouraged
+because you want it to be about your counterpart and the situation,
+not about yourself.
 
 Labeling is more high-effort than mirroring: rather than just using
 short-term memory to remember and pick words fromm the last sentence,
@@ -347,16 +461,20 @@ not about you, it's about your counterpart).
 
 ### Mislabeling
 
-Mislabeling refers to the (usually intentional) application of an
-incorrect or exaggerated label to give the counterpart the opportunity
-to correct you and reveal more information. So instead of directly
-asking for the reasons for something, a mislabel might attribute a
-reason that's probably wrong, and let the other person correct it.
+Mislabeling refers to the (usually intentional, or at least
+probabilistically intentional) application of an incorrect or
+exaggerated label to give the counterpart the opportunity to correct
+you and reveal more information. So instead of directly asking for the
+reasons for something, a mislabel might attribute a reason that's
+probably wrong, and let the other person correct it.
 
 For instance, if a person declines to do an activity, you may mislabel
 it as "it sounds like you really hate doing this" which gives them the
 opportunity to correct by saying "actually the time doesn't work, I
 would love to do it next time".
+
+Brandon Voss (Chris Voss's son and business partner) has a video on
+mislabeling [here](https://www.youtube.com/watch?v=0vls0Jbd98g).
 
 #### How "dark arts"y is mislabeling?
 
@@ -388,6 +506,9 @@ on and to correct you. Accoording to Voss, dynamic silence works best
 after you have established, through mirroring and labeling, that you
 are listening, engaged, and understanding.
 
+There's a video discussing dynamic silence
+[here](https://www.youtube.com/watch?v=QKYzRXl3jXM).
+
 #### My personal experience with dynamic silence
 
 I have found dynamic silence to be generally useful when the other
@@ -416,6 +537,19 @@ defensive. When people hear "why" it sounds to them like you think
 there's something wrong, and they want to defend themselves against
 accusations.
 
+#### Legitimate questions
+
+Another related idea that Voss goes over in the MasterClass is to ask
+"legitimate" questions (and/or raise legitimate concerns) --
+basically, the calibrated questions that, if the oother side were to
+hear, they would have to agree that this is a valid point. For
+instance, rather than asking "How will you guarantee me that X?" ask
+the underlying question which might be "How do we deal with the fact
+that I am operating with uncertainty regarding X?" Voss gives the
+example of the proof-of-life question that hostage negotiators must
+ask the kidnapper; he suggests a "How do I know the victim is alive?"
+rather than demanding a proof of life.
+
 #### My personal experience with calibrated questions
 
 I have generally found the calibrated questions idea to work well,
@@ -440,7 +574,7 @@ based on the emotional triggers that "why" could produce. Namely, a
 yourself".
 
 For instance, if you ask "Why did you do X?" it's a very difficult
-questino to address. Instead, a question like "What was your
+question to address. Instead, a question like "What was your
 motivation for X?" has an appropriate level of focus on motivation. On
 the other hand, a question like "What events led you to do X?" has a
 focus on history. By picking a specific aspect, it avoids the very
@@ -472,6 +606,9 @@ cases, there's enough time after the acknowledgement to address the
 substantive issues raised by the negative.
 
 Chris Voss explains the accusations audit [here](https://www.youtube.com/watch?v=aupL1wXVbGA).
+
+Brandon Voss has a practical video on the accusations audit
+[here](https://www.youtube.com/watch?v=-TdvtxranNk).
 
 #### My personal experience with the accusations audit
 
@@ -521,6 +658,9 @@ we have protected ourselves. I think there are a few other factors
 that make no-oriented questions valuable, that I explore in the next
 few paras.
 
+Chris Voss has a video on no-oriented questions
+[here](https://www.youtube.com/watch?v=WiuIHvF1EB0).
+
 #### My personal experience with no-oriented questions
 
 Among all the negotiation techniques, I feel that the switch to
@@ -555,4 +695,37 @@ other side that you are prepared for bad news (in the form of a
 "yes"). This also means that if they deliver bad news, it feels more
 collaborative -- both sides are actively trying to unearth the bad
 news and address it rather than hide from it -- and less of a fight.
+
+Third, responding to a no-oriented question also triggers more
+thinking from the other side, partly because you've already show you
+are willing to hear bad news.
+
+### Tackling loss aversion
+
+Voss talks about [loss
+aversion](https://en.wikipedia.org/wiki/Loss_aversion) -- he calls it
+"fear of loss" -- and says that this distorts people's thinking a
+lot. So what do you do if the idea on the table isn't about a loss?
+His suggestion seems to boil dow to framing it in terms of a loss by
+using the [opportunity
+cost](https://en.wikipedia.org/wiki/Opportunity_cost) framing:
+basically point to the other side what thy lose by *not* doig the
+deal.
+
+#### How "dark arts"y is tackling loss aversion?
+
+To the extent that this is about combating and neutralizing an
+existing loss aversion bias, I think it's not a dark art. But to the
+extent it's about invoking loss aversion and creating distortionary
+fear, I think it is a dark art. A lot depends on the implementation.
+
+#### My personal experience with tackling loss aversion
+
+I do not remember any situations where I consciously applied this
+technique; also, I was aalready broadly aware of the ideas of loss
+aversion and opportunity cost so the marginal impact of the
+MasterClass was low for me.
+
+Chris Voss talks about loss aversion in [this
+video](https://www.youtube.com/watch?v=8vW6gPjk5Sc).
 
