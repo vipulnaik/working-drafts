@@ -28,7 +28,7 @@ I cover a lot in this review:
 ### Who is Chris Voss?
 
 [Christopher Voss](https://en.wikipedia.org/wiki/Christopher_Voss)
-worked ta the FBI as a lead hostage negotiator. In 2008 he left to
+worked at the FBI as a lead hostage negotiator. In 2008 he left to
 form his own company, The Black Swan Group, that offers coaching to
 people on negotiation techniques.
 
@@ -38,7 +38,7 @@ people on negotiation techniques.
 in the growing edutainmment space, combining education and
 entertainment. There are 100+ "classes" in MasterClass. Each class is
 taught by a subject matter expert (the teacher), and includes several
-videos (changing from 2 to 30 minutes, usually 5 to 20 minutes). The
+videos (ranging from 2 to 30 minutes, usually 5 to 20 minutes). The
 typical video format just includes the teacher speaking to the camera,
 but there are occasionally interactive sessions with other
 participants, or other co-instructors.
@@ -769,8 +769,8 @@ collaborative -- both sides are actively trying to unearth the bad
 news and address it rather than hide from it -- and less of a fight.
 
 Third, responding to a no-oriented question also triggers more
-thinking from the other side, partly because you've already show you
-are willing to hear bad news.
+thinking from the other side, partly because you've already shown that
+you are willing to hear bad news.
 
 ### Tackling loss aversion
 
@@ -783,6 +783,9 @@ using the [opportunity
 cost](https://en.wikipedia.org/wiki/Opportunity_cost) framing:
 basically point to the other side what thy lose by *not* doing the
 deal.
+
+Voss talks about loss aversion in [this
+video](https://www.youtube.com/watch?v=8vW6gPjk5Sc).
 
 #### How "dark arts"y is tackling loss aversion?
 
@@ -797,9 +800,6 @@ I do not remember any situations where I consciously applied this
 technique; also, I was already broadly aware of the ideas of loss
 aversion and opportunity cost so the marginal impact of the
 MasterClass was low for me.
-
-Chris Voss talks about loss aversion in [this
-video](https://www.youtube.com/watch?v=8vW6gPjk5Sc).
 
 ### Tactical empathy
 
@@ -844,7 +844,8 @@ agreement.
 Tactical empathy seems closely related to proto-rationalist ideas such
 as [Rogerian
 argument](https://en.wikipedia.org/wiki/Rogerian_argument) and the
-similar "ideological Turing test".
+similar "[ideological Turing
+test](https://www.econlib.org/archives/2011/06/the_ideological.html)".
 
 ### Black swans
 
@@ -957,3 +958,63 @@ I think negotiation principles and techniques are *slightly*
 asymmetric in a positive direction. Overall, if more people adopted
 these successfully, interactions would be calmer and more
 collaborative, and this would lead to better outcomes for all.
+
+### Principal-agent concerns
+
+In many cases, your counterpart is an *agent* of an organization or
+another entity (the *principal*). For instance, you might be
+negotiating with an employee of a company you are doing business
+with. The employee is the agent. The business is the principal. In any
+situation where the agent and principal differ, there is potential for
+a [principal-agent
+problem](https://en.wikipedia.org/wiki/Principal%E2%80%93agent_problem).
+
+The bulk of negotiation techniques are focused on the agent, and as
+such, they may exploit the principal-agent problem to get good deals
+for yourself. Many of the examples provided by Chris Voss, including
+free hotel room upgrades, free flight ticket upgrades, and special
+coupons at stores, seem to be open to this criticism.
+
+I do think this is a valid but ultimately minor criticism. In most of
+these cases, the principals have already made a macro decision as to
+how much discretion to grant agents, and your actions are operating
+within that discretionary framework. For instance, if the hotel front
+desk staff has the ability to offer you a late checkout, that's
+because the hotel management decided to grant them this flexibility.
+
+That said, there could be exceptions, and I think as an individual you
+can decide/choose not to apply negotiation techniques to situations
+where you feel it's exploiting a principal-agent problem in a
+particularly bad way.
+
+### How much does this move the needle in the real world?
+
+The ultimate criticism is that this all sounds cool, but how
+consequential is it to the challenges facing civilization? Surely we
+can't negotiate our way out of AI risk!
+
+I don't have a solid answer, but here is a tentative reason to think
+this is important. First, improving the quality of cooperation in
+general -- both in terms of the objective results produced and the
+positive vibes around it that make it more sustainable -- seems
+extremely important for tackling difficult challenges. People like
+Brian Tomasik have
+[written](https://longtermrisk.org/a-lower-bound-on-the-importance-of-promoting-cooperation/)
+about the broad theme.
+
+Negotiation techniques done right seem like a good way to improve
+collaboration, coordination, and cooperation, at least at the
+micro-level. The handwavy part is getting from that to macro-level
+improvements in cooperation, in ways that meaningfully improve the
+world. I don't have a lot of confidence in how strong that connection
+is. But I think it might be enough to at least give negotiation
+techniques a try. The magnitude is uncertain but I think the effect is
+likely positive.
+
+## Conclusion
+
+Overall I am glad to have been exposed to the negotiation techniques
+and ideas popularized by Chris Voss. I think many of them could be
+valuable to readers on LessWrong. Thank you for reading all the way
+till here, and please don't hesitate to share your thoughts in the
+comments here!
