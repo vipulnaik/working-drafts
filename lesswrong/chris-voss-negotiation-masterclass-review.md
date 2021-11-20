@@ -21,6 +21,7 @@ I cover a lot in this review:
 * Worldview
 * Negotiation principles
 * Negotiation techniques
+* General concerns
 
 ## What is this a review of?
 
@@ -54,10 +55,21 @@ MasterClass (such as Chris Voss's) can be purchased for $90.
 
 ### How long is the Chris Voss MasterClass?
 
-There are 18 videos and the total video time is 3 hours 4 minutes;
-this includes three live exercises, that I do *not* discuss here
-(since they are more for demonstration purposes of a range of
-techniques).
+There are 18 videos and the total video time is 3 hours 4 minutes.
+
+### What aspects of the MasterClass does my review cover?
+
+The MasterClass includes three live exercises, that I do *not* discuss
+here (since they are more for demonstration purposes of a range of
+techniques). I also do not discuss the historical hostage negotiation
+examples that Chris Voss discusses (a bank robbery, the [Jill Carroll
+kidnapping case](https://en.wikipedia.org/wiki/Jill_Carroll), and the
+[Dwight Watson (tobacco farmer)
+case](https://en.wikipedia.org/wiki/Dwight_Watson_(farmer))). I also
+skip some other material, including discussion of bargaining (using
+the [Ackerman
+model](https://jonathanvieker.com/ackerman-bargaining/)), that is
+outside of the main negotiation techniques.
 
 The class guide is 14 pages long, including a cover page (this blog
 post overlaps quite a bit with the class guide).
@@ -78,6 +90,12 @@ online, including in videos from Chris Voss and others. I have more
 links for each of the individual techniques, so you can use my post to
 basically get a "free" version of the MasterClass. You can also Google
 around for more videos and written materials on the techniques.
+
+Voss has also co-authored a book *Never Split The Difference* that
+covers these techniques. It's [available on
+Amazon](https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805);
+at $11.99 for the Kindle edition it is considerably cheaper than the
+MasterClass.
 
 [Masterwiki.how](https://masterwiki.how/) can be a helpful free
 version of MasterClass, but it does not seem to have Chris Voss's
@@ -107,6 +125,22 @@ Since rationalists have often spent $1,000+ on CFAR workshops and
 found it worthwhile, I think there's a good chance that many will find
 the class worth paying for, even after having access to the material
 in the blog post.
+
+### Are there other worthwhile MasterClasses?
+
+I found [Daniel Pink's sales and persuasion
+MasterClass](https://www.masterclass.com/classes/daniel-pink-teaches-sales-and-persuasion)
+to be similar and relevant. There are a lot of similarities and some
+differences between Pink's and Voss's advice on the topics where they
+overlap. [Here](https://learnopoly.com/daniel-pink-masterclass-review/)
+is a good review of Pink's MasterClass as well as some discussion of
+the similarities and differences with Voss's.
+
+In general I have found MasterClass to be worth the subscription cost
+for at least two years, but much of it might have to do with the
+specific topics I am interested in. You can check
+[here](https://ese.vipulnaik.com/#consumptionList) what MasterClasses
+I have watched.
 
 ### What are some interactive discussions where these techniques are critically examined?
 
@@ -142,7 +176,7 @@ stuff covered is good.
 Of the ideas I learned from the MasterClass, I've already shared
 several with friends. However, given that the MasterClass is
 paywalled, I think it would be helpful to have a public write-up of
-the ideas that I cam link to. A public write-up would also benefit people
+the ideas that I can link to. A public write-up would also benefit people
 outside my inner circle of friends.
 
 ### I broadly think the LessWrong community should be more aware of and engage with these bodies of knowledge
@@ -200,7 +234,7 @@ that all parties are aspiring toward epistemic virtue. For instance,
 culture](https://www.lesswrong.com/posts/rEBXN3x6kXgD4pLxs/tell-culture)
 can be great as a rationalist norm but a naive application of tell
 culture principles would contradict many aspects of negotiation
-techniques (thuogh reconciliation is possible).
+techniques (though reconciliation is possible).
 
 One concern we might have about negotiation techniques is that they
 specifically *rely* on the irrationality of one's counterparts, and so
@@ -258,6 +292,13 @@ loosely related to pedagogy's "show, don't tell", so actions that are
 "show"s in terms of demonstrating sincerity could be "show"s or
 "tell"s at the object level.
 
+#### My thoughts on demonstrating good faith
+
+I think this is good advice in general. I do think there are cases
+where "telling" works, but telling is much more likely to backfire
+than showing. So I'd say one must always show, but whether to tell
+depends on how much trust has already been built.
+
 ### It's about your counterpart
 
 An important aspect of the negotiation techniques is to center them on
@@ -270,6 +311,13 @@ want ..." or "I need ..." (this is not an absolute injunction, but
 good to start with). Don't make the other person feel you are putting
 them on the spot.
 
+#### My thoughts on counterpart focus
+
+While I think this makes general sense, there are important
+considerations of asymmetry here that deserve a more detailed
+treatment. I cover the asymmetric nature of counterpart focus in a
+later section.
+
 ### Slow people down and trigger deeper, reflective thinking
 
 Often, in high-stress situations, people are thinking impulsively,
@@ -279,12 +327,34 @@ relax, and think more reflectively (Kahneman's "system two"
 thinking). This frame of mind is more conducive to solving challenging
 problems collaboratively.
 
+#### My thoughts on slowing down
+
+I'm generally in favor of slowing down and thinking deeply and
+reflectively. This doesn't translate to being slow in absolute terms
+-- speeds could vary a lot based on context and familiarity. But I do
+think it's important to avoid "rushing" things and to combat the
+tendency for stressed, anxious thought patterns.
+
 ### Start low, end high
 
 A general theme in negotiation is how both parties perceive it, and
 whether, at the end of it, they feel like it was a worthwhile
 endeavor. Starting with the difficult portions and gradually making
-progress to end on a positive note is important.
+progress to end on a positive note is important. Voss says that "the
+last impression is a lasting impression" and emphasizes that much of
+the positive messaging we are inclined to use to open an interaction
+may be better suited to the close.
+
+#### My thoughts on start low, end high
+
+I definitely agree with this. One of the things that makes
+interactions stressful is when people keep dropping bombshells
+throughout the conversation. This keeps the other side wary throughout
+the conversation. Getting the tough parts in the open quickly makes
+the rest of the interaction more relaxed.
+
+I also agree with the importance of ending on a positive,
+collaborative note.
 
 ## Negotiation techniques
 
@@ -297,7 +367,7 @@ Voss identifies three kinds of tones of voice:
   collaborating. Generally, this should be used about 80% of the time.
 * Late-night FM DJ: This is a calm, slow, and firm tone used to
   communicate immovability. Use this instead of the assertive voice
-  whe standing firm. Generally, this should be used about 20% of the
+  when standing firm. Generally, this should be used about 20% of the
   time.
 
 He also identifies two kinds of inflections:
@@ -331,8 +401,8 @@ playful/accommodating tone of voice.
 
 Tone of voice (or tone of text) provides another dimension of
 communication that influences discourse. Using it in a good way seems
-consistent with the idea of rational discourse. Since a lot of ratioal
-discourse is centered around open exchange of ideas, the
+consistent with the idea of rational discourse. Since a lot of
+rational discourse is centered around open exchange of ideas, the
 playful/accommodating tone of voice seems suited to it.
 
 ### Mirroring
@@ -381,7 +451,7 @@ attention to what the counterpart is saying. The counterpart then
 thinks you were engaged and listening (because they hear your mirrors
 and don't even realize you were mirroring) but you actually
 weren't. To be clear, this is not the sort of mirroring that Voss
-encourages; he emphasizes genuine curioosity and interest.
+encourages; he emphasizes genuine curiosity and interest.
 
 #### Does mirroring have a place in rational discourse?
 
@@ -405,7 +475,7 @@ because you want it to be about your counterpart and the situation,
 not about yourself.
 
 Labeling is more high-effort than mirroring: rather than just using
-short-term memory to remember and pick words fromm the last sentence,
+short-term memory to remember and pick words from the last sentence,
 you need to listen to the entirety of what the other person is saying
 (as well as tone of voice and nonverbal cues where applicable) and
 summarize it. But it's also more high-reward, because it shows a
@@ -502,7 +572,7 @@ a mislabel seems not very rational.
 Dynamic silence is the idea of just staying silent, usually either
 right after you mirror, label, or mislabel, or when things fall silent
 in general. The idea is to give the other person space to keep going
-on and to correct you. Accoording to Voss, dynamic silence works best
+on and to correct you. According to Voss, dynamic silence works best
 after you have established, through mirroring and labeling, that you
 are listening, engaged, and understanding.
 
@@ -541,7 +611,7 @@ accusations.
 
 Another related idea that Voss goes over in the MasterClass is to ask
 "legitimate" questions (and/or raise legitimate concerns) --
-basically, the calibrated questions that, if the oother side were to
+basically, the calibrated questions that, if the other side were to
 hear, they would have to agree that this is a valid point. For
 instance, rather than asking "How will you guarantee me that X?" ask
 the underlying question which might be "How do we deal with the fact
@@ -616,13 +686,13 @@ The accusations audit can be tricky without a good mental model of the
 other person. It can also be tricky to do if you have a lot of
 self-esteem issues of your own. I think a key ingredient to the
 success of the accusations audit is the ability to genuinely think
-from the other side's perspective, rather than project yoour own
+from the other side's perspective, rather than project your own
 insecurities.
 
 With that caveat, I've found the accusations audit useful,
-particularly for being able to start discusions that may otherwise not
+particularly for being able to start discussions that may otherwise not
 have happened (unlike reactive labeling, the accusations audit can be
-started asynchronoously and used as input to try to get the other side
+started asynchronously and used as input to try to get the other side
 engaged).
 
 #### How "dark arts"y is the accusations audit?
@@ -632,7 +702,7 @@ variant of it could be, where you trump up exaggerated accusations
 with the goal of manipulating the other person into consoling you. The
 key way to overcome that is that the "accusations" have to be the
 other person's accusations toward you, not your accusations toward
-them. There should be no judgment fromm your end conveyed as you
+them. There should be no judgment from your end conveyed as you
 describe the accusations.
 
 #### Does the accusations audit have a place in rational discourse?
@@ -649,10 +719,12 @@ answer. I found this one of the most interesting and thought-provoking
 negotiation techniques.
 
 For instance, instead of asking "Is it ok to publish this?" ask "Are
-there any concerns with publishing this?"
+there any concerns with publishing this?" Or, in a sales call context,
+instead of asking "Do you have a few minutes?" ask "Is now a bad
+time?"
 
 The simplest reason, as given by Voss, is that "yes" can make us feel
-trapped, like we're being perssured or tricked into agreeing with
+trapped, like we're being pressured or tricked into agreeing with
 something. On the other hand, "no" makes us feel freer and safer, like
 we have protected ourselves. I think there are a few other factors
 that make no-oriented questions valuable, that I explore in the next
@@ -709,7 +781,7 @@ lot. So what do you do if the idea on the table isn't about a loss?
 His suggestion seems to boil dow to framing it in terms of a loss by
 using the [opportunity
 cost](https://en.wikipedia.org/wiki/Opportunity_cost) framing:
-basically point to the other side what thy lose by *not* doig the
+basically point to the other side what thy lose by *not* doing the
 deal.
 
 #### How "dark arts"y is tackling loss aversion?
@@ -722,10 +794,166 @@ fear, I think it is a dark art. A lot depends on the implementation.
 #### My personal experience with tackling loss aversion
 
 I do not remember any situations where I consciously applied this
-technique; also, I was aalready broadly aware of the ideas of loss
+technique; also, I was already broadly aware of the ideas of loss
 aversion and opportunity cost so the marginal impact of the
 MasterClass was low for me.
 
 Chris Voss talks about loss aversion in [this
 video](https://www.youtube.com/watch?v=8vW6gPjk5Sc).
 
+### Tactical empathy
+
+This is not so much a single technique as an underlying idea that
+influences other techniques; nonetheless it's close enough to a
+technique. The idea behind "tactical empathy" is to demonstrate --
+through actions -- that you understand and respect the situation your
+counterpart is facing and the impact it's having on them (of course,
+if you don't yet understand, things like mirroring, labeling, and
+calibrated questions help get you there). Tactical empathy is
+different from but related to sympathy ("I feel how you feel"). The
+goal of tactical empathy is to get the other side to trust that you
+have a good enough understanding of their situation that you can
+collaborate with them to solve problems.
+
+There is a lengthy video by Voss on tactical empathy
+[here](https://www.youtube.com/watch?v=vRERVNNbB4Q).
+
+#### "You're right" versus "that's right"
+
+Voss says that getting the other side to say "you're right" isn't
+great, but getting the other side to say "that's right" is
+great. "That's right" is an acknowledgement by the other side that
+you've understood the situation.
+
+#### My personal experience with tactical empathy
+
+I have not actively applied tactical empathy as a technique, but I
+think my practice has moved a bit in that direction after being
+exposed to the concept.
+
+#### How "dark arts"y is tactical empathy?
+
+I think tactical empathy can be "dark arts"y if you actually don't
+understand the counterpart's situation.
+
+It's still likely less "dark arts"y than false sympathy or false
+agreement.
+
+#### Does tactical empathy have a place in rational discourse?
+
+Tactical empathy seems closely related to proto-rationalist ideas such
+as [Rogerian
+argument](https://en.wikipedia.org/wiki/Rogerian_argument) and the
+similar "ideological Turing test".
+
+### Black swans
+
+The term "black swan" refers to a hidden piece of information that,
+once revealed, changes the shape of the negotiation. Part of the goal
+of negotiation is the (collaborative) discovery of these black
+swans. This can be thought of as one reason it's so important to get
+the other side to talk and reveal more private information (combining
+this private information with your private information can help
+unearth the black swans).
+
+#### My personal experience with black swans
+
+I have not had any major success unearthing black swans! But I still
+think it's a valuable idea.
+
+#### How "dark arts"y are black swans?
+
+I don't see the idea of trying to discover black swans as "dark
+arts"y.
+
+#### Do black swans have a place in rational discourse?
+
+Absolutely! I think a lot of rational discourse is about discovering
+new ideas, and some of the more novel ones could qualify as black
+swans.
+
+## General concerns
+
+This section goes into detail on general concerns that I've had or
+that have been raised to me about negotiation techniques. This
+includes concerns raised from rationalist perspectives.
+
+### Asymmetry between you and the counterpart
+
+While there is a lot of homage paid to the idea of negotiation not
+being a zero-sum game, the fact is that most of the negotiation
+techniques are applied asymmetrically between you and your
+counterpart. For instance, "let them go first" -- what happens if both
+you and your counterpart are trained in negotiation techniques and
+trying them on one another?
+
+Another way of thinking of it game-theoretically: are negotiation
+techniques like defecting in a prisoner's dilemma, achieving gains at
+the other person's expense, but if both people did it, both sides
+would lose out?
+
+In one of his interviews, Voss addresses this in some depth. He says
+that he actually does't mind, and even prefers, if people use his
+negotiation techniques on him. He says, for instance, that most of his
+co-workers ask no-oriented questions all the time. He's used to it and
+doesn't consider it manipulative.
+
+What if both sides were using negotiation techniques on each other? In
+particular, what if both sides are trying to let the other side go
+first? Could this result in an impasse? Some more advanced treatments
+of negotiation techniques (including some parts of the MasterClass)
+discuss this. Generally, if the other side is really passionate about
+wanting you to go first, it's a good opportunity to learn what concerns
+they have about going first, for which you can use mirroring,
+labeling, and calibrated questions. Ultimately, if there's something
+that's a deal breaker for them, it's good to know that in a way that
+doesn't involve confrontation and anger, and that's what the
+negotiation techniques are for.
+
+So, whereas the fundamental criticism that negotiation techniques are
+asymmetric is true, they can be adapted easily to a symmetric world,
+and that symmetric world is likely even better for both parties than
+if only one side is applying negotiation techniques.
+
+### Insufficient self-expression
+
+The outward focus of negotiation techniques counters a lot of advice
+on the importance of expressing yourself. If everybody were busy
+negotiating, would people avoid expressing themselves?
+
+I think this is an important criticism and it's important to remember
+that in a context where the other side is interested in what you have
+to say, expressing yourself is good (because it's actually meeting a
+need of both sides, i.e., it is a [coincidence of
+wants](https://en.wikipedia.org/wiki/Coincidence_of_wants)). Negotiation
+techniques are more the scaffolding you put around self-expression,
+they aren't about the self-expression itself but they help support it
+by helping create a safe environment for that expression.
+
+For instance, the idea of letting the other side go first and
+extracting information from them is important because, generally, only
+once people have had their say do they feel relaxed enough to hear
+you.
+
+Similarly, the accusations audit helps diffuse the other person's
+negative valence around you, putting them in a position to actually
+listen to you.
+
+### Are negotiation techniques symmetric weapons, asymmetric in a good way, or asymmetric in a bad way?
+
+Scott Alexander introduced the concept of asymmetric weapons in two
+blog posts
+([here](https://slatestarcodex.com/2017/03/24/guided-by-the-beauty-of-our-weapons/)
+and
+[here](https://slatestarcodex.com/2019/06/06/asymmetric-weapons-gone-bad/)). The
+first blog post highlighted reason as an asymmetric weapon that
+generally helps push toward epistemic progress. The second blog post
+pointed out several ways that the asymmetric weapon of reason could
+actually make things worse. A question about negotiation principles
+and techniques is whether they are symmetric, or asymmetric in a
+predictable way.
+
+I think negotiation principles and techniques are *slightly*
+asymmetric in a positive direction. Overall, if more people adopted
+these successfully, interactions would be calmer and more
+collaborative, and this would lead to better outcomes for all.
