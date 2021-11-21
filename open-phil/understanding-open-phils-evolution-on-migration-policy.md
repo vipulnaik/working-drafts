@@ -203,7 +203,7 @@ better to compare migration policy with other areas that are more
 structurally similar: [land use
 reform](https://donations.vipulnaik.com/donor.php?donor=Open+Philanthropy&cause_area_filter=Land+use+reform)
 and [macroeconomic stabilization
-policy](https://www.openphilanthropy.org/giving/grants?field_focus_area_target_id_selective=91). Here
+policy](https://donations.vipulnaik.com/donor.php?donor=Open+Philanthropy&cause_area_filter=Macroeconomic+stabilization+policy). Here
 is what the comparison indicates:
 
 * All three areas get a similar treatment in Open Philanthropy's
