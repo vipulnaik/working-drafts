@@ -992,7 +992,7 @@ asymmetric is true, they can be adapted easily to a symmetric world,
 and that symmetric world is likely even better for both parties than
 if only one side is applying negotiation techniques.
 
-### How should awareness of the negotiation techniques affect your expectations of how others interact with you??
+### How should awareness of the negotiation techniques affect your expectations of how others interact with you?
 
 The bad, entitled way to use your knowledge of negotiation techniques
 is to start expecting that people around you will start using the nice
