@@ -23,6 +23,10 @@ I cover a lot in this review:
 * Negotiation techniques
 * General concerns
 
+ETA 2021-11-24: I added a few more subsections and made some edits to
+existing content. You can see the change set
+[here](https://github.com/vipulnaik/working-drafts/commit/b36ecf1ec540a4ea02d044dafdfd63dce85946e9).
+
 ## What is this a review of?
 
 ### Who is Chris Voss?
