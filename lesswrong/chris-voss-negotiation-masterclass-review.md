@@ -356,6 +356,33 @@ the rest of the interaction more relaxed.
 I also agree with the importance of ending on a positive,
 collaborative note.
 
+### Focus less on being in control or being in charge, and more on having the upper hand
+
+Voss says that people often fight to be in control or in charge, e.g.,
+to be the ones speaking in the room or having more overt control of
+the situation. By relinquishing one's own desire for control, and
+letting the other person take charge -- while collaborating with them
+in the process, you can acquire the upper hand by getting more
+information. Several of the techniques discussed later, such as
+mirroring, labeling, mislabeling, dynamic silence, and calibrated
+questions help the other side feel more in control while also giving
+you the upper hand by learning more.
+
+#### My thoughts on control versus upper hand
+
+While I do think being in control is overrated, and it's often more
+important to learn more than to be in charge, some aspects of this framing
+didn't resonate much with me. The "upper hand" framing is a little bit
+in tension with the whole idea of negotiation as being helpful to both
+sides.
+
+As I discuss in a later section, it can be counterproductive if people
+start competing to *not go first* -- just as it can be
+counterproductive if people are competing to go first. So my main
+takeaway from this point is that if you have a tendency to want to go
+first and dominate a situation, rethink that. But don't be too
+singularly focused on *not* going first in all situations.
+
 ## Negotiation techniques
 
 ### Tone of voice
@@ -785,7 +812,11 @@ basically point to the other side what thy lose by *not* doing the
 deal.
 
 Voss talks about loss aversion in [this
-video](https://www.youtube.com/watch?v=8vW6gPjk5Sc).
+video](https://www.youtube.com/watch?v=8vW6gPjk5Sc) where he cites the
+academic field of [prospect
+theory](https://en.wikipedia.org/wiki/Prospect_theory). He says that
+reframing a forgone gain as a loss can be so powerful that the term
+*bending reality* can be used for it.
 
 #### How "dark arts"y is tackling loss aversion?
 
@@ -824,6 +855,16 @@ Voss says that getting the other side to say "you're right" isn't
 great, but getting the other side to say "that's right" is
 great. "That's right" is an acknowledgement by the other side that
 you've understood the situation.
+
+#### Trust-based influence
+
+In the MasterClass and elsewhere, Voss uses the term "trust-based
+influence" to describe the kind of influence that you can build
+through the use of tactical empathy, supported by other methods
+discussed earlier (mirroring, labeling, calibrated questions). With
+trust-based influence, the other side understands that you understand
+their situation and respect them, and therefore trusts that you'll be
+able to collaborate with them to solve problems.
 
 #### My personal experience with tactical empathy
 
@@ -873,6 +914,37 @@ Absolutely! I think a lot of rational discourse is about discovering
 new ideas, and some of the more novel ones could qualify as black
 swans.
 
+### Fairness and reciprocity
+
+The related ideas of fairness and reciprocity come up a lot in
+negotiation. Awareness of these can help.
+
+Voss talks of a few ideas related to these:
+
+* Avoid triggering reciprocity by e.g., making asks/demands, when
+  there are other alternative ways: For instance, the use of
+  legitimate calibrated questions can engage your counterpart to
+  collaboratively solve the problem with you, without triggering the
+  sense that they are doing you a favor.
+
+* Rather than say things like "I only want what's fair" (that can be
+  read as an accusation of unfairness) reassure the other side that if
+  at any point they feel that they aren't being treated fairly, they
+  should speak up.
+
+* Offer things to the other side (this could include goodies or
+  information) that aren't costly for you, but that are either
+  directly valuable to the other side, or at least signal that you are
+  there to help them and/or that they are squeezing out good value
+  from you. An example is mentioned in the final stage of Ackerman
+  bargaining: once you are at the limit of the budget you are willing
+  to pay, offer some non-monetary good that is cheap for you -- and
+  may even be something not valuable to the other side (if you can't
+  think of anything valuable to them) -- but that shows the other side
+  that you are stretched to the limit with the money side and they've
+  gotten a good deal.
+
+
 ## General concerns
 
 This section goes into detail on general concerns that I've had or
@@ -915,6 +987,51 @@ So, whereas the fundamental criticism that negotiation techniques are
 asymmetric is true, they can be adapted easily to a symmetric world,
 and that symmetric world is likely even better for both parties than
 if only one side is applying negotiation techniques.
+
+### How should awareness of the negotiation techniques affect your expectations of how others interact with you??
+
+The bad, entitled way to use your knowledge of negotiation techniques
+is to start expecting that people around you will start using the nice
+parts of them on you. For instance, maybe you realize how great it is
+to hear calibrated questions instead of "why" questions, or how much
+better no-oriented questions sound (on the receiving end) than
+yes-oriented questions. An entitled application of this enhanced
+knowledge would be to start suggesting/demanding that the people
+around you start using these techniques with you so that your lived
+experience is nicer. However, you rarely have the level of control
+over other people to do this in a big enough way, and it's entitled to
+expect that they do. I do think it's worth sharing these ideas with
+friends so that they can be more effective, just not primarily for the
+purpose of them providing a better experience to *you*!
+
+A better way to apply your knowledge of these is to come to situations
+with more awareness of your own subconscious triggers. When somebody
+asks a why question, and you feel defensive or irritated, notice that,
+and think about how much of this is the "why" framing of the
+question. In some cases, the other person's use of "why" might reflect
+genuine irritation and hostility on their part. In other cases,
+though, it may be an innocuous word choice. One thing I have found
+useful is to notice my slight defensiveness at being asked why
+questions, then pause, and then answer them instead as if I had been
+asked a corresponding what/how question. In almost all cases, this
+works really well. In rare cases where I detect extreme hostility in
+the why question, or extreme lack of clarity in it, some other
+methods such as mirroring, labeling, or asking calibrated questions
+back can help.
+
+The same goes with the use of yes-oriented questions: I now tend to
+notice my sense of feeling pressured when somebody asks me a
+yes-oriented question that I do not fully want to say yes to. In such
+cases, I sidestep the use of a binary response and answer in the same
+sort of way as if I'd been asked a no-oriented question.
+
+In addition to helping me respond better to cases where others ask
+questions or make remarks to which my initial response is negative,
+this awareness also gives me a better lens when viewing interactions
+(written or oral) as a third party. When an interaction that starts
+off cordially becomes openly antagonistic, or when an interaction
+seems to have undertones of hostility, I can often locate things like
+why questions and yes-oriented questions in there.
 
 ### Insufficient self-expression
 
