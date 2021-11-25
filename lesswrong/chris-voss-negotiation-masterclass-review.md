@@ -272,6 +272,78 @@ frequent back-and-forth. I found some techniques as well as some
 principles to have broader applicability, including to more
 asynchronous and one-to-may communication contexts.
 
+### Low-level execution focus rather than domain-specific tactical or business school-style strategy focus
+
+In the comments, Adam Zerner writes:
+
+> It seems worth mentioning that leverage is hugely important. Both 1)
+> having it, and 2) understanding it. For example, suppose you are a
+> programmer applying to companies. 1) It's helpful to be good at
+> interviews and have a lot of companies interested in you. 2) It's
+> helpful to be aware of this fact, and to be aware of what sort of
+> leverage the companies have. Ie. BATNA.
+>
+> Maybe you can call what I am referring to as hard skills and what
+> you are referring to as soft skills? I feel like that isn't a great
+> way to categorize is, but nothing better is coming to me. Whatever
+> the categories are, I think it would be good to explicitly mention
+> that this article is targeting one of them, and that there are other
+> things that are important for the bigger picture of being able to
+> negotiate well.
+
+I also got a related
+[comment](https://www.facebook.com/vipulnaik.r/posts/10225235208883203?comment_id=10225238040994004)
+on my Facebook share of the post:
+
+> Also if I may seek more details about the Masterclass , does it also
+> delve into concepts taught in management schools (albeit with a
+> different name) like ZOPA(Zone of Possible Agreement) & BATNA ( Best
+> Alternative to Negotiated Agreement )
+
+These are great points. There is some discussion in Voss's MasterClass
+about understanding who has leverage. He also goes into a few
+nuts-and-bolts bargaining tools like the Ackerman method and provides
+general advice on price negotiation. He also has a mock job
+negotiation.
+
+Nonetheless, for the most part, the aspect of negotiations that Voss
+covers has much more to do with the low-level execution of *how* to
+share and receive information, as opposed to the *what* of
+communication. And to the extent that Voss covers other angles, my
+review skips over them.
+
+Obviously, the *what* of negotiation matters a lot, and there's great
+advice online around it -- this post does not compete with such
+advice. In fact, when a lot of people think of negotiation, they're
+focused on the *what* aspect -- what price should I settle for?
+
+There are a few reasons I think Voss doesn't focus on these much in
+his MasterClass, and my review here doesn't talk about it at all:
+
+* The *what* is highly domain-specific, and even within a domain
+  requires a fair amount of market research and even getting into the
+  nitty-gritties after your counterpart gives you situation-specific
+  information. A 3-hour MasterClass intended to appeal to a wide
+  audience can't really get into the what too much. With that said, in
+  the MasterClass and in several of his interviews that I've linked
+  to, Voss talks about some of the nuts and bolts of the *what*
+  question in the context of real estate negotiation, business
+  partnerships, and job interviews. He's often relying on information
+  he learns back from people who come to the Black Swan Group for
+  training and apply the ideas in real life.
+
+* Highly prescriptive approaches to the *what* question are in tension
+  with the thrust of the approach that Voss is trying to push for --
+  namely to be open and curious and let the other side reveal more
+  information to enable collaborative problem-solving. In some of his
+  interviews Voss talks about how he thinks some of the techniques
+  like BATNA are not that useful, but he has a lot of respect for
+  Roger Fisher, who championed these techniques. Voss thinks Fisher's
+  success comes not so much from the techniques as from the emotional
+  intelligence he has when applying them. Voss thinks his own
+  techniques come closer to what needs to be done execution-wise to
+  achieve those sorts of results.
+
 ## Negotiation principles
 
 This section covers my own interpretation of key "principles"
