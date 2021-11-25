@@ -27,6 +27,10 @@ ETA 2021-11-24: I added a few more subsections and made some edits to
 existing content. You can see the change set
 [here](https://github.com/vipulnaik/working-drafts/commit/b36ecf1ec540a4ea02d044dafdfd63dce85946e9).
 
+ETA 2021-11-25: I added a subsection in response to a point raised in
+the comments. You can see the change set
+[here](https://github.com/vipulnaik/working-drafts/commit/9b23675a831ec81ef6b0c375e586e2346a48a44e).
+
 ## What is this a review of?
 
 ### Who is Chris Voss?
