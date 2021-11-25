@@ -36,7 +36,7 @@ different emphases.
 Mental health is about your current mental state, or your average
 mental state over time. For instance, do you often feel stress and
 anxiety? Do you feel uncontrollable anger? Do you have depressive
-thoought patterns? Or are you generally satisfied and content with
+thought patterns? Or are you generally satisfied and content with
 yourself? Are you able to focus on the tasks that are important to
 you?
 
@@ -100,14 +100,14 @@ Verywell Mind article describes as follows:
 
 Having intelligence, however, does not seem sufficient to actually
 having the strength and skill to use that intelligence in the required
-ways.So while intelligence seems helpful it's not the same thing as
+ways. So while intelligence seems helpful it's not the same thing as
 even the cognitive component of mental strength.
 
 ### Mental strength versus applied rationality
 
 There seems to be a fair amount of overlap between *applied
 rationality* and mental strength. Specifically, the cognitive part of
-mental strength, and to some extent the emootional and behavioral
+mental strength, and to some extent the emotional and behavioral
 parts, seem to overlap closely with the self-directed portions of
 applied rationality. Applied rationality can also include several
 tactical aspects that aren't tied to mental strength (e.g. insights on
@@ -140,7 +140,7 @@ health issues, this pushes us to exiting challenging situations.
 
 The "mental strength" concept helps provide the hidden term that
 connects mental health with the challenges one undertakes. And
-increasing one's mental strength meaans *pushing out* one's tradeoff
+increasing one's mental strength means *pushing out* one's tradeoff
 curve. We can thus recognize more that people who take on more stress
 and have worse mental health may not be less mentally strong than
 others. And we can also think about ways that we can raise our mental
@@ -189,12 +189,12 @@ improve their physical fitness.
 
 I expect something similar to be true in terms of the best methods to
 develop mental strength: for many people, "natural" levels of
-cognitive, emootional, and behavioral stimulation that day-to-day
+cognitive, emotional, and behavioral stimulation that day-to-day
 activities provide will be enough. But those seeking to achieve
 extraordinary feats of mental strength will likely benefit from some
 form of deliberate exercise.
 
-However, there is a differeence between the physical and mental realms
+However, there is a difference between the physical and mental realms
 that calls the above into question. Namely, in the physical realm,
 thanks to tremendous technological progress, many of us lead sedentary
 lifestyles where "natural" levels of exercise are low. In the mental
@@ -212,7 +212,10 @@ strength.
 
 I so happen to think that for the kinds of mental strength I am most
 interested in developing, the "natural" work I do is best for
-developing that mental strength.
+developing that mental strength. However, I think I might change my
+mind, and/or move to other activities where building mental strength
+ahead of time is important. I think awareness of the concept of mental
+strength has made me open to this possibility.
 
 ### Deliberate exercises to build mental strength (as opposed to addressing mental health)
 
@@ -263,7 +266,7 @@ much more intensively on that front.
 Going back to the mental strength side, what if your problem is that
 when you receive criticism, you find it hard to take? Without a
 concept of deliberate exercise, the solution would be to just use as
-practtice whatever occasions life serves up to you of criticism. But
+practice whatever occasions life serves up to you of criticism. But
 with a concept of deliberate exercise, you may choose to engage in
 activities where you'll get a lot of criticism (e.g., write an online
 comment on a news site), or even to artificially receive a lot of
