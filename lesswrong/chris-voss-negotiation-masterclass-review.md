@@ -278,7 +278,8 @@ asynchronous and one-to-may communication contexts.
 
 ### Low-level execution focus rather than domain-specific tactical or business school-style strategy focus
 
-In the comments, Adam Zerner writes:
+In the comments, Adam Zerner
+[writes](https://www.lesswrong.com/posts/CRAzG386t3suSqDgd/chris-voss-negotiation-masterclass-review?commentId=aDk6qj5vEJGnyBzGu):
 
 > It seems worth mentioning that leverage is hugely important. Both 1)
 > having it, and 2) understanding it. For example, suppose you are a
