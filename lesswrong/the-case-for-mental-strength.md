@@ -20,7 +20,9 @@ articulated](https://www.lesswrong.com/posts/6phFYpNQH9SmWL9Jt/on-saying-the-obv
 
 Please use the table of contents to navigate the post. The first
 section provides a few angles from which to think about mental
-strength. The second section talks about the relationship between
+strength. In the second section, I talk a little more about what I
+like about the "mental strength" concept and some of its
+implications. The third section talks about the relationship between
 mental strength and the LessWrong/rationality cluster.
 
 ## Relation between mental strength and other concepts
@@ -165,7 +167,7 @@ challenges one wants to take on.
 
 For instance, if you want to excel in competitive sports or gaming,
 mental toughness, that allows you to engage in repeated practice and
-experience repeateed failure, seems important.
+experience repeated failure, seems important.
 
 With physical strength, we have several regimens of exercise that
 people undertake explicitly with the goal of building that
