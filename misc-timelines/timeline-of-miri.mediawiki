@@ -22,7 +22,7 @@ The following are some interesting questions that are difficult or impossible to
 |-
 | 1998–2002 || Various publications related to creating a superhuman AI || Eliezer Yudkowsky writes various documents about designing a superhuman AI during this period, including "Coding a Transhuman AI", "The Plan to Singularity", and "Creating Friendly AI". The Flare Programming Language project launches to aid the creation of a superhuman AI.
 |-
-| 2004–2009 || Tyler Emerson's tenure as executive director || Under Emerson's leadership, MIRI starts the Singularity Summit, moves to the San Francisco Bay Area, and lands Peter Thiel and Jaan Tallinn as donors and enthusiastic endorsers.
+| 2004–2009 || Tyler Emerson's tenure as executive director || Under Emerson's leadership, MIRI starts the Singularity Summit, moves to the San Francisco Bay Area, and lands Peter Thiel as a donor and enthusiastic endorser.
 |-
 | 2006–2009 || Modern rationalist community forms || ''Overcoming Bias'' is created, LessWrong is created, Eliezer Yudkowsky writes the Sequences, and so on.
 |-
@@ -37,7 +37,61 @@ The following are some interesting questions that are difficult or impossible to
 | 2015–present || Nate Soares's tenure as executive director || Soares continues to move MIRI forward in the direction that it shifted to under Muehlhauser, with a focus on AI safety research, and increased coordination with the AI safety and AI risk communities.
 |}
 
-==Visual data==
+== Numerical and visual data  ==
+
+=== Google Scholar ===
+
+The following table summarizes per-year mentions on Google Scholar as of October 1, 2021.
+
+{| class="sortable wikitable"
+! Year
+! "Machine Intelligence Research Institute"
+|-
+| 2000 || 0
+|-
+| 2001 || 2 
+|-
+| 2002 || 0
+|-
+| 2003 || 0
+|-
+| 2004 || 1
+|-
+| 2005 || 0
+|-
+| 2006 || 0
+|-
+| 2007 || 1
+|-
+| 2008 || 0
+|-
+| 2009 || 5  
+|-
+| 2010 || 7
+|-
+| 2011 || 6
+|-
+| 2012 || 6
+|-
+| 2013 || 29  
+|-
+| 2014 || 61
+|-
+| 2015 || 72   
+|-
+| 2016 || 93  
+|-
+| 2017 || 128  
+|-
+| 2018 || 134   
+|-
+| 2019 || 127 
+|-
+| 2020 || 138  
+|-
+|}
+
+[[File:Machine Intelligence Research Institute gsch.png|thumb|center|700px]]
 
 === Google Trends ===
 
