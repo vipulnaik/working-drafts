@@ -103,7 +103,9 @@ Voss has also co-authored a book *Never Split The Difference* that
 covers these techniques. It's [available on
 Amazon](https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805);
 at $11.99 for the Kindle edition it is considerably cheaper than the
-MasterClass.
+MasterClass. There is a [Reddit
+thread](https://www.reddit.com/r/MasterClass/comments/i6hdkf/chris_voss_on_negotiation_masterclass_vs_book/)
+comparing the book and the MasterClass and consuming both.
 
 [Masterwiki.how](https://masterwiki.how/) can be a helpful free
 version of MasterClass, but it does not seem to have Chris Voss's
