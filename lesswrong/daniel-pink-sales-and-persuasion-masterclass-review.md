@@ -18,7 +18,7 @@ I cover a lot in this review:
 * What is this a review of?
 * Why am I doing this review?
 * Worldview and style
-* Persuasion techniques
+* Persuasion principles and techniques
 
 ## What is this a review of
 
@@ -200,6 +200,52 @@ side are things he isn't squeamish about. In general, he seems okay
 with bending/stretching th truth for persuasion, or at least with
 citing research that does so.
 
-## Persuasion tactics
+## Persuasion principles and techniques
+
+I found it hard to cleanly separate persuasion principles from
+persuasion techniques, so I decidede to have a single section listing
+all of them.
+
+NOTE: In some cases I link to specific videos in the
+MasterClass. Those videos won't work for users who are not signed in
+to MasterClass with a subsription or access to that MasterClass.
 
 ### The two questions to ask yourself before persuading others
+
+At the end of [Serve Your
+Audience](https://www.masterclass.com/classes/daniel-pink-teaches-sales-and-persuasion/chapters/serve-your-audience),
+around the 4:48 mark, Pink says the following:
+
+> When you're in your persuasive encounter, ask yourself,
+> if the other person does what I want them to do,
+> will they be better off?
+>
+> Second, ask yourself, if the other person does what I want
+> them to do, will the world be slightly better off?
+>
+> If the answers to either of those questions is no, I really
+> want you to rethink what you're doing.
+>
+> If the answers to each of those questions is yes, you're doing it
+> right.
+
+I think these are good questions to ask! Pink doesn't go into details
+on this (it's mentioned at the end of a video about a related
+idea). But I wanted to highlight these questions a bit because they
+are a bit of a hidden gem.
+
+First, it highlights the collaborative and mutually beneficial goals
+of good persuasion. Persuasion is about what's good for the other
+person.
+
+Second, it highlights the need to make things good for the world,
+rather than collude in some destructive activity.
+
+An example of something that might be good for the other person but
+bad for the world might be joint collusion on tactics to game some
+third-party system for private benefit.
+
+An example of something that might be "good for the world" but not
+good for the other person is the use of deceptive tactics to get
+another person to donate money for a noble cause, in a way you suspect
+they will regret later or that isn't epistemically sound.
