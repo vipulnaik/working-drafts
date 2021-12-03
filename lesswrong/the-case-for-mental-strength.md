@@ -11,17 +11,19 @@ I found [this Verywell Mind
 article](https://www.verywellmind.com/the-difference-between-mental-strength-and-mental-health-5078284)
 to be a good overview (and I recommend reading it though I don't
 assume it as a prerequisite). It identifies three broad components to
-mental strength: cognitive, emotional, and behavioral.
+mental strength: cognitive (thinking), emotional (feeling), and
+behavioral (acting).
 
 I expect that most of the rest of what I write will be fairly obvious
 to many LessWrong readers, though I am not absolutely sure. I am still
 going to say them, for [reasons Grognor
 articulated](https://www.lesswrong.com/posts/6phFYpNQH9SmWL9Jt/on-saying-the-obvious).
 
-Please use the table of contents to navigate the post. The first
-section provides a few angles from which to think about mental
-strength. In the second section, I talk a little more about what I
-like about the "mental strength" concept and some of its
+The post makes the most sense when read sequentially, but you can skim
+it or read whatever parts interest you based on the table of
+contents. The first section provides a few angles from which to think
+about mental strength. In the second section, I talk a little more
+about what I like about the "mental strength" concept and some of its
 implications. The third section talks about the relationship between
 mental strength and the LessWrong/rationality cluster.
 
@@ -241,7 +243,7 @@ With this thinking and understanding, it makes a lot of sense why a
 lot of people in high-stress positions (such as CEOs) practice
 meditation, even if *they didn't have any noticeable mental health
 issues* and even though *the opportunity cost of their time may be
-huge*.. It's because: (a) they need more mental strength to cope with
+huge*. It's because: (a) they need more mental strength to cope with
 the demands of their high-stress position, so (b) they benefit a lot
 from general-purpose exercises to build such mental strength, and (c)
 meditation is a widely developed cluster of such techniques, with
@@ -295,21 +297,30 @@ saving, requires mental strength.
 I think [Nate Soares' Minding Our Way](https://mindingourway.com/) is
 largely about building mental strength.
 
+One way I think of the rationalist flavor of building mental strength
+is that it *starts* with the cognitive, and then builds on that to tap
+into the emotional (feeling) and behavioral (acting) parts. In
+contrast, it seems to me that meditation starts with the behavioral
+(acting) parts, and then uses those to delve into the cognitive and
+emotional parts.
+
 ### The greater challenges of the rationalist, longtermist and effective altruist communities is at least part of the reason for mental health challenges, and highlights the need for greater focus on building mental strength
 
-What if you seriously, *actually* think that there is a nontrivial
-probability that AI could destroy humanity within your lifetime?
+There are a few closely tied (and mutually reinforcing) ways that
+communities of people who intersect heavily with the LessWrong
+readership may need more mental strength:
 
-What if you feel for (your extrapolation of) the pain that large
-numbers of animals, factory farmed and wild, experience?
-
-What if you remember regularly how challenging it is to live on a
-dollar a day, and realize that over a billion people live that way?
-
-Many of these ideas are widely believed in subcommunities of LessWrong
-readers. And there are many more such ideas. Coping with the
-implications of these ideas needs a fair amount of mental
-strength. All else equal, I would expect that people in these
-communities would have worse mental health outcomes than others
-*unless* they also built the mental strength needed to cope with the
-ideas.
+1. The intellectually and emotionally exhausting nature of the search
+   for truth, that often involves updating one's previously held
+   beliefs one may be attached too
+2. Sincere, rational belief that there are a lot of problems and risks
+   in the world, possibly including existential risks; examples:
+   * Belief in a nontrivial probability of AI foom and doom
+   * Belief in a nontrivial probability that there's a large amount of
+     morally relevant suffering humans ignore, such as the suffering of
+     farmed and wild animals
+3. Resultant desire to act in seemingly weird and difficult ways to
+  improve or protect the world (which ties back to 1; if you are
+  *actually trying* then you *want* to have access to the truth)
+4. Lack of social support and respect for some of these beliefs and for
+   the resultant worldviews, and therefore potential social isolation
