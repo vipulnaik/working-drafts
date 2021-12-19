@@ -1,0 +1,161 @@
+{{about|the certification process for temporary work visas such as the [[H-1B visa]]|the corresponding process for employment-based visas for permanent residency|labor certification}}
+[[File:ETA Form 9035 EXP 2018-05-31.pdf|thumb|right|Labor Condition Application]]
+The '''Labor Condition Application''' ('''LCA''') is an application filed by prospective employers on behalf of workers applying for work authorization for the non-immigrant statuses [[H-1B visa|H-1B]], [[H-1B1 visa|H-1B1]] (a variant of H-1B for people from [[Singapore]] and [[Chile]]) and [[E-3 visa|E-3]] (a variant of H-1B for workers from [[Australia]]). The application is submitted to and needs to be approved by the [[United States Department of Labor]] [[Employment and Training Administration]] (DOLETA)'s Office of Foreign Labor Certification (OFLC). The form used to submit the application is ETA Form 9035.<ref name=labor>{{cite web|url=http://www.foreignlaborcert.doleta.gov/h-1b.cfm|title = H-1B, H-1B1 and E-3 Specialty (Professional) Workers|publisher = [[United States Department of Labor]], [[Employment & Training Administration]], [[Office of Foreign Labor Certification]]|accessdate = January 21, 2015}}</ref><ref name=lii>{{cite web|url=https://www.law.cornell.edu/cfr/text/20/655.730|title = 20 CFR 655.730 - What is the process for filing a labor condition application?|publisher  = [[Code of Federal Regulations]] (mirrored on the [[Legal Information Institute]] website)|accessdate = January 20, 2015}}</ref><ref name=printable-form>{{cite web|url=http://www.foreignlaborcert.doleta.gov/pdf/ETA_Form_9035CP.pdf|title = ETA Form 9035 (Printable Version)|publisher = [[United States Department of Labor]], [[Employment & Training Administration]], [[Office of Foreign Labor Certification]]|accessdate = March 29, 2015}}</ref>
+
+==Attestations==
+
+A Labor Condition Application must and should include four attestations from the employer. Employers need to maintain relevant documentation and may need to submit it if asked.<ref name=conditions>{{cite web|url=http://www.foreignlaborcert.doleta.gov/pdf/h1bcl.pdf|title = Labor Condition Application Cover Pages|accessdate = January 21, 2015|publisher = [[United States Department of Labor]] [[Employment & Training Administration]], [[Office of Foreign Labor Certification]]}}</ref> The attestations are in Section F of ETA Form 9035 (the LCA form).<ref name=printable-form/>
+
+===Wages (the prevailing wage requirement)===
+
+The employer must attest, and may need to furnish documentation upon request, to show that the non-immigrant workers on behalf of whom the application is being made will be paid at or above both these numbers:<ref name=cfr-lca-1>{{cite web|url = https://www.law.cornell.edu/cfr/text/20/655.731|title = 20 CFR 655.731 - What is the first LCA requirement, regarding wages?|accessdate = June 12, 2016|publisher = [[Code of Federal Regulations]] (mirrored on the [[Legal Information Institute]] website)}}</ref>
+
+* The '''actual wage''': This is the wage paid to other employees in the company who do the same work.
+* The [[prevailing wage]]:  This is the wage for that occupation in the geographical area.
+
+The employer must make similar attestation regarding non-wage benefits offered.
+
+===Working conditions===
+
+The employer must attest that the hiring of non-immigrant workers will not adversely affect the working conditions of similarly employed workers at the company, and that the non-immigrant workers will be offered similar working conditions as native US workers.<ref name=cfr-lca-2>{{cite web|url = https://www.law.cornell.edu/cfr/text/20/655.732|title = 20 CFR 655.732 - What is the second LCA requirement, regarding working conditions?|accessdate = June 12, 2016|publisher = [[Code of Federal Regulations]] (mirrored on the [[Legal Information Institute]] website)}}</ref>
+
+===Strike, lockout, or work stoppage===
+
+The employer must attest that on the day the application is filed, there is not a strike, lockout, or work stoppage in the named occupation at the place of employment and that, if such a strike, lockout, or work stoppage occurs after the application is submitted, the employer will notify ETA within three (3) days of such occurrence and
+the application will not be used to file a work authorization petition until the ETA has determined that the work stoppage has ceased.<ref name=cfr-lca-3>{{cite web|url = https://www.law.cornell.edu/cfr/text/20/655.733|title = 20 CFR 655.733 - What is the third LCA requirement, regarding strikes and lockouts?|accessdate = June 12, 2016|publisher = [[Code of Federal Regulations]] (mirrored on the [[Legal Information Institute]] website)}}</ref>
+
+===Notice===
+
+The employer must attest that as of the date of application, notice of the application has been or will be provided both to workers within the company in the said application. Also, the (prospective) workers on whose behalf the application is filed must be provided a copy of the application.<ref name=cfr-lca-4>{{cite web|url = https://www.law.cornell.edu/cfr/text/20/655.734|title =  20 CFR 655.734 - What is the fourth LCA requirement, regarding notice?|accessdate = June 12, 2016|publisher = [[Code of Federal Regulations]] (mirrored on the [[Legal Information Institute]] website)}}</ref><ref>{{cite web|url=http://www.dol.gov/whd/regs/compliance/FactSheet62/whdfs62m.htm|title = Fact Sheet #62M: What are an H-1B employer's notification requirements? |date = August 2009|accessdate = January 21, 2015|publisher = [[United States Department of Labor]]}}</ref><ref>{{cite web|url=http://oiss.isp.msu.edu/documents/departments/H1B_packet/internal_notice.pdf|title = H-1B Internal Notice of Filing Labor Condition Application|publisher = [[Michigan State University]]|accessdate = January 21, 2015}}</ref>
+
+==Process==
+
+===Submission===
+
+The LCA is submitted through ETA Form 9035. The LCA must be submitted through the Department of Labor's Foreign Labor Application Gateway (FLAG) System (https://flag.dol.gov/) that is available at all times. The two exceptions to electronic filing are employers with physical disabilities or those who lack Internet access and cannot electronically file the ETA Form 9035E through the iCERT System. An employer must petition the Administrator of OFLC for prior special permission to file an LCA by mail on the ETA Form 9035.<ref name=labor/>
+
+FLAG replaces the Department of Labor's legacy system called iCERT, that was deprecated on May 1, 2020.<ref>{{cite web|url 
+= https://flag.dol.gov/announcements/04-08-2020|title = OFLC ANNOUNCES SCHEDULE FOR THE FINAL PHASE OF DECOMMISSIONING THE ICERT SYSTEM.|date = April 8, 2020|accessdate = December 19, 2021|publisher = [[United States Department of Labor]]}}</ref>
+
+===Approval===
+
+The United States Department of Labor typically takes up to 7 days to approve or reject a LCA.<ref name=labor/> Rejection is accompanied by an explicit listing of problems with the applications. The employer may resubmit the LCA after addressing the problems.<ref name=rfsuny>{{cite web|url=http://www.rfsuny.org/media/RFSUNY/Procedures/per_labor-condition-application-h1b-e3-nonimmigrants_pro.htm|title = Labor Condition Application for H-1B and E-3 Nonimmigrants|date = January 21, 2015}}</ref>
+
+===Validity===
+
+For H-1B and H-1B1, the LCA is valid up to three years after the start date indicated on the LCA or to the end date indicated on the LCA.<ref name="foreignlaborcert.doleta.gov">{{cite web|url=https://www.foreignlaborcert.doleta.gov/h-1bdd.cfm|title = H-1B; H-1B1 and E-3 Specialty (Professional) Workers|accessdate = January 22, 2016|publisher = [[Employment and Training Administration]], [[United States Department of Labor]]}}</ref> However, if the employer becomes [[H-1B-dependent employer|H-1B-dependent]], or a strike, lockout, or work stoppage occurs between the time of LCA filing and the approval of the associated H-1B petition, the LCA ceases to be valid.<ref name=printable-form/>
+
+For E-3, the LCA is valid for only two years.<ref name="foreignlaborcert.doleta.gov"/>
+
+==Relation with the application process for employment authorization and getting a visa==
+
+A LCA petition approved by the United States Department of Labor must be submitted as part of the [[Form I-129]] (Petition for a Nonimmigrant Worker) application for work authorization for H-1B, H-1B1, or E-3 status.<ref name=lii/> This is true both for people applying for their first H-1B work authorization and for people transferring to a different job. LCA petitions can be submitted year-round. However, for those applying for their first work authorization under the capped H-1B, where applications can generally be made only in the first few weeks of April because of caps for every fiscal year, they need to make sure the LCA application is approved in time for the H-1B petition cycle.
+
+For the H-1B1 and E-3 classifications, a Form I-129 Petition is not needed for people who are outside the United States. They can directly apply for the H-1B1 or E-3 visa at their local consulate based on the approved LCA and other supporting documents. Those already in the United States who are switching status or employer ''do'' need to file Form I-129.
+
+Based on the Portability Rule of the [[American Competitiveness in the 21st Century Act]] (AC21) of 2000, a person on H-1B status may switch to a new job and begin the new job after the [[Form I-129]] H-1B petition has been received by [[United States Citizenship and Immigration Services]] but does not need to wait for the petition to be approved.
+
+Failure to file the LCA on time has been cited as one of the top mistakes that H-1B employer applicants make.<ref>{{cite web|url=http://www.bridge.us/blog/top-h1b-visa-mistakes-that-employers-make/|title = Top H1B Visa Mistakes that Employers Make|date = August 19, 2014|accessdate = January 21, 2015|publisher = Bridge.us}}</ref>
+
+==Businesses with multiple employees on nonimmigrant statuses that require the LCA==
+
+===Single LCA for multiple employees===
+
+An employer can use a single LCA for multiple employees provided they are all in the same occupation and the same visa class (i.e., a single petition cannot be used for both H-1B and E-3 workers). Also, in the case of [[H-1B-dependent employer]]s, different petitions must be used for exempt and non-exempt workers.<ref name=lca-faq>{{cite web|url=http://www.foreignlaborcert.doleta.gov/pdf/H1BFAQ021711.pdf|title = Frequently Asked Questions (Office of Foreign Labor Certification)|date = February 17, 2011|accessdate = January 21, 2015|publisher = [[United States Department of Labor]] [[Employment & Training Administration]]}}</ref>
+
+===Additional filing requirements for H-1B-dependent employers and employers found to have committed a willful misrepresentation in a past application===
+
+{{further|H-1B-dependent employer}}
+
+An employer is considered H-1B-dependent if the number of H-1B employees crosses a threshold relative to the total number of employees:<ref name=printable-form/><ref name=cfr-h-1b-dependent-willful>{{cite web|url = https://www.law.cornell.edu/cfr/text/20/655.736|title = 20 CFR 655.736 - What are H-1B-dependent employers and willful violators?|accessdate = June 12, 2016|publisher = [[Code of Federal Regulations]] (mirrored on the [[Legal Information Institute]] website)}}</ref>
+
+* For businesses with 25 or fewer employees, the employer is H-1B-dependent if and only if there are at least 8 H-1B employees.
+* For businesses with 26-50 more employees, the employer is H-1B-dependent if and only if there are at least 13 H-1B employees.
+* For businesses with 51 or more employees, the employer is H-1B-dependent if and only if at least 15% of the workforce is in H-1B status.
+
+Employers who are identified as H-1B-dependent and/or who have been found to have committed a willful violation or misrepresentation of a material fact in the past five years are required to fill Section F-1 Subsection 2 of Form 9035, providing additional attestations, as described below. Moreover, if an employer becomes H-1B-dependent after the filing of approval of the LCA, but prior to filing the H-1B petition, then the LCA needs to be refiled.<ref name=printable-form/>
+
+However, H-1B-dependent employers can exempt themselves from the attestations if the applicants on behalf of whom the petition is being filed all have a master's or higher degree ''or'' are getting a wage rate of at least $60,000/year.<ref name=printable-form/><ref name=cfr-exempt>{{cite web|url = https://www.law.cornell.edu/cfr/text/20/655.737|title = 20 CFR 655.737 - What are "exempt" H-1B nonimmigrants, and how does their employment affect the additional attestation obligations of H-1B-dependent employers and willful violator employers?|accessdate = June 12, 2016|publisher = [[Code of Federal Regulations]] (mirrored on the [[Legal Information Institute]] website)}}</ref>
+
+====(A) Displacement====
+
+The employer promises not to displace any similarly employed US worker within the period beginning 90 days before and ending 90 days after the date of filing the H-1B nonimmigrant petition (note that this is not the date of the LCA filing).
+
+====(B) Secondary Displacement====
+
+The employer promises not to place the employee at another employer's worksite ''unless'' the employer has made a ''bona fide'' inquiry as to whether the other employer has displaced or intends to displace a US worker any time between 90 days before and 90 days after the placement, and has no contrary knowledge. If the other employer makes such a displacement, the employer applicant may be subject to civil money penalties and disbarment.
+
+====(C) Recruitment and Hiring====
+
+Prior to filing any petition for a H-1B nonimmigrant pursuant to the application, the employer took or will take good faith steps to meet industry-wide standards to recruit US workers for the job for which the nonimmigrant is sought, offering compensation at least as great as that required to be offered to the non-immigrant. The employer will (has) offer(ed) the job to an equally or better qualified US worker.
+
+== Records of Labor Condition Applications ==
+
+=== Data released by the Department of Labor ===
+
+The [[United States Department of Labor]] Employment & Training Administration Office of Foreign Labor Certification, that processes LCAs, makes available various types of performance data on a quarterly and annual basis, including:<ref name=performance-data>{{cite web|url = https://www.foreignlaborcert.doleta.gov/performancedata.cfm|title = OFLC Performance Data|publisher = Office of Foreign Labor Certification|accessdate = April 2, 2016}}</ref>
+
+* Overall annual performance reports: These are detailed reports that include both statistics and some interpretation of the statistics.
+* Annual performance, broken down by state: This provides, for each state, the number of positions certified and the average wage officer for the top three cities and the top five occupations.
+* Selected statistics, both for prevailing wage determination and for the Labor Condition program.
+* Quarterly disclosure data, a large spreadsheet with complete information on the list of applications, their status (approved/denied), and the values of the fields in each application (the company sponsoring the applicant, the position, the wage, the prevailing wage quoted, etc.)
+
+The [[Center for Immigration Studies]], a think tank that advocates strict limits on immigration and has been critical of temporary worker programs, has also used the available data on LCAs to better understand and critique the H-1B program. As CIS has noted in its critique, LCA data is a flawed proxy for understanding the H-1B program because not all LCAs get used for actual H-1B petitions, not all H-1B petitions with valid LCAs get approved, and not everybody with an approved petition is able to get a visa and start work. However, the [[United States Citizenship and Immigration Services]] releases much more coarse data on approved H-1B Form I-129 petitions, rather than data at the level of individual petitions, leading researchers and analysts to rely on LCA data more despite its flaws.<ref name=low-skills>{{cite web|url = http://cis.org/LowSalariesforLowSkills-H1B|title = Low Salaries for Low Skills: Wages and Skill Levels for H-1B Computer Workers, 2005|date = April 1, 2007|accessdate = April 2, 2016|last = Miano|first = John|publisher = [[Center for Immigration Studies]]}}</ref>
+
+=== Public access file ===
+
+{{main|Public access file}}
+
+Any employer filing a Labor Condition Application for H-1B, H-1B1, or E-3 petitions is required to maintain a public access file for each worker on such a status, as long as the worker is working and up to one year later. This file is intended to provide additional explanation for the way the employer filled the Labor Condition Application. The Public Access File must include:<ref name=cfr-paf>{{cite web|url = https://www.law.cornell.edu/cfr/text/20/655.760|title = 20 CFR 655.760 - What records are to be made available to the public, and what records are to be retained?|publisher = [[Code of Federal Regulations]] (mirrored on the website of the [[Legal Information Institute]])}}</ref>
+
+* A full, clear explanation of the system used to determine the prevailing wage (relevant to Attestation #1).
+* A full, clear explanation of the system used to determine the actual wage (relevant to Attestation #1).
+* Proof of satisfying union/employee notification requirements (relevant to Attestation #4).
+* If an employer who ''prima facie'' appears to be H-1B-dependent (or ambiguous) files as H-1B-non-dependent, then information that explains the calculation.
+* Where the employer is H-1B-dependent and/or a willful violator, and indicates on the LCA(s) that only "exempt" H-1B nonimmigrants will be employed, a list of such "exempt" H-1B nonimmigrants (see §655.737(e)(1)).<ref>{{Cite web|url=https://www.nafsa.org/_/file/_/amresource/20cfr655700.htm|title=20 CFR Part 655, Subpart H|website=www.nafsa.org|access-date=2019-12-12}}</ref>
+
+The public access file must be made available to any member of the public within one working day after the date on which the LCA is filed with ETA.<ref>{{Cite web|url=https://www.nafsa.org/_/file/_/amresource/20cfr655700.htm|title=20 CFR Part 655, Subpart H|website=www.nafsa.org|access-date=2019-12-12}}</ref> Not having a Public Access File available to the public at short notice is itself a compliance failure, even if the employer can generate the file (i.e., the employer has otherwise complied with all the rules).
+
+Employers also need to maintain additional private information in a private access file to share with the [[United States Department of Labor]] in the event of an audit or fraud investigation, but this Private Access File cannot be requested by the public. Employers are strongly advised not to include any information in the Public Access File beyond what is mandated by law, so as not to violate the privacy of employees and the company's other stakeholders.
+
+==Differences with labor certification==
+
+{{further|Labor certification}}
+
+The Labor Condition Application should not be confused with [[labor certification]], a process that people need to go through for most [[EB visa]]s (employment-based visas) that provide a path to permanent residency. Below are some key differences:
+
+{| class="wikitable" border="1"
+! Attribute !! Labor Condition Application !! Labor certification
+|-
+| Type of visa || Temporary work visa: H-1B, H-1B1, or E-3 || Employment-based visa (such as an [[EB-2 visa]] or [[EB-3 visa]]) that provides a path to permanent residency (a [[United States Permanent Resident Card|Green Card]])
+|-
+| Typical time for approval || Less than a week || A few months
+|-
+| Burden of proof || The employer needs to demonstrate that the worker is being paid at least the prevailing wage for that region and occupation, and comparable to native workers in the firm, and that employing the worker will not adversely affect current workers. The employer does ''not'' need to demonstrate that there is no qualified native U.S. worker for the job. || The employer needs to demonstrate that there is no qualified U.S. worker willing to do the job at a comparable wage, and needs to have made a good-faith effort to recruit a native U.S. worker.
+|}
+
+==History==
+
+The Labor Condition Application has been shaped by some key pieces of legislation.
+
+{| class="wikitable" border="1"
+! Law or act !! Date of enactment !! President !! Congress !! Effect on Labor Condition Application 
+|-
+| [[Immigration Act of 1990]] || November 29, 1990 || [[George H. W. Bush]] || [[101st United States Congress|101st]] || Introduced the LCA and the basic attestations.
+|-
+| [[American Competitiveness and Workforce Improvement Act]] (ACWIA) || October 21, 1998 || [[Bill Clinton]] || [[105th United States Congress|105th]] || Introduced the concept of "H-1B-dependent employer" and required additional attestations about non-displacement of U.S. workers from employers who were H-1B-dependent or had committed a willful misrepresentation in an application in the recent past.
+|-
+| Free trade agreements: [[Singapore–United States Free Trade Agreement]], [[Chile–United States Free Trade Agreement]], and [[Australia–United States Free Trade Agreement]] || 2003-2005 || [[George W. Bush]] || [[108th United States Congress|108th]] || The LCA was modified to allow its use for applications for the [[H-1B1 visa|H-1B1]] (for [[Singapore]] and [[Chile]]) and [[E-3 visa|E-3]] (for [[Australia]]) visa classifications.
+|-
+| [[H-1B Visa Reform Act of 2004]], part of the [[Consolidated Appropriations Act, 2005]] || December 6, 2004 || [[George W. Bush]] || [[108th United States Congress|108th]] || Expanded the Department of Labor's investigative authority, but also provided two standard lines of defense to employers (the Good Faith Compliance Defense and the Recognized Industry Standards Defense). Also, the additional LCA attestations introduced in the ACWIA were made permanent. There were no other direct changes to the LCA itself.
+|-
+| [[Employ American Workers Act]], part of the [[American Recovery and Reinvestment Act of 2009]] || February 17, 2009 (sunset on February 17, 2011) || [[Barack Obama]] || [[111th United States Congress|111th]] || All recipients of [[Troubled Asset Relief Program]] (TARP) or [[Federal Reserve Act]] Section 13 were required to file the additional attestations required of H-1B-dependent employers, for any employee who had not yet started on a H-1B visa.
+|}
+
+==References==
+{{Reflist|30em}}
+
+[[Category:Employment of foreign-born]]
+[[Category:United States government forms]]
+[[Category:United States immigration law]]
+[[Category:United States Department of Labor]]
