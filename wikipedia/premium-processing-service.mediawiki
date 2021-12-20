@@ -34,9 +34,9 @@ USCIS' previous system of allowing discretionary expedite requests is no longer 
 
 The general idea of the Premium Processing Service started taking shape in 1999 when Congress and private industry started putting pressure on the INS to process applications faster. Congress mandated that INS process L-1 petitions within 30 days.<ref name=oig-report>{{cite web|url = https://oig.justice.gov/reports/INS/a0314/final.pdf|title = Audit Report: Immigration and Naturalization Service's Premium Processing Program|date = February 1, 2003|accessdate = December 19, 2021|publisher = United States Department of Justice Office of the Inspector General Audit Division}}</ref><ref name=endelman/>
 
-On December 21, 2000, President Bill Clinton signed an amendment to the Immigration and Nationality Act that added the subsection:<ref name=oig-report/>
+On December 21, 2000, President [[Bill Clinton]] signed an amendment to the Immigration and Nationality Act that added the subsection:<ref name=oig-report/>
 
-The Attorney General is authorized to establish and collect a premium fee for employment-based petitions and applications. This fee shall be used to provide certain premium-processing services to business customers, and to make infrastructure improvements in the adjudications and customer service process. For approval of the benefit applied for, the petitioner/applicant must meet the legal criteria for such benefit. This fee shall be set at $1,000, shall be paid in addition to any normal petition/application fee that may be applicable, and shall be deposited as offsetting collections in the [[Immigration Examinations Fee Account]]. The Attorney General may adjust this fee according to the Consumer Price Index. 
+{{quote|The [[United States Attorney General|Attorney General]] is authorized to establish and collect a premium fee for employment-based petitions and applications. This fee shall be used to provide certain premium-processing services to business customers, and to make infrastructure improvements in the adjudications and customer service process. For approval of the benefit applied for, the petitioner/applicant must meet the legal criteria for such benefit. This fee shall be set at $1,000, shall be paid in addition to any normal petition/application fee that may be applicable, and shall be deposited as offsetting collections in the [[Immigration Examinations Fee Account]]. The Attorney General may adjust this fee according to the [[United States Consumer Price Index|Consumer Price Index]].}}
 
 === Introduction of Premium Processing for Form I-129 ===
 
@@ -65,7 +65,7 @@ Here is the history of fee changes:
 {| class="wikitable sortable"
 ! Fee (in USD) !! Date of announcement !! Date the new fee would take effect !! Notes
 |-
-| 1,000 || 2001 || 2001 || initial fee
+| 1,000 || 2001 || 2001 || initial fee set in the legislation that directed INS to create the Premium Processing Service
 |-
 | 1,225 || November 2010 || 2011 || fee increase based on price increases over the last decade
 |-
