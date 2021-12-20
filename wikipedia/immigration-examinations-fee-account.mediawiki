@@ -5,7 +5,7 @@ The '''Immigration Examinations Fee Account''' ('''IEFA''') is an account in the
 
 === Some fees that are set by statute ===
 
-While most USCIS fees for immigration and naturalization benefits are set by USCIS, some fees are explicitly set through legislation. The three main categories are:<ref name=iefa-fee-review-2020/>
+While most USCIS fees for immigration and naturalization benefits are set by USCIS, some fees are explicitly set through legislation. The three main legislatively set fees are:<ref name=iefa-fee-review-2020/>
 
 * The filing fee for [[temporary protected status]] (TPS) is set at $50 for initial filing, with renewals free of charge. USCIS does not have the authority to change these fees.
 * [[Premium Processing Service]] fee was set originally by Congress at $1,000, but USCIS was allowed to make adjustments for inflation,<ref name=oig-report>{{cite web|url = https://oig.justice.gov/reports/INS/a0314/final.pdf|title = Audit Report: Immigration and Naturalization Service's Premium Processing Program|date = February 1, 2003|accessdate = December 19, 2021|publisher = United States Department of Justice Office of the Inspector General Audit Division}}</ref> which it did till the fee reached $1,4440 in 2019. In 2020, an updated fee was authorized by the [[Emergency Stopgap USCIS Stabilization Act]]: $1,500 for H-2B and R categories, $2,500 for all others.
