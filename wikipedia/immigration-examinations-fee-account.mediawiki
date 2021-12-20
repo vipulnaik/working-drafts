@@ -1,3 +1,4 @@
+{{Short description|Account in the Treasury of the United States}}
 The '''Immigration Examinations Fee Account''' ('''IEFA''') is an account in the [[United States Department of the Treasury|Treasury of the United States]] into which all revenues collected from fees for immigration and naturalization are deposited, and that is used to fund the costs associated with providing the immigration and naturalization benefits.<ref name=iefa-adjustment-proposal-2001/><ref name=usc-8>{{cite web|url = https://www.govinfo.gov/content/pkg/USCODE-2019-title8/html/USCODE-2019-title8-chap12-subchapII-partIX-sec1356.htm|title = §1356. Disposition of moneys collected under the provisions of this subchapter|accessdate = December 19, 2021}}</ref> The account funds most of the operations of the [[United States Citizenship and Immigration Services]] (USCIS), the sub-agency of the [[U.S. Department of Homeland Security]] that is tasked with most of the associated work (such as adjudication of [[USCIS immigration forms]]).<ref name=iefa-fee-review-2020>{{cite web|url = https://www.aila.org/File/Related/20073100c.pdf|title = Immigration Examinations Fee Account Fee Review Supporting Documentation with Addendum|date = May 1, 2020|accessdate = December 19, 2021|publisher = United States Citizenship and Immigration Services}}</ref><ref name=dhs-uscis-review-2020>{{cite web|url = https://www.dhs.gov/sites/default/files/publications/19_0318_MGMT_CBJ-Citizenship-Immigration-Services_0.pdf|title = Department of Homeland Security United States Citizenship and Immigration Services Budget Overview|accessdate = December 19, 2021}}</ref>
 
 == Use in fee determination and relation with other laws ==
@@ -30,3 +31,5 @@ IEFA fee reviews conducted biennially by USCIS have sometimes led to identificat
 == References ==
 
 {{reflist|30em}}
+
+[[Category:United States Department of the Treasury]]
