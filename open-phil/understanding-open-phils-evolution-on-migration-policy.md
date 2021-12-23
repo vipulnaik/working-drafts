@@ -331,7 +331,7 @@ disavows any immediate major changes to grantmaking patterns:
 > our hope is that sharing our latest thinking will be useful for
 > others.
 
-More recent developments, however, suggeest that Open Philanthropy is
+More recent developments, however, suggest that Open Philanthropy is
 following through on its plans to scale back in areas of grantmaking
 where this bar is not met. The most salient example is the [spinout of
 the criminal justice reform grantmaking to its own organization, Just
@@ -340,6 +340,16 @@ the scale of giving in migration policy is probably too small to
 justify a spinout to a separate organization, the general thinking
 around scaling back grantmaking may also apply to migration policy and
 other areas.
+
+[Added after the original post]: Open Philanthropy reaffirms in a [new
+post](https://www.openphilanthropy.org/blog/technical-updates-our-global-health-and-wellbeing-cause-prioritization-framework#Our_previous_bar)
+that it has been using the "roughly 1,000x" bar for funding *new* programs since the 2019 post:
+
+> As of 2019, we switched to tentatively thinking of “roughly 1,000x”
+> as our bar for new programs, because that was roughly our estimate
+> of the unfunded margin of the GiveWell top charities, and we thought
+> we would be able to find enough other opportunities at that
+> cost-effectiveness to hit our overall spending targets.
 
 ### Specific learning by Open Philanthropy about migration
 
