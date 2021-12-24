@@ -155,9 +155,20 @@ being a steady part of the landscape.
 Existence value and the Open Borders Conference are my two main
 reasons. I still haven't fully wrapped my head around how to assess
 the direct, object-level impact of FMP's legal representation work and
-its activism on beneficiaries. I'm reasonably confident the impact is
-positive, but have no idea how it stacks up against other
-philanthropic activities that help people.
+its activism on beneficiaries. If you want to dig into this yourself
+based on public information, check out [FMP's 2021 annual
+report](https://freemigrationproject.org/2021-annual-report-free-migration-project/).
+
+I'm reasonably confident the impact is positive, but have no idea how
+it stacks up against other philanthropic activities that help
+people. In general, in my mind, justifications based solely on direct
+impact on beneficiaries need to clear a very high bar given the
+alternative of GiveWell top charities, for reasons similar to what
+Open Philanthropy described
+[here](https://www.openphilanthropy.org/blog/givewells-top-charities-are-increasingly-hard-beat). But
+I haven't done too much analysis of FMP's activities to the point
+where I could say anything concrete about them beyoond these general
+priors.
 
 For my donation, thus, I strictly considered *only* the two things I
 could get a grip on: existence value, and the Open Borders Conference.
@@ -402,3 +413,42 @@ donation, as long as I think there's enough value in what FMP is doing
 to be worth bringing to the attention of others).
 
 ## Thoughts on fundraising dynamics
+
+### The alternative approach of running fundraisers
+
+Many others on the board are running or considering running
+end-of-year fundraisers for FMP using Facebook fundraisers; I heard
+that other board members were using
+[Stack](https://www.stackraise.com/) for fundraisers. Here are two of
+the fundraisers: [Jamila
+Hammami](https://www.facebook.com/donate/490792478960286/496653431707524/),
+[Jasmine
+Rivera](https://www.facebook.com/donate/4610574152357387/). Two of the
+board members are also running a [trivia night
+fundraiser](https://actionnetwork.org/ticketed_events/virtual-trivia-night-fundraiser-with-steve-jamila-for-fmp).
+
+Doing a fundraiser did not personally sit well with me (though I wish
+the best of luck to those running them). I'm articulating below some
+of my reasons, that are partly personal and partly general epistemic
+considerations:
+
+* I generally favor making fewer, larger donations that have a lot of
+  thought in them, over several smaller donations: This is based on a
+  more nuanced version of the [one charity
+  argument](https://thinkingbeyondcompetition.wordpress.com/2009/03/24/the-one-charity-argument-and-the-end-of-poverty/)
+  (amazingly enough, the linked post I wrote over 12 years ago, back
+  when I was a much less sophisticated thinker, still seems to be one
+  of the best expositions I know on the subject). The world of
+  donations, in particular in the effective altruist sphere, has
+  evolved a lot since that crude argument, but I think the general
+  crux -- the idea that we should keep directing donations to the top
+  charity at the relevant margin until the margins change enough --
+  still applies.
+
+  While we can imagine some charities, such as the local soup kitchen,
+  where the marginal calculus changes after a few hundred dollars,
+  most moderate-sized charities won't have the margin change at those
+  small amounts. As a rule of thumb, I set a minimum of $1,000 per
+  donation and generally think in multiples of thousand when thinking
+  about how the marginal value of donations may change.
+
