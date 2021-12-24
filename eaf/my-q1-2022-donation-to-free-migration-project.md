@@ -4,13 +4,14 @@ I'm planning to make a donation of 3,000 USD to [Free Migration
 Project](https://freemigrationproject.org/) in January 2022. This blog
 post goes in some detail on my reasoning.
 
-I'm planning to cross-post this to openborders.info (given that the
-grantee works in that area) as well as the EA Forum (given that some
-of my decision-making process was guided by principles similar to
-effective altruist principles). Borrowing from [Larks' AI alignment
+I'm planning to cross-post this to
+[openborders.info](https://openborders.info/) (given that the grantee
+works in that area) as well as the EA Forum (given that some of my
+decision-making process was guided by principles similar to effective
+altruist principles). Borrowing from [Larks' AI alignment
 reviews](https://www.lesswrong.com/posts/pTYDdcag9pTzFQ7vw/2020-ai-alignment-literature-review-and-charity-comparison#How_to_read_this_document),
-I use `#openborders` and `#eaforum` for portions particularly
-relevant to the readerships of those sites.
+I use `#openborders` and `#eaforum` for portions particularly relevant
+to the readerships of those sites.
 
 Sections:
 
