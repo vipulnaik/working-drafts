@@ -49,7 +49,7 @@ In the [proposal that David Bennion submitted for
 FMP](https://www.openphilanthropy.org/files/Grants/Free_Migration_Project/Free_Migration_Project_funding_proposal_(OPP)_final.pdf),
 he mentions discovering [openborders.info](https://openborders.info/)
 in 2013 as one of the influences that led him to start FMP. I had
-originally started openbrders.info back in March 2012.
+originally started openborders.info back in March 2012.
 
 ### I donated in December 2019 to discharge my "board member" obligation
 
@@ -250,10 +250,10 @@ under the $7,000.
 ### FMP's financial situation
 
 One of the main reasons for the timing is FMP's financial situation. I
-already described some general aspects of this in an earlier
-section "FMP has room for more funding". I can't go into further
-details, but basically I do believe this is one of those unique times
-where the value of donations is high.
+already described some general aspects of this in an earlier section
+"FMP has room for more funding". I can't go into further details, but
+basically I do believe this is one of those relatively rare times in
+the organization's history where the value of donations is high.
 
 ### My donation budget accumulation
 
@@ -267,7 +267,7 @@ leaving $6,000. This gives me room to make donations.
 Even before being apprised of the financial situation, I had been
 considering making some sort of donation to mark my exit from the Free
 Migration Project board at the end of 2021, as a sort of "parting
-gift". However, this is minor in the scheme of things.
+gift". However, this consideration is minor in the scheme of things.
 
 ### Maturing of background investigation
 
@@ -289,7 +289,7 @@ was also for the loosely related goal of understanding the space.
 
 ### Tax considerations favored deferring the donation to January
 
-*Content warning: Technical section, highly specific to US income
+*Content warning: technical section, highly specific to US income
  taxes, people in high-tax states, and people within some income
  brackets. This section can be skipped without loss of context.*
 
@@ -330,7 +330,7 @@ So if I'm planning to donate $X in tax-deductible donations in 2022
 years, over the standard deduction works out to:
 
             | Case X < 2,950 | Case X >= 2,950
-            | --             | --
+ --         | --             | --
  Scenario 1 | 450            | 450 + (X - 2,950) = X - 2,500
  Scenario 2 | 50 + X         | 50 + X
 
