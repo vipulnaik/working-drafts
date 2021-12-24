@@ -50,8 +50,7 @@ attending its first board meeting in May 2016. I'm stepping down from
 the board at the end of December 2021, a little before my maximum of
 six years on the board would be completed.
 
-I have known David (Dave) Bennion, FMP's founder, since 2013, and Dave
-mooted the idea that would lead to FMP back in October 2015. I also
+I have known David (Dave) Bennion, FMP's founder, since 2013. I also
 wrote the email introducing Dave to Alexander Berger, then Program
 Officer for U.S. Policy at Open Philanthropy; this would ultimately
 result in a [$24,000 grant from Open
