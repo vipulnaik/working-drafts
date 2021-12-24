@@ -176,10 +176,13 @@ year-to-year based on the whims of individuals involved, rather than
 being a steady part of the landscape.
 
 Existence value and the Open Borders Conference are my two main
-reasons. I still haven't fully wrapped my head around how to assess
-the direct, object-level impact of FMP's legal representation work and
-its activism on beneficiaries. If you want to dig into this yourself
-based on public information, check out [FMP's 2021 annual
+reasons. I also mentioned a few other points in my [Open Borders
+Action Group
+post](https://www.facebook.com/groups/openborders/posts/4441720569257963/),
+but I still haven't fully wrapped my head around how to assess the
+direct, object-level impact of FMP's legal representation work and its
+activism on beneficiaries. If you want to dig into this yourself based
+on public information, check out [FMP's 2021 annual
 report](https://freemigrationproject.org/2021-annual-report-free-migration-project/).
 
 [#eaforum] I'm reasonably confident the impact is positive, but have
@@ -550,6 +553,14 @@ considerations:
   in future years. I think this is plausible but unlikely if *I* ran a
   fundraiser (given my friend group), though the consideration might
   be more plausible for some of the others running fundraisers.
+
+  However, I am trying to raise awareness in other ways; for instance,
+  with my [Open Borders Action Group
+  post](https://www.facebook.com/groups/openborders/posts/4441720569257963/)
+  and with this blog post you're reading right now. If anything, I
+  think making a donation sends a more credible and convincing signal,
+  though that was a very minor consideration for me when deciding to
+  donate.
 
 * In some cases, the pressure to contribute to fundraisers works on a
   reciprocal basis: I donate to your fundraisers, you donate to
