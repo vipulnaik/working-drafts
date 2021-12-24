@@ -218,10 +218,12 @@ activism on beneficiaries. If you want to dig into this yourself based
 on public information, check out [FMP's 2021 annual
 report](https://freemigrationproject.org/2021-annual-report-free-migration-project/).
 
-[#eaforum] I'm reasonably confident the impact is positive, but have
-no idea how it stacks up against other philanthropic activities that
-help people. In general, in my mind, justifications based solely on
-direct impact on beneficiaries need to clear a very high bar given the
+[#eaforum] I'm reasonably confident that the direct impact on
+beneficiaries is positive and cost-effective (in the crude sense that
+benefits to beneficiaries exceed costs of program work), but have no
+idea how it stacks up against other philanthropic activities that help
+people. In general, in my mind, justifications based solely on direct
+impact on beneficiaries need to clear a very high bar given the
 alternative of GiveWell top charities, for reasons similar to what
 Open Philanthropy described
 [here](https://www.openphilanthropy.org/blog/givewells-top-charities-are-increasingly-hard-beat). But
