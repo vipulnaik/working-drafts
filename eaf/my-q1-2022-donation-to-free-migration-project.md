@@ -66,8 +66,13 @@ accurate:
 > Free Migration Project envisions a world where free movement of
 > people is the legal norm. We call for recognition of a human right
 > to migrate and the abolition of deportation.
+>
+> Founded in 2016, Free Migration Project is a 501(c)(3) nonprofit
+> organization based in Philadelphia, Pennsylvania.
 
-Founded in 2016, Free Migration Project is a 501(c)(3) nonprofit organization based in Philadelphia, Pennsylvania.
+You can also take a look at [FMP's 2021 Annual
+Report](https://freemigrationproject.org/2021-annual-report-free-migration-project/)
+for a more concrete picture of FMP's program work.
 
 ## Some considerations specific to my relationship with Free Migration Project
 
