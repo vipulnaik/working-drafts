@@ -16,6 +16,7 @@ to the readerships of those sites.
 Sections:
 
 * Background of where I am with respect to donations
+* Brief description of Free Migration Project
 * Some considerations specific to my relationship with Free Migration Project
 * Some background thinking motivating this donation
 * Reasons for amount
@@ -41,6 +42,32 @@ I am also limiting my budget to 1,000 USD per month starting July
 donation. My donation to FMP thus uses up $3,000 of the remaining
 $6,000, still leaving an unallocated $3,000 that would roll over to
 increase the budget for potential future donations.
+
+## Brief description of Free Migration Project
+
+I'll quote the entirety of [FMP's Mission and History
+page](https://freemigrationproject.org/about/mission-and-history/),
+rather than writing my own description which would likely be less
+accurate:
+
+> Free Migration Project represents immigrant clients in their legal
+> proceedings, provides legal support and training to organizers and
+> advocates, engages in public education and outreach, litigates in
+> the public interest, and advocates for fair and open immigration
+> laws.
+>
+> Free Migration Project represents clients in public deportation
+> defense campaigns and provides legal and strategic support to
+> undocumented organizers fighting for immigrant rights. We believe
+> that working with undocumented clients to elevate their stories and
+> struggles has helped to educate the public and engender support for
+> undocumented communities in Pennsylvania and beyond.
+>
+> Free Migration Project envisions a world where free movement of
+> people is the legal norm. We call for recognition of a human right
+> to migrate and the abolition of deportation.
+
+Founded in 2016, Free Migration Project is a 501(c)(3) nonprofit organization based in Philadelphia, Pennsylvania.
 
 ## Some considerations specific to my relationship with Free Migration Project
 
@@ -125,7 +152,7 @@ I would say the most crucial piece of private information I have is
 around the current financial state of the organization, which gives me
 a clearer sense of the value of marginal donations.
 
-### As a board member, I was asked (not forced!) to contribute to FMP's end-of-year fundraiser
+### As a board member, I was asked (not required!) to contribute to FMP's end-of-year fundraiser
 
 For various reasons (increased staff size meaning a larger annual
 budget for 2022, some delays with foundation funding being disbursed),
