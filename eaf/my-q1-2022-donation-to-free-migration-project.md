@@ -56,7 +56,8 @@ Officer for U.S. Policy at Open Philanthropy; this would ultimately
 result in a [$24,000 grant from Open
 Philanthropy](https://www.openphilanthropy.org/focus/us-policy/immigration-policy/free-migration-project-planning-grant). I
 don't think the fact of me doing the introduction had much effect on
-FMP getting the grant.
+FMP getting the grant (I also wasn't the person who originally had the
+idea of originally connecting FMP to Open Philanthropy).
 
 In the [proposal that David Bennion submitted for
 FMP](https://www.openphilanthropy.org/files/Grants/Free_Migration_Project/Free_Migration_Project_funding_proposal_(OPP)_final.pdf),
