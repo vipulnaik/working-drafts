@@ -384,10 +384,11 @@ The intuitive explanation for this:
 
 * Let's say that the standard deduction didn't change across
   years. Then it would always make sense to engage in [donation
-  bunching](https://www.benkuhn.net/bunching/), so that as much of
-  your donations as possible are working to reduce your taxable
-  income. Since I didn't make other donations in 2021 but might in
-  2022, this argues for deferring to 2022.
+  bunching](https://www.benkuhn.net/bunching/) (aka [donation
+  bundling](https://forum.effectivealtruism.org/posts/GYcD5AzKsJeyHL6c3/using-the-tax-system-and-stock-market-to-donate-more-a-few#Donate_more_by__bundling___an_example)),
+  so that as much of your donations as possible are working to reduce
+  your taxable income. Since I didn't make other donations in 2021 but
+  might in 2022, this argues for deferring to 2022.
   
 * However, the standard deduction increases each year, so that is an
   argument for donating earlier so as to benefit from having more of a
