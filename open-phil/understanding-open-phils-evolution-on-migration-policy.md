@@ -1,5 +1,11 @@
 # Understanding Open Philanthropy's evolution on migration policy
 
+*See
+ https://openborders.info/blog/understanding-open-philanthropys-work-migration-policy/
+ and
+ https://forum.effectivealtruism.org/posts/mhp8pofioZpoW6k34/understanding-open-philanthropy-s-evolution-on-migration
+ for the two official published versions.*
+
 NOTE: I sent a draft of this post to Open Philanthropy for
 comment. They wrote:
 
