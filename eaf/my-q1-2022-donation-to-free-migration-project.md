@@ -6,7 +6,7 @@ post goes in some detail on my reasoning.
 
 I'm planning to cross-post this to openborders.info (given that the
 grantee works in that area) as well as the EA Forum (given that some
-of my decisionmaking process was guided by principles similar to
+of my decision-making process was guided by principles similar to
 effective altruist principles). Some sections of the post are
 explicitly targeted at the respective audiences of those sites.
 
@@ -55,7 +55,7 @@ originally started openbrders.info back in March 2012.
 
 In December 2019, I made a $3,000 USD donation to Free Migration
 Project. I described my reasons for the donation on my [donation
-histoory](https://vipulnaik.com/donation-history/) page:
+history](https://vipulnaik.com/donation-history/) page:
 
 > I see it as the equivalent of sending $500/year for 6 years, which
 > is the duration of my board tenure. There isn’t a very specific
@@ -173,7 +173,7 @@ committed but not disbursed yet. Part of this is because FMP's staff
 had expanded from a size of one (two years ago) to a size of three,
 and the fundraising operation had not scaled appropriately.
 
-One other factor is that with the replcaement of immigration hardliner
+One other factor is that with the replacement of immigration hardliner
 Trump by the more moderate Biden, much of the money that would have
 funded migration-related activism has dried up, as donors have chosen
 to focus on other causes. Since my interest in free migration is more
@@ -295,7 +295,7 @@ was also for the loosely related goal of understanding the space.
 
 My [only donation in
 2021](https://vipulnaik.com/blog/my-somewhat-unusual-q4-2021-donation/)
-was not tax-deductibe in the United States. Thanks to the SALT
+was not tax-deductible in the United States. Thanks to the SALT
 deduction cap of $10,000, and the fact that my California state taxes
 are over $10,000, the total deductions I can take if I itemize
 deductions are $10,000 + charitable donations. The standard deduction
@@ -351,7 +351,7 @@ The intuitive explanation for this:
   
 * However, the standard deduction increases each year, so that is an
   argument for donating earlier so as to benefit from having more of a
-  reduction in taxable income from exceeding the standard deductioon.
+  reduction in taxable income from exceeding the standard deduction.
 
 * Combining both of these considerations, we see that the amount we
   plan to donate in 2022 needs to exceed the standard deduction
