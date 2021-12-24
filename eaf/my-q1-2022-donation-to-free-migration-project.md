@@ -181,12 +181,76 @@ long-term and not related specifically to the margins of US federal
 politics, this seems like the right time for donors with my mindset to
 step in.
 
+## Reasons for amount
+
+### My donation budget
+
+As I mentioned earlier in the post, I am accumulating a donation
+budget of 1,000 USD per month starting July 2021. By January 2022, I
+will have $7,000 accumulated, of which I've spent $1,000 so far,
+leaving $6,000. However, I'm making the decision and commitment in
+December, so in my mind I was really playing with only $6,000 - $1,000
+= $5,000.
+
+The donation budget sets an upper bound; I believe that there's a
+decent chance that I will identify better donation targets in the
+coming months, and do want to leave some of my donation budget for
+those better targets. That partly explains why I am not spending the
+entirety of the $6,000 or $5,000.
+
+I would say that my donation budget is one of the main reasons I
+didn't donate more, but a greater donation budget wouldn't translate
+directly to the same increase in how much of a donation I would
+make. I did a little thought experiment and estimated that I could go
+up to $5,000 if my donation budget were around $15,000, and up to
+$10,000 if my donation budget was around $50,000. This brings me to
+the next topic, the marginal value of funding. (Basically this is
+trading off the known value of FMP against the value of future
+opportunities and the likely funds I will need in order to be able to
+fund those opportunities).
+
+### Marginal value of funding for FMP
+
+The amount I have chosen falls well within the range where marginal
+funding directly helps FMP with its goal of continued existence, which
+is necessary for its existence value and its ability to sponsor the
+Open Borders Conference (the two reasons I want to donate to it).
+
+Since I limited my investigation to the range of values that I was
+actually likely to donate, I don't have a very exact sense of the
+marginal value of substantially larger amounts of funding, nor is this
+the right post to go over that. But I can say the following:
+
+* I do suspect diminishing returns in donations to FMP to quite an
+  extent (for my goals of existence value and ability to sponsor the
+  Open Borders Conference), and I do think $3,000 is enough to see at
+  least some meaningful change in the slope of the marginal value
+  curve. So the first $3,000 I donated are much more valuable than the
+  next $3,000.
+
+* The investigation I did would make me confident of donating up to
+  $10,000 if my donation budget were not constrained, even taking into
+  account other funds FMP expects to raise. After $10,000, I wouldn't
+  be sure this is a clearly time-sensitive opportunity that beats out
+  fallback donation targets (which are actually pretty good
+  value-for-money, so this is a high bar). To be clear, $10,000 is way
+  less than the amount FMP needs for its budget. And also, my
+  investigation scope was limited to looking at the kind of funds I
+  actually expect to give.
+
+One takeaway for other donors: if you're fully aligned with me and
+less constrained than I am on donation budget, I think donating up to
+$7,000 total would be great. I don't expect to influence more than 2-3
+people, so donating up to $1,000 should be safe; even if 3 people
+ended up donating $1,000 based on this post it would still be well
+under the $7,000.
+
 ## Reasons for timing
 
 ### FMP's financial situation
 
 One of the main reasons for the timing is FMP's financial situation. I
-already described some general aspects of this in the preceding
+already described some general aspects of this in an earlier
 section "FMP has room for more funding". I can't go into further
 details, but basically I do believe this is one of those unique times
 where the value of donations is high.
@@ -315,3 +379,26 @@ a significant benefit from donating sooner, I would have done so.
 However, based on the information I had, I concluded that donating in
 January -- as long as I committed and communicated the donation in
 December -- would be good enough.
+
+## Potential future donations
+
+### A lot depends on other donation opportunities I might find
+
+It's possible that over the coming months, I will find other donation
+opportunities that I consider a more meaningful use of my donation
+budget. I'm not committing anything to FMP beyond this donation;
+moreover, since I am exiting the board I won't have any obligations of
+any sort.
+
+### I would want to understand FMP's role in spreading the idea of free movement and open borders better
+
+If I were to donate to FMP in the future, or to recommend to others to
+donate more to it, one thing I'd like to nail down is a better picture
+of how exactly FMP is spreading the idea of free migration and open
+borders, and how successful it has been. I might have further
+conversations with Dave on this point in the coming weeks and months,
+and might write more about this (even if I don't make a further
+donation, as long as I think there's enough value in what FMP is doing
+to be worth bringing to the attention of others).
+
+## Thoughts on fundraising dynamics
