@@ -29,8 +29,10 @@ donation](https://vipulnaik.com/blog/my-somewhat-unusual-q4-2021-donation/),
 I wrote extensively about where I currently am with respect to
 donations. The TL;DR is that right now, I'm only looking at
 time-sensitive donation opportunities that beat fallback donation
-targets (such as the EA Funds and the GiveWell Maximum Impact Fund),
-and I'm not being super-proactive in identifying these opportunities.
+targets (such as the [EA Funds](https://funds.effectivealtruism.org/)
+and the [GiveWell Maximum Impact
+Fund](https://www.givewell.org/maximum-impact-fund)), and I'm not
+being super-proactive in identifying these opportunities.
 
 I am also limiting my budget to 1,000 USD per month starting July
 2021. As of January 2022, the total amount I can spend would be $7,000
