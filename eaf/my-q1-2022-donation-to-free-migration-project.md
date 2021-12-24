@@ -7,8 +7,20 @@ post goes in some detail on my reasoning.
 I'm planning to cross-post this to openborders.info (given that the
 grantee works in that area) as well as the EA Forum (given that some
 of my decision-making process was guided by principles similar to
-effective altruist principles). Some sections of the post are
-explicitly targeted at the respective audiences of those sites.
+effective altruist principles). Borrowing from [Larks' AI alignment
+reviews](https://www.lesswrong.com/posts/pTYDdcag9pTzFQ7vw/2020-ai-alignment-literature-review-and-charity-comparison#How_to_read_this_document),
+I use `#openborders` and `#eaforum` for portions particularly
+relevant to the readerships of those sites.
+
+Sections:
+
+* Background of where I am with respect to donations
+* Some considerations specific to my relationship with Free Migration Project
+* Some background thinking motivating this donation
+* Reasons for amount
+* Reasons for timing
+* Potential future donations
+* Thoughts on fundraising dynamics
 
 ## Background of where I am with respect to donations
 
@@ -129,19 +141,20 @@ some of the backdrop (that led to the ask) did influence my decision.
 
 ### My reasons for thinking of FMP as worth supporting
 
-My main reason for supporting Free Migration Project is that it is one
-of the few organizations (and the only one I clearly know) that
-supports freedom of movement as its core mission. As the person who
-started openborders.info, I think this is an important cause, and I
-think even the *existence* of FMP helps continue to generate
-visibility for this super-important cause. This provides a kind of
-lower bound on FMP's value; even if I were completely unconvinced by
-the value of FMP's program work, FMP's total budget is so small in the
-grand scheme of things that it seems, from a big-picture philanthropic
-perspective, that it more than pays for itself.
+[#openborders] My main reason for supporting Free Migration Project is
+that it is one of the few organizations (and the only one I clearly
+know) that supports freedom of movement as its core mission. As the
+person who started openborders.info, I think this is an important
+cause, and I think even the *existence* of FMP helps continue to
+generate visibility for this super-important cause. This provides a
+kind of lower bound on FMP's value; even if I were completely
+unconvinced by the value of FMP's program work, FMP's total budget is
+so small in the grand scheme of things that it seems, from a
+big-picture philanthropic perspective, that it more than pays for
+itself.
 
-In terms of activities, the main thing FMP does to directly promote
-open borders is organize the [Open Borders
+[#openborders] In terms of activities, the main thing FMP does to
+directly promote open borders is organize the [Open Borders
 Conference](https://openborders.info/open-borders-conference/). I
 [reviewed the 2021
 conference](https://openborders.info/blog/open-borders-conference-2021-review/)
@@ -159,10 +172,10 @@ its activism on beneficiaries. If you want to dig into this yourself
 based on public information, check out [FMP's 2021 annual
 report](https://freemigrationproject.org/2021-annual-report-free-migration-project/).
 
-I'm reasonably confident the impact is positive, but have no idea how
-it stacks up against other philanthropic activities that help
-people. In general, in my mind, justifications based solely on direct
-impact on beneficiaries need to clear a very high bar given the
+[#eaforum] I'm reasonably confident the impact is positive, but have
+no idea how it stacks up against other philanthropic activities that
+help people. In general, in my mind, justifications based solely on
+direct impact on beneficiaries need to clear a very high bar given the
 alternative of GiveWell top charities, for reasons similar to what
 Open Philanthropy described
 [here](https://www.openphilanthropy.org/blog/givewells-top-charities-are-increasingly-hard-beat). But
@@ -286,7 +299,7 @@ I have been thinking off and on about related topics and collecting
 information over the past few months. Around December, I felt I had
 enough information to make a case (to myself) for a donation.
 
-My [Open Borders Conference 2021
+[#openborders] My [Open Borders Conference 2021
 review](https://openborders.info/blog/open-borders-conference-2021-review/)
 can be thought of as one public-facing piece of such background
 investigation; so can my [post on understanding Open Philanthropy's
@@ -296,7 +309,10 @@ work on the [timeline of immigration detention in the United
 States](https://timelines.issarice.com/wiki/Timeline_of_immigration_detention_in_the_United_States)
 and the [Berks County Residential
 Center](https://en.wikipedia.org/wiki/Berks_County_Residential_Center)
-was also for the loosely related goal of understanding the space.
+was also for the loosely related goal of understanding the space. I
+also had a number of private conversations, mostly in November 2021,
+and most of them not directly related to FMP, to build understanding
+of the space.
 
 ### Tax considerations favored deferring the donation to January
 
@@ -414,6 +430,32 @@ to be worth bringing to the attention of others).
 
 ## Thoughts on fundraising dynamics
 
+### FMP's overall fundraising strategy
+
+[#eaforum #openborders]
+
+I can't comment too much on the details of FMP's overall fundraising
+strategy, but I will say that the bulk of FMP's funding at present
+does not seem to come from avid open borders believers or the
+effective altruist community or its penumbra. The funding pattern
+seems to be reasonably similar to what you would expect of a migrant
+rights organization. 
+
+Given FMP's staff expansion in the last few years, the organization
+needs to, and is working to, expand its fundraising to keep pace with
+its size. I expect the bulk of this expaansion to be with the same
+sort of donor base that has sustained FMP so far. Most of these donors
+have fairly different terminal values than I do; also, instrumentally,
+the fundraising techniques that will work with these donors will be
+different from the things that would appeal to me.
+
+The role of donors more broadly similar to me (interested in open
+borders, some connections to effective altruism in the sense of
+interest in doing the *most* good) will likely depend on the extent to
+which FMP is able to make the case for how its activities help promote
+open borders more broadly. I expect to get a better understanding of
+this in 2022.
+
 ### The alternative approach of running fundraisers
 
 Many others on the board are running or considering running
@@ -432,9 +474,9 @@ the best of luck to those running them). I'm articulating below some
 of my reasons, that are partly personal and partly general epistemic
 considerations:
 
-* I generally favor making fewer, larger donations that have a lot of
-  thought in them, over several smaller donations: This is based on a
-  more nuanced version of the [one charity
+* [#eaforum] I generally favor making fewer, larger donations that
+  have a lot of thought in them, over several smaller donations: This
+  is based on a more nuanced version of the [one charity
   argument](https://thinkingbeyondcompetition.wordpress.com/2009/03/24/the-one-charity-argument-and-the-end-of-poverty/)
   (amazingly enough, the linked post I wrote over 12 years ago, back
   when I was a much less sophisticated thinker, still seems to be one
@@ -450,5 +492,72 @@ considerations:
   most moderate-sized charities won't have the margin change at those
   small amounts. As a rule of thumb, I set a minimum of $1,000 per
   donation and generally think in multiples of thousand when thinking
-  about how the marginal value of donations may change.
+  about how the marginal value of donations may change. If my donation
+  budget were under $1,000 (which it isn't right now, but was at some
+  points in the past), I would allocate it all to at most one charity.
 
+  I know of three kinds of exceptions to the rule favoring larger
+  donations:
+
+  * Donations as tips: As I noted in my [earlier
+    post](https://vipulnaik.com/blog/my-somewhat-unusual-q4-2021-donation/),
+    I would cap such donations at three times the private benefit to
+    me. Donating to FMP doesn't really fit in this category.
+
+  * Donations as compensation for effort answering questions: In the
+    past, I've had cases where I talked to a nonprofit about donation,
+    but became less excited about donation after thinking and talking
+    more. However, I want to reimburse the nonprofit for the effort
+    of talking to me. A donation of a few hundred dollars seems
+    appropriate for this sort of case.
+
+  * [#eaforum] Donations coordinated with multiple other donors, e.g.,
+    as part of something like a S-process: As Andrew Critch [explains
+    in a video](https://www.youtube.com/watch?v=jWivz6KidkI),
+    S-process funding with multiple funders takes turns allocating
+    small portions of each funder's budget in decreasing order of
+    marginal value. For organizations that all funders are similarly
+    excited about, this process spreads out the funding for the
+    organization across funders. The key is that an individual funder
+    isn't going completely before or after other funders. So the
+    marginal value of each additional unit of funding from an
+    individual funder changes not just due to that funder but due to
+    the funds from other funders.
+
+    If there are several highly similar funders participating in a
+    S-process, all of whom have very similar marginal value functions,
+    this process could lead to smaller per-funder allocations from
+    individual funders to the organization.
+
+    This donation is not part of an explicit S-process, nor can I
+    identify even any implicit S-process-like mechanism here. Also, I
+    as a donor have very different marginal value functions from most
+    of FMP's donor base.
+
+* One possible argument for fundraisers is that they raise awareness
+  of the organization (FMP), and some of those participating in the
+  fundraiser may form a direct relationship with FMP and donate more
+  in future years. I think this is plausible but unlikely if *I* ran a
+  fundraiser (given my friend group), though the consideration might
+  be more plausible for some of the others running fundraisers.
+
+* In some cases, the pressure to contribute to fundraisers works on a
+  reciprocal basis: I donate to your fundraisers, you donate to
+  mine. Since I generally don't donate to others' fundraisers, this
+  reciprocal basis doesn't really apply to me.
+
+## Conclusion
+
+All in all, I am pretty satisfied with my decision to make a $3,000
+donation to FMP after writing about it in more depth. I encourage
+highly aligned donors to make $1,000 donations even without further
+investigation, and to connect with FMP for the latest fundraising
+information if they are interested in donating more.
+
+My next step would be understanding more clearly the role that FMP
+plays in spreading the message of open borders. Such an understanding
+might influence me to donate more in the future. I might also write
+moore publicly about my understanding in 2022 or later as I acquire
+more understanding (even if I end up not donating further). However,
+it's possible I become more interested in other donation opportunities
+in the future and decide not to investigate this further.
