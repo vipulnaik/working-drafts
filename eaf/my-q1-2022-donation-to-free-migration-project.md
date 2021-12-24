@@ -65,6 +65,13 @@ he mentions discovering [openborders.info](https://openborders.info/)
 in 2013 as one of the influences that led him to start FMP. I had
 originally started openborders.info back in March 2012.
 
+Back in October, I [posted an
+excerpt](https://www.facebook.com/groups/openborders/posts/4266783820084973/)
+from [Javier Hidalgo's *Unjust
+Borders*](https://philpapers.org/archive/HIDUBI.pdf) that goes over
+some of this history rather coarsely, starting with Bryan Caplan's
+blogging that influenced my decision to start openborders.info.
+
 ### I donated in December 2019 to discharge my "board member" obligation
 
 In December 2019, I made a $3,000 USD donation to Free Migration
