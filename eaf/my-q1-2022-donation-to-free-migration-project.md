@@ -329,7 +329,7 @@ So if I'm planning to donate $X in tax-deductible donations in 2022
 (over and above this FMP donation), my total saving, across both
 years, over the standard deduction works out to:
 
-            | Case X < 2,950 | Case X >= 2,950
+ Scenarios  | Case X < 2,950 | Case X >= 2,950
  --         | --             | --
  Scenario 1 | 450            | 450 + (X - 2,950) = X - 2,500
  Scenario 2 | 50 + X         | 50 + X
