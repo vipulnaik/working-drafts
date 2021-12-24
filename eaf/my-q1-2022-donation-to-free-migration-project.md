@@ -251,7 +251,7 @@ is necessary for its existence value and its ability to sponsor the
 Open Borders Conference (the two reasons I want to donate to it).
 
 Since I limited my investigation to the range of values that I was
-actually likely to donate, I don't have a very exact sense of the
+actually likely to donate, I don't have a very clear sense of the
 marginal value of substantially larger amounts of funding, nor is this
 the right post to go over that. But I can say the following:
 
