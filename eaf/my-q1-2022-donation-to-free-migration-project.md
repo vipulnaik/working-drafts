@@ -130,11 +130,12 @@ information. However, the private information does give me a clearer
 picture of the organization that outsiders don't have, which gives me
 more confidence about some things.
 
-While I would be open to writing about relevant details in the future
-in depth after running them by FMP, the time constraints I currently
-have for this post don't permit that. However, I can describe some of
-the kinds of information I have access to, that influences my decision
-to donate, that an outsider wouldn't have access to:
+In an ideal world, I might want to summarize the private information
+into nuggets that can be disclosed publicly and run them by FMP before
+publishing; however, the time constraints I currently have for this
+post don't permit that. However, I can describe some of the *kinds* of
+information I have access to, that influence my decision to donate,
+that an outsider wouldn't have access to:
 
 * Information on foundation funding received by FMP, including the
   names of foundations, and in many cases the amount and the timing of
