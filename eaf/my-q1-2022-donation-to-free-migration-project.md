@@ -4,14 +4,18 @@ I'm planning to make a donation of 3,000 USD to [Free Migration
 Project](https://freemigrationproject.org/) (FMP) in January 2022. This blog
 post goes in some detail on my reasoning.
 
-I'm planning to cross-post this to
-[openborders.info](https://openborders.info/) (given that FMP
-works in that area) as well as the EA Forum (given that some of my
-decision-making process was guided by principles similar to effective
-altruist principles). Borrowing from [Larks' AI alignment
+https://vipulnaik.com/blog/my-q1-2022-donation-to-free-migration-project/
+is the post's canonical location (but does not accept comments). I'm
+cross-posting to [openborders.info](https://openborders.info/) (post
+link pending) (given that FMP works in that area) as well as the EA
+Forum
+[here](https://forum.effectivealtruism.org/posts/xzQzLoEC5mvPyJTYY/my-q1-2022-donation-to-free-migration-project)
+(given that some of my decision-making process was guided by
+principles similar to effective altruist principles). Borrowing from
+[Larks' AI alignment
 reviews](https://www.lesswrong.com/posts/pTYDdcag9pTzFQ7vw/2020-ai-alignment-literature-review-and-charity-comparison#How_to_read_this_document),
-I use `#openborders` and `#eaforum` for portions particularly relevant
-to the readerships of those sites.
+I use #openborders and #eaforum for portions particularly relevant to
+the readerships of those sites.
 
 Sections:
 
@@ -496,7 +500,7 @@ organization based in the Philadelphia region.
 
 Given FMP's staff expansion in the last few years, the organization
 needs to, and is working to, expand its fundraising to keep pace with
-its size. I expect the bulk of this expaansion to be with the same
+its size. I expect the bulk of this expansion to be with the same
 sort of donor base that has sustained FMP so far. Most of these donors
 have fairly different terminal values than I do; also, instrumentally,
 the fundraising techniques that will work with these donors will be
@@ -618,7 +622,7 @@ information if they are interested in donating more.
 My next step would be understanding more clearly the role that FMP
 plays in spreading the message of open borders. Such an understanding
 might influence me to donate more in the future. I might also write
-moore publicly about my understanding in 2022 or later as I acquire
+more publicly about my understanding in 2022 or later as I acquire
 more understanding (even if I end up not donating further). However,
 it's possible I become more interested in other donation opportunities
 in the future and decide not to investigate this further.
