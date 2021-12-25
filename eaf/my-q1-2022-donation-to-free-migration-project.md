@@ -488,7 +488,8 @@ strategy, but I will say that the bulk of FMP's funding at present
 does not seem to come from avid open borders believers or the
 effective altruist community or its penumbra. The funding pattern
 seems to be reasonably similar to what you would expect of a migrant
-rights organization. 
+rights organization; even more specifically, of a migrant rights
+organization based in the Philadelphia region.
 
 Given FMP's staff expansion in the last few years, the organization
 needs to, and is working to, expand its fundraising to keep pace with
@@ -548,7 +549,7 @@ considerations:
   I know of three kinds of exceptions to the rule favoring larger
   donations:
 
-  * Donations as tips: As I noted in my [earlier
+  * Donations as gifts: As I noted in my [earlier
     post](https://vipulnaik.com/blog/my-somewhat-unusual-q4-2021-donation/),
     I would cap such donations at three times the private benefit to
     me. Donating to FMP doesn't really fit in this category.
