@@ -96,13 +96,13 @@ don't think the fact of me doing the introduction had much effect on
 FMP getting the grant (I also wasn't the person who originally had the
 idea of connecting FMP to Open Philanthropy).
 
-In the [proposal that David Bennion submitted for
+[#openborders] In the [proposal that David Bennion submitted for
 FMP](https://www.openphilanthropy.org/files/Grants/Free_Migration_Project/Free_Migration_Project_funding_proposal_(OPP)_final.pdf),
 he mentions discovering [openborders.info](https://openborders.info/)
 in 2013 as one of the influences that led him to start FMP. I had
 originally started openborders.info back in March 2012.
 
-Back in October, I [posted an
+[#openborders] Back in October, I [posted an
 excerpt](https://www.facebook.com/groups/openborders/posts/4266783820084973/)
 from [Javier Hidalgo's *Unjust
 Borders*](https://philpapers.org/archive/HIDUBI.pdf) that goes over
@@ -232,7 +232,7 @@ alternative of GiveWell top charities, for reasons similar to what
 Open Philanthropy described
 [here](https://www.openphilanthropy.org/blog/givewells-top-charities-are-increasingly-hard-beat). But
 I haven't done too much analysis of FMP's activities to the point
-where I could say anything concrete about them beyoond these general
+where I could say anything concrete about them beyond these general
 priors.
 
 For my donation, thus, I strictly considered *only* the two things I
