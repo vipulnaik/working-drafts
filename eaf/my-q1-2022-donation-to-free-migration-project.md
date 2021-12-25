@@ -315,7 +315,10 @@ less constrained than I am on donation budget, I think donating up to
 $7,000 total would be great. I don't expect to influence more than 2-3
 people, so donating up to $1,000 should be safe; even if 3 people
 ended up donating $1,000 based on this post it would still be well
-under the $7,000.
+under the $7,000. If you're thinking of donating more than $1,000, I
+recommend getting in touch with FMP and doing your own marginal value
+calculation based on the most up-to-date information at the time of
+your donation.
 
 ## Reasons for timing
 
