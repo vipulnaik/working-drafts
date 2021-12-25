@@ -1,11 +1,11 @@
 # My Q1 2022 donation to Free Migration Project
 
 I'm planning to make a donation of 3,000 USD to [Free Migration
-Project](https://freemigrationproject.org/) in January 2022. This blog
+Project](https://freemigrationproject.org/) (FMP) in January 2022. This blog
 post goes in some detail on my reasoning.
 
 I'm planning to cross-post this to
-[openborders.info](https://openborders.info/) (given that the grantee
+[openborders.info](https://openborders.info/) (given that FMP
 works in that area) as well as the EA Forum (given that some of my
 decision-making process was guided by principles similar to effective
 altruist principles). Borrowing from [Larks' AI alignment
