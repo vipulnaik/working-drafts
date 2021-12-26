@@ -4,16 +4,22 @@ While making my
 [updates](https://github.com/vipulnaik/donations/commits) to the
 [donations list website](https://donations.vipulnaik.com/), I noticed
 some things that suggest that funding directed in a broadly
-longtermist direction will increase a lot in the next few years. The
-potential increase suggests that talent and capacity constraints will
-be more critical than funding constraints in the next few years. I'm
-sure elites/insiders in the fund allocation space have already thought
-about it, but I haven't seen much public discussion around these
-points.
+longtermist direction (and in particularl, for will increase a lot in the next few years. The
+potential increase mostly seems to come from funders having a lot more
+money or being interested in spending it down faster, with
+cryptocurrency price increases as the biggest single factor
+responsible.
 
-## Major donors
+There also seems to be some increase in organizational capacity to
+absorb funds, but the growth on that side seems slower. This suggests
+that talent and capacity constraints will be more critical than
+funding constraints in the next few years. I'm sure elites/insiders in
+the fund allocation space have already thought about this, but I haven't
+seen much public discussion collating this, so here is my effort.
 
-### Jaan Tallinn's philanthropy pledge
+## Major donors and increases in the supply of funding
+
+### Jaan Tallinn and his philanthropy pledge
 
 On his [philanthropy page](https://jaan.online/philanthropy/), Jaan
 Tallinn pledges, for each of the five years from 2020 to 2024, to
@@ -82,7 +88,6 @@ likely he'll donate a lot.
 Looking at these estimates, then, we see that *significant* amounts of
 money will probably have to be disbursed as *endpoint* grants in 2022,
 more than double what we saw in 2021.
-
 
 ### FTX Foundation
 
@@ -194,11 +199,12 @@ seeking clarification on this point.
 We already saw that a lot of Jaan Tallinn's wealth is tied to
 Ethereum, and the size of his mostly longtermist grantmaking is tied
 to Ethereum prices over the next few years. Tallinn is not the only
-person with huge wealth gains due to crypto; there are several others,
+person with huge wealth gains due to crypto who has committed funding
+to AI safety and other longtermist causes; there are several others,
 including [a big anonymous MIRI donor as well as Vitalik
 Buterin](https://intelligence.org/2021/05/13/two-major-donations/). As
-Zvi Mowshowitz [writes in a section titled "Too Much
-Money" (TMM)](https://www.lesswrong.com/posts/kuDKtwwbsksAW4BG2/zvi-s-thoughts-on-the-survival-and-flourishing-fund-sff#Too_Much_Money):
+Zvi Mowshowitz [writes in a section titled "Too Much Money"
+(TMM)](https://www.lesswrong.com/posts/kuDKtwwbsksAW4BG2/zvi-s-thoughts-on-the-survival-and-flourishing-fund-sff#Too_Much_Money):
 
 > The core reason for [Too Much Money] is crypto. If you invested
 > early in crypto, there’s a very good chance you have TMM. You see
@@ -215,7 +221,7 @@ Money" (TMM)](https://www.lesswrong.com/posts/kuDKtwwbsksAW4BG2/zvi-s-thoughts-o
 
 ## Allocators and influencers
 
-### Survival and Flourishing Fund (SFF)
+### Survival and Flourishing Fund (SFF): allocation may have trouble keeping pace with funds
 
 Back when it started in 2019, SFF was still granting out some money it
 had inherited from BERI, but it now acts as a purely virtual fund,
@@ -275,7 +281,7 @@ may become even more acute in 2022, unless other things change.
 > but when looking to allocate SFF funds it means there’s a lot more
 > to distribute and less places available to distribute to.
 
-### Long-Term Future Fund (LTFF)
+### Long-Term Future Fund (LTFF): allocation has increased
 
 The EA Funds generally aim to allocate money within a few months of
 receiving it, so we may think of them more as "allocators" than
@@ -292,6 +298,33 @@ for a grant for 2021 H1 and [got
 $675,000](https://survivalandflourishing.fund/sff-2021-h1-recommendations),
 then applied again for 2021 H2 and [got
 $1,417,000](https://survivalandflourishing.fund/sff-2021-h2-recommendations).
+
+I haven't seen any update yet around planned spending for 2022, and
+it's possible that the LTTFF will do yet another doubling from 2021 to
+2022, to grant up to $16 million. If it's able to scale that much,
+LTFF could absorb large grants from SFF in 2022 to make up what would
+otherwise be a funding shortfall. These grants would have to be
+considerably larger than the $675,000 and $1,417,000 granted so far in
+order to meaningfully use up SFF's funds. For instance, if LTFF
+absorbed its full funding of $16 million from SFF, that would still
+leave $24 million or more of Tallinn's money for SFF to allocate,
+which would still be 20% more than what SFF allocated in total in
+2021.
+
+### EA Infrastructure Fund (EAIF): allocation has increased
+
+A [December 2021
+post](https://forum.effectivealtruism.org/posts/pwnvva4AHfxYZmaGM/ea-infrastructure-fund-may-august-2021-grant-recommendations)
+says that the EA Infrastructure Fund is on track to spend abuot $5
+million in 2021, a 2.7x increase from 2020. Further increases for 2022
+are not specified, but EAIF does say that the amount of money it
+raised in 2021 was just $1.4 million, of which half came from Jaan
+Tallinn via SFF, so there's a significant funding gap.
+
+The EA Infrastructure Fund isn't quite longtermist-only, but it does
+look like SFF has supported it in the past, and some of the EA
+infrastructure supports longtermist causes. If we saw a doubling in
+funding to it,
 
 ## Recipient organizations
 
