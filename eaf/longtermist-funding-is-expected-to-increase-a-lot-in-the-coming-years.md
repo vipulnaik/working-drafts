@@ -4,11 +4,11 @@ While making my
 [updates](https://github.com/vipulnaik/donations/commits) to the
 [donations list website](https://donations.vipulnaik.com/), I noticed
 some things that suggest that funding directed in a broadly
-longtermist direction (and in particularl, for will increase a lot in the next few years. The
-potential increase mostly seems to come from funders having a lot more
-money or being interested in spending it down faster, with
-cryptocurrency price increases as the biggest single factor
-responsible.
+longtermist direction (and in particular, for AI safety) will increase
+a lot in the next few years. The potential increase mostly seems to
+come from funders having a lot more money or being interested in
+spending it down faster, with cryptocurrency price increases as the
+biggest single factor responsible.
 
 There also seems to be some increase in organizational capacity to
 absorb funds, but the growth on that side seems slower. This suggests
@@ -295,7 +295,7 @@ the LTFF at a much larger scale in 2022 and future years:
 > researchers sounds like one of the most robust ways to convert money
 > into relevant insights.
 
-### Long-Term Future Fund (LTFF): allocation has increased
+### Long-Term Future Fund (LTFF): allocation has increased, and much of the current allocation goes to indnvidual researchers
 
 The EA Funds generally aim to allocate money within a few months of
 receiving it, so we may think of them more as "allocators" than
@@ -314,7 +314,7 @@ then applied again for 2021 H2 and [got
 $1,417,000](https://survivalandflourishing.fund/sff-2021-h2-recommendations).
 
 I haven't seen any update yet around planned spending for 2022, and
-it's possible that the LTTFF will do yet another doubling from 2021 to
+it's possible that the LTFF will do yet another doubling from 2021 to
 2022, to grant up to $16 million. If it's able to scale that much,
 LTFF could absorb large grants from SFF in 2022 to make up what would
 otherwise be a funding shortfall. These grants would have to be
@@ -324,6 +324,21 @@ absorbed its full funding of $16 million from SFF, that would still
 leave $24 million or more of Tallinn's money for SFF to allocate,
 which would still be 20% more than what SFF allocated in total in
 2021.
+
+Much of LTFF's grantmaking is to individuals. A [post by John
+Wentworth](https://www.lesswrong.com/posts/P3Yt66Wh5g7SbkKuT/how-to-get-into-independent-research-on-alignment-agency),
+who has received grants from LTFF, talks about how he has been able to
+work full-time and earn a full-time wage doing independent research in
+AI alignment. Larks cites this in the [2021 AI Alignment Literature Review and Charity Comparison](https://forum.effectivealtruism.org/posts/BNQMyWGCNWDdP2WyG/2021-ai-alignment-literature-review-and-charity-comparison):
+
+> Wentworth's How To Get Into Independent Research On Alignment/Agency
+> suggests that the LTFF has been crucial to enabling the emergence of
+> independent safety researcher as a viable occupation; this seems
+> like a very major positive for the LTFF.
+
+Larks also makes a pie chart in his review post, based on an informal
+classification of LTFF grantmaking, that shows that of the
+grantmaking, ~25% goes to individual research and ~25% goes to PhD.
 
 In terms of hints for 2022, it looks like Jaan Tallinn is
 [excited](https://www.lesswrong.com/posts/P3Yt66Wh5g7SbkKuT/how-to-get-into-independent-research-on-alignment-agency?commentId=qDbGFJmjPnYnvMJnF)
@@ -362,9 +377,33 @@ basic operating costs, it means that funds from other funders (such as
 Tallinn, FTX Foundation, or Open Philanthropy) are free to chase other
 opportunities.
 
-### Larks' assessment suggests that for AI safety in particular, the best organizations are well-funded
+### Larks' assessment suggests that for AI safety in particular, the best organizations are well-funded, and individual researchers may be the most promising opportunity
 
-In a [section of a review of Larks' 2020 AI Alignment
+In the [2021 AI Alignnment Literature Review and Charity
+Comparison](https://forum.effectivealtruism.org/posts/BNQMyWGCNWDdP2WyG/2021-ai-alignment-literature-review-and-charity-comparison),
+Larks writes (note that this is rot13'd in his original text, so
+please read further at your own risk!):
+
+> [Un?]fortunately a lot of the organisations that I think do the best
+> research do not seem like particularly attractive funding
+> opportunities this year. Many are either for-profit companies or
+> already have strong financing for their current plans. Others simply
+> do not provide the level of disclosure required for evaluation.
+
+Larks identifies the Long-Term Future Fund as a promising opportunity
+and the one that he ultimately donates to (again, this portion is
+rot13'd; I also corrected somme typos after rot13'ing):
+
+> I do remain optimistic about the LTFF. Even though their public
+> disclosure has been weak this year, what they've shared privately
+> has been adequate, and I think their support for individual safety
+> researchers is extremely valuable. I would like this to be
+> sufficiently over-funded that sufficiently skilled people can
+> confidently essentially make a career out LTFF funding. So that's
+> where I'm donating this year. BERI probably would have been my
+> second pick.
+
+In a [section of a review of Larks' *2020* AI Alignment
  Review](https://www.lesswrong.com/posts/uEo4Xhp7ziTKhR6jq/reflections-on-larks-2020-ai-alignment-literature-review#Scalable_uses_for_money)
  (original review by Larks
  [here](https://forum.effectivealtruism.org/posts/K7Z87me338BQT3Mcv/2020-ai-alignment-literature-review-and-charity-comparison)),
