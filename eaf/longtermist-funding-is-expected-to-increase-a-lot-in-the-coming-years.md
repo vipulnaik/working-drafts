@@ -17,6 +17,11 @@ funding constraints in the next few years. I'm sure elites/insiders in
 the fund allocation space have already thought about this, but I haven't
 seen much public discussion collating this, so here is my effort.
 
+This post only skims the surface from a funding-oriented perspective;
+for a much more detailed overview of what individual orgs are up to,
+see the
+[2021 AI Alignment Literature Review and Charity Comparison](https://forum.effectivealtruism.org/posts/BNQMyWGCNWDdP2WyG/2021-ai-alignment-literature-review-and-charity-comparison).
+
 ## Major donors and increases in the supply of funding
 
 ### Jaan Tallinn and his philanthropy pledge
@@ -281,6 +286,15 @@ may become even more acute in 2022, unless other things change.
 > but when looking to allocate SFF funds it means there’s a lot more
 > to distribute and less places available to distribute to.
 
+In terms of hints for 2022, it looks like Jaan Tallinn is
+[excited](https://www.lesswrong.com/posts/P3Yt66Wh5g7SbkKuT/how-to-get-into-independent-research-on-alignment-agency?commentId=qDbGFJmjPnYnvMJnF)
+about funding the LTFF, which is a very minor hint that SFF may fund
+the LTFF at a much larger scale in 2022 and future years:
+
+> amazing post! scaling up the community of independent alignment
+> researchers sounds like one of the most robust ways to convert money
+> into relevant insights.
+
 ### Long-Term Future Fund (LTFF): allocation has increased
 
 The EA Funds generally aim to allocate money within a few months of
@@ -311,7 +325,15 @@ leave $24 million or more of Tallinn's money for SFF to allocate,
 which would still be 20% more than what SFF allocated in total in
 2021.
 
-### EA Infrastructure Fund (EAIF): allocation has increased
+In terms of hints for 2022, it looks like Jaan Tallinn is
+[excited](https://www.lesswrong.com/posts/P3Yt66Wh5g7SbkKuT/how-to-get-into-independent-research-on-alignment-agency?commentId=qDbGFJmjPnYnvMJnF)
+about funding the LTFF:
+
+> amazing post! scaling up the community of independent alignment
+> researchers sounds like one of the most robust ways to convert money
+> into relevant insights.
+
+### Effective Altruism Infrastructure Fund (EAIF): allocation has increased
 
 A [December 2021
 post](https://forum.effectivealtruism.org/posts/pwnvva4AHfxYZmaGM/ea-infrastructure-fund-may-august-2021-grant-recommendations)
