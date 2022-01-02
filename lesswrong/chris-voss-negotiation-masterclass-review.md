@@ -35,6 +35,12 @@ ETA 2021-11-25: I added a subsection in response to a point raised in
 the comments. You can see the change set
 [here](https://github.com/vipulnaik/working-drafts/commit/9b23675a831ec81ef6b0c375e586e2346a48a44e).
 
+ETA 2022-01-02: I expanded and restructured the review to cover the
+MasterClass Session that I consumed in December 2021. The original
+post, written in November 2021, did not cover the Session. You can see
+the change set
+[here](https://github.com/vipulnaik/working-drafts/commit/862885c599d9b5d68274246923f17cb0bbe197a8).
+
 ## What is this a review of?
 
 ### Who is Chris Voss?
