@@ -2,9 +2,12 @@
 
 This post is about the [negotiation MasterClass taught by Chris
 Voss](https://www.masterclass.com/classes/chris-voss-teaches-the-art-of-negotiation)
-and more broadly about the techniques and worldviews shared in that
-MasterClass. I [watched this MasterClass in April
-2020](https://ese.vipulnaik.com/#consumptionList).
+as well as a related [MasterClass Session by Chris
+Voss](https://www.masterclass.com/sessions/classes/win-workplace-negotiations)
+and more broadly about the techniques and worldviews shared in
+those. I [watched the original MasterClass in April 2020 and watched
+the Session in December
+2021](https://ese.vipulnaik.com/#consumptionList).
 
 My post discusses some of the relationship -- similarities and
 differences -- with rationalist advice. These portions should be of
@@ -21,6 +24,7 @@ I cover a lot in this review:
 * Worldview
 * Negotiation principles
 * Negotiation techniques
+* Other ideas
 * General concerns
 
 ETA 2021-11-24: I added a few more subsections and made some edits to
@@ -37,8 +41,10 @@ the comments. You can see the change set
 
 [Christopher Voss](https://en.wikipedia.org/wiki/Christopher_Voss)
 worked at the FBI as a lead hostage negotiator. In 2008 he left to
-form his own company, The Black Swan Group, that offers coaching to
-people on negotiation techniques.
+form his own company, [The Black Swan
+Group](https://www.blackswanltd.com/home), that offers coaching to
+people on negotiation techniques. Their customers include people in
+real estate and many other kinds of business.
 
 ### What is MasterClass?
 
@@ -56,16 +62,58 @@ MasterClass.
 
 You may have seen video ads for MasterClass on YouTube!
 
+### What is MasterClass Sessions?
+
+In late 2021, MasterClass introduced
+[Sessions](https://www.masterclass.com/sessions/), a more interactive
+form of MasterClass that is designed a bit more like a course. A few
+differences between traditional MasterClasses and sessions:
+
+* There are stronger nudges to consume a session chronologically;
+  later activities in a session only unlock after you mark earlier
+  activities as completed.
+
+* While most of the activities in both regular MasterClass and
+  sessions are video consumption, the sessions tend to feature more
+  videos where you, the viewer, is expected to do something active,
+  such as observing or counting something. Although so far these
+  videos don't have interactivity at a technological level (e.g., you
+  are not supposed to click when/where something happens), a
+  conscientious viewer can get the benefit of active learning.
+
+* The sessions also include explicit prompts for viewers to enter
+  information on their progress or thoughts. You have to enter
+  something to proceed (you can't just skip it) though if you really
+  just want to proceed, you can enter gibberish and check the box to
+  not share it with others.
+
+* As far as I can make out, unlike regular MasterClasses, you cannot
+  buy sessions individually; they're only available as part of a
+  subscription.
+
 ### What does this cost?
 
-A MasterClass annual subscription all-access pass costs $180. A single
-MasterClass (such as Chris Voss's) can be purchased for $90.
+A MasterClass annual subscription all-access pass costs $180; this
+would allow you to consume both the regular MasterClass and the
+MasterClass Session within the year you got the subscription for.
 
-### How long is the Chris Voss MasterClass?
+A single MasterClass (such as Chris Voss's) can be purchased for
+$90. As far as I can make out, sessions cannot be purchased
+individually, and you need to have a subscription.
+
+### How long is the regular Chris Voss MasterClass?
 
 There are 18 videos and the total video time is 3 hours 4 minutes.
 
-### What aspects of the MasterClass does my review cover?
+### How long is the Chris Voss MasterClass Session?
+
+MasterClass doesn't include a total length, and it was tedious to add
+up the exact lengths, so I just added up the rounded lengths available
+on the [session
+page](https://www.masterclass.com/sessions/classes/win-workplace-negotiations). The
+total that I could count came to 5 hours 50 minutes.
+
+### What aspects of the regular Chris Voss MasterClass does my review cover?
 
 The MasterClass includes three live exercises, that I do *not* discuss
 here (since they are more for demonstration purposes of a range of
@@ -82,10 +130,26 @@ outside of the main negotiation techniques.
 The class guide is 14 pages long, including a cover page (this blog
 post overlaps quite a bit with the class guide).
 
+### What aspects of the Chris Voss MasterClass session does my review cover?
+
+By and large, I do not discuss the session separately; I mostly only
+mention ideas in the session that are *not* in the regular
+MasterClass. Also, I consumed the session and added information about
+it well after writing the original post, and have relatively limited
+time.
+
+The session includes a lot of demonstrations involving Voss's
+colleagues at The Black Swan Group (Brandon Voss, Derek Gaunt, and
+Sandy Hein). I don't discuss any of the demonstrations individually
+(though I found them very useful to watch!) and I mainly cover only
+the insights from the.
+
 ### Are there other ways of watching the MasterClass without paying the subscription fee?
 
-You can sign up and cancel within 30 days to get a full refund. This
-gives you enough time to consume the Chris Voss MasterClass.
+You can sign up and cancel within 30 days to get a full refund
+(however, you should check if this option is available when you sign
+up, as MasterClass may change its policies on this front). This gives
+you enough time to consume the Chris Voss MasterClass.
 
 You may be able to sign up for a free week; however, I'm not sure what
 subset of the videos in the MasterClass are available. More details
@@ -155,11 +219,16 @@ I have watched.
 ### What are some interactive discussions where these techniques are critically examined?
 
 The MasterClass is mostly just Chris Voss speaking, with nobody
-challenging him. I like to see people questioned about their ideas,
-ideally with question that I have or would have if I thought more
-about it. Since watching the MasterClass, I've [watched several
-interviews of Chris Voss](https://ese.vipulnaik.com/#consumptionList)
-that I list below:
+challenging him. The session does a better job of showcasing
+interaction among multiple people, but they're still all people at The
+Black Swan Group, so it doesn't necessarily show as much as possible
+how their ideas could be challenged or questioned by outsiders.
+
+I like to see people questioned about their ideas, ideally with
+question that I have or would have if I thought more about it. Since
+watching the original MasterClass, I've [watched several interviews of
+Chris Voss](https://ese.vipulnaik.com/#consumptionList); I list below
+the ones I found most interesting:
 
 * [Master the Art of Negotiating in Business and Life: Lewis Howes](https://www.youtube.com/watch?v=pd7tjnVYMzY)
 * [#MasterClassLive with Chris Voss](https://www.youtube.com/watch?v=nZcBuSCT3Io)
@@ -351,6 +420,15 @@ his MasterClass, and my review here doesn't talk about it at all:
   techniques come closer to what needs to be done execution-wise to
   achieve those sorts of results.
 
+* In a video in the MasterClass session, Voss talks a bit more about
+  his main issue with BATNA, which is that there are many situations
+  where your alternatives are actually pretty bad. This probably comes
+  partly from his own background as a hostage negotiator, where the
+  alternative to negotiated agreement can literally be fatal. So,
+  while it's good to have alternatives, a good foundation of
+  negotiation techniques is one that can work even in the situations
+  where you *don't* have alternatives.
+
 ## Negotiation principles
 
 This section covers my own interpretation of key "principles"
@@ -408,7 +486,9 @@ defensively, and carelessly. The many negotiation techniques Voss
 teaches are designed partly to get your counterpart to slow down,
 relax, and think more reflectively (Kahneman's "system two"
 thinking). This frame of mind is more conducive to solving challenging
-problems collaboratively.
+problems collaboratively. An additional side-effect of these
+techniques is also to slow down your own thinking and make *you*
+a calmer, better thinker.
 
 #### My thoughts on slowing down
 
@@ -467,53 +547,6 @@ first and dominate a situation, rethink that. But don't be too
 singularly focused on *not* going first in all situations.
 
 ## Negotiation techniques
-
-### Tone of voice
-
-Voss identifies three kinds of tones of voice:
-
-* Assertive: Ideally never use this!
-* Playful/accommodating: Use this when learning and
-  collaborating. Generally, this should be used about 80% of the time.
-* Late-night FM DJ: This is a calm, slow, and firm tone used to
-  communicate immovability. Use this instead of the assertive voice
-  when standing firm. Generally, this should be used about 20% of the
-  time.
-
-He also identifies two kinds of inflections:
-
-* Inquisitive (upward inflection)
-* Declarative (downward inflection)
-
-Inquisitive inflections are good when you want to get the other side
-to talk more.
-
-#### My personal experience with tone of voice
-
-Since a lot of my communication is text-based rather than voice-based,
-these concepts have had limited utility to me. One general idea that
-I've taken from this is to speak more slowly (one of the aspects of
-the late-night FM DJ voice). I might also have reduced my use of
-assertive voice and increased my use of playful/accommodating voice as
-a result of being influenced by these ideas.
-
-Some of the principles also carry over from tone of voice to tone of
-text communication. Even prior to this MasterClass, I adopted a upbeat
-style of communication, sprinkling exclamation points and smileys in
-future drafts. I've continued with this practice.
-
-#### How "dark arts"y is tone of voice?
-
-I don't see anything "dark arts"y about using using a
-playful/accommodating tone of voice.
-
-#### Does tone of voice have a place in rational discourse?
-
-Tone of voice (or tone of text) provides another dimension of
-communication that influences discourse. Using it in a good way seems
-consistent with the idea of rational discourse. Since a lot of
-rational discourse is centered around open exchange of ideas, the
-playful/accommodating tone of voice seems suited to it.
 
 ### Mirroring
 
@@ -679,12 +712,13 @@ a mislabel seems not very rational.
 
 ### Dynamic silence
 
-Dynamic silence is the idea of just staying silent, usually either
-right after you mirror, label, or mislabel, or when things fall silent
-in general. The idea is to give the other person space to keep going
-on and to correct you. According to Voss, dynamic silence works best
-after you have established, through mirroring and labeling, that you
-are listening, engaged, and understanding.
+Dynamic silence (also called effective pause) is the idea of just
+staying silent, usually either right after you mirror, label, or
+mislabel, or when things fall silent in general. The idea is to give
+the other person space to keep going on and to correct you. According
+to Voss, dynamic silence works best after you have established,
+through mirroring and labeling, that you are listening, engaged, and
+understanding.
 
 There's a video discussing dynamic silence
 [here](https://www.youtube.com/watch?v=QKYzRXl3jXM).
@@ -715,7 +749,11 @@ Voss is generally against the use of "why" questions because he claims
 that, universally across languages and cultures, it gets people
 defensive. When people hear "why" it sounds to them like you think
 there's something wrong, and they want to defend themselves against
-accusations.
+accusations. That's because about half the time people use "why" they
+*are* being accusatory, and the other half, they genuinely want to
+know -- and a person on the receiving end can have their defensiveness
+triggered even when it shouldn't because they have uncertainty about
+the asker's state of mind.
 
 #### Legitimate questions
 
@@ -882,38 +920,97 @@ Third, responding to a no-oriented question also triggers more
 thinking from the other side, partly because you've already shown that
 you are willing to hear bad news.
 
-### Tackling loss aversion
+### Summaries (available only in the session)
 
-Voss talks about [loss
-aversion](https://en.wikipedia.org/wiki/Loss_aversion) -- he calls it
-"fear of loss" -- and says that this distorts people's thinking a
-lot. So what do you do if the idea on the table isn't about a loss?
-His suggestion seems to boil dow to framing it in terms of a loss by
-using the [opportunity
-cost](https://en.wikipedia.org/wiki/Opportunity_cost) framing:
-basically point to the other side what thy lose by *not* doing the
-deal.
+The "summary" is a technique not covered explicitly in the regular
+MasterClass, but covered more in the session. A summary is usually a
+paragraph or two that summarizes what the counterpart has been saying
+and/or what all has been discussed so far.
 
-Voss talks about loss aversion in [this
-video](https://www.youtube.com/watch?v=8vW6gPjk5Sc) where he cites the
-academic field of [prospect
-theory](https://en.wikipedia.org/wiki/Prospect_theory). He says that
-reframing a forgone gain as a loss can be so powerful that the term
-*bending reality* can be used for it.
+The summary is something that should be used once you've extracted
+relevant information using mirrors and labels. A summary can be
+somewhat similar to labels, in that individual sentences in the
+summary can be similar to labels, but it differs in that it puts
+everything together.
 
-#### How "dark arts"y is tackling loss aversion?
+Summaries could also be used at the beginning to start with what's
+known already, but it's usually better to begin with an accusations
+audit if that applies, and to wait till there's more information
+before attempting a summary.
 
-To the extent that this is about combating and neutralizing an
-existing loss aversion bias, I think it's not a dark art. But to the
-extent it's about invoking loss aversion and creating distortionary
-fear, I think it is a dark art. A lot depends on the implementation.
+#### "You're right" versus "that's right"
 
-#### My personal experience with tackling loss aversion
+Voss says that getting the other side to say "you're right" isn't
+great, but getting the other side to say "that's right" is
+great. "That's right" is an acknowledgement by the other side that
+you've understood the situation.
 
-I do not remember any situations where I consciously applied this
-technique; also, I was already broadly aware of the ideas of loss
-aversion and opportunity cost so the marginal impact of the
-MasterClass was low for me.
+While "that's right" is great to hear at any time (e.g., in response
+to a good label), the summary is the time in the conversation when
+you're most likely to get it, because a good summary that exactly
+speaks to the other side gets the most satisfied response from them.
+
+#### My personal experience with summaries
+
+I had not come across summaries as a negotiation technique until I
+watched the session in December 2021. I have done summaries in the
+past, and generally think they are useful.
+
+I have a little caveat / nuance to add to the "you're right" versus
+"that's right" distinction. While "that's right" is almost always a
+good sign, "you're right" isn't always a bad sign; the tone of voice
+and the context matters. If somebody says "you're right" right after
+you go on a tirade, it's probably a bad sign and suggests they may
+want you to shut up. However, if the counterpart has a spontaneous
+epiphany and says "you're right about X!" that's good. So the context
+and tone of voice matter a lot in interpreting "you're right."
+
+### Paraphrasing (available only in the session)
+
+Paraphrasing, like mirroring, involves repeating the things your
+counterpart said back to them. However, paraphrasing isn't just the
+last few words, but goes over a larger portion of what they said,
+picking out key ideas. Paraphrasing doesn't need to use the exact
+words, but it should still retain the meanings.
+
+Paraphrasing is similar to summaries but involves less *synthesis* and
+more just a literal reading and compression of what was said.
+
+When your counterpart is unloading a lot of information, interrupting
+them to paraphrase it, and then handing the control back to them,
+might bee a good idea. While people don't like being interrupted, so
+they may feel a little bit or irritation in the moment, their fear
+that you interrupted them just to say your own thing will dissipate
+once you hand control back to them.
+
+Roughly speaking:
+
+Mirrors : Paraphrasing :: Labels : Summaries
+
+#### My personal experience with paraphrasing
+
+I have not used paraphrasing much, but generally agree with some of
+the benefits.
+
+### Using "that's my problem" when introducing constraints (only in the session)
+
+This is a little related to the accusations audit, but a slightly
+different tack. Sometimes, in a negotiation, you need to introduce a
+tricky constraint from your side. If you expect that the first
+reaction of the other side to you introducing the constraint would be
+for them to think "that's your problem, not mine" then -- preface with
+"that's my problem" before introducing the constraint. That way, it
+becomes clear to the counterpart that while you are seeking their help
+to work within the constraint, you aren't allocating blame or
+responsibility for the constraint to your counterpart.
+
+#### My personal experience with "that's my problem"
+
+I like this idea. I hadn't specifically encountered it before the
+MasterClass session, and haven't had many opportunities to apply it,
+but I expect I will.
+
+## Other ideas
 
 ### Tactical empathy
 
@@ -931,13 +1028,6 @@ collaborate with them to solve problems.
 
 There is a lengthy video by Voss on tactical empathy
 [here](https://www.youtube.com/watch?v=vRERVNNbB4Q).
-
-#### "You're right" versus "that's right"
-
-Voss says that getting the other side to say "you're right" isn't
-great, but getting the other side to say "that's right" is
-great. "That's right" is an acknowledgement by the other side that
-you've understood the situation.
 
 #### Trust-based influence
 
@@ -970,6 +1060,86 @@ as [Rogerian
 argument](https://en.wikipedia.org/wiki/Rogerian_argument) and the
 similar "[ideological Turing
 test](https://www.econlib.org/archives/2011/06/the_ideological.html)".
+
+### Tone of voice
+
+Voss identifies three kinds of tones of voice:
+
+* Assertive: Ideally never use this!
+* Playful/accommodating: Use this when learning and
+  collaborating. Generally, this should be used about 80% of the time.
+* Late-night FM DJ: This is a calm, slow, and firm tone used to
+  communicate immovability. Use this instead of the assertive voice
+  when standing firm. Generally, this should be used about 20% of the
+  time.
+
+He also identifies two kinds of inflections:
+
+* Inquisitive (upward inflection)
+* Declarative (downward inflection)
+
+Inquisitive inflections are good when you want to get the other side
+to talk more.
+
+#### My personal experience with tone of voice
+
+Since a lot of my communication is text-based rather than voice-based,
+these concepts have had limited utility to me. One general idea that
+I've taken from this is to speak more slowly (one of the aspects of
+the late-night FM DJ voice). I might also have reduced my use of
+assertive voice and increased my use of playful/accommodating voice as
+a result of being influenced by these ideas.
+
+Some of the principles also carry over from tone of voice to tone of
+text communication. Even prior to this MasterClass, I adopted a upbeat
+style of communication, sprinkling exclamation points and smileys in
+future drafts. I've continued with this practice.
+
+#### How "dark arts"y is tone of voice?
+
+I don't see anything "dark arts"y about using using a
+playful/accommodating tone of voice, or the late night FM DJ voice.
+
+#### Does tone of voice have a place in rational discourse?
+
+Tone of voice (or tone of text) provides another dimension of
+communication that influences discourse. Using it in a good way seems
+consistent with the idea of rational discourse. Since a lot of
+rational discourse is centered around open exchange of ideas, the
+playful/accommodating tone of voice seems suited to it.
+
+### Tackling loss aversion
+
+Voss talks about [loss
+aversion](https://en.wikipedia.org/wiki/Loss_aversion) -- he calls it
+"fear of loss" -- and says that this distorts people's thinking a
+lot. So what do you do if the idea on the table isn't about a loss?
+His suggestion seems to boil dow to framing it in terms of a loss by
+using the [opportunity
+cost](https://en.wikipedia.org/wiki/Opportunity_cost) framing:
+basically point to the other side what thy lose by *not* doing the
+deal.
+
+Voss talks about loss aversion in [this
+video](https://www.youtube.com/watch?v=8vW6gPjk5Sc) where he cites the
+academic field of [prospect
+theory](https://en.wikipedia.org/wiki/Prospect_theory). He says that
+reframing a forgone gain as a loss can be so powerful that the term
+*bending reality* can be used for it.
+
+#### How "dark arts"y is tackling loss aversion?
+
+To the extent that this is about combating and neutralizing an
+existing loss aversion bias, I think it's not a dark art. But to the
+extent it's about invoking loss aversion and creating distortionary
+fear, I think it is a dark art. A lot depends on the implementation.
+
+#### My personal experience with tackling loss aversion
+
+I do not remember any situations where I consciously applied this
+technique; also, I was already broadly aware of the ideas of loss
+aversion and opportunity cost so the marginal impact of the
+MasterClass was low for me.
 
 ### Black swans
 
@@ -1027,6 +1197,87 @@ Voss talks of a few ideas related to these:
   that you are stretched to the limit with the money side and they've
   gotten a good deal.
 
+### Negotiating styles (covered more in the session)
+
+In the MasterClass session, Voss and colleagues talk about three
+negotiating styles/personalities; you can see more details
+[here](https://www.huffpost.com/entry/the-3-types-of-negotiators-and-how-to-tell-which-one_b_594378c5e4b0d188d027fd4c):
+
+* Assertive style/personality: The assertive style is to assert, to
+  confront, and to make sure one's point of view is heard.
+
+* Analyst style/personality: Analysts care more about getting data and
+  information, and tend to be reticent to say much, especially early
+  on.
+
+* Accommodator style/personality: Accommodators want and try to be
+  liked; they value harmony and feel the need to diffuse any tension
+  or awkwardness.
+
+The personalities correspond to the tones of voice previously
+discussed; assertive style corresponds to assertive tone of voice,
+analyst style corresponds to the "late night FM DJ" voice, and
+accommodator style corresponds to the playful/accommodating tone of
+voice. However, the underlying style and tone of voice don't need to
+match. For instance, the assertive *tone of voice* should probably
+never be used, but the assertive style/personality can still be
+expressed through other tones of voice and can be important.
+
+The general advice for different personalities is to focus on
+incorporating more of the techniques that don't naturally jive with
+that personality. Here are some of the ideas if you're one of these
+personalities:
+
+* Assertive style/personality: Assertives need to make sure they are
+  not using an assertive *tone of voice*. Also, they may need to be
+  more conscious of shutting up and *listening* so as to hear what the
+  other side has to say.
+
+* Analyst style/personality: Analysts need to make sure that they are
+  sufficiently warm and friendly, as the analyst personality can
+  appear too reticent at times. Active application of negotiation
+  techniques such as mirroring and labeling can help with this.
+
+* Accommodator style/personality: Accommodators tend to generally be
+  good listeners, but tend to have more trouble with using tools like
+  dynamic silence to get the other side to talk. They may also end up
+  talking or revealing too much, or overpromising.
+
+There is also general advice for dealing with the different sorts of
+personalities in your counterpart:
+
+* Assertive style/personality: When dealing with assertives, it's
+  particularly important to let them have their say first. This is
+  important even in general, but less so for analysts and
+  accommodators, who don't generally have that much of an urge to have
+  their say first.
+
+* Analyst style/personality: When dealing with analysts, it's helpful
+  to draw them out more. Instead of asking questions, using labels and
+  mislabels can help draw out the analyst due to their desire for
+  correctness.
+
+* Accommodator style/personality: When dealing with accommodators, it's
+  important to get them to feel more comfortable to voice their own
+  concerns and get out of the mode of trying to accmomodate. Also,
+  accommodators may tend to overpromise when they feel pressure to
+  please, so it's important to be careful about that.
+
+### Zigzag path to progress (described more in the session)
+
+One general idea presented in the session, and demonstrated in
+various demonstrations, is that the path to progress isn't always
+monotonic -- there can be some ups and downs along the way. One of the
+mechanisms is that as people get more comfortable in the negotiation,
+they reveal more of their challenges and negative feelings, which can
+sometimes cause them to heat up. Also, sometimes the application of
+labels and mirrors may be off; for instance, a mislabel can cause the
+counterpart to get more angry sometimes.
+
+However, even if the emotional journey isn't always one of progress,
+the informational journey usually is -- even with the rocky emotional
+moments, new information is emerging that can ultimately be used to
+make more progress.
 
 ## General concerns
 
