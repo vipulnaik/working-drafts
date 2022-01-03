@@ -1265,7 +1265,7 @@ personalities in your counterpart:
 
 * Accommodator style/personality: When dealing with accommodators, it's
   important to get them to feel more comfortable to voice their own
-  concerns and get out of the mode of trying to accmomodate. Also,
+  concerns and get out of the mode of trying to accommodate. Also,
   accommodators may tend to overpromise when they feel pressure to
   please, so it's important to be careful about that.
 
