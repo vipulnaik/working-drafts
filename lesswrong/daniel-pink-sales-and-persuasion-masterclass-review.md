@@ -91,7 +91,7 @@ subset of the videos in the MasterClass are available. More details
 
 ### Are there other ways of accessing the information without watching the MasterClass?
 
-There seems to be substantial overlap between thee MasterClass and
+There seems to be substantial overlap between the MasterClass and
 Pink's book *To Sell Is Human*, so you might want to check that book
 out and buy it.
 
@@ -184,7 +184,7 @@ Pink using "social proof" to help make his point (social proof is a
 tactic Pink describes, so it's interesting to see him practice what he
 preaches). From an epistemic rigor perspective, though, the single
 studies Pink cites to support his idea/hypothesis are far from enough
-proof. In general they seem to work well for me when my prioro already
+proof. In general they seem to work well for me when my prior already
 favors the hypothesis, but in the cases where my prior was neutral or
 skeptical, the citation of a single study failed to convince me. It's
 not clear to me how much the single studies Pink cited were the
