@@ -203,7 +203,7 @@ citing research that does so.
 ## Persuasion principles and techniques
 
 I found it hard to cleanly separate persuasion principles from
-persuasion techniques, so I decidede to have a single section listing
+persuasion techniques, so I decided to have a single section listing
 all of them.
 
 NOTE: In some cases I link to specific videos in the
