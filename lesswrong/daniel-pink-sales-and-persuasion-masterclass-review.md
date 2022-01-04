@@ -197,7 +197,7 @@ I do think Pink generally intends to adopt noble means toward noble
 ends, but he is not very squeamish about avoiding the dark side. Or
 perhaps, more charitably to him, a lot of things that I see as dark
 side are things he isn't squeamish about. In general, he seems okay
-with bending/stretching th truth for persuasion, or at least with
+with bending/stretching the truth for persuasion, or at least with
 citing research that does so.
 
 ## Persuasion principles and techniques
