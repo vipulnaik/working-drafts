@@ -1,8 +1,9 @@
 # My Q1 2022 donation to Free Migration Project
 
 I'm planning to make a donation of 3,000 USD to [Free Migration
-Project](https://freemigrationproject.org/) (FMP) in January 2022. This blog
-post goes in some detail on my reasoning.
+Project](https://freemigrationproject.org/) (FMP) in January
+2022. This blog post goes in some detail on my reasoning. [EDIT: The
+donation was formally made on Tuesday, January 4, 2022, as planned.]
 
 https://vipulnaik.com/blog/my-q1-2022-donation-to-free-migration-project/
 is the post's canonical location (but does not accept comments). I'm
