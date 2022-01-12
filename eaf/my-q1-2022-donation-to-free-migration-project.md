@@ -8,9 +8,9 @@ planned.]
 
 https://vipulnaik.com/blog/my-q1-2022-donation-to-free-migration-project/
 is the post's canonical location (but does not accept comments). I'm
-cross-posting to [openborders.info](https://openborders.info/) (post
-link pending) (given that FMP works in that area) as well as the EA
-Forum
+cross-posting to openborders.info
+[here](https://openborders.info/blog/q1-2022-donation-free-migration-project/)
+(given that FMP works in that area) as well as the EA Forum
 [here](https://forum.effectivealtruism.org/posts/xzQzLoEC5mvPyJTYY/my-q1-2022-donation-to-free-migration-project)
 (given that some of my decision-making process was guided by
 principles similar to effective altruist principles). Borrowing from
