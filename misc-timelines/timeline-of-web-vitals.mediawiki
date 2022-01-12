@@ -66,6 +66,8 @@ The table below is based on monthly summaries provided in the CrUX announce mail
 | 2021-10 || 8,784,894 || 50.0 || 93.4 || 65.9 || 34.1 || This is the first month when the percentages reported are based on the "optional FID" methodology adopted in PageSpeed Insights on June 10, 2021.<ref name=optional-fid-in-monthly-crux>{{cite web|url = https://groups.google.com/a/chromium.org/g/chrome-ux-report-announce/c/T5u0UPzOqjg|title = The 202110 dataset is live|date = November 9, 2021|accessdate = November 9, 2021|last = Viscomi|first = Rick}}</ref><ref name=optional-fid/>
 |-
 | 2021-11 || 8,733,078 || 50.8 || 93.5 || 66.1 || 34.8 || The uncapped CLS metric (that was the old way of calculating CLS before a definition change around May/June) is retired from the BigQuery dataset starting with this month.<ref>{{cite web|url = https://groups.google.com/a/chromium.org/g/chrome-ux-report/c/-qalCZ12W9I|title = The 202111 dataset is live|date = December 14, 2021|accessdate = December 14, 2021|last = Henkel|first = Johannes}}</ref>
+|-
+| 2021-12 || 8,398,796 || 51.1 || 93.3 || 66.1 || 35.0
 |}
 
 == Full timeline ==
