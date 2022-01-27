@@ -1,0 +1,19 @@
+This how-to guide goes over general principles for troubleshooting regressions in production systems controlled by some mix of software (code), configuration, and hardware. The relative importance of these general principles can vary widely between systems, based on several factors such as the domain in which the systems operate and how the systems are maintained.
+
+The guide is specifically focused on "regressions" -- things that used to work and seem to no longer be working. Some, but not all, of the principles may also apply to broader troubleshooting of ongoing anomalies.
+
+Principles from this guide can also be incorporated into the design of troubleshooting guides specific to particular systems, in addition to guidance that is ''specific'' to those systems.
+
+== Steps ==
+=== Pinpointing the Regression Point in the Changelog ===
+# If a changelog is available, locate it: the changelog should start at a time prior to the regression and end at a time after the regression was introduced. Ideally, the changelog should includee release times as well as change set descriptions and should allow for the viewing of all details a specific released version and the differences (diffs) between any two versions.
+#* In cases where changes are made through code, the full list of changes may be available as a commit history in the version control tool, such as git, and accessible in a corresponding online interface, such as GitHub. However, not every commit may have been released.
+#* Changes made to configurations through a custom UI may be viewable in the form of an edit history in that UI, or in an associated database.
+#* If changes are pushed out through releases, a changelog file may be available that lists releases along with dates as well as the set of changes going out with each release.
+# Where possible and necessary, filter the set of releases to releases that could plausibly have introduced the regression.
+#* For instance, for releases of software code, simple analysis of the code and the nature of the regression may imply that only releases that changed specific files could have caused the regression. Filtering to only those releases may reduce the number of releases we need to examine.
+# Use a suitable search method (such as binary search aka bisection, or linear search) to find exactly where the regression was introduced.
+#* This works best if it is possible to inspect any version to see if it has the regression. Such inspection could be by running a simulated environment that runs that version, or it could be by examining the changes from the previous version to that version, or by examining historical metrics around the time of that version's release (see Method 2).
+#* Binary search, or bisection, works best in cases where each version can be fully simulated to test whether the regression is present in it (without necessarily knowing if this was the ''first'' version with the regression), and the cost of simulating any version is about the same (and the order in which we simulate doesn't affect the cost). Here, at each stage, we inspect a version that is midway between the newest version that we know to not have the regression and the oldest version that we know to have the regression. Binary search can find the point at which the regression was introduced in about as many iterations as the binary logarithm of the number of releases we are inspecting.
+#* Linear search (going through the versions in linear order) may work better in cases where the incremental cost of simulating a version is lower after simulating an adjacent version.
+#* In some cases, probabilistic information about where and when the regression most likely happened can allow us to do better than binary search.
