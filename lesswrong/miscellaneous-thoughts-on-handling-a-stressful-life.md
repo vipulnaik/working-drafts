@@ -77,8 +77,8 @@ of the claim that is most worth addressing.
 
 Having to work very hard over some time periods can be difficult and
 fatiguing for broadly two reasons: too much work, or too little
-fun. Going beyond the work/fun, this applies more generally: too much
-of one activity crowds out other activities.
+fun. Going beyond the work/fun trade-off, this applies more generally:
+too much of one activity crowds out other activities.
 
 The simple solution of "take a break, have some fun" can *often* work,
 but many versions of it could be impractical precisely in the
@@ -304,7 +304,6 @@ There is a bunch of things that give me pleasure, but don't directly
 feel purposeful, though they may also align with things that give me
 purpose. A few examples:
 
-
 1. Exploring a knowledge area: This ties to the purpose of learning
    and understanding the world, and insofar as I can create a [digital
    trail](https://issarice.com/outline-of-the-style-of-social-science-research-that-vipul-naik-advocates),
@@ -321,6 +320,10 @@ purpose. A few examples:
 3. Watching videos (TV shows, movies, YouTube) or reading books or
    articles for a mix of [entertainment and
    self-education](https://ese.vipulnaik.com/).
+4. Chatting with friends and acquaintances (this is broadly
+   competitive with 2 and 3, but it has greater coordination and
+   transaction costs, so in practice this falls a little lower on the
+   rank order).
 
 ### "I shouldn't be wasting my time on this" -- dealing with things that don't align with purpose or pleasure
 
@@ -380,7 +383,7 @@ The things that are most fun for me tend to be things that align with
 my experience of purpose and pleasure. Writing this post addressed my
 highest source of purpose: creating stuff for public consumption that
 can be accessed in the long term. It also had some overlap with other
-sources of purpose (learning nd understanding the world, being happy,
+sources of purpose (learning and understanding the world, being happy,
 healthy, and satisfied). It also fit somewhat but not too well with my
 sources of pleasure. Also, it was timely since it connected with some
 things I anyway need or want to figure out for myself.
