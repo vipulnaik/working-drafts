@@ -49,7 +49,7 @@ Principles from this guide can also be incorporated into the design of troublesh
 #* When the granularity isn't as fine as you want, use estimation techniques to get finer. For instance, if data is only available at a daily granularity for a change that rolls out instantaneously, and the value pre-regression is 0 and the value post-regression is 1, then by using the value of the metric on the day of the transition, we can get an estimate of how far in the day the transition occurred. For instance, if it's at 0.5, that suggests that the transition happened around the middle of the day (traffic-wise, so not necessarily the middle time-wise).
 #* In some cases, there's only one release that matches the start time. In other cases, due to the granularity not being fine enough, or due to other issues such as measurement error and random noise, you only get a time range rather than an exact time, and multiple releases within that time frame are candidates. The previous method of using the changelog can then be applied for this subset of releases.
 
-=== Using filtering and segmentation ===
+=== Using Filtering and Segmentation ===
 
 # Use multiple filters/labels/segments, and use the breakdown across those to get a clearer picture.
 #* Examples of filters/labels/segments in a web traffic context include device type (desktop, mobile, tablet), operating system, browser, country, whether the user is a new or repeat visitor, and connection speed. For instance, if we use device (desktop, mobile, tablet) and connection speed (2G, 3G, and 4G), we can combine them to form 3 X 3 = 9 segments (desktop 2G, desktop 3G, desktop 4G, mobile 2G, mobile 3G, mobile 4G, tablet 2G, tablet 3G, tablet 4G).
