@@ -151,7 +151,7 @@ feelings are also influenced by the *past* (via introspection) and the
 *future* (via anticipation).
 
 In general, a more balanced perspective across the past, present, and
-the future seems best for a higher quality of decisionmaking. Also,
+the future seems best for a higher quality of decision-making. Also,
 acute stresses or anxieties can sometimes be driven by excessive focus
 on one of the past, present, and future, at the expense of the other
 two. Taking all three into consideration can paint a more holistic
@@ -183,7 +183,7 @@ before. If you did similar stuff before in the past, and felt similar
 unpleasantness, you can reflect on what the overall end-to-end
 experience was. At the end of it, did you feel that it was worthwhile
 to go through the unpleasant experience? That sort of introspection
-can inform the decisionmaking.
+can inform the decision-making.
 
 ### "How long will this go on?" -- a bleak future
 
