@@ -87,8 +87,8 @@ Mental toughness seems like a important part of mental strength. But I
 don't think it covers the whole area; in particular, it seems focused
 on resilience and perseverance than on the wider gamut of cognitive,
 emotional, and behavioral skills. The development of the concept also
-seems heavily tied to sports and gaming where one copes with "losing"
-several times.
+seems heavily tied to sports and gaming where one copes with
+["losing"](https://www.hpmor.com/chapter/19) several times.
 
 ### Mental strength versus intelligence
 
@@ -119,8 +119,11 @@ how to manage one's finances).
 
 I think of the applied rationality approach to developing mental
 strength as one school of thought on how to develop mental
-strength. Meditation practice might be another school of thought (and
-there may be overlapping ideas between them).
+strength. [Meditation
+practice](https://www.lesswrong.com/tag/meditation), particularly
+[mindfulness meditation](https://en.wikipedia.org/wiki/Mindfulness),
+might be another school of thought (and there may be overlapping ideas
+between them).
 
 ## What I like about the mental strength formulation
 
@@ -226,18 +229,18 @@ strength has made me open to this possibility.
 While there are a number of exercises designed to build cognitive
 skills, there seem to be relatively few that are designed to build
 mental strength in a broad way. The biggest cluster I can think of is
-*meditation*.
+*meditation*, and in particular, *mindfulness meditation*.
 
 Most therapeutic approaches such as cognitive-behavioral therapy (CBT)
-seem focused on addressing mental health issues -- solving cogitive,
+seem focused on addressing mental health issues -- solving cognitive,
 emotional, and behavioral challenges one has. While the application of
-these has some side-effects in terms of improving mental strength, I
-feel that they are not primarily strength-building tools.
+these has some side-effects in terms of improving mental strength, my
+sense is that they are not primarily strength-building tools.
 
-Meditation techniques, on the other hand, seem more like the mental
-equivalent of weight-lifting -- you train your mind to focus on only
-one relatively small thing (e.g. your breathing) and to observe its
-own thought patterns.
+Mindfulness meditation techniques, on the other hand, seem more like
+the mental equivalent of weight-lifting -- you train your mind to
+focus on only one relatively small thing (e.g. your breathing) and to
+observe its own thought patterns.
 
 With this thinking and understanding, it makes a lot of sense why a
 lot of people in high-stress positions (such as CEOs) practice
@@ -259,13 +262,19 @@ they aren't thinking explicitly in the terms I laid out. I say
 they may be limited to specific realms that have extreme requirements
 (such as some kinds of military training) and are not part of the broader culture.
 
-Going back to the physical analogy, imagine that people didn't have
-the concept that competitive sports players need to do physical
-exercise beyond just doing practice of the sport. If let's say a
-soccer player wasn't a fast runner, the solution in that world would
-just be to practice more soccer and pay attention to one's speed. But
-with running available as a separate exercise, it's possible to train
-much more intensively on that front.
+Switching for a moment to the physical analogy, imagine that people
+didn't have the concept that competitive sports players need to do
+physical exercise beyond just doing practice of the sport. If let's
+say a soccer player wasn't a fast runner, the solution in that world
+would just be to practice more soccer and pay attention to one's
+speed. But with running available as a separate exercise, it's
+possible to train much more intensively on that front. (I recall
+reading somewhere that a few decads ago, deliberate exercise not
+directly tied to the sport was much less common for sportspeople, but
+over time the benefits of such deliberate exercise for improving
+physical fitness were more broadly appreciated. Unfortunately I am
+having trouble finding the reference, so take this with a pinch of
+salt).
 
 Going back to the mental strength side, what if your problem is that
 when you receive criticism, you find it hard to take? Without a
@@ -317,10 +326,22 @@ readership may need more mental strength:
    in the world, possibly including existential risks; examples:
    * Belief in a nontrivial probability of AI foom and doom
    * Belief in a nontrivial probability that there's a large amount of
-     morally relevant suffering humans ignore, such as the suffering of
-     farmed and wild animals
+     morally relevant suffering humans ignore, such as the suffering
+     of farmed and wild animals, or the potential suffering of
+     *future* sentient beings
 3. Resultant desire to act in seemingly weird and difficult ways to
-  improve or protect the world (which ties back to 1; if you are
-  *actually trying* then you *want* to have access to the truth)
+   improve or protect the world (which ties back to 1; if you are
+   *actually trying* then you *want* to have access to the truth)
 4. Lack of social support and respect for some of these beliefs and for
    the resultant worldviews, and therefore potential social isolation
+
+Others on LessWrong and elsewhere have talked about various angles of
+these in more depth. My rough sense (which could be off) is that at
+least some of the mental health challenges faced by people in the
+rationality community and related communities are tied to these
+factors. A lot of these are *intrinsic* to what it means to be a
+rationalist, longtermist, or effective altruist, so we *wouldn't want
+to fundamentally change* the underlying patterns. The best solution to
+the likely mental health impacts, therefore, seems to be to build
+mental strength. This could be through some combination of natural
+exposure and deliberate exercise.
