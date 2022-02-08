@@ -68,6 +68,8 @@ The table below is based on monthly summaries provided in the CrUX announce mail
 | 2021-11 || 8,733,078 || 50.8 || 93.5 || 66.1 || 34.8 || The uncapped CLS metric (that was the old way of calculating CLS before a definition change around May/June) is retired from the BigQuery dataset starting with this month.<ref>{{cite web|url = https://groups.google.com/a/chromium.org/g/chrome-ux-report/c/-qalCZ12W9I|title = The 202111 dataset is live|date = December 14, 2021|accessdate = December 14, 2021|last = Henkel|first = Johannes}}</ref>
 |-
 | 2021-12 || 8,398,796 || 51.1 || 93.3 || 66.1 || 35.0
+|-
+| 2022-01 || 8,934,350 || 52.4 || 93.9 || 68.9 || 37.6
 |}
 
 == Full timeline ==
