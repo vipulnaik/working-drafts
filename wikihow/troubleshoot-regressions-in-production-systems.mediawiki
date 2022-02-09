@@ -65,4 +65,17 @@ Principles from this guide can also be incorporated into the design of troublesh
 #* However, if there is a lag between the release of a new version and its full rollout, the time period of rollout may have a traffic split between the two versions. Segmenting by version allows us to get clearer insight into the behavior during that transition period, specifically whether the issue is with the version update, or with something else that happened at around the same time.
 #* When the production system is a patchwork of several pieces of code and configuration, each subject to their own versioning, and each released in a different way, it's particularly helpful to automate the process of labeling versions for each of the pieces of code and configuration in the production metrics. This allows for easier identification across all the pieces of code or configuration. The alternative method of looking at the changelog for all the pieces of code and configuration could be time-intensive and may be infeasible for somebody without subject matter expertise in all areas.
 
+=== Debugging Regressions with Delayed Impact ===
+
+# Use this cluster of methods in cases where the regression's impact is not immediate or with a fixed, predictable lag, and cannot be easily verified by simulation or emulation of past versions.
+#* The underlying reason for this is that the regression is only one of several pieces that need to come together to cause issues. For instance, a data center may have some code and configuration to handle electrical power failures. If these electrical power failures are relatively rare, regression in the code may not be caught until the next hardware failure, and there may be several version updates in the interim.
+#* There are two flavors of this: one where the other factors needed to cause the issue are relatively rare and happen from time to time. The other is where there's some kind of state change in the other factors that causes them to happen much more frequently. For instance, perhaps wildfire season results in many more power outages.
+# Use historical data, including data from other similar environments, to determine if there was any regression at all.
+#* It's possible that there was no regression, and that the system we're in charge of has always had this weakness, and this weakness is now having more of an impact because of the changes to other factors (e.g., wildfire season is much more severe).
+#* To evaluate that possibility, look at data over a long enough time period, or a large enough range of environments, so that there are more examples of cases where the other factors were more common (e.g., past wildfire seasons that were comparably severe, and led to similar power outages). If the lifetime of the systems in question is long enough, we may be able to find such examples.
+#* In the absence of clear data to indicate a regression, it may be best to troubleshoot the issue just as a bug and not assume it to be a regression. Further investigation may still reveal it to be a regression.
+# If a clear past period is found where the system seemed more robust to external factors being bad, look for the regression between then and the time it was known to be failing.
+#* This provides a time range; it should now be possible to examine releases within that time range using the previously discussed metrics.
+#* If this method is not yielding results, it may be best to troubleshoot the issue just as a bug and not assume it to be a regression.
+
 __METHODS__
