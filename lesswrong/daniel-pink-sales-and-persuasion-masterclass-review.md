@@ -208,7 +208,7 @@ all of them.
 
 NOTE: In some cases I link to specific videos in the
 MasterClass. Those videos won't work for users who are not signed in
-to MasterClass with a subsription or access to that MasterClass.
+to MasterClass with a subscription or access to that MasterClass.
 
 ### The two questions to ask yourself before persuading others
 
