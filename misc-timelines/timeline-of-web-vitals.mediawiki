@@ -70,6 +70,8 @@ The table below is based on monthly summaries provided in the CrUX announce mail
 | 2021-12 || 8,398,796 || 51.1 || 93.3 || 66.1 || 35.0
 |-
 | 2022-01 || 8,934,350 || 52.4 || 93.9 || 68.9 || 37.6
+|-
+| 2022-02 || 8,764,246 || 52.7 || 94.9 || 70.6 || 39.0 || This is the first month for which the dataset includes data on the experimental responsiveness metric that had been described by Google in blog posts in 2021.<ref>{{cite web|url = https://groups.google.com/a/chromium.org/g/chrome-ux-report-announce/c/F7S4_emZkcw|title = The 202202 dataset is live|date = March 8, 2022|accessdate = March 9, 2022|last = Henkel|first = Johannes}}</ref>
 |}
 
 == Full timeline ==
@@ -200,7 +202,6 @@ The table below is based on monthly summaries provided in the CrUX announce mail
 | 2022 || {{dts|February 10}} || Insight || Business impact || All, but concrete examples focused on visual stability (CLS) || Field data || A sponsored post by Clickio on Search Engine Land makes the case for the importance of optimizing Core Web Vitals, mentioning a few cases involving their customers. The post ends with a plug for Clickio's web vitals monitoring product.<ref name=clickio/>
 |-
 | 2022 || {{dts|February 22}} {{snd}} {{dts|March 3}} || Release || Search algorithm update || All || Field data || As prviously announced on November 4, 2021, Google executes on the rollout of using page experience as a ranking factor on desktop during this period. Page experience on desktop includes all the core web vitals as well as all the other page experience signals on mobile except mobile-friendliness.<ref>{{cite web|url = https://twitter.com/googlesearchc/status/1499440494060916745|title = The page experience rollout is now complete for desktop.|date = March 3, 2022|accessdate = March 3, 2022|publisher = Google Search Console}}</ref><ref>{{cite web|url = https://developers.google.com/search/blog/2021/11/bringing-page-experience-to-desktop|title = Timeline for bringing page experience ranking to desktop|date = November 4, 2021|accessdate = November 8, 2021|publisher = Google Search Central}}</ref><ref>{{cite web|url = https://searchengineland.com/google-to-add-page-experience-ranking-signals-to-desktop-search-in-february-2022-375807|title = Google to add page experience ranking signals to desktop search in February 2022. The rollout will be complete by the end of March 2022.|last = Schwartz|first = Barry|date = November 4, 2021|accessdate = November 8, 2021|publisher = Search Engine Land}}</ref>
-|-
 |}
 
 == See also ==
