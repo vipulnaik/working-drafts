@@ -72,6 +72,8 @@ The table below is based on monthly summaries provided in the CrUX announce mail
 | 2022-01 || 8,934,350 || 52.4 || 93.9 || 68.9 || 37.6
 |-
 | 2022-02 || 8,764,246 || 52.7 || 94.9 || 70.6 || 39.0 || This is the first month for which the dataset includes data on the experimental responsiveness metric that had been described by Google in blog posts in 2021.<ref>{{cite web|url = https://groups.google.com/a/chromium.org/g/chrome-ux-report-announce/c/F7S4_emZkcw|title = The 202202 dataset is live|date = March 8, 2022|accessdate = March 9, 2022|last = Henkel|first = Johannes}}</ref>
+|-
+| 2022-03 || 8,555,307 || 53.4 || 94.9 || 70.6 || 39.6
 |}
 
 == Full timeline ==
