@@ -29,13 +29,13 @@ The table below is based on monthly summaries provided in the CrUX announce mail
 {| class="wikitable sortable" border="1"
 ! Year and month (YYYY-MM) !! Number of origins covered in dataset !! Percentage good Largest Contentful Paint (LCP) !! Percentage good First Input Delay (FID) !! Percentage good Cumulative Layout Shift (CLS) !! Percentage good on all core web vitals !! Special notes
 |-
-| 2020-05 || 7,103,486 || 46 || 86 || 64 || 27 || corrected data to restrict denominator<ref name=crux-twitter-correction/>
+| 2020-05 || 7,103,486 || 46 || 86 || 64 || 27 || Corrected data to restrict denominator<ref name=crux-twitter-correction/>
 |-
 | 2020-06 || 7,501,835 || 47.84 || 86.74 || 57.45 || 25.34
 |-
 | 2020-07 || 7,527,878 || 47.6 || 86.9 || 57.2 || 25.2
 |-
-| 2020-08 || 7,773,359 || 47.1 || 86.9 || 57.1 || 24.9 || bump in origin coverage due to a data pipeline change that now accepts all user experiences with a FCP<ref name=coverage-change-202008>{{cite web|url = https://groups.google.com/a/chromium.org/g/chrome-ux-report-announce/c/vXXUE6qslKU|title = The 202008 dataset is live|date = September 9, 2020|accessdate = October 15, 2021}}</ref>
+| 2020-08 || 7,773,359 || 47.1 || 86.9 || 57.1 || 24.9 || Bump in origin coverage due to a data pipeline change that now accepts all user experiences with a FCP<ref name=coverage-change-202008>{{cite web|url = https://groups.google.com/a/chromium.org/g/chrome-ux-report-announce/c/vXXUE6qslKU|title = The 202008 dataset is live|date = September 9, 2020|accessdate = October 15, 2021}}</ref>
 |-
 | 2020-09 || 7,937,088 || 46.8 || 87.6 || 55.8 || 24.6
 |-
@@ -203,7 +203,7 @@ The table below is based on monthly summaries provided in the CrUX announce mail
 |-
 | 2022 || {{dts|February 10}} || Insight || Business impact || All, but concrete examples focused on visual stability (CLS) || Field data || A sponsored post by Clickio on Search Engine Land makes the case for the importance of optimizing Core Web Vitals, mentioning a few cases involving their customers. The post ends with a plug for Clickio's web vitals monitoring product.<ref name=clickio/>
 |-
-| 2022 || {{dts|February 22}} {{snd}} {{dts|March 3}} || Release || Search algorithm update || All || Field data || As prviously announced on November 4, 2021, Google executes on the rollout of using page experience as a ranking factor on desktop during this period. Page experience on desktop includes all the core web vitals as well as all the other page experience signals on mobile except mobile-friendliness.<ref>{{cite web|url = https://twitter.com/googlesearchc/status/1499440494060916745|title = The page experience rollout is now complete for desktop.|date = March 3, 2022|accessdate = March 3, 2022|publisher = Google Search Console}}</ref><ref>{{cite web|url = https://developers.google.com/search/blog/2021/11/bringing-page-experience-to-desktop|title = Timeline for bringing page experience ranking to desktop|date = November 4, 2021|accessdate = November 8, 2021|publisher = Google Search Central}}</ref><ref>{{cite web|url = https://searchengineland.com/google-to-add-page-experience-ranking-signals-to-desktop-search-in-february-2022-375807|title = Google to add page experience ranking signals to desktop search in February 2022. The rollout will be complete by the end of March 2022.|last = Schwartz|first = Barry|date = November 4, 2021|accessdate = November 8, 2021|publisher = Search Engine Land}}</ref>
+| 2022 || {{dts|February 22}} {{snd}} {{dts|March 3}} || Release || Search algorithm update || All || Field data || As previously announced on November 4, 2021, Google executes on the rollout of using page experience as a ranking factor on desktop during this period. Page experience on desktop includes all the core web vitals as well as all the other page experience signals on mobile except mobile-friendliness.<ref>{{cite web|url = https://twitter.com/googlesearchc/status/1499440494060916745|title = The page experience rollout is now complete for desktop.|date = March 3, 2022|accessdate = March 3, 2022|publisher = Google Search Console}}</ref><ref>{{cite web|url = https://developers.google.com/search/blog/2021/11/bringing-page-experience-to-desktop|title = Timeline for bringing page experience ranking to desktop|date = November 4, 2021|accessdate = November 8, 2021|publisher = Google Search Central}}</ref><ref>{{cite web|url = https://searchengineland.com/google-to-add-page-experience-ranking-signals-to-desktop-search-in-february-2022-375807|title = Google to add page experience ranking signals to desktop search in February 2022. The rollout will be complete by the end of March 2022.|last = Schwartz|first = Barry|date = November 4, 2021|accessdate = November 8, 2021|publisher = Search Engine Land}}</ref>
 |}
 
 == See also ==
