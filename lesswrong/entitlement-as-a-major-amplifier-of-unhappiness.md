@@ -1,5 +1,7 @@
 # Entitlement as a major amplifier of unhappiness
 
+Published to LessWrong [here](https://www.lesswrong.com/posts/psMczuJ9KbujgrgLq/entitlement-as-a-major-amplifier-of-unhappiness).
+
 A crude simplification of an important part of Buddhist thought is
 that [desire is the root cause of all suffering](https://www.google.com/search?q=desire+is+the+root+of+all+suffering). There are many
 nuances to this, with the central theme being that [*attachment* to
@@ -13,7 +15,7 @@ of negative emotions): *entitlement* to the fulfillment of one's
 desires.
 
 In this post, I'll look at the idea of entitlement, why I think
-entitlement is a key amplifier to negative thoughts, exploration of
+entitlement is a key amplifier of negative thoughts, exploration of
 related ideas, and ways to reduce one's sense of entitlement without
 (necessarily) reducing the intensity of one's desires. This is
 probably important because for many people (and to some extent, for
