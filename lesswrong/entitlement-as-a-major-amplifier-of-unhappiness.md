@@ -207,7 +207,7 @@ getting fulfilled. This position does not preclude feeling great joy
 at the fulfilment of one's desires, or even sorrow at their
 non-fulfilment. But these feelings of joy and sorrow will be local and
 specific, in-the-moment experiences, rather than global,
-self-certified rationalizations of how one is entitled to fell.
+self-certified rationalizations of how one is entitled to feel.
 
 How can one get to a zero-entitlement position? Probably, many of the
 standard techniques used to build mental strength (including
@@ -237,7 +237,7 @@ comfortably above what one feels entitled to, is what I call the
 Another aspect of safety margin, beyond one's *current state*, is the
 existence of recovery strategies. For instance, a millionaire who
 feels entitled to having enough money to buy food is probably in a
-good place, but so is somebody who maay not be a millionaire but still
+good place, but so is somebody who may not be a millionaire but still
 has a range of strategies to deal with sudden loss of income and
 wealth.
 
