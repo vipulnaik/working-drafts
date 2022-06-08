@@ -9,7 +9,7 @@ Based on both my lived experience and my reflections, I think that
 neither desire nor attachment to desire would, on their own, lead to
 significant suffering in most cases. Rather, I've found one key
 ingredient that often significantly increases suffering (and a range
-of negative emotions): *entitlement* to the fulfilment of one's
+of negative emotions): *entitlement* to the fulfillment of one's
 desires.
 
 In this post, I'll look at the idea of entitlement, why I think
@@ -35,12 +35,12 @@ to alter the desire (e.g., by cultivating a preference for other
 options).
 
 Entitlement is a belief that one "deserves" or "is owed by (specific
-people, or the world at large)" the fulfilment of a desire. For
+people, or the world at large)" the fulfillment of a desire. For
 instance, if I'm feeling hungry, I have a strong desire for food, but
 that doesn't necessarily make me feel entitled to food. How might I
 feel entitled to food? For instance, I might believe that my
 housemates who are using the kitchen right now for their own food prep
-should vacate the kitchen so I can fulfil my desire for food. Or I
+should vacate the kitchen so I can fulfill my desire for food. Or I
 might believe that my family members, or my past self, should have
 kept the refrigerator well-stocked so my present self wouldn't have to
 go hungry.
@@ -81,7 +81,7 @@ can reasonably expect to be fulfilled.
 There are also cases where one feels entitled despite it being
 completely unjustified, even in the mind of the person who feels
 entitled. For instance, you may expect your spouse or parent to
-magically figure out and fulfil your needs even before you know them.
+magically figure out and fulfill your needs even before you know them.
 
 A lot of the conventional wisdom around entitlement centers around
 trying to figure out if it is justified or unjustified. This is most
@@ -210,8 +210,8 @@ position. Basically: "I am not entitled to anything." This position
 does not deny the existence of desires or even cravings; it simply
 accepts that they exist, and also accepts that they may end up not
 getting fulfilled. This position does not preclude feeling great joy
-at the fulfilment of one's desires, or even sorrow at their
-non-fulfilment. But these feelings of joy and sorrow will be local and
+at the fulfillment of one's desires, or even sorrow at their
+non-fulfillment. But these feelings of joy and sorrow will be local and
 specific, in-the-moment experiences, rather than global,
 self-certified rationalizations of how one is entitled to feel.
 
