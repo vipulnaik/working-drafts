@@ -102,7 +102,7 @@ expect.
 The flip side to this is that justified entitlement has a greater
 chance of having its "root cause" fixed; for instance, if you feel
 justified anger that your housemate beat you up, your friends who tell
-you this may offer youo a place to stay to get out of the housemate
+you this may offer you a place to stay to get out of the housemate
 situation, and a court may grant you a restraining order on your
 housemate. And it's also possible that the fact that friends and
 society at large are willing to hear you out and take your side, in
@@ -217,7 +217,7 @@ self-certified rationalizations of how one is entitled to feel.
 
 How can one get to a zero-entitlement position? Probably, many of the
 standard techniques used to build mental strength (including
-mindfulness meditation and vaarious self-help therapies starting from
+mindfulness meditation and various self-help therapies starting from
 CBT) indirectly help here. Probably, executing on standard self-help
 techniques while thinking of the zero-entitlement position as one of
 the goals can help.
