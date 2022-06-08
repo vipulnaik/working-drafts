@@ -13,7 +13,7 @@ of negative emotions): *entitlement* to the fulfilment of one's
 desires.
 
 In this post, I'll look at the idea of entitlement, why I think
-entitlement is a key amplifier to negative thoughts, explooration of
+entitlement is a key amplifier to negative thoughts, exploration of
 related ideas, and at ways to reduce one's sense of entitlement
 without (necessarily) reducing the intensity of one's desires.
 
@@ -144,7 +144,7 @@ initially feel very bad but over time they adjust.
 
 The emotional state of entitlement is probably part (but not all) of
 what's going on here. Namely, as our well-being changes, we construct
-stories that justify and reinforce why we deserve and our entitled to
+stories that justify and reinforce why we deserve and are entitled to
 our current level of well-being. This process of constructing stories
 takes timem, so initially, when there's a major change to our
 financial or health status, we respond based on what we previously
