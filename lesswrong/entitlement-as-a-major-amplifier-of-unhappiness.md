@@ -157,7 +157,7 @@ felt entitled to. That's why the hedonic treadmill takes some
 time. (Also in general adjusting upward is easier than adjusting
 downward).
 
-### Entitlement as tool/tactic/strategy
+### Entitlement as tool/tactic/strategy: of rights and firebrands
 
 One plausible story about entitlement is that it helps people fight
 for their rights and get better outcomes for themselves. The language
@@ -266,10 +266,12 @@ of entitlement.
 
 ### Attitude of gratitude
 
-While I think "attitude of gratitude" is a good idea in principle, I
-also think it's already well-known as an idea, and compared to some of
-the other things written here, it may even be *overused*. There's a
-lot of existing literature on attitude of gratitude.
+While I think [attitude of
+gratitude](https://www.google.com/search?q=attitude+of+gratitude) is a
+good idea in principle, I also think it's already well-known as an
+idea, and compared to some of the other things written here, it may
+even be *overused*. There's a lot of existing literature on attitude
+of gratitude, and I don't have much to add.
 
 ## Conclusion
 
