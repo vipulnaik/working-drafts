@@ -135,7 +135,7 @@ this is the most likely explanation, though.
 The "hedonic treadmill" is this phenomenon where as our well-being
 (such as our health, wealth, and wisdom) change, our expectations
 adjust accordingly, so our overall level of happiness or life
-satisfaction doesn't change, or at least doeesn't change *as
+satisfaction doesn't change, or at least doesn't change *as
 much*. Hedonic treadmills cut both ways: as people get wealthier over
 time, their happiness doesn't go up as much as the initial happiness
 they would have gotten right after a sudden increase in wealth. On the
@@ -146,7 +146,7 @@ The emotional state of entitlement is probably part (but not all) of
 what's going on here. Namely, as our well-being changes, we construct
 stories that justify and reinforce why we deserve and are entitled to
 our current level of well-being. This process of constructing stories
-takes timem, so initially, when there's a major change to our
+takes time, so initially, when there's a major change to our
 financial or health status, we respond based on what we previously
 felt entitled to. That's why the hedonic treadmill takes some
 time. (Also in general adjusting upward is easier than adjusting
@@ -165,7 +165,7 @@ to find alternative, more effective sources of motivation to fight for
 things one believes in. At minimum, it should be possible to separate
 out one's "political anger" that one draws upon for political
 struggles, from a personal sense of entitlement. For instance, you
-may be campaigning against militay conscription, and may, on the
+may be campaigning against military conscription, and may, on the
 political stage, speak with anger and indignation, like a
 firebrand. This may be more effective than approaching the subject
 with a calm tone. But it's also important to firewall your own
