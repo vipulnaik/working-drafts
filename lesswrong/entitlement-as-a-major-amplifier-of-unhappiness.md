@@ -111,8 +111,9 @@ only enhances your sense of entitlement).
 
 ### Entitlement and the endowment effect and loss aversion
 
-The endowment effect is an effect whereby we value things more once we
-have ownership of them. A closely related idea is that of [loss
+The [endowment effect](https://en.wikipedia.org/wiki/Endowment_effect)
+is an effect whereby we value things more once we have ownership of
+them. A closely related idea is that of [loss
 aversion](https://en.wikipedia.org/wiki/Loss_aversion) -- we value
 gains much less than we value the cost of the corresponding losses.
 
