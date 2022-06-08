@@ -29,7 +29,7 @@ hungry, I have a strong preference for eating relative to the
 alternative of not eating.
 
 Attachment to desire can mean a few different things; my own
-interpretation is tthat it means that the desire is very salient in
+interpretation is that it means that the desire is very salient in
 the mind of the person desiring, and the person is unwilling or unable
 to alter the desire (e.g., by cultivating a preference for other
 options).
