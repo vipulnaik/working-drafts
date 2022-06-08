@@ -171,7 +171,7 @@ large swathes of history. This ties to ideas such as "speaking up" and
 Although the ideas are somewhat tangled, I believe that it's possible
 to find alternative, more effective sources of motivation to fight for
 things one believes in. At minimum, it should be possible to separate
-out one's "political anger" that one draws upon for political
+out one's "political anger", that one draws upon for political
 struggles, from a personal sense of entitlement. For instance, you
 may be campaigning against military conscription, and may, on the
 political stage, speak with anger and indignation, like a
