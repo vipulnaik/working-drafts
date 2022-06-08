@@ -1,9 +1,9 @@
 # Entitlement as a major amplifier of unhappiness
 
 A crude simplification of an important part of Buddhist thought is
-that "desire is the root cause of all suffering." There are many
-nuances to this, with the central theme being that *attachment* to
-one's desires is the root cause of all suffering.
+that [desire is the root cause of all suffering](https://www.google.com/search?q=desire+is+the+root+of+all+suffering&oq=desire+is+the+root+cause+of+all+suffering). There are many
+nuances to this, with the central theme being that [*attachment* to
+one's desires is the root cause of all suffering](https://www.google.com/search?q=attachment+to+desire+is+the+root+of+all+suffering).
 
 Based on both my lived experience and my reflections, I think that
 neither desire nor attachment to desire would, on their own, lead to
@@ -14,8 +14,12 @@ desires.
 
 In this post, I'll look at the idea of entitlement, why I think
 entitlement is a key amplifier to negative thoughts, exploration of
-related ideas, and at ways to reduce one's sense of entitlement
-without (necessarily) reducing the intensity of one's desires.
+related ideas, and ways to reduce one's sense of entitlement without
+(necessarily) reducing the intensity of one's desires. This is
+probably important because for many people (and to some extent, for
+myself as well) experiencing desires intensely is a key part of a life
+well-lived, so trying to tamp down one's desires in order to tamp down
+one's suffering isn't a worthwhile trade-off.
 
 ## Entitlement has a crucial role as amplifier of negative emotions
 
@@ -55,7 +59,7 @@ your past self, or at the world at large.
 
 ## Intellectual exploration of ideas related to entitlement
 
-### Justified and unjustified entitlement
+### Justified and unjustified entitlement: even justified entitlement is bad
 
 In some cases, one's sense of entitlement may be "justified" in the
 sense that one has some well-recognized claim to the thing one feels
@@ -108,9 +112,9 @@ only enhances your sense of entitlement).
 ### Entitlement and the endowment effect and loss aversion
 
 The endowment effect is an effect whereby we value things more once we
-have ownership of them. A closely related idea is that of "loss
-aversion" -- we value gains much less than we value the cost of the
-corresponding losses.
+have ownership of them. A closely related idea is that of [loss
+aversion](https://en.wikipedia.org/wiki/Loss_aversion) -- we value
+gains much less than we value the cost of the corresponding losses.
 
 One numerical way to estimate the endowment effect is through what's
 called the WTA/WTP gap: the gap between willingness to accept (WTA) to
@@ -132,15 +136,16 @@ this is the most likely explanation, though.
 
 ### Entitlement and the hedonic treadmill
 
-The "hedonic treadmill" is this phenomenon where as our well-being
-(such as our health, wealth, and wisdom) change, our expectations
-adjust accordingly, so our overall level of happiness or life
-satisfaction doesn't change, or at least doesn't change *as
-much*. Hedonic treadmills cut both ways: as people get wealthier over
-time, their happiness doesn't go up as much as the initial happiness
-they would have gotten right after a sudden increase in wealth. On the
-flip side, when people lose money, or have a health issue, they
-initially feel very bad but over time they adjust.
+The [hedonic
+treadmill](https://en.wikipedia.org/wiki/Hedonic_treadmill) is this
+phenomenon where as our well-being (such as our health, wealth, and
+wisdom) change, our expectations adjust accordingly, so our overall
+level of happiness or life satisfaction doesn't change, or at least
+doesn't change *as much*. Hedonic treadmills cut both ways: as people
+get wealthier over time, their happiness doesn't go up as much as the
+initial happiness they would have gotten right after a sudden increase
+in wealth. On the flip side, when people lose money, or have a health
+issue, they initially feel very bad but over time they adjust.
 
 The emotional state of entitlement is probably part (but not all) of
 what's going on here. Namely, as our well-being changes, we construct
@@ -179,16 +184,17 @@ for that person to enjoy. Not all consumer mindsets are entitled; for
 instance, one could have a highly appreciative consumer mindset. But
 entitled mindsets are usually a subset of consumer mindsets.
 
-The contrasting mindset is a "producer mindset" where you're thinking:
-how is this being done behind the scenes, and how can we do this
-better? When you approach the problem of being hungry with a producer
-mindset, you think: what kind of food purchase cycle would make sure
-there's enough stuff in the fridge when I'm hungry? Producer mindsets
-are more constructive and less likely to lead to
-entitlement. (Excessive use of a producer mindset can have its own
-drawbacks; for instance, you might be perceived as a control freak, or
-a not-fun person. But specifically in the context of combating
-entitlement, producer mindset seems better.)
+The contrasting mindset is a "[producer
+mindset](https://medium.com/swlh/consumer-vs-producer-a-change-in-mindset-that-will-change-your-life-11cf8092e3e6)"
+where you're thinking: how is this being done behind the scenes, and
+how can we do this better? When you approach the problem of being
+hungry with a producer mindset, you think: what kind of food purchase
+cycle would make sure there's enough stuff in the fridge when I'm
+hungry? Producer mindsets are more constructive and less likely to
+lead to entitlement. (Excessive use of a producer mindset can have its
+own drawbacks; for instance, you might be perceived as a control
+freak, or a not-fun person. But specifically in the context of
+combating entitlement, producer mindset seems better.)
 
 ## Alternatives to entitlement
 
@@ -197,11 +203,11 @@ far, you may already have some guesses as to what I'm about to
 say. Some of it will be cliched, and hopefully some will be
 nontrivial.
 
-### "I am not entitled to anything"
+### "I am not entitled to anything" (the zero-entitlement position)
 
 One (probably extreme) position is the zero-entitlement
 position. Basically: "I am not entitled to anything." This position
-does not deny the existence of desirees or even cravings; it simply
+does not deny the existence of desires or even cravings; it simply
 accepts that they exist, and also accepts that they may end up not
 getting fulfilled. This position does not preclude feeling great joy
 at the fulfilment of one's desires, or even sorrow at their
@@ -224,7 +230,7 @@ than my present life. One of my reactions to watching *Squid Game* was
 that I feel appreciative that I'm not in a world like that, where my
 survival depends on the outcome of a life-and-death contest.
 
-### Safety margins around one's sense of entitlement
+### Safety margins around one's sense of entitlement (reprogramming the hedonic treadmill)
 
 A slightly less extreme position than zero-entitlement is to only feel
 entitled to some very basic things, way below one's current level. For
@@ -241,7 +247,13 @@ good place, but so is somebody who may not be a millionaire but still
 has a range of strategies to deal with sudden loss of income and
 wealth.
 
-### Redirecting entitlement to goal-oriented strategy
+Building safety margins is a form of reprogramming the hedonic
+treadmill; our hedonic treadmill tends to eschew safety margins by
+quickly adjusting our expectations to our reality. Building in a
+safety margin means that we yank away expectations from reality in a
+way that keeps a cushion/buffer that we can use up.
+
+### Redirecting entitlement to goal-oriented strategy (taking on the producer mindset)
 
 Entitlement is a "consumer mindset" way of approaching a situation. If
 you can take the thing you feel entitled to, and then switch to a
@@ -258,3 +270,15 @@ While I think "attitude of gratitude" is a good idea in principle, I
 also think it's already well-known as an idea, and compared to some of
 the other things written here, it may even be *overused*. There's a
 lot of existing literature on attitude of gratitude.
+
+## Conclusion
+
+Focusing on the contributions of one's sense of "entitlement" is
+valuable. It might be a worthwhile compromise that helps reduce some
+of the worst outcomes of having strong intense desires, without
+letting go of the desires and associated intense experiences
+themselves. It is worth separating a personal, emotional moralistic
+sense of entitlement from more abstract concepts of one's rights as
+understood morally, socially, and legally. The former is almost always
+a liability, while the latter may be a tool for bettering one's own
+condition and that of society at large.
