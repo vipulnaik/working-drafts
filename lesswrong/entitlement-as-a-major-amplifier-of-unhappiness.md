@@ -275,12 +275,13 @@ of gratitude, and I don't have much to add.
 
 ## Conclusion
 
-Focusing on the contributions of one's sense of "entitlement" is
-valuable. It might be a worthwhile compromise that helps reduce some
-of the worst outcomes of having strong intense desires, without
-letting go of the desires and associated intense experiences
-themselves. It is worth separating a personal, emotional moralistic
-sense of entitlement from more abstract concepts of one's rights as
-understood morally, socially, and legally. The former is almost always
-a liability, while the latter may be a tool for bettering one's own
-condition and that of society at large.
+When thinking of the causes of one's suffering, focusing on the
+contributions of one's sense of "entitlement" is valuable. It might be
+a worthwhile compromise that helps reduce some of the worst outcomes
+of having strong intense desires, without letting go of the desires
+and associated intense experiences themselves. It is worth separating
+a personal, emotional moralistic sense of entitlement from more
+abstract concepts of one's rights as understood morally, socially, and
+legally. The former is almost always a liability, while the latter may
+be a tool for bettering one's own condition and that of society at
+large.
