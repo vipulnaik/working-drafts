@@ -1,7 +1,7 @@
 # Entitlement as a major amplifier of unhappiness
 
 A crude simplification of an important part of Buddhist thought is
-that [desire is the root cause of all suffering](https://www.google.com/search?q=desire+is+the+root+of+all+suffering&oq=desire+is+the+root+cause+of+all+suffering). There are many
+that [desire is the root cause of all suffering](https://www.google.com/search?q=desire+is+the+root+of+all+suffering). There are many
 nuances to this, with the central theme being that [*attachment* to
 one's desires is the root cause of all suffering](https://www.google.com/search?q=attachment+to+desire+is+the+root+of+all+suffering).
 
