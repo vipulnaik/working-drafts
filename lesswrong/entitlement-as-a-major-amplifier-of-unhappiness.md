@@ -176,7 +176,7 @@ personal sense of entitlement from the political anger you express.
 I think a sense of entitlement is tied heavily to a "consumer mindset"
 -- the mindset of somebody who thinks of the world as producing things
 for that person to enjoy. Not all consumer mindsets are entitled; for
-instance, onee could have a highly appreciative consumer mindset. But
+instance, one could have a highly appreciative consumer mindset. But
 entitled mindsets are usually a subset of consumer mindsets.
 
 The contrasting mindset is a "producer mindset" where you're thinking:
