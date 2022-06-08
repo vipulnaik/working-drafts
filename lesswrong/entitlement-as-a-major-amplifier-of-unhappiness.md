@@ -15,13 +15,13 @@ of negative emotions): *entitlement* to the fulfillment of one's
 desires.
 
 In this post, I'll look at the idea of entitlement, why I think
-entitlement is a key amplifier of negative thoughts, exploration of
-related ideas, and ways to reduce one's sense of entitlement without
-(necessarily) reducing the intensity of one's desires. This is
-probably important because for many people (and to some extent, for
-myself as well) experiencing desires intensely is a key part of a life
-well-lived, so trying to tamp down one's desires in order to tamp down
-one's suffering isn't a worthwhile trade-off.
+entitlement is a key amplifier of negative thoughts. I'll explore
+related ideas. I'll also look at ways to reduce one's sense of
+entitlement without (necessarily) reducing the intensity of one's
+desires. This is probably important because for many people (and to
+some extent, for myself as well) experiencing desires intensely is a
+key part of a life well-lived, so trying to tamp down one's desires in
+order to tamp down one's suffering isn't a worthwhile trade-off.
 
 ## Entitlement has a crucial role as amplifier of negative emotions
 
