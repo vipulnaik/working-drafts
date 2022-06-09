@@ -14,7 +14,7 @@ ingredient that often significantly increases suffering (and a range
 of negative emotions): *entitlement* to the fulfillment of one's
 desires.
 
-In this post, I'll look at the idea of entitlement, why I think
+In this post, I'll look at the idea of entitlement and why I think
 entitlement is a key amplifier of negative thoughts. I'll explore
 related ideas. I'll also look at ways to reduce one's sense of
 entitlement without (necessarily) reducing the intensity of one's
