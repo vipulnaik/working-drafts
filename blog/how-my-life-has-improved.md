@@ -288,7 +288,7 @@ Working from home most of the time and having fewer appointments and
 deadlines also reduced my need to be or feel rushed physically or
 mentally.
 
-I think I could have convinvced my past self of the value of moving in
+I think I could have convinced my past self of the value of moving in
 this direction to some extent, but probably not all the way (for
 instance, some rushedness would exist in a world before work from home).
 
