@@ -168,7 +168,7 @@ reluctant to spend on earlier. Three examples:
 My practices and knowledge have changed quite a bit since 2014, though
 some core elements remain the same. Some of these changes are things
 that are hard to communicate to my past self, but others are easy to
-communicate. It's hard to sepraate them out categorically, so I'll mix
+communicate. It's hard to separate them out categorically, so I'll mix
 them together.
 
 ### More active self-care (probably something my past self could have understood)
@@ -201,7 +201,7 @@ entertainment consumption](https://ese.vipulnaik.com/).
 Why didn't I engage in that much active self-care previously? One main
 reason was my intense focus on "others" -- on things like my work and
 my projects / altruistic pursuits. This was to some extent a
-personality thing on my part, and it was also excerbated by a
+personality thing on my part, and it was also exacerbated by a
 genuinely demanding and stressful job that I didn't have good
 heuristics for dealing with. I also probably just lacked good
 heuristics for active self-care, and had a bit of hubris about it -- a
