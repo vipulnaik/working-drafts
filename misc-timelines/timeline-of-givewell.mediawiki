@@ -1,0 +1,740 @@
+This is a '''timeline of [[wikipedia:GiveWell|GiveWell]]''', a United States [[w:non-profit organization|non-profit]] {{w|charity assessment}} and {{w|effective altruism}}-focused organization based in {{w|San Francisco}}. Among the many charity evaluators, GiveWell stands out as a rating service that complements classic quantitative measures.<ref>{{cite book|title=New Themes in Institutional Analysis: Topics and Issues from European Research|page=325|edition=Georg Krücken, Carmelo Mazza, Renate E. Meyer, Peter Walgenbach|url=https://books.google.com.ar/books?id=33kvDwAAQBAJ&pg=PA325&dq=%22givewell%22+%22in+2014%22&hl=en&sa=X&ved=0ahUKEwihlNWejIXYAhUDCpAKHWjOA2gQ6AEIJzAA#v=onepage&q=%22givewell%22%20%22in%202014%22&f=false|accessdate=12 December 2017}}</ref> The organization has reviewed over 500 charities.<ref>{{cite book|last1=Bregman|first1=Rutger|title=Utopia for Realists: How We Can Build the Ideal World|url=https://books.google.com.ar/books?id=psA_DgAAQBAJ&pg=PT184&dq=%22in+2009%22+%22givewell%22&hl=en&sa=X&ved=0ahUKEwiQgNHv15LYAhVHIpAKHb-vA4k4ChDoAQgmMAA#v=onepage&q=%22in%202009%22%20%22givewell%22&f=false|accessdate=18 December 2017}}</ref> According to nonprofit {{w|80,000 hours}}, GiveWell is the world’s leading charity evaluator.<ref name="The effective altruism guide to donating this giving season">{{cite web|title=The effective altruism guide to donating this giving season|url=https://80000hours.org/2016/12/the-effective-altruism-guide-to-donating-this-giving-season/|website=80000hours.org|accessdate=18 December 2017}}</ref>
+
+
+==Sample questions==
+
+The following are some interesting questions that can be answered by reading this timeline:
+
+* What are some strategies conducted by {{w|GiveWell}} in order to optimize results?
+** Sort the full timeline by "Event type" and look for the group of rows with value "Strategy".
+** You will see a miscellaneous list of events including priority relocations, change of direction, plans, and experiments.
+* What are some significant fundings received by GiveWell? 
+** Sort the full timeline by "Event type" and look for the group of rows with value "Funding".
+** You will see a number of grants awarded by donors.
+* What are some significant grantmaking allocations recommended by GiveWell?
+** Sort the full timeline by "Event type" and look for the group of rows with value "Grantmaking".
+** You will see a number of discretionary grants allocated by GiveWell and many grants awarded by {{w|Good Ventures}} to charities through GiveWell recommendations.
+* What are the several charities being top ranked by GiveWell across the years?
+** Sort the full timeline by "Event type" and look for the group of rows with value "Charity ranking".
+** You will see standout names like {{w|Against Malaria Foundation}}, {{w|GiveDirectly}}, and {{w|Malaria Consortium}}.
+* What is the composition of the staff and what are the different roles?
+** Sort the full timeline by "Event type" and look for the group of rows with value "Staff".
+* Which countries have been visited by members of the GiveWell staff and what was the purpose of the visit?
+** Sort the full timeline by "Event type" and look for the group of rows with value "Site visit".
+** You will see a number of countries where evaluated charities conduct work, mostly in {{w|Africa}}.
+* What are some illustrative versions of GiveWell's Cost-Effectiveness Analyses that have been published across the years?
+** Sort the full timeline by "Event type" and look for the group of rows with value "Cost-effectiveness analysis". 
+** For the number of versions per year, see the Tables section.
+* What are events reflecting the impact of GiveWell in the [[w:Media (communication)|media]] and among notable people?
+** Sort the full timeline by "Event type" and look for the group of rows with value "External citation".
+** You will see mostly articles citing the charity evaluator.
+** Sort the full timeline by "Event type" and look for the group of rows with value "External review".
+** You will see publications focusing on GiveWell
+* What are some important interviews conducted to people from GiveWell?
+** Sort the full timeline by "Event type" and look for the group of rows with value "interview".
+** You will see a number of interviews, especially to Holden Karnofsky and Elie Hassenfeld.
+* How much money has been moved through GiveWell recommendations across the years?
+** See the tables section for details.
+
+== Big picture ==
+
+{| class="sortable wikitable"
+! Period !! Development summary !! More details
+|-
+| 2006–2008 || Initial years || GiveWell starts conducting its grant application process. Initial struggles in founding are experienced, with very little money moved through the website. Some controversies emerge in the leadership.
+|-
+| 2009–2010 || Stabilization || GiveWell achieves growth in money moved. GiveWell staff begin making site visits to the areas served by current and potential top charities.
+|-
+| 2011–2012 || Partnership || {{w|Good Ventures}} is formed and starts injecting money. Annual cycles are standardized.
+|-
+| 2013–2014 || Relocation || GiveWell moves to the {{w|San Francisco Bay Area}}, where people have become strong supporters of {{w|effective altruism}}. GiveWell Labs grows in this period.
+|-
+| 2015 onward || Reorganization || A spectacular growth in money moved through recommendations is experienced in this period. GiveWell Labs separates from GiveWell, renaming as {{w|Open Philanthropy Project}}.
+|-
+|}
+
+=== Highlights by year ===
+
+{| class="sortable wikitable"
+! Year !! Event
+|-
+| 2007 || GiveWell launches. In the first year, fifty-nine organizations apply for GiveWell grants, with fifteen being considered to produce adequate information about their activities.<ref>{{cite book|last1=Ilo|first1=Stan Chu|title=The Church and Development in Africa, Second Edition: Aid and Development from the Perspective of Catholic Social Ethics|page=143|url=https://books.google.com.ar/books?id=BFENBQAAQBAJ&pg=PA143&dq=%22givewell%22+%22in+2007%22&hl=en&sa=X&ved=0ahUKEwj42YXNz5HYAhWHF5AKHYiGDrAQ6AEILTAB#v=onepage&q=%22givewell%22%20%22in%202007%22&f=false|accessdate=17 December 2017}}</ref>  Population Services International (PSI) is announced as first recommended charity, and becomes the recipient of GiveWell's first substantial donation.<ref name="Ethics in an Age of Savage Inequalities">{{cite book|last1=Winchester|first1=James J.|title=Ethics in an Age of Savage Inequalities|url=https://books.google.com.ar/books?id=mFzpCgAAQBAJ&pg=PA43&dq=%22givewell%22+%22in+2007%22&hl=en&sa=X&ved=0ahUKEwj42YXNz5HYAhWHF5AKHYiGDrAQ6AEIJzAA#v=onepage&q=%22givewell%22%20%22in%202007%22&f=false|accessdate=17 December 2017}}</ref>
+|-
+| 2008 || GiveWell moves US$35,021 through its website, and receives 130 donations.<ref name="Update on GiveWell’s money moved and web traffic in 2011">{{cite web|title=Update on GiveWell’s money moved and web traffic in 2011|url=https://blog.givewell.org/2012/01/05/update-on-givewell%E2%80%99s-money-moved-and-web-traffic-in-2011/|website=blog.givewell.org|accessdate=17 December 2017}}</ref>
+|-
+| 2009 || GiveWell decides to rate only charities that meet a minimal standard of transparency.<ref>{{cite book|title=With Charity for All: Why Charities Are Failing and a Better Way to Give|url=https://books.google.com.ar/books?id=zrIjzSgx0cEC&pg=PT17&dq=%22givewell%22+%22in+2009%22&hl=en&sa=X&ved=0ahUKEwjxx6a_75HYAhWDDZAKHfjsDjUQ6AEILTAB#v=onepage&q=%22givewell%22%20%22in%202009%22&f=false|accessdate=17 December 2017}}</ref> The evaluator moves US$143,013 through its website (A 308% increase from the previous year). The number of donations reaches 665 (a 412% increase from 2008).<ref name="Update on GiveWell’s money moved and web traffic in 2011"/>	
+|-
+| 2010 || GiveWell manages to track over US$1.5 million in donations to top charities, compared to just over $1 million in 2009. Its website traffic nearly doubles compared to the previous year, and donations through the website nearly triples.<ref name="Our Progress to Date"/> The evaluator moves US$399,456 through its website (a 179% increase from 2009), whereas the number of donations reaches 976 (a 47% growth from the previous year).<ref name="Update on GiveWell’s money moved and web traffic in 2011"/>
+|-
+| 2011 || A strong growth is experienced during the year. GiveWell tracks over US$5 million to top charities, compared to about US$1.5 million in 2010.<ref name="Our Progress to Date"/> Its website reaches US$1,305,089 in movement (a 227% increase from 2010), whereas its number of donations more than triples to 3,099 (a 218% growth from the previous year).<ref name="Update on GiveWell’s money moved and web traffic in 2011"/> In 2011 GiveWell broadens its search on charitable organizations to include flag promising charities, based on additional characteristics. The set of heuristics for flagging charities worth investigating further is partially developed by incorporating research and previous heuristics from the 2009 report.<ref name="Process for Identifying Top Charities"/>
+|-
+| 2012 || GiveWell starts searching for organizations working on {{w|immunization}}, {{w|nutrition}} and other {{w|global health}} programs.<ref name="Process for Identifying Top Charities"/> The evaluator identifies three top priorities for the year: to make significant progress on GiveWell Labs; find more top charities under the same basic framework as our existing recommendations; and expand its team.<ref name="Our Progress to Date"/>
+|-
+| 2013 || GiveWell develops a cause selection framework, getting basic context for assessing causes within policy-oriented philanthropy and scientific research funding.<ref name="Our Progress to Date"/>
+|-
+| 2014 || GiveWell tracks 27.8 million dollars moved to its recommended charities, about 60% more than in 2013. The total number of donors giving to GiveWell's recommended charities or to GiveWell unrestricted would not grow significantly (up 9% to about 9,300). Many new donors who gave less than $1,000 in 2013 would not give again in 2014, but among those who gave $10,000 or more in 2013, a higher proportion would give again in 2014.<ref name="Our Progress to Date"/>
+|-
+| 2015 || GiveWell tracks approximately 100 million dollars in donations going to its recommended charities as a result of its research.<ref>{{cite book|last1=Singer|first1=Peter|title=Ethics in the Real World: 82 Brief Essays on Things That Matter|page=166|url=https://books.google.com.ar/books?id=Dom9DgAAQBAJ&pg=PA166&dq=%22givewell%22+%22in+2015%22&hl=en&sa=X&ved=0ahUKEwjUkMHGh4XYAhXFk5AKHSEfCu0Q6AEIJzAA#v=onepage&q=%22givewell%22%20%22in%202015%22&f=false|accessdate=12 December 2017}}</ref>
+|-
+| 2015–2016 || GiveWell seeks to expand top charity room for more funding and consider alternatives to its top charities by inviting other groups that work on deworming, net distributions, and micronutrient fortification to apply. This would lead to adding Sightsavers' deworming program, the END Fund's deworming program, Project Healthy Children, and Food Fortification Initiative to GiveWell's lists.<ref name="Process for Identifying Top Charities"/>
+|-
+| 2017 || The Open Philanthropy Project becomes an independent entity.
+|-
+| 2018 || GiveWell tracks US$141 million in money moved in donations to its recommended charities or through its Incubation Grants program.<ref name="GiveWell Metrics Report – 2018 Annual Review">{{cite web |title=GiveWell Metrics Report – 2018 Annual Review |url=https://files.givewell.org/files/metrics/GiveWell_Metrics_Report_2018.pdf |website=givewell.org |accessdate=31 March 2020}}</ref> In the same year, the GiveWell moves US$65 million to its top charities.<ref name="Review GiveWell Analyses">{{cite web |title=Review GiveWell Analyses |url=https://www.meetup.com/South-Bay-Effective-Altruism/events/svcxzqyznblb/ |website=meetup.com |accessdate=31 March 2020}}</ref>
+|-
+| 2019 || GiveWell processes US$54.1 million in donations.<ref>{{cite web |title=How did we do in 2019? A preliminary look at our growth. |url=https://blog.givewell.org/2020/02/20/how-did-we-do-in-2019-a-preliminary-look-at-our-growth/ |website=blog.givewell.org |accessdate=31 March 2020}}</ref>
+|-
+|}
+
+== Numerical and visual data  ==
+
+=== Google Scholar ===
+
+The following table summarizes per-year mentions on Google Scholar as of December 18, 2021.
+
+{| class="sortable wikitable"
+! Year
+! "GiveWell"
+|-
+| 2007 || 2
+|-
+| 2008 || 14
+|-
+| 2009 || 18
+|-
+| 2010 || 37
+|-
+| 2011 || 38
+|-
+| 2012 || 60
+|-
+| 2013 || 83 
+|-
+| 2014 || 109
+|-
+| 2015 || 121 
+|-
+| 2016 || 144 
+|-
+| 2017 || 138
+|-
+| 2018 || 112
+|-
+| 2019 || 146
+|-
+| 2020 || 162
+|-
+|}
+
+[[File:Givewell gscho.png|thumb|center|700px]]
+
+
+[[File:Growth of GiveWell full-time staff.jpg|thumb|center|600px|Growth of GiveWell full-time staff, June 2010 – August 2016.]]
+
+=== Wikipedia views ===
+
+The image below shows Wikipedia views from December 2007 for desktop, and from July 2015 (see red vertical line) for mobile web, mobile app, desktop spider, and mobile web spider; to March 2020.<ref>{{cite web |title=GiveWell Wikipedia views |url=https://wikipediaviews.org/displayviewsformultiplemonths.php?page=GiveWell&allmonths=allmonths&language=en&drilldown=all |website=wikipediaviews.org |accessdate=24 April 2020}}</ref>
+
+[[File:GiveWell Wikipedia Views from December 2007.png|500px|thumb|center]]
+
+=== Google Trends ===
+The comparative chart below shows {{w|Google Trends}} data for GiveWell (Non-profit) and GiveWell (Search term) from January 2007 to February 2021, when the screenshot was taken. Interest is also ranked by country and displayed on world map.<ref>{{cite web |title=GiveWell |url=https://trends.google.com/trends/explore?date=2007-01-01%202021-02-23&q=%2Fm%2F03h570b,GiveWell |website=Google Trends |access-date=23 February 2021}}</ref>
+
+[[File:GiveWell gt.jpg|thumb|center|800px]]
+
+=== Google Ngram Viewer ===
+The chart below shows {{w|Google Ngram Viewer}} data for GiveWell from 2007 to 2019.<ref>{{cite web |title=GiveWell |url=https://books.google.com/ngrams/graph?content=GiveWell&year_start=2007&year_end=2019&corpus=26&smoothing=3&case_insensitive=true |website=books.google.com |access-date=23 February 2021 |language=en}}</ref>
+
+[[File:GiveWell ngram.jpg|thumb|center|800px]]
+
+== Tables ==
+
+The table below shows money moved by category, in US$ millions.<ref name="GiveWell Metrics Report – 2018 Annual Review"/>
+
+{| class="sortable wikitable"
+! Year !! Incubation grants !! Good ventures to recommended charities !! All other money moved !! Total 
+|-
+| 2011 || 3 || 1.1 || 0 || 4.1
+|-
+| 2012 || 6.4 || 3 || 0 || 9.4
+|-
+| 2013 || 8.7 || 9.3 || 0.1 || 18.1
+|- 
+| 2014 || 16.7 || 15.1 || 0.3 || 32.1
+|-
+| 2015 || 43.4 || 70.4 || 0.5 || 114.3
+|-
+| 2016 || 41.5 || 50.4 || 13.3 || 105.2
+|-  
+| 2017 || 45.7 || 75.1 || 15.8 || 136.6
+|-
+| 2018 || 61 || 64 || 15.9 || 140.9
+|-
+|}
+
+
+The table below shows growth of GiveWell staff, June 2010 – August 2016. ‘Num’ is the number of full-time staff, ‘Diff’ is the difference in ‘Num’ relative to the previous month and is given in the form 
+(''−x,y''), where ''x'' is the number full-time staff that left and ''y'' is the number of full-time staff that joined.<ref name="=GIVEWELL STAFF GROWTH">{{cite web|title=GIVEWELL STAFF GROWTH|url=https://issarice.com/givewell-staff-growth|website=issarice.com|accessdate=29 December 2017}}</ref>
+{| class="sortable wikitable"
+! Date !! Num !! Diff 
+|-
+| 2010-06-09 || 4 ||	
+|-
+| 2011-06-04 || 4 || (−1,+1)	
+|-
+| 2011-09-25 ||	5 || (−0,+1)
+|-
+| 2012-01-02 ||	4 || (−1,+0)
+|- 
+| 2012-02-08 ||	5 || (−0,+1)
+|-
+| 2012-07-19 ||	8 || (−0,+3)
+|-
+| 2013-01-13 ||	6 || (−2,+0)
+|-
+| 2013-04-30 ||	7 || (−0,+1)
+|-
+| 2013-08-15 ||	8 || (−1,+2)
+|-
+| 2013-09-28 ||	10 || (−0,+2)
+|-
+| 2013-12-14 ||	11 || (−0,+1) 
+|-
+| 2014-07-13 ||	12 || (−0,+1)
+|-
+| 2014-11-03 ||	18 || (−0,+6)
+|-
+| 2015-02-01 ||	18 || (−1,+1)
+|-
+| 2015-05-01 ||	18 || (−1,+1)
+|- 
+| 2015-06-16 ||	23 || (−0,+5)
+|-
+| 2015-08-16 ||	24 || (−0,+1)
+|-
+| 2015-10-01 ||	30 || (−0,+6)
+|-
+| 2015-10-31 ||	32 || (−0,+2)
+|-
+| 2015-11-22 ||	31 || (−1,+0)
+|-
+| 2015-12-15 ||	32 || (−1,+2)
+|-
+| 2016-03-10 ||	31 || (−2,+1)
+|-
+| 2016-06-25 ||	35 || (−2,+6)
+|-
+| 2016-07-23 ||	37 || (−1,+3)
+|-
+| 2016-08-13 ||	36 || (−2,+1)
+|-
+|}
+
+
+Growth of GiveWell and Open Phil since September 2016
+
+{| class="sortable wikitable"
+! Date !! GW ∩ OP !! GW ∖ OP !! OP ∖ GW
+|-
+| 2016-09-10 ||	2 || 18 || 20
+|-
+| 2016-10-01 ||	2(−0,+0) || 19(−0,+1) || 20(−0,+0)
+|-
+| 2016-11-04 ||	2(-0,+0) || 18(−1,+0) || 20(−0,+0)
+|-
+| 2016-12-05 ||	2(−0,+0) || 18(−0,+0) || 20(−0,+0)
+|-
+| 2017-01-05 ||	2(−0,+0) || 17(−1,+0) || 20(−0,+0)
+|-
+| 2017-02-05 ||	2(−0,+0) || 15(−2,+0) || 21(−0,+1)
+|-
+| 2017-03-08 ||	2(−0,+0) || 14(−1,+0) || 21(−1,+1)
+|-
+| 2017-04-20 ||	2(−0,+0) || 16(−0,+2) || 21(−0,+0)
+|-
+| 2017-05-05 ||	2(−0,+0) || 16(−0,+0) || 21(−0,+0)
+|-
+| 2017-06-05 ||	2(−0,+0) || 16(−0,+0) || 20(−1,+0)
+|-
+| 2017-07-05 ||	1(−1,+0) || 16(−0,+0) || 23(−0,+3)
+|-
+| 2017-08-05 ||	1(−0,+0) || 16(−0,+0) || 24(−0,+1)
+|-
+| 2017-09-06 ||	1(−0,+0) || 16(−0,+0) || 22(−2,+0)
+|-
+| 2017-10-07 ||	1(−0,+0) || 16(−0,+0) || 22(−0,+0)
+|-
+| 2017-11-06 ||	1(−0,+0) || 18(−0,+2) || 22(−0,+0)
+|-
+| 2017-12-05 ||	1(−0,+0) || 19(−0,+1) || 22(−0,+0)
+|-
+| 2018-01-05 || 1(−0,+0) || 19(−0,+0) || 22(−0,+0)
+|-
+| 2018-02-06 || 1(−0,+0) || 18(−1,+0) || 21(−1,+0)
+|-
+| 2018-03-06 || 0(−1,+0) || 19(−0,+1) || 21(−0,+0)
+|-
+|}
+
+
+The table below shows the number of versions per year of GiveWell's Cost-Effectiveness Analyses.
+
+{| class="sortable wikitable"
+! Year !! Num  
+|-
+| 2012 || 1<ref name="givewell.orgen"/> 
+|-
+| 2013 || 1<ref name="givewell.orgen"/>
+|-
+| 2014 || 1<ref name="givewell.orgen"/>
+|-
+| 2015 || 1<ref name="givewell.orgen"/>
+|-
+| 2016 || 2<ref name="givewell.orgen"/>
+|-
+| 2017 || 5<ref name="givewell.orgen"/>
+|-
+| 2018 || 16<ref name="2018 Cost-Effectiveness Analysis Changelog"/>
+|-
+| 2019 || 6<ref name="sdsf">{{cite web |title=2019 Cost-Effectiveness Analysis Changelog |url=https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness/cost-effectiveness-models/changelog-2019 |website=givewell.org |accessdate=28 March 2020}}</ref>  
+|-
+|}
+
+==Full timeline==
+
+{| class="sortable wikitable"
+! Year !! Month and date !! Event type !! Details
+|-
+| 1999 || November 30 || Prelude (website registration) || <code>givewell.org</code> is registered (by a different organization).<ref>{{cite web |title=givewell.org |url=https://who.is/whois/givewell.org |website=who.is |accessdate=25 February 2020}}</ref>
+|-
+| 2003 || July 4 || Prelude (website registration) || <code>givewell.com</code> is registered (by a different organization).<ref>{{cite web |title=givewell.com |url=https://who.is/whois/givewell.com |website=who.is |accessdate=25 February 2020}}</ref><ref>{{cite web |title=Give Well |url=http://www.givewell.com.au/about/ |website=givewell.com.au |accessdate=24 April 2020}}</ref> 
+|-
+| 2003 || || Prelude || {{w|Holden Karnofsky}} graduates from {{w|Harvard}} with a degree in {{w|Social Studies}}. Karnofsky would spend the next several years in the {{w|hedge fund}} industry.<ref name="GiveWell, or Give 'em Hell?">{{cite web|title=GiveWell, or Give 'em Hell?|url=https://metatalk.metafilter.com/15547/GiveWell-or-Give-em-Hell|website=metatalk.metafilter.com|accessdate=21 December 2017}}</ref>
+|-
+| 2004 || || Prelude || {{w|Elie Hassenfeld}} graduates from {{w|Columbia University}} with a degree in {{w|Religion}}. As well as Karnofsky, Hassenfeld would spend the next several years in the hedge fund industry.<ref name="GiveWell, or Give 'em Hell?"/>
+|-
+| 2006 || || Prelude || {{w|Holden Karnofsky}} and Elie Hassenfeld, working at a {{w|hedge fund}} in {{w|Connecticut}}, set up an informal “charity club” with colleagues, to help them make informed decisions about their giving. Each person would pick a cause and then research the best charities working on that cause, evaluating them based on data and {{w|performance metric}}s. Hassenfeld and Karnofsky find this work so satisfying that it would ultimately lead them to create GiveWell.<ref>{{cite web|last1=Pitney|first1=Nico|title=That Time A Hedge Funder Quit His Job And Then Raised $60 Million For Charity|url=https://www.huffingtonpost.com/2015/03/26/elie-hassenfeld-givewell_n_6927320.html|website=huffingtonpost.com|accessdate=17 December 2017}}</ref>
+|-
+| 2006 || November 19 || Online community || <code>givewell.net</code> is registered.<ref>{{cite web |title=givewell.net |url=https://who.is/whois/givewell.net |website=who.is |accessdate=25 February 2020}}</ref>
+|-
+| 2006 || November 25 || Content creation || Probably the earliest GiveWell {{w|wiki}} edit is made on this date. The wiki would later be shut down.<ref>{{cite web |title=Givewell wiki |url=https://web.archive.org/web/20070810061246/http://www.givewell.net/wiki/index.php?title=Contact_Us&action=history |website=archive.org |accessdate=24 February 2020}}</ref>
+|-
+| 2007 || April 7 || Publication || GiveWell publishes ''The Case for the Clear Fund'', its so called original business plan, written mostly to solicit the support and feedback of its existing contacts.<ref name="Our Progress to Date"/>
+|-
+| 2007 || Midyear || Official launch || GiveWell is founded by [[wikipedia:Holden Karnofsky|Holden Karnofsky]] and Elie Hassenfeld,<ref name="That Time A Hedge Funder Quit His Job And Then Raised $60 Million For Charity">{{cite web|url=http://www.huffingtonpost.com/2015/03/26/elie-hassenfeld-givewell_n_6927320.html|title = That Time A Hedge Funder Quit His Job And Then Raised $60 Million For Charity|last = Pitney|first = Nico|date = March 26, 2015|accessdate = 24 October 2017|publisher = ''{{w|Huffington Post}}''}}</ref><ref name="The Elephant in the Brain: Hidden Motives in Everyday Life">{{cite book|last1=Simler|first1=Kevin|last2=Hanson|first2=Robin|title=The Elephant in the Brain: Hidden Motives in Everyday Life|url=https://books.google.com.ar/books?id=p_lADwAAQBAJ&pg=PA207&dq=%22givewell%22+%22in+2007%22&hl=en&sa=X&ved=0ahUKEwj42YXNz5HYAhWHF5AKHYiGDrAQ6AEINzAD#v=onepage&q=%22givewell%22%20%22in%202007%22&f=false|accessdate=17 December 2017}}</ref> with the purpose of evaluating, ranking, and recommending charities, focussing on evidence of effectiveness, cost-effectiveness, transparency, self-monitoring and need for funding.<ref>{{cite book|last1=Epstein|first1=Marc J.|last2=Yuthas|first2=Kristi|title=Measuring and Improving Social Impacts: A Guide for Nonprofits, Companies and Impact Investors|url=https://books.google.com.ar/books?id=eKk0DwAAQBAJ&pg=PT93&dq=%22givewell%22+%22in+2007%22&hl=en&sa=X&ved=0ahUKEwj42YXNz5HYAhWHF5AKHYiGDrAQ6AEIRDAF#v=onepage&q=%22givewell%22%20%22in%202007%22&f=false|accessdate=17 December 2017}}</ref><ref>{{cite book|last1=Callahan|first1=David|title=The Givers: Wealth, Power, and Philanthropy in a New Gilded Age|url=https://books.google.com.ar/books?id=cw6wDAAAQBAJ&pg=PA122&dq=%22givewell%22+%22in+2007%22&hl=en&sa=X&ved=0ahUKEwj42YXNz5HYAhWHF5AKHYiGDrAQ6AEISzAG#v=onepage&q=%22givewell%22%20%22in%202007%22&f=false|accessdate=17 December 2017}}</ref> Other co-founders include Bob Elliott.<ref name="bob elliott">{{cite web |title=Bob Elliott |url=https://www.linkedin.com/in/ttoillebob/ |website=linkedin.com |accessdate=18 February 2020}}</ref>
+|-
+| 2007 || ? || Recommendation || After conducting an open grant application process and reviewing 59 applications in global health and development, GiveWell announces the first recommendations: {{w|Population Services International}} (PSI), which markets and distributes life-saving materials (mostly condoms and insecticide treated bednets); Partners in Health (PIH), which creates comprehensive health programs (hospital, health center, and community health workers) in disadvantaged, generally rural, areas in the developing world; and  Interplast, which devotes to correcting deformities requiring surgery (such as cleft lip and palate deformities), both through direct treatment and through support of local doctors.<ref name="Process for Identifying Top Charities"/><ref>{{cite web|title=Overview: Saving Lives (Focus on Africa)|url=https://www.givewell.org/archive/2008/saving-lives-in-africa|website=www.givewell.org|accessdate=29 November 2017}}</ref> These recommendations would be supplanted by GiveWell's 2009 end-of-year recommendations and none of these charities would return to GiveWell's top charities list after that.<ref name=year-end-2009/>
+|-
+| 2007 || December || Controversy || {{w|Holden Karnofsky}} is discovered posting a question about GiveWell to [[w:Online community|community]] {{w|weblog}} {{w|MetaFilter}} using another individual's name, and then posting an answer about the organization with his own name but without disclosing his affiliation with GiveWell. Negative publicity would arise, leading Karnofsky to resign from the role of executive director, though he would later be reinstated.<ref>{{cite web|title=Hacker News|url=https://news.ycombinator.com/item?id=5048123|website=news.ycombinator.com|accessdate=8 January 2018}}</ref><ref>{{cite web|title=GiveWell, or Give 'em Hell?|url=https://metatalk.metafilter.com/15547/GiveWell-or-Give-em-Hell|website=metatalk.metafilter.com|accessdate=8 January 2018}}</ref><ref>{{cite web|last1=STROM|first1=STEPHANIE|title=Founder of a Nonprofit Is Punished by Its Board for Engaging in an Internet Ruse|url=http://www.nytimes.com/2008/01/08/us/08givewell.html|website=nytimes.com|accessdate=24 October 2017}}</ref><ref>{{cite web|title=Statement from the GiveWell Board of Directors|url=https://blog.givewell.org/2008/01/06/statement-from-the-givewell-board-of-directors/|website=blog.givewell.org|accessdate=8 January 2018}}</ref> This would be one among several "astroturfing" incidents in which Holden Karnofsky and Elie Hassenfeld would participate over the time period; GiveWell would later post what they claim to be a full list of such incidents on their website<ref>{{cite web|url = https://www.givewell.org/about/official-records/board-meeting-3/FAQ-on-inappropriate-marketing/full-account|title = Full account of GiveWell staff's inappropriate online promotion in December 2007|publisher = GiveWell|accessdate = August 28, 2022}}</ref> as well as a FAQ on GiveWell and astroturfing.<ref>{{cite web|url = https://www.givewell.org/about/official-records/board-meeting-3/FAQ-on-inappropriate-marketing|title = FAQ on GiveWell and Astroturfing|publisher = GiveWell|accessdate = August 28, 2022}}</ref>
+|-
+| 2007 || December 20 || External citation || Stephanie Storm at {{w|The New York Times}} publishes article entitled "2 Young Hedge-Fund Veterans Stir Up the World of Philanthropy", featuring GiveWell and its founders.<ref>{{cite web |last1=Storm |first1=Stephanie |title=2 Young Hedge-Fund Veterans Stir Up the World of Philanthropy |url=https://www.nytimes.com/2007/12/20/us/20charity.html |website=nytimes.com |accessdate=30 March 2020}}</ref>
+|-
+| 2007 || December 20 || External citation || Rachel Emma Silverman and Sally Beatty at {{w|The Wall Street Journal}} publish article highlighting GiveWell among WSJ resources for donors.<ref>{{cite web |last1=Silverman |first1=Rachel Emma |last2=Beatty |first2=Sally |title=Doing Due Diligence On Your Donations |url=https://www.wsj.com/articles/SB119810791163740721 |website=wsj.com |accessdate=30 March 2020}}</ref>
+|-
+| 2007 || December 20 || Interview || Holden Karnofsky and Elie Hassenfeld are interviewed by {{w|CNBC}}.<ref>{{cite web |title=Shaking Up Philanthropy |url=https://www.cnbc.com/video/2007/12/20/shaking-up-philanthropy.html |website=cnbc.com |accessdate=30 March 2020}}</ref>
+|-
+| 2007 || December 24 || Interview || Holden Karnofsky and Elie Hassenfeld are interviewed by {{w|NPR}}.<ref>{{cite web |title=Young Duo to 'Clear' the Way for Charitable Giving |url=https://www.npr.org/templates/story/story.php?storyId=17571316 |website=npr.org |accessdate=30 March 2020}}</ref>
+|-
+| 2008 || January 3 || Content creation || The article {{w|GiveWell}} is created at {{w|Wikipedia}}.<ref>{{cite web |title=GiveWell: Revision history |url=https://en.wikipedia.org/w/index.php?title=GiveWell&dir=prev&action=history |website=en.wikipedia.org |accessdate=15 December 2019}}</ref>
+|-
+| 2008 || January 3, 6, 11 || Controversy || The Clear Fund Board Meeting of January 3 is focused on discussion of the astroturfing / inappropriate marketing by GiveWell in December 2007, and leads to Karnofsky resigning from the executive director role and his position on the board.<ref>{{cite web|url = https://www.givewell.org/about/official-records/board-meeting-3|title = Clear Fund Board Meeting - 01/03/2008|date = January 3, 2008|accessdate = August 28, 2022}}</ref> As followup, the board publishes two statements that are posted to the GiveWell blog on January 6<ref>{{cite web|url = https://blog.givewell.org/2008/01/06/statement-from-the-givewell-board-of-directors/|title = Statement from the GiveWell Board of Directors|date = January 6, 2008|accessdate = August 28, 2022|last = Elliot|first = Bob|publisher = GiveWell}}</ref> and January 11<ref>{{cite web|url = https://blog.givewell.org/2008/01/11/updated-statement-from-the-givewell-board-of-directors/|title = Updated: Statement from the GiveWell Board of Directors|last = Elliot|first = Bob|date = January 11, 2008|accessdate = August 28, 2022|publisher = GiveWell}}</ref> respectively.
+|-
+| 2008 || June 19 || Publication || GiveWell's first-year review is published. The review evaluates GiveWell's performance on four goals: Research (B+), Website (B), Publicity (C, mainly due to the aggressive marketing tactics including Karnofsky's Metafilter promotion), and startup hurdles (B+).<ref name="Our Progress to Date"/> 
+|-
+| 2008 || August 9 || Strategy || At a board meeting, GiveWell board members agree that their top priority for the coming year is money moved, with research as a secondary priority.<ref name="Our Progress to Date"/>
+|-
+| 2008 || September 14 || {{w|Online community}} || GiveWell mailing list on {{w|Yahoo! Groups}} launches.<ref name="yahoo">{{cite web |title=Group Description |url=https://groups.yahoo.com/neo/groups/givewell/conversations/topics/287|website=groups.yahoo.com|archiveurl = http://web.archive.org/web/20200209234240/https://groups.yahoo.com/neo/groups/givewell/conversations/topics/287|archivedate = 9 February 2020}}</ref>
+|-
+| 2008 || November 17 || Strategy || GiveWell publishes its Change of Direction, based on stuff discussed in the August 2008 board meeting as well as further updates since then. The main updates are in the direction of believing that it's more important to focus on research than on money moved for the near term.<ref name="Our Progress to Date">{{cite web|title=Our Progress to Date|url=https://www.givewell.org/about/progress|website=givewell.org|accessdate=29 November 2017}}</ref>
+|-
+| 2008 || December 10 || Interview || {{w|Holden Karnofsky}} is interviewed by {{w|NPR}} on the importance of researching for donations.<ref name="What Others Are Saying"/>
+|-
+| 2009 || January || Team || GiveWell Board of Directors' member Ari Herman joins the organization.<ref>{{cite web |title=Ari Herman |url=https://www.linkedin.com/in/ari-herman-a04b011/ |website=linkedin.com |accessdate=19 February 2020}}</ref>
+|-
+| 2009|| March || External citation || Australian philosopher {{w|Peter Singer}} publishes ''{{w|The Life You Can Save}}''. Singer writes: {{quote|When I speak about why we ought to be doing more to help the world's poorest people — something I do often — the most frequent question I get is: how can we know that our donation will really help the poor? Until GiveWell came along, it was difficult to give a convincing answer to that question. Previous charity-rating organizations just looked at how much of a charity's income went to program expenses, rather than administration - and it doesn't take much thought to realize that that figure tells you nothing about how effective the charity's programs are. GiveWell has filled a huge gap, and at the same time has started a major trend towards greater transparency and demonstrated cost-effectiveness in the charitable world.<ref name="What Others Are Saying"/>}}A review of the book by {{w|William Easterly}} uses GiveWell's difficulties getting effectiveness information from charities to push back against Singer's claims of a clear moral obligation similar to that of saving a drowning child.<ref>{{Cite web|url = https://www.wsj.com/articles/SB123621201818134757|title = Affluence and Ethics: Helping the poor: What can be done must be done. So what truly can be done?|last = Easterly|first = William|publisher = Wall Street Journal|date = March 5, 2009|accessdate = August 28, 2022}}</ref> In a review on the GiveWell blog, Holden Karnofsky agrees with Singer and also partly with Easterly's criticism, concluding: {{quote|It’s just that “doing more” has to mean more than “giving more.” Picking your charity – and doing your part in holding it accountable – is at least as important as giving generously. We’re trying to make this task easier for time-strapped donors: if you put credence in our analysis, it can mean simply basing your giving on our recommendations (informally, or formally via GiveWell Advance Donation).<ref>{{cite web|url = https://blog.givewell.org/2009/03/06/review-of-the-life-you-can-save-by-peter-singer/|title = Review of The Life You Can Save, by Peter Singer|last = Karnofsky|first = Holden|date = March 6, 2009|accessdate = August 28, 2022}}</ref>}}
+|-
+| 2009 || July || Team || Natalie Crispin joins GiveWell as a Research Analyst.<ref>{{cite web |title=Natalie Crispin |url=https://www.linkedin.com/in/natalie-crispin-31b87717/ |website=linkedin.com |accessdate=18 February 2020}}</ref>
+|-
+| 2009 || ? || Team || GiveWell co-founder and Board Chairman Bob Elliott departs from the organization.<ref name="bob elliott"/> 
+|-
+| 2009 || ? || Review || GiveWell conducts reviews of websites from over 300 charitable organizations, aiming to find ones that either implemented priority programs or published, on their websites, meaningful evaluations of their programs.<ref name="Process for Identifying Top Charities"/>
+|-
+| 2009 || ? || Grantmaking || GiveWell conducts a grant application process for organizations running economic empowerment programs in the developing world.<ref name="Process for Identifying Top Charities"/> The $250,000 grant is offered to organizations providing economic empowerment programs in {{w|Sub-Saharan Africa}}.<ref>{{cite web|title=2009 Economic Empowerment Grant|url=https://www.givewell.org/international/technical/criteria/2009-economic-empowerment-grant|website=givewell.org|accessdate=29 November 2017}}</ref>
+|-
+| 2009 || September 8 || External citation || New York Times columnist Nicholas Kristof co-authors ''{{w|Half the Sky}}'' with his wife {{w|Sheryl WuDunn}}. The book points to GiveWell and Charity Navigator as donor resources.<ref name="What Others Are Saying"/><ref>{{cite web|url = https://www.bookbrowse.com/reviews/index.cfm/book_number/2345/half-the-sky|title = Half the Sky: Turning Oppression into Opportunity for Women Worldwide|last = Kristof|first = Nicholas|last2 = WuDunn|first2 = Sheryl|publisher = BookBrowse}}</ref><ref>{{cite web|url = https://vialogue.wordpress.com/2012/04/12/half-the-sky-review-notes/|title = Half The Sky: Review & Notes|date = April 12, 2012|accessdate = August 28, 2022}}</ref>
+|-
+| 2009 || November 8 || External citation || GiveWell is recommended by a {{w|Wall Street Journal}} article on resources for evaluating charities, along with Charity Navigator and GuideStar. Whereas Charity Navigator is described as covering 5,400 nonprofits and including "executive compensation, efficiency, organizational capacity, donor privacy policies, and administrative, fund-raising and program expenses", and GuideStar is described as having "nonprofit reports and tax forms for almost two million charities", GiveWell is described as having "in-depth information on individual charities and causes" and focusing on "how well programs work and their impact on the people they serve."<ref>{{cite web |last1=Banjo |first1=Shelly |title=Check Out Charities |url=https://www.wsj.com/articles/SB125762887234736193 |website=wsj.com |accessdate=30 March 2020}}</ref>
+|-
+| 2009 || Late months || Strategy || GiveWell begins to use "scenario analysis" asking how a charity's activities would change at different levels of total unrestricted funding. This approach is expected to allow GiveWell to check back later and see the extent to which actual activities were in line with actual funding.<ref>{{cite web|title=Room for More Funding|url=https://www.givewell.org/how-we-work/criteria/room-for-more-funding|website=givewell.org|accessdate=18 December 2017}}</ref> 
+|-
+| 2009 || December 29, 30, 31 || Recommendation || GiveWell recommends {{w|VillageReach}} (immunizations)<ref>{{cite web|url = https://blog.givewell.org/2009/12/30/villagereach/|title = VillageReach|date = December 30, 2009|accessdate = August 28, 2022|last = Karnofsky|first = Holden|publisher = GiveWell}}</ref> and {{w|Stop TB Partnership}}} (tuberculosis)<ref>{{cite web|url = https://blog.givewell.org/2009/12/29/stop-tuberculosis-partnership/|title = Stop Tuberculosis Partnership|date = December 29, 2009|accessdate = August 28, 2022|last = Karnofsky|first = Holden|publisher = GiveWell}}</ref> as its top charities for 2009. The post announcing the recommendations says:<ref name=year-end-2009>{{cite web|url = https://blog.givewell.org/2009/12/31/you-can-save-a-life/|title = You can save a life|date = December 31, 2009|accessdate = August 28, 2022|last = Karnofsky|first = Holden|publisher = GiveWell}}</ref>{{quote|We ask you, as a donor, to turn down some great pitches – “Your interest-free loan will help this person escape poverty forever,” “You can give a cow to a poor family for Christmas,” etc. – and give instead to charities that aren’t terribly good at storytelling. [...] But if you give to one of our top charities, you really can save (or dramatically change) a human life.}}
+|-
+| 2010 || January 20 || Interview || Elie Hassenfeld is interviewed by {{w|CNN}} about using overhead to evaluate charities.<ref>{{cite web |title=Interview |url=https://files.givewell.org/files/press/Elie%20Hassenfeld%20-%20CNN%20Radio%20-%202010%2001%2020.mp3 |website=givewell.org |accessdate=30 March 2020}}</ref><ref name="What Others Are Saying"/> 
+|-
+| 2010 || January 25 || Interview || {{w|Holden Karnofsky}} is interviewed by {{w|CNN}} in a segment on effective giving.<ref name="What Others Are Saying"/><ref>{{cite web |title=American Morning |url=https://am.blogs.cnn.com/2010/01/25/tracking-how-charities-spend-your-money/ |website=cnn.com |accessdate=30 March 2020}}</ref>
+|-
+| 2010 || February || Site visit || Holden Karnofsky visits two of GiveWell's recommended charities in site, the {{w|Small Enterprise Foundation}} in {{w|South Africa}} and VillageReach in {{w|Mozambique}}.<ref>{{cite web|title=Site Visits: February 2010|url=https://www.givewell.org/research/site-visits/south-africa-and-mozambique-feb-2010|website=givewell.org|accessdate=21 December 2017}}</ref>
+|-
+| 2010 || February 19 || Publication || GiveWell's 2009 Review and Plan is published.<ref name="Our Progress to Date"/>
+|-
+| 2010 || May and June || Online community || Over this period, GiveWell acquires the givewell.org domain and migrates its website from <code>www.givewell.net</code> to <code>www.givewell.org</code>, with the former redirecting to the latter. The Wayback Machine snapshots show the following: April 23 shows www.givewell.org under control of its prior owner,<ref>{{cite web|url = https://web.archive.org/web/20100423164224/http://www.givewell.org/|title = Wayback Machine snapshot of www.givewell.org|date = April 23, 2010|accessdate = August 28, 2022}}</ref> May 25 shows www.givewell.org under GiveWell's control but with no content on the home page,<ref>{{cite web|url = https://web.archive.org/web/20100525182513/http://www.givewell.org/|title = Wayback Machine snapshot of www.givewell.org|date = May 25, 2010|accessdate = August 28, 2022}</ref> and June 14 shows the full home page at www.givewell.org.<ref>{{cite web|url = https://web.archive.org/web/20100614040626/http://www.givewell.org/|title = Wayback Machine snapshot of www.givewell.org|date = June 14, 2010|accessdate = August 28, 2022}}</ref>
+|-
+| 2010 || June 3 || Guest post || The first guest post on GiveWell by a donor is published.<ref>{{cite web|title=My donation for 2009 (guest post from Dario Amodei)|url=https://blog.givewell.org/2010/06/03/my-donation-for-2009-guest-post-from-dario-amodei/|website=blog.givewell.org|accessdate=8 January 2018}}</ref>
+|-
+| 2010 || August–November || Site visit || GiveWell's staff visits Mumbai, India from mid-August to the end of November, and visits a number of organizations in Mumbai and other cities in the country.<ref>{{cite web|title=India Site Visits: August-November 2010|url=https://www.givewell.org/research/site-visits/india-fall-2010|website=www.givewell.org|accessdate=29 November 2017}}</ref>
+|-
+| 2010 || November 20 || External citation || Nicholas Kristof at {{w|The New York Times}} writes: {{Quote|Philanthropy has made huge strides in the last couple of decades, with far more emphasis on cost-effective interventions that are scalable to bring about change. The Bill and Melinda Gates Foundation has helped lead the way, and Web sites like Givewell.org guide small-time donors. CharityNavigator.org ranks organizations partly by administrative expenses, which are less important than a charity’s impact on the needy, but it is trying to develop more useful information about impact.<ref name="What Others Are Saying"/><ref>{{cite web|url = https://www.nytimes.com/2010/11/21/opinion/21kristof.html|title = When Donations Go Astray|last = Kristof|first = Nicholas|date = November 20, 2010|accessdate = August 28, 2022|publisher = New York Times}}</ref>}}
+|-
+| 2010 || November 30 || External citation || {{w|GiveWell}} is featured by {{w|USA Today}} as a donor resource.<ref>{{cite web |title=How to research a charity before donating your money |url=https://usatoday30.usatoday.com/money/perfi/columnist/block/2010-11-30-yourmoney30_ST_N.htm |website=usatoday.com |accessdate=30 March 2020}}</ref><ref name="What Others Are Saying"/>
+|-
+| 2010 || || Charity ranking || GiveWell publishes its top charities. {{w|VillageReach}} (immunizations), {{w|Stop TB Partnership}} (tuberculosis), and {{w|Against Malaria Foundation}} (malaria) are ranked at the top among international charities. {{w|Knowledge is Power Program}} (KIPP), {{w|Nurse-Family Partnership}}, and Invest in Kids are ranked as top United States charities.<ref>{{cite web|title=Top-Rated Charities - 2010 Archived Version|url=https://www.givewell.org/charities/top-charities/2010|website=givewell.org|accessdate=17 December 2017}}</ref>
+|-
+| 2010 || Year round || Money tracking || GiveWell tracks over US$1.5 million in donations to top charities, compared to just over US$1 million in 2009.<ref>{{cite web |title=Stats on GiveWell’s money moved and web traffic |url=https://blog.givewell.org/2011/02/08/stats-on-givewells-money-moved-and-web-traffic/ |website=givewell.org |accessdate=31 March 2020}}</ref>
+|-
+| 2011 || c. January 28 || Online community || <code>givewell.com</code> starts redirecting to <code>givewell.org</code>.<ref>{{cite web |title=givewell.com |url=https://web.archive.org/web/20100301000000*/givewell.com |website=web.archive.org |accessdate=15 May 2020}}</ref>
+|-
+| 2011 || February || Publication || GiveWell's 2010 Review and Plan is published.<ref name="Our Progress to Date"/>
+|-
+| 2011 || March 16 || External citation || GiveWell is cited by {{w|The New York Times}} in an article about donating in the aftermath of the {{w|2011 Tōhoku earthquake and tsunami}} in {{w|Japan}}.<ref>{{cite web |last1=Strom |first1=Stephanie |title=A Charitable Rush, With Little Direction |url=http://www.nytimes.com/2011/03/16/world/asia/16charity.html?_r=1 |website=nytimes.com |accessdate=30 March 2020}}</ref><ref name="What Others Are Saying"/>
+|-
+| 2011 || April || Team || {{w|Good Ventures}} co–founder Cari Tuna (who is in a relationship with, and would later marry, {{w|Facebook}} co–founder {{w|Dustin Moskovitz}}) joins the board of GiveWell.<ref>{{cite book|last1=Preston|first1=Caroline|title=Another Facebook Co-Founder Gets Philanthropic|url=https://www.philanthropy.com/article/Another-Facebook-Co-Founder/227601|accessdate=17 December 2017}}</ref><ref>{{cite web|title=Guest post from Cari Tuna|url=https://blog.givewell.org/2011/12/23/guest-post-from-cari-tuna/|website=givewell.org|accessdate=17 December 2017}}</ref>
+|-
+| 2011 || September 8 || Partnership || GiveWell Labs is announced as a new initiative within GiveWell. A collaboration between private foundation {{w|Good Ventures}} and GiveWell, the purpose of it is to “systematically examine a wide variety of causes and opportunities with the intention of identifying the ones which could use additional money ... to produce the best long-run outcomes.”<ref>{{cite web|last1=Tuna|first1=Cari|title=Update on Open Philanthropy Project|url=https://disqus.com/by/Cari_Tuna/|website=disqus.com|accessdate=28 November 2017}}</ref>
+|-
+| 2012 || September 28 || External citation || Paul Sullivan at {{w|The New York Times}} publishes an article on measuring the impact of giving, featuring GiveWell.<ref>{{cite web |last1=Sullivan |first1=Paul |title=Philanthropists Weigh the Returns of Doing Good |website=nytimes.com |accessdate=30 March 2020|url=https://www.nytimes.com/2012/09/29/your-money/measuring-the-impact-of-impact-investing-wealth-matters.html?pagewanted=all&_r=0}}</ref>
+|-
+| 2011 || October || Site visit || GiveWell staff visits five organizations in {{w|Malawi}} and four in {{w|India}} as part of its research process to identify top-rated charities.<ref>{{cite web|title=Site Visits: October 2011|url=https://www.givewell.org/research/site-visits/october-2011|website=givewell.org|accessdate=10 December 2017}}</ref><ref name="Charity Site Visits">{{cite web|title=Charity Site Visits|url=https://www.givewell.org/research/site-visits|website=givewell.org|accessdate=21 December 2017}}</ref>
+|-
+| 2011 || November || Charity ranking || GiveWell announces its 2011 top charities: 
+* {{w|Against Malaria Foundation}} (which focuses on distribution of insecticide-treated nets to prevent malaria)
+* {{w|Schistosomiasis Control Initiative}} (which focuses on deworming)
+
+Other GiveWell's standout organizations include:
+* {{w|GiveDirectly}} (Cash grants to poor households in {{w|Kenya}})
+* {{w|Innovations for Poverty Action}} (Research on how to fight poverty and promote development)
+* KIPP Houston ((United States) Charter schools facing budget cuts)
+* Nyaya Health [now know as Possible] (Health care in rural {{w|Nepal}})
+* Pratham (Primary education in {{w|India}})	
+* Small Enterprise Foundation (Microloans for women in {{w|South Africa}})<ref>{{cite web|title=Top Charities - November 2011 Archived Version|url=https://www.givewell.org/charities/top-charities/November-2011|website=givewell.org|accessdate=3 December 2017}}</ref>	
+|-
+| 2011 || November 20 || External citation || Gareth Cook at {{w|The Boston Globe}} writes: {{Quote|As we enter into the prime giving season, GiveWell provides a valuable service for the donor who has few preconceptions and just wants to make the world better.<ref name="What Others Are Saying">{{cite web |title=What Others Are Saying |url=https://www.givewell.org/about/what-others-are-saying |website=givewell.org |accessdate=30 March 2020}}</ref>}}
+|-
+| 2011 || November 23 || External citation || Alexandra Wolfe at {{w|Bloomberg Bussinesweek}} writes: {{Quote|When bonus season came around, instead of deciding whether to buy a new suit, car, or a Caribbean vacation, hedge fund analysts Holden Karnofsky and Elie Hassenfeld, both then 25, agonized over which charities to donate to. They put so much time and effort into figuring it out that they eventually left their jobs… to start GiveWell, a nonprofit that evaluates charities with hedge-fund–level rigor.<ref name="What Others Are Saying"/>}}
+|-
+| 2011 || December 3 || External citation || Nicholas Kristof at {{w|The New York Times}} features GiveWell recommending its top charity and citing GiveWell's research.<ref>{{cite web |title=Gifts That Say You Care |url=https://www.nytimes.com/2011/12/04/opinion/sunday/kristof-gifts-that-say-you-care.html?_r=2 |website=nytimes.com |accessdate=30 March 2020}}</ref><ref name="What Others Are Saying"/>
+|-
+| 2012 || February || Publication || GiveWell's 2011 Review and Plan is published.<ref name="Our Progress to Date"/>
+|-
+| 2012 || June || Partnership || Private foundation {{w|Good Ventures}} (founded by Cari Tuna and her husband, {{w|Facebook}} co-founder {{w|Dustin Moskovitz}}) announces a close partnership with GiveWell.<ref>{{cite web|title=GiveWell and Good Ventures|url=https://blog.givewell.org/2012/06/28/givewell-and-good-ventures/|website=blog.givewell.org|accessdate=18 December 2017}}</ref><ref>{{cite web|title=Cari Tuna and Dustin Moskovitz: Young Silicon Valley billionaires pioneer new approach to philanthropy|url=https://www.washingtonpost.com/business/billionaire-couple-give-plenty-to-charity-but-they-do-quite-a-bit-of-homework/2014/12/26/19fae34c-86d6-11e4-b9b7-b8632ae73d25_story.html?utm_term=.06ac6743051b|website=washingtonpost.com|accessdate=18 December 2017}}</ref> The joint collaboration would later lead to the formation of the Open Philanthropy Project, whose mission is to figure out how, exactly to figure out the best possible way to use large sums of money to do as much good as possible.<ref>{{cite web|title=You have $8 billion. You want to do as much good as possible. What do you do?|url=https://www.vox.com/2015/4/24/8457895/givewell-open-philanthropy-charity|website=vox.com|accessdate=18 December 2017}}</ref>
+|-
+| 2012 || November 13 || External citation || William MacAskill from {{w|Giving What We Can}} publishes post enitled "Researching What We Should", which highlights GiveWell as top evaluator in some areas of research.<ref>{{cite web |last1=MacAskill |first1=William |title=RESEARCHING WHAT WE SHOULD |url=https://www.givingwhatwecan.org/post/2012/11/researching-what-we-should/ |website=givingwhatwecan.org |accessdate=27 March 2020}}</ref>
+|-
+| 2012 || November || Site visit || GiveWell staff travels to {{w|Kenya}} as part of its research process to identify top-rated charities, with the primary purpose of visiting {{w|GiveDirectly}}. The staff also visits two projects run by Evidence Action.<ref>{{cite web|title=Site Visits: November 2012|url=https://www.givewell.org/research/site-visits/november-2012|website=givewell.org|accessdate=21 December 2017}}</ref><ref name="Charity Site Visits"/>
+|-
+| 2012 || November || Charity ranking || GiveWell announces its updated top charities:
+* {{w|Against Malaria Foundation}}<ref name="Doing Good Better: Effective Altruism and a Radical New Way to Make a Difference">{{cite book|last1=MacAskill|first1=William|title=Doing Good Better: Effective Altruism and a Radical New Way to Make a Difference|url=https://books.google.com.ar/books?id=TxFACgAAQBAJ&pg=PT112&dq=%22givewell%22+%22in+2015%22&hl=en&sa=X&ved=0ahUKEwjUkMHGh4XYAhXFk5AKHSEfCu0Q6AEINDAC#v=onepage&q=%22givewell%22%20%22in%202015%22&f=false|accessdate=12 December 2017}}</ref>
+* {{w|GiveDirectly}} (which helps families living in extreme poverty by making unconditional cash transfers to them via mobile phone)
+* {{w|Schistosomiasis Control Initiative}}<ref>{{cite web|title=Our top charities for the 2012 giving season|url=https://blog.givewell.org/2012/11/26/our-top-charities-for-the-2012-giving-season/|website=givewell.org|accessdate=3 December 2017}}</ref>
+|-
+| 2012 || December 5 || External citation || Tina Rosemberg at {{w|The New York Times}} features GiveWell in an article on giving effectively.<ref>{{cite web |title=Putting Charities to the Test |url=https://opinionator.blogs.nytimes.com/2012/12/05/putting-charities-to-the-test/?mtrref=undefined&gwh=6E490577E52C60F4BB3DEAB912E20395&gwt=pay&assetType=REGIWALL |website=opinionator.blogs.nytimes.com |accessdate=30 March 2020}}</ref><ref name="What Others Are Saying"/> 
+|-
+| 2012 || December 19 || Cost-effectiveness analysis || GiveWell publishes post discussing how they see the relative “bang-for-the-buck” – good accomplished per dollar spent – of three interventions: distribution of insecticide-treated nets to fight malaria, unconditional direct cash transfers, and treating children for parasites ([[w:Soil-transmitted helminthiasis|soil-transmitted helminths]] and {{w|schistosomiasis}}).<ref>{{cite web |title=Cost-effectiveness of nets vs. deworming vs. cash transfers |url=https://blog.givewell.org/2012/12/19/cost-effectiveness-of-nets-vs-deworming-vs-cash-transfers/ |website=blog.givewell.org |accessdate=27 March 2020}}</ref>
+|-
+| 2012 || December 24 || External review || William MacAskill from {{w|Giving What We Can}} publishes post enitled "Some General Concerns About Givewell" which summarizes a list of concerns and recommendations on a variety of points, including long run effects, external evaluation, and meaning of GiveWell's labels and rating.<ref>{{cite web |title=SOME GENERAL CONCERNS ABOUT GIVEWELL |url=https://www.givingwhatwecan.org/post/2012/12/some-general-concerns-about-givewell/ |website=givingwhatwecan.org |accessdate=27 March 2020}}</ref>
+|-
+| 2012 || December 27 || External citation || Ken Stern at {{w|The Washington Post}} writes: {{Quote|On average, Americans spend more time watching television in one day than they do researching charities in an entire year. Finding good charities takes time. It means using the few organizations, such as GiveWell, that do in-depth studies of charities' effectiveness. And it means remembering that the best organizations, charitable or otherwise, are built on more than a good story or a charismatic leader.<ref name="What Others Are Saying"/>}}
+|-
+| 2013 || January || Administration || GiveWell completes moving its offices from {{w|New York City}} to {{w|San Francisco}}.<ref>{{cite web |title=San Francisco Bay Area as a rationalist and effective altruist hub |url=https://wiki.lesswrong.com/wiki/San_Francisco_Bay_Area_as_a_rationalist_and_effective_altruist_hub |website=wiki.lesswrong.com |accessdate=24 April 2020}}</ref><ref name="That Time A Hedge Funder Quit His Job And Then Raised $60 Million For Charity"/><ref>{{cite web|title=Relationship Disclosures|url=https://www.givewell.org/about/official-records/relationship-disclosures|website=givewell.org|accessdate=8 January 2018}}</ref>
+|-
+| 2013 || February || {{w|Online community}} || The GiveWell mailing list on {{w|Yahoo! Groups}} is discontinued. Around this time, the organization begins posting more frequent research updates to its website and blog.<ref name="yahoo"/>
+|-
+| 2013 || February, March || Publication || GiveWell's 2012 Review and Plan is published.<ref name="Our Progress to Date"/>
+|-
+| 2013 || May 31 || External citation || Dylan Matthews at {{w|The Washington Post}} publishes an article featuring GiveWell as a resource for donors.<ref name="What Others Are Saying"/><ref>{{cite web |title=Join Wall Street. Save the world. |url=https://www.washingtonpost.com/news/wonk/wp/2013/05/31/join-wall-street-save-the-world/?arc404=true |website=washingtonpost.com |accessdate=30 March 2020}}</ref>
+|-
+| 2013 || June 19 || Interview || {{w|KQED-FM}} radio station features GiveWell research analyst Alexander Berger on a segment about how to decide where to donate to charity.<ref name="What Others Are Saying"/><ref>{{cite web |title=Exposing America's Worst Charities |url=https://www.kqed.org/forum/201306190900/exposing-americas-worst-charities |website=kqed.org |accessdate=30 March 2020}}</ref>
+|-
+| 2013 || June || Funding || Good Ventures awards a grant of $20,000 to GiveWell to support its capacity to research the history of philanthropy and funding opportunities in policy advocacy.<ref>{{cite web|title=Research into the History of Philanthropy and Policy Advocacy|url=http://www.goodventures.org/our-portfolio/grants/givewell-research-june-2013|website=goodventures.org|accessdate=1 March 2018}}</ref> 
+|-
+| 2013 || August 11 || External citation || {{w|Peter Singer}} cites GiveWell in a {{w|New York Times}} {{w|op-ed}} for its "serious evaluation of charities helping people in extreme poverty."<ref>{{cite web |title=Good Charity, Bad Charity |url=https://www.nytimes.com/2013/08/11/opinion/sunday/good-charity-bad-charity.html?_r=0 |website=nytimes.com |accessdate=30 March 2020}}</ref><ref name="What Others Are Saying"/> 
+|-
+| 2013 || October || Site visit || GiveWell staff travels to {{w|India}} as part of its research process to identify top-rated charities, with the primary purpose of visiting the {{w|Deworm the World Initiative}}, led by Evidence Action.<ref>{{cite web|title=Site Visits: October 2013|url=https://www.givewell.org/research/site-visits/october-2013|website=givewell.org|accessdate=21 December 2017}}</ref><ref name="Charity Site Visits"/>
+|-
+| 2013 || November 4 || External review || Nick Beckstead at {{w|80,000 Hours}} publishes blog post entitled "Thoughts on my experience working at GiveWell". Beckstead writes: {{Quote|Who would be a good fit to work at GiveWell? Someone who likes research, pays a lot of attention to detail, is obsessed with effective altruism, enjoys (or at least can handle) highly critical feedback, is extremely intelligent and hardworking, is willing to work for very low pay relative to their earning potential, is OK with limited job security, enjoys intellectually challenging work, and likes doing a variety of different things.<ref>{{cite web |last1=Beckstead |first1=Nick |title=Thoughts on my experience working at GiveWell |url=https://80000hours.org/2013/11/thoughts-on-my-experience-working-at-givewell/ |website=80000hours.org |accessdate=29 March 2020}}</ref>}}
+|-
+| 2013 || December 12 || Publication || GiveWell publishes its first staff member donations post, starting an annual tradition of such publications.<ref>{{cite web |title=Staff members’ personal donations |url=https://blog.givewell.org/2013/12/12/staff-members-personal-donations/ |website=blog.givewell.org |accessdate=5 May 2020}}</ref>
+|-
+| 2013 || December 15 || External citation || Farhad Manjoo at {{w|The Wall Street Journal}} writes: {{Quote|GiveWell [...] has completely changed the way I think about donating money.<ref name="What Others Are Saying"/>}}
+|-
+| 2013 || December || Charity ranking || GiveWell announces its top charities for giving season 2014: 
+* {{w|GiveDirectly}}
+* {{w|Schistosomiasis Control Initiative}}
+* {{w|Deworm the World Initiative}} (new addition)<ref>{{cite web|title=GiveWell’s top charities for giving season 2013|url=https://blog.givewell.org/2013/12/01/givewells-top-charities-for-giving-season-2013/|website=givewell.org|accessdate=3 December 2017}}</ref> 
+|-
+| 2014 || ? || Strategy || GiveWell solicits applications from several organizations running priority programs and evaluates two organizations that have conducted randomized controlled trials of their own programs.<ref name="Process for Identifying Top Charities">{{cite web |title=Process for Identifying Top Charities |url=https://www.givewell.org/print/how-we-work/process |website=givewell.org |accessdate=31 March 2020}}</ref>
+|-
+| 2014 || January || Grantmaking || Non-profit New Incentives receives a US$100,000 grant from {{w|San Francisco}}-based philantropic organization {{w|Good Ventures}} –with input from GiveWell. The grant is the first of a set of grants that aims to increase the number of contenders for GiveWell's top charity status.  New Incentives is selected for the grant because it runs a priority program, is committed to transparency, and is at an early stage of development, according to GiveWell.<ref>{{cite web|title=New Incentives — General Support (2014)|url=https://www.givewell.org/charities/new-incentives/january-2014-grant|website=givewell.org|accessdate=12 December 2017}}</ref>
+|-
+| 2014 || February, March || Publication || GiveWell's 2013 Review and Plan is published.<ref name="Our Progress to Date"/>
+|-
+| 2014 || March || Funding || Good Ventures awards a grant of US$240,000 to GiveWell for general operating support, with the purpose to increase the availability of high-quality information and analysis about charities and giving opportunities.<ref>{{cite web|title=GiveWell — General Support|url=http://www.goodventures.org/our-portfolio/grants/givewell-general-support-march-2014|website=goodventures.org|accessdate=30 November 2017}}</ref>
+|-
+| 2014 || April 25 || External citation || Ron Lieber at The New York Times features GiveWell in an article on the challenges of giving effectively.<ref name="What Others Are Saying"/><ref>{{cite web |last1=Lieber |first1=Ron |title=Donating, and Making Sure the Money Is Put to Work |url=https://www.nytimes.com/2014/04/26/your-money/giving-away-money-and-making-sure-its-put-to-work.html?_r=0 |website=nytimes.com |accessdate=30 March 2020}}</ref>
+|-
+| 2014 || August || Reorganization || GiveWell Labs, an internal project of GiveWell, morphs into the {{w|Open Philanthropy Project}}, a joint venture of GiveWell and Good Ventures, and gets a separate website.<ref>{{cite web|url=http://blog.givewell.org/2014/08/20/open-philanthropy-project-formerly-givewell-labs/|title = Open Philanthropy Project (formerly GiveWell Labs)|date = August 20, 2014|accessdate = 31 March 2020|publisher = {{w|GiveWell}}|last = Karnofsky|first = Holden}}</ref><ref name="Our Progress to Date"/>
+|-
+| 2014 || September 7 || External citation || Tim Harford on {{w|BBC Radio 4}} program [[w:More or Less (radio programme)|More or less]] features GiveWell's research as an alternative to a social media fundraising campaign.<ref name="What Others Are Saying"/><ref>{{cite web |title=To ice or not to ice? |url=https://www.bbc.co.uk/programmes/b04g1drf |website=bbc.co.uk |accessdate=30 March 2020}}</ref>
+|-
+| 2014 || September || Grantmaking || {{w|Good Ventures}} makes a US$34,382 grant to IDinsight, as part of GiveWell's project to support the development of top charities.<ref>{{cite web|title=IDinsight — Scaling Up a High-Potential Development Intervention|url=https://www.givewell.org/charities/IDinsight/september-2014-grant|website=givewell.org|accessdate=12 December 2017}}</ref>
+|-
+| 2014 || September || Study || GiveWell completes a medium-depth writeup on geoengineering research – large-scale interventions in the climate to attempt to reduce climate change or its impacts – focusing on research around efforts to artificially cool the planet. The evaluator finds no funders – governmental or philanthropic – spending large amounts in this area at the moment, and the field appears relatively small with relatively little in funding.<ref>{{cite web|title=Geoengineering research|url=https://blog.givewell.org/2013/10/16/geoengineering-research/|website=blog.givewell.org|accessdate=1 March 2018}}</ref> 
+|-
+| 2014 || October || Site visit || GiveWell staff travels to {{w|Burkina Faso}} and {{w|Uganda}} as part of its research process to identify top-rated charities, with the primary purpose of visiting {{w|Development Media International}} and {{w|Living Goods}}.<ref>{{cite web|title=Site Visits: October 2014|url=https://www.givewell.org/research/site-visits/october-2014|website=givewell.org|accessdate=21 December 2017}}</ref><ref name="Charity Site Visits"/>
+|-
+| 2014 || November || Charity ranking || GiveWell announces its top charities for giving season 2014:
+* {{w|Against Malaria Foundation}}<ref name="Doing Good Better: Effective Altruism and a Radical New Way to Make a Difference"/>
+* {{w|GiveDirectly}}
+* {{w|Schistosomiasis Control Initiative}}
+* {{w|Deworm the World Initiative}}
+
+Other GiveWell's standout charities include {{w|Development Media International}} (DMI), {{w|Iodine Global Network}} (IGN), The {{w|Global Alliance for Improved Nutrition}} (GAIN) - Universal Salt Iodization (USI) program, and {{w|Living Goods}}.<ref>{{cite web|title=Top Charities - November 2014 Archived Version|url=https://www.givewell.org/charities/top-charities/November-2014|website=givewell.org|accessdate=3 December 2017}}</ref> 
+|-
+| 2014 || December || Research || GiveWell completes an investigation of one new intervention (salt iodization), and makes substantial progress on several others (maternal and neonatal tetanus immunization campaigns, mass drug administration for lymphatic filariasis, and vitamin A supplementation).<ref>{{cite web|title=The GiveWell Blog|url=https://blog.givewell.org/2014/12/01/our-updated-top-charities/#Process|website=blog.givewell.org|accessdate=29 November 2017}}</ref><ref>{{cite web|title=Salt Iodization|url=https://www.givewell.org/international/technical/programs/salt-iodization|website=givewell.org|accessdate=29 November 2017}}</ref>
+|-
+| 2014 || Year round || Money tracking || GiveWell tracks US$27.8 million in “money moved” to its recommended charities.<ref>{{cite web |title=GiveWell Metrics Report – 2014 Annual Review |url=https://drive.google.com/file/d/0B8ompSd8S_anWWdlanlySzBOeDQ/view |website=drive.google.com |accessdate=31 March 2020}}</ref> 
+|-
+| 2015 || March || Grantmaking || Good Ventures, with input from GiveWell, awards US$100,000 grant to New Incentives, for general operating support.<ref>{{cite web|title=New Incentives — General Support|url=http://www.goodventures.org/our-portfolio/grants/new-incentives-general-support|website=goodventures.org|accessdate=12 December 2017}}</ref>
+|-
+| 2015 || March, April || Publication || GiveWell's 2014 Review and Plan is published.<ref name="Our Progress to Date"/>
+|-
+| 2015 || May 23 || External citation || Neil Webb at {{w|The Economist}} publishes article on impact-driven philanthropy entitled "Doing good by doing well", featuring GiveWell.<ref>{{cite web |title=Doing good by doing well |url=https://www.economist.com/international/2015/05/21/doing-good-by-doing-well |website=economist.com |accessdate=30 March 2020}}</ref> 
+|-
+| 2015 || April || Partnership || Open Philanthropy Project announces a partnership with Kaitlyn Trigger and {{w|Mike Krieger}} (co-founder of {{w|Instagram}}).
+|-
+| 2015 || June 15 || External citation || Derek Thompson at The Atlantic writes: {{Quote|Philosophically, the most difficult task facing GiveWell is putting the vast spectrum of human suffering into numbers. It is, in a way, a math problem, but one laden with value judgments, about which reasonable people can disagree.<ref>{{cite web |title=The Greatest Good |url=https://www.theatlantic.com/business/archive/2015/06/what-is-the-greatest-good/395768/ |website=theatlantic.com |accessdate=30 March 2020}}</ref>}}
+|-
+| 2015 || July || Site visit || GiveWell staff travels to {{w|Ethiopia}} to visit the work on universal [[w:Iodised salt|salt iodization]] being carried out by the {{w|Global Alliance for Improved Nutrition}}.<ref>{{cite web|title=Site visit: July 2015|url=https://www.givewell.org/research/site-visits/july-2015|website=givewell.org|accessdate=21 December 2017}}</ref><ref name="Charity Site Visits"/>
+|-
+| 2015 || September || Grantmaking || With GiveWell reccommendation, Good Ventures grants US$200,000 to the Abdul Latif Jameel Poverty Action Lab (J-PAL) at the {{w|Massachusetts Institute of Technology}} to support two {{w|randomized controlled trial}}s in {{w|India}} and {{w|Pakistan}} that would test whether providing non-cash incentives increases child immunization rates.<ref>{{cite web|title=J-PAL and IRD — Incentives for Immunization Studies|url=https://www.givewell.org/JPAL-IRD-grant|website=givewell.org|accessdate=12 December 2017}}</ref>
+|-
+| 2015 || October 23 || External citation || Alexandra Zaslow at ''[[w:Today (American TV program)|Today]]'' publishes article about Julia Wise and Jeff Kaufman, a couple notable for donating half of income every year to charity. Wise and Kaufman cite GiveWell as their source for picking out charities.<ref>{{cite web |title=Couple donates half of income every year to treat world health |url=https://www.today.com/news/couple-donates-half-income-every-year-treat-world-health-t51916 |website=today.com |accessdate=31 March 2020}}</ref>
+|-
+| 2015 || November 18 || {{w|Online community}} || GiveWell Community launches as a {{w|Facebook}} group.<ref>{{cite web |title=GiveWell Community |url=https://www.facebook.com/groups/GiveWellCommunity/about/ |website=facebook.com |accessdate=23 February 2020}}</ref>
+|-
+| 2015 || November || Charity ranking || GiveWell announces its top charities for giving season 2015:
+* {{w|Against Malaria Foundation}}
+* {{w|Schistosomiasis Control Initiative}}
+* {{w|Deworm the World Initiative}}
+* {{w|GiveDirectly}}
+
+Development Media International (DMI), The Global Alliance for Improved Nutrition’s Universal Salt Iodization program (GAIN – USI), Iodine Global Network (IGN), and Living Goods are recognized as standout charities.<ref>{{cite web|title=Our updated top charities for giving season 2015|url=https://blog.givewell.org/2015/11/18/our-updated-top-charities-for-giving-season-2015/|website=blog.givewell.org|accessdate=3 December 2017}}</ref><ref>{{cite book|last1=Simler|first1=Kevin|last2=Hanson|first2=Robin|title=The Elephant in the Brain: Hidden Motives in Everyday Life|pages=207|url=https://books.google.com.ar/books?id=p_lADwAAQBAJ&pg=PA207&dq=%22givewell%22+%22in+2015%22&hl=en&sa=X&ved=0ahUKEwjUkMHGh4XYAhXFk5AKHSEfCu0Q6AEILTAB#v=onepage&q=%22givewell%22%20%22in%202015%22&f=false|accessdate=}}</ref><ref name="The Elephant in the Brain: Hidden Motives in Everyday Life"/>
+|-
+| 2015 || November || Cost-effectiveness analysis || GiveWell publishes its 2015 Cost-Effectiveness Analyses. Final analyses are conducted on long-lasting insecticide-treated nets, deworming, cash transfers, and iodine fortification; and {{w|Development Media International}}.<ref name="givewell.orgen"/>
+|-
+| 2016 || March || Grantmaking || Following GiveWell’s general effort to support the creation of future top charities, Good Ventures grants US$812,351 to Evidence Action to support the development of additional programs. These funds are expected to develop and implement a program in {{w|Bangladesh}}.<ref>{{cite web|title=Evidence Action — No Lean Season|url=https://www.givewell.org/charities/evidence-action/march-2016-grant|website=givewell.org|accessdate=12 December 2017}}</ref> In the same month, Good Ventures grants US$300,000 to New Incentives to support its conditional cash transfers program.<ref>{{cite web|title=New Incentives — General Support (2016)|url=https://www.givewell.org/charities/new-incentives/march-2016-grant|website=givewell.org|accessdate=12 December 2017}}</ref> 
+|-
+| 2016 || April, May || Publication || GiveWell's 2015 Review and Plan is published.<ref name="Our Progress to Date"/>
+|-
+| 2016 || May || Grantmaking || As part of GiveWell’s effort, Good Ventures grants US$6,400,000 to {{w|non-profit}} {{w|Results for Development}} to support its Market Dynamics practice area’s pneumonia treatment program in {{w|Tanzania}}. The fund is expected to increase use of {{w|amoxicillin}}, the WHO-recommended first-line treatment for childhood {{w|pneumonia}}.<ref>{{cite web|title=Results for Development — Childhood Pneumonia Treatment Scale-Up|url=https://www.givewell.org/charities/results-for-development/may-2016-grant|website=givewell.org|accessdate=12 December 2017}}</ref> In the same month Good Ventures grants US$350,000 to {{w|Innovations for Poverty Action}} to support a {{w|randomized controlled trial}}.<ref>{{cite web|title=Innovations for Poverty Action — Mindset Engagement in Cash Transfers|url=https://www.givewell.org/international/charities/ipa/may-2016-grant|website=givewell.org|accessdate=12 December 2017}}</ref>
+|-
+| 2016 || June–October || Grantmaking || Following GiveWell’s guidelines, Good Ventures grants $1,985,000 in unrestricted funding over three years to IDinsight,  a development-consulting organization that serves mission-driven organizations to facilitate evidence-based decision-making. The fund is expected to allow IDinsight to scale its model of supporting and evaluating development interventions, ideally (in the long term) providing us with research that GiveWell would be able to use in its work to recommend top charities. In October, Good Ventures grants an additional US$314,752 to IDinsight.<ref>{{cite web|title=IDinsight — General Support (2016)|url=https://www.givewell.org/charities/IDinsight/june-2016-grant|website=givewell.org|accessdate=12 December 2017}}</ref>
+|-
+| 2016 || August || Grantmaking || Good Ventures makes a grant of US$25 million to GiveDirectly on GiveWell’s recommendation, with GiveDirectly’s goals for the grant consisting in expanding its ability to raise funds from donors not influenced by GiveWell’s recommendation and collaborating with large aid institutions or governments to address their questions about cash transfers.<ref name="The GiveWell Blog"/> 
+|-
+| 2016 || August || Site visit || GiveWell staff travels to the {{w|Greater Accra Region}}, {{w|Ghana}}, with the primary purpose of visiting the {{w|Against Malaria Foundation}} and {{w|Sightsavers}}.<ref>{{cite web|title=Site visit: August 2016|url=https://www.givewell.org/research/site-visits/august-2016|website=givewell.org|accessdate=21 December 2017}}</ref><ref name="Charity Site Visits"/>
+|-
+| 2016 || September 14 || Online community || GiveWell launches new website.<ref>{{cite web|title=vipulnaik working-drafts|url=https://github.com/vipulnaik/working-drafts/blob/master/givewell/website-redesign-costs.md|website=github.com|accessdate=22 December 2017}}</ref>
+|-
+| 2016 || November || Grantmaking || Good Ventures grants $368587 to New Incentives as part of GiveWell's work to support the creation of new top charities.<ref>{{cite web|title=New Incentives — Exit Grant and Immunizations Pilot|url=https://www.givewell.org/charities/new-incentives/november-2016-grant|website=givewell.org|accessdate=10 December 2017}}</ref> In the same month Good Ventures grants $200,000 to Charity Science: Health to support the first year of its work setting up a charity to send SMS immunization reminders in {{w|India}}.<ref>{{cite web|title=Charity Science: Health — General Support|url=https://www.givewell.org/charities/charity-science/charity-science-health/november-2016-grant|website=givewell.org|accessdate=13 December 2017}}</ref>
+|-
+| 2016 || November || Charity ranking || Givewell announces its top charities for giving season 2016: 
+* {{w|Against Malaria Foundation}}
+* {{w|Schistosomiasis Control Initiative}}
+* END Fund for work on deworming (added this year)
+* Malaria Consortium for work on seasonal malaria chemoprevention (added this year)
+* Sightsavers for work on deworming (added this year)
+* {{w|Deworm the World Initiative}}, led by Evidence Action
+* GiveDirectly
+Other charities worthy of special recognition by GiveWell include Development Media International (DMI), Food Fortification Initiative (FFI), The Global Alliance for Improved Nutrition’s Universal Salt Iodization program (GAIN – USI), Iodine Global Network (IGN), Living Goods, and Project Healthy Children.<ref>{{cite web|title=Our updated top charities for giving season 2016|url=https://blog.givewell.org/2016/11/28/updated-top-charities-giving-season-2016/|website=blog.givewell.org|accessdate=3 December 2017}}</ref> 
+|-
+| 2016 || November 28 || Cost-effectiveness analysis || GiveWell publishes the Final Analysis of its 2016 Cost-Effectiveness Analyses document, which is conducted on long-lasting insecticide-treated nets, deworming, cash transfers, and seasonal malaria chemoprevention.<ref name="givewell.orgen"/>
+|-
+| 2016 || Year round || Money tracking || According to a delayed report posted in September 2017, GiveWell manages to track a total of US$91.6 million during 2016 given to its top charities as a direct result of research.<ref>{{cite web|title=GiveWell’s money moved and web traffic in 2016|url=https://blog.givewell.org/2018/03/30/givewells-money-moved-and-web-traffic-in-2016/|website=blog.givewell.org|accessdate=12 April 2018}}</ref> In the same year, Good Ventures made GiveWell Incubation Grants totaling US$13.3 million.<ref>{{cite web|title=GiveWell Metrics Report – 2016 Annual Review|url=http://files.givewell.org/files/metrics/GiveWell_Metrics_Report_2016.pdf|website=files.givewell.org|accessdate=12 April 2018}}</ref>
+|-
+| 2017 || January || Grantmaking || As part of GiveWell's Incubation Grants to support the development of potential future top charities and improve the quality of our recommendations, Good Ventures grants $900,000 to the {{w|Georgetown University}} Initiative on Innovation, Development, and Evaluation for its Road Safety Campaign.<ref>{{cite web|title=Georgetown University Initiative on Innovation, Development, and Evaluation — Zusha! Road Safety Campaign|url=https://www.givewell.org/charities/gui2de/january-2017-grant|website=givewell.org|accessdate=13 December 2017}}</ref>
+|-
+| 2017 || January, February || Site visit || GiveWell staff travels to {{w|Rwanda}}, the {{w|Democratic Republic of Congo}}; and {{w|Kenya}} with the purpose of visiting top charity the END Fund and 2017 top charity contender Zusha!, a project of the Georgetown University Initiative on Innovation, Development and Evaluation.<ref>{{cite web|title=Site visit: January and February 2017|url=https://www.givewell.org/research/site-visits/jan-feb-2017|website=givewell.org|accessdate=28 November 2017}}</ref><ref name="Charity Site Visits"/>
+|-
+| 2017 || February || Site visit || As part of a broader partnership with GiveWell, IDinsight staff travels to {{w|Nigeria}} to visit New Incentives.<ref>{{cite web|title=Site visit: February 2017|url=https://www.givewell.org/research/site-visits/february-2017|website=givewell.org|accessdate=21 December 2017}}</ref><ref name="Charity Site Visits"/> 
+|-
+| 2017 || February–March || Strategy || GiveWell runs a small experiment with a few ads on FiveThirtyEight’s Politics podcast and Vox’s The Weeds. Having spent approximately $20,000 on ads for the initial experiment, Givewell asks donors who give via GiveWell's website to tell the evaluator where they learned about GiveWell when they donate. One of the findings is that donors generally find out about GiveWell during the course of the year, but donate in December. The experiment is later expanded, spending approximately $100,000 on podcast ads.<ref>{{cite web|title=Update on our work on outreach|url=https://blog.givewell.org/2017/12/19/update-on-our-work-on-outreach/|website=blog.givewell.org|accessdate=1 March 2018}}</ref>
+|-
+| 2017 || March, April || Publication || GiveWell's 2016 Review and Plan is published.<ref name="Our Progress to Date"/>
+|-
+| 2017 || April || Grantmaking || Regents of the {{w|University of California, Berkeley}} receives a GiveWell Incubation Grant of US$1,104,259 to support the Kenya Life Panel Survey Round 4 (KLPS-4), a follow-up study to assess the long-term impact of deworming on consumption.<ref>{{cite web|title=UC Berkeley — KLPS-4 Survey|url=https://www.givewell.org/research/incubation-grants/uc-berkeley/april-2017-grant|website=www.givewell.org|accessdate=29 November 2017}}</ref> In the same month, under the incubation grant program, Good Ventures makes a grant of US$2,642,300 to Evidence Action –which expects to strengthen its financial systems, human resources, and information technology, and another grant of US$820,000 to New Incentives, which plans to use these funds to support its work on conditional cash transfers to incentivize child immunization.<ref>{{cite web|title=Evidence Action — Strengthen Operations|url=https://www.givewell.org/charities/evidence-action/april-2017-grant|website=givewell.org|accessdate=13 December 2017}}</ref><ref>{{cite web|title=New Incentives — General Support|url=https://www.givewell.org/charities/new-incentives/april-2017-grant|website=givewell.org|accessdate=13 December 2017}}</ref>
+|-
+| 2017 || April 3 || Grantmaking || GiveWell announces plan to allocate US$4.4 million to the {{w|Against Malaria Foundation}} and US$0.5 million of the funding it received for granting to the {{w|Deworm the World Initiative}}. Such allocations have their source in US$4.9 million GiveWell received in funding for making grants at its discretion.<ref>{{cite web|last1=Crispin|first1=Natalie|title=Allocation of discretionary funds and new recommendation for donors|url=https://blog.givewell.org/2017/04/03/allocation-of-discretionary-funds/|website=blog.givewell.org|accessdate=21 December 2017}}</ref>
+|-
+| 2017 || May || Grantmaking  || IDinsight receives an Incubation Grant of US$2,321,617 to support its GiveWell-embedded team for the next twelve months. This grant is in addition to June 2016 and October 2016 GiveWell Incubation Grants to IDinsight, a company that supports and conducts rigorous evaluations of development interventions, often involving randomized controlled trials (RCTs), with an explicit focus on partnering with funders and policy makers to use data to inform key strategy decisions. IDinsight's "decision-focused evaluation" is considered aligned with GiveWell's goals.<ref>{{cite web|title=IDinsight — Embedded GiveWell Team (2017)|url=https://www.givewell.org/charities/IDinsight/may-2017-grant|website=givewell.org|accessdate=29 November 2017}}</ref>
+|-
+| 2017 || May 20 || Cost-effectiveness analysis || GiveWell publishes the first version of its 2017 Cost-Effectiveness Analyses.<ref name="givewell.orgen"/> The {{w|universal basic income}} (UBI) program is dropped from the GiveDirectly CEA.<ref>{{cite web |title=2017 GiveWell cost-effectiveness analysis (CEA) — Version 1 |url=https://files.givewell.org/files/DWDA%202009/Interventions/2017_GiveWell_cost-effectiveness_analysis_Version_1_Release_notes.pdf |website=files.givewell.org |accessdate=27 March 2020}}</ref>
+|-
+| 2017 || June 1 || Reorganization || The Open Philanthropy Project becomes an independent organization.<ref name="Who We Are openphilanthropy.org">{{cite web|title=Who We Are|url=https://www.openphilanthropy.org/about/who-we-are|website=openphilanthropy.org|accessdate=18 December 2017}}</ref>
+|-
+| 2017 || June || Grantmaking || The Center for Effective Global Action (CEGA) at the {{w|University of California, Berkeley}} receives a GiveWell Incubation Grant of US$18,000 to investigate the feasibility of conducting a high-quality follow-up study on Stoltzfus et al. 1997, a deworming evaluation conducted in {{w|Tanzania}} in the mid-1990s.<ref>{{cite web|title=Center for Effective Global Action at UC Berkeley — Deworming Study Planning Gift|url=https://www.givewell.org/research/incubation-grants/cega-uc-berkeley/june-2017-grant|website=givewell.org|accessdate=29 November 2017}}</ref>
+|-
+| 2017 || June || Team || {{w|Holden Karnofsky}} departs from GiveWell and assumes rol of CEO of the {{w|Open Philanthropy Project}}.<ref>{{cite web |title=Holden Karnofsky |url=https://www.linkedin.com/in/holden-karnofsky-75970b7/ |website=linkedin.com |accessdate=18 February 2020}}</ref> 
+|-
+| 2017 || June–July || Site visit || As part of a broader partnership with GiveWell, IDinsight visits to United Purpose (formerly Concern Universal), an implementing partner of {{w|Against Malaria Foundation}}, in {{w|Malawi}}.<ref>{{cite web|title=Trip Report: PDCU Site Visit, Malawi|url=http://files.givewell.org/files/DWDA%202009/AMF/IDinsight_Malawi_PDCU_Trip_Report_07-24-17.pdf|website=files.givewell.org|accessdate=21 December 2017}}</ref> In July, IDinsight would observe a 12-month post-distribution check-up of AMF, in {{w|Ghana}}.<ref>{{cite web|title=Trip Report: PDCU Site Visit, Ghana|url=http://files.givewell.org/files/DWDA%202009/AMF/IDinsight_Trip_Report_PDCU_Site_Visit_Ghana.pdf|website=files.givewell.org|accessdate=21 December 2017}}</ref><ref name="Charity Site Visits"/>
+|-
+| 2017 || July || Grantmaking || Charity Science Health receives a GiveWell Incubation Grant of US$357,543 to support its SMS immunization reminder program in {{w|India}}.<ref>{{cite web|title=Charity Science Health — SMS Reminders for Immunization|url=https://www.givewell.org/charities/charity-science/charity-science-health/july-2017-grant|website=givewell.org|accessdate=29 November 2017}}</ref> In the same month, the Center for Effective Global Action (CEGA) at the University of California, Berkeley receives a GiveWell Incubation Grant of US$492,188, with CEGA planning to use these funds to create a list of previously completed randomized controlled trials (RCTs) that could potentially be candidates for follow-up studies analyzing longer-term effects of programs.<ref>{{cite web|title=Center for Effective Global Action at UC Berkeley — Scoping RCTs for Long-Term Follow-Ups|url=https://www.givewell.org/research/incubation-grants/cega-uc-berkeley/july-2017-grant|website=www.givewell.org|accessdate=29 November 2017}}</ref>
+|-
+| 2017 || August 16 || Cost-effectiveness analysis || GiveWell publishes the second version of its 2017 Cost-Effectiveness Analyses.<ref name="givewell.orgen"/> It includes a series of structural changes to the cost-effectiveness models for {{w|Malaria Consortium}} and the {{w|Against Malaria Foundation}} (AMF).<ref>{{cite web |title=2017 GiveWell cost-effectiveness analysis (CEA) — Version 2 |url=https://files.givewell.org/files/DWDA%202009/Interventions/2017_GiveWell_cost-effectiveness_analysis_Version_2_Release_notes.pdf |website=files.givewell.org |accessdate=27 March 2020}}</ref>
+|-
+| 2017 || August || Grantmaking || The Centre for Pesticide Suicide Prevention receives a GiveWell Incubation Grant of $1,336,409 to start work aimed at reducing deaths from deliberate ingestion of pesticides. The funds are planned to start collecting data on pesticide suicides in {{w|Nepal}} and {{w|India}} with the aim of assisting governments in enacting bans on the most lethal pesticides currently used in suicide attempts.<ref>{{cite web|title=Centre for Pesticide Suicide Prevention – General Support|url=https://www.givewell.org/research/incubation-grants/centre-pesticide-suicide-prevention/august-2017-grant|website=givewell.org|accessdate=13 December 2017}}</ref>
+|-
+| 2017 || August || Grantmaking || GiveWell announces plan to grant roughly $2.25 million in discretionary funding to the {{w|Deworm the World Initiative}}.<ref>{{cite web|title=The GiveWell Blog Month, August 2017|url=https://blog.givewell.org/2017/08/|website=blog.givewell.org|accessdate=24 December 2017}}</ref>
+|-
+| 2017 || October 27 || Cost-effectiveness analysis || GiveWell publishes the third version of its 2017 Cost-Effectiveness Analyses.<ref name="givewell.orgen"/> This workbook revises the structure of GiveWell's worm intensity data to facilitate engagement.<ref>{{cite web |title=2017 GiveWell cost-effectiveness analysis (CEA) — Version 3 |url=https://files.givewell.org/files/DWDA%202009/Interventions/2017_GiveWell_cost-effectiveness_analysis_Version_3_Release_notes.pdf |website=files.givewell.org |accessdate=27 March 2020}}</ref> 
+|-
+| 2017 || November || Charity ranking || Givewell announces its top charities for giving season 2017: 
+* {{w|Against Malaria Foundation}}
+* {{w|Schistosomiasis Control Initiative}}
+* {{w|Malaria Consortium}}’s seasonal malaria chemoprevention (SMC) program
+* Evidence Action’s Deworm the World Initiative
+* {{w|Helen Keller International}} (HKI)’s vitamin A supplementation (VAS) program
+* {{w|Sightsavers}}’ deworming program
+* END Fund’s deworming program
+* Evidence Action’s No Lean Season program
+* {{w|GiveDirectly}}
+
+Standout charities:
+* {{w|Development Media International}}
+* Evidence Action’s Dispensers for Safe Water program
+* Food Fortification Initiative
+* Global Alliance for Improved Nutrition’s Universal Salt Iodization program
+* {{w|Iodine Global Network}}
+* Living Goods
+* Project Healthy Children<ref name="The GiveWell Blog">{{cite web|title=The GiveWell Blog|url=https://blog.givewell.org/2017/11/27/our-top-charities-for-giving-season-2017/|website=blog.givewell.org|accessdate=30 November 2017}}</ref>
+|-
+| 2017 || November || Grantmaking || GiveWell allocates US$0.7 million in discretionary grant to Evidence Action's Deworm the World Initiative. The donations were made between July and September 2017.<ref name="Discretionary Grantmakingv"/>	
+|-
+| 2017 || November 8 || Cost-effectiveness analysis || GiveWell publishes the fourth version of its 2017 Cost-Effectiveness Analyses,<ref name="givewell.orgen"/> which makes several miscellaneous updates to the cost-effectiveness model.<ref>{{cite web |title=2017 GiveWell cost-effectiveness analysis (CEA) — Version 4 |url=https://files.givewell.org/files/DWDA%202009/Interventions/2017_GiveWell_cost-effectiveness_analysis_Version_4_Release_notes.pdf |website=files.givewell.org |accessdate=27 March 2020}}</ref> 
+|-
+| 2017 || November 27 || Cost-effectiveness analysis || GiveWell publishes the fifth version of its 2017 Cost-Effectiveness Analyses.<ref name="givewell.orgen"/> Among the changes, it presents updated cost figures for most of GiveWell's recommended charities and the implementation of a new process for adjusting cost-effectiveness estimates based on the expected behavior of other funders.<ref>{{cite web |title=2017 GiveWell cost-effectiveness analysis (CEA) — Version 5 |url=https://files.givewell.org/files/DWDA%202009/Interventions/CEA_release_notes_2017_V5.pdf |website=files.givewell.org |accessdate=27 March 2020}}</ref> 
+|-
+| 2017 || November 27 || External citation || Nurith Aizenman at {{w|NPR}} publishes article entitled "On #GivingTuesday, How To Get The Most Bang For Your Charity Buck", featuring GiveWell.<ref name="What Others Are Saying"/><ref>{{cite web |title=On #GivingTuesday, How To Get The Most Bang For Your Charity Buck |url=https://www.npr.org/sections/goatsandsoda/2017/11/27/566814277/on-givingtuesday-how-to-get-the-most-bang-for-your-charity-buck |website=npr.org |accessdate=30 March 2020}}</ref>
+|-
+| 2017 || November 28 || External citation || Carl Richards at {{w|The New York Times}} publishes guide entitled "How to Make a Personal Plan for Giving" which describes GiveWell as a resource for “The Spreadsheet Method of Giving” (calculating altruistic return on investment).<ref name="What Others Are Saying"/><ref>{{cite web |title=How to Make a Personal Plan for Giving |url=https://www.nytimes.com/guides/smarterliving/giving-tuesday-how-to-give |website=nytimes.com |accessdate=30 March 2020}}</ref>
+|-
+| 2017 || November 28 || Advocacy || {{w|Elie Hassenfeld}} shares his advice for giving effectively in a video from NowThis Politics.<ref name="What Others Are Saying"/>
+|-
+| 2017 || December 4 || External citation || Financial blogger {{w|Mr. Money Mustache}} includes GiveWell in his article on tips for giving to charities.<ref name="What Others Are Saying"/><ref>{{cite web |title=How to Give Money (and Get Happiness) More Easily |url=http://web.archive.org/web/20190315154932/https://www.mrmoneymustache.com/2017/12/04/how-to-give-money-and-get-happiness-more-easily/ |website=web.archive.org |accessdate=30 March 2020}}</ref>
+|-
+| 2017 || Fourth quarter || Funding || GiveWell receives US$5.6 million in funding for making grants at its discretion.<ref>{{cite web |title=Allocation of discretionary funds from Q4 2017 |url=https://blog.givewell.org/2018/04/06/allocation-of-discretionary-funds-from-q4-2017/ |website=blog.givewell.org |accessdate=4 December 2019}}</ref> 
+|-
+| 2017 || Year round || Funding || GiveWell receives over US$290,000 in {{w|Bitcoin}} donations.<ref name="We’ve added more options">{{cite web |title=We’ve added more options for cryptocurrency donors |url=https://blog.givewell.org/2018/12/07/donate-cryptocurrency/ |website=blog.givewell.org |accessdate=3 December 2019}}</ref>
+|-
+| 2018 || January 24 || Cost-effectiveness analysis || GiveWell publishes the first version of its 2018 Cost-Effectiveness Analysis.<ref name="2018 Cost-Effectiveness Analysis Changelog">{{cite web |title=2018 Cost-Effectiveness Analysis Changelog |url=https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness/cost-effectiveness-models/changelog |website=givewell.org |accessdate=28 March 2020}}</ref>
+|-
+| 2018 || March || Grantmaking || Evidence Action Beta receives a GiveWell Incubation Grant of US$320,000 to support the Indian government's work on iron and folic acid supplementation.<ref>{{cite web |title=Evidence Action Beta — Iron and Folic Acid Supplementation |url=https://www.givewell.org/research/incubation-grants/march-2018-evidence-action-beta-iron-folic-acid |website=givewell.org |accessdate=3 December 2019}}</ref>
+|-
+| 2018 || March || Grantmaking || GiveWell allocates US$5.6 million in discretionary grant to Schistosomiasis Control Initiative. The donations were made between October and December 2017.<ref name="Discretionary Grantmakingv"/><ref>{{cite web |title=Allocation of discretionary funds from Q4 2017 |url=https://blog.givewell.org/2018/04/06/allocation-of-discretionary-funds-from-q4-2017/ |website=blog.givewell.org |accessdate=4 December 2019}}</ref>
+|-
+| 2018 || May || Grantmaking || GiveWell allocates US$3.0 million in discretionary grant, distributing 70% to Against Malaria Foundation and 30% to Schistosomiasis Control Initiative. The donations were received between January and March 2018.<ref name="Discretionary Grantmakingv"/>	
+|-
+| 2018 || June 2 || External citation || GiveWell is featured by ''{{w|The Economist}}'' in an article about {{w|effective altruism}}.<ref name="What Others Are Saying"/>
+|-
+| 2018 || June || Grantmaking || Fortify Health receives a GiveWell Incubation Grant of US$295,217 to start a new program aimed at mass fortification of wheat flour with iron in {{w|India}}.<ref>{{cite web |title=Fortify Health — General Support |url=https://www.givewell.org/research/incubation-grants/fortify-health/june-2018-grant |website=givewell.org |accessdate=3 December 2019}}</ref>
+|-
+| 2018 || July 16 || Cost-effectiveness analysis || GiveWell publishes new version of its 2018 Cost-Effectiveness Analysis, updating the cost per insecticide-treated bed nets (ITN) parameter.<ref name="2018 Cost-Effectiveness Analysis Changelog"/>
+|-
+| 2018 || August 10 || Cost-effectiveness analysis || GiveWell publishes new version of its 2018 Cost-Effectiveness Analysis, updating the cost per child covered in {{w|Helen Keller International}}'s vitamin A supplementation program.<ref name="2018 Cost-Effectiveness Analysis Changelog"/>
+|-
+| 2018 || August || Grantmaking || GiveWell allocates US$4.1 million in discretionary grant, distributing 70% to Against Malaria Foundation and 30% to Schistosomiasis Control Initiative. The donations were received between April and June 2018.<ref name="Discretionary Grantmakingv"/>	
+|-
+| 2018 || November || Grantmaking || GiveWell allocates US$1.1 million in discretionary grant to Malaria Consortium's seasonal malaria chemoprevention program. The donations were received between July and September 2018.<ref>{{cite web |title=Our updated top charities for giving season 2018 |url=https://blog.givewell.org/2018/11/26/our-updated-top-charities-for-giving-season-2018/ |website=blog.givewell.org |accessdate=4 December 2019}}</ref><ref name="Discretionary Grantmakingv"/> 
+|-
+| 2018 || November 25 || Cost-effectiveness analysis || GiveWell publishes updated version of its 2018 Cost-Effectiveness Analysis. Updates include accounting for potential long-term benefits of {{w|vitamin A}} supplementation.<ref name="2018 Cost-Effectiveness Analysis Changelog"/>
+|-
+| 2018 || December || Administration || GiveWell updates its donations processing and announces it is accepting donations in {{w|Bitcoin}}, {{w|Bitcoin Cash}},{{W|Ethereum}}, {{W|Ethereum Classic}}, {{w|Litecoin}}, and 0x.<ref name="We’ve added more options"/> 
+|-
+| 2018 || December 1 || External citation || Dylan Matthews at ''[[w:Vox (website)|Vox]]'' writes: {{Quote|It's of course possible to research charity options yourself, but it's probably better to outsource that labor to a careful, methodologically rigorous charity recommender like GiveWell.<ref>{{cite web |title=These are the charities where your money will do the most good |url=http://web.archive.org/web/20190318204822/https://www.vox.com/2015/12/1/9826838/best-charities-donate-2018-giving-tuesday |website=web.archive.org |accessdate=30 March 2020}}</ref>}}
+|-
+| 2018 || Fourth quarter || Funding || Donors give a combined US$7.6 million in funding to GiveWell for making grants at its discretion.<ref name="March 2019"/> 
+|-
+| 2018 || Year round || Money tracking || GiveWell tracks US$141 million in money moved to its recommended charities and via its Incubation Grants program. The amount is stated to be influenced by GiveWell recommendations.<ref>{{cite web |title=GiveWell’s money moved and web traffic in 2018 |url=https://blog.givewell.org/2019/09/09/givewells-money-moved-and-web-traffic-in-2018/ |website=blog.givewell.org |accessdate=3 December 2019}}</ref>
+|-
+| 2018 || Year round || Grantmaking || GiveWell moves US$65 million to its top charities.<ref name="Review GiveWell Analyses"/> 
+|-
+| 2019 || January 3 || Cost-effectiveness analysis || The first version of GiveWell's 2019 Cost-Effectiveness Analysis is published.<ref name="sdsf"/>
+|-
+| 2019 || February 4 || Team || {{w|Rob Reich}} announces his intention to resign from GiveWell's Board of Directors. In his resignation letter, Reich lists his reasons for departure, one of them being his concerns that the "board’s important governance role is not taken seriously enough by GiveWell leadership".<ref name="givewell.orge">{{cite web |title=Changes in Board Membership (April 2019) |url=https://www.givewell.org/changes-in-board-membership |website=givewell.org |accessdate=23 February 2020}}</ref><ref name="Resignation letter by Rob Reich">{{cite web |title=Resignation letter by Rob Reich |url=https://files.givewell.org/files/Rob_Reich_Board_Resignation_Letter_02-04-19.pdf |website=files.givewell.org |accessdate=29 May 2020}}</ref>  
+|-
+| 2019 || February 13 || Grantmaking || GiveWell announces a grantmaking process to look for organizations operating in {{w|Southeast Asia}} and {{w|Bangladesh}}.<ref>{{cite web |title=The GiveWell Blog |url=https://blog.givewell.org/2019/02/ |website=blog.givewell.org |accessdate=3 December 2019}}</ref>
+|-
+| 2019 || March 5 || Team || Brigid Slipka announces her intention to resign from GiveWell's Board of Directors. In her resignation letter, Slipka gives a pair of recommendations, to create a nominating committee, chaired by a non-board member, and to increase the board to include experts and representatives of beneficiaries.<ref>{{cite web |title=Brigid Slipka resignation letter |url=https://files.givewell.org/files/Brigid_Slipka_Board_Resignation_Letter_03-05-19.pdf |website=files.givewell.org |accessdate=23 February 2020}}</ref>
+|-
+| 2019 || March || Strategy || GiveWell announces plan to expand the scope of its research and to roughly double the size of its full-time research staff (from approximately 10 to 20) over the next three years.<ref name="March 2019">{{cite web |title=The GiveWell Blog Month: March 2019 |url=https://blog.givewell.org/2019/03/ |website=blog.givewell.org |accessdate=4 December 2019}}</ref>
+|-
+| 2019 || March || Grantmaking || GiveWell allocates US$7.6 million in discretionary grant to Malaria Consortium's seasonal malaria chemoprevention program. The donations were received between October and December 2018.<ref name="Discretionary Grantmakingv"/><ref>{{cite web |title=Allocation of discretionary funds from Q4 2018 |url=https://blog.givewell.org/2019/03/29/allocation-of-discretionary-funds-from-q4-2018/ |website=blog.givewell.org |accessdate=4 December 2019}}</ref>
+|-
+| 2019 || April 1 || Team || Rob Reich, Brigid Slipka, and Tom Rutledge resignations become effective. The most common concern reflected in the resignation letters is the argument that the new board would not be well positioned to play a serious role in the organization governance after GiveWell's decision to reduce the size of the board from eight members to five. Hassenfeld replies that the direction GiveWell has chosen is the right one, expressing his belief that it will mean a "more focused, intensely engaged board, and ultimately a more robust, more impactful GiveWell."<ref>{{cite web |last1=Hassenfeld |first1=Elie |title=Elie Hassenfeld letter |url=https://files.givewell.org/files/Elie_Hassenfeld_Board_Letter.pdf |website=files.givewell.org |accessdate=29 May 2020}}</ref> After the resignations, GiveWell's Board of Directors retains five members: Timothy Ogden (Interim Chair), {{w|Cari Tuna}}, {{w|Holden Karnofsky}}, Julia Wise, and Elie Hassenfeld.<ref name="givewell.orge"/> 
+|-
+| 2019 || May 10 || Administration || Catherine Hollander announces GiveWell plan to move offices from {{w|San Francisco}} to {{w|Oakland}}.<ref>{{cite web |title=The GiveWell Blog |url=https://blog.givewell.org/2019/03/11/march-2019-open-thread/ |website=blog.givewell.org |accessdate=23 February 2020}}</ref>
+|-
+| 2019 || June || Grantmaking || GiveWell allocates U$4.7 million in discretionary grant to the {{w|Against Malaria Foundation}}. The donations were received between January and March 2019.<ref name="Discretionary Grantmakingv"/><ref>{{cite web |title=Allocation of discretionary funds from Q1 2019 |url=https://blog.givewell.org/2019/06/12/allocation-of-discretionary-funds-from-q1-2019/ |website=blog.givewell.org |accessdate=4 December 2019}}</ref>
+|-
+| 2019 || August || Grantmaking || GiveWell allocates US$2.3 million in discretionary grant to the {{w|Against Malaria Foundation}}. The donations were received between April and June 2019.<ref name="Discretionary Grantmakingv">{{cite web |title=Discretionary Grantmaking |url=https://www.givewell.org/about/FAQ/discretionary-grantmaking |website=givewell.org |accessdate=4 December 2019}}</ref><ref>{{cite web |title=Allocation of discretionary funds from Q2 2019 |url=https://blog.givewell.org/2019/08/21/allocation-of-discretionary-funds-from-q2-2019/ |website=blog.givewell.org |accessdate=4 December 2019}}</ref> 
+|-
+| 2019 || September || Site visit || GiveWell staff visits Burkina Faso to meet with staff of Malaria Consortium’s seasonal malaria chemoprevention (SMC) program, and observe its work.<ref>{{cite web |title=Our recent visit to Burkina Faso |url=https://blog.givewell.org/2019/09/18/our-recent-visit-to-burkina-faso/ |website=blog.givewell.org |accessdate=3 December 2019}}</ref> 
+|-
+| 2019 || November 9 || External citation || Allan Saldanha at {{w|The Guardian}} publishes article featuring GiveWell as a leading independent charity evaluator.<ref>{{cite web |title=‘I give away half to three-quarters of my income every year’ |url=https://www.theguardian.com/money/2019/nov/09/i-give-away-half-to-three-quarters-of-my-income-every-year |website=theguardian.com |accessdate=30 March 2020}}</ref>
+|-
+| 2019 || November || Strategy || GiveWell offers matching funds to new donors who hear about its work on podcast advertisements. Offering donation matching is expected enable GiveWell to better track the impact of the ads it funds.<ref>{{cite web |title=We’re offering matching funds to new donors via podcasts. Here’s why. |url=https://blog.givewell.org/2019/11/14/were-offering-matching-funds-to-new-donors-via-podcasts/ |website=blog.givewell.org |accessdate=4 December 2019}}</ref>  
+|-
+| 2019 || November || Grantmaking || GiveWell recommends grants of US$57.3 million to its top charities and standout charities, composed of a recommendation to [[w:Open Philanthropy Project|Open Philanthropy]] to grant US$54.6 million to GiveWell's top charities and standout charities, and US$2.6 million in grants to top charities at GiveWell's discretion.<ref name="givewell.orgen"/> 
+|-
+| 2019 || November 25 || Cost-effectiveness analysis || GiveWell publishes updated workbook containing its cost-effectiveness analysis. This version estimates the cost-effectiveness of funding gaps GiveWell expects its top charities to fill after taking grants it expects [[w:Open Philanthropy Project|Open Philanthropy]] to make the year into account.<ref name="givewell.orgen">{{cite web |title=GiveWell's Cost-Effectiveness Analysesgivewell.org |url=https://www.givewell.org/how-we-work/our-criteria/cost-effectiveness/cost-effectiveness-models |website=givewell.org |accessdate=27 March 2020}}</ref>
+|-
+| 2019 || November 26 || Charity ranking || GiveWell publishes its 2019 top charities:
+* Malaria Consortium’s seasonal malaria chemoprevention (SMC) program 
+* Against Malaria Foundation (AMF)
+* Helen Keller International (HKI)’s vitamin A supplementation program
+* Charities that treat parasitic worm infections, in particular deworming programs (Evidence Action’s Deworm the World Initiative, Sightsavers’ deworming program, END Fund’s deworming program)
+* GiveDirectly<ref name="Announcing our 2019 top">{{cite web |title=Announcing our 2019 top charities |url=https://blog.givewell.org/2019/11/26/announcing-our-2019-top-charities/ |website=blog.givewell.org |accessdate=3 December 2019}}</ref>
+|-
+| 2020 || March 26 || Publication || Catherine Hollander publishes blog post entitled "The impact of COVID-19 on GiveWell’s plans", in order to inform on how the {{w|COVID-19 pandemic}} impacts the organization.<ref>{{cite web |last1=Hollander |first1=Catherine |title=The impact of COVID-19 on GiveWell’s plans |url=https://blog.givewell.org/2020/03/26/the-impact-of-covid-19-on-givewells-plans/ |website=blog.givewell.org |accessdate=31 March 2020}}</ref>
+|-
+| 2020 || May 28 || Publication || GiveWell publishes their Plan for 2020, highlighting their focus on three projects:
+* expanding into new areas of research;
+* searching for new, cost-effective funding opportunities in GiveWell's traditional research areas; and
+* building a donor community.<ref>{{cite web |title=GiveWell’s plans for 2020 |url=https://blog.givewell.org/ |website=blog.givewell.org |accessdate=30 May 2020}}</ref>
+|-
+|}
+
+==Meta information on the timeline==
+
+===How the timeline was built===
+
+The initial version of the timeline was written by [[User:Sebastian]].
+
+{{funding info}} is available.
+
+===What the timeline is still missing===
+
+===Timeline update strategy===
+
+==See also==
+
+* [[Timeline of nonprofit evaluation]]
+* [[Timeline of effective altruism]]
+
+==External links==
+
+* [https://www.givewell.org/ Official website]
+* [https://issarice.com/givewell-executive-compensation GiveWell executive compensation]
+
+==References==
+
+{{Reflist|30em}}
