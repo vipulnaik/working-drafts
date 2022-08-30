@@ -1,0 +1,101 @@
+In many cases, the subject matter of a timeline is extremely vast. This means that in principle, the "full timeline" part of the timeline on the subject could grow arbitrarily. In such cases, it is helpful to have (implicit or explicit) inclusion criteria for rows in the full timeline. As the timeline grows over time (as more stuff happens, or more historical source information is uncovered) it may also be worth revisiting these inclusion criteria.
+
+While inclusion criteria are specific to each timeline, there are a few general principles affecting their selection, and a few kinds of inclusion criteria that are recommended.
+
+== Purposes of inclusion criteria ==
+
+Note that the purposes discussed here are not all conceptually distinct -- they overlap quite a bit, but represent different angles of thinking about the problem.
+
+=== Communicating through meta-structure ===
+
+Clear inclusion criteria make a timeline more legible by (implicitly or explicitly) communicating "meta" information about what kinds of things we want to focus on. For instance, if there's an inclusion criterion that says that all launches of new organizations will be covered, but incremental updates to existing organizations won't, that communicates the purpose of the timeline as a timeline of how new organizations enter, versus a timeline of the evolution of individual organizations. On the other hand, consider an inclusion criterion that says that major events for organizations above a certain size will be covered, but organizations below a size will not be covered. This communicates a structure that focuses on the big players in the space as the main ones to watch.
+
+=== Reducing clutter ===
+
+Sometimes, a bunch of events are easy to generate but can clutter the timeline. Examples include: entry/exit of employees at the organization that is the subject of the timeline, grants made by a foundation that is the subject of the timeline, blog posts by or about an individual that is the subject of the timeline.
+
+Moreover, the extent to which these create clutter can depend on the specific topic. For instance, for some foundations that rarely make grants, each grant might be an important window into what's going on. For organizations that make hundreds of grants, adding information about each grant can clutter the timeline and make it harder to find meaningful stuff.
+
+=== Deduplicating against better ways of communicating specific information ===
+
+In some cases, there are external tools and websites that are much better at capturing and presenting certain kinds of information, and it's better to use those. For instance, for employee entries and exits, it may be better to use a tool such as [https://orgwatch.issarice.com/ Org Watch], that is designed to explore precisely that.
+
+In some cases, it does make sense to put the information in the timeline, but as a separate table outside of the full timeline. For instance, the Bitcoin Core version history was initially part of the full timeline at [[timeline of Bitcoin]], but we moved it to its own table. That table has two advantages: it can be much more compact (it can strip verbiage that would be needed when putting the same information in the full timeline) and it declutters the full timeline.
+
+=== Keeping the raw size in check ===
+
+It is generally recommended that the full timeline not grow beyond 300-500 rows, with 300 being a level at which it makes sense to start thinking of no longer working on the timeline, and 500 being a soft upper bound on the rows. This limit is based on what humans are capable of processing as well as on the sizes of pages that browsers and the MediaWiki editing software can conveniently handle.
+
+=== Easier hand-off between editors ===
+
+For timelines that pass hands between multiple editors over time, having clear inclusion criteria allows for more consistency and uniformity of edits over time.
+
+== Example timelines with inclusion criteria ==
+
+* [[Timeline of AI safety#Inclusion criteria|AI safety]]
+* [[Timeline of global health#Inclusion criteria|Global health]]
+
+== Kinds of inclusion criteria ==
+
+=== Inclusion criteria for "who" or "what" ===
+
+One kind of inclusion criterion is for who or what gets included. For instance, for the [[timeline of Bill & Melinda Gates Foundation]], as of August 30, a minimum of $50 million was set as the inclusion criterion for individual grants in the full timeline.
+
+=== Inclusion criteria for "when" ===
+
+There are a few different aspects of "when".
+
+The first is the overall time period covered by the timeline. In general, unless otherwise specified, our timelines are scoped to cover the entire history of the topic, as well as possibly some pre-history. However, there may be cases where, in principle, the history of a topic stretches far back, but cogent, explicit information related to the topic only spans a few years. We may choose to focus the timeline on those few years.
+
+Another aspect of the "when" is the stage in the lifecycle of the subtopic the specific row is about. For instance, this "when" would distinguish between the starting of an organization and incremental changes to it. We may set an inclusion criterion that is more inclusive of the starts of organizations but less inclusive of incremental changes at organizations.
+
+== Differences between these inclusion criteria and inclusion criteria for other lists ==
+
+These differences are relevant because they inform our research process.
+
+=== Differences between the events we select for organization timelines and how they describe their own histories ===
+
+There are a few ways our timeline of an organization may differ from the way they describe their own history; specifics may vary by timeline, based on what we want to get out of each timeline.
+
+* Our timeline of an organization often include a lot more on "firsts" for things that are not grand enough for the organization to describe in their own timeline. For instance, the start dates for website registration, blog, mailing list, etc. These are important behind-the-scenes milestones that the organization may not put in its public-facing history.
+* Related to the above, our timeline of an organization may include references to the first time they mentioned a particular topic, even if this was well before they published officially on the topic or had any association that they would care to put in their organizational history. For instance, the [[timeline of GiveWell]] has timeline rows for some of GiveWell's early blog posts where they started identifying relevant organizations as well as started honing key ideas that would inform their thinking in coming years.
+* Related to the above points, our timelines tend to be more heavily informed by the content of discussion on blogs and mailing lists than the official histories.
+* Our timelines may include more information about backdrop events, such as competitors or others in the ecosystem, than the organization's official history does.
+
+=== Differences between events in our timelines and documents/donations as shown on the donations list website (DLW) ===
+
+Many of the topics we have timelines for also show up as donors or donees on the donations list website. There is some overlap between our timeline rows and the documents and donations on the donations list website. A few compare-and-contrasts:
+
+* [[Timeline of Machine Intelligence Research Institute]] versus [https://donations.vipulnaik.com/donee.php?donee=Machine+Intelligence+Research+Institute donee page for Machine Intelligence Research Institute]
+* [[Timeline of Against Malaria Foundation]] versus [https://donations.vipulnaik.com/donee.php?donee=Against+Malaria+Foundation donee page for Against Malaria Foundation]
+
+Stuff that will be present on our timeline, but may not be present on DLW:
+
+* Stuff related to organizational milestones and organizational firsts is usually a good fit for a timeline but may not fit in as either a donation or a document if the subject matter itself does not qualify. For instance, the first blog post, or the start of a mailing list, or the start of a new initiative, are usually relevant for a timeline, but only in some cases do they form documents that make sense to include in DLW.
+* External citations of the organization that don't have substantive subject matter of interest may be relevant for a timeline (insofar as they show that the organization is garnering attention) but may not be valuable enough to include as documents on DLW.
+
+Stuff that will be present on DLW, but that may not be present on our timeline:
+
+* The way documents get included in DLW is through essentially a tagging system: each document specifies a list of affected donors and affected donees, and if a particular organization is in the respective list, the document will show up in the organization's page. Thus, the DLW page on an organization may show several documents that are only tangentially about the organization but are important as documents; these will generally not be included in the timeline. For instance, [https://animalcharityevaluators.org/blog/where-the-ace-staff-members-are-giving-in-2017-and-why/ Where the ACE Staff Members Are Giving in 2017 and Why] shows up in DLW documents for the Machine Intelligence Research Institute because the organization is mentioned by one of the people in the blog post in one sentence. But this blog post would not qualify for inclusion in the timeline of MIRI.
+* There could also be cases where a document on DLW about an organization is in fact focused on the organization, but we still don't include it in the timeline because it's not that relevant to the history of the organization. Basically, although it's focused on the organization, and its subject matter is interesting enough for DLW, it isn't that significant in the trajectory of the organization.
+* DLW tries to be as comprehensive as feasible (given constraints of data availability, resources for data entry, and privacy) in listing donations. The timeline of an organization will only list donations that are either big enough to meaningfully affect the organization, or are significant in other ways (such as the commentary associated with the donation or the impact on other donations).
+
+=== Differences between events in our timelines and the stuff on Org Watch (OW) ===
+
+There are several cases where we have a timeline of an organization that is also covered on Org Watch (OW). A few examples:
+
+* [[Timeline of Machine Intelligence Research Institute]] versus [https://orgwatch.issarice.com/?organization=Machine+Intelligence+Research+Institute Org Watch page for Machine Intelligence Research Institute]
+* [[Timeline of OpenAI]] versus [https://orgwatch.issarice.com/?organization=OpenAI Org Watch page for OpenAI]
+
+Stuff that will be present on our timeline but may not be present on OW:
+
+* Basically a lot of stuff related to the actual work the organization does (as opposed to its team growth) and the money it raises or spends, would be included in the timeline but won't fit on OW.
+
+Stuff that will be present on OW but mostly won't make it to the timeline:
+
+* Detailed history of people joining or leaving -- OW aims to be as comprehensive as possible (given constraints of data availability and resources for data entry) but the timeline is only meant to cover relatively important personnel changes.
+* Documents that are of interest in understanding what it's like to work at the organization, but that aren't that relevant to the organization's overall trajectory. Similar to DLW, OW has a tagging system so a document that touches on multiple orgs gets included in the OW pages for all those orgs, but may not make it to the timeline of each of them. An example is [https://forum.effectivealtruism.org/posts/jmbP9rwXncfa32seH/after-one-year-of-applying-for-ea-jobs-it-is-really-really#rwCRLwqywjN4Eu3E7 this comment] that covers one person't experience applying to several orgs including MIRI. This shows up on MIRI's OW page but would not make it to the timeline of MIRI.
+
+== See also ==
+
+* [[Representativeness of events in timelines]]
