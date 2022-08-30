@@ -39,7 +39,7 @@ For timelines that pass hands between multiple editors over time, having clear i
 
 === Inclusion criteria for "who" or "what" ===
 
-One kind of inclusion criterion is for who or what gets included. For instance, for the [[timeline of Bill & Melinda Gates Foundation]], as of August 30, a minimum of $50 million was set as the inclusion criterion for individual grants in the full timeline.
+One kind of inclusion criterion is for who or what gets included. For instance, for the [[timeline of Bill & Melinda Gates Foundation]], as of August 30, 2022, a minimum of $50 million was set as the inclusion criterion for individual grants in the full timeline.
 
 === Inclusion criteria for "when" ===
 
