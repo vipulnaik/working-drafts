@@ -1,0 +1,126 @@
+This wikiHow teaches you how to maintain your laptop computer in order to keep it running fast and error-free.
+[[Category:Laptop Maintenance and Repair]]
+
+==Things You Should Know==
+*'''Keep your laptop clean and charged. When you lift it, make sure to always lift from its base (not the screen).'''
+*'''Shut your laptop down at least once every few days. Leave it off for at least 15 minutes before restarting.'''
+*'''Keep your software up to date, and periodically clear out any old programs or unwanted files.'''
+
+== Steps ==
+=== Taking Care of Hardware ===
+#Prevent accidents before they happen. Protecting your laptop's hardware is usually a matter of caution. You can avoid the majority of common pitfalls by doing the following:[[Image:Take Good Care of Your Laptop Computer Step 1 Version 3.jpg|center]]
+#*Keep food and drink away from the laptop. When drinking water or other beverages while working on your laptop, keep your glass or bottle at least one foot away from the laptop. A useful rule of thumb is that even if you toppled over your drink, it should be far enough away from your laptop that the laptop won't experience the spill. If you need to eat near the laptop, close the laptop lid. If you do want to watch videos on the laptop while eating (and accept the greater risk to your laptop), keep the laptop as far away as possible and cover the keyboard with a plastic foam to minimize the risk of spills.
+#*Use your laptop in safe conditions (e.g., away from water, extreme temperatures, and so on). For instance, try not to use your laptop where it faces direct sunlight, near heating vents, or outdoors where there is risk of rainwater, dust, or other particles getting into it. During days of high temperatures, it's even more important to keep your laptop on a hard surface and make sure the vents are unobstructed, and keep workloads on the laptop low.
+#*Place your laptop out of reach of children and pets.
+#Buy a computer case. Especially if you're particularly accident-prone, having a hard-shell case for your laptop will prevent damage from minor falls or spills when your laptop is shut.[[Image:Take Good Care of Your Laptop Computer Step 2 Version 2.jpg|center]]
+#*You might also want to invest in a specific laptop bag (or a backpack with a dedicated laptop compartment) if you travel often.
+#Know how to treat the battery.[[Image:Take Good Care of Your Laptop Computer Step 3 Version 3.jpg|center]]
+#* Unfortunately, factory laptop batteries tend to have reduced lifespans, so your laptop's battery life will usually not match the factory estimates. Battery life reduces each time you have to charge it, so consider keeping your laptop plugged into a power cable until you absolutely have to use the battery.
+#* If the laptop is constantly plugged in, there is some risk of overcharging. However, modern laptops have built-in protections against overcharging -- if they detect that you tend to keep the laptop plugged in most of the time, they will occasionally discharge the battery a little bit to maximize its lifespan. Make sure that you have enabled this functionality if available on your laptop. For Macs, this is available at System Preferences > Battery > Battery as "Optimized battery charging". It's usually better to just leave the laptop plugged in and let the machine do the occasional discharge, rather than unplug the power cord yourself every few days. However, older laptops may not have this overcharge protection functionality, so if you're using an older laptop and never need to unplug it in your regular use, you may want to unplug for an hour or two every week.
+#Use your laptop in ideal conditions. When using your laptop, try to recreate the best possible conditions by doing the following:[[Image:Take Good Care of Your Laptop Computer Step 4 Version 3.jpg|center]]
+#*Make sure your hands are clean before using your laptop.
+#*Place your laptop on a clean, dust-free surface.
+#*Make sure the laptop is well-ventilated by ensuring that the vents are clear of obstructions.
+#*Keep your environment at a neutral temperature.
+#*Use a dehumidifier if your climate is exceptionally humid.
+#Clean your laptop often. Taking a few minutes to clean your computer of dust, grime, residue, and so on will make a huge difference in your laptop's lifespan. Focus on the following:[[Image:Take Good Care of Your Laptop Computer Step 5 Version 3.jpg|center]]
+#*[[Clean-a-Laptop-Keyboard|Keyboard]]
+#*Vents
+#*[[Clean-a-Laptop-Screen-with-Household-Products|Screen]] 
+#Be gentle when plugging in peripherals. Peripherals are items you plug into your laptop; these can include USB flash drives or accessories, headphone or speaker cables, adapters, and even the power cable. Many of these items have specific ports or locations into which they fit, so pay attention to the shape and size of an item's connector before plugging it into its respective port.[[Image:Take Good Care of Your Laptop Computer Step 6 Version 3.jpg|center]]
+#Don't leave your laptop in a car. Not only do the insides of cars experience large temperature swings that could damage a laptop, but a laptop (or laptop bag) is an inviting target for a thief.[[Image:Take Good Care of Your Laptop Computer Step 7 Version 3.jpg|center]]
+#Avoid placing things on top of your laptop. This can push the LCD screen into the keyboard, and may eventually damage your laptop's screen.[[Image:Take Good Care of Your Laptop Computer Step 8 Version 3.jpg|center]]
+#*This includes anything from your phone to books, dishes, or clothes.
+#Shut down your laptop once every few days. You may notice that your laptop begins to run sluggishly after a few days of being constantly on. You can remedy this problem by turning off your laptop all the way and leaving it alone for 15 minutes; this will allow your computer's hardware to rest and reset. To turn off your computer all the way, do the following:[[Image:Take Good Care of Your Laptop Computer Step 9 Version 3.jpg|center]]
+#*''Windows'' — Click the '''Start''' {{windows|start}} icon, click the '''Power''' {{windows|power}} icon, and click '''Shut down'''.
+#*''Mac'' — Click the '''Apple menu''' {{mac|apple}}, click '''Shut Down...''', and click '''Shut Down''' when prompted.
+#Hold and lift the computer by its base, and close the lid before lifting and transporting the laptop.[[Image:Take Good Care of Your Laptop Computer Step 10 Version 3.jpg|center]]
+#* If you lift your laptop by the screen alone, you could damage the display or the hinges attaching the display to the base. The display is also easily scratched or damaged by direct pressure, so take care not to place pressure on it.
+#* If you drop the laptop while transporting it, it's much more likely to get damaged if the lid is open than if it is closed. So it's better to close the lid when transporting the laptop, even over relatively short distances (e.g., from your bed to your table). Closing the laptop lid also reduces the pressure imposed on the hinges.
+#* When transporting the laptop, it's better to support it from below with one hand and from the side on the other. If that isn't feasible, hold it from both hands on both sides. Do not just hold it with one hand from one side, as this increases the risk of losing your grip over it and can also result in more pressure on the hinges.
+#* Do not carry other things inside your laptop, on top of your laptop, or in your other hand while holding and transporting the laptop. Among other risks, if any of them slip you might be tempted to catch them, losing your control over the laptop as well.
+#Protect the screen. One of the reasons your computer's screen will always end up smudged regardless of how careful you are is because the laptop's screen touches the keyboard keys, which have oil, grit, and dust on them, whenever you close the lid. You can cut down on this problem by placing a thin piece of foam or plastic on your keyboard before closing the lid.[[Image:Take Good Care of Your Laptop Computer Step 11 Version 3.jpg|center]]
+#Reduce the risk of the laptop getting pulled off the table by power cords or accessories.
+#* Keep the laptop at least a few inches away from the edge of the table you've placed it on, so that there's some room for it to be pulled without toppling off the table.
+#* Make sure that power cords are placed in a way that you are unlikely to accidentally trip over or pull them. The same applies to accessories such as plugged-in headphones, though the risk there is less.
+
+=== Taking Care of Software on Windows ===
+#Keep your computer's programs up to date. Out-of-date programs can slow down your computer and cause errors, so make sure you're updating your programs whenever you see the "Update available" window pop up.[[Image:Take Good Care of Your Laptop Computer Step 12 Version 3.jpg|center]]
+#*You can also check for updates manually by opening your program's Settings or Help menu and looking for a '''Check for Updates''' button.
+#*Downloading the latest version of a program's installer file and running it will also replace the older version of the program with an updated version.
+#Install a faster browser. If you're still using Microsoft Edge and Internet Explorer on your PC, consider switching over to something like [[Download-and-Install-Google-Chrome|Google Chrome]] or [[Download-and-Install-Mozilla-Firefox|Firefox]].[[Image:Take Good Care of Your Laptop Computer Step 13 Version 3.jpg|center]]
+#Close programs you aren't using. Each running program takes up a certain amount of memory (known as RAM) and processing power, so make sure you're closing the ones you don't want to use. You can force stubborn or unresponsive programs to close by doing the following:[[Image:Take Good Care of Your Laptop Computer Step 14 Version 3.jpg|center]]
+#*Press {{keypress|Ctrl|Shift|Esc}} to bring up the Task Manager.
+#*Select a program that's listed in the "Apps" section.
+#*Click '''End task''' in the bottom-right corner of the window.
+#*Repeat with other programs you want to close.
+#Remove unwanted programs. Having programs and apps installed on your computer's hard drive takes up space, thus creating strain on the hard drive itself. You can remove programs you neither need nor want by doing the following:[[Image:Take Good Care of Your Laptop Computer Step 15 Version 3.jpg|center]]
+#*Open '''Start''' {{windows|start}}.
+#*Open '''Settings''' {{windows|settings}}.
+#*Click '''Apps'''.
+#*Find the program you want to install.
+#*Click the program's name, then click '''Uninstall'''.
+#*Click '''Uninstall''' again when prompted.
+#*Follow the on-screen prompts to complete the uninstallation.
+#Update Windows whenever possible. When your computer's operating system has an update available, it's best to update right away. Not only will doing so give you access to the latest features and support, it will also ensure that your computer is protected from the most recent threats:[[Image:Take Good Care of Your Laptop Computer Step 16 Version 3.jpg|center]]
+#*Open '''Start''' {{windows|start}}.
+#*Open '''Settings''' {{windows|settings}}.
+#*Click {{windows|update}} '''Update & Security'''.
+#*Click '''Check for updates''', then allow any available updates to install.
+#*Restart Windows to allow operating system updates to install.
+#Clear out temporary files. Temporary files, such as the ones left over from Internet browsing, can clutter your hard drive. You can easily remove them by doing the following:[[Image:Take Good Care of Your Laptop Computer Step 17 Version 3.jpg|center]]
+#*Open '''Start''' {{windows|start}}.
+#*Type in {{kbd|disk cleanup}}.
+#*Click '''Disk Cleanup'''.
+#*Check any box on the main window, including the "Temporary Internet Files" one. You can also click the '''Clean up system files''' button in the lower-left corner to see additional options.
+#*Click '''OK''', then click '''Delete Files''' when prompted.
+#Turn off as many startup programs as possible. Startup programs—i.e., programs which begin running as soon as you start your computer—are notorious for making the process of starting your computer incredibly slow. Preventing all but the most necessary of startup programs from beginning automatically will ensure that your computer loads significantly faster, thus reducing the strain on your processor and lengthening your computer's lifespan:[[Image:Take Good Care of Your Laptop Computer Step 18 Version 3.jpg|center]]
+#*Press {{keypress|Ctrl|Shift|Esc}} to bring up the Task Manager.
+#*Click the '''Startup''' tab.
+#*Select a program that you want to disable.
+#*Click '''Disable''' in the lower-right corner of the window.
+#*Repeat with other programs.
+#Clear out old files. Manually deleting files, photos, videos, and other items that you no longer need is essential if you want to maintain your hard drive.[[Image:Take Good Care of Your Laptop Computer Step 19 Version 3.jpg|center]]
+#*You can delete a file by right-clicking it and then clicking '''Delete'''.
+#[[Defrag-Windows-10|Defragment your computer's hard drive]]. Due to Windows' file system, files and other data can become "fragmented" across your hard drive over time. This makes it harder for your hard drive to find the files. Defragmenting your hard drive will reassemble most of these files in their original locations, making your computer run much smoother.[[Image:Take Good Care of Your Laptop Computer Step 20 Version 3.jpg|center]]
+#*Do not defragment your computer if you have a Solid State Drive (SSD) instead of a traditional hard drive. It isn't necessary, and can actually ruin your drive in the process.
+#Empty the Recycle Bin. It's easy to forget that files you've moved to the Recycle Bin by way of deleting them aren't automatically removed from your hard drive. To empty the Recycle Bin, right-click it, click '''Empty Recycle Bin''' in the drop-down menu, and click '''Yes''' when prompted.[[Image:Take Good Care of Your Laptop Computer Step 21 Version 3.jpg|center]]
+
+=== Taking Care of Software on a Mac ===
+#Keep your computer's programs up to date. Running outdated programs on your Mac can be a security risk. While updating third-party programs must be done from within the programs' Help or Settings menus, you can update your Mac's App Store programs by doing the following:[[Image:Take Good Care of Your Laptop Computer Step 22 Version 3.jpg|center]]
+#*Click the '''Apple menu''' {{mac|apple}}.
+#*Click '''App Store...''' in the drop-down menu.
+#*Click the '''Updates''' tab.
+#*Click '''UPDATE ALL''' at the top of the page.
+#Use Safari to browse. Contrary to Windows computers, your Mac's Safari browser is the fastest option available to you. This doesn't mean you can't use other browsers like Chrome or Firefox, but if you're looking for the fastest browser available, Safari is your best bet.[[Image:Take Good Care of Your Laptop Computer Step 23 Version 2.jpg|center]]
+#Close programs you aren't using. Each running program takes up a certain amount of memory (known as RAM) and processing power, so make sure you're closing the ones you don't want to use. You can close programs from the Dock by clicking and holding an app and then clicking '''Quit''' in the pop-up menu, and you can force stubborn or unresponsive programs to close by doing the following:[[Image:Take Good Care of Your Laptop Computer Step 24 Version 2.jpg|center]]
+#*Click '''Spotlight''' {{mac|spotlight}}.
+#*Type in {{kbd|activity monitor}}.
+#*Double-click '''Activity Monitor'''.
+#*Select a program you want to quit, then click the '''X''' icon in the top-left corner of the window.
+#*Click '''Force Quit''' when prompted.
+#Remove unwanted programs. Uninstalling apps on a Mac is relatively simple: drag the app's icon from the Applications folder into the Trash, then enter your Mac's password if prompted. This will help clear up hard drive space, which is especially important given that many Macs don't have huge hard drives.[[Image:Take Good Care of Your Laptop Computer Step 25 Version 2.jpg|center]]
+#[[Check-for-and-Install-Updates-on-a-Mac-Computer#Upgrading_to_a_Newer_OS_X_Version_sub|Update macOS whenever possible]]. Your Mac's operating system will occasionally receive a free update that includes new features, protection against new threats, and error fixes. It's incredibly important to update your Mac when these fixes become available.[[Image:Take Good Care of Your Laptop Computer Step 26 Version 2.jpg|center]]
+#[[Clean-a-Computer-of-Malware#Scanning_for_Malware_on_Mac_sub|Protect your Mac with an antivirus program]]. Unlike Windows computers, your Mac doesn't come equipped with a built-in, dedicated antivirus program. You can use the free Malwarebytes program to protect your Mac from viruses, malware, and other malicious software.[[Image:Take Good Care of Your Laptop Computer Step 27 Version 2.jpg|center]]
+#[[Disable-Startup-Programs#Mac_sub|Turn off as many startup programs as possible]]. While startup programs may not impact your Mac's startup time to the same extent that they impact a PC, you can still shave a few seconds off of your Mac's startup time and prevent unnecessary strain on your computer's components by preventing programs from starting when you turn on your Mac.[[Image:Take Good Care of Your Laptop Computer Step 28 Version 2.jpg|center]]
+#Clear out old files. Manually deleting files, photos, videos, and other items that you no longer need is essential if you want to maintain your hard drive.[[Image:Take Good Care of Your Laptop Computer Step 29 Version 2.jpg|center]]
+#*You can delete a file by clicking it to select it, clicking '''File''', and clicking '''Move to Trash'''.
+#Empty the Trash. Your Mac's Trash doesn't empty by itself, so any files you've deleted will technically remain on your hard drive until you clear out the Trash. You can do this by clicking and holding the Trash icon in your Mac's Dock and then clicking '''Empty Trash''' in the pop-up window.[[Image:Take Good Care of Your Laptop Computer Step 30 Version 2.jpg|center]]
+
+== Tips ==
+*Make sure you're taking good care of yourself while working on your laptop by [[Sit-at-a-Computer|reviewing proper computer posture]].
+*If you have a standard hard drive instead of a Solid State Drive (SSD), try to keep it below half-full. Any files stored in the bottom half of the hard drive often take significantly longer to retrieve than those stored in the top half. Keeping your hard drive below half-full will cut down on load times.
+*You can reinstall your computer's operating system once every year or two by [[Back Up Data|backing up your computer's data]], resetting your computer, and then restoring your backed-up data. This will remove system-level items that contribute to slow-down and decay of your computer over time.
+*Laptop insurance is a must if you plan on taking your computer more than a few feet from your office or general workspace.
+*If you travel often, you should put a label with your name, e-mail, cell phone number, and other pertinent contact details on the laptop, the power cord, and any other removable parts.
+
+== Warnings ==
+*Laptop batteries—particularly the ones which are included with laptops—tend not to have much longevity. You'll most likely need to replace your laptop's battery after a couple of years in order to avoid having to use the laptop while constantly plugged in.
+
+== Related wikiHows ==
+*[[Clean a Laptop Screen with Household Products]]
+*[[Recover Data from the Hard Drive of a Dead Laptop]]
+*[[Pop a Key Back Onto a Dell Laptop Keyboard]]
+*[[Save a Laptop from Liquid Damage]]
+
+__PARTS__
