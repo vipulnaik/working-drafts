@@ -31,7 +31,7 @@ The main goal is to navigate more quickly to webpages, but the methods here, par
 | Search engine (without <code>site:</code> operator)
 | A word that appears in the URL, title, or body of the page
 | You don't need to remember a word or phrase in the URL/title
-| Without the <code>site:</code> operator, a search engine will search all of the internet, so you will possibly have to sift through many irrelevant results. Also, the method doesn't work for things indexed by search engines, such as private Google Docs, forums, wikis, and code repositories
+| Without the <code>site:</code> operator, a search engine will search all of the internet, so you will possibly have to sift through many irrelevant results. Also, the method doesn't work for things not indexed by search engines, such as private Google Docs, forums, wikis, and code repositories
 |-
 | Site-specific search (site's search box or search engine with <code>site:</code> operator)
 | A word that appears in the body of the page ''and'' the website the page is on
