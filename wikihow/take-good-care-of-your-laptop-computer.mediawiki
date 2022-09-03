@@ -43,6 +43,9 @@ This wikiHow teaches you how to maintain your laptop computer in order to keep i
 #Reduce the risk of the laptop getting pulled off the table by power cords or accessories.
 #* Keep the laptop at least a few inches away from the edge of the table you've placed it on, so that there's some room for it to be pulled without toppling off the table.
 #* Make sure that power cords are placed in a way that you are unlikely to accidentally trip over or pull them. The same applies to accessories such as plugged-in headphones, though the risk there is less.
+# When opening and closing the lid, use more than one finger and make sure to hold the base to keep it steady.
+#* If you try opening or closing the lid without holding the base steady, this puts pressure on the hinges, which weakens them; it also increases the risk of toppling or pushing the laptop.
+#* For the same reasons as above, it's good to use multiple fingers when opening or closing the lid.
 
 === Taking Care of Software on Windows ===
 #Keep your computer's programs up to date. Out-of-date programs can slow down your computer and cause errors, so make sure you're updating your programs whenever you see the "Update available" window pop up.[[Image:Take Good Care of Your Laptop Computer Step 12 Version 3.jpg|center]]
