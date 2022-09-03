@@ -108,3 +108,5 @@ comparable to the amount GiveWell moves for its highest-moved areas).
 ### GiveWell is okay just scaling up; Gates Foundation is more into innovation and tries to get other entities to help with the scale-up
 
 https://blog.givewell.org/2007/11/20/heres-to-fear-of-failure/
+
+## Can we think of Gates Foundation as a seed investor, and GiveWell as a strategic late-stage investor?
