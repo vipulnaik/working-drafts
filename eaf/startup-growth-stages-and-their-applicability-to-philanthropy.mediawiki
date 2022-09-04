@@ -191,3 +191,139 @@ interested in their donation actually having an impact. Donors may
 also differ in where they land on the risk/reward tradeoff based on
 the social dynamics and the likelihood of triggering followup
 donations.
+
+Back in GiveWell's early days, Holden [essentially
+claimed](https://blog.givewell.org/2007/11/20/heres-to-fear-of-failure/)
+that there wasn't enough late-stage investment; everybody wanted to
+fund new, innovative things. He argued that people were not afraid of
+the "risk" side of the risk/reward tradeoff enough! This is probably
+at least partly because the risk is social, not private, and there's
+no automatic feedback mechanism where people who fail run out of money
+faster than people who succeed.
+
+### The absence of private return also creates weird coordination dynamics
+
+I know that if I donate $100,000 to a great charity, I'll be $100,000
+poorer and the world will be better off. But I also know that if
+instead I spend $1,000 convincing you to donate $100,000 to the same
+charity, I'll be just $1,000 poorer and the world will still be
+richer. That leaves me $99,000 to convince other people, and arguably
+I could 100x my impact if I could find 100 people like you.
+
+Convincing is one thing; I could also threaten. For instance, if I
+know that you'll donate conditional to me not donating, I'm better off
+not donating. It's like a [game of
+chicken](https://en.wikipedia.org/wiki/Chicken_(game)). The point is
+that I have very little incentive to be the one to actually donate --
+I just need the money moved, and it's better for me selfishly, and
+plausibly even better for my altruistic impact, if I can get others to
+pay the money.
+
+How serious are these coordination dynamics?
+
+* Within the EA community, people take these coordination dynamics
+  issues seriously, and try to address them, though their solutions
+  are open to debate. For instance, the [Survival and Flourishing
+  Fund's S-process](https://www.youtube.com/watch?v=jWivz6KidkI) uses
+  a simulation where small amounts of each donor's allocation are
+  allocated to the best uses at the margin. This addresses the
+  situation where donors try to get other donors to cover the obvious,
+  "shared" donees so that they can spend more of their budget on the
+  things they personally prefer.
+
+* In the world of philanthropy at large, some of these coordination
+  dynamics issues are less prevalent even to begin with, partly just
+  because most donors aren't trying to be that strategic in the first
+  place. Also, donors may care more about "being the ones to donate";
+  in this case, the "private financial return" is substituted by the
+  "private egotistical return" that is in principle bad from the
+  perspective of wanting to be truly effective, but on the plus side
+  reduces the incentive to outsmart other donors in coordination
+  dynamics.
+
+### Reviewing "what changes between rounds" in the nonprofit context
+
+With nonprofits, we don't generally have this discrete concept of
+rounds, though things like end-of-year fundraisers can somewhat
+approximate rounds. We have more of a continuum of growth of the
+organization, and the revenue and spending of the organization as it
+grows.
+
+We can still try to ask how much of what we said in "What changes
+between rounds" loosely applies to the nonprofit space. Let's look:
+
+* The amount of total funding generally goes up: This is true,
+  assuming the nonprofit is growing, i.e., that it is scaling up its
+  programs.
+
+* The valuation goes up: There is no concept of valuation!
+
+* The sizes of individual donations go up as the organization grows,
+  until it becomes so big and famous that it can just raise money from
+  random people (the equivalent of "IPO"): This is sort-of-true, but
+  not for all organizations. Many nonprofits grow in a grassroots
+  fashion by growing the number of donors rather than growing the size
+  of donations.
+
+  With that said, the growth of nonprofits in EA and EA-adjacent
+  spaces, that rely on donors in the EA space, *has* shown the pattern
+  of raising larger amounts of money per donor as they grow. Moreover,
+  at least in global health and development, there's something
+  somewhat analogous to going public: becoming a GiveWell top charity,
+  at which point the nonprofit can attract significant direct
+  donations from individual donors.
+
+### Small donors: at both ends?
+
+In the for-profit world, very small investors are limited to the
+public markets. Small investors can play at either end:
+they can invest in seed rounds (as "angels"), or they can play in the
+public market. But it's hard for them to get in the numbered series
+rounds unless they are sufficiently well-connected to get in as
+"friends and family".
+
+We don't have strict restrictions of this kind in the nonprofit world:
+most nonprofits allow anybody to donate! But there's probably
+something loosely qualitatively similar, driven by the amount of "time
+overhead" it makes sense to spend in light of the amount of money
+being donated. So, very small donors generally tend to give money to
+safe, well-understood things -- somewhat like investing in the public
+market. Small-but-not-very-small donors (e.g., people donating a few
+thousand dollars) tend to either gravitate toward well-understood
+opportunities (akin to the public market) or go for something very
+niche that they feel they have a comparative advantage in evaluating
+(akin to angel investing). This doesn't necessarily map to a very
+specific set of organizations at either end, because things are more
+fuzzy here and anybody can donate to any nonprofit (for the most part).
+
+### Big donors: do they support things at all stages of the lifecycle?
+
+Investors with a lot of money tend to play throughout the spectrum:
+from angels to late-stage investors (e.g., Series C) to the public
+markets. A particular investor may choose to focus based on the
+risk/reward tradeoff, personal excitement, and specialization. What
+about donors? Are donors available to fund all stages in the
+lifecycle?
+
+Interestingly, it looks like the funding institutions in and around
+the EA community seem to be much better at this than philanthropy at
+large: the big donors and institutions tend to reliably fund
+organizations that are generally agreed upon to be doing good work
+even though there isn't a high reward upside (either private or
+social).
+
+For instance, pretty much any organization relatively well-respected
+in the EA community can generally raise money without spending a lot
+of effort through one of these: Survival and Flourishing Fund (money
+mostly from Jaan Tallinn), Open Philanthropy, EA Funds, and the FTX
+Future Fund. Which one they actually raise money from can be a bit
+random. But my general impression is that in the EA space,
+organizations generally have to spend a smaller share of their time
+and energy into fundraising and marketing around fundraising; they can
+rely on these donors and top-up grants at least as far as keeping them
+sustained at their current budget is concerned.
+
+My general impression is that the world of philanthropy at large is
+more dysfunctional. cf. Holden's [fear of failure
+post](https://blog.givewell.org/2007/11/20/heres-to-fear-of-failure/)
+that I previously cited.
