@@ -96,6 +96,28 @@ Stuff that will be present on OW but mostly won't make it to the timeline:
 * Detailed history of people joining or leaving -- OW aims to be as comprehensive as possible (given constraints of data availability and resources for data entry) but the timeline is only meant to cover relatively important personnel changes.
 * Documents that are of interest in understanding what it's like to work at the organization, but that aren't that relevant to the organization's overall trajectory. Similar to DLW, OW has a tagging system so a document that touches on multiple orgs gets included in the OW pages for all those orgs, but may not make it to the timeline of each of them. An example is [https://forum.effectivealtruism.org/posts/jmbP9rwXncfa32seH/after-one-year-of-applying-for-ea-jobs-it-is-really-really#rwCRLwqywjN4Eu3E7 this comment] that covers one person't experience applying to several orgs including MIRI. This shows up on MIRI's OW page but would not make it to the timeline of MIRI.
 
+== Things to keep in mind when constructing timelines based on other sources (books, media coverage, blog posts, etc.) ==
+
+=== For books, keep in mind that the book won't include stuff we have learned since ===
+
+Books usually get published on a specific date and don't get update after that date (except to the extent a second edition is released, but if so that'll have its own later publication date).
+
+Books obviously miss out on events that happen after the book is published.
+
+However, books can in some cases also miss events that happen before the book is published, if the significance of those events only becomes clear after the book is published.
+
+=== Prefer things that multiple sources identify ===
+
+Books and other popular expositions may sometimes include random anecdotes to drive a point home. In many cases, the specific random anecdotes are not worthy of inclusion in the timeline, unless the discussion of the anecdote itself triggered stuff worth discussing. One way to keep an eye on this is to look for things that multiple sources identify.
+
+=== Beware of random sample points from a time series ===
+
+Sometimes there is news coverage or a mention in a book of some statistic at a specific time. For instance, how many users a service has, or the number of papers about a topic. Generally, such statistics are not worth noting in the full timeline, though they may make sense in a separate table on the timeline page. There are a few exceptions where we do include statistics in the full timeline:
+
+* In some cases, the time point at which the statistic is measured has significance, and the statistic offers information (implicitly or explicitly) that is relevant to other stuff happening on that time point. In such cases, the timeline row should draw attention to the significance of the time point and what the statistic sheds light on.
+* In some cases, the statistic itself is behaving in an unusual way, e.g., rising or dropping a lot. The timeline row should mention the ways in which the statistic is behaving unusually, and people's hypotheses about it and reactions to it.
+* In some cases, the reporting of the statistic generates some discussion or even triggers a series of changes. The timeline row should articulate what these changes are.
+
 == See also ==
 
 * [[Representativeness of events in timelines]]

@@ -1,0 +1,70 @@
+This page talks about what to put in the Details column for rows in the full timeline. It is complementary to the [[inclusion criteria for full timeline in timelines]]. Whereas the inclusion criteria page is about ''what deserves a row'', the detail construction page you're reading right now is about ''how to write the row''.
+
+== Present tense ==
+
+Wherever possible, we use the present tense for timeline rows, as this gives a sense of being "in the moment in time" when the events are happening. Future events after that should use "would" or something similar; there's a [https://www.quora.com/What-is-the-correct-name-for-the-future-verb-tense-such-as-he-would-go-on-to-become-famous Quora discussion] of whether this is future tense or past tense.
+
+== Goals of the detail: a self-contained row ==
+
+The general idea is that the detail should be sufficient to make reading a row a self-contained experience. It should not be necessary to read the cited sources, or read other rows in the timeline, or follow links to Wikipedia pages, to understand what the row is about.
+
+=== The detail should identify the reasons for significance, including reasons that emerge later, after the event ===
+
+For instance, here's an example of a detail, taken from a version of the [[timeline of existential risk]]:
+
+{{quote|The first nuclear detonation is conducted when a plutonium implosion device is tested at a site located 210 miles south of Los Alamos, New Mexico. Many scientists would suggest dating the beginning of the Anthropocene age to this event, stating that that Homo sapiens gained a position of unprecedented influence over the Earth system.}}
+
+Notice how the first sentence here describes the event, whereas the second sentence explains its significance as perceived retrospectively. If we just had the first sentence, its significance would be less clear, with the reader having to connect the dots.
+
+Here's another example:
+
+{{quote|Edwin Hubble publishes his conclusion, based on his observations of Cepheid variable stars in distant galaxies, that the universe is expanding. From then on, the beginning of the universe and its possible end would be subjects of serious scientific investigation.[}}
+
+=== The detail should include followup actions, especially if those followup actions don't get their own row ===
+
+For instance, further steps in ratification/taking force, or repeal, or propagation, might be included as additional sentences in the row. An example, again from a version of the [[timeline of existential risk]]:
+
+{{quote|The Geneva Protocol is signed with the purpose to ban the use of chemical and biological weapons.[22] It would enter into force on 8 February 1928.}}
+
+=== The detail should use short descriptions to identify the individuals involved, in particular highlighting their claims to fame ===
+
+For instance, instead of just saying "{{w|Isaac Asimov}}", you could say "famous science fiction author {{w|Isaac Asimov}}". If the person isn't yet famous, and this is an early work, a followup sentence could say that the person would go on to become famous, and also highlight if this original work might have been influential in their becoming famous or their actions after becoming famous.
+
+=== The detail should provide a balanced perspective rather than be overly one-sided ===
+
+This is particularly relevant when the underlying item originally comes from the page of an advocate, or from a marketing page: the way the item is described in the source can be overly one-sided, and miss important nuance. It's usually helpful to try to read the original sources and build a more complete picture.
+
+For instance, let's say we want to know what others are saying about GiveWell at various stages of its life. GiveWell has a helpful page titled [https://www.givewell.org/about/what-others-are-saying What Others Are Saying], that conveniently includes quotes, so it feels convenient to use those. However, sometimes the portion GiveWell cites is very selective, and it's helpful to read the original source around that portion to get a better sense.
+
+For instance, the page by GiveWell cites ''Half the Sky'' as a book that suggests donors consider using GiveWell to inform their donation decisions:
+
+{{quote|Half the Sky, a book by New York Times columnist Nicholas Kristof points to GiveWell as a donor resource, September 8, 2009.}}
+
+This is not inaccurate; however, by reading reviews of the book, it becomes clearer that both GiveWell ''and'' {{w|Charity Navigator}} (that GiveWell has been critical of, and that in turn has been critical of some ideas GiveWell has been associated with) were suggested in the book. Including the names of both suggestions helps paint a more complete picture of where GiveWell was in people's minds.
+
+Marketing-like pages also often don't link to contemporaneous discussion in blogs and forums; locating such discussion can help by providing more color into the perceptions at the time.
+
+== The detail construction should be friendly to changes in sort order ==
+
+The content of the detail of a particular row should not make reference to its order relative to other rows. That's because the timelines encourage people to sort by any of several columns, and such sorting would invalidate any references within the detail of a row talking about nearby rows by position. So it's better not to use such references.
+
+== Goal of the references: provide evidence and a way to cross-check, and also give readers a way to dig more ==
+
+References serve two purposes: providing evidence of the correctness of the timeline row, and giving readers a way to delve deeper into what's happening.
+
+The first of these purposes is something we consider a standard worth adhering to: for every timeline row, we try to give enough references that individual concrete facts in the row can be verified. This may be a bit more difficult to do for the summaries of what would happen in the future, because there's no single defining event that would trigger a citable article. But do look around a little bit.
+
+=== What constitutes evidence? ===
+
+* It's always good to include a reference for the primary source. For instance, for a timeline row about a newspaper article on a topic, the actual article, or an archived copy thereof, should be one of the references. NOTE: Wikipedia has a slightly different policy here.
+* It's also good to include a reference or some notes explaining any related claims, such as claims about how posterity "would" response to the event, or claims about how it was perceived. In some cases, news coverage or discussion on forums works. In other cases, we may have to wait for a book or paper examining the claims.
+
+=== What additional references can we provide to help readers dig more? ===
+
+* It's often helpful to include references for contemporaneous commentary on the topic, even if there's nothing important enough from that commentary to highlight within the text of the row. Examples include coverage in media and blogs as well as discussion posts in places like Reddit and Hacker News. These demonstrate the importance of the underlying topic while also giving color on how people react.
+
+=== Importance of including page ranges when citing books ===
+
+Citing books that cover the topic is also helpful (and it's particularly helpful when we are looking at things that happened a while back, before things started getting discussed heavily on the Internet). Please include where in the book the information is picked from, rather than just citing the book. For instance, you can use [[Template:Rp]] ''outside/after'' the ref tag to specify the range of page numbers where the topic is covered. This allows for the reuse of the same ref tag for different citations to the same book, while also pinpointing where in the book each citation is about. See, for instance, this timeline row in the [[timeline of Bay Area Rapid Transit]]; the things after the colon of the reference are the page numbers in the respective books:
+
+{{quote|A report is produced by a special blue ribbon panel of experts, namely Drs. Bernard Oliver, Clarence Lovell, and William Brobeck, commissioned by the Senate Public Utilities and Corporations Committee, working closely with BART. The report includes 21 technical recommendations.[14]:233-235[22]:122 The views of the experts are summarized in "A prescription for BART" in IEEE Spectrum, pp. 40–44, April 1973.[22]:122}}
