@@ -21,6 +21,8 @@ finance meaningful philanthropic endeavors.
 Tech job: Enough to both build savings and finance meaningful
 philanthropic endeavors (i.e., contract work).
 
+What's better: Tech job!
+
 ## Teamwork
 
 Academia: very little; everybody is on their own in the sense of
@@ -63,8 +65,8 @@ Sidenote: I would also say I have been able to keep in better touch
 with at least some of my work colleagues after they left, though it
 has been quite uneven.
 
-What's better? Tech probably. The length of relationships is organic
-and potentially longer.
+What's better? Tech job probably. The length of relationships is
+organic and potentially longer.
 
 ## Purpose
 
@@ -74,6 +76,8 @@ to some extent.
 
 Tech job: There's a lot of bureaucratic pieces but by and large it
 felt purposeful.
+
+What's better? Tech job probably.
 
 ## Stress, depression, and uncertainty about next steps in life
 
@@ -89,6 +93,9 @@ direction. Even before deciding to switch, I felt that my tech job,
 while not ideal, was something I could tolerate doing for as long as
 it took me to figure out what next to do in life.
 
+What's better? Tech job! Overwork stress is still way better than
+depression arising from feeling lost in life and unsure of my future.
+
 ## Public output
 
 Academia: More of my output could be public, including Groupprops, my
@@ -99,7 +106,7 @@ Tech job: Very little, due to confidentiality constraints; only
 incidental output is public (e.g., StackOverflow, comments on public
 GitHub repos, wikiHow articles, Aerospike tech talk).
 
-What's better? Academia, on this front.
+What's better? Academia!
 
 ## Legacy of work done as part of the job
 
@@ -135,7 +142,7 @@ Tech job:
   than impact on students or grad school colleagues, because of much
   closer collaboration).
 
-What's better: Tech job, on this front.
+What's better: Tech job!
 
 ## Progress on personal projects
 
@@ -163,7 +170,11 @@ Tech job:
 What's better? Unclear; I'd say overall tech job; definitely tech job
 is better than academia would have been *if I had been trying to
 succeed in academia*. But I do miss being able to disappear for
-days/weeks doing personal projects.
+days/weeks doing personal projects. Also, the sequence of academia
+then tech job was probably better than the other way around: starting
+in academia gave me more free time to explore things and form ideas on
+what should be done, and then getting to a tech job I had more money
+to help push it forward.
 
 ## Skills
 
