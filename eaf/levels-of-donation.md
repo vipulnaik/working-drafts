@@ -9,7 +9,7 @@ differences between them, with the four levels being $10-30 million,
 $30-100 million, $100 million-$1 billion, and $1 billion+.
 
 As with all such analyses, the threshold selection is somewhat
-arbitrary, and a lot of nuance is misssed, but I still find the
+arbitrary, and a lot of nuance is missed, but I still find the
 exercise interesting.
 
 I thought it would be interesting to do a somewhat similar exercise
@@ -66,7 +66,7 @@ Upper limit for tier 2: $5,000 to $10,000
 * **Split between donees?** (conceivable but unlikely): It's
   conceivable (though unlikely) that the one-charity argument starts
   breaking down here, if the expected *best* use of your funds also
-  has sharply diminshing marginal value (e.g., helping an organization
+  has sharply diminishing marginal value (e.g., helping an organization
   get off the ground, or close a small funding gap). So you might find
   yourself splitting your donation.
 
@@ -92,7 +92,7 @@ Upper limit for tier 2: $5,000 to $10,000
   donation timing and other donation mechanics for tax considerations
   may start making sense. For instance, you may decide to defer
   donation by a month or two so that it falls in the next tax
-  year. Howeever, this is most likely going to be a minor
+  year. However, this is most likely going to be a minor
   consideration compared to other considerations.
 
 ### Tier 3 (five-digit donors)
@@ -101,7 +101,7 @@ Lower limit for tier 3: $5,000 to $10,000
 
 Upper limit for tier 3: $50,000 to $100,000
 
-* **Split betweeen donees?** (plausible): There's a high enough
+* **Split between donees?** (plausible): There's a high enough
   chance that marginal value functions change enough over the course
   of your donation that you should think about marginal value
   functions and not just assume the one-charity argument. If you don't
@@ -150,7 +150,7 @@ Lower limit for tier 4: $50,000 to $100,000
 
 Upper limit for tier 4: $500,000 to $1,000,000
 
-* **Split betweeen donees?** (likely): At this point, unless you
+* **Split between donees?** (likely): At this point, unless you
   happen to think the most scalable things are also the most
   high-value, it's quite likely you'll either want to split your
   donation between donees or donate to a reallocator such as the EA
@@ -231,7 +231,7 @@ endpoint donees).
 ## Leveling up
 
 If you happen to believe that the most scalable interventions are also
-the most high-value, and that these have alrady beeen figured out,
+the most high-value, and that these have already been figured out,
 leveling up doesn't matter that much *per se* -- your giving won't
 change qualitatively. For instance, if you think that GiveDirectly is
 the best use of the next trillion dollars of your money, it doesn't
@@ -257,7 +257,7 @@ leveling up:
 
 ### Increasing your income
 
-This is probably the most high-upside way of leveliing up. For
+This is probably the most high-upside way of leveling up. For
 instance, Sam Bankman-Fried seriously leveled up when he got into the
 crypto space and started making tens of millions.
 
@@ -301,7 +301,7 @@ haven't thought about donation much, then you have more room to grow.
 
 ### Accumulating over time
 
-Instead of donating money every year, you coud accumulate the money so
+Instead of donating money every year, you could accumulate the money so
 it grows more. You could also reinvest it and have it grow even faster
 (something something miracle of compound interest).
 
@@ -330,7 +330,7 @@ You can also pool with other like-minded people you are not in a
 personal or work relationship with.
 
 Pooling can deliver a multiplier big enough to level up, if the pool
-is big enough! For instance, if yoou find 9 other like-minded people
+is big enough! For instance, if you find 9 other like-minded people
 with similar amounts of money, you can pool and go up one level.
 
 ### Donor lotteries
