@@ -77,7 +77,7 @@ Upper limit for tier 2: $5,000 to $10,000
   thinking.
 
 * **Engage donee?** (maybe, hope for responsiveness but not proactive
-  effort for donee): It may make sense to ask questions of potential
+  effort from donee): It may make sense to ask questions of potential
   donees to get information beyond what you already know, especially
   if there isn't a lot of publicly available information. However, you
   should not expect donees to drop everything to appease you or go
@@ -150,11 +150,11 @@ Lower limit for tier 4: $50,000 to $100,000
 
 Upper limit for tier 4: $500,000 to $1,000,000
 
-* **Split between donees?** (likely): At this point, unless you
-  happen to think the most scalable things are also the most
-  high-value, it's quite likely you'll either want to split your
-  donation between donees or donate to a reallocator such as the EA
-  Funds that will effectively use the extra money to donate to more
+* **Split between donees?** (likely): At this point, unless you happen
+  to think the most scalable things are also the most high-value, it's
+  quite likely you'll either want to split your donation between
+  donees or donate to a reallocator such as the EA Funds that will
+  effectively use the extra money to donate to multiple additional
   endpoint donees.
 
 * **Investigate?** (yes, at this point it becomes a matter of due
@@ -163,7 +163,7 @@ Upper limit for tier 4: $500,000 to $1,000,000
   you should investigate in order to seek confirmation of this. Even
   slight misalignments in value would tilt the scales toward running
   something like a
-  [S-process]((https://www.youtube.com/watch?v=jWivz6KidkI).
+  [S-process](https://www.youtube.com/watch?v=jWivz6KidkI).
 
 * **Engage donees?** (yes, you can even set up an application form and
   conduct multiple rounds of grantmaking): At this point, you can go
@@ -311,7 +311,8 @@ level, and 25-100 years in order to level up two levels (even
 accounting for compound interest). While this might be worthwhile in
 some cases, it also needs to be balanced against haste considerations
 and the urgency of various issues. All in all this does not seem like
-an efficient way to level up.
+an efficient way to level up, but it could be helpful in *combination*
+with other things (such as increasing your income).
 
 ### Pooling with like-minded people
 
@@ -358,3 +359,9 @@ believe that there is a lot of high-value untapped potential that is
 not currently scalable or shovel-ready, *and* that you would be able
 to identify at least some of this potential (directly or by
 delegating), then leveling up delivers super-linear expected returns.
+
+## See also
+
+If you enjoyed this post, you might also like my previous post [Donor
+strategies for separating "how much" from "where" to
+donate](https://forum.effectivealtruism.org/posts/4R5f4ntM6t3GLoLTw/donor-strategies-for-separating-how-much-from-where-to).
