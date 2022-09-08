@@ -22,11 +22,11 @@ could level up (if deemed desirable).
 
 ## The levels of donation
 
-### Tier 1: retail donor (< $1,000)
+### Level 1: retail donor (< $1,000)
 
-Lower limit for tier 1: retail donor: $0
+Lower limit for level 1: retail donor: $0
 
-Upper limit for tier 1: retail donor: $500 to $1,000
+Upper limit for level 1: retail donor: $500 to $1,000
 
 * **Split between donees?** (no): The [one-charity
   argument](https://www.jefftk.com/p/why-it-makes-sense-to-pick-one-charity)
@@ -58,11 +58,11 @@ Upper limit for tier 1: retail donor: $500 to $1,000
   donation mechanics for tax considerations probably doesn't make
   sense at this level.
 
-### Tier 2 (four-digit donors)
+### Level 2 (four-digit donors)
 
-Lower limit for tier 2: $500 to $1,000
+Lower limit for level 2: $500 to $1,000
 
-Upper limit for tier 2: $5,000 to $10,000
+Upper limit for level 2: $5,000 to $10,000
 
 * **Split between donees?** (conceivable but unlikely): It's
   conceivable (though unlikely) that the one-charity argument starts
@@ -96,11 +96,11 @@ Upper limit for tier 2: $5,000 to $10,000
   year. However, this is most likely going to be a minor
   consideration compared to other considerations.
 
-### Tier 3 (five-digit donors)
+### Level 3 (five-digit donors)
 
-Lower limit for tier 3: $5,000 to $10,000
+Lower limit for level 3: $5,000 to $10,000
 
-Upper limit for tier 3: $50,000 to $100,000
+Upper limit for level 3: $50,000 to $100,000
 
 * **Split between donees?** (plausible): There's a high enough
   chance that marginal value functions change enough over the course
@@ -145,11 +145,11 @@ Upper limit for tier 3: $50,000 to $100,000
   to cover the costs for the donee to apply for tax-exempt status, if
   it doesn't have one already but is otherwise eligible for one.
 
-### Tier 4 (six-digit donors)
+### Level 4 (six-digit donors)
 
-Lower limit for tier 4: $50,000 to $100,000
+Lower limit for level 4: $50,000 to $100,000
 
-Upper limit for tier 4: $500,000 to $1,000,000
+Upper limit for level 4: $500,000 to $1,000,000
 
 * **Split between donees?** (likely): At this point, unless you happen
   to think the most scalable things are also the most high-value, it's
@@ -178,18 +178,18 @@ Upper limit for tier 4: $500,000 to $1,000,000
   you would like to see.
 
 * **Optimize for transaction costs?** (yes): Not much changes from the
-    previous tier for this.
+    previous level for this.
 
 * **Optimize for taxes?** (yes): At this scale, it makes sense to be
   thinking hard about the right financial instruments to use to
   minimize tax obligations over the long term. You may even pay people
   to figure this out and set up the right systems.
 
-### Tier 5 (seven-digit donors)
+### Level 5 (seven-digit donors)
 
-Lower limit for tier 5: $500,000 to $1,000,000
+Lower limit for level 5: $500,000 to $1,000,000
 
-Upper limit for tier 5: $5,000,000 to $10,000,000
+Upper limit for level 5: $5,000,000 to $10,000,000
 
 At this level, a bunch of new considerations start popping up.
 
@@ -209,11 +209,11 @@ At this level, a bunch of new considerations start popping up.
   particularly relevant if you're *not* deferring your donation choice
   to a known reallocator.
 
-### Tier 6 (eight-digit or more)
+### Level 6 (eight-digit or more)
 
-Lower limit for tier 6: $5,000,000 to $10,000,000
+Lower limit for level 6: $5,000,000 to $10,000,000
 
-Upper limit for tier 6: no limit!
+Upper limit for level 6: no limit!
 
 A bunch of new considerations start emerging here.
 
@@ -247,7 +247,7 @@ that scalable or are still in the process of being figured out or
 don't exist yet, leveling up changes the qualitative picture in terms
 of what you can accomplish with your money.
 
-Since the different tiers I've identified are separated by factors of
+Since the different levels I've identified are separated by factors of
 ~10, leveling up is not easy. Let's talk about the three ways of
 leveling up:
 
@@ -276,7 +276,7 @@ excited about these opportunities).
 
 Realistically, I'd say that outside of stumbling upon a successful
 startup or rising in the ranks in finance, you can probably go up to
-tier 3 (upper limit of $100,000) and maybe up to tier 4 (upper limit
+level 3 (upper limit of $100,000) and maybe up to level 4 (upper limit
 of $1 million), but not further.
 
 ### Reducing your expenses
@@ -287,9 +287,9 @@ effect of reducing your expenses is bounded; you can donate at most
 threshold, the effect of reducing expenses is even smaller.
 
 The cases where reducing your expenses really allows you to level up
-are probably the cases where you're at tier 1 (retail donor) and with
-slight reduction of expenses you can get to tier 2 (up to $10,000). It
-seems unlikely that a move from tier 2 to tier 3 could be facilitated
+are probably the cases where you're at level 1 (retail donor) and with
+slight reduction of expenses you can get to level 2 (up to $10,000). It
+seems unlikely that a move from level 2 to level 3 could be facilitated
 primarily by reducing expenses.
 
 ### Increasing the proportion of your savings that you allocate for donation
@@ -299,7 +299,7 @@ allocate at most 100% of your savings to donation (there's some
 pre-tax/post-tax nuance but the basic point stands). How much upside
 you have here depends on how much of your saving you're currently
 allocating for donation. My rough sense is that this can likely get
-you up from tier 1 to tier 2, and in some cases up from tier 2 to tier
+you up from level 1 to level 2, and in some cases up from level 2 to level
 3, but rarely further. But if you're already a billionaire and just
 haven't thought about donation much, then you have more room to grow.
 
