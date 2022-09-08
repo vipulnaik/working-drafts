@@ -54,6 +54,11 @@ Upper limit for level 1: retail donor: $500 to $1,000
   PayPal, even if you know it has network fees that you'd rather not
   spend).
 
+  As a data point, [GiveWell's page on how to
+  donate](https://www.givewell.org/donate/more-information#supportcharities)
+  sets a threshold for $1,000 for when you should switch from donating
+  by credit card to donating by check.
+
 * **Optimize for taxes?** (no): Optimizing donation timing and other
   donation mechanics for tax considerations probably doesn't make
   sense at this level.
