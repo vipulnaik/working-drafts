@@ -37,9 +37,10 @@ Upper limit for tier 1: retail donor: $500 to $1,000
 * **Investigate?** (no): It probably doesn't make sense to spend
   extensive resources investigating by yourself or hiring others to
   investigate. You should either donate directly to the best endpoint
-  donee, or give money to a reallocator (such as the EA Funds) that
-  is sufficiently value-aligned with you. It may not even make sense
-  to write extensively about your decision.
+  donee, or give money to a reallocator (such as the EA Funds,
+  GiveWell Maximum Impact Fund, or GiveWell All Grants Fund) that is
+  sufficiently value-aligned with you. It may not even make sense to
+  write extensively about your decision.
 
 * **Engage donee?** (no): It probably doesn't make sense to ask a bunch
   of questions of the donee or expect any kind of personalized
@@ -153,9 +154,12 @@ Upper limit for tier 4: $500,000 to $1,000,000
 * **Split between donees?** (likely): At this point, unless you happen
   to think the most scalable things are also the most high-value, it's
   quite likely you'll either want to split your donation between
-  donees or donate to a reallocator such as the EA Funds that will
-  effectively use the extra money to donate to multiple additional
-  endpoint donees.
+  donees or donate to a reallocator such as the EA Funds. The
+  reallocator will effectively use the extra money to donate to
+  multiple additional endpoint donees (note that some reallocators
+  such as the GiveWell Maximum Impact Fund donate in larger chunks of
+  money, so if that's where you want to donate then you will probably
+  not effectively be splitting your donation).
 
 * **Investigate?** (yes, at this point it becomes a matter of due
   diligence): At this level of money, even if you have the impression
@@ -337,11 +341,13 @@ with similar amounts of money, you can pool and go up one level.
 ### Donor lotteries
 
 [Donor
-lotteries](https://www.lesswrong.com/posts/eSoqa8DEhTqyYEfsM/claim-explainer-donor-lotteries-and-returns-to-scale)
+lotteries](https://donations.vipulnaik.com/donee.php?donee=Donor+lottery)
 are another way to level up. Donor lotteries is a bit like pooling
 with like-minded people, with one key difference: there can be a case
-for donor lotteries even if the other people *aren't* like-minded! The
-linked explainer goes over this in more detail.
+for donor lotteries even if the other people *aren't* like-minded!
+[This
+explainer](https://www.lesswrong.com/posts/eSoqa8DEhTqyYEfsM/claim-explainer-donor-lotteries-and-returns-to-scale)
+goes over this in more detail.
 
 ## Conclusion
 
