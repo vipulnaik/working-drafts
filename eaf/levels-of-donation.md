@@ -1,6 +1,6 @@
 # Levels of donation
 
-Via a [YouTube video on the
+Via the [MagnatesMedia YouTube video on the
 subject](https://www.youtube.com/watch?v=B8d4uqQjk6o), I came across a
 [Reddit post on levels of
 wealth](https://www.reddit.com/r/ifiwonthelottery/comments/9qv4e1/post_on_the_different_levels_of_wealth_that_i/). The
@@ -27,6 +27,10 @@ could level up (if deemed desirable).
 Lower limit for level 1: retail donor: $0
 
 Upper limit for level 1: retail donor: $500 to $1,000
+
+Prototypical donor: Low-income person (typically young, such as a
+student) donating some money; higher-income person donating 1% of
+income.
 
 * **Split between donees?** (no): The [one-charity
   argument](https://www.jefftk.com/p/why-it-makes-sense-to-pick-one-charity)
@@ -69,6 +73,16 @@ Lower limit for level 2: $500 to $1,000
 
 Upper limit for level 2: $5,000 to $10,000
 
+Prototypical donors:
+
+* Person or couple with median income (by first-world standards)
+  donating a nontrivial percentage of income annually (such as the 10%
+  set by the Giving What We Can Pledge).
+* Person with higher income donating a smaller percentage of salary or
+  donating at a cadence more frequency than annual.
+
+Considerations:
+
 * **Split between donees?** (conceivable but unlikely): It's
   conceivable (though unlikely) that the one-charity argument starts
   breaking down here, if the expected *best* use of your funds also
@@ -106,6 +120,23 @@ Upper limit for level 2: $5,000 to $10,000
 Lower limit for level 3: $5,000 to $10,000
 
 Upper limit for level 3: $50,000 to $100,000
+
+Prototypical donors:
+
+* Person or couple with high income (by first-world standards)
+  donating a nontrivial percentage of income annually (such as the 10%
+  set by the Giving What We Can Pledge, or possibly a higher level
+  such as 30%). See, for instance [Patrick
+  Brinich-Langlois](https://www.patbl.com/misc/other/donations/) (or
+  his [page on the donations list
+  website](https://donations.vipulnaik.com/donor.php?donor=Patrick+Brinich-Langlois)).
+
+* Person with significant acquired wealth donating a portion of the
+  wealth.
+
+* Winner of a small donor lottery.
+
+Considerations:
 
 * **Split between donees?** (plausible): There's a high enough
   chance that marginal value functions change enough over the course
@@ -156,6 +187,23 @@ Lower limit for level 4: $50,000 to $100,000
 
 Upper limit for level 4: $500,000 to $1,000,000
 
+Prototypical donors:
+
+* Person or couple with high income donating a sizable fraction of
+  income annually; see for instance the donor power couple [Jeff
+  Kaufman and Julia Wise](https://www.jefftk.com/donations)(or their
+  [page on the donations list
+  website](https://donations.vipulnaik.com/donor.php?donor=Jeff+Kaufman+and+Julia+Wise)). They've
+  pledged 30% and target 50% of their pre-tax income as donations.
+
+* Person or couple who acquired significant wealth and is donating a
+  chunk of it; for instance, selling a bunch of cryptocurrency, or
+  exercising and selling accumulated stock options.
+
+* Winner of a big donor lottery.
+
+Considerations:
+
 * **Split between donees?** (likely): At this point, unless you happen
   to think the most scalable things are also the most high-value, it's
   quite likely you'll either want to split your donation between
@@ -196,6 +244,16 @@ Lower limit for level 5: $500,000 to $1,000,000
 
 Upper limit for level 5: $5,000,000 to $10,000,000
 
+Prototypical donors:
+
+* Person or couple who is donating a significant chunk of income but chose to
+  accumulate it over a period of years rather than donate annually.
+
+* Person or couple who acquired a lot of wealth through
+  cryptocurrency, stock options, or cashing out on a business owned.
+
+* Family foundations of various sorts.
+
 At this level, a bunch of new considerations start popping up.
 
 * **Split over time, and use initial grantmaking to "learn"**: Rather
@@ -219,6 +277,24 @@ At this level, a bunch of new considerations start popping up.
 Lower limit for level 6: $5,000,000 to $10,000,000
 
 Upper limit for level 6: no limit!
+
+Why not split this level further? Couple of reasons:
+
+* I'm hitting the limits of my intuition and experience at this level.
+* I think constraints imposed by money are low at this level, so the
+  way the donor donates is based a lot more on how the donor wants to
+  approach the act of donation.
+
+Prototypical donors:
+
+* At this point, we're talking big foundations (or influencers of
+  such). Examples in the EA penumbra include Good Ventures / Open
+  Philanthropy, Jaan Tallinn / Survival and Flourishing Fund, and FTX
+  Foundation / FTX Future Fund.
+
+* Outside the EA community, we're talking of foundations such as Ford
+  Foundation, Bill & Melinda Gates Foundation, Wellcome Trust,
+  MacArthur Foundation, Hewlett Foundation, etc.
 
 A bunch of new considerations start emerging here.
 
@@ -342,6 +418,10 @@ personal or work relationship with.
 Pooling can deliver a multiplier big enough to level up, if the pool
 is big enough! For instance, if you find 9 other like-minded people
 with similar amounts of money, you can pool and go up one level.
+
+You could also pool with others who have way more to donate than you
+do. One example would be to marry somebody of wealth; another example
+would be to become friends with and seek to influence such a person.
 
 ### Donor lotteries
 
