@@ -1,0 +1,9 @@
+Mirror of https://forum.effectivealtruism.org/posts/2mx6xrDrwiEKzfgks/announcing-the-future-fund-1?commentId=ekgo4Xdqtgzt7pBNs
+
+The footer on your site says to post any questions as public comments on this post, so here goes (this is not directly related to the content of this post):
+
+I noticed that a $470,000 grant to Charity Entrepreneurship, that was visible on your site as recently as August 31 (see http://web.archive.org/web/20220831210840/https://ftxfuturefund.org/our-grants/), is now no longer visible on your grants page. What happened to the grant?
+
+I also noticed that https://ftxfuturefund.org/our-grants/ lists a grant to Michael Robkin, but that this grant is not listed at either https://ftxfuturefund.org/our-grants/?_funding_stream=open-call (open call grants) or https://ftxfuturefund.org/our-grants/?_funding_stream=ad-hoc (staff-led grants). My understanding was that everything in https://ftxfuturefund.org/our-grants/ should be listed either as an open call grant or a staff-led grant, but this does not seem to be the case. What might be going on?
+
+Thank you!
