@@ -304,7 +304,7 @@ The table below shows the number of versions per year of GiveWell's Cost-Effecti
 The dates of first mention may be inaccurate insofar as earlier mentions were missed.
 
 {| class="sortable wikitable"
-! Counterpart entity !! Founding year of counterparty entity !! Entity type !! First mention by GiveWell !! First mention of GiveWell by that entity (if applicable) !! Notes
+! Counterpart entity !! Founding year of counterpart entity !! Entity type !! First mention by GiveWell !! First mention of GiveWell by that entity (if applicable) !! Notes
 |-
 | {{w|Population Services International}} (PSI) || 1970 || Charity || 2007-01-07<ref name=psi-first-rec/> || || Population Services International (PSI) is one of GiveWell's top recommendations from early 2007 till the end of 2009, when GiveWell would come up with an updated list based on its research.
 |-
@@ -324,7 +324,7 @@ The dates of first mention may be inaccurate insofar as earlier mentions were mi
 |-
 | {{w|Innovations for Poverty Action}} (IPA) ([[Timeline of Innovations for Poverty Action|timeline]]) || 2003 || Program evaluator || 2008-02-05<ref name=rigorous-research-on-aid/> || || GiveWell cites and references the work of IPA, more in its early years (2008 to 2011) though occasionally even after that.
 |-
-| {{w|Coalition for Evidence-Based Policy}} || 2001 (?) || 2008-02-05 <ref name=rigorous-research-on-aid/> || || GiveWell cites and references the work of the Coalition for Evidence-Based Policy, mostly in its early years (2008 to 2010). GiveWell even has a guest post from the Assistant Director at the Coalition for Evidence-Based Policy.<ref>{{cite web|url = https://blog.givewell.org/2008/12/18/guest-post-proven-programs-are-the-exception-not-the-rule/|title = Guest post: Proven programs are the exception, not the rule|last = Anderson|first = David|date = December 18, 2008|accessdate = September 4, 2022|publisher = GiveWell}}</ref>
+| {{w|Coalition for Evidence-Based Policy}} || 2001 (?) ||  || 2008-02-05 <ref name=rigorous-research-on-aid/> || || GiveWell cites and references the work of the Coalition for Evidence-Based Policy, mostly in its early years (2008 to 2010). GiveWell even has a guest post from the Assistant Director at the Coalition for Evidence-Based Policy.<ref>{{cite web|url = https://blog.givewell.org/2008/12/18/guest-post-proven-programs-are-the-exception-not-the-rule/|title = Guest post: Proven programs are the exception, not the rule|last = Anderson|first = David|date = December 18, 2008|accessdate = September 4, 2022|publisher = GiveWell}}</ref>
 |-
 | {{w|Global Burden of Disease Study}} (GBD) || 1990 || Prioritization project / cause research || 2008-08-11<ref>{{cite web|url = https://blog.givewell.org/2008/08/11/disability-adjusted-life-years-ii-variations/|title = Disability-Adjusted Life Years II: Variations|last = Karnofsky|first = Holden|date = August 11, 2008|accessdate = September 4, 2022|publisher = GiveWell}}</ref> || || GiveWell cites GBD's 2000 report several times in blog posts in August and September 2008, and occasionally in the coming years.
 |-
