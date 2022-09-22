@@ -14,12 +14,12 @@ One useful prompt for thinking about many questions is based on the
 [anticipated regret
 framing](https://en.wikipedia.org/wiki/Regret_(decision_theory)). In
 this case, it would translate to: what kinds of donations tend to lead
-to regret, and what kinds of regrets? I'm curious about the ways that
-people have regretted their past donations, and how such past regret
-has informed their future donations. Please share your thoughts in the
+to regrets, and what kinds of regrets? I'm curious about the ways that
+people have regretted their past donations, and how such past regrets
+have informed their future donations. Please share your thoughts in the
 comments!
 
-A few examples of the kind of regret that I can imagine possible:
+A few examples of the kinds of regrets that I can imagine possible:
 
 1. You regret that your donation was either ineffective or actively
    harmful (because you reversed your mind either on the cause area or
