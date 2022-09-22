@@ -22,7 +22,7 @@ comments!
 A few examples of the kind of regret that I can imagine possible:
 
 1. You regret that your donation was either ineffective or actively
-   harmful (either because you reversed your mind on the cause area, or
+   harmful (because you reversed your mind either on the cause area or
    on the specific organization you donated to). See, for instance, [Brian Tomasik](https://reducing-suffering.org/my-donations-past-and-present/):  
 
    > I donated to several different organizations in the past, some of
