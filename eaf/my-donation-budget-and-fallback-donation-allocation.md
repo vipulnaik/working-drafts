@@ -184,7 +184,7 @@ to play" with making serious donations. I thought about this from a few angles:
   insurance, web hosting, and health care.
 
 * What [level of
-  donation](httpps://forum.effectivealtruism.org/posts/F4DxPrfmnEtEwhPJu/levels-of-donation)
+  donation](https://forum.effectivealtruism.org/posts/F4DxPrfmnEtEwhPJu/levels-of-donation)
   does it place me at? Assuming I donate about once a year, it puts me
   at level 2, which is a high enough level that I can do some
   meaningful investigation for each donation, and where there starts
