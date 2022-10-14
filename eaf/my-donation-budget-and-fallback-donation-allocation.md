@@ -2,7 +2,10 @@
 
 In this (fairly long!) post, I describe how I'm currently thinking of
 my donation budget, and how I distinguish between opportunistic,
-high-marginal-value donations and fallback donations.
+high-marginal-value donations and fallback donations. If you're
+viewing this on the EA Forum, please use the table of contents (that
+you should see to the left of the post) to navigate the post and
+understand its overall structure.
 
 Some of this goes over ground I previously tread on in my previous
 posts on [my Q4 2021
@@ -427,8 +430,10 @@ reflects the importance of donations as a way to do good.
 I might want to engage in [donation bunching for tax
 considerations](https://www.benkuhn.net/bunching/). For this reason,
 if I haven't made any other donations at all in a given tax year, I
-might choose to defer the fallback donation to the next tax year, so
-there's more potential for bunching.
+might choose to defer the fallback donation to the beginning of the
+next tax year, so there's more potential for bunching. In my current
+jurisdiction, the tax year matches the calendar year, so basically
+this would mean donating in January of the next year.
 
 ### When should I start applying fallback donation targets?
 
@@ -455,7 +460,14 @@ work for the rest of
 2022](https://github.com/vipulnaik/daily-updates/blob/master/standing-plan-for-the-next-few-months.md). So
 I don't expect to spend time on the donations list website until 2023,
 or to spend significant time thinking about where to donate (beyond
-the time spent writing this blog post).
+the time spent writing this blog post and possibly a successor blog post).
+
+Given these considerations, if I wait till the end of 2023, I'll have
+more information and I'll have had more time to explore. I'll also
+have more money to play with, and various parts of the ecosystem would
+have matured more (for instance, there will be more clarity on the
+role that the FTX Future Fund will play). All of these make the case
+for waiting till the end of 2023.
 
 #### The argument for starting in 2022
 
@@ -603,3 +615,30 @@ I have more thoughts on this, including thoughts on how to justify
 spending resources on anything other than AI safety if imminent AI
 timelines are plausible. But I want to mull these further and make a
 final decision as of the time I actually want to allocate the $5,000.
+
+## Seeking your thoughts
+
+I wrote this post mostly to record my own thoughts rather than to make
+a particular point for other people. But if you were patient enough to
+read enough of the post, I appreciate it and hope you found something
+interesting enough to be worth your while!
+
+If you have thoughts on any parts of the post, I would appreciate
+them. These parts in particular are ones where I'm most interested in
+hearing thoughts, but don't limit yourself to just these!
+
+* What do you think about my solution in terms of conditionally
+  allocating a portion of my donation budget to fallback donation
+  targets? Would you recommend a different approach that has most of
+  the advantages of my approach, but that is even better on at least
+  some counts?
+
+* Are there crucial considerations I seem to be missing regarding how
+  to decide between the EA Funds? I say "seem to be" because there's
+  probably stuff in my head I didn't write down -- so I may not
+  actually be missing them -- but I would still love to hear what you
+  think is missing in the articulated portion of my thinking.
+
+* Any thoughts on how soon I should get started with making donations
+  to fallback donation targets? Should I start in 2022, or wait till
+  2023 when I expect to have built a more substantive picture?
