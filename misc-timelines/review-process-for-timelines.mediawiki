@@ -1,0 +1,33 @@
+{{timelines meta page}}
+
+This page describes various aspects of the review process for a timeline. This review process may be undertaken by the timeline creator, the individual deciding the payment for the timeline, or another person. The same timeline may go through multiple rounds of review.
+
+== Standalone evaluation versus external verification ==
+
+=== Standalone evaluation ===
+
+The most basic kind of review is one that looks at the timeline on its own, without inside-view subject matter knowledge and without comparing with other material on the topic. This review essentially checks how well the timeline adheres to various policies and guidelines around good timeline construction. For instance, such a review might find that particular timeline rows could be improved according to the guidelines on the [[detail construction for full timeline in timelines]]. Or it may find that the timeline rows follow inconsistent inclusion criteria, and the timeline as a whole can be made to feel more coherent by following guidelines on [[inclusion criteria for full timeline in timelines]].
+
+Standalone evaluation can generally be done by a person who lacks subject-matter expertise in the topic of the timeline.
+
+=== External verification ===
+
+External verification compares the timeline against what other sources say on the subject, essentially using those other sources to provide a benchmark on the topics, facts, and flavor of coverage. Later sections of this page (when it is fully expanded) will talk more about various kinds of external verification.
+
+== Using the Wikipedia page for external verification ==
+
+The review process using Wikipedia is basically to read the Wikipedia page on the subject from start to finish, then evaluate the timeline with these questions:
+
+* How well does the timeline cover the major correlates of the topic? This could be events/history (which are a really good fit for the timeline) but it could also be subtopics of various sorts. For instance, the [[w:utilitarianism|Wikipedia page on utilitarianism]] discusses the many different flavors of utilitarianism, so we can evaluate how well the [[timeline of utilitarianism]] does at covering the origins and key conceptual developments of each. There may be cases where there are good reasons for not including in the timeline some stuff that's on the Wikipedia page, but a review should at least ''consider'' what's on the Wikipedia page.
+* How does the flavor of what's communicating on the timeline page compare with what's communicated on Wikipedia? If there are marked differences in flavor, this is worth looking more into, though there may be good reasons for having a different flaor.
+* Does the timeline add any form of value ''beyond'' what's on the Wikipedia page? A complete timeline should offer additional value. There are cases where the Wikipedia page is so comprehensive that there's not much more for a timeline to cover, though in general we try to select timelines where the timeline can offer unique value.
+
+== Finding other sources for external verification ==
+
+Here are a few kinds of sources for external verification:
+
+* Articles in topic-specific encyclopedias for the subject (for instance, for philosophy, check out the Stanford Encyclopedia of Philosophy)
+* Review articles or textbook chapters on the subject
+* Documentaries and video overviews of the subject (this may be particularly relevant for tech company timelines, as there are YouTube channels such as [https://www.youtube.com/c/MagnatesMedia MagnatesMedia] that provide videos that are kinda-like-timelines but in a video format).
+
+An idea that may be useful is to try to pick a source that was ''not actively used when constructing the timeline'', so that it offers a level of independent verification and sanity-checking. For instance, if you used the Wikipedia page to identify the various subtopics of utiliarianism to cover, it may be good to use something different for verification, such as the [https://plato.stanford.edu/entries/utilitarianism-history/ Stanford Encyclopedia of Philosophy article on the history of utilitarianism].
