@@ -52,8 +52,8 @@ Other related things I've written:
   detailed and more about my moment-to-moment experience, but it has
   some overlap with how I see the overall value of things I do.
 
-* In a [post I wrote on my old blog on three-tiered
-  ethics](https://thinkingbeyondcompetition.wordpress.com/2011/01/21/a-three-tiered-view-of-ethics-and-singers-dilemma/),
+* In a [post I wrote on three-tiered
+  ethics on my old blog](https://thinkingbeyondcompetition.wordpress.com/2011/01/21/a-three-tiered-view-of-ethics-and-singers-dilemma/),
   I separated out three tiers of ethics: negative rights ethics,
   contract/responsibility ethics, and excellence ethics. Earlier tiers
   of ethics take precedence over later tiers of ethics; for instance,
@@ -218,9 +218,9 @@ of where I am with respect to savings).
 
 ### Windfall profits and the donation budget
 
-Ny income and spending rate define the backdrop of my decision on what
-donation budget. What if I have a windfall profit? This is not merely
-a theoretical question -- I've had significant fluctuations in income
+Ny income and spending rate define the backdrop of my donation budget
+decision. What if I have a windfall profit? This is not merely a
+theoretical question -- I've had significant fluctuations in income
 due to cryptocurrency price changes, and I expect to make a sudden
 amount of money as a result of exercising and selling stock options at
 the tech company I recently left.
@@ -578,8 +578,8 @@ follows:
 
 * The long-term future, viewed abstractly, is probably the most
   *important*. Specific things like AI safety and biorisk also seem
-  *fairly important, even if you only partly buy the cases made by
-  *people focusing on those areas.
+  fairly important, even if you only partly buy the cases made by
+  people focusing on those areas.
 
 * Animal welfare seem the most *neglected*, though it's hard to say
   (again, I was hoping to do more work on the donations list website
