@@ -616,6 +616,34 @@ spending resources on anything other than AI safety if imminent AI
 timelines are plausible. But I want to mull these further and make a
 final decision as of the time I actually want to allocate the $5,000.
 
+## How I plan to learn and improve
+
+Regardless of whether I start the process of making fallback donations
+in 2022 or wait till 2023 to do so, I'm hoping to be in a better
+position in the coming years. Some of the ways I plan to improve my
+epistemics:
+
+* I'll spend substantial effort on the [donations list
+  website](https://donations.vipulnaik.com/) in 2023, to a point where
+  it can usefully inform my donation decisions and my understanding of
+  the overall landscape.
+
+* I'll continue to be involved (through financial support and
+  guidance) in a number of other projects such as [Org
+  Watch](https://orgwatch.issarice.com/) and [Timelines
+  Wiki](https://timelines.issarice.com/wiki/Main_Page) that each, in
+  different ways, helps illuminate the landscape.
+
+* I'll be following what's going on in places like Metaculus, the EA
+  Forum, various EA-related podcasts, as well as other high-quality
+  sources of discussion, to continue to build and improve my models of
+  the world.
+
+While I hope that all these will help drive better donation decisions
+for my personal donations, I see them as relevant in a larger sense:
+they help improve my overall model of the world, and in at least some
+cases, could help improve others' model of the world as well.
+
 ## Seeking your thoughts
 
 I wrote this post mostly to record my own thoughts rather than to make
