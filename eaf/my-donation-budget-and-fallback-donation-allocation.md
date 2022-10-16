@@ -192,7 +192,8 @@ to play" with making serious donations. I thought about this from a few angles:
 
 * How does it compare with my other budget line items? At $1,000 per
   month, or $12,000 per year, my donation budget is only exceeded by
-  two line items: rent and contract work. My donation budget is in
+  two line items: rent and [contract
+  work](https://contractwork.vipulnaik.com). My donation budget is in
   excess of my other nontrivial line items such as food, health
   insurance, web hosting, and health care.
 
@@ -218,7 +219,7 @@ of where I am with respect to savings).
 
 ### Windfall profits and the donation budget
 
-Ny income and spending rate define the backdrop of my donation budget
+My income and spending rate define the backdrop of my donation budget
 decision. What if I have a windfall profit? This is not merely a
 theoretical question -- I've had significant fluctuations in income
 due to cryptocurrency price changes, and I expect to make a sudden
@@ -285,7 +286,9 @@ I talked about fallback donation targets. I wrote:
 So far, I've mostly followed the above, and the only two donations
 I've made since adopting a donation budget have been to things that I
 deemed time-sensitive and that, at least at the margin at which I
-donated, seemed in my mind to beat fallback donation targets.
+donated, and based on my values and the information available to me at
+the time of donation, seemed in my mind to beat fallback donation
+targets.
 
 ### Downward update on existence of compelling and time-sensitive opportunities and my time availability to investigate them
 
@@ -305,11 +308,10 @@ something like this:
 
 * My time availability to investigate opportunities is not reliably
   high (and in particular it may not be high during the windows when
-  the time-sensitivity exists). I'll say more about this later in the
-  post. For now, I'll just say that I most likely don't expect to have
-  enough confidence to allocate more than $5,000 per year to
-  compelling and time-sensitive opportunities, and I might very well
-  allocate much less.
+  the time-sensitivity exists). My current estimate is that I most
+  likely don't expect to have enough confidence to allocate more than
+  $5,000 per year to compelling and time-sensitive opportunities, and
+  I might very well allocate much less.
 
 ### Resultant desire to "get some money out the door" by donating to fallback donation targets
 
@@ -396,7 +398,7 @@ I'm wasting their time. It falls at level 2 in my [levels of donation
 post](https://forum.effectivealtruism.org/posts/F4DxPrfmnEtEwhPJu/levels-of-donation),
 which is enough for the donee to collaborate with me on administrative
 matters, and for the donation to very clearly be worth more than any
-efforts needed to support it.
+administrative overhead incurred by either me or the donee.
 
 #### "Small enough" for me
 
@@ -421,9 +423,10 @@ There are two aspects of this:
 
 $5,000 per year is comparable to my annual expense on food. It's
 comparable to my annual expense on health insurance, and exceeds my
-annual expense in most categories (rent and contract work are the only
-categories where I spend more). As such, it's a sizable amount that
-reflects the importance of donations as a way to do good.
+annual expense in most categories (rent and [contract
+work](https://contractwork.vipulnaik.com/) are the only categories
+where I spend more). As such, it's a sizable amount that reflects the
+importance of donations as a way to do good.
 
 ### Donation bunching
 
@@ -530,16 +533,16 @@ The Global Health and Development Fund seems to be fairly well-funded;
 for instance, in 2022 the fund has already allocated a little over
 $10 million.
 
-Moreover, since it funges with GiveWell's funds, that raise tens of
-millions of dollars a year. The purpose of the Global Health and
-Development Fund is to allocate money to high-risk, speculative things
-in global health and development first, and then allocate the
-remaining money to GiveWell top charities. But it looks like the 95%+
-of the 2022 allocation so far has been to GiveWell top charities. The
-situation was a bit different in 2021, but overall it looks like, at
-least based on the most recent information, the fund doesn't have a
-consistent and compelling stream of opportunities different from
-GiveWell top charities.
+Moreover, it funges with GiveWell's funds, that raise tens of millions
+of dollars a year. The purpose of the Global Health and Development
+Fund is to allocate money to high-risk, speculative things in global
+health and development first, and then allocate the remaining money to
+GiveWell top charities. But it looks like the 95%+ of the 2022
+allocation so far has been to GiveWell top charities. The situation
+was a bit different in 2021, but overall it looks like, at least based
+on the most recent information, the fund doesn't have a consistent and
+compelling stream of opportunities different from GiveWell top
+charities.
 
 Overall, I think GiveWell top charities present a moderately
 compelling case, but this cuts both ways: the case is compelling to a
@@ -630,8 +633,8 @@ epistemics:
 
 * I'll continue to be involved (through financial support and
   guidance) in a number of other projects such as [Org
-  Watch](https://orgwatch.issarice.com/) and [Timelines
-  Wiki](https://timelines.issarice.com/wiki/Main_Page) that each, in
+  Watch](https://orgwatch.issarice.com/) and [timelines
+  wiki](https://timelines.issarice.com/wiki/Main_Page) that each, in
   different ways, helps illuminate the landscape.
 
 * I'll be following what's going on in places like Metaculus, the EA
@@ -641,8 +644,10 @@ epistemics:
 
 While I hope that all these will help drive better donation decisions
 for my personal donations, I see them as relevant in a larger sense:
-they help improve my overall model of the world, and in at least some
-cases, could help improve others' model of the world as well.
+they help improve my overall model of the world, and at least in some
+cases (such as the ones where I'm working on public websites or
+documenting my thoughts in blog posts), could help improve others'
+model of the world as well.
 
 ## Seeking your thoughts
 
