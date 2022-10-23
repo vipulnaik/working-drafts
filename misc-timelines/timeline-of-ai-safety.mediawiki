@@ -42,66 +42,6 @@ This is a '''timeline of AI safety'''. AI safety is the field focused on reducin
 | 2022 || This year sees the entry of the FTX Future Fund into the AI safety funding space. Anthropic continues to grow by raising a massive Series B.
 |}
 
-== Visual and numerical data ==
-
-=== Mentions on Google Scholar ===
-
-The following table summarizes per-year mentions on Google Scholar as of May 13, 2021.
-
-{| class="sortable wikitable"
-! Year
-! artificial intelligence safety
-! ethical artificial intelligence
-! friendly artificial intelligence  
-! global risk artificial intelligence
-|-
-| 1980 || 683 || 478 || 463 || 252 
-|-
-| 1985 || 1,340 || 713 || 1,110 || 537
-|-
-| 1990 || 3,060 || 1,410 || 2,210 || 1,490 
-|-
-| 1995 || 4,160 || 2,110 || 2,930 || 2,510
-|-
-| 2000 || 7,600 || 3,560 || 4,860 || 4,900
-|-
-| 2002 || 8,080 || 4,510 || 5,950 || 6,380 
-|-
-| 2004 || 11,400 || 4,940 || 6,760 || 8,440
-|-
-| 2006 || 13,300 || 6,240 || 7,820 || 10,700 
-|-
-| 2008 || 16,300 || 7,770 || 10,200 || 12,100
-|-
-| 2010 || 20,500 || 9,170 || 12,500 || 16,400
-|-
-| 2012 || 26,000 || 11,300 || 14,800 || 20,900
-|-
-| 2014 || 29,800 || 13,300 || 16,400 || 24,600
-|-
-| 2016 || 34,600 || 16,500 || 18,400 || 30,500   
-|-
-| 2017 || 39,300 || 20,200 || 21,000 || 36,200   
-|-
-| 2018 || 47,300 || 25,300 || 25,300 || 43,300  
-|-
-| 2019 || 52,700 || 27,600 || 28,500 || 48,300  
-|-
-| 2020 || 43,700 || 31,700 || 29,200 || 48,800 
-|-
-|}
-
-[[File:AI safety tables.png|thumb|center|700px]]
-
-=== Google trends ===
-The chart below shows Google trends data for AI safety (search term) from January 2004 to January 2021, when the screenshot was taken.<ref>{{cite web |title=AI safety |url=https://trends.google.com/trends/explore?date=all&q=AI%20safety |website=trends.google.com/ |access-date=6 January 2021}}</ref>
-
-[[File:AI safety.jpeg|thumb|center|700px]]
-
-=== Google Ngram Viewer ===
-The chart below shows Google Ngram Viewer data for AI safety from 1900 to 2020.<ref>{{cite web |title=AI safety |url=https://books.google.com/ngrams/graph?content=AI+safety&year_start=1990&year_end=2019&corpus=26&smoothing=1&case_insensitive=true&direct_url=t4%3B%2CAI%20safety%3B%2Cc0%3B%2Cs0%3B%3BAI%20safety%3B%2Cc0%3B%3BAI%20Safety%3B%2Cc0%3B%3Bai%20safety%3B%2Cc0%3B%3Bai%20Safety%3B%2Cc0#t4%3B%2CAI%20safety%3B%2Cc0%3B%2Cs0%3B%3BAI%20safety%3B%2Cc1%3B%3BAI%20Safety%3B%2Cc0%3B%3Bai%20safety%3B%2Cc0%3B%3Bai%20Safety%3B%2Cc0 |website=books.google.com |access-date=13 January 2021}}</ref>
-[[File:AI safety ngram.jpeg|thumb|center|700px]]
-
 ==Full timeline==
 
 ===Inclusion criteria===
@@ -471,7 +411,7 @@ Here is a partial list of thoughts on what rows we've included:
 |-
 | 2019 || {{dts|December 18}} || Publication || The "2019 AI Alignment Literature Review and Charity Comparison" is published on the Effective Altruism Forum. It surveys AI safety work in 2019. It continues an annual tradition of similar blog posts in 2016, 2017, and 2018. One feature new to the document this year is the author's effort to make it easier for readers to jump to and focus on parts of the document most relevant to them, rather than read it beginning to end. To make this easier, the author ends each paragraph with a hashtag, and lists the hashtags at the beginning of the document.<ref name=larks-2019>{{cite web|url = https://forum.effectivealtruism.org/posts/dpBB24QsnsRnkq5JT/2019-ai-alignment-literature-review-and-charity-comparison|title = 2019 AI Alignment Literature Review and Charity Comparison|author = Larks|publisher = Effective Altruism Forum|date = December 18, 2019|accessdate = April 18, 2020}}</ref>
 |-
-| 2020 || {{dts|January|| Publication || Rohin Shah (the person who started the weekly AI Alignment Newsletter) publishes a blog post on LessWrong (cross-posted to the Alignment Forum) titled "AI Alignment 2018-19 Review" that he describes as "a review post of public work in AI alignment over 2019, with some inclusions from 2018."<ref>{{cite web|url = https://www.lesswrong.com/posts/dKxX76SCfCvceJXHv/ai-alignment-2018-19-review|title = AI Alignment 2018-19 Review|last = Shah|first = Rohin|date = January 27, 2020|accessdate = April 18, 2020|publisher = LessWrong}}</ref>
+| 2020 || {{dts|January}} || Publication || Rohin Shah (the person who started the weekly AI Alignment Newsletter) publishes a blog post on LessWrong (cross-posted to the Alignment Forum) titled "AI Alignment 2018-19 Review" that he describes as "a review post of public work in AI alignment over 2019, with some inclusions from 2018."<ref>{{cite web|url = https://www.lesswrong.com/posts/dKxX76SCfCvceJXHv/ai-alignment-2018-19-review|title = AI Alignment 2018-19 Review|last = Shah|first = Rohin|date = January 27, 2020|accessdate = April 18, 2020|publisher = LessWrong}}</ref>
 |-
 | 2020 || {{dts|February}} || Funding || Open Philanthropy makes grants to AI safety organizations Ought ($1.59 million) and Machine Intelligence Research Institute ($7.7 million) with the money amount determined by the Committee for Effective Altruism Support (CEAS). Other organizations receiving money based on CEAS recommendations at around the same time are the Centre for Effective Altruism and 80,000 Hours, neither of which is primarily focused on AI safety.<ref name="donations-portal-open-phil-ai-safety" /> In April 2020, MIRI would blog about receiving the Open Philanthropy grant (MIRI's "largest grant to date") and reveal that the grant is for two years and that $1.46 million of the grant money comes from Ben Delo, co-founder of the cryptocurrency trading platform BitMEX.<ref name=miris-largest-grant-to-date>{{cite web|url = https://intelligence.org/2020/04/27/miris-largest-grant-to-date/|title = MIRI’s largest grant to date!|last = Bensinger|first = Rob|date = April 27, 2020|accessdate = May 2, 2020|publisher = Machine Intelligence Research Institute}}</ref>
 |-
@@ -527,6 +467,8 @@ Here is a partial list of thoughts on what rows we've included:
 |-
 | 2021 || {{dts|March 18}} || Organization || The Nonlinear Fund by Kat Woods (co-founder of Charity Entrepreneurship, Charity Science Health, and Charity Science Outreach) and Emerson Spartz (founder of MuggleNet and Dose Media) is announced in a blog post on the Effective Altruism Forum. The Fund plans to generate, identify, and evaluate high-leverage AI safety opportunities, then make them happen using a variety of tools including grantmaking, advocacy, RFPs, and incubation.<ref>{{cite web|url = https://forum.effectivealtruism.org/posts/fX8JsabQyRSd7zWiD/introducing-the-nonlinear-fund-ai-safety-research-incubation|title = Introducing The Nonlinear Fund: AI Safety research, incubation, and funding|last = Woods|first = Kat|date = March 18, 2021|accessdate = May 31, 2021|publisher = Effective Altruism Forum}}</ref>
 |-
+| 2021 || {{dts|April}} (original publication), December (review), June 2022 (ArXiV upload) || Publication || Joseph Carlsmith of Open Philanthropy publishes a draft post "Is power-seeking AI an existential risk?"<ref>{{cite web|url = https://docs.google.com/document/d/1smaI1lagHHcrhoi6ohdq3TYIZv0eNWWZMPEy8C8byYg/edit|title = Is power-seeking AI an existential risk?|date = April 1, 2021|accessdate = October 23, 2022}}</ref> In December, a compilation of reviews of the post is published by Carlsmith.<ref>{{cite web|url = https://www.lesswrong.com/posts/qRSgHLb8yLXzDg4nf/reviews-of-is-power-seeking-ai-an-existential-risk|title = Reviews of “Is power-seeking AI an existential risk?”|date = December 16, 2021|accessdate = October 23, 2022|publisher = LessWrong}}</ref> In June 2022, the post is uploaded to the ArXiV.<ref>{{cite web|url = https://arxiv.org/abs/2206.13353|title = Is Power-Seeking AI an Existential Risk?|date = June 16, 2022|accessdate = October 23, 2022}}</ref> In a September 2022 blog post, the FTX Future Fund, when announcing its Worldview Prize, would describe this publication as one of the past publications of the standard that would have qualified for the prize.<ref name=future-fund-worldview-prize/>
+|-
 | 2021 || {{dts|April}} || Funding || For the fourth class of the Open Philanthropy AI Fellowship, Open Philanthropy provides a total of approximately $1 million over five years to four fellows.<ref name="donations-portal-open-phil-ai-safety"/>
 |-
 | 2021 || {{dts|April 26}} || Organization || Paul Christiano (who had left OpenAI at the end of January) announces that he is now working at the Alignment Research Center (ARC), a nonprofit he started that currently has only him. ARC focuses on theoretical research with the hope that it will "yield big alignment improvements within the next few years" that "will be integrated into practice at leading ML labs."<ref>{{cite web|url = https://www.alignmentforum.org/posts/3ejHFgQihLG4L6WQf/announcing-the-alignment-research-center|title = Announcing the Alignment Research Center|date = April 26, 2021|accessdate = May 31, 2021|publisher = Alignment Forum}}</ref>
@@ -549,6 +491,8 @@ Here is a partial list of thoughts on what rows we've included:
 |-
 | 2021 || {{dts|October 5}} || Organization || Redwood Research, that appears to have scaled up its activities relatively recently (the oldest Wayback Machine snapshot is from September 22, though Nate Thomas and Bill Zito appear to have started working there in 2019),<ref>{{cite web|url = https://web.archive.org/web/20210922005253/https://www.redwoodresearch.org/|title = Redwood Research|date = September 22, 2021|accessdate = December 2, 2021}}</ref> announces itself in a post cross-posted across LessWrong, the Alignment Forum, and the Effective Altruism Forum. They focus on prosaic alignment approaches and focus on applied alignment research.<ref>{{cite web|url = https://www.lesswrong.com/posts/qHvHvBR8L6oycnMXe/we-re-redwood-research-we-do-applied-alignment-research-ama|title = We're Redwood Research, we do applied alignment research, AMA|last = Thomas|first = Nate|date = October 5, 2021|accessdate = December 2, 2021|publisher = LessWrong}}</ref>
 |-
+| 2021 || {{dts|October 17}} || Newsletter || The first issue of Dan Hendrycks' ML safety newsletter is published.<ref>{{cite web|url = https://newsletter.mlsafety.org/p/ml-safety-newsletter-1|title = ML Safety Newsletter #1|last = Hendrycks|first = Dan|date = October 17, 2021|accessdate = October 23, 2022}}</ref> New issues of the newsletter are published every 1-3 months. The newsletter would be mentioned in a list of existing newsletters in an announcement for another newsletter.<ref name=ml-safety-updates-newsletter>{{cite web|url = https://www.lesswrong.com/posts/uRosq4YtNiZxywcAq/newsletter-for-alignment-research-the-ml-safety-updates|title = Newsletter for Alignment Research: The ML Safety Updates|last = Kran|first = Esben|date = October 22, 2022|accessdate = October 23, 2022|publisher = LessWrong}}</ref>
+|-
 | 2021 || November || Funding || The Survival and Flourishing Fund publishes the outcome of its recommendation S-process for the second half of 2021 for funders Jaan Tallinn, Jed McCaleb, and The Casey and Family Foundation, represented by David Marble (by this point, the SFF no longer has any of its own funds so it is acting purely as a "virtual fund"). This includes grant recommendations to several organizations working mostly or partly in AI safety such as Ought and AI Safety Camp, as well as to the Long-Term Future Fund that would further reallocate the funds in its upcoming grant rounds. A total of $9.6 million is distributed in this round.<ref>{{cite web|url = https://survivalandflourishing.fund/sff-2021-h2-recommendations|title = SFF-2021-H2 S-process Recommendations Announcement|publisher = Survival and Flourishing Fund|accessdate = December 2, 2021}}</ref>
 |-
 | 2021 || November || Funding || Open Philanthropy makes a grant of $9.42 million to Redwood Research.<ref name="donations-portal-open-phil-ai-safety"/>
@@ -565,6 +509,10 @@ Here is a partial list of thoughts on what rows we've included:
 |-
 | 2022 || {{dts|March 26}} || Project || The AI Safety Arguments Competition is announced on LessWrong and the AI Alignment Forum. The competition "addresses shorter arguments (paragraphs and one-liners) with a total prize pool of $20K. The prizes will be split among, roughly, 20-40 winning submissions."<ref>{{cite web|url = https://www.lesswrong.com/posts/3eP8D5Sxih3NhPE6F/usd20k-in-prizes-ai-safety-arguments-competition|title = $20K in Prizes: AI Safety Arguments Competition|last = Hendrycks|first = Dan|last2 = Liu|first2 = Kevin|last3 = Zhang|first3 = Oliver|last4 = Woodside|first4 = Thomas|last5 = Hough|first5 = Sydney}}</ref>
 |-
+| 2022 || {{dts|March 26}} (first Wayback Machine snapshot), September 12 (first LessWrong post) || Organization || AI safety organization Apart Research launches. The oldest Wayback Machine snapshot of this site is from March 26, 2022.<ref>{{cite web|url = https://web.archive.org/web/20220326083429/https://apartresearch.com/|title = Apart Research|date = March 26, 2022|accessdate = October 23, 2022|publisher = Wayback Machine}}</ref> The first LessWrong post for the organization is published on September 12.<ref>{{cite web|url = https://www.lesswrong.com/posts/y5KwCq6iLKaMWwJMo/black-box-investigation-research-hackathon|title = Black Box Investigation Research Hackathon|last = Kran|first = Esben|last2 = Hallgren|first2 = Jonas|publisher = LessWrong}}</ref>
+|-
+| 2022 || {dts|April 8}} || Organization || Conjecture, a new AI alignment research startup, announces its founding on the Alignment Forum and LessWrong. Conjecture is a "for-profit company with products on the market".<ref>{{cite web|url = https://www.lesswrong.com/posts/jfq2BH5kfQqu2vYv3/we-are-conjecture-a-new-alignment-research-startup|title = We Are Conjecture, A New Alignment Research Startup|last = Leahy|first = Connor|date = April 8, 2022|accessdate = October 23, 2022|publisher = LessWrong}}</ref>
+|-
 | 2022 || April, May || || Multiple companies release AI tools: OpenAI's DALL-E-2, Google's PaLM, SalesForce's CodeGen, and DeepMind's Gato.<ref name=critch-agi>{{cite web|url = https://www.facebook.com/andrew.critch.1/posts/10216944084314649|title = Regarding my AI development timeline/forecast: tl;dr: This month was an inflection point, and showed signs of competitive publishing dynamics and common-knowledge-creation dynamics that have moved up my forecast of "tech company singularities" by ~2.5 years, to 2027-2033 rather than 2030-2035 as previously expressed.|last = Critch|first = Andrew|date = April 10, 2022|accessdate = June 16, 2022}}</ref><ref>{{cite web|url = https://www.lesswrong.com/posts/xxvKhjpcTAJwvtbWM/deepmind-s-gato-generalist-agent|title = Deepmind's Gato: Generalist Agent|last = Kokotajlo|first = Daniel|date = May 12, 2022|accessdate = June 16, 2022|publisher = LessWrong}}</ref> Around this time, and possibly partly influenced by these releases, the distribution of estimates of the arrival of artificial general intelligence moves to earlier in time.<ref name=metaculus-agi-timeline-shift>{{cite web|url = https://forum.effectivealtruism.org/posts/nkwN4M6BcBmThoG7p/6-year-decrease-of-metaculus-agi-prediction|title = 6 Year Decrease of Metaculus AGI Prediction|last = Leong|first = Chris|date = April 11, 2022|accessdate = June 16, 2022|publisher = Effective Altruism Forum}}</ref><ref name=critch-agi/>
 |-
 | 2022 || {{dts|April 29}} || Funding || Anthropic raises $580 million in Series B funding; the round is led by Sam Bankman-Fried, CEO of FTX, and also includes participation from Caroline Ellison, Jim McClave, Nishad Singh, Jaan Tallinn, and the Center for Emerging Risk Research (CERR). Anthropic (co-founded by people from OpenAI with AI safety backgrounds) is a private corporation working on making AI more reliable and explainable, and had previously raised $124 million in Series A funding led by Jaan Tallinn and including Dustin Moskovitz.<ref>{{cite web|url = https://www.anthropic.com/news/announcement#series-b|title = Anthropic Raises Series B to Build Steerable, Interpretable, Robust AI Systems.|accessdate = June 16, 2022|publisher = Anthropic}}</ref><ref>{{cite web|url = https://techcrunch.com/2022/04/29/anthropics-quest-for-better-more-explainable-ai-attracts-580m/|title = Anthropic’s quest for better, more explainable AI attracts $580M|date = April 29, 2022|accessdate = June 16, 2022|publisher = TechCrunch|last = Coldewey|first = Devin}}</ref>
@@ -576,7 +524,71 @@ Here is a partial list of thoughts on what rows we've included:
 | 2022 || July, August || Organization || The Center for AI Safety starts being active around this time (its website had a "Coming Soon" in December 2021).<ref>{{cite web|url = https://safe.ai/updates|title = Updates: Read about our past and present projects.|publisher = Center for AI Safety|accessdate = August 29, 2022}}</ref><ref>{{cite web|url = https://www.alignmentforum.org/posts/4F8Bg8Z5cePTBofzo/announcing-the-introduction-to-ml-safety-course|title = Announcing the Introduction to ML Safety course|last = Hendrycks|first = Dan|last2 = Woodside|first2 = Thomas|last3 = Zhang|first3 = Oliver|date = August 5, 2022|accessdate = August 29, 2022}}</ref> This is distinct from the Stanford Center for AI Safety, despite the similar name.
 |-
 | 2022 || {{dts|August 28}} || Publication || A lengthy blog post by Thomas Larsen (with some help from Eli) goes over what different AI safety groups are doing and why.<ref>{{cite web|url = https://www.lesswrong.com/posts/QBAjndPuFbhEXKcCr/my-understanding-of-what-everyone-in-technical-alignment-is|title = (My understanding of) What Everyone in Technical Alignment is Doing and Why|last = Larsen|first = Thomas|author2 = Eli|date = August 28, 2022|accessdate = August 29, 2022|publisher = LessWrong}}</ref>
+|-
+| 2022 || {{dts|September 23}} || Project || The FTX Future Fund announces its Worldview Prize for submissions that challenge the Future Fund's thinking on the trajectory of AI and the importance of AI safety.<ref name=future-fund-worldview-prize>{{cite web|url = https://ftxfuturefund.org/announcing-the-future-funds-ai-worldview-prize/|title = Announcing the Future Fund’s AI Worldview Prize|date = September 23, 2022|accessdate = October 23, 2022|publisher = FTX Future Fund}}</ref><ref>{{cite web|url = https://forum.effectivealtruism.org/posts/W7C5hwq7sjdpTdrQF/announcing-the-future-fund-s-ai-worldview-prize|title = Announcing the Future Fund's AI Worldview Prize|date = September 23, 2022|accessdate = October 23, 2022|publisher = Effective Altruism Forum}}</ref>
+|-
+| 2022 || {{dts|October 19}} || Newsletter || The first episode of the ML safety updates newsletter/podcast is published.<ref name=ml-safety-updates-post-1>{{cite web|url = https://podcast.apartresearch.com/1|title = OpenAI, Shard Theory, and Left Turns W36|date = October 19, 2022|accessdate = October 23, 2022|publisher = LessWrong}}</ref><ref name=ml-safety-updates-newsletter/>
 |}
+
+== Visual and numerical data ==
+
+=== Mentions on Google Scholar ===
+
+The following table summarizes per-year mentions on Google Scholar as of May 13, 2021.
+
+{| class="sortable wikitable"
+! Year
+! artificial intelligence safety
+! ethical artificial intelligence
+! friendly artificial intelligence  
+! global risk artificial intelligence
+|-
+| 1980 || 683 || 478 || 463 || 252 
+|-
+| 1985 || 1,340 || 713 || 1,110 || 537
+|-
+| 1990 || 3,060 || 1,410 || 2,210 || 1,490 
+|-
+| 1995 || 4,160 || 2,110 || 2,930 || 2,510
+|-
+| 2000 || 7,600 || 3,560 || 4,860 || 4,900
+|-
+| 2002 || 8,080 || 4,510 || 5,950 || 6,380 
+|-
+| 2004 || 11,400 || 4,940 || 6,760 || 8,440
+|-
+| 2006 || 13,300 || 6,240 || 7,820 || 10,700 
+|-
+| 2008 || 16,300 || 7,770 || 10,200 || 12,100
+|-
+| 2010 || 20,500 || 9,170 || 12,500 || 16,400
+|-
+| 2012 || 26,000 || 11,300 || 14,800 || 20,900
+|-
+| 2014 || 29,800 || 13,300 || 16,400 || 24,600
+|-
+| 2016 || 34,600 || 16,500 || 18,400 || 30,500   
+|-
+| 2017 || 39,300 || 20,200 || 21,000 || 36,200   
+|-
+| 2018 || 47,300 || 25,300 || 25,300 || 43,300  
+|-
+| 2019 || 52,700 || 27,600 || 28,500 || 48,300  
+|-
+| 2020 || 43,700 || 31,700 || 29,200 || 48,800 
+|-
+|}
+
+[[File:AI safety tables.png|thumb|center|700px]]
+
+=== Google trends ===
+The chart below shows Google trends data for AI safety (search term) from January 2004 to January 2021, when the screenshot was taken.<ref>{{cite web |title=AI safety |url=https://trends.google.com/trends/explore?date=all&q=AI%20safety |website=trends.google.com/ |access-date=6 January 2021}}</ref>
+
+[[File:AI safety.jpeg|thumb|center|700px]]
+
+=== Google Ngram Viewer ===
+The chart below shows Google Ngram Viewer data for AI safety from 1900 to 2020.<ref>{{cite web |title=AI safety |url=https://books.google.com/ngrams/graph?content=AI+safety&year_start=1990&year_end=2019&corpus=26&smoothing=1&case_insensitive=true&direct_url=t4%3B%2CAI%20safety%3B%2Cc0%3B%2Cs0%3B%3BAI%20safety%3B%2Cc0%3B%3BAI%20Safety%3B%2Cc0%3B%3Bai%20safety%3B%2Cc0%3B%3Bai%20Safety%3B%2Cc0#t4%3B%2CAI%20safety%3B%2Cc0%3B%2Cs0%3B%3BAI%20safety%3B%2Cc1%3B%3BAI%20Safety%3B%2Cc0%3B%3Bai%20safety%3B%2Cc0%3B%3Bai%20Safety%3B%2Cc0 |website=books.google.com |access-date=13 January 2021}}</ref>
+[[File:AI safety ngram.jpeg|thumb|center|700px]]
 
 ==Meta information on the timeline==
 
