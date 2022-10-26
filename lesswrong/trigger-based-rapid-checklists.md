@@ -116,7 +116,7 @@ hard to remember. So every morning, when I open my laptop, I remember
 
 #### Time taken to achieve full memorization
 
-It generally takes about 5-20 iterations to fully internalize the
+It generally takes me about 5-20 iterations to fully internalize the
 execution of a trigger-based checklist. If a checklist is executed
 about once a week, this translates to about 5-20 days, or about 1-3
 weeks.
@@ -127,19 +127,41 @@ Once that's achieved, even if I don't remember all the items in the
 checklist, I know that there's a checklist and can look it up.
 
 For every incremental update to a checklist (e.g., the addition of a
-new item to the checklist), it can take between 5-20 iterations to
+new item to the checklist), it can take me between 5-20 iterations to
 internalize the new item as part of the checklist. If the checklist is
 executed about once a day, this translates to about 5-20 days, or
 about 1-3 weeks.
+
+### For the most part, the order within a checklist doesn't matter
+
+When I'm executing a trigger-based rapid checklist, I might not do it
+in the right order; for instance, I initially forget a step and then
+remember it after executing later steps. Or there's some reason I want
+to defer executing a step till later.
+
+Fortunately, for most of the rapid checklists, the order of the items
+within the checklist doesn't matter much, beyond some very obvious
+dependencies (for instance, closing the laptop lid has to be after
+various steps that depend on the laptop). This means that I can
+execute the checklist much more rapidly, without worrying about
+getting things in the wrong order. This is in contrast with checklists
+related to complex technical things where there are dependencies
+between the steps.
 
 ### No physical (or digital) checking of boxes
 
 Since I'm interested in rapid execution, I'm willing to trade off
 recordkeeping to some extent. So I don't actually check any boxes
-anywhere (physically or digitally) as I execute checklist items. Since
-many of the items are computer-based, I usually *can* look at records
-of various sorts (browsing history, terminal history) if my attention
-wavers and I want to double-check if I executed a step.
+anywhere (physically or digitally) as I execute checklist items.
+
+Since many of the items are computer-based, I usually *can* look at
+records of various sorts (browsing history, terminal history) if my
+attention wavers and I want to double-check if I executed a step.
+
+The fact that the order of items within the checklist doesn't matter
+too much is helpful here -- it reduces the pressure to get through
+each checklist item in sequence and to be sure that each item is
+executed.
 
 ### Checklist redundancy
 
@@ -186,7 +208,9 @@ I have each checklist stored in a separate document. In the document,
 below the checklist, I record various notes, including notes on
 forgetting the checklist execution or forgetting specific
 steps. Documenting this helps me observe what I'm missing and why, and
-helps me focus on being more reliable on those fronts.
+helps me focus on being more reliable on those fronts. In practice,
+for me such notes are fairly rare -- less than 2 per checklist per
+month.
 
 ## Purpose of checklist items
 
