@@ -13,6 +13,11 @@ planning](https://www.lesswrong.com/tag/trigger-action-planning) as
 well as with the ideas popularized by [Getting Things
 Done](https://en.wikipedia.org/wiki/Getting_Things_Done).
 
+This post should not be taken as a documentation of the exact details
+of what I do -- I've left out some details and made some tweaks for
+simplicity. The information here should be thought of as mostly
+illustrative of how somebody might use the checklists.
+
 ## Examples of trigger-based rapid checklists
 
 ### Some triggers
