@@ -1,5 +1,7 @@
 # Trigger-based rapid checklists
 
+Posted to LessWrong at https://www.lesswrong.com/posts/9B2zFwN5iepkC9LqJ/trigger-based-rapid-checklists
+
 In this post, I describe an approach I've been following for the past
 few months, and that I feel has been moderately helpful to me:
 trigger-based rapid checklists. A trigger-based rapid checklist is a
@@ -16,7 +18,7 @@ Done](https://en.wikipedia.org/wiki/Getting_Things_Done).
 This post should not be taken as a documentation of the exact details
 of what I do -- I've left out some details and made some tweaks for
 simplicity. The information here should be thought of as mostly
-illustrative of how somebody might use the checklists.
+illustrative of how somebody might use trigger-based rapid checklists.
 
 ## Examples of trigger-based rapid checklists
 
@@ -127,7 +129,7 @@ about once a week, this translates to about 5-20 days, or about 1-3
 weeks.
 
 The first part to internalize is the act of identifying the trigger
-and thinking "oh,there's a checklist associated with this trigger!"
+and thinking "oh, there's a checklist associated with this trigger!"
 Once that's achieved, even if I don't remember all the items in the
 checklist, I know that there's a checklist and can look it up.
 
@@ -314,7 +316,7 @@ purpose for each checklist item.
 - [ ] (W) Make sure bedroom window and hall terrace door are open
   - Purpose: Setting relevant stuff up
 - [ ] (L) Run the loose ends script
-  - Purpose: Being prepared for failure or extended unavailablity
+  - Purpose: Being prepared for failure or extended unavailability
 - [ ] (C) Close lid and cover laptop
-  - Purpose: Being prepared for failure or extended unavailablity
+  - Purpose: Being prepared for failure or extended unavailability
 ```
