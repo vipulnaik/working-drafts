@@ -114,6 +114,24 @@ DWEMSCAL, which doesn't roll too freely off the tongue, but is not too
 hard to remember. So every morning, when I open my laptop, I remember
 "DWEMSCAL", then start executing the expansions of each letter.
 
+#### Time taken to achieve full memorization
+
+It generally takes about 5-20 iterations to fully internalize the
+execution of a trigger-based checklist. If a checklist is executed
+about once a week, this translates to about 5-20 days, or about 1-3
+weeks.
+
+The first part to internalize is the act of identifying the trigger
+and thinking "oh,there's a checklist associated with this trigger!"
+Once that's achieved, even if I don't remember all the items in the
+checklist, I know that there's a checklist and can look it up.
+
+For every incremental update to a checklist (e.g., the addition of a
+new item to the checklist), it can take between 5-20 iterations to
+internalize the new item as part of the checklist. If the checklist is
+executed about once a day, this translates to about 5-20 days, or
+about 1-3 weeks.
+
 ### No physical (or digital) checking of boxes
 
 Since I'm interested in rapid execution, I'm willing to trade off
@@ -240,3 +258,34 @@ haven't lost any of my work. For instance:
 * Every night, I close my laptop lid. This reduces the risk of dust on
   the laptop, but the main reason is to reduce the risk of damage to
   the laptop that might arise from any accident.
+
+### Annotating my night checklist with the purposes served by each checklist item
+
+Here's a revisit of my night checklist, with the inclusion of
+purpose for each checklist item.
+
+```
+- [ ] (D) Daily update -- review today's daily updates (both personal and work) for any omissions
+  - Purpose: Recording stuff before I forget
+- [ ] (W) Check the weather for the next 1-2 days
+  - Purpose: Getting timely and decision-relevant information
+- [ ] (E) Catch up on email: personal and work
+  - Purpose: Enforcing some cadence on things I need to check on regularly
+  - Purpose: Reducing the risk of escalation, particularly at inconvenient times
+- [ ] (M) Catch up on Facebook messages
+  - Purpose: Enforcing some cadence on things I need to check on regularly
+  - Purpose: Reducing the risk of escalation, particularly at inconvenient times
+- [ ] (S) Catch up on Slack: personal and work
+  - Purpose: Enforcing some cadence on things I need to check on regularly
+  - Purpose: Reducing the risk of escalation, particularly at inconvenient times
+- [ ] (C) Check calendar for the next 3 days
+  - Purpose: Getting timely and decision-relevant information
+- [ ] (A) Turn alarm on for tomorrow
+  - Purpose: Setting relevant stuff up
+- [ ] (W) Make sure bedroom window and hall terrace door are open
+  - Purpose: Setting relevant stuff up
+- [ ] (L) Run the loose ends script
+  - Purpose: Being prepared for failure or extended unavailablity
+- [ ] (C) Close lid and cover laptop
+  - Purpose: Being prepared for failure or extended unavailablity
+```
