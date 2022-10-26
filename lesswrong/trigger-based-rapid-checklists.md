@@ -112,7 +112,7 @@ selected letter for each checklist item in parentheses.
 For the morning checklist, the selected letters form the work
 DWEMSCAL, which doesn't roll too freely off the tongue, but is not too
 hard to remember. So every morning, when I open my laptop, I remember
-"DWEMSCL", then start executing the expansions of each letter.
+"DWEMSCAL", then start executing the expansions of each letter.
 
 ### No physical (or digital) checking of boxes
 
@@ -217,7 +217,7 @@ The checklist item (in both my morning checklist and my night
 checklist) to review and update my daily update is an example. See my
 post [The why and how of daily
 updates](https://www.lesswrong.com/posts/JvTM68yzurLzJ3Xua/the-why-and-how-of-daily-updates)
-for more information.
+for general background on my use of daily updates.
 
 ### Setting relevant stuff up
 
@@ -239,4 +239,4 @@ haven't lost any of my work. For instance:
 
 * Every night, I close my laptop lid. This reduces the risk of dust on
   the laptop, but the main reason is to reduce the risk of damage to
-  the laptop.
+  the laptop that might arise from any accident.
