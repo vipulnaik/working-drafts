@@ -139,7 +139,7 @@ internalize the new item as part of the checklist. If the checklist is
 executed about once a day, this translates to about 5-20 days, or
 about 1-3 weeks.
 
-### For the most part, the order within a checklist doesn't matter
+### Order-independence: for the most part, the order within a checklist doesn't matter
 
 When I'm executing a trigger-based rapid checklist, I might not do it
 in the right order; for instance, I initially forget a step and then
