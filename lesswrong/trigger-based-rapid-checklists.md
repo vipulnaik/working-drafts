@@ -46,7 +46,7 @@ Here is a lightly-edited version of my morning checklist:
   - Also check spam, trash, and all mail (I won't check these for each intermediate check during the day)
 - [ ] (M) Catch up on Facebook messages
 - [ ] (S) Catch up on Slack: personal and work
-- [ ] (C) Calendar checking to plan my day
+- [ ] (C) Check calendar to plan my day
 - [ ] (A) Turn off alarm
 - [ ] (L) Run the loose ends script
 ```
@@ -59,13 +59,13 @@ And here's a lightly-edited version of my night checklist:
 - [ ] (E) Catch up on email: personal and work
 - [ ] (M) Catch up on Facebook messages
 - [ ] (S) Catch up on Slack: personal and work
-- [ ] (C) Calendar checking for the next 3 days:
+- [ ] (C) Check calendar for the next 3 days:
   - For next day, pay particular attention to implications regarding e.g., when to wake up; in particular, try to make it so that I go to sleep at least 9 hours before the time of the first appointment
   - For the two days after that, make sure that the calendar makes sense, e.g., I didn't mark an incorrect event; if there are things that need to be in sync across multiple calendars (e.g., across two jobs while I'm juggling them), make sure they are in sync
 - [ ] (A) Turn alarm on for tomorrow
-  - The default alarm setting is 8:30 AM; this is fine for most days
+  - The default alarm setting is 8:30 AM; this is fine for most days (I am usually awake well before this time -- the alarm is a fallback measure)
   - I should make sure that the alarm time is early enough to be at least 1 hour before any online meeting, and a larger amount of time for other kinds of events
-  - Also use this occasion to make sure that the phone is plugged in and charging
+  - Also use this occasion to make sure that the phone is plugged in and (charging or charged)
 - [ ] (W) Make sure bedroom window and hall terrace door are open
 - [ ] (L) Run the loose ends script
 - [ ] (C) Close lid and cover laptop
