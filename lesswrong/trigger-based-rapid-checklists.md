@@ -40,27 +40,32 @@ list (not necessarily comprehensive):
 Here is a lightly-edited version of my morning checklist:
 
 ```
-- [ ] (D) Daily update -- review yesterday's daily updates (both personal and work) for any omissions
+- [ ] (D) Daily update -- review yesterday's daily updates (both personal and Equator) for any omissions
 - [ ] (W) Check the weather for the day
-- [ ] (E) Catch up on email: personal and work
+- [ ] (E) Catch up on email: personal and Equator
   - Also check spam, trash, and all mail (I won't check these for each intermediate check during the day)
 - [ ] (M) Catch up on Facebook messages
-- [ ] (S) Catch up on Slack: personal and work
+- [ ] (S) Catch up on Slack: personal and Equator
 - [ ] (C) Calendar checking to plan my day
+- [ ] (A) Turn off alarm
 - [ ] (L) Run the loose ends script
 ```
 
 And here's a lightly-edited version of my night checklist:
 
 ```
-- [ ] (D) Daily update -- review today's daily updates (both personal and work) for any omissions
+- [ ] (D) Daily update -- review today's daily updates (both personal and Equator) for any omissions
 - [ ] (W) Check the weather for the next 1-2 days
-- [ ] (E) Catch up on email: personal and work
+- [ ] (E) Catch up on email: personal and Equator
 - [ ] (M) Catch up on Facebook messages
-- [ ] (S) Catch up on Slack: personal and work
+- [ ] (S) Catch up on Slack: personal and Equator
 - [ ] (C) Calendar checking for the next 3 days:
-  - For next day, pay particular attention to implications regarding e.g., when to wake up
-  - For the two days after that, make sure that the calendar makes sense, e.g., I didn't mark an incorrect event; if there are things that need to be in sync across multiple calendars (e.g., between personal and work calendar) make sure they are in sync
+  - For next day, pay particular attention to implications regarding e.g., when to wake up; in particular, try to make it so that I go to sleep at least 9 hours before the time of the first appointment
+  - For the two days after that, make sure that the calendar makes sense, e.g., I didn't mark an incorrect event; if there are things that need to be in sync across multiple calendars (e.g., across two jobs while I'm juggling them), make sure they are in sync
+- [ ] (A) Turn alarm on for tomorrow
+  - The default alarm setting is 8:30 AM; this is fine for most days
+  - I should make sure that the alarm time is early enough to be at least 1 hour before any online meeting, and a larger amount of time for other kinds of events
+  - Also use this occasion to make sure that the phone is plugged in and charging
 - [ ] (W) Make sure bedroom window and hall terrace door are open
 - [ ] (L) Run the loose ends script
 - [ ] (C) Close lid and cover laptop
@@ -104,9 +109,9 @@ the checklist so that the letters come together nicely to form a good
 mnemonic. In the sample checklists I pasted above, I've included the
 selected letter for each checklist item in parentheses.
 
-For the morning checklist, the selected letters form the work DWEMSCL,
-which doesn't roll too freely off the tongue, but is not too hard to
-remember. So every morning, when I open my laptop, I remember
+For the morning checklist, the selected letters form the work
+DWEMSCAL, which doesn't roll too freely off the tongue, but is not too
+hard to remember. So every morning, when I open my laptop, I remember
 "DWEMSCL", then start executing the expansions of each letter.
 
 ### No physical (or digital) checking of boxes
@@ -114,8 +119,8 @@ remember. So every morning, when I open my laptop, I remember
 Since I'm interested in rapid execution, I'm willing to trade off
 recordkeeping to some extent. So I don't actually check any boxes
 anywhere (physically or digitally) as I execute checklist items. Since
-many of the items are computer-based, I usually *can* check records of
-various sorts (browsing history, terminal history) if my attention
+many of the items are computer-based, I usually *can* look at records
+of various sorts (browsing history, terminal history) if my attention
 wavers and I want to double-check if I executed a step.
 
 ### Checklist redundancy
@@ -146,7 +151,7 @@ to (E) (email), I might end up replying to or processing some incoming
 emails.
 
 The key is to allow for such detours, but still mentally be in
-"checklist mode" so that when the detour is open, I return to
+"checklist mode" so that when the detour is finished, I return to
 checklist execution.
 
 For some checklists, such as the morning checklist, I have set time
@@ -164,3 +169,66 @@ below the checklist, I record various notes, including notes on
 forgetting the checklist execution or forgetting specific
 steps. Documenting this helps me observe what I'm missing and why, and
 helps me focus on being more reliable on those fronts.
+
+## Purpose of checklist items
+
+### Enforcing some cadence on things I need to check on regularly
+
+For some of the items, such as checking email, messages, and Slack, I
+include them in my morning and night checklist (as well as other
+checklists such as my pre-outside trip checklist and pre-meal
+checklist). This enforces that I do them reasonably regularly, without
+forcing specific times when I do the checks.
+
+In the past, I did check various things like email, messages, and
+Slack reasonably regularly, but there would often be large random
+gaps; for instance, there was once a gap of about 1.5 days when I
+didn't check my personal email, and there were times when I didn't
+clear out some Slack messages.
+
+For some checks, I don't need to do them that regularly, so I enforce
+a less frequent cadence. For instance, checking my spam, trash, and
+all mail is something I have in my morning checklist but not in any of
+my other checklists. Prior to explicitly adding them to my checklists,
+I often didn't check my spam, trash, and all mail for several
+weeks. Spam and trash emails get deleted every 30 days, so enforcing
+some cadence that's more frequent than 30 days helps make sure that I
+don't miss such emails.
+
+### Reducing the risk of escalation, particularly at inconvenient times
+
+Things like email, messages, and Slack often include early warnings of
+things that could blow up into emergencies if not responded to in
+time. It's particularly inconvenient if these escalations happen at
+bad times such as when I'm sleeping or when I'm not at home. I reduce
+this risk by checking my email, messages, and Slack right before going
+to sleep or going outside the home.
+
+### Getting timely and decision-relevant information
+
+Checking the weather forecast regularly is valuable because
+information about future weather can inform my plan and
+schedule. Similarly, checking the calendar regularly gives me
+information on how to schedule my time the next day.
+
+### Setting relevant stuff up
+
+For instance, opening the windows helps with ventilation; setting the
+alarm clock creates a fallback way for me to make sure I wake up on
+time.
+
+### Being prepared for failure or extended unavailablity
+
+Every time I close for the day, I want to be in a "clean state" as
+much as possible -- everything I do has been committed and backed up,
+so that if my laptop crashes and doesn't recover the next day, I
+haven't lost any of my work. For instance:
+
+* The loose ends script that I run every night and every morning (as
+  well as before outside trips) is to make sure that various things on
+  my laptop have been backed up remotely and cleaned up (primarily, it
+  checks that all my git repositories are in clean state).
+
+* Every night, I close my laptop lid. This reduces the risk of dust on
+  the laptop, but the main reason is to reduce the risk of damage to
+  the laptop.
