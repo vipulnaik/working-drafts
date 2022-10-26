@@ -40,12 +40,12 @@ list (not necessarily comprehensive):
 Here is a lightly-edited version of my morning checklist:
 
 ```
-- [ ] (D) Daily update -- review yesterday's daily updates (both personal and Equator) for any omissions
+- [ ] (D) Daily update -- review yesterday's daily updates (both personal and work) for any omissions
 - [ ] (W) Check the weather for the day
-- [ ] (E) Catch up on email: personal and Equator
+- [ ] (E) Catch up on email: personal and work
   - Also check spam, trash, and all mail (I won't check these for each intermediate check during the day)
 - [ ] (M) Catch up on Facebook messages
-- [ ] (S) Catch up on Slack: personal and Equator
+- [ ] (S) Catch up on Slack: personal and work
 - [ ] (C) Calendar checking to plan my day
 - [ ] (A) Turn off alarm
 - [ ] (L) Run the loose ends script
@@ -54,11 +54,11 @@ Here is a lightly-edited version of my morning checklist:
 And here's a lightly-edited version of my night checklist:
 
 ```
-- [ ] (D) Daily update -- review today's daily updates (both personal and Equator) for any omissions
+- [ ] (D) Daily update -- review today's daily updates (both personal and work) for any omissions
 - [ ] (W) Check the weather for the next 1-2 days
-- [ ] (E) Catch up on email: personal and Equator
+- [ ] (E) Catch up on email: personal and work
 - [ ] (M) Catch up on Facebook messages
-- [ ] (S) Catch up on Slack: personal and Equator
+- [ ] (S) Catch up on Slack: personal and work
 - [ ] (C) Calendar checking for the next 3 days:
   - For next day, pay particular attention to implications regarding e.g., when to wake up; in particular, try to make it so that I go to sleep at least 9 hours before the time of the first appointment
   - For the two days after that, make sure that the calendar makes sense, e.g., I didn't mark an incorrect event; if there are things that need to be in sync across multiple calendars (e.g., across two jobs while I'm juggling them), make sure they are in sync
@@ -210,6 +210,14 @@ Checking the weather forecast regularly is valuable because
 information about future weather can inform my plan and
 schedule. Similarly, checking the calendar regularly gives me
 information on how to schedule my time the next day.
+
+### Recording stuff before I forget
+
+The checklist item (in both my morning checklist and my night
+checklist) to review and update my daily update is an example. See my
+post [The why and how of daily
+updates](https://www.lesswrong.com/posts/JvTM68yzurLzJ3Xua/the-why-and-how-of-daily-updates)
+for more information.
 
 ### Setting relevant stuff up
 
