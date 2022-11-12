@@ -1,0 +1,149 @@
+{{Future Fund COI}}
+
+This is a '''timeline of FIXME'''.
+
+== Sample questions ==
+
+The following are some interesting questions that can be answered by reading this timeline: 
+
+==Big picture==
+
+{| class="wikitable"
+! Time period !! Development summary !! More details
+|-
+|}
+
+== Summary of background events by year ==
+
+{| class="wikitable"
+! Year !! Development summary  
+|-
+| 1992 || {{w|Sam Bankman-Fried}} is born.
+|-
+| 2017 || {{w|Alameda Research}} is founded in November.
+|-
+| 2019 || [[w:FTX (company)|FTX]] is founded in May.
+|-
+| 2022 || FTX Future Fund launches in February. In November, FTX plunges into crisis.
+|-
+|}
+
+== Key actors ==
+
+{| class="wikitable"
+! Name !! Acronym !! Known for !! Twitter handle !! Overall involvement 
+|-
+| FTX || FTX || || @FTX_Official || 
+|-
+| Future Fund || FF || ||  @ftxfuturefund ||
+|-
+| {{w|Alameda Research}} || AR || || @AlamedaResearch ||
+|-
+| {{w|Sam Bankman-Fried}} || SBF || || @SBF_FTX ||
+|-
+| Caroline Ellison || CE || || @carolinecapital || 
+|-
+| Zach Dexter || ZD || || @zachdex ||
+|-
+| Nishad Singh || NS || || @Nishad__Singh ||
+|-
+| {{w|Changpeng Zhao}} || CZ || || @cz_binance ||
+|-
+|}
+
+==Full timeline==
+
+{| class="sortable wikitable"
+! Date !! Time (UTC) !! Actor !! Communication method !! Event type !! Details
+|-
+| October || || || || || It is reported that FTX was under investigation in {{w|Texas}} for allegedly selling unregistered securities.
+|-
+| November 2 || 2:44 p.m. || Ian Allison, <code>coindesk.com</code> || Article || || An article at <code>coindesk.com</code> by Ian Allison shares some critical financial details from Alameda Research, revealing that its balance sheet is full of the FTT token, which is issued by the exchange that grants holders a discount on trading fees on its marketplace. It is revealed that Alameda rests on a foundation largely made up of a coin that a sister company invented, instead of an independent asset like a fiat currency or another crypto. Total assets totalling $14.6 billion are reported to be comprised of $5.8 billion FTT token, $1.2 billion Solana token (SOL), $3.37 billion in unidentified “crypto held,” $2 billion in “investments in equity securities”, leaving roughly $2.2 billion in assets. According to this balance sheet, Alameda only had $134 million in cash on hand in June 2022.<ref name=sdf/><ref>{{cite web |last1=Allison |first1=Ian |title=Divisions in Sam Bankman-Fried’s Crypto Empire Blur on His Trading Titan Alameda’s Balance Sheet |url=https://www.coindesk.com/business/2022/11/02/divisions-in-sam-bankman-frieds-crypto-empire-blur-on-his-trading-titan-alamedas-balance-sheet/ |website=www.coindesk.com |access-date=12 November 2022 |language=en |date=2 November 2022}}</ref> 
+|-
+| November 4 || || || Article || || "Following the CoinDesk report, a pseudonymous crypto researcher, Dirty Bubble Media, published further claims about Alameda on Substack, the newsletter platform. Its newsletter asked if the company was insolvent. Referring to the holding of a chunk of assets in FTT, it added: “It’s almost as if SBF [Sam Bankman-Fried] found a way to hack the financial system, printing billions of dollars out of thin air against which he was able to borrow massive sums from unknown counterparties.”"<ref name="the Guardian">{{cite web |title=How Binance played a key role as FTX collapse unfolded |url=https://www.theguardian.com/technology/2022/nov/11/binance-ftx-collapse-cryptocurrency-exchange-changpeng-zhao |website=the Guardian |access-date=12 November 2022 |language=en |date=11 November 2022}}</ref><ref name=sdf>{{cite web |last1=Media |first1=Dirty Bubble |title=Is Alameda Research Insolvent? |url=https://dirtybubblemedia.substack.com/p/is-alameda-research-insolvent |website=dirtybubblemedia.substack.com |access-date=12 November 2022 |language=en}}</ref>
+|-
+| November 6 || 3:47 p.m. || {{w|Changpeng Zhao}} || Tweet || Customer reaction || {{w|Binance}} CEO {{w|Changpeng Zhao}} tweets: {{quote|As part of Binance’s exit from FTX equity last year, Binance received roughly $2.1 billion USD equivalent in cash (BUSD and FTT). Due to recent revelations that have came to light, we have decided to liquidate any remaining FTT on our books.}} In the tweet thread, CZ says they will try to do so in a way that minimizes market impact, expecting a complete liquidation in a few months.<ref>{{cite web |author={{w|Changpeng Zhao}}|title=Due to recent revelations that have came to light, we have decided to liquidate any remaining FTT on our books |url=https://twitter.com/cz_binance/status/1589283421704290306 |website=Twitter |access-date=12 November 2022 |language=en}}</ref>
+|-
+| November 6 || 2:32 p.m. || || Tweet || || In response to the ''{{w|CoinDesk}}'' article, Caroline Ellison tweets: {{quote|A few notes on the balance sheet info that has been circulating recently:
+- that specific balance sheet is for a subset of our corporate entities, we have > $10b of assets that aren’t reflected there.<ref>{{cite web |author=Caroline Ellison|title=We have > $10b of assets that aren’t reflected there |url=https://twitter.com/carolinecapital/status/1589264375042707458 |website=Twitter |access-date=12 November 2022 |language=en}}</ref>}}
+|-
+| November 6 || 4:03 p.m. || Caroline Ellison || Tweet || || Caroline Ellison tweets {{quote|@cz_binance if you're looking to minimize the market impact on your FTT sales, Alameda will happily buy it all from you today at $22!<ref>{{cite web |author=Caroline Ellison|title=@cz_binance  if you're looking to minimize the market impact on your FTT sales, Alameda will happily buy it all from you today at $22! |url=https://twitter.com/carolinecapital/status/1589287457975304193 |website=Twitter |access-date=12 November 2022 |language=en}}</ref>}}
+|-
+| November 8 || || {{w|Binance}} || || Binance rescue || {{w|Binance}} signs a non-binding agreement to buy FTX's non-US assets in order to save the competitor from a liquidity crisis that FTX actually found itself in partly through Binance's own actions, as the latter accused FTX of committing fraud with FTT tokens.<ref>{{cite web |title=Binance pulls out of FTX deal, Bitcoin value hits 2-year low |url=https://tech.news.am/eng/news/284/binance-pulls-out-of-ftx-deal-bitcoin-value-hits-2-year-low.html |website=NEWS.am TECH - Innovations and science |access-date=12 November 2022}}</ref>
+|-
+| November 8 || 4:03 p.m. || {{w|Sam Bankman-Fried}} || Tweet || Binance rescue || SBF tweets: {{quote|Things have come full circle, and <code>FTX.com</code>’s first, and last, investors are the same: we have come to an agreement on a strategic transaction with Binance for <code>FTX.com</code> (pending DD etc.)}} Along the tweet thread, he announces that FTX customers are protected and that the teams are working to clear out liquidity crunches.<ref>{{cite web|author={{w|Sam Bankman-Fried}} |title=we have come to an agreement on a strategic transaction with Binance for FTX.com |url=https://twitter.com/SBF_FTX/status/1590012124864348160 |website=Twitter |access-date=12 November 2022 |language=en}}</ref>   
+|-
+| November 9 || 9:56 p.m. || {{w|Changpeng Zhao}} || Tweet || Binance rescue || {{w|Changpeng Zhao}} announces incapacity of Binance to push ahead with the deal to acquire FTX. CZ tweets: {{quote|Sad day. Tried, but 😭<ref>{{cite web |author={{w|Changpeng Zhao}}|title=Sad day. Tried, but 😭|url=https://twitter.com/cz_binance/status/1590463239925944320 |website=Twitter |access-date=12 November 2022 |language=en}}</ref>}}
+|-
+| November 10 || 2:13 p.m. || {{w|Sam Bankman-Fried}} || Tweet || Bankruptcy || SBF tweets "I'm sorry.  That's the biggest thing. I fucked up, and should have done better."<ref>{{cite web |title=I'm sorry.  That's the biggest thing. I fucked up, and should have done better. |author={{w|Sam Bankman-Fried}}|url=https://twitter.com/SBF_FTX/status/1590709166515310593 |website=Twitter |access-date=12 November 2022 |language=en}}</ref>
+|-
+| November 10 || || Securities Commission of The Bahamas || || Government intervention || FTX assets are frozen by the Securities Commission of The Bahamas, which appoints a liquidator for one of his entities, as SBF raced to raise as much as US$8 billion to save FTX.<ref>{{cite web |title=FTX assets frozen by Bahamas regulator as crypto exchange fights to survive |url=https://www.ft.com/content/c6658ce8-26a3-4580-9e64-6083a7d35eca |website=Financial Times |access-date=12 November 2022 |date=11 November 2022}}</ref>
+|-
+| November 11 || 3:23 p.m. || {{w|Sam Bankman-Fried}} || Tweet || Bankruptcy || SBF announces having filed FTX, FTX US, and Alameda Research for voluntary [[w:Chapter 11, Title 11, United States Code|Chapter 11]] proceedings in the United States.<ref name="twitter.com/sbf_ftx">{{cite web |title=SBF |author={{w|Sam Bankman-Fried}}|title=Hi all: Today, I filed FTX, FTX US, and Alameda for voluntary Chapter 11 proceedings in the US|url=https://twitter.com/SBF_FTX/status/1591089317300293636 |website=Twitter |access-date=12 November 2022 |language=en}}</ref> 
+|-
+| November 11 || 3:59 p.m. || {{w|Changpeng Zhao}} || Tweet || Investment advice || {{w|Changpeng Zhao}} tweets: 
+{{quote|FTX aside, avoid businesses/exchanges/projects that:
+
+* are not profitable (musical chairs)
+* survive by selling their own tokens
+* give high incentives for locking your tokens 
+* have a large total supply, but only a small circulation supply
+* involves loans<ref>{{cite web |author={{w|Changpeng Zhao}}|title=FTX aside, avoid businesses/exchanges/projects that |url=https://twitter.com/cz_binance/status/1591098313591652352 |website=Twitter |access-date=12 November 2022 |language=en}}</ref>}}
+|-
+| November 12 || 7:07 || Ryne Miller || Tweet || {{w|Asset management}} || FTX US General Counsel Ryne Miller tweets: {{quote|Following the Chapter 11 bankruptcy filings - FTX US and FTX [dot] com initiated precautionary steps to move all digital assets to cold storage.  Process was expedited this evening - to mitigate damage upon observing unauthorized transactions.<ref>{{cite web |author=Ryne Miller|title=FTX US and FTX [dot] com initiated precautionary steps to move all digital assets to cold storage |url=https://twitter.com/_Ryne_Miller |website=Twitter |access-date=12 November 2022 |language=en}}</ref>}}
+|-
+| November 12 || circa 5 p.m. || || Article || {{w|Balance sheet}} || An article at <code>ft.com</code> reports that FTX held less than $1 billion in liquid assets against $9 billion in liabilities the day before it collapsed into bankruptcy, according to investment materials seen by the ''{{w|Financial Times}}''.<ref>{{cite web |title=FTX held less than $1bn in liquid assets against $9bn in liabilities |url=https://www.ft.com/content/f05fe9f8-ca0a-48d5-8ef2-7a4d813af558 |website=Financial Times |access-date=12 November 2022 |date=12 November 2022}}</ref>
+|-
+|}
+
+==Meta information on the timeline==
+
+===How the timeline was built===
+
+The initial version of the timeline was written by [[User:FIXME|FIXME]].
+
+{{funding info}} is available.
+
+===Feedback and comments===
+
+Feedback for the timeline can be provided at the following places:
+
+* FIXME
+
+===What the timeline is still missing===
+
+Meta:
+
+* [https://forum.effectivealtruism.org/topics/ftx-foundation FTX Foundation topic] lists posts below the description on top; see the posts in November 2022 that are mostly related to the collapse
+* [https://www.vox.com/the-goods/23451761/ftx-sam-bankman-fried-ftx-bankrupt-binance-bitcoin-alameda Vox article] links to most of the relevant events, and is worth going through.
+* [https://twitter.com/moukon_genius/status/1591346485622640641 Tweet with a pictorial depiction of what happened]
+
+Actual (please include multiple references to news sources discussing the tweets):
+
+* [https://www.coindesk.com/business/2022/11/02/divisions-in-sam-bankman-frieds-crypto-empire-blur-on-his-trading-titan-alamedas-balance-sheet/ CoinDesk article that started everything]✔
+* [https://twitter.com/cz_binance/status/1589283421704290306 Binance tweet announcing plans to sell FTT] (that was the imminent cause of the collapse)
+* [https://twitter.com/carolinecapital/status/1589264375042707458 Caroline Ellison (Alameda Research CEO) tweet responding to the Coindesk article]
+* [https://twitter.com/carolinecapital/status/1589287457975304193 Caroline Ellison (Alameda Research CEO) offers to buy Binance's FTT]
+* [https://cointelegraph.com/news/ftx-founder-sam-bankman-fried-removes-assets-are-fine-flood-from-twitter Deleted SBF tweet thread saying customer assets are fine]
+* [https://twitter.com/SBF_FTX/status/1590012124864348160 SBF tweet thread announcing plan to sell to Binance]
+* [https://twitter.com/cz_binance/status/1590013613586411520 Binance CEO tweet announcing plan to look into buying FTX]
+* [https://twitter.com/binance/status/1590449161069268992 Binance tweet saying they've decided to not acquire FTX]
+* [https://twitter.com/FTX_Official/status/1590763245488713729 FTX tweet announcing Tron credit facility]
+* [https://twitter.com/LucasNuzzi/status/1590122590206824448 I found evidence that FTX might have provided a massive bailout for Alameda in Q2 which now came back to haunt them.] by Lucas Nuzzi; this would get picked up by multiple sources, e.g., [https://cointelegraph.com/news/alameda-research-ftt-token-transfer-from-september-fuels-wild-speculations here] and [https://www.coindesk.com/layer2/2022/11/09/8-days-in-november-what-led-to-ftxs-sudden-collapse/ here]
+* [https://twitter.com/SBF_FTX/status/1590709166515310593 SBF "I'm sorry, I f***ed up" mea culpa tweet thread]
+* [https://twitter.com/SBF_FTX/status/1591089317300293636 SBF tweet thread announcing bankruptcy filing]✔
+* [https://twitter.com/FTX_Official/status/1591071832823959552 Official FTX bankruptcy filing press release]
+* [https://twitter.com/willmacaskill/status/1591218014707671040 Will MacAskill tweet thread] (also posted to EA Forum [https://forum.effectivealtruism.org/posts/WdeiPrwgqW2wHAxgT/a-personal-statement-on-ftx here])
+* [https://twitter.com/elonmusk/status/1591313397362352130 Elon Musk tweet] -- Elon Musk's acquisition of Twitter happened shortly before the FTX incident, and the whole FTX saga playing out on Twitter was used by Musk to show Twitter's importance
+* [https://lfb.mof.go.jp/kantou/kinyuu/pagekthp202211103297.html Administrative action against FTX Japan Co., Ltd.] (covered at [https://cointelegraph.com/news/japan-s-financial-regulator-requests-ftx-japan-halt-operations Japan’s financial regulator requests FTX Japan halt operations])
+* [https://www.thediff.co/p/ftx-rip FTX, RIP]
+
+===Timeline update strategy===
+
+==See also==
+
+==External links==
+
+==References==
+
+{{Reflist|30em}}
