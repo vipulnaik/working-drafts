@@ -507,14 +507,13 @@ side: you can scale up giving since the world's problems are so
 big. However, there's another direction where this is important as
 well: the direction toward zero (and beyond?).
 
-One sometimes-implicit and sometimes-explicit idea in SBF's discourse,
-as seen in Stanford EA, is the idea that utility is close enough to
-linear in money, and as an important corollary, there's a lower bound
-at zero. The worst-case outcome here is making nothing, in which case
-you make no donations and therefore have effectively zero impact. So
-risk-taking has very high upside but only a limited downside -- in the
-worst case, you're wiped out, you declare bankruptcy, maybe you even
-die penniless.
+One sometimes-implicit and sometimes-explicit idea in SBF's discourse
+is the idea that utility is close enough to linear in money, and as an
+important corollary, there's a lower bound at zero. The worst-case
+outcome here is making nothing, in which case you make no donations
+and therefore have effectively zero impact. So risk-taking has very
+high upside but only a limited downside -- in the worst case, you're
+wiped out, you declare bankruptcy, maybe you even die penniless.
 
 From a *selfish* perspective, this is a pretty bad outcome (and
 indeed, a logarithmic model of utility would give an infinite
