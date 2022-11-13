@@ -87,7 +87,7 @@ elaborate extensively on them):
   events with SBF have fully invalidated them. I think the basic logic
   of many of these is still fairly sound, but also that the events
   with SBF should lead us to *update in the other direction* and to
-  *add more nuance to our thinking of these topics*. I try to
+  *add more nuance to our thinking about these topics*. I try to
   articulate this a little bit in this post, but nowhere near enough,
   and further articulation would require a separate post (perhaps by
   another person).
