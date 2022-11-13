@@ -78,7 +78,7 @@ elaborate extensively on them):
 * I'm not claiming that the EA philosophy and community create more
   incentives for deception and dishonesty than most groups do; I
   actually think the opposite is true. Rather, I'm focusing on the
-  encouragement that the EA philosophy and community provides for
+  encouragement that the EA philosophy and community provide for
   risk-taking, and the expected value framework that naively
   encourages this.
 
