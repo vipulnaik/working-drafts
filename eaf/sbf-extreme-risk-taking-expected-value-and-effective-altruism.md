@@ -709,7 +709,7 @@ seems valuable:
 
 I think this is important as part of the general point that SBF was
 successful at cultivating a certain kind of image in the media that
-didn't reflect his reality. However, I don't think that the fact (of
+didn't reflect his reality. However, I don't think that the fact (that
 his actual lifestyle was an order of magnitude more luxurious than his
 public persona might indicate) undercuts the general claim that his
 main goal was to make a bunch of money to donate. Even this moderately
