@@ -663,10 +663,10 @@ some areas where he's wrong:
   bad even in tamer scenarios (for instance, if Alameda had openly
   gone bankrupt and FTX had died out with the collapse of the FTT).
 
-* I suspect that altruistic impact is less linear in money, and that
-  there are a lot of other details about the way things play out, that
-  affect altruistic impact. For instance, I suspect that FTX could
-  have had a significant positive impact if it had quit with SBF
+* I suspect that altruistic impact is less than linear in money, and
+  that there are a lot of other details about the way things play out,
+  that affect altruistic impact. For instance, I suspect that FTX
+  could have had a significant positive impact if it had quit with SBF
   making enough to earmark a billion dollars for charity. That would
   have been enough money to champion the values and start a pattern of
   altruism that ultimately could have been continued by other donors
