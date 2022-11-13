@@ -1,4 +1,4 @@
-# SBF, extreme risk-taking, and effective altruism
+# SBF, extreme risk-taking, expected value, and effective altruism
 
 *NOTE: I have some indirect associations with SBF and his companies,
  though probably less so than many of the others who've been posting
@@ -7,6 +7,16 @@
  don't think this creates a conflict of interest, but feel free to
  discount what I say.*
 
+* NOTE 2: I'm publishing this post without having spent the level of
+  effort polishing and refining it that I normally try to spend. This
+  is due to the time-sensitive nature of the subject matter and
+  because I expect to get more value from being corrected in the
+  comments on the post than from refining the post myself. If errors
+  are pointed out, I will try to correct them, but may not always be
+  able to make timely corrections, so if you're reading the post,
+  please also check the comments to check for flaws identified by
+  comments.*
+
 The collapse of Sam Bankman-Fried (SBF) and his companies FTX and
 Alameda Research is the topic du jour on the Effective Altruism Forum,
 and there have been [several posts on the
@@ -14,10 +24,14 @@ Forum](https://forum.effectivealtruism.org/topics/future-fund?sortedBy=new)
 discussing what happened and what we can learn from it. The post [FTX
 FAQ](https://forum.effectivealtruism.org/posts/j7sDfXKEMeT2SRvLG/ftx-faq)
 provides a good summary of what we know as of the time I'm writing
-this post.
+this post. I'm also funding work on a [timeline of FTX
+collapse](https://timelines.issarice.com/wiki/Timeline_of_FTX_collapse)
+(still a work in progress, but with enough coverage already to be useful if
+you are starting with very little knowledge).
 
-Based on information so far, fraud and deception happened and were
-likely key to the way things played out and the extent of damage
+Based on information so far, fraud and deception on the part of SBF
+(and/or others in FTX and/or Alameda Research) likely happened and
+were likely key to the way things played out and the extent of damage
 caused. The trigger seems to be the [big loan that FTX provided to
 Alameda Research to bail it
 out](https://twitter.com/LucasNuzzi/status/1590122590206824448), using
@@ -40,10 +54,10 @@ has articulated himself, and has been approvingly amplified by several
 EA websites and groups*.  I think is very important to understanding
 the overall way things played out. And I also discuss the relationship
 between the philosophy and the ideas of effective altruism, both in
-the abstract and as specifically championed by people such as William
-MacAskill.
+the abstract and as specifically championed by many leaders in
+effective altruism (including the team at 80,000 Hours).
 
-Broadly, I make two claims:
+I make two claims:
 
 * Claim 1: SBF engages in extreme risk-taking that is a crude
   approximation to the idea of expected value maximization as
@@ -51,9 +65,47 @@ Broadly, I make two claims:
 
 * Claim 2: At least part of the motivation for SBF's risk-taking comes
   from ideas in effective altruism, and in particular specific points
-  made by William MacAskill (and others). While personality probably
-  accounts for a lot of SBF's decisions, the role of EA ideas as a
-  catalyst cannot be dismissed based on the evidence.
+  made by EA leaders including people affiliated with 80,000
+  Hours. While personality probably accounts for a lot of SBF's
+  decisions, the role of EA ideas as a catalyst cannot be dismissed
+  based on the evidence.
+
+Here are a few things I am *not* claiming (some of these are discussed
+in a little more detail toward the end of the post, though I don't
+elaborate extensively on them):
+
+* I'm not claiming that the EA philosophy and community create more
+  incentives for deception and dishonesty than most groups do; I
+  actually think the opposite is true. Rather, I'm focusing on the
+  encouragement that the EA philosophy and community provides for
+  risk-taking, and the expected value framework that naively
+  encourages this.
+
+* I'm not claiming that the basic arguments about risk-taking,
+  expected value, and effective altruism are completely wrong or that
+  events with SBF have fully invalidated them. I think the basic logic
+  of many of these is still fairly sound, but also that the events
+  with SBF should lead us to *update in the other direction* and to
+  *add more nuance to our thinking of these topics*. I try to
+  articulate this a little bit in this post, but nowhere near enough,
+  and further articulation would require a separate post (perhaps by
+  another person).
+
+* I'm not claiming that the downside of making pro-risk-taking
+  arguments should have been fully obvious in hindsight -- the
+  collapse of SBF / FTX is new information and whatever model we have
+  of the world after it should be at least somewhat different than the
+  model we had of the world prior to it. I do think that at least some
+  aspects of these points should have been given more attention in the
+  past, even with the more limited information available then.
+
+And to be clear, these are some things I'm *not* really covering in
+this post:
+
+* I'm not covering the fraught topic of whether EA leaders or people
+  should have been able to predict what specifically happened with SBF
+  and FTX, and whether they had prior indications of his
+  character. That topic has been discussed in several other threads.
 
 ## Claim 1 justification: SBF engages in extreme risk-taking
 
@@ -142,7 +194,7 @@ And earlier in the talk, SBF says:
 > SBF (44:05): um i think there's been a lot of very very bad messaging
 > over the years on that. I think there's a lot of messaging that is all
 > a funding bottleneck and then a pretty sharp turn towards it's all a
-> talent bottlenec. I think they're both wrong um my sense is that both
+> talent bottleneck. I think they're both wrong um my sense is that both
 > matter. I think like as i've sort of spent more time trying to find
 > things to fund. I found more things to fund and and don't currently
 > feel like strongly under constrained on funding and over constrained
@@ -354,7 +406,9 @@ downsides, but the final note is still around encouraging more rather than less 
 Moreover, even the discussion of backup plans only talks of *personal*
 backup plans, rather than backup plans to mitigate the potential
 impact on others one does business with (for instance, customers,
-employees, investors); emphases in the below excerpt are mine:
+employees, investors) or on charities and foundations that might start
+depending on one's donation plans; emphases in the below excerpt are
+mine:
 
 > Even if you can’t easily estimate how likely risks are to
 > materialise, you can often do a lot to limit them, freeing yourself
@@ -452,13 +506,14 @@ side: you can scale up giving since the world's problems are so
 big. However, there's another direction where this is important as
 well: the direction toward zero (and beyond?).
 
-One implicit idea in SBF's discourse, as seen in Stanford EA, is the
-idea that utility is close enough to linear in money, and as an
-important corollary, there's a lower bound at zero. The worst-case
-outcome here is making nothing, in which case you make no donations
-and therefore have effectively zero impact. So risk-taking has very
-high upside but only a limited downside -- in the worst case, you're
-wiped out, you declare bankruptcy, maybe you even die penniless.
+One sometimes-implicit and sometimes-explicit idea in SBF's discourse,
+as seen in Stanford EA, is the idea that utility is close enough to
+linear in money, and as an important corollary, there's a lower bound
+at zero. The worst-case outcome here is making nothing, in which case
+you make no donations and therefore have effectively zero impact. So
+risk-taking has very high upside but only a limited downside -- in the
+worst case, you're wiped out, you declare bankruptcy, maybe you even
+die penniless.
 
 From a *selfish* perspective, this is a pretty bad outcome (and
 indeed, a logarithmic model of utility would give an infinite
@@ -554,7 +609,7 @@ Let's go through the four points:
    considered a positive-EV bet when the company was worth $5 billion
    may not have felt that different from making a positive-EV bet when
    the company was worth $5 million. So at least the absence of this
-   particular mechanism was tied to the altruistic endgoal of the
+   particular mechanism was tied to the altruistic endgame of the
    money.
 
 2. **The founders/owners have a desire to succeed and to not mess
@@ -564,7 +619,9 @@ Let's go through the four points:
    desire to succeed and not mess things up, he didn't actually feel
    that passionate about the value of the work he was doing and saw it
    as a gamble to make money; as long as it was EV-positive, he was
-   willing to take big risks even after amassing a lot of wealth.
+   willing to take big risks even after amassing a lot of wealth. I
+   believe that this stemmed very directly from his EA-influenced
+   thinking about risk and value.
 
 3. **The founders/owners have needed to involve other stakeholders,
    who also can lose out if things go bad**: The failure of this
@@ -584,7 +641,7 @@ Let's go through the four points:
 
 ## Further thoughts (without extensive justification)
 
-### Tentative thoughts on where the claims fail
+### Tentative thoughts on where I think SBF went wrong in his thinking
 
 I had listened to SBF's fireside chat shortly after it had come
 out. His thoughts on taking risk had been interesting to me, insofar
@@ -604,7 +661,7 @@ some areas where he's wrong:
   happening to FTX (with a loss of customer deposits and attendant
   suffering of many people). But the drop would have plausibly been
   bad even in tamer scenarios (for instance, if Alameda had openly
-  gone bankrupt and FTX had died out with the collapse ofthe FTT).
+  gone bankrupt and FTX had died out with the collapse of the FTT).
 
 * I suspect that altruistic impact is less linear in money, and that
   there are a lot of other details about the way things play out, that
@@ -722,3 +779,30 @@ community, or social movement. That's because in general, *unlike with
 risk-taking*, the EA philosophy and community has *not* encouraged
 lying. If anything, it has, at least in explicit statements, put a
 greater premium on integrity than most people do.
+
+### A thought experiment
+
+One standard way of evaluating whether A causes B is to think about a world where A hadn't happened.
+
+Here's a thought experiment -- what would the existing EA philosophy
+and community hadn't had this strong bent toward risk-taking and
+thinking big, and/or hadn't been pushing earning to give? It's
+definitely pretty unclear, but I think:
+
+1. In the absence of an earning-to-give push, there's a pretty good
+   chance that SBF would have gone on to do some form of direct work
+   initially (e.g., working on animal welfare as was his original
+   intent, or getting into some work in the longtermist space).
+
+2. In the absence of a push to be more ambitious, there's a pretty
+   good chance that SBF would have felt content working at Jane Street
+   Capital and donating a chunk of money to charity, and would only
+   have left it to pursue direct work. You can take a look at his [old
+   blog](https://measuringshadowsblog.blogspot.com/) -- reads just
+   like an ordinary earning-to-giver.
+
+3. If he hadn't internalized the utility-is-linear-in-money argument
+   that is common in EA circles (and that pushed him to continue to
+   take similar risks despite amassing large sums of money), it's
+   likely that SBF would have exited after Alameda Research's initial
+   trading success and then used that to make donations.
