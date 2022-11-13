@@ -781,9 +781,11 @@ risk-taking*, the EA philosophy and community has *not* encouraged
 lying. If anything, it has, at least in explicit statements, put a
 greater premium on integrity than most people do.
 
-### A thought experiment
+### A counterfactual thought experiment
 
-One standard way of evaluating whether A causes B is to think about a world where A hadn't happened.
+One standard way of evaluating whether A causes B is to think about a
+world where A hadn't happened and ask whether B was likely to have
+happened in that world.
 
 Here's a thought experiment -- what would the existing EA philosophy
 and community hadn't had this strong bent toward risk-taking and
