@@ -59,7 +59,7 @@ implicitly provides further justification for Claim 1.
 
 ## Claim 2 justification: At least part of the motivation for SBF's extreme risk-taking comes from effective altruist ideas
 
-### SBF's articulation in a fireside chat
+### SBF's articulation in a fireside chat with Stanford EA
 
 In a [fireside chat with Stanford EA, SBF gives advice to students
 based on his own
@@ -176,6 +176,94 @@ And earlier in the talk, SBF says:
 > it seems like it'll probably work. Although it should seem like it
 > could plausibly work or otherwise probably it's a mistake.
 
+### SBF's articulation in a podcast with 80,000 Hours
+
+In a [podcast with 80,000
+Hours](https://80000hours.org/podcast/episodes/sam-bankman-fried-high-risk-approach-to-crypto-and-doing-good/)
+(full transcript available on page), SBF makes the same points about
+expected value, but goes into a little more detail. Here are the first
+three paras from 80,000 Hours' summary on top:
+
+> If you were offered a 100% chance of $1 million to keep yourself, or
+> a 10% chance of $15 million — it makes total sense to play it
+> safe. You’d be devastated if you lost, and barely happier if you
+> won.
+
+> But if you were offered a 100% chance of donating $1 billion, or a
+> 10% chance of donating $15 billion, you should just go with whatever
+> has the highest expected value — that is, probability multiplied by
+> the goodness of the outcome — and so swing for the fences.
+
+> This is the totally rational but rarely seen high-risk approach to
+> philanthropy championed by today’s guest, Sam Bankman-Fried. Sam
+> founded the cryptocurrency trading platform FTX, which has grown his
+> wealth from around $1 million to $20,000 million.
+
+And more in the full transcript:
+
+> Rob Wiblin: Yeah. Let’s back up a bit, and help to set the scene for
+> listeners. What motivated you to take such a high-risk, high-return
+> approach to doing good as starting your own crypto trading firm? And
+> then also just saying, “We don’t like the exchanges we’re operating
+> on. I’m going to start my own crypto exchange and try to compete
+> there.”
+
+> Sam Bankman-Fried: This probably won’t be super shocking to you, but
+> when you think about things from — taking a step back —
+
+> Rob Wiblin: Expected value?
+
+> Sam Bankman-Fried: If your goal is to have impact on the world — and
+> in particular if your goal is to maximize the amount of impact that
+> you have on the world — that has pretty strong implications for what
+> you end up doing. **Among other things, if you really are trying to
+> maximize your impact, then at what point do you start hitting
+> decreasing marginal returns? Well, in terms of doing good, there’s
+> no such thing: more good is more good**. It’s not like you did some
+> good, so good doesn’t matter anymore. But how about money? Are you
+> able to donate so much that money doesn’t matter anymore? And the
+> answer is, I don’t exactly know. But you’re thinking about the scale
+> of the world there, right? At what point are you out of ways for the
+> world to spend money to change?
+
+> Sam Bankman-Fried: There’s eight billion people. Government budgets
+> run in the tens of trillions per year. It’s a really massive
+> scale. You take one disease, and that’s a billion a year to help
+> mitigate the effects of one tropical disease. So it’s unclear
+> exactly what the answer is, but it’s at least billions per year
+> probably, so **at least 100 billion overall before you risk running
+> out of good things to do with money**. I think that’s actually a
+> really powerful fact. **That means that you should be pretty
+> aggressive with what you’re doing, and really trying to hit home
+> runs rather than just have some impact — because the upside is just
+> absolutely enormous**.
+
+> Rob Wiblin: Yeah. Our instincts about how much risk to take on are
+> trained on the fact that in day-to-day life, the upside for us as
+> individuals is super limited. Even if you become a millionaire,
+> there’s just only so much incrementally better that your life is
+> going to be — and getting wiped out is very bad by contrast.
+
+> Rob Wiblin: But when it comes to doing good, you don’t hit declining
+> returns like that at all. Or not really on the scale of the amount
+> of money that any one person can make. So you kind of want to just
+> be risk neutral. As an individual, to make a bet where it’s like,
+> “I’m going to gamble my $10 billion and either get $20 billion or
+> $0, with equal probability” would be madness. But from an altruistic
+> point of view, it’s not so crazy. Maybe that’s an even bet, but you
+> should be much more open to making radical gambles like that.
+
+> Sam Bankman-Fried: Completely agree. I think that’s just a big piece
+> of it. Your strategy is very different if you’re optimizing for
+> making at least a million dollars, versus if you’re optimizing for
+> just the linear amount that you make. One piece of that is that
+> Alameda was a successful trading firm. Why bother with FTX? And the
+> answer is, there was a big opportunity there that I wanted to go
+> after and see what we could do there. It’s not like Alameda was
+> doing well and so what’s the point, because it’s already doing well?
+> No. **There’s well, and then there’s better than well — there’s no
+> reason to stop at just doing well**.
+
 ### The expected value argument and its connection with effective altruism
 
 It's folk wisdom that personal (selfish) utility for individuals tends
@@ -205,15 +293,122 @@ Christiano](https://rationalaltruist.com/2013/02/28/risk-aversion-and-investment
 Hours](https://80000hours.org/2015/10/common-investing-mistakes-in-the-effective-altruism-community/))
 but he's only looking at financial investments. In contrast, SBF
 preaches and practices defining one's whole life / earning-to-give
-trajectory around risky high-expected-value bets.
+trajectory around risky high-expected-value bets. See also the [risk
+aversion topic on the EA
+Forum](https://forum.effectivealtruism.org/topics/risk-aversion).
 
-Will MacAskill, who has been an influence to SBF, has made these sorts
-of points. The [video I could most readily find was a deep dive with
-Ali Abdaal](https://youtu.be/YkdI8ztqWZc?t=10140) and was talking
-about altruistic impact through "direct work" rather than donations,
-but elsewhere in the video he does suggest a kind of exchange rate
-between the two depending on one's direct impact in comparison to the
-value of donations.
+### Endorsements of "thinking big" and more-than-normal risk-taking in effective altruism
+
+Some of the enthusiastic agreement and encouragement of SBF's views
+can be seen in the 80,000 Hours podcast, where the interviewer, Robert
+Wiblin, agrees with and even repeats and summarizes several of SBF's
+expected value claims. For instance, quoting from the preceding
+excerpt of the 80,000 Hours podcast:
+
+> Rob Wiblin: But when it comes to doing good, you don’t hit declining
+> returns like that at all. Or not really on the scale of the amount
+> of money that any one person can make. So you kind of want to just
+> be risk neutral. As an individual, to make a bet where it’s like,
+> “I’m going to gamble my $10 billion and either get $20 billion or
+> $0, with equal probability” would be madness. But from an altruistic
+> point of view, it’s not so crazy. Maybe that’s an even bet, but you
+> should be much more open to making radical gambles like that.
+
+The 80,000 Hours post [Be more
+ambitious](https://80000hours.org/articles/be-more-ambitious/) makes
+fairly similar arguments about the importance of being more ambitious
+and the value of focusing on upside, and the way these become *more*
+important if you want to do good rather than if you are just
+interested in your personal well-being. SBF is also cited as a case
+study! There are also cautionary notes later in the post about limiting
+downsides, but the final note is still around encouraging more rather than less ambition:
+
+> We advise people who are overconfident, as well as people who are
+> underconfident. But if your aim is to have an impact,
+> underconfidence seems like the bigger danger. It’s better to aim a
+> little too high than too low.
+
+> But ambitious people do not need to be irrational. You don’t need to
+> convince yourself that success is guaranteed. To be worth betting
+> on, you just need to believe that:
+
+> Success is possible
+
+> Your downsides are limited
+
+> The expected value of pursuing the path is high
+
+> If you’ve found a path that might be amazing, make a backup plan and
+> give it a go. It may not work out, but it might be the best thing
+> you ever decide to do.
+
+Moreover, even the discussion of backup plans only talks of *personal*
+backup plans, rather than backup plans to mitigate the potential
+impact on others one does business with (for instance, customers,
+employees, investors); emphases in the below excerpt are mine:
+
+> Even if you can’t easily estimate how likely risks are to
+> materialise, you can often do a lot to limit them, freeing yourself
+> up to focus on upsides.
+
+> Over time, you can aim to set up your life to make yourself more
+> able to take risks. Some of the most important steps you can take
+> include:
+
+> Building up your financial security. If you’re at constant risk of
+> failing to make your rent, that’s a serious downside you can’t
+> discount.  Looking after your physical and mental health and
+> important relationships, so that your lifestyle is sustainable.
+> Building valuable career capital that gives you backup options,
+> e.g. through building skills or finding good mentors.  When
+> comparing different career paths, here are some tips:
+
+> 1. Consider ‘downside scenarios’ for each of the paths you’re
+> considering. What might happen in the worst 10% of scenarios?
+
+> 2. Look for risks that are really serious. It’s easy to have a vague
+> sense that you might ‘fail’ by embarking on an ambitious path, but
+> what would failure actually be like? **The risks to be most
+> concerned about are those that could prevent you from trying again,
+> or that could make *your* life a lot worse**. You might find that
+> when you think about what would actually happen if you failed, your
+> life would still be fine. For example, if you apply for a grant for
+> an ambitious project and don’t get it, you will have just lost a bit
+> of time.
+
+> 3. If you identify a serious risk of pursuing some option, see if
+> you can modify the option to reduce that risk. Many entrepreneurs
+> like Bill Gates are famous for dropping out of college, which makes
+> them look like risk-takers. But besides the security provided by his
+> upper middle-class background, Gates also made sure he had the
+> option to return to Harvard if his startup failed. By modifying the
+> option, starting Microsoft didn’t involve much risk at all. Often
+> the most useful step you can do here is to have a good backup plan,
+> and this is part of our planning process.
+
+> 4. If you can’t modify the path to reduce the risk to an acceptable
+> level, eliminate that option and try something else.
+
+> 5. Check with your gut. If *you* feel uneasy about embarking on a
+> path even after taking the steps above, there may be a risk you
+> haven’t realised yet. Negative emotions can be a sign to keep
+> investigating to figure out what’s behind them.
+
+Will MacAskill, a key figure in effective altruism, was an early influence on SBF and pushed him in the earning-to-give direction. This is confirmed by SBF in both the 80,000 Hours podcast and the Stanford EA interview; it's also described in
+[this New Yorker
+article](https://www.newyorker.com/magazine/2022/08/15/the-reluctant-prophet-of-effective-altruism):
+
+> He had recently become vegan and was in the market for a righteous
+> path. MacAskill pitched him on earning to give.
+
+MacAskill has also made the general argument that if your goals are
+altruistic, you should be much more ruthless in your pursuit of scale
+and take on more risk. The [video I could most readily find was a deep
+dive with Ali Abdaal](https://youtu.be/YkdI8ztqWZc?t=10140) and was
+talking about altruistic impact through "direct work" rather than
+donations, but elsewhere in the video he does suggest a kind of
+exchange rate between the two depending on one's direct impact in
+comparison to the value of donations.
 
 > Will MacAskill (2:49:00): This also is a difference between if you're
 > trying to optimize for impact versus income so yeah you might think
@@ -431,7 +626,7 @@ likely a direct result of SBF's actions) was terrible and unethical
 etc. I'm making the point that even the original risk-taking was
 probably wrong from a perspective of maximizing altruistic impact.
 
-### Notes on SBF's character
+### Luxurious lifestyle?
 
 [Oliver Habryka's
 comment](https://forum.effectivealtruism.org/posts/xafpj3on76uRDoBja/the-ftx-future-fund-team-has-resigned-1?commentId=neLHt7r7naRSB6YCh)
@@ -457,7 +652,9 @@ maintaining that lifestyle were his goal, exiting after making a few
 hundred million dollars would probably have been a selfishly smart
 thing to do.
 
-[Another comment by Oliver Habryka](https://forum.effectivealtruism.org/posts/xafpj3on76uRDoBja/the-ftx-future-fund-team-has-resigned-1?commentId=NbevNWixq3bJMEW7b) covers more relevant attributes of
+### Noble lies?
+
+[A comment by Oliver Habryka](https://forum.effectivealtruism.org/posts/xafpj3on76uRDoBja/the-ftx-future-fund-team-has-resigned-1?commentId=NbevNWixq3bJMEW7b) covers more relevant attributes of
 SBF that, if true, could be part of the reason for FTX's ultimate
 collapse:
 
@@ -488,3 +685,31 @@ collapse:
 These claims about dishonesty, if true, could help explain why SBF
 failed to get the right sort of feedback and checks and balances that
 could have prevented him from making risky moves.
+
+In a [documentary on Theranos founder Elizabeth
+Holmes](https://en.wikipedia.org/wiki/The_Inventor:_Out_for_Blood_in_Silicon_Valley),
+psychology professor Dan Ariely said that his experiments found that
+people are much more likely to lie a little bit when the effect of the
+lying will send money to charity rather than when they pocket the
+money from their lies. He also claimed that lie detector tests have
+more trouble catching lies spoken by people who are lying to send more
+money to charity. He claimed that people feel less conflicted about
+what they consider noble lies than what they consider self-serving
+lies, and therefore can lie more convincingly when they think it's for
+the greater good. I have not checked the research myself, but you can
+see a summary of the argument in [this Business Insider
+article](https://www.businessinsider.com/theranos-elizabeth-holmes-the-inventor-hbo-psychology-of-lying-dan-ariely-2019-3). I
+have also heard that Ariely himself got into trouble for [allegedly
+fake data in another
+experiment](https://www.buzzfeednews.com/article/stephaniemlee/dan-ariely-honesty-study-retraction),
+but the general point he made seems plausible even if you don't put
+much weight on his experimental evidence.
+
+To the extent that SBF engaged in dishonesty without having any of the
+"tells" that dishonest people have, his altruistic endgame might be
+part of the reason for it. *However*, I don't see this as being
+heavily connected with *effective altruism* as a philosophy,
+community, or social movement. That's because in general, *unlike with
+risk-taking*, the EA philosophy and community has *not* encouraged
+lying. If anything, it has, at least in explicit statements, put a
+greater premium on integrity than most people do.
