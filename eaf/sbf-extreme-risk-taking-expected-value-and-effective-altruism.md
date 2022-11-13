@@ -50,11 +50,13 @@ little about) and in fact even get away from the specifics of SBF's
 business practices (where again I know very little). Rather, I talk
 about SBF's overall philosophy around risk and expected value, *as he
 has articulated himself, and has been approvingly amplified by several
-EA websites and groups*.  I think is very important to understanding
-the overall way things played out. And I also discuss the relationship
+EA websites and groups*.  I think the philosophy was key to the
+overall way things played out. And I also discuss the relationship
 between the philosophy and the ideas of effective altruism, both in
 the abstract and as specifically championed by many leaders in
-effective altruism (including the team at 80,000 Hours).
+effective altruism (including the team at 80,000 Hours). My goal is to
+encourage people to reassess the philosophy and make appropriate
+updates.
 
 I make two claims:
 
