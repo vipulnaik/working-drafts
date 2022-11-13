@@ -145,7 +145,7 @@ elided any other stuff within those segments of the video.
 > student or a first year now at MIT or Stanford? And yeah any last
 > words that you'd want to leave the audience with before wrapping up.
 
-> SBF (52:20): I's go to back to 2010 drop out and buy a lot of
+> SBF (52:20): I'd go to back to 2010 drop out and buy a lot of
 > bitcoin but but but seriously i think there's something a little bit
 > true there although that's not exactly what I think I could have
 > predicted um which is that in 2012 um I had a friend at MIT who was
