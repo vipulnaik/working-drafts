@@ -7,15 +7,14 @@
  don't think this creates a conflict of interest, but feel free to
  discount what I say.*
 
-* NOTE 2: I'm publishing this post without having spent the level of
-  effort polishing and refining it that I normally try to spend. This
-  is due to the time-sensitive nature of the subject matter and
-  because I expect to get more value from being corrected in the
-  comments on the post than from refining the post myself. If errors
-  are pointed out, I will try to correct them, but may not always be
-  able to make timely corrections, so if you're reading the post,
-  please also check the comments to check for flaws identified by
-  comments.*
+*NOTE 2: I'm publishing this post without having spent the level of
+ effort polishing and refining it that I normally try to spend. This
+ is due to the time-sensitive nature of the subject matter and because
+ I expect to get more value from being corrected in the comments on
+ the post than from refining the post myself. If errors are pointed
+ out, I will try to correct them, but may not always be able to make
+ timely corrections, so if you're reading the post, please also check
+ the comments to check for flaws identified by comments.*
 
 The collapse of Sam Bankman-Fried (SBF) and his companies FTX and
 Alameda Research is the topic du jour on the Effective Altruism Forum,
