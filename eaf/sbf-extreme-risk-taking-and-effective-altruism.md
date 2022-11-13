@@ -1,5 +1,12 @@
 # SBF, extreme risk-taking, and effective altruism
 
+*NOTE: I have some indirect associations with SBF and his companies,
+ though probably less so than many of the others who've been posting
+ and commenting on the forum. I don't expect anything I write here to
+ meaningfully affect how things play out in the *future* for me, so I
+ don't think this creates a conflict of interest, but feel free to
+ discount what I say.*
+
 The collapse of Sam Bankman-Fried (SBF) and his companies FTX and
 Alameda Research is the topic du jour on the Effective Altruism Forum,
 and there have been [several posts on the
@@ -184,7 +191,7 @@ In a [podcast with 80,000
 Hours](https://80000hours.org/podcast/episodes/sam-bankman-fried-high-risk-approach-to-crypto-and-doing-good/)
 (full transcript available on page), SBF makes the same points about
 expected value, but goes into a little more detail. Here are the first
-three paras from 80,000 Hours' summary on top:
+three paras from 80,000 Hours' summary on top (emphases mine):
 
 > If you were offered a 100% chance of $1 million to keep yourself, or
 > a 10% chance of $15 million — it makes total sense to play it
@@ -196,8 +203,8 @@ three paras from 80,000 Hours' summary on top:
 > has the highest expected value — that is, probability multiplied by
 > the goodness of the outcome — and so swing for the fences.
 
-> This is the totally rational but rarely seen high-risk approach to
-> philanthropy championed by today’s guest, Sam Bankman-Fried. Sam
+> **This is the totally rational but rarely seen high-risk approach to
+> philanthropy championed by today’s guest, Sam Bankman-Fried**. Sam
 > founded the cryptocurrency trading platform FTX, which has grown his
 > wealth from around $1 million to $20,000 million.
 
