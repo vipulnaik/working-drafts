@@ -4,8 +4,10 @@ The collapse of Sam Bankman-Fried (SBF) and his companies FTX and
 Alameda Research is the topic du jour on the Effective Altruism Forum,
 and there have been [several posts on the
 Forum](https://forum.effectivealtruism.org/topics/future-fund?sortedBy=new)
-discussing what happened and what we can learn from it. The extent to
-which fraud was involved is not clear.
+discussing what happened and what we can learn from it. The post [FTX
+FAQ](https://forum.effectivealtruism.org/posts/j7sDfXKEMeT2SRvLG/ftx-faq)
+provides a good summary of what we know as of the time I'm writing
+this post.
 
 Based on information so far, fraud and deception happened and were
 likely key to the way things played out and the extent of damage
@@ -46,14 +48,14 @@ Broadly, I make two claims:
 
 ## Claim 1 justification: SBF engages in extreme risk-taking
 
-I won't really provide justification for Claim 1; I'll note in passing
-that a lot of commentary both on the EA Forum (such as [Kerry
-Vaughan's
+I won't really provide much direct justification for Claim 1; I'll
+note in passing that a lot of commentary both on the EA Forum (such as
+[Kerry Vaughan's
 summary](https://forum.effectivealtruism.org/posts/xafpj3on76uRDoBja/the-ftx-future-fund-team-has-resigned-1?commentId=GoDd83K7ipktDtWWs))
 and in external press coverage (see for instance
 [Axios](https://www.axios.com/2022/11/11/sam-bankman-fried-risk-taking-fail)). The
-justification for Claim 2 also provides some "from the horse's mouth"
-evidence for Claim 1.
+justification for Claim 2 provided below is more detailed and also
+implicitly provides further justification for Claim 1.
 
 ## Claim 2 justification: At least part of the motivation for SBF's extreme risk-taking comes from effective altruist ideas
 
@@ -177,7 +179,7 @@ And earlier in the talk, SBF says:
 ### The expected value argument and its connection with effective altruism
 
 It's folk wisdom that personal (selfish) utility for individuals tends
-to be *less than linear* in the money they have; an idea that is also
+to be *less than linear* in the money they have, an idea that is also
 widely known as the [diminishing marginal utility of
 money](https://www.economicshelp.org/blog/12309/concepts/diminishing-marginal-utility-of-income-and-wealth/). One
 common (though probably inaccurate) approximation is that utility to
@@ -201,7 +203,7 @@ The basic idea is covered in a [post by Paul
 Christiano](https://rationalaltruist.com/2013/02/28/risk-aversion-and-investment-for-altruists/)
 (also [cited by 80,000
 Hours](https://80000hours.org/2015/10/common-investing-mistakes-in-the-effective-altruism-community/))
-but he's only looking at financial investments, in contrast with SBF
+but he's only looking at financial investments. In contrast, SBF
 preaches and practices defining one's whole life / earning-to-give
 trajectory around risky high-expected-value bets.
 
@@ -375,3 +377,114 @@ Let's go through the four points:
    lack of relevant critical expertise; however, the failure to notice
    this within EA was likely due to EA's positive impression of SBF
    and his expected value-maximizing ideals.
+
+## Further thoughts (without extensive justification)
+
+### Tentative thoughts on where the claims fail
+
+I had listened to SBF's fireside chat shortly after it had come
+out. His thoughts on taking risk had been interesting to me, insofar
+as it differed from my own philosophy on risk, but I didn't consider
+him *wrong* per se. If anything, listening to him made me update my
+priors slightly *toward* taking more risk. I couldn't find anything
+very categorically wrong in what he said.
+
+Upon further reflection, I actually think that what he said was
+directionally incorrect in several ways, and what ended up happening
+to him is directional evidence that I should be updating *away* from
+the direction of his advice. In particular, I suspect that these are
+some areas where he's wrong:
+
+* Even viewed altruistically, going to zero or negative money has
+  pretty sharp negative utility, particularly the way it ended up
+  happening to FTX (with a loss of customer deposits and attendant
+  suffering of many people). But the drop would have plausibly been
+  bad even in tamer scenarios (for instance, if Alameda had openly
+  gone bankrupt and FTX had died out with the collapse ofthe FTT).
+
+* I suspect that altruistic impact is less linear in money, and that
+  there are a lot of other details about the way things play out, that
+  affect altruistic impact. For instance, I suspect that FTX could
+  have had a significant positive impact if it had quit with SBF
+  making enough to earmark a billion dollars for charity. That would
+  have been enough money to champion the values and start a pattern of
+  altruism that ultimately could have been continued by other donors
+  (ironically, [Nick Beckstead makes the point that individual funders
+  may have relatively few good grants to
+  make](https://youtu.be/n4_TeUInMpU) and that's why Future Fund
+  experimented with delegating grantmaking to a larger number of
+  regrantors; I think a similar point applies at the foundation level
+  as well).
+
+  This would obviously have been better than what ultimately
+  transpired, but I suspect it would have been better even in properly
+  done expected value calculations. This is a tricky point to justify
+  and I won't attempt to do it here.
+
+* SBF fails to account for optimism bias ... if you think you've got a
+  30% chance of success, you probably have much less. I suspect he was
+  ultimately a victim of this optimism bias.
+
+I could be wrong about several of these points; I'm also not
+retreading the familiar ground of how what ended up happening (and was
+likely a direct result of SBF's actions) was terrible and unethical
+etc. I'm making the point that even the original risk-taking was
+probably wrong from a perspective of maximizing altruistic impact.
+
+### Notes on SBF's character
+
+[Oliver Habryka's
+comment](https://forum.effectivealtruism.org/posts/xafpj3on76uRDoBja/the-ftx-future-fund-team-has-resigned-1?commentId=neLHt7r7naRSB6YCh)
+seems valuable:
+
+> Yep, I was and continue to be confused about this. I did tell a
+> bunch of people that I think promoting SBF publicly was bad, and
+> e.g. sent a number of messages when some news article that people
+> were promoting (or maybe 80k interview?)  was saying that "Sam
+> sleeps on a bean bag" and "Sam drives a Corolla" when I was quite
+> confident that they knew that Sam was living in one of the most
+> expensive and lavish properties in the Bahamas and was definitely
+> not living a very frugal livestyle.
+
+I think this is important as part of the general point that SBF was
+successful at cultivating a certain kind of image in the media that
+didn't reflect his reality. However, I don't think that the fact (of
+his actual lifestyle was an order of magnitude more luxurious than his
+public persona might indicate) undercuts the general claim that his
+main goal was to make a bunch of money to donate. Even this moderately
+more luxurious lifestyle was still well within his means, and if
+maintaining that lifestyle were his goal, exiting after making a few
+hundred million dollars would probably have been a selfishly smart
+thing to do.
+
+[Another comment by Oliver Habryka](https://forum.effectivealtruism.org/posts/xafpj3on76uRDoBja/the-ftx-future-fund-team-has-resigned-1?commentId=NbevNWixq3bJMEW7b) covers more relevant attributes of
+SBF that, if true, could be part of the reason for FTX's ultimate
+collapse:
+
+> I definitely would have put Sam into the "un-lawuful oathbreaker"
+> category and have warned many people I have been working with that
+> Sam has a reputation for dishonesty and that we should limit our
+> engagement with him (and more broadly I have been complaining about
+> an erosion of honesty norms among EA leadership to many of the
+> current leadership, in which I often brought up Sam as one of the
+> sources of my concern directly).
+
+> I definitely had many conversations with people in "EA leadership"
+> (which is not an amazingly well-defined category) where people told
+> me that I should not trust him. To be clear, nobody I talked to
+> expected wide-scale fraud, and I don't think this included literally
+> everyone, but almost everyone I talked to told me that I should
+> assume that Sam lies substantially more than population-level
+> baseline (while also being substantially more strategic about his
+> lying than almost everyone else).
+
+> I do want to add to this that in addition to Sam having a reputation
+> for dishonesty, he also had a reputation for being vindictive, and
+> almost everyone who told me about their concerns about Sam did so
+> while seeming quite visibly afraid of retribution from Sam if they
+> were to be identified as the source of the reputation, and I was
+> never given details without also being asked for confidentiality.
+
+These claims about dishonesty, if true, could help explain why SBF
+failed to get the right sort of feedback and checks and balances that
+could have prevented him from making risky moves.
