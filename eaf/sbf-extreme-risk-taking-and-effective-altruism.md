@@ -28,11 +28,13 @@ In this post, I try to step back a bit from the endgame, and even get
 away from the specifics of FTX and Alameda Research (that I know very
 little about) and in fact even get away from the specifics of SBF's
 business practices (where again I know very little). Rather, I talk
-about SBF's overall philosophy, *as he has articulated himself*, that
-I think is very important to understanding the overall way things
-played out. And I also discuss the relationship between the philosophy
-and the ideas of effective altruism, both in the abstract and as
-specifically championed by people such as William MacAskill.
+about SBF's overall philosophy around risk and expected value, *as he
+has articulated himself, and has been approvingly amplified by several
+EA websites and groups*.  I think is very important to understanding
+the overall way things played out. And I also discuss the relationship
+between the philosophy and the ideas of effective altruism, both in
+the abstract and as specifically championed by people such as William
+MacAskill.
 
 Broadly, I make two claims:
 
@@ -77,11 +79,11 @@ elided any other stuff within those segments of the video.
 
 > Moderator (51:52): I think you basically answered this already but
 > what concrete advice do you have for students for how they should be
-> spending their time how to be more ambitious um how to better optimize
-> for their goals figuring out what their goals might be or ought to be
-> um maybe what would you do differently if you were a student or a
-> first year now at MIT or Stanford? And yeah any last words that you'd
-> want to leave the audience with before wrapping up.
+> spending their time, how to be more ambitious, and how to better
+> optimize for their goals figuring out what their goals might be or
+> ought to be?  Maybe what would you do differently if you were a
+> student or a first year now at MIT or Stanford? And yeah any last
+> words that you'd want to leave the audience with before wrapping up.
 
 > SBF (52:20): I's go to back to 2010 drop out and buy a lot of
 > bitcoin but but but seriously i think there's something a little bit
