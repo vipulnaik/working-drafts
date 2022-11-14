@@ -19,7 +19,7 @@
 The collapse of Sam Bankman-Fried (SBF) and his companies FTX and
 Alameda Research is the topic du jour on the Effective Altruism Forum,
 and there have been [several posts on the
-Forum](https://forum.effectivealtruism.org/topics/future-fund?sortedBy=new)
+Forum](https://forum.effectivealtruism.org/topics/ftx-crisis?sortedBy=new)
 discussing what happened and what we can learn from it. The post [FTX
 FAQ](https://forum.effectivealtruism.org/posts/j7sDfXKEMeT2SRvLG/ftx-faq)
 provides a good summary of what we know as of the time I'm writing
