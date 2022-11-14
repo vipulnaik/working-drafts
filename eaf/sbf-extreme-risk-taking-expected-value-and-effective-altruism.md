@@ -786,10 +786,10 @@ One standard way of evaluating whether A causes B is to think about a
 world where A hadn't happened and ask whether B was likely to have
 happened in that world.
 
-Here's a thought experiment -- what would the existing EA philosophy
-and community hadn't had this strong bent toward risk-taking and
-thinking big, and/or hadn't been pushing earning to give? It's
-definitely pretty unclear, but I think:
+Here's a thought experiment -- what would have happened if the
+existing EA philosophy and community hadn't had this strong bent
+toward risk-taking and thinking big, and/or hadn't been pushing
+earning to give? It's definitely pretty unclear, but I think:
 
 1. In the absence of an earning-to-give push, there's a pretty good
    chance that SBF would have gone on to do some form of direct work
