@@ -373,6 +373,12 @@ trajectory around risky high-expected-value bets. See also the [risk
 aversion topic on the EA
 Forum](https://forum.effectivealtruism.org/topics/risk-aversion).
 
+For more on SBF's articulation of the math and the thinking behind
+this, see his [tweet
+thread](https://twitter.com/SBF_FTX/status/1337250686870831107) where
+he compares the Kelly criterion (maximizing expected log wealth) with
+his own approach that is based on closer to linear returns.
+
 ### Endorsements of "thinking big" and more-than-normal risk-taking in effective altruism
 
 Some of the enthusiastic agreement and encouragement of SBF's views
