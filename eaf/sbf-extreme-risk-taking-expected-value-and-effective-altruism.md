@@ -16,6 +16,11 @@
  timely corrections, so if you're reading the post, please also check
  the comments to check for flaws identified by comments.*
 
+*NOTE 3: Byrne Hobart's post [Money, Credit, Trust, and
+ FTX](https://www.thediff.co/p/money-credit-trust-ftx) makes fairly
+ overlapping points albeit with different emphases and a lot more
+ elaboration (and less focus on the effective altruism angle).*
+
 The collapse of Sam Bankman-Fried (SBF) and his companies FTX and
 Alameda Research is the topic du jour on the Effective Altruism Forum,
 and there have been [several posts on the
@@ -118,6 +123,11 @@ and in external press coverage (see for instance
 [Axios](https://www.axios.com/2022/11/11/sam-bankman-fried-risk-taking-fail)). The
 justification for Claim 2 provided below is more detailed and also
 implicitly provides further justification for Claim 1.
+
+See also Byrne Hobart's post [Money, Credit, Trust, and
+ FTX](https://www.thediff.co/p/money-credit-trust-ftx), that goes into
+ some of the math involving expected value and the historical context
+ of FTX and Alameda Research.
 
 ## Claim 2 justification: At least part of the motivation for SBF's extreme risk-taking comes from effective altruist ideas
 
