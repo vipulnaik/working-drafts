@@ -344,9 +344,13 @@ widely known as the [diminishing marginal utility of
 money](https://www.economicshelp.org/blog/12309/concepts/diminishing-marginal-utility-of-income-and-wealth/). One
 common (though probably inaccurate) approximation is that utility to
 individuals is approximately [logarithmic in
-money](https://economics.stackexchange.com/questions/23952/is-the-utility-of-money-actually-logarithmic). These
-general ideas are well-known in economics and among a lot of
-intellectuals including many in the effective altruist movement.
+money](https://economics.stackexchange.com/questions/23952/is-the-utility-of-money-actually-logarithmic). This
+is the motivation for the [Kelly
+criterion](https://en.wikipedia.org/wiki/Kelly_criterion), a widely
+referenced criterion for how to diversify one's portfolio in order to
+aximize the expected value of the *logarithm* of wealth. These general
+ideas are well-known in economics and among a lot of intellectuals
+including many in the effective altruist movement.
 
 The "altruistic" twist here is that for individuals interested in
 altruistic impact, utility is much closer to being linear in money
