@@ -116,9 +116,9 @@ The backup script for code works as follows:
 * The stuff in the local folder is now synced to a parallelly named
   folder in S3. This uses `aws s3 sync`.
 
-* While we're at it, some older backups are deleted based on their
-  date (the goal is to have about two recent backups in the server's
-  code backups folder; older backups are only in S3).
+* While we're at it, some older local backups are deleted based on
+  their date (the goal is to have about two recent backups in the
+  server's code backups folder; older backups are only in S3).
 
 ### Mechanics of backup script for SQL
 
@@ -135,9 +135,9 @@ The backup script for SQL works as follows:
 
 * The bz2 file is now copied over to a parallel location in S3.
 
-* While we're at it, some older backups are deleted based on their
-  date (the goal is to have about two recent backups in the server's
-  code backups folder; older backups are only in S3).
+* While we're at it, some older local backups are deleted based on
+  their date (the goal is to have about two recent backups in the
+  server's code backups folder; older backups are only in S3).
 
 ### Mechanics of backup script for logs
 
