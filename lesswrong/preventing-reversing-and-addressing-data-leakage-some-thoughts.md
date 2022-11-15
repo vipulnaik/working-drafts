@@ -3,7 +3,7 @@
 In the last few months, I've been thinking about the problem of
 accidental leakage of data and how to prevent it, reverse it, and
 address its aftermath. This post includes various thoughts, some of
-them including tool-specific guidance, and some of it more general.
+them including tool-specific guidance, and some of them more general.
 
 Examples of data leakage are as follows:
 
