@@ -509,7 +509,7 @@ without explicitly asking them. Some cases:
 
 An example here is that you accidentally share information about your
 company's quarterly revenue with a work colleague who is not supposed
-to have access to the data. Then you detect and delet the
+to have access to the data. Then you detect and delete the
 data. There's nothing particularly surprising about the data you
 accidentally shared, it's just that as a matter of policy, your
 colleague shouldn't have access to that data. Your colleague is also
@@ -613,6 +613,35 @@ how you can make it easier:
   kept this a secret will seem, in hindsight, to be a moral failing on
   your part. If it will, examine whether it really is the right thing
   to keep it secret.
+
+### More on the point about not making enemies, and the need for extra caution if making enemies is inevitable
+
+I want to dig in on the point about not making enemies because it's
+pretty important when thinking about the impact of any kind of
+mistake, whether it's data leakage or anything else. When you have
+enemies, there's more risk that they'll pounce on and exploit your
+mistakes. In contrast, if people are friendly with you and like and
+respect what you're doing, they're more likely to be generous to your
+faults, particularly if those faults don't directly hurt them.
+
+There are, however, cases where the very nature of what you're doing
+means the other side is going to be hostile to you, and you have
+accepted that. In that case, you need to invest in a substantially
+greater level of caution as the cost of data leakage is higher. One
+example of such a situation is when you're a whistleblower for a
+terrible situation. It's very likely that the fact that you're blowing
+the whistle itself needs to be kept a secret from the people whose
+whistle you're blowing.
+
+Or, there could be cases where people don't have enmity against you
+personally, but you're a messenger of really bad news coming from
+elsewhere (for instance, you have information in advance about mass
+layoffs and have been told to not communicate this to any of the
+people in the pool that might be considered for layoffs). Here again,
+you can mitigate the impact to some extent by not *additionally*
+behaving in ways that make you personally unlikable. But given the
+base animosity of the situation, exercising additional caution is
+probably very important.
 
 ## Meta comments
 
