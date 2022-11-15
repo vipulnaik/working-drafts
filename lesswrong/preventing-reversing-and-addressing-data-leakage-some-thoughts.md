@@ -27,6 +27,10 @@ This post also doesn't cover large-scale data leakage and best
 practices around it (things such as password security, authentication
 security of other kinds, encryption).
 
+I end the post with meta comments including more on its potential
+relevance to LessWrong as well as the distinction between general
+ideas and details specific to particular tools and services.
+
 ## Prevention strategies: general philosophy
 
 ### The accident triangle philosophy and the conjunctive nature of accidents
@@ -192,6 +196,8 @@ I generally check the following:
   important to check).
 * Are the *recipients* the intended ones?
 
+Where applicable, I also try to use preview functionality.
+
 This is an important practice even outside the issue of sensitive data
 leakage; sending a message to a wrong recipient delays the right
 recipient receiving it, while also confusing the wrong recipient.
@@ -226,6 +232,12 @@ screen physically such as in a physical conference room.
   expect to share. In fact, it may be better to check this when
   joining the conference call even if you don't need to immediately
   screenshare, so that you're ready to screenshare whenever.
+
+* If there are services you need to be logged in to for the purposes
+  of the screenshare, it's generally better to log in to them and
+  prepare your relevant screens/tabs *prior* to the screenshare, so
+  that any information related to your login process (such as your
+  password) don't accidentally leak in the process.
 
 * Check that you don't have sensitive data in your clipboard before
   sharing screen (in fact, it's good to check before joining the
@@ -284,35 +296,63 @@ different organization. Pay attention to this.
   or deleted it, and you have no programmatic way to know if they read
   it or not.
 
-* Facebook's Messenger allows you to "Unsend for everyone" any
-  message; however, the message would have been visible to them prior
-  to unsending. You do get visual cues indicating whether the message
-  was read by them before you unsent it. Even if you unsend, the fact
-  that you sent the message will be included in the message history
-  (in lieu of the message itself).
+* Facebook's Messenger allows you to "Unsend for everyone" any message
+  (see
+  [here](https://www.facebook.com/help/messenger-app/194400311449172));
+  however, the message would have been visible to them prior to
+  unsending. You do get visual cues indicating whether the message was
+  read by them before you unsent it (see
+  [here](https://www.facebook.com/help/messenger-app/926389207386625)
+  for how to interpret the cues). Even if you unsend, the fact that
+  you sent the message will be included in the message history (in
+  lieu of the message itself).
 
 ### Undo bad edits to shared documents
 
-When you make an edit to a Google Doc or Google Sheets that you want
-to reverse, you should reverse it immediately *without navigating away
-from the tab where you're editing*. The reason for this is that Google
-commits a version of the document every time you switch focus away
-from it, and there is no way to delete old versions from the version
-history of the document (the only real way is to start afresh with a
-new document). If nobody else is viewing the document at the time you
-make your undesired edit, *and* you reverse the edit immediately
-without switching tabs, it won't get into the history and will not be
-visible to others. You should confirm this later by reviewing the
-history of the document in its most expanded form.
+When you make a bad edit to a document in Google Docs, Google Slides,
+or Google Sheets, you should reverse it immediately *without
+navigating away from the tab where you're editing*. The reason for
+this is two-fold:
+
+* Google commits a version of the document every time you switch focus
+  away from it (I don't have an online reference for this; I
+  discovered this by experimentation).
+
+* There is no way to delete old versions from the version history of a
+  document in Google Docs/Slides/Sheets; the only real way is to start
+  afresh with a new document using the "Make A Copy" functionality
+  (but then this document will have a new url and will need to be
+  re-shared with relevant people). For confirmation of this, see
+  [here](https://support.google.com/docs/thread/3977922/delete-revision-history?hl=en)
+  and
+  [here](https://www.howtogeek.com/709525/how-to-delete-version-history-in-google-docs/).
+
+If nobody else is viewing the document at the time you make your
+undesired edit, *and* you reverse the edit immediately without
+switching tabs, it won't get into the history and will not be visible
+to others. You should confirm this later by reviewing the history of
+the document in its most expanded form.
 
 ### Remove sensitive information from histories
 
 * If you accidentally visited a sensitive url, you should be able to
-  remove it from your browsing history.
+  remove it from your browsing history. For instance, see the
+  instructions for Chrome
+  [here](https://support.google.com/chrome/answer/95589) or for
+  Firefox
+  [here](https://support.mozilla.org/en-US/kb/delete-browsing-search-download-history-firefox). It's
+  best to delete sensitive information as soon as possible so that it
+  doesn't show up in browser autocompletions that might show up later
+  when you're screensharing.
 
 * If you pasted something accidentally into the address bar of your
   browser and hit Enter, causing you to Google it, you should be able
-  to remove it from your Google search history.
+  to remove it from your Google search history. See Google's
+  instructions
+  [here](https://support.google.com/websearch/answer/6096136). It's
+  best to remove from your search history soon so that it doesn't show
+  up as a search suggestion later when you're screensharing with
+  others.
 
 * If you entered sensitive information in your terminal and hit Enter,
   it may get into your shell history (though it might enter your shell
@@ -350,7 +390,10 @@ with is GitHub.
   older revisions. In such cases, you should check whether
   functionality to delete specific older revisions exists. For
   instance, GitHub offers the ability to delete specific revisions
-  (except the latest one) for comments on issues and pull requests.
+  (except the latest one) for comments on issues and pull requests
+  (see
+  [here](https://docs.github.com/en/communities/moderating-comments-and-conversations/tracking-changes-in-a-comment#deleting-sensitive-information-from-a-comments-history)
+  for more).
 
 It's generally good to investigate what is and isn't allowed by a
 forum in advance, so that when you do get in the position of having
@@ -363,18 +406,20 @@ others (e.g., on GitHub) local changes you make could be reversed if
 they have not yet been pushed to the remote origin. Here's some
 guidance:
 
-* If you detect the sensitive data before you commit it locally, you can just
-  undo the change, and then proceed normally.
+* If you detect the sensitive data before you commit it locally, you
+  can just undo the change, and then proceed normally. Nothing
+  sensitive got committed, so it won't be in your git history.
 
 * If you detect the sensitive data after you commit it locally but
   before pushing to the remote origin, you can undo the sensitive data
   and then amend your commit. Your local git will still have a commit
   associated with the sensitive data, but it will no longer be
   associated with the branch. Therefore, it won't get pushed to the
-  remote unless you directly push that specific commit. You can later
-  try to remove it through garbage collection or (after you've pushed
-  what you *wanted* to push) by deleting and refetching the git
-  repository from the remote origin.
+  remote unless you directly push that specific commit or add it to
+  some other branch that you push. You can later try to remove it
+  through garbage collection or (after you've pushed what you *wanted*
+  to push) by deleting and refetching the git repository from the
+  remote origin.
 
 * If you already pushed the change remotely, record the commit hash
   for the commit with sensitive data. Then immediately amend the
@@ -389,7 +434,10 @@ guidance:
   clicking "Clear cached views"
   [here](https://support.github.com/request/remove-data?tags=docs-generic). The
   support can take 1-2 business days to address your request. After
-  that, the danging commit should not be accessible through GitHub.
+  that, the dangling commit should not be accessible through
+  GitHub. For more general background on removing sensitive data, see
+  the [GitHub doc on the
+  subject](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository).
 
   If any collaborator ran a `git fetch` or `git pull` between the time
   you originally pushed and the time you force-pushed, they'll also
@@ -399,7 +447,7 @@ guidance:
 
 ## Addressing leakage of password or credentials
 
-### Change credentials where feasible
+### Change credentials where feasible (after reversing whatever you can reverse)
 
 You should assume that any password or credential is compromised if
 you think others might have seen it (for instance, you included it in
@@ -418,6 +466,20 @@ This is made easier if:
 
 * You maintain an organized list of your services/accounts for which
   you have passwords/credentials, allowing you to audit quickly
+
+### Check for any alerts or logs showing unauthorized access over the period where the credentials were leaked
+
+Some services offer details on recent login activity, or the time of
+recent use of access keys. Take a look at these to check if the leaked
+credential was used over the time period before it was changed.
+
+### Review after being done to make sure you've covered your bases
+
+After you've done whatever reversal and credential changes you need
+to, you should sit down and review the situation, systematically going
+over what happened to see if things are back to a secure state. If
+there are other trusted people with whom you can discuss the
+situation, please do so.
 
 ## Addressing leakage of factual information
 
@@ -546,4 +608,140 @@ how you can make it easier:
 
 * Formulate contingency plans for how to deal with a leakage. In
   particular, think through what path you'll take if the information
-  has definitely or probably leaked, per the preceding subsections.
+  has definitely or probably leaked, per the preceding
+  subsections. Think whether the fact that you had the information and
+  kept this a secret will seem, in hindsight, to be a moral failing on
+  your part. If it will, examine whether it really is the right thing
+  to keep it secret.
+
+## Meta comments
+
+### Why think about this in advance? Object-level and meta-level reasons
+
+Why think about this sort of thing in advance, rather than wait to let
+a problem happen and then tackle it after it happens?
+
+I think there are several object-level reasons to think about this in
+advance:
+
+* **Many of the best practices are things that need to be done in
+    advance**: For instance, setting the right send cancellation
+    period so that you can undo send is not something you can do
+    *after* sending an email accidentally.
+
+* **Speed matters a lot in addressing data leakage**: The time it
+    takes to investigate things, even if a few minutes, can make all
+    the difference. For instance, figuring out how to delete sensitive
+    data from git commits is somewhat nontrivial and can take several
+    minutes to figure out.
+
+* **Dealing with a data leakage is stressful and you may miss doing
+    "obvious" things if you don't have prior preparation**: For
+    instance, ideally, if you leak a credential, you should both
+    delete the leakage *and* change the credential. But it may not
+    occur to you in the heat of the moment -- you may just end up
+    deleting the leakage but not changing the credential. Or, if you
+    accidentally leak a credential in a GitHub comment, you may just
+    edit the comment to remove the leaked value, and forget that
+    GitHub has an edit history and the old version needs to be
+    explicitly deleted.
+
+There are also meta-level reasons that might be relevant for the
+LessWrong audience; data leakage is a concrete example of a
+low-frequency but high-cost disaster, and as such, we don't get a lot
+of day-to-day feedback around it. Thinking about this sort of thing
+offers relatively easy practice of [security
+mindset](https://www.lesswrong.com/posts/8gqrbnW758qjHFTrH/security-mindset-and-ordinary-paranoia)
+as well as practice in reducing accidents. Such practice could be
+useful for avoiding even rarer and higher-stakes problems.
+
+### Tool-specific guidance versus the general ideas
+
+In this post, I've included concrete details for several specific
+tools such as Gmail, Messenger, Slack, git and GitHub, Google
+Docs. These tools may change over time and some of my advice may
+become outdated. Also, you might be using very different tools, so you
+may not be able to put the guidance to immediate use.
+
+I wanted to put in specific guidance for tools that people are likely
+to use in order to make the action items fairly concrete and make the
+post useful. But I also think that they are useful even if you don't
+happen to use these specific tools, but they provide a framework for
+thinking about the structure and design choices underlying these
+tools. Even if you use a different tool, it was likely designed with
+relatively similar design constraints.
+
+For instance, Gmail, Facebook Messenger, and Slack all offer different
+versions of "undo send" that are all meaningfully different in their
+implications for how to deal with sensitive data:
+
+* Gmail is best in that if you can undo send within the send
+  cancellation period, nobody else could have seen it. But it's also
+  worst in terms of having a really small send cancellation period,
+  after which the cat is out of the bag, you can't undo send, and you
+  can't even know if others have seen it.
+
+* Messenger is best in that you can undo send at any time *and* you
+  can know if the other person saw the message as of when you undo
+  send. But it's worst in terms of permanently showing that you unsent
+  the message, and it's also bad in that there is no "no-regret"
+  cancellation window (unlike Gmail's short send cancellation period).
+
+* Slack is best in that you can *completely* delete the message
+  leaving no trace of it, and you can do so at any time. But it's
+  worse than Messenger in terms of not giving feedback on whether
+  others saw your message, and it's worse than Gmail in terms of
+  having no "no-regret" cancellation window.
+
+If you happen to use something different from all three of these, you
+at least have a framework and a set of comparison points, which can
+lead you to ask the right questions about what your service supports
+and what implications it has for the leakage of sensitive data.
+
+### Am I encouraging people to hide factual information more efficiently?
+
+I think the idea of hiding credentials is relatively uncontroversial;
+this is good for security (even if others have access to the same
+resources you do, using separate credentials is better for security as
+it allows you to swap your credentials out without affecting others).
+
+On the other hand, hiding factual information from others is not
+always good. It's clearly necessary in at least some cases, but we
+could also argue that there is a wide range of cases where it's done
+in service of wrong purposes. One could even argue that in some cases,
+it's better for the world if the information being hidden did get
+leaked.
+
+I think that even though the post offers guidance on how to hide
+factual information more effectively, it also raises considerations
+that should encourage people to reduce reliance on hiding relevant
+factual information for wrong purposes. In particular, earlier in the
+post, I wrote:
+
+> * Don't make enemies! In general, people are more likely to exacerbate
+>   a leakage (by leaking it further) if they don't like you. Don't give
+>   people reasons to hate you or want to get back at you.
+
+> * As much as possible, try to minimize the number of cases where
+>   you're hiding from people "information that is genuinely surprising
+>   and actionable to them"; as much as possible, data that you hide
+>   should be of the form of "not-very-actionable information they don't
+>   and shouldn't know but they know about" (for instance, detailed
+>   financial statements that are consistent with the high-level picture
+>   they have of finances, but are being kept secret). As long as most
+>   secrets aren't things that are very actionable to the people who
+>   they get leaked to, these people will just ignore them (unless they
+>   hate you, which brings me back to the "Don't make enemies!" point).
+
+> [...]
+
+> * Formulate contingency plans for how to deal with a leakage. In
+>   particular, think through what path you'll take if the information
+>   has definitely or probably leaked, per the preceding
+>   subsections. Think whether the fact that you had the information and
+>   kept this a secret will seem, in hindsight, to be a moral failing on
+>   your part. If it will, examine whether it really is the right thing
+>   to keep it secret.
+
+I think these points probably push in the direction of not keeping
+material, actionable secrets from people for the wrong reasons.
