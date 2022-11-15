@@ -39,33 +39,33 @@ This particular post focuses on backups.
 
 ### What these are
 
-The crudest kind of backup is that of the whole disk image. My VPS
-provider, Linode, offers managed backups for 25% of the cost of the
-server. The backups are done daily, and at any time I can access three
-recent backups, the most recent being the one in the last ~24 hours,
-and two others within the past two weeks.
+The crudest kind of backup is that of the full disk. My VPS provider,
+Linode, offers managed backups for 25% of the cost of the server. The
+backups are done daily, and at any time I can access three recent
+backups, the most recent being the one in the last ~24 hours, and two
+others within the past two weeks.
 
-It is possible to start up a new server from the disk image backup. I
+It is possible to start up a new server from the full disk backup. I
 did a test of this a few months ago; loading the disk from the backup
 took about 4 hours. The time seems proportional to the amount of stuff
 on disk. I've been cutting down on unecessary stuff on disk, so I
 expect that it would take less time, but still over an hour.
 
-The disk image backup includes basically the whole filesystem. In
+The full disk backup includes basically the whole filesystem. In
 particular, it includes the operating system, all the packages, all
 the configurations, all the websites, everything.
 
 ### What's good about full disk backups?
 
 * If there were some major catastrophe affecting my currently running
-  production server, the disk image backup can be used to restore the
+  production server, the full disk backup can be used to restore the
   server to a relatively recent state.
 
 * If I accidentally lose some data (e.g., I delete a file or make some
   change to the database), even if it's not a catastrophic change, I
-  can use the disk image backup as a relatively surefire way of
+  can use the full disk backup as a relatively surefire way of
   getting the old state of the data as of (at most) a day. It's
-  expensive in time (several hours to restore from the disk image
+  expensive in time (several hours to restore from the full disk
   backup) and also costs more (I have to pay the cost of the machine
   the backup is restored to for those few hours) but is still a good
   fallback option.
