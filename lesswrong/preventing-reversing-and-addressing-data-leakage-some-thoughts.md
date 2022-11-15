@@ -273,7 +273,7 @@ from a different workspace, Slack will show a message right above your
 message-drafting area reminding you that the other person is from a
 different organization. Pay attention to this.
 
-## Immediate reversal strategies
+## Reversal strategies
 
 ### Undo send for emails and messages
 
@@ -444,6 +444,35 @@ guidance:
   have that commit on their local git. However, collaborators who ran
   `git fetch` or `git pull` only after your force-push won't get that dangling commit
   even if it's still on GitHub.
+
+## Detecting and monitoring leakage
+
+What happens if you leak sensitive data and don't even notice that you
+did so? That's pretty dangerous, because it means that you can't even
+take the appropriate action to reverse and address it.
+
+### Anomaly-checking in the data you publish
+
+I have a few lines of shell script code in one of my scripts (that I
+run regularly, several times a day) that scan my personal git
+repositories to make sure they don't include any keywords related to
+my day job work. This is to address a possibility that I might
+accidentally type in some work-related stuff into a file in one of my
+personal repositories. I have some other anomaly checks in a similar
+spirit.
+
+Things of this kind can be helpful for detecting leaked information
+that might otherwise be missed.
+
+### Activity logs and security alerts for services
+
+If your credential for a service gets leaked, and somebody *uses* that
+leaked credential to access the service, it'll be good if you are set
+up to receive a security alert. For instance, Google logins send a
+security alert to both the email address that logged in and the
+recovery email address. Note that this alert will catch when the leak
+is acted upon by others, and may not catch a latent leak that others
+haven't acted upon.
 
 ## Addressing leakage of password or credentials
 
