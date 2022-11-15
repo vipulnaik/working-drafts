@@ -529,8 +529,11 @@ without explicitly asking them. Some cases:
   leak to them.
 
 * Facebook Messenger has visual cues to show if somebody read a
-  message. If you delete the message prior to them having read it, you
-  can be reasonably confident they didn't access it.
+  message (see
+  [here](https://www.facebook.com/help/messenger-app/926389207386625)
+  for how to interpret the cues). If you delete the message prior to
+  them having read it, you can be reasonably confident they didn't
+  access it.
 
 ### Figure out what kind of secret data it was from the person it leaked to
 
@@ -540,7 +543,7 @@ An example here is that you accidentally share information about your
 company's quarterly revenue with a work colleague who is not supposed
 to have access to the data. Then you detect and delete the
 data. There's nothing particularly surprising about the data you
-accidentally shared, it's just that as a matter of policy, your
+accidentally shared; it's just that as a matter of policy, your
 colleague shouldn't have access to that data. Your colleague is also
 aware that such data exists, and that you have access to the data --
 the only thing they didn't know is the specifics.
@@ -584,8 +587,8 @@ secret in the first place.
 
 * In other cases, it may make sense to openly share with a wider pool
   (if you're concerned about asymmetries between the subset of people
-  who know). This can tamp down on speculation and the possibility of
-  ongoing leaks.
+  who know and the others who don't know). This can tamp down on
+  speculation and the possibility of ongoing leaks.
 
 ### Make a judgment call about explicit sharing if you aren't sure if they saw it or not
 
