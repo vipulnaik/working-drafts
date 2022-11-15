@@ -146,57 +146,37 @@ regularly. This actually uses the same script as for code backups,
 just with different parameters, with the source now the log file and
 the target file slightly different.
 
-### A long list of gotchas and tweaks needed
+### Security: gotchas and tweaks
 
-I had to make several adjustments to deal with real and potential
-problems with backups. Here are some problems and my fixes:
+**Having the S3 credentials on the server led to the risk of a hack on
+the server leading to a compromise of the S3 data, or of some error in
+the script causing the data in S3 to get overridden**: This is a
+serious risk, because S3 is intended as a layer of redundancy if
+Linode fails. I took two steps to address this:
 
-* **The backup process was using a lot of resources and making the
-  server unresponsive for a brief period of time**:I switched the use
-  of the backup process to use `nice -n 20` in order to play nicely
-  with the rest of the server and to interfere as little as possible
-  with production serving.
+* I reduced the permissions (using AWS Identity and Access Management
+  (IAM)) on the AWS keys on the server, so that they had access to
+  only a specific bucket, and could only GET and PUT stuff, not DELETE
+  stuff. This still didn't make things fully secure; it is still
+  possible to effectively delete every file by manually writing a new
+  version of the file. However, it did cut down significantly the risk
+  of accidental data deletion.
 
-* **The backups were unwieldy in size and took a long time for some
-    sites**: I investigated what tables were taking a lot of space. In
-    one case, the huge amount of space was due to the creation of
-    several spam accounts even though the spam accounts couldn't
-    actually post spam because they didn't have edit access; I had to
-    manually clean up the spam accounts. In another cases, a few
-    tables were creating problems and I had to manually exclude them
-    from the backup after confirming that they are derivative tables
-    and can be reconstructed.
+* I created a separate bucket that isn't accessible at all with these
+  AWS keys, and created a process that runs outside of the Linode that
+  copies a few of the backups to this bucket. For instance, one backup
+  every 3 or 6 months, depending on the frequency of content
+  changing. These backups serve as an additional layer of protection.
 
-* **Having the S3 credentials on the server led to the risk of a hack
-    on the server leading to a compromise of the S3 data, or of some
-    error in the script causing the data in S3 to get overridden**:
-    This is a serious risk, because S3 is intended as a layer of
-    redundancy if Linode fails. Here are several things I did to
-    address this:
+### Gotchas and associated tweaks for integrity
 
-  * I reduced the permissions (using AWS Identity and Access
-    Management (IAM)) on the AWS keys on the server, so that they had
-    access to only a specific bucket, and could only GET and PUT
-    stuff, not DELETE stuff. This still didn't make things fully
-    secure; it is still possible to effectively delete every file by
-    manually writing a new version of the file. However, it did cut
-    down significantly the risk of accidental data deletion.
+There were a bunch of considerations related to the integrity of the
+backups; some of these actually occurred and others were identified by
+me before they occurred.
 
-  * I created a separate bucket that isn't accessible at all with
-    these AWS keys, and created a process that runs outside of the
-    Linode that copies a few of the backups to this bucket. For
-    instance, one backup every 3 or 6 months, depending on the
-    frequency of content changing. These backups serve as an
-    additional layer of protection.
-
-* **The cumulative size of the backups was huge, causing large bills**:
-
-  * I implemented a lifecycle policy in S3 for the bucket with the
-    primary backups that expired old code backups and SQL backups
-    after a few months. This made sure that costs largely stabilized.
-
-* **The backup process could fail silently**: I fixed this two-fold,
-    albeit one piece of the fix is still pending:
+* **The backup process could fail silently, ending up not sending
+    output to S3**: I fixed this two-fold, albeit one piece of the fix
+    is still pending:
 
   * I had the backup script do extensive error-checking and report to
     a private Slack workspace I own, both in case of success and in
@@ -231,6 +211,56 @@ problems with backups. Here are some problems and my fixes:
     logic to include an identifier for the machine in the path, so
     that two diferent machines should give non-colliding backup file
     paths.
+
+### Gotchas and tweaks related to size, time, and cost
+
+The backups would often take time, affect the production server, and
+use up a lot of space both on the server disk and on S3, costing
+money. I made various tweaks to address different aspects of this
+issue:
+
+* **Size at source: The backups were unwieldy in size and took a long
+    time for some sites**: I investigated what tables were taking a
+    lot of space. In one case, the huge amount of space was due to the
+    creation of several spam accounts even though the spam accounts
+    couldn't actually post spam because they didn't have edit access;
+    I had to manually clean up the spam accounts. In another cases, a
+    few tables were creating problems and I had to manually exclude
+    them from the backup after confirming that they are derivative
+    tables and can be reconstructed.
+
+* **The backup process for some larger sites was using a lot of
+  resources and making the server unresponsive for a brief period of
+  time**:I switched the use of the backup process to use `nice -n 20`
+  in order to play nicely with the rest of the server and to interfere
+  as little as possible with production serving.
+
+* **Size of backups on disk: The backups were taking a nontrivial
+    portion of the disk space on the server**: Using up a lot of the
+    disk on the server doesn't have any direct marginal cost in
+    financial terms. But it is bad because it increases the risk of
+    the server running out of disk space, increases the risk of MySQL
+    slowing down, and increases the time taken to restore from a full
+    disk backup.
+
+  * My initial fix had been a `find <old enough backup files>` and
+    `rm` them. This fix worked to address the disk space, but it ended
+    up often taking a lot of time when there was a large search space.
+
+  * I later switched to a fix of directly deleting backup subfolders
+    based on the expected dates in those subfolders. This worked much
+    faster and has less performance implications.
+
+
+* **Size of backups on S3 and corresponding cost**: The number of
+    backup files grew linearly with time, and even assuming that the
+    backups were growing in size from one day to the next (as most
+    sites didn't have huge growth in content), we still get a linear
+    increase in S3 cost. This wasn't acceptable.
+
+  * I implemented a lifecycle policy in S3 for the bucket with the
+    primary backups that expired old code backups and SQL backups
+    after a few months. This made sure that costs largely stabilized.
 
 ### What's good about S3 backups?
 
