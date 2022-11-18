@@ -23,9 +23,12 @@ often infeasible to change the facts since they're the facts!
 This post is largely focused on leakage in the digital realm. Some
 similar ideas apply in the physical realm as well.
 
-This post also doesn't cover large-scale data leakage and best
-practices around it (things such as password security, authentication
-security of other kinds, encryption).
+This post also doesn't cover large-scale data leakage, nor does it
+cover complementary best practices such as password security, other
+forms of authentication security (such as IP-based limits and
+two-factor authentication) and encryption. I might write additional
+posts about some of those topics, but those topics are in general more
+widely covered, hence my desire to write what I'm writing first.
 
 I end the post with meta comments including more on its potential
 relevance to LessWrong as well as the distinction between general
@@ -111,13 +114,30 @@ scenario like this is not uncommon:
 
 * For some non-system-wide clipboards, multiple clipboard entries can
   coexist (this is the case with emacs, for instance). In such cases,
-  the easiest thing I've found is to just quit and restart emacs,
-  though I'm sure there are other solutions.
+  the easiest thing I've found is to just quit and restart emacs. A
+  friend tells me that the proper way to clear out the emacs
+  clipboard is `Meta+:` followed by entering `(setq kill-ring nil)`
+  for the command to eval; that does seem to work for me.
 
-* On modern Macs, locking screen and then unlocking automatically
-  clears the system-wide keyboard, so you can use this method too --
-  though it's generally more disruptive than just putting something
-  else in the clipboard.
+* For Linux GUIs, there is a X clipboard that stuff automatically gets
+  into when you highlight it, even without pressing any keys to copy
+  it (and pasting from this clipboard can be done with a right
+  click). So if you accidentally highlight any sensitive data, it
+  becomes part of this clipboard! A friend tells me that to clear out
+  what's in this clipboard, it makes sense to just select a random
+  letter or digit.
+
+  There is a similar issue within emacs as well: when you delete text
+  (e.g., delete a line using Ctrl+K) it enters the emacs
+  clipboard. And since emacs keeps multiple clipboard entries, you
+  cannot simply override it by putting something else in clipboard;
+  you need to either quit and restart emacs, or use the command
+  provided in the previous bullet point.
+
+* On modern Macs, ~~locking screen and then unlocking~~ sleeping and
+  then waking up from sleep clears the system-wide clipboard, so you
+  can use this method too -- though it's generally more disruptive
+  than just putting something else in the clipboard.
 
 #### Making clipboard-clearing second nature
 
