@@ -21,6 +21,8 @@ Note that for the three web vitals measured in both field and Lab data, the thre
 |-
 | First Input Delay (FID) || Interactivity/responsiveness || Yes || Yes || No || No || 100 || 300
 |-
+| Interaction to Next Paint (INP) || Interactivity/responsiveness || No || Yes || No || No || 200 || 500
+|-
 | Cumulative Layout Shift (CLS) || Visual stability || Yes || Yes || Yes || Yes || 0.1 || 0.25
 |}
 
