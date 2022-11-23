@@ -13,6 +13,6 @@ stuff happens. Further proofreading and fact-checking are also pending.
 The timeline is focused largely on the collapse in November 2022;
 Sebastian plans to work on a [timeline of
 FTX](https://timelines.issarice.com/wiki/Timeline_of_FTX) that will go
-more into the background over the past five years. For more on what the collapse timeline is focused on, see the [inclusion criteria section of the timeline](https://timelines.issarice.com/wiki/Timeline_of_FTX_collapse#Inclusion_criteria).
+more into the background. For more on what the collapse timeline is focused on, see the [inclusion criteria section of the timeline](https://timelines.issarice.com/wiki/Timeline_of_FTX_collapse#Inclusion_criteria).
 
 Thoughts welcome!
