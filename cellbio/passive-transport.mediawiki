@@ -1,0 +1,10 @@
+==Definition==
+
+'''Passive transport''' is the movement of ions or molecules across a [[biological membrane]] along the concentration gradient, i.e., from a region of high concentration to a region of low concentration.
+
+Passive transport is of four types:
+
+* Diffusion
+* [[Facilitated diffusion]]
+* Filtration
+* Osmosis

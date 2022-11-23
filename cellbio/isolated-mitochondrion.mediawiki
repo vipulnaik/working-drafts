@@ -1,0 +1,30 @@
+{{derived from organelle in lab|mitochondrion}}
+
+==Definition==
+
+An '''isolated mitochondrion''' is an ''in vitro'' variant of the [[defining ingredient::mitochondrion]]; it is a [[mitochondrion]] removed from its containing cell, but with the [[outer mitochondrial membrane]] still left intact.<ref>{{cite web|url = https://physoc.onlinelibrary.wiley.com/doi/10.1113/jphysiol.2011.212712|title = Mitochondria: isolation, structure and function}}</ref> This is in contrast to a [[mitoplast]] (also an ''in vitro'' variant of the mitochondrion), where the further step of removing the [[outer mitochondrial membrane]] has been taken.
+
+Isolated mitochondria are created deliberately in the laboratory through mitochondrial isolation procedures specifically designed to create isolated mitochondria. Since the process generally starts with several cells and most cells contain several mitochondria, we usually get a lot of isolated mitochondria together, and hence almost always talk about isolated mitochondria in the plural.
+
+==Differences with (in situ, in vivo) mitochondria==
+
+{| class="sortable" border="1"
+! Item !! Value for (in situ, in vivo) mitochondria !! Value for isolated mitochondria
+|-
+| Shape || Tubular (cylindrical), i.e., longer in one dimension than the others; the tubular shape plays well with the [[mitochondrial network]]. || Isolated mitochondria are closer to spherical. It is believed that the mitochondria shrink along their tubular axis to come close to a spherical shape during the isolation process.
+|-
+| Interconnection || Networked with other mitochondria to form a [[mitochondrial network]]. || Not networked with other mitochondria; they're isolated.
+|-
+| Function || Mitochondria in living cells carry out several functions important to the cell, including: [[cellular respiration]], i.e., ATP synthesis<br>Control of [[cell cycle]]<br>[[Cellular differentiation]]<br>[[Cell growth]]<br>[[Cell death]] || Isolated mitochondria are still capable of carrying out respiration, i.e., using food and oxygen to convert ADP to ATP. However, these activities are no longer coordinated with what's going on in the cell, since there is no cell enclosing the mitochondrion. Rather, the environmental availability of food and oxygen and the current ADP/ATP balance mostly determine things like the oxygen consumption rate.
+|-
+| Propagation || Mitochondria undergo [[mitochondrial fission]] and [[mitochondrial fusion]]. || Isolated mitochondria don't propagate (i.e., they don't undergo fission).
+|-
+| Survival || Since mitochondria are constantly undergoing fission and fusion, the survival of individual mitochondria is an ill-defined question. || Isolated mitochondria can survive (in the sense of continuing to be able to respire) for a period between a few hours and a few days, depending on the isolation procedure and how they are maintained.<ref>{{cite web|url = https://www.ncbi.nlm.nih.gov/pmc/articles/PMC366331/|title = “Survival” of Mitochondria in Vitro}}</ref>
+|}
+
+==See also==
+
+* [[Mitoplast]]
+* [[Submitochondrial particle]]
+
+==References==

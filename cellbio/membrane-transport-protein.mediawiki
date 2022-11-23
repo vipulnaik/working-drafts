@@ -1,0 +1,35 @@
+==Definition==
+
+A '''membrane transport protein''' is a special kind of [[transmembrane protein]] associated with a [[biological membrane]] that facilitates the movement of one or more of these across the membrane: ions, small molecules, or macromolecules (such as other [[protein]]s). Note that a specific membrane transport protein may facilitate the movement of only a few specific ions across the biological membrane.
+
+==Relation with other concepts==
+
+===Broader concepts===
+
+{| class="sortable" border="1"
+! Concept !! Meaning !! Relationship with the concept of membrane transport protein !! Intermediate notions
+|-
+| [[Narrower than::transmembrane protein]] || protein attached to both sides of the [[lipid bilayer]] of the biological membrane || membrane transport proteins must be transmembrane proteins in order to facilitate transport || {{intermediate notions short|membrane transport protein|transmembrane protein}}
+|-
+| [[Narrower than::integral membrane protein]] || protein attached permanently to a biological membrane || (via transmembrane protein) || {{intermediate notions short|membrane transport protein|integral membrane protein}}
+|-
+| [[Narrower than::membrane protein]] || protein that interacts with a biological membrane || (via integral membrane protein) || {{intermediate notions short|membrane transport protein|membrane protein}}
+|}
+
+===Narrower concepts===
+
+{| class="sortable" border="1"
+! Concept !! Meaning !! Relationship with the concept of membrane transport protein !! Intermediate notions
+|-
+| [[Broader than::solute carrier]] || protein that facilitates transport of each solute it transports in only one direction (inside to outside or outside to inside) || carriers are a particular kind of membrane transport protein || {{intermediate notions short|solute carrier|membrane transport protein}}
+|-
+| [[Broader than::ion channel]] || protein that [[facilitated diffusion|facilitates diffusion]] of ions bidirectionally across the biological membrane || ion channels are a particular kind of membrane transport protein || {{intermediate notions short|ion channel|membrane transport protein}}
+|-
+| [[Broader than::cotransporter]] || protein that facilitates coupled transport of two species of substrate (ion or molecule): one along its concentration gradient and one against its concentration gradient || cotransporter is a kind of membrane transport protein; another kind is [[uniporter]] || {{intermediate notions short|cotransporter|membrane transport protein}}
+|-
+| [[Broader than::symporter]] || cotransporter that transports both species of substrate (ion or molecule) in the same direction (e.g., both from inside to outside, or both from outside to inside) || (via cotransporter) || {{intermediate notions short|symporter|membrane transport protein}}
+|-
+| [[Broader than::antiporter]] || cotransporter that transports both species of substrate (ion or molecule) in opposite directions, one from inside to outside and the other from outside to inside || (via cotransporter) || {{intermediate notions short|antiporter|membrane transport protein}}
+|-
+| [[Broader than::uniporter]] || membrane transport protein that just transports one species of substrate (ion or molecule) || uniporter is a kind of membrane transport protein; another kind is [[cotransporter]] || {{intermediate notions short|uniporter|membrane transport protein}}
+|}

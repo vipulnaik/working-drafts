@@ -1,0 +1,1 @@
+{{#ask: [[Broader than::{{{1}}}]][[Narrower than::{{{2}}}]]|format = list|limit = 20}}<nowiki>|</nowiki>{{#ask: [[Broader than::{{{1}}}]][[Narrower than::{{{2}}}]]|limit = 0|searchlabel = FULL LIST, MORE INFO|mainlabel = Intermediate notions between [[{{{1}}}]] and [[{{{2}}}]]|format = broadtable}}

@@ -1,0 +1,21 @@
+==Definition==
+
+'''Solute carrier''' is the term used for a [[membrane transport protein]] that transports solutes (ions, small molecules, or macromolecules) across the biological membrane, with each solute transported in only one specific direction (e.g., from inside to outside, or from outside to inside). The direction of transport can be different for different solutes for the same carrier (for instance, [[antiporter]]s carry two solutes in opposite directions).
+
+Solute carriers are classified by family; the classification system is called [[solute carrier family|solute carrier families]].
+
+==Relation with other concepts==
+
+===Broader concepts===
+
+{| class="sortable" border="1"
+! Concept !! Meaning !! Relationship with the concept of solute carrier !! Intermediate notions
+|-
+| [[Narrower than::membrane transport protein]] || protein that facilitates movement across a biological membrane || a membrane transport protein could be either a carrier or a channel || {{intermediate notions short|solute carrier|membrane transport protein}}
+|-
+| [[Narrower than::transmembrane protein]] || protein that is attached to both sides of the bilipid layer of a biological membrane || (via membrane transport protein) || {{intermediate notions short|solute carrier|transmembrane protein}}
+|-
+| [[Narrower than::integral membrane protein]] || protein that is permanently attached to a biological membrane || (via transmembrane protein) || {{intermediate notions short|solute carrier|transmembrane protein}}
+|-
+| [[Narrower than::membrane protein]] || protein that interacts with a biological membrane || (via integral membrane protein) || {{intermediate notions short|solute carrier|membrane protein}}
+|}

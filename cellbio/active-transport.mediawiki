@@ -1,0 +1,8 @@
+==Definition==
+
+'''Active transport''' refers to the movement of molecules or ions across a [[biological membrane]] against its gradient, i.e., from a region of lower concentration to a region of higher concentration.
+
+There are two kinds of active transport:
+
+* [[Primary active transport]] that uses metabolic energy
+* [[Secondary active transport]] that uses an electrochemical gradient

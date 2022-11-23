@@ -1,0 +1,31 @@
+==Definition==
+
+A '''cotransporter''' is a type of [[membrane transport protein]] that facilitates transport across a biological membrane of two species of substrate (ion or molecule) in a coupled fashion: it moves one species along its concentration gradient and the other species opposite its concentration gradient.
+
+Cotransporters stand in contrast with [[uniporters]]: a uniporter transports only one species of substrate.
+
+==Relation with other concepts==
+
+===Broader concepts===
+
+{| class="sortable" border="1"
+! Concept !! Meaning !! Relationship with the concept of cotransporter !! Intermediate notions
+|-
+| [[Narrower than::membrane transport protein]] || protein that facilitates movement across a biological membrane || cotransporters are a type of membrane transport protein; [[uniporter]]s are another kind || {{intermediate notions short|cotransporter|membrane transport protein}}
+|-
+| [[Narrower than::transmembrane protein]] || protein that is attached to both sides of the bilipid layer of a biological membrane || (via membrane transport protein) || {{intermediate notions short|cotransporter|transmembrane protein}}
+|-
+| [[Narrower than::integral membrane protein]] || protein that is permanently attached to a biological membrane || (via transmembrane protein) || {{intermediate notions short|cotransporter|transmembrane protein}}
+|-
+| [[Narrower than::membrane protein]] || protein that interacts with a biological membrane || (via integral membrane protein) || {{intermediate notions short|cotransporter|membrane protein}}
+|}
+
+===Narrower concepts===
+
+{| class="sortable" border="1"
+! Concept !! Meaning !! Relationship with the concept of cotransporter !! Intermediate notions
+|-
+| [[Broader than::antiporter]] || coupled transporter where one entity is transported from inside to outside, the other is transported from outside to inside || antiporter is a type of cotransporter where the two transports are in opposite directions; [[symporter]]s transport both in the same direction || {{intermediate notions short|antiporter|cotransporter}}
+|-
+| [[Broader than::symporter]] || coupled transporter where both entities are transported in the same direction || symporter is a type of cotransporter where the two transports are in opposite directions; [[antiporter]]s transport both in opposite directions || {{intermediate notions short|symporter|cotransporter}}
+|}

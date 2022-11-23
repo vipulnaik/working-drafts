@@ -1,0 +1,37 @@
+==Definition==
+
+'''Transmembrane proteins''' (acronym '''TM''') (also called '''integral polytopic proteins''') are a particular kind of [[integral membrane protein]] attached to the [[lipid bilayer]] in a [[biological membrane]], defined as follows:
+
+Transmembrane proteins are attached across ''both'' the two layers (the inner leaflet and the outer leaflet) of the lipid bilayer. In this, they differ from the [[integral monotopic protein]]s, which are permanently attached to the membrane from only one side.
+
+==Interpretation==
+
+The concept of transmembrane protein can be interpreted at many different levels:
+
+* It can be applied to a specific protein molecule at a specific snapshot of time, if that particular molecule is persistently attached to both sides of a biological membrane. In this framing, you would point to a single molecule that is straddling both sides of the lipid bilayer of a specific biological membrane and say "this is a transmembrane protein."
+* It can be applied to a particular protein structure (primary, secondary, tertiary, or quaternary structure of a specific protein) if molecules with that protein structure occur as transmembrane proteins with respect to some biological membrane.
+* It can also be restricted to the context of a specific individual cell or organelle whose biological membrane is being studied, or to a ''type'' of cell or organelle, restricted based on what the organelle is, what kind of species the cells are from, or what type of cells within the species are being looked at. For instance, we might want a list of all the protein structures found as transmembrane proteins in the inner mitochondrial membrane of yeast mitochondria, or in the cell membrane of human skeletal muscle cells, or in the inner chloroplast envelope of the leaves of a particular plant species.
+
+==Relation with other concepts==
+
+===Broader concepts===
+
+{| class="sortable" border="1"
+! Concept !! Meaning !! Relationship with the concept of transmembrane protein !! Intermediate notions
+|-
+| [[Narrower than::integral membrane protein]] || protein that is bound to at least one side of the [[lipid bilayer]] of a [[biological membrane]] || transmembrane proteins are one kind of integral membrane protein (the ''polytopic'' kind, that attach to both sides of the lipid bilayer); the other kind, that attach to just one side, are called [[integral monotopic protein]]s. || {{intermediate notions short|transmembrane protein|integral membrane protein}}
+|-
+| [[Narrower than::membrane protein]] || protein that interacts with a [[biological membrane]] || (via integral membrane protein; integral membrane proteins are a special kind of membrane protein, the other kind being [[peripheral membrane protein]]) || {{intermediate notions short|transmembrane protein|membrane protein}}
+|}
+
+===Narrower concepts===
+
+{| class="sortable" border="1"
+! Concept !! Meaning !! Relationship with the concept of transmembrane protein !! Intermediate notions
+|-
+| [[Broader than::membrane transport protein]] || protein involved in the transport of one of these across a [[biological membrane]]: ion, small molecule, or macromolecule (such as another protein) || membrane transport proteins ''must'' be transmembrane proteins as they need to have access to both the inside and the outside in order to facilitate transport across the membrane. || {{intermediate notions short|membrane transport protein|transmembrane protein}}
+|-
+| [[Broader than::solute carrier]] || protein involved in transport across a [[biological membrane]] that transports each specific ion, molecule, or macromolecule in only one specific direction (inside to outside or outside to inside) || (via membrane transport protein) || {{intermediate notions short|solute carrier|transmembrane protein}}
+|-
+| [[Broader than::ion channel]] || protein that [[facilitated diffusion|facilitates diffusion]] of ions across the biological membrane; the movement of ions is in principle bidirectional || (via membrane transport protein) || {{intermediate notions short|ion channel|transmembrane protein}}
+|}

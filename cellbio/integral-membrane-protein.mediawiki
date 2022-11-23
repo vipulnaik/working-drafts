@@ -1,0 +1,30 @@
+==Definition==
+
+An '''integral membrane protein''' (also called '''IMP''') is a [[protein]] molecule permanently attached to a [[biological membrane]] (such as a [[cell membrane]] or the membrane of an [[organelle]] in a [[eukaryotic cell]]).
+
+==Types==
+
+Integral membrane proteins are of two main types:
+
+# [[transmembrane protein]] (also called integral polytopic protein)
+# [[integral monotopic protein]]
+
+==Relation with other concepts==
+
+===Broader concepts===
+
+{| class="sortable" border="1"
+! Concept !! Meaning !! Relationship with the concept of integral membrane protein !! Intermediate notions
+|-
+| [[Narrower than::membrane protein]] || protein that interacts with a biological membrane; but not necessarily attached to it || integral membrane proteins are a special kind of membrane protein that is permanently attached to the membrane; the other kind are [[peripheral membrane protein]]s || {{intermediate notions short|integral membrane protein|membrane protein}}
+|}
+
+===Narrower concepts===
+
+{| class="sortable" border="1"
+! Concept !! Meaning !! Relationship with the concept of integral membrane protein !! Intermediate notions
+|-
+| [[Broader than::transmembrane protein]] || protein that is attached to both sides of the [[lipid bilayer]] of the biological membrane || transmembrane proteins are one kind of integral membrane protein (the ''polytopic'' type); the other type is [[integral monotopic protein]]s, that are attached to just one side || {{intermediate notions short|transmembrane protein|integral membrane protein}}
+|-
+| [[Broader than::membrane transport protein]] || protein that facilitates transport across the biological membrane || (via transmembrane protein) || {{intermediate notions short|membrane transport protein|integral membrane protein}}
+|}

@@ -1,0 +1,26 @@
+==Definition==
+
+The term '''membrane protein''' is used for a [[protein]] that interacts with a [[biological membrane]]. Membrane proteins could be one of these:
+
+==Types==
+
+# [[Integral membrane protein]]s -- these are proteins permanently attached to a biological membrane
+# [[Peripheral membrane protein]]s -- these are proteins that interact with a biological membrane but are not permanently attached to it
+
+==Relation with other concepts==
+
+===Narrower concepts===
+
+{| class="sortable" border="1"
+! Concept !! Meaning !! Relationship with membrane protein !! Intermediate notions
+|-
+| [[Broader than::integral membrane protein]] || protein permanently attached to a biological membrane || || {{intermediate notions short|integral membrane protein|membrane protein}}
+|-
+| [[Broader than::peripheral membrane protein]] || protein that interacts with a biological membrane without being attached to it || || {{intermediate notions short|peripheral membrane protein|membrane protein}}
+|-
+| [[Broader than::transmembrane protein]] || protein attached to both sides of the lipid bilayer of a biological membrane || (via integral membrane protein) || {{intermediate notions short|transmembrane protein|membrane protein}}
+|-
+| [[Broader than::integral monotopic protein]] || protein attached to one side of the lipid bilayer of a biological membrane || (via integral membrane protein) || {{intermediate notions short|integral monotopic protein|membrane protein}}
+|-
+| [[Broader than::membrane transport protein]] || protein that facilitates transport across a membrane || (via transmembrane protein) || {{intermediate notions short|membrane transport protein|membrane protein}}
+|}
