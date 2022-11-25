@@ -1,4 +1,4 @@
-{{focused coverage period|end-date = October 2021}}
+{{focused coverage period|end-date = November 2022}}
 
 This is a timeline of {{w|Bay Area Rapid Transit}} (BART), a mass rapid transit system serving the San Francisco Bay Area.
 
@@ -27,7 +27,7 @@ This is a timeline of {{w|Bay Area Rapid Transit}} (BART), a mass rapid transit 
 |-
 | 2011–present || BART begins work on the East Contra County Extension Project, which adds diesel eBART service extending east from the Pittsburg/Bay Point BART terminus. The first set of new stations opens for revenue service in May 2018.
 |-
-| 2020–2021, possibly longer || The COVID-19 pandemic causes a huge reduction in BART ridership. As the region recovers from the pandemic, ridership rises, but long-term changes such as an increase in the prevalence of remote work create uncertainty about the future of BART ridership. As of late 2021, the long-term projections for BART ridership remain unclear, with current weekday ridership levels between 20% and 30% of pre-pandemic levels.
+| 2020–2022, possibly longer || The COVID-19 pandemic causes a huge reduction in BART ridership. As the region recovers from the pandemic, ridership rises, but long-term changes such as an increase in the prevalence of remote work create uncertainty about the future of BART ridership. As of late 2021, the long-term projections for BART ridership remain unclear, with current weekday ridership levels between 30% and 45% of pre-pandemic levels.
 |}
 
 === Fare schedule changes over time ===
@@ -53,14 +53,42 @@ This is a timeline of {{w|Bay Area Rapid Transit}} (BART), a mass rapid transit 
 |-
 | 2020 || January 1 || 2.10 || 6.20 || 5.4% || February 2013
 |-
-| 2022 || January 1 || ?? || ?? || ?? || ??
-|-
-| 2024 || January 1 || ?? || ?? || ?? || ??
-|-
-| 2026 || January 1 || ?? || ?? || ?? || ??
+| 2022 || July 1 || 2.15 || 6.40 || 3.4% || June 2022 
 |}
 
-==Visual data==
+== Numerical and visual data  ==
+
+=== Google Scholar ===
+
+The following table summarizes per-year mentions on Google Scholar as of December 14, 2021.
+
+{| class="sortable wikitable"
+! Year
+! "Bay Area Rapid Transit"
+|-
+| 1975 || 121
+|-
+| 1980 || 86
+|-
+| 1985 || 60
+|-
+| 1990 || 82 
+|-
+| 1995 || 113
+|-
+| 2000 || 158
+|-
+| 2005 || 274 
+|-
+| 2010 || 371
+|-
+| 2015 || 407
+|-
+| 2020 || 412
+|-
+|}
+
+[[File:Bay Area Rapid Transit gscho.png|thumb|center|700px]]
 
 === Overall ridership ===
 
@@ -587,13 +615,17 @@ BART board may fire Dorothy Dugger|last = Cabanatuan|first = Michael|date = Febr
 |-
 | 2021 || May 15, June 12 || Accessibility || All BART station entrances and exits, some of which had been temporarily closed due to reduced usage and to facilitate easier monitoring during the COVID-19 pandemic, are reopened. The first round of reopening, affecting Embarcadero, Montgomery, Powell Street, and Balboa Park, happens May 15. The remaining temporarily closed entrances are reopened on June 12.<ref name=station-entrance-reopen>{{cite web|url = https://www.bart.gov/news/articles/2020/news20200410|title = BART opens all entrances/exits that were previously closed due to pandemic|date = June 14, 2021|accessdate = November 5, 2021}}</ref> || Embarcadero, Montogomery, Powell Street, Civic Center, Balboa Park, 12th Street, 19th Street, downtown Berkeley
 |-
-| 2021 || August 2 || Service hours/frequency/capacity || BART returns to a level of service pretty close to pre-COVID-19 levels of service, in terms of both service frequency (15 minutes during the day time) and hours (BART open till midnight all days). This is four weeks ahead of the original plan of returning to full service on August 30.<ref>{{cite web|url = https://www.bart.gov/news/articles/2021/news20210701|title = BART increases service four weeks early starting 8/2/21|date = July 1, 2021|accessdate = November 5, 2021|publisher = Bay Area Rapid Transit}}</ref> Also with this change, BART stops publishing its daily crowding charts, because the increase in service frequency is expecteed to reduce the chances of crowdedness and also because BART was unable to secure funding to integrate the information on crowding into its trip planning tools.<ref name=bart-covid/>
+| 2021 || August 2 || Service hours/frequency/capacity || BART returns to a level of service pretty close to pre-COVID-19 levels of service, in terms of both service frequency (15 minutes during the day time) and hours (BART open till midnight all days). This is four weeks ahead of the original plan of returning to full service on August 30.<ref>{{cite web|url = https://www.bart.gov/news/articles/2021/news20210701|title = BART increases service four weeks early starting 8/2/21|date = July 1, 2021|accessdate = November 5, 2021|publisher = Bay Area Rapid Transit}}</ref> Also with this change, BART stops publishing its daily crowding charts, because the increase in service frequency is expected to reduce the chances of crowdedness and also because BART was unable to secure funding to integrate the information on crowding into its trip planning tools.<ref name=bart-covid/>
 |-
-| 2022 || January 1 || Fares || A fare increase is scheduled for this date. This is the first of a series of three scheduled fare increases (2022, 2024, and 2026) following an inflation-based formula.<ref name=bart-2020-fare-increase/>
+| 2022 || April 18, 19, 20 || COVID-19 || In response to a federal judge, on April 18, striking down the CDC's extension of its mask mandate in public transportation,<ref>{{cite web|url = https://www.cnn.com/2022/04/18/politics/cdc-mask-mandate-ruling|title = CDC mask mandate for travelers no longer in effect following judge’s ruling, official says|last = Sneed|first = Tierney|date = April 18, 2022|accessdate = November 25, 2022|publisher = CNN}}</ref> BART announces on April 20 that masks are optional but strongly recommended.<ref name=bart-face-masks>{{cite web|url = https://www.bart.gov/news/articles/2020/news20200421|title = Face masks required on BART|publisher = Bay Area Rapid Transit|date = July 28, 2022|accessdate = November 25, 2022}}</ref> However, masks would once again become required on April 28.<ref name=bart-face-masks/>
 |-
-| 2024 || January 1 || Fares || A fare increase is scheduled for this date. This is the second of a series of three scheduled fare increases (2022, 2024, and 2026) following an inflation-based formula.<ref name=bart-2020-fare-increase/>
+| 2022 || April 28 || COVID-19 || BART reinstates its mask mandate in the paid areas of the system (with limited exceptions) via a temporary amendment to its code of conduct.<ref name=bart-face-masks/> The mandate expires on July 18, and is then reinstated on July 28, before finally expiring on October 1. Starting October 2, masks are optional on BART.<ref name=bart-face-masks/>
 |-
-| 2026 || January 1 || Fares || A fare increase is scheduled for this date. This is the third of a series of three scheduled fare increases (2022, 2024, and 2026) following an inflation-based formula.<ref name=bart-2020-fare-increase/>
+| 2022 || June 9 || Fares, budget, service frequency/hours/capacity || The BART board approves a two-year budget "focused on improving the rider experience with a continued commitment to running full-service levels prioritizing a clean and safe ride." The new budget is effective July 1, 2022. The budget includes a 3.4% fare increase, that BART describes as "less-than-inflation-rate". The original fare increase had been scheduled for January 1 but was deferred due to the ongoing effects of the COVID-19 pandemic.<ref name=bart-2022-budget-meeting>{{cite web|url = https://www.bart.gov/news/articles/2022/news20220609|title = BART Board approves two-year budget focused on rider experience|date = June 9, 2022|accessdate = November 25, 2022|publisher = Bay Area Rapid Transit}}</ref><ref>{{cite web|url = https://www.sfgate.com/news/bayarea/article/Bart-Approves-2-Year-Budget-With-Planned-Service-17232027.php|title = Bart Approves 2-Year Budget With Planned Service, Fare Increases|last = Walsh|first = Eli|date = June 9, 2022|accessdate = November 25, 2022|publisher = SFGate}}</ref>
+|-
+| 2022 || July 1 || Fares || BART's 3.4% fare increase, decided in a June 9 board meeting,<ref name=bart-2022-budget-meeting/> goes into effect on this date.<ref>{{cite web|url = https://www.bart.gov/news/articles/2022/news20220614|title = BART fares to increase July 1, 2022|publisher = Bay Area Rapid Transit|date = June 14, 2022|accessdate = November 25, 2022}}</ref>
+|-
+| 2022 || November 20 || Budget, service hours/frequency/capacity || The Bay Area News Group, the publisher of ''{{w|The Mercury News}}'', reports in ''The Mercury News'' on federally mandated planning documents prepared by the Bay Area's transit agencies, including BART, obtained by a public records request. According to these documents, the collapse in ridership following the {{w|COVID-19 pandemic}} and the partial nature of post-pandemic recovery may require BART to make significant cuts to service, specifically: "Terminating two of five train lines – Red and Green – meaning no more direct trains from Richmond and Berryessa to San Francisco." An even more extreme scenario is one where "BART cancels its weekend service and shutters nine stations just to keep the lights on elsewhere. Trains run once an hour, instead of every 15 minutes."<ref>{{cite web|url = https://www.mercurynews.com/2022/11/20/doomsday-scenario-for-sinking-bay-area-transit-no-weekend-bart-bus-lines-cancelled-or-a-taxpayer-bailout/|title = Doomsday scenario for sinking Bay Area transit: No weekend BART, bus lines cancelled or a taxpayer bailout. Bay Area ‘death spiral’ outlined in newly obtained transit-planning documents|last = Kamisher|first = Eliyahu|date = November 20, 2022|accessdate = November 25, 2022|publisher = The Mercury News}}</ref>
 |}
 
 == Feedback and comments ==
