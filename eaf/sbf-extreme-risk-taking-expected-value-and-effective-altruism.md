@@ -348,7 +348,7 @@ money](https://economics.stackexchange.com/questions/23952/is-the-utility-of-mon
 is the motivation for the [Kelly
 criterion](https://en.wikipedia.org/wiki/Kelly_criterion), a widely
 referenced criterion for how to diversify one's portfolio in order to
-aximize the expected value of the *logarithm* of wealth. These general
+maximize the expected value of the *logarithm* of wealth. These general
 ideas are well-known in economics and among a lot of intellectuals
 including many in the effective altruist movement.
 
