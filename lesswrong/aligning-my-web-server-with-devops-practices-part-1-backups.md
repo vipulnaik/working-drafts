@@ -68,10 +68,10 @@ later parts of the post.
 
 ### Considerations for the process of making backups
 
-* **Integrity of the backup process and backup output**: As a
-    failsafe, backups should be done properly; in particular, the
-    backup process should not fail, and even more importantly, should
-    not fail silently.
+* **Integrity of the backup process and backup output**: Given their
+    role as a failsafe, backups should be done properly; in
+    particular, the backup process should not fail, and even more
+    importantly, should not fail silently.
 
     This is particularly important, because most of the time, we don't
     need backups, so we may not notice that backups are failing,
