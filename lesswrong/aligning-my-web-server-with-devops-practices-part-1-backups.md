@@ -50,6 +50,12 @@ to your attention until it is too late:
 * Establish a well-defined process to restore from backups, and
   fire-drill it so that you know it works.
 
+* This may seem irrelevant to you if your budget is way higher than
+  the expected cost of backups, but it's important (in at least some
+  cases) to keep an eye on the cost of backups. In particular,
+  considerations such as backup size, frequency, and retention period
+  affect the cost of making, storing, and recovering from backups.
+
 The rest of the stuff is also pretty important, so I do recommend
 reading the whole post.
 
@@ -82,7 +88,11 @@ later parts of the post.
 
 * **Cost of making the backup**: All else equal, we want making
     backups to be cheap! In general, the cost of making the backup
-    depends on the size of the backup as well as the frequency.
+    depends on the size of the backup as well as the frequency. One
+    thing to keep in mind when thinking about size is whether the
+    underlying data being backed up is growing organically in a
+    significant way. This isn't an issue for my sites, but is worth
+    thinking about in other contexts.
 
 ### Considerations for backup storage
 
@@ -98,7 +108,12 @@ later parts of the post.
 * **Cost of storing the backup**: All else equal, we want backup
     storage to be cheap! In general, the cost of storing the backup
     depends on the size, frequency, and retention policy of the
-    backup.
+    backup. Having a retention policy that deletes sufficiently old
+    backups is important for containing costs. One thing to keep in
+    mind when thinking about size is whether the underlying data being
+    backed up is growing organically in a significant way. This isn't
+    an issue for my sites, but is worth thinking about in other
+    contexts.
 
 ### Considerations for restoration process
 
