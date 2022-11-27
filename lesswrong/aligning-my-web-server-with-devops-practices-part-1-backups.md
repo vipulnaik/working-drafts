@@ -35,6 +35,64 @@ other pieces.
 
 This particular post focuses on backups.
 
+## Considerations when evaluating backup strategies
+
+Backup strategies need to be evaluated along a variety of
+dimensions. Some of these are listed below. Different considerations
+come to the forefront for different kinds of backups, as we see in
+later parts of the post.
+
+### Considerations for the process of making backups
+
+* **Integrity of the backup process and backup output**: As a
+    failsafe, backups should be done properly; in particular, the
+    backup process should not fail, and even more importantly, should
+    not fail silently.
+
+    This is particularly important, because most of the time, we don't
+    need backups, so we may not notice that backups are failing,
+    unless we set up active monitoring around the existence of
+    backups.
+
+* **Time taken for backup**: We want backups that can be executed
+    relatively quickly (e.g., over a period of minutes, rather than
+    hours or days).
+
+* **Impact of backup on other processes**: Particularly for backups of
+    production servers, we want the backup to operate in a way that
+    has minimal impact on the rest of the server.
+
+* **Cost of making the backup**: All else equal, we want making
+    backups to be cheap! In general, the cost of making the backup
+    depends on the size of the backup as well as the frequency.
+
+### Considerations for backup storage
+
+* **Security of backups**: We don't want the backup to leak to the
+    public, and we also want to make sure that the backup is hard to
+    destroy even if the machine is compromised somehow.
+
+* **Cost of storing the backup**: All else equal, we want backup
+    storage to be cheap! In general, the cost of storing the backup
+    depends on the size, frequency, and retention policy of the
+    backup.
+
+### Considerations for restoration process
+
+* **Well-defined process to restore from backups**: We very rarely
+    need to restore from backups, but when we do, time is of the
+    essence, and we lack a lot of contextual information (for
+    instance, if restoring from backup because the server got hacked
+    or had a hardware failure). Formulating a well-defined process to
+    restore from backups, and fire-drilling this process so that it
+    can be applied quickly in stressful situations, is important.
+
+* **Time taken for restoration**: All else equal, we prefer backups
+    that we can restore *from* relatively quickly.
+
+* **Cost of restoration**: All else equal, we prefer backups that are
+    cheap to restore from.
+
 ## Full disk backups
 
 ### What these are
