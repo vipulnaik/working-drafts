@@ -183,12 +183,12 @@ me before they occurred.
     case of error; in case of error, I would also get tagged. I
     eyeball the Slack channel occasionally.
 
-  * I periodically manually review the backups folder for the presence
-    of backup files for all sites as expected. I'm hoping to automate
-    this piece relatively soon. This is useful for catching cases
-    where the backup process fails to even get started (for instance,
-    because it's not being invoked in the crontab, or the invocation
-    is incorrect).
+  * I wrote a script that runs daily to check if recent backups exist
+    in S3 and reports success to Slack (without tagging me); any
+    missing backups are also reported and tag me. I investigate any
+    tagged messages quickly, and also monitor the channel
+    semi-regularly to make sure that the script that checks if recent
+    backups exist has been running.
 
 * **The SQL backup process could just miss some tables or err in some
     other weird way while still outputting stuff that seems
