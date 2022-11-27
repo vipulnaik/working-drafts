@@ -146,7 +146,7 @@ fallback solution, if all else fails.
 
 ### Evaluating full disk backups
 
-Let's evaluate full disk backups based on the considerations described
+I now evaluate full disk backups based on considerations described
 earlier in the post.
 
 #### Consideration for the process of making backups: integrity of the backup process and backup output (good)
@@ -288,7 +288,14 @@ regularly. This actually uses the same script as for code backups,
 just with different parameters, with the source now the log file and
 the target file slightly different.
 
-### Consideration for the process of making backups: integrity of the backup process and backup output (probably good)
+### Evaluating cloud storage backups
+
+I now evaluate cloud storage backups based on considerations described
+earlier in the post. I also talk of tweaks I made to improve the way I
+did cloud storage backups in order to score better on the various
+considerations.
+
+#### Consideration for the process of making backups: integrity of the backup process and backup output (probably good)
 
 There were a bunch of considerations related to the integrity of the
 backups; some of these actually occurred and others were identified by
@@ -334,7 +341,7 @@ for a little longer to be confident that things are working well.
     that two diferent machines should give non-colliding backup file
     paths.
 
-### Consideration for the process of making backups: time taken for backups (probably good)
+#### Consideration for the process of making backups: time taken for backups (probably good)
 
 For some sites, the backups were large in size and took a lot of
 time. The time taken was directly related to their size, so reducing
@@ -396,7 +403,7 @@ reducing the cost of making backups. With that said, the cost of
 making the backup is relatively small compared to the cost of storing
 the backups.
 
-### Consideration for backup storage: security of backups (probably good)
+#### Consideration for backup storage: security of backups (probably good)
 
 In order to upload the backup files to S3, I needed AWS credentials
 with access to S3 to be stored on the server.
@@ -421,7 +428,7 @@ Linode fails. I took two steps to address this:
   every 3 or 6 months, depending on the frequency of content
   changing. These backups serve as an additional layer of protection.
 
-### Consideration for backup storage: independence of backups in terms of geography and provider (good)
+#### Consideration for backup storage: independence of backups in terms of geography and provider (good)
 
 The backups are store on Amazon S3. This is a different provider than
 my VPS (Linode). Also, the AWS region where the backups are stored is
@@ -448,7 +455,7 @@ in my lifecycle policy, I migrated backups that were somewhat old to
 Glacier, S3's storage / cold storage. Glacier is cheaper than regular
 S3 but also needs more time to access.
 
-#### Consideration for restoration process: well-defined process to restore from backups
+#### Consideration for restoration process: well-defined process to restore from backups (getting to good; work in progress)
 
 I have a set of scripts to recreate all my sites on a new server based
 on a mix of data from GitHub and S3. For those sites of mine that are
@@ -461,6 +468,33 @@ S3 even if I don't have access to GitHub at all, but I haven't done so
 yet (it doesn't seem worth the effort to figure this out in advance,
 since I expect that the chances of losing access to both my existing
 server and GitHub at the same time are low).
+
+#### Consideration for restoration process: time taken for restoration (getting to good)
+
+As of now, the total time taken to restore all sites is comparable to
+the time for a restore of a full disk backup, but this is largely
+because there are still pieces I am working through automating (most
+of these are pieces around testing; the actual downloading from S3 is
+pretty streamlined).
+
+However, the time taken to fix and restore a single site, or a few
+sites, is way less than for a full disk backup. Full disk backups are
+all-or-nothing: you need to fully restore to access any data. In
+contrast, with S3 backups, it's possible to access just the data for a
+particular site, or even more specifically, just a particular file.
+
+I expect that the restoration process will get more streamlined over
+time, as I'm using the same scripts to recreate all my sites on a new
+server -- something that is going to be extremely useful for OS
+upgrades.
+
+#### Consideration for restoration process: cost of restoration (good)
+
+Restoration is relatively cheap: the only cost is that of downloading
+the backup from S3, which is relatively small. Moreover, because I can
+selectively restore only the sites or even the files that I need to
+restore, I only incur the costs associated with those specific sites
+or files.
 
 ## Not quite a backup but serves some of the functions of a backup: git and GitHub
 
