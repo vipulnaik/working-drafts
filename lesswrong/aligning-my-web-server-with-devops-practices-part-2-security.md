@@ -4,7 +4,7 @@ This is a continuation of my previous post.
 
 This post focuses on devops practices I adopted to secure my web server.
 
-## Firewall
+## Firewall (note: AWS uses the term "security group" for the equivalent concept)
 
 My cloud provider, Linode, offers basic port-based firewall
 functionality. I used this to minimize the number of entry points to
@@ -22,6 +22,10 @@ The firewall is set up as follows:
   still couldn't get on the machine.
 
 * It allows ping access from arbitrary locations.
+
+If you're used to Amazon Web Services (AWS) you would have seen the
+same idea encapsulated in AWS's concept of [security
+groups](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html).
 
 ### What's good about a firewall?
 

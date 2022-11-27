@@ -254,9 +254,10 @@ issue:
 
 * **Size of backups on S3 and corresponding cost**: The number of
     backup files grew linearly with time, and even assuming that the
-    backups were growing in size from one day to the next (as most
-    sites didn't have huge growth in content), we still get a linear
-    increase in S3 cost. This wasn't acceptable.
+    backups were not growing in size from one day to the next (a
+    reasonable approximation, as most sites didn't have huge growth in
+    content), we still get a linear increase in S3 cost. This wasn't
+    acceptable.
 
   * I implemented a lifecycle policy in S3 for the bucket with the
     primary backups that expired old code backups and SQL backups
