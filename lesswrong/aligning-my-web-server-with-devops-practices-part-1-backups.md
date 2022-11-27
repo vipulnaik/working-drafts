@@ -137,7 +137,7 @@ The backup script for SQL works as follows:
 
 * While we're at it, some older local backups are deleted based on
   their date (the goal is to have about two recent backups in the
-  server's code backups folder; older backups are only in S3).
+  server's SQL backups folder; older backups are only in S3).
 
 ### Mechanics of backup script for logs
 
