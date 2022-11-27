@@ -159,7 +159,7 @@ notifications on this page via both email and Slack.
 I also have the ability to log in at any time and check what full disk
 backups are available to restore from, but I don't do this regularly.
 
-#### Consideration for the process of making backups: Time taken for backup (good)
+#### Consideration for the process of making backups: time taken for backup (good)
 
 I'm not sure how long the backup takes, but it appears to be done
 asynchronously.
