@@ -35,6 +35,24 @@ other pieces.
 
 This particular post focuses on backups.
 
+## Recommendations for others (transferable learnings)
+
+These are some of the key learnings that I expect to transfer to other
+contexts, and that are sufficiently non-obvious and that may not come
+to your attention until it is too late:
+
+* Establish monitoring of the backups so that you can be confident
+  that they're happening as expected, and get notified if they
+  aren't. If using a managed service, make sure you are subscribed to
+  notifications for the status page of the service so that you get
+  notified if there are any issues with backups.
+
+* Establish a well-defined process to restore from backups, and
+  fire-drill it so that you know it works.
+
+The rest of the stuff is also pretty important, so I do recommend
+reading the whole post.
+
 ## Considerations when evaluating backup strategies
 
 Backup strategies need to be evaluated along a variety of
@@ -58,9 +76,9 @@ later parts of the post.
     relatively quickly (e.g., over a period of minutes, rather than
     hours or days).
 
-* **Impact of backup on other processes**: Particularly for backups of
-    production servers, we want the backup to operate in a way that
-    has minimal impact on the rest of the server.
+* **Impact of making the backup on other processes**: Particularly for
+    backups of production servers, we want the backup to operate in a
+    way that has minimal impact on the rest of the server.
 
 * **Cost of making the backup**: All else equal, we want making
     backups to be cheap! In general, the cost of making the backup
@@ -71,6 +89,11 @@ later parts of the post.
 * **Security of backups**: We don't want the backup to leak to the
     public, and we also want to make sure that the backup is hard to
     destroy even if the machine is compromised somehow.
+
+* **Independence of backups in terms of geography and provider**: We
+    ideally want backups that are as independent as possible from the
+    thing being backed up, to minimize the risk of both going down
+    together.
 
 * **Cost of storing the backup**: All else equal, we want backup
     storage to be cheap! In general, the cost of storing the backup
@@ -98,59 +121,120 @@ later parts of the post.
 ### What these are
 
 The crudest kind of backup is that of the full disk. My VPS provider,
-Linode, offers managed backups for 25% of the cost of the server. The
-backups are done daily, and at any time I can access three recent
-backups, the most recent being the one in the last ~24 hours, and two
-others within the past two weeks.
-
-It is possible to start up a new server from the full disk backup. I
-did a test of this a few months ago; loading the disk from the backup
-took about 4 hours. The time seems proportional to the amount of stuff
-on disk. I've been cutting down on unecessary stuff on disk, so I
-expect that it would take less time, but still over an hour.
+Linode, offers managed backups for 25% of the cost of the server (see
+[here](https://www.linode.com/content/linode-managed-backups-easily-configure-and-manage-backups-from-your-server/)
+for more). The backups are done daily, and at any time I can access
+three recent backups, the most recent being the one in the last ~24
+hours, and two others within the past two weeks.
 
 The full disk backup includes basically the whole filesystem. In
 particular, it includes the operating system, all the packages, all
 the configurations, all the websites, everything.
 
-### What's good about full disk backups?
-
-* If there were some major catastrophe affecting my currently running
-  production server, the full disk backup can be used to restore the
-  server to a relatively recent state.
-
-* If I accidentally lose some data (e.g., I delete a file or make some
-  change to the database), even if it's not a catastrophic change, I
-  can use the full disk backup as a relatively surefire way of
-  getting the old state of the data as of (at most) a day. It's
-  expensive in time (several hours to restore from the full disk
-  backup) and also costs more (I have to pay the cost of the machine
-  the backup is restored to for those few hours) but is still a good
-  fallback option.
-
-### What's bad about full disk backups?
-
-* It takes too much time to restore from these, and also costs more
-  (in terms of the cost of running the machine the backup is restored
-  to for the several hours it takes to restore from backup).
-
-* The granularity and range are decent (three backups over 2 weeks)
-  but not great. It's definitely not enough to figure out exactly when
-  a specific change might have occurred.
-
-* Full disk backups aren't very useful if the goal is to restore to a
-  newer or different operating system.
-
-* Full disk backups are also managed by the same provider and hosted
-  in the same geographical region as the server, so they don't offer a
-  lot of redundancy in terms of provider-independence or derisking
-  geographically.
-
-### What I use them for
+### What I use full disk backups for
 
 I use full disk backups as a final layer of redundancy: I try to
 design things in a way that I never have to use them. I basically only
 use them when doing a fire drill to make sure I can restore from them.
+
+Full disk backups are also a fallback solution for recovering
+something that was on disk at the time of the backup but is no longer
+on disk, perhaps due to accidental deletion or a bad upgrade. In most
+cases, I don't want to rely on a full disk backup for this purpose
+(due to the time and cost), but it's good to have it available as a
+fallback solution, if all else fails.
+
+### Evaluating full disk backups
+
+Let's evaluate full disk backups based on the considerations described
+earlier in the post.
+
+#### Consideration for the process of making backups: integrity of the backup process and backup output (good)
+
+Full disk backups are managed by my VPS as part of its
+`Backups` service; information on this is reported on the [Linode
+status page](https://status.linode.com/). I have subscribed to
+notifications on this page via both email and Slack.
+
+I also have the ability to log in at any time and check what full disk
+backups are available to restore from, but I don't do this regularly.
+
+#### Consideration for the process of making backups: Time taken for backup (good)
+
+I'm not sure how long the backup takes, but it appears to be done
+asynchronously.
+
+#### Consideration for the process of making backups: impact of making the backup on other processes (good)
+
+As far as I can make out, the backup doesn't affect the performance of
+production servers.
+
+I do have the ability to configure when in the day the backup process
+will run so if impact on other processes ever becomes an issue, I can
+try to configure the timing to minimize that impact.
+
+#### Consideration for the process of making backups: cost of making the backup (meh)
+
+Making the backups is not broken down as a cost item; the total cost
+of full disk backups is 25% of the machine cost, and it's offered as a
+package deal. There aren't any knobs to tweak to optimize cost here.
+
+#### Consideration for backup storage: security of backups (good)
+
+Access to the backups is gated by access to my account, so they're as
+secure as my account. This is good (to the extent I believe my account
+is secure). In particular, it's stricter than access to the server
+itself; if the server were to get hacked, the already-taken backups
+would not be compromised.
+
+#### Consideration for backup storage: independence of backups in terms of geography and provider (bad)
+
+The managed backups are hosted by the same provider and in the same
+region as the stuff being backed up, so in that sense they are not
+very independent (Linode's
+[guide](https://www.linode.com/content/linode-managed-backups-easily-configure-and-manage-backups-from-your-server/)
+confirms this).
+
+#### Consideration for backup storage: cost of storing the backup (meh)
+
+Storing the backups is not broken down as a cost item; the total cost
+of full disk backups is 25% of the machine cost, and it's offered as a
+package deal. There aren't any knobs to tweak to optimize cost
+here. With that said, the cost here is comparable to or less than the
+cost of just the storage portion if I were backing up the full disk to
+S3.
+
+#### Consideration for restoration process: well-defined process to restore from backups (good)
+
+Linode offers a clear process to restore from the backup either to the
+same machine or to a new machine; I've tried their option of restoring
+to a new machine. However, this is not the *full* restoration process
+for a production server because there are additional steps (such as
+updating DNS records) that I did not undertake. It is, however, the
+*bulk* of the process (and the only part I'm comfortable testing) and
+I have a reasonably clear sense of the remaining steps.
+
+#### Consideration for restoration process: time taken for restoration (bad)
+
+My last attempt to restore from backup (done for a fire drill) took 4
+hours. Since then, I've reduced the amount of stuff on my disk, so I
+expect the restoration from backup to take less time, but likely still
+over 1 hour (probably closer to 2 hours). This is not great, but it's
+not terrible to use as a last resort. However, it's not small enough
+to use as a matter of course for time-sensitive recovery of individual
+files that I carelessly delete or overwrite.
+
+#### Consideration for restoration process: cost of restoration (meh)
+
+The main cost associated with restoring from backup is the cost of
+running the new server I'm restoring *to*, for the duration prior to
+the restoration being complete. At a few hours, this comes to well
+above 1 cent but under 1 dollar. The cost is small enough for a
+genuine emergency, but not small enough to be negligible and to use as
+a matter of course just to recover individual files that I carelessly
+delete or overwrite. Overall, though, the cost scales with time, and
+the downside based on cost is less than the downside based on time, so
+it makes sense to just focus on the time angle.
 
 ## Cloud storage backups
 
@@ -204,33 +288,13 @@ regularly. This actually uses the same script as for code backups,
 just with different parameters, with the source now the log file and
 the target file slightly different.
 
-### Security: gotchas and tweaks
-
-**Having the S3 credentials on the server led to the risk of a hack on
-the server leading to a compromise of the S3 data, or of some error in
-the script causing the data in S3 to get overridden**: This is a
-serious risk, because S3 is intended as a layer of redundancy if
-Linode fails. I took two steps to address this:
-
-* I reduced the permissions (using AWS Identity and Access Management
-  (IAM)) on the AWS keys on the server, so that they had access to
-  only a specific bucket, and could only GET and PUT stuff, not DELETE
-  stuff. This still didn't make things fully secure; it is still
-  possible to effectively delete every file by manually writing a new
-  version of the file. However, it did cut down significantly the risk
-  of accidental data deletion.
-
-* I created a separate bucket that isn't accessible at all with these
-  AWS keys, and created a process that runs outside of the Linode that
-  copies a few of the backups to this bucket. For instance, one backup
-  every 3 or 6 months, depending on the frequency of content
-  changing. These backups serve as an additional layer of protection.
-
-### Gotchas and associated tweaks for integrity
+### Consideration for the process of making backups: integrity of the backup process and backup output (probably good)
 
 There were a bunch of considerations related to the integrity of the
 backups; some of these actually occurred and others were identified by
-me before they occurred.
+me before they occurred. I *think* I'm in a good position here, but
+since this is basically just my own set of scripts, I need to monitor
+for a little longer to be confident that things are working well.
 
 * **The backup process could fail silently, ending up not sending
     output to S3**: I fixed this two-fold, albeit one piece of the fix
@@ -270,81 +334,135 @@ me before they occurred.
     that two diferent machines should give non-colliding backup file
     paths.
 
-### Gotchas and tweaks related to size, time, and cost
+### Consideration for the process of making backups: time taken for backups (probably good)
 
-The backups would often take time, affect the production server, and
-use up a lot of space both on the server disk and on S3, costing
-money. I made various tweaks to address different aspects of this
-issue:
+For some sites, the backups were large in size and took a lot of
+time. The time taken was directly related to their size, so reducing
+the size was a good strategy for reducing the time taken.
 
-* **Size at source: The backups were unwieldy in size and took a long
-    time for some sites**: I investigated what tables were taking a
-    lot of space. In one case, the huge amount of space was due to the
-    creation of several spam accounts even though the spam accounts
-    couldn't actually post spam because they didn't have edit access;
-    I had to manually clean up the spam accounts. In another case, a
-    few tables were creating problems and I had to manually exclude
-    them from the backup after confirming that they are derivative
-    tables and can be reconstructed.
+* In one case, the huge amount of space was due to the creation of
+  several spam accounts even though the spam accounts couldn't
+  actually post spam because they didn't have edit access; I had to
+  manually clean up the spam accounts.
 
-* **The backup process for some larger sites was using a lot of
-  resources and making the server unresponsive for a brief period of
-  time**:I switched the use of the backup process to use `nice -n 20`
-  in order to play nicely with the rest of the server and to interfere
-  as little as possible with production serving.
+* In another case, a few tables were creating problems and I had to
+  manually exclude them from the backup after confirming that they are
+  derivative tables and can be reconstructed. Specifically, on
+  MediaWiki sites, I confirmed that the [objectcache
+  table](https://www.mediawiki.org/wiki/Manual:Objectcache_table) and
+  [l10n_cache
+  table](https://www.mediawiki.org/wiki/Manual:L10n_cache_table) can
+  be excluded from backups.
 
-* **Size of backups on disk: The backups were taking a nontrivial
-    portion of the disk space on the server**: Using up a lot of the
-    disk on the server doesn't have any direct marginal cost in
-    financial terms. But it is bad because it increases the risk of
-    the server running out of disk space, increases the risk of MySQL
-    slowing down, and increases the time taken to restore from a full
-    disk backup.
+* Similar to the above, for code backups, I switched from using `cp`
+  to using `rsync` because it's easier in rsync to exclude a set of
+  paths from the copy process. I was then able to exclude a variety of
+  paths, including paths for autogenerated images, cache files, and
+  logs.
 
-  * My initial fix had been a `find <old enough backup files>` and
-    `rm` them. This fix worked to address the disk space, but it ended
-    up often taking a lot of time when there was a large search space.
+In addition to reducing the time, I also decided to start monitoring
+the time for backups. To do this, I set up Slack messaging for the
+start and end of backups. At some point, I might also start adding
+tagging for backups that take longer than a threshold amount of time.
 
-  * I later switched to a fix of directly deleting backup subfolders
-    based on the expected dates in those subfolders. This worked much
-    faster and has less performance implications.
+#### Consideration for the process of making backups: impact of making the backup on other processes (probably good)
 
+First off, reducing the size of backups (that I did in order to reduce
+the time taken for backup) had a ripple effect on the impact of
+backups: when the backup process had to do less work, it had less
+impact on the server as well. However, there were a couple of other
+ways I tried to mitigate the impact of the backup process:
 
-* **Size of backups on S3 and corresponding cost**: The number of
-    backup files grew linearly with time, and even assuming that the
-    backups were not growing in size from one day to the next (a
-    reasonable approximation, as most sites didn't have huge growth in
-    content), we still get a linear increase in S3 cost. This wasn't
-    acceptable.
+* I switched to running all backup jobs with [`nice -n 20`](https://en.wikipedia.org/wiki/Nice_(Unix)) in order to
+  play nicely with the rest of the server and to interfere as little
+  as possible with production serving.
 
-  * I implemented a lifecycle policy in S3 for the bucket with the
-    primary backups that expired old code backups and SQL backups
-    after a few months. This made sure that costs largely stabilized.
+* In order to reduce the size of backups on disk on the server, I set
+  up automatic deletion of older backups that I ran along with the
+  backup script. My initial approach had been a `find <old enough
+  backup files>` and `rm` them. This fix worked to address the disk
+  space, but it ended up often taking a lot of time when there was a
+  large search space.
 
-### What's good about S3 backups?
+  I later switched to a fix of directly deleting backup subfolders
+  based on the expected dates in those subfolders. This worked much
+  faster than `find` and has less performance implications.
 
-* S3 backups are quick to use to retrieve anything that I might have
-  accidentally deleted on the server, assuming it would have been
-  unlikely to change since the last backup.
+#### Consideration for the process of making backups: cost of making the backup (probably good)
 
-* S3 backups are also useful as an input for a setup process of new
-  machines (much better for the purpose than full disk backups).
+The cost of making the backup is essentially proportional to the size
+of the backup, so the points of the preceding section also helped with
+reducing the cost of making backups. With that said, the cost of
+making the backup is relatively small compared to the cost of storing
+the backups.
 
-* S3 also gives me more flexibility to move to another VPS or cloud
-  provider if I want to.
+### Consideration for backup storage: security of backups (probably good)
 
-* The S3 backup location is far from my VPS, so there isn't a heavy
-  shared geographic risk.
+In order to upload the backup files to S3, I needed AWS credentials
+with access to S3 to be stored on the server.
 
-### What's bad about S3 backups?
+Having the S3 credentials on the server led to the risk of a hack on
+the server leading to a compromise of the S3 data, or of some error in
+the script causing the data in S3 to get overridden. This is a
+serious risk, because S3 is intended as a layer of redundancy if
+Linode fails. I took two steps to address this:
 
-* The backup process can still be somewhat slow for large sites.
+* I reduced the permissions (using AWS Identity and Access Management
+  (IAM)) on the AWS keys on the server, so that they had access to
+  only a specific bucket, and could only GET and PUT stuff, not DELETE
+  stuff. This still didn't make things fully secure; it is still
+  possible to effectively delete every file by manually writing a new
+  version of the file. However, it did cut down significantly the risk
+  of accidental data deletion.
 
-* There's still some possibility of affecting production server
-  performance, though it's possible that, thanks to the improvements
-  made, this is no longer an issue.
+* I created a separate bucket that isn't accessible at all with these
+  AWS keys, and created a process that runs outside of the Linode that
+  copies a few of the backups to this bucket. For instance, one backup
+  every 3 or 6 months, depending on the frequency of content
+  changing. These backups serve as an additional layer of protection.
 
-## Git and GitHub
+### Consideration for backup storage: independence of backups in terms of geography and provider (good)
+
+The backups are store on Amazon S3. This is a different provider than
+my VPS (Linode). Also, the AWS region where the backups are stored is
+not geographically very close to the region where my Linode is
+stored. Therefore, we have independence of both geography and provider.
+
+#### Consideration for backup storage: cost of storing the backup (good)
+
+The number of backup files grew linearly with time, and even assuming
+that the backups were not growing in size from one day to the next (a
+reasonable approximation, as most sites didn't have huge growth in
+content), we still get a linear increase in S3 cost. This wasn't
+acceptable.
+
+In order to address this, I implemented a lifecycle policy in S3 for
+the bucket with the primary backups that expired old code backups and
+SQL backups after a few months. This made sure that costs largely
+stabilized.
+
+I also did some further optimization around costs: essentially, for
+older backups that I don't expect to access frequently but that I
+maintain *just in case*, I don't need them to be easily available. So,
+in my lifecycle policy, I migrated backups that were somewhat old to
+Glacier, S3's storage / cold storage. Glacier is cheaper than regular
+S3 but also needs more time to access.
+
+#### Consideration for restoration process: well-defined process to restore from backups
+
+I have a set of scripts to recreate all my sites on a new server based
+on a mix of data from GitHub and S3. For those sites of mine that are
+not fully restorable from GitHub (and this includes the MediaWiki and
+Wordpress sites) I use the code and database backups in S3 as part of
+my process for recreating the sites on a new server.
+
+It shouldn't be too hard to modify the scripts to fully restore from
+S3 even if I don't have access to GitHub at all, but I haven't done so
+yet (it doesn't seem worth the effort to figure this out in advance,
+since I expect that the chances of losing access to both my existing
+server and GitHub at the same time are low).
+
+## Not quite a backup but serves some of the functions of a backup: git and GitHub
 
 Some of my websites are fully on GitHub, and can be fully
 reconstructed from the corresponding git repository. In this case, the
