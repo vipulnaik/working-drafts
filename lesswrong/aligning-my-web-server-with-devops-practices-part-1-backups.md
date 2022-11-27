@@ -224,7 +224,7 @@ issue:
     lot of space. In one case, the huge amount of space was due to the
     creation of several spam accounts even though the spam accounts
     couldn't actually post spam because they didn't have edit access;
-    I had to manually clean up the spam accounts. In another cases, a
+    I had to manually clean up the spam accounts. In another case, a
     few tables were creating problems and I had to manually exclude
     them from the backup after confirming that they are derivative
     tables and can be reconstructed.
