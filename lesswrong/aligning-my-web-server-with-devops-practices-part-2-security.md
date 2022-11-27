@@ -85,7 +85,7 @@ the ones that are needed for the web processes.
 In addition, I've set `umask` settings so that any files I create
 through the command line on the server will get the default of not
 being readable, writable, or executable by the users running the Nginx
-or PHP processes. Note that this means that if I manually fetch
+or PHP processes. Note that this means that if I manually fetch git
 changes on the command line, the files may end up getting overly
 restrictive permissions and I would need to manually fix the
 permissions for the site to continue working.
@@ -95,11 +95,12 @@ permissions for the site to continue working.
 The web user has access to the configuration file containing the MySQL
 username and password that can be used to access the databases needed
 to serve various sites. However, unless specifically needed for the
-site, this user only has read permissions (i.e., select permissions)
-for the database. The user does not have the permission to insert or
-delete. Morever, the username/password is different for each site, so
-any bug affecting a specific site is limited to the database for that
-site.
+site, this user only has read permissions for the
+database. Operationally, this translates to privileges to select, lock
+tables, and show view. The user does not have the permission to insert
+or delete. Morever, the username/password is different for each site,
+so any bug affecting a specific site is limited to the database for
+that site.
 
 For some sites, the end user's actions can lead to data updates in
 MySQL, and in these case, we do need to give at least some level of

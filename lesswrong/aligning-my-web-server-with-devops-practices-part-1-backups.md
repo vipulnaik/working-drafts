@@ -285,3 +285,64 @@ issue:
 * There's still some possibility of affecting production server
   performance, though it's possible that, thanks to the improvements
   made, this is no longer an issue.
+
+## Git and GitHub
+
+Some of my websites are fully on GitHub, and can be fully
+reconstructed from the corresponding git repository. In this case, the
+setup process for the website is mostly just a process of git cloning
+followed by the execution of various steps as documented in the README
+(and many of these have Makefiles, so it's just about executing
+specific make commands).
+
+Some other websites are *mostly* on GitHub, in the sense that for the
+most part, they can be reconstructed from what's on GitHub. But there
+are some pieces of information that are not on GitHub, and either (a)
+cannot be reconstructed based on what's on GitHub, or (b) can be
+reconstructed based on what's on GitHub, but the process is long and
+tedious.
+
+A combined example of both phenomena: the GitHub code for
+[analytics.vipulnaik.com](https://analytics.vipulnaik.com/) includes
+the logic to fetch analytics data, but a secret key is needed to
+actually be able to fetch that data. Therefore, what's on GitHub isn't
+sufficient to set up the repository; I also need to fetch the secret
+key. However, fetching the secret key and then redownloading all the
+data is time-consuming and expensive, so my setup script instead
+downloads an existing database backup to jumpstart itself to the data
+already downloaded on the previous server, after which the secret key
+can be used to download additional data.
+
+### What's good about git and GitHub?
+
+* The great thing about the git protocol is that it facilitates both
+  version control and ease of duplication across machines. This
+  includes not just my servers, but also my laptop where I can keep a
+  copy of the repositories and also work on changes locally.
+
+* GitHub also stores a copy of the content on its own servers, which
+  offers an additional layer of redundancy.
+
+* GitHub makes it easy to give other selected people access to the
+  repository, which facilitates collaboration.
+
+* The GitHub UI has a bunch of other functionality for exploring the
+  code and data.
+
+### What's bad about git and GitHub?
+
+* GitHub does not recommend the use of git for storing secret keys and
+  credentials. For public repositories in particular, it doesn't make
+  sense to store any credential information along with the repository,
+  but GitHub discourages this even for private repositories. This
+  isn't a bad thing about git per se, but it does indicate a
+  limitation; when restoring from a git repository, additional logic
+  is needed to populate the credentials.
+
+* Git and GitHub aren't great with large files, and in particular, it
+  therefore makes sense to exclude a bunch of large files from the git
+  repository. This makes it unsuitable for some kinds of backups.
+
+* For sites that use other software such as MediaWiki or Wordpress,
+  it's hard to square both the code side and the database side of it
+  with git.
