@@ -270,8 +270,8 @@ The backup script for code works as follows:
   its file path. The copying is done using `rsync` and excludes any
   specified subfolders to exclude.
 
-* The stuff in the local folder is now synced to a parallelly named
-  folder in S3. This uses `aws s3 sync`.
+* The stuff in the local folder is now synced to a folder in S3 with a
+  parallel naming structure. This uses `aws s3 sync`.
 
 * While we're at it, some older local backups are deleted based on
   their date (the goal is to have about two recent backups in the
