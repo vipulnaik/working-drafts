@@ -293,6 +293,41 @@ from a different workspace, Slack will show a message right above your
 message-drafting area reminding you that the other person is from a
 different organization. Pay attention to this.
 
+### Figure out how tagging interacts with permissions and notifications
+
+Many services (social media such as Facebook or Twitter, messaging
+tools such as Facebook Messenger or Slack, collaborative editing tools
+such as Google Docs) allow for the possibility of tagging people or
+other entities. Services can differ in the way that tagging interacts
+with permissions and notifications.
+
+* Some services do not allow for the tagging of people or entities who
+  currently don't have access to the resource. For instance, in
+  Facebook Messenger, only participants in a group message can be
+  tagged; non-participants cannot be tagged.
+
+* Some services allow for the tagging of people or entities who
+  currently don't have access to the resource, and does *not* notify
+  them. For instance, Slack allows tagging non-participants in group
+  chats or channels, even in cases where the non-participants cannot
+  access even with a link (such as the case of a private channel or
+  group message). Non-participants do not get notified; however, in
+  some cases, Slack may inform the person writing the message that the
+  tagged person or entity is a non-participant and won't get notified
+  (it seems that Slack only does so when it is *possible* to add the
+  tagged person or entity to the chat or channel).
+
+* Some services notify tagged people or entities that don't have
+  access to the resource. This seems to be the case with Google Docs;
+  if you write a comment on a Google Doc and tag a Google account,
+  that account gets notified even if you don't grant that account
+  access to the document. The account does get a copy of the comment,
+  despite not having access to the document.
+
+In general, it seems safest not to tag entities that you don't want to
+see the place you're tagging them in, unless you are very sure that
+the service does *not* notify them about being tagged.
+
 ## Reversal strategies
 
 ### Undo send for emails and messages
