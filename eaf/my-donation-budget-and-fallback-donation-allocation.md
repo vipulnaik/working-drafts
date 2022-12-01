@@ -584,7 +584,7 @@ follows:
   fairly important, even if you only partly buy the cases made by
   people focusing on those areas.
 
-* Animal welfare seem the most *neglected*, though it's hard to say
+* Animal welfare seems the most *neglected*, though it's hard to say
   (again, I was hoping to do more work on the donations list website
   in a way that would inform this).
 
