@@ -31,7 +31,11 @@ This leads me to a bunch of questions:
    unclear.
 3. Is the version at ftx.tghp.co.uk the most current version? Or was
    it just an initial version of the site that The Glasshouse Project
-   made for FTX Future Fund before handing it off to the latter?
+   made for FTX Future Fund before handing it off to the latter? ETA:
+   per [Aleks_K's
+   comment](https://forum.effectivealtruism.org/posts/nKkHGCLTJMbbdohZv/ftx-future-fund-s-website-is-down-ftx-tghp-co-uk-still-seems?commentId=BqLQJaDLfy4bEEG7m),
+   the answer to this is no; the version at ftx.tghp.co.uk is
+   outdated.
 4. Does The Glasshouse Project plan to keep its version around for the
    long term? Is it worth reaching out to them to encourage them to
    keep it around longer? Presumably, FTX Future Fund is no longer a
@@ -40,7 +44,11 @@ This leads me to a bunch of questions:
 5. Partly depending on the answers to the previous questions, should
    the links pointing to ftxfuturefund.org from other places be left
    as is, updated to use ftx.tghp.co.uk, or updated to use the most
-   recent functioning Wayback Machine snapshot?
+   recent functioning Wayback Machine snapshot? ETA: Given the answer
+   to 3 above, it seems that using ftx.tghp.co.uk is inadvisable, so
+   the most likely answer here would be to use a Wayback Machine
+   snapshot of ftxfuturefund.org, unless ownership of the site can be
+   transitioned to somebody who can steward it for the long term.
 
 I'd love if somebody with insight on any of these questions could
 share it in the comments.
