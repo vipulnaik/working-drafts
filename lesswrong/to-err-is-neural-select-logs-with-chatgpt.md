@@ -218,9 +218,9 @@ So far, so great!
 > polynomial 2x^2 + 3x + 1/2 does not take integer values at integers,
 > because the constant term is 1/2, which is not an integer.
 
-This is correct as far as it goes, though the explanation proferred is
-not a *proof*. While it doesn't hurt ChatGPT here, this weakness in
-its ability to reason rigorously may be a liability in the future.
+This was correct, though what ChatGPT offered was just proof by
+example rather than a rigorous proof. That didn't lead it astray here,
+but could be a liability in the future.
 
 > Vipul: Give an example of a polynomial with rational coefficients
 > that are not all integers, such that the polynomial always takes
@@ -297,7 +297,7 @@ definition is substantively correct).
 At this point, ChatGPT has come way off. It failed to recognize that the
 product of two prime numbers will have those prime numbers as
 divisors. Then it came up with incorrect examples of prime numbers 15
-and 77, even though it's constructing those numbers by multiplying the
+and 77, even though it constructed those numbers by multiplying the
 divisors!
 
 And then ChatGPT volunteered further incorrect information about the
@@ -454,10 +454,10 @@ most contexts, but not when thinking about prime or composite numbers?
 > and composite numbers.
 
 > In general, 1 is considered to be a positive integer, because it is
-> a whole number that is greater than zero. However, in the context of
-> prime numbers and composite numbers, 1 is not considered to be a
+> a whole number that is greater than zero. **However, in the context
+> of prime numbers and composite numbers, 1 is not considered to be a
 > positive integer because it does not satisfy the definition of a
-> prime number or a composite number. Prime numbers are defined as
+> prime number or a composite number.** Prime numbers are defined as
 > positive integers that have no positive integer divisors other than
 > 1 and themselves, and composite numbers are defined as positive
 > integers that have positive integer divisors other than 1 and
@@ -1085,9 +1085,9 @@ There were many mistakes here, as indicated with bolding.
 > any other topics, please don't hesitate to ask. I will do my best to
 > help you to the best of my ability.
 
-ChatGPT conceded its mistakes but ironically all the examples it
-offered in concession were incorrect (in that these are all
-palindromes). I didn't press it on this point.
+ChatGPT conceded its mistake on this front but ironically all the
+examples it offered in concession were incorrect (in that these are
+all palindromes). I didn't press it on this point.
 
 > Vipul: I also think the reasoning is wrong here: "41 is also a
 > Sophie Germain prime, which means that it is a prime number that is
