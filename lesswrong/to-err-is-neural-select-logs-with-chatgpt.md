@@ -49,11 +49,11 @@ So far, so great!
 
 > It's important to remember that when multiplying or dividing
 > numbers, the order in which the operations are performed is
-> important. This is because multiplication and division are not
+> important. **This is because multiplication and division are not
 > commutative, meaning that the order in which the numbers are
 > multiplied or divided matters. In the example above, the order in
 > which the negative numbers are multiplied is important because it
-> determines whether the result is positive or negative.
+> determines whether the result is positive or negative.**
 
 Here, I successfully tripped up ChatGPT by asking to come up with an
 example where none is possible. ChatGPT came up with a fake
@@ -63,6 +63,10 @@ is possible! And yet it did not realize that it has done so.
 It also did the multiplication correctly to begin with, but then
 makde multiple mistakes when elaborating on the multiplication, and
 then again when multiplying three numbers.
+
+Finally it volunteered incorrect information about multiplication
+being noncommutative, and incorrect information about the implications
+of that for the problem at hand.
 
 > Vipul: Can the product of two negative numbers be negative?
 
@@ -78,11 +82,11 @@ then again when multiplying three numbers.
 
 > It's important to remember that when multiplying or dividing
 > numbers, the order in which the operations are performed is
-> important. This is because multiplication and division are not
+> important. **This is because multiplication and division are not
 > commutative, meaning that the order in which the numbers are
 > multiplied or divided matters. In the examples above, the order in
 > which the negative numbers are multiplied is important because it
-> determines whether the result is positive or negative.
+> determines whether the result is positive or negative.**
 
 I tried asking ChatGPT the underlying question without assuming the
 answer, but ChatGPT still gave the same wrong answer with the same
@@ -261,6 +265,9 @@ polynomial is established, but ignored it anyway and concluded that
 the polynomial works. It also made a calculation mistake for the
 counterexample, but both with and without the calculation mistake it
 was still a counterexample.
+
+If you're curious for what a correct example would be, x^2/2 - x/2
+works. I could say more here, but that would take me too far afield.
 
 ## Product of prime numbers (session 1; 2022-12-21)
 
@@ -514,7 +521,7 @@ ChatGPT took a while answering this. The correct answer would have
 been that there is no such thing as the largest or second largest
 prime number, but its interpretation that I'm talking about the
 largest and second largest *known* prime numbers is passable. (I don't
-know if it's assertions about the values of these numbers are correct,
+know if its assertions about the values of these numbers are correct,
 but that is besides the point).
 
 The only clear error is the assertion that the sum of two prime
@@ -1217,8 +1224,8 @@ conclusion.
 
 > p = 23, 2p + 1 = 47
 
-> 41 is not a Sophie Germain prime because it is not equal to 2p + 1
-> for any prime value of p.
+> **41 is not a Sophie Germain prime because it is not equal to 2p + 1
+> for any prime value of p.**
 
 > I apologize for any confusion my previous responses may have
 > caused. If you have any further questions or need clarification on
@@ -1337,8 +1344,8 @@ much prodding.
 
 So far so great!
 
-> Vipul: ok so for p = 41, we have 2p + 1 = 83. Would you say that 2p
-> + 1 is prime?
+> Vipul: ok so for p = 41, we have 2p + 1 = 83. Would you say that 2p + 1
+> is prime?
 
 > ChatGPT: Yes, 2p + 1 is prime when p is equal to 41.
 
