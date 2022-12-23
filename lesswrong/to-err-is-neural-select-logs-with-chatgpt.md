@@ -9,6 +9,9 @@ quotes, my commentary on it not in block quotes. I generally include
 my comment *after* the portion of the conversation being commented
 upon.
 
+My questions were split across two sessions; for each section, I've
+indicated whether it was part of session 1 or session 2.
+
 I have various high-level thoughts on this, but not enough time to
 flesh those thoughts out and subject them to critical scrutiny. So I
 stick to fairly local commentary here.
@@ -110,7 +113,7 @@ errors when explaining its examples.
 > **It's important to note that the product of two negative odd
 > integers is also even,** because the negative sign does not affect
 > whether a number is even or odd. For example, the product of (-3)
-> and (-5) is 15, which is an even integer.
+> and (-5) is 15, **which is an even integer.**
 
 ChatGPT made the same sort of error: it asserted a falsehood, but in
 its reasoning it made a true assertion that directly contradicted the
@@ -238,8 +241,7 @@ its ability to reason rigorously may be a liability in the future.
 > When x = 0, the polynomial is equal to 2(0)^2 + 3/2(0) + 1 = 0 + 0 +
 > 1 = 1, which is an integer.
 
-> *When x = 1, the polynomial is equal to 2(1)^2 + 3/2(1) + 1 = 2 + 3/2
-> + 1 = 5/2, which is not an integer.*
+> *When x = 1, the polynomial is equal to 2(1)^2 + 3/2(1) + 1 = 2 + 3/2 + 1 = **5/2**, which is not an integer.*
 
 > When x = 2, the polynomial is equal to 2(2)^2 + 3/2(2) + 1 = 8 + 3 +
 > 1 = 12, which is an integer.
@@ -256,7 +258,9 @@ its ability to reason rigorously may be a liability in the future.
 In this case, ChatGPT comes up with an incorrect example polynomial,
 and then even finds a value at which the incorrectness of the
 polynomial is established, but ignores it anyway and concludes that
-the polynomial works.
+the polynomial works. It also makes a calculation mistake for the
+counterexample, but both with and without the calculation mistake it
+still remains a counterexample.
 
 ## Product of prime numbers (session 1)
 
@@ -334,7 +338,7 @@ prime numbers.
 
 When I first asked ChatGPT this question, it froze, so this is its
 second attempt. We can see that ChatGPT is extremely confused. It
-claims in one paragraph that 1 is compositive because it has a
+claims in one paragraph that 1 is composite because it has a
 positive integer divisor other than itself (namely, itself) thereby
 contradicting itself right next to itself. But then in the next
 paragraph, it says that the same number 1 is prime. (In modern
@@ -523,7 +527,9 @@ sense an inconsequential error.
 After I shared some of ChatGPT's earlier answers with him through
 private messages, my friend [Issa Rice](https://issarice.com/) noted
 that ChatGPT was stubbornly insisting to him that 15 is an even
-integer. So I decided to ask it myself.
+integer (15 had shown up in session 1 as a number that ChatGPT had
+incorrectly asserted to be even as part of one of its fake
+examples). So I decided to ask it myself.
 
 > Vipul: Is 15 an odd integer?
 
@@ -542,7 +548,7 @@ integer. So I decided to ask it myself.
 > divided by 2, the result is 7 with a remainder of 1,* **which means
 > that 15 is not an odd integer. Instead, 15 is an even integer.**
 
-So, ChatGPT is makng the wrong assertion to me as well.
+So, ChatGPT is making the wrong assertion to me as well.
 
 > Vipul: What are the odd integers between 1 and 20?
 
@@ -775,7 +781,8 @@ Hmmm, let's see if ChatGPT's actions match its words.
 > on any other topics, please don't hesitate to ask.
 
 It looks like ChatGPT is still consistent and correct about the status
-of 15.
+of 15. But it's still not doing a good job of skipping the repetition
+of definitions.
 
 > Vipul: Can you stop apologizing more than once for each mistake?
 
@@ -876,7 +883,7 @@ Good, ChatGPT is seeming to wise up more and is not that suggestible.
 
 > *1 and 3: 1 + 3 = 4, which is an even integer.*
 
-> *3 and 5: 3 + 5 = 8, *which is an even integer.*
+> *3 and 5: 3 + 5 = 8, which is an even integer.*
 
 > *5 and 7: 5 + 7 = 12, which is an even integer.*
 
