@@ -207,8 +207,8 @@ So far, so great!
 > integers, we can substitute various integer values for x and see
 > what the resulting values are. For example:
 
-> When x = 0, the polynomial is equal to 1^2 + 2(0) + 1 = 1 + 0 + 1 =
-> 2, which is an integer.
+> When x = 0, the polynomial is equal to **1^2** + 2(0) + 1 = **1** + 0 + 1 =
+> **2**, which is an integer.
 
 > When x = 1, the polynomial is equal to 1^2 + 2(1) + 1 = 1 + 2 + 1 =
 > 4, which is an integer.
@@ -225,8 +225,10 @@ So far, so great!
 > because the constant term is 1/2, which is not an integer.
 
 This was correct, though what ChatGPT offered was just proof by
-example rather than a rigorous proof. That didn't lead it astray here,
-but could be a liability in the future.
+example rather than a rigorous proof. And, it made a calculation
+mistake when evaluating at x = 0, though this mistake wasn't
+consequential as we only cared that the result was an integer, which
+it was both with and without the mistake.
 
 > Vipul: Give an example of a polynomial with rational coefficients
 > that are not all integers, such that the polynomial always takes
