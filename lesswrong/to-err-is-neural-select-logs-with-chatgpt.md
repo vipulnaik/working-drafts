@@ -289,14 +289,14 @@ works. I could say more here, but that would take me too far afield.
 > composite number because it has positive integer divisors other than
 > 1 and itself (namely, 5 and 7).
 
-> **On the other hand, the product of two prime numbers can also be a
+> On the other hand, **the product of two prime numbers can also be a
 > prime number. For example, the product of the prime numbers 3 and 5
 > is 15, which is a prime number because it has no positive integer
 > divisors other than 1 and itself. Similarly, the product of the
 > prime numbers 7 and 11 is 77, which is also a prime number because
 > it has no positive integer divisors other than 1 and itself.**
 
-> **It's worth noting that the product of two prime numbers is not
+> It's worth noting that **the product of two prime numbers is not
 > always a prime number, but the product of three or more prime
 > numbers is always a prime number. This is because a composite number
 > cannot be the product of three or more prime numbers.**
@@ -328,14 +328,14 @@ numbers.
 > positive integer that divides both numbers without a remainder.
 
 > **The gcd of two distinct prime numbers can be either prime or
-> composite (not prime). For example, the gcd of the prime numbers 2
+> composite (not prime).** For example, **the gcd of the prime numbers 2
 > and 3 is 1, which is not a prime number because it has a positive
 > integer divisor other than 1 and itself (namely, itself). Similarly,
 > the gcd of the prime numbers 5 and 7 is 1, which is also not a prime
 > number because it has a positive integer divisor other than 1 and
 > itself (namely, itself).**
 
-> **On the other hand, the gcd of two distinct prime numbers can also
+> On the other hand, **the gcd of two distinct prime numbers can also
 > be a prime number. For example, the gcd of the prime numbers 3 and 5
 > is 1, which is a prime number because it has no positive integer
 > divisors other than 1 and itself. Similarly, the gcd of the prime
