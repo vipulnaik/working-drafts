@@ -41,8 +41,8 @@ So far, so great!
 > number.*
 
 > On the other hand, if we have three negative numbers, the result
-> will be a negative number. For example, (-3) x (-4) x (-5) = (-1) x
-> (-1) x 20 = (-1) x 20 = -20, which is a negative number.
+> will be a negative number. **For example, (-3) x (-4) x (-5) = (-1)
+> x (-1) x 20 = (-1) x 20 = -20, which is a negative number.**
 
 > It's important to remember that when multiplying or dividing
 > numbers, the order in which the operations are performed is
@@ -57,6 +57,10 @@ example where none is possible. ChatGPT comes up with a fake
 example. But when it elaborates, it provides the reason why no example
 is possible! And yet it does not realize that it has done so.
 
+It also does the multiplication correctly to begin with, but then
+makes multiple mistakes when elaborating on the multiplication, and
+then again when multiplying three numbers.
+
 > Vipul: Can the product of two negative numbers be negative?
 
 > **Yes, the product of two negative numbers can be negative.** *As I
@@ -66,8 +70,8 @@ is possible! And yet it does not realize that it has done so.
 > (-1) x 4 = 4, which is a positive number.**
 
 > However, if we have three negative numbers, the result will be a
-> negative number. For example, (-3) x (-4) x (-5) = (-1) x (-1) x 20
-> = (-1) x 20 = -20, which is a negative number.
+> negative number. **For example, (-3) x (-4) x (-5) = (-1) x (-1) x
+> 20 = (-1) x 20 = -20,** which is a negative number.
 
 > It's important to remember that when multiplying or dividing
 > numbers, the order in which the operations are performed is
@@ -78,7 +82,8 @@ is possible! And yet it does not realize that it has done so.
 > determines whether the result is positive or negative.
 
 I tried asking ChatGPT the underlying question without assuming the
-answer, but ChatGPT still gave the same wrong answer.
+answer, but ChatGPT still gave the same wrong answer with the same
+errors when explaining its examples.
 
 ## Product of odd integers (session 1)
 
