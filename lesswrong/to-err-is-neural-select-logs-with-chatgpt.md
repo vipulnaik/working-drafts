@@ -10,16 +10,16 @@ my comment *after* the portion of the conversation being commented
 upon.
 
 My questions were split across two sessions; for each section, I've
-indicated whether it was part of session 1 or session 2.
+indicated whether it was part of session 1 or session 2. The bulk of
+both sessions was on Wednesday 2022-12-21; one portion of session 1
+was on 2022-12-22 as the session got stuck on 2022-12-21. All of these
+used the ChatGPT December 15, 2022 version.
 
 I have various high-level thoughts on this, but not enough time to
 flesh those thoughts out and subject them to critical scrutiny. So I
 stick to fairly local commentary here.
 
-## Product of negative numbers (session 1)
-
-The chat logs below are continuous, and formed the beginning of a
-session:
+## Product of negative numbers (session 1; 2022-12-21)
 
 > Vipul: What is an example of an odd negative number?
 
@@ -150,7 +150,7 @@ assertion was not germane to the argument. This also shows that
 ChatGPT does not have an overwhelming affirmation bias, and feels
 comfortable saying no.
 
-## Integer-valued polynomial with rational coefficients (session 1)
+## Integer-valued polynomial with rational coefficients (session 1; 2022-12-21)
 
 The questions here are harder (for humans) though ChatGPT surprisingly
 had a lower error rate here!
@@ -262,7 +262,7 @@ the polynomial works. It also makes a calculation mistake for the
 counterexample, but both with and without the calculation mistake it
 still remains a counterexample.
 
-## Product of prime numbers (session 1)
+## Product of prime numbers (session 1; 2022-12-21)
 
 > Vipul: Is the product of two prime numbers always prime?
 
@@ -308,7 +308,7 @@ three negative numbers is always negative. It's probably doing some
 kind of analogy-based reasoning to make the corresponding claim for
 prime numbers.
 
-## gcd of distinct prime numbers (session 1)
+## gcd of distinct prime numbers (session 1; 2022-12-22)
 
 > Vipul: Is the gcd of two distinct prime numbers always prime?
 
@@ -467,7 +467,7 @@ most contexts, but not when thinking about prime or composite numbers?
 So, either ChatGPT really believes this, or it has dug itself into a
 hole and doesn't want to admit its mistake.
 
-## Sum of prime numbers (session 2)
+## Sum of prime numbers (session 2; 2022-12-21)
 
 > Vipul: Is the sum of two prime numbers always prime?
 
@@ -522,7 +522,7 @@ and ChatGPT seems to point this out immediately afterward. However, in
 the context of large prime numbers, it's true, so this is in some
 sense an inconsequential error.
 
-## 15: even or odd? (session 2)
+## 15: even or odd? (session 2; 2022-12-21)
 
 After I shared some of ChatGPT's earlier answers with him through
 private messages, my friend [Issa Rice](https://issarice.com/) noted
@@ -875,7 +875,7 @@ Nice! ChatGPT is not wavering in the view that 15 is odd.
 
 Good, ChatGPT is seeming to wise up more and is not that suggestible.
 
-## Sum of odd integers (session 2)
+## Sum of odd integers (session 2; 2022-12-21)
 
 > Vipul: Can you give an example of two odd integers whose sum is odd?
 
@@ -908,7 +908,7 @@ Good, ChatGPT is seeming to wise up more and is not that suggestible.
 > don't hesitate to ask. I will do my best to help you to the best of
 > my ability.
 
-## Square of odd integer (session 2)
+## Square of odd integer (session 2; 2022-12-21)
 
 > Vipul: What is an odd integer whose square is even?
 
@@ -946,7 +946,7 @@ Good, ChatGPT is seeming to wise up more and is not that suggestible.
 
 No mistakes here!
 
-## Sum of prime numbers (round two) (session 2)
+## Sum of prime numbers (round two) (session 2; 2022-12-21)
 
 > Vipul: Is the sum of two prime numbers always even?
 
@@ -1017,7 +1017,7 @@ consideration.
 This answer is fine, though it does indicate that ChatGPT will call
 something true even if it is a known unproven conjecture.
 
-## 41 and Sophie Germain primes (session 2)
+## 41 and Sophie Germain primes (session 2; 2022-12-21)
 
 > Vipul: What is special about 41?
 
