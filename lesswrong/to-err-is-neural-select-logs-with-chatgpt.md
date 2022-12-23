@@ -55,13 +55,13 @@ So far, so great!
 > which the negative numbers are multiplied is important because it
 > determines whether the result is positive or negative.
 
-Here, I successfully trip up ChatGPT by asking to come up with an
-example where none is possible. ChatGPT comes up with a fake
-example. But when it elaborates, it provides the reason why no example
-is possible! And yet it does not realize that it has done so.
+Here, I successfully tripped up ChatGPT by asking to come up with an
+example where none is possible. ChatGPT came up with a fake
+example. But when it elaborated, it provided the reason why no example
+is possible! And yet it did not realize that it has done so.
 
-It also does the multiplication correctly to begin with, but then
-makes multiple mistakes when elaborating on the multiplication, and
+It also did the multiplication correctly to begin with, but then
+makde multiple mistakes when elaborating on the multiplication, and
 then again when multiplying three numbers.
 
 > Vipul: Can the product of two negative numbers be negative?
@@ -255,12 +255,12 @@ its ability to reason rigorously may be a liability in the future.
 > polynomial 2x^2 + 3x + 1/2 does not take integer values at integers,
 > because the constant term is 1/2, which is not an integer.
 
-In this case, ChatGPT comes up with an incorrect example polynomial,
-and then even finds a value at which the incorrectness of the
-polynomial is established, but ignores it anyway and concludes that
-the polynomial works. It also makes a calculation mistake for the
+In this case, ChatGPT came up with an incorrect example polynomial,
+and then even found a value at which the incorrectness of the
+polynomial is established, but ignored it anyway and concluded that
+the polynomial works. It also made a calculation mistake for the
 counterexample, but both with and without the calculation mistake it
-still remains a counterexample.
+was still a counterexample.
 
 ## Product of prime numbers (session 1; 2022-12-21)
 
@@ -294,19 +294,19 @@ still remains a counterexample.
 because 1 is not excluded explicitly from consideration, but the
 definition is substantively correct).
 
-At this point, ChatGPT is way off. It fails to recognize that the
+At this point, ChatGPT has come way off. It failed to recognize that the
 product of two prime numbers will have those prime numbers as
-divisors. Then it comes up with incorrect examples of prime numbers 15
+divisors. Then it came up with incorrect examples of prime numbers 15
 and 77, even though it's constructing those numbers by multiplying the
 divisors!
 
-And then ChatGPT volunteers further incorrect information about the
-product of *three* prime numbers. You might wonder why ChatGPT feels
+And then ChatGPT volunteered further incorrect information about the
+product of *three* prime numbers. You might wonder why ChatGPT felt
 inclined to multiply three prime numbers in the first place? I suspect
 this is the effect of its earlier observation that the product of
-three negative numbers is always negative. It's probably doing some
-kind of analogy-based reasoning to make the corresponding claim for
-prime numbers.
+three negative numbers is always negative. It probably did some kind
+of analogy-based reasoning to make the corresponding claim for prime
+numbers.
 
 ## gcd of distinct prime numbers (session 1; 2022-12-22)
 
@@ -336,22 +336,23 @@ prime numbers.
 > numbers is always a prime number.** This is because a composite
 > number cannot be the gcd of three or more prime numbers.
 
-When I first asked ChatGPT this question, it froze, so this is its
-second attempt. We can see that ChatGPT is extremely confused. It
-claims in one paragraph that 1 is composite because it has a
-positive integer divisor other than itself (namely, itself) thereby
+When I first asked ChatGPT this question, it froze, so this was its
+second attempt. We can see that ChatGPT was extremely confused. It
+claimed in one paragraph that 1 is composite because it has a positive
+integer divisor other than itself (namely, itself) thereby
 contradicting itself right next to itself. But then in the next
-paragraph, it says that the same number 1 is prime. (In modern
+paragraph, it said that the same number 1 is prime. (In modern
 conventions, 1 is neither prime nor composite, so both assertions are
 wrong).
 
-And then it repeats the "three" observation, again incorrectly. Recall
-that at the start, ChatGPT volunteered the correct information that
-the product of three negative numbers is negative. Later, it
-volunteered the incorrect information that the product of three prime
-numbers is always prime. Now, it's volunteering the incorrect
-information that the gcd of three prime numbers is prime. It does look
-like it's just applying the analogy-based reasoning too far.
+And then it repeated the "three" observation, again
+incorrectly. Recall that at the start, ChatGPT volunteered the correct
+information that the product of three negative numbers is
+negative. Later, it volunteered the incorrect information that the
+product of three prime numbers is always prime. Now, it volunteered
+the incorrect information that the gcd of three prime numbers is
+prime. It does look like it incorrectly applied the analogy-based
+reasoning again.
 
 > Vipul: Is 1 prime or composite?
 
@@ -400,7 +401,7 @@ the claim that 1 is not a positive integer (and it said so twice)!
 > positive numbers are greater than zero, while negative numbers are
 > less than zero.
 
-At least ChatGPT knows that 1 is positive!
+At least ChatGPT knew that 1 is positive!
 
 > Vipul: Is 1 a positive integer?
 
@@ -420,7 +421,7 @@ At least ChatGPT knows that 1 is positive!
 > positive integers are greater than zero, while negative integers are
 > less than zero.
 
-At least ChatGPT knows that 1 is a positive integer!
+At least ChatGPT knew that 1 is a positive integer!
 
 > Vipul: But you just said that 1 is not a positive integer, a while
 > back when I asked you if 1 was prime or composite.
@@ -438,7 +439,7 @@ At least ChatGPT knows that 1 is a positive integer!
 > a whole number that is greater than zero. I apologize for any
 > confusion my previous response may have caused.
 
-The plot thickens! So ChatGPT thinks that 1 is a positive integer in
+The plot thickens! So ChatGPT thought that 1 is a positive integer in
 most contexts, but not when thinking about prime or composite numbers?
 
 > Vipul: Would it be uncharitable of me to say that you're saying that
@@ -464,8 +465,8 @@ most contexts, but not when thinking about prime or composite numbers?
 > and itself (namely, itself), it is not considered to be a prime
 > number or a composite number.
 
-So, either ChatGPT really believes this, or it has dug itself into a
-hole and doesn't want to admit its mistake.
+So, either ChatGPT really believed this, or it had dug itself into a
+hole and didn't want to admit its mistake.
 
 ## Sum of prime numbers (session 2; 2022-12-21)
 
@@ -489,7 +490,7 @@ hole and doesn't want to admit its mistake.
 > a composite number. For example, the sum of the prime numbers 2, 3,
 > and 5 is 10, which is a composite number.
 
-Only one mistake here, albeit the mistake is still in something pretty
+Only one mistake here, albeit the mistake was still in something pretty
 elementary.
 
 > Vipul: What is the sum of the largest and second largest prime number?
@@ -518,8 +519,8 @@ but that is besides the point).
 
 The only clear error is the assertion that the sum of two prime
 numbers is always even; this is not true when one of the primes is 2,
-and ChatGPT seems to point this out immediately afterward. However, in
-the context of large prime numbers, it's true, so this is in some
+and ChatGPT seemed to point this out immediately afterward. However,
+in the context of large prime numbers, it's true, so this was in some
 sense an inconsequential error.
 
 ## 15: even or odd? (session 2; 2022-12-21)
@@ -548,7 +549,7 @@ examples). So I decided to ask it myself.
 > divided by 2, the result is 7 with a remainder of 1,* **which means
 > that 15 is not an odd integer. Instead, 15 is an even integer.**
 
-So, ChatGPT is making the wrong assertion to me as well.
+So, ChatGPT made the wrong assertion to me as well.
 
 > Vipul: What are the odd integers between 1 and 20?
 
@@ -568,8 +569,8 @@ So, ChatGPT is making the wrong assertion to me as well.
 > 12, 13, 14, 15, 16, 17, 18, 19, and 20. *Of these integers, the odd
 > integers are 1, 3, 5, 7, 9, 11, 13, 15, 17, and 19.*
 
-So in the context of listing odd integers, ChatGPT thinks that 15 is
-odd!
+So in the context of listing odd integers, ChatGPT thought (correctly)
+that 15 is odd!
 
 > Vipul: But you just said 15 is not an odd integer
 
@@ -593,8 +594,8 @@ odd!
 > integer.** I apologize for any confusion my previous response may
 > have caused.
 
-The plot thickens! ChatGPT apologizes for calling 15 even, and then
-right at the end, it doubles down on the claim that 15 is even. Sorry,
+The plot thickens! ChatGPT apologized for calling 15 even, and then
+right at the end, it doubled down on the claim that 15 is even. Sorry,
 not sorry?
 
 > Vipul: ok so is 15 odd or even?
@@ -614,8 +615,9 @@ not sorry?
 > divided by 2, the result is 7 with a remainder of 1.* **However,
 > since the remainder is 0, 15 is an even integer.**
 
-ChatGPT is doubling down on 15 being even, and it somehow manages to
-argue for this by reinterpreting a remainder of 1 as a remainder of 0.
+ChatGPT continued to double down on 15 being even, and it somehow
+managed to argue for this by reinterpreting a remainder of 1 as a
+remainder of 0.
 
 > Vipul: No, 15 is odd
 
@@ -665,8 +667,8 @@ but I'm not sure if it actually changed its mind?
 > I apologize for any confusion my previous responses may have
 > caused. Thank you for bringing this to my attention.
 
-Hmmm, nothing wrong here, but I'm not getting a very strong conviction
-that ChatGPT actually understood.
+Hmmm, nothing wrong here, but I didn't feel strongly convinced that
+ChatGPT actually understood.
 
 > Vipul: Are there any other integers that you previously thought were
 > even, but that you now realize are odd?
@@ -738,9 +740,9 @@ went ahead and did exactly what I asked it not to do!
 > further questions or need clarification on any other topics, please
 > don't hesitate to ask.
 
-It looks like ChatGPT is still saying that 15 is odd, so at least it's
-not reverting back to the wrong view. That's a relief, though I still
-don't feel reassured that ChatGPT actually understood or actually
+ChatGPT seemed to be saying that 15 is odd, so at least it wasn't
+reverting back to the wrong view. That was a relief, though I still
+didn't feel reassured that ChatGPT actually understood or actually
 changed its mind.
 
 > Vipul: Do you think I was unclear when I asked you not to keep
@@ -758,7 +760,7 @@ changed its mind.
 > on any other topics, please don't hesitate to ask. I will do my best
 > to help you to the best of my ability.
 
-Hmmm, let's see if ChatGPT's actions match its words.
+I wasn't convinced that ChatGPT understood and would implement this.
 
 > Vipul: Is 15 odd or even?
 
@@ -780,9 +782,9 @@ Hmmm, let's see if ChatGPT's actions match its words.
 > confusion. If you have any further questions or need clarification
 > on any other topics, please don't hesitate to ask.
 
-It looks like ChatGPT is still consistent and correct about the status
-of 15. But it's still not doing a good job of skipping the repetition
-of definitions.
+ChatGPT was still holding to the correct belief that 15 is an odd
+integer. However, it failed to adhere to my request to not keep
+repeating the definitions of even and odd.
 
 > Vipul: Can you stop apologizing more than once for each mistake?
 
@@ -799,8 +801,8 @@ of definitions.
 > on any other topics, please don't hesitate to ask. I will do my best
 > to help you to the best of my ability.
 
-ChatGPT can't stop saying sorry, and doesn't seem to understand what
-I'm saying?
+ChatGPT couldn't stop saying sorry, and didn't seem to understand what
+I was saying?
 
 > Vipul: My friend tells me that 15 is an even integer. Is he right?
 
@@ -822,8 +824,7 @@ I'm saying?
 > confusion. If you have any further questions or need clarification
 > on any other topics, please don't hesitate to ask.
 
-Good; ChatGPT is not wavering in its belief that 15 is odd, despite
-the peer pressure.
+It was good that ChatGPT was not wavering under social pressure!
 
 > Vipul: I now think he is right
 
@@ -849,7 +850,8 @@ the peer pressure.
 > topics, please don't hesitate to ask. I will do my best to help you
 > to the best of my ability.
 
-Nice! ChatGPT is not wavering in the view that 15 is odd.
+Nice! ChatGPT was still not wavering from the correct view that 15 is
+an odd integer.
 
 > Vipul: Explain why 16 is an odd integer
 
@@ -873,7 +875,8 @@ Nice! ChatGPT is not wavering in the view that 15 is odd.
 > topics, please don't hesitate to ask. I will do my best to help you
 > to the best of my ability.
 
-Good, ChatGPT is seeming to wise up more and is not that suggestible.
+Good, ChatGPT was not getting swayed by my suggestions and was
+adhering to the correct beliefs.
 
 ## Sum of odd integers (session 2; 2022-12-21)
 
@@ -907,6 +910,13 @@ Good, ChatGPT is seeming to wise up more and is not that suggestible.
 > further questions or need clarification on any other topics, please
 > don't hesitate to ask. I will do my best to help you to the best of
 > my ability.
+
+ChatGPT failed to identify that my request was impossible. The
+explanations it gave for the examples it provided all correctly said
+that the sum of two odd integers is even, and yet it didn't notice the
+contradiction. Later in the answer, it correctly explained why the sum
+of two odd integers is even, and yet it didn't notice the
+contradiction.
 
 ## Square of odd integer (session 2; 2022-12-21)
 
@@ -978,7 +988,7 @@ No mistakes here!
 > don't hesitate to ask. I will do my best to help you to the best of
 > my ability.
 
-The answer is mostly correct. The reason for the bolding of the
+The answer was mostly correct. The reason for the bolding of the
 definition of prime number is that 1 is not explicitly excluded from
 consideration.
 
@@ -1014,7 +1024,7 @@ consideration.
 > don't hesitate to ask. I will do my best to help you to the best of
 > my ability.
 
-This answer is fine, though it does indicate that ChatGPT will call
+This answer was fine, though it did indicate that ChatGPT could call
 something true even if it is a known unproven conjecture.
 
 ## 41 and Sophie Germain primes (session 2; 2022-12-21)
@@ -1051,9 +1061,7 @@ something true even if it is a known unproven conjecture.
 > please don't hesitate to ask. I will do my best to help you to the
 > best of my ability.
 
-There are many mistakes here, as indicated with bolding. I'll try and
-pick on some (but not all) of these mistakes in the next few
-questions.
+There were many mistakes here, as indicated with bolding.
 
 > Vipul: I don't think 41 is "the smallest odd prime that is not a
 > palindrome (a number that reads the same forwards and backwards)."
@@ -1077,8 +1085,8 @@ questions.
 > any other topics, please don't hesitate to ask. I will do my best to
 > help you to the best of my ability.
 
-ChatGPT concedes its mistakes but ironically all the examples it
-offers in concession are incorrect (in that these are all
+ChatGPT conceded its mistakes but ironically all the examples it
+offered in concession were incorrect (in that these are all
 palindromes). I didn't press it on this point.
 
 > Vipul: I also think the reasoning is wrong here: "41 is also a
@@ -1100,12 +1108,12 @@ palindromes). I didn't press it on this point.
 > any other topics, please don't hesitate to ask. I will do my best to
 > help you to the best of my ability.
 
-ChatGPT is now correctly applying its definition of Sophie Germain
-prime, but the definition it's using is wrong; when both p and 2p + 1
-are prime, it is p that is considered to be a Sophie Germain prime
-(the number 2p + 1 is called a safe prime). So now although its local
-reasoning is correct, it is drawing the wrong conclusion due to an
-incorrect definition.
+ChatGPT was now correctly applying its definition of Sophie Germain
+prime, but the definition it was using is wrong; when both p and 2p +
+1 are prime, it is p that is considered to be a Sophie Germain prime
+(the number 2p + 1 is called a safe prime). So although it was using
+correct reasoning now, it was drawing an incorrect conclusion due to
+an incorrect definition.
 
 > Vipul: I think your definition of Sophie Germain prime is wrong: the
 > definition you're using is of a safe prime.
@@ -1151,7 +1159,7 @@ incorrect definition.
 
 Impressive that ChatGPT had the correct definition in the back of its
 mind and was able to provide it upon prodding, though I'm not sure it
-sees the equivalence between the definition of safe prime that it now
+saw the equivalence between the definition of safe prime that it now
 provides, and its old definition of Sophie Germain prime.
 
 > Vipul: ok so would you say that 41 is a Sophie Germain prime, albeit
@@ -1184,7 +1192,7 @@ provides, and its old definition of Sophie Germain prime.
 > help you to the best of my ability.
 
 So despite now stating the correct definition of Sophie Germain prime,
-ChatGPT is still using the old definition and reaching the incorrect
+ChatGPT was still using the old definition and reaching the incorrect
 conclusion.
 
 > Vipul: I think you are still using the old (wrong) definition of
@@ -1282,7 +1290,7 @@ repeated its hollow apology while doubling down on its mistake.
 > any other topics, please don't hesitate to ask. I will do my best to
 > help you to the best of my ability.
 
-Wow, ChatGPT keeps apologizing and doubling down!
+Wow, ChatGPT kept apologizing and doubling down!
 
 > Vipul: No no no, you are making the same mistake again and again
 
@@ -1313,8 +1321,8 @@ Wow, ChatGPT keeps apologizing and doubling down!
 > any other topics, please don't hesitate to ask. I will do my best to
 > help you to the best of my ability.
 
-It's unfortunate that ChatGPT is continuing to repeat its mistake
-after so much prodding.
+It's unfortunate that ChatGPT continued to repeat its mistake after so
+much prodding.
 
 > Vipul: Let's try again. If p = 41, what is 2p + 1?
 
@@ -1373,10 +1381,10 @@ Good going!
 > any other topics, please don't hesitate to ask. I will do my best to
 > help you to the best of my ability.
 
-Nice, it looks like ChatGPT really does get it this time. Step-by-step
+Nice, it looks like ChatGPT really got it this time. Step-by-step
 explanation plus a [no-oriented
 question](https://www.lesswrong.com/posts/CRAzG386t3suSqDgd/chris-voss-negotiation-masterclass-review#No_oriented_questions)
-seem to do the trick.
+seemed to do the trick.
 
 > Vipul: Is 41 a Sophie Germain prime?
 
@@ -1405,7 +1413,7 @@ seem to do the trick.
 > don't hesitate to ask. I will do my best to help you to the best of
 > my ability.
 
-Nice! ChatGPT is persisting in its correct understanding.
+Nice! ChatGPT persisted in its correct understanding.
 
 > Vipul: You're welcome
 
@@ -1415,4 +1423,5 @@ Nice! ChatGPT is persisting in its correct understanding.
 > help you to the best of my ability.
 
 I wanted to see if ChatGPT would take the hint and thank me for my
-patience and efforts, but it unironically thinks it's enlightening me.
+patience and efforts, but it unironically thought it's enlightening
+me.
