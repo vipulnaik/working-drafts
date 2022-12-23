@@ -63,7 +63,7 @@ example. But when it elaborated, it provided the reason why no example
 is possible! And yet it did not realize that it has done so.
 
 It also did the multiplication correctly to begin with, but then
-makde multiple mistakes when elaborating on the multiplication, and
+made multiple mistakes when elaborating on the multiplication, and
 then again when multiplying three numbers.
 
 Finally it volunteered incorrect information about multiplication
