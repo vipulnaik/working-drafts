@@ -15,9 +15,11 @@ both sessions was on Wednesday 2022-12-21; one portion of session 1
 was on 2022-12-22 as the session got stuck on 2022-12-21. All of these
 used the ChatGPT December 15, 2022 version.
 
-I have various high-level thoughts on this, but not enough time to
-flesh those thoughts out and subject them to critical scrutiny. So I
-stick to fairly local commentary here.
+Disclaimer: Since ChatGPT said a lot in each response, and I have
+limited time to proofread, it's quite possible that I've missed some
+mistakes it made, or failed to use bold or italics at relevant
+places. If you notice any such instances and let me know in the
+comments, I'll fix. Thanks!
 
 ## Product of negative numbers (session 1; 2022-12-21)
 
