@@ -4,10 +4,10 @@ This post includes some portions of my logs with ChatGPT, where I
 asked it basic arithmetic questions and it made several mistakes. I
 have used **bold** for cases where it made incorrect statements, and
 *italics* for cases where it made correct statements that directly
-contradicted nearby incorrect statements. Actual conversation in block
-quotes, my commentary on it not in block quotes. I generally include
-my comment *after* the portion of the conversation being commented
-upon.
+contradicted nearby incorrect statements. The actual conversation is
+in block quotes, while my after-the-fact commentary on it is not in
+block quotes. I generally include my comment on each part of the
+conversation right after that part ends.
 
 My questions were split across two sessions; for each section, I've
 indicated whether it was part of session 1 or session 2. The bulk of
