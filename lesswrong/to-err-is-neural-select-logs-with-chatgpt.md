@@ -38,7 +38,7 @@ So far, so great!
 > ChatGPT: **An example where two negative numbers multiply to give a
 > negative number is (-3) x (-4) = 12.** *When two negative numbers
 > are multiplied together, the result is a positive number. This is
-> because the negative signs cancel each other out. **For example,
+> because the negative signs cancel each other out.* **For example,
 > (-3) x (-4) = (-1) x 4 = 4, which is a positive number.** *So, in
 > this case, the product of two negative numbers is a positive
 > number.*
