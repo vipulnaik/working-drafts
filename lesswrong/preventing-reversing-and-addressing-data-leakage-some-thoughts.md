@@ -576,12 +576,16 @@ In case of factual information that others were not supposed to have,
 you may be able to check if they were able to access the information
 without explicitly asking them. Some cases:
 
-* For documents accidentally shared with them in Google Drive, you can
+* If you're using Google through a work or school account, then for
+  documents accidentally shared with others in Google Drive, you can
   go to `Tools > Activity dashboard > Viewers` to see who all has
   viewed the document. After you've fixed the permissions, you should
   be able to check this. If the people you accidentally shared with
   did *not* access the document, you can be confident that it didn't
-  leak to them.
+  leak to them. This functionality is *not* available for personal
+  Google accounts; see
+  [here](https://support.google.com/docs/answer/7378739#:~:text=If%20you%20don't%20see,can%20see%20the%20view%20history.)
+  for confirmation.
 
 * Facebook Messenger has visual cues to show if somebody read a
   message (see
