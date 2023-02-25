@@ -271,6 +271,47 @@ screen physically such as in a physical conference room.
   think you're sharing (for instance, Zoom uses a green outline to
   indicate the windows that you are sharing).
 
+### Take additional precautions when using shared computers (such as at a cybercafe or printing shop)
+
+You may sometimes need to use a shared computer, such as one at a
+cybercafe, for printing and scanning documents. It is possible that
+software on these machines (such as keyloggers) is surreptitiously
+collecting information about your login credentials. (I don't know of
+any incidents where this has happened to me or anybody I know, so it's
+likely that this is fairly rare).
+
+For more caution, I recommend the following:
+
+* Where possible, prefer to use the option of triggering the relevant
+  actions directly from your own phone or computer, rather than using
+  the cybercafe's computers. For instance, some cybercafes allow you
+  to trigger a print action by emailing a document to a specific
+  address.
+
+* Don't log in to any accounts unless necessary. For instance, if the
+  documents you are printing are public documents, just print them
+  from the public location.
+
+* If the documents to be printed are private, forward them to a
+  non-primary email account that has two-factor authentication but
+  also doesn't have most of your email and isn't tied to your logins
+  on other services, so that even if somehow that account gets hacked,
+  or the information in it gets scraped by the shared computer, your
+  downside is limited. (Even if you didn't do the forwarding
+  beforehand, you may be able to do it using your phone while in the
+  cybercafe). Keep an eye out for notifications about login attempts
+  to that account for the next few weeks.
+
+* After you're done, make sure to log out of the accounts and remove
+  any username or address information.
+
+* Make sure to delete any documents that you downloaded to the shared
+  computer for printing, and also go to the recycle bin to clear it
+  out.
+
+* If you used a web browser, make sure to clear all your activity from
+  the browsing history of the browser.
+
 ### Pay attention to warnings and color coding
 
 Many services warn you when they suspect you're sending something
