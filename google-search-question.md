@@ -1,0 +1,3 @@
+Does Google store what's entered in the search bar if you don't hit Enter?
+
+When autocompletion is turned on, any text entered in the search bar gets sent to Google Search, even if you haven't hit Enter. These partial queries don't seem to be part of the search history in either Chrome or the Google account. I'm wondering if the "partial" search queries are saved by Google Search. If there was any sensitive data there, what's the best way to delete that data?
