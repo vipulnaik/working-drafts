@@ -27,12 +27,22 @@ shouldn't be public).
 I conceptualize security as being about layers of defense against
 attackers, both intentional attackers and accidental intruders. To my
 mind, security is about being able to make strong statements of the
-form "Even if A is compromised, B will still not be compromised" where
-A and B are "near" each other in some sense. So, security isn't just
-about having a strong outer defense, but also about inner decoupling
-to the extent possible.
+form "Even if A is broken/misconfigured/compromised, B will still not
+be compromised" where A and B are "near" each other in some sense. So,
+security isn't just about having a strong outer defense, but also
+about inner decoupling to the extent possible.
 
 ## Firewall / security group
+
+This is relevant both for security against leakage and for security
+against manipulation.
+
+Here, in the language of "Even if A is
+broken/misconfigured/compromised, B will still not be compromised", we
+have:
+
+* A = misconfigured or vulnerable service running on the web server
+* B = outsiders can take advantage of the misconfiguration
 
 ### The concept of firewall / security group: an outer layer of defense
 
