@@ -71,12 +71,15 @@ applications). Here's
 on ports, and here's
 [CloudFlare](https://www.cloudflare.com/learning/network-layer/what-is-a-computer-port/).
 
-### IP ranges for firewall
+#### IP ranges for firewall
 
 A port-based firewall rule specifies, for a given port, what IP
 addresses are allowed and not allowed to access that port. There's a
 language to express this concisely (called [CIDR
-blocks](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)).
+blocks](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing)). This
+language supports both specifying an individual IP address and
+specifying "all IP addresses" at once, as well as a bunch of stuff in
+between.
 
 ### What firewall policy makes sense?
 
