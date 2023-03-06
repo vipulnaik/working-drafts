@@ -1,6 +1,6 @@
 # Aligning my web server with devops practices: part 1 (backups)
 
-I have a web server (that serves a double-digit number of different
+I have a web server that serves a double-digit number of different
 domains and subdomains, such as
 [contractwork.vipulnaik.com](https://contractwork.vipulnaik.com/) and
 [groupprops.subwiki.org](https://groupprops.subwiki.org/wiki/Main_Page). I
