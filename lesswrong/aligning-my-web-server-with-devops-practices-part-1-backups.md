@@ -445,10 +445,11 @@ Linode fails. I took two steps to address this:
 
 #### Consideration for backup storage: independence of backups in terms of geography and provider (good)
 
-The backups are store on Amazon S3. This is a different provider than
+The backups are stored on Amazon S3. This is a different provider than
 my VPS (Linode). Also, the AWS region where the backups are stored is
 not geographically very close to the region where my Linode is
-stored. Therefore, we have independence of both geography and provider.
+stored. Therefore, we have independence of both geography and
+provider.
 
 #### Consideration for backup storage: cost of storing the backup (good)
 
