@@ -32,6 +32,10 @@ be compromised" where A and B are "near" each other in some sense. So,
 security isn't just about having a strong outer defense, but also
 about inner decoupling to the extent possible.
 
+### Separation for ease of diagnosis and for seamless rotation
+
+(elaborate on this next time)
+
 ## Firewall / security group
 
 This is relevant both for security against leakage and for security
@@ -208,41 +212,56 @@ Further, for ports that need to be accessible only to specific people
 using firewall rules to restrict the IP ranges that can access those
 ports, further reduces the risk surface area.
 
-## Unique credentials
-
-I make sure that each server I setup (whether the production server or
-a new test server) has its own unique:
-
-* AWS credentials
-* GitHub credentials
-
-This is so even though the set of permissions for AWS or for GitHub is
-identical across the servers. Having separate credentials means that
-if one server gets compromised, its credential can be rotated without
-affecting other servers.
-
 ## Separate users for web processes, and limited permissions for these users
+
+In the language of "Even if A is
+broken/misconfigured/compromised, B will still not be compromised", we
+have:
+
+* A = access to users running web processes (basically, the ability to execute arbitrary shell commands as such users)
+* B = access to sensitive behind-the-scenes information, including credentials
+
+### Users running web processes are vulnerable, so strong separation is desired
+
+In the previous section, we talked about using firewalls to lock down
+everything except the ports 80 and 443 that serve web traffic. A web
+server does need to have those ports open, and the service running on
+those ports, that serves the traffic, is a point of vulnerability. In
+the case of my web server, I run nginx, proxying to other backends
+(PHP-FPM in most cases). An error in the configuration of nginx, or of
+PHP-FPM, or of the code running any of the websites, can potentially
+create an opportunity for a clever end user to be able to execute
+arbitrary commands as the users running these processes.
+
+So the next line of defense is to make sure these users, even if
+compromised, have limited ability. Unfortunately, they *do* need some
+level of access to be able to do a good job serving the websites. The
+goal here is to make sure that they don't have any more access than
+they need. In particular, they should not have the ability to modify
+or write things they just need to read, and they also shouldn't need
+to read things that aren't directly relevant for web serving (for
+instance, a credential file or a Makefile). In the next few
+subsections I go into a little more detail on what this means.
 
 ### Separate users for web processes
 
 I run the Nginx and PHP processes using users that are separate from
-each other and also separate from my main user. The users running the
-Nginx and PHP processes have only the very limited access to files
-needed for the web; in particular, they don't have write access to
-most files, and they have read access to only the files needed for
-front-facing stuff. This is to limit what a hacker can do even if the
-hacker is somehow able to execute arbitrary PHP commands.
+each other and also separate from my main user.
 
-The reason to separate the Nginx and PHP users from each other is
-partly security, but also partly more ease of diagnosis of what's
-going on (any activity reported to a user can be traced to the
-respective process).
+I've already gone over why I don't run these as my main user. The
+reason to separate the Nginx and PHP users from each other is partly
+security, but also partly more ease of diagnosis of what's going on
+(any activity reported to a user can be traced to the respective
+process).
 
 ### File permissions
 
 All the automatic scripts that I've written to set up new sites
 include steps to make sure that the files readable by others are just
-the ones that are needed for the web processes.
+the ones that are needed for the web processes. And in almost no cases
+do the users running the web processes have file *write* permissions;
+all writes are done through scripts run directly by me, or scheduled
+through cron to be run automatically -- but not invokable via the web.
 
 In addition, I've set `umask` settings so that any files I create
 through the command line on the server will get the default of not
@@ -267,3 +286,32 @@ that site.
 For some sites, the end user's actions can lead to data updates in
 MySQL, and in these case, we do need to give at least some level of
 write access.
+
+## Unique credentials for external services with limited permissions
+
+The idea is that, for external services, such as Amazon Web Services
+(AWS) and GitHub, that the servers need to connect with, each web
+server (production or development) has its own unique
+credentials. Moreover, to the extent possible, the credentials are
+scoped to have only the power that the servers need. However, the
+point about uniqueness applies even across different identically
+powered servers: they should not share credentials.
+
+In the language of "Even if A is
+broken/misconfigured/compromised, B will still not be compromised", we
+have:
+
+* A = the server that has the credentials
+* B = other stuff that depends on the credentials, assuming that the
+  leakage of credentials is detected quickly
+
+Specifically, as soon as the credential leakage for the server is
+detected, that credential can be removed or changed, *without* needing
+to make updates to other servers. Therefore, the change of credentials
+can be executed seamlessly and with minimal disruption to other
+servers.
+
+Moreover, to the extent that access logs are available, having
+different credentials on different servers allows us to get
+information on *which* server's credential leaked. This might allow us
+to more quickly get to the root of the problem.
