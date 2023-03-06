@@ -199,8 +199,14 @@ into.
 
 Using a firewall to lock down most ports dramatically reduces the risk
 surface area to a few specific ports that are being served by the
-software you are focused on (in this case, nginx). You don't have to
-worry as much about accidentally exposing other ports to strangers.
+software you are focused on (in my case, web-serving software
+nginx). You don't have to worry as much about accidentally exposing
+other ports to strangers.
+
+Further, for ports that need to be accessible only to specific people
+(in my case, the SSH port that only needs to be accessible to me),
+using firewall rules to restrict the IP ranges that can access those
+ports, further reduces the risk surface area.
 
 ## Unique credentials
 
