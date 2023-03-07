@@ -349,6 +349,23 @@ Having out-of-date software is a liability even if it has no known
 security holes, because the vendor may not be publishing patches for
 future security holes once they are found.
 
+## Backups, with established recovery procedures, help with security
+
+Backups with established recovery procedures are helpful for security,
+because they give us the option to discard any compromised resource
+and recreate it from scratch using the backups. For instance, if a
+server gets compromised today, I can restore from yesterday's backup.
+
+Backups can also serve as checkpoints that help diagnose when exactly
+a system became compromised.
+
+With that said, backups can also be a source of security issues if the
+backups themselves are not secured. See for instance LastPass incident
+where hackers got a hold of their backups. Luckily for them, the
+important data is fully encrypted to a zero knowledge standard, but
+you may not be so lucky. Link to my backups post, highlighting the
+aspects that discuss security.
+
 ## Protection of online accounts for hosting and domain name registration
 
 It's important to have tight security (with redundancy) for the
