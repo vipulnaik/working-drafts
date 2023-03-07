@@ -287,6 +287,20 @@ For some sites, the end user's actions can lead to data updates in
 MySQL, and in these case, we do need to give at least some level of
 write access.
 
+## Robust codebase for websites that is harder to attack
+
+While as much as possible, it is good to limit the permissions for the
+web processes, there are some cases where the web processes do need
+write permissions to execute legitimate tasks. We want to prevent end
+users of websites from being able to send the web process any
+instructions or commands outside of the very specific things we want
+to constrain them to. For instance, we don't want them to be able to
+run arbitrary SQL queries, or arbitrary shell commands.
+
+### Safe querying on SQL, to reduce the risk of injection attacks
+
+(Safe querying for own repos)
+
 ## Unique credentials for external services with limited permissions
 
 The idea is that, for external services, such as Amazon Web Services
@@ -315,3 +329,31 @@ Moreover, to the extent that access logs are available, having
 different credentials on different servers allows us to get
 information on *which* server's credential leaked. This might allow us
 to more quickly get to the root of the problem.
+
+## Management of updates for third-party software
+
+I use third-party software such as MediaWiki and WordPress for serving
+websites; I use other software on the server to support this work. The
+codebase for these softwares is large, and often, vulnerabilities are
+detected in the softwares (or in extensions or plugins to the
+softwares). Staying up-to-date with security patches is important.
+
+Having an automated or streamlined process for updates helps with this
+...
+
+Also, a streamlined setup process makes it easier to update the
+underlying OS and stack more frequently, allowing the server to
+benefit from the improved security of newer versions.
+
+Having out-of-date software is a liability even if it has no known
+security holes, because the vendor may not be publishing patches for
+future security holes once they are found.
+
+## Protection of online accounts for hosting and domain name registration
+
+It's important to have tight security (with redundancy) for the
+hosting service of the web server, as well as the domain name
+registration service. If others are able to hack into the hosting
+service's web portal, they may be able to make changes to the web
+server's configuration. If others are able to hack into the domain
+name registration service, they may be able to steal the domain.
