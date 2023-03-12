@@ -330,6 +330,15 @@ during crunch times, and my thinking around these.
   can develop for various kinds of recordkeeping, based on data
   availability considerations.
 
+* **Cleaning / house chores**: In steady state, I do various kinds of
+  house chores related to cleaning every so often. During crunch time,
+  I may defer some kinds of cleaning that aren't strictly necessary
+  for health and hygiene in the near term. For instance, I might still
+  clean the kitchen countertops to prevent food accumulation, but I
+  may defer cleaning my work desk. During crunch times, I may also
+  defer rinsing bottles for recycling, something I normally do as they
+  get emptied.
+
 ### Phasing normalcy back in
 
 Rather than a binary between "crunch time" and "steady state", I
@@ -384,6 +393,24 @@ creative expression, gets me back to feeling good about things, after
 which I can return to crunch time work. I described a variant of this
 idea in the [underfun case section of my post on handling a stressful
 life](https://www.lesswrong.com/posts/rBLEiEsNxpQaqwsmJ/miscellaneous-thoughts-on-handling-a-stressful-life#The_underfun_case).
+
+### TODO list management for both the crunch time and the return to normalcy
+
+During a crunch time, a person may not be immediately do some kinds of
+tasks that the person would normally be able to do
+immediately. Rather, those tasks may need to be deferred till after
+the crunch time. For instance, during normal times, I might process
+physical mail as soon as I receive it, but during a crunch time, I
+might choose to not open non-urgent physical mail. The physical mail
+accumulates until after the crunch has ended, when I clear it.
+
+Due to this, TODO list management may change qualitatively and
+quantitativey during crunch times. In addition to managing the list of
+things that are being done as part of the crunch, the list may also
+include a list of things that are being deferred due to the
+crunch. Things that normally may not even get into TODO lists, because
+they would get done immediately or on a set schedule, now need to be
+put in the TODO list, queued behind crunch work.
 
 ## Figuring out a new steady state
 
