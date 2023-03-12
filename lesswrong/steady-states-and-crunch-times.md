@@ -325,6 +325,135 @@ during crunch times, and my thinking around these.
   instance, in the case of entertainment consumption, I just record a
   very minimal version of the data (name of item, start date of
   consumption, end date of consumption) from which I can fill the rest
-  in later. I also may set limits on how significant a backlog I can
-  develop for various kinds of recordkeeping, based on data
+  of the information (language, format, consumption venue, notes,
+  etc.) later. I also may set limits on how significant a backlog I
+  can develop for various kinds of recordkeeping, based on data
   availability considerations.
+
+### Phasing normalcy back in
+
+Rather than a binary between "crunch time" and "steady state", I
+prefer to phase the steady state back into my life as the
+intensity/acuteness of crunch time goes down. For instance, I might
+return to steady state for some aspects (such as diet and exercise)
+once the most acute period of crunch time is over, but delay the
+return to steady state for other aspects, such as recordkeeping, until
+a little later.
+
+A straightforward reason for doing so is that different aspects of my
+steady state have different degrees of tolerance for deviation. The
+reasoning in my particular case was as follows: for diet and exercise,
+deviating for more than a few weeks can start affecting my health and
+habits longer-term, so I seek to return to steady state as soon as
+it's feasible. For recordkeeping, deviations can happen for more
+extended periods of time since catching up is feasible and at the end
+of it all I will be back to normal.
+
+Phasing normalcy back in also fits better shape-wise with having an
+acute period followed by a more extended, lower-intensity period of
+crunch time. The return to partial normalcy gives a psychological
+sense of relief and excitement about the forthcoming *fuller* return
+to normalcy.
+
+With that said, your mileage may vary in this regard; you may prefer
+to have an intense, acute crunch time and then fully return to
+normalcy all at once in all aspects. This approach has the advantage
+of allowing for a more definitive moment of celebration at having
+returned to normal.
+
+### Leaving some room for normalcy throughout the process
+
+Humans can get demotivated during crunch times by having to do a bunch
+of things that may not be very pleasant, and deviating a lot from
+their regular routines. This demotivation can reduce their ability to
+finish with the work that needs to be finished and get through the
+crunch.
+
+So, it may be important and valuable to keep a certain amount of
+normalcy and maintain at least some aspects of the steady state, even
+if from a pure time accounting perspective they seem less important
+than the crunch. This is different from feeling *obliged* to do steady
+state activities.
+
+For instance, during crunch time, I defer the *requirement* for myself
+to keep up with my usual recordkeeping, and I also defer *committing*
+to doing any other non-time-sensitive projects. But sometimes I just
+don't feel like doing the crunch time work, and I find that just
+catching up with a bit of recordkeeping, or engaging in a small act of
+creative expression, gets me back to feeling good about things, after
+which I can return to crunch time work. I described a variant of this
+idea in the [underfun case section of my post on handling a stressful
+life](https://www.lesswrong.com/posts/rBLEiEsNxpQaqwsmJ/miscellaneous-thoughts-on-handling-a-stressful-life#The_underfun_case).
+
+## Figuring out a new steady state
+
+In some cases, a transition is accompanied by a need to figure out a
+new steady state as well. For instance, when switching to a very
+different kind of job, or having a kid, or moving to a very different
+physical environment, a person may find that the old steady state no
+longer makes sense for the new environment.
+
+### Separating the crunch time created by transition work from the "figuring out" of the new steady state
+
+One risk is that without a clear thought process around what the new
+normal should look like, it may be that the practices followed during
+the crunch time of the transition period leak into the new normal. For
+instance, while moving houses, a person eats out more because it's
+inconvenient to cook amidst all the moving. But then the person locks
+into the new habit of eating out a lot more than before, even though
+there is no fundamental change in the pros and cons of eating out.
+
+To avoid this sort of trap, it may be helpful to separate out the
+decisions made for how to live *during* the crunch period, with the
+decisions made for how to live after the crunch period. If the latter
+set of decisions isn't super-clear, a further period for investigation
+and adjustment may need to be reserved in addition to the original
+crunch period. For instance, if moving houses, then in addition to the
+crunch period of the actual move and related
+bureaucratic/administrative items, it may make sense to reserve
+another period of a few weeks to explore the neighborhood to become
+more familiar with grocery stores, eateries, convenience stores,
+jogging tracks, neighborhood activities, etc. The new steady state
+would emerge as a result of this exploratory period.
+
+In some cases, it's possible to multiplex between the direct
+transition work and the exploratory work of figuring out the new
+normal; in other cases, the crunch is strong and it makes sense to
+reserve the additional period. If you're not sure of the situation in
+your case, I suggest being conservative and reserving an additional
+period -- it may turn out that you ultimately don't need it.
+
+### The never-extending crunch as the de facto normal
+
+It can also sometimes happen that sometimes starts out as a crunch,
+but then it doesn't finish on time, and it extends, so you think of it
+as a slightly longer crunch, but then it extends again, and again, and
+again. At some point, it becomes the *de facto* new normal, but
+because it didn't ever very clearly get marked as a new normal, the
+person never goes through the process of figuring out the steady state
+for this situation.
+
+The vague thought I have around this is that *at some point, one has
+to say that a situation has gone on long enough that it has become the
+new normal, and should be treated as such, rather than as a temporary
+crunch.* However, what that point is can vary from person to person
+and situation to situation. It might help to think about this right at
+the outset of a particular crunch, and set some kind of final deadline
+by which the crunch should be gone. This is related to the
+"return-to-steady-state-by" date that I previously mentioned, but may
+be an even later date.
+
+To give some concrete numbers (that are purely illustrative and may be
+different in other situations), let's say you're switching jobs in end
+of April/beginning of May, and you expect some wrapping up at the old
+job + onboarding at the new job to mean you are in a crunch, between
+the period of April and July. You set a "return-to-steady-state-by"
+date of October, so you try not to sign up for additional things by
+October. These dates are still tentative; onboarding at the new job
+may end up taking a bit longer. But if it keeps going forever, then
+that would mean a new normal! So you set a final deadline of December
+by which you should be out of "crunch" mode; if things continue to be
+very busy until December, then you have to accept it as the new normal
+and rethink the balance between various aspects of your life in light
+of how demanding the job is (which might be much more than you
+originally thought it would be).
