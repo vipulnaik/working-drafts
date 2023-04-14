@@ -90,7 +90,7 @@ between.
 #### First approximation: only allow ports 80 (HTTP) and 443 (HTTPS)
 
 The main way I expect people to use my server is for *web serving*. So
-outsiders shoud only need to access the ports needed to access
+outsiders should only need to access the ports needed to access
 webpages, which is 80 for HTTP and 443 for HTTPS. So to a first
 approximation, I want to allow access for everybody to ports 80 and
 443, and allow access for nobody to other ports.
