@@ -15,7 +15,7 @@ Note that for the three web vitals measured in both field and Lab data, the thre
 |-
 | Speed Index (SI) || Loading speed || No || No || Yes (some variant since v2) || No || 3,400 || 5,8000
 |-
-| Time to Interactive (TTI) || Loading speed, interactivity/responsiveness || No || No || Yes (since at least v5, some variant since v2) || Not online, but supported in code || 3,800 || 7,300
+| Time to Interactive (TTI) || Loading speed, interactivity/responsiveness || No || No || No (retired in v10; was reported until v9 and since at least v5, some variant since v2) || Not online, but supported in code || 3,800 || 7,300
 |-
 | Total Blocking Time (TBT) || Interactivity/responsiveness || No || No || Yes (since v6) || Yes || 200 || 600
 |-
@@ -92,6 +92,16 @@ The table below is based on monthly summaries provided in the CrUX announce mail
 | 2022-09 || 17,715,277 || 54.5 || 94.8 || 72.4 || 41.4
 |-
 | 2022-10 || 17,637,195  || 54.8 || 95.0 || 72.3 || 41.6 || This release includes a breakdown of "rank" popularity for top 5,000 sites, top 50,000 sites, etc. in addition to the already-existing rank popularity for top 1,000 sites, top 10,000 sites etc.<ref name=crux-report-oct-2022>{{cite web|url = https://groups.google.com/a/chromium.org/g/chrome-ux-report-announce/c/DmTmMHll7_o|title = The 202210 dataset is live|date = November 8, 2022|accessdate = November 12, 2022|last = Pollard|first = Barry}}</ref>
+|-
+| 2022-11 || 17,618,944 || 54.9 || 95.1 || 72.4 || 41.8
+|-
+| 2022-12 || 16,824,271 || 54.8 || 95.0 || 72.7 || 41.8
+|-
+| 2023-01 || 18,200,000 || 56.2 || 95.2 || 73.1 || 43.0
+|-
+| 2023-02 || 18,184,396 || 56.3 || 95.3 || 73.1 || 43.1
+|-
+| 2023-03 || 18,495,210 || 57.7 || 95.5 || 73.4 || 44.2
 |}
 
 == Full timeline ==
@@ -241,7 +251,13 @@ The table below is based on monthly summaries provided in the CrUX announce mail
 |-
 | 2022 || {{dts|October 27}}{{snd}}28 || Insight || || All || Field data, Lab data || The performance.now() 2022 conference is held in Amsterdam over these two days. Talks from the conference would be released on YouTube in the coming days. Many of the talks would be about web vitals both in the field and in the Lab.<ref>{{cite web|url = https://perfnow.nl/speakers|title = Talks and speakers: performance.now() is a single track conference with fourteen world-class speakers, covering today’s most important web performance insights. They are selected by our program co-chairs Harry Roberts, Tammy Everts and Tim Kadlec.}}</ref><ref name=crux-report-oct-2022/>
 |-
-| 2022 || {{dts|November 4}} || Public diagnostic tool || || All || Lab data || pagespeed.web.dev is updated to include the entire Lighthouse report, not just the performance section of the report that it previously made available.<ref>{{cite web|url = https://twitter.com/____lighthouse/status/1588529580230381568|title = PageSpeed Insights has expanded! The lab section now includes the entire Lighthouse report|author = Lighthouse|publisher = Twitter|date = November 4, 2022|accessdate = November 12, 2022}}</ref>
+| 2022 || {{dts|November 4}} || || Public diagnostic tool || All || Lab data || pagespeed.web.dev is updated to include the entire Lighthouse report, not just the performance section of the report that it previously made available.<ref>{{cite web|url = https://twitter.com/____lighthouse/status/1588529580230381568|title = PageSpeed Insights has expanded! The lab section now includes the entire Lighthouse report|author = Lighthouse|publisher = Twitter|date = November 4, 2022|accessdate = November 12, 2022}}</ref>
+|-
+| 2023 || {{dts|January 10}} || Insight || || All || Field data || A blog post on web.dev includes a list of top recommendations to improve core web vitals.<ref>{{cite web|url = https://web.dev/top-cwv-2023/|title = Our top Core Web Vitals recommendations for 2023|last = Walton|first = Philip|last2 = Viscomi|first2 = Rick|last3 = Pollard|first3 = Barry|last4 = Kenny|first4 = Brendan|last5 = Wagner|first5 = Jeremy|date = January 10, 2023|accessdate = May 8, 2023|publisher = web.dev}}</ref>
+|-
+| 2023 || {{dts|February 7}} || Release || Public diagnostic tool || All || Field data || The CrUX History API is introduced; this API provides access to CrUX data at the level of url and origin for the past 6 months.<ref>{{cite web|url = https://developer.chrome.com/blog/chrome-ux-report-history-api/|title = Introducing historical web performance data via the CrUX History API|last = Henkel|first = Johannes|last2 = Yan|first2 = Jasmine|last3 = Pollard|first3 = Barry|date = February 7, 2023|accessdate = May 8, 2023}}</ref>
+|-
+| 2023 || {{dts|February 9}} (announcement), ~February 16 and March 29 (rollout) || New version || Public diagnostic tool || All || Lab data || Lighthouse 10 is announced; this introduces the scoring change of removing Time to Interactive (TTI) from the score calculation. There are a number of other changes to the available audits and the code now ships with full TypeScript declarations. Lighthouse 10 is shipped to PageSpeed Insights in mid-February and releases as part of Chrome 112 with its release on March 29.<ref>{{cite web|url = https://developer.chrome.com/en/blog/lighthouse-10-0/|title = What's new in Lighthouse 10|last = Kenny|first = Brandon|date = February 9, 2023|accessdate = May 8, 2023}}</ref><ref>{{cite web|url = https://www.searchenginejournal.com/lighthouse-10-tti-removal/479789/|title = Lighthouse 10 Improves PageSpeed Insights Scores For 90% Of Pages. Removal of TTI metric in Lighthouse 10, available now in PageSpeed Insights, increases scores of the vast majority of webpages|last = Montti|first = Roger|date = February 16, 2023|accessdate = May 8, 2023|publisher = Search Engine Journal}}</ref>
 |}
 
 == See also ==
