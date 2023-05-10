@@ -338,11 +338,37 @@ for a little longer to be confident that things are working well.
     other weird way while still outputting stuff that seems
     legitimate**: This happened with one of my sites; `mysqldump`
     stopped whenever it got to specific tables, so all tables after
-    those were omitted from the backups. I fixed this two-fold:
+    those were omitted from the backups. I fixed this multi-fold:
+
+  * **ADDED 2023-05-10** (a few months after writing the post): I
+    added a check for the status code from `mysqldump` and a
+    channel-tagged notification if there was a nonzero status code; I
+    also saved the mysqldump error log to a file for further
+    examination. I *should have* done this earlier (and well before
+    the writing of the post) but I somehow skipped the step of trying
+    to capture the mysqldump status code! Because I hadn't done this,
+    I was more reliant than I should have been on my other layers, and
+    poor thinking regarding those layers led to me missing genuine
+    issues.
 
   * I added a verification for significant changes to the size of the
     SQL backup file. In case of detection of a significant size
     change, I'd get tagged in a Slack message.
+
+    **ADDED 2023-05-10**: Although this notification did work to catch
+    major changes to the size of backup files, the downside of the
+    notification logic is that it triggers on only *the one day* that
+    the backup file size changes, so if I miss the notification on
+    that one day, then I am unaware of the issue with the backup file
+    size. This actually happened to me in some cases. Based on this, I
+    updated the logic to include both a notification for a relative
+    size change, and a notification if the size is less than an
+    absolute threshold of 10000 bytes (the smallest of my legitimate
+    backup files is over 15000 bytes). I also included the latter size
+    check in the independent script that I run daily to check if my
+    backups have happened properly; since that script outputs to a
+    different, less noisy, Slack channel, and runs at a different
+    time, I have another layer of notification redundancy.
 
   * I investigated what tables were choking the SQL backup for the
     site where I saw the choking, then manually excluded those tables
@@ -572,3 +598,56 @@ can be used to download additional data.
 * For sites that use other software such as MediaWiki or Wordpress,
   it's hard to square both the code side and the database side of it
   with git.
+
+## Postmortem regarding my checks missing things
+
+On 2023-05-10, I fixed a few holes in my checks. Here's what happened:
+
+* The backup process for one of my sites had been broken for a while,
+  resulting in a backup size of less than 2000 bytes. I hadn't given
+  this a lot of thought at the time, becaause the size didn't seem so
+  low as to trip alarm bells in my head (though it should have!).
+
+  Had I been looking at the `mysqldump` status code in my code, I
+  would have spotted the error a long time ago. But I didn't, even
+  though I had investigated `mysqldump` failures for other sites.
+
+* On 2023-01-25, the `mysqldump` for several of my sites broke on my
+  dev machine, resulting in `mysqldump` outputing very small files
+  that didn't have any of the actual stuff. This triggered the
+  day-over-day size change notifications in Slack, but I somehow
+  missed the Slack notifications on that day. No notifications
+  triggered in later days, because there were no day-over-day changes
+  after that. Miraculously, the problem reversed itself on 2023-05-10,
+  triggering day-over-day change notifications again, and this time I
+  *did* catch the notifications. This led me to make the various
+  fixes. Unfortunately, I don't know the details of the specific
+  `mysqldump` issue because it self-resolved.
+
+  Had I been looking at the `mysqldump` status code in my code, I
+  would have received Slack notifications *every day* that it remained
+  broken (so every day from 2023-01-25 and before 2023-05-10) rather
+  than just the day of transition (2023-01-25). So even if I missed
+  the notifications on one day, I would have seen them another day and
+  acted on them.
+
+  Had I had an absolute size check (that I instituted on 2023-05-10
+  after noticing this), I would have received Slack notifications
+  *every day* that it remained broken (so every day from 2023-01-25
+  and before 2023-05-10) rather than just the day of transition
+  (2023-01-25). So even if I missed the notifications on one day, I
+  would have seen them another day and acted on them.
+
+  Had I been doing the size check as part of the independent checking
+  script, and notifying Slack, I would have had a further layer of
+  redundancy (different time of notification, diferent channel being
+  notified). Also, I would have received Slack notifications *every
+  day* that it remained broken (so every day from 2023-01-25 and
+  before 2023-05-10) rather than just the day of transition
+  (2023-01-25). So even if I missed the notifications on one day, I
+  would have seen them another day and acted on them.
+
+As we can see, my thought process around designing robust
+notifications was not as thorough as I had thought. My direction of
+thinking wasn't wrong; I just didn't go far enough. This is a lesson
+in humility.
