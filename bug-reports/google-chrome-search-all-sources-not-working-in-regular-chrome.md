@@ -6,6 +6,8 @@ I used `Help > Report an Issue` in Google Chrome to report this
 bug. The text I paste below is a copy of what I put in the text box
 for the bug. I also attached a screenshot for illustrative purposes.
 
+I submitted the bug report on 2023-04-29 around 1 PM.
+
 ## Bug report text
 
 I’m using Chrome on a Mac. For my regular Chrome (Chrome 112), in
