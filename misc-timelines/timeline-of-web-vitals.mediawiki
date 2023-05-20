@@ -1,4 +1,22 @@
-This is a timeline of web vitals, a set of metrics championed by Google that relate to how well web pages load. Of particular interest are three metrics Google calls '''core web vitals''', whose values in field data are used to inform a "page experience" score that affects search ranking on mobile devices.
+{{focused coverage period|end-date = April 2023}}
+
+This is a timeline of web vitals, a set of metrics championed by Google that relate to how well web pages load. Of particular interest are three metrics Google calls '''core web vitals''', whose values in field data are used to inform a "page experience" score that affects search ranking within Google.
+
+==Big picture==
+
+{| class="wikitable sortable" border="1"
+! Time period !! Development summary
+|-
+| 2007{{snd}}2015 || This period sees the emergence of diagnostic tools and web standards that help diagnose page load speed. This is also the period where some initial concepts such as "speed index" and "performance budgets" start getting fleshed out.
+|-
+| 2016{{snd}}2018 || This period sees the emergence of systematic datasets covering web performance for a wide range of websites, including the HTTP Archive (that uses Lab data) and the Chrome User Expeience Report (CrUX) that uses field data collected anonymously from Chrome users. It also sees the growth of public diagnostic tools for site performance, including Lighthouse, that is integrated into Chrome's Developer Tools.
+|-
+| 2019 || This is the year when Google starts getting more directly involved with improving site performance, with communication being done via a bunch of blog posts on web.dev. During this year, the understanding of site performance is expanded to include visual stability (epitomized by Cumulative Layout Shift (CLS)). Previously the focus had been on loading speed and interactivity/responsiveness.
+|-
+| 2020 || This is the year that Google officially announces three "core web vitals": Largest Contentful Paint (LCP) for loading speed, Cumulative Layout Shift (CLS) for visual stability, and First Input Delay (FID) for interactivity/responsiveness. Google also provides guidance that the 75th percentile field data values for these metrics will be used to influence search results on mobile and desktop in the coming years. In particular, Google clarifies its focus on "field data" (as collected by the CrUX report) as the data it uses for official evaluation, and clarifies the role of Lab data as an aid for self-diagnosis by people involved with developing websites. The potential of core web vitals to affect search results leads to a flurry of activity in the SEO community. A number of new diagnostic tools and data sources emerge, both from Google and from the rest of the ecosystem, and existing tools on site performance shift direction a little bit to start focusing on core web vitals.
+|-
+| 2021{{snd}}2022 || During this period, Google starts using core web vitals to influence search results, with mobile search results being affected starting mid-2021 and desktop search results being affected starting early 2022. However, the magnitude of impact on search results is small, leading to a dying down of activity and attention to core web vitals in the SEO community. Nonetheless, the overall proportion of origins passing on the core web vitals continues to improve over the period, with CLS (one of the more actionable core web vitals) seeing the most dramatic improvement. The improvements in the case of CLS are due to a combination of definition changes and websites making improvements. The less dramatic improvement for LCP is due to a combination of Chrome browser speed updates, computers getting a litle faster over time, and websites making improvements.
+|}
 
 == List of web vitals and corresponding aspects of performance ==
 
@@ -106,6 +124,25 @@ The table below is based on monthly summaries provided in the CrUX announce mail
 
 == Full timeline ==
 
+===Inclusion criteria===
+
+The following are some kinds of events that qualify for inclusion in the timeline:
+
+* Launch of new private or public diagnostics tools related to web vitals, or major updates to such tools
+* Major version updates to Lighthouse, the main Lab data tool
+* Introduction of a new web vital metric, changes to the definition of a web vital metric, or addition or removal of a web vital from the list of core web vitals
+* Changes to browser behavior that could affect the data for one or more web vitals
+* Blog posts or articles with insight around how to improve on web vitals, or critical discussion of web vitals and how much importance to give to them
+* Important conferences about site performance (such as the performance.now() conference)
+
+Here are some examples of things that will not qualify for this timeline:
+
+* Minor version updates to Lighthouse
+* Performance trajectories of specific websites, except to the extent that the analysis of such performance qualifies as valuable insight into web vitals
+* Individual talks at a conference (such as the performance.now() conference) unless the specific talk breaks a lot of new ground and gets a bunch of commentary; in many cases, talks at these conferences summarize past discussion so the original post or articles for such discussions should be included instead
+
+===Timeline===
+
 {| class="wikitable sortable" border="1"
 ! Year !! Month and date (if available) !! Event type !! Type of tool, entity, or change !! Aspect of performance (specific metrics in parentheses) !! Type of measurement (field data (from real users; aka Real User Monitoring (RUM)) or Lab data (from a bot or synthetic local testing))? !! Event
 |-
@@ -145,7 +182,7 @@ The table below is based on monthly summaries provided in the CrUX announce mail
 |-
 | 2019 || {{dts|May 15}} || Documentation commit || Web standard || Loading speed (LCP) || Field data, Lab data || The first commit to the GitHub repository for the Largest Contentful Paint API is made on this day. This is a proposal by Google for adoption as a web standard, though as of June 2021 it has not been adopted and is only used on Blink-based browsers, which is effectively just Chrome browsers (mainly Chrome, Edge, and Opera).<ref>{{cite web|url = https://github.com/WICG/largest-contentful-paint/commit/d5a260238087e9773a33578e7c37508aac1e7f9b|title = initial commit|date = May 15, 2019|accessdate = June 19, 2021}}</ref>
 |-
-| 2019 || {{dts|June 11}} || Announcement || Metric introduction || Visual stability (CLS) || Field data, Lab data || The blo post "Cumulative Layout Shift (CLS)" is published on web.dev. In the post, Google describes a new metric, Cumulative Layout Shift (CLS), that measures the totality of unexpected shifts during the lifecycle of a page. This builds upon the Layout Instability API that Google started workingg on recently.<ref>{{cite web|url = https://web.dev/cls/|title = Cumulative Layout Shift (CLS)|date = June 11, 2019|accessdate = June 19, 2021|last = Walton|first = Philip|last2 = Mihajlija|first2 = Milica}}</ref>
+| 2019 || {{dts|June 11}} || Announcement || Metric introduction || Visual stability (CLS) || Field data, Lab data || The blog post "Cumulative Layout Shift (CLS)" is published on web.dev. In the post, Google describes a new metric, Cumulative Layout Shift (CLS), that measures the totality of unexpected shifts during the lifecycle of a page. This builds upon the Layout Instability API that Google started workingg on recently.<ref>{{cite web|url = https://web.dev/cls/|title = Cumulative Layout Shift (CLS)|date = June 11, 2019|accessdate = June 19, 2021|last = Walton|first = Philip|last2 = Mihajlija|first2 = Milica}}</ref>
 |-
 | 2019 || {{dts|August 8}} || Announcement || Metric introduction || Loading speed (LCP) || Field data, Lab data || The blog post "Largest Contentful Paint (LCP)" is published on web.dev. In the post, Google describes a new metric, Largest Contentful Paint (LCP), that measures how long it takes for the page's main content to have loaded.<ref>{{cite web|url = https://web.dev/lcp/|title = Largest Contentful Paint (LCP)|date = August 8, 2019|accessdate = June 19, 2021|last = Walton|first = Philip}}</ref>
 |-
