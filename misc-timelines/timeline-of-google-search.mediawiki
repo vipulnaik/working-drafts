@@ -36,83 +36,6 @@ For a history of Google the company, including all of Google's products, acquisi
 | 2015 onward || Google alerts webmasters to mobile usability issues in January, and announces a major update to its search algorithm, to be rolled out starting April 21, 2015, that will heavily demote mobile-unfriendly sites for web searches on mobile devices.
 |}
 
-== Numerical and visual data  ==
-
-=== Mentions on Google Scholar ===
-
-The following table summarizes per-year mentions on Google Scholar as of May 31, 2021.
-
-{| class="sortable wikitable"
-! Year
-! Google Search
-|-
-| 1997 || 261,000
-|-
-| 1998 || 342,000 
-|-
-| 1999 || 383,000
-|-
-| 2000 || 467,000 
-|-
-| 2001 || 490,000 
-|-
-| 2002 || 546,000
-|-
-| 2003 || 567,000 
-|-
-| 2004 || 595,000 
-|-
-| 2005 || 643,000
-|-
-| 2006 || 664,000 
-|-
-| 2007 || 697,000 
-|-
-| 2008 || 679,000
-|-
-| 2009 || 720,000
-|-
-| 2010 || 730,000
-|-
-| 2011 || 728,000
-|-
-| 2012 || 674,000 
-|-
-| 2013 || 726,000
-|-
-| 2014 || 690,000 
-|-
-| 2015 || 665,000   
-|-
-| 2016 || 602,000
-|-
-| 2017 || 505,000
-|-
-| 2018 || 366,000 
-|-
-| 2019 || 238,000  
-|-
-| 2020 || 120,000
-|-
-|}
-
-[[File:Google Search tb.png|thumb|center|700px]]
-
-=== Google Trends ===
-The image below shows {{w|Google Trends}} data for Google Search (Topic) from January 2004 to February 2021, when the screenshot was taken. Interest is also ranked by country and displayed on world map.<ref>{{cite web |title=Google Search |url=https://trends.google.com/trends/explore?date=all&q=%2Fm%2F0387r |website=trends.google.com |access-date=23 February 2021}}</ref>
-
-[[File:Google Search gt.jpg|thumb|center|800px]]
-
-=== Google Ngram Viewer ===
-The chart below shows {{w|Google Ngram Viewer}} data for Google Search from 1997 to 2019.<ref>{{cite web |title=Google Search |url=https://books.google.com/ngrams/graph?content=Google+Search&year_start=1997&year_end=2019&corpus=26&smoothing=3&case_insensitive=true |website=books.google.com |access-date=23 February 2021 |language=en}}</ref>
-
-[[File:Google Search ngram.jpg|thumb|center|800px]]
-
-=== Wikipedia Views ===
-The chart below shows pageviews of the English Wikipedia article {{w|Google Search}} on desktop from December 2007, and on mobile-web, desktop-spider,mobile-web-spider and mobile app, from July 2015; to January 2021.<ref>{{cite web |title=Google Search |url=https://wikipediaviews.org/displayviewsformultiplemonths.php?page=Google+Search&allmonths=allmonths&language=en&drilldown=all |website=wikipediaviews.org |access-date=24 February 2021}}</ref>
-
-[[File:Google Search wv.jpg|thumb|center|600px]]
-
 ==Full timeline==
 
 {| class="wikitable sortable"
@@ -487,26 +410,103 @@ The chart below shows pageviews of the English Wikipedia article {{w|Google Sear
 |-
 | 2021 || {{dts|June 15}} || Analytics || || || Google announces the release of Search Console Insights, a tool that surfaces insights by joining data from Search Console and Google Analytics.<ref>{{cite web|url = https://developers.google.com/search/blog/2021/06/search-console-insights|title = Learn how to improve your content with Search Console Insights|date = June 15, 2021|accessdate = June 18, 2021|publisher = Google Search Central Blog}}</ref>
 |-
-| 2021 || {{dts|June 15}} {{snd}} end of August || Search algorithm update || || || The rollout of Google's "page experience on mobile" update happens during this period. The update is limited to mobile searches, and gives weight to a "page experience" factor that includes performance on core web vitals, mobile usability, security issues, whether the site is HTTPS, and ads experience.<ref>{{cite web|url = https://twitter.com/googlesearchc/status/1404886100087246848|title = The page experience update is now slowly rolling out (Top Stories will begin using this new signal by Thursday). It will be complete by the end of August 2021.|date = June 15, 2021|accessdate = June 18, 2021}}</ref><ref>{{cite web|url = https://searchengineland.com/google-page-experience-update-now-slowly-rolling-out-349649|title = Google page experience update now slowly rolling out. Top stories will stop using AMP as an eligibility factor starting Thursday.|last = Schwartz|first = Barry|date = June 15, 2021|accessdate = June 18, 2021|publisher = Search Engine Land}}</ref>
+| 2021 || {{dts|June 15}} {{snd}} end of August || Search algorithm update || Ranking || Combating bad user experiences (heavy content, slow content, bad user experience) (page experience) || The rollout of Google's "page experience on mobile" update happens during this period. The update is limited to mobile searches, and gives weight to a "page experience" factor that includes performance on core web vitals, mobile usability, security issues, whether the site is HTTPS, and ads experience.<ref>{{cite web|url = https://twitter.com/googlesearchc/status/1404886100087246848|title = The page experience update is now slowly rolling out (Top Stories will begin using this new signal by Thursday). It will be complete by the end of August 2021.|date = June 15, 2021|accessdate = June 18, 2021}}</ref><ref>{{cite web|url = https://searchengineland.com/google-page-experience-update-now-slowly-rolling-out-349649|title = Google page experience update now slowly rolling out. Top stories will stop using AMP as an eligibility factor starting Thursday.|last = Schwartz|first = Barry|date = June 15, 2021|accessdate = June 18, 2021|publisher = Search Engine Land}}</ref>
 |-
-| 2021 || {{dts|June}} (around middle of the month) || Search algorithm update (presentation) || || || Google starts testing a new feature that notifies searchers if the search results for the search query are changing rapidly; the idea is to warn users about stories that are actively evolving.<ref>{{cite web|url = https://blog.google/products/search/new-notice-search-rapidly-evolving-results/|title = A new notice in Search for rapidly evolving results|last = Sullivan|first = Danny|date = June 25, 2021|accessdate = June 26, 2021|publisher = Google}}</ref><ref>{{cite web|url = https://www.vox.com/recode/2021/6/24/22549157/google-unreliable-search-results-changing-quickly-misinformation-conspiracy-theories|title = Google is starting to warn users when it doesn’t have a reliable answer. The company is notifying people when they search for rapidly evolving topics.|date = June 24, 2021|accessdate = June 26, 2021|last = Ghaffary|first = Shirin|publisher = Vox}}</ref>
+| 2021 || {{dts|June}} (around middle of the month) || User experience || Information in SERPs || || Google starts testing a new feature that notifies searchers if the search results for the search query are changing rapidly; the idea is to warn users about stories that are actively evolving.<ref>{{cite web|url = https://blog.google/products/search/new-notice-search-rapidly-evolving-results/|title = A new notice in Search for rapidly evolving results|last = Sullivan|first = Danny|date = June 25, 2021|accessdate = June 26, 2021|publisher = Google}}</ref><ref>{{cite web|url = https://www.vox.com/recode/2021/6/24/22549157/google-unreliable-search-results-changing-quickly-misinformation-conspiracy-theories|title = Google is starting to warn users when it doesn’t have a reliable answer. The company is notifying people when they search for rapidly evolving topics.|date = June 24, 2021|accessdate = June 26, 2021|last = Ghaffary|first = Shirin|publisher = Vox}}</ref>
 |-
-| 2021 || {{dts|June 23}}, June 28 || Search algorithm update || || || Google releases a two-part update to deal with spam; the first part is released on June 23 and the second part on June 28.<ref>{{cite web|url = https://twitter.com/searchliaison/status/1407745802798178305|title = As part of our regular work to improve results, we've released a spam update to our systems.|date = June 23, 2021|accessdate = June 30, 2021|publisher = Google Search Liaison}}</ref><ref>{{cite web|url = https://searchengineland.com/part-two-of-google-search-spam-update-on-june-28-349949|title = Part two of Google Search spam update on June 28 rolling out. This update impacts both web and image results and is a global update.|date = June 28, 2021|accessdate = June 30, 2021|last = Schwartz|first = Barry|publisher = Search Engine Land}}</ref>
+| 2021 || {{dts|June 23}}, June 28 || Search algorithm update || Ranking || Combating low-quality content and bad SEO tactics || Google releases a two-part update to deal with spam; the first part is released on June 23 and the second part on June 28.<ref>{{cite web|url = https://twitter.com/searchliaison/status/1407745802798178305|title = As part of our regular work to improve results, we've released a spam update to our systems.|date = June 23, 2021|accessdate = June 30, 2021|publisher = Google Search Liaison}}</ref><ref>{{cite web|url = https://searchengineland.com/part-two-of-google-search-spam-update-on-june-28-349949|title = Part two of Google Search spam update on June 28 rolling out. This update impacts both web and image results and is a global update.|date = June 28, 2021|accessdate = June 30, 2021|last = Schwartz|first = Barry|publisher = Search Engine Land}}</ref>
 |-
-| 2021 || {{dts|July 1}} {{snd}} {{dts|July 12}} || Search algorithm update || || || Google releases a broad core algorithm update. This is a followup to a broad core update done in June; these two were originally meant to be a single update. SEO commentators note that the update propagated quickly with the effects beginning to be seen shortly after Google's announcement of the rollout, in contrast with the June update that started a little later and had a longer period of increased volatility.<ref>{{cite web|url = https://twitter.com/searchliaison/status/1410629484911349761|title = The July 2021 Core Update, previously announced, is now rolling out|date = July 1, 2021|accessdate = July 7, 2021|publisher = Google Search Liaison}}</ref><ref>{{cite web|url = https://searchengineland.com/googles-july-2021-core-update-rolled-out-quickly-here-is-what-the-data-providers-saw-350243|title = Google’s July 2021 core update rolled out quickly; here is what the data providers saw. While the June core update took a while to start rolling out, the July core update hit hard and fast.|date = July 7, 2021|accessdate = July 7, 2021|last = Schwartz|first = Barry|publisher = Search Engine Land}}</ref><ref>{{cite web|url = https://searchengineland.com/google-july-2021-core-update-is-finished-rolling-out-350380|title = Google July 2021 core update is finished rolling out. After 12-days, Google said the July 2021 core update is done. It rolled out between July 1st and July 12th.|last = Schwartz|first = Barry|date = July 12, 2021|accessdate = July 13, 2021|publisher = Search Engine Land}}</ref>
+| 2021 || {{dts|July 1}} {{snd}} {{dts|July 12}} || Search algorithm update || Ranking || Core || Google releases a broad core algorithm update. This is a followup to a broad core update done in June; these two were originally meant to be a single update. SEO commentators note that the update propagated quickly with the effects beginning to be seen shortly after Google's announcement of the rollout, in contrast with the June update that started a little later and had a longer period of increased volatility.<ref>{{cite web|url = https://twitter.com/searchliaison/status/1410629484911349761|title = The July 2021 Core Update, previously announced, is now rolling out|date = July 1, 2021|accessdate = July 7, 2021|publisher = Google Search Liaison}}</ref><ref>{{cite web|url = https://searchengineland.com/googles-july-2021-core-update-rolled-out-quickly-here-is-what-the-data-providers-saw-350243|title = Google’s July 2021 core update rolled out quickly; here is what the data providers saw. While the June core update took a while to start rolling out, the July core update hit hard and fast.|date = July 7, 2021|accessdate = July 7, 2021|last = Schwartz|first = Barry|publisher = Search Engine Land}}</ref><ref>{{cite web|url = https://searchengineland.com/google-july-2021-core-update-is-finished-rolling-out-350380|title = Google July 2021 core update is finished rolling out. After 12-days, Google said the July 2021 core update is done. It rolled out between July 1st and July 12th.|last = Schwartz|first = Barry|date = July 12, 2021|accessdate = July 13, 2021|publisher = Search Engine Land}}</ref>
 |-
-| 2021 || {{dts|July 22}} || Insight || || || Google announces that its "About this result" panel will now include reasons a particular search result was shown. Types of reasons spotted include: search terms that appear in the result, search terms related to your search, other websites with your search terms link to this result, this result has images related to your search, this result is in your language, this result is relevant for searches in your region.<ref name=why-google/><ref name=atr-google/>
+| 2021 || {{dts|July 22}} || Transparency || Explanation of search results || || Google announces that its "About this result" panel will now include reasons a particular search result was shown. Types of reasons spotted include: search terms that appear in the result, search terms related to your search, other websites with your search terms link to this result, this result has images related to your search, this result is in your language, this result is relevant for searches in your region.<ref name=why-google/><ref name=atr-google/>
 |-
-| 2021 || {{dts|November 17}} {{snd}} November 30 || Search algorithm update || || || Google releases a broad core algorithm update.<ref>{{cite web|url = https://twitter.com/googlesearchc/status/1460970568128385031|title = Later today, we are releasing a broad core update, as we do several times per year. It is called the November 2021 Core Update. Our guidance about such updates is here:|date = November 17, 2021|accessdate = December 6, 2021|author = Google Search Console|publisher = Twitter}}</ref> SEO companies generally find that the bulk of the impact of the update is within its first 24 hours, unlike some past core algorithm updates for which the high rankings flux continued for a few days.<ref>{{cite web|url = https://searchengineland.com/googles-november-2021-core-update-hit-fast-and-hard-here-is-what-the-data-providers-saw-376312|title = Google’s November 2021 core update hit fast and hard; here is what the data providers saw. The results from this data showed that this rollout hit hard within the first 24 hours of the announcement and then slowed fast.|last = Schwartz|first = Barry|date = November 23, 2021|accessdate = December 6, 2021|publisher = Search Engine Land}}</ref>
+| 2021 || {{dts|November 17}} {{snd}} November 30 || Search algorithm update || Ranking || Core || Google releases a broad core algorithm update.<ref>{{cite web|url = https://twitter.com/googlesearchc/status/1460970568128385031|title = Later today, we are releasing a broad core update, as we do several times per year. It is called the November 2021 Core Update. Our guidance about such updates is here:|date = November 17, 2021|accessdate = December 6, 2021|author = Google Search Console|publisher = Twitter}}</ref> SEO companies generally find that the bulk of the impact of the update is within its first 24 hours, unlike some past core algorithm updates for which the high rankings flux continued for a few days.<ref>{{cite web|url = https://searchengineland.com/googles-november-2021-core-update-hit-fast-and-hard-here-is-what-the-data-providers-saw-376312|title = Google’s November 2021 core update hit fast and hard; here is what the data providers saw. The results from this data showed that this rollout hit hard within the first 24 hours of the announcement and then slowed fast.|last = Schwartz|first = Barry|date = November 23, 2021|accessdate = December 6, 2021|publisher = Search Engine Land}}</ref>
 |-
-| 2022 || {{dts|February 22}} {{snd}} {{dts|March 3}} || Search algorithm update || || || As previously announced on November 4, 2021, Google executes on the rollout of using page experience as a ranking factor on desktop during this period. Page experience on desktop includes all the core web vitals as well as all the other page experience signals on mobile except mobile-friendliness.<ref>{{cite web|url = https://twitter.com/googlesearchc/status/1499440494060916745|title = The page experience rollout is now complete for desktop.|date = March 3, 2022|accessdate = March 3, 2022|publisher = Google Search Console}}</ref><ref>{{cite web|url = https://developers.google.com/search/blog/2021/11/bringing-page-experience-to-desktop|title = Timeline for bringing page experience ranking to desktop|date = November 4, 2021|accessdate = November 8, 2021|publisher = Google Search Central}}</ref><ref>{{cite web|url = https://searchengineland.com/google-to-add-page-experience-ranking-signals-to-desktop-search-in-february-2022-375807|title = Google to add page experience ranking signals to desktop search in February 2022. The rollout will be complete by the end of March 2022.|last = Schwartz|first = Barry|date = November 4, 2021|accessdate = November 8, 2021|publisher = Search Engine Land}}</ref>
+| 2022 || {{dts|February 22}} {{snd}} {{dts|March 3}} || Search algorithm update || Ranking || Combating bad user experiences (heavy content, slow content, bad user experience) (page experience) || As previously announced on November 4, 2021, Google executes on the rollout of using page experience as a ranking factor on desktop during this period. Page experience on desktop includes all the core web vitals as well as all the other page experience signals on mobile except mobile-friendliness.<ref>{{cite web|url = https://twitter.com/googlesearchc/status/1499440494060916745|title = The page experience rollout is now complete for desktop.|date = March 3, 2022|accessdate = March 3, 2022|publisher = Google Search Console}}</ref><ref>{{cite web|url = https://developers.google.com/search/blog/2021/11/bringing-page-experience-to-desktop|title = Timeline for bringing page experience ranking to desktop|date = November 4, 2021|accessdate = November 8, 2021|publisher = Google Search Central}}</ref><ref>{{cite web|url = https://searchengineland.com/google-to-add-page-experience-ranking-signals-to-desktop-search-in-february-2022-375807|title = Google to add page experience ranking signals to desktop search in February 2022. The rollout will be complete by the end of March 2022.|last = Schwartz|first = Barry|date = November 4, 2021|accessdate = November 8, 2021|publisher = Search Engine Land}}</ref>
 |-
-| 2022 || {{dts|May 25}} {{snd}} {{dts|June 9}} || Search algorithm update || || || Google releases a broad core algorithm update.<ref>{{cite web|url = https://developers.google.com/search/blog/2022/05/may-2022-core-update|title = May 2022 core update releasing for Google Search|date = May 25, 2022|accessdate = June 2, 2023|publisher = Google Search Central Blog}}</ref><ref>{{cite web|url = https://support.google.com/webmasters/thread/164906639|title = May 2022 core update|last = Mueller|first = John|date = May 25, 2022|accessdate = June 2, 2023}}</ref><ref>{{cite web|url = https://www.semrush.com/blog/google-may-2022-core-update/|title = The May 2022 Core Update: The Initial Impact|last = Oberstein|first = Mordy|date = June 1, 2022|accessdate = June 2, 2023}}</ref> According to Search Engine Land, the update "was significant and hit fast" based on volatiility-tracking tools.<ref>{{cite web|url = https://searchengineland.com/googles-may-2022-core-update-impact-was-mixed-but-it-touched-down-fast-and-seemed-very-large-385479|title = Google’s May 2022 core update was significant and hit fast. The data is in early from the tracking tools and here is what these tools are showing with the latest Google algorithm update.|last = Schwartz|first = Barry|date = May 31, 2022|accessdate = June 2, 2023}}</ref> According to an article in Search Engine Journal, the winners include big e-commerce brands (such as Amazon, eBay, and Etsy) and video sites (such as YouTube, TikTok, Disney Plus, Hulu, and Twitch) while the losers include news and media publishers and reference websites. New SERP features related to visual SERPs are also spotted.<ref>{{cite web|url = https://www.searchenginejournal.com/google-may-core-update-impact/456886/|title = Google’s May 2022 Core Update: What’s the Impact So Far? We analyzed the impact of Google's May 2022 core update to determine what you can learn from spikes and drops in search rankings across industries.|last = Larkin|first = Kayle|date = July 11, 2022|accessdate = June 2, 2023|publisher = Search Engine Land}}</ref>
+| 2022 || {{dts|May 25}} {{snd}} {{dts|June 9}} || Search algorithm update || Ranking || Core || Google releases a broad core algorithm update.<ref>{{cite web|url = https://developers.google.com/search/blog/2022/05/may-2022-core-update|title = May 2022 core update releasing for Google Search|date = May 25, 2022|accessdate = June 2, 2023|publisher = Google Search Central Blog}}</ref><ref>{{cite web|url = https://support.google.com/webmasters/thread/164906639|title = May 2022 core update|last = Mueller|first = John|date = May 25, 2022|accessdate = June 2, 2023}}</ref><ref>{{cite web|url = https://www.semrush.com/blog/google-may-2022-core-update/|title = The May 2022 Core Update: The Initial Impact|last = Oberstein|first = Mordy|date = June 1, 2022|accessdate = June 2, 2023}}</ref> According to Search Engine Land, the update "was significant and hit fast" based on volatiility-tracking tools.<ref>{{cite web|url = https://searchengineland.com/googles-may-2022-core-update-impact-was-mixed-but-it-touched-down-fast-and-seemed-very-large-385479|title = Google’s May 2022 core update was significant and hit fast. The data is in early from the tracking tools and here is what these tools are showing with the latest Google algorithm update.|last = Schwartz|first = Barry|date = May 31, 2022|accessdate = June 2, 2023}}</ref> According to an article in Search Engine Journal, the winners include big e-commerce brands (such as Amazon, eBay, and Etsy) and video sites (such as YouTube, TikTok, Disney Plus, Hulu, and Twitch) while the losers include news and media publishers and reference websites. New SERP features related to visual SERPs are also spotted.<ref>{{cite web|url = https://www.searchenginejournal.com/google-may-core-update-impact/456886/|title = Google’s May 2022 Core Update: What’s the Impact So Far? We analyzed the impact of Google's May 2022 core update to determine what you can learn from spikes and drops in search rankings across industries.|last = Larkin|first = Kayle|date = July 11, 2022|accessdate = June 2, 2023|publisher = Search Engine Land}}</ref>
 |-
-| 2022 || {{dts|August 25}} {{snd}} {{dts|September 9}} || Search algorithm update || || || Google releases a "helpful content" update that is intended to demote content that is written primarily for search engines, and promote content that it deems to be helpful to humans. The determination of whether content is helpful is done through machine learning, and validated via quality raters.<ref>{{cite web|url = https://searchengineland.com/google-helpful-content-update-is-now-done-rolling-out-387832|title = Google helpful content update is now done rolling out. The update started on August 25th and completed 15 days later on September 9th.|last = Schwartz|first = Barry|date = September 9, 2022|accessdate = June 2, 2023}}</ref>
+| 2022 || {{dts|August 25}} {{snd}} {{dts|September 9}} || Search algorithm update || Ranking || Combating low-quality content and bad SEO tactics || Google releases a "helpful content" update that is intended to demote content that is written primarily for search engines, and promote content that it deems to be helpful to humans. The determination of whether content is helpful is done through machine learning, and validated via quality raters.<ref>{{cite web|url = https://searchengineland.com/google-helpful-content-update-is-now-done-rolling-out-387832|title = Google helpful content update is now done rolling out. The update started on August 25th and completed 15 days later on September 9th.|last = Schwartz|first = Barry|date = September 9, 2022|accessdate = June 2, 2023}}</ref>
 |-
-| 2022 || {{dts|September 12}} {{snd}} {{dts|September 26}} || Search algorithm update || || || Google releases a broad core algorithm update. According to Search Engine Land, the update "hit fast but was less significant than previous updates" based on volatility-tracking tools; Semrush has a similar assessment.<ref>{{cite web|url = https://searchengineland.com/googles-september-2022-core-update-hit-fast-but-was-less-significant-than-previous-updates-388088|title = Google’s September 2022 core update hit fast but was less significant than previous updates. The data is in from the tracking tools and here is what these tools are showing with the latest Google algorithm update.|last = Schwartz|first = Barry|date = September 21, 2022|accessdate = June 2, 2023|publisher = Search Engine Land}}</ref><ref>{{cite web|url = https://www.semrush.com/blog/september-2022-core-update-impact/|title = September 2022 Core Update Impact|last = Oberstein|first = Mordy|date = September 26, 2022|accessdate = June 2, 2023|publisher = Semrush Blog}}</ref>
+| 2022 || {{dts|September 12}} {{snd}} {{dts|September 26}} || Search algorithm update || Ranking || Core || Google releases a broad core algorithm update. According to Search Engine Land, the update "hit fast but was less significant than previous updates" based on volatility-tracking tools; Semrush has a similar assessment.<ref>{{cite web|url = https://searchengineland.com/googles-september-2022-core-update-hit-fast-but-was-less-significant-than-previous-updates-388088|title = Google’s September 2022 core update hit fast but was less significant than previous updates. The data is in from the tracking tools and here is what these tools are showing with the latest Google algorithm update.|last = Schwartz|first = Barry|date = September 21, 2022|accessdate = June 2, 2023|publisher = Search Engine Land}}</ref><ref>{{cite web|url = https://www.semrush.com/blog/september-2022-core-update-impact/|title = September 2022 Core Update Impact|last = Oberstein|first = Mordy|date = September 26, 2022|accessdate = June 2, 2023|publisher = Semrush Blog}}</ref>
 |}
+
+== Numerical and visual data  ==
+
+=== Mentions on Google Scholar ===
+
+The following table summarizes per-year mentions on Google Scholar as of May 31, 2021.
+
+{| class="sortable wikitable"
+! Year
+! Google Search
+|-
+| 1997 || 261,000
+|-
+| 1998 || 342,000 
+|-
+| 1999 || 383,000
+|-
+| 2000 || 467,000 
+|-
+| 2001 || 490,000 
+|-
+| 2002 || 546,000
+|-
+| 2003 || 567,000 
+|-
+| 2004 || 595,000 
+|-
+| 2005 || 643,000
+|-
+| 2006 || 664,000 
+|-
+| 2007 || 697,000 
+|-
+| 2008 || 679,000
+|-
+| 2009 || 720,000
+|-
+| 2010 || 730,000
+|-
+| 2011 || 728,000
+|-
+| 2012 || 674,000 
+|-
+| 2013 || 726,000
+|-
+| 2014 || 690,000 
+|-
+| 2015 || 665,000   
+|-
+| 2016 || 602,000
+|-
+| 2017 || 505,000
+|-
+| 2018 || 366,000 
+|-
+| 2019 || 238,000  
+|-
+| 2020 || 120,000
+|-
+|}
+
+[[File:Google Search tb.png|thumb|center|700px]]
+
+=== Google Trends ===
+The image below shows {{w|Google Trends}} data for Google Search (Topic) from January 2004 to February 2021, when the screenshot was taken. Interest is also ranked by country and displayed on world map.<ref>{{cite web |title=Google Search |url=https://trends.google.com/trends/explore?date=all&q=%2Fm%2F0387r |website=trends.google.com |access-date=23 February 2021}}</ref>
+
+[[File:Google Search gt.jpg|thumb|center|800px]]
+
+=== Google Ngram Viewer ===
+The chart below shows {{w|Google Ngram Viewer}} data for Google Search from 1997 to 2019.<ref>{{cite web |title=Google Search |url=https://books.google.com/ngrams/graph?content=Google+Search&year_start=1997&year_end=2019&corpus=26&smoothing=3&case_insensitive=true |website=books.google.com |access-date=23 February 2021 |language=en}}</ref>
+
+[[File:Google Search ngram.jpg|thumb|center|800px]]
+
+=== Wikipedia Views ===
+The chart below shows pageviews of the English Wikipedia article {{w|Google Search}} on desktop from December 2007, and on mobile-web, desktop-spider,mobile-web-spider and mobile app, from July 2015; to January 2021.<ref>{{cite web |title=Google Search |url=https://wikipediaviews.org/displayviewsformultiplemonths.php?page=Google+Search&allmonths=allmonths&language=en&drilldown=all |website=wikipediaviews.org |access-date=24 February 2021}}</ref>
+
+[[File:Google Search wv.jpg|thumb|center|600px]]
 
 ==See also==
 
