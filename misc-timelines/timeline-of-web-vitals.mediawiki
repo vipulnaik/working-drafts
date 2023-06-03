@@ -1,4 +1,4 @@
-{{focused coverage period|end-date = April 2023}}
+{{focused coverage period|end-date = May 2023}}
 
 This is a timeline of web vitals, a set of metrics championed by Google that relate to how well web pages load. Of particular interest are three metrics Google calls '''core web vitals''', whose values in field data are used to inform a "page experience" score that affects search ranking within Google.
 
@@ -37,9 +37,9 @@ Note that for the three web vitals measured in both field and Lab data, the thre
 |-
 | Total Blocking Time (TBT) || Interactivity/responsiveness || No || No || Yes (since v6) || Yes || 200 || 600
 |-
-| First Input Delay (FID) || Interactivity/responsiveness || Yes || Yes || No || No || 100 || 300
+| First Input Delay (FID) || Interactivity/responsiveness || Yes (but set to retire March 2024) || Yes || No || No || 100 || 300
 |-
-| Interaction to Next Paint (INP) || Interactivity/responsiveness || No || Yes || No || No || 200 || 500
+| Interaction to Next Paint (INP) || Interactivity/responsiveness || No (but set to become one in March 2024) || Yes || No || No || 200 || 500
 |-
 | Cumulative Layout Shift (CLS) || Visual stability || Yes || Yes || Yes || Yes || 0.1 || 0.25
 |}
@@ -120,6 +120,8 @@ The table below is based on monthly summaries provided in the CrUX announce mail
 | 2023-02 || 18,184,396 || 56.3 || 95.3 || 73.1 || 43.1
 |-
 | 2023-03 || 18,495,210 || 57.7 || 95.5 || 73.4 || 44.2
+|-
+| 2023-04 || 18,406,973 || 57.1 || 95.3 || 72.9 || 43.5
 |}
 
 == Full timeline ==
@@ -242,7 +244,7 @@ Here are some examples of things that will not qualify for this timeline:
 |-
 | 2021 || {{dts|June 24}} || Release || Public diagnostic tool || All || Field data || The HTTP Archive's Core Web Vitals Technology Report is released. This builds on the Chrome User Experience Report (CrUX report) as well as the HTTP Archive's data on CMS and technology stacks used by various websites, to provide a big-picture view of performance on core web vitals by CMS and technology stack.<ref>{{cite web|url = https://discuss.httparchive.org/t/new-dashboard-the-core-web-vitals-technology-report/2178?u=rviscomi|title = New dashboard: the Core Web Vitals technology report|date = June 24, 2021|accessdate = July 17, 2021|publisher = HTTP Archive}}</ref>
 |-
-| 2021 || {{dts|August 17}} || Insight || Search algorithmm update || All || Field data, Lab data || A blog post on the Semrush blog reviews the rollout of Google's page experience update. It goes over trends in field data and Lab data performance of mobile urls before and during the rollout, as well as the correlation with mobile search rankings. It detects a small correlation in the expected direction.<ref>{{cite web|url = https://www.semrush.com/blog/core-web-vitals-update-initial-impact/|title = 2021 Core Web Vitals Update: Assessing the Initial Impact|last = McIlraith|last = Aoife|date = August 17, 2021|accessdate = January 4, 2022|publisher = Semrush}}</ref><ref name=sel-page-experience-review>{{cite web|url = https://searchengineland.com/core-web-vitals-the-seo-retrospective-and-an-introduction-to-optimizing-with-priority-hints-375536|title = Core Web Vitals: SEOs aren’t sold the work was worth it. But, UX remains crucial and Google has introduced Priority Hints to help site owners and browsers prioritize which resources to load first.|date = October 27, 2021|accessdate = January 4, 2022|publisher = Search Engine Land|last = Nguyen|first = George}}</ref>
+| 2021 || {{dts|August 17}} || Insight || Search algorithm update || All || Field data, Lab data || A blog post on the Semrush blog reviews the rollout of Google's page experience update. It goes over trends in field data and Lab data performance of mobile urls before and during the rollout, as well as the correlation with mobile search rankings. It detects a small correlation in the expected direction.<ref>{{cite web|url = https://www.semrush.com/blog/core-web-vitals-update-initial-impact/|title = 2021 Core Web Vitals Update: Assessing the Initial Impact|last = McIlraith|last = Aoife|date = August 17, 2021|accessdate = January 4, 2022|publisher = Semrush}}</ref><ref name=sel-page-experience-review>{{cite web|url = https://searchengineland.com/core-web-vitals-the-seo-retrospective-and-an-introduction-to-optimizing-with-priority-hints-375536|title = Core Web Vitals: SEOs aren’t sold the work was worth it. But, UX remains crucial and Google has introduced Priority Hints to help site owners and browsers prioritize which resources to load first.|date = October 27, 2021|accessdate = January 4, 2022|publisher = Search Engine Land|last = Nguyen|first = George}}</ref>
 |-
 | 2021 || {{dts|August 17}} || Insight || Public diagnostic tool, private diagnostic tool || All || Field data, Lab data || A blog post on web.dev describes how field and Lab data differ conceptually, how the values of field data and Lab data might differ in general, and concrete field/Lab differences associated with the three core web vitals.<ref>{{cite web|url = https://web.dev/lab-and-field-data-differences/|title = Why lab and field data can be different (and what to do about it). Learn why tools that monitor Core Web Vitals metrics may report different numbers, and how to interpret those differences.|last = Walton|first = Philip|date = August 17, 2021|accessdate = May 23, 2022}}</ref>
 |-
@@ -295,6 +297,8 @@ Here are some examples of things that will not qualify for this timeline:
 | 2023 || {{dts|February 7}} || Release || Public diagnostic tool || All || Field data || The CrUX History API is introduced; this API provides access to CrUX data at the level of url and origin for the past 6 months.<ref>{{cite web|url = https://developer.chrome.com/blog/chrome-ux-report-history-api/|title = Introducing historical web performance data via the CrUX History API|last = Henkel|first = Johannes|last2 = Yan|first2 = Jasmine|last3 = Pollard|first3 = Barry|date = February 7, 2023|accessdate = May 8, 2023}}</ref>
 |-
 | 2023 || {{dts|February 9}} (announcement), ~February 16 and March 29 (rollout) || New version || Public diagnostic tool || All || Lab data || Lighthouse 10 is announced; this introduces the scoring change of removing Time to Interactive (TTI) from the score calculation. There are a number of other changes to the available audits and the code now ships with full TypeScript declarations. Lighthouse 10 is shipped to PageSpeed Insights in mid-February and releases as part of Chrome 112 with its release on March 29.<ref>{{cite web|url = https://developer.chrome.com/en/blog/lighthouse-10-0/|title = What's new in Lighthouse 10|last = Kenny|first = Brandon|date = February 9, 2023|accessdate = May 8, 2023}}</ref><ref>{{cite web|url = https://www.searchenginejournal.com/lighthouse-10-tti-removal/479789/|title = Lighthouse 10 Improves PageSpeed Insights Scores For 90% Of Pages. Removal of TTI metric in Lighthouse 10, available now in PageSpeed Insights, increases scores of the vast majority of webpages|last = Montti|first = Roger|date = February 16, 2023|accessdate = May 8, 2023|publisher = Search Engine Journal}}</ref>
+|-
+| 2023 || {{dts|May 10}} (announcement) for planned change March 2024 || Metric status update || Interactivity/responsiveness (First Input Delay (FID) and Interaction to Next Paint (INP)) || Field data || Google announces that Interaction to Next Paint (INP) will replace First Input Delay (FID) in the list of core web vitals, with the replacement planned for March 2024. As of the date of announcement, INP is immediately changed from an "experimental" metric to a "pending" core web vital.<ref>{{cite web|url = https://web.dev/inp-cwv/|title = Advancing Interaction to Next Paint. INP is no longer experimental. Learn about Chrome's plan to make it a Core Web Vital in 2024.|last = Viscomi|first = Rick|last2 = Sullivan|first2 = Annie|date = May 10, 2023|accessdate = June 2, 2023|publisher = web.dev}}</ref><ref>{{cite web|url = https://developers.google.com/search/blog/2023/05/introducing-inp|title = Introducing INP to Core Web Vitals|title = Introducing INP to Core Web Vitals|date = May 10, 2023|accessdate = June 2, 2023|publisher = Google Search Central Blog}}</ref> On the same day, it is announced that the INP metric is available in the CrUX BigQuery, API, and History API both with and without the experimental prefix.<ref>{{cite web|url = https://groups.google.com/a/chromium.org/g/chrome-ux-report-announce/c/_1ja3Bg-3Ow|title = The 202304 dataset is live|date = May 10, 2023|accessdate = June 2, 2023}}</ref>
 |}
 
 == See also ==
