@@ -22,7 +22,7 @@ the former also matters since in at least some cases, the source code
 of a public website is not public (and may contain information that
 shouldn't be public).
 
-### Security even conditional to partial compromise
+### Security even conditional to partial compromise (related: defense in depth)
 
 I conceptualize security as being about layers of defense against
 attackers, both intentional attackers and accidental intruders. To my
@@ -31,6 +31,15 @@ form "Even if A is broken/misconfigured/compromised, B will still not
 be compromised" where A and B are "near" each other in some sense. So,
 security isn't just about having a strong outer defense, but also
 about inner decoupling to the extent possible.
+
+I conceptualized this before I learned the formal jargon of [defense
+in depth](https://en.wikipedia.org/wiki/Defense_in_depth_(computing)),
+but upon learning of that jargon I see that my concept is closely
+related. Specifically, defense in depth is the idea of having multiple
+enclosures or layers of defense, so that even if outer layers are
+breached, inner layers are still intact. My concept of "security
+conditional to partial compromise" is a local version of this general
+idea.
 
 ### Separation for ease of diagnosis and for seamless rotation
 
