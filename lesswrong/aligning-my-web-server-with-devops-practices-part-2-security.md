@@ -43,7 +43,78 @@ idea.
 
 ### Separation for ease of diagnosis and for seamless rotation
 
-(elaborate on this next time)
+When a security issue occurs, it is best if the issue is
+self-containing, easy to diagnose, and easy to remediate with minimal
+disruption. A key aspect of this is *separation*; even functionally
+similar things should be as separate as possible so that the
+responsible party for an issue can be quickly identified, the issue
+remains limited in scope, and it's easy to fix the one thing causing
+issues without affecting other things. A few ways this manifests
+itself:
+
+* For different servers (even if they're running similar code), I
+  always put different credentials for access to third-party
+  services. That way, if one server gets compromised, the credentials
+  on that server can be disabled without affecting the functionality
+  of other servers.
+
+* Within the same server, I use different username/password
+  combinations for access to different websites. This is the case even
+  though the same web user runs the code to access all these websites,
+  so that user has access to all the username/password combinations in
+  principle. However, the portion of code that gets compromised could
+  still be more local and specific to a particular site, so it's good
+  if the damage that such a compromise could achieve is limited.
+
+## Identifying the layers of security
+
+### The layers for web requests
+
+Before getting into the details, here's an effort to step back and use
+the general philosophy outlined above to figure out what the next few
+sections should be.
+
+* The outermost starting point seems to be the ports through which
+  users can connect to the server, so control over ports (aka
+  firewalls / security groups) is the outermost security layer to
+  begin with.
+
+* With the firewall set up, the only way to access the server is
+  through the front door i.e., the web processes. So the next layer of
+  defense is to limit the scope of the web process. This is two-fold:
+  make sure the web process is running on a user different from the
+  main user, and limit the file and database permissions that the web
+  user can access.
+
+* With the web process constrained, there is now a limited range of
+  damage possible, but there is still some damage possible. We're now
+  in the stage where code is being run, so the next step is:
+
+  * Secure the code I've written as much as possible
+
+  * Update software that I use directly for web serving (MediaWiki and WordPress)
+
+### Zooming in early on the web requests
+
+I started by saying that the outermost starting point is the ports
+through which the user hits the web server. But even before that,
+there is a process by which the name of the website resolves to the IP
+address. This process has two layers:
+
+* Domain registration that points each top-level domain to the
+  nameservers for the hosting service (Linode)
+* DNS records that point specific domains or subdomains to specific
+  servers
+
+Securing these basically means securing the online logins through
+which these are controlled. In particular, I have strong passwords for
+both cases and also have 2-factor authentication for both.
+
+### Other stuff on the side
+
+OS and software updates.
+
+CPU monitoring?
 
 ## Firewall / security group
 
@@ -205,8 +276,30 @@ worked on setting up the firewall -- something I should have done to begin with!
 #### Also in the real world: MySQL installations open to the world
 
 I've heard of a couple of cases where MySQL installations that had a
-weak or empty root password set by default were predictably hacked
-into.
+weak or empty root password set by default *as well as having the port
+open to the world* were predictably hacked into. In some cases this
+was right around the time the server was being set up (so hadn't had
+time to switch away from default credentials) whereas in others the
+server had been left idle with default credentials.
+
+I am not alone; see this excerpt from [Darknet Diaries podcast episode
+#88 (Victor)](https://darknetdiaries.com/transcript/88/):
+
+> JACK: Here’s the basic process; databases run on a certain port, so
+> MySQL, for example, runs on port 3306, and so he could just scan the
+> internet or use a website like Shodan to first look for any IPs that
+> have port 3306 open.  Then once he finds that, he’ll try default
+> usernames and passwords or maybe a handful of very weak passwords
+> like the word ‘password’ to see if that’s it.  Yeah, from this
+> alone, he was tripping over tons of open databases.  Some didn’t
+> even have passwords at all.  Then they’d tell all the database
+> owners that their stuff is insecure.  As their efforts grew, so did
+> the number of people pitching in to help GDI.  [MUSIC] In the
+> beginning, it was just Victor and his friends but almost fifty
+> different volunteers have joined on [00:10:00] in the last five
+> years.  In that time, the foundation has filed coordinated
+> vulnerability disclosures on over a million security issues out
+> there on the internet.
 
 ### My recommendation for others: use a firewall even if you're not sure
 
@@ -265,12 +358,26 @@ process).
 
 ### File permissions
 
+A well-known direction of attack used by real-world attackers as well
+as penetration testers is a [directory traversal
+attack](https://en.wikipedia.org/wiki/Directory_traversal_attack)
+where the web process is tricked into accessing files and folders that
+are outside of the web root folder. One layer of security to defend
+against this kind of attack is to limit the permissions to files and
+folders that the user running the web process has. So even if this
+user gets compromised, the user can only do damage within a limited
+sphere.
+
 All the automatic scripts that I've written to set up new sites
 include steps to make sure that the files readable by others are just
 the ones that are needed for the web processes. And in almost no cases
 do the users running the web processes have file *write* permissions;
 all writes are done through scripts run directly by me, or scheduled
-through cron to be run automatically -- but not invokable via the web.
+through cron to be run automatically -- but not invokable via the
+web. The exception is when there is a need to save uploaded or
+programmatically generated images; in such cases, the write
+permissions of the user running the web process are limited to the
+folder(s) containing images.
 
 In addition, I've set `umask` settings so that any files I create
 through the command line on the server will get the default of not
@@ -300,15 +407,40 @@ write access.
 
 While as much as possible, it is good to limit the permissions for the
 web processes, there are some cases where the web processes do need
-write permissions to execute legitimate tasks. We want to prevent end
-users of websites from being able to send the web process any
-instructions or commands outside of the very specific things we want
-to constrain them to. For instance, we don't want them to be able to
-run arbitrary SQL queries, or arbitrary shell commands.
+write permissions (particularly on the database side) to execute
+legitimate tasks. We want to prevent end users of websites from being
+able to send the web process any instructions or commands outside of
+the very specific things we want to constrain them to. For instance,
+we don't want them to be able to run arbitrary SQL queries, or
+arbitrary shell commands.
 
-### Safe querying on SQL, to reduce the risk of injection attacks
+### Safe querying with prepared statements to reduce the risk of SQL injection attacks
 
-(Safe querying for own repos)
+One common form of attack is a [SQL
+injection](https://en.wikipedia.org/wiki/SQL_injection); this
+generally applies to SQL queries that include some variables inside
+them that are populated based on inputs that can be influenced through
+the web. For instance, a SQL query that is constructed based on url
+parameters or based on data entered into a form. A SQL injection
+attack may use some syntax tricks to smuggle in another query into the
+url parameter or form data, where this other query allows for
+manipulation of the data in ways different than desired.
+
+Limiting database permissions as discussed in an earlier section, to
+only allow read permissions unless otherwise needed, can limit the
+damage here: if the user running the SQL commands only has ready
+permissions, the user can't do much damage even if it gets
+SQL-injected. However, some kinds of sites require write permissions
+to be available to the SQL user. So having a way to query that doesn't
+allow for SQL injection would be nice.
+
+Fortunately, MySQL has a concept of [prepared
+statements](https://www.w3schools.com/php/php_mysql_prepared_statements.asp)
+whereby it does the query interpolation itself. As much as possible,
+I've tried to switch all my homegrown PHP sites to use prepared
+statements. Regarding the off-the-shelf software I use that uses MySQL
+database, I hope and expect that the developers of the software are
+constantly vigilant about the issue and stick to prepared statements.
 
 ## Unique credentials for external services with limited permissions
 
@@ -347,16 +479,21 @@ codebase for these softwares is large, and often, vulnerabilities are
 detected in the softwares (or in extensions or plugins to the
 softwares). Staying up-to-date with security patches is important.
 
-Having an automated or streamlined process for updates helps with this
-...
-
 Also, a streamlined setup process makes it easier to update the
 underlying OS and stack more frequently, allowing the server to
 benefit from the improved security of newer versions.
 
 Having out-of-date software is a liability even if it has no known
 security holes, because the vendor may not be publishing patches for
-future security holes once they are found.
+future security holes once they are found. Out-of-date software may
+also lack compatibility with up-to-date versions of *other* software
+or even operating systems.
+
+### Automated updates
+
+(Process of automating WordPress updates)
+
+### Periodic manual updates
 
 ## Backups, with established recovery procedures, help with security
 
