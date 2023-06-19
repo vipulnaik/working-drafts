@@ -114,6 +114,8 @@ both cases and also have 2-factor authentication for both.
 
 OS and software updates.
 
+External credentials
+
 CPU monitoring?
 
 ## Firewall / security group
