@@ -131,7 +131,10 @@ address. This process has two layers:
 
 Securing these basically means securing the online logins through
 which these are controlled. In particular, I have strong passwords for
-both cases and also have 2-factor authentication for both.
+both cases and also have 2-factor authentication for both. The online
+accounts are also important as they control access to the servers
+themselves, and in particular may be powerful enough to destroy or
+reset settings on the servers.
 
 ### Other stuff on the side
 
@@ -210,6 +213,20 @@ language supports both specifying an individual IP address and
 specifying "all IP addresses" at once, as well as a bunch of stuff in
 between.
 
+Although not super-easy, [IP address
+spoofing](https://en.wikipedia.org/wiki/IP_address_spoofing) is
+possible, i.e., an attacker may be able to, in some cases, pretend to
+be coming from an IP address that's different from the attacker's
+actual IP address. Conversely, it's also possible that the IP address
+of a legitimate entity changes. So, when thinking about IP ranges,
+keep in mind:
+
+* Use the IP address only as an additional/secondary form of
+  verification and not as a primary method of authentication.
+
+* Be prepared to have to log in and edit the firewall when IP ranges
+  change.
+
 ### What firewall policy makes sense?
 
 #### First approximation: only allow ports 80 (HTTP) and 443 (HTTPS)
@@ -254,7 +271,7 @@ Any traffic that doesn't match any of the criteria above gets blocked.
 
 Although this isn't directly a security issue, I also use the firewall
 on occasion to block very clear IP-based patterns of spam traffic on
-HTTP and HTTPS ports (that are otherwise open to everybody).
+the ports 80 (for HTTP) and 443 (for HTTPS).
 
 ### Summary of firewall policy currently in use
 
@@ -316,7 +333,8 @@ on the server was being used by the Kinsing malware for some crypto
 mining purposes. Fortunately, this was a dev server, not identified
 with me, and the bot did nothing else to the server, so the impact on
 me was limited. But this was a cautionary tale and I immediately
-worked on setting up the firewall -- something I should have done to begin with!
+worked on setting up the firewall -- something I should have done to
+begin with!
 
 #### Also in the real world: MySQL installations open to the world
 
