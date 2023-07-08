@@ -495,7 +495,7 @@ manipulation of the data in ways different than desired.
 
 Limiting database permissions as discussed in an earlier section, to
 only allow read permissions unless otherwise needed, can limit the
-damage here: if the user running the SQL commands only has ready
+damage here: if the user running the SQL commands only has read
 permissions, the user can't do much damage even if it gets
 SQL-injected. However, some kinds of sites require write permissions
 to be available to the SQL user. So having a way to query that doesn't
@@ -556,13 +556,88 @@ future security holes once they are found. Out-of-date software may
 also lack compatibility with up-to-date versions of *other* software
 or even operating systems.
 
-### Automated updates
+### Operating system updates
 
-(Process of automating WordPress updates)
+Vulnerabilities in the operating system can put the server at
+risk. Two major OS vulnerabilities in recent years were
+[Heartbleed](https://en.wikipedia.org/wiki/Heartbleed) and
+[Shellshock](https://en.wikipedia.org/wiki/Shellshock_(software_bug)).
 
-### Periodic manual updates
+Fortunately, operating systems are generally quick to patch
+discovered vulnerabilities; however, if hackers discover an exploit
+before it's found by security researchers, then it is particularly
+dangerous (such exploits are called
+[zero-days](https://en.wikipedia.org/wiki/Zero-day_(computing))). We
+can't do much about zero-days, beyond having good other layers of
+defense such as those described in preceding sections: firewalls,
+limited permissions, separate credentials. However, for bugs that have
+already been discovered and patched, it's important to benefit from
+the patches by keeping the operating system up-to-date.
+
+#### Automation of security patches
+
+Different operating systems have slightly different approaches to
+security patches. See for instance [this
+page](https://www.cyberciti.biz/faq/how-to-set-up-automatic-updates-for-ubuntu-linux-18-04/)
+describing the options around automatic updates.
+
+### Major version updates for operating system
+
+One of the risks of automating all updates is that major version
+updates could cause compatibility issues with existing web-serving
+code, and we don't want to break web serving! My general philosophy
+around major version updates is to start a fresh server and migrate
+the content to that server. This is very much possible with a good set
+of backup/restore procedures.
+
+### WordPress updates: automation and monitoring
+
+WordPress is an interesting case. The standard/default setup for
+WordPress updates relies heavily on the *web* user. WordPress uses a
+concept called wp-cron, where any pageview of a page on a WordPress
+site can trigger the wp-cron, which in turn can trigger background
+tasks to update the core software, themes, or plugins. However. I
+wasn't comfortable with this for two reasons:
+
+* As mentioned, I've already limited the web user's permissions,
+  including file permissions, so the web user is often unable to take
+  the steps needed to update the core software, plugins, and themes.
+
+* I prefer to have the updates done at a specific time of day when I
+  expect to be around, and to include additional validity checks.
+
+I found that the [WordPress CLI](https://wp-cli.org/) does a good job
+of addressing these concerns. It allows for command-line execution of
+checks for updates.
+
+To make use of this, I wrote a wrapper script about the WordPress
+CLI. The script does something like this:
+
+* It pings me on Slack before starting (without tagging).
+* It then goes through the WordPress sites one by one.
+  * It runs a WordPress CLI command to determine whether the core
+    software needs updating. If not, it continues to the next step. If
+    the core software does need updating, it sends a channel-tagged
+    Slack message, runs a url checker to make sure the site is working
+    fine. If the url checker passes, it calls the WordPress CLI to
+    udpate the core software, and after that, runs the url checker
+    again. The failure of the url checker either before or after the
+    update will result in a channel-tagged message to Slack.
+  * It then does something similar for updates to plugins.
+  * It then does something similar for updates to themes.
+
+This runs once a day, at a time that I'm awake and usually near my
+computer. I also take daily backups of my WordPress sites which allows
+me to check the condition of the site before the update. The WordPress
+CLI offers a bunch of functionality around managing updates, but it's
+good to know that I have backups in case things don't work as
+expected.
 
 ## Backups, with established recovery procedures, help with security
+
+The previous section hinted multiple times at the importance of
+backups and established recovery procedures. Let's now talk about
+these explicitly.
 
 Backups with established recovery procedures are helpful for security,
 because they give us the option to discard any compromised resource
@@ -573,17 +648,60 @@ Backups can also serve as checkpoints that help diagnose when exactly
 a system became compromised.
 
 With that said, backups can also be a source of security issues if the
-backups themselves are not secured. See for instance LastPass incident
+backups themselves are not secured. See for instance, the [2022
+LastPass
+incident](https://blog.lastpass.com/2022/12/notice-of-recent-security-incident/)
 where hackers got a hold of their backups. Luckily for them, the
 important data is fully encrypted to a zero knowledge standard, but
-you may not be so lucky. Link to my backups post, highlighting the
-aspects that discuss security.
+you may not be so lucky. The importance of backup security is something I include as a consideration when looking at various aspects of backups in my [backups post](https://www.lesswrong.com/posts/Efj8NCCv3TqDL5mbC/aligning-my-web-server-with-devops-practices-part-1-backups).
 
 ## Protection of online accounts for hosting and domain name registration
 
+### Account security
+
 It's important to have tight security (with redundancy) for the
-hosting service of the web server, as well as the domain name
-registration service. If others are able to hack into the hosting
-service's web portal, they may be able to make changes to the web
-server's configuration. If others are able to hack into the domain
-name registration service, they may be able to steal the domain.
+hosting service of the web server, the service used for DNS records,
+the domain name registration service, and any services used for
+backups. If others are able to hack into the hosting service's web
+portal, they may be able to make changes to the web server's
+configuration. If others are able to hack into the domain name
+registration service, they may be able to steal the domain.
+
+Such tight security might include the following:
+
+* Strong and unique passwords
+* 2-factor authentication with fallback/recovery methods configured
+* No password-sharing with others who might need access to the same
+  online account -- in general it should be possible to create
+  additional users for them that can log in with their own
+  password. As much as possible, try to enforce the same practices
+  (strong and unique passwords, 2-factor authentication) for them.
+* Confirmation that email messages are sent to me for any critical
+  account actions or updates, so that at least I know if somebody logs
+  into my account without authorizationand start changing things.
+
+### Paying bills on time and maintaining a financial cushion
+
+Gaps in bill payment can lead to the loss of control over some
+resources. In particular, failing to renew a domain registration can
+be catastrophic if somebody else registers it in the meantime. While
+online services are generally good about sending reminders, it is also
+important to check these proactively.
+
+Here are a few best practices I follow:
+
+* I pay particular attention to all email messages from the services I
+  use for web servers, DNS records, domain name registrations, and
+  backups. I also check my spam email at least once a day, so if any
+  email from them reaches spam I can catch it.
+
+* Every month, I review the bills from these services, either based on
+  what's emailed to me or by logging in.
+
+* I've set up automatic payments for all the services. Also, where
+  possible, I try to maintain a slight positive balance in the
+  accounts for these services. The positive balance makes sure that
+  even if there is a glitch with the automatic payments, I am
+  protected for a while. In addition, I review and top up the balances
+  for the services monthly, which means that in practice the automatic
+  payment ends up never being needed.
