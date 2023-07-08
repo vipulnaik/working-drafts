@@ -7,6 +7,29 @@ information on what this series of posts is about.
 
 This post focuses on devops practices I adopted to secure my web server.
 
+## Recommendations for others (transferable learnings)
+
+* If you have a server exposed to the Internet, use a firewall (or
+  security group in the case of AWS) to lock access to the server as
+  much as possible, limiting the ports and IP address ranges that can
+  be used to access it. This drastically reduces the risk surface
+  area. Even if you do nothing else, do this.
+
+* Separate, separate, separate. Even if things get compromised up to a
+  point, that shouldn't compromise everything. Keep in mind the
+  concept of "defense in depth" as you think of things.
+
+* Security isn't just about preventing or limiting attacks, it's also
+  about being able to recover more quickly and get back to a clean
+  slate. Backups with streamlined restore procedures, that I covered
+  extensively in [part
+  1](https://www.lesswrong.com/posts/Efj8NCCv3TqDL5mbC/aligning-my-web-server-with-devops-practices-part-1-backups), help a bunch with this.
+
+* Make sure you have good security (strong password, two-factor
+  authentication, etc.) on the online accounts that you use to manage
+  your servers. A secure server managed through an insecure online
+  account is like a locked safe that's wide open from above.
+
 ## General philosophy of security
 
 ### Security against leakage versus security against manipulation
@@ -112,11 +135,31 @@ both cases and also have 2-factor authentication for both.
 
 ### Other stuff on the side
 
-OS and software updates.
+Servers often have a bunch of supporting functions that may not
+directly be part of the web request flow, but are still
+important. These includes:
 
-External credentials
+* The operating system and software that are necessary to keep things
+  running. Vulnerabilities in the operating system or the core
+  software could compromise the server, even vulnerabilities that seem
+  completely unrelated to the code or content of the websites you're
+  serving. Some high-profile examples of major bugs:
+  [Heartbleed](https://en.wikipedia.org/wiki/Heartbleed) and
+  [Shellshock](https://en.wikipedia.org/wiki/Shellshock_(software_bug)).
 
-CPU monitoring?
+  This makes it particularly important that the operating system and
+  core software is updated regularly. The update process should
+  ideally be automated; however, at minimum it should be highly
+  streamlined and checked on periodically.
+
+* In some cases, private credentials may be needed on the server to
+  connect to external services. For instance, my web server needs to
+  connect with Amazon S3 to copy backup files to S3. It also need to
+  connect with GitHub to clone repositories and fetch updates. These
+  aren't part of a web request flow; these happen either periodically
+  or as needed by me. Nonetheless, having these credentials in an
+  open, readable location, or having overly generous permissions for
+  these credentials, can increase the damage from a security breach.
 
 ## Firewall / security group
 
@@ -335,7 +378,11 @@ the case of my web server, I run nginx, proxying to other backends
 (PHP-FPM in most cases). An error in the configuration of nginx, or of
 PHP-FPM, or of the code running any of the websites, can potentially
 create an opportunity for a clever end user to be able to execute
-arbitrary commands as the users running these processes.
+arbitrary commands as the users running these processes
+(cf. [cross-site
+scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) or the
+more general concept of [code
+injection](https://en.wikipedia.org/wiki/Code_injection)).
 
 So the next line of defense is to make sure these users, even if
 compromised, have limited ability. Unfortunately, they *do* need some
@@ -396,10 +443,10 @@ username and password that can be used to access the databases needed
 to serve various sites. However, unless specifically needed for the
 site, this user only has read permissions for the
 database. Operationally, this translates to privileges to select, lock
-tables, and show view. The user does not have the permission to insert
-or delete. Morever, the username/password is different for each site,
-so any bug affecting a specific site is limited to the database for
-that site.
+tables, show view, and create temporary tables. The user does not have
+the permission to insert, update, or delete. Morever, the
+username/password is different for each site, so any bug affecting a
+specific site is limited to the database for that site.
 
 For some sites, the end user's actions can lead to data updates in
 MySQL, and in these case, we do need to give at least some level of
