@@ -12,7 +12,9 @@ day-to-day overhead of managing finances. In that vein, I decided to
 write this blog post to document some of my own practices around
 financial mechanics. The set of practices I have chosen has near-zero
 financial cost (important!) and very low time cost beyond the initial
-setup (also important!). It's also geared heavily toward people who aren't into a lot of "consumerist" stuff, though I think it could be useful to others
+setup (also important!). It's also geared heavily toward people who
+aren't into a lot of "consumerist" stuff, though I think it could be
+useful to others as well.
 
 I also want to do a separate post talking specifically about my
 experience with credit cards and credit scores. So this particular
@@ -333,7 +335,8 @@ I recommend downloading your monthly statements. These statements are
 sometimes needed as address proofs, and it's also helpful to have
 them. Banks generally don't allow you to access statements older than
 a few years, so it's better to download each monthly statement before
-you forget.
+you forget. It's also good to not just download them to your computer
+but also have them backed up elsewhere.
 
 ### Download a CSV of your transactions
 
@@ -341,4 +344,6 @@ Banks often give you the option of downloading a CSV of your
 transactions. Here again, they may impose a limit in terms of how far
 back you can go. After checking the limit, make sure to download a CSV
 at the right cadence so that you don't lose out on any transactions. I
-generally download a CSV of all transactions for each calendar year.
+generally download a CSV of all transactions for each calendar
+year. Similar to the monthly statements, it's good to have the CSV
+backed up elsewhere and not just on your computer.
