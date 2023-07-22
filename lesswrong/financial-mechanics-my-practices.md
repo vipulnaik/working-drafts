@@ -281,7 +281,7 @@ balance threshold. This might allow you to take preventative steps
 (such as disputing an expense, or fixing some bug in your payment
 settings for a service).
 
-The periodic balane alerts are also helpful for gently flagging cases
+The periodic balance alerts are also helpful for gently flagging cases
 where your balance is too high, which can help you catch if you missed
 step 5, and allow you to do it even if a little later.
 
@@ -299,7 +299,7 @@ account notifications.
 
 I recommend always using a strong and unique password for your bank
 account's online login. Be very careful when setting it that you're
-setting it to what you intend, and thatit's secure enough and also
+setting it to what you intend, and that it's secure enough and also
 something you remember.
 
 ### 2-factor authentication
