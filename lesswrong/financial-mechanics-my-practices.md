@@ -295,12 +295,27 @@ bank. Also check that you receive the expected notifications by SMS
 and email, such as the alerts you've set up, or any other important
 account notifications.
 
+In my case, physical changes of address due to moving, though not
+frequent, are still more frequent than changes of phone number or
+email address. Therefore, I maintain a checklist of things to do when
+moving, and that checklist includes a list of places to change my
+address; this list includes all the banking services and financial
+services that I use.
+
 ### Strong and unique password
 
 I recommend always using a strong and unique password for your bank
 account's online login. Be very careful when setting it that you're
 setting it to what you intend, and that it's secure enough and also
 something you remember.
+
+While it's common to use password managers or have browsers
+auto-remember passwords, I prefer, at least in the case of financial
+passwords, to memorize them rather than use a password manager or have
+the password automatically saved in the browser. However, your mileage
+may vary on this. Just make sure that one way or another, you are able
+to easily log in to your bank account even if your computer crashes or
+is stolen.
 
 ### 2-factor authentication
 
