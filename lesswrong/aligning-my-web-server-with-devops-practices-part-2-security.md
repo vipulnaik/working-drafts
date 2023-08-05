@@ -17,7 +17,15 @@ This post focuses on devops practices I adopted to secure my web server.
 
 * Separate, separate, separate. Even if things get compromised up to a
   point, that shouldn't compromise everything. Keep in mind the
-  concept of "defense in depth" as you think of things.
+  concept of [defense in
+  depth](https://en.wikipedia.org/wiki/Defense_in_depth_(computing))
+  as you think of things.
+
+* Related to the above: Give only as much permission to each thing as
+  it actually needs; this idea is called the [principle of least
+  privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege)
+  and you may also hear of it as "right-sizing permissions" in some
+  contexts.
 
 * Security isn't just about preventing or limiting attacks, it's also
   about being able to recover more quickly and get back to a clean
@@ -29,6 +37,13 @@ This post focuses on devops practices I adopted to secure my web server.
   authentication, etc.) on the online accounts that you use to manage
   your servers. A secure server managed through an insecure online
   account is like a locked safe that's wide open from above.
+
+Some time after I started drafting this post, I discovered a great
+podcast called [Darknet Diaries](https://darknetdiaries.com/) that
+covers a lot of security-related themes. Many of the concepts I talk
+about in this post show up organically in the episodes of this
+podcast, and I recommend this podcast for people interested in
+security.
 
 ## General philosophy of security
 
@@ -386,6 +401,10 @@ have:
 * A = access to users running web processes (basically, the ability to execute arbitrary shell commands as such users)
 * B = access to sensitive behind-the-scenes information, including credentials
 
+The concept of limited permissions for web users is a special case of
+the more general idea of the [principle of least
+privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege).
+
 ### Users running web processes are vulnerable, so strong separation is desired
 
 In the previous section, we talked about using firewalls to lock down
@@ -618,11 +637,11 @@ CLI. The script does something like this:
   * It runs a WordPress CLI command to determine whether the core
     software needs updating. If not, it continues to the next step. If
     the core software does need updating, it sends a channel-tagged
-    Slack message, runs a url checker to make sure the site is working
-    fine. If the url checker passes, it calls the WordPress CLI to
-    udpate the core software, and after that, runs the url checker
-    again. The failure of the url checker either before or after the
-    update will result in a channel-tagged message to Slack.
+    Slack message, then runs a url checker to make sure the site is
+    working fine. If the url checker passes, it calls the WordPress
+    CLI to udpate the core software, and after that, runs the url
+    checker again. The failure of the url checker either before or
+    after the update will result in a channel-tagged message to Slack.
   * It then does something similar for updates to plugins.
   * It then does something similar for updates to themes.
 
