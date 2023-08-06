@@ -308,7 +308,7 @@ the ports 80 (for HTTP) and 443 (for HTTPS).
 
 * It allows access for all IP addresses (except a few IP addresses
   known for spam traffic) to ports 80 (the HTTP port) and 443 (the
-  HTTPS port). My servers run nginx that listens to these ports.
+  HTTPS port). My servers run Nginx that listens to these ports.
 
 * It allows access to port 22 (SSH) *only* from a few IP addresses
   that I use (such as my home and office IP address). This means that
@@ -400,7 +400,7 @@ I am not alone; see this excerpt from [Darknet Diaries podcast episode
 Using a firewall to lock down most ports dramatically reduces the risk
 surface area to a few specific ports that are being served by the
 software you are focused on (in my case, web-serving software
-nginx). You don't have to worry as much about accidentally exposing
+Nginx). You don't have to worry as much about accidentally exposing
 other ports to strangers.
 
 Further, for ports that need to be accessible only to specific people
@@ -427,8 +427,8 @@ In the previous section, we talked about using firewalls to lock down
 everything except the ports 80 and 443 that serve web traffic. A web
 server does need to have those ports open, and the service running on
 those ports, that serves the traffic, is a point of vulnerability. In
-the case of my web server, I run nginx, proxying to other backends
-(PHP-FPM in most cases). An error in the configuration of nginx, or of
+the case of my web server, I run Nginx, proxying to other backends
+(PHP-FPM in most cases). An error in the configuration of Nginx, or of
 PHP-FPM, or of the code running any of the websites, can potentially
 create an opportunity for a clever end user to be able to execute
 arbitrary commands as the users running these processes
@@ -497,7 +497,7 @@ to serve various sites. However, unless specifically needed for the
 site, this user only has read permissions for the
 database. Operationally, this translates to privileges to select, lock
 tables, show view, and create temporary tables. The user does not have
-the permission to insert, update, or delete. Morever, the
+the permission to insert, update, or delete. Moreover, the
 username/password is different for each site, so any bug affecting a
 specific site is limited to the database for that site.
 
@@ -655,7 +655,7 @@ CLI. The script does something like this:
     the core software does need updating, it sends a channel-tagged
     Slack message, then runs a url checker to make sure the site is
     working fine. If the url checker passes, it calls the WordPress
-    CLI to udpate the core software, and after that, runs the url
+    CLI to update the core software, and after that, runs the url
     checker again. The failure of the url checker either before or
     after the update will result in a channel-tagged message to Slack.
   * It then does something similar for updates to plugins.
@@ -713,7 +713,7 @@ Such tight security might include the following:
   (strong and unique passwords, 2-factor authentication) for them.
 * Confirmation that email messages are sent to me for any critical
   account actions or updates, so that at least I know if somebody logs
-  into my account without authorizationand start changing things.
+  into my account without authorization and start changing things.
 
 ### Paying bills on time and maintaining a financial cushion
 
