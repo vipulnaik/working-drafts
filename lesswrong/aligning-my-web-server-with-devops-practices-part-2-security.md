@@ -106,6 +106,10 @@ itself:
 
 ## Identifying the layers of security
 
+The purpose of this section is to lay out a general framework that
+helps motivate the coming few sections where I talk about specific
+aspects of security.
+
 ### The layers for web requests
 
 Before getting into the details, here's an effort to step back and use
@@ -115,22 +119,29 @@ sections should be.
 * The outermost starting point seems to be the ports through which
   users can connect to the server, so control over ports (aka
   firewalls / security groups) is the outermost security layer to
-  begin with.
+  begin with. This motivates the practices I describe in the "Firewall
+  / security group" section below.
 
 * With the firewall set up, the only way to access the server is
   through the front door i.e., the web processes. So the next layer of
   defense is to limit the scope of the web process. This is two-fold:
   make sure the web process is running on a user different from the
   main user, and limit the file and database permissions that the web
-  user can access.
+  user can access. This motivates the practices I describe in the
+  "Separate users for web processes, and limited permissions for these
+  users" section below.
 
 * With the web process constrained, there is now a limited range of
   damage possible, but there is still some damage possible. We're now
   in the stage where code is being run, so the next step is:
 
-  * Secure the code I've written as much as possible
+  * Secure the code I've written as much as possible; this motivates
+    the practices I describe in the "Robust codebase for websites that
+    is harder to attack" section below.
 
-  * Update software that I use directly for web serving (MediaWiki and WordPress)
+  * Update software that I use directly for web serving (MediaWiki and
+    WordPress); this motivates the practices I describe in the
+    "Management of updates for third-party software" section below.
 
 ### Zooming in early on the web requests
 
@@ -168,7 +179,9 @@ important. These includes:
   This makes it particularly important that the operating system and
   core software is updated regularly. The update process should
   ideally be automated; however, at minimum it should be highly
-  streamlined and checked on periodically.
+  streamlined and checked on periodically. This motivates the
+  practices I describe in the "Operating system updates" subsection
+  below.
 
 * In some cases, private credentials may be needed on the server to
   connect to external services. For instance, my web server needs to
@@ -177,7 +190,10 @@ important. These includes:
   aren't part of a web request flow; these happen either periodically
   or as needed by me. Nonetheless, having these credentials in an
   open, readable location, or having overly generous permissions for
-  these credentials, can increase the damage from a security breach.
+  these credentials, can increase the damage from a security
+  breach. This motivates the practices I describe in the "Unique
+  credentials for external services with limited permissions" section
+  below.
 
 ## Firewall / security group
 
