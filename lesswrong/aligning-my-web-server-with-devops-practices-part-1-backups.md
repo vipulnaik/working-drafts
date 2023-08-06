@@ -1,5 +1,8 @@
 # Aligning my web server with devops practices: part 1 (backups)
 
+UPDATE: Part 2 is now published
+[here](https://www.lesswrong.com/posts/Emmvzz3xXjfH4342f/aligning-my-web-server-with-devops-practices-part-2-security).
+
 I have a web server that serves a double-digit number of different
 domains and subdomains, such as
 [contractwork.vipulnaik.com](https://contractwork.vipulnaik.com/) and
