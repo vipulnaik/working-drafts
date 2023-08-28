@@ -39,3 +39,10 @@ action.
 If I somehow deselect the network panel table entries by
 double-clicking on the waterfall area above them, then I can again
 type freely in the text box.
+
+## Update: fixed in Chrome 116
+
+I didn't hear back personally regarding my bug report, but the
+underlying issue seems to be fixed in Chrome 116. With that said, I do
+not see the bugfix noted in any of the Chrome 116 devtools updates
+listed [here](https://developer.chrome.com/blog/new-in-devtools-116/).
