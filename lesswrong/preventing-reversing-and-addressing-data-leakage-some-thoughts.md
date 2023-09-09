@@ -312,6 +312,11 @@ For more caution, I recommend the following:
 * If you used a web browser, make sure to clear all your activity from
   the browsing history of the browser.
 
+* As a further best practice, it may be a good idea to change your
+  password on the account you logged in with on the shared
+  machine. Whether to go that far is up to you, and depends on your
+  estimate of the threat level.
+
 ### Pay attention to warnings and color coding
 
 Many services warn you when they suspect you're sending something
