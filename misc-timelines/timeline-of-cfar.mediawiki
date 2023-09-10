@@ -7,6 +7,7 @@ This is a '''timeline of Center for Applied Rationality'''. Center for Applied R
 |-
 |}
 
+
 ==Full timeline==
 
 {| class="sortable wikitable"
@@ -155,6 +156,52 @@ I haven't found numbers for other years, but their [http://rationality.org/ home
 | 2017 || 8 || <ref name="retrospective-2017">{{cite web |url=http://rationality.org/resources/updates/2017/cfar-2017-retrospective |title=CFAR 2017 Retrospective |accessdate=February 24, 2018 |publisher=[[wikipedia:Center for Applied Rationality|Center for Applied Rationality]]}}</ref> || 5 workshops from February to May; 1 in Seattle in June; 2 "Tier II" workshops in July and December; 1 workshop for MIRI researchers in November; 1 lighter workshop prior to Effective Altruism Global in August
 |}
 
+== Numerical and visual data  ==
+
+=== Google Scholar ===
+
+The following table summarizes per-year mentions on Google Scholar as of December 14, 2021.
+
+{| class="sortable wikitable"
+! Year
+! "Center for Applied Rationality"
+|-
+| 2013 || 2
+|-
+| 2014 || 5
+|-
+| 2015 || 12
+|-
+| 2016 || 4
+|-
+| 2017 || 7
+|-
+| 2018 || 7
+|-
+| 2019 || 10 
+|-
+| 2020 || 3
+|-
+|}
+
+
+[[File:Center for Applied Rationality gscho.png|thumb|center|700px]]
+
+=== Google Trends ===
+
+The comparative chart below shows {{w|Google Trends}} data Center for Applied Rationality (search term and Nonprofit organization) from January 2004 to January 2021, when the screenshot was taken.<ref>{{cite web |title=Center for Applied Rationality |url=https://trends.google.com/trends/explore?date=all&q=%2Fm%2F013b0y9l,Center%20for%20Applied%20Rationality |website=trends.google.com |access-date=15 January 2021}}</ref>
+
+[[File:Center for applied r Gtrends.jpeg|thumb|center|700px]]
+
+=== Wikipedia views ===
+
+The chart below shows pageviews of the English Wikipedia article {{w|Center for Applied Rationality }} on desktop, mobile-web, desktop-spider, mobile-web-spider and mobile app, from July 2012 to January 2021.<ref>{{cite web |title=Center for Applied Rationality |url= https://wikipediaviews.org/displayviewsformultiplemonths.php?page=Center+for+Applied+Rationality&months[0]=202101&months[1]=202012&months[2]=202011&months[3]=202010&months[4]=202009&months[5]=202008&months[6]=202007&months[7]=202006&months[8]=202005&months[9]=202004&months[10]=202003&months[11]=202002&months[12]=202001&months[13]=201912&months[14]=201911&months[15]=201910&months[16]=201909&months[17]=201908&months[18]=201907&months[19]=201906&months[20]=201905&months[21]=201904&months[22]=201903&months[23]=201902&months[24]=201901&months[25]=201812&months[26]=201811&months[27]=201810&months[28]=201809&months[29]=201808&months[30]=201807&months[31]=201806&months[32]=201805&months[33]=201804&months[34]=201803&months[35]=201802&months[36]=201801&months[37]=201712&months[38]=201711&months[39]=201710&months[40]=201709&months[41]=201708&months[42]=201707&months[43]=201706&months[44]=201705&months[45]=201704&months[46]=201703&months[47]=201702&months[48]=201701&months[49]=201612&months[50]=201611&months[51]=201610&months[52]=201609&months[53]=201608&months[54]=201607&months[55]=201606&months[56]=201605&months[57]=201604&months[58]=201603&months[59]=201602&months[60]=201601&months[61]=201512&months[62]=201511&months[63]=201510&months[64]=201509&months[65]=201508&months[66]=201507&months[67]=201506&months[68]=201505&months[69]=201504&months[70]=201503&months[71]=201502&months[72]=201501&months[73]=201412&months[74]=201411&months[75]=201410&months[76]=201409&months[77]=201408&months[78]=201407&months[79]=201406&months[80]=201405&months[81]=201404&months[82]=201403&months[83]=201402&months[84]=201401&months[85]=201312&months[86]=201311&months[87]=201310&months[88]=201309&months[89]=201308&months[90]=201307&months[91]=201306&months[92]=201305&months[93]=201304&months[94]=201303&months[95]=201302&months[96]=201301&months[97]=201212&months[98]=201211&months[99]=201210&months[100]=201209&months[101]=201208&months[102]=201207&language=en&drilldown=all|website=wikipediaviews.org |access-date=6 February 2021}}</ref>
+
+  
+
+[[File:Carwv.png|thumb|center|600px]]
+
+
 ==Meta information on the timeline==
 
 ===How the timeline was built===
@@ -168,6 +215,7 @@ The initial version of the timeline was written by [[User:Issa|Issa Rice]]. The 
 * CFAR apparently ran a rationality dojo; any more info on this?<ref name="salamon-lower-cost-and-europe" />
 * Timeline should probably mention some co-founders/early people, like Julia Galef, Andrew Critch, and Eliezer Yudkowsky
 * https://web.archive.org/web/20120812172423/http://appliedrationality.org/
+* https://www.greaterwrong.com/posts/McsqZQBbwJnDXimNp/what-is-going-on-with-cfar and https://www.greaterwrong.com/posts/B9kP6x5rpmuCzpfWb/comment-reply-my-low-quality-thoughts-on-why-cfar-didn-t-get
 
 ===Timeline update strategy===
 
