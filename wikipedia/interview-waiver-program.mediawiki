@@ -1,28 +1,22 @@
-{{Blacklisted-links|1=
-*https://www.murthy.com/2015/11/13/expansion-of-visa-interview-waiver-program/
-*:''Triggered by <code>\bmurthy\.com\b</code> on the local blacklist''|bot=Cyberbot II|invisible=false}}
-The '''Interview Waiver Program''' ('''IWP'''), also called the '''Visa Interview Waiver Program''', is a program managed by the [[U.S. Department of State]]'s Bureau of Consular Affairs under which, under some circumstances, interview requirements can be waived for some nonimmigrant visa applicants.<ref name=fam-9>{{cite web|url = https://fam.state.gov/fam/09FAM/09FAM040305.html|title = 9 FAM 403.5 (U) NIV INTERVIEW BY CONSULAR OFFICER (part of the Foreign Affairs Manual)|publisher = [[U.S. Department of State]]|accessdate = January 29, 2017}}</ref><ref name=guyana>{{cite web|url = https://photos.state.gov/libraries/guyana/19452/pdfs/ASK151-InterviewWaiverProgram.pdf|title = Ask the Consul Installment 151: Interview Waiver Program (IWP)|publisher = Embassy of the United States of America, Georgetown, Guyana|accessdate = January 29, 2017}}</ref><ref name=tashkent>{{cite web|url = https://uz.usembassy.gov/visas/non-immigrant-visas/nonimmigrant-visas-tourism-visit/interview-waiver-program/|title = Interview Waiver Program|accessdate = January 29, 2017}}</ref><ref name=matamoros>{{cite web|url = https://photos.state.gov/libraries/matamoros/231771/PDFs/interview%20waiver%20program.pdf|title = Interview Waiver Program|publisher = Matamoros Consulate General}}</ref><ref name=uk-embassy>{{cite web|url = https://uk.usembassy.gov/visas/visa-reissuance-program/overview-2/|title = Interview Waiver Program|publisher = U.S. Embassy & Consulates in the United Kingdom|accessdate = January 29, 2017}}</ref><ref name=jakarta-video>{{cite web|url=https://www.youtube.com/watch?v=GP1rkryQZZM|title = Renewing Your Visa Using the Interview Waiver Program|publisher = U.S. Embassy Jakarta|date = March 4, 2014|accessdate = January 29, 2017}}</ref>
+The '''Interview Waiver Program''' ('''IWP'''), also called the '''Visa Interview Waiver Program''', is a program managed by the [[U.S. Department of State]]'s [[Bureau of Consular Affairs]] under which, under some circumstances, interview requirements can be waived for some nonimmigrant visa applicants. The program has basis in the guidelines provided in the ''[[Foreign Affairs Manual]]'' 9 FAM 403.5.<ref name=fam-9-403-5>{{cite web|url = https://fam.state.gov/fam/09FAM/09FAM040305.html|title = 9 FAM 403.5 (U) NIV INTERVIEW BY CONSULAR OFFICER (part of the Foreign Affairs Manual)|publisher = [[U.S. Department of State]]|accessdate = January 29, 2017}}</ref> As of December 2022, some of the temporary cases of the Interview Waiver Program were extended to December 31, 2023 (this is in addition to the cases that have no set expiration, that are expected to continue beyond December 31, 2023).<ref name=iwp-extended-to-december-2023>{{cite web|url = https://www.state.gov/extension-of-interview-waivers-for-certain-nonimmigrant-visa-applicants/|title = Extension of Interview Waivers for Certain Nonimmigrant Visa Applicants|date = December 23, 2022|accessdate = October 11, 2023|publisher = U.S. Department of State}}</ref><ref name=fam-9-403-5/>
 
-An [[Executive Order 13769|executive order by Donald Trump on January 27, 2017]] asked for an immediate suspension of the Interview Waiver Program, pending review for compliance with Section 222 of the [[Immigration and Nationality Act of 1952|INA]], 8 U.S.C. 1222, which requires that all individuals seeking a nonimmigrant visa undergo an in-person interview, subject to specific statutory exceptions.<ref name=qz>{{cite news|url = https://qz.com/895149/trump-is-suspending-the-visa-interview-waiver-program/|title = Trump just made it harder for tourists to visit the US|last = Yanofsky|first = David|date = January 27, 2017|accessdate = January 29, 2017|work = [[Quartz (publication)|Quartz]]}}</ref><ref name=cnn>{{cite web|url = https://edition.cnn.com/2017/01/27/politics/donald-trump-refugees-executive-order/index.html|title = Trump's latest executive order: Banning people from 7 countries and more|last = Diamond|first = Jeremy|publisher = [[CNN]]|date = January 29, 2017|accessdate = January 29, 2017}}</ref>
+Applicants qualifying for interview waivers generally need to submit their passport along with various documentation to the US embassy or consulate processing their case. In some jurisdictions, the location that applicants submit the passport and documentation is called a "dropbox" location, and the terms "dropbox" or "dropbox appointment" may be used instead of "interview waiver" in some contexts.<ref>{{cite web|url = https://www.ustraveldocs.com/lk/lk-niv-visarenew.asp|title = Interview Waiver & Visa Renewal (Sri Lanka)|accessdate = October 12, 2023|publisher = USTravelDocs}}</ref><ref>{{cite web|url = https://www.ustraveldocs.com/vn/vn-niv-typej.asp|title = Exchange Visitor Visa (Vietnam)|accessdate = October 12, 2023|publisher = USTravelDocs}}</ref><ref>{{cite web|url = https://visagrader.com/trackers/us-drop-box-visa-appointments|title = US Visa Dropbox Appointment Experiences Tracker|publisher = Visa Grader|accessdate = October 12, 2023}}</ref>
 
-== Conditions for the Interview Waiver Program ==
+== Guidance for the Interview Waiver Program provided in the Foreign Affairs Manual ==
 
-According to the ''[[Foreign Affairs Manual]]'' (FAM), 9 FAM 403.5-4, a consular officer may waive an interview for a visa applicant if any of these four conditions apply. Some of the content of the FAM is not available to the public.<ref name=fam-9/>
+According to the ''[[Foreign Affairs Manual]]'' (FAM), 9 FAM 403.5-4, a consular officer may choose to waive an interview for a visa applicant if any of the below conditions apply. Some of the content of the FAM is not available to the public. The guidance offers considerable leeway for consulates and consular officers regarding whether to grant interview waivers; it only provides a set of necessary conditions that must be satisfied in order to grant an interview waiver.<ref name=fam-9-403-5/>
 
-Not all embassies and consulates need to implement all the waiver criteria of the IWP. In particular, some consulates may implement the IWP for only a subset of the criteria, and may impose additional criteria. For instance, the embassy in Georgetown, Guyana has implemented the IWP only for the B-1/B-2, C-1/C2, and D visa types.<ref name=guyana/> Similarly, the consulate in [[Matamoros, Coahuila|Matamoros]], [[Mexico]] has set the age threshold for the age-based interview waiver for children at 7 years instead of 14 years.<ref name=matamoros/>
+=== Interview waiver based on age (9 FAM 403.5-2) ===
 
-=== Interview waiver based on age (9 FAM 403.5-4(A)(1)) ===
-
-If none of the grounds mandating an in-person interview apply, a waiver may be given to applicants who satisfy ''either'' of the following two conditions:<ref name=fam-9/><ref name=tashkent/>
+If none of the grounds mandating an in-person interview apply, a waiver may be given to applicants who satisfy ''either'' of the following two conditions:<ref name=fam-9-403-5/>
 
 * under 14 years of age; or
 * over 79 years of age
 
-=== Interview waiver for diplomats or officials 9 FAM 403.5-4(A)(2)) ===
+=== Interview waiver for diplomats or officials (9 FAM 403.5-4(A)(1)(a)(1)) ===
 
-Interviews may be waived for ''either'' of the following visa types:<ref name=fam-9/>
+Interviews may be waived for any of the following visa types, all of which bear some relations to government officials or diplomats:<ref name=fam-9-403-5/>
 
-* Any of the following:
 ** [[A-1 visa]] for ambassadors, ministers, diplomats, consular officers, and their immediate family members
 ** [[A-2 visa]] for government officials, employees, their immediate families, their technical and support staff
 ** [[C-3 visa]] for government officials and their families (the C-3 visa for attendants, servants, and employees is not eligible for an interview waiver)
@@ -37,36 +31,52 @@ Interviews may be waived for ''either'' of the following visa types:<ref name=fa
 ** NATO-5 visa
 ** NATO-6 visa
 ** TECRO [[E-1 visa]]
-* Any applicant for a diplomatic or official visa as described in 22 CFR 41.26<ref>{{cite web|url = https://www.law.cornell.edu/cfr/text/22/41.26|title = 22 CFR 41.26 - Diplomatic visas.|publisher = [[Code of Federal Regulations]] (mirrored on the website of the [[Legal Information Institute]])|accessdate = January 29, 2017}}</ref> or 22 CFR 41.27,<ref>{{cite web|url = https://www.law.cornell.edu/cfr/text/22/41.27|title = 22 CFR 41.27 - Official visas.|publisher = [[Code of Federal Regulations]] (mirrored on the website of the [[Legal Information Institute]])}}</ref> respectively.
 
-=== Interview waiver for renewals (within one year or 12-48 months after expiry) (9 FAM 403.5-4(A)(3)) ===
+=== Interview waiver for diplomats or officials (9 FAM 403.5-4(A)(1)(a)(2)) ===
 
-Interview waivers can be used in cases of people reapplying for the same visa class that they previously held, if ''either'' of the following two cases apply and none of the grounds for mandating an in-person interview apply:<ref name=fam-9/>
+Interviews may be waived for any applicant for a diplomatic or official visa as described in 22 CFR 41.26<ref>{{cite web|url = https://www.law.cornell.edu/cfr/text/22/41.26|title = 22 CFR 41.26 - Diplomatic visas.|publisher = [[Code of Federal Regulations]] (mirrored on the website of the [[Legal Information Institute]])|accessdate = January 29, 2017}}</ref> or 22 CFR 41.27<ref>{{cite web|url = https://www.law.cornell.edu/cfr/text/22/41.27|title = 22 CFR 41.27 - Official visas.|publisher = [[Code of Federal Regulations]] (mirrored on the website of the [[Legal Information Institute]])}}</ref> respectively.
 
-* '''Renewals within one year''': An interview may be waived for an applicant applying for renewing a visa that is still valid or expired less than a year ago, if the applicant is seeking renewal of the visa in the same classification (same visa class and same category (principal or derivative)). For instance, an F-1 visa holder can get an interview waiver for a F-1 visa, but a F-2 visa holder cannot. Any biometric requirements must have been met when issuing the previous visa, or fulfilled separately to qualify for the interview waiver. Note that F, J, and M visa holders have to satisfy additional requirements as noted after the bullet points.
-* '''Renewal 12–48 months after expiry''': All the following conditions must be satisfied:
-** The visa must ''not'' be in the following categories: E visa, H visa, L visa, P visa, and R visa (note that F, J, and M visas have slightly different rules, as detailed after the bullet points).
-** The visa is being renewed between 12 and 48 months after the prior visa's expiration date.
-** The applicant must be a national or resident of the country in which he or she is applying for the visa
-** The applicant has met all biometric requirements
+=== Interview waiver for renewals (within 48 months after expiry) (9 FAM 403.5-4(A)(1)(a)(3)) ===
 
-'''Renewals for student and exchange visitor visas''': Student and exchange visitor visas ([[F visa|F]], [[J-1 visa|J]], and [[M-1 visa|M]]) can be renewed using either of the above two methods but need to satisfy ''both'' these conditions:
-* For F and M, either the program or the institution, or both, must be the same as for the original visa. For J visas, the SEVIS number must remain the same in order for the interview to be waived.
-* The applicant must be in status according to SEVIS, and, in case of any discrepancies between the current and previous visa applications, or for any other reason, an interview may be requested.
+Interview waivers can be used if ''all'' these conditions hold:<ref name=fam-9-403-5/>
 
-=== Interview waiver for Argentines and Brazilians (9 FAM 403.5-4(A)(4)) ===
+* The applicant is renewing a nonimmigrant visa of the same classification within 48 months of the expiry of the previous visa. Both the visa classification and the category of applicant within that visa class (principal or derivative) should match up. The 48 months applies to the time the visa application is made; the adjudication may happen a little later.
+* The applicant is applying in the consular district of their normal residence, unless otherwise prescribed in regulations that require an applicant to apply for a visa in the country of which such applicant is a national.
+* In the case of F, M, and J applicants, the applicant's SEVIS record must indicate an "initial" or "active" status.
 
-If none of the grounds for mandating an in-person interview apply, an interview may be waived for a first-time Argentine or Brazilian visa applicant in a visa class other than E, H, L, P, or R if ''both'' the following conditions apply:<ref name=fam-9/>
-* The applicant is a first-time Argentine or Brazilian nonimmigrant visa applicant who is younger than 16 or 66 and older
-* The applicant is applying in the consular district of his or her normal residence.
+=== Interview waiver for H-2A and H-2B applicants (until December 31, 2023) (9 FAM 403.5-4(A)(1)(a)(4)) ===
 
-=== Conditions in which personal appearance may not be waived (9 FAM 403.5-6) ===
+A wider range of cases is eligible for interview waivers until December 31, 2023; ''any'' of the below cases is eligible for an interview waiver:<ref name=fam-9-403-5/>
 
-Personal appearance may be waived for candidates who have been selected for interview based on randomization. There could be other reasons such as a past visa rejection, annotation of "Clearance Received" on the most recently issued visa, criminal record, history of immigration violations, or other red flags.<ref name=uk-embassy/> However, the full list of reasons is not made publicly available in the ''Foreign Affairs Manual''.<ref name=fam-9/>
+* First-time H-2 applicants with no associated derogatory information
+* First-time H-2 applicants with potential derogatory information that the officer can exclude as not rising to the level of an ineligibility without requiring the applicant appear for an interview
+* Applicants for an H-2 NIV submitted within 48 months of the expiration of a previous NIV in any classification
+
+=== Interview waiver for F, M, and J applicants (9 FAM 403.5-4(A)(1)(a)(5)) ===
+
+Either of these is eligible for interview waivers:<ref name=fam-9-403-5/>
+
+* Applicants who were previously issued any type of visa; who have never been refused a visa, unless that refusal was later overcome, or a waiver of ineligibility was obtained; and for whom there is no indication of potential visa misuse or ineligibility
+* First-time F, M, and academic J NIV applicants who are citizens or nationals of VWP participating countries; and who have no prior ESTA denials; who have previously traveled to the United States on ESTA; and whose visa applications reveal no derogatory or potentially derogatory information; and who have no indication of potential visa misuse or ineligibility
+
+=== Interview waiver for individual petition-based H, L, O, P, and Q applicants (until December 31, 2023) (9 FAM 403.5-4(A)(1)(a)(6)) ===
+
+Until December 31, 2023, an applicant for an H-1, H-3, H-4, non-blanket L, O, P, or Q NIV in one of the following categories:<ref name=fam-9-403-5/>
+
+* Applicants who were previously issued any type of visa; who have never been refused a visa, unless that refusal was later overcome, or a waiver of ineligibility was obtained; and for whom there is no indication of potential visa misuse or ineligibility
+* First-time individual petition-based H-1, H-3, H-4, L, O, P, and Q visa applicants who are citizens or nationals of VWP participating countries; who have no prior ESTA denials; who have previously traveled to the United States on ESTA; and whose visa applications reveal no derogatory or potentially derogatory information; and who have no indication of potential visa misuse or ineligibility
+
+=== Interview waiver by the Deputy Assistant Secretary for Visa Services (9 FAM 403.5-4(A)(1)(b)) ===
+
+The Deputy Assistant Secretary for Visa Services may waive the interview requirement in individual cases after determining that such a waiver is necessary due to unusual or emergent circumstances. Visa officers reviewing a case may escalate such cases for attention by contacting the VO/F post liaison.<ref name=fam-9-403-5/>
+
+=== Interview waiver by the Secretary of State (9 FAM 403.5-4(A)(1)(b)) ===
+
+The Secretary of State may waive the interview requirement in individual cases after determining that such a waiver is in the national interest of the United States. Visa officers reviewing a case may escalate such cases for attention by contacting the VO/F post liaison.<ref name=fam-9-403-5/>
 
 == Implementation ==
 
-The Interview Waiver Program works as follows. Applicants apply for a visa by filling in Form DS-160 online, just as they would for a visa application with an interview. If they meet the conditions for an interview waiver, then instead of asking to schedule a visa interview appointment, the online interface will provide information or require an appointment to drop off the materials and collect biometric information.<ref name=matamoros/>
+The Interview Waiver Program works as follows. Applicants apply for a visa by filling in Form DS-160 online on the Department of State's Consular Electronic Application Center website, just as they would for a visa application with an interview. After submitting Form DS-160, the applicant may then use the Form DS-160 confirmation number to apply for a nonimmigrant visa at the consulate. As of 2023, the website through which nonimmigrant visa applications for US consulates can be done electronically is ustraveldocs.com.<ref>{{cite web|url = https://www.ustraveldocs.com/|title = USTravelDocs|accessdate = October 11, 2023}}</ref> The visa application process on this site includes a bunch of questions for the applicant, and based on the applicant's answers to the questions, the application informs the applicant whether he or she may be eligible for an interview waiver.
 
 == History ==
 
@@ -80,13 +90,13 @@ The Interview Waiver Program became permanent in January 2014.<ref name=bond-sta
 
 In a prepared statement at a hearing at the [[United States Senate Commerce Subcommittee on Competitiveness, Innovation, and Export Promotion|United States Senate Subcommittee on Tourism, Competitiveness, and Innovation]] on June 26, 2014, the [[U.S. Department of State]] Acting Assistant Secretary for Consular Affairs talked about the department's efforts to continue expanding the Interview Waiver Program to more applicants and use cases through better fraud detection techniques. One of the examples she gave was making citizens of [[Visa Waiver Program]] member countries eligible for the IWP when applying for other nonimmigrant visas. The statement also said that the Department of State looked forward to working with the [[United States Congress]] to pass legislation that would enable the Department of State and [[U.S. Department of Homeland Security]] to expand the program further.<ref name=bond-statement>{{cite web|url = https://travel.state.gov/content/travel/en/about/speeches-testimonies/Hearing-on-Travel-Facilitation.html|title = 06-26-2014: Statement of Michele T. Bond for the Hearing on The State of U.S. Travel and Tourism Industry: Federal Efforts to Attract 100 Million Visitors Annually|last = Bond|first = Michele|date = June 26, 2014|accessdate = January 29, 2017|archiveurl = https://web.archive.org/web/20170127011809/https://travel.state.gov/content/travel/en/about/speeches-testimonies/Hearing-on-Travel-Facilitation.html|archivedate = January 27, 2017}}</ref>
 
-In November 2015, the IWP was expanded in India to cover people with [[H-1B visa]]s whose employer had changed.<ref>{{cite web|url = https://www.murthy.com/2015/11/13/expansion-of-visa-interview-waiver-program/|title = Expansion of Visa Interview Waiver Program|date = November 13, 2015|accessdate = January 29, 2017|publisher = Murthy Law Firm}}</ref>
+In November 2015, the IWP was expanded in India to cover people with [[H-1B visa]]s whose employer had changed.{{citation needed}}
 
 IWP was still being rolled out to additional countries as of 2016.<ref name=algeria>{{cite web|url = https://photos.state.gov/libraries/algeria/401501/pdf2016/2016-04-10_Visa_Interview_Waiver_Program_EN.pdf|title = Visa Interview Program Launched!|date = April 11, 2016|accessdate = January 29, 2017|publisher = Embassy of the United States of America in Algiera, Algeria}}</ref>
 
 === Suspension ===
 
-An [[Executive Order 13769|executive order by Donald Trump on January 27, 2017]], issued a week after [[Donald Trump]] assumed the office of [[President of the United States]], asked for an immediate suspension of the Interview Waiver Program, pending review for compliance with Section 222 of the INA, 8 U.S.C. 1222, which requires that all individuals seeking a nonimmigrant visa undergo an in-person interview, subject to specific statutory exceptions.<ref name=qz/><ref name=cnn/> Dara Lind of ''Vox'' referred to the suspension of the IWP as the only concrete change to the visa screening process in Trump's executive order.<ref name=vox>{{cite web|url = https://www.vox.com/2017/1/27/14370854/trump-refugee-ban-order-muslim|title = Trump's executive order on refugees closes America to those who need it most. It lays the groundwork for a fundamental shift in how the US allows people to enter the country.|last = Lind|first = Dara|date = January 27, 2017|accessdate = January 29, 2017|website = [[Vox (website)|Vox]]}}</ref>
+An [[Executive Order 13769|executive order by Donald Trump on January 27, 2017]], issued a week after [[Donald Trump]] assumed the office of [[President of the United States]], asked for an immediate suspension of the Interview Waiver Program, pending review for compliance with Section 222 of the INA, 8 U.S.C. 1222, which requires that all individuals seeking a nonimmigrant visa undergo an in-person interview, subject to specific statutory exceptions.<ref name=qz>{{cite news|url = https://qz.com/895149/trump-is-suspending-the-visa-interview-waiver-program/|title = Trump just made it harder for tourists to visit the US|last = Yanofsky|first = David|date = January 27, 2017|accessdate = January 29, 2017|work = [[Quartz (publication)|Quartz]]}}</ref><ref name=cnn>{{cite web|url = https://edition.cnn.com/2017/01/27/politics/donald-trump-refugees-executive-order/index.html|title = Trump's latest executive order: Banning people from 7 countries and more|last = Diamond|first = Jeremy|publisher = [[CNN]]|date = January 29, 2017|accessdate = January 29, 2017}}</ref> Dara Lind of ''Vox'' referred to the suspension of the IWP as the only concrete change to the visa screening process in Trump's executive order.<ref name=vox>{{cite web|url = https://www.vox.com/2017/1/27/14370854/trump-refugee-ban-order-muslim|title = Trump's executive order on refugees closes America to those who need it most. It lays the groundwork for a fundamental shift in how the US allows people to enter the country.|last = Lind|first = Dara|date = January 27, 2017|accessdate = January 29, 2017|website = [[Vox (website)|Vox]]}}</ref>
 
 At around the same time as the executive order, Trump fired many key executives of the [[U.S. Department of State]], including [[Michele Thoren Bond]], who had delivered the statement about IWP in June 2014.<ref>{{cite news|url = https://www.theguardian.com/us-news/2017/jan/29/state-department-purge-trump-foreign-policy|title =  Trump's state department purge sparks worries of 'know-nothing approach' to foreign policy. The sudden dismissal of several senior officials has left a gaping hole at the heart of US diplomacy: 'The machinery is still there, but no one's in the cockpit'|last = Borger|first = Julian|date = January 29, 2017|accessdate = January 30, 2017|newspaper = [[The Guardian]]}}</ref> Her testimony was also removed from the website of the Department of State's Bureau of Consular Affairs.<ref name=bond-statement/>
 
