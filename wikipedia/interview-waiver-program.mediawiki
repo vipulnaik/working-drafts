@@ -2,9 +2,25 @@ The '''Interview Waiver Program''' ('''IWP'''), also called the '''Visa Intervie
 
 Applicants qualifying for interview waivers generally need to submit their passport along with various documentation to the US embassy or consulate processing their case. In some jurisdictions, the location that applicants submit the passport and documentation is called a "dropbox" location, and the terms "dropbox" or "dropbox appointment" may be used instead of "interview waiver" in some contexts.<ref>{{cite web|url = https://www.ustraveldocs.com/lk/lk-niv-visarenew.asp|title = Interview Waiver & Visa Renewal (Sri Lanka)|accessdate = October 12, 2023|publisher = USTravelDocs}}</ref><ref>{{cite web|url = https://www.ustraveldocs.com/vn/vn-niv-typej.asp|title = Exchange Visitor Visa (Vietnam)|accessdate = October 12, 2023|publisher = USTravelDocs}}</ref><ref>{{cite web|url = https://visagrader.com/trackers/us-drop-box-visa-appointments|title = US Visa Dropbox Appointment Experiences Tracker|publisher = Visa Grader|accessdate = October 12, 2023}}</ref>
 
-== Guidance for the Interview Waiver Program provided in the Foreign Affairs Manual ==
+== Guidance for the Interview Waiver Program provided in the Foreign Affairs Manual (as of 2023) ==
 
 According to the ''[[Foreign Affairs Manual]]'' (FAM), 9 FAM 403.5-4, a consular officer may choose to waive an interview for a visa applicant if any of the below conditions apply. Some of the content of the FAM is not available to the public. The guidance offers considerable leeway for consulates and consular officers regarding whether to grant interview waivers; it only provides a set of necessary conditions that must be satisfied in order to grant an interview waiver.<ref name=fam-9-403-5/>
+
+=== Background regarding "time of application" versus time of adjudication ====
+
+Some of the provisions of the Interview Waiver Program refer to an absolute time limit (December 31, 2023 for some of the cases below). Other provisions refer to relative time since expiration of a previous visa (48 months for some of the cases below). The "time of application" that is used for both absolute time limits and relative time calculations is the time that the visa application is submitted with payment of visa fee. This is clarified in 9 FAM 403.2-3 Definition of "Making a Visa Application":<ref name=fam-9-403-2>{{cite web|url = https://fam.state.gov/fam/09FAM/09FAM040302.html|title = 9 FAM 403.2 NIV APPLICATION (part of the Foreign Affairs Manual)|publisher = [[U.S. Department of State]]|accessdate = October 12, 2023}}</ref>
+
+{{blockquote|a. For an NIV applicant, "making a visa application" requires the applicant to complete three components:
+
+(1)  Complete and submit a Form DS-160 for formal adjudication by a consular officer, signed electronically by clicking the box designated "Sign Application" in the certification section of the application;
+
+(2)  Pay the required application fee (also known as the MRV application fee) or provide evidence of prior payment of the application processing fee, unless the applicant is exempt from paying the MRV fee (see 9 FAM 403.4-3); and
+
+(3)  Provide all required biometric data.  Biometric data is not complete until a photograph has been submitted and fingerprints, if required, have been collected.  Fingerprints that have been collected by a locally employed staff member or collected off-site by a contractor meet this standard, even if they have not yet been verified by a cleared American.
+
+b. Applicants who have submitted a photograph and who have ten fingerprints on file from a previous application have provided all required biometric data.  Applicants who have two fingerprints on file from a previous application, and who have been ten-printed by a contractor for verification via IDENT, have supplied the required biometric information.}}
+
+The scheduling of the appointment for the visa interview or document drop-off (the latter in case of an interview waiver) may be done later, within a prescribed time limit, and the actual appointment itself may be even later. For instance, in the case of India, the visa appointment or document drop-off appointment must be scheduled within 365 days of the visa application and fee payment, though the date it is scheduled ''for'' may be farther out than 365 days.<ref>{{cite web|url = https://in.usembassy.gov/visas/|title = Visas|publisher = U.S. Embassy & Consulates in India|accessdate = October 12, 2023}}</ref> In particular, the time of visa interview or document drop-off and time of subsequent adjudication steps need not be by December 31, 2023, and need not fall within the 48-month time limit, in order for the interview waiver criteria to be satisfied.
 
 === Interview waiver based on age (9 FAM 403.5-2) ===
 
@@ -76,7 +92,7 @@ The Secretary of State may waive the interview requirement in individual cases a
 
 == Implementation ==
 
-The Interview Waiver Program works as follows. Applicants apply for a visa by filling in Form DS-160 online on the Department of State's Consular Electronic Application Center website, just as they would for a visa application with an interview. After submitting Form DS-160, the applicant may then use the Form DS-160 confirmation number to apply for a nonimmigrant visa at the consulate. As of 2023, the website through which nonimmigrant visa applications for US consulates can be done electronically is ustraveldocs.com.<ref>{{cite web|url = https://www.ustraveldocs.com/|title = USTravelDocs|accessdate = October 11, 2023}}</ref> The visa application process on this site includes a bunch of questions for the applicant, and based on the applicant's answers to the questions, the application informs the applicant whether he or she may be eligible for an interview waiver.
+The Interview Waiver Program works as follows. Applicants apply for a visa by filling in Form DS-160 online on the Department of State's Consular Electronic Application Center website, just as they would for a visa application with an interview. After submitting Form DS-160, the applicant may then use the Form DS-160 confirmation number to apply for a nonimmigrant visa at the consulate. As of 2023, the website through which nonimmigrant visa applications for US consulates can be done electronically is ustraveldocs.com.<ref>{{cite web|url = https://www.ustraveldocs.com/|title = USTravelDocs|accessdate = October 11, 2023}}</ref> The visa application process on this site includes a bunch of questions for the applicant, and based on the applicant's answers to the questions, the application informs the applicant whether he or she may be eligible for an interview waiver; the applicant still has the option of choosing to schedule an interview.
 
 == History ==
 
