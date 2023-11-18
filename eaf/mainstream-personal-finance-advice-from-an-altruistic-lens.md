@@ -378,6 +378,9 @@ in some form across several countries.
 
 ### Revisiting the number of months for a fully funded emergency fund, without the altruistic lens
 
+See also [Stack Exchange
+question](https://money.stackexchange.com/questions/116594/is-there-any-point-in-adding-more-than-6-months-runway-in-savings-instead-of-in).
+
 Here's my take, evaluating the number of months for a fully funded
 emergency fund, but *without* the altruistic lens and with the
 assumption (that is in the background of mainstream personal finance)
