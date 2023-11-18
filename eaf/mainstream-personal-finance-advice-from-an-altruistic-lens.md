@@ -38,7 +38,8 @@ helping a lot of people get out of debt and build wealth. Here are the
 Largely similar (though with some important differences) is the
 [Financial Order of Operations from The Money
 Guy](https://learn.moneyguy.com/financial-order-of-operations-course);
-this too is tailored to a United States audience, though much of it is genericq:
+this too is tailored to a United States audience, though much of it is
+generic:
 
 1. Deductibles (this corresponds to the "baby emergency fund" /
    "starter emergency fund" i.e., step 1 in Ramsey's 7 steps): Save
@@ -307,7 +308,7 @@ A [video from Debt Free
 Millennials](https://www.youtube.com/watch?v=xTXc1P8pxac) goes into
 more detail regarding how many months of living expenses an emergency
 fund should cover. In addition to citing Ramsey's 3-6 months, the
-video narraotr also mentions Ramit Sethi's 6-12 months, and ultimately
+video narrator also mentions Ramit Sethi's 6-12 months, and ultimately
 decides to split it down the middle and target 6 months for a fully
 funded emergency fund.
 
