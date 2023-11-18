@@ -331,7 +331,7 @@ Raemon says:
 
 To me, the distinction between the emergency fund and sinking fund /
 retirement savings feels somewhat arbitrary, though I also understand
-thiat it has good uses I think it's worthwhile to parse out the
+thiat it has good uses. So I think it's worthwhile to parse out the
 emergency fund concept a bit more, and understand how people are
 coming up with these estimates such as 3-6 months, 6-12 months, 12-36
 months, etc.
