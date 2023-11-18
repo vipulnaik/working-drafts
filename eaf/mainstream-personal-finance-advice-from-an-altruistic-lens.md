@@ -150,6 +150,83 @@ mainstream personal finance advice, explaining my understanding of the
 current consensus and areas of disagreement, and then talk about how
 an altruistic lens can alter the way we think about it.
 
+## Debt
+
+Mainstream personal finance [generally separates
+debt](https://www.experian.com/blogs/ask-experian/good-debt-vs-bad-debt-whats-the-difference/)
+into "bad debt" -- the kind of debt you ideally shouldn't get into,
+and that you should try to get out of as quickly as possible, and
+"good debt" -- the kind of debt that it might be reasonable to get
+into, and that you shouldn't necessarily be in a rush to get rid of.
+
+The most significant form of bad debt is consumer debt; this could be
+in the form of credit card debt that is accruing interest (i.e., it is
+past its initial interest-free period), financed payments that are
+accruing interest (where you borrow money for a specific expense from
+a lender and have to pay it off in installments), and payday
+loans. Consumer debt is generally characterized by very high interest
+rates, notably, interest rates that are significantly higher than the
+long-term return from the stock market.
+
+Mainstream personal finance is reasonably unanimous that you should
+try to not get into bad debt if you can avoid it (and that's why it is
+important to build an emergency fund to handle emergencies), and also
+that you should aggressively try to pay off your accumulated bad
+debt.
+
+The distinguishing feature of "good debt" is that it is debt that is
+taken to help build wealth. Examples of "good debt" include
+mortgages/home loans (that help build ownership of real estate), auto
+loans (that help build ownershipd of a car), and student loans (that
+help with the acquisition of skills that increase earning
+potential). Of course, even a debt that falls in the "good debt"
+category may, in a specific situation, have been a bad idea, because
+the asset acquired by taking on the debt wasn't valuable enough to
+justify the debt. For instance, a student loan taken to acquire a
+degree that turned out to have no job market value.
+
+Also, "good debt" *generally* has lower interest rates that are in the
+ballpark of the market rate of return (and sometimes even lower!).
+
+Mainstream personal finance is less unanimous about whether you should
+take debts that fall in the good debt category, and how aggressively
+you should pay them off. The Dave Ramsey steps discourage taking on
+any form of debt other than a mortgage, so in particular that school
+of thought recommends using cash to buy cars, and cash-flowing your
+education (i.e., paying your way through college to the extent that
+parents and scholarships can't cover all your expenses). On the other
+hand, many other mainstream personal finance experts suggest that if
+the good debt in question has a lower interest rate than the market
+rate of return, there's no point paying the debt off quickly, and one
+should instead make minimum monthly payments.
+
+### Debt and the altruistic lens
+
+I think that on this point, mainstream personal finance is basically
+right. I don't think there is much that the altruistic lens has to add
+on this.
+
+I also haven't seen these topics discussed much in the EA community,
+which might be a reflection of the fact that many people in the
+community consider these points obvious and not even worth discussing.
+
+I think it might be worth discussing / reiterating these points at the
+appropriate places, such as when people are being asked to sign
+donation pledges. The Giving What We Can pledge [briefly mentions
+debt](https://www.givingwhatwecan.org/en-US/pledge#faqhow-does-debt-change-my-giving-pledge):
+
+> How does debt change my giving pledge?
+>
+> People taking a giving pledge should consider whether they will be
+> able to donate their pledged amount while handling debt (such as
+> student loans or a mortgage). Debt does not change the pledged
+> amount as long as you have a regular income.
+
+It's interesting that the two examples of debt included in this
+example are both "good debt"; it looks like the language doesn't even
+seem to consider the possibility of people having significant amounts
+of bad debt.
+
 ## Emergency fund
 
 ### Description of "emergency fund" in mainstream personal finance
@@ -203,7 +280,7 @@ if you do have an unexpected expense or unexpected loss of income, you
 can put your "wants" on hold for a while while you recover from the
 situation by drawing on the emergency fund.
 
-#### On the EA Forum
+#### In the EA-sphere
 
 In his [post on earning to
 save](https://forum.effectivealtruism.org/posts/3ijnLaws7mCEogD6H/earning-to-save#R6n6GbYxxAJaeqPCs),
@@ -234,7 +311,7 @@ video narraotr also mentions Ramit Sethi's 6-12 months, and ultimately
 decides to split it down the middle and target 6 months for a fully
 funded emergency fund.
 
-#### On the EA Forum
+#### In the EA-sphere
 
 80,000 Hours recommends [saving for 6-24
 months](https://80000hours.org/2015/11/why-everyone-even-our-readers-should-save-enough-to-live-for-6-24-months/),
@@ -257,10 +334,6 @@ thiat it has good uses I think it's worthwhile to parse out the
 emergency fund concept a bit more, and understand how people are
 coming up with these estimates such as 3-6 months, 6-12 months, 12-36
 months, etc.
-
-First, let's try to understand the mainstream personal finance
-perspective. Mainstream personal finance is dealing with two kinds of
-problems:
 
 1. **Insufficient emergency funds**, leading to people being unable to
    handle emergencies, or going into high-interest debt to tackle
@@ -302,5 +375,133 @@ advantages) before trying to build a generic pool of wealth. While the
 exact details of these tax advantages vary by country, they do exist
 in some form across several countries.
 
-### Revisiting the number of months
+### Revisiting the number of months for a fully funded emergency fund, without the altruistic lens
 
+Here's my take, evaluating the number of months for a fully funded
+emergency fund, but *without* the altruistic lens and with the
+assumption (that is in the background of mainstream personal finance)
+that the long-term rate of return of the stock market will remain
+roughly what it has been in the past century.
+
+To me, this comes down to a trade-off: do you build more of an
+emergency fund and derisk your near-term future, versus do you save
+more in (perhaps tax-advantaged, if feasible) retirement accounts, and
+derisk your post-retirement life?
+
+Here are a few criteria I'd use:
+
+1. If your expected career trajectories and life choices are such that
+   you *need* to rely on the stock market's rate of return in order to
+   save enough for retirement, then you should stick to having an
+   emergency fund at the relatively low end (something like 6
+   months). However, if your expected career trajectories and life
+   choices are such that just putting your savings in a high-yield
+   savings account would let you have enough for retirement, you
+   should probably build a larger emergency fund in the near term,
+   giving you more short-term flexibility (something like 12 months).
+
+2. If you are in a "thick" job market, i.e., one with lots of job
+   openings, you can get away with a relatively small emergency fund
+   (something like 6 months). If you are in a thin job market, where
+   there are very few job openings, you should have a larger emergency
+   fund, because it may take longer to recover from job
+   loss. Depending on the thinness of the job market, you may even
+   want something like a 3-year emergency fund.
+
+3. If you have steady income (e.g., as a fixed-salary employee) in
+   your current job and in potential jobs you can get if you lose your
+   current one, you can get away with a small emergency fund. If you
+   have variable income, you may want to augment your emergency fund
+   to cover the seasonal variability.
+
+4. If you're in a job that relies on skills that you lose quickly as
+   you age, or where you're more prone to injury that may lead you to
+   be unable to work, you may wish to keep a larger emergency fund. An
+   example that might fit both criteria is that of a sports player.
+
+5. If you have tendencies for chronic diseases or health issues, you
+   should focus on building a large emergency fund. Having money in a
+   locked retirement account won't help you treat chronic health
+   issues as a young person, and won't help you tide over the loss of
+   income in those scenarios. And if you don't survive that time
+   period, you won't live to retirement age anyway!
+
+On the whole, my take is: 6 months if you're in the best fit for the
+scenario: don't earn much so you need that stock market growth rate to
+be able to retire, you're in a thick job market, you have steady
+income potential, your job doesn't rely on skills that you age out of
+quickly, your job doesn't expose you to high injury risk, and you
+don't have chronic health conditions. I'd add a few months for each of
+these conditions that you violate.
+
+### Adding in the altruistic lens
+
+The altruistic lens has a few important effects:
+
+* Connecting to point (2) above, if you want to do a job you directly
+  consider highly impactful, the "job market" you're effectively in is
+  a *lot* thinner than otherwise (this has been noted specifically in
+  the context of the EA community, e.g.,
+  [here](https://forum.effectivealtruism.org/posts/jmbP9rwXncfa32seH/after-one-year-of-applying-for-ea-jobs-it-is-really-really)). This
+  is a strong argument for maintaining a much larger emergency fund,
+  so that running out of money doesn't become the bottleneck / reason
+  for giving up on the high-impact jobs and settling for a
+  lower-impact job.
+
+* To the extent that you see your job as a way to do good, you want to
+  not be financially tied to your job. Specifically, if you feel your
+  employer is behaving unethically, or just is not having the sort of
+  positive impact that you envisioned when you joined, you may want to
+  quit; these altruistic / prosocial motivations for quitting may
+  matter more when you are looking at the situation with an altruistic
+  lens. When you have to make that sort of decision, you don't want
+  uncertainty about your own financial future to get in your way. So,
+  having a larger emergency fund may be more important here.
+
+### Does community social insurance reduce the need for an emergency fund?
+
+One argument that has been brought up often in the EA Forum is the
+idea that every individual building their own emergency fund is
+inherently wasteful and duplicative; instead, community social
+insurance to help cover expenses for people temporarily out of work
+could mean much less in total spending. For instance, the [80,000
+Hours
+post](https://80000hours.org/2015/11/why-everyone-even-our-readers-should-save-enough-to-live-for-6-24-months/)
+says:
+
+> Could there be a community insurance scheme?
+>
+> Personal runway is inefficient.
+>
+> Suppose Stephanie has a ¼ chance of losing her job over the next
+> year. If she loses her job, she’ll need $20,000 in savings to see
+> her through. So she has to save $20,000.
+>
+> However, if four people like John got together, they could each add
+> $5,000 to a common pot each year. On average, only one of them will
+> lose their job and receive the $20,000. So each individual would
+> only need to save 25% as much.
+>
+> Such a scheme has a serious challenge – who decides whether someone
+> really deserved the insurance payout, and who is freeloading – but
+> is potentially much more efficient.
+>
+> One option would be to take out unemployment or loss of income
+> insurance, though if it’s from a profit-making company, it’ll tend
+> to be more expensive.
+
+This is a good argument and is valid in at least some cases, and it
+has the obvious limitations that the 80,0000 Hours post
+notes. Overall, I think having some form of community social insurance
+is good, and it can definitely help with some cases of unexpected
+individual loss of income. At the same time, I think exclusively
+relying on it is a bad idea, because it can further raise the relative
+costs of "whistleblowing" by being critical of the community, or even
+of simply changing one's mind about values that the community holds
+dear, to the extent that it will make the community stop insuring you.
+
+So yes, I think community social insurance, to the extent it exists,
+does reduce the amount needed for the emergency fund, but on balance
+I'd still say that for those looking at the matter altruistically, the
+emergency fund should be *at least as much* as it should be for people
+not looking at the matter altruistically.
