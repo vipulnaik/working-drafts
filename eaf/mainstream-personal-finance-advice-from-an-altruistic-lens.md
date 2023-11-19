@@ -88,6 +88,26 @@ BFF):
    much money you need to be able to sustain yourself indefitely
    (e.g., using the 4% withdrawal rate).
 
+The [financial planning page on
+Bogleheads](https://www.bogleheads.org/wiki/Financial_planning) gives
+the following list:
+
+* Financial planning starts with a sound financial lifestyle (Video).
+* Track your expenses and stay within your budget. (Household budgeting).
+* Is your needed insurance coverage up to date?
+* Pay down bad debt (credit cards, other high interest debt). Paying
+  off a 20% interest rate credit card debt will free up your money far
+  faster than purchasing a stock fund. With very low interest rate
+  loans, it is often better to make minimum loan payments while
+  investing the rest.
+* Start saving for the emergency fund. Once you have debt under
+  control, create an emergency fund. Do not skip this step! An
+  established emergency fund can provide an individual with needed
+  funds whenever an unforeseen event occurs so that you do not need to
+  tap investments held for long term goals.
+* Take advantage of any employer match on a retirement savings plan
+  even as you work towards the above goals.
+
 ### Common themes
 
 The exact details differ between different sets of steps; for
