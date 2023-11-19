@@ -252,8 +252,9 @@ of bad debt.
 
 ### Description of "emergency fund" in mainstream personal finance
 
-An [emergency
-fund](https://www.nerdwallet.com/article/banking/emergency-fund-why-it-matters)
+An [emergency fund](https://www.bogleheads.org/wiki/Emergency_fund)
+(see also
+[here](https://www.nerdwallet.com/article/banking/emergency-fund-why-it-matters))
 is a pool of money, generally in a liquid and low-risk form (such as a
 high-yield savings account), that can be used to deal with
 emergencies, that could be (a) unexpected expenses, or (b) unexpected
