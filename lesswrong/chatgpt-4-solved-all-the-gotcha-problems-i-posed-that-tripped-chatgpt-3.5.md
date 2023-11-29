@@ -524,7 +524,7 @@ at trying to figure out if 41 is a safe prime.
 
 ## Conclusion
 
-This big jump in capabilities from ChatGPT 3.5 to ChatGPT 4 is
+The big jump in capabilities from ChatGPT 3.5 to ChatGPT 4 is
 well-known, and I'm hardly the first to comment on it, but nonetheless
 I think it is interesting because I created, ran, and published the
 prompts and responses against ChatGPT 3.5 *before* ChatGPT 4 became
@@ -563,3 +563,14 @@ on the question.
 I consider it unlikely that my interactions with ChatGPT 3.5 (that led
 to my original post) played a significant role as training data that
 helped make ChatGPT 4 so much better. However, I can't rule that out.
+
+A sobering possibility is that the improvement is actually *pretty
+small* on the grand spectrum of intelligence; it just looks huge to us
+because we are zoomed in on the portion of intelligence at and around
+human levels. This harks back to the famous [village idiot/Einsten
+scale by
+Eliezer](https://www.lesswrong.com/posts/3Jpchgy53D2gB5qdk/my-childhood-role-model)
+where he posits that village idiot and Einstein are actually very
+close by on the spectrum of intelligence. So if ChatGPT 4 is blowing
+our minds by doing correctly what ChatGPT 3.5 couldn't, ChatGPT 5 or 6
+or 7 may be way way way beyond what we can imagine.
