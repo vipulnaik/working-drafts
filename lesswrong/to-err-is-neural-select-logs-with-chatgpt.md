@@ -94,7 +94,7 @@ I tried asking ChatGPT the underlying question without assuming the
 answer, but ChatGPT still gave the same wrong answer with the same
 errors when explaining its examples.
 
-## Product of odd integers (session 1; 2022-12-21)
+## Product of odd integers and product of even integers (session 1; 2022-12-21)
 
 > Vipul: Can the product of two odd integers be even?
 
