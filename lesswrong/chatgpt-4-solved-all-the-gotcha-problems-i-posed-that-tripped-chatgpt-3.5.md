@@ -1,4 +1,4 @@
-# ChatGPT solved all the gotcha problems I posed that tripped ChatGPT 3.5
+# ChatGPT 4 solved all the gotcha problems I posed that tripped ChatGPT 3.5
 
 In December 2022, I [shared logs of my interactions with the
 then-nascent ChatGPT 3.5 (December 15, 2022
