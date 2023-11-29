@@ -567,7 +567,7 @@ helped make ChatGPT 4 so much better. However, I can't rule that out.
 A sobering possibility is that the improvement is actually *pretty
 small* on the grand spectrum of intelligence; it just looks huge to us
 because we are zoomed in on the portion of intelligence at and around
-human levels. This harks back to the famous [village idiot/Einsten
+human levels. This harks back to the famous [village idiot/Einstein
 scale by
 Eliezer](https://www.lesswrong.com/posts/3Jpchgy53D2gB5qdk/my-childhood-role-model)
 where he posits that village idiot and Einstein are actually very
