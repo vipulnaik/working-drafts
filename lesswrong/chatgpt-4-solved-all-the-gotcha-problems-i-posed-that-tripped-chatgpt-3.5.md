@@ -459,9 +459,9 @@ didn't say "Yes" so forcefully at the start.
 > Centered square number: 41 is a centered square number. Centered
 > square numbers can be represented as a square with a dot in the
 > center and all other dots surrounding the center dot in a square
-> shape. The formula for the nth centered square number is given by: 1
-> + 8(n-1), where n is a positive integer. In the case of 41, n = 6,
-> so 41 = 1 + 8(6-1) = 1 + 8(5) = 1 + 40 = 41.
+> shape. **The formula for the nth centered square number is given by:
+> 1 + 8(n-1), where n is a positive integer. In the case of 41, n = 6,
+> so 41 = 1 + 8(6-1) = 1 + 8(5) = 1 + 40 = 41.**
 
 > Euler's famous prime-generating polynomial: In mathematics, the
 > polynomial f(n) = n^2 + n + 41 generates prime numbers for the
@@ -520,11 +520,12 @@ didn't say "Yes" so forcefully at the start.
 > apologize for any confusion.
 
 Looks good, other than the incorrect claim about the first six even
-integers (where it incorrectly calls 11 an even integer) and the
-flawed reasoning in ChatGPT's first attempt at trying to figure out if
-41 is a safe prime. [HT stochastic_parrot in the comments for the part
-about the first six even integers, that I missed in my first draft of
-the post.]
+integers (where it incorrectly calls 11 an even integer), the formula
+error for centered square numbers (even though the assertion that 41
+is a centered square number is correct) and the flawed reasoning in
+ChatGPT's first attempt at trying to figure out if 41 is a safe
+prime. [HT stochastic_parrot in the comments for the part about the
+first six even integers, that I missed in my first draft of the post.]
 
 ## Conclusion
 
