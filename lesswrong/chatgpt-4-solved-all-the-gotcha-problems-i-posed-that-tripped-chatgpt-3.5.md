@@ -231,7 +231,7 @@ hardly fault it for providing only a partial explanation.
 > prime. In fact, it is never prime (**except for the special case
 > when one of the prime numbers is 1**, *which is not considered prime
 > by definition*). When you multiply two prime numbers, the product
-> will have at least two distinct prime factors: the two prime numbers
+> will have at least two **distinct** prime factors: the two prime numbers
 > being multiplied.
 
 > For example, let's multiply two prime numbers, 3 and 5:
@@ -243,9 +243,11 @@ hardly fault it for providing only a partial explanation.
 
 Other than some minor confusion about the status of 1 (an issue that
 we also saw with ChatGPT 3.5, albeit to a much greater extent there),
-the answer seems correct. ChatGPT 4 volunteered not just that it isn't
-always prime, but that it's never prime. It also gave the outline of
-an explanation.
+and a nuance regarding distinct prime factors (my prompt did not
+specify the prime numbers as distinct, so it was incorrect to infer
+that there would be two distinct prime factors), the answer seems
+correct. ChatGPT 4 volunteered not just that it isn't always prime,
+but that it's never prime. It also gave the outline of an explanation.
 
 ## gcd of distinct prime numbers (session 1; 2023-04-08)
 
@@ -486,8 +488,9 @@ didn't say "Yes" so forcefully at the start.
 > Issa: Is 41 a safe prime?
 
 > ChatGPT: No, 41 is not a safe prime. A safe prime is a prime number
-> of the form 2p + 1, where p is also a prime number. Safe primes are
-> a subset of Sophie Germain primes, and p is a Sophie Germain prime.
+> of the form 2p + 1, where p is also a prime number. **Safe primes
+> are a subset of Sophie Germain primes, and p is a Sophie Germain
+> prime.**
 
 > In the case of 41, we should check if there is a prime number p for
 > which 2p + 1 equals 41. However, we already established that 41 is a
