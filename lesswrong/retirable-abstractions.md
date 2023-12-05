@@ -112,3 +112,43 @@ quadruple* the distance you maintain from the person/vehicle/thing in
 front of you. Newtonian mechanics notes that the kinetic energy grows
 as the *square* of your speed, which means that doubling your speed
 can *quadruple* the energy impact if you get into a collision.
+
+## Chemistry and the nature of matter
+
+### Classical elements: retirable IMHO
+
+The four [classical
+elements](https://en.wikipedia.org/wiki/Classical_element) are earth,
+water, air, and fire. Given our substantially better understanding of
+chemistry and the nature of matter, I claim that the classical
+elements are a retirable abstraction as far as practical science
+goes. With that said, they might still be useful as a literary
+vehicle!
+
+### Alchemy: retirable IMHO
+
+[Alchemy](https://en.wikipedia.org/wiki/Alchemy) is the
+protoscientific tradition that pre-dates modern chemistry. I don't
+know a lot about alchemy; my vague understanding is that pretty much
+all the valuable insights from alchemy have already been absorbed into
+modern chemistry.
+
+And some aspects of it, such as [converting other metals to
+gold](https://en.wikipedia.org/wiki/Chrysopoeia), is correctly
+recognized as not feasible now with the methods being originally
+tried. With our modern understanding, nuclear reactions are needed to
+convert one element to another, and these reactions tend to be
+infeasible in most circumstances and have large amounts of energy
+input or output even when feasible.
+
+### Physical chemistry of the kind taught in high school / college: not retirable IMHO
+
+Physical chemistry at the level that is taught in high school /
+college is not retirable as far as I'm concerned, even though it's
+probably only a crude approximation to the more accurate theories that
+fall out of a modern understanding of quantum mechanics. In
+particular, physical chemistry concepts such as solubility,
+reduction/oxidation, pH (acids/bases), diffusion of gases, reversible
+reactions and their kinetics and equilibirum etc. are useful
+background information to understand the natural, synthetic, and
+biological worlds.
