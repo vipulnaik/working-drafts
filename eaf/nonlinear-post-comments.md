@@ -1,0 +1,34 @@
+https://forum.effectivealtruism.org/posts/H4DYehKLxZ5NpQdBC/nonlinear-s-evidence-debunking-false-and-misleading-claims?commentId=hERAWoRyWM9gGrMvG
+
+For the most part, an initial reading of this post and the linked documents did have the intended effect on me of making me view many of the original claims as likely false or significantly exaggerated. With that said, my suggestion would have been to remove some sorts of stuff from the post and keep it only in the linked documents or follow-up posts. In particular, I'd say:
+
+* The photos provide a bit of information, but can be viewed as distracting and misleading. I think the value of information they provide is probably sufficient for their inclusion in a linked Google Doc, but including them twice in the post (and once near the top) gives them a lot of salience, and as some of the comments here show, this can cause some readers to switch off or view your post with hostility.
+* Some of the alternative hypothesis stuff, and the stuff related to claims about Ben Pace, may also have been better suited to a linked Google Doc -- something that curious readers could dig into, but that was not given a lot of salience for somebody who was just interested in the core claims. I think there's some value to these exercises, but it would muddy the waters less if this were less salient, so that readers could focus on the core claims.
+* Some of the editorialization e.g., around what we should be focusing on, or how much effort was wasted on this, would probably have been best left to a follow-up post, *if* and *after* the core claims of this post achieved more widespread acceptance. I do see some value in the editorialization, but it feels a bit premature as its validity is contingent on the core claims in the post being accepted. (I do understand *thinking about this* and *feeling strongly about this*; I just think this post isn't the optimal point for expressing these thoughts).
+
+Now that the post is written and published, I don't know if it makes sense to make these changes. But  my own take is that the post would have been stronger had these changes been made prior to publishing. Curious to hear if others agree or disagree.
+
+https://forum.effectivealtruism.org/posts/H4DYehKLxZ5NpQdBC/nonlinear-s-evidence-debunking-false-and-misleading-claims?commentId=6wG8gxJxWtek8aiWg
+
+Also, I think that not linking to Ben's post near the top can come across as bad form. I fully understand the desire to not link to a post you consider to be making false and misleading claims, and I also expect readers to have no problem locating the original post, so I expect the lack of a link to not matter materially. But it does come across as bad form (Ben's post has been updating to link to yours, so there is now a clear asymmetry).
+
+https://forum.effectivealtruism.org/posts/H4DYehKLxZ5NpQdBC/nonlinear-s-evidence-debunking-false-and-misleading-claims?commentId=hvoiuc2TkjfFNcfvq
+
+Thanks! I'm guessing many people would have incorrectly guessed it was intentional (as I did) so I'm happy you fixed this.
+
+https://forum.effectivealtruism.org/posts/H4DYehKLxZ5NpQdBC/nonlinear-s-evidence-debunking-false-and-misleading-claims?commentId=r5D9JMFGwiGJ96eNj
+
+[NOTE: This comment is specifically about things that Nonlinear could have done better after the employees in question had left the organization. This is not intended to connote that others were faultless; I'm just focusing on things from Nonlinear's perspective for the purpose of this comment. Also, I am assuming the essential truth of the information Nonlinear has shared, again for the sake of argument.]
+
+One thing I would have suggested Nonlinear do differently in the past few months, after getting clear information that Alice/Chloe were spreading information about Nonlinear that was at odds with Nonlinear's own understanding of what had happened: start privately putting together a document (like this one) as a defensive measure, even before the allegations became widespread. Obviously the document could not be super-specific without knowledge of exactly what allegations would be made or exactly how they would be worded, but going by what Kat suggests in the post, the approximate list of concerns that the former employees were raising was already known to Nonlinear. (In fact, I'd go further and say they should have focus-grouped or otherwise gotten feedback on their responses so as to understand how others might perceive things). Having a document like this prepared before there was a PR crisis would have helped in several ways:
+
+* Nonlinear staff (Kat and others) could have gotten over some of the emotional edge that one has when first confronting accusations, or putting one's response to accusations on paper, which may have improved the quality of their communication, reducing the risk of them appearing defensive or otherwise sending out signals of poor epistemic virtue.
+* Nonlinear could have proactively provided the proofs to Ben without requesting him to wait a week for them to collect proofs, because *the proofs would have been ready*.
+* Even if Ben had not been willing or able to review all of these, Nonlinear could have published its response relatively more quickly after Ben's post was published. The 3-month-plus delay likely cost a lot to Nonlinear's reputation.
+* Having a substantive response may also have reduced the chances that Nonlinear would resort to approaches such as legal threats, that (in my view) did not succeed, and rather ended up backfiring for Nonlinear in the court of public opinion.
+
+My suggestion would have been to purely prepare the document defensively, only to be published if the accusations gained wider credence, but potentially the document could also be shared with funders, grantees, potential employees, or other stakeholders who had already heard the accusations and were concerned about associating with Nonlinear due to the accusations.
+
+I think many of the same factors that led to a lot of the problems in the first place likely also constrained Nonlinear's ability to preemptively respond to the problems, namely: not a lot of manpower, not a lot of internal organization, always being on the move, etc. I think it could still be a valuable lesson for other individuals or organizations to consider when they come to learn that there is negative information about them that's floating around.
+
+Preemptively responding to a threat that may never materialize may mean wasted effort. But then again, a lot of the whole existential risk / catastrophic risk / AI safety community is focused on preemptively responding to things that may not materialize. So I don't think that's much of an objection in principle. It comes down partly to how high the probability is, but it's worth keeping in mind the other angle: once the threat has materialized, it's much harder to respond in a level-headed manner.
