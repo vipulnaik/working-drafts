@@ -38,3 +38,19 @@ https://forum.effectivealtruism.org/posts/H4DYehKLxZ5NpQdBC/nonlinear-s-evidence
 One area where Ben didn't follow investigative journalism "best practices" (that I had missed early on, but saw mentioned in Kat's post, and went back and checked) was that he financially compensated his sources ($5,000 each, or $10,000 total). This is frowned upon pretty heavily in investigative journalism (see e.g., https://en.wikipedia.org/wiki/Chequebook_journalism). I don't have any reason to believe this meaningfully distorted the outcomes here (for instance, if the sources had no indication right until the end that Ben would compensate them financially, it is unlikely to have influenced their behavior) but it is a clear departure from an existing norm in the investigative journalism field. I appreciate the Ben disclosed this information; disclosure does address some but not all of the concerns around compensating sources.
 
 I don't rule out the possibility that the investigative journalism norm against paying sources is flawed, or it doesn't apply in this case, or that a different set of norms should be applied.
+
+https://forum.effectivealtruism.org/posts/H4DYehKLxZ5NpQdBC/nonlinear-s-evidence-debunking-false-and-misleading-claims?commentId=Tpt2rk4HpeQfdE39R
+
+Thanks. I don't see any confirmation from him of actually offering to pay upfront, so barring that further evidence I would not read anything too definite from this.
+
+https://forum.effectivealtruism.org/posts/H4DYehKLxZ5NpQdBC/nonlinear-s-evidence-debunking-false-and-misleading-claims?commentId=ozJirwk2Amrgq7N4j
+
+Sorry I wasn't clear. I mean that I haven't seen him confirm publicly that he *told them* that he will or might pay them. The place you linked just talks about his draft plan of what he was thinking of doing (offering money). If he didn't offer money to them, and they had no other indirect indication (until the process was over) that he was going to give them money, then there would be very little distortionary effect.
+
+https://forum.effectivealtruism.org/posts/H4DYehKLxZ5NpQdBC/nonlinear-s-evidence-debunking-false-and-misleading-claims?commentId=b5abxcXKksAJfzQZA
+
+My original comment left a pretty wide window of possibilities open, and your reply falls within that window, so I don't quite think we disagree a lot. However, in the spirit of nitpicking, I'll make a couple of points:
+
+* Prominence of disclosure matters. The fact that Ben included the information in his post shows that he didn't intend to hide it; nonetheless, my sense is that he didn't highlight it as a disclosure / disclaimer / caveat for readers to keep in mind when interpreting the post. He did include other disclaimers around his process and motivation at the start of the post, that I found helpful, and his non-inclusion of payment along with those disclosures gives me the sense that he didn't consider the distortionary effect of payment as a biasing factor worth highlighting to readers. My guess is that it would be pretty likely for readers to miss it (as I did). I'm genuinely uncertain whether the lack of discussion around this was driven by people not noticing it, or noticing it and not thinking it mattered.
+
+* I'm familiar with the broad outlines of the whistleblower law (from [this podcast episode](https://darknetdiaries.com/transcript/80/)). I think there's a distinction, though, between awarding money after a determination / judgment of harm, versus awarding money as a journalist or investigator who's trying to report on the situation. I don't know exactly how Ben perceived his role, and perhaps the point is that he didn't perceive his role as being strictly one or the other, but a mix.
