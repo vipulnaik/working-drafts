@@ -8,6 +8,10 @@ worked for and at companies I've interfaced with). To a lesser extent,
 I've also drawn of what I've seen in various social circles such as
 the effective altruist and rationalist communities.
 
+I think things of a similar nature to these are also important in
+interpersonal relationships, though I think they may not be quite as
+"unreasonably effectve" in those contexts.
+
 The four things I've identified are:
 
 * Responsiveness
@@ -56,4 +60,35 @@ can be refined a bit to distinguish between time taken to acknowledge
 versus time taken to fully address or resolve whatever you're
 responding to.
 
-Speed
+Speed is important for a few reasons:
+
+* Sometimes, the individual thing is time-sensitive.
+* The faster the response, the more iterations of response can happen,
+  which means that more can happen overall.
+* There's a psychological benefit of immediacy of response in terms of
+  reducing the need for the person asking the question to switch back
+  context; when somebody asks a question or asks for something, the
+  material is fresh in their mind, and it fades out quickly going
+  farther.
+
+There's some nuance on whether it's worthwhile to send a message to
+acknowledge a question or request, versus just wait and send a more
+substantive response or resolution. My general sense is that if the
+person asking does not already have experience with you being
+responsive, it is good to acknowledge and thereby reassure them that
+you're on it.
+
+However, in cases where the person already has experience with you
+being responsive, and/or has visibility in other ways to have a
+reasonable sense that you're on it, it may not be necessary to
+acknowledge. In some cases, it may even be a bad idea to send an
+information-free acknowledgement, insofar as it adds to the other
+person's notification load and ultimately doesn't give them new
+information.
+
+### Frequent monitoring and initial review
+
+Given the importance of speed, it's important to frequently monitor
+for incoming messages and to make sure you're available for emergency
+forms of contact. The details of this can vary from situation to
+situation.
