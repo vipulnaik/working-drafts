@@ -462,3 +462,104 @@ they can convince you that you're creating more value than you
 cost. If not, consider yourself a potential candidate for the next
 reduction-in-force or layoff (which may not happen for a long time,
 but it's always a risk).
+
+## Reliability and positive affect
+
+Reliability and positive affect refer to a cluster of related ideas:
+
+* People feel like if they give you a task, they "don't have to worry
+  about it" any more. You'll do the best that can reasonably be done,
+  and will reach out to them if needed, so they don't have to nag you
+  or remind you or monitor you to make sure you're doing it.
+
+* People feel a sense of a relief when you "walk into the room" during
+  a stressful time. For instance, if you and your teammates and
+  handling a shop floor, and there are a lot of customers, then when
+  you sign in to work, your co-workers feel a sense of relief that
+  you're there and things will now improve.
+
+If you can generate a justified perception of reliability and your
+presence creates positive affect in the above sense, this helps a lot
+in the perception game. I think this is unreasonably effective,
+compared to, for instance, being a high-variance worker who still
+accomplishes the same average output.
+
+## Magic
+
+This is probably the hardest to achieve, and the one that I'd focus on
+least; if there were a choice between "reliability and positive
+affect" and "magic" I'd recommend the former. Nonetheless, if you've
+already exhausted responsiveness, clueyness, and reliability and
+positive affect, then magic can help you get ahead.
+
+What do I mean by magic? Roughly speaking, I'm talking about when you
+take some seemingly-intractable problem and just solve it, or you come
+up with some crazy idea that improves things a lot, that nobody else
+has thought of or would have expected to think of. If you can
+*reliably* do magic, that's of course great, but even if can do magic
+a few times a year, that is unreasonably effective at winning the
+perception game.
+
+### Can magic actually be done by mere mortals?
+
+One pushback to the idea of magic is that being able to do magic
+requires a crazy high level of skill, acquiring which is very hard to
+begin with, so magic isn't unreasonably effective.
+
+This is probably true in many cases, but I also think that there are
+other cases where magic can be achieved by just persisting on a
+problem for a long time (using the more general skill of stamina)
+along with a relatively basic toolkit. So, if you have good stamina,
+access to a basic toolkit, and a willingness to use these on
+seemingly-intractable problems if and when they come up, you have a good
+likelihood of succeeding at least some of the time.
+
+What makes magic hard? A bunch of things:
+
+* Seemingly-intractable problems may not happen all that often, so if
+  you want to get the perception benefits of doing magic, you need to
+  have the willingness to jump on these problems when they happen,
+  which may not be at a time that is otherwise convenient for
+  you. They're not a good fit if you are generally behind in terms of
+  meeting your core responsibilities.
+
+* Seemingly-intractable problems are generally not easy! You often
+  need to know the basic problem-solving toolkit of your domain
+  reasonably well.
+
+* Seemingly-intractable problems can often be brute-forced, but the
+  process is painful and long. So absent a stroke of good luck or
+  extreme skill that helps you identify a core insight quickly, you
+  need to be prepared to slog through the process. Moreover, the huge
+  amount of local context in the problem-solving process means that
+  these usually require a concentrated stretch of time.
+
+In the world of programming, many seemingly-intractable problems can
+be brute-forced by some mix of [stepping in a
+debugger](https://en.wikipedia.org/wiki/Stepping_(debugging)), adding
+copious log lines, and trying several times with enough variation to
+conditions. In fact, I'd say that most front-end problems in browsers
+(tied to JavaScript execution) can be solved with these (with some
+binary searching when operating over large possibility spaces) and
+some basic programming knowledge. But this process can be very
+painful. If you don't have a lot of specific skills and still want to
+do magic, this still does have a crazy-high return on investment in
+terms of the perception game. I've done this kind of thing a few
+times, generally figuring out what's going on with JavaScript code and
+API calls by third parties where I can only see the minified code as
+it executes on the browser, and don't have access to the original
+pretty structured source code. The final takeaway looks neat and
+simple, but the discovery process is ugly because there is a lot of
+code to go through and I don't have access to the source code to
+understand the original structure. Even so, that 2-3 hours of focused
+brute-forcing is a small price to pay for the impressiveness of the
+eventual finding and the value it adds in terms of getting to the
+bottom of the problem.
+
+This is an area where doing things like Olympiads is
+disproportionately helpful, even after controlling for overall effects
+on cognitive skills. Olympiad problems involve a lot of "brute-force
+through a basic toolkit, with some speeding up if you get a core
+insight quickly"; the real-world problems tend to have fewer cases
+where the core insight can be located through good aesthetics, but the
+feel is otherwise very similar.
