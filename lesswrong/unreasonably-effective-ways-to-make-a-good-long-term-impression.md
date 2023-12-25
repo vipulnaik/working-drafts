@@ -387,6 +387,26 @@ otherwise). Even so, believing this to be true in some cases is
 different from just not having an opinion or story at all on why it
 matters.
 
+#### Ask about goals, but with care
+
+As a first pass, it's better to ask about goals if they aren't clear
+to you (or even if you think they're clear to you, but want to
+confirm). However, asking too much about goals that you should already
+know can expose your cluelessness. So ask a little bit, but if you
+feel like you're revealing a lot of cluelessness, think about
+selecting an environment and context for information-gathering where
+you can patch your cluelessness without putting it on display or using
+up a lot of people's time.
+
+For instance, if you're in a group meeting and are discussing the
+rationale for a task assigned to you, and you get into a multi-step
+discussion about why it's wortwhile, take the discussion offline
+rather than wasting the group's time. And, if you feel like you're
+going through the same set of questions about goals that you've
+already asked and received answers to, stop and go recall the result
+of the original discussion, to identify exactly what parts you are
+still unclear about.
+
 ### Being cluey about your own evaluation
 
 Being clued-in about how you're perceived is important (though it's
