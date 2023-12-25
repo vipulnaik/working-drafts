@@ -116,6 +116,14 @@ responsiveness improves your perception not just with the person
 asking the question, but with others who are following happenings in
 the channel.
 
+Similarly, if there are GitHub issues (or issues in the project
+management tool you use, such as Jira) that people have opened a while
+back, that seem important to them, and would be quick to do, but that
+aren't getting picked up by the prioritization process, picking them
+up could help in the perception game (but make sure not to run afoul
+of prioritization policies of your organization if they strictly
+discourage such discretionary issue-picking).
+
 There are two obvious caveats when tackling undirected messages:
 
 * If you are clearly behind on important deliverables (including
