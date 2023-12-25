@@ -10,7 +10,12 @@ the effective altruist and rationalist communities.
 
 I think things of a similar nature to these are also important in
 interpersonal relationships, though I think they may not be quite as
-"unreasonably effectve" in those contexts.
+"unreasonably effective" in those contexts. The jargon of
+"unreasonably effective" is a riff off of [The Unreasonable
+Effectiveness of Mathematics in the Natural
+Sciences](https://en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences),
+but you don't need to know anything about that to understand this post
+(I just copied the term because I like the way it sounds!).
 
 The four things I've identified are:
 
@@ -19,12 +24,82 @@ The four things I've identified are:
 * Reliability and positive affect
 * Magic
 
-Along with these, I also talk of various other similar or related
-things that I think *aren't* anywhere near as effective.
+## What I mean by unreasonable effectiveness
+
+When I use the term "unreasonable effectiveness" I am making two
+central claims.
+
+### Central claim 1: it's possible to improve on the thing controlling for one's general, domain-specific, and organization-specific knowledge and skills
+
+It would be kind-of-pointless to talk about something being
+unreasonably effective if the only way to do that thing were to
+improve one's general domain-specific, and organization-specific
+knowledge and skills. If that were the case, the advice could just
+boil down to "be better" rather than pointing to some unique area to
+focus on.
+
+The things I identify as unreasonably effective are things that can be
+focused on and improved separate from this overall stuff. With that
+said, each of them requires some baseline level of knowledge and
+skills to be applicable. I've ordered my four things in increasing
+order of the baseline level of knowledge and skills needed to apply
+them. My point here is that once you've achieved that baseline level,
+you can get a lot better at the thing by consciously focusing on it
+than by just hoping that it'll improve as a side-effect of your
+knowledge and skills improving.
+
+### Central claim 2: improving the thing has an outsized return on investment in terms of generating a good long-term impression
+
+This is where the "unreasonably effective" comes in: improving the
+thing pays off big time in the perception game, relative to the effort
+it took to improve it. I contend this to be true on average for each
+of the things; however, it may not be true for everybody for each of
+the things!
+
+### Peripheral claim: the unreasonable effectiveness relies on a mix of reasonable effectiveness and exacerbation by human psychology
+
+None of the things I propose are [dark
+arts](https://www.lesswrong.com/tag/dark-arts); they're all clean and
+above board, and even without any significant distortion by human
+psychology, these would be effective. Some human cognitive and
+emotional biases do contribute to making them *unreasonably*
+effective, but even their reasonable effectiveness is good enough to
+pay off the effort put into them. So, these are good things to do
+anyway; they're just made even better due to human psychology.
 
 ## Responsiveness
 
-### The mechanism by which responsiveness is unreasonably effective
+I'm talking here about responsiveness to messages from others, whether
+within the organization, or partners, customers, or vendors, for
+things related to one's duties at the organization.
+
+### It is possible to improve on responsiveness controlling for one's overall knowledge and skills (central claim 1)
+
+Knowing more and having more skills generally makes it easier to be
+responsive, both by making the specific response easier, and by
+allowing one to complete other things faster in order to make way for
+the response (i.e., clearing out the higher-priority items in one's
+queue). With that context, it may be natural to wonder whether
+responsiveness even makes sense as a separate thing to consider from
+one's knowledge and skills.
+
+I think the answer is yes; for a given level of knowledge and skills,
+it's possible to have a wide variation in one's responsiveness, and
+it's possible to deliberately aim for responsiveness at the high
+end. I'll talk more about strategies around responsiveness later in
+the post, so for now, I'll just tackle the high-level question of why
+this isn't already optimized out, i.e., why aren't people as
+responsive as they can be given their knowledge and skills?
+
+One reason is the psychological cost of switching, both between tasks
+at work (for responding during working hours) and betwen work and
+non-work (for responding outside working hours). Relatedly, people
+often (mistakenly, in my view) think that by not responding quickly,
+they're helping set better boundaries and reducing others' dependence
+or demandingness. (I later talk about other strategies one can couple
+with responsiveness to address this concern).
+
+### The mechanism by which responsiveness is unreasonably effective (central claim 2)
 
 In my experience, being responsive to the needs and wants of others is
 unreasonably effective in getting them to have a high opinion of
@@ -44,6 +119,8 @@ general about other aspects of your work). This is evidenced by the
 *fact that they asked*, i.e., by the fact that they put in the
 cognitive and social effort of actually asking.
 
+### Suggested real-world test, and my own evidence
+
 Concretely, you can try an experiment of this sort (if you have enough
 slack to do these kinds of experiments!). For one period (maybe a
 week, maybe a month), try to focus on your longer-term tasks,
@@ -52,6 +129,14 @@ similar length, focus on responding quickly, and let your long-term
 work suffer to the extent needed for you to be responsive. Get
 feedback on what others think of how productive and useful you were in
 those two periods.
+
+While I haven't literally done this test, my own evidence comes from a
+bunch of historical data about both myself and others, where there was
+effectively intertemporal variation in the priority given to
+responsiveness. With that said, this is not a purely empirical
+finding, but a mix of empirics and extrapolation via common-sense
+reasoning. This could be wrong, though, so I encourage you to think
+about it and try it in your own context.
 
 ### Speed as a key element of responsiveness
 
@@ -280,6 +365,28 @@ much workload, not enough skill or competence, or too much other stuff
 going on in life. My general sense is that absent these factors, a 75%
 target gives enough room for a reasonable frequency of things coming
 up and juggling other priorities.
+
+### Proactive isn't as unreasonably effective as responsive
+
+Personally, I think being proactive is even better than being
+responsive. Whereas responsive is about addressing wants and needs
+once they are articulated, proactive is about getting in front of
+issues before they arise.
+
+Even though I think this, I also think that being proactive, while
+definitely appreciated, isn't as unreasonably effective as being
+responsive. Roughly speaking, the reason is that the true value-add of
+your proactive behavior is unclear to others. By nipping a problem
+early in the bud, you prevent people from seeing how big the problem
+could have become. In contrast, responsiveness is in a context where
+the person making the request has already decided that the problem is
+worth solving.
+
+So, while I encourage you to be proactive, keep in mind that being
+responsive will be way more unreasonably effective by default. If you
+want to gain appreciation for being proactive, it's important to
+increase the chances that the other side understands why you're being
+proactive and what's at stake.
 
 ## Clueyness (being clued-in)
 
