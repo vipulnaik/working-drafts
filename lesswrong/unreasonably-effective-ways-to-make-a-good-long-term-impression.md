@@ -283,6 +283,28 @@ Dictionary's
 definitions](https://www.urbandictionary.com/define.php?term=Cluey),
 but I think it gets at the heart of it.
 
+Why might being cluey be *unreasonably effective*? Mostly because
+people generally don't like having to struggle or fight to explain
+themselves / be understood. There are definitely cases where people
+like being in a role of explainer/teacher/mentor, and so you being
+ignorant of something may give them the opportunity to take on that
+role, *but* even in those cases, you actually being slow on the
+uptake, or difficult to get ideas across to, is worse than you being
+receptive and a pleasure to explain things to.
+
+The feeling of "having to struggle to get a point across" can leave a
+lasting impression in people's mind, well beyond the actual time
+investment (which is compounded if the experience is not just
+cognitively but also emotionally frictionful, but even without
+emotional conflict, it is stressful). To see this, imagine you have a
+meeting where you're trying to assign a task to somebody that you
+thought would take five minutes to explain, but then when you start
+explaining you realize the other person is missing a lot of background
+knowledge and you end up spending twenty minutes on it. That's just an
+extra fifteen minutes on it, which might still be small relative to
+your work day, but it will leave a distinct impression on you about
+where the other person is and how clued-in they are.
+
 ### What I've noticed of clueless people
 
 I know of a few cases of people who are generally reasonably competent
