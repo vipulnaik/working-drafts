@@ -272,3 +272,151 @@ much workload, not enough skill or competence, or too much other stuff
 going on in life. My general sense is that absent these factors, a 75%
 target gives enough room for a reasonable frequency of things coming
 up and juggling other priorities.
+
+## Clueyness (being clued-in)
+
+One thing I've noticed is that people who seem to "get it" quickly
+seem to do very well in the perception game. Since this is the
+opposite of what's commonly called cluelessness, I'm calling this
+clueyness, for lack of a better term; this doesn't quite match [Urban
+Dictionary's
+definitions](https://www.urbandictionary.com/define.php?term=Cluey),
+but I think it gets at the heart of it.
+
+### What I've noticed of clueless people
+
+I know of a few cases of people who are generally reasonably competent
+at their work; they have the mix of skills and conscientiousness that
+should destine them for a decent degree of professional success. And
+yet, in various contexts, they come across as clueless. Judging from
+my limited sample size, these people tend to get shuttled from team to
+team or company to company, without landing at anywhere. Nobody thinks
+super-negatively of them; they're not the sort of person whom you'd
+want to fire, but they do tend to be the sort of person who'd get laid
+off when times are tough.
+
+It's a bit hard to tease out the cluelessness aspect from other
+aspects of one's skills. Obviously, somebody who is better at
+cognitive tasks, who has more skills and experience, or who is more
+emotionally or socially intelligent, will tend to be more clued in. So
+one criticism of this idea of clueyness is that, far from being an
+unreasonably effective thing one can actively choose, it's just a
+blend of general skills.
+
+However, judging from the examples I know of clueless people, one
+trait that comes to my mind is that they are particularly bad at even
+*trying* their hand at perspective-taking, i.e., at putting themselves
+within the shoes of another party, with the goals and constraints of
+that other party. Perspective-taking is somewhat related to empathy,
+but isn't quite the same: empathy focuses on the emotional aspects and
+perspective-taking focuses on the cognitive aspect. The thing I've
+noticed about clueless people is not so much that they're bad at
+perspective-taking, but it seems that they don't even have it on their
+radar to try to do so, instead hoping that the world just works out
+fine from their own perspective.
+
+### How to be cluey: the short version
+
+Reversing my observations about clueless people, my main suggestion
+for how to be cluey is to try taking a variety of perspectives
+routinely. The thing about perspective-taking is that you get much
+better results doing it over time, collecting data gradually, rather
+than trying to do it only at the last minute when you are in a
+situation where you need to figure out how to navigate it. So, start
+your perspective-taking exercise when there's no crisis to address. Do
+a suitable mix of thought experiments, asking people questions, making
+predictions and seeing how they pan out. The reason a mix is needed is
+because each method has its strengths and limitations. For instance,
+thought experiments can help you get started, but they can also lead
+you astray because you're limited by your own experiences (and subject
+to things such as [typical mind
+fallacy](https://www.lesswrong.com/tag/typical-mind-fallacy/history)). Asking
+people questions can reveal variables and considerations that you
+wouldn't have thought abourt yourself, but people may not be fully
+frank about how they're thinking.
+
+### Being cluey about goals
+
+It's important to be cluey both about *how to do things* and *what
+we're trying to do*. The former tends to get emphasized more in
+general, just as a matter of course: when we think about skills, we
+are naturally focused on the aspect of how to do things. For instance,
+we think about mastering tools and technologies.
+
+The net effect is that there's a lot more "low-hanging fruit" to pluck
+with respect to being cluey about the *what we're trying to do*
+part. In other words, it's likely to pay off more to be cluey about
+goals.
+
+#### The clueless approach to goals
+
+I've noticed a lot of technically competent people who are very
+clueless about goals; when asked why they're doing something, they may
+simply say something like "this was assigned to me" or "I was told to
+do this" versus having a story about the chain of impact from their
+action to things that matter. On the other hand, the people I'd think
+of as cluey have a strong pulse on the goals; they can articulate a
+story like "doing A leads to B leads to C, which we think might lead
+to D though we're not sure." This doesn't preclude the possibility
+that in some cases, you may do a thing simply to please another
+person, because of the karmic benefits it confers to you, even though
+you think it's otherwise useless (or have uncertainty on its value
+otherwise). Even so, believing this to be true in some cases is
+different from just not having an opinion or story at all on why it
+matters.
+
+### Being cluey about your own evaluation
+
+Being clued-in about how you're perceived is important (though it's
+not the only part of being cluey!).
+
+#### Taking the perspective of the person (or persons) you report to
+
+In a formal organizational structure, you usually report to somebody
+(unless you're the CEO). In some organizational structures, you may
+report to two or three people. The person you report to may not be the
+only stakeholder in your work, but usually that is the person who
+aggregates the information around your performance. So being able to
+take the perspective of this person is important.
+
+This is particularly easy if you also have other people reporting to
+*you* at the same organization or similar organizations. Most likely,
+the frameworks and rubrics that this person has been given by the
+organization to evaluate you are similar to the frameworks and rubrics
+you have been given to evaluate the people who're reporting to you. If
+that's the case, then drawing upon your own experience with the
+frameworks, and then applying them to your own knowledge about
+yourself, can help you get started.
+
+Beyond the formal frameworks, there are also informal indicators that
+you can observe yourself using to evaluate the people who report to
+you, or that you can see the person your report to applying to you or
+others who report to that person. Just try transporting those
+indicators to yourself and see how you stack up.
+
+One area where people may openly discuss their evaluation of others
+is the context of hiring. So being in hiring conversations can give
+you some insight into how people evaluate others. With that said, the
+amount and nature of information on a potential hire differs a lot
+from the amount and nature of information on somebody already working,
+so the value here is limited.
+
+#### Taking the cost-benefit perspective
+
+This one can be hard for people, particularly people whose jobs are
+not generally framed in terms of cost vs. revenue. It can also be a
+bit scary to think about. But it's worth dipping your toe in this at
+least a little bit.
+
+Namely, think about what you're costing the organization and what
+value you're bringing to the organization. Imagine somebody was
+dispassionately tallying up the costs and comparing them to the
+benefits. Does this person see a clear case that you're generating
+more value than you cost? If not, is there information you can present
+to this person showing what you've already done, that would make a
+clear case. If the answer to even that is no, you should be
+concerned. I'd say flag this to the person you report to, and see if
+they can convince you that you're creating more value than you
+cost. If not, consider yourself a potential candidate for the next
+reduction-in-force or layoff (which may not happen for a long time,
+but it's always a risk).
