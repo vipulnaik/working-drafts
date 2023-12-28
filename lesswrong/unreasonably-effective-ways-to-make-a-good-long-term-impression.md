@@ -108,7 +108,7 @@ you.
 
 In some ways, this can be seen as a downside; people who're working on
 deeper, more foundational work that isn't directly responsive to what
-people are asking for right now can be at a disadvantage in the
+other people are asking for right now can be at a disadvantage in the
 perception game. On the other hand, being responsive can be seen as a
 relatively low-risk way of making sure you're at least somewhat
 useful.
