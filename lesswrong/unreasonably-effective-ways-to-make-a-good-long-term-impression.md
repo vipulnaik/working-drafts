@@ -188,7 +188,7 @@ improving things) whereas responding better than baseline can give you
 a leg up in the perception game.
 
 On the other hand, in the case of *undirected* messages, for instance,
-questions posed on a mailing list or a Slack channel, the baseline of
+questions posed in a mailing list or a Slack channel, the baseline of
 not responding is close to zero effect, so *any helpful response at
 all* (and in some cases, even a response that turns out to not have
 been useful but shows that you made a good-faith effort to help) can
@@ -279,11 +279,11 @@ sustainable. The two forms in which I've most often heard this concern
 are:
 
 * Speed of response: For instance, if for a few weeks you respond to
-  incoming messages within minutes, they may expect that you will
-  continue to do so, and so they may feel more disappointed when your
-  response latency goes up from minutes to hours. Whereas if you took
-  a day to respond in the past, they won't be disappointed if you
-  respond within hours.
+  incoming messages within minutes, people asking for your response
+  may expect that you will continue to do so, and so they may feel
+  more disappointed when your response latency goes up from minutes to
+  hours. Whereas if you took a day to respond in the past, they won't
+  be disappointed if you respond within hours.
 
 * Working hours: For instance, if somebody is reaching out frequently
   outside working hours, and you respond quickly even outside working
@@ -307,9 +307,9 @@ other person's mental model of what they are owed, more than what you
 actually do. Here are some examples:
 
 * Speed of response: For instance, if you often reply within minutes,
-  but one day took an hour to respond, and the baseline expectation is
-  that you should respond within a day, then *don't apologize or
-  explain yourself* for taking an hour to respond.
+  but one day you took an hour to respond, and the baseline
+  expectation is that you should respond within a day, then *don't
+  apologize or explain yourself* for taking an hour to respond.
 
 * Working hours: For instance, if somebody reached out to you twice
   outside working hours, and you responded immediately once, but the
@@ -366,6 +366,23 @@ much workload, not enough skill or competence, or too much other stuff
 going on in life. My general sense is that absent these factors, a 75%
 target gives enough room for a reasonable frequency of things coming
 up and juggling other priorities.
+
+### Making sure each message-sender has a positive impression of your responsiveness
+
+While from your perspective, you might think of your responsiveness in
+terms of all responses you provide to *all* message-senders, an
+individual message-sender may only have visibility into your
+responsiveness to *that person's messages*. To win the perception
+game, it is therefore particularly important to be responsive to
+message-senders for whom (a) you have previously been unresponsive, or
+(b) you haven't yet had the opportunity to demonstrate your
+responsiveness. In the language of the 75% heuristic above, it's
+better to apply the 75% heuristic at the level of each message-sender
+rather than globally. If *everybody* thinks you are at that 75% level,
+that's better than some finding you at 100% and others finding you at
+50%. With that said, there may also be other dynamics at play, such as
+your reporting relationship and power structures, so you may have to
+factor those in when prioritizing what to respond to.
 
 ### Proactive isn't as unreasonably effective as responsive
 
