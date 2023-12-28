@@ -614,7 +614,8 @@ but it's always a risk).
 
 ## Reliability and positive affect
 
-Reliability and positive affect refer to a cluster of related ideas:
+Reliability and positive affect, as I'm using the terms, refer to a
+cluster of related ideas:
 
 * People feel like if they give you a task, they "don't have to worry
   about it" any more. You'll do the best that can reasonably be done,
@@ -633,6 +634,56 @@ in the perception game. I think this is unreasonably effective,
 compared to, for instance, being a high-variance worker who still
 accomplishes the same average output.
 
+Let's drill down into this more systematically using the two central
+claims.
+
+### It is possible to improve on reliability and positive affect controlling for one's overall knowledge and skills (central claim 1)
+
+Obviously, having more knowledge and skills can help with
+reliability. In order to reliably do a task, having the skill to do it
+faster or better helps! But there are some dimensions of reliability
+that can be improved for a given level of knowledge and skills, as
+long as the knowledge and skills are above a baseline where it is
+*possible* to do the task.
+
+One big aspect of reliability is "showing up" which means more than
+just physically showing up or clocking in on a timer app. What exactly
+is entailed by showing up can differ a lot from job to job; here are
+two broad categories:
+
+* For some jobs, showing up means being around and available for
+  specific time periods, and having the willingness to
+  enthusiastically perform some (relatively easy) work over that time
+  period as it arises. Think of a job on a retail floor. You show up
+  to do the job, and then you do whatever is in front of you, whether
+  it's stocking shelves or helping customers check out.
+
+* For some jobs, things are more "spiky" so showing up means being
+  prepared to ramp up the intensity and focus at short notice when a
+  problem arises (while also having some aspects of the previous point
+  of just being around for other things). Think of something like an
+  emergency responder who may have a quiet day without a lot to do,
+  and then suddenly have to jump into action to engage in life-saving
+  care.
+
+My general impression is that a lot of jobs involve a mix of these
+two, and both are important, but the latter tends to be underestimated
+by people. Showing up for spiky activities is closely related to
+"responsiveness" that I described earlier, but it's still different
+enough that I broke it down separately. I'll say a bit more about this
+further down, but for now let me proceed to central claim 2.
+
+### The mechanism by which reliability is unreasonably effective (central claim 3)
+
+The reason reliability and positive affect are particularly effective
+compared to, say, being an eccentric high-variance worker who does
+great stuff randomly, is that of letting other people relax with the
+feeling that they're in "good hands". Generally, people dislike having
+to monitor other people, and prefer other people who subjectively
+*reduce* their workload rather than increasing it. By being reliable
+at doing background tasks and spiky tasks, you meaningfully help
+people relax.
+
 ## Magic
 
 This is probably the hardest to achieve, and the one that I'd focus on
@@ -649,11 +700,11 @@ has thought of or would have expected to think of. If you can
 a few times a year, that is unreasonably effective at winning the
 perception game.
 
-### Can magic actually be done by mere mortals?
+### It is possible to improve on reliability and positive affect controlling for one's overall knowledge and skills (central claim 1) aka mere mortals can do magic
 
 One pushback to the idea of magic is that being able to do magic
 requires a crazy high level of skill, acquiring which is very hard to
-begin with, so magic isn't unreasonably effective.
+begin with, so magic isn't an accessible strategy in the first place.
 
 This is probably true in many cases, but I also think that there are
 other cases where magic can be achieved by just persisting on a
@@ -688,22 +739,13 @@ be brute-forced by some mix of [stepping in a
 debugger](https://en.wikipedia.org/wiki/Stepping_(debugging)), adding
 copious log lines, and trying several times with enough variation to
 conditions. In fact, I'd say that most front-end problems in browsers
-(tied to JavaScript execution) can be solved with these (with some
-binary searching when operating over large possibility spaces) and
-some basic programming knowledge. But this process can be very
-painful. If you don't have a lot of specific skills and still want to
-do magic, this still does have a crazy-high return on investment in
-terms of the perception game. I've done this kind of thing a few
-times, generally figuring out what's going on with JavaScript code and
-API calls by third parties where I can only see the minified code as
-it executes on the browser, and don't have access to the original
-pretty structured source code. The final takeaway looks neat and
-simple, but the discovery process is ugly because there is a lot of
-code to go through and I don't have access to the source code to
-understand the original structure. Even so, that 2-3 hours of focused
-brute-forcing is a small price to pay for the impressiveness of the
-eventual finding and the value it adds in terms of getting to the
-bottom of the problem.
+(tied to JavaScript execution) that can semi-reliably be locally
+replicated can be solved with these (with some binary searching when
+operating over large possibility spaces) and some basic programming
+knowledge. But this process can be very painful. The final takeaway
+looks neat and simple, but the discovery process is ugly because there
+is a lot of code to go through and I don't have access to the source
+code to understand the original structure.
 
 This is an area where doing things like Olympiads is
 disproportionately helpful, even after controlling for overall effects
@@ -712,3 +754,15 @@ through a basic toolkit, with some speeding up if you get a core
 insight quickly"; the real-world problems tend to have fewer cases
 where the core insight can be located through good aesthetics, but the
 feel is otherwise very similar.
+
+### The mechanism by which magic is unreasonably effective (central claim 2)
+
+Given how painful magic is, a natural question is: is its
+effectiveness unreasonably high *relative* to the pain? I think for
+many people, yes. In many cases, the duration of the pain is high
+enough to deter most people (thereby creating an opportunity) but
+usually not high enough to create lasting damage, but it does create a
+good long-term impression. [Schlep
+blindness](https://medium.com/illumination/schelp-blindness-may-be-the-reason-why-your-start-up-failed-d93e8521726d)
+could be what's getting in the way of you seeing how this could work
+in your situation.
