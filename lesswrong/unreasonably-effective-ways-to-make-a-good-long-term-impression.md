@@ -673,7 +673,7 @@ by people. Showing up for spiky activities is closely related to
 enough that I broke it down separately. I'll say a bit more about this
 further down, but for now let me proceed to central claim 2.
 
-### The mechanism by which reliability is unreasonably effective (central claim 3)
+### The mechanism by which reliability is unreasonably effective (central claim 2)
 
 The reason reliability and positive affect are particularly effective
 compared to, say, being an eccentric high-variance worker who does
