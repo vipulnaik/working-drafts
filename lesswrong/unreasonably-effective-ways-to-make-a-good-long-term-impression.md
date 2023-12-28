@@ -34,7 +34,7 @@ central claims.
 
 It would be kind-of-pointless to talk about something being
 unreasonably effective if the only way to do that thing were to
-improve one's general domain-specific, and organization-specific
+improve one's general, domain-specific, and organization-specific
 knowledge and skills. If that were the case, the advice could just
 boil down to "be better" rather than pointing to some unique area to
 focus on.
