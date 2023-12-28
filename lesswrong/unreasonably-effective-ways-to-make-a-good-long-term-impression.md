@@ -416,6 +416,47 @@ Dictionary's
 definitions](https://www.urbandictionary.com/define.php?term=Cluey),
 but I think it gets at the heart of it.
 
+### What I've noticed of clueless people
+
+I know of a few cases of people who are generally reasonably competent
+at their work; they have the mix of skills and conscientiousness that
+should destine them for a decent degree of professional success. And
+yet, in various contexts, they come across as clueless. Judging from
+my limited sample size, these people tend to get shuttled from team to
+team or company to company, without landing firmly anywhere. Nobody thinks
+super-negatively of them; they're not the sort of person whom you'd
+want to fire, but they do tend to be the sort of person who'd get laid
+off when times are tough.
+
+### It is possible to improve on clueyness controlling for one's overall knowledge and skills (central claim 1)
+
+It's a bit hard to tease out the cluelessness aspect from other
+aspects of one's skills. Obviously, somebody who is better at
+cognitive tasks, who has more skills and experience, or who is more
+emotionally or socially intelligent, will tend to be more clued in. So
+one criticism of this idea of clueyness is that, far from being an
+unreasonably effective thing one can actively choose, it's just a
+blend of general skills.
+
+However, judging from the examples I know of clueless people, one
+trait that comes to my mind is that they are particularly bad at even
+*trying* their hand at perspective-taking, i.e., at putting themselves
+within the shoes of another party, with the goals and constraints of
+that other party. Perspective-taking is somewhat related to empathy,
+but isn't quite the same: empathy focuses on the emotional aspects and
+perspective-taking focuses on the cognitive aspect. The thing I've
+noticed about clueless people is not so much that they're bad at
+perspective-taking, but it seems that they don't even have it on their
+radar to try to do so, instead hoping that the world just works out
+fine from their own perspective.
+
+This suggests to me that there could be some relatively easy gains
+toward clueyness from trying to do perspective-taking, without a
+radical improvement to one's knowledge and skills. I talk about this a
+little further down, but before that, let me justify central claim 2.
+
+### The mechanism by which responsiveness is unreasonably effective (central claim 2)
+
 Why might being cluey be *unreasonably effective*? Mostly because
 people generally don't like having to struggle or fight to explain
 themselves / be understood. There are definitely cases where people
@@ -438,45 +479,13 @@ extra fifteen minutes on it, which might still be small relative to
 your work day, but it will leave a distinct impression on you about
 where the other person is and how clued-in they are.
 
-### What I've noticed of clueless people
-
-I know of a few cases of people who are generally reasonably competent
-at their work; they have the mix of skills and conscientiousness that
-should destine them for a decent degree of professional success. And
-yet, in various contexts, they come across as clueless. Judging from
-my limited sample size, these people tend to get shuttled from team to
-team or company to company, without landing at anywhere. Nobody thinks
-super-negatively of them; they're not the sort of person whom you'd
-want to fire, but they do tend to be the sort of person who'd get laid
-off when times are tough.
-
-It's a bit hard to tease out the cluelessness aspect from other
-aspects of one's skills. Obviously, somebody who is better at
-cognitive tasks, who has more skills and experience, or who is more
-emotionally or socially intelligent, will tend to be more clued in. So
-one criticism of this idea of clueyness is that, far from being an
-unreasonably effective thing one can actively choose, it's just a
-blend of general skills.
-
-However, judging from the examples I know of clueless people, one
-trait that comes to my mind is that they are particularly bad at even
-*trying* their hand at perspective-taking, i.e., at putting themselves
-within the shoes of another party, with the goals and constraints of
-that other party. Perspective-taking is somewhat related to empathy,
-but isn't quite the same: empathy focuses on the emotional aspects and
-perspective-taking focuses on the cognitive aspect. The thing I've
-noticed about clueless people is not so much that they're bad at
-perspective-taking, but it seems that they don't even have it on their
-radar to try to do so, instead hoping that the world just works out
-fine from their own perspective.
-
 ### How to be cluey: the short version
 
 Reversing my observations about clueless people, my main suggestion
 for how to be cluey is to try taking a variety of perspectives
-routinely. The thing about perspective-taking is that you get much
-better results doing it over time, collecting data gradually, rather
-than trying to do it only at the last minute when you are in a
+routinely. One important aspect of perspective-taking is that you get
+much better results doing it over time, collecting data gradually,
+rather than trying to do it only at the last minute when you are in a
 situation where you need to figure out how to navigate it. So, start
 your perspective-taking exercise when there's no crisis to address. Do
 a suitable mix of thought experiments, asking people questions, making
@@ -488,20 +497,27 @@ to things such as [typical mind
 fallacy](https://www.lesswrong.com/tag/typical-mind-fallacy/history)). Asking
 people questions can reveal variables and considerations that you
 wouldn't have thought abourt yourself, but people may not be fully
-frank about how they're thinking.
+frank about how they're thinking. A lot of the [negotiation techniques
+I described in my Chris Voss MasterClass
+review](https://www.lesswrong.com/posts/CRAzG386t3suSqDgd/chris-voss-negotiation-masterclass-review#Negotiation_techniques)
+are designed to elicit this sort of information and help you become
+more cluey.
 
 ### Being cluey about goals
 
 It's important to be cluey both about *how to do things* and *what
 we're trying to do*. The former tends to get emphasized more in
 general, just as a matter of course: when we think about skills, we
-are naturally focused on the aspect of how to do things. For instance,
-we think about mastering tools and technologies.
+are naturally focused on the aspect of *how* to do things. For
+instance, we think about mastering tools, technologies, languages,
+concepts, etc. To som extent, this makes sense, because of lot of the
+how-to (the know*how*) can help across a wide range of goals.
 
-The net effect is that there's a lot more "low-hanging fruit" to pluck
-with respect to being cluey about the *what we're trying to do*
-part. In other words, it's likely to pay off more to be cluey about
-goals.
+However, he net effect of the focus on *how* is that there's a lot
+more "low-hanging fruit" to pluck with respect to being cluey about
+the *what we're trying to do* part. In other words, it's likely to pay
+off more to be cluey about goals, even holding one's knowhow / skills
+constant.
 
 #### The clueless approach to goals
 
@@ -518,7 +534,7 @@ person, because of the karmic benefits it confers to you, even though
 you think it's otherwise useless (or have uncertainty on its value
 otherwise). Even so, believing this to be true in some cases is
 different from just not having an opinion or story at all on why it
-matters.
+matters (or why it is believed by others to matter).
 
 #### Ask about goals, but with care
 
