@@ -10,9 +10,10 @@ the effective altruist and rationalist communities.
 
 I think things of a similar nature to these are also important in
 interpersonal relationships, though I think they may not be quite as
-"unreasonably effective" in those contexts. The jargon of
-"unreasonably effective" is a riff off of [The Unreasonable
-Effectiveness of Mathematics in the Natural
+"unreasonably effective" in those contexts.
+
+The jargon of "unreasonably effective" is a riff off of [The
+Unreasonable Effectiveness of Mathematics in the Natural
 Sciences](https://en.wikipedia.org/wiki/The_Unreasonable_Effectiveness_of_Mathematics_in_the_Natural_Sciences),
 but you don't need to know anything about that to understand this post
 (I just copied the term because I like the way it sounds!).
