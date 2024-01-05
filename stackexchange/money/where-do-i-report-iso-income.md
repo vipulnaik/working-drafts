@@ -1,6 +1,10 @@
-Original question: https://money.stackexchange.com/questions/158164/where-do-i-report-iso-income-with-a-subsequent-disqualifying-disposition-and-wh
+# Where do I report ISO income?
 
-Full markdown of question below (comments and answers *not* mirrored here):
+Question url: https://money.stackexchange.com/questions/158164/where-do-i-report-iso-income-with-a-subsequent-disqualifying-disposition-and-wh
+
+Question title: Where do I report ISO income with a subsequent disqualifying disposition, and what taxes are due on it?
+
+Full markdown of question text below (comments and answers *not* mirrored here):
 
 Here's what happened in 2022 in the United States. I have changed numbers a little bit for simplicity and privacy.
 

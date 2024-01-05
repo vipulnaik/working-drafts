@@ -1,6 +1,10 @@
-Question: https://travel.stackexchange.com/questions/183668/should-i-be-stapling-my-uscis-form-i-94-not-cbp-form-i-94-at-every-extension
+# Stapling USCIS Form I-94
 
-Full markdown of question below (comments and answers *not* mirrored here):
+Question url: https://travel.stackexchange.com/questions/183668/should-i-be-stapling-my-uscis-form-i-94-not-cbp-form-i-94-at-every-extension
+
+Question title: Should I be stapling my USCIS Form I-94 (*not* CBP Form I-94) at every extension of stay / change of status to my passport?
+
+Full markdown of question text below (comments and answers *not* mirrored here):
 
 I have had multiple changes of status / extensions of my H-1B since my last entry into the United States 6 years ago, all through filing Form I-129. This included two regular H-1B extensions and a few other filings related to changes to my hours and jobs. In total, *since my last entry into the United States*, I've had 6 I-129s filed, and correspondingly gotten 6 I-797A approval notices, each of which had a "USCIS Form I-94" on the bottom left that plays a similar role to the CBP Form I-94 in terms of conferring the legal right to continue residing in the United States. (Others may similarly receive "USCIS Form I-94" with the I-797A approval notice for a Form I-539 application for change of status or extension of stay).
 

@@ -4,7 +4,7 @@ Question url: https://superuser.com/questions/1817473/what-accounts-for-the-disc
 
 Question title: What accounts for the discrepancy between the memory use shown when hovering on the Chrome tab, and the heap size?
 
-Question text:
+Full markdown of question text below (comments and answers *not* mirrored here):
 
 Chrome tabs now show active memory used by the tab when you hover on the tab title; see [here](https://medium.com/@addyosmani/chrome-now-shows-each-active-tabs-memory-usage-4f74876538e6) for the details.
 
