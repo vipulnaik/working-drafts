@@ -30,3 +30,27 @@ I see the error even after I deactivate all my Chrome extensions.
 
 I’ve tried several page urls, including brand new tabs with no page
 loaded, and always run into the same issue.
+
+## My eventual bug resolution (2024-01-14)
+
+On 2024-01-14, I decided to dig into the bug using devtools of
+devtools, having had success doing so to help diagnose a [Lighthouse
+issue](https://github.com/GoogleChrome/lighthouse/issues/15073). Based
+on the diagnosis, I discovered that this is related to an advanced
+search config where it's failing to use the default value and instead
+returning an empty object `{}` because the condition
+[here](https://github.com/ChromeDevTools/devtools-frontend/blob/d8d864d72bbb825235ae18119e2e1420d14182fc/front_end/core/common/Settings.ts#L392-L394)
+is satisfied. The empty object fails to work properly downstream, as
+it lacks the expected keys, and in particular, when the `#parse`
+function executes the line
+[here](https://github.com/ChromeDevTools/devtools-frontend/blob/d8d864d72bbb825235ae18119e2e1420d14182fc/front_end/models/workspace/SearchConfig.ts#L76),
+the arguments to the `#parse` function are all undefined, so that line
+errs out.
+
+I didn't trace all the code, but I decided to look for the keys in
+`Application > Local Storage` for `devtools://devtools` in my devtools
+of devtools, as I remembered having done some cleanup here. There, I
+found a key called `sourcesSearchConfig` that was set to `{}`. This
+seemed to me to be the likely root cause of the problem, so I deleted
+that key and restarted Chrome. After the restart of Chrome, searching
+all sources worked as desired!
