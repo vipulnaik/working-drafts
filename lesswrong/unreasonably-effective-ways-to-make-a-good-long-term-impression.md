@@ -455,7 +455,7 @@ toward clueyness from trying to do perspective-taking, without a
 radical improvement to one's knowledge and skills. I talk about this a
 little further down, but before that, let me justify central claim 2.
 
-### The mechanism by which responsiveness is unreasonably effective (central claim 2)
+### The mechanism by which clueyness is unreasonably effective (central claim 2)
 
 Why might being cluey be *unreasonably effective*? Mostly because
 people generally don't like having to struggle or fight to explain
