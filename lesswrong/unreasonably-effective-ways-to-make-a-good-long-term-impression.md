@@ -513,7 +513,7 @@ instance, we think about mastering tools, technologies, languages,
 concepts, etc. To som extent, this makes sense, because of lot of the
 how-to (the know*how*) can help across a wide range of goals.
 
-However, he net effect of the focus on *how* is that there's a lot
+However, the net effect of the focus on *how* is that there's a lot
 more "low-hanging fruit" to pluck with respect to being cluey about
 the *what we're trying to do* part. In other words, it's likely to pay
 off more to be cluey about goals, even holding one's knowhow / skills
