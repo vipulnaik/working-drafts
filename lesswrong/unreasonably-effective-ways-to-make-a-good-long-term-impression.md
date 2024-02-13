@@ -549,7 +549,7 @@ up a lot of people's time.
 
 For instance, if you're in a group meeting and are discussing the
 rationale for a task assigned to you, and you get into a multi-step
-discussion about why it's wortwhile, take the discussion offline
+discussion about why it's worthwhile, take the discussion offline
 rather than wasting the group's time. And, if you feel like you're
 going through the same set of questions about goals that you've
 already asked and received answers to, stop and go recall the result
