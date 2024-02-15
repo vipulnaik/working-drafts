@@ -24,7 +24,7 @@ Construct | Scala | JavaScript | Python
 -- | -- | -- | --
 constant declaration | `val <variableName> = <variableValue>` | `const <variableName> = <variableValue>` | N/A, everything can be reassigned, but convention is to use capital letters for things intended to be constant
 variable declaration | `var <variableName> = <variableValue>` | `var <variableName> = <variableValue>` (functoin scope) and `let <variableName> = <variableValue>` (block scope) | `<variableName> = <variableValue>`
-type information | optional but necessary if implicitly recasting: `(var|const) <variableName>:<variableType> = <variableValue>` | not declared | not declared
+type information | optional but necessary if implicitly recasting: `(var\|const) <variableName>:<variableType> = <variableValue>` | not declared | not declared
 
 ## Function/procedure/method definition
 
