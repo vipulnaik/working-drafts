@@ -5,14 +5,14 @@ might be a good idea to make them public as there's no proprietary
 information here. Caveat emptor -- may contain mistakes, and may miss
 nuances.
 
-My experience:
+My experience with these languages as of 2024-02-14:
 
 * Scala: 6 years doing extensive coding and data analysis in Scala,
   2-3 years using it more sporadically.
 
 * JavaScript: 6 years coding sporadically in it, but spending a lot
-  more time *reading* JavaScript code to understand how particular
-  codebases work.
+  more time (over 7-8 years) *reading* JavaScript code regulary to
+  understand how particular codebases work.
 
 * Python: 1-2 years coding regularly (though not extensively) in
   Python, and 7-8 years of occasional reading and writing of Python
