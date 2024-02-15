@@ -58,7 +58,7 @@ join an array of strings `myList` using a separator string `mySep` (which could 
 split a string `myString` over a separator string `mySep` | `myString.split(mySep)` | `myString.split(mySep)` | `myString.split(mySep)` (note that unlike the join case, this is *not* interchanged from the other two languages)
 reverse a string `myString` | `myString.reverse` | `myString.split("").reverse().join("")` | `"".join(list(reversed(myString)))`
 concatenate strings `myString1` and `myString2` | `myString1 + myString2` | `myString1 + myString2` | `myString1 + myString2`
-interpolate string `myString` (variable name) into a larger string | `s"...${myString}..." | `\`...${myString}...\`` | `f"...{myString}..."`
+interpolate string `myString` (variable name) into a larger string | `s"...${myString}..."` | `\`...${myString}...\`` | `f"...{myString}..."`
 
 ## Tuples cheatsheet
 
