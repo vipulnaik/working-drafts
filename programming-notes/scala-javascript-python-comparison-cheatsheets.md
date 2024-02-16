@@ -39,7 +39,7 @@ lambda function syntax | `<args> => <what to do with args>` | `<args> => <what t
 
 Construct | Scala | JavaScript | Python
 -- | -- | -- | --
-explicit array enumeration | `Seq(<elements separated by comma>)` | `[<elements separated by comma>]` | `[<elements separated by comma>]`
+explicit array enumeration | `List(<elements separated by comma>)` | `[<elements separated by comma>]` | `[<elements separated by comma>]`
 access to element at index `i` of array `myList` (starting from 0) | `myList(i)` | `myList[i]` | `myList[i]`
 size of array `myList` | `myList.size` | `myList.length` | `len(myList)`
 access to last element of array `myList` | `myList.last` | `myList[myList.length - 1]` | `myList[-1]`
@@ -49,6 +49,7 @@ apply something to each element of `myList` (without saving) | `myList.foreach(.
 every element of `myList` satisfies condition `myCond` | `myList.forall(myCond)` | `myList.every(myCond)` | `all(myCond(u) for u in myList)`
 there is an element of `myList` satisfying condition `myCond` | `myList.exists(myCond)` | `myList.some(myCond)` | `any(myCond(u) for u in myList)`
 return an array that is the subsequence of `myList` that satisfies condition `myCond` | `myList.filter(myCond)` | `myList.filter(myCond)` | `list(filter(myCond, myList))`
+list of integers from 1 to `n` (`n` a predefined positive integer) | `(1 to n).toList` | `[...Array(n).keys()].map(i => i + 1)` | `list(range(1, n + 1))`
 
 ## String cheatsheet
 
@@ -103,6 +104,10 @@ throw exception | `throw new Exception(<message>)` (can also throw a more specif
 
 ## Async cheatsheet
 
+NOTE: Scala has Promises too; see for instance
+[here](https://www.baeldung.com/scala/futures-promises). But for
+practical purposes we only use futures.
+
 Construct | Scala | JavaScript | Python
 -- | -- | -- | --
 holder of async stuff | `Future` | `Promise` | ??
@@ -111,3 +116,4 @@ forced await on `myAsyncThing`| `Await.result(myAsyncThing, Duration.inf)` | `aw
 exception-handling for the async thing | `.recover` | `.catch` | ??
 returning an async `thingToReturn` synchronously | `Future.successful(thingToReturn)` | N/A | ??
 returning an async `thingToReturn` asynchronously | `Future(thingToReturn)` | `Promise.resolve(thingToReturn)` | ??
+convert a sequence of async stuff into a single async thing | `Future.sequence` | `Promise.all` | ??
