@@ -83,7 +83,7 @@ reverse `myList` in place | no direct way; just rassign `myList.reverse` to `myL
 Construct | Scala | JavaScript | Python
 -- | -- | -- | --
 parentheses around condition for if? | yes | yes | needed only if condition spans multiple lines
-then | N/A, put the instruction directly after the condition, usually with `) {\n` separator | N/A, put the instruction directly after the condition, usually with `) {` separator | N/A, put the instruction in the next linem with `:\n` separator
+then | N/A, put the instruction directly after the condition, usually with `) {\n` separator | N/A, put the instruction directly after the condition, usually with `) {` separator | N/A, put the instruction in the next line with `:\n` separator
 else if | `else if` | `else if` | `elif`
 
 ## Case match cheatsheet
