@@ -1,3 +1,5 @@
+{{focused coverage period|end-date = November 2022}}
+
 This is a '''timeline of AI safety'''. AI safety is the field focused on reducing risks from artificial intelligence (AI).<ref>{{cite web |url=https://ai-alignment.com/ai-safety-vs-control-vs-alignment-2a4b42a863cc |title=AI "safety" vs "control" vs "alignment" |website=AI Alignment |author=Paul Christiano |date=November 19, 2016 |publisher=AI Alignment |accessdate=November 18, 2017}}</ref><ref>{{cite web |url=https://www.lesserwrong.com/posts/dhj9dhiwhq3DX6W8z/hero-licensing |title=Hero Licensing |date=November 16, 2017 |author=Eliezer Yudkowsky |publisher=LessWrong |accessdate=November 18, 2017 |quote=I'll mention as an aside that talk of "Friendly" AI has been going out of style where I'm from. We've started talking instead in terms of "aligning smarter-than-human AI with operators' goals," mostly because "AI alignment" smacks less of anthropomorphism than "friendliness."}}</ref>
 
 ==Big picture==
@@ -642,6 +644,8 @@ Feedback for the timeline can be provided at the following places:
 ===Timeline update strategy===
 
 ===Pingbacks===
+
+* [https://books.google.com.ar/books?id=ELLSEAAAQBAJ&pg=PT19&lpg=PT19&dq=timelines.issarice&source=bl&ots=83KKxxxWxf&sig=ACfU3U0TY9elzITy2u6V666ShSN8QTr50w&hl=en&sa=X&ved=2ahUKEwjx67Ct1--CAxXER7gEHVKkAUk4ChDoAXoECAMQAw#v=onepage&q=timelines.issarice&f=false ''The Era of Global Risk: An Introduction to Existential Risk Studies'', by SJ Beard, Martin Rees, Catherine Richards, and Clarissa Rios Rojas] Reference N°5
 
 * [https://twitter.com/EvanSandhoefner/status/945759656952991744 Evan Sandhoefner tweet] (December 26, 2017) emphasizes the accelerating nature of progress on AI safety by screenshotting the part till 2002 that makes up 1/5 of the timeline at the time.
 
