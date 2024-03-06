@@ -52,7 +52,7 @@ apply something to each element of `myList` (without saving) | `myList.foreach(.
 every element of `myList` satisfies condition `myCond` | `myList.forall(myCond)` | `myList.every(myCond)` | `all(myCond(u) for u in myList)`
 there is an element of `myList` satisfying condition `myCond` | `myList.exists(myCond)` | `myList.some(myCond)` | `any(myCond(u) for u in myList)`
 return an array that is the subsequence of `myList` that satisfies condition `myCond` | `myList.filter(myCond)` | `myList.filter(myCond)` | `list(filter(myCond, myList))`
-list of integers from 1 to `n` (`n` a predefined positive integer) | `(1 to n).toList` | `[...Array(n).keys()].map(i => i + 1)` | `list(range(1, n + 1))`
+(REVIEW NEEDED) list of integers from 1 to `n` (`n` a predefined positive integer) | `(1 to n).toList` | `[...Array(n).keys()].map(i => i + 1)` | `list(range(1, n + 1))`
 (REVIEW NEEDED) index of first occurrence of element `myElem` in list `myList` | `myList.indexOf(myElem)` (returns -1 if not present) | `myList.indexOf(myElem)` (returns -1 if not present) | `myList.index(myElem)` (raises `ValueError` if not present)
 
 ## String cheatsheet
