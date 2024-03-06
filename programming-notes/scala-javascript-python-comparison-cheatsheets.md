@@ -52,6 +52,8 @@ apply something to each element of `myList` (without saving) | `myList.foreach(.
 every element of `myList` satisfies condition `myCond` | `myList.forall(myCond)` | `myList.every(myCond)` | `all(myCond(u) for u in myList)`
 there is an element of `myList` satisfying condition `myCond` | `myList.exists(myCond)` | `myList.some(myCond)` | `any(myCond(u) for u in myList)`
 return an array that is the subsequence of `myList` that satisfies condition `myCond` | `myList.filter(myCond)` | `myList.filter(myCond)` | `list(filter(myCond, myList))`
+(REVIEW NEEDED) return the first element (not the index, the element itself) of `myList` that satisfies condition `myCond` | `myList.find(myCond)` | `myList.find(myCond)` | `next(iter(filter(myCond, myList)), None)`
+(REVIEW NEEDED) return the indices in `myList` that satisfy `myCond` | `myCond.zipWithIndex.filter{case (a,b) => myCond(a)}.map(_._2)` | ?? | ??
 (REVIEW NEEDED) list of integers from 1 to `n` (`n` a predefined positive integer) | `(1 to n).toList` | `[...Array(n).keys()].map(i => i + 1)` | `list(range(1, n + 1))`
 (REVIEW NEEDED) index of first occurrence of element `myElem` in list `myList` | `myList.indexOf(myElem)` (returns -1 if not present) | `myList.indexOf(myElem)` (returns -1 if not present) | `myList.index(myElem)` (raises `ValueError` if not present)
 
@@ -121,3 +123,9 @@ exception-handling for the async thing | `.recover` | `.catch` | ??
 returning an async `thingToReturn` synchronously | `Future.successful(thingToReturn)` | N/A | ??
 returning an async `thingToReturn` asynchronously | `Future(thingToReturn)` | `Promise.resolve(thingToReturn)` | ??
 convert a sequence of async stuff into a single async thing | `Future.sequence` | `Promise.all` | ??
+
+## Sleep cheatsheet
+
+Construct | Scala | JavaScript | Python
+-- | -- | -- | --
+(REVIEW NEEDED) sleep `n` seconds | `java.lang.Thread.sleep(n * 1000)` | `new Promise(r => setTimeout(r, n * 1000))` | `import time; time.sleep(n)`
