@@ -18,6 +18,9 @@ My experience with these languages as of 2024-02-14:
   Python, and 7-8 years of occasional reading and writing of Python
   code.
 
+NOTE: The REVIEW NEEDED annotations are for myself and reflecting my
+state of internalization of the material. Others can ignore.
+
 ## Variable assignment and typing
 
 Construct | Scala | JavaScript | Python
@@ -87,7 +90,7 @@ parentheses around condition for if? | yes | yes | needed only if condition span
 then | N/A, put the instruction directly after the condition, usually with `) {\n` separator | N/A, put the instruction directly after the condition, usually with `) {` separator | N/A, put the instruction in the next line with `:\n` separator
 else if | `else if` | `else if` | `elif`
 
-## Case match cheatsheet
+## (REVIEW NEEDED) Case match cheatsheet
 
 Construct | Scala | JavaScript | Python
 -- | -- | -- | --
