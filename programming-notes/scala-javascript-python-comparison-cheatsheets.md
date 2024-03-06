@@ -50,7 +50,7 @@ every element of `myList` satisfies condition `myCond` | `myList.forall(myCond)`
 there is an element of `myList` satisfying condition `myCond` | `myList.exists(myCond)` | `myList.some(myCond)` | `any(myCond(u) for u in myList)`
 return an array that is the subsequence of `myList` that satisfies condition `myCond` | `myList.filter(myCond)` | `myList.filter(myCond)` | `list(filter(myCond, myList))`
 list of integers from 1 to `n` (`n` a predefined positive integer) | `(1 to n).toList` | `[...Array(n).keys()].map(i => i + 1)` | `list(range(1, n + 1))`
-index of first occurrence of element `myElem` in list `myList` | `myList.indexOf(myElem)` (returns -1 if not present) | `myList.indexOf(myElem)` (returns -1 if not present) | `myList.index(myElem)` (raises `ValueError` if not present)
+(REVIEW NEEDED) index of first occurrence of element `myElem` in list `myList` | `myList.indexOf(myElem)` (returns -1 if not present) | `myList.indexOf(myElem)` (returns -1 if not present) | `myList.index(myElem)` (raises `ValueError` if not present)
 
 ## String cheatsheet
 
@@ -58,16 +58,16 @@ Construct | Scala | JavaScript | Python
 -- | -- | -- | --
 join an array of strings `myList` using a separator string `mySep` (which could be empty) | `myList.mkString(mySep)` | `myList.join(mySep)` | `mySep.join(myList)`
 split a string `myString` over a separator string `mySep` | `myString.split(mySep)` | `myString.split(mySep)` | `myString.split(mySep)` (note that unlike the join case, this is *not* interchanged from the other two languages)
-reverse a string `myString` | `myString.reverse` | `myString.split("").reverse().join("")` | `"".join(list(reversed(myString)))`
+(REVIEW NEEDED) reverse a string `myString` | `myString.reverse` | `myString.split("").reverse().join("")` | `"".join(list(reversed(myString)))`
 concatenate strings `myString1` and `myString2` | `myString1 + myString2` | `myString1 + myString2` | `myString1 + myString2`
-interpolate string `myString` (variable name) into a larger string | `s"...${myString}..."` | `\`...${myString}...\`` | `f"...{myString}..."`
+interpolate string `myString` (variable name) into a larger string | `s"...${myString}..."` | `...${myString}...` using backquotes to enclose | `f"...{myString}..."`
 
 ## Tuples cheatsheet
 
 Construct | Scala | JavaScript | Python
 -- | -- | -- | --
 explicit tuple construction | `(<entries of tuple separated by comma>)` | N/A | `(<entries of tuple separated by comma>)`
-access to coordinate `i` of tuple `myTup` (starting from 1) | `myTup._<i>` (only explicit numbers can be used in the subscript; variables, even constant | N/A | `myTup[i - 1]` (as Python treats the tuple as an array, and uses 0-indexing for arrays)
+access to coordinate `i` of tuple `myTup` (starting from 1) | `myTup._<i>` (only explicit numbers can be used in the subscript; variables, even constant ones, are not allowed | N/A | `myTup[i - 1]` (as Python treats the tuple as an array, and uses 0-indexing for arrays)
 
 ## Sorting (and related manipulation) cheatsheet
 
