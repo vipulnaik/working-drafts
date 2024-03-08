@@ -52,7 +52,7 @@ apply something to each element of `myList` (without saving) | `myList.foreach(.
 every element of `myList` satisfies condition `myCond` | `myList.forall(myCond)` | `myList.every(myCond)` | `all(myCond(u) for u in myList)`
 there is an element of `myList` satisfying condition `myCond` | `myList.exists(myCond)` | `myList.some(myCond)` | `any(myCond(u) for u in myList)`
 return an array that is the subsequence of `myList` that satisfies condition `myCond` | `myList.filter(myCond)` | `myList.filter(myCond)` | `list(filter(myCond, myList))`
-(REVIEW NEEDED) return the first element (not the index, the element itself) of `myList` that satisfies condition `myCond` | `myList.find(myCond)` | `myList.find(myCond)` | `next(iter(filter(myCond, myList)), None)`
+(REVIEW NEEDED) return the first element (not the index, the element itself) of `myList` that satisfies condition `myCond` | `myList.find(myCond)` (returns an option of the first element if it exists, otherwise None; to extract the value with a fallback default, append `.getOrElse(<fallbackDefault>)` | `myList.find(myCond)` (returns the element without an option wrapper if it exists, returns undefined otherwise) | `next(iter(filter(myCond, myList)), None)`
 (REVIEW NEEDED) return the first index in `myList` where the element satisfies `myCond` | `myList.indexWhere(myCond)` | `myList.findIndex(myCond)` | ??
 (REVIEW NEEDED) return the indices in `myList` that satisfy `myCond` | `myCond.zipWithIndex.filter{case (a,b) => myCond(a)}.map(_._2)` | ?? | ??
 (REVIEW NEEDED) list of integers from 1 to `n` (`n` a predefined positive integer) | `(1 to n).toList` | `[...Array(n).keys()].map(i => i + 1)` | `list(range(1, n + 1))`
