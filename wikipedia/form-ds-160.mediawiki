@@ -10,7 +10,7 @@ There is no fee for submitting a DS-160. Once submitted, a DS-160 application ca
 
 ===Inclusion of application ID===
 
-Embassies and consulates, or the online systems that they use for booking visa appointments, will generally ask for the DS-160 number as part of the process of booking an appointment for a visa interview (or document drop-off via the [[Interview Waiver Program]])). The DS-160 confirmation page (not the full application, just the confirmation page), with a scannable barcode, is one of the documents that the applicant is expected to carry for the visa interview or document drop-off location.
+Embassies and consulates, or the online systems that they use for booking visa appointments, will generally ask for the DS-160 number as part of the process of booking an appointment for a visa interview (or document drop-off via the [[Interview Waiver Program]]). The DS-160 confirmation page (not the full application, just the confirmation page), with a scannable barcode, is one of the documents that the applicant is expected to carry for the visa interview or document drop-off location.
 
 While the advice offered by the U.S. Department of State is to submit the DS-160 before ''booking'' the visa appointment,<ref name=ds-160-faqs/> it may be possible to submit an application for a visa interview (or document drop-off) with the application ID of a DS-160 that has not yet been submitted, and make sure to submit the DS-160 prior to the actual interview and then carry the DS-160 confirmation printout to the interview.
 
