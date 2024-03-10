@@ -31,19 +31,41 @@ The DS-160 is one of the few documents that are always reviewed by consular offi
 
 Until 2007, several forms were used for nonimmigrant visa applications, including DS–156 (Nonimmigrant Visa Application), DS–156E (Nonimmigrant Treaty Trader Investor Application), DS–156K (Nonimmigrant Fiancé Application), DS–157 (Nonimmigrant Supplemental Visa Application), DS–158 (Contact Information and Work History Application), and DS–3052 (Nonimmigrant V Visa Application). In November 2007, the [[U.S. Department of State]]'s [[Bureau of Consular Affairs]] published a 60-day notice of proposed information collection, seeking comments from the public, for consolidating nonimmigrant visa applications into a single Form DS-160 that was to be submitted electronically. The notice was publishe in the ''[[Federal Register]]'' in December 2007. The notice estimated that 12.3 million respondents would fill the Form DS-160 and the average time taken to prepare a response would be 75 minutes.<ref name=ds-160-consolidation-notice/>
 
-A followup 30-day notice of proposed information collection dated March 5, 2008 was published in the ''[[Federal Register]]'' on April 4, 2008. This version estimated 10 million respondents and a 75-minute time burden for filling the form. This sought public comments regarding the necessity of the data collection, accuracy of the estimated time burden, and the quality, utility, and clarity of the information to be collected.<ref name=ds-160-consolidation-notice-2>{{cite web|url = https://www.federalregister.gov/documents/2008/04/04/E8-6989/30-day-notice-of-proposed-information-collection-ds-160-nonimmigrant-visa-electronic-application-omb|title = 30-Day Notice of Proposed Information Collection: DS-160, Nonimmigrant Visa Electronic Application, OMB 1405-XXXX|publisher = ''[[Federal Register]]''|date = April 4, 2008|accessdate = March 10, 2024}}</ref>
-
 On April 22, 2008, a final rule was promulgated by the [[U.S. Department of State]] offering the completely electronic Form DS-160 as a (voluntary for now) alternative to Form DS-156, though Form DS-156 would continue to be available for cases where it was needed. Form DS-156, although available electronically, needed to be signed manually, but the Form DS-160 could be signed electronically as well. This final rule was published in the ''[[Federal Register]]'' on April 29, 2008.<ref name=ds-160-as-voluntary-alternative-to-ds-156>{{cite web|url = https://www.federalregister.gov/documents/2008/04/29/E8-9336/visas-documentation-of-nonimmigrants-under-the-immigration-and-nationality-act-as-amended|title = Visas: Documentation of Nonimmigrants Under the Immigration and Nationality Act, as Amended|publisher = ''[[Federal Register]]''|date = April 29, 2008|accessdate = March 10, 2024}}</ref>
 
 ===Deprecation of paper-based Form DS-156===
 
-Over time, the use of the paper-based Form DS-156 would be curtailed significantly. A 60-day notice of proposed information collection in June 2022 would state the following cases where the paper-based Form DS-156 may be used instead of the electronic Form DS-160:<ref>{{cite web|url = https://www.federalregister.gov/documents/2022/06/02/2022-11837/60-day-notice-of-proposed-information-collection-nonimmigrant-visa-application|title = 60-Day Notice of Proposed Information Collection: Nonimmigrant Visa Application|publisher = [[U.S. Department of State]]|date = June 2, 2022|accessdate = March 10, 2024}}</ref>
+Over time, the use of the paper-based Form DS-156 reduced significantly, and by 2017 it was limited only to exceptional cases.
+
+A 60-day notice of proposed information collection in May 2017 listed the following cases where a paper-based Form DS-156 may be used:<ref>{{cite web|url = https://www.federalregister.gov/documents/2017/05/02/2017-08803/60-day-notice-of-proposed-information-collection-nonimmigrant-visa-application|title = 60-Day Notice of Proposed Information Collection: Nonimmigrant Visa Application|publisher = ''[[Federal Register]]''|date = May 2, 2017|accessdate = March 10, 2024}}</ref>
+
+* An applicant has an urgent medical or humanitarian travel need and the consular officer has received explicit permission from the Visa Office to accept form DS–156.
+* The applicant is a student exchange visitor who must leave immediately in order to arrive on time for his/her course and the consular officer has explicit permission from the Visa Office to accept form DS–156.
+* The applicant is a diplomatic or official traveler with urgent government business and form DS–160 has been unavailable for more than four hours.
+* Form DS–160 has been unavailable for more than three days and the consular officer receives explicit permission from the Visa Office.
+
+A 60-day notice of proposed information collection in June 2022 listed the following cases where the paper-based Form DS-156 may be used instead of the electronic Form DS-160; this includes the last three of the four allowed cases in the 2017 notice:<ref>{{cite web|url = https://www.federalregister.gov/documents/2022/06/02/2022-11837/60-day-notice-of-proposed-information-collection-nonimmigrant-visa-application|title = 60-Day Notice of Proposed Information Collection: Nonimmigrant Visa Application|publisher = [[U.S. Department of State]]|date = June 2, 2022|accessdate = March 10, 2024}}</ref>
 
 * Respondent is a student or exchange visitor who must leave immediately in order to arrive on time for his/her course and the consular officer has explicit permission from the Visa Office to accept form DS–156.
 * Respondent is a diplomatic or official traveler with urgent government business and form DS–160 has been unavailable for more than four hours.
 * Form DS–160 has been unavailable for more than three days and the officer receives explicit permission from the Visa Office.
 
 A final rule in 2023 stating that "the Form DS-156 is the paper-based nonimmigrant visa application and can only be used in limited circumstances."<ref name=visas-procedure-2023>{{cite web|url = https://www.federalregister.gov/documents/2023/03/06/2023-04405/visas-procedures-for-issuing-visas|title = Visas: Procedures for Issuing Visas|publisher = ''[[Federal Register]]''|date = March 6, 2023|accessdate = March 10, 2024}}</ref>
+
+===Changes to DS-160 questions===
+
+In March 2018, a 60-day notice of proposed information collection was published, describing proposed changes to Form DS-160. The changes included the addition of questions related to social media handles as well as telephone numbers used within the past five years.<ref name=ds-160-social-media-and-phone-numbers>{{cite web|url = https://www.federalregister.gov/documents/2018/03/30/2018-06496/60-day-notice-of-proposed-information-collection-application-for-nonimmigrant-visa|title = 60-Day Notice of Proposed Information Collection: Application for Nonimmigrant Visa|publisher = ''[[Federal Register]]''|date = March 30, 2018|accessdate = March 10, 2024}}</ref> A later notice<ref name=ds-160-supplemental-questions>{{cite web|url = https://www.federalregister.gov/documents/2021/02/05/2021-02413/30-day-notice-of-proposed-information-collection-supplemental-questions-for-visa-applicants|title = 30 Day Notice of Proposed Information Collection: Supplemental Questions for Visa Applicants
+|publisher = ''[[Federal Register]]''|date = Febrary 5, 2021|accessdate = March 10, 2024}}</ref> would identify the impetus for this data collection as the ''Memorandum for the Secretary of State, the Attorney General, the Secretary of Homeland Security'' published in March 2017 under the [[presidency of Donald Trump]].<ref name=trump-memo>{{cite web|url = https://trumpwhitehouse.archives.gov/presidential-actions/memorandum-secretary-state-attorney-general-secretary-homeland-security/|title = Memorandum for the Secretary of State, the Attorney General, the Secretary of Homeland Security|publisher = Trump White House|date = March 6, 2017|accessdate = March 10, 2024}}</ref> These questions, originally part of Form DS-5535, were merged into Form DS-160 by 2021.<ref name=ds-160-supplemental-questions/>
+
+In February 2021, a 30-day notice of proposed information collection proposed collecting more information from "a subset of visa applicants worldwide" (again pursuant to the ''Memorandum for the Secretary of State, the Attorney General, the Secretary of Homeland Security'' published in March 2017 under the [[presidency of Donald Trump]]) including:<ref name=ds-160-supplemental-questions/>
+
+* Travel history during the last 15 years
+* Address history during the last 15 years
+* Employment history during the last 15 years
+* All passport numbers and country of issuance held by the applicant
+* Names and dates of birth for all siblings
+* Name and dates of birth for all children
+* Names and dates of birth for all current and former spouses, or civil or domestic partners.
 
 ==References==
 
