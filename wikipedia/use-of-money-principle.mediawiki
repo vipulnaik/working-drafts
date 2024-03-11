@@ -10,7 +10,7 @@ The original court case from which the use-of-money principle was first articula
 
 ===Fundamental difference between the United States federal goverment and some taxpayer advocates===
 
-The general view of the United States federal government, including the IRS and the [[United States Department of Justice Tax Division]], is that the "use-of-money principle" is a limited tool of statutory interpretation rather than a broad equitable principle.<ref name="procedurallytaxing_circuit"/> For instance, training material prepared for the DOJ Tax Division states: "In dealing with interest disputes, the governing provisions of the Code must always be the starting point."<ref name=doj-training-material/>
+The general view of the United States federal government, including the IRS and the [[United States Department of Justice Tax Division]], is that the "use-of-money principle" is a limited tool of statutory interpretation rather than a broad equitable principle (the latter being an interpretation used by some taxpayer advocates and in particular some plaintiffs in some of the court cases related to this).<ref name="procedurallytaxing_circuit"/> For instance, training material prepared for the DOJ Tax Division states: "In dealing with interest disputes, the governing provisions of the Code must always be the starting point."<ref name=doj-training-material/>
 
 ===Separation of accounts by time period (tax year)===
 
