@@ -4,7 +4,7 @@ The '''use-of-money principle''', also written as the '''use of money principle'
 
 ===Use as continuous possession===
 
-The original court case from which the use-of-money principle was first articulated is ''Manning v. Seeley Tube & Box Co. of New Jersey''. In this case, a taxpayer had a tax liability (due to underpayment) that was subsequently eliminated due to a net operating loss carryback. The court sided with the view that the taxpayer was still responsible for interest on the liability even though the liability itself had been eliminated by the net operating loss carryback. This established the idea that the government needed to have continuous possession of the funds from the point when they were due in order for there to be no interest liability.<ref name=doj-training-material/>
+The original court case from which the use-of-money principle was first articulated is ''Manning v. Seeley Tube & Box Co. of New Jersey'' (1950). In this case, a taxpayer had a tax liability (due to underpayment) that was subsequently eliminated due to a net operating loss carryback. The court sided with the view that the taxpayer was still responsible for interest on the liability even though the liability itself had been eliminated by the net operating loss carryback. This established the idea that the government needed to have continuous possession of the funds from the point when they were due in order for there to be no interest liability.<ref name=doj-training-material/>
 
 ==Nuances in application==
 
