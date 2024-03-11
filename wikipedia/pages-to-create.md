@@ -1,7 +1,6 @@
 Some ideas of pages to create:
 
 * Credit elect (US taxes / IRS jargon, but the concept is likely wider)
-* Use-of-money principle
 * Escape from Kabul (HBO/BBC(?) documentary)
 * Urduwood
 * Food neutrality (maybe link out from body positivity etc.)
