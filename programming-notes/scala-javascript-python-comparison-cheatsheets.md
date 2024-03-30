@@ -83,7 +83,7 @@ return a sorted version of `myList` | `myList.sortBy(identity)` | `[...myList].s
 sort `myList` in-place | no direct way; just reassign the `myList.sortBy(identity)` to `myList`| `myList.sort()` (also returns the sorted version) | `myList.sort()` (returns nothing)
 return a sorted version of `myList` by a function `myFunc` | `myList.sortBy(myFunc)` | `[...myList].sort(myFunc)` | `sorted(myList, key = myFunc)`
 return a reversed version of `myList` | `myList.reverse` | `[...myList].reverse()` | `list(reversed(myList))`
-reverse `myList` in place | no direct way; just rassign `myList.reverse` to `myList` | `myList.reverse()` (also returns the reversed version) | `myList.reverse()` (returns nothing)
+reverse `myList` in place | no direct way; just reassign `myList.reverse` to `myList` | `myList.reverse()` (also returns the reversed version) | `myList.reverse()` (returns nothing)
 
 ## Condition syntax cheatsheet
 
