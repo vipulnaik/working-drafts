@@ -1,4 +1,4 @@
-{{focused coverage period|end-date = February 2024}}
+{{focused coverage period|end-date = April 13, 2024}}
 
 This is a timeline of {{w|Bay Area Rapid Transit}} (BART), a mass rapid transit system serving the San Francisco Bay Area.
 
@@ -55,76 +55,11 @@ This is a timeline of {{w|Bay Area Rapid Transit}} (BART), a mass rapid transit 
 |-
 | 2020 || January 1 || 2.10 || 6.20 || 5.4% || February 2013
 |-
-| 2022 || July 1 || 2.15 || 6.40 || 3.4% || June 2022 
+| 2022 || July 1 || 2.15 || 6.40 || 3.4% || June 2022
+|-
+| 2024 || January 1 || 2.30 || 6.75 || 5.5% || June 2023
 |}
 
-== Numerical and visual data  ==
-
-=== Google Scholar ===
-
-The following table summarizes per-year mentions on Google Scholar as of December 14, 2021.
-
-{| class="sortable wikitable"
-! Year
-! "Bay Area Rapid Transit"
-|-
-| 1975 || 121
-|-
-| 1980 || 86
-|-
-| 1985 || 60
-|-
-| 1990 || 82 
-|-
-| 1995 || 113
-|-
-| 2000 || 158
-|-
-| 2005 || 274 
-|-
-| 2010 || 371
-|-
-| 2015 || 407
-|-
-| 2020 || 412
-|-
-|}
-
-[[File:Bay Area Rapid Transit gscho.png|thumb|center|700px]]
-
-=== Overall ridership ===
-
-The image below shows BART average weekday, Saturday, and Sunday ridership by month from January 2001 to March 2018. Traffic is highest on weekdays, lower on Saturdays, and even lower on Sundays. The referenced source will update the graph every month; the version shown below does not auto-update.<ref name=bart-ridership-graph>{{cite web|url = https://bart.vipulnaik.com/ridership.php?entryStation=total&exitStation=total|title = BART Ridership: total to total|accessdate = June 22, 2017}}</ref>
-
-[[File:BART ridership.png|thumb|center|500px]]
-
-=== Ridership to Embarcadero, the busiest station ===
-
-The image below shows BART ridership to and from Embarcadero: average weekday, Saturday, and Sunday ridership values by month from January 2001 to May 2017. Traffic is highest on weekdays, lower on Saturdays, and even lower on Sundays. Traffic ''to'' Embarcadero is a little higher than traffic ''from'' Embarcadero for any given month and day type, but differences between type of day dominate entry/exit differences. The referenced source will update the graph every month; the version shown below does not auto-update.<ref name=bart-ridership-graph-embarcadero>{{cite web|url = https://bart.vipulnaik.com/ridership.php?entryStation=total&exitStation=EM|title = BART Ridership: total to EM|accessdate = June 22, 2017}}</ref>
-
-[[File:BART ridership to Embarcadero.png|thumb|center|500px]]
-
-=== Wikipedia pageviews ===
-
-The image below shows pageviews of the Wikipedia page {{w|Bay Area Rapid Transit}} from December 2007 to January 2021 on desktop, and from July 2015 to January 2021 on mobile web, mobile app, desktop spider, and mobile web spider. The image will not auto-update with data for new months; you can visit the source page to get up-to-date data.<ref>{{cite web|url = https://wikipediaviews.org/displayviewsformultiplemonths.php?page=Bay+Area+Rapid+Transit&allmonths=allmonths&language=en&drilldown=all|title = Wikipedia Views for Bay Area Rapid Transit|accessdate = July 6, 2017}}</ref>
-
-[[File:BART wv.jpeg|thumb|center|700px]]
-
-=== Google Trends ===
-
-The comparative chart below shows {{w|Google Trends}} data ({{w|United States}}) for Bay Area Rapid Transit (Transit line) and New York City Subway (Mass transportation system) from January 2004 to February 2021, when the screenshot was taken.<ref>{{cite web |title=Bay Area Rapid Transit and New York City Subway |url=https://trends.google.com/trends/explore?date=all&geo=US&q=%2Fm%2F0gdjj,%2Fm%2F01pz3b |website=Google Trends |access-date=3 February 2021}}</ref>
-
-[[File:Bay area gtrends.jpeg|thumb|center|700px]]
-
-The image below shows Google Trends data for just one week, with times shown in Pacific Time (the local timezone for BART). Relative interest appears to peak in the evenings, around 5 PM.<ref>{{cite web|url = https://trends.google.com/trends/explore?date=now%207-d&q=%2Fm%2F0gdjj|title = Bay Area Rapid Transit (Metro System)|publisher = Google Trends|accessdate = July 7, 2017}}</ref>
-
-[[File:BART Google trends one week.png|thumb|center|700px]]
-
-=== Google Ngram Viewer ===
-
-The chart below shows {{w|Google Ngram Viewer}} data for Bay Area Rapid Transit, from 1957 to 2019.<ref>{{cite web |title=Bay Area Rapid Transit |url=https://books.google.com/ngrams/graph?content=Bay+Area+Rapid+Transit&year_start=1957&year_end=2019&corpus=26&smoothing=3&case_insensitive=true |website=books.google.com |access-date=1 February 2021}}</ref>
-
-[[File:Bart ngram.jpeg|thumb|center|800px]]
 
 == Full timeline == 
 {| class="wikitable sortable"
@@ -432,6 +367,8 @@ The chart below shows {{w|Google Ngram Viewer}} data for Bay Area Rapid Transit,
 |-
 | 2008 || October 1 || Work contracts || [[w:Titan (transit advertising company)|Titan]] wins the exclusive right to manage advertisements on BART stations and trains (October 1 is the effective date, the winning of the contract is announced in March 2008), replacing CBS Outdoor, which has held the contract since 1998.<ref name=bart-titan>{{cite web|url = https://www.bizjournals.com/eastbay/stories/2008/03/17/daily49.html|title = Titan Worldwide wins BART ad contract|date = March 19, 2008|accessdate = July 9, 2017|publisher = San Francisco Business Times}}</ref><ref>{{cite web|url = http://www.sfgate.com/bayarea/article/BART-revenue-plan-OKd-3291097.php|title = BART revenue plan OKd. BAY AREA Directors vote to boost fines, sign lucrative ad contract - and give themselves a raise|last = Gordon|first = Rachel|date = March 14, 2008|accessdate = July 9, 2017|publisher = ''[[w:San Francisco Chronicle|San Francisco Chronicle]]''}}</ref> The company would later merge with Control Group to form Intersection Media.<ref>{{cite web|url = https://www.intersection.com/|title = Intersection Media|accessdate = July 9, 2017}}</ref><ref>{{cite web|url = https://www.bart.gov/about/business/advertising|title = Advertising Opportunities|publisher = [[w:Bay Area Rapid Transit|Bay Area Raipd Transit]]|accessdate = July 9, 2017}}</ref> 
 |-
+| 2008 || October 24 || Community || The BART subreddit starts on this date.<ref>{{cite web|url = https://www.reddit.com/r/Bart/|title = /r/BART|accessdate = April 13, 2024|publisher = Reddit}}</ref>
+|-
 | 2008 || || Data || BART conducts a Station Profile Study, to understand the profile of riders at each of its stations. This updates data previously collected in 1998.<ref name=bart-2008-sps/> 
 |-
 | 2009 || January 1 || Violence || [[w:Shooting of Oscar Grant|Oscar Grant is shot]] at [[w:Fruitvale station|Fruitvale station]] by BART police officer Johannes Mehserle, who restrained him after responding to reports of fights on a crowded BART train from San Francisco.<ref name="missteps">{{cite news|url=http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2009/01/30/MNOP15JI6F.DTL|title=BART's shooting probe missteps|last=Bulwa|first=Demian|date=January 30, 2009|publisher=''San Francisco Chronicle''}}</ref><ref name="kpix1">{{cite web|url=http://cbs5.com/local/oakland.BART.shooting.2.901215.html |title=Family Files Claim In BART Shooting; Officer ID'd |year=2009 |publisher=[[KPIX-TV]] |deadurl=yes |archiveurl=https://web.archive.org/web/20090121130105/http://cbs5.com/local/oakland.BART.shooting.2.901215.html |archivedate=January 21, 2009 }}</ref><ref name=deadlybart>{{cite news|author=Jill Tucker |author2=Kelly Zito|author3=Heather Knight| url = http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2009/01/02/MNB9152I2Q.DTL| title = Deadly BART brawl&nbsp;— officer shoots rider, 22| publisher = San Francisco Chronicle| accessdate = January 5, 2009| archiveurl= //web.archive.org/web/20090104054941/http://www.sfgate.com/cgi-bin/article.cgi?f=/c/a/2009/01/02/MNB9152I2Q.DTL| archivedate= January 4, 2009 <!--DASHBot-->| deadurl= no| date=January 2, 2009}}</ref><ref name="BFPSA">{{cite web |url= http://www.bart.gov/news/articles/2008/news20081201a.aspx |title=New Year's Eve flash pass, service adjustments, for holiday travelers |year=2009 |publisher=[[Bay Area Rapid Transit|BART]] |accessdate=February 3, 2009| archiveurl= //web.archive.org/web/20090206024542/http://www.bart.gov/news/articles/2008/news20081201a.aspx| archivedate= February 6, 2009 <!--DASHBot-->| deadurl= no}}</ref><ref name=indybay/> || Fruitvale
@@ -587,7 +524,7 @@ BART board may fire Dorothy Dugger|last = Cabanatuan|first = Michael|date = Febr
 |-
 | 2020 || January 1 (announcement: December 2, 2019) || Fares || Fare increases and a new fare structure are effective from this date. All fares are increased by 5.4%. The minimum fare is now $2.10 (up from $2) and the excursion fare is now $6.20 (up from $5.75). This is the last of a series of four inflation-based fare increases approved by the BART Board in 2013 (the previous increases were at the beginning of 2014, 2016, and 2018). According to BART: "All new revenue from this fare increase goes to BART's highest priority capital needs including new rail cars, a new train control system to provide more frequent service and an expanded maintenance facility."<ref name=bart-2020-fare-increase>{{cite web|url = https://www.bart.gov/news/articles/2019/news20191202|title = Fare increase January 1, 2020|date = December 2, 2019|accessdate = January 23, 2020|publisher = Bay Area Rapid Transit}}</ref><ref>{{cite web|url = https://www.eastbaytimes.com/2019/12/17/bart-fares-are-going-up-in-2020-heres-how-much-they-will-increase/|title = BART fares are going up in 2020: Here’s how much they will increase|last = Savidge|first = Nico|date = December 17, 2019|accessdate = January 23, 2020|publisher = East Bay Times}}</ref>
 |-
-| 2020 || January 9 || Connectivity (cellular, Internet) || The BART Board approves a set of four projects aimed at improving cellular connectivity throughout the BART system as well as providing Wi-Fi on the BART Fleet of the Future trains.<ref>{{cite web|url = https://www.bart.gov/news/articles/2020/news20200107|title = Board approves project to deliver WiFi at BART and cellular upgrades|date = January 9, 2020|accessdate = February 23, 2020|publisher = Bay Area Rapid Transit}}</ref>
+| 2020 || January 9 || Connectivity (cellular, Internet) || The BART Board approves a set of four projects aimed at improving cellular connectivity throughout the BART system as well as providing seamless Wi-Fi in BART stations and on the BART Fleet of the Future trains.<ref>{{cite web|url = https://www.bart.gov/news/articles/2020/news20200107|title = Board approves project to deliver WiFi at BART and cellular upgrades|date = January 9, 2020|accessdate = February 23, 2020|publisher = Bay Area Rapid Transit}}</ref>
 |-
 | 2020 || January 10 || Team || BART GM Bob Powers appoints Ed Alvarez as BART Police Chief. Alvarez is a 22-year veteran of the BART Police Department and a native of the East Bay.<ref>{{cite web|url = https://www.bart.gov/news/articles/2020/news20200110|title = General Manager appoints Ed Alvarez as Chief of Police|date = January 10, 2020|accessdate = February 23, 2020|publisher = Bay Area Rapid Transit}}</ref>
 |-
@@ -635,8 +572,82 @@ BART board may fire Dorothy Dugger|last = Cabanatuan|first = Michael|date = Febr
 |-
 | 2023 || September 11 || Service hours/frequency/capacity || BART's new schedule will roll out starting on this day. The change increases frequency along several routes, reduces maximum wait times, and switches to using the new BART train cars (Fleet of the Future) for the base schedule, with the older train cars used only to make up shortfalls when needed.<ref>{{cite web|url = https://www.bart.gov/news/articles/2023/news20230427|title = BART's reimagined schedule starts September 11th aimed at increasing ridership|date = September 5, 2023|accessdate = February 25, 2024|publisher = Bay Area Rapid Transit}}</ref><ref>{{cite web|url = https://www.bart.gov/news/articles/2023/news20230823-0|title = BART to run only new trains as the base schedule beginning September 11, 2023|date = August 23, 2023|accessdate = February 25, 2024|publisher = Bay Area Rapid Transit}}</ref> BART will also run short trains, claiming that, in addition to saving costs, this enhances safety and cleanliness, as very empty train cars tend to be more subject to issues with safety and cleanliness.<ref>{{cite web|url = https://www.bart.gov/news/articles/2023/news20230823|title = BART will begin to size trains for safety and efficiency starting September 11, 2023|date = August 23, 2023|accessdate = February 25, 2024|publisher = Bay Area Rapid Transit}}</ref>
 |-
+| 2023 || December 28 || Fare evasion || BART installs prototypes of new fare gates at West Oakland station that are intended to combat fare evasion by being more difficult to get through. The hope is to expand to all stations after refining the prototype based on the results of the field testing at West Oakland.<ref>{{cite web|url = https://www.bart.gov/news/articles/2023/news20231228-0|title = BART unveils new fare gates at West Oakland Station|date = December 28, 2023|accessdate = April 13, 2024|publisher = Bay Area Rapid Transit}}</ref> This is the first rollout of a multi-phase fare gate hardening project intended to reduce fare evasion, reduce maintenance costs for the fare gates, and improve feelings of safety and customer experience. The project is expected to cost $90 million and finish by the end of 2025.<ref name=bart-fare-gate-hardening>{{cite web|url = https://www.bart.gov/about/projects/fare-gate|title = New Fare Gates & Station Hardening|accessdate = April 13, 2024|publisher = Bay Area Rapid Transit}}</ref>
+|-
 | 2024 || January 1 || Fares || BART's 5.5% fare increase takes effect on this date. BART also increases its means-tested low-income fare discount from 20% to 50%. The increase had been approved by BART's Board of Directors on June 8, 2023. Moreover, instead of a single 11% increase in January 2024, the plan is to increase fares twice by 5.5%, once in January 2024 and once in January 2025.<ref>{{cite web|url = https://www.bart.gov/news/articles/2023/news20231211-0|title = On Jan. 1, BART fares to increase 5.5%, low-income fare discount to increase to 50%|date = January 1, 2024|accessdate = February 25, 2024|publisher = Bay Area Rapid Transit}}</ref> The fare increase is expected to bring in $26 million more in revenue, which BART claims is crucial for helping it avoid service cuts.<ref>{{cite web|url = https://www.nbcbayarea.com/news/local/bart-fare-increase/3395336/|title = BART fares to increase in 2024. Here's how much more riders will pay. The more than 5% spike is projected to bring in $26 million more to cover BART's inflation cost|date = December 11, 2023|accessdate = February 25, 2024|publisher = NBC Bay Area|last = Jones|first = Velena}}</ref>
+|-
+| 2024 || March 21 || Fare evasion || SFGATE reporter Alex Regimbal describes his experience trying (with BART's consent) to get through (without paying) the more secure fare gates at West Oakland station. He identifies two methods: sliding under the gate, and piggybacking (tailgating) on a previous fare payer. According to him, BART is already working on ways to address the latter. His overall conclusion: "No transit gates in the world are 100% immune to fare evasion, but after spending about 40 minutes playing around with the gates at the West Oakland station, I would say they’re probably as effective as it gets. [...] It may technically be possible to beat the gates, but on my way home from the field test on Friday, I mostly wondered about the cleanliness of the BART floors. Personally, I think I’ll stick to paying the fare. Sliding around on one station floor was enough for me. "<ref>{{cite web|url = https://www.sfgate.com/bayarea/article/tried-to-skip-fare-on-bart-new-unbeatable-gates-19203724.php|title = I tried to get through BART's new unbeatable fare gates. Here's how it went. BART invited SFGATE reporter Alec Regimbal to try to skip the fare at the agency's new fare gates, which are designed to curb fare evasion|date = March 21, 2024|accessdate = April 13, 2024|last = Regimbal|first = Alex|publisher = SFGATE}}</ref>
+|-
+| 2024 || April 9 || Parking || BART announces that it is moving forward with the planned sunsetting of its EZ Rider program; with riders encouraged to transition to Tap and Go Parking on the BART official app.<ref>{{cite web|url = https://www.bart.gov/news/articles/2024/news20240409|title = EZ Rider Program sunset & transition to Tap and Go Parking|date = April 9, 2024|accessdate = April 13, 2024|publisher = Bay Area Rapid Transit}}</ref>
 |}
+
+== Numerical and visual data  ==
+
+=== Google Scholar ===
+
+The following table summarizes per-year mentions on Google Scholar as of December 14, 2021.
+
+{| class="sortable wikitable"
+! Year
+! "Bay Area Rapid Transit"
+|-
+| 1975 || 121
+|-
+| 1980 || 86
+|-
+| 1985 || 60
+|-
+| 1990 || 82 
+|-
+| 1995 || 113
+|-
+| 2000 || 158
+|-
+| 2005 || 274 
+|-
+| 2010 || 371
+|-
+| 2015 || 407
+|-
+| 2020 || 412
+|-
+|}
+
+[[File:Bay Area Rapid Transit gscho.png|thumb|center|700px]]
+
+=== Overall ridership ===
+
+The image below shows BART average weekday, Saturday, and Sunday ridership by month from January 2001 to March 2018. Traffic is highest on weekdays, lower on Saturdays, and even lower on Sundays. The referenced source will update the graph every month; the version shown below does not auto-update.<ref name=bart-ridership-graph>{{cite web|url = https://bart.vipulnaik.com/ridership.php?entryStation=total&exitStation=total|title = BART Ridership: total to total|accessdate = June 22, 2017}}</ref>
+
+[[File:BART ridership.png|thumb|center|500px]]
+
+=== Ridership to Embarcadero, the busiest station ===
+
+The image below shows BART ridership to and from Embarcadero: average weekday, Saturday, and Sunday ridership values by month from January 2001 to May 2017. Traffic is highest on weekdays, lower on Saturdays, and even lower on Sundays. Traffic ''to'' Embarcadero is a little higher than traffic ''from'' Embarcadero for any given month and day type, but differences between type of day dominate entry/exit differences. The referenced source will update the graph every month; the version shown below does not auto-update.<ref name=bart-ridership-graph-embarcadero>{{cite web|url = https://bart.vipulnaik.com/ridership.php?entryStation=total&exitStation=EM|title = BART Ridership: total to EM|accessdate = June 22, 2017}}</ref>
+
+[[File:BART ridership to Embarcadero.png|thumb|center|500px]]
+
+=== Wikipedia pageviews ===
+
+The image below shows pageviews of the Wikipedia page {{w|Bay Area Rapid Transit}} from December 2007 to January 2021 on desktop, and from July 2015 to January 2021 on mobile web, mobile app, desktop spider, and mobile web spider. The image will not auto-update with data for new months; you can visit the source page to get up-to-date data.<ref>{{cite web|url = https://wikipediaviews.org/displayviewsformultiplemonths.php?page=Bay+Area+Rapid+Transit&allmonths=allmonths&language=en&drilldown=all|title = Wikipedia Views for Bay Area Rapid Transit|accessdate = July 6, 2017}}</ref>
+
+[[File:BART wv.jpeg|thumb|center|700px]]
+
+=== Google Trends ===
+
+The comparative chart below shows {{w|Google Trends}} data ({{w|United States}}) for Bay Area Rapid Transit (Transit line) and New York City Subway (Mass transportation system) from January 2004 to February 2021, when the screenshot was taken.<ref>{{cite web |title=Bay Area Rapid Transit and New York City Subway |url=https://trends.google.com/trends/explore?date=all&geo=US&q=%2Fm%2F0gdjj,%2Fm%2F01pz3b |website=Google Trends |access-date=3 February 2021}}</ref>
+
+[[File:Bay area gtrends.jpeg|thumb|center|700px]]
+
+The image below shows Google Trends data for just one week, with times shown in Pacific Time (the local timezone for BART). Relative interest appears to peak in the evenings, around 5 PM.<ref>{{cite web|url = https://trends.google.com/trends/explore?date=now%207-d&q=%2Fm%2F0gdjj|title = Bay Area Rapid Transit (Metro System)|publisher = Google Trends|accessdate = July 7, 2017}}</ref>
+
+[[File:BART Google trends one week.png|thumb|center|700px]]
+
+=== Google Ngram Viewer ===
+
+The chart below shows {{w|Google Ngram Viewer}} data for Bay Area Rapid Transit, from 1957 to 2019.<ref>{{cite web |title=Bay Area Rapid Transit |url=https://books.google.com/ngrams/graph?content=Bay+Area+Rapid+Transit&year_start=1957&year_end=2019&corpus=26&smoothing=3&case_insensitive=true |website=books.google.com |access-date=1 February 2021}}</ref>
+
+[[File:Bart ngram.jpeg|thumb|center|800px]]
 
 == Feedback and comments ==
 
@@ -649,6 +660,7 @@ Feedback for the timeline can be provided at the following places:
 == See also ==
 
 * [https://www.indybay.org/newsitems/2016/11/20/18793932.php Timeline of BART Police killings, in-custody deaths, and militarization, 1990 - present]
+* [[Timeline of Delhi Metro]]
 
 == References ==
 
