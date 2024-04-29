@@ -1,0 +1,16 @@
+'''FinCEN Form 114''', also known as the '''Report of Foreign Bank and Financial Accounts''' ('''FBAR''') is an informational report that needs to be filed annually by United States persons (including citizens and residents for tax purposes) who exceed a threshold amount ($10,000) in foreign financial institutions at any time during the calendar year.<ref name=forbes-fatca>{{cite web|url = https://www.forbes.com/sites/forbesfinancecouncil/2024/04/16/understanding-fatca-why-file-an-fbar-and-form-8938-as-an-expat-abroad/|title = Understanding FATCA: Why File An FBAR And Form 8938 As An Expat Abroad|last = Goldstein|first = Nathalie|date = April 16, 2024|accessdate = April 28, 2024|publisher = Forbes}}</ref><ref name=fincen-fbar>{{cite web|url = https://www.fincen.gov/report-foreign-bank-and-financial-accounts|title = Report Foreign Bank and Financial Accounts|accessdate = April 28, 2024|publisher = Financial Crimes Enforcement Network}}</ref> The form is filed electronically with the [[Financial Crimes Enforcement Network]] (FinCEN) (the [[Financial Intelligence Unit]] of the United States). The requirement to file this form arises from the [[Bank Secrecy Act]] of 1970. The form replaces a previous similar form called TD-F 90.22-1, also known as FBAR.
+
+==Legal basis==
+
+
+The regulatory authority to require FBARs is found in the [[Code of Federal Regulations]] in 31 CFR § 1010.350 - Reports of foreign financial accounts.
+
+https://www.law.cornell.edu/uscode/text/31/5314
+
+https://www.law.cornell.edu/cfr/text/31/1010.350
+
+https://www.federalregister.gov/documents/2011/02/24/2011-4048/amendment-to-the-bank-secrecy-act-regulations-reports-of-foreign-financial-accounts
+
+==References==
+
+{{reflist|30em}}
