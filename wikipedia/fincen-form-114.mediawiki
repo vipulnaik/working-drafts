@@ -19,7 +19,9 @@ https://www.forbes.com/sites/robertwood/2011/07/06/irs-may-find-innocent-fbar-vi
 
 https://www.forbes.com/sites/robertwood/2011/06/14/should-you-file-fbar-for-the-first-time/?sh=510c351a67aa
 
-https://omb.report/search.php?terms=1545-2038
+https://omb.report/search.php?terms=1545-2038 (versions of TD-F 90.22-1 dating back to 2006-09-12)
+
+https://www.ojp.gov/pdffiles1/Digitization/155129NCJRS.pdf (reference to TD-F 90.22-1 from 1995; the oldest reference I can find on the Internet)
 
 ==References==
 
