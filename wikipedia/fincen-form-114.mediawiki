@@ -1,27 +1,64 @@
-'''FinCEN Form 114''', also known as the '''Report of Foreign Bank and Financial Accounts''' ('''FBAR''') is an informational report that needs to be filed annually by United States persons (including citizens and residents for tax purposes) who exceed a threshold amount ($10,000) in foreign financial institutions at any time during the calendar year.<ref name=forbes-fatca>{{cite web|url = https://www.forbes.com/sites/forbesfinancecouncil/2024/04/16/understanding-fatca-why-file-an-fbar-and-form-8938-as-an-expat-abroad/|title = Understanding FATCA: Why File An FBAR And Form 8938 As An Expat Abroad|last = Goldstein|first = Nathalie|date = April 16, 2024|accessdate = April 28, 2024|publisher = Forbes}}</ref><ref name=fincen-fbar>{{cite web|url = https://www.fincen.gov/report-foreign-bank-and-financial-accounts|title = Report Foreign Bank and Financial Accounts|accessdate = April 28, 2024|publisher = Financial Crimes Enforcement Network}}</ref> The form is filed electronically with the [[Financial Crimes Enforcement Network]] (FinCEN) (the [[Financial Intelligence Unit]] of the United States). The requirement to file this form arises from the [[Bank Secrecy Act]] of 1970. The form replaces a previous similar form called TD-F 90.22-1, also known as FBAR.
+'''FinCEN Form 114''', also known as the '''Report of Foreign Bank and Financial Accounts''' ('''FBAR''') is an informational report that needs to be filed annually by United States persons (including citizens and residents for tax purposes) who exceed a threshold amount ($10,000) in foreign financial institutions at any time during the calendar year.<ref name=forbes-fatca>{{cite web|url = https://www.forbes.com/sites/forbesfinancecouncil/2024/04/16/understanding-fatca-why-file-an-fbar-and-form-8938-as-an-expat-abroad/|title = Understanding FATCA: Why File An FBAR And Form 8938 As An Expat Abroad|last = Goldstein|first = Nathalie|date = April 16, 2024|accessdate = April 28, 2024|publisher = Forbes}}</ref><ref name=fincen-fbar>{{cite web|url = https://www.fincen.gov/report-foreign-bank-and-financial-accounts|title = Report Foreign Bank and Financial Accounts|accessdate = April 28, 2024|publisher = Financial Crimes Enforcement Network}}</ref> The form is filed electronically with the BSA e-filing system of the [[Financial Crimes Enforcement Network]] (FinCEN) (the [[Financial Intelligence Unit]] of the United States).<ref>{{cite web|url = https://www.fincen.gov/how-do-i-file-fbar|title = How Do I File the FBAR?|accessdate = May 11, 2024|publisher = [Financial Crimes Enforcement Network]]}}</ref> The requirement to file this form arises from the [[Bank Secrecy Act]] of 1970. The form replaces a previous similar form called TD-F 90-22.1, also known as FBAR.<ref name=taxnotes>{{cite web|url = https://www.taxnotes.com/research/federal/other-documents/irs-tax-correspondence/bank-seeks-exemption-from-fbar-filing-requirements/wrdr|title = Bank Seeks Exemption From FBAR Filing Requirements|date = October 6, 2009|accessdate = May 11, 2024|publisher = Tax Notes}}</ref><ref name=federal-register-2011-fbar-update>{{cite web|url = https://www.federalregister.gov/documents/2011/02/24/2011-4048/amendment-to-the-bank-secrecy-act-regulations-reports-of-foreign-financial-accounts|title = Amendment to the Bank Secrecy Act Regulations-Reports of Foreign Financial Accounts|date = February 24, 2011|accessdate = May 11, 2024|publisher = Federal Register}}</ref>
 
 ==Legal basis==
 
+The [[Bank Secrecy Act]] of 1970 (PL 91-508) created an overall framework of requirements for individuals and financial institutions around recordkeeping as well as reporting on some of their financial accounts and transactions. §241 ("Records and  reports required") under Chapter 4 ("Foreign Transactions") under Title II ("Report of Currency and Foreign Transactions") of the Act provides the authority for the FBAR.<ref name=bsa-1970>{{cite web|url = https://fraser.stlouisfed.org/title/bank-secrecy-act-1025|title = Bank Secrecy Act|accessdate = May 11, 2024}}</ref> Part (a) says:
 
-The regulatory authority to require FBARs is found in the [[Code of Federal Regulations]] in 31 CFR § 1010.350 - Reports of foreign financial accounts.
+{{blockquote|The Secretary of the Treasury, having due regard for the need to avoid impeding or controlling the export or import of currency or other monetary instruments and having due regard also for the need to avoid burdening unreasonably persons who legitimately engage in transactions with foreign financial agencies, shall by regulation require any resident or citizen of the United States, or person in the United States a n d doing business therein, who engages in any transac-tion or maintains any relationship, directly or indirectly, on behalf of himself or another, with a foreign financial agency to maintain records or t o file reports, or both, setting forth such of the following in-formation, in such form and in such detail, as the Secretary may require:
 
-https://www.law.cornell.edu/uscode/text/31/5314
+(1) The identities and addresses of the parties to the transaction or relationship.
+(2) The legal capacities in which the parties to the transaction or relationship are acting, and the identities of the real parties in interest if one or more of the parties are not acting solely as principals. 
+(3) A description of the transaction or relationship including the amounts of money, credit, or other property involved.}}
 
-https://www.law.cornell.edu/cfr/text/31/1010.350
+This was modified by PL 97-258 of 1982.<ref name=pl-97-258>{{cite web|url = https://www.govinfo.gov/content/pkg/STATUTE-96/pdf/STATUTE-96-Pg877.pdf|title = Public Law 97-258 -- Sept. 13, 1982|date = September 13, 1982|accessdate = May 11, 2024}}</ref> The modified version is in the [[United States Code]] in 31 U.S.C. § 5314.<ref name=usc-31-5314>{{cite web|url = https://www.law.cornell.edu/uscode/text/31/5314|title = 31 U.S. Code § 5314 - Records and reports on foreign financial agency transactions|accessdate = May 11, 2024}}</ref><ref name=federal-register-2011-fbar-update/> Part (a) says:
 
-https://www.federalregister.gov/documents/2011/02/24/2011-4048/amendment-to-the-bank-secrecy-act-regulations-reports-of-foreign-financial-accounts
+{{blockquote|Considering the need to avoid impeding or controlling the export or import of monetary instruments and the need to avoid burdening unreasonably a person making a transaction with a foreign financial agency, the Secretary of the Treasury shall require a resident or citizen of the United States or a person in, and doing business in, the United States, to keep records, file reports, or keep records and file reports, when the resident, citizen, or person makes a transaction or maintains a relation for any person with a foreign financial agency. The records and reports shall contain the following information in the way and to the extent the Secretary prescribes:
+
+(1)the identity and address of participants in a transaction or relationship.
+(2)the legal capacity in which a participant is acting.
+(3)the identity of real parties in interest.
+(4)a description of the transaction.}}
+
+The associated regulatory guideline to require FBARs is found in the [[Code of Federal Regulations]] in 31 CFR § 1010.350 - Reports of foreign financial accounts.<ref>{{cite web|url = https://www.law.cornell.edu/cfr/text/31/1010.350|title = 31 CFR § 1010.350 - Reports of foreign financial accounts.|accessdate = May 11, 2024|publisher = Legal Information Institute}}</ref> Part (a) says:
+
+{{blockquote|In general. Each United States person having a financial interest in, or signature or other authority over, a bank, securities, or other financial account in a foreign country shall report such relationship to the Commissioner of Internal Revenue for each year in which such relationship exists and shall provide such information as shall be specified in a reporting form prescribed under 31 U.S.C. 5314 to be filed by such persons. The form prescribed under section 5314 is the Report of Foreign Bank and Financial Accounts (TD–F 90–22.1), or any successor form. See paragraphs (g)(1) and (g)(2) of this section for a special rule for persons with a financial interest in 25 or more accounts, or signature or other authority over 25 or more accounts.}}
+
+==History==
+
+===Bank Secrecy Act of 1970 (PL 91-508)===
+
+The authority that led the government to impose the requirement to file FBARs comes from the [[Bank Secrecy Act]] of 1970 (PL 91-508), specifically §241 ("Records and  reports required") under Chapter 4 ("Foreign Transactions") under Title II ("Report of Currency and Foreign Transactions").<ref name=bsa-1970/> This is now in the [[United States Code]] in 31 U.S.C. § 5314.<ref name-usc-31-5314/>
+
+===Amendment in 1982 (PL 97-258)===
+
+PL 97-258 modified 31 U.S.C. § 5314 slightly.<ref name=pl-97-258/><ref name=usc-31-5314/>
+
+===Era as TD-F 90-22.1===
+
+The FBAR form (TD-F 90-22.1) was referenced in a 1995 practical manual for state prosecutors on money laundering.<ref>{{cite web|url = https://www.ojp.gov/pdffiles1/Digitization/155129NCJRS.pdf|title = Money Laundering: A Practice Manual for State Prosecutors|date = May 1, 1995|accessdate = May 11, 2024|publisher = [[Office of Justice Programs]]}}</ref>
+
+In February 2011, the [[Internal Revenue Service]] introduced its Offshore Voluntary Disclosure Initiative (OVDI) to encourage taxpayers to become compliant with their foreign financial account reporting and tax obligations; in particular, this initiative included requiring the taxpayer who were required to file FBAR forms and had not filed to "come clean" and disclose their foreign financial accounts, with a one-time penalty of 25% of the maximum amount in their foreign financial account from 2003 to 2010.<ref>{{cite web|url = https://www.forbes.com/sites/robertwood/2011/02/09/irs-offshore-amnesty-second-last-chance/?sh=218aed3c4ef5|title = IRS Offshore Amnesty: Second (Last) Chance|date = February 9, 2011|accessdate = May 11, 2024|publisher = Forbes|last = Wood|first = Robert W.}}</ref>
+
+As part of the [[Hiring Incentives to Restore Employment Act]] of 2010 (PL 111-147), Section 6038D of the Internal Revenue Code was amended to pave the way for a new Form 8938 that is similar to the FBAR; whereas the FBAR only asks for a report of the amounts in foreign financial accounts, Form 8938 requires reporting on both the amounts and the income earned in those accounts (such as interest income).<ref>{{cite web|url = https://www.forbes.com/sites/robertwood/2011/11/22/get-ready-for-more-fbar-rules/|title = Get Ready For More FBAR Rules|date = November 22, 2011|accessdate = May 11, 2024|publisher = Forbes|last = Wood|first = Robert}}</ref>
+
+===Era as FinCEN Form 114===
+
+Starting with the reporting for calendar year 2013, the FBAR moved from being a paper-filed Department of Treasury form (TD-F 90-22.1) to an electronically filed [[Financial Crimes Enforcement Network]] (FinCEN) form (FinCEN Form 114) that uses the BSA e-filing system.<ref>{{cite web|url = https://www.thetaxadviser.com/issues/2014/apr/tpp-apr2014-story-03.html|title = Changes for Foreign Financial Account Reporting|last = Green|first = Mary Cathryn|last2 = Cynwyd|first2 = Bala|date = March 31, 2014|accessdate = May 11, 2024}}<ref>
+
+==Penalties and legal challenges==
+
+===Penalty assessment is done by the Internal Revenue Service (IRS) (though FBAR penalties are not part of taxes)===
+
+Although the FBAR (unlike the somewhat-overlapping Form 8938) is not filed with the [[Internal Revenue Service]] (IRS) and in particular is not part of a tax return, the IRS is the agency that assesses penalties for failure to file the FBAR.<ref>{{cite web|url = https://www.taxpayeradvocate.irs.gov/news/nta-blog/nta-blog-chapter-61-foreign-information-penalties-part-three/2023/05/|title = Foreign Information Penalties: Part Three: Keeping a Watchful Eye on the FBAR Guard Dog|publisher = Taxpayer Advocate Service|date = May 2, 2023|accessdate = May 11, 2024}}</ref><ref>{{cite web|url = https://www.irs.gov/businesses/small-businesses-self-employed/report-of-foreign-bank-and-financial-accounts-fbar|title = Report of Foreign Bank and Financial Accounts (FBAR)|accessdate = May 11, 2024}}</ref><ref>{{cite web|url = https://www.irs.gov/irm/part8/irm_08-011-006|title = Part 8. Appeals Chapter 11. Penalties Worked in Appeals Section 6. FBAR Penalties|accessdate = May 11, 2024}}</ref> The court ruling in ''Mendu v. United States'' states that even though this is a penalty collected by the IRS, it cannot be treated as unpaid taxes, and in particular, is not subject to the special rules that apply to tax payments.<ref>{{cite web|url = https://www.taxnotes.com/research/federal/court-documents/court-opinions-and-orders/claims-court-holds-fbar-penalties-are-not-internal-revenue-taxes/4m251|title = Claims Court Holds FBAR Penalties Are Not Internal Revenue Taxes|date = April 7, 2021|accessdate = May 11, 2024}}</ref>
+
+===Civil penalties===
 
 https://www.forbes.com/sites/robertwood/2012/06/04/fbar-penalties-when-will-irs-let-you-off-with-a-warning/
-
-https://www.forbes.com/sites/robertwood/2011/11/22/get-ready-for-more-fbar-rules/
 
 https://www.forbes.com/sites/robertwood/2011/07/06/irs-may-find-innocent-fbar-violation-willful/
 
 https://www.forbes.com/sites/robertwood/2011/06/14/should-you-file-fbar-for-the-first-time/?sh=510c351a67aa
 
-https://omb.report/search.php?terms=1545-2038 (versions of TD-F 90.22-1 dating back to 2006-09-12)
-
-https://www.ojp.gov/pdffiles1/Digitization/155129NCJRS.pdf (reference to TD-F 90.22-1 from 1995; the oldest reference I can find on the Internet)
 
 ==References==
 
