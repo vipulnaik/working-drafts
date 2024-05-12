@@ -7,17 +7,22 @@ The [[Bank Secrecy Act]] of 1970 (PL 91-508) created an overall framework of req
 {{blockquote|The Secretary of the Treasury, having due regard for the need to avoid impeding or controlling the export or import of currency or other monetary instruments and having due regard also for the need to avoid burdening unreasonably persons who legitimately engage in transactions with foreign financial agencies, shall by regulation require any resident or citizen of the United States, or person in the United States a n d doing business therein, who engages in any transac-tion or maintains any relationship, directly or indirectly, on behalf of himself or another, with a foreign financial agency to maintain records or t o file reports, or both, setting forth such of the following in-formation, in such form and in such detail, as the Secretary may require:
 
 (1) The identities and addresses of the parties to the transaction or relationship.
+
 (2) The legal capacities in which the parties to the transaction or relationship are acting, and the identities of the real parties in interest if one or more of the parties are not acting solely as principals. 
+
 (3) A description of the transaction or relationship including the amounts of money, credit, or other property involved.}}
 
 This was modified by PL 97-258 of 1982.<ref name=pl-97-258>{{cite web|url = https://www.govinfo.gov/content/pkg/STATUTE-96/pdf/STATUTE-96-Pg877.pdf|title = Public Law 97-258 -- Sept. 13, 1982|date = September 13, 1982|accessdate = May 11, 2024}}</ref> The modified version is in the [[United States Code]] in 31 U.S.C. § 5314.<ref name=usc-31-5314>{{cite web|url = https://www.law.cornell.edu/uscode/text/31/5314|title = 31 U.S. Code § 5314 - Records and reports on foreign financial agency transactions|accessdate = May 11, 2024}}</ref><ref name=federal-register-2011-fbar-update/> Part (a) says:
 
 {{blockquote|Considering the need to avoid impeding or controlling the export or import of monetary instruments and the need to avoid burdening unreasonably a person making a transaction with a foreign financial agency, the Secretary of the Treasury shall require a resident or citizen of the United States or a person in, and doing business in, the United States, to keep records, file reports, or keep records and file reports, when the resident, citizen, or person makes a transaction or maintains a relation for any person with a foreign financial agency. The records and reports shall contain the following information in the way and to the extent the Secretary prescribes:
 
-(1)the identity and address of participants in a transaction or relationship.
-(2)the legal capacity in which a participant is acting.
-(3)the identity of real parties in interest.
-(4)a description of the transaction.}}
+(1) The identity and address of participants in a transaction or relationship.
+
+(2) The legal capacity in which a participant is acting.
+
+(3) The identity of real parties in interest.
+
+(4) A description of the transaction.}}
 
 The associated regulatory guideline to require FBARs is found in the [[Code of Federal Regulations]] in 31 CFR § 1010.350 - Reports of foreign financial accounts.<ref name=cfr-31-1010-350>{{cite web|url = https://www.law.cornell.edu/cfr/text/31/1010.350|title = 31 CFR § 1010.350 - Reports of foreign financial accounts.|accessdate = May 11, 2024|publisher = Legal Information Institute}}</ref> Part (a) says:
 
@@ -57,13 +62,13 @@ According to the [[United States Code]] 31 U.S.C. § 5321(a)(5)(B)(i), the maxim
 
 The penalty amount is specified in the table in the [[Code of Federal Regulations]] 31 CFR § 1010.821, with the inflation-adjusted amount as of 2024 being $16,117.<ref name=cfr-31-1010-821>{{cite web|url = https://www.law.cornell.edu/cfr/text/31/1010.821|title = 31 CFR § 1010.821 - Penalty adjustment and table.|accessdate = May 11, 2024}}</ref><ref name=p5569>{{cite web|url = https://www.irs.gov/pub/irs-pdf/p5569.pdf|title = IRS Report of Foreign Bank & Financial Accounts (FBAR) Reference Guide|publisher = [[Internal Revenue Service]]|accessdate = May 11, 2024}}</ref>
 
-In ''Bittner v. United States'' (decided February 28, 2023) the United States Supreme Court ruled that this limit applied per report, rather than per account; since one report needs to be filed per year, this implies a maximum penalty of $10,000 (with inflation adjustment) for every year that the taxpayer had a non-willfull FBAR violation (either a failure to file or a material error, such as missing some accounts or reporting incorrect amounts within the accounts).<ref name=tas-fbar-penalties/><ref>{{cite web|url = https://taxschool.illinois.edu/post/fbar-failure-to-file-penalty-bittner-v-u-s/|title = FBAR Failure to File Penalty: Bittner v. U.S.|date = January 29, 2024|accessdate = May 11, 2024}}</ref>
+In ''Bittner v. United States'' (decided February 28, 2023) the United States Supreme Court ruled that this limit applied per report, rather than per account; since one report needs to be filed per year, this implies a maximum penalty of $10,000 (with inflation adjustment) for every year that the taxpayer had a non-willful FBAR violation (either a failure to file or a material error, such as missing some accounts or reporting incorrect amounts within the accounts).<ref name=tas-fbar-penalties/><ref>{{cite web|url = https://taxschool.illinois.edu/post/fbar-failure-to-file-penalty-bittner-v-u-s/|title = FBAR Failure to File Penalty: Bittner v. U.S.|date = January 29, 2024|accessdate = May 11, 2024}}</ref>
 
 ===Civil penalties for willful violations (maximum being the larger of $100,000 inflation-adjusted and 50% of the afffected amount)===
 
 According to the [[United States Code]] 31 U.S.C. § 5321(a)(5), the maximum civil penalty for a willful FBAR violation is the greater of $100,000 and 50% of the amount in the account, adjusted for inflation.<ref name=usc-31-5321/> As of 2024, the inflation-adjusted amount is $161,166 as specified in the table in the [[Code of Federal Regulations]] 31 CFR § 1010.821, also referenced in IRS Publication 5569.<ref name=cfr-31-1010-821/><ref name=p5569/>
 
-Taxpayer advocates have argued that the maximum penalties for willful violations are excessive, and that they should be reduced.<ref name=tas-fbar-penalties/> Further, there has been criticism of the method the IRS uses to determine if a violation is willful; for instance, a failure to file FBAR could be considered willful even if the taxpayer was not aware of the filing requirement.<ref>{{cite web|url = https://www.forbes.com/sites/robertwood/2011/07/06/irs-may-find-innocent-fbar-violation-willful/|title = IRS May Find "Innocent" FBAR Violation Willful|date = July 6, 2011|accessdate = May 11, 2024|publisher = Forbes|last = Wood|first = Robert W.}}</ref><ref name=modify-willful/> The standard used for establishing willfulness for civil penalties is the [[burden of evidence (proof)#preponderance of the evidence|preponderance of the evidence]] standard.<ref name=golding-fbar-criminal-penalties>{{cite web|url = https://www.goldinglawyers.com/fbar-criminal-penalties-2018-basics-of-a-civil-vs-criminal-fbar-penalty/|title = FBAR Criminal Penalties|accessdate = May 11, 2024}}</ref>
+Taxpayer advocates have argued that the maximum penalties for willful violations are excessive, and that they should be reduced.<ref name=tas-fbar-penalties/> Further, there has been criticism of the method the IRS uses to determine if a violation is willful; for instance, a failure to file FBAR could be considered willful even if the taxpayer was not aware of the filing requirement.<ref>{{cite web|url = https://www.forbes.com/sites/robertwood/2011/07/06/irs-may-find-innocent-fbar-violation-willful/|title = IRS May Find "Innocent" FBAR Violation Willful|date = July 6, 2011|accessdate = May 11, 2024|publisher = Forbes|last = Wood|first = Robert W.}}</ref><ref name=modify-willful/> The standard used for establishing willfulness for civil penalties is the [[burden of proof (evidence)#preponderance of the evidence|preponderance of the evidence]] standard.<ref name=golding-fbar-criminal-penalties>{{cite web|url = https://www.goldinglawyers.com/fbar-criminal-penalties-2018-basics-of-a-civil-vs-criminal-fbar-penalty/|title = FBAR Criminal Penalties|accessdate = May 11, 2024}}</ref>
 
 ===Criminal penalties===
 
