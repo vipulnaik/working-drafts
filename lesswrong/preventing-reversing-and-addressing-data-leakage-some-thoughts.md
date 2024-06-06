@@ -539,6 +539,10 @@ guidance:
   GitHub. For more general background on removing sensitive data, see
   the [GitHub doc on the
   subject](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository).
+  Note that GitHub support does not get automatic access to private
+  repositories when processing a support request; see
+  [here](https://docs.github.com/en/support/learning-about-github-support/about-github-support#granting-github-support-temporary-access-to-a-private-repository)
+  for details.
 
   If any collaborator ran a `git fetch` or `git pull` between the time
   you originally pushed and the time you force-pushed, they'll also
