@@ -1,0 +1,90 @@
+'''Form 8938''' is an [[Internal Revenue Service]] form that needs to be included by some [[United States]] persons ([[natural person]]s such as [[citizenship in the United States|citizens]], [[green card|permanent residents]], and [[Substantial Presence Test|residents for tax purposes]], and institutions such as a corporations, partnerships, limited liability companies, trusts and estates) as part of their annual federal income tax return; couples filing jointly submit a single Form 8938 as part of their joint tax return. The criterion is that the filer must have "an interest in specified foreign financial assets and the value of those assets is more than the applicable reporting threshold."<ref name=i8938>{{cite web|url = https://www.irs.gov/instructions/i8938|title =  Instructions for Form 8938 (11/2021)|accessdate = June 16, 2024|publisher = Internal Revenue Service}}</ref>
+
+==Legal basis==
+
+===Update to IRS Section 6038D as part of the HIRE Act (2010)===
+
+Section 511 of the [[Hiring Incentives to Restore Employment Act]] of 2010 (PL 111-147) enacted Section 6038D of the Internal Revenue Code was amended to pave the way for Form 8938.<ref name=forbes-form-8938>{{cite web|url = https://www.forbes.com/sites/robertwood/2011/11/22/get-ready-for-more-fbar-rules/|title = Get Ready For More FBAR Rules|date = November 22, 2011|accessdate = May 11, 2024|work = Forbes|last = Wood|first = Robert}}</ref><ref name=federal-register-irs-proposed-regulation>{{cite web|url = https://www.federalregister.gov/documents/2011/12/19/2011-32263/reporting-of-specified-foreign-financial-assets|title = Reporting of Specified Foreign Financial Assets|date = December 19, 2011|accessdate = June 16, 2024|publisher = Federal Register}}</ref> Section 6038D of the Internal Revenue Code gives details on how specified foreign financial assets are defined, sets a penalty of $10,000 for noncompliance, and gives a dollar threshold of $50,000 while allowing the Secretary to set higher thresholds; however, it does not specify the form name or number itself:<ref name=irc-6038d>{{cite web|url = https://www.law.cornell.edu/uscode/text/26/6038D|title = 26 U.S. Code § 6038D - Information with respect to foreign financial assets|accessdate = June 16, 2024|publisher = Legal Information Institute}}</ref>
+
+{{blockquote|(a)In general
+Any individual who, during any taxable year, holds any interest in a specified foreign financial asset shall attach to such person’s return of tax imposed by subtitle A for such taxable year the information described in subsection (c) with respect to each such asset if the aggregate value of all such assets exceeds $50,000 (or such higher dollar amount as the Secretary may prescribe).
+
+(b)Specified foreign financial assets
+For purposes of this section, the term “specified foreign financial asset” means—
+(1)any financial account (as defined in section 1471(d)(2)) maintained by a foreign financial institution (as defined in section 1471(d)(4)), and
+(2)any of the following assets which are not held in an account maintained by a financial institution (as defined in section 1471(d)(5))—
+(A)any stock or security issued by a person other than a United States person,
+(B)any financial instrument or contract held for investment that has an issuer or counterparty which is other than a United States person, and
+(C)any interest in a foreign entity (as defined in section 1473).
+(c)Required information
+The information described in this subsection with respect to any asset is:
+(1)In the case of any account, the name and address of the financial institution in which such account is maintained and the number of such account.
+(2)In the case of any stock or security, the name and address of the issuer and such information as is necessary to identify the class or issue of which such stock or security is a part.
+(3)In the case of any other instrument, contract, or interest—
+(A)such information as is necessary to identify such instrument, contract, or interest, and
+(B)the names and addresses of all issuers and counterparties with respect to such instrument, contract, or interest.
+(4)The maximum value of the asset during the taxable year.
+(d)Penalty for failure to disclose
+(1)In general
+If any individual fails to furnish the information described in subsection (c) with respect to any taxable year at the time and in the manner described in subsection (a), such person shall pay a penalty of $10,000.
+
+(2)Increase in penalty where failure continues after notification
+If any failure described in paragraph (1) continues for more than 90 days after the day on which the Secretary mails notice of such failure to the individual, such individual shall pay a penalty (in addition to the penalties under paragraph (1)) of $10,000 for each 30-day period (or fraction thereof) during which such failure continues after the expiration of such 90-day period. The penalty imposed under this paragraph with respect to any failure shall not exceed $50,000.
+
+(e)Presumption that value of specified foreign financial assets exceeds dollar threshold
+If—
+(1)the Secretary determines that an individual has an interest in one or more specified foreign financial assets, and
+(2)such individual does not provide sufficient information to demonstrate the aggregate value of such assets,
+then the aggregate value of such assets shall be treated as being in excess of $50,000 (or such higher dollar amount as the Secretary prescribes for purposes of subsection (a)) for purposes of assessing the penalties imposed under this section.
+(f)Application to certain entities
+To the extent provided by the Secretary in regulations or other guidance, the provisions of this section shall apply to any domestic entity which is formed or availed of for purposes of holding, directly or indirectly, specified foreign financial assets, in the same manner as if such entity were an individual.
+
+(g)Reasonable cause exception
+No penalty shall be imposed by this section on any failure which is shown to be due to reasonable cause and not due to willful neglect. The fact that a foreign jurisdiction would impose a civil or criminal penalty on the taxpayer (or any other person) for disclosing the required information is not reasonable cause.
+
+(h)Regulations
+The Secretary shall prescribe such regulations or other guidance as may be necessary or appropriate to carry out the purposes of this section, including regulations or other guidance which provide appropriate exceptions from the application of this section in the case of—
+(1)classes of assets identified by the Secretary, including any assets with respect to which the Secretary determines that disclosure under this section would be duplicative of other disclosures,
+(2)nonresident aliens, and
+(3)bona fide residents of any possession of the United States.}}
+
+===Proposed regulaions from the IRS (December 2011)===
+
+On December 19, 2011, the IRS submitted proposed regulations in the ''[[Federal Register]]'' for implementing the updates in Section 6038D.<ref name=federal-register-irs-proposed-regulation/> The proposed regulations introduced Form 8938 as the form that tax filers needed to submit in order to comply with the reporting requirements of the Act. Further, it relaxed the reporting threshold from $50,000 in a few ways:
+
+* Instead of a blanket threshold of $50,000, the threshold was considered to be met if either of these conditions were satisfied: $50,000 at the end of the taxable year or $75,000 at any time during the taxable year.
+* Married couples filing jointly have a doubled threshold to reflect that two individuals are filing together: $100,000 at the end of the taxable year or $150,000 at any time during the taxable year.
+* Taxpayers living outside the threshold have thresholds that are 4 times the thresholds for others:
+  * Individuals: $200,000 at the end of the taxable year or $300,000 at any time during the taxable year
+  * Maried couples filing jointly: $400,000 at the end of the taxable year or $600,000 at any time during the taxable year
+
+The IRS also had a provision that those who did not otherwise need to ''file'' a US tax return did not need to file the tax return just to include Form 8938.
+
+Corrections to the proposed regulation were published in February 2012.<ref name=federal-register-irs-proposed-regulation-corrections>{{cite web|url = https://www.federalregister.gov/citation/77-FR-9845|title = Reporting of Specified Foreign Financial Assets; Correction|accessdate = June 16, 2024|publisher = [[Federal Register]]}}</ref><ref name=federal-register-final-rule><ref name=federal-register-irs-final-rule>{{cite web|url = https://www.federalregister.gov/documents/2014/12/12/2014-29125/reporting-of-specified-foreign-financial-assets|title = Reporting of Specified Foreign Financial Assets|publisher = [[Federal Register]]|date = December 12, 2014|accessdate = June 16, 2024}}</ref>
+
+===Final regulation from the IRS (December 2014)===
+
+The corresponding final regulation would be published in the ''[[Federal Register]]'' on December 12, 2014, and included responses to feedback received.<ref name=federal-register-irs-final-rule/>
+
+====Responses to feedback on individuals required to report====
+
+The final rule included responses to feedback on individuals required to report:
+
+* Dual resident taxpayers: The IRS agred with the feedback and concluded that taxpayers filing as nonresidents, using 1040NR (or equivalent) along with Form 8833 would not have to file Form 8938.
+* Individuals residing on non-immigrant visas: The IRS rejected the feedback; people on non-immigrant visas who were residents for tax purposes (i.e., they satisfied the [[Substantial Presence Test]]) would still be required to submit Form 8938 if they satisfied the reporting thresholds. The IRS determined that the Substantial Presence Test served the goal of excluding people on short stays, and that a separate exclusion for people on longer-term non-immigrant visas was not warranted.
+* Persons that do not owe US taxes for the taxable year: The IRS rejected the feedback requesting that people who did not owe any US taxes for the taxable year be exempted from including Form 8938. However, as in the proposed regulation, the IRS continued to maintain the provision that those who did not otherwise need to ''file'' a US tax return did not need to file the tax return just to include Form 8938.
+
+====Responses to feedback on applicable reporting thresholds====
+
+The final rule included responses to feedback on applicable reporting thresholds:
+
+* Assets received in connection with the performance of personal services: The IRS rejected the feedback that assets received in connection with the performance of personal services should be excluded, due to the difficulty of valuing these assets. However, the IRS did point out that nonvested interests were anyway not included.
+* Employees seconded to the United States: The IRS rejected feedback seeing higher reporting thresholds for employees seconded to the United States, for the same reason that it rejected feedback seeking exemption for individuals residing on non-immigrant visas.
+* Non-citizen US residents who do not qualify for Section 911 benefits: The IRS rejected feedback "requesting that higher reporting thresholds apply in the case of a non-citizen resident of the United States who would qualify for benefits under section 911(d)(1)(A) if he or she were a U.S. citizen." This was mainly due to the administrability challenge.
+
+====Responses to feedback on interest in a specified foreign financial asset====
+
+(to be continued)
+
+
+
