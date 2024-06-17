@@ -58,7 +58,7 @@ On December 19, 2011, the IRS submitted proposed regulations in the ''[[Federal 
 ** Individuals: $200,000 at the end of the taxable year or $300,000 at any time during the taxable year
 ** Maried couples filing jointly: $400,000 at the end of the taxable year or $600,000 at any time during the taxable year
 
-The IRS also had a provision that those who did not otherwise need to ''file'' a US tax return did not need to file the tax return just to include Form 8938.
+The IRS also had a provision that those who did not otherwise need to ''file'' a US tax return did not need to file the tax return just to include Form 8938. The provision still required those with a filing obligation (even if they had zero tax) to include Form 8938.
 
 Corrections to the proposed regulation were published in February 2012.<ref name=federal-register-irs-proposed-regulation-corrections>{{cite web|url = https://www.federalregister.gov/citation/77-FR-9845|title = Reporting of Specified Foreign Financial Assets; Correction|accessdate = June 16, 2024|publisher = [[Federal Register]]}}</ref><ref name=federal-register-final-rule><ref name=federal-register-irs-final-rule>{{cite web|url = https://www.federalregister.gov/documents/2014/12/12/2014-29125/reporting-of-specified-foreign-financial-assets|title = Reporting of Specified Foreign Financial Assets|publisher = [[Federal Register]]|date = December 12, 2014|accessdate = June 16, 2024}}</ref>
 
