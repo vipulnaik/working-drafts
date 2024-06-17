@@ -53,10 +53,10 @@ The Secretary shall prescribe such regulations or other guidance as may be neces
 On December 19, 2011, the IRS submitted proposed regulations in the ''[[Federal Register]]'' for implementing the updates in Section 6038D.<ref name=federal-register-irs-proposed-regulation/> The proposed regulations introduced Form 8938 as the form that tax filers needed to submit in order to comply with the reporting requirements of the Act. Further, it relaxed the reporting threshold from $50,000 in a few ways:
 
 * Instead of a blanket threshold of $50,000, the threshold was considered to be met if either of these conditions were satisfied: $50,000 at the end of the taxable year or $75,000 at any time during the taxable year.
-* Married couples filing jointly have a doubled threshold to reflect that two individuals are filing together: $100,000 at the end of the taxable year or $150,000 at any time during the taxable year.
+* Married couples filing jointly got a doubled threshold to reflect that two individuals are filing together: $100,000 at the end of the taxable year or $150,000 at any time during the taxable year.
 * Taxpayers living outside the threshold have thresholds that are 4 times the thresholds for others:
-  * Individuals: $200,000 at the end of the taxable year or $300,000 at any time during the taxable year
-  * Maried couples filing jointly: $400,000 at the end of the taxable year or $600,000 at any time during the taxable year
+** Individuals: $200,000 at the end of the taxable year or $300,000 at any time during the taxable year
+** Maried couples filing jointly: $400,000 at the end of the taxable year or $600,000 at any time during the taxable year
 
 The IRS also had a provision that those who did not otherwise need to ''file'' a US tax return did not need to file the tax return just to include Form 8938.
 
