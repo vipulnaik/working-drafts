@@ -60,7 +60,7 @@ On December 19, 2011, the IRS submitted proposed regulations in the ''[[Federal 
 
 The IRS also had a provision that those who did not otherwise need to ''file'' a US tax return did not need to file the tax return just to include Form 8938. The provision still required those with a filing obligation (even if they had zero tax) to include Form 8938.
 
-Corrections to the proposed regulation were published in February 2012.<ref name=federal-register-irs-proposed-regulation-corrections>{{cite web|url = https://www.federalregister.gov/citation/77-FR-9845|title = Reporting of Specified Foreign Financial Assets; Correction|accessdate = June 16, 2024|publisher = [[Federal Register]]}}</ref><ref name=federal-register-final-rule><ref name=federal-register-irs-final-rule>{{cite web|url = https://www.federalregister.gov/documents/2014/12/12/2014-29125/reporting-of-specified-foreign-financial-assets|title = Reporting of Specified Foreign Financial Assets|publisher = [[Federal Register]]|date = December 12, 2014|accessdate = June 16, 2024}}</ref>
+Corrections to the proposed regulation were published in February 2012.<ref name=federal-register-irs-proposed-regulation-corrections>{{cite web|url = https://www.federalregister.gov/citation/77-FR-9845|title = Reporting of Specified Foreign Financial Assets; Correction|accessdate = June 16, 2024|publisher = [[Federal Register]]}}</ref><ref name=federal-register-irs-final-rule>{{cite web|url = https://www.federalregister.gov/documents/2014/12/12/2014-29125/reporting-of-specified-foreign-financial-assets|title = Reporting of Specified Foreign Financial Assets|publisher = [[Federal Register]]|date = December 12, 2014|accessdate = June 16, 2024}}</ref>
 
 ===Final regulation from the IRS (December 2014)===
 
@@ -70,7 +70,7 @@ The corresponding final regulation would be published in the ''[[Federal Registe
 
 The final rule included responses to feedback on individuals required to report:
 
-* Dual resident taxpayers: The IRS agred with the feedback and concluded that taxpayers filing as nonresidents, using 1040NR (or equivalent) along with Form 8833 would not have to file Form 8938.
+* Dual resident taxpayers: The IRS agreed with the feedback and concluded that taxpayers filing as nonresidents, using 1040NR (or equivalent) along with Form 8833 would not have to file Form 8938.
 * Individuals residing on non-immigrant visas: The IRS rejected the feedback; people on non-immigrant visas who were residents for tax purposes (i.e., they satisfied the [[Substantial Presence Test]]) would still be required to submit Form 8938 if they satisfied the reporting thresholds. The IRS determined that the Substantial Presence Test served the goal of excluding people on short stays, and that a separate exclusion for people on longer-term non-immigrant visas was not warranted.
 * Persons that do not owe US taxes for the taxable year: The IRS rejected the feedback requesting that people who did not owe any US taxes for the taxable year be exempted from including Form 8938. However, as in the proposed regulation, the IRS continued to maintain the provision that those who did not otherwise need to ''file'' a US tax return did not need to file the tax return just to include Form 8938.
 
@@ -84,7 +84,17 @@ The final rule included responses to feedback on applicable reporting thresholds
 
 ====Responses to feedback on interest in a specified foreign financial asset====
 
-(to be continued)
+The IRS final rule included clarifications in response to requests for clarification on these topics:
 
+* Nonvested property under Section 83: The IRS clarified that a person is considered to have an interest only after either vesting or an 83(b) election.
+* Assets held by a disregarded entity: The IRS clarified that foreign financial assets held by a disregarded entity were still considered reportable on Form 8938.
+* Jointly owned assets: The IRS clarified that each joint owner for assets owned jointly needed to include the full value of the asset for reporting; however, for married couples who own an account jointly and are filing their return jointly, they just need to include the account once in their Form 8938.
 
+====Comments on the overlap with the FBAR (FinCEN Form 114)====
+
+The IRS final rule adopted the position that Form 8938 still needed to be filled with all reportable accounts even if they were being reported on the FBAR ([[FinCEN Form 114]]). The rationale was that the two forms were in service of different goals, and that therefore even if some information was duplicated, it was not exactly identical between the forms. It also quoted from the HIRE Act (that provided the legal authority for Form 8938) as saying "[n]othing in this provision [section 511 of the HIRE Act enacting new section 6038D] is intended as a substitute for compliance with the FBAR reporting requirements, which are unchanged by this provision."
+
+====Other responses and clarifications===
+
+The IRS final rule included clarifications and responses to comments regarding various kinds of "other specified foreign financial assets", clarified the information required to be reported, and provided valuation guidelines, including addressing fair market value, currency conversion, and hard-to-value assets. it also responded to suggestions to relieve filers of Form 8938 reporting requirements if they were filing specific other forms that covered the reportable accounts; in most cases, the IRS rejected these proposals.
 
