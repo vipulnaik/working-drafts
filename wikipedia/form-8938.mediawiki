@@ -2,9 +2,9 @@
 
 ==Legal basis==
 
-===Introduction of IRC Section 6038D as part of the HIRE Act (2010)===
+===Introduction of IRC Section 6038D as part of the HIRE Act (March 18, 2010)===
 
-Section 511 of the [[Hiring Incentives to Restore Employment Act]] of 2010 (PL 111-147) enacted Section 6038D of the [[Internal Revenue Code]]; this created the authority that would lead to the IRS introducing Form 8938.<ref name=forbes-form-8938>{{cite web|url = https://www.forbes.com/sites/robertwood/2011/11/22/get-ready-for-more-fbar-rules/|title = Get Ready For More FBAR Rules|date = November 22, 2011|accessdate = May 11, 2024|work = Forbes|last = Wood|first = Robert}}</ref><ref name=federal-register-irs-proposed-regulation>{{cite web|url = https://www.federalregister.gov/documents/2011/12/19/2011-32263/reporting-of-specified-foreign-financial-assets|title = Reporting of Specified Foreign Financial Assets|date = December 19, 2011|accessdate = June 16, 2024|publisher = Federal Register}}</ref> Section 6038D of the Internal Revenue Code gives details on how specified foreign financial assets are defined, sets a penalty of $10,000 for noncompliance, and gives a dollar threshold of $50,000 while allowing the Secretary to set higher thresholds; however, it does not specify the form number.<ref name=irc-6038d>{{cite web|url = https://www.law.cornell.edu/uscode/text/26/6038D|title = 26 U.S. Code § 6038D - Information with respect to foreign financial assets|accessdate = June 16, 2024|publisher = Legal Information Institute}}</ref>
+Section 511 of the [[Hiring Incentives to Restore Employment Act]] (HIRE Act) of 2010 (PL 111-147, signed into law March 18, 2010) enacted Section 6038D of the [[Internal Revenue Code]]; this created the authority that would lead to the IRS introducing Form 8938.<ref name=forbes-form-8938>{{cite web|url = https://www.forbes.com/sites/robertwood/2011/11/22/get-ready-for-more-fbar-rules/|title = Get Ready For More FBAR Rules|date = November 22, 2011|accessdate = May 11, 2024|work = Forbes|last = Wood|first = Robert}}</ref><ref name=federal-register-irs-proposed-regulation>{{cite web|url = https://www.federalregister.gov/documents/2011/12/19/2011-32263/reporting-of-specified-foreign-financial-assets|title = Reporting of Specified Foreign Financial Assets|date = December 19, 2011|accessdate = June 16, 2024|publisher = Federal Register}}</ref> Section 6038D of the Internal Revenue Code gives details on how specified foreign financial assets are defined, sets a penalty of $10,000 for noncompliance, and gives a dollar threshold of $50,000 while allowing the Secretary to set higher thresholds; however, it does not specify the form number.<ref name=irc-6038d>{{cite web|url = https://www.law.cornell.edu/uscode/text/26/6038D|title = 26 U.S. Code § 6038D - Information with respect to foreign financial assets|accessdate = June 16, 2024|publisher = Legal Information Institute}}</ref>
 
 {{blockquote|(a)In general
 Any individual who, during any taxable year, holds any interest in a specified foreign financial asset shall attach to such person’s return of tax imposed by subtitle A for such taxable year the information described in subsection (c) with respect to each such asset if the aggregate value of all such assets exceeds $50,000 (or such higher dollar amount as the Secretary may prescribe).
@@ -48,7 +48,19 @@ The Secretary shall prescribe such regulations or other guidance as may be neces
 (2)nonresident aliens, and
 (3)bona fide residents of any possession of the United States.}}
 
-===Proposed regulaions from the IRS (December 2011)===
+===Comment request by the IRS for Form 8938 (November 2010)===
+
+On November 1, 2010, a comment request for Form 8938 by the IRS was published in the ''[[Federal Register]]''. In the comment request, the IRS estimated that the form would be applicable to 350,000 respondents per year and take each respondent an estimated 1 hour 5 mintues, for a total of 378,000 hours per year. The IRS sought comments, with a deadline of January 3, 2011, on: "(a) Whether the collection of information is necessary for the proper performance of the functions of the agency, including whether the information shall have practical utility; (b) the accuracy of the agency's estimate of the burden of the collection of information; (c) ways to enhance the quality, utility, and clarity of the information to be collected; (d) ways to minimize the burden of the collection of information on respondents, including through the use of automated collection techniques or other forms of information technology; and (e) estimates of capital or start-up costs and costs of operation, maintenance, and purchase of services to provide information."<ref>{{cite web|url = https://www.federalregister.gov/documents/2010/11/01/2010-27477/proposed-collection-comment-request-for-form-8938|title = Proposed Collection; Comment Request for Form 8938|date = November 1, 2010|accessdate = June 17, 2024|publisher = Federal Register}}</ref>
+
+===Suspension by the IRS of reporting requirements until the release of Form 8938 (June 2011)===
+
+On June 21, 2011, the IRS published a notice (Notice 2011-55; 2011-29 I.R.B. 53) announcing that it planned to introduce Form 8938 "Statement of Specified Foreign Financial Assets" for taxpayers to use to comply with the reporting requirements introduced by the HIRE Act, and also suspending the reporting requirement until the form had been released for use; instead. The Form 8938 for the suspended taxable year(s) (all taxable years starting after March 18, 2010, the date of passage of the HIRE Act) would need to be attached with the next tax return after the form's availability. This suspension of the reporting requirement was clarified as having no effect on the requirement to file FBAR, then known as TD-F 90-22.1 "Report of Foreign Bank and Financial Accounts" (the form would subsequently migrate to [[FinCEN Form 114]]).<ref>{{cite web|url = https://www.taxnotes.com/research/federal/irs-guidance/notices/irs-suspends-information-reporting-requirements-foreign-financial-assets-some-pfic-interests/1fts9|title = IRS Suspends Information Reporting Requirements For Foreign Financial Assets, Some PFIC Interests.|date = June 21, 2011|accessdate = June 17, 2024|publisher = Tax Notes}}</ref>
+
+===Release of a draft Form 8938 (September 2011, with updates in draft form till November 5, 2011)===
+
+The IRS released a draft version of Form 8938 on September 2011,<ref name=forbes-form-8938/> with the last update to this draft December 13, 2011.<ref>{{cite web|url = https://www.irs.gov/pub/irs-dft/f8938--dft.pdf|title = DRAFT Form 8938: Statement of Specified Foreign Financial Assets|date = December 13, 2011|accessdate = June 17, 2024|publisher = Internal Revenue Service}}</ref><ref>{{cite web|url = https://www.irs.gov/pub/irs-dft/i8938--dft.pdf|title = DRAFT Instructions for Form 8938|date = November 5, 2021|accessdate = June 17, 2024|publisher = Internal Revenue Service}}</ref>
+
+===Proposed regulations from the IRS (December 2011)===
 
 On December 19, 2011, the IRS submitted proposed regulations in the ''[[Federal Register]]'' for implementing the updates in Section 6038D.<ref name=federal-register-irs-proposed-regulation/> The proposed regulations introduced Form 8938 as the form that tax filers needed to submit in order to comply with the reporting requirements of the Act. Further, it relaxed the reporting threshold from $50,000 in a few ways:
 
@@ -62,9 +74,13 @@ The IRS also had a provision that those who did not otherwise need to ''file'' a
 
 Corrections to the proposed regulation were published in February 2012.<ref name=federal-register-irs-proposed-regulation-corrections>{{cite web|url = https://www.federalregister.gov/citation/77-FR-9845|title = Reporting of Specified Foreign Financial Assets; Correction|accessdate = June 16, 2024|publisher = [[Federal Register]]}}</ref><ref name=federal-register-irs-final-rule>{{cite web|url = https://www.federalregister.gov/documents/2014/12/12/2014-29125/reporting-of-specified-foreign-financial-assets|title = Reporting of Specified Foreign Financial Assets|publisher = [[Federal Register]]|date = December 12, 2014|accessdate = June 16, 2024}}</ref>
 
+===Active use as a tax form starting with the 2011 tax year===
+
+Form 8938 became generally available as a tax form in January 2012, for use for those filing taxes in the 2011 calendar year; this meant that those filing taxes using the calendar year would have to include Form 8938 from the first year it was in use (so Notice 2011-55 didn't really change anything for them); however, Notice 2011-55 would still be relevant for those whose taxable year didn't align with the calendar year.<ref>{{cite web|url = https://web.archive.org/web/20120130225735/https://www.irs.gov/pub/irs-pdf/f8938.pdf|title = Form 8938: Statement of Specified Foreign Financial Assets|date = January 30, 2012|accessdate = June 17, 2024|publisher = Internal Revenue Service}}</ref><ref name=forbes-form-8938-2012>{{cite web|url = https://www.forbes.com/sites/robertwood/2012/04/04/irs-form-8938-or-fbar/|title = IRS Form 8938 Or FBAR?|last = Wood|first = Robert W.|date = April 4, 2012|accessdate = June 17, 2024|publisher = Forbes}}</ref>
+
 ===Final regulation from the IRS (December 2014)===
 
-The corresponding final regulation would be published in the ''[[Federal Register]]'' on December 12, 2014, and included responses to feedback received.<ref name=federal-register-irs-final-rule/>
+The corresponding final regulation to the proposed regulation originally published December 2011 would be published in the ''[[Federal Register]]'' on December 12, 2014, and included responses to feedback received; by this time, Form 8938 had already been available for use for the tax years of 2011 to 2013.<ref name=federal-register-irs-final-rule/>
 
 ====Responses to feedback on individuals required to report====
 
@@ -98,3 +114,10 @@ The IRS final rule adopted the position that Form 8938 still needed to be filled
 
 The IRS final rule included clarifications and responses to comments regarding various kinds of "other specified foreign financial assets", clarified the information required to be reported, and provided valuation guidelines, including addressing fair market value, currency conversion, and hard-to-value assets. it also responded to suggestions to relieve filers of Form 8938 reporting requirements if they were filing specific other forms that covered the reportable accounts; in most cases, the IRS rejected these proposals.
 
+===Updated final regulation from the IRS clarifying a few points (February 2016)===
+
+On February 23, 2016, the IRS issued a final regulation providing clarifications in response to some comments on its final rule of December 2014. These clarifications were primarily focused on stuff around the definition and applicable rules for domestic entities.<ref>{{cite web|url = https://www.federalregister.gov/documents/2016/02/23/2016-03795/reporting-of-specified-foreign-financial-assets|title = Reporting of Specified Foreign Financial Assets|date = February 23, 2016|accessdate = June 17, 2024|publisher = Federal Register}}</ref>
+
+==References==
+
+{{reflist|30em}}
