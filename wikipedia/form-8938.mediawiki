@@ -66,7 +66,7 @@ On December 19, 2011, the IRS submitted proposed regulations in the ''[[Federal 
 
 * Instead of a blanket threshold of $50,000, the threshold was considered to be met if either of these conditions were satisfied: $50,000 at the end of the taxable year or $75,000 at any time during the taxable year.
 * Married couples filing jointly got a doubled threshold to reflect that two individuals are filing together: $100,000 at the end of the taxable year or $150,000 at any time during the taxable year.
-* Taxpayers living outside the threshold have thresholds that are 4 times the thresholds for others:
+* Taxpayers living outside the United States have thresholds that are 4 times the thresholds for others:
 ** Individuals: $200,000 at the end of the taxable year or $300,000 at any time during the taxable year
 ** Maried couples filing jointly: $400,000 at the end of the taxable year or $600,000 at any time during the taxable year
 
