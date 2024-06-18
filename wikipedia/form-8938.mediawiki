@@ -110,7 +110,7 @@ The IRS final rule included clarifications in response to requests for clarifica
 
 The IRS final rule adopted the position that Form 8938 still needed to be filled with all reportable accounts even if they were being reported on the FBAR ([[FinCEN Form 114]]). The rationale was that the two forms were in service of different goals, and that therefore even if some information was duplicated, it was not exactly identical between the forms. It also quoted from the HIRE Act (that provided the legal authority for Form 8938) as saying "[n]othing in this provision [section 511 of the HIRE Act enacting new section 6038D] is intended as a substitute for compliance with the FBAR reporting requirements, which are unchanged by this provision."
 
-====Other responses and clarifications===
+====Other responses and clarifications====
 
 The IRS final rule included clarifications and responses to comments regarding various kinds of "other specified foreign financial assets", clarified the information required to be reported, and provided valuation guidelines, including addressing fair market value, currency conversion, and hard-to-value assets. it also responded to suggestions to relieve filers of Form 8938 reporting requirements if they were filing specific other forms that covered the reportable accounts; in most cases, the IRS rejected these proposals.
 
