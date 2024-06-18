@@ -1,6 +1,6 @@
 '''Form 8938''' is an [[Internal Revenue Service]] form that needs to be included by some [[United States]] persons ([[natural person]]s such as [[citizenship in the United States|citizens]], [[green card|permanent residents]], and [[Substantial Presence Test|residents for tax purposes]], and institutions such as a corporations, partnerships, limited liability companies, trusts and estates) as part of their annual federal income tax return; couples filing jointly submit a single Form 8938 as part of their joint tax return. The criterion is that the filer must have "an interest in specified foreign financial assets and the value of those assets is more than the applicable reporting threshold."<ref name=i8938>{{cite web|url = https://www.irs.gov/instructions/i8938|title =  Instructions for Form 8938 (11/2021)|accessdate = June 16, 2024|publisher = Internal Revenue Service}}</ref>
 
-==Legal basis==
+==History==
 
 ===Introduction of IRC Section 6038D as part of the FATCA portion of the HIRE Act (March 18, 2010)===
 
