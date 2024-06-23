@@ -1,10 +1,10 @@
 '''Form 8938''' is an [[Internal Revenue Service]] form that needs to be included by some [[United States]] persons ([[natural person]]s such as [[citizenship in the United States|citizens]], [[green card|permanent residents]], and [[Substantial Presence Test|residents for tax purposes]], and institutions such as a corporations, partnerships, limited liability companies, trusts and estates) as part of their annual federal income tax return; couples filing jointly submit a single Form 8938 as part of their joint tax return. The criterion is that the filer must have "an interest in specified foreign financial assets and the value of those assets is more than the applicable reporting threshold."<ref name=i8938>{{cite web|url = https://www.irs.gov/instructions/i8938|title =  Instructions for Form 8938 (11/2021)|accessdate = June 16, 2024|publisher = Internal Revenue Service}}</ref>
 
-==History==
+==Legal basis==
 
-===Introduction of IRC Section 6038D as part of the FATCA portion of the HIRE Act (March 18, 2010)===
+===Legislative basis: IRC Section 6038D===
 
-Section 511 of the [[Hiring Incentives to Restore Employment Act]] (HIRE Act) of 2010 (PL 111-147, signed into law March 18, 2010) enacted Section 6038D of the [[Internal Revenue Code]]; this created the authority that would lead to the IRS introducing Form 8938.<ref>{{cite web|url = https://www.govinfo.gov/content/pkg/PLAW-111publ147/pdf/PLAW-111publ147.pdf|title = Public Law 111–147—Mar. 18, 2010|date = March 18, 2010|accessdate = June 17, 2024}}</ref><ref name=forbes-form-8938>{{cite web|url = https://www.forbes.com/sites/robertwood/2011/11/22/get-ready-for-more-fbar-rules/|title = Get Ready For More FBAR Rules|date = November 22, 2011|accessdate = May 11, 2024|work = Forbes|last = Wood|first = Robert}}</ref><ref name=federal-register-irs-proposed-regulation>{{cite web|url = https://www.federalregister.gov/documents/2011/12/19/2011-32263/reporting-of-specified-foreign-financial-assets|title = Reporting of Specified Foreign Financial Assets|date = December 19, 2011|accessdate = June 16, 2024|publisher = Federal Register}}</ref> Specifically, Section 511 is part of Title V ("Offset Provisions") of the HIRE Act, which is called the [[Foreign Account Tax Compliance Act]] (FATCA), Part II ("Under Reporting with respect to Foreign Assets"). The overall goal of FATCA is to address issues of underpayment of taxes on the earnings on foreign financial assets (such as interest and dividend income) in the hope of increased tax revenue that could fund the other provisions of the HIRE Act. Other parts of FATCA would impose reporting requirements on foreign financial institutions about their account holders who are United States persons.
+The legislative basis for Form 8938 is from the [[Internal Revenue Code]] Section 6038D. This section was added as part of the [[Hiring Incentives to Restore Employment Act]] (HIRE Act) of 2010 (PL 111-147, signed into law March 18, 2010);<ref name=hire-act-text/> see the [[#History]] section for more.
 
 Section 6038D of the Internal Revenue Code gives details on how specified foreign financial assets are defined, sets a penalty of $10,000 for noncompliance, and gives a dollar threshold of $50,000 while allowing the Secretary to set higher thresholds; however, it does not specify the form number.<ref name=irc-6038d>{{cite web|url = https://www.law.cornell.edu/uscode/text/26/6038D|title = 26 U.S. Code § 6038D - Information with respect to foreign financial assets|accessdate = June 16, 2024|publisher = Legal Information Institute}}</ref>
 
@@ -50,6 +50,17 @@ The Secretary shall prescribe such regulations or other guidance as may be neces
 (2)nonresident aliens, and
 (3)bona fide residents of any possession of the United States.}}
 
+===Regulatory basis in the Code of Federal Regulations===
+
+The regulations governing Form 8938 are in 26 CFR § 1.6038D-2 - Requirement to report specified foreign financial assets. These were added by the IRS through a proposed regulation in November 2011<ref name=federal-register-irs-proposed-regulation/> leading to a final rule published in December 2014.<ref name=federal-register-irs-final-rule/>
+
+==History==
+
+===Introduction of IRC Section 6038D as part of the FATCA portion of the HIRE Act (March 18, 2010)===
+
+Section 511 of the [[Hiring Incentives to Restore Employment Act]] (HIRE Act) of 2010 (PL 111-147, signed into law March 18, 2010) enacted Section 6038D of the [[Internal Revenue Code]]; this created the authority that would lead to the IRS introducing Form 8938.<ref name=hire-act-text>{{cite web|url = https://www.govinfo.gov/content/pkg/PLAW-111publ147/pdf/PLAW-111publ147.pdf|title = Public Law 111–147—Mar. 18, 2010|date = March 18, 2010|accessdate = June 17, 2024}}</ref><ref name=forbes-form-8938>{{cite web|url = https://www.forbes.com/sites/robertwood/2011/11/22/get-ready-for-more-fbar-rules/|title = Get Ready For More FBAR Rules|date = November 22, 2011|accessdate = May 11, 2024|work = Forbes|last = Wood|first = Robert}}</ref><ref name=federal-register-irs-proposed-regulation>{{cite web|url = https://www.federalregister.gov/documents/2011/12/19/2011-32263/reporting-of-specified-foreign-financial-assets|title = Reporting of Specified Foreign Financial Assets|date = December 19, 2011|accessdate = June 16, 2024|publisher = Federal Register}}</ref> Specifically, Section 511 is part of Title V ("Offset Provisions") of the HIRE Act, which is called the [[Foreign Account Tax Compliance Act]] (FATCA), Part II ("Under Reporting with respect to Foreign Assets"). The overall goal of FATCA is to address issues of underpayment of taxes on the earnings on foreign financial assets (such as interest and dividend income) in the hope of increased tax revenue that could fund the other provisions of the HIRE Act. Other parts of FATCA would impose reporting requirements on foreign financial institutions about their account holders who are United States persons.
+
+
 ====Distinction in purpose with the FBAR (introduced as part of the Bank Secrecy Act of 1970)====
 
 JCX-4-10, Technical Explanation Of The Revenue Provisions Contained In Senate Amendment 3310, The "Hiring Incentives To Restore Employment Act," Under Consideration By The Senate, published February 23, 2010, contains a technical explanation of the revenue provisions. Among other things, this technical explanation describes the differences in purpose from the FBAR (then TD-F 90-22.1, now [[FinCEN Form 114]]) which also requires reporting on foreign financial accounts. The two forms differ in their reporting thresholds, the way that foreign financial accounts are defined, and purpose. FBAR was part of the [[Bank Secrecy Act]], with the goal of obtaining self-reporting of information with a high degree of usefulness in criminal, tax, or regulatory investigations and proceedings. FATCA and Form 8938, in contrast, are focused on increasing tax compliance for money earned in foreign financial accounts.<ref name=jcx-4-10>{{cite web|url = https://www.jct.gov/publications/2010/jcx-4-10/|title = Technical Explanation Of The Revenue Provisions Contained In Senate Amendment 3310, The "Hiring Incentives To Restore Employment Act," Under Consideration By The Senate|date = February 23, 2010|accessdate = June 17, 2024|publisher = The Joint Committee on Taxation: Congress of United States}}</ref>
@@ -89,6 +100,8 @@ Corrections to the proposed regulation were published in February 2012.<ref name
 ===Active use as a tax form starting with the 2011 tax year===
 
 Form 8938 became generally available as a tax form in January 2012, for use for those filing taxes in the 2011 calendar year; this meant that those filing taxes using the calendar year would have to include Form 8938 from the first year it was in use (so Notice 2011-55 didn't really change anything for them); however, Notice 2011-55 would still be relevant for those whose taxable year didn't align with the calendar year.<ref>{{cite web|url = https://web.archive.org/web/20120130225735/https://www.irs.gov/pub/irs-pdf/f8938.pdf|title = Form 8938: Statement of Specified Foreign Financial Assets|date = January 30, 2012|accessdate = June 17, 2024|publisher = Internal Revenue Service}}</ref><ref name=forbes-form-8938-2012>{{cite web|url = https://www.forbes.com/sites/robertwood/2012/04/04/irs-form-8938-or-fbar/|title = IRS Form 8938 Or FBAR?|last = Wood|first = Robert W.|date = April 4, 2012|accessdate = June 17, 2024|publisher = Forbes}}</ref>
+
+Form 1040 Schedule B for 2011 mentioned Form 8938 for the first time, though not on the main data entry page but rather as a TIP in the instructions for Part III. Part III included questions asking about the FBAR. The left margin for Part III did say "(See instructions on back.)" pointing users to the instructions directly from the form, but did not directly mention Form 8938.<ref name=f1040sb--2011>{{cite web|url = https://www.irs.gov/pub/irs-prior/f1040sb--2011.pdf|title = Form 1040 Schedule B: Interest and Ordinary Dividends (2011)|publisher = Internal Revenue Service|accessdate = June 23, 2024}}</ref>
 
 ===Final regulation from the IRS (December 2014)===
 
@@ -130,6 +143,15 @@ The IRS final rule included clarifications and responses to comments regarding v
 
 On February 23, 2016, the IRS issued a final regulation providing clarifications in response to some comments on its final rule of December 2014. These clarifications were primarily focused on stuff around the definition and applicable rules for domestic entities.<ref>{{cite web|url = https://www.federalregister.gov/documents/2016/02/23/2016-03795/reporting-of-specified-foreign-financial-assets|title = Reporting of Specified Foreign Financial Assets|date = February 23, 2016|accessdate = June 17, 2024|publisher = Federal Register}}</ref>
 
+===Explicit mention in the main page of Form 1040 Schedule B starting tax year 2022===
+
+Tax year 2022 was the first time that Form 1040 Schedule B explicitly mentioned Form 8938 in the main form (rather than only in the instructions); however, this reference was still only in the left margin and not in the form of any question or checkbox that the filer needed to directly interact with.<ref>{{cite web|url = https://www.irs.gov/pub/irs-prior/f1040sb--2022.pdf|title = Form 1040 Schedule B: Interest and Ordinary Dividends (2022)|publisher = Internal Revenue Service|accessdate = June 23, 2024}}</ref>
+
+==Taxpayer awareness and education efforts==
+
+===Mention in Form 1040 Schedule B===
+
+The IRS started mentioning Form 8938 in the instructions for Form 1040 Schedule B starting in 2011<ref name=
 ==References==
 
 {{reflist|30em}}
