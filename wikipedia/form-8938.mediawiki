@@ -145,13 +145,14 @@ On February 23, 2016, the IRS issued a final regulation providing clarifications
 
 ===Explicit mention in the main page of Form 1040 Schedule B starting tax year 2022===
 
-Tax year 2022 was the first time that Form 1040 Schedule B explicitly mentioned Form 8938 in the main form (rather than only in the instructions); however, this reference was still only in the left margin and not in the form of any question or checkbox that the filer needed to directly interact with.<ref>{{cite web|url = https://www.irs.gov/pub/irs-prior/f1040sb--2022.pdf|title = Form 1040 Schedule B: Interest and Ordinary Dividends (2022)|publisher = Internal Revenue Service|accessdate = June 23, 2024}}</ref>
+Tax year 2022 was the first time that Form 1040 Schedule B explicitly mentioned Form 8938 in the main form (rather than only in the instructions); however, this reference was still only in the left margin and not in the form of any question or checkbox that the filer needed to directly interact with.<ref name=f1040sb--2022>{{cite web|url = https://www.irs.gov/pub/irs-prior/f1040sb--2022.pdf|title = Form 1040 Schedule B: Interest and Ordinary Dividends (2022)|publisher = Internal Revenue Service|accessdate = June 23, 2024}}</ref>
 
 ==Taxpayer awareness and education efforts==
 
 ===Mention in Form 1040 Schedule B===
 
-The IRS started mentioning Form 8938 in the instructions for Form 1040 Schedule B starting in 2011<ref name=
+The IRS started mentioning Form 8938 in the instructions for Form 1040 Schedule B starting with tax year 2011<ref name=f1040sb--2011/> and added it in the margin of the form itself starting with tax year 2022.<ref name=f1040sb--2022/>
+
 ==References==
 
 {{reflist|30em}}
