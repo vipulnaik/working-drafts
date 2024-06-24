@@ -175,7 +175,7 @@ The penalty is specified as an exact amount ($10,000) without adjustment for inf
 
 In case of failure to comply with reporting requirements for Form 8938 within 90 days receiving a notice from the IRS to do so, an additional $10,000 penalty can be charged by the IRS for every 30-day period (or fraction thereof) after the elapsing of the 90 days, up to a total of $50,000.<ref name=cfr-26-1-6038d-8/>
 
-The case law in ''Bittner v. United States'' for the FBAR (FinCEN Form 114) established that there could be a maximum of one violation per reporting period for the FBAR; while there is no case law for Form 8938, a similar principle applies in practice to Form 8938.{{citation needed}}
+The case law in ''Bittner v. United States'' for the FBAR (FinCEN Form 114) established that there could be a maximum of one violation per reporting period for the FBAR;<ref>{{cite web|url = https://taxschool.illinois.edu/post/fbar-failure-to-file-penalty-bittner-v-u-s/|title = FBAR Failure to File Penalty: Bittner v. U.S.|date = January 29, 2024|accessdate = May 11, 2024}}</ref> while there is no case law for Form 8938, a similar principle applies in practice to Form 8938.{{citation needed}}
 
 ===Criminal penalties===
 
