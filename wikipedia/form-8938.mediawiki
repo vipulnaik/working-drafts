@@ -52,7 +52,7 @@ The Secretary shall prescribe such regulations or other guidance as may be neces
 
 ===Regulatory basis in the Code of Federal Regulations===
 
-The regulations governing Form 8938 are in 26 CFR § 1.6038D-2 - Requirement to report specified foreign financial assets. These were added by the IRS through a proposed regulation in November 2011<ref name=federal-register-irs-proposed-regulation/> leading to a final rule published in December 2014.<ref name=federal-register-irs-final-rule/>
+The regulations governing Form 8938 are in 26 CFR § 1.6038D-2 - Requirement to report specified foreign financial assets; other parts of 26 CFR § 1.6038D also cover related information.<ref>{{cite web|url = https://www.law.cornell.edu/cfr/text/26/1.6038D-2|title = 26 CFR § 1.6038D-2 - Requirement to report specified foreign financial assets.|accessdate = June 23, 2024|publisher = Legal Information Institute}}</ref> These were added by the IRS through a proposed regulation in November 2011<ref name=federal-register-irs-proposed-regulation/> leading to a final rule published in December 2014.<ref name=federal-register-irs-final-rule/>
 
 ==History==
 
@@ -152,6 +152,32 @@ Tax year 2022 was the first time that Form 1040 Schedule B explicitly mentioned 
 ===Mention in Form 1040 Schedule B===
 
 The IRS started mentioning Form 8938 in the instructions for Form 1040 Schedule B starting with tax year 2011<ref name=f1040sb--2011/> and added it in the margin of the form itself starting with tax year 2022.<ref name=f1040sb--2022/>
+
+===Tax prep software===
+
+Form 8938 is ''not'' supported by the IRS Free File option, an option for software-guided tax preparation and submission available to taxpayers making below a threshold amount each year.<ref>{{cite web|url = https://www.irs.gov/filing/free-file-most-commonly-filed-federal-forms-are-available|title = Free File Software - Most Commonly Filed Federal Forms are Available|accessdate = June 23, 2024|publisher = Internal Revenue Service}}</ref> However, it is supported as part of Free File Fillable Forms (an alternative that is available to all taxpayers, but one that offers very little guidance beyond doing basic math); the support has been present since at least as far back as the 2020 tax year.<ref>{{cite web|url = https://web.archive.org/web/20210916123228/https://www.irs.gov/e-file-providers/free-file-fillable-forms-program-limitations-and-available-forms|title = Free File Fillable Forms: Program Limitations and Available Forms|date = September 16, 2021|accessdate = June 23, 2024|publisher = Internal Revenue Service}}</ref>
+
+TurboTax supports Form 8938; it includes a question asking about foreign financial assets and, depending on the answer, applies the filing thresholds to determine if Form 8938 needs to be filed.<ref>{{cite web|url = https://ttlc.intuit.com/turbotax-support/en-us/help-article/tax-forms/file-form-8938-statement-specified-foreign-assets/L3OaimNxB_US_en_US|title = How do I file Form 8938, Statement of Specified Foreign Financial Assets?|accessdate = June 23, 2024|publisher = TurboTax}}</ref> H&R Block also supports filing Form 8938.<ref>{{cite web|url = https://www.hrblock.com/expat-tax-preparation/resource-center/forms/irs-form-8938-what-it-is-and-who-needs-to-file/|title = Get help with Form 8938 instructions from the experts at H&R Block|date = October 25, 2022|accessdate = June 23, 2024}}</ref>
+
+==Filing deadline and penalties==
+
+===Filing deadline===
+
+Form 8938 needs to be filed as part of the federal tax return, so it is subject to the same filing deadline. A timely filed extension request for the federal tax return automatically grants an extension for filing Form 8938 as well.
+
+===Civil penalties ($10,000, up to $50,000 for failure to comply after receiving a notice from the IRS)===
+
+The penalty for failure to file Form 8938 as part of the federal tax return (or failure to disclose all assets as part of the filing) is $10,000 for every affected tax return, as specified by statute in IRC Section 6038D<ref name=irc-6038d/>. The regulations enforcing the penalty are described in the [[Code of Federal Regulations]] at 26 CFR § 1.6038D-8 - Penalties for failure to disclose.<ref name=cfr-6038d-8>{{cite web|url = https://www.law.cornell.edu/cfr/text/26/1.6038D-8|title = 26 CFR § 1.6038D-8 - Penalties for failure to disclose.|accessdate = June 23, 2024|publisher = Legal Information Institute}}</ref>
+
+The penalty is specified as an exact amount without adjustment for inflation, so that it stays at $10,000 unless amended by statute.<ref name=irc-6038d/> This is in contrast with the FBAR, that also had a penalty of $10,000 for FBAR violations including failure to file or errors in filing, but allowed the penalty to be adjusted by inflation.<ref name=usc-31-5321>{{cite web|url = https://www.law.cornell.edu/uscode/text/31/5321|title = 31 U.S. Code § 5321 - Civil penalties|accessdate = May 11, 2024}}</ref><ref name=cfr-31-1010-821>{{cite web|url = https://www.law.cornell.edu/cfr/text/31/1010.821|title = 31 CFR § 1010.821 - Penalty adjustment and table.|accessdate = May 11, 2024}}</ref><ref name=p5569>{{cite web|url = https://www.irs.gov/pub/irs-pdf/p5569.pdf|title = IRS Report of Foreign Bank & Financial Accounts (FBAR) Reference Guide|publisher = [[Internal Revenue Service]]|accessdate = May 11, 2024}}</ref>
+
+In case of failure to comply with reporting requirements for Form 8938 within 90 days receiving a notice from the IRS to do so, an additional $10,000 penalty can be charged by the IRS for every 30-day period (or fraction thereof) after the elapsing of the 90 days, up to a total of $50,000.<ref name=cfr-6038d-8/>
+
+The case law in ''Bittner v. United States'' for the FBAR (FinCEN Form 114) established that there could be a maximum of one violation per reporting period for the FBAR; while there is no case law for Form 8938, a similar principle applies in practice to Form 8938.{{citation needed}}
+
+===Criminal penalties===
+
+Criminal penalties may be charged over and above the civil penalties for failure to file Form 8938.<ref name=cfr-6038d-8/>
 
 ==References==
 
