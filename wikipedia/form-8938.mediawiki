@@ -120,7 +120,7 @@ The final rule included responses to feedback on individuals required to report:
 The final rule included responses to feedback on applicable reporting thresholds:
 
 * Assets received in connection with the performance of personal services: The IRS rejected the feedback that assets received in connection with the performance of personal services should be excluded, due to the difficulty of valuing these assets. However, the IRS did point out that nonvested interests were anyway not included.
-* Employees seconded to the United States: The IRS rejected feedback seeing higher reporting thresholds for employees seconded to the United States, for the same reason that it rejected feedback seeking exemption for individuals residing on non-immigrant visas.
+* Employees seconded to the United States: The IRS rejected feedback seeking higher reporting thresholds for employees seconded to the United States, for the same reason that it rejected feedback seeking exemption for individuals residing on non-immigrant visas.
 * Non-citizen US residents who do not qualify for Section 911 benefits: The IRS rejected feedback "requesting that higher reporting thresholds apply in the case of a non-citizen resident of the United States who would qualify for benefits under section 911(d)(1)(A) if he or she were a U.S. citizen." This was mainly due to the administrability challenge.
 
 ====Responses to feedback on interest in a specified foreign financial asset====
