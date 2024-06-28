@@ -138,7 +138,7 @@ The IRS final rule included clarifications in response to requests for clarifica
 
 ====Comments on the overlap with the FBAR (FinCEN Form 114)====
 
-The IRS final rule adopted the position that Form 8938 still needed to be filled with all reportable accounts even if they were being reported on the FBAR ([[FinCEN Form 114]]). The rationale was that the two forms were in service of different goals, and that therefore even if some information was duplicated, it was not exactly identical between the forms. It also quoted from a technical explanation for the HIRE Act (that provided the legal authority for Form 8938) as saying "[n]othing in this provision [section 511 of the HIRE Act enacting new section 6038D] is intended as a substitute for compliance with the FBAR reporting requirements, which are unchanged by this provision."<ref name=jcx-4-10/>
+The IRS final rule adopted the position that Form 8938 still needed to be filled with all reportable accounts even if they were being reported on the FBAR ([[FinCEN Form 114]]). The rationale was that the two forms were in service of different goals, and that therefore even if some information was duplicated, it was not exactly identical between the forms. It also quoted from a technical explanation for the HIRE Act (that provided the legal authority for Form 8938): "[n]othing in this provision [section 511 of the HIRE Act enacting new section 6038D] is intended as a substitute for compliance with the FBAR reporting requirements, which are unchanged by this provision."<ref name=jcx-4-10/>
 
 ====Other responses and clarifications====
 
