@@ -8,7 +8,8 @@ The legislative basis for Form 8938 is from the [[Internal Revenue Code]] Sectio
 
 Section 6038D of the Internal Revenue Code gives details on how specified foreign financial assets are defined, sets a penalty of $10,000 for noncompliance, and gives a dollar threshold of $50,000 while allowing the Secretary to set higher thresholds; however, it does not specify the form number.<ref name=irc-6038d>{{cite web|url = https://www.law.cornell.edu/uscode/text/26/6038D|title = 26 U.S. Code § 6038D - Information with respect to foreign financial assets|accessdate = June 16, 2024|publisher = Legal Information Institute}}</ref>
 
-{{blockquote|(a)In general
+{{blockquote|
+(a)In general
 Any individual who, during any taxable year, holds any interest in a specified foreign financial asset shall attach to such person’s return of tax imposed by subtitle A for such taxable year the information described in subsection (c) with respect to each such asset if the aggregate value of all such assets exceeds $50,000 (or such higher dollar amount as the Secretary may prescribe).
 
 (b)Specified foreign financial assets
@@ -18,6 +19,7 @@ For purposes of this section, the term “specified foreign financial asset” m
 (A)any stock or security issued by a person other than a United States person,
 (B)any financial instrument or contract held for investment that has an issuer or counterparty which is other than a United States person, and
 (C)any interest in a foreign entity (as defined in section 1473).
+
 (c)Required information
 The information described in this subsection with respect to any asset is:
 (1)In the case of any account, the name and address of the financial institution in which such account is maintained and the number of such account.
@@ -26,6 +28,7 @@ The information described in this subsection with respect to any asset is:
 (A)such information as is necessary to identify such instrument, contract, or interest, and
 (B)the names and addresses of all issuers and counterparties with respect to such instrument, contract, or interest.
 (4)The maximum value of the asset during the taxable year.
+
 (d)Penalty for failure to disclose
 (1)In general
 If any individual fails to furnish the information described in subsection (c) with respect to any taxable year at the time and in the manner described in subsection (a), such person shall pay a penalty of $10,000.
@@ -38,6 +41,7 @@ If—
 (1)the Secretary determines that an individual has an interest in one or more specified foreign financial assets, and
 (2)such individual does not provide sufficient information to demonstrate the aggregate value of such assets,
 then the aggregate value of such assets shall be treated as being in excess of $50,000 (or such higher dollar amount as the Secretary prescribes for purposes of subsection (a)) for purposes of assessing the penalties imposed under this section.
+
 (f)Application to certain entities
 To the extent provided by the Secretary in regulations or other guidance, the provisions of this section shall apply to any domestic entity which is formed or availed of for purposes of holding, directly or indirectly, specified foreign financial assets, in the same manner as if such entity were an individual.
 
