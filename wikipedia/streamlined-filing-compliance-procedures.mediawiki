@@ -1,4 +1,4 @@
-The '''streamlined filing compliance procedures''' (called the ''streamlined procedures''' for short when the context is clear) is a set of procedures offered by the IRS to help United States taxpayers get back in compliance on the fronts of paying taxes related to their foreign financial assets as well as submitting all required information returns, after having fallen out of compliance in one or more previous tax years.<ref name=irs-sfcp>{{cite web|url = https://www.irs.gov/individuals/international-taxpayers/streamlined-filing-compliance-procedures|title = Streamlined Filing Compliance Procedures|publisher = Internal Revenue Service|accessdate = June 29, 2024}}</ref>
+The '''streamlined filing compliance procedures''' (called the ''streamlined procedures''' for short when the context is clear) is a set of procedures offered by the [[Internal Revenue Service]] in the [[United States]] to help United States taxpayers get back in compliance on the fronts of paying taxes related to their foreign financial assets as well as submitting all required information returns, after having fallen out of compliance in one or more previous tax years.<ref name=irs-sfcp>{{cite web|url = https://www.irs.gov/individuals/international-taxpayers/streamlined-filing-compliance-procedures|title = Streamlined Filing Compliance Procedures|publisher = Internal Revenue Service|accessdate = June 29, 2024}}</ref>
 
 ==Filing process==
 
@@ -15,12 +15,18 @@ The Streamlined Foreign Offshore Procedures and the Streamlined Domestic Offshor
 
 ===Filing details===
 
-The IRS documentation on both the foreign and domestic cases of the streamlined procedures include instructions on the filing process. At a high level:<ref name=irs-sfop/><ref name=irs-sdop/>
+The IRS documentation on both the foreign and domestic cases of the streamlined procedures include instructions on the filing process. A summary is below:<ref name=irs-sfop/><ref name=irs-sdop/>
 
 * For filing delinquent FBARs, the taxpayer needs to submit it online on the FinCEN website, with "Streamlined Filing Compliance Procedures" in the explanation box for the reason for filing late.
-* The rest of the stuff being filied needs to be included in a single packet sent to an IRS address with an Attn note saying "Streamlined Foreign Offshore" or "Streamlined Domestic Offshore" respectively. This packet must include:
-** Amended tax returns for each of the applicable years (up to the past 3 years) including all required information returns (such as Forms 3520, 5471, and 8938) "even if these information returns would normally not be submitted with the Form 1040 had the taxpayer filed a complete and accurate original return." Delinquent original returns are *not* allowed ''with a note in red on the first page of each amended return'' saying "Streamlined Foreign Offshore" or "Streamlined Domestic Offshore" as the case may be.
-**
+* The rest of the stuff being filed needs to be included in a single packet sent to an IRS address (specified on the website) with an Attn note saying "Streamlined Foreign Offshore" or "Streamlined Domestic Offshore" respectively. This packet must include:
+** Amended tax returns for each of the applicable years (up to the past 3 years) including all required information returns (such as Forms 3520, 5471, and 8938) "even if these information returns would normally not be submitted with the Form 1040 had the taxpayer filed a complete and accurate original return." Delinquent original returns are ''not'' allowed. '''The first page of each amended tax return and each information return included must have at its top a note in red''' saying "Streamlined Foreign Offshore" or "Streamlined Domestic Offshore" as the case may be. The instructions call this '''critical''' to making sure the returns are processed through the special procedures.
+** Filled and signed Form 14653 (for the foreign case) or Form 14654 (for the domestic case), both an original version '''and''' copies included with each amended tax return. The filled form includes a summary of the amounts involved by year; in the case of Form 14654, this is also where the 5% miscellaneous offshort penalty is calculated. This form is also where the taxpayer certifies that the failures were not willful, and where the taxpayer can include more explanation.
+** Payment of the amout due, for instance, in the form of a check. If the payment amount is not correct, the IRS will issue a refund or notice of balance due.
+
+===After achieving compliance===
+
+Once the streamlined filing has been submitted, the taxpayer must continue filing taxes for future years normally.<ref name=irs-sfcp/>
+
 ==Effect on taxes, interest, and penalties==
 
 ===Streamlined filing does not reduce taxes or interest on taxes===
