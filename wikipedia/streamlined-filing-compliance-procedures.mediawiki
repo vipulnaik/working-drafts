@@ -1,0 +1,11 @@
+The '''streamlined filing compliance procedures''' (called the ''streamlined procedures''' for short when the context is clear) is a set of procedures offered by the IRS to help United States taxpayers get back in compliance on the fronts of paying taxes related to their foreign financial assets as well as submitting all required information returns, after having fallen out of compliance in one or more previous tax years.<ref name=irs-sfcp>{{cite web|url = https://www.irs.gov/individuals/international-taxpayers/streamlined-filing-compliance-procedures|title = Streamlined Filing Compliance Procedures|publisher = Internal Revenue Service|accessdate = June 29, 2024}}</ref>
+
+==Effect on penalties==
+
+===Streamlined filing does not reduce taxes or interest on taxes===
+
+Even with a streamlined filing, any taxes that were due are still owed by the taxpayer. Moreover, if the taxes are past the filing deadline for taxes, interest on these taxes is also due.
+
+==References==
+
+{{reflist|30em}}
