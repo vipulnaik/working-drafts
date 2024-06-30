@@ -27,7 +27,7 @@ The IRS documentation on both the foreign and domestic cases of the streamlined 
 
 ===After achieving compliance===
 
-Once the streamlined filing has been submitted, the taxpayer must continue filing taxes for future years normally.<ref name=irs-sfcp/>
+Once the streamlined filing has been submitted, the taxpayer must continue filing taxes for future years normally and including any required information returns and paying all required taxes.<ref name=irs-sfcp/>
 
 ==Effect other ongoing or past tax processes may have on streamlined filing==
 
@@ -37,7 +37,7 @@ According to the IRS webpage: "If the IRS has initiated a civil examination of t
 
 ===Streamlined filing does not absolve taxpayers of previous penalty assessments===
 
-Taxpayers who have previously engaged in "quiet disclosure", such as amending returns or filing delinquent returns to include information on assets and income, may still use streamlined. However, previous penalties that ''have already been assessed'' are not waived by streamlined filing.<ref name=irs-sfcp/>
+Taxpayers who have previously engaged in "quiet disclosure", such as amending returns or filing delinquent returns to include information on assets and income, may still use streamlined procedures. However, previous penalties that ''have already been assessed'' are not waived by streamlined filing.<ref name=irs-sfcp/>
 
 ===Relationship with the Offshore Voluntary Disclosure Program (OVDP)===
 
