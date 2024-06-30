@@ -1,5 +1,7 @@
 The '''streamlined filing compliance procedures''' (called the ''streamlined procedures'' for short when the context is clear) is a set of procedures offered by the [[Internal Revenue Service]] in the [[United States]] to help United States taxpayers get back in compliance on the fronts of paying taxes related to their foreign financial assets as well as submitting all required information returns, after having fallen out of compliance in one or more previous tax years.<ref name=irs-sfcp>{{cite web|url = https://www.irs.gov/individuals/international-taxpayers/streamlined-filing-compliance-procedures|title = Streamlined Filing Compliance Procedures|publisher = Internal Revenue Service|accessdate = June 29, 2024}}</ref>
 
+The process used by the IRS to examine submissions under the streamlined filing compliance procedures is described in the ''[[Internal Revenue Manual]]'', IRM Section 4.63.3 Offshore Voluntary Disclosure Program, Streamlined Filing Compliance Procedures and Voluntary Disclosure Practice.<ref name=irm-4-63-3>{{cite web|url = https://www.irs.gov/irm/part4/irm_04-063-003r|title = 4.63.3 Offshore Voluntary Disclosure Program, Streamlined Filing Compliance Procedures and Voluntary Disclosure Practice|accessdate = June 29, 2024|publisher = Internal Revenue Service}}</ref>
+
 ==Filing process==
 
 ===Foreign versus domestic cases===
@@ -76,9 +78,44 @@ For each year, the total value of foreign financial assets subject to the penalt
 
 ==History==
 
-===Offshore Voluntary Disclosure Program (OVDP)===
+===Offshore Voluntary Compliance Initiative (OVCI) of 2003===
 
-===Introduction of streamlined filing compliance procedures (July 1, 2014)===
+The IRS has a long history of running compliance initiatives, encouraging taxpayers to disclose past intentional and unintentional tax non-compliance in order to avoid heavy civil penalties and the risk of criminal prosecution.
+
+In 2003, the IRS ran an initiative called the Offshore Voluntary Compliance Initiative (OVCI).<ref name=irs-ovci>{{cite web|url = https://www.irs.gov/pub/irs-drop/rp-03-11.pdf|title = CASE MIS Number: RP-167725-02. Part III - Administrative, Procedural, and Miscellaneous: Offshore Voluntary Compliance Initiative|publisher = Internal Revenue Service|accessdate = June 29, 2024}}</ref><ref name=forbes-ovdp>{{cite web|url = https://www.forbes.com/sites/irswatch/2011/02/09/deja-vu-yet-another-irs-fbar-voluntary-disclosure-initiative/|title = Déjà vu--Yet Another IRS FBAR Voluntary Disclosure Initiative|last = Rettig|first = Charles|publisher = Forbes|date = February 9, 2011|accessdate = June 29, 2024}}</ref> The program's goal is to encourage taxpayers who have used offshore payment cards and similar financial arrangements to avoid taxes to come clean; taxpayers using OVCI were required to file taxes for the years of 1999 to 2001, with the option of filing taxes for 1996 to 1998 as well and a promise that previous years would not be audited.<ref name=irs-ovci/><ref name-forbes-ovdp/> Around the same time, the IRS ran the Offshore Credit Card Program (OCCP), an enforcement initiative targeted at addressing the same kind of tax avoidance (the use of offshore payment cards).<ref>{{cite web|url = https://www.irs.gov/pub/irs-news/ir-03-95.pdf|title = Offshore Compliance Program Shows Strong Results|publisher = Internal Revenue Service|date = July 30, 2003|accessdate = June 29, 2024}}</ref> Around 1,321 people participated in OVCI.<ref name=forbes-ovdp/>
+
+===Offshore Voluntary Disclosure Program (OVDP) (2009-2018)===
+
+The IRS had had four iterations of the Offshore Voluntary Disclosure Program (OVDP): 2009, 2011, 2012, 2014; these focused on paying taxes on income from foreign assets as well as filing FBARs. Unlike the streamlined filing compliance procedures, that is limited to non-willful violations, OVDP covered willful violations as well.<ref name=irm-4-63-3/>
+
+The 2009 OVDP was a one-off program (for a single year) that lasted until October 15, 2009. This iteration required the payment of back taxes for the period of 2003 to 2008, and in return provided civil penalty relief and the certainty of no criminal prosecution. It also imposed a 20% penalty on the maximum account value across the period of 2003 to 2008 of unreported accounts for FBAR, with the possibility of reduction to 5% in some cases.<ref name=irs-2009-ovdp>{{cite web|url = https://www.irs.gov/newsroom/2009-offshore-voluntary-disclosure-program|title = 2009 Offshore Voluntary Disclosure Program|publisher = Internal Revenue Service|accessdate = June 29, 2024}}</ref><ref name=forbes-ovdp/>
+
+The 2011 OVDP was also a one-off program that lasted until September 9, 2011. it was similar to the 2009 OVDP with a few changes: the range of years increased to 2003 to 2010 (versus 2003 to 2008 for the 2009 OVDP) and the penalty percentage increased to 25%, with the possibility to reduce it to 5%. The penalty percentage could be reduced to 5% for taxpayers who were unaware of being U.S. citizens, or for taxpayers satisfying a set of conditions such as infrequent use of the account, payment of taxes for all funds deposited into the account, and more.<ref name=irs-2011-ovdp>{{cite web|url = https://www.irs.gov/newsroom/2011-offshore-voluntary-disclosure-initiative|title = 2011 Offshore Voluntary Disclosure Initiative|publisher = Internal Revenue Service|accessdate = June 29, 2024}}</ref><ref name=forbes-ovdp/>
+
+The 2012 OVDP was an open-ended program (not limited to a single year).<ref name=irs-2012-ovdp>{{cite web|url = https://www.irs.gov/newsroom/2012-offshore-voluntary-disclosure-program|title = 2012 Offshore Voluntary Disclosure Program|publisher = Internal Revenue Service|accesssdate = June 23, 2024}}</ref>
+
+The 2012 OVDP was modified in 2014 (modification announced June 18, 2014, effective July 1, 2014). The modification was accompanied by an expansion of the streamlined filing compliance procedures to cover a wider range of non-willful violations. The modification of the OVDP reduced its scope to "help focus this program on people seeking certainty and relief from criminal prosecution."<ref name=irs-2014-ovdp-modification>{{cite web|url = https://www.irs.gov/newsroom/irs-makes-changes-to-offshore-programs-revisions-ease-burden-and-help-more-taxpayers-come-into-compliance|title = IRS Makes Changes to Offshore Programs; Revisions Ease Burden and Help More Taxpayers Come into Compliance|publisher = Internal Revenue Service|accessdate = June 29, 2024}}</ref><ref name=irs-2014-ovdp-sfcp-changes-statement>{{cite web|url = https://www.irs.gov/newsroom/statement-of-irs-commissioner-john-koskinen|title = Statement of IRS Commissioner John Koskinen|last = Koskinen|first = John|publisher = Internal Revenue Service|accessdate = June 29, 2024}}</ref>
+
+The OVDP was eventually closed, with September 28, 2018 being the last day to apply for the OVDP. Explaining the closure of the program, the IRS said: "While the program has been successful in the past, there has been a significant decline in the number of taxpayers participating as well as an increase in awareness of offshore tax and reporting obligations. The IRS has previously stated publicly that the 2014 OVDP would close at some time. Taxpayers have had the opportunity to participate in OVDP since 2009."<ref name=irs-ovdp-closure>{{cie web|url = https://www.irs.gov/individuals/international-taxpayers/closing-the-2014-offshore-voluntary-disclosure-program-frequently-asked-questions-and-answers|title = Closing the 2014 Offshore Voluntary Disclosure Program Frequently Asked Questions and Answers|publisher = Internal Revenue Service|accessdate = June 29, 2024}}</ref>
+
+===Introduction of streamlined filing compliance procedures (started September 2012, expanded July 1, 2014)===
+
+The IRS introduced the streamlined filing compliance procedures in September 2012.<ref name=irm-4-63-3/>
+
+The streamlined filing compliance procedures were expanded significantly on July 1, 2014, with the changes announced June 18, 2014. These changes expanded the eligibility criteria, "eliminating a cap on the amount of tax owed to qualify for the program, and doing away with a questionnaire that applicants were required to complete."<ref name=irs-2014-ovdp-sfcp-changes-statement/> In more detail:<ref name=irs-2014-ovdp-modification/>
+
+{{blockquote|
+The expanded streamlined procedures are available to a wider population of U.S. taxpayers living outside the country and, for the first time, to certain U.S. taxpayers residing in the United States. The changes include:
+
+* Eliminating a requirement that the taxpayer have $1,500 or less of unpaid tax per year;
+* Eliminating the required risk questionnaire;
+* Requiring the taxpayer to certify that previous failures to comply were due to non-willful conduct.
+
+For eligible U.S. taxpayers residing outside the United States, all penalties will be waived. For eligible U.S. taxpayers residing in the United States, the only penalty will be a miscellaneous offshore penalty equal to 5 percent of the foreign financial assets that gave rise to the tax compliance issue.}}
+
+At the same time, it was announced that taxpayers who were currently in OVDP had the opportunity to switch to the streamlined filing compliance procedures by submitting an additional certification that all their violations were non-willful.<ref name=irm-4-63-3/><ref name=irs-ovdp-transition-rules>{{cite web|url = https://www.irs.gov/individuals/international-taxpayers/transition-rules-frequently-asked-questions-faqs|title = Transition Rules: Frequently Asked Questions (FAQs)|publisher = Internal Revenue Service|accessdate = June 29, 2024}}</ref>
+
+In the frequently asked questions associated with the announcement of its decision to close the OVDP in 2018, the IRS reiterated that the streamlined filing compliance procedures would continue to remain available.<ref name=irs-ovdp-closure/>
 
 ==References==
 
