@@ -27,11 +27,38 @@ The IRS documentation on both the foreign and domestic cases of the streamlined 
 
 Once the streamlined filing has been submitted, the taxpayer must continue filing taxes for future years normally.<ref name=irs-sfcp/>
 
+==Effect other ongoing or past tax processes may have on streamlined filing==
+
+===Streamlined filing is not available if the IRS has initiated a civil examination of the taxpayer's returns for any taxable year===
+
+According to the IRS webpage: "If the IRS has initiated a civil examination of taxpayer's returns for any taxable year, regardless of whether the examination relates to undisclosed foreign financial assets, the taxpayer will not be eligible to use the streamlined procedures. Taxpayers under examination may consult with their agent. Similarly, a taxpayer under criminal investigation by IRS Criminal Investigation is also ineligible to use the streamlined procedures."<ref name=irs-sfcp/>
+
+===Streamlined filing does not absolve taxpayers of previous penalty assessments===
+
+Taxpayers who have previously engaged in "quiet disclosure", such as amending returns or filing delinquent returns to include information on assets and income, may still use streamlined. However, previous penalties that ''have already been assessed'' are not waived by streamlined filing.<ref name=irs-sfcp/>
+
+===Relationship with the Offshore Voluntary Disclosure Program (OVDP)===
+
+The Offshore Voluntary Disclosure Program (OVDP) is a now-closed program (it closed on September 28, 2018) that played a similar role to the streamlined filing compliance procedures. Any taxpayer who submitted a voluntary disclosure letter under OVDP on or after July 1, 2014 is not eligible to participate in the streamlined filing compliance procedures. Taxpayers who submitted a voluntary disclosure letter under OVDP (or any predecessor program) prior to July 1, 2014, but who does not yet have a fully executed OVDP closing agreement, may request treatment under the applicable penalty terms available under the streamlined procedures.<ref name=irs-sfcp/>
+
+==Alternatives==
+
+===Quiet disclosure===
+
+Quiet disclosure refers to taxpayers disclosing without going through the streamlined procedures or any other official program for disclosing past noncompliance.<ref name=irs-sfcp/><ref name=golding-quiet-disclosure>{{cite web|url = https://www.goldinglawyers.com/irs-quiet-disclosure/|title = 10 Reasons to Avoid IRS Quiet Disclosure (New)|accessdate = June 29, 2024|publisher = Golding Lawyers}}</ref><ref name=freeman-quiet-disclosure>{{cite web|url = https://freemanlaw.com/the-danger-of-a-quiet-disclosure/|title = The Danger of a Quiet Disclosure|accessdate = June 29, 2024|publisher = Freeman Law}}</ref> This could include:
+
+* Starting the reporting of assets and income going forward, without reporting it for past years
+* Filing delinquent or amended returns for prior years including some or all previously omitted information on foreign assets and income, but without explicitly going through a disclosure program.
+
+Quiet disclosure is discouaged by the IRS as well as by tax lawyers, who encourage using the streamlined procedures wherever possible, to stay compliant and reduce the risk of draconian penalties and audits.<ref name=golding-quiet-disclosure/><ref name=freeman-quiet-disclosure/>
+
 ==Effect on taxes, interest, and penalties==
 
 ===Streamlined filing does not reduce taxes or interest on taxes===
 
 Even with a streamlined filing, any taxes that were due are still owed by the taxpayer. Moreover, if the taxes are past the filing deadline for taxes, interest on these taxes is also due.
+
+The lookback period for streamlined filing for tax returns is three years, which matches the IRS lookback period for auditing (the IRS can audit tax returns up to three years old, though it may under limited circumstances audit tax returns that are older).<ref>{{cite web|url = https://www.americanbar.org/groups/business_law/resources/business-law-today/2017-august/irs-can-audit-for-three-years/|title = IRS Can Audit for Three Years, Six, or Forever: Here's How to Tell|last = Wood|first = Robert W.|date = August 15, 2017|accessdate = June 29, 2024|publisher = American Bar Association}}</ref> So, in practice, in most cases, only taxes due for the past three years matter, and the streamlined procedures already cover these taxes.
 
 ===Properly done streamlined filing (both foreign and domestic) eliminates many penalties that may otherwise apply===
 
