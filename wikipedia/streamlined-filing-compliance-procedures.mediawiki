@@ -72,7 +72,7 @@ The Streamlined Domestic Offshore Procedures include a 5% miscellaneou offshore 
 * not report on [[Form 8938]] (in any year over the past 3 years)
 * income (such as interest and dividend income) from the asset not reported in the tax return (in any year over the past 3 years)
 
-For each year, the total value of foreign financial assets subject to the penalty is calculated, then the maximum of the values across all years is taken; the penalty is 5% of this amount. The calculations are done as part of Form 14654.<ref name=f14654/><ref name=sdo-faq>
+For each year, the total value of foreign financial assets subject to the penalty is calculated, then the maximum of the values across all years is taken; the penalty is 5% of this amount. The calculations are done as part of Form 14654.<ref name=f14654/>
 
 ==History==
 
