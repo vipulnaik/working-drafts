@@ -66,7 +66,7 @@ Eligible taxpayers who do a proper streamlined filing eliminate many penalties t
 
 ===5% miscellaneous offshore penalty in the domestic case==
 
-The Streamlined Domestic Offshore Procedures include a 5% miscellaneou offshore penalty on the end-of-year balance for assets for which one of these is true:<ref name=irs-sdop/><ref name=irs-sdo-faq/>
+The Streamlined Domestic Offshore Procedures include a 5% miscellaneous offshore penalty on the end-of-year balance for assets for which one of these is true:<ref name=irs-sdop/><ref name=irs-sdo-faq/>
 
 * not reported on the FBAR ([[FinCEN Form 114]]) (in any year over the past 6 years)
 * not report on [[Form 8938]] (in any year over the past 3 years)
