@@ -25,6 +25,8 @@ Sections of this document:
 * Surfaces: slipperiness and trip risk
 * Holding to prevent drops
 * Posture when falling
+* Blind spots
+* Safety margins
 
 ## Speed
 
@@ -401,3 +403,16 @@ than on its front or side.
 Falling on the arms is better than falling on the hands.
 
 See e.g. [this](https://www.youtube.com/watch?v=o_he-KVCIkY).
+
+## Blind spots
+
+### Vehicle blind spots
+
+### Corners
+
+## Safety margins
+
+### How far from the edge of a table or countertop to place stuff
+
+It should be far enough that a sweeping or toppling motion can be
+arrested or still won't cause the stuff to drop off the table.
