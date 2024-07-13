@@ -17,7 +17,7 @@ The Streamlined Foreign Offshore Procedures and the Streamlined Domestic Offshor
 
 ===Filing details===
 
-The IRS documentation on both the foreign and domestic cases of the streamlined procedures include instructions on the filing process. A summary is below:<ref name=irs-sfop/><ref name=irs-sdop/>
+The IRS documentation on both the foreign and domestic cases of the streamlined procedures includes instructions on the filing process. A summary is below:<ref name=irs-sfop/><ref name=irs-sdop/>
 
 * For any submissions of delinquent or amended FBARs, the taxpayer needs to submit the FBARs online on the FinCEN website, with "Streamlined Filing Compliance Procedures" in the explanation box for the reason for filing late. The FBARs should '''not''' be included in the streamlined filing packet submitted to the IRS.
 * The rest of the stuff being filed needs to be included in a single packet sent to an IRS address (specified on the website; there is no online submission option for the streamlined procedures) with an Attn note saying "Streamlined Foreign Offshore" or "Streamlined Domestic Offshore" respectively. This packet must include:
