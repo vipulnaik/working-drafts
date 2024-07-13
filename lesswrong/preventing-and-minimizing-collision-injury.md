@@ -27,7 +27,7 @@ you can decelerate. For instance, for brakes in vehicles that run on
 wheels, the mechanism of braking is limited by friction, so it's the
 coefficient of friction times the acceleration due to gravity.
 
-If your current speed is *v* and your maximum deecleration
+If your current speed is *v* and your maximum deceleration
 (magnitude) is *a* the time it takes you to stop is *v/a*. Therefore,
 holding *a* constant, the time it takes you to stop grows linearly
 with your speed. So, doubling your speed doubles the time it takes you
@@ -103,7 +103,7 @@ obvious.
 The fundamental reason for this is that different surfaces have very
 different rates at which they slow the falling object to a halt. A
 mattress has a lot of give, so it doesn't immediately halt the falling
-object; in fact it depresses a little bit giving the objet time and
+object; in fact it depresses a little bit giving the object time and
 space to come to a halt. The drop in momentum is therefore spread over
 a period of time, so that the peak force is not that high.
 
