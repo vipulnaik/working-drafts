@@ -35,7 +35,7 @@ The streamlined filing compliance procedures allow for married couples to do str
 
 {{blockquote|Note: If this certification is a joint certification, the statements will be considered made on behalf of both spouses, even though the pronoun "I" is used. If spouses submitting a joint certification have different reasons for their failure to report all income, pay all tax, and submit all required information returns, including FBARs, they must state their individual reasons separately in the required statement of facts.}}
 
-Streamlined filing also allows one person in a married couple that filed returns jointly to submit the streamlined filing without the other partner's signature, as long as each joint amended return shows a net increase in tax. This is covered in SFO FAQ 7 (for the streamlined foreign offshore procedures)<ref name=sfo-faq/> and SDO FAQ 14 (for the streamlined domestic offshore procedures).<ref name=sdo-faq/>
+Streamlined filing also allows one person in a married couple that filed returns jointly to submit the streamlined filing without the other partner's signature, as long as each joint amended return shows a net increase in tax. This is covered in SFO FAQ 7 (for the streamlined foreign offshore procedures)<ref name=irs-sfo-faq/> and SDO FAQ 14 (for the streamlined domestic offshore procedures).<ref name=irs-sdo-faq/>
 
 ==Effect other ongoing or past tax processes may have on streamlined filing==
 
