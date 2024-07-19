@@ -637,7 +637,7 @@ accomplishes the same average output.
 Let's drill down into this more systematically using the two central
 claims.
 
-### It is possible to improve on magic controlling for one's overall knowledge and skills (central claim 1)
+### It is possible to improve on reliability and positive affect controlling for one's overall knowledge and skills (central claim 1)
 
 Obviously, having more knowledge and skills can help with
 reliability. In order to reliably do a task, having the skill to do it
@@ -700,7 +700,7 @@ has thought of or would have expected to think of. If you can
 a few times a year, that is unreasonably effective at winning the
 perception game.
 
-### It is possible to improve on reliability and positive affect controlling for one's overall knowledge and skills (central claim 1) aka mere mortals can do magic
+### It is possible to improve on magic controlling for one's overall knowledge and skills (central claim 1) aka mere mortals can do magic
 
 One pushback to the idea of magic is that being able to do magic
 requires a crazy high level of skill, acquiring which is very hard to
