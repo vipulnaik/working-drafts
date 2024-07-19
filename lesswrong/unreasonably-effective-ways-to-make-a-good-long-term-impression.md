@@ -747,9 +747,10 @@ looks neat and simple, but the discovery process is ugly because there
 is a lot of code to go through and I don't have access to the source
 code to understand the original structure.
 
-This is an area where doing things like Olympiads is
-disproportionately helpful, even after controlling for overall effects
-on cognitive skills. Olympiad problems involve a lot of "brute-force
+This is an area where doing things like competition-level
+problem-solving (such as Olympiads) is disproportionately helpful,
+even after controlling for overall effects on cognitive
+skills. Competition-level problems involve a lot of "brute-force
 through a basic toolkit, with some speeding up if you get a core
 insight quickly"; the real-world problems tend to have fewer cases
 where the core insight can be located through good aesthetics, but the
