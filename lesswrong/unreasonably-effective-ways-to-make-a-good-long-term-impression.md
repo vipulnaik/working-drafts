@@ -637,7 +637,7 @@ accomplishes the same average output.
 Let's drill down into this more systematically using the two central
 claims.
 
-### It is possible to improve on reliability and positive affect controlling for one's overall knowledge and skills (central claim 1)
+### It is possible to improve on magic controlling for one's overall knowledge and skills (central claim 1)
 
 Obviously, having more knowledge and skills can help with
 reliability. In order to reliably do a task, having the skill to do it
