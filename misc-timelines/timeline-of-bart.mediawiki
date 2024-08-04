@@ -2,6 +2,29 @@
 
 This is a timeline of {{w|Bay Area Rapid Transit}} (BART), a mass rapid transit system serving the San Francisco Bay Area.
 
+== Sample questions ==
+
+* How have BART train cars evolved over time?
+** Sort the full timeline by "Event type" and look for the group of rows labeled "Train cars".
+** You'll learn about the evolution of BART's train cars, from the initial contract to supply BART's train cars even before BART became operational, all the way to the rollout of the Fleet of the Future trains.
+** NOTE: There are a few rows related to train cars that also cover other topics, so that they don't show up in the group of rows labeled "Train cars". To find all such rows, search for "Train cars" in page.
+* How has the BART fare structure changed over time?
+** For just a numerical summary, see the "Fare schedule changes over time" section under the Big picture.
+** For more context on the fare changes, sort the full timeline by "Event type" and look for the group of rows labeled "Fares".
+* What is the timeline of the opening of new BART stations?
+** Sort the full timeline by "Event type" and look for the group of rows labeled "New stations" (with one row at the end labeled "New stations, transit connections").
+** You'll get the timeline of opening new stations. Look at the right-most column to get the list of stations for each row.
+** NOTE: While the rows are mostly sorted by time, the row for June 22, 2003 is at the end because its event type is "New stations, transit connections".
+* What are some important reports by and about BART and its role in Bay Area transportation?
+** Sort the full timeline by "Event type" and look for the group of rows labeled "Report".
+** You'll get a timeline of reports, starting from early reports prior to the existence of BART that were used to shape the conversation around BART, to reports by BART and third parties evaluating BART operations and opportunities for expansion.
+* What have been the key changes to BART leadership?
+** Sort the full timeline by "Event type" and look for the group of rows labeled "Team".
+** You'll get a timeline of key changes to BART's leadership. The timeline is relatively less comprehensive between 1974 and 1994, which is the period after the original well-covered launch of BART and before the advent of the Internet whereby finding information becomes easier.
+* How have BART's service hours, frequency, and capacity evolved over time?
+** Sort the full timeline by "Event type" and look for the rows beginning with "Service" (including "Service frequency", "Service frequency/capacity", "Service hours/frequency/capacity").
+** These rows should paint a picture of how BART's service hours, frequency, and capacity have evolved over time.
+
 == Big picture ==
 
 {| class="wikitable sortable"
@@ -62,6 +85,27 @@ This is a timeline of {{w|Bay Area Rapid Transit}} (BART), a mass rapid transit 
 
 
 == Full timeline ==
+
+=== Inclusion criteria ===
+
+We include the following:
+
+* New lines and new station inaugurations
+* Rollouts of new functionalities and features systemwide. For rollouts, we generally include the beginning of the rollout and the end of the rollout, but not all the intermediate stages. In some cases, we may also include rows for prior discussions or planning before the rollout. Examples of rollouts include rollout of new train cars, changes to fare collection, and rollout of Wi-Fi across stations and trains.
+* Major accidents and systemwide issues
+* Noteworthy third-party discussion
+* Leadership changes
+* Fare changes. We've included fare changes till as far back as we have data for.
+* Changes to the funding landscape
+* Any other unusual, interesting, and noteworthy developments
+
+We do not include the following:
+
+* Events affecting only one or a few stations with no extended systemwide effects. This includes addition of new elevators, redesign of station entrances, or housing or business development near a particular station.
+* Intermediate stages of rollouts (we include the beginning and end)
+* Incidents that occur frequently, where the individual incident is not newsworthy or informative. For instance, most violent crime incidents are not included; we only include the incidents that generated significant discussion. Similarly, we do not include most temporary service suspensions such as weekend maintenance affecting only a few stations, though weekend maintenance affecting the Transbay Tube may be included since it has major systemwide effects on BART's operation.
+
+=== Timeline ===
 
 {| class="wikitable sortable"
 ! Year !! Month and date !! Event type !! Details !! Associated parts of BART (stations or parts of track)
@@ -202,17 +246,17 @@ This is a timeline of {{w|Bay Area Rapid Transit}} (BART), a mass rapid transit 
 |-
 | 1972 || || Commission || The BART Impact Program, a policy-oriented study and evaluation of the impacts of BART, is started, with funding from the U.S. Department of Transportation, the U.S. Department of Housing and Urban Development and the California Department of Transportation, and administed by the Metropolitan Transportation Commission (MTC) under contract. The program would run till 1978 and produce its final report in 1979.<ref name=bart-first-5/><ref name=bart-impact-program-final-report/>
 |-
-| 1973 || January 29 || New stations || BART opens service from MacArthur to Richmond (in the East Bay), as well as all the stations along the line (except MacArthur which was already open).<ref name=bart-40-years/> || Ashby, Berkeley, North Berkeley, El Cerrito Plaza, El Cerrito Del Norte, and Richmond.
+| 1973 || January 29 || New stations || BART opens service from MacArthur to Richmond (in the East Bay), as well as all the stations along the line (except MacArthur which was already open).<ref name=bart-40-years/> || Ashby, Berkeley, North Berkeley, El Cerrito Plaza, El Cerrito Del Norte, and Richmond
 |-
 | 1973 || January 31 || Report || A report is produced by a special blue ribbon panel of experts, namely Drs. Bernard Oliver, Clarence Lovell, and William Brobeck, commissioned by the Senate Public Utilities and Corporations Committee, working closely with BART. The report includes 21 technical recommendations.<ref name=divided-loyalties/>{{rp|233-235}}<ref name=engineering-ethics/>{{rp|122}} The views of the experts are summarized in "A prescription for BART" in IEEE Spectrum, pp. 40–44, April 1973.<ref name=engineering-ethics/>{{rp|122}} 
 |-
-| 1973 || May 21 || New stations || BART opens service from MacArthur to Concord (in the East Bay), as well as all stations on the line (excluding MacArthur that was already in service) completing the East Bay part of its initial plan.<ref name=bart-40-years/> || Rockridge, Orinda, Lafayette, Walnut Creek, Pleasant Hill, and Concord.
+| 1973 || May 21 || New stations || BART opens service from MacArthur to Concord (in the East Bay), as well as all stations on the line (excluding MacArthur that was already in service) completing the East Bay part of its initial plan.<ref name=bart-40-years/> || Rockridge, Orinda, Lafayette, Walnut Creek, Pleasant Hill, and Concord
 |-
 | 1973 || August || Report || A 42-page report by the [[w:National Transportation Safety Board|National Transportation Safety Board]] (NTSB), titled ''Safety Methodology in Rapid Rail Transit System Development'' (NTSB-RSS-73-1), is published.<ref>{{cite book|title = Safety Methodology in Rail Rapid Transit System Development: Special Study|publisher = [[w:National Transportation Safety Board|National Transportation Safety Board]]|url = https://books.google.com/books/about/Safety_Methodology_in_Rail_Rapid_Transit.html?id=a7b8vQAACAAJ|date = August 1, 1973|accessdate = June 14, 2017}}</ref> The report is in response to concerns raised around transit system safety, partly due to safety concerns at BART.<ref name=ota-atc-rrt>{{cite web|url = https://www.princeton.edu/~ota/disk3/1976/7614/7614.PDF|title = Automatic Train Control in Rapid Rail Transit|date = May 1, 1976|accessdate = June 14, 2017|publisher = [[w:Office of Technology Assessment|Office of Technology Assessment]]}}</ref> 
 |-
 | 1973 || August 10 || Preview || The first test run of a train under automatic control from West Oakland to Montgomery is performed. The train runs at full speed, taking seven minutes and returning in another six minutes.<ref>{{cite news |url=https://news.google.com/newspapers?id=KJozAAAAIBAJ&sjid=kzIHAAAAIBAJ&pg=3805%2C3336413 |title=Bay tube run made by BART |author=<!--Staff writer(s); no by-line.--> |agency=UPI |date=11 August 1973 |newspaper=Lodi News-Sentinel |accessdate=20 August 2016}}</ref> || Transbay Tube, stations of West Oakland, Montgomery
 |-
-| 1973 || November 3, 5 || New stations || BART opens its service in San Francisco (not yet connected with the East Bay), from Montgomery to Daly City.<ref name=bart-40-years/> || Montgomery, Powell Street Station, Civil Center/UN Plaza, 16th Street/Mission, 24th Street/Mission, Glen Park, Balboa Park, and Daly City.
+| 1973 || November 3, 5 || New stations || BART opens its service in San Francisco (not yet connected with the East Bay), from Montgomery to Daly City.<ref name=bart-40-years/> || Montgomery, Powell Street Station, Civil Center/UN Plaza, 16th Street/Mission, 24th Street/Mission, Glen Park, Balboa Park, and Daly City
 |-
 | 1973 || November || Automatic train control || [[w:Hewlett-Packard|Hewlett-Packard]] (HP) demonstrates to BART a model of a logical prediction system for better tracking of the position of trains in the BART system. Convinced by this, BART instructs Westinghouse to incorporate the measure in its control system. Hjortsvang, one of the engineers previously fired from BART, would later note that HP's design is based on the suggestion he had previously made to BART to improve the reliability of train tracking.<ref name=engineering-ethics/>{{rp|125}}
 |-
@@ -575,7 +619,7 @@ BART board may fire Dorothy Dugger|last = Cabanatuan|first = Michael|date = Febr
 |-
 | 2023 || June 28 || Budget || A $5.1 billion state budget agreement helps BART survive its fiscal cliff for the time being. This includes "$1.1 billion in “flexible” funding over the next four years, money that transit agencies can use for operations or infrastructure." The deal also allows transit agencies to "dip into about $4 billion in state infrastructure assistance to use this money for operations over the next two years."<ref>{{cite web|url = https://oaklandside.org/2023/06/28/ac-transit-bart-california-fiscal-cliff-state-budget-deal/|title = AC Transit and BART survive ‘fiscal cliff’—for now—with $5 billion state budget agreement. East Bay transit advocates warned of a “death spiral” for bus and train operators if Gov. Newsom didn’t adjust funds in the state budget.|last = Fermoso|first = Jose|date = June 28, 2023|accessdate = February 25, 2024}}</ref>
 |-
-| 2023 || September 11 || Service hours/frequency/capacity || BART's new schedule will roll out starting on this day. The change increases frequency along several routes, reduces maximum wait times, and switches to using the new BART train cars (Fleet of the Future) for the base schedule, with the older train cars used only to make up shortfalls when needed.<ref>{{cite web|url = https://www.bart.gov/news/articles/2023/news20230427|title = BART's reimagined schedule starts September 11th aimed at increasing ridership|date = September 5, 2023|accessdate = February 25, 2024|publisher = Bay Area Rapid Transit}}</ref><ref>{{cite web|url = https://www.bart.gov/news/articles/2023/news20230823-0|title = BART to run only new trains as the base schedule beginning September 11, 2023|date = August 23, 2023|accessdate = February 25, 2024|publisher = Bay Area Rapid Transit}}</ref> BART will also run short trains, claiming that, in addition to saving costs, this enhances safety and cleanliness, as very empty train cars tend to be more subject to issues with safety and cleanliness.<ref>{{cite web|url = https://www.bart.gov/news/articles/2023/news20230823|title = BART will begin to size trains for safety and efficiency starting September 11, 2023|date = August 23, 2023|accessdate = February 25, 2024|publisher = Bay Area Rapid Transit}}</ref>
+| 2023 || September 11 || Service hours/frequency/capacity, Train cars || BART's new schedule will roll out starting on this day. The change increases frequency along several routes, reduces maximum wait times, and switches to using the new BART train cars (Fleet of the Future) for the base schedule, with the older train cars used only to make up shortfalls when needed.<ref>{{cite web|url = https://www.bart.gov/news/articles/2023/news20230427|title = BART's reimagined schedule starts September 11th aimed at increasing ridership|date = September 5, 2023|accessdate = February 25, 2024|publisher = Bay Area Rapid Transit}}</ref><ref>{{cite web|url = https://www.bart.gov/news/articles/2023/news20230823-0|title = BART to run only new trains as the base schedule beginning September 11, 2023|date = August 23, 2023|accessdate = February 25, 2024|publisher = Bay Area Rapid Transit}}</ref> BART will also run short trains, claiming that, in addition to saving costs, this enhances safety and cleanliness, as very empty train cars tend to be more subject to issues with safety and cleanliness.<ref>{{cite web|url = https://www.bart.gov/news/articles/2023/news20230823|title = BART will begin to size trains for safety and efficiency starting September 11, 2023|date = August 23, 2023|accessdate = February 25, 2024|publisher = Bay Area Rapid Transit}}</ref>
 |-
 | 2023 || November 30 (announced September 11) || Fare collection || On September 11, BART announces that it will no longer accept paper tickets for use at its fare gates starting November 30. This is almost three years after BART stopped selling paper tickets (December 7, 2020 being the date of stoppage) with the exception of a brief resumption of paper tickets at SFO: paper tickets had been temporarily resumed at SFO in October 2022 in response to global supply chain issues impacting the region’s plastic card inventory. BART continues to offer the option of refunds for paper tickets with a remaining value greater than $1, with no expiration date. BART also plans to stop selling paper tickets at SFO on September 30, 2023.<ref>{{cite web|url = https://www.bart.gov/news/articles/2023/news20230911|title = BART will no longer accept paper/magstripe tickets beginning Nov 30|date = September 11, 2023|accessdate = August 4, 2024|publisher = Bay Area Rapid Transit}}</ref>
 |-
