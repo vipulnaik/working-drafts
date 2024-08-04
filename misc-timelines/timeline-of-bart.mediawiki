@@ -24,6 +24,12 @@ This is a timeline of {{w|Bay Area Rapid Transit}} (BART), a mass rapid transit 
 * How have BART's service hours, frequency, and capacity evolved over time?
 ** Sort the full timeline by "Event type" and look for the rows beginning with "Service" (including "Service frequency", "Service frequency/capacity", "Service hours/frequency/capacity").
 ** These rows should paint a picture of how BART's service hours, frequency, and capacity have evolved over time.
+* What connections can BART travelers make to other transportation services?
+** Sort the full timeline by "Event type" and look for the group of rows labeled "Transit connections". Also note the row with "Event type" of "New stations, transit connections".
+** You'll find information on transit connections with transportation systems including Amtrak, Muni Metro, and Caltrain.
+* What major events in the timeline of BART affected a particular station of interest (for instance, Daly City)?
+** Look for "Daly City" in the timeline.
+** Generally, any rows with a direct effect on Daly City will have "Daly City" in the list of stations in the right-most column, but sorting by that column may not surface all the rows together because the column includes lists of multiple stations.
 
 == Big picture ==
 
@@ -456,7 +462,7 @@ We do not include the following:
 |-
 | 2010 || || Report || This is the earliest year for which BART's annual Report to Congress is available online. It is unclear if BART previously submitted reports to Congress.<ref name=bart-reports/><ref name=bart-2010-report-to-congress>{{cite web|url = https://www.bart.gov/sites/default/files/docs/Final%20to%20GM%202%2010%2010C%20.pdf|title = 2010 Report to Congress|publisher = [[w:Bay Area Rapid Transit|Bay Area Rapid Transit]]|accessdate = June 21, 2017}}</ref> 
 |-
-| 2011 || February 19 || New stations || The {{w|West Dublin/Pleasanton station}} opens after several years of delays. It is an infill station, located on the Dublin/Pleasanton line between Castro Valley and Dublin/Pleasanton. It is the second infill station in the BART system after Embarcadero.<ref>{{Cite web|url = http://www.bart.gov/news/articles/2011/news20110121|title = New West Dublin/Pleasanton Station, BART's 44th, to open Feb. 19|last = Lam|first = Xuan|date = February 19, 2011|accessdate = June 18, 2017|publisher = [[w:Bay Area Rapid Transit|Bay Area Rapid Transit]]}}</ref> 
+| 2011 || February 19 || New stations || The {{w|West Dublin/Pleasanton station}} opens after several years of delays. It is an infill station, located on the Dublin/Pleasanton line between Castro Valley and Dublin/Pleasanton. It is the second infill station in the BART system after Embarcadero.<ref>{{Cite web|url = http://www.bart.gov/news/articles/2011/news20110121|title = New West Dublin/Pleasanton Station, BART's 44th, to open Feb. 19|last = Lam|first = Xuan|date = February 19, 2011|accessdate = June 18, 2017|publisher = [[w:Bay Area Rapid Transit|Bay Area Rapid Transit]]}}</ref> || West Dublin/Pleasanton
 |-
 | 2011 || March, April || Construction || BART receives $19 million from the {{w|Metropolitan Transportation Commisssion}} in toll revenue for the East Contra Costa County Extension Project, and begins construction on the project. The project involves a diesel eBART extension from the current northeast terminus of Pittsburg/Bay Point through Pittsburg, Antioch, Oakley, and Brentwood, to the Byron/Discovery Bay.<ref>{{cite web|url = http://www.city-data.com/forum/san-francisco-oakland/1239645-mtc-approves-19m-ebart-pittsburg-antioch.html|title = MTC Approves $19M for eBART from Pittsburg to Antioch (San Jose: 2015, construction)|date = March 29, 2011|accessdate = July 26, 2017}}</ref><ref>{{cite web|url = http://www.sfexaminer.com/bart-extension-project-receives-19-million-in-funding-from-toll-revenue/|title = BART extension project receives $19 million in funding from toll revenue|last = Reisman|first = Will|date = March 10, 2011|accessdate = July 27, 2017}}</ref> 
 |-
