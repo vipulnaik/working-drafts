@@ -4,15 +4,13 @@ This timeline covers the history of the {{w|H-1B visa}} and associated work stat
 
 === Google Trends ===
 
-Interest peaks annually during the H-1B filing season, which is during the calendar months of March and April. Interest was higher in 2017 (corresponding to filing for Fiscal Year 2018) due to proposals for major rule changes after the election of Donald Trump.
-
 The image below shows {{w|Google Trends}} data for H-1B visa (Topic), from January 2004 to March 2021, when the screenshot was taken. Interest is also ranked by country and displayed on world map. Interest peaks annually during the H-1B filing season, which is during the calendar months of March and April. Interest was higher in 2017 (corresponding to filing for Fiscal Year 2018) due to proposals for major rule changes after the election of Donald Trump.<ref>{{cite web |title=H-1B visa |url=https://trends.google.com/trends/explore?date=all&q=%2Fm%2F026375 |website=Google Trends |access-date=14 March 2021}}</ref>
 
 [[File:H- 1B visa gt.png|thumb|center|800px]]
 
 === Wikipedia pageviews ===
 
-The graph below shows Wikipedia pageviews for the H-1B visa from December 2007 (the start of availability of data) to March 2020, the most recent completed month when the screenshot was last updated.<ref name=h-1b-wv>{{cite web|url = https://wikipediaviews.org/displayviewsformultiplemonths.php?page=H-1B+visa&allmonths=allmonths&language=en&drilldown=all|title = H-1B visa Wikipedia pageviews|publisher = Wikipedia Views|accessdate = April 22, 2020}}</ref>
+The graph below shows Wikipedia pageviews for the H-1B visa until July 2024, the most recent completed month when the screenshot was last updated. Desktop pageviews are available since December 2007; pageviews from other platforms are only available starting July 2015.<ref name=h-1b-wv>{{cite web|url = https://wikipediaviews.org/displayviewsformultiplemonths.php?page=H-1B+visa&allmonths=allmonths&language=en&drilldown=all|title = H-1B visa Wikipedia pageviews|publisher = Wikipedia Views|accessdate = April 22, 2020}}</ref>
 
 [[File:H-1B visa Wikipedia views.png|500px]]
 
