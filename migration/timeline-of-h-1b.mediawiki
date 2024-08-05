@@ -102,6 +102,46 @@ When inline citations are missing, this is usually because the Wikipedia article
 | 2021 || April 27 || INS/USCIS guidance || Policy Guidance on Deference to Previous Decisions || USCIS || No change || No change || No change || The policy of deferring to prior approvals, originally introduced in April 2004 and then rescinded in October 2017, is reinstated. || In accordance with President {{w|Joe Biden}}'s executive order, Restoring Faith in Our Legal Immigration Systems and Strengthening Integration and Inclusion Efforts for New Americans, USCIS reinstates a policy of deferring to prior approvals in cases where the petitioner and beneficiary are the same as before.<ref name=reinstatement-prior-approval-memo/> This policy, originally introduced on April 23, 2004,<ref name=prior-approval-memo/> had been rescinded on October 23, 2017 by USCIS,<ref name=rescission-prior-approval-memo/> a move that had been seen as part of USCIS's efforts to comply with Donald Trump's executive order by making the adjudication process stricter.<ref name=bpc-battle-h-1b/> The reinstatement of the original policy is consistent with broader efforts by the Biden administration to return the H-1B processing to the pre-Trump ''status quo''.<ref name=bpc-uscis-biden-updates/>
 |}
 
+== H-1B petition data ==
+
+=== Data from USCIS on petitions and approvals ===
+
+This data is pieced together from the "Program Reports: H-1B" section of the Reports and Studies page on the USCIS website.<ref>{{cite web|url = https://www.uscis.gov/tools/reports-and-studies|title = Reports and Studies|accessdate = August 4, 2024|publisher = United States Citizenship and Immigration Services}}</ref>
+
+{| class="wikitable sortable" border="1"
+! Fiscal year !! Number of petitions filed in the fiscal year !! Number of petitions approved in the fiscal year !! Number of petitions filed and approved in the fiscal year (remaining approvals are from prior fiscal years)
+|-
+| 2000<ref name=h-1b-report-2004>{{cite web|url = https://www.uscis.gov/sites/default/files/document/data/h1b04annual_08_7.pdf|title = Report on H-1B Petitions Fiscal Year 2004 Annual Report October 1, 2003 – September 30, 2004|publisher = United States Citizenship and Immigration Services}}</ref> || 299,046 || 257,640 || ??
+|-
+| 2001<ref name=h-1b-report-2004/> || 342,035 || 331,206 || ??
+|-
+| 2002<ref name=h-1b-report-2004/> || 215,190 || 197,537 || ??
+|-
+| 2003<ref name=h-1b-report-2004/> || 231,030 || 217,340 || ??
+|-
+| 2004<ref name=h-1b-report-2004/> || 312,200 || 287,418 || 240,245
+|-
+| 2005<ref name=h-1b-report-2005>{{cite web|url = https://www.uscis.gov/sites/default/files/document/data/h1b05annual_08_7.pdf|title = Report on H-1B Petitions Fiscal Year 2005 Annual Report October 1, 2004 – September 30, 2005|publisher = United States Citizenship and Immigration Services}}</ref> || 266,474 || 267,131 || 212,100
+|-
+| 2006<ref name=h-1b-report-2006>{{cite web|url = https://www.uscis.gov/sites/default/files/document/reports/h1b_fy06_petitions_report_17mar08.pdf|title = Report on H-1B Petitions Fiscal Year 2006 Annual Report October 1, 2005 – September 30, 2006|publisher = United States Citizenship and Immigration Services}}</ref> || 295,915 || 270,981 || 227,611
+|-
+| 2007<ref name=h-1b-report-2007>{{cite web|url = https://www.uscis.gov/sites/default/files/document/reports/h1b_fy07_petitions_report_01may09.pdf|title = Report on H-1B Petitions Fiscal Year 2007 Annual Report October 1, 2006 – September 30, 2007|publisher = United States Citizenship and Immigration Services}}</ref> || 304,877 || 281,444 || 239,307
+|-
+| 2008<ref name=h-1b-report-2008>{{cite web|url = https://www.uscis.gov/sites/default/files/document/reports/h1b_fy08_petitions_report_08apr09.pdf|title = Report on H-1B Petitions Fiscal Year 2008 Annual Report October 1, 2007 – September 30, 2008|publisher = United States Citizenship and Immigration Services}}</ref> || 288,764 || 276,252 || 239,936
+|-
+| 2009<ref name=h-1b-report-2009>{{cite web|url = https://www.uscis.gov/sites/default/files/document/reports/H-1B_FY_2009_Petitions_Report_-_final.pdf|title = Report on H-1B Petitions Fiscal Year 2009 Annual Report October 1, 2008 – September 30, 2009|publisher = United States Citizenship and Immigration Services}}</ref> || 246,647 || 214,271 || 191,712
+|-
+| 2010<ref name=h-1b-report-2010>{{cite web|url = https://www.uscis.gov/sites/default/files/document/reports/FY10H-1BPetitions.pdf|title = Report on H-1B Petitions Fiscal Year 2010 Annual Report October 1, 2009 – September 30, 2010|publisher = United States Citizenship and Immigration Services}}</ref> || 247,617 || 192,990 || 171,754
+|-
+| 2011<ref name=h-1b-report-2011>{{cite web|url = https://www.uscis.gov/sites/default/files/document/reports/h1b-fy-11--petitions.pdf|title = Report on H-1B Petitions Fiscal Year 2011 Annual Report to Congress October 1, 2010 – September 30, 2011|publisher = United States Citizenship and Immigration Services}}</ref> || 267,654 || 269,653 || 207,915
+|-
+| 2012<ref name=h-1b-report-2012>{{cite web|url = https://www.uscis.gov/sites/default/files/document/reports/h1b-fy-12--petitions.pdf|title = Report on H-1B Petitions Fiscal Year 2012 Annual Report to Congress October 1, 2011 – September 30, 2012|publisher = United States Citizenship and Immigration Services}}</ref> || 307,713 || 262,569 || 216,974
+|-
+| 2013<ref name=h-1b-report-2013>{{cite web|url = https://www.uscis.gov/sites/default/files/document/reports/FY_2013_H-1B_Petitions_Report_326.pdf|title = Report on H-1B Petitions Fiscal Year 2013 Annual Report to Congress October 1, 2012 – September 30, 2013|publisher = United States Citizenship and Immigration Services}}</ref> || 299,467 || 286,773 || 219,147
+|-
+| 2014<ref name=h-1b-report-2014>{{cite web|url = https://www.uscis.gov/sites/default/files/document/reports/FY_2014_H-1B_Petitions_Report_SIGNED.pdf|title = Report on H-1B Petitions Fiscal Year 2014 Annual Report to Congress October 1, 2013 – September 30, 2014|publisher = United States Citizenship and Immigration Services}}</ref> || 318,824 || 315,857 || 258,447
+|}
+
 == H-1B annual cycle dates ==
 
 === Data Fiscal Year 2021 onward ===
