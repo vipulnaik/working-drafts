@@ -7,7 +7,7 @@ When inline citations are missing, this is usually because the Wikipedia article
 {| class="wikitable sortable"
 ! Year !! Month and date (if available) !! Event type !! Event name !! Actors !! Effect on fees !! Effect on cap !! Effect on LCA attestations and DOL investigative authority !! Effect on adjudication process !! Details 
 |-
-| 1952 || June 27 || Legislation || {{w|Immigration and Nationality Act of 1952}} || {{w|82nd United States Congress}}, President {{w|Harry S. Truman}} (vetoed but overridden) || || || || || Creates the H-1 and H-2 visa categories for skilled and unskilled workers; the H-1 would give rise to the modern H-1B visa.
+| 1952 || June 27 || Legislation || {{w|Immigration and Nationality Act of 1952}} || {{w|82nd United States Congress}}, President {{w|Harry S. Truman}} (vetoed but overridden) || || || || || This creates the H-1 and H-2 visa categories for skilled and unskilled workers; the H-1 would give rise to the modern H-1B visa.
 |-
 | 1970 || April 7 || Legislation || Public Law 91-225 || {{w|91st United States Congress}}, President {{w|Richard Nixon}} || || || || || A new H-4 category is introduced for the spouses and minor children of H-1 workers, recognizing the use of the H-1 visa for more long-term employment.<ref name=cato-h-4>{{cite web|url = https://www.cato.org/blog/facts-about-h-4-visas-spouses-h-1b-workers|title = The Facts About H-4 Visas for Spouses of H-1B Workers|last = Bier|first = David|date = June 16, 2020|accessdate = June 26, 2020|publisher = Cato Institute}}</ref><ref name=pl-91-225>{{cite web|url = https://www.govinfo.gov/content/pkg/STATUTE-84/pdf/STATUTE-84-Pg116.pdf|title = Public Law 91-225|accessdate = June 26, 2020}}</ref>
 |-
