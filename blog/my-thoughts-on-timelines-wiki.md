@@ -298,7 +298,7 @@ Reader/audience | Low | Zero | Low to moderate | Low (usually zero, but it may b
 
 This table makes clear a point I made in an earlier section about how
 transitioning from writer to funder allows me to spend less time
-("High" to "Low to moderate") and monre money ("Low" to "High"). But
+("High" to "Low to moderate") and more money ("Low" to "High"). But
 the table also highlights another side-effect of transitioning from
 writer to funder: my depth of learning is reduced (from "High" to
 "Moderate"). My depth of learning per unit time spent, though, likely
