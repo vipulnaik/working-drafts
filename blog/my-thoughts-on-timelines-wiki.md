@@ -14,8 +14,9 @@ with timelines might evolve over time.
 I have been editing Wikipedia content off and on since the
 mid-2000s. In 2013, I discovered and made my [first
 edit](https://en.wikipedia.org/w/index.php?title=Timeline_of_Facebook&oldid=535051698)
-to the timeline of Facebook. The timeline at the time didn't even have
-a sortable tabular format; it was just arranged into sections by year.
+to the (already-existing) timeline of Facebook. The timeline at the
+time didn't even have a sortable tabular format; it was just arranged
+into sections by year.
 
 In late January and early February of 2014, I started restructuring
 the timeline of Facebook into a tabular timeline; the first edit from
@@ -61,7 +62,7 @@ page](https://contractwork.vipulnaik.com/worker.php?worker=Alex+K.+Chen).
 In April 2016, Sebastian Sanchez responded to my [EA Forum
 post](https://forum.effectivealtruism.org/posts/yBwTcKHWv9Lgunhrm/looking-for-wikipedia-article-writers-topics-include-many-of)
 and started doing contract work for me (Sebastian and I were already
-friendson Facebook who had been introduced through a mutual friend,
+friends on Facebook who had been introduced through a mutual friend,
 but we didn't have much communication prior to this). Sebastian has
 been doing contract work for me since April 2016 all the way till
 2024, as of my time of writing this post. You can see more details on
@@ -93,7 +94,8 @@ timelines. Thus, timelines wiki was born in March 2017.
 
 I decided to continue my sponsorship of timelines creation and
 expansion work by the contract workers (at this point, it was just
-Issa Rice and Sebastian Sanchez).
+Issa Rice and Sebastian Sanchez), with the sponsored work now on
+timelines wiki.
 
 ### Since then (2017 to present)
 
@@ -104,7 +106,10 @@ chronic illness (see [here](https://issarice.com/about)). Sebastian
 has been working mostly steadily on timelines wiki from 2017 to
 present (about 2024 as of the time of writing this) though he has also
 done some other work, including on [Org
-Watch](https://orgwatch.issarice.com/).
+Watch](https://orgwatch.issarice.com/). Over this period of 7+ years,
+I appear to have spent over $60,000 on timelines by Sebastian on
+timelines wiki. You can see more details on his [worker
+page](https://contractwork.vipulnaik.com/worker.php?worker=Sebastian+Sanchez).
 
 I have also spent time off and on creating and editing timelines
 myself, though I don't get to pay myself for my timelines.
@@ -121,3 +126,184 @@ Regranting Program until the residual funds were clawed back by the
 FTX creditors; see
 [here](https://contractwork.vipulnaik.com/payer.php?payer=Future+Fund+Regranting+Program)
 for the list of work funded that way.
+
+## Some of the positives of timelines
+
+There are many different angles to thinking about the value of timelines.
+
+Issa Rice provides a good case for timelines on his [portfolio
+page](https://issarice.com/portfolio); an excerpt from his explanation
+is below:
+
+> Why focus on timelines? I think writing a timeline is a good first
+> step in trying to understand a topic, because you don't need to read
+> things chronologically (but the output will still be
+> chronological). So you can go in confused about a topic and slowly
+> get to build a good history of it, piece by piece. It's a way of
+> doing "due diligence" on a topic. I think many people try to
+> understand a topic without even doing anything comparable to writing
+> a timeline, i.e. they just dive in and they don't even know the
+> basic events that have happened for that topic, which leaves them
+> confused.
+
+> I have also found timelines useful for answering questions.
+
+I'm putting this first because it's a very compact statement that is
+quite similar to my (somewhat more rambling) take below.
+
+### Timelines can be built in a very modular fashion and yet present a coherent output
+
+One advantage of timelines is that they can be built in a modular
+fashion, in small bits and pieces, and at the end of it all, we get a
+chronological account of what happened (with the potential to sort in
+other ways). For comparison, a prose summary or more free-form
+exposition is a bit harder to construct in a modular fashion.
+
+The modularity of timelines stems from the fact that rows are close to
+independent of each other, so it's possible to add rows one at a
+time. And it's possible to add rows in between other rows, so the
+chronological presentation can be maintained despite the assembly
+process being non-chronological.
+
+The fact that the presentation of a timeline is chronological also
+takes one variable (the choice of how to order content) out of the
+creation process, allowing a focus on other aspects.
+
+This has at least two advantages:
+
+* It is a little more friendly to creators with low attention spans or
+  short bursts of time.
+
+* It makes it possible to start working on a timeline with very little
+  initial subject matter knowledge, while still producing meaningful
+  output along the way.
+
+Both of these advantages were relevant for our journey on timelines
+wiki; the second one in particular was important as we've put together
+timelines on a range of subjects, many of which we did not have much
+knowledge of when we started work on the timelines.
+
+### Making a timeline is a good way to understand a topic, and timelines is a sufficiently generic construct to encompass a wide range of potential topics
+
+I've often created or funded timelines on topics that I wanted to
+understand better, and the process of creating or funding the timeline
+has helped me along that journey. Some of the topics that I've learned
+a lot about while working on timelines for them are [Bay Area Rapid
+Transit](https://timelines.issarice.com/wiki/Timeline_of_Bay_Area_Rapid_Transit),
+[HTTPS
+adoption](https://timelines.issarice.com/wiki/Timeline_of_HTTPS_adoption),
+[immigrant processing and visa policy in the United
+States](https://timelines.issarice.com/wiki/Timeline_of_immigrant_processing_and_visa_policy_in_the_United_States),
+and [AI
+safety](https://timelines.issarice.com/wiki/Timeline_of_AI_safety)
+(not created by me, but I've been keeping up with expanding it in the
+past few years). I even wrote a [timeline of web
+vitals](https://timelines.issarice.com/wiki/Timeline_of_web_vitals) to
+better understand this topic a few years ago when it became relevant
+to my day job and the threads related to it were hard to keep sorted
+in my head.
+
+There's something else I have worked on to better understand topics:
+subject wikis (shortened to subwiki). I have a large number of them,
+most of them not edited much. In fact most of my edits to subject
+wikis have been in 2013 or earlier, back when I was doing my Ph.D.
+The most high-traffic one is
+[Groupprops](https://groupprops.subwiki.org/), which is a reasonably
+famous and high-traffic wiki in group theory. It's also huge -- I
+spent a lot of time editing Groupprops while doing my Ph.D. You can
+get a sense of how much traffic the various subject wikis get and
+compare it with timelines wiki by going to
+[analytics.vipulnaik.com](https://analytics.vipulnaik.com/); suffice
+it to say that Groupprops alone gets over 5 times the traffic that
+timelines wiki gets.
+
+I think subject wikis are very powerful and valuable, and I'm glad I
+worked on them. I'm also excited to continue working on them and
+ramping up that work, perhaps even starting new subject wikis! There's
+more to say on that, but I want to highlight here the reason I have
+been focusing much more on timelines wiki, both in terms of my own
+creative effort and the work I've been funding.
+
+Oftentimes, I have interest in a topic at the level of "I'd like a
+basic understanding of topic X", for which "write a timeline of topic
+X" or "write timelines for these five topics related to X" is a
+relatively low-effort way to get started without a lot of upfront
+commitment and investment.
+
+With the subwiki route, there would first be a question of whether
+there already is an appropriate subject wiki under which X could be
+covered. If not, it would involve setting up a new subject wiki, which
+is a big overhead! Even if there is a subject wiki corresponding to X,
+the next step would be to fit into the existing guidelines and format
+of the subject wiki while writing about X, which can be some work as
+every subject wiki follows its own style. And even different kinds of
+content within a subject wiki can follow their own style.
+
+So timelines wiki are a good low-effort way to get started exploring a
+broad new topic, whereas subwiki is a great way to dig deep into a
+topic, particularly if the subwiki already covers related topics.
+
+Back when I was working on my Ph.D., my output was very focused on
+getting deep into specific topics (though my input was much
+broader). However, since 2014, my interests have moved around more
+widely, and having a creative vehicle that can easily be adapted to
+fluctuating interests has been important. Timelines wiki has been a
+great fit as such as vehicle.
+
+### I found people who can create timelines for money, allowing me to switch from allocating time to allocating money for timelines
+
+With subwiki, while I've had collaborators off and on, I have not yet
+found a model of paying for subwiki content whereby another person
+could work on it and allow me to use money instead of time to expand
+(though Sebastian, who is working on timelines, is interested in
+subwiki and we are likely to explore him doing more work on subwiki in
+the future).
+
+With timelines wiki, I was fortunate to find people (Alex K. Chen,
+Issa Rice, and Sebastian Sanchez being the main ones, though there
+have also been many others) who were able to create and expand
+timelines in a way that is roughly similar to what I would have wanted
+to do myself if I had the time and knowledge. This has allowed me to
+spend money instead of time to facilitate the growth of
+timelines. This was particularly relevant for the period roughly
+between mid-2015 and March 2023, when I was spending a lot of my time
+on the day job and didn't have a lot of time to work on content
+creation, but had a lot of money (including direct cash flow and
+earnings-in-expectation). More on this in the next section.
+
+## Writing versus funding versus reading timelines
+
+### The writer/funder/reader trade-off
+
+With respect to a timeline that I am interested in, I could have one
+of three broad categories of roles (and my role could transition from
+one to the other over the course of expansions of a particular
+timeline):
+
+* Writer/author
+* Funder/influencer/reviewer
+* Reader/audience
+
+I've mostly been in the first two roles, but occasionally in the third
+role (for instance, for expansions on Wikipedia by unaffiliated
+people, of timelines originally written or funded by me).
+
+Here's how I compare these:
+
+Role | Time cost | Money cost | Depth of learning | Influence over coverage
+-- | -- | -- | -- | --
+Writer/author | High | Low (usually zero, occasionally it may involve buying some stuff for source material) | High | High
+Funder/influencer/reviewer | Low to moderate | High | Moderate | Moderate to high
+Reader/audience | Low | Zero | Low to moderate | Low (usually zero, but it may be possible to share feedback)
+
+This table makes clear a point I made in an earlier section about how
+transitioning from writer to funder allows me to spend less time
+("High" to "Low to moderate") and monre money ("Low" to "High"). But
+the table also highlights another side-effect of transitioning from
+writer to funder: my depth of learning is reduced (from "High" to
+"Moderate"). My depth of learning per unit time spent, though, likely
+goes up ("High/High" to "Moderate/(Low to moderate)"). My influence
+over coverage is also reduced somewhat ("High" to "Moderate to high")
+though this depends quite a bit on how much influence I *want* to
+exert; as a funder, I can exert more influence for the timelines I
+care about.
