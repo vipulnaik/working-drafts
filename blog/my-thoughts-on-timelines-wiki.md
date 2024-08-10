@@ -306,4 +306,103 @@ goes up ("High/High" to "Moderate/(Low to moderate)"). My influence
 over coverage is also reduced somewhat ("High" to "Moderate to high")
 though this depends quite a bit on how much influence I *want* to
 exert; as a funder, I can exert more influence for the timelines I
-care about.
+care about. However, there is some level of influence that the person
+writing the timeline has that a funder, influencer, or reviewer cannot
+quite match.
+
+### My general thoughts on what timelines to write versus fund
+
+After I switched to working part-time in March 2023, my relative
+availability of time and money has changed quite a bit. Whereas
+earlier, I had a lot more money available compared to time, now my
+money available is somewhat limited, and I do have somewhat more time
+available. With that said, given that timelines wiki is an area where
+I've found other people (specifically, Sebastian Sanchez) who is both
+willing to do the work and has a good track record with it, and there
+are many other projects I want to work on, I'm happy for the most part
+to continue funding timelines to the extent I can afford.
+
+My plan with my freed-up time is to spend more time creating and
+expanding timelines on topics where I seek greater depth of learning
+and want more influence over the coverage (per the preceding
+section). Also, I plan to continue expanding timelines where I already
+have a lot of depth of knowledge about the subject matter and the
+expansion process, such as the timelines of [Bay Area Rapid
+Transit](https://timelines.issarice.com/wiki/Timeline_of_Bay_Area_Rapid_Transit)
+and [AI
+safety](https://timelines.issarice.com/wiki/Timeline_of_AI_safety). These
+considerations overlap quite a bit (so the timelines where I have the
+most knowledge overlap with the ones where I want to influence the
+coverage the most, with the causality going both ways).
+
+Overall, this means that my current plan is to continue to spend about
+as much money on timelines as I have been in the past few years, while
+also spending more time on timelines, so the net effect would be more
+resources going into timelines. However, the money I choose to spend
+on timelines may change as my financial situation changes, my estimate
+of the impact of timelines changes, or there are other projects where
+I want to spend my funding.
+
+## Impact evaluation for timelines
+
+### Pageviews and search traffic
+
+Summary pageview data for timelines is available on the [timelines
+wiki homepage](https://timelines.issarice.com/wiki/Main_Page) and a
+slightly more detailed month-by-month breakdown is available on the
+[analytics.vipulnaik.com page for timelines
+wiki](https://analytics.vipulnaik.com/top-pages.php?project_title=Timelines+wiki). You
+can also compare the pageviews on timelines wiki with other websites
+and projects I have been involved with (including the subwiki sites)
+on the [analytics.vipulnaik.com
+homepage](https://analytics.vipulnaik.com/).
+
+Overall, as of 2024, pageviews for timelines wiki vary in the range of
+5,000 to 10,000 pageviews a month (this excludes pageviews from
+logged-in users, though in the very beginning it may not have). This
+isn't the most they've ever been; in 2020 and 2021, they were in the
+range of 10,000 to 20,000 pageviews a month.
+
+The pageviews, as well as the decline in them, is mostly driven by
+Google Search and its algorithms. Most of the traffic volume comes
+from search, and most of these searches are non-brand searches --
+they're generic searches for the timeline or history of a topic, or
+searches tied to specific events related to the topic. They're not
+specifically looking for timelines wiki, so the searcher is not
+specifically scanning the search results to find timelines wiki
+content to click on. As a result, the number of search clicks very
+critically depends on how high the timelines wiki entry ranks in the
+search results. The drop in recent years reflects a decline in search
+rankings.
+
+#### Search engine penalty
+
+Being on timelines wiki is much worse for traffic for timelines than
+being on Wikipedia. Here's some tentative evidence to support this: on
+the [timelines wiki
+homepage](https://timelines.issarice.com/wiki/Main_Page), compare the
+columns for "Monthly pageviews" and "Monthly pageviews on Wikipedia"
+for the timelines that are still on Wikipedia. You'll see that the
+pageviews on Wikipedia are somewhere between 50x and 200x the
+pageviews on timelines wiki. While in some cases, the Wikipedia
+timeline is more up-to-date, there are other cases where the version
+on timelines wiki has been expanded significantly after forking off of
+Wikipedia. For instance, [timeline of
+Netflix](https://timelines.issarice.com/wiki/Timeline_of_Netflix) has
+been expanded quite a bit on timelines wiki and has only received
+perfunctory updates on it s [Wikipedia
+version](https://en.wikipedia.org/wiki/Timeline_of_Netflix). And yet
+it gets 24 pageviews per month on timelines wiki and 4795 pageviews
+per month on Wikipedia, based on the average over the past
+year. That's a factor of 200 off! It's an even more extreme story for
+[timeline of
+Reddit](https://timelines.issarice.com/wiki/Timeline_of_Reddit), where
+timelines wiki has a much more fleshed out version, and yet it gets
+just 6 pageviews per month compared to Wikipedia's 3493 pageviews per
+month.
+
+If we were to conservatively adjust for this search penalty by
+applying a multiplier of 50 to current traffic, that would give
+timelines wiki a monthly traffic of 250,000 to 500,000 pageviews,
+which would paint its traffic situation in a completely different
+light!
