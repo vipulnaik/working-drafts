@@ -674,27 +674,35 @@ The following table summarizes per-year mentions on Google Scholar as of Decembe
 
 === Overall ridership ===
 
-The image below shows BART average weekday, Saturday, and Sunday ridership by month from January 2001 to March 2018. Traffic is highest on weekdays, lower on Saturdays, and even lower on Sundays. The referenced source will update the graph every month; the version shown below does not auto-update.<ref name=bart-ridership-graph>{{cite web|url = https://bart.vipulnaik.com/ridership.php?entryStation=total&exitStation=total|title = BART Ridership: total to total|accessdate = June 22, 2017}}</ref>
+The image below shows BART average weekday, Saturday, and Sunday ridership by month from January 2001 to July 2024. Traffic is highest on weekdays, lower on Saturdays, and even lower on Sundays. You can see a general trend of ridership slowly incresaing from 2001 to 2015, with a slight dip early on (likely related to the September 11 attacks) and a slight dip during the {{w|Great Recession}}. Ridership stays relatively stable from 2015 till early 2020, at which point it drops sharply in response to the COVID-19 pandemic. Ridership partially recovers over the next four years but continues to be way below the level seen in 2000.
+
+The referenced source will update the graph every few months; the version shown below does not auto-update.<ref name=bart-ridership-graph>{{cite web|url = https://bart.vipulnaik.com/ridership.php?entryStation=total&exitStation=total|title = BART Ridership: total to total|accessdate = August 10, 2024}}</ref>
 
 [[File:BART ridership.png|thumb|center|500px]]
 
 === Ridership to Embarcadero, the busiest station ===
 
-The image below shows BART ridership to and from Embarcadero: average weekday, Saturday, and Sunday ridership values by month from January 2001 to May 2017. Traffic is highest on weekdays, lower on Saturdays, and even lower on Sundays. Traffic ''to'' Embarcadero is a little higher than traffic ''from'' Embarcadero for any given month and day type, but differences between type of day dominate entry/exit differences. The referenced source will update the graph every month; the version shown below does not auto-update.<ref name=bart-ridership-graph-embarcadero>{{cite web|url = https://bart.vipulnaik.com/ridership.php?entryStation=total&exitStation=EM|title = BART Ridership: total to EM|accessdate = June 22, 2017}}</ref>
+The image below shows BART ridership to and from Embarcadero: average weekday, Saturday, and Sunday ridership values by month from January 2001 to July 2024. Traffic is highest on weekdays, lower on Saturdays, and even lower on Sundays. Traffic ''to'' Embarcadero is a little higher than traffic ''from'' Embarcadero for any given month and day type -- this is likely explained by people in the East Bay (that comprises the majority of daily BART commuters) getting off at Embarcadero as it's the first downtown station, but using a different station for their return journey so they can board an emptier train. Differences between type of day (weekday / Saturday / Sunday) dominate the to/from differences within a type of day.
+
+The pattern of ridership to Embarcadero is very similar to the pattern of overall ridership, showing a general increase from 2001 to 2015 with drops during the September 11 attacks and the Great Recession, then a stable traffic pattern from 2015 to early 2020, and then a big drop with the COVID-19 pandemic followed by a gradual recovery. One difference from the overall traffic is that the ridership dips in December are somewhat stronger for Embarcadero than for overall traffic, which is likely explained by Embarcadero serving office commutes that tend to drop more sharply in December than overall ridership.
+
+The referenced source will update the graph every few months; the version shown below does not auto-update.<ref name=bart-ridership-graph-embarcadero>{{cite web|url = https://bart.vipulnaik.com/ridership.php?entryStation=total&exitStation=EM|title = BART Ridership: total to EM|accessdate = August 10, 2024}}</ref>
 
 [[File:BART ridership to Embarcadero.png|thumb|center|500px]]
 
 === Wikipedia pageviews ===
 
-The image below shows pageviews of the Wikipedia page {{w|Bay Area Rapid Transit}} from December 2007 to January 2021 on desktop, and from July 2015 to January 2021 on mobile web, mobile app, desktop spider, and mobile web spider. The image will not auto-update with data for new months; you can visit the source page to get up-to-date data.<ref>{{cite web|url = https://wikipediaviews.org/displayviewsformultiplemonths.php?page=Bay+Area+Rapid+Transit&allmonths=allmonths&language=en&drilldown=all|title = Wikipedia Views for Bay Area Rapid Transit|accessdate = July 6, 2017}}</ref>
+The image below shows pageviews of the Wikipedia page {{w|Bay Area Rapid Transit}} from December 2007 to July 2024 on desktop, and from July 2015 to July 2024 on mobile web, mobile app, desktop spider, and mobile web spider. You can see that unlike ridership, the decline in Wikipedia traffic as a result of the COVID-19 pandemic is modest and fully recovered by 2023.
 
-[[File:BART wv.jpeg|thumb|center|700px]]
+The image will not auto-update with data for new months; you can visit the source page to get up-to-date data.<ref>{{cite web|url = https://wikipediaviews.org/displayviewsformultiplemonths.php?page=Bay+Area+Rapid+Transit&allmonths=allmonths&language=en&drilldown=all|title = Wikipedia Views for Bay Area Rapid Transit|accessdate = August 10, 2024}}</ref>
+
+[[File:BART wv traffic.png|thumb|center|700px]]
 
 === Google Trends ===
 
-The comparative chart below shows {{w|Google Trends}} data ({{w|United States}}) for Bay Area Rapid Transit (Transit line) and New York City Subway (Mass transportation system) from January 2004 to February 2021, when the screenshot was taken.<ref>{{cite web |title=Bay Area Rapid Transit and New York City Subway |url=https://trends.google.com/trends/explore?date=all&geo=US&q=%2Fm%2F0gdjj,%2Fm%2F01pz3b |website=Google Trends |access-date=3 February 2021}}</ref>
+The comparative chart below shows {{w|Google Trends}} data ({{w|United States}}) for Bay Area Rapid Transit (Transit line) and New York City Subway (Mass transportation system) from January 2004 to August 2024, when the screenshot was taken.<ref>{{cite web |title=Bay Area Rapid Transit and New York City Subway |url=https://trends.google.com/trends/explore?date=all&geo=US&q=%2Fm%2F0gdjj,%2Fm%2F01pz3b |website=Google Trends |accessdate = August 10, 2024}}</ref>
 
-[[File:Bay area gtrends.jpeg|thumb|center|700px]]
+[[File:BART Google trends.png|thumb|center|700px]]
 
 The image below shows Google Trends data for just one week, with times shown in Pacific Time (the local timezone for BART). Relative interest appears to peak in the evenings, around 5 PM.<ref>{{cite web|url = https://trends.google.com/trends/explore?date=now%207-d&q=%2Fm%2F0gdjj|title = Bay Area Rapid Transit (Metro System)|publisher = Google Trends|accessdate = July 7, 2017}}</ref>
 
