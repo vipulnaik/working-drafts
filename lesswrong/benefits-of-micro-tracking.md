@@ -84,14 +84,14 @@ insights people want to share!
 
 UPDATE 2024-11-21: These are the practices I settled on:
 
-* Starting in March 2021 (a little over a month after this post) I
+* Starting March 2021 (a little over a month after this post) I
   have been recording all my food purchases
   [here](https://github.com/vipulnaik/diet-exercise-health/blob/master/sql/food_purchases.sql). I
   also entered nutritional information for most of the foods I
   purchased, which allows me to do crude calculation of nutrient
   consumption.
 
-* Starting in June 2024, I have been recording something that's
+* Starting June 2024, I have been recording something that's
   intermediate between food purchase and consumption: the preparation
   or opening of food. For a raw vegetable or something like rice or
   lentils, this corresponds to when I add it to a cooked meal; for a
