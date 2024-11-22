@@ -81,3 +81,42 @@ convince me:
 
 I'm curious to hear what people think I'm missing, or any other
 insights people want to share!
+
+UPDATE 2024-11-21: These are the practices I settled on:
+
+* Starting in March 2021 (a little over a month after this post) I
+  have been recording all my food purchases
+  [here](https://github.com/vipulnaik/diet-exercise-health/blob/master/sql/food_purchases.sql). I
+  also entered nutritional information for most of the foods I
+  purchased, which allows me to do crude calculation of nutrient
+  consumption.
+
+* Starting in June 2024, I have been recording something that's
+  intermediate between food purchase and consumption: the preparation
+  or opening of food. For a raw vegetable or something like rice or
+  lentils, this corresponds to when I add it to a cooked meal; for a
+  packet or bottle, this corresponds to when I open it to start
+  consumption. The information can be found
+  [here](https://github.com/vipulnaik/diet-exercise-health/blob/master/sql/food_preparations_and_openings.sql).
+
+  This has proved to be a better proxy than purchase tracking (though
+  I'm still doing purchase tracking as well). The main advantage is
+  that preparation or opening is more granular and closer to the time
+  of actual consumption. This became particularly relevant for foods
+  that I purchase in larger quantities, like rice, lentils, and yogurt.
+
+* I've also written a bunch of verification queries for both
+  [purchases](https://github.com/vipulnaik/diet-exercise-health/blob/master/python/food_purchases_verification_queries.py)
+  and [preparations and
+  openings](https://github.com/vipulnaik/diet-exercise-health/blob/master/python/food_preparations_and_openings_verification_queries.py). These
+  queries run automatically as part of the make commands I run to
+  reload data after any data entry. This allows me to catch cases
+  where my nutritional profile and food choices are deviating
+  meaningfully from what I expect; in some cases, this information
+  leads me to take action, whereas in others, it's an expected
+  consequence of situational factors I am already aware of.
+
+* I'm thinking of eventually making an interface for easier historical
+  comparison of food consumption, but the verification queries (see
+  preceding point) are good enough for now so I may not get around to
+  making the interface in the near future.
