@@ -606,6 +606,13 @@ The timeline was originally written by [[User:Vipul|Vipul]] on Wikipedia at {{w|
 
 === What the timeline is still missing ===
 
+* Speed and index size for search queries:
+** https://www.thinkwithgoogle.com/future-of-marketing/digital-transformation/the-google-gospel-of-speed-urs-hoelzle/
+** https://www.quora.com/Why-does-Google-still-display-the-search-time-in-the-results-page
+** https://searchengineland.com/google-hides-search-results-count-under-tools-section-440299
+* Environmental cost of search
+** https://qz.com/1267709/every-google-search-results-in-co2-emissions-this-real-time-dataviz-shows-how-much (linked from next point as well)
+** https://qz.com/1267709/every-google-search-results-in-co2-emissions-this-real-time-dataviz-shows-how-much and linked stuff
 * Join and leave dates, and key contributions and philosophy, of: Marissa Mayer, Krishna Bharat (no leave date), Amit Singhal (leave date covered)
 * Evolution of "I'm Feeling Lucky"
 * The ChatGPT effect
