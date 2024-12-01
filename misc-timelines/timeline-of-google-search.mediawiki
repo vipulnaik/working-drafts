@@ -586,6 +586,19 @@ The chart below shows pageviews of the English Wikipedia article {{w|Google Sear
 
 [[File:Google Search wv.jpg|thumb|center|600px]]
 
+== Meta information on the timeline ==
+
+=== How the timeline was built ===
+
+The timeline was originally written by [[User:Vipul|Vipul]] on Wikipedia at {{w|Timeline of Google Search}}. It was subsequently expanded by both Vipul and [[User:Sebastian|Sebastian]].
+
+=== What the timeline is still missing ===
+
+* Join and leave dates, and key contributions and philosophy, of: Marissa Mayer, Krishna Bharat (no leave date), Amit Singhal (leave date covered)
+* Stuff from https://www.blindfiveyearold.com/its-goog-enough
+* Launch of Google Webmaster Tools and later rebranding as Google Search Console
+* Whatever I can find on navboost
+
 ==See also==
 
 * [[Timeline of web search engines]]
