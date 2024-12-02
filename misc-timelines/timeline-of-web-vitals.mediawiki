@@ -39,9 +39,9 @@ Note that for the three web vitals measured in both field and Lab data, the thre
 |-
 | Total Blocking Time (TBT) || Interactivity/responsiveness || No || No || Yes (since v6) || Yes || 200 || 600
 |-
-| First Input Delay (FID) || Interactivity/responsiveness || Yes (but set to retire March 2024) || Yes || No || No || 100 || 300
+| First Input Delay (FID) || Interactivity/responsiveness || No (retired March 2024) || Yes || No || No || 100 || 300
 |-
-| Interaction to Next Paint (INP) || Interactivity/responsiveness || No (but set to become one in March 2024) || Yes || No || No || 200 || 500
+| Interaction to Next Paint (INP) || Interactivity/responsiveness || Yes (starting March 2024) || Yes || No || No || 200 || 500
 |-
 | Cumulative Layout Shift (CLS) || Visual stability || Yes || Yes || Yes || Yes || 0.1 || 0.25
 |}
