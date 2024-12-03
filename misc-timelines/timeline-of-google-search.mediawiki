@@ -606,6 +606,7 @@ The timeline was originally written by [[User:Vipul|Vipul]] on Wikipedia at {{w|
 
 === What the timeline is still missing ===
 
+* https://www.google.com/intl/en/search/howsearchworks/our-history/ -- update references to point to it (instead of old broken link) and also incorporate stuff from it that isn't covered in the timeline, such as "Did You Mean"
 * Speed and index size for search queries:
 ** https://www.thinkwithgoogle.com/future-of-marketing/digital-transformation/the-google-gospel-of-speed-urs-hoelzle/
 ** https://www.quora.com/Why-does-Google-still-display-the-search-time-in-the-results-page
