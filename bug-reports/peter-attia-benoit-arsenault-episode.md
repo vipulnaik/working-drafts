@@ -17,6 +17,10 @@ Let's say starting Lp(a) is 100 nmol/L, and starting apoB is 110 mg/dL, which wo
 
 ## Automatic reply (both shown and sent via email to me)
 
+I got this reply on 2024-12-20 around 10:41 AM PST. The reply did *not*
+include a copy of my original message, so I'm glad I saved a copy
+before submitting.
+
 Thank you for taking the time to visit Peter Attia’s site.
 
 Unfortunately, due to the high volume of inquiries that Peter and his
