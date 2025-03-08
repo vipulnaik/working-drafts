@@ -125,7 +125,7 @@ hard to remember. So every morning, when I open my laptop, I remember
 
 It generally takes me about 5-20 iterations to fully internalize the
 execution of a trigger-based checklist. If a checklist is executed
-about once a week, this translates to about 5-20 days, or about 1-3
+about once a day, this translates to about 5-20 days, or about 1-3
 weeks.
 
 The first part to internalize is the act of identifying the trigger
