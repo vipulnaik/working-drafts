@@ -37,5 +37,5 @@ Boxes checked:
 * We may email you for more information and updates
 * Include this screenshot and titles of open tabs
 * Send system information (I clicked the link and confirmed that this
-  includes he Chrome version on the laptop and a few select Chrome
+  includes the Chrome version on the laptop and a few select Chrome
   settings)
