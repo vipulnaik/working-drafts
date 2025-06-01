@@ -9,7 +9,7 @@ This is a timeline of web vitals, a set of metrics championed by Google that rel
 |-
 | 2007{{snd}}2015 || This period sees the emergence of diagnostic tools and web standards that help diagnose page load speed. This is also the period where some initial concepts such as "speed index" and "performance budgets" start getting fleshed out.
 |-
-| 2016{{snd}}2018 || This period sees the emergence of systematic datasets covering web performance for a wide range of websites, including the HTTP Archive (that uses Lab data) and the Chrome User Expeience Report (CrUX) that uses field data collected anonymously from Chrome users. It also sees the growth of public diagnostic tools for site performance, including Lighthouse, that is integrated into Chrome's Developer Tools.
+| 2016{{snd}}2018 || This period sees the emergence of systematic datasets covering web performance for a wide range of websites, including the HTTP Archive (that uses Lab data) and the Chrome User Experience Report (CrUX) that uses field data collected anonymously from Chrome users. It also sees the growth of public diagnostic tools for site performance, including Lighthouse, that is integrated into Chrome's Developer Tools.
 |-
 | 2019 || This is the year when Google starts getting more directly involved with improving site performance, with communication being done via a bunch of blog posts on web.dev. During this year, the understanding of site performance is expanded to include visual stability (epitomized by Cumulative Layout Shift (CLS)). Previously the focus had been on loading speed and interactivity/responsiveness.
 |-
