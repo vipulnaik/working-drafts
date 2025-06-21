@@ -89,7 +89,6 @@ This is a timeline of {{w|Bay Area Rapid Transit}} (BART), a mass rapid transit 
 | 2024 || January 1 || 2.30 || 6.75 || 5.5% || June 2023
 |}
 
-
 == Full timeline ==
 
 === Inclusion criteria ===
@@ -635,7 +634,7 @@ BART board may fire Dorothy Dugger|last = Cabanatuan|first = Michael|date = Febr
 |-
 | 2024 || March 21 || Fare evasion || SFGATE reporter Alex Regimbal describes his experience trying (with BART's consent) to get through (without paying) the more secure fare gates at West Oakland station. He identifies two methods: sliding under the gate, and piggybacking (tailgating) on a previous fare payer. According to him, BART is already working on ways to address the latter. His overall conclusion: "No transit gates in the world are 100% immune to fare evasion, but after spending about 40 minutes playing around with the gates at the West Oakland station, I would say they’re probably as effective as it gets. [...] It may technically be possible to beat the gates, but on my way home from the field test on Friday, I mostly wondered about the cleanliness of the BART floors. Personally, I think I’ll stick to paying the fare. Sliding around on one station floor was enough for me. "<ref>{{cite web|url = https://www.sfgate.com/bayarea/article/tried-to-skip-fare-on-bart-new-unbeatable-gates-19203724.php|title = I tried to get through BART's new unbeatable fare gates. Here's how it went. BART invited SFGATE reporter Alec Regimbal to try to skip the fare at the agency's new fare gates, which are designed to curb fare evasion|date = March 21, 2024|accessdate = April 13, 2024|last = Regimbal|first = Alex|publisher = SFGATE}}</ref>
 |-
-| 2024 || April 9 || Parking || BART announces that it is moving forward with the planned sunsetting of its EZ Rider program; with riders encouraged to transition to Tap and Go Parking on the BART official app.<ref>{{cite web|url = https://www.bart.gov/news/articles/2024/news20240409|title = EZ Rider Program sunset & transition to Tap and Go Parking|date = April 9, 2024|accessdate = April 13, 2024|publisher = Bay Area Rapid Transit}}</ref>
+| 2024 || April 9 || Parking || BART announces that it is moving forward with the planned sunsetting of its EZ Rider program, with riders encouraged to transition to Tap and Go Parking on the BART official app.<ref>{{cite web|url = https://www.bart.gov/news/articles/2024/news20240409|title = EZ Rider Program sunset & transition to Tap and Go Parking|date = April 9, 2024|accessdate = April 13, 2024|publisher = Bay Area Rapid Transit}}</ref>
 |}
 
 == Numerical and visual data  ==
@@ -714,7 +713,18 @@ The chart below shows {{w|Google Ngram Viewer}} data for Bay Area Rapid Transit,
 
 [[File:Bart ngram.jpeg|thumb|center|800px]]
 
-== Feedback and comments ==
+== Meta information on the timeline ==
+
+=== How the timeline was built ===
+
+The timeline was written primarily by [[User:Vipul|Vipul]]. Some contributions were made by [[User:Sebastian|Sebastian Sanchez]].
+
+=== What the timeline is still missing ===
+
+* [https://www.bart.gov/about/projects/traincontrol Train Control Modernization] (there are several milestones for this project)
+* [https://www.bart.gov/about/projects/legacy Legacy Fleet Decommissioning]
+
+=== Feedback and comments ===
 
 The timeline was posted in the following Facebook groups: Fans of BART - Bay Area Rapid Transit [https://www.facebook.com/groups/1479703232264580/permalink/2504304849804408/]
 
