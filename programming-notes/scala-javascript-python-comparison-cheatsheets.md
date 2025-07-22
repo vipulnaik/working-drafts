@@ -56,7 +56,7 @@ return an array that is the subsequence of `myList` that satisfies condition `my
 (REVIEW NEEDED) return the first index in `myList` where the element satisfies `myCond` | `myList.indexWhere(myCond)` | `myList.findIndex(myCond)` | ??
 (REVIEW NEEDED) return the indices in `myList` that satisfy `myCond` | `myCond.zipWithIndex.filter{case (a,b) => myCond(a)}.map(_._2)` | ?? | ??
 (REVIEW NEEDED) list of integers from 1 to `n` (`n` a predefined positive integer) | `(1 to n).toList` | `[...Array(n).keys()].map(i => i + 1)` | `list(range(1, n + 1))`
-(REVIEW NEEDED) index of first occurrence of element `myElem` in list `myList` | `myList.indexOf(myElem)` (returns -1 if not present) | `myList.indexOf(myElem)` (returns -1 if not present) | `myList.index(myElem)` (raises `ValueError` if not present)
+(REVIEW NEEDED) index of first occurrence of element `myElem` in list `myList` | `myList.indexOf(myElem)` (returns -1 if not present) | `myList.indexOf(myElem)` (returns -1 if not present) | `myList.find(myElem)` (returns -1 if not present), `myList.index(myElem)` (raises `ValueError` if not present)
 
 ## String cheatsheet
 
