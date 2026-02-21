@@ -1177,7 +1177,7 @@ provides, and its old definition of Sophie Germain prime.
 > the reason you originally provided for it being a Sophie Germain
 > prime was wrong?
 
-> ChatGPT: No, 41 is not a Sophie Germain prime.
+> ChatGPT: **No, 41 is not a Sophie Germain prime.**
 
 > A Sophie Germain prime is a prime number p such that 2p + 1 is also
 > a prime number. In other words, a Sophie Germain prime is a prime
@@ -1276,7 +1276,7 @@ repeated its hollow apology while doubling down on its mistake.
 
 > Vipul: ok, so is 41 a Sophie Germain prime?
 
-> ChatGPT: No, 41 is not a Sophie Germain prime.
+> ChatGPT: **No, 41 is not a Sophie Germain prime.**
 
 > A Sophie Germain prime is a prime number p such that 2p + 1 is also
 > a prime number. In other words, a Sophie Germain prime is a prime
