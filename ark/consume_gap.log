@@ -1,0 +1,158 @@
+17:22:50  stage 1: 517 raw -> 57 kept (40 Oliver, 17 p-groups)
+17:22:50  stage 2: 5/57 groups, 8 classes
+17:22:50  stage 2: 10/57 groups, 16 classes
+17:22:50  stage 2: 15/57 groups, 26 classes
+17:22:50  stage 2: 20/57 groups, 36 classes
+17:22:51  stage 2: 25/57 groups, 44 classes
+17:22:51  stage 2: 30/57 groups, 92 classes
+17:22:51  stage 2: 35/57 groups, 174 classes
+17:22:51  stage 2: 40/57 groups, 218 classes
+17:22:51  stage 2: 45/57 groups, 394 classes
+17:22:52  stage 2: 50/57 groups, 394 classes
+17:22:52  stage 2: 55/57 groups, 428 classes
+17:22:52  stage 2: 57/57 groups, 428 classes
+17:22:52  stage 2 complete: 428 classes
+17:24:35  stage 3: row 3/428
+17:25:46  stage 3: row 6/428
+17:25:48  stage 3: row 9/428
+17:26:24  stage 3: row 12/428
+17:27:01  stage 3: row 15/428
+17:28:12  stage 3: row 18/428
+17:29:16  stage 3: row 21/428
+17:30:24  stage 3: row 24/428
+17:32:52  stage 3: row 27/428
+17:35:23  stage 3: row 30/428
+17:37:13  stage 3: row 33/428
+17:41:06  stage 3: row 36/428
+17:42:39  stage 3: row 39/428
+17:44:50  stage 3: row 42/428
+17:46:31  stage 3: row 45/428
+17:46:34  stage 3: row 48/428
+17:58:20  stage 3: row 51/428
+18:02:46  stage 3: row 54/428
+18:03:39  stage 3: row 57/428
+18:04:08  stage 3: row 60/428
+18:04:35  stage 3: row 63/428
+18:07:11  stage 3: row 66/428
+18:08:13  stage 3: row 69/428
+18:10:11  stage 3: row 72/428
+18:10:30  stage 3: row 75/428
+18:11:19  stage 3: row 78/428
+18:14:48  stage 3: row 81/428
+18:41:47  stage 3: row 84/428
+18:41:48  stage 3: row 87/428
+18:48:06  stage 3: row 90/428
+18:48:19  stage 3: row 93/428
+18:48:22  stage 3: row 96/428
+18:48:24  stage 3: row 99/428
+18:52:30  stage 3: row 102/428
+18:55:24  stage 3: row 105/428
+18:56:31  stage 3: row 108/428
+18:56:59  stage 3: row 111/428
+18:58:15  stage 3: row 114/428
+18:59:06  stage 3: row 117/428
+18:59:17  stage 3: row 120/428
+19:00:09  stage 3: row 123/428
+19:06:02  stage 3: row 126/428
+19:07:50  stage 3: row 129/428
+19:08:40  stage 3: row 132/428
+19:10:09  stage 3: row 135/428
+19:10:39  stage 3: row 138/428
+19:10:43  stage 3: row 141/428
+19:11:55  stage 3: row 144/428
+19:13:00  stage 3: row 147/428
+19:16:21  stage 3: row 150/428
+19:17:02  stage 3: row 153/428
+19:17:45  stage 3: row 156/428
+19:18:47  stage 3: row 159/428
+19:19:31  stage 3: row 162/428
+19:20:02  stage 3: row 165/428
+19:20:18  stage 3: row 168/428
+19:21:28  stage 3: row 171/428
+19:23:13  stage 3: row 174/428
+19:23:42  stage 3: row 177/428
+19:24:29  stage 3: row 180/428
+19:25:53  stage 3: row 183/428
+19:27:13  stage 3: row 186/428
+19:27:43  stage 3: row 189/428
+19:27:49  stage 3: row 192/428
+19:28:51  stage 3: row 195/428
+19:29:05  stage 3: row 198/428
+19:29:57  stage 3: row 201/428
+19:31:24  stage 3: row 204/428
+19:32:20  stage 3: row 207/428
+19:33:03  stage 3: row 210/428
+19:33:10  stage 3: row 213/428
+19:33:29  stage 3: row 216/428
+19:34:03  stage 3: row 219/428
+19:34:19  stage 3: row 222/428
+19:34:25  stage 3: row 225/428
+19:34:27  stage 3: row 228/428
+19:34:39  stage 3: row 231/428
+19:34:55  stage 3: row 234/428
+19:35:33  stage 3: row 237/428
+19:35:56  stage 3: row 240/428
+19:35:57  stage 3: row 243/428
+19:36:10  stage 3: row 246/428
+19:36:58  stage 3: row 249/428
+19:37:30  stage 3: row 252/428
+19:37:52  stage 3: row 255/428
+19:39:35  stage 3: row 258/428
+19:41:21  stage 3: row 261/428
+19:41:24  stage 3: row 264/428
+19:43:57  stage 3: row 267/428
+19:44:27  stage 3: row 270/428
+19:45:37  stage 3: row 273/428
+19:47:42  stage 3: row 276/428
+19:49:24  stage 3: row 279/428
+19:50:20  stage 3: row 282/428
+19:50:51  stage 3: row 285/428
+19:51:17  stage 3: row 288/428
+19:51:21  stage 3: row 291/428
+19:51:29  stage 3: row 294/428
+19:52:30  stage 3: row 297/428
+19:53:57  stage 3: row 300/428
+19:54:44  stage 3: row 303/428
+19:55:17  stage 3: row 306/428
+19:55:34  stage 3: row 309/428
+19:56:50  stage 3: row 312/428
+19:57:30  stage 3: row 315/428
+19:58:38  stage 3: row 318/428
+20:01:23  stage 3: row 321/428
+20:03:04  stage 3: row 324/428
+20:04:16  stage 3: row 327/428
+20:04:26  stage 3: row 330/428
+20:04:27  stage 3: row 333/428
+20:05:33  stage 3: row 336/428
+20:06:02  stage 3: row 339/428
+20:07:37  stage 3: row 342/428
+20:08:56  stage 3: row 345/428
+20:09:14  stage 3: row 348/428
+20:09:50  stage 3: row 351/428
+20:11:02  stage 3: row 354/428
+20:12:04  stage 3: row 357/428
+20:13:13  stage 3: row 360/428
+20:14:49  stage 3: row 363/428
+20:15:41  stage 3: row 366/428
+20:16:13  stage 3: row 369/428
+20:16:53  stage 3: row 372/428
+20:17:27  stage 3: row 375/428
+20:17:45  stage 3: row 378/428
+20:19:09  stage 3: row 381/428
+20:20:04  stage 3: row 384/428
+20:21:42  stage 3: row 387/428
+20:23:17  stage 3: row 390/428
+20:24:25  stage 3: row 393/428
+20:26:07  stage 3: row 396/428
+20:29:33  stage 3: row 399/428
+20:31:47  stage 3: row 402/428
+20:32:14  stage 3: row 405/428
+20:33:29  stage 3: row 408/428
+20:37:27  stage 3: row 411/428
+20:38:55  stage 3: row 414/428
+20:39:39  stage 3: row 417/428
+20:41:39  stage 3: row 420/428
+20:43:59  stage 3: row 423/428
+20:46:05  stage 3: row 426/428
+20:47:10  stage 3: row 428/428
+20:47:10  stage 3 complete
