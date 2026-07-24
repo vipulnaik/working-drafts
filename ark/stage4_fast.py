@@ -120,10 +120,23 @@ for gi in range(len(ALLG)):
         sys.exit()
 
 unknowns = [i for i in range(V) if x[i] is None]
-prio = {}
-for gi, g in enumerate(ALLG):
-    for c in g['classes']: prio.setdefault(c, gi)
-unknowns.sort(key=lambda i: (prio.get(i, 10**9), -edges[i]))
+# greedy group-completion ordering: repeatedly take the group with the fewest
+# still-unplaced classes and append them, so whole lattices close as early as
+# possible and harsh conditions (chi=1-exact, acyclicity) prune high in the
+# tree instead of thrashing at the bottom.
+placed = set(i for i in range(V) if x[i] is not None)
+ordered = []
+remaining = set(range(len(ALLG)))
+while remaining:
+    gi = min(remaining,
+             key=lambda g: (sum(1 for c in ALLG[g]['classes'] if c not in placed),
+                            len(ALLG[g]['classes'])))
+    for c in sorted(ALLG[gi]['classes'], key=lambda c: -edges[c]):
+        if c not in placed:
+            placed.add(c); ordered.append(c)
+    remaining.discard(gi)
+ordered += [i for i in unknowns if i not in set(ordered)]
+unknowns = [i for i in ordered if x[i] is None]
 log(f"stage4_fast: {len(oliver)} Oliver + {len(psub)} p-groups, V={V}, "
     f"free={len(unknowns)}")
 
@@ -141,10 +154,15 @@ def assign(i, val, changed):
             if x[j] != v: return False
             continue
         x[j] = v; changed.append(j)
+        zeroed = []
         for gi in touch[j]:
             pend[gi] -= 1
-            if pend[gi] == 0 and not group_ok(gi, x):
-                return False
+            if pend[gi] == 0: zeroed.append(gi)
+        # checks AFTER the decrement loop completes: an early return mid-loop
+        # would desynchronize pend from undo() (which re-increments all of
+        # touch[j]) -- this was the bug that skipped most group checks
+        for gi in zeroed:
+            if not group_ok(gi, x): return False
         if v == 1:
             for h in range(V):
                 if order[h][j] and x[h] != 1:
@@ -172,9 +190,13 @@ def dfs(k):
     while k < len(unknowns) and x[unknowns[k]] is not None: k += 1
     maxdepth[0] = max(maxdepth[0], k)
     if k == len(unknowns):
+        # belt and braces: verify EVERY group at the leaf (memoized, cheap)
+        if not all(group_ok(gi, x) for gi in range(len(ALLG))):
+            log("WARNING: leaf reached with failing group -- bookkeeping bug")
+            return
         sols[0] += 1
         for i in range(V): seen[i].add(x[i])
-        if args.first: log("first solution found (SAT)")
+        if args.first: log("first VERIFIED solution found (SAT)")
         return
     i = unknowns[k]
     for val in (0, 1):
@@ -207,6 +229,8 @@ with open('csp_result.txt', 'w') as f:
         if sols[0]:
             fin  = [i for i in range(V) if seen[i] == {1}]
             fout = [i for i in range(V) if seen[i] == {0}]
-            out(f"forced IN : {len(fin)} classes, edges {sorted(edges[i] for i in fin)}")
-            out(f"forced OUT: {len(fout)} classes, edges {sorted(edges[i] for i in fout)}")
+            label = "(single solution's assignment)" if args.first or sols[0] == 1 \
+                    else "(backbone over all solutions)"
+            out(f"IN  {label}: {len(fin)} classes, edges {sorted(edges[i] for i in fin)}")
+            out(f"OUT {label}: {len(fout)} classes, edges {sorted(edges[i] for i in fout)}")
 log("done; see csp_result.txt")
