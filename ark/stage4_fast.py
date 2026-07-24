@@ -30,14 +30,31 @@ ap.add_argument('--first', action='store_true', help='stop at first solution')
 ap.add_argument('--cap', type=int, default=100000)
 args = ap.parse_args()
 
-groups = pickle.load(open('ckpt_groups.pkl', 'rb'))
-st = pickle.load(open('ckpt_catalog.pkl', 'rb'))
-cat = st['cat']
-st = pickle.load(open('ckpt_order.pkl', 'rb'))
-order = st['order']
+gst = pickle.load(open('ckpt_groups.pkl', 'rb'))
+cst = pickle.load(open('ckpt_catalog.pkl', 'rb'))
+# v2 checkpoints store dicts with signatures; groups WITH uc maps live in the
+# catalog checkpoint.  v1 stored a bare list in ckpt_groups.
+if isinstance(cst, dict) and 'groups' in cst:
+    groups = cst['groups']
+elif isinstance(gst, dict):
+    groups = gst['groups']
+else:
+    groups = gst
+if isinstance(cst, dict) and isinstance(gst, dict) and 'sig' in cst and 'sig' in gst:
+    assert cst['sig'] == gst['sig'], "checkpoint signature mismatch -- rerun consume_gap.py"
+cat = cst['cat']
+ost = pickle.load(open('ckpt_order.pkl', 'rb'))
+if 'order' in ost:
+    order = ost['order']
+else:
+    rows = ost['rows']; Vv = ost['V']
+    assert len(rows) == Vv, "order matrix incomplete -- rerun consume_gap.py stage 3"
+    order = [rows[a] for a in range(Vv)]
+if isinstance(cst, dict) and 'sig' in cst and 'sig' in ost:
+    assert ost['sig'] == cst['sig'], "order matrix from a different selection -- rerun consume_gap.py"
 V = len(order)
 edges = [cat.reps[i].number_of_edges() for i in range(V)]
-assert st['row'] == V, "order matrix incomplete -- rerun consume_gap.py stage 3"
+assert all('uc' in g for g in groups), "groups lack lattice maps -- rerun consume_gap.py stage 2"
 
 LOG = open('stage4_fast.log', 'a')
 def log(msg):
