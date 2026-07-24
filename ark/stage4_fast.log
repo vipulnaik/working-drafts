@@ -1,3 +1,6 @@
 21:30:19  stage4_fast: 40 Oliver + 17 p-groups, V=428, free=426
 21:30:19  first solution found (SAT)
 21:30:19  done; see csp_result.txt
+22:15:06  stage4_fast: 40 Oliver + 17 p-groups, V=428, free=426
+22:15:06  first VERIFIED solution found (SAT)
+22:15:06  done; see csp_result.txt
