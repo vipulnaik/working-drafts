@@ -156,3 +156,11 @@
 20:46:05  stage 3: row 426/428
 20:47:10  stage 3: row 428/428
 20:47:10  stage 3 complete
+22:16:47  stage 1: 756 raw -> 75 kept (40 Oliver, 35 p-groups)
+22:16:47  stage 2: resumed at group 57, catalog 428 classes
+22:16:47  stage 2: 60/75 groups, 428 classes
+22:16:47  stage 2: 65/75 groups, 594 classes
+22:16:49  stage 2: 70/75 groups, 854 classes
+22:16:50  stage 2: 75/75 groups, 992 classes
+22:16:50  stage 2 complete: 992 classes
+22:16:50  stage 3: resumed at row 428
