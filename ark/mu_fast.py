@@ -145,16 +145,17 @@ def main():
                 print(f"n={n}: fast {v} > BFS {r['mu']} -- formula found more (check!) [{w}]")
         print("validation:", "OK (fast >= BFS everywhere; discrepancies above)" if not bad else f"{bad} regressions")
         return
-    out=open('mu_table_full.csv','w')
-    out.write("n,C(n2),prime_power,mu_lower,mu_upper,density,witness\n")
-    worst=[]
-    for n in range(4,args.nmax+1):
-        N=comb(n,2)
-        v,w,ex=best_for_n(n,spf,chain_pairs)
-        up=N if ex else N//2
-        out.write(f"{n},{N},{int(ex)},{v},{up},{v/N:.4f},{w}\n")
-        if not ex: worst.append((v/N,n,v,N,w))
-    out.close()
+    import csv
+    with open('mu_table_full.csv','w',newline='') as fh:
+        cw=csv.writer(fh, quoting=csv.QUOTE_MINIMAL)
+        cw.writerow(["n","C(n2)","prime_power","mu_lower","mu_upper","density","witness"])
+        worst=[]
+        for n in range(4,args.nmax+1):
+            N=comb(n,2)
+            v,w,ex=best_for_n(n,spf,chain_pairs)
+            up=N if ex else N//2
+            cw.writerow([n,N,int(ex),v,up,f"{v/N:.4f}",w])
+            if not ex: worst.append((v/N,n,v,N,w))
     worst.sort()
     print("weakest 15 composites (density, n, mu_lower, C(n,2), witness):")
     for d,n,v,N,w in worst[:15]:
