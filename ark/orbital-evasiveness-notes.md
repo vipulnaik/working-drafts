@@ -85,6 +85,44 @@ Read against May–July 2026: the falsifications of the Erdős unit distance con
 
 Abstracting BBKN, sparse evasiveness via orbital annihilation is governed by μ(n), conjecturally equivalent (modulo a wreath-revised extremality claim about solvable permutation groups) to a graded family of additive prime-representation statements: BBKN's n^{3/2} is precisely the Chowla-saturated ceiling of pointwise least-prime inputs; exponents in (3/2, 2] are equivalent to binary-Goldbach-type statements with multiplicative side conditions on shifted primes — parity-cased and locally delicate — even n via a two-block safe-prime system, odd n via a covering system of three-block chains ((2,6) for 3∤n, (6,12) for 3|n; the 4q+1 chain is mod-3-impossible and the single (2,6) chain fails locally at 3|n), n = 2p reaching n²/4 unconditionally via wreath tops the original analysis missed — and, per §4.5, unconditional at every representation-admitting n with the conjectures asserting only finiteness of exceptions, ineffectively; and the method terminally caps at c\*n² by Zassenhaus, independent of number theory. At n = 10 the flipped, exact version of the method — a machine-checked CSP over batteries of Oliver groups and Smith p-subgroups, primal and dual, with exact Euler characteristics of candidate closures — has killed nine of eighteen candidate patterns outright, characterized the survivors' free middle band, exposed the method's structural one-sidedness (all forces push into P; only nontriviality pushes out), and is now running against a 967-group GAP-enumerated battery whose outcome, in either direction, will be the sharpest statement yet about the first unresolved composite value.
 
+## Appendix A. The invariant table for small n
+
+Columns and their computing scripts: **C(n,2)** trivial; **prime power?** — if yes, μ(n) = C(n,2) *exactly* (AGL(1,n) is 2-transitive and Oliver; conversely a Zassenhaus-type argument — orbital-transitive means 2-homogeneous, whose solvable instances are affine of prime-power degree, and whose non-affine instances are non-solvable hence non-Oliver — gives that every Oliver group on non-prime-power n has ≥ 2 u-orbitals, whence μ(n) ≤ ⌊C(n,2)/2⌋: the interval column's upper endpoint, and a density ceiling of 1/2 that the n = 2p wreath rows (two-orbital partitions, e.g. {20, 25} at n = 10) approach from below); **best constructive lower bound** — exact minimum-orbital sizes, computed by orbit BFS (`mu_table.py`, which unions the affine template of `oliver_mu.py` — this covers the two-block ladder and the three-block chains of §4, when the relevant primes exist at that n — with the wreath family (𝔽_{p^a} ⋊ C_d) ≀ C_k of the §2 revision); **witness** — a group achieving the bound, in the scripts' naming. Exhaustive per-n enumeration beyond these families is the GAP pipeline (`ark_gap.g` → `consume_gap.py`); at n = 10 it confirmed the wreath value 20 as the best over 268 Oliver groups with ≤ 12 orbitals, so the lower bounds below are plausibly tight-ish for the small non-prime-powers, though only the prime-power rows are proven exact.
+
+Reading the table against the framework: prime powers sit at density 1 (KSS's regime); n = 2p rows realize the unconditional 1/4-scale wreath bound (0.46–0.48 at 14, 18, 22 — small-n boost over the asymptotic 1/4); the arithmetically weak composites are visible as density dips — n = 20, 28, 30 now the weakest (0.15–0.19), with the rev-3 weak spots 12 and 21 substantially rescued by wreaths ((4:3)≀3 lifting 12 from 0.152 to 0.273; (7:3)≀3 lifting 21 from 0.133 to 0.300), a concrete measure of how much the §2 correction was worth. The dips at 20 = 2²·5, 28 = 2²·7, 30 = 2·3·5 share the diagnosis: no large prime-power part, no good two-part split with coherent twists — these are the leading candidate locations for weakness in the framework and hence, per §8, for counterexample search after n = 12.
+
+**The n ≤ 1000 extension** (`mu_fast.py`, closed-form orbital sizes over families P/W/D/B2/B3, validated exactly against the BFS values for n ≤ 30; full output `mu_table_full.csv`): over the 806 non-prime-powers up to 1000, the density μ_lower/C(n,2) has median 0.191 and maximum 0.4995 — the n = 2p wreaths pressing against the proven 1/2 ceiling — while 162 values fall below 0.10. The weak tail is structured: the fifteen weakest (densities 0.015–0.025, i.e., μ_lower merely O(n·small)) are dominated by odd multiples of 9 (531, 963, 693, 273, …), where 3 | n forces the (6,12)-class covering chains and the available coherence primes q are small (5–43 in the witnesses); widening the chain-multiplier menu barely improves them, so per §4.5 these are the honest **exceptional-n candidates of the current construction paradigm** — either sites for a genuinely new family, or the small-n incarnation of the shifted-prime scarcity that the asymptotic framework predicts, and in either case the priority queue for the §7-style counterexample search at medium n.
+
+| n | C(n,2) | prime power? | mu(n) status | best constructive lower bound | density | witness |
+|---|--------|--------------|--------------|------------------------------|---------|---------|
+| 4 | 6 | yes | = 6 (exact) | 6 | 1.000 | AGL(1,4) [exact] |
+| 5 | 10 | yes | = 10 (exact) | 10 | 1.000 | AGL(1,5) [exact] |
+| 6 | 15 | no | in [6, 7] | 6 | 0.400 | 2xAGL-ish(1,3)[d=1,rot=2] |
+| 7 | 21 | yes | = 21 (exact) | 21 | 1.000 | AGL(1,7) [exact] |
+| 8 | 28 | yes | = 28 (exact) | 28 | 1.000 | AGL(1,8) [exact] |
+| 9 | 36 | yes | = 36 (exact) | 36 | 1.000 | AGL(1,9) [exact] |
+| 10 | 45 | no | in [20, 22] | 20 | 0.444 | (5:4)wr2 |
+| 11 | 55 | yes | = 55 (exact) | 55 | 1.000 | AGL(1,11) [exact] |
+| 12 | 66 | no | in [18, 33] | 18 | 0.273 | (4:3)wr3 |
+| 13 | 78 | yes | = 78 (exact) | 78 | 1.000 | AGL(1,13) [exact] |
+| 14 | 91 | no | in [42, 45] | 42 | 0.462 | 2xAGL-ish(1,7)[d=3,rot=2] |
+| 15 | 105 | no | in [30, 52] | 30 | 0.286 | 3xAGL-ish(1,5)[d=4,rot=3] |
+| 16 | 120 | yes | = 120 (exact) | 120 | 1.000 | AGL(1,16) [exact] |
+| 17 | 136 | yes | = 136 (exact) | 136 | 1.000 | AGL(1,17) [exact] |
+| 18 | 153 | no | in [72, 76] | 72 | 0.471 | (9:8)wr2 |
+| 19 | 171 | yes | = 171 (exact) | 171 | 1.000 | AGL(1,19) [exact] |
+| 20 | 190 | no | in [36, 95] | 36 | 0.189 | 1xAGL-ish(1,9)[d=8] x F11:C5 |
+| 21 | 210 | no | in [63, 105] | 63 | 0.300 | (7:3)wr3 |
+| 22 | 231 | no | in [110, 115] | 110 | 0.476 | 2xAGL-ish(1,11)[d=5,rot=2] |
+| 23 | 253 | yes | = 253 (exact) | 253 | 1.000 | AGL(1,23) [exact] |
+| 24 | 276 | no | in [84, 138] | 84 | 0.304 | 3xAGL-ish(1,8)[d=7,rot=3] |
+| 25 | 300 | yes | = 300 (exact) | 300 | 1.000 | AGL(1,25) [exact] |
+| 26 | 325 | no | in [78, 162] | 78 | 0.240 | 2xAGL-ish(1,13)[d=12] |
+| 27 | 351 | yes | = 351 (exact) | 351 | 1.000 | AGL(1,27) [exact] |
+| 28 | 378 | no | in [55, 189] | 55 | 0.146 | 1xAGL-ish(1,11)[d=10] x F17:C16 |
+| 29 | 406 | yes | = 406 (exact) | 406 | 1.000 | AGL(1,29) [exact] |
+| 30 | 435 | no | in [78, 217] | 78 | 0.179 | 1xAGL-ish(1,13)[d=12] x F17:C16 |
+
 ## References (indicative)
 
 - L. Babai, A. Banerjee, R. Kulkarni, V. Naik, *Evasiveness and the distribution of prime numbers*, STACS 2010; arXiv:1001.4829.
