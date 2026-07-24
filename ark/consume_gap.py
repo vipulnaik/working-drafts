@@ -95,7 +95,7 @@ def main():
     SIG = selection_sig(groups)
     if os.path.exists('ckpt_groups.pkl'):
         st = pickle.load(open('ckpt_groups.pkl', 'rb'))
-        if st.get('sig') == SIG:
+        if isinstance(st, dict) and st.get('sig') == SIG:
             groups = st['groups']
             log(f"stage 1: checkpoint matches selection ({len(groups)} groups)")
         else:
@@ -112,7 +112,7 @@ def main():
     rebuild = True
     if os.path.exists('ckpt_catalog.pkl'):
         st = pickle.load(open('ckpt_catalog.pkl', 'rb'))
-        if st.get('sig') == SIG:
+        if isinstance(st, dict) and st.get('sig') == SIG:
             cat, gidx = st['cat'], st['gidx']
             groups = st['groups']          # carries uc maps computed so far
             rebuild = False
@@ -143,7 +143,7 @@ def main():
     done_rows = {}
     if os.path.exists('ckpt_order.pkl'):
         st = pickle.load(open('ckpt_order.pkl', 'rb'))
-        if st.get('sig') == SIG and st.get('V') == V:
+        if isinstance(st, dict) and st.get('sig') == SIG and st.get('V') == V:
             done_rows = st['rows']
             log(f"stage 3: resumed with {len(done_rows)}/{V} rows")
         else:
