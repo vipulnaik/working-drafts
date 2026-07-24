@@ -18,7 +18,15 @@ import sys, os, pickle, time, argparse, itertools, hashlib
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-PAIRS = list(itertools.combinations(range(10), 2))
+def detect_N(infile):
+    for line in open(infile):
+        line=line.strip()
+        if line:
+            L=len(line.split('|')[3].split(','))
+            N=int((1+(1+8*L)**.5)/2)
+            assert N*(N-1)//2==L, "orbmap length is not a triangular number"
+            return N
+    raise SystemExit("empty groups file")
 CKPT_EVERY = 5
 CKPT_ROWS = 8
 
@@ -57,6 +65,11 @@ def main():
     import networkx as nx  # noqa
     from ark_intersect import Catalog
 
+    N = detect_N(args.infile)
+    PAIRS = list(itertools.combinations(range(N), 2))
+    NPAIRS = len(PAIRS)
+    log(f"detected n = {N} ({NPAIRS} pairs)")
+
     # ---------------- stage 1 ----------------
     def build_selection():
         raw = []
@@ -67,7 +80,7 @@ def main():
             omap = [int(x) - 1 for x in om.split(',')]
             t = max(omap) + 1
             if t > args.maxt: continue
-            orbs = [frozenset(PAIRS[i] for i in range(45) if omap[i] == o)
+            orbs = [frozenset(PAIRS[i] for i in range(NPAIRS) if omap[i] == o)
                     for o in range(t)]
             raw.append(dict(key=key, desc=desc, tag=tag, t=t, orbs=orbs,
                             mstar=min(len(o) for o in orbs)))
@@ -75,7 +88,7 @@ def main():
         dedup = []
         for g in raw:
             deg = tuple(sorted(tuple(sorted(sum(1 for p in o if u in p)
-                        for o in g['orbs'])) for u in range(10)))
+                        for o in g['orbs'])) for u in range(N)))
             sig = (g['t'], tuple(sorted(len(o) for o in g['orbs'])), g['tag'], deg)
             if sig in seen: continue
             seen[sig] = True
@@ -121,7 +134,7 @@ def main():
             log("stage 2: signature mismatch -> rebuilding catalog (and order matrix)")
             if os.path.exists('ckpt_order.pkl'): os.remove('ckpt_order.pkl')
     if rebuild:
-        cat = Catalog(10); gidx = 0
+        cat = Catalog(N); gidx = 0
     while gidx < len(groups):
         g = groups[gidx]
         uc = {}

@@ -104,10 +104,12 @@ def group_ok(gi, x):
     return ok
 
 # ---- initial pinning + propagation --------------------------------------
+NVERT = cat.reps[0].number_of_nodes()
+NFULL = NVERT * (NVERT - 1) // 2
 x = [None] * V
 x[cat.classify(set())] = 1
 for i in range(V):
-    if edges[i] == 45: x[i] = 0
+    if edges[i] == NFULL: x[i] = 0
 pend = [sum(1 for c in ALLG[gi]['classes'] if x[c] is None) for gi in range(len(ALLG))]
 
 def full_prop():
@@ -213,6 +215,8 @@ def dfs(k):
             return
         sols[0] += 1
         for i in range(V): seen[i].add(x[i])
+        if sols[0] == 1:
+            pickle.dump(dict(x=list(x)), open('solution1.pkl', 'wb'))
         if args.first: log("first VERIFIED solution found (SAT)")
         return
     i = unknowns[k]

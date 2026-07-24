@@ -1,4 +1,5 @@
-# ark_gap.g -- enumerate permutation groups on [1..10] for the ARK-at-10 CSP.
+# ark_gap.g -- enumerate permutation groups on [1..N] for the ARK CSP
+# (N set below; tested at 10, designed for 12).
 #
 # Output: one line per group in groups_out.txt, format
 #     KEY|DESC|OLIVERQ|ORBMAP
@@ -23,6 +24,7 @@
 #   "FULL" ALL subgroup classes of S10, filtered to Oliver           HEAVY; off
 #
 # Tunables:
+N       := 12;;   # DEGREE: set 10, 12, ... (affects every stage)
 STAGES  := [ "A", "B", "B2", "C" ];;
 MAXT    := 12;;   # skip groups with more than MAXT u-orbitals (CSP cost 2^t)
 MAXPARTS:= 4;;    # stage B: max number of parts in the partition
@@ -33,9 +35,9 @@ LOGFILE := "ark_gap.log";;
 # ---------------------------------------------------------------- utilities
 LoadPackage("transgrp");   # transitive groups library; usually bundled
 
-PAIRS := Combinations([1..10], 2);;   # lexicographic, length 45
+PAIRS := Combinations([1..N], 2);;   # lexicographic, length C(N,2)
 
-CustomLog := function(msg)
+Log := function(msg)
   AppendTo(LOGFILE, String(Runtime()), "ms  ", msg, "\n");
   Print(msg, "\n");
 end;;
@@ -53,7 +55,7 @@ ReadDone := function()
 end;;
 
 DONE := ReadDone();;
-CustomLog(Concatenation("resuming with ", String(Length(RecNames(DONE))), " done keys"));
+Log(Concatenation("resuming with ", String(Length(RecNames(DONE))), " done keys"));
 
 OrbMap := function(G)
   local orbs, map, i, o, p;
@@ -119,27 +121,27 @@ EmitGroup := function(key, desc, G)
            JoinStringsWithSeparator(List(om.map, String), ","), "\n");
   AppendTo(DONEFILE, key, "\n");
   DONE.(key) := true;
-  CustomLog(Concatenation("emitted ", key, "  t=", String(om.t), "  tag=", tag));
+  Log(Concatenation("emitted ", key, "  t=", String(om.t), "  tag=", tag));
 end;;
 
 # ---------------------------------------------------------------- stage A
 if "A" in STAGES then
-  CustomLog("=== stage A: transitive groups of degree 10 ===");
-  for k in [1..NrTransitiveGroups(10)] do
+  Log("=== stage A: transitive groups of degree 10 ===");
+  for k in [1..NrTransitiveGroups(N)] do
     EmitGroup(Concatenation("A:", String(k)),
-              Concatenation("T(10,", String(k), ") order ",
-                            String(Size(TransitiveGroup(10,k)))),
-              TransitiveGroup(10, k));
+              Concatenation("T(", String(N), ",", String(k), ") order ",
+                            String(Size(TransitiveGroup(N,k)))),
+              TransitiveGroup(N, k));
   od;
-  CustomLog("stage A complete");
+  Log("stage A complete");
 fi;
 
 # ---------------------------------------------------------------- stage B
 # direct products of transitive groups over partitions of 10 (parts >= 1);
 # part of size 1 contributes the trivial group.
 if "B" in STAGES then
-  CustomLog("=== stage B: direct products over partitions ===");
-  for part in Partitions(10) do
+  Log("=== stage B: direct products over partitions ===");
+  for part in Partitions(N) do
     if Length(part) < 2 or Length(part) > MAXPARTS then continue; fi;
     # index ranges per part (size-1 parts: single trivial choice)
     ranges := List(part, d -> Maximum(1, NrTransitiveGroups(Maximum(d,2))));
@@ -158,7 +160,7 @@ if "B" in STAGES then
           for g in GeneratorsOfGroup(T) do
             Add(gens, PermList(Concatenation([1..off],
                     List([1..d], x -> off + x^g),
-                    [off+d+1..10])));
+                    [off+d+1..N])));
           od;
         fi;
         off := off + d;
@@ -168,17 +170,21 @@ if "B" in STAGES then
         Concatenation("prod ", JoinStringsWithSeparator(List(part,String),"+")),
         Group(gens));
     od;
-    CustomLog(Concatenation("stage B partition ",
+    Log(Concatenation("stage B partition ",
         JoinStringsWithSeparator(List(part,String),"+"), " done"));
   od;
-  CustomLog("stage B complete");
+  Log("stage B complete");
 fi;
 
 # ---------------------------------------------------------------- stage B2
 # imprimitive wreath products G wr H on 10 = d*r points
 if "B2" in STAGES then
-  CustomLog("=== stage B2: imprimitive wreath products ===");
-  for dr in [ [2,5], [5,2] ] do
+  Log("=== stage B2: imprimitive wreath products ===");
+  wr_pairs := [];;
+  for d in [2..N-1] do
+    if N mod d = 0 and N/d >= 2 then Add(wr_pairs, [d, N/d]); fi;
+  od;
+  for dr in wr_pairs do
     d := dr[1]; r := dr[2];
     for k in [1..NrTransitiveGroups(Maximum(d,2))] do
       for j in [1..NrTransitiveGroups(Maximum(r,2))] do
@@ -192,25 +198,25 @@ if "B2" in STAGES then
       od;
     od;
   od;
-  CustomLog("stage B2 complete");
+  Log("stage B2 complete");
 fi;
 
 # ---------------------------------------------------------------- stage C
 # all subgroups (up to Sylow-conjugacy) of each Sylow_p(S10): Smith battery
 if "C" in STAGES then
-  CustomLog("=== stage C: p-subgroups of Sylow subgroups ===");
-  S10 := SymmetricGroup(10);
-  for p in [2,3,5,7] do
+  Log("=== stage C: p-subgroups of Sylow subgroups ===");
+  SN := SymmetricGroup(N);
+  for p in Filtered(Primes, q -> q <= N) do
     key0 := Concatenation("C:", String(p), ":ALLDONE");
     if IsBound(DONE.(key0)) then
-      CustomLog(Concatenation("stage C p=", String(p), " already done"));
+      Log(Concatenation("stage C p=", String(p), " already done"));
       continue;
     fi;
-    P := SylowSubgroup(S10, p);
-    CustomLog(Concatenation("Sylow_", String(p), " order ", String(Size(P)),
+    P := SylowSubgroup(SN, p);
+    Log(Concatenation("Sylow_", String(p), " order ", String(Size(P)),
                       "; computing subgroup classes (may take a while for p=2)"));
     ccs := ConjugacyClassesSubgroups(P);
-    CustomLog(Concatenation("  ", String(Length(ccs)), " classes"));
+    Log(Concatenation("  ", String(Length(ccs)), " classes"));
     for i in [1..Length(ccs)] do
       H := Representative(ccs[i]);
       if Size(H) > 1 then
@@ -220,7 +226,7 @@ if "C" in STAGES then
       fi;
     od;
     AppendTo(DONEFILE, key0, "\n"); DONE.(key0) := true;
-    CustomLog(Concatenation("stage C p=", String(p), " complete"));
+    Log(Concatenation("stage C p=", String(p), " complete"));
   od;
 fi;
 
@@ -230,21 +236,21 @@ fi;
 # ConjugacyClassesSubgroups(S10) is not checkpointable -- if it completes,
 # per-group emission below is checkpointed as usual.
 if "FULL" in STAGES then
-  CustomLog("=== stage FULL: all subgroup classes of S10 (heavy) ===");
-  S10 := SymmetricGroup(10);
-  ccs := ConjugacyClassesSubgroups(S10);
-  CustomLog(Concatenation(String(Length(ccs)), " subgroup classes"));
+  Log("=== stage FULL: all subgroup classes of S10 (heavy) ===");
+  SN := SymmetricGroup(N);
+  ccs := ConjugacyClassesSubgroups(SN);
+  Log(Concatenation(String(Length(ccs)), " subgroup classes"));
   for i in [1..Length(ccs)] do
     H := Representative(ccs[i]);
     if Size(H) > 1 then
       EmitGroup(Concatenation("F:", String(i)),
-                Concatenation("S10 subgroup #", String(i),
+                Concatenation("SN subgroup #", String(i),
                               " order ", String(Size(H))), H);
     fi;
-    if i mod 200 = 0 then CustomLog(Concatenation("FULL progress ", String(i))); fi;
+    if i mod 200 = 0 then Log(Concatenation("FULL progress ", String(i))); fi;
   od;
-  CustomLog("stage FULL complete");
+  Log("stage FULL complete");
 fi;
 
-CustomLog("ALL SELECTED STAGES COMPLETE");
+Log("ALL SELECTED STAGES COMPLETE");
 QUIT;
