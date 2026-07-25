@@ -24,7 +24,15 @@
 #   "FULL" ALL subgroup classes of S10, filtered to Oliver           HEAVY; off
 #
 # Tunables:
-N       := 12;;   # DEGREE: set 10, 12, ... (affects every stage)
+# DEGREE: taken from the ARK_N environment variable, default 10.
+# Usage:   ARK_N=12 gap -q -o 4g /path/to/ark_gap.g     (run from the
+# per-degree working directory; all output files are written to the CWD).
+if IsBound(GAPInfo.SystemEnvironment.ARK_N) then
+  N := Int(GAPInfo.SystemEnvironment.ARK_N);;
+else
+  N := 10;;
+fi;;
+Print("ark_gap.g running with degree N = ", N, "\n");
 STAGES  := [ "A", "B", "B2", "C" ];;
 MAXT    := 12;;   # skip groups with more than MAXT u-orbitals (CSP cost 2^t)
 MAXPARTS:= 4;;    # stage B: max number of parts in the partition
