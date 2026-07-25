@@ -140,6 +140,7 @@ def solve(pin_class, pin_val, nodecap):
     unknowns = [i for i in ordered if x[i] is None]
 
     nodes = [0]; found = [False]; capped = [False]
+    tstart = time.time(); tbeat = [tstart]
 
     def assign(i, val, changed):
         stack = [(i, val)]
@@ -174,6 +175,10 @@ def solve(pin_class, pin_val, nodecap):
 
     def dfs(k):
         nodes[0] += 1
+        if time.time() - tbeat[0] > 30:
+            tbeat[0] = time.time()
+            log(f"  ... class {pin_class} pinned {pin_val}: {nodes[0]} nodes "
+                f"({nodes[0]/(time.time()-tstart):.0f}/s, cap {nodecap})")
         if nodes[0] > nodecap: capped[0] = True; return
         if found[0] or capped[0]: return
         while k < len(unknowns) and x[unknowns[k]] is not None: k += 1
@@ -197,7 +202,10 @@ def solve(pin_class, pin_val, nodecap):
 # ---- target selection ----
 if args.classes:
     targets = [int(x) for x in args.classes.split(',')]
-elif args.auto and os.path.exists('solution1.pkl'):
+elif args.auto:
+    if not os.path.exists('solution1.pkl'):
+        sys.exit("--auto requires solution1.pkl: run  python3 stage4_fast.py --first"
+                 "  on THIS battery's checkpoints first (it saves the solution).")
     solx = pickle.load(open('solution1.pkl', 'rb'))['x']
     INs = [i for i in range(V) if solx[i] == 1]
     maxIN = [i for i in INs if not any(j != i and solx[j] == 1 and order[i][j] for j in INs)]
@@ -206,6 +214,11 @@ elif args.auto and os.path.exists('solution1.pkl'):
     targets = (maxIN + minOUT)[:args.auto]
 else:
     targets = list(range(V))
+    log(f"NOTE: probing ALL {V} classes (no --classes/--auto). This is the full"
+        f" backbone sweep; at ~1 min/probe expect ~{2*V/60:.0f} hours, checkpointed.")
+
+log(f"targets ({len(targets)}): " + ", ".join(
+    f"{c}(e={edges[c]})" for c in targets[:25]) + (" ..." if len(targets) > 25 else ""))
 
 done = set()
 if os.path.exists('probe_results.csv'):
@@ -220,6 +233,7 @@ for c in targets:
     for v in (0, 1):
         if (c, v) in done: continue
         t0 = time.time()
+        log(f"probing class {c} (e={edges[c]}) pinned {v} ...")
         res = solve(c, v, args.nodecap)
         cw.writerow([c, v, res, edges[c], f"{time.time()-t0:.0f}s"]); fh.flush()
         log(f"class {c} (e={edges[c]}) pinned {v}: {res} ({time.time()-t0:.0f}s)")
