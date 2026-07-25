@@ -551,3 +551,32 @@
 00:38:59  class 275 (e=22) pinned 0: SAT (12s)
 00:39:25  class 275 (e=22) pinned 1: SAT (27s)
 00:40:16  class 276 (e=26) pinned 0: SAT (51s)
+00:55:53  class 1011 (e=13) pinned 0: CAP (495s)
+00:57:13  NOTE: probing ALL 1242 classes (no --classes/--auto). This is the full backbone sweep; at ~1 min/probe expect ~41 hours, checkpointed.
+00:57:13  targets (1242): 0(e=0), 1(e=25), 2(e=20), 3(e=45), 4(e=10), 5(e=35), 6(e=10), 7(e=35), 8(e=36), 9(e=9), 10(e=18), 11(e=27), 12(e=27), 13(e=9), 14(e=36), 15(e=18), 16(e=9), 17(e=18), 18(e=18), 19(e=27), 20(e=18), 21(e=27), 22(e=27), 23(e=36), 24(e=40) ...
+00:57:13  probing class 276 (e=26) pinned 1 ...
+00:57:43    ... class 276 pinned 1: 248305 nodes (8277/s, cap 20000000)
+00:58:13    ... class 276 pinned 1: 559210 nodes (9320/s, cap 20000000)
+00:58:43    ... class 276 pinned 1: 952571 nodes (10584/s, cap 20000000)
+00:59:13    ... class 276 pinned 1: 1253446 nodes (10445/s, cap 20000000)
+00:59:43    ... class 276 pinned 1: 1615153 nodes (10768/s, cap 20000000)
+01:00:13    ... class 276 pinned 1: 1930530 nodes (10725/s, cap 20000000)
+01:00:43    ... class 276 pinned 1: 2239172 nodes (10663/s, cap 20000000)
+01:01:13    ... class 276 pinned 1: 2609553 nodes (10873/s, cap 20000000)
+01:01:43    ... class 276 pinned 1: 2909521 nodes (10776/s, cap 20000000)
+01:02:13    ... class 276 pinned 1: 3284994 nodes (10950/s, cap 20000000)
+01:02:43    ... class 276 pinned 1: 3562860 nodes (10796/s, cap 20000000)
+01:02:53  class 276 (e=26) pinned 1: SAT (340s)
+01:02:53  probing class 277 (e=8) pinned 0 ...
+01:02:53  class 277 (e=8) pinned 0: UNSAT (0s)
+01:02:53  probing class 277 (e=8) pinned 1 ...
+01:03:23    ... class 277 pinned 1: 192268 nodes (6409/s, cap 20000000)
+01:03:48  class 277 (e=8) pinned 1: SAT (55s)
+01:03:48  probing class 278 (e=12) pinned 0 ...
+01:03:48  class 278 (e=12) pinned 0: SAT (0s)
+01:03:48  probing class 278 (e=12) pinned 1 ...
+01:04:18    ... class 278 pinned 1: 192637 nodes (6421/s, cap 20000000)
+01:04:40  class 278 (e=12) pinned 1: SAT (52s)
+01:04:40  probing class 279 (e=10) pinned 0 ...
+01:04:40  class 279 (e=10) pinned 0: SAT (0s)
+01:04:40  probing class 279 (e=10) pinned 1 ...
