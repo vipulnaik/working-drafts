@@ -43,7 +43,12 @@ LOGFILE := "ark_gap.log";;
 # ---------------------------------------------------------------- utilities
 LoadPackage("transgrp");   # transitive groups library; usually bundled
 
-PAIRS := Combinations([1..N], 2);;   # lexicographic, length C(N,2)
+PAIRS := Combinations([1..N], 2);;
+
+# pre-declare top-level loop variables that are referenced inside lambdas,
+# so GAP's parser does not emit "Unbound global variable" warnings (the
+# runtime semantics were already correct; this is warning hygiene only)
+g := fail;;   # lexicographic, length C(N,2)
 
 CustomLog := function(msg)
   AppendTo(LOGFILE, String(Runtime()), "ms  ", msg, "\n");
