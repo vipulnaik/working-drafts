@@ -1,0 +1,16 @@
+16:02:08  detected n = 12 (66 pairs)
+16:02:08  stage 1: 2293 raw -> 59 kept (40 Oliver, 19 p-groups)  sig=b7c92a91b0e0f7d7
+16:02:08  stage 2: 5/59 groups, 12 classes
+16:02:08  stage 2: 10/59 groups, 32 classes
+16:02:08  stage 2: 15/59 groups, 50 classes
+16:02:09  stage 2: 20/59 groups, 60 classes
+16:02:09  stage 2: 25/59 groups, 72 classes
+16:02:09  stage 2: 30/59 groups, 88 classes
+16:02:12  stage 2: 35/59 groups, 120 classes
+16:02:15  stage 2: 40/59 groups, 130 classes
+16:02:20  stage 2: 45/59 groups, 318 classes
+16:02:21  stage 2: 50/59 groups, 402 classes
+16:02:23  stage 2: 55/59 groups, 510 classes
+16:02:24  stage 2: 59/59 groups, 600 classes
+16:02:24  stage 2 complete: 600 classes
+16:41:18  stage 3: 8/600 rows (eta 172719s)
