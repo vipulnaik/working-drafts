@@ -46,10 +46,15 @@ cat = cst['cat']
 ost = pickle.load(open('ckpt_order.pkl', 'rb'))
 if 'order' in ost:
     order = ost['order']
-else:
+elif 'rows' in ost:
     rows = ost['rows']; Vv = ost['V']
     assert len(rows) == Vv, "order matrix incomplete -- rerun consume_gap.py stage 3"
     order = [rows[a] for a in range(Vv)]
+elif 'TU' in ost:
+    sys.exit("ckpt_order.pkl is a partial inference checkpoint -- "
+             "finish consume_gap.py stage 3 first")
+else:
+    sys.exit("unrecognized ckpt_order.pkl format -- rerun consume_gap.py stage 3")
 if isinstance(cst, dict) and 'sig' in cst and 'sig' in ost:
     assert ost['sig'] == cst['sig'], "order matrix from a different selection -- rerun consume_gap.py"
 V = len(order)

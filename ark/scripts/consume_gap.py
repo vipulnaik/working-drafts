@@ -184,39 +184,166 @@ def main():
     V = len(cat.reps)
     log(f"stage 2 complete: {V} classes")
 
-    # ---------------- stage 3 (parallel) ----------------
-    done_rows = {}
+    # ------- stage 3: inference-first order matrix (v3) -------
+    # Three layers before any isomorphism test:
+    #   (i)  free containments: within one group's lattice, mask m1 subset m2
+    #        gives containment of the corresponding classes by construction;
+    #        plus e(a) > e(b) => False, and e(a) == e(b) with a != b => False
+    #        (distinct iso classes of equal size cannot embed);
+    #   (ii) invariant pre-filters: subgraph containment forces every subgraph
+    #        count to dominate -- sorted degree sequence, triangles, P3 paths,
+    #        C4 counts -- violations => False;
+    #   (iii) two-sided transitive closure: T[a][c] & T[c][b] => T[a][b];
+    #        T[c][a] & F[c][b] => F[a][b];  F[a][d] & T[b][d] => F[a][b].
+    # Only pairs undecided after fixpoint go to parallel VF2, in batches,
+    # re-closing after each batch.  Checkpointed per batch.
+    import numpy as np
+
+    def invariants(G):
+        A = nx.to_numpy_array(G, nodelist=sorted(G.nodes()))
+        degs = A.sum(1)
+        A2 = A @ A
+        tri = int(np.trace(A2 @ A)) // 6
+        p3 = int(sum(d * (d - 1) // 2 for d in degs))
+        cod = A2.copy(); np.fill_diagonal(cod, 0)
+        c4 = int(sum(c * (c - 1) // 2 for c in cod[np.triu_indices(len(A), 1)])) // 2
+        return (int(A.sum()) // 2, tuple(sorted(degs, reverse=True)), tri, p3, c4)
+
+    inv = [invariants(cat.reps[i]) for i in range(V)]
+
+    def inv_allows(a, b):
+        ea, da, ta, pa, ca = inv[a]; eb, db, tb, pb, cb = inv[b]
+        if ea > eb or ta > tb or pa > pb or ca > cb: return False
+        return all(x <= y for x, y in zip(da, db))
+
+    T = [0] * V   # T[a] bit b set: a embeds in b (includes a itself)
+    F = [0] * V   # F[a] bit b set: a does NOT embed in b
+    for a in range(V):
+        T[a] |= 1 << a
+    ecount = [inv[a][0] for a in range(V)]
+    for a in range(V):
+        for b in range(V):
+            if a == b: continue
+            if ecount[a] >= ecount[b] or not inv_allows(a, b):
+                F[a] |= 1 << b
+    # free within-lattice containments
+    seeded = 0
+    for g in groups:
+        t = g['t']; uc = g['uc']
+        for m1 in range(1 << t):
+            c1 = uc[m1]
+            m2 = m1
+            # enumerate strict supersets of m1 cheaply via submask trick on complement
+            comp = ((1 << t) - 1) ^ m1
+            sub = comp
+            while sub:
+                c2 = uc[m1 | sub]
+                if c2 != c1 and not (T[c1] >> c2 & 1):
+                    T[c1] |= 1 << c2; seeded += 1
+                sub = (sub - 1) & comp
+    log(f"stage 3: seeds -- {seeded} free containments; "
+        f"{sum(bin(f).count('1') for f in F)} invariant/size exclusions")
+
+    def close():
+        # T transitivity (fixpoint), then rebuild F by the two rules (fixpoint)
+        changed = True
+        while changed:
+            changed = False
+            for a in range(V):
+                cur = T[a]; acc = cur; m = cur
+                while m:
+                    c = (m & -m).bit_length() - 1; m &= m - 1
+                    acc |= T[c]
+                if acc != cur: T[a] = acc; changed = True
+        changed = True
+        while changed:
+            changed = False
+            # rule: T[c][a] & F[c][b] => F[a][b]  (push F up the first index)
+            TD = [0] * V
+            for c in range(V):
+                m = T[c]
+                while m:
+                    b = (m & -m).bit_length() - 1; m &= m - 1
+                    TD[b] |= 1 << c
+            for a in range(V):
+                m = TD[a]; acc = F[a]
+                while m:
+                    c = (m & -m).bit_length() - 1; m &= m - 1
+                    acc |= F[c]
+                if acc != F[a]: F[a] = acc; changed = True
+            # rule: F[a][d] & T[b][d] => F[a][b]  (pull F down the second index)
+            for a in range(V):
+                add = 0
+                for b in range(V):
+                    if not (F[a] >> b & 1) and (T[b] & F[a] & ~(1 << b)):
+                        add |= 1 << b
+                if add: F[a] |= add; changed = True
+        for a in range(V):
+            assert not (T[a] & F[a]), f"T/F contradiction at class {a}"
+
+    # resume support
+    done_pairs = 0
     if os.path.exists('ckpt_order.pkl'):
         st = pickle.load(open('ckpt_order.pkl', 'rb'))
         if isinstance(st, dict) and st.get('sig') == SIG and st.get('V') == V:
-            done_rows = st['rows']
-            log(f"stage 3: resumed with {len(done_rows)}/{V} rows")
+            if 'order' in st:
+                log("stage 3: complete checkpoint found"); order = st['order']
+                pickle.dump(dict(sig=SIG, V=V, order=order, row=V),
+                            open('ckpt_order.pkl', 'wb'))
+                log("stage 3 complete")
+                log("now run:  python3 stage4_fast.py --first")
+                return
+            if 'TU' in st:
+                T, F = st['TU'], st['F']
+                log("stage 3: resumed inference checkpoint")
         else:
             log("stage 3: signature/V mismatch -> rebuilding order matrix")
-    todo = [a for a in range(V) if a not in done_rows]
-    if todo:
-        import multiprocessing as mp
-        reps_pickle = pickle.dumps(cat.reps)
-        t0 = time.time()
-        with mp.get_context('spawn').Pool(args.procs, _init_worker,
-                                          (reps_pickle,)) as pool:
-            pending = 0
-            for a, rowvals in pool.imap_unordered(_row, todo, chunksize=1):
-                done_rows[a] = rowvals
-                pending += 1
-                if pending >= CKPT_ROWS or len(done_rows) == V:
-                    pickle.dump(dict(sig=SIG, V=V, rows=done_rows),
-                                open('ckpt_order.pkl', 'wb'))
-                    pending = 0
-                    el = time.time() - t0
-                    d = len(done_rows)
-                    log(f"stage 3: {d}/{V} rows "
-                        f"(eta {el/max(1,d-(V-len(todo)))*(V-d):.0f}s)")
-    order = [done_rows[a] for a in range(V)]
-    pickle.dump(dict(sig=SIG, V=V, rows=done_rows, order=order, row=V),
+
+    close()
+    def unknown_pairs():
+        out = []
+        for a in range(V):
+            und = ~(T[a] | F[a]) & ((1 << V) - 1)
+            m = und
+            while m:
+                b = (m & -m).bit_length() - 1; m &= m - 1
+                out.append((a, b))
+        return out
+
+    todo = unknown_pairs()
+    total_pairs = V * (V - 1)
+    log(f"stage 3: after inference, {len(todo)} of {total_pairs} ordered pairs "
+        f"need VF2 ({100*len(todo)/max(1,total_pairs):.1f}%)")
+
+    import multiprocessing as mp
+    reps_pickle = pickle.dumps(cat.reps)
+    BATCH = max(64, args.procs * 16)
+    t0 = time.time()
+    with mp.get_context('spawn').Pool(args.procs, _init_worker,
+                                      (reps_pickle,)) as pool:
+        while todo:
+            batch, todo = todo[:BATCH], todo[BATCH:]
+            for a, b, res in pool.imap_unordered(_pair, batch, chunksize=4):
+                if res: T[a] |= 1 << b
+                else:   F[a] |= 1 << b
+            done_pairs += len(batch)
+            close()
+            todo = [p for p in todo
+                    if not (T[p[0]] >> p[1] & 1) and not (F[p[0]] >> p[1] & 1)]
+            pickle.dump(dict(sig=SIG, V=V, TU=T, F=F),
+                        open('ckpt_order.pkl', 'wb'))
+            log(f"stage 3: {done_pairs} VF2 calls done, {len(todo)} pairs left "
+                f"({time.time()-t0:.0f}s)")
+    order = [[bool(T[a] >> b & 1) for b in range(V)] for a in range(V)]
+    pickle.dump(dict(sig=SIG, V=V, order=order, row=V),
                 open('ckpt_order.pkl', 'wb'))
     log("stage 3 complete")
     log("now run:  python3 stage4_fast.py --first")
+
+def _pair(ab):
+    a, b = ab
+    reps = _W['reps']; mono = _W['mono']
+    return a, b, mono(reps[a], reps[b])
 
 if __name__ == '__main__':
     main()
