@@ -20,3 +20,9 @@
 23:06:37  stage 2 complete: 600 classes
 23:06:37  stage 3: seeds -- 13243 free containments; 255796 invariant/size exclusions
 23:06:37  stage 3: after inference, 74213 of 359400 ordered pairs need VF2 (20.6%)
+23:58:27  stage 3: 128 VF2 calls done, 71024 pairs left (3110s)
+00:18:39  stage 3: 256 VF2 calls done, 69605 pairs left (4321s)
+00:58:42  stage 3: 384 VF2 calls done, 67930 pairs left (6725s)
+01:28:29  stage 3: 512 VF2 calls done, 66409 pairs left (8512s)
+01:38:23  stage 3: 640 VF2 calls done, 65540 pairs left (9106s)
+01:40:33  stage 3: 768 VF2 calls done, 63874 pairs left (9236s)
