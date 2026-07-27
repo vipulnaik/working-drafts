@@ -267,3 +267,59 @@ mu_fast extended to n=10^4 (9999 rows).  Findings folded into notes:
     reproduced (792-34); complementation-invariance vs our twisted involution;
     scorpion-budget inference retracted.
   * 7.11: stage-3 v3 acceptance PASSED bit-identical at V=1242.
+
+--- RUN 10: notes rev 7 -- the shape calculus (2026-07-27) ---
+New section 9 (three-state present/absent/irrelevant algebra):
+  * scorpion = 1 shape, determined support 3n-6 = its certificate size;
+    E (n=5) = 4 shapes, verified by exact minimum orbit cover (290 maximal
+    subcubes, 5 up to iso); G_5\E also 4.  So nothing nonevasive at n<=5 is
+    a single shape.
+  * THEOREM: monotone decreasing => every maximal cube has empty present-set
+    => shape complexity = #maximal elements (dually for increasing).  Verified
+    on the C_5 down-closure (12 maximal cubes, all empty present-set) vs E
+    (290/290 nonempty).  Monotone uses 2 of 3 states; the missing state is
+    where the scorpion's elimination engine lives.
+  * graph complementation preserves shape complexity; logical negation does
+    not ("contains H" = 1, "H-free" = #saturated graphs).
+  * monotone shape-1 == subgraph containment == BBKN's open class.  All
+    nontrivial shape-1 monotone properties EVASIVE at n<=6; the sole chi-screen
+    survivor at n=6 is "contains P_4" (chi=1), killed by adversary search
+    (2022 canonical states).
+  * forbidden subgraph: generators = H-saturated graphs, edges spanning
+    sat(n,K3)=n-1 to ex(n,K3)=floor(n^2/4).  Shape counts K3-free 3/4/6 and
+    C4-free 3/5/8 at n=5/6/7.  PROVABLE gap: mu(n) <= floor(n(n-1)/4) <
+    floor(n^2/4), so the method can never settle triangle-freeness at
+    non-prime-power n.  K_{5,5} is the n=10 triangle-free Turan graph and was
+    one of 7.4's nine kills.  chi test settles K3-free/C4-free at n=5,6,7.
+  * certificate complexity: C_1 = C(n,2) - sat(P) for monotone decreasing
+    (verified: triangle-free (3,6) at n=5, (3,10) at n=6); max saving = sat(P)
+    ~ n, so the obstruction is topological, not certificate-theoretic.
+  * shape counts by Burnside: 792 / 25,506 / 2,302,938 at n=5/6/7 =>
+    Open Problem 7: n=6 single-shape question is exhaustively decidable.
+
+--- RUN 11: notes rev 8 -- prior-art check on the shape calculus (2026-07-27) ---
+Literature search results folded into a new 9.0:
+  * 3-valued patterns = Chudnovsky-Seymour TRIGRAPHS (theta: pairs -> {1,0,-1},
+    strongly adjacent / semiadjacent / strongly antiadjacent); their
+    "realizations" = our cube.  KEY DIFFERENCE: their semiadjacent pairs must
+    form a matching; ours are arbitrary (scorpion has C(n-3,2)).
+  * "does a cube meet the property" = GRAPH SANDWICH PROBLEM (Golumbic-Kaplan-
+    Shamir).
+  * maximal cubes = PRIME IMPLICANTS; positive shape complexity = MINIMUM DNF
+    SIZE; min-cover formulation = QUINE-McCLUSKEY.  Hardness: <=k DNF for
+    monotone formulas is PP-complete (coNP for unary k); Sigma_2^p-complete in
+    general (Umans 2001).
+  * 9.2 IS TEXTBOOK: monotone Boolean function => prime implicants = minimal
+    true points, minimal DNF unique.  Downgraded from "theorem" to "standard,
+    specialized"; our part is only the S_n-orbit reading + the missing-state
+    interpretation.
+  * induced version = classical count of MINIMAL FORBIDDEN INDUCED SUBGRAPHS of
+    a hereditary class (unique; "finitely defined" classes).
+  * NOT found named: the S_n-symmetrized measure as an invariant of graph
+    properties, nor its formula analogue fsc.  Framework = repackaging of
+    standard Boolean notions in the invariant setting; new content is the
+    evasiveness-specific readings (9.3, 9.5, 9.6).
+Also added 9.5' recording fsc: 100,338 properties at n=5 with fsc=2 but sc>=3
+in both polarities; regime table (fsc 1 / O(1) / O(n) / poly); connectivity's
+exponential sc vs linear fsc; fsc(E) in {3,4}; the k-vertex-signature reading
+of the scorpion (k=3 is where the query budget first permits nonevasiveness).
