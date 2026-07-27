@@ -456,3 +456,32 @@ so the statement is nearly vacuous).  Fixed, and the pass surfaced a real error:
     true 1/4 threshold 85.8% of even and 86.9% of odd composites fall short and
     the parity signal disappears -- the parity finding is threshold-relative.
   * remaining n^2 anchors converted to C(n,2) (delta_0*C(n,2), Theta(C(n,2))).
+
+--- RUN 20: structural rewrite for narrative coherence ---
+Reordered the notes around the actual argument rather than accretion order.
+NEW SHAPE:
+  Overview (arc + the one-paragraph summary, moved to the front)
+  1. Background: ARK, KSS, and the reduction to mu(n)
+  Part I  - What determines mu: the group theory
+     2. Block structure, capacity, coherence   [was 5: Thms 2.1-2.3, Lemmas A-C]
+     3. What remains conjectural: the extremal claim (*)   [was 2]
+  Part II - What mu encodes: the number theory
+     4. The provability barrier at 3/2   [was 3]
+     5. The conditional ladder, and what it costs   [was 4]
+     6. The converse   [was 6]
+  Part III - Exact computation and the structure of the obstruction
+     7. n = 10 and the pivot to n = 12   [was 7]
+     8. The shape calculus   [was 9]
+  Part IV - Assessment and problems
+     9. Assessment   [was 8]
+     10. Open problems
+  Appendix A, References
+KEY FIX: the group theory now PRECEDES the number theory it underwrites, and
+the (*) claim is stated AFTER the theorems that reduced it, instead of before.
+Renumbered: Thm 5.1/5.2/5.3 -> 2.1/2.2/2.3; Prop 4.2'/4.3 -> 5.2'/5.3;
+Claim 2.1 -> 3.1; Cor 2.2 -> 3.2; subsections 5.4/5.5 -> 2.4/2.5, 4.5/4.5' ->
+5.4/5.5, 9.x -> 8.x.  All ~40 cross-references remapped via a placeholder pass;
+audit shows no stale refs.
+Added: an Overview stating the arc and what each part delivers; four part
+dividers with framing; and a lead-in paragraph at every reordered seam so each
+section opens by saying why it follows the previous one.
