@@ -56,14 +56,35 @@ def _row(a):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--maxgroups', type=int, default=200)
-    ap.add_argument('--maxt', type=int, default=10)
+    ap.add_argument('--maxgroups', type=int, default=None,
+                    help='default 200, or the value stored in ckpt_groups.pkl')
+    ap.add_argument('--maxt', type=int, default=None,
+                    help='default 10, or the value stored in ckpt_groups.pkl')
     ap.add_argument('--procs', type=int, default=os.cpu_count())
     ap.add_argument('--infile', default='groups_out.txt')
     args = ap.parse_args()
 
     import networkx as nx  # noqa
     from ark_intersect import Catalog
+
+    # adopt flags from the existing checkpoint when not given explicitly, so a
+    # bare rerun resumes the same battery instead of silently redefining it
+    stored = None
+    if os.path.exists('ckpt_groups.pkl'):
+        try:
+            _st = pickle.load(open('ckpt_groups.pkl', 'rb'))
+            if isinstance(_st, dict): stored = _st.get('flags')
+        except Exception:
+            stored = None
+    if stored:
+        if args.maxgroups is None:
+            args.maxgroups = stored['maxgroups']
+            log(f"adopting --maxgroups {args.maxgroups} from checkpoint")
+        if args.maxt is None:
+            args.maxt = stored['maxt']
+            log(f"adopting --maxt {args.maxt} from checkpoint")
+    if args.maxgroups is None: args.maxgroups = 200
+    if args.maxt is None: args.maxt = 10
 
     N = detect_N(args.infile)
     PAIRS = list(itertools.combinations(range(N), 2))
@@ -112,11 +133,22 @@ def main():
             groups = st['groups']
             log(f"stage 1: checkpoint matches selection ({len(groups)} groups)")
         else:
+            was = st.get('flags') if isinstance(st, dict) else None
             log("stage 1: SELECTION CHANGED -> rebuilding all downstream checkpoints")
+            if was:
+                log(f"  checkpoint was built with maxgroups={was['maxgroups']}, "
+                    f"maxt={was['maxt']}; this invocation uses "
+                    f"maxgroups={args.maxgroups}, maxt={args.maxt}")
+                log("  (to resume the old battery instead, rerun with those flags "
+                    "or omit both and they will be adopted automatically)")
+            else:
+                log("  (old checkpoint predates flag recording; rebuild is expected once)")
             for f in ('ckpt_groups.pkl', 'ckpt_catalog.pkl', 'ckpt_order.pkl'):
                 if os.path.exists(f): os.remove(f)
     if not os.path.exists('ckpt_groups.pkl'):
-        pickle.dump(dict(sig=SIG, groups=groups), open('ckpt_groups.pkl', 'wb'))
+        pickle.dump(dict(sig=SIG, groups=groups,
+                         flags=dict(maxgroups=args.maxgroups, maxt=args.maxt)),
+                    open('ckpt_groups.pkl', 'wb'))
         npg = sum(1 for g in groups if g['tag'].startswith('P'))
         log(f"stage 1: {nraw} raw -> {len(groups)} kept "
             f"({len(groups)-npg} Oliver, {npg} p-groups)  sig={SIG}")
