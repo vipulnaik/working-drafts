@@ -340,3 +340,11 @@
 05:38:14  stage 3: 1242/1242 rows (eta 0s)
 05:38:14  stage 3 complete
 05:38:14  now run:  python3 stage4_fast.py --first
+22:20:04  detected n = 10 (45 pairs)
+22:20:04  stage 1: checkpoint matches selection (75 groups)
+22:20:04  stage 2: resumed at group 75, catalog 1242 classes
+22:20:04  stage 2 complete: 1242 classes
+22:20:05  stage 3: seeds -- 58687 free containments; 1105476 invariant/size exclusions
+22:20:05  stage 3: complete checkpoint found
+22:20:05  stage 3 complete
+22:20:05  now run:  python3 stage4_fast.py --first

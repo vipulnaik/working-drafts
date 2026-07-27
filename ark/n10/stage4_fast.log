@@ -13,3 +13,7 @@
 00:43:47  heartbeat: nodes 332550 sols 0 depth<= 148 (5542 nodes/s, memo 1524)
 00:43:48  first VERIFIED solution found (SAT)
 00:43:48  done; see csp_result.txt
+22:21:13  stage4_fast: 40 Oliver + 35 p-groups, V=1242, free=1240
+22:21:43  heartbeat: nodes 214674 sols 0 depth<= 148 (7156 nodes/s, memo 1337)
+22:22:01  first VERIFIED solution found (SAT)
+22:22:01  done; see csp_result.txt
