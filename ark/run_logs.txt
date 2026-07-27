@@ -485,3 +485,82 @@ audit shows no stale refs.
 Added: an Overview stating the arc and what each part delivers; four part
 dividers with framing; and a lead-in paragraph at every reordered seam so each
 section opens by saying why it follows the previous one.
+
+--- RUN 21: the STRUCTURAL criterion (section 8.7) ---
+VN's observation: the group action gives orbitals as GRAPHS, and the fixed-point
+argument constrains MEMBERSHIP not cardinality.  Contrapositive: a nontrivial
+non-evasive monotone P must contain at least one orbital graph of every Oliver
+group.  Strictly weaker hypothesis than the sparse criterion.
+k-block full-twist group has EXACTLY TWO orbitals for k in {2,3}: kK_m and the
+complete k-partite K_{m,...,m}  (verified by orbit computation for
+(k,m) = (2,5),(3,5),(3,7),(2,9),(3,4),(3,3),(2,11); for k=5 the cross pairs split
+into two C_5-blow-ups instead).
+=> TWO-GRAPH CRITERION: P evasive at n = km unless P contains kK_m or K_{m..m}.
+RESULTS:
+  * TRIANGLE-FREENESS IS EVASIVE at n = 3m for every prime power m >= 3
+    (12, 15, 21, 33, 39, 51, 57, 75, ...).  This CORRECTS the notes' claim that
+    the orbital method "provably cannot" do this -- that claim holds only for the
+    COUNTING criterion (ex(n,K_3) = n^2/4 >> mu(n)).
+  * planarity at n = 2m, 3m (m >= 5); bipartiteness at n = 3m (m >= 3);
+    acyclicity at n = km (m >= 3); C_4-freeness; K_{3,3}-freeness at 18, 21.
+WHY IT CAPS AT chi(H) <= 3: the cross orbital's clique number must be >= chi(H);
+full fusion of the C(k,2) block-pairs into one complete k-partite orbital needs
+the top q-group transitive on them, which happens only for k=3 (C(3,2)=3=k).
+For k=5 the cross orbitals are C_5-blow-ups (clique number 2); k>=4 full fusion
+would need a 2-transitive nilpotent group, impossible.
+WEIL NOT NEEDED: partial (Paley-type) twists give MORE orbitals and the criterion
+needs EVERY orbital to contain H, so the full twist (2 dense orbitals) is optimal.
+n=10 CHECK: the skeleton contains 2K_5 (not K_5,5), so the criterion correctly
+fails there -- and it identifies section 7.3's "disjunctive density" as exactly
+"P must contain 2K_5 or K_5,5".
+
+--- RUN 22: CORRECTION -- the structural criterion is BBKN's own method ---
+Fetched BBKN's actual statements.  Their results:
+  (a)  under Chowla: for ANY H, forbidden-subgraph-H is eventually evasive.
+  (a') unconditionally: query complexity of forbidden-H is C(n,2) - O(1), any H.
+  (b)  under Chowla: monotone properties with <= n^{3/2-eps} edges.
+  (b') unconditionally: <= c n log n edges.
+Stated technique: "a universality property of cyclotomic graphs derivable using
+Weil's character sum estimates" -- i.e. exactly the structural criterion (every
+orbital contains H), verified for cyclotomic orbitals via Weil.
+=> The structural criterion is NOT new; it is BBKN's forbidden-subgraph method.
+=> Triangle-freeness at n = 3m is NOT a new result: (a) covers it under Chowla
+   and (a') gives C(n,2)-O(1) unconditionally at all large n.
+WHAT SURVIVES: the k=3 block group is a SIMPLIFICATION at special n -- for
+chi(H) <= 3 the orbitals are 3K_m and K_{m,m,m}, so H-containment is immediate
+and no character sums are needed.  Possible small increment: unconditional EXACT
+evasiveness (closing (a')'s O(1) gap) at n = 2*pp and 3*pp for chi(H) <= 3;
+not checked against BBKN's intermediate lemmas.
+ALSO CORRECTED: my claim that "Weil is not needed" -- it is needed for general n
+and unrestricted H; it is only dispensable inside the k in {2,3} family.
+OPEN DIRECTION recorded: close (a')'s O(1) gap unconditionally at more n by
+finding Oliver groups whose every orbital has clique number >= 4.  The block
+route caps at 3, but a q-group on k = q^a blocks may have a cross orbital whose
+block-pattern graph contains a triangle (e.g. a size-4 orbit among the difference
+classes of C_2^3 containing a zero-summing triple).  Bounded search over 2-groups
+on 4, 8, 16 blocks.
+
+--- RUN 23: Theorem 8.1 -- the chi(H) <= 3 cap is permanent ---
+Settled the open direction from RUN 22 NEGATIVELY, with a clean proof.
+THEOREM: for a transitive q-group T of degree k, some pair-orbital has clique
+number <= 3; all orbitals have clique number 3 only when q = 3.
+Proof: T nilpotent => T_v subnormal => a block system with blocks of size exactly
+q; the block stabiliser is transitive of degree q hence regular C_q, so its
+intra-block pair orbits are the difference classes, giving a disjoint union of
+C_q(d): perfect matching (q=2), TRIANGLES (q=3), q-cycles (q>=5).
+Verified: C_2,C_4,C_2^2,D_4,C_8,C_2^3,C_2wrC_2wrC_2 -> min omega 2;
+C_5,C_7,C_9 -> 2;  C_3, C_3xC_3, C_3wrC_3 -> 3.
+CONSEQUENCES:
+ * the block/blow-up route can NEVER reach chi(H) >= 4.  Search closed.
+ * WHY WEIL IS UNAVOIDABLE: a blow-up orbital's clique number equals its
+   pattern's and is capped at 3 INDEPENDENT of block size m, whereas a cyclotomic
+   orbital on F_m has clique number growing with m (Paley ~ (1/2)log_2 m), so it
+   eventually contains any fixed H.  Character sums are the only route to
+   orbitals of unbounded clique number, hence to unrestricted H.
+ * division of labour recorded: number theory decides WHICH GROUPS EXIST at a
+   given n; character sums decide whether a group's orbitals are H-UNIVERSAL.
+   Better number theory lowers the cyclotomic INDEX; universality for an
+   e-edge H needs m >> index^{2e(H)}, so index 2 (safe prime -> Paley) minimises
+   the threshold, with the gain exponential in e(H).
+ * POSITIVE EXTENSION: q=3 works at k = 3 and k = 9 (C_3wrC_3: two orbitals, both
+   omega 3), so the criterion applies at n = 3^a * m, not just n = 3m.
