@@ -66,6 +66,35 @@ It has no isomorph reduction, so it dies past n = 6. Needed: memoize on the **ca
 
 ---
 
+## 4.5 Low priority: the decision-tree counting thread (closed, recorded for completeness)
+
+A side investigation into naively bounding the number of adaptive decision trees on graphs, pursued for its own sake. It reached a clean conclusion — **no counting-flavoured argument can prove ARK** — and produced one reframing worth keeping. Recorded here mainly so nobody re-treads it.
+
+**The bound.** With N = C(n,2), a tree has 2^m nodes at depth m, each choosing among N − m unqueried edges, giving ∏_{m=0}^{N-2} (N−m)^{2^m} (the m = N−1 factor is 1). Substituting j = N − m gives log₂ = 2^N · Σ_{j≥2} log₂(j)/2^j, and that sum converges to **0.7326**, so the count is 2^{0.733·2^N} — i.e. log log₂ = N − 0.449, doubly exponential in N and hence 2^{2^{Θ(n²)}}. At n = 10 that is 2^{2.6×10¹³}.
+
+**Why counting cannot prove ARK.** Compare Dedekind: monotone Boolean functions on N variables number 2^{C(N,N/2)} = 2^{4.1×10¹²} at n = 10, and monotone *graph* properties only about 2^{1.1×10⁶} (middle layer ÷ n!). Trees vastly outnumber properties, and non-evasive trees are almost all trees, so there is no union bound, no pigeonhole, no "too few algorithms to cover all properties" route. The thread is closed on this point.
+
+**Two missteps, both instructive, both corrected by user pushback:**
+
+1. *Conflating two notions of "distinct".* Asked for the optionality at each node up to symmetry, I computed instead the number of level-2 *trees* up to relabeling — orbits of Stab({1,2}) = S₂ × S_{n−2} on ordered pairs (present-branch query, absent-branch query), which is **11** for n ≥ 6 (4 with both queries meeting {1,2}, 2 + 2 mixed, 3 with both disjoint) — and wrongly called the per-node count of **4** an error. Both numbers are right for their respective questions; the per-node reading was the intended one.
+2. *Asserting a single factor of n! as the ceiling on symmetry savings.* This is correct only for the equivalence "trees related by one global σ ∈ S_n" (orbit counting: a group of order n! has orbits of size ≤ n!). It is **wrong for the reduction actually in play**, where at each node the choice matters only up to Aut(current 3-coloured state) — legitimate for graph properties precisely because P is S_n-invariant, so survivability from a state depends only on its isomorphism class, and different branches reduce *independently*. The available saving is of order ∏_m |Aut_m|^{2^m}, not n!. Compounding the error, I had written "(n!)^{2^m}" two paragraphs earlier without noticing the tension.
+
+**The corrected accounting**, which preserves the conclusion for a better reason. Residual symmetry of a partial state is dominated by S_{untouched vertices}, so it dies once every vertex has been touched — coupon-collector, m ≈ (n/2)·ln n. Bounding the saving by the levels below that cutoff, log₂(saving) ≲ 2^{M+1}·log₂(n!) with M ≈ (n/2)ln n:
+
+| n | log₂(all trees) | log₂(max symmetry saving) | fraction of the log |
+|---|---|---|---|
+| 8 | 1.97×10⁸ | ≤ 9.8×10³ | 5×10⁻⁵ |
+| 10 | 2.58×10¹³ | ≤ 1.3×10⁵ | 5×10⁻⁹ |
+| 12 | 5.41×10¹⁹ | ≤ 1.8×10⁶ | 3×10⁻¹⁴ |
+
+So the saving is astronomically larger than n! (the user's point stands) and still a vanishing sliver of the total (the conclusion stands). The mechanism is the one identified at the outset: the product's mass sits at levels m near N, where 2^m nodes each still face ~N−m choices *and* generic states are asymmetric, so no reduction of any kind is available there.
+
+**The one durable takeaway**, which feeds §3. The branch-wise state equivalence is exactly what turns the search space from a tree into a **DAG over isomorphism classes of 3-coloured states**, of size ~3^{C(n,2)}/n! — ≈ 10^{4.3} at n = 6, 10^{6.3} at n = 7, 10^{8.8} at n = 8, 10^{15} at n = 10. That is the design principle behind the canonical-state adversary searcher: the counting thread's only positive contribution, and the reason §3 is feasible at all for a single fixed property with monotone pruning.
+
+**Also worth recording from the same discussion** (and relevant to §2d): ARK is equivalent to the claim that monotone graph properties always exhibit a *maximal* gap between decision-tree depth D and certificate complexity C. The scorpion is certificate-optimal (D ≈ C ≈ O(n)); monotone graph properties can have tiny certificates (triangle-containment: C₁ = 3) yet ARK asserts D = N always. Stated that way, ARK is the assertion that no search-and-verify strategy ever works for monotone graph properties, however small their witnesses — a more useful mental model than "you have to query everything."
+
+---
+
 ## 5. Operational notes
 
 - **Probe sweep** (`probe_backbone.py`, running off and on): 397/1242 classes done, 25.9 h, ~55 h remaining at current rate. 47 CAP verdicts cluster at 9–36 edges and are the time sink (max 63 min, mean 118 s vs median 46 s); the CAPs at **9–14 edges** are the valuable re-probe targets at higher `--nodecap`, since resolving them either lifts the forced-IN frontier above 10 edges or confirms it stalls. If 4a lands, restrict the sweep to sparse classes.
@@ -82,5 +111,6 @@ It has no isomorph reduction, so it dies past n = 6. Needed: memoize on the **ca
 3. §2 notes rev 5 (all five blocks). *Largest volume of unrecorded results; do it before more compute accumulates.*
 4. §3 adversary searcher, aimed at the apex-generated part of the skeleton. *Highest marginal value: the only two-sided tool.*
 5. §4b, §4c, §4d as capacity allows.
+6. §4.5 needs no work — it is closed. Fold its one durable result (the state-DAG sizing, and the D-versus-C framing of ARK) into rev 5 alongside §2d if a natural place appears; otherwise leave it in this docket as a record of ground already covered.
 
 Two standing cautions from this session's error record. Errors in conversation were caught within a message by the user's pushback; errors in artifacts survived far longer — a solver bug produced a **false SAT** that lived until independent reproduction, a checkpoint-coherence bug burned 6.5 h of compute, and wrong mathematical claims (the bounded-block repair for odd n, the (2,6) chain's local failure at 3 | n, the "3/2 is template-intrinsic" claim) persisted across two notes revisions. Hence: any solver change re-runs the archived acceptance tests, and any new construction gets its local solubility checked at small primes before it is written down.
