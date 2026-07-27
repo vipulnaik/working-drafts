@@ -359,3 +359,21 @@ Stalls at p1>=5 only because the intransitive estimate is crude (n=35: 144 vs
 close it -> Open Problem 9.
 STATUS OF (*): block recursion now PROVED; only twist-coherence remains
 conjectural.
+
+--- RUN 14: Theorem 5.3 -- per-orbit capacities (2026-07-27) ---
+cap(s) = C(s,2) if s prime power else s(s/p1 - 1)/2   [2-homogeneous => solvable
+primitive => prime-power degree; else block argument].
+mu(n) <= max over partitions n = sum s_i (parts>=2) of
+         min( min_i cap(s_i), min_{i<j} s_i s_j ).
+Unconditional, purely arithmetic: a max-min over partitions into prime powers.
+Verified: 0 violations over 806 non-prime-power n <= 1000; MET at 220 (177 from
+Thm 5.2 plus 43 where the intransitive branch binds).  New exact values include
+mu(35)=120 via 35=16+19, Gamma = AGL(1,16) x (F_19 : C_9), beating the
+transitive ceiling 105.
+Residual gap: median construction/bound = 0.398 over the 586 gapped n; worst
+n=531 (2124 vs 46728).  CAUSE IDENTIFIED: the bound grants every part its full
+twist C_{s-1}, but the Oliver chain has ONE cyclic middle layer, so
+gcd(a-1,b-1)=1 and the rest must fit a single top q-group.  That coherence
+condition is exactly what produces the Hardy-Littlewood systems of section 4.
+STATUS: partition/block structure + per-orbit capacity = THEOREMS; twist
+coherence = the sole remaining conjecture (Open Problem 9, rewritten).
