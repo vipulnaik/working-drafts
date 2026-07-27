@@ -393,3 +393,26 @@ SECOND PASS (recursive): 0 violations over all 8719 non-prime-power n <= 10^4;
   Exact fraction declines with n: 42.7% (<=10^3), 33.2% (<=3*10^3), 26.6% (<=10^4).
   Shapes: 699 of 2*pp, 489 of 3*pp, 1130 other.
   Worst gaps remain the weak odd n: 1425 (0.058), 4245, 3393, 5457, 4059.
+
+--- RUN 17: coherence conditions DERIVED (section 5.4) ---
+Lemma A: each orbit's induced group inherits the Oliver chain with the same p,q.
+Lemma B: a full-capacity (2-homogeneous) orbit of foreign characteristic must
+  have PRIME size s with s-1 in {q^e, 2q^e}.  Proof: pi_O(Gamma_2) is a normal
+  p-subgroup of a primitive group -> trivial unless p=p_0; then pi_O(Gamma_1) is
+  cyclic normal, contains the socle, forces a=1, centralises the socle so equals
+  it, and the whole twist falls into Gamma/Gamma_1 (a q-group).
+Lemma C: independent pieces of Gamma_1/Gamma_2 (full twists on distinct blocks,
+  translations of foreign prime blocks) generate a direct product, which must be
+  cyclic -> pairwise coprime orders, e.g. gcd(m-1,r)=1.  Diagonal twists are not
+  independent and carry no condition (this is what Thm 5.1 exploits).
+VERIFIED against all 5025 two-block witnesses in mu_table_full.csv:
+  * 3316 rows have the foreign block at full capacity; ALL 3316 satisfy Lemma B
+    (3302 of shape 2q^e, 14 of shape q^e).  Zero exceptions.
+  * Lemma C's gcd(m-1,r)=1 holds in all 5025.
+  * Lemma B predicts the density split of 4.5': r-1 in {q^e,2q^e} for 73.1% of
+    rows at density >= 1/12 but only 9.9% below.
+CONSEQUENCE: the safe-prime hypothesis of section 4's top rung is DERIVED
+(2q^e with e=1), not assumed.  The remaining half of (*) becomes a finite
+arithmetic optimisation rather than a group classification; what is still open
+is extending B and C to partial-capacity orbits and nested imprimitive
+configurations.
