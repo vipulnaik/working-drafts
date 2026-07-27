@@ -28,6 +28,10 @@ from smith import fp_acyclic   # also triggers its (quick) self-tests
 ap = argparse.ArgumentParser()
 ap.add_argument('--first', action='store_true', help='stop at first solution')
 ap.add_argument('--cap', type=int, default=100000)
+ap.add_argument('--seed', type=int, default=None,
+                help='randomise variable ordering; different seeds give '
+                     'different first solutions, for sampling the solution '
+                     'space (each can then be chi-tested with chi_test.py)')
 args = ap.parse_args()
 
 gst = pickle.load(open('ckpt_groups.pkl', 'rb'))
@@ -161,6 +165,19 @@ while remaining:
     remaining.discard(gi)
 ordered += [i for i in unknowns if i not in set(ordered)]
 unknowns = [i for i in ordered if x[i] is None]
+if args.seed is not None:
+    import random
+    rnd = random.Random(args.seed)
+    # shuffle within equal-edge-count blocks: keeps the greedy group-completion
+    # benefit (harsh conditions still close early) but varies which leaf is hit
+    blocks = {}
+    for i in unknowns: blocks.setdefault(edges[i], []).append(i)
+    for k in blocks: rnd.shuffle(blocks[k])
+    seen_e = []
+    for i in unknowns:
+        if edges[i] not in seen_e: seen_e.append(edges[i])
+    unknowns = [i for e in seen_e for i in blocks[e]]
+    log(f"variable ordering randomised with seed {args.seed}")
 log(f"stage4_fast: {len(oliver)} Oliver + {len(psub)} p-groups, V={V}, "
     f"free={len(unknowns)}")
 
@@ -221,7 +238,9 @@ def dfs(k):
         sols[0] += 1
         for i in range(V): seen[i].add(x[i])
         if sols[0] == 1:
-            pickle.dump(dict(x=list(x)), open('solution1.pkl', 'wb'))
+            fn = 'solution1.pkl' if args.seed is None else f'solution_seed{args.seed}.pkl'
+            pickle.dump(dict(x=list(x)), open(fn, 'wb'))
+            log(f"solution saved to {fn}; test it with:  python3 chi_test.py --solution {fn}")
         if args.first: log("first VERIFIED solution found (SAT)")
         return
     i = unknowns[k]
