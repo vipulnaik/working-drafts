@@ -323,3 +323,39 @@ Also added 9.5' recording fsc: 100,338 properties at n=5 with fsc=2 but sc>=3
 in both polarities; regime table (fsc 1 / O(1) / O(n) / poly); connectivity's
 exponential sc vs linear fsc; fsc(E) in {3,4}; the k-vertex-signature reading
 of the scorpion (k=3 is where the query budget first permits nonevasiveness).
+
+--- RUN 12: Theorem 5.1 -- exact mu on n = 2*(odd prime power) (2026-07-27) ---
+VN's counting argument: transitive Gamma => |orbital| = n*d/2 with sum d_i = n-1
+over t orbitals, so min d <= floor((n-1)/t).  For n=2m: t=2 => m* <= m(m-1);
+t>=3 => <= m*floor((2m-1)/3) < m(m-1); intransitive => <= C(m,2) or <= n-1;
+t=1 excluded by Oliver=>solvable + Zassenhaus (2m not a prime power) -- the ONLY
+step needing solvability.
+Matching construction (verified m=3,5,7,9,11,13,25,27): F_m^2 : (C_{m-1} diagonal
+x C_2 swap), orbitals exactly {m(m-1), m^2}.
+=> mu(2m) = m(m-1) = n(n-2)/4 for every odd prime power m >= 3.  First exact mu
+values at non-prime-power n.  mu(6)=6, mu(10)=20, mu(14)=42, mu(18)=72,
+mu(22)=110, mu(26)=156.  n=22 GAP sweep in the docket is now unnecessary.
+General even-n corollary: mu(n) <= n(n-2)/4, beating floor(C(n,2)/2) by n/4.
+BUG FIXED in mu_fast.py: the diagonal+rotation family required gcd(d,k)=1,
+spurious because the rotation sits in the TOP q-group; for k=2 this always
+excluded d=m-1 (even), i.e. the optimum.  103 of 999 rows up to n=1000 raised,
+median ratio 2.0 (n=26: 78->156; n=50: 300->600; n=75: 301->900).
+mu_table_full.csv regenerated to n=1000; rerun --nmax 10000 to restore range.
+
+--- RUN 13: Theorem 5.2 -- block recursion (2026-07-27) ---
+VN's orbit/stabilizer sketch, worked out:
+  Oliver => solvable; solvable primitive => prime-power degree; so non-prime-
+  power n forces imprimitivity; coarsest block system => b a prime power | n,
+  c = n/b; intra-block valencies sum to c-1 => m* <= n(c-1)/2; weakest at b=p1.
+  Intransitive: smallest orbit <= n/2 => m* <= C(n/2,2) = n(n-2)/8.
+  => mu(n) <= max(n(n/p1 - 1)/2, n(n-2)/8).
+Construction F_m^k : (C_{m-1} diag x C_k rot) attains n(n/k - 1)/2.
+=> EXACT whenever n = p1*(prime power) with p1 in {2,3}.
+Verified: 0 violations over 806 non-prime-power n <= 1000; bound MET at 177
+(106 of shape 2*pp, 71 of shape 3*pp).  mu(15)=30, mu(21)=63, mu(33)=165,
+mu(39)=234, mu(51)=408, mu(57)=513.
+Stalls at p1>=5 only because the intransitive estimate is crude (n=35: 144 vs
+105); equality there needs n/2 a prime power, so suborbit divisibility should
+close it -> Open Problem 9.
+STATUS OF (*): block recursion now PROVED; only twist-coherence remains
+conjectural.

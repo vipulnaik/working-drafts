@@ -77,19 +77,18 @@ def best_for_n(n,spf,chain_pairs):
         # without rotation: full twist d=m-1; intra NOT fused; cross = m^2
         v=min(block_intra(m,m-1,p), m*m)
         if v>best: best,wit=v,f"{k}x({m}:{m-1})diag"
-        # with rotation (k prime): d = largest divisor of m-1 coprime to k
+        # with rotation (k prime).  FIX (rev 8): the rotation lives in the TOP
+        # q-group (q = k), not in the cyclic middle layer, so NO coprimality
+        # between d and k is required and the FULL twist d = m-1 is allowed.
+        # Chain: F_m^k (p-group) < .C_d diagonal (cyclic) < .C_k (k-group).
+        # The old code stripped k's from m-1, which for k = 2 always excluded
+        # the full (even) twist -- precisely the case that attains the optimum.
         if is_prime(k,spf):
-            d=m-1
-            while d%k==0: d//=k
-            # take largest divisor of m-1 coprime to k: strip k's from m-1
-            dd=m-1
-            g=1
-            while dd%k==0: dd//=k
-            d=dd
-            intra=k*block_intra(m,d,p)
-            cross=m*m if k==2 else k*m*m
-            v=min(intra,cross)
-            if v>best: best,wit=v,f"{k}x({m}:{d})diag+rot"
+            for d in (m-1,):
+                intra=k*block_intra(m,d,p)
+                cross=m*m if k==2 else k*m*m
+                v=min(intra,cross)
+                if v>best: best,wit=v,f"{k}x({m}:{d})diag+rot"
     # B2
     for m in range(2,n-1):
         ppm=prime_power(m,spf)
