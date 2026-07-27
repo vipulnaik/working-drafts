@@ -44,7 +44,10 @@ BBKN: μ(n) = Ω(n log n) unconditionally (Vinogradov/Haselgrove), Ω(n^{5/4−�
 
 Everything the topological method can do at a given n is bounded by μ(n), and μ(n) is decided by which Oliver groups exist on n points. This section determines it as far as it currently can be: two ceilings, a block recursion, a capacity law, and the coherence conditions that say which twists can coexist. The results here are unconditional; §3 states what is still assumed.
 
-μ(n) = C(n,2) requires orbital-transitivity, essentially sharply 2-transitive structure, existing only on prime-power domains (Zassenhaus). For every other n there are at least two u-orbitals, so **μ(n) ≤ ⌊C(n,2)/2⌋: density at most 1/2**. That ceiling is sharp in the limit — the n = 2·(prime power) family attains density (m−1)/(2m−1) → 1/2 by Theorem 2.1 — so no general improvement below 1/2 is possible, and the interesting question is which n fall short of it. Refining that is what Theorems 2.2–2.3 do, and the single-top-prime coherence of §2.4 is what taxes all but the wreath-fused blocks. > **Theorem 2.1 (exact values on n = 2·(odd prime power)).** For every odd prime power m ≥ 3, with n = 2m,
+μ(n) = C(n,2) requires orbital-transitivity, essentially sharply 2-transitive structure, existing only on prime-power domains (Zassenhaus). For every other n there are at least two u-orbitals, so **μ(n) ≤ ⌊C(n,2)/2⌋: density at most 1/2**. That ceiling is sharp in the limit — the n = 2·(prime power) family attains density (m−1)/(2m−1) → 1/2 by Theorem 2.1 — so no general improvement below 1/2 is possible, and the interesting question is which n fall short of it. Refining that is what Theorems 2.2–2.3 do, and the single-top-prime coherence of §2.4 is what taxes all but the wreath-fused blocks.
+
+> **Theorem 2.1 (exact values on n = 2·(odd prime power)).** For every odd prime power m ≥ 3, with n = 2m,
+
 > **μ(n) = m(m−1) = n(n−2)/4.**
 >
 > *Lower bound.* Γ = 𝔽_m² ⋊ (C_{m−1} × C₂) where the translations act independently on the two blocks, C_{m−1} = 𝔽_m^* acts by the **same** multiplicative twist on both, and C₂ swaps them. Oliver chain 𝔽_m² ◁ 𝔽_m² ⋊ C_{m−1} ◁ Γ — elementary abelian p-group, cyclic quotient, 2-group on top. Its orbitals are exactly two: the intra-block class of size 2·C(m,2) = m(m−1) (the full twist makes all within-block differences equivalent, and the swap fuses the two blocks) and the cross class of size m². Verified by orbit computation at m = 3, 5, 7, 9, 11, 13, 25, 27.
@@ -52,6 +55,7 @@ Everything the topological method can do at a given n is bounded by μ(n), and �
 > *Upper bound (counting; due to VN).* If Γ is transitive on n points then each u-orbital Ω has a common valency d (every vertex lies in d pairs of Ω), so 2|Ω| = n·d, i.e. **|Ω| = n·d/2 with Σ_i d_i = n−1** over the t orbitals. Hence min_i d_i ≤ ⌊(n−1)/t⌋. For n = 2m: t = 2 gives m\* ≤ m·(m−1); t ≥ 3 gives m\* ≤ m⌊(2m−1)/3⌋ < m(m−1) for m ≥ 3. If Γ is intransitive, its smallest orbit has size s ≤ m, and if s ≥ 2 the pairs inside it are covered by orbitals of total size C(s,2) ≤ C(m,2) = m(m−1)/2; if s = 1 the pairs joining that fixed point to the largest orbit form orbitals of total size ≤ n−1 = 2m−1 < m(m−1). Finally t = 1 means orbital-transitivity, hence 2-homogeneity, hence (n even) 2-transitivity; Oliver's condition forces Γ solvable and a solvable 2-transitive group has prime-power degree (Zassenhaus, Huppert), while 2m is not one — this single step is where solvability is needed, the rest of the argument being pure counting. ∎
 
 > **Theorem 2.2 (block recursion; 177 exact values below n = 1000).** Let n be a non-prime-power and p₁ its least prime factor. Then
+
 > **μ(n) ≤ max( n(n/p₁ − 1)/2 , n(n−2)/8 )**,
 > and equality with the first term holds — so μ(n) is *determined* — whenever n = p₁·m with m a prime power and p₁ ∈ {2, 3}.
 >
@@ -60,9 +64,11 @@ Everything the topological method can do at a given n is bounded by μ(n), and �
 > Theorem 2.1 is the case p₁ = 2; Theorem 2.3 subsumes and sharpens this bound.
 
 > **Theorem 2.3 (per-orbit capacities; the arithmetic upper bound).** Define the *valency capacity* V of a degree by the recursion
+
 > **V(c) = c − 1 if c is a prime power; otherwise V(c) = max over prime-power divisors b > 1 of c of V(c/b),**
 > and set **cap(s) = s·V(s)/2**.
 > Then for every Oliver Γ on n points, decomposing n into orbit sizes,
+
 > **μ(n) ≤ max over partitions n = s₁+…+s_k (parts ≥ 2, k ≥ 1) of min( minᵢ cap(sᵢ), min_{i<j} sᵢsⱼ )**,
 > the k = 1 term being Theorem 2.2's transitive bound.
 >
@@ -78,9 +84,12 @@ Everything the topological method can do at a given n is bounded by μ(n), and �
 
 > **Lemma A (inheritance).** For each Γ-orbit O the induced group Γ|_O inherits an Oliver chain with the *same* bottom prime p and top prime q, namely the images of Γ₂ ◁ Γ₁ ◁ Γ.
 >
+
 > **Lemma B (foreign orbits).** Let O have full capacity — Γ|_O is 2-homogeneous, hence primitive affine of degree s = p₀^a — and suppose p₀ ≠ p. Then π_O(Γ₂) is a normal p-subgroup of a primitive group; a nontrivial normal subgroup of a primitive group is transitive, which would force p = p₀, so π_O(Γ₂) = 1. Hence π_O(Γ₁) is cyclic and normal, so it contains the socle 𝔽_s, forcing **a = 1**; being cyclic it centralises the socle, and the centraliser of the socle in AGL(1,s) is the socle itself, so π_O(Γ₁) = 𝔽_s and the entire twist lies in Γ/Γ₁, a q-group. Since 2-homogeneity on s points requires a twist of order s−1 or (s−1)/2:
+
 > **an orbit of foreign characteristic attains full capacity only if s is prime with s − 1 ∈ {qᵉ, 2qᵉ}.**
 >
+
 > **Lemma C (the cyclic layer).** Full twists of p-blocks on distinct blocks, and translations of foreign prime blocks, all lie in Γ₁/Γ₂ and act on disjoint supports; they therefore generate a direct product, which must be cyclic. Hence their orders are pairwise coprime — in particular **gcd(m−1, r) = 1** between a p-block of size m and a foreign block of size r. (Twists acting *diagonally* on several p-blocks are not independent and carry no coprimality condition — this is what Theorem 2.1's construction exploits.)
 
 These are exactly the conditions §5 imposes on its ladder, now derived rather than assumed. Lemma B is the origin of the safe-prime hypothesis: the top rung wants a foreign block of prime size r with a twist of order ∼r/2, and Lemma B says the twist must be a q-power, so r − 1 ∈ {qᵉ, 2qᵉ} — with e = 1 in the 2qᵉ case being precisely "r is a safe prime." Verified against every two-block witness in `mu_table_full.csv`: of 5,025 such rows, the 3,316 whose foreign block attains full capacity satisfy Lemma B **without exception** (3,302 of shape 2qᵉ, 14 of shape qᵉ), and Lemma C's gcd condition holds in all 5,025. Lemma B also predicts the density split measured in §5.5: among rows clearing the 1/12 diagnostic threshold, 73.1% have r − 1 ∈ {qᵉ, 2qᵉ}; among those below, 9.9%.
@@ -142,6 +151,7 @@ Confirmed by the table: over 5,025 rows whose best witness is this two-block fam
 Two local traps, both real and both instructive. The chain (a,b) = (2,4) is impossible outright — one of {q, 2q+1, 4q+1} is always divisible by 3 (except at q = 3). And the chain (2,6), which looks obstruction-free, is **locally dead whenever 3 | n**: it forces q ≡ 2 (mod 3), whence m ≡ n (mod 3). A **covering system of chains** is therefore required. Joint local solubility (positive singular series) is verified explicitly at ℓ = 2, 3, 5 and for ℓ ≥ 7 by counting (≤ 4 forbidden residues among ℓ−1). Each hypothesis is a four-condition Hardy–Littlewood system in one variable (predicted count ∼ 𝔖(n)·n/log⁴n), one condition beyond the even case, same believed tier.
 
 > **Proposition 5.3 (the chain constant, closed form).** Put q = γn. The binding pair of orbitals is the full-twist block against the *weaker* twisted block (a < b makes intra-r = aq² smaller than intra-s = bq²); balancing intra-m = m²/2 against aq² gives γ = 1/(a + b + √(2a)) and
+
 > **δ(a,b) = 2a / (a + b + √(2a))².**
 > Maximizing over locally admissible even pairs: **(a,b) = (4,6) gives δ = 0.0486**, admissible whenever q ≡ 1 (mod 3); (2,6) gives only 0.0400. For 3 | n the (4,6) chain is unusable (it forces m ≡ 0 mod 3) and the best admissible pair is (6,12) with δ ≈ 0.028.
 
