@@ -100,7 +100,7 @@ if __name__=="__main__":
     args=ap.parse_args()
     print("| n | C(n,2) | prime power? | mu(n) status | best constructive lower bound | density | witness |")
     print("|---|--------|--------------|--------------|------------------------------|---------|---------|")
-    for n in range(4,args.nmax+1):
+    for n in range(2,args.nmax+1):
         r=row(n)
         if r['pp']:
             print(f"| {n} | {r['N']} | yes | = {r['mu']} (exact) | {r['mu']} | 1.000 | {r['wit']} |")

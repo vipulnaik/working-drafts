@@ -15,7 +15,7 @@ translation groups act freely on blocks):
   B3 three-block chains m + (aq+1) + (bq+1), (a,b) over a covering set of even
      multiplier pairs, q, aq+1, bq+1 prime, m = n-(a+b)q-2 prime power,
      coprimality checks: min over 3 intras and 3 crosses.
-Validation: agrees with the exact-BFS table of mu_table.py on 4 <= n <= 30
+Validation: agrees with the exact-BFS table of mu_table.py on 2 <= n <= 30
 (run with --validate).
 """
 import sys, argparse
@@ -136,7 +136,7 @@ def main():
         sys.path.insert(0,'/home/claude')
         from mu_table import row
         bad=0
-        for n in range(4,31):
+        for n in range(2,31):
             v,w,ex=best_for_n(n,spf,chain_pairs)
             r=row(n)
             if v<r['mu']:
@@ -150,7 +150,7 @@ def main():
         cw=csv.writer(fh, quoting=csv.QUOTE_MINIMAL)
         cw.writerow(["n","C(n2)","prime_power","mu_lower","mu_upper","density","witness"])
         worst=[]
-        for n in range(4,args.nmax+1):
+        for n in range(2,args.nmax+1):
             N=comb(n,2)
             v,w,ex=best_for_n(n,spf,chain_pairs)
             up=N if ex else N//2
@@ -162,7 +162,7 @@ def main():
         print(f"  {d:.4f}  n={n:4d}  {v}/{N}  {w}")
     import statistics
     ds=[d for d,*_ in worst]
-    print(f"\nnon-prime-power n in [4,{args.nmax}]: {len(ds)}")
+    print(f"\nnon-prime-power n in [2,{args.nmax}]: {len(ds)}")
     print(f"density: min {min(ds):.4f}  median {statistics.median(ds):.4f}  max {max(ds):.4f} (ceiling 0.5)")
     print(f"count with density < 0.10: {sum(1 for d in ds if d<0.10)}")
     print(f"count with density >= 0.20: {sum(1 for d in ds if d>=0.20)}")
