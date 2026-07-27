@@ -247,3 +247,23 @@ duality involution theorem PROVED (notes 7.9); predictions 493/439/457 all
   confirmed UNSAT-pinned-0.  Backbone complement-pairing now 18/18 + theorem.
 adversary.py validated: scorpion n=5 (204 vs 28869 states), n=6 (3627 vs
   3563639), matching-closure n=6 evasive; skeleton n=10 attack launched.
+
+--- RUN 9: notes rev 6 (2026-07-27) ---
+mu_fast extended to n=10^4 (9999 rows).  Findings folded into notes:
+  * Prop 4.3: chain constant closed form delta(a,b)=2a/(a+b+sqrt(2a))^2;
+    max over locally admissible pairs = 0.0486 at (a,b)=(4,6), superseding
+    the (2,6) chain (0.0400) of rev 3-5.  delta_0^odd ~ 0.049 (3 not | n),
+    ~0.028 (3|n) vs delta_0^even ~ 0.083.  Empirical max 0.0485 confirms wall.
+  * 4.5': ledger measured.  0.5% of even vs 65.4% of odd composites below
+    1/12; odd shortfall widening (36.5%->53.9%->65.4%).  Mechanism: odd n
+    reach the strong 2-block family only via n=2^a+r (r prime forced by the
+    cyclic middle layer), ~log2(n) splits vs ~n/2 for even n.
+  * Appendix A: "odd multiples of 9" diagnosis RETRACTED -- 2439/2464 of the
+    below-1/12 set are simply odd; only 473 divisible by 9 (274 expected).
+  * 7.12: global chi test; skeleton killed (64333 classes, S=-15183000).
+    THIRD certificate gap recorded: a CSP solution is not a property.
+    Earlier catalog-restricted S=438480 retracted as meaningless.
+  * 7.13: Adamaszek n=5 property recovered independently; 758 position count
+    reproduced (792-34); complementation-invariance vs our twisted involution;
+    scorpion-budget inference retracted.
+  * 7.11: stage-3 v3 acceptance PASSED bit-identical at V=1242.
