@@ -416,3 +416,43 @@ CONSEQUENCE: the safe-prime hypothesis of section 4's top rung is DERIVED
 arithmetic optimisation rather than a group classification; what is still open
 is extending B and C to partial-capacity orbits and nested imprimitive
 configurations.
+
+--- RUN 18: Lemma B' + independent GAP validation + refined bound (partial) ---
+LEMMA B' (strengthening): the proof of Lemma B uses only PRIMITIVITY, not
+2-homogeneity.  So any foreign-characteristic primitive orbit has PRIME size and
+a q-power twist; its capacity is s*t/2 (t even) or s*t (t odd) with t the q-part
+of s-1 -- exactly block_intra from the section-4 constructions.
+INDEPENDENT VALIDATION against the 967 exhaustively GAP-enumerated Oliver groups
+at n=10 (no knowledge of the lemmas):
+  * 1061 full-capacity orbits in 728 groups; sizes 2,3,4,5,7,8,9 -- ALL prime
+    powers, zero exceptions.
+  * zero groups with proper-prime-power full-capacity orbits of DIFFERENT primes
+    (confirms uniqueness of the bottom prime p).
+  * all 88 prime-sized full-capacity orbits in groups with a genuine top prime q
+    satisfy s-1 in {q^e, 2q^e}.
+REFINED BOUND: carrying p through the capacity recursion raises the fraction of
+n <= 1000 where the bound is MET from 42.7% (Thm 5.3) to ~70%, zero violations.
+CAVEAT (recorded in the notes): two faithful-looking implementations give 71.0%
+and 68.9% because they enumerate different (partition, p, twist) configurations
+and max-min <= min-max.  The enumeration must be made canonical and proved
+exhaustive before the number is quotable.  Thm 5.3 remains the quotable bound.
+
+--- RUN 19: normalisation pass -- C(n,2) as the referent throughout ---
+VN flagged that "c* n^2 with c* < 1/2" undersells the ceiling (n^2/2 ~ C(n,2),
+so the statement is nearly vacuous).  Fixed, and the pass surfaced a real error:
+  * the proven ceiling is mu(n) <= floor(C(n,2)/2), i.e. DENSITY <= 1/2, stated
+    now in section 1 and section 5, and attained in the limit by Thm 5.1's
+    n = 2*(prime power) family ((m-1)/(2m-1) -> 1/2).
+  * delta_0^even was quoted as ~1/12 in n^2 units while Prop 4.3's odd constants
+    (0.0486, 0.028) are C(n,2)-relative, and section 4.5' compared them directly
+    against a C(n,2)-relative density column.  RECOMPUTED: balanced two-block
+    m ~ r ~ n/2 gives intra-m ~ C(m,2) ~ n^2/8, intra-r ~ rq ~ n^2/8, cross ~
+    n^2/4, so min = n^2/8 = C(n,2)/4.  => delta_0^even = 1/4 relative to C(n,2).
+    Data confirms: max density over 5025 two-block witnesses = 0.2499.
+    The previously quoted n^2/(2(1+sqrt2)^2) ~ 0.172 matches neither convention.
+  * the 1/12 used in the 4.5' ledger is therefore NOT delta_0^even; it is a
+    DIAGNOSTIC threshold sitting between the chain ceiling 0.049 and the
+    two-block constant 1/4.  Relabelled as such, with the note that against the
+    true 1/4 threshold 85.8% of even and 86.9% of odd composites fall short and
+    the parity signal disappears -- the parity finding is threshold-relative.
+  * remaining n^2 anchors converted to C(n,2) (delta_0*C(n,2), Theta(C(n,2))).
