@@ -377,3 +377,19 @@ gcd(a-1,b-1)=1 and the rest must fit a single top q-group.  That coherence
 condition is exactly what produces the Hardy-Littlewood systems of section 4.
 STATUS: partition/block structure + per-orbit capacity = THEOREMS; twist
 coherence = the sole remaining conjecture (Open Problem 9, rewritten).
+
+--- RUN 15: Theorem 5.3 verified to n=10^4, capacity made recursive ---
+Ran the bound against the user's fixed 10^4 table (9999 rows).
+FIRST PASS (non-recursive cap): 0 violations, 1493 exact (17.1%), median gap
+  ratio 0.371.  Branch split T=1475 / I=18.
+FOUND: cap was not recursive.  The intra-block valencies are the suborbit sizes
+  of the block stabiliser acting on its block -- itself transitive solvable of
+  degree c/b -- so the bound recurses:
+    V(c) = c-1 if c prime power, else max over prime-power divisors b>1 of V(c/b)
+    cap(s) = s*V(s)/2
+  e.g. V(1425)=24 so cap(1425)=17,100, against 337,725 for the one-step reading.
+SECOND PASS (recursive): 0 violations over all 8719 non-prime-power n <= 10^4;
+  EXACT at 2318 (26.6%), branch T=1493 / I=825; median gap ratio 0.533.
+  Exact fraction declines with n: 42.7% (<=10^3), 33.2% (<=3*10^3), 26.6% (<=10^4).
+  Shapes: 699 of 2*pp, 489 of 3*pp, 1130 other.
+  Worst gaps remain the weak odd n: 1425 (0.058), 4245, 3393, 5457, 4059.
