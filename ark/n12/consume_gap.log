@@ -14,3 +14,9 @@
 16:02:24  stage 2: 59/59 groups, 600 classes
 16:02:24  stage 2 complete: 600 classes
 16:41:18  stage 3: 8/600 rows (eta 172719s)
+23:06:37  detected n = 12 (66 pairs)
+23:06:37  stage 1: checkpoint matches selection (59 groups)
+23:06:37  stage 2: resumed at group 59, catalog 600 classes
+23:06:37  stage 2 complete: 600 classes
+23:06:37  stage 3: seeds -- 13243 free containments; 255796 invariant/size exclusions
+23:06:37  stage 3: after inference, 74213 of 359400 ordered pairs need VF2 (20.6%)
