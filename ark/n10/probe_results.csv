@@ -792,3 +792,7 @@ class,pinned_value,result,edges,nodes_note
 394,1,UNSAT,36,1s
 395,0,CAP,16,1882s
 395,1,SAT,16,49s
+396,0,CAP,20,1972s
+396,1,SAT,20,51s
+397,0,CAP,18,2054s
+397,1,SAT,18,50s
