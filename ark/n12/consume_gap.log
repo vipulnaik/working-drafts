@@ -41,3 +41,13 @@
 15:48:51  stage 3: 768 VF2 calls done, 60718 pairs left (10283s)
 15:59:26  stage 3: 896 VF2 calls done, 60461 pairs left (10918s)
 16:07:04  stage 3: 1024 VF2 calls done, 60224 pairs left (11376s)
+19:57:51  detected n = 12 (66 pairs)
+19:57:51  stage 1: checkpoint matches selection (59 groups)
+19:57:51  stage 2: resumed at group 59, catalog 600 classes
+19:57:51  stage 2 complete: 600 classes
+19:57:52  stage 3: seeds -- 13243 free containments; 255796 invariant/size exclusions
+19:57:52  stage 3: resumed inference checkpoint
+19:57:52  stage 3: after inference, 60224 of 359400 ordered pairs need VF2 (16.8%)
+21:54:24  stage 3: 128 VF2 calls done, 60082 pairs left (6992s)
+22:22:41  stage 3: 256 VF2 calls done, 58898 pairs left (8689s)
+22:34:22  stage 3: 384 VF2 calls done, 58152 pairs left (9390s)
