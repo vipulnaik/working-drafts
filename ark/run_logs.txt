@@ -793,3 +793,25 @@ reports mu determined EXACTLY at every non-prime-power n < 1000 (was "2,318 of
 8,719 below 10^4") and notes (*) is substantially provable with only enumeration
 exhaustiveness left; the closing bullet now names that as the sharp open problem
 rather than "a canonical coherence enumeration".
+
+--- RUN 35: testing the canonical enumeration against the 10^4 table ---
+VN asked whether the extended table is evidence against the enumeration.  It is not.
+BOUND vs CONSTRUCTION, 1182 values (all 1062 non-prime-powers < 1300 + 120 sampled
+in [1300,10^4]): 0 violations, bound MET at 100%.
+Two distinct things being tested, not to be conflated:
+ * TIGHTNESS FROM BELOW -- confirmed.  Every configuration the enumeration permits
+   is realised by an explicit group, so Lemmas A-C admit no phantom configurations.
+   Non-circular, and the first thing that would fail if the coherence conditions
+   were merely necessary rather than characteristic.
+ * EXHAUSTIVENESS FROM ABOVE -- NOT tested by this comparison, since a missing
+   family shows up as a violation only if the constructions implement it.
+NON-CIRCULAR EXHAUSTIVENESS CHECK using the GAP battery (independent source of
+Oliver groups): at n = 10 all 967 enumerated groups have max min-orbital = 20,
+exactly the bound, attained by T(10,17) of order 200 with orbitals {20,25}.
+No enumerated group exceeds the bound.  Extending this to the 8,819 groups at
+n = 12 is the cheapest available strengthening.
+FAMILY CENSUS on the 10^4 table: two-block 4441, PP block fusion (Thm 2.4) 3053,
+general 3-part (Thm 2.5) 1198, wreath 16, old chain menu 11.  The two families
+found today supply the best witness at 4,251 of 8,719 rows -- nearly half.
+Density stats: min 0.0147 (n=4917), median 0.1998, max 0.4999; 2391 rows below
+0.10, 1585 below 0.05.
