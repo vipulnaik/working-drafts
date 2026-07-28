@@ -873,3 +873,25 @@ under-enumeration episodes, points to enumeration-proof.md for the general
 configuration and per-part status, and names the GAP batteries as the only
 non-circular exhaustiveness evidence.
 enumeration-proof.md reconciled with the 45-value sweep figures.
+
+--- RUN 38: Part F -- the enumeration is bounded and needs no number theory ---
+VN asked whether a canonical enumeration would itself require Hardy-Littlewood
+input to cut down cases.  It does not, and Part F proves it.
+PROPOSITION F.1 (part count): a configuration achieving density delta has at most
+1/sqrt(delta) orbits.  Proof: cap(s) <= C(s,2) < s^2/2 and m* <= min_i cap(s_i),
+so every s_i > sqrt(2m*) ~ n sqrt(delta); summing to n gives k < 1/sqrt(delta).
+CONSEQUENCES:
+ * weakest density below 10^4 is 0.0147 (n=4917) => k <= 8.  Median 0.2 => k <= 2.
+   So no admissible configuration below 10^4 has more than EIGHT orbits.
+ * SELF-CERTIFYING SEARCH: B_K non-decreasing in K, so 1/sqrt(delta_K) is
+   non-increasing; compute B_2, B_3, ... and stop at the first K with
+   1/sqrt(delta_K) <= K.  Terminates by K=8 for every n < 10^4.  No conjecture
+   consulted anywhere.
+DIVISION OF LABOUR recorded: shapes = group theory (unconditional); max at fixed n
+= bounded finite search (unconditional); asymptotics of the max = Hardy-Littlewood
+/ Chowla (conditional).  Number theory answers WHICH n admit a good configuration,
+never WHICH configurations are admissible.
+Also noted: all four under-enumeration failures came from replacing the general
+shape with a menu of special cases because the general search looked expensive.
+F.1 removes that excuse; writing the general enumeration once, over configurations
+with at most 1/sqrt(delta) parts, is what remains of Part E.

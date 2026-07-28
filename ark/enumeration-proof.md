@@ -79,4 +79,28 @@ So the family exploits **Fermat-like foreign primes at q = 2** in combination wi
 3. **The number of foreign parts.** The search that found n = 273 capped v at 3. Nothing rules out v ≥ 4 contributing at some n, though the cross terms r_j r_{j'} make large v self-defeating.
 4. **A completeness argument.** What is wanted is a proof that every configuration permitted by Parts B–D is dominated by one of an explicit finite list — ideally by showing that any two fusion classes may be merged or one discarded without decreasing the value.
 
+## Part F. The search is bounded — **PROVED**
+
+The enumeration needs no number-theoretic input to be finite, and the bound is small.
+
+> **Proposition F.1 (part count).** If a configuration on n points achieves density δ = m\*/C(n,2), then it has at most **1/√δ** orbits.
+>
+> *Proof.* Each orbit's capacity is at most C(s_i, 2) < s_i²/2 (Part C), and m\* ≤ min_i cap(s_i) by Part A, so s_i > √(2m\*) = √(δ·n(n−1)) for every i. Summing over the k orbits, n = Σ s_i > k√(δ·n(n−1)), whence k < 1/√δ (up to the n/(n−1) factor). ∎
+
+Two consequences.
+
+*The search is small in practice.* The weakest density anywhere below 10⁴ is 0.0147 (at n = 4917), giving k ≤ 8; at the median density 0.2 the bound is k ≤ 2. So **no admissible configuration below 10⁴ has more than eight orbits**, and most have two.
+
+*The search is self-certifying.* Let B_K(n) be the maximum over configurations with at most K parts, and δ_K its density. B_K is non-decreasing in K, so δ_K is too, and 1/√δ_K is non-increasing. Compute B_2, B_3, … and stop at the first K with 1/√δ_K ≤ K: by Proposition F.1 no configuration with more than K parts can achieve δ_K, so B_K = B. For every n below 10⁴ this terminates by K = 8. **No conjecture is consulted at any point.**
+
+This is the structural answer to the question of whether the enumeration needs Hardy–Littlewood-type input to cut down cases. It does not. The division of labour is:
+
+| question | apparatus | conditional? |
+|---|---|---|
+| what shapes can an Oliver group have? | Parts A–D, group theory | no |
+| what is the maximum at a given n? | bounded search, ≤ 1/√δ parts | no |
+| how does that maximum behave as n → ∞? | Hardy–Littlewood, Chowla (§4–5 of the notes) | yes |
+
+Number theory answers *which n admit a good configuration*, never *which configurations are admissible*. The temptation the four failures all yielded to was replacing the general shape by a menu of special cases because the general search looked expensive; Proposition F.1 removes the excuse, and writing the general enumeration once — over all configurations with at most 1/√δ parts — is what remains of Part E.
+
 **Methodological note, earned the hard way.** Under-enumeration has now produced three separate corrections: five violations before three-part configurations were added; Theorem 2.4 (block counts may be prime powers, not just primes); Theorem 2.5 (the two foreign twists need only share a prime q, not fit a multiplier menu); and now the mixed fused-plus-foreign family at n = 273. In every case the *bound* was right and the *construction list* was missing something, which is the safer direction to err — but it means "no violations found" is weak evidence for exhaustiveness, and the GAP batteries (which enumerate Oliver groups independently of our families) are the only genuinely non-circular check currently available. At n = 10 they confirm the bound: all 967 groups have minimum orbital at most 20, the bound's value.
