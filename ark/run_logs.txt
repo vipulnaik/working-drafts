@@ -673,3 +673,27 @@ Recorded that both steps are STRICT: chi != 0 does not recover the congruence,
 and nonvoidness does not recover chi != 0 (a nonvoid complex can have chi = 0).
 This makes visible in the diagram why the transversal condition can never
 deliver more than the CSP.
+
+--- RUN 29: section 1.3 -- the quantifier reversal and what it bounds ---
+VN's observation: Oliver's theorem characterises the GROUP (G has the fixed-point
+property on finite contractible complexes iff G is p-by-cyclic-by-q; the set of
+achievable chi(X^G) over all such X is 1 + n_G*Z, with n_G = 0 for p-groups,
+q in the Oliver case, 1 otherwise).  We use it with the quantifiers reversed:
+Delta_P is the unknown and we range over all Oliver groups.
+CONSEQUENCE recorded: since every value in 1 + n_G*Z is realised by SOME
+contractible complex, the congruence is TIGHT at each fixed group -- no
+sharpening is available from topological input at fixed G.  Hence exactly three
+places remain:
+ (a) more groups -- the transversal condition / CSP; bounded by which Oliver
+     groups exist at n (the arithmetic of sections 2-6).  Heavily exploited.
+ (b) the restriction to Delta_P complexes -- Oliver's tightness is over ARBITRARY
+     contractible complexes, and says nothing about order complexes of
+     downward-closed S_n-invariant families.  A fixed-point theorem specialised
+     to monotone-graph-property complexes would be new topology.  LEAST EXPLORED.
+ (c) use collapsibility or non-evasiveness instead of acyclicity -- KSS discards
+     these in one step and everything downstream lives at the acyclicity level.
+     The adversary searcher is the only tool in the note that touches them.
+This is the cleanest available explanation of the one-sidedness and of the
+certificate gap: every test is a consequence of acyclicity, those consequences
+are individually optimal by Oliver, and acyclicity is three strict implications
+weaker than non-evasiveness.
