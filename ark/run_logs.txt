@@ -895,3 +895,50 @@ Also noted: all four under-enumeration failures came from replacing the general
 shape with a menu of special cases because the general search looked expensive.
 F.1 removes that excuse; writing the general enumeration once, over configurations
 with at most 1/sqrt(delta) parts, is what remains of Part E.
+
+--- RUN 39: Part G -- nested towers add no new shapes ---
+G.1 The chain DESCENDS to block stabilisers: H cap Gamma_2 is a p-group,
+    (H cap Gamma_1)/(H cap Gamma_2) embeds in a cyclic group, H/(H cap Gamma_1)
+    embeds in a q-group.  Same (p,q) at every depth, so Part C's recursion is sound.
+G.2 EVERY ORBIT IS F*c with F a q-power and c a PRIME POWER.  Each tower level has
+    q-power block count; the recursion ends at primitive finest blocks, which are
+    affine of prime-power degree.  So |O| = b_1...b_t * c = q^a * c.  TOWER DEPTH
+    IS ABSORBED ENTIRELY INTO F -- a three-level and a one-level tower with the
+    same (F,c) have identical orbital data.  The loose end is closed, and it
+    COLLAPSES the shape space rather than enlarging it.
+G.3 Final general configuration: n = sum_i F_i c_i, F_i q-powers, c_i prime powers,
+    each p-characteristic or foreign prime; twists d_i | c_i - 1 (q-power if
+    foreign), Lemma C.  Orbitals: F_i*orb(c_i,d_i); (F_i or F_i/2)c_i^2 if F_i>1;
+    <= s_i s_j across orbits.  EVERY family in the notes is a special case.
+G.4 Bounded on all three axes: c_i >= delta*n, F_i <= 1/delta, k <= 1/sqrt(delta).
+    At delta=0.0147: c >= 0.0147n, F <= 68, k <= 8.  At median: c >= 0.2n, F <= 5,
+    k <= 2.  VERIFIED: all 3053 fused-form witnesses in the table satisfy both
+    derived constraints, no exceptions.
+=> Part E is now reduced from an open classification to a bounded computation:
+   write the G.3 enumeration ONCE, generally, instead of a menu of special cases.
+
+--- RUN 40: general enumeration implemented (mu_enumerate.py); Parts H and I ---
+IMPLEMENTED the G.3 configuration enumeration with the Part F self-certifying
+iteration and Part G.4 pruning.  Reproduces mu(10)=20 (p=5,q=2, two fused blocks
+of 5) and mu(12)=18 (p=2,q=3, three fused blocks of 4); agrees with the table at
+all 55 non-prime-powers below 90.
+TWO ADMISSIBILITY BUGS found and fixed via bad witnesses:
+  * foreign parts cannot be FUSED (F copies of C_c generate C_c^F in the cyclic
+    layer, cyclic only for F=1; diagonal translations collapse the within-orbit
+    cross to ~F*c and are dominated)
+  * foreign primes must be PAIRWISE DISTINCT across orbits (same reason)
+Both are Lemma C consequences the special-case menus never had occasion to break.
+DIVERGENCE ABOVE n=250, always the same omitted shape -- TWO p-PARTS PLUS ONE
+FOREIGN PRIME:
+   n=255: 2016 -> 2628 (1.30x)  73+73+109*
+   n=273:  689 -> 3403 (4.94x)  83+83+107*
+   n=285: 2041 -> 3916 (1.92x)  89+89+107*
+PART H, search cost with NO number theory:  parts P = O((n/log n) log(1/delta));
+whole search O(pi(n)^2 * P^{1/sqrt(delta)}) = n^{O(1/sqrt(delta))}, halting with a
+certificate whatever delta turns out to be.  The ONLY unbounded term is delta.
+  * unconditional: BBKN gives delta = Omega(log n / n), so the exponent is only
+    O(sqrt(n/log n)) and the search is n^{O(sqrt n)} -- subexponential, not poly.
+  * under the ladder: delta >= 1/4 (even), 0.049 (odd, 3 not | n), 0.028 (3|n)
+    => k <= 2, 5, 6 and the search is POLYNOMIAL of fixed degree.
+=> the number-theoretic conjectures bound not only mu(n) but the RUNNING TIME of
+the certified enumeration.  Flagged for expansion in the number-theory sections.

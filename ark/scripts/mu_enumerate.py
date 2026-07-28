@@ -1,0 +1,278 @@
+#!/usr/bin/env python3
+"""
+mu_enumerate.py -- the general configuration enumeration of enumeration-proof.md
+Part G.3, with the self-certifying termination of Part F.
+
+A configuration on n points is
+
+    n = sum_i  F_i * c_i        (i = 1..k orbits)
+
+  * F_i is a power of the top prime q      (fusion count; tower depth is absorbed
+                                            entirely into F_i, by Part G.2)
+  * c_i is a prime power                   (finest-block size)
+  * each c_i is either p-characteristic (a power of the bottom prime p, twist any
+    divisor of c_i - 1) or FOREIGN (a prime != p, twist a q-power, by Lemma B')
+  * Lemma C: a p-characteristic twist must be coprime to every foreign prime
+
+Orbital sizes:
+    intra orbit i          F_i * orb(c_i, d_i)
+    within orbit i (F_i>1) (F_i if q odd else F_i/2) * c_i^2
+    between orbits i, j    at most s_i * s_j,  s_i = F_i * c_i
+
+and m*(config) is the minimum of these.  B(n) is the max over configurations.
+
+Search bounds (Parts F and G.4), all free of number-theoretic input.  With
+delta = B(n) / C(n,2):
+    k     <= 1/sqrt(delta)          number of orbits
+    c_i   >= delta * n              finest-block size
+    F_i   <= 1/delta                fusion count
+The iteration over K = 1, 2, ... halts at the first K with 1/sqrt(delta_K) <= K,
+at which point B_K = B is certified.
+
+Usage:
+    python3 mu_enumerate.py --n 273
+    python3 mu_enumerate.py --nmax 400 [--check mu_table_full.csv]
+"""
+import argparse, csv, sys
+from math import comb, isqrt
+
+
+# ---------------------------------------------------------------- arithmetic
+def sieve_spf(N):
+    spf = list(range(N + 1))
+    i = 2
+    while i * i <= N:
+        if spf[i] == i:
+            for j in range(i * i, N + 1, i):
+                if spf[j] == j:
+                    spf[j] = i
+        i += 1
+    return spf
+
+
+def is_prime(x, spf):
+    return x > 1 and spf[x] == x
+
+
+def prime_power(x, spf):
+    """return (p, a) if x = p^a with a >= 1, else None"""
+    if x < 2:
+        return None
+    p = spf[x]
+    a = 0
+    while x % p == 0:
+        x //= p
+        a += 1
+    return (p, a) if x == 1 else None
+
+
+def divisors(x):
+    d = []
+    i = 1
+    while i * i <= x:
+        if x % i == 0:
+            d.append(i)
+            if i != x // i:
+                d.append(x // i)
+        i += 1
+    return sorted(d)
+
+
+def qpart(x, q):
+    t = 1
+    while x % (t * q) == 0:
+        t *= q
+    return t
+
+
+def strip(x, primes):
+    for p in primes:
+        while x % p == 0:
+            x //= p
+    return x
+
+
+def orb(c, t, char2):
+    """intra-block orbital size: pairs whose difference lies in +/- delta*T.
+    |+/-dT| = |T| when -1 is in T (always in characteristic 2, else iff |T| even),
+    otherwise 2|T|; the orbital has c * |+/-dT| / 2 pairs."""
+    return c * t // 2 if (char2 or t % 2 == 0) else c * t
+
+
+# ---------------------------------------------------------------- parts
+class Part:
+    __slots__ = ("F", "c", "foreign", "size", "cap", "cb")
+
+    def __init__(self, F, c, foreign, q, p, spf):
+        self.F = F
+        self.c = c
+        self.foreign = foreign
+        self.size = F * c
+        char2 = (not foreign) and p == 2
+        if foreign:
+            # Lemma B': twist is the q-part of c-1, fixed once q is chosen
+            self.cap = F * orb(c, qpart(c - 1, q), False)
+        else:
+            # p-characteristic: twist at most c-1; the exact value depends on
+            # which foreign primes appear (Lemma C) and is applied later
+            self.cap = F * orb(c, c - 1, char2)
+        self.cb = ((F if q % 2 else F // 2) * c * c) if F > 1 else None
+
+
+def parts_for(n, p, q, spf, floor):
+    """all (F, c) parts with F a q-power, c a prime power, F*c <= n, and whose
+    optimistic capacity exceeds `floor` (pruning bound of Part G.4)"""
+    out = []
+    c = 2
+    while c <= n:
+        pp = prime_power(c, spf)
+        if pp:
+            foreign = not (pp[0] == p)
+            if not (foreign and pp[1] > 1):          # Lemma B': foreign => prime
+                F = 1
+                while F * c <= n:
+                    # a foreign part cannot be fused: its F copies of C_c would
+                    # generate C_c^F inside the cyclic layer, which is cyclic only
+                    # for F = 1.  (Diagonal translations keep it cyclic but drop
+                    # the within-orbit cross class to ~F*c, always dominated.)
+                    if foreign and F > 1:
+                        break
+                    pt = Part(F, c, foreign, q, p, spf)
+                    if pt.cap > floor and (pt.cb is None or pt.cb > floor):
+                        out.append(pt)
+                    F *= q
+        c += 1
+    out.sort(key=lambda t: -t.size)
+    return out
+
+
+# ---------------------------------------------------------------- evaluation
+def value(sel, p, spf):
+    """exact m* of a chosen configuration (list of Part), applying Lemma C.
+    Returns None if the configuration is inadmissible."""
+    foreigns = [t.c for t in sel if t.foreign]
+    # distinct foreign primes: two foreign parts of the same prime r would put
+    # C_r x C_r inside the cyclic layer Gamma_1/Gamma_2, which is not cyclic
+    if len(foreigns) != len(set(foreigns)):
+        return None
+    terms = []
+    for t in sel:
+        if t.foreign:
+            terms.append(t.cap)
+        else:
+            d = strip(t.c - 1, foreigns)             # Lemma C
+            char2 = (p == 2)
+            terms.append(t.F * orb(t.c, d, char2))
+        if t.cb is not None:
+            terms.append(t.cb)
+    for i in range(len(sel)):
+        for j in range(i + 1, len(sel)):
+            terms.append(sel[i].size * sel[j].size)
+    return min(terms)
+
+
+def best_with_k(n, K, spf, seed=0):
+    """max over configurations with at most K orbits; `seed` prunes"""
+    best, wit = seed, None
+    primes = [x for x in range(2, n + 1) if is_prime(x, spf)]
+    for p in primes:
+        for q in primes:
+            if q > n:
+                break
+            pool = parts_for(n, p, q, spf, best)
+            if not pool:
+                continue
+
+            def rec(idx, rem, sel):
+                nonlocal best, wit
+                if rem == 0:
+                    if not sel:
+                        return
+                    v = value(sel, p, spf)
+                    if v is not None and v > best:
+                        best = v
+                        wit = (p, q, [(t.F, t.c, t.foreign) for t in sel])
+                    return
+                if len(sel) == K:
+                    return
+                for i in range(idx, len(pool)):
+                    t = pool[i]
+                    if t.size > rem:
+                        continue
+                    if t.cap <= best or (t.cb is not None and t.cb <= best):
+                        continue
+                    if sel and min(u.size for u in sel) * t.size <= best:
+                        continue
+                    rec(i, rem - t.size, sel + [t])
+
+            rec(0, n, [])
+    return best, wit
+
+
+def mu_bound(n, spf, kmax=12, verbose=False):
+    """self-certifying iteration of Part F"""
+    N2 = comb(n, 2)
+    best, wit, cert = 0, None, False
+    for K in range(1, kmax + 1):
+        b, w = best_with_k(n, K, spf, seed=best)
+        if b > best:
+            best, wit = b, w
+        delta = best / N2 if N2 else 0
+        if verbose:
+            lim = (1 / delta ** 0.5) if delta > 0 else float("inf")
+            print(f"    K={K}: B={best}  delta={delta:.4f}  need K >= {lim:.2f}")
+        if delta > 0 and 1.0 / delta ** 0.5 <= K:
+            cert = True
+            break
+    return best, wit, K, cert
+
+
+def show(w):
+    if not w:
+        return "-"
+    p, q, ps = w
+    s = " + ".join(f"{F}x{c}{'*' if fg else ''}" for F, c, fg in ps)
+    return f"p={p} q={q}: {s}   (* = foreign)"
+
+
+# ---------------------------------------------------------------- main
+if __name__ == "__main__":
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--n", type=int)
+    ap.add_argument("--nmax", type=int)
+    ap.add_argument("--check")
+    a = ap.parse_args()
+    top = a.n or a.nmax or 100
+    spf = sieve_spf(top + 1)
+
+    if a.n:
+        print(f"n = {a.n},  C(n,2) = {comb(a.n,2)}")
+        b, w, K, cert = mu_bound(a.n, spf, verbose=True)
+        print(f"  B(n) = {b}   density {b/comb(a.n,2):.4f}   "
+              f"certified at K={K}: {cert}")
+        print(f"  witness  {show(w)}")
+        sys.exit()
+
+    tbl = {}
+    if a.check:
+        for r in csv.DictReader(open(a.check)):
+            tbl[int(r["n"])] = (int(r["mu_lower"]), int(r["prime_power"]))
+    viol = exact = short = 0
+    worst = []
+    for n in range(6, a.nmax + 1):
+        if prime_power(n, spf):
+            continue
+        b, w, K, cert = mu_bound(n, spf)
+        if n in tbl and not tbl[n][1]:
+            lo = tbl[n][0]
+            if lo > b:
+                viol += 1
+                print(f"  VIOLATION n={n}: table {lo} > bound {b}")
+            elif lo == b:
+                exact += 1
+            else:
+                short += 1
+                worst.append((n, lo, b, lo / b, show(w)))
+    print(f"\nn <= {a.nmax}: exact {exact}, table-short {short}, violations {viol}")
+    for x in sorted(worst, key=lambda t: t[3])[:10]:
+        print(f"   n={x[0]:<5} table {x[1]:>8} < bound {x[2]:>8} ({x[3]:.3f})  {x[4]}")

@@ -48,7 +48,7 @@ and cap(s; p,q) = s·V(s; p,q)/2. Induction on s using Part B gives M_i ≤ cap(
 
 Twists on distinct p-characteristic parts carry **no** mutual constraint: a single cyclic generator surjects onto each, which is exactly what the diagonal constructions exploit.
 
-## Part E. Completeness of the enumeration — **OPEN**
+## Part E. Completeness of the enumeration — **OPEN** (reduced to a bounded computation by Parts F–G)
 
 This is the remaining gap, and it is a real one rather than a formality.
 
@@ -102,5 +102,73 @@ This is the structural answer to the question of whether the enumeration needs H
 | how does that maximum behave as n → ∞? | Hardy–Littlewood, Chowla (§4–5 of the notes) | yes |
 
 Number theory answers *which n admit a good configuration*, never *which configurations are admissible*. The temptation the four failures all yielded to was replacing the general shape by a menu of special cases because the general search looked expensive; Proposition F.1 removes the excuse, and writing the general enumeration once — over all configurations with at most 1/√δ parts — is what remains of Part E.
+
+## Part G. Nested towers add no new shapes — **PROVED**
+
+The one structural loose end left by Parts A–F was whether a deep imprimitive tower, interacting with foreign parts elsewhere in the partition, could escape the classification. It cannot, and the reason collapses the shape space rather than enlarging it.
+
+**G.1 The chain descends to block stabilisers.** Let H be the setwise stabiliser of a block. Then H ∩ Γ₂ is a p-group, (H ∩ Γ₁)/(H ∩ Γ₂) embeds in the cyclic Γ₁/Γ₂ hence is cyclic, and H/(H ∩ Γ₁) embeds in the q-group Γ/Γ₁ hence is a q-group. So H — and therefore its action on the block — inherits an Oliver chain **with the same (p, q)**. The recursion of Part C is thus sound at every depth, with the primes fixed throughout.
+
+**G.2 Every orbit is F·c with F a q-power and c a prime power.** Iterate Part B on an orbit O: each level of the tower has a block count that is a power of q (a transitive q-group has q-power degree), and the recursion terminates at the finest blocks, which are **primitive**, hence affine of prime-power degree. Writing the successive block counts b₁, …, b_t and the finest block size c,
+
+> |O| = b₁·b₂ ⋯ b_t · c = **q^a · c**, with c a prime power.
+
+The finest block is either p-characteristic (c a p-power, twist any divisor of c−1) or foreign, in which case Lemma B′ forces c prime with a q-power twist. **The tower depth t plays no further role: it is absorbed entirely into F = q^a.** A three-level tower and a one-level tower with the same F and c have the same orbital data.
+
+**G.3 The general configuration, in final form.** Combining G.2 with Parts A–D, an Oliver group on n points is described by a choice of chain primes (p, q) and orbits O₁, …, O_k with
+
+> **n = Σᵢ Fᵢ·cᵢ**, Fᵢ a q-power, cᵢ a prime power, each cᵢ p-characteristic or a foreign prime,
+
+twists dᵢ | cᵢ−1 (a q-power when foreign), subject to Lemma C. The orbital data is
+intra-orbit **Fᵢ·orb(cᵢ, dᵢ)**; within-orbit cross classes **(Fᵢ or Fᵢ/2)·cᵢ²** when Fᵢ > 1; and between-orbit classes at most **sᵢ·sⱼ**. Every family used anywhere in these notes is a special case: F = 1 with one part is the affine case, F > 1 with one part is Theorem 2.4, F = 1 with two or three parts is the two-block and three-part families, and F > 1 with foreign parts is the mixed family that the five-family list omitted.
+
+**G.4 The search is bounded on every axis.** With δ = m\*/C(n,2): the intra-orbital satisfies Fᵢ·orb(cᵢ,dᵢ) < Fᵢcᵢ²/2 and must be at least m\*, while Fᵢcᵢ ≤ n. Hence
+
+> **cᵢ ≥ δn**,  **Fᵢ ≤ 1/δ**,  and **k ≤ 1/√δ** (Proposition F.1).
+
+At the weakest density below 10⁴ (0.0147) this reads c ≥ 0.0147n, F ≤ 68, k ≤ 8; at the median density, c ≥ 0.2n, F ≤ 5, k ≤ 2. Checked against every fused-form witness in the table — **3,053 of 3,053** satisfy both derived constraints, with no exceptions.
+
+So the configuration space is finite along all three axes, with bounds computable from the density alone, and the self-certifying iteration of Part F applies unchanged. **What remains of Part E is now purely to write the enumeration of G.3 once, generally, rather than as a menu of special cases** — the failure mode that produced all four earlier corrections.
+
+## Part H. The cost of the search, stated without number theory — **PROVED**
+
+Write δ = B(n)/C(n,2) for the density the search is currently certifying. Parts F and G.4 bound every axis of the configuration space:
+
+| axis | bound | source |
+|---|---|---|
+| number of orbits k | **k ≤ 1/√δ** | Prop. F.1 |
+| finest-block size cᵢ | **cᵢ ≥ δn** | G.4 |
+| fusion count Fᵢ | **Fᵢ ≤ 1/δ** | G.4 |
+| tower depth | *irrelevant* — absorbed into Fᵢ | G.2 |
+
+From these the size of the search follows. The admissible parts are pairs (F, c) with c a prime power in [δn, n] and F a q-power at most 1/δ, so their number is
+
+> **P(n, δ) = O( (n / log n) · log(1/δ) )**,
+
+and a configuration is a multiset of at most k of them summing to n. Including the choice of chain primes (p, q), the whole search is
+
+> **O( π(n)² · P(n,δ)^{1/√δ} ) = n^{O(1/√δ)}** operations,
+
+with the self-certifying iteration of Part F guaranteeing that the correct K is reached and recognised. Every quantity here is elementary; no conjecture has been used, and the enumeration halts with a certificate regardless of how δ turns out.
+
+**The one term that is not bounded by anything elementary is δ itself**, and that is the whole of the dependence. Unconditionally, BBKN gives μ(n) = Ω(n log n), i.e. δ = Ω(log n / n), so the exponent 1/√δ is only bounded by **O(√(n / log n))** and the search is n^{O(√n)} — subexponential, but not polynomial. Empirically δ never drops below 0.0147 anywhere under 10⁴, giving k ≤ 8, but that is an observation about a finite range and not a theorem.
+
+**Forward pointer.** This is where the number-theoretic conjectures re-enter, and in a role distinct from the one they play in §§4–5 of the notes. There they bound μ(n) from below; here the *same* bound bounds the **running time of the search**, because δ appears in the exponent. Under the ladder — δ ≥ 1/4 for even n, δ ≥ 0.049 for odd n with 3 ∤ n, δ ≥ 0.028 for 3 | n — the orbit count falls to k ≤ 2, 5, 6 respectively and the search becomes **polynomial of fixed degree** in n. So a Hardy–Littlewood-type hypothesis buys two things at once: the value of μ(n), and a guarantee that the certified enumeration terminates in polynomial rather than n^{O(√n)} time. That is worth stating explicitly in the number-theory sections, since it is a consequence of those conjectures that has nothing to do with what they were introduced for.
+
+## Part I. What the general enumeration finds — **implemented** (`mu_enumerate.py`)
+
+The G.3 enumeration is implemented with the Part F iteration and the Part G.4 pruning. It reproduces μ(10) = 20 (p = 5, q = 2, two fused blocks of 5) and μ(12) = 18 (p = 2, q = 3, three fused blocks of 4), and agrees with the construction table at all 55 non-prime-powers below 90.
+
+Above that it diverges, always in the same direction and always by the same omitted shape — **two p-characteristic parts together with one foreign prime**:
+
+| n | menu | general | factor | configuration |
+|---|---|---|---|---|
+| 255 | 2016 | 2628 | 1.30 | 73 + 73 + 109\* |
+| 273 | 689 | 3403 | 4.94 | 83 + 83 + 107\* |
+| 285 | 2041 | 3916 | 1.92 | 89 + 89 + 107\* |
+
+At n = 285 the configuration is two orbits of 89 with the full diagonal twist C₈₈ and one foreign orbit of 107 with twist C₅₃; the chain is 𝔽₈₉² ◁ 𝔽₈₉² ⋊ (C₈₈ × 𝔽₁₀₇) ◁ Γ with cyclic middle since gcd(88, 107) = 1, and the orbitals are {3916, 5671, 7921, 9523}. Nothing exotic — simply a combination the hand-built menu never formed, exactly as at n = 273 with fusion and foreign parts.
+
+Two implementation notes, both cases where the enumeration proposed inadmissible configurations before being corrected. **Foreign parts cannot be fused** (F copies of C_c inside the cyclic layer generate C_c^F, cyclic only for F = 1; diagonal translations restore cyclicity but collapse the within-orbit cross class to ≈ F·c and are always dominated). **Foreign primes must be pairwise distinct**, for the same reason applied across orbits. Both are consequences of Lemma C that the special-case menus had never had occasion to violate, and both inflate the bound if omitted.
 
 **Methodological note, earned the hard way.** Under-enumeration has now produced three separate corrections: five violations before three-part configurations were added; Theorem 2.4 (block counts may be prime powers, not just primes); Theorem 2.5 (the two foreign twists need only share a prime q, not fit a multiplier menu); and now the mixed fused-plus-foreign family at n = 273. In every case the *bound* was right and the *construction list* was missing something, which is the safer direction to err — but it means "no violations found" is weak evidence for exhaustiveness, and the GAP batteries (which enumerate Oliver groups independently of our families) are the only genuinely non-circular check currently available. At n = 10 they confirm the bound: all 967 groups have minimum orbital at most 20, the bound's value.
