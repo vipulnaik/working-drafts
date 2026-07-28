@@ -815,3 +815,61 @@ general 3-part (Thm 2.5) 1198, wreath 16, old chain menu 11.  The two families
 found today supply the best witness at 4,251 of 8,719 rows -- nearly half.
 Density stats: min 0.0147 (n=4917), median 0.1998, max 0.4999; 2391 rows below
 0.10, 1585 below 0.05.
+
+--- RUN 36: the five-family enumeration is NOT exhaustive -- sixth family found ---
+Probing a wider configuration class (F fused blocks TOGETHER WITH v foreign
+primes) found configurations outside all five families.
+WITNESS n = 273 = 16*11 + 97: F=16 fused blocks of m=11, diagonal twist d=10,
+one foreign prime r=97 with 2-power twist t=32; p=11, q=2.  Chain
+F_11^16 <| .(C_10 x F_97) <| . (2-group on blocks x C_32); cyclic middle since
+gcd(10,97)=1.  Orbitals {880, 968, 1552, 17072} => m* = 880 vs 689 from the five
+families.
+SWEEP over n <= 1000: 45 rows improve, median 1.54x, max 4.05x (n=651:
+8128 -> 32896).  ALL 45 have q = 2.  Foreign primes: 257 appears 33 times, then
+577 (4), 193 (3), 449 (3), 97, 641.  Since 257-1 = 2^8 the twist is the full
+C_256, giving 257*128 = 32896 as the binding orbital.  Fusion sizes F = 2 (32),
+4 (10), 8 (1), 16 (2).  Mechanism: FERMAT-LIKE FOREIGN PRIMES AT q=2 combined
+with fused blocks -- inexpressible in either the fused-only or foreign-only family.
+CONSEQUENCE: the bound was computed from the same five families, so it was TOO
+SMALL at those 45 values and was not a valid upper bound there.  The claim
+"mu determined exactly at every n below 1000" is WITHDRAWN; it holds at 761 of
+806, pending recomputation of both sides with the mixed family included.
+Notes 2.6 and enumeration-proof.md corrected accordingly.
+
+--- RUN 36: EXHAUSTIVENESS -- the five-family list is NOT complete ---
+Probed a wider configuration class (F fused blocks of a p-power m, F a q-power,
+PLUS v foreign primes with q-power twists, Lemma C coprimality).  This subsumes
+families (i) [v=0], (iii) [F=1,v=1], (iv) [F=1,v=2] -- and contains a MIXED shape
+the five families never combined.
+COUNTEREXAMPLES FOUND:
+  n = 273 = 16*11 + 97 : F=16 blocks of 11 (twist 10) + prime 97 (twist 32), q=2.
+     Chain F_11^16 < .(C_10 x F_97) < .(2-group on blocks x C_32); cyclic middle
+     since gcd(10,97)=1.  Orbitals {880, 968, 1552, 17072} => m* = 880 vs 689.
+  n = 315 = 2*61 + 193 : F=2 blocks of 61 (twist 60) + prime 193 (twist 64), q=2.
+     Orbitals {3660, 3721, 6176, 23546} => m* = 3660 vs 2016 (1.82x).
+Sweep of this shape over n <= 400: exactly these 2 rows of 302 are beaten, so
+exactness below 400 is >= 99.3%, NOT 100%.  The sweep below 1000 did not finish
+(the v<=2 recursive enumeration is slow); full-range figures are unknown.
+=> RETRACTED the "mu exact at every non-prime-power n below 1000" claim in 2.6 and
+in the Overview; replaced with "all but a handful", with both counterexamples
+stated and the general repairing configuration recorded in enumeration-proof.md.
+CHECKPOINT: enumeration-proof.md written, Parts A-D marked PROVED (Singer step
+SKETCH), Part E OPEN with the general configuration, both counterexamples, and
+four residual points (multiple fusion classes; nested towers meeting foreign
+parts; v >= 4; the missing domination argument).
+Also recorded there: Lemma C's ORIGINAL justification was incomplete (a single
+generator can act as twist on one part and translation on another, so cyclicity
+alone gives no coprimality); the correct argument is the top q-group's
+conjugation action on the cyclic layer.
+
+--- RUN 37: reconciliation ---
+Note: section 2.6 already carried the fuller correction (45 values improved below
+1000, median 1.54x, max 4.05x at n=651, with 257 = 2^8+1 accounting for 33 of 45).
+My independent n <= 400 sweep found exactly n=273 and n=315, consistent with that.
+Retracted-claim wording therefore left as it stood; instead replaced the now-stale
+"Five families are enumerated..." paragraph, which still asserted the five-family
+list and named the wrong residual gaps.  It now records four demonstrated
+under-enumeration episodes, points to enumeration-proof.md for the general
+configuration and per-part status, and names the GAP batteries as the only
+non-circular exhaustiveness evidence.
+enumeration-proof.md reconciled with the 45-value sweep figures.
