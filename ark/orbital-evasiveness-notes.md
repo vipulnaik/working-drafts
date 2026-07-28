@@ -36,6 +36,37 @@ BBKN: μ(n) = Ω(n log n) unconditionally (Vinogradov/Haselgrove), Ω(n^{5/4−�
 
 **Questions addressed.** (1) Is n^{3/2} intrinsic to μ or to proof technique? (2) How far does μ reach under believed conjectures, and where does the method terminally cap? (3) Does large μ(n) conversely imply number-theoretic statements? Answers: (1) technique — 3/2 is the provable/conjectural boundary, not a group-theoretic ceiling; (2) exponent 2 with explicit constants (parity-dependent; see §5), terminally capped at density 1/2 relative to C(n,2), c\* < 1/2, by group theory (Zassenhaus) rather than number theory; (3) yes — conjecturally μ(n) ≥ n^{1+θ−o(1)} is equivalent to a θ-graded family of binary-Goldbach-type statements with multiplicative side conditions on shifted primes.
 
+**1.1 The metaproperty ladder.** It clarifies everything downstream to fix where each hypothesis and each test lives. For a monotone decreasing P with complex Δ_P:
+
+> **trivial ⟹ non-evasive ⟹ collapsible ⟹ contractible ⟹ ℤ-acyclic ⟺ (𝔽_p-acyclic for every p) ⟹ 𝔽_p-acyclic for one p ⟹ χ(Δ_P) = 1.**
+
+**ARK is exactly the assertion that the first implication reverses** for nontrivial monotone graph properties. The ladder also runs from combinatorial to topological to algebraic invariants: non-evasiveness and collapsibility depend on the simplicial structure, contractibility only on homotopy type, acyclicity and χ only on homology — each step discarding information.
+
+*Strictness for general complexes.* Every implication is strict. There are collapsible complexes that are evasive; the dunce hat is contractible but not collapsible; presentation complexes of perfect groups are ℤ-acyclic but not contractible; a complex with H̃₁ = ℤ/q is 𝔽_p-acyclic for p ≠ q but not ℤ-acyclic; and χ = 1 obviously does not imply acyclicity.
+
+*Where our tests sit — and why they are independent.* Each computational test in §7 is a consequence of a different rung.
+
+| test | rung it needs | what it yields |
+|---|---|---|
+| Oliver congruences | ℤ-acyclic | χ(Δ_P^Γ) ≡ 1 mod q for each Oliver Γ |
+| Smith conditions | 𝔽_p-acyclic | Δ_P^{P₀} is 𝔽_p-acyclic for p-subgroups P₀ |
+| global χ test (§7.12) | χ(Δ_P) = 1 | the weakest rung of all |
+
+The fixed-complex conditions and the global condition are **independent** consequences of acyclicity — neither implies the other — which is exactly why the n = 10 skeleton satisfied the entire CSP and then failed the global χ test.
+
+*The prime-power collapse, and where it stops.* For n = p^k take Γ = AGL(1,n) = 𝔽_n ⋊ C_{n−1}: an Oliver chain with **trivial** top layer, so ℤ-acyclicity would force χ(Δ_P^Γ) = 1 exactly, while the invariant graphs are only ∅ and K_n, giving a fixed complex {∅} with χ = 0. Hence at prime powers
+
+> trivial ⟺ non-evasive ⟺ collapsible ⟺ contractible ⟺ ℤ-acyclic (all empty among nontrivial P),
+
+which is KSS. But the collapse **stops there**: 𝔽_p-acyclicity and χ(Δ_P) = 1 are not excluded, because Smith theory applied to the translation subgroup leaves a large fixed complex (all unions of difference-class orbitals) and yields no contradiction. So even at prime powers the last two rungs are strictly weaker than the rest.
+
+*What is open below the prime powers.* The sharp question the framework actually confronts is not ARK but its weakening:
+
+> **Is there a nontrivial monotone graph property at some non-prime-power n whose complex is ℤ-acyclic (or contractible)?**
+
+Nothing rules this out, and it is *strictly weaker* than ¬ARK, which additionally demands non-evasiveness. This reframes the computations of §7: the CSP searches for properties satisfying **consequences of acyclicity**, so even a satisfying assignment that also passed the global χ test would not disprove ARK — it would exhibit a property that every topological test accepts. That is the precise content of the "certificate gap" recorded in §7.12, and the reason the adversary search of §7 is the only tool in the note that could settle a candidate outright.
+
+
 ### Part I — What determines μ: the group theory
 
 *The reach of the topological method at a given n is a group-theoretic quantity before it is anything else. This part determines it as far as it currently can be determined, and isolates what is left.*
@@ -311,6 +342,16 @@ Verified on every transitive q-group of small degree: C₂, C₄, C₂², D₄, 
 
 *Why this makes character sums unavoidable.* Theorem 8.1 says a blow-up orbital's clique number is bounded by 3 **no matter how large the blocks are**. A cyclotomic orbital on 𝔽_m, by contrast, has clique number growing with m — for the Paley graph, about ½log₂m — so for any fixed H it eventually contains H. That is the structural reason BBKN reach for Weil's estimates rather than a block construction: character sums are the only route to orbitals of unbounded clique number, hence the only route to unrestricted H. Equivalently, the division of labour is: **number theory decides which groups exist at a given n; character sums decide whether a given group's orbitals are H-universal.** Better number-theoretic input (the ladder of §5 rather than Chowla) does not remove the need for the second step — what it does is lower the *index* of the available cyclotomic orbitals, and since universality for an h-vertex, e-edge H needs roughly m ≫ (index)^{2e(H)}, index 2 (the Paley case, delivered by a safe prime) gives the smallest effective threshold. For H with few edges the difference is immaterial; it grows exponentially in e(H).
 
+*Several groups at once: the transversal formulation.* Each Oliver group Γ_i on [n] independently forces P to contain one of its orbitals, so across a family Γ_1,…,Γ_s:
+
+> A nontrivial non-evasive monotone P must contain **at least one orbital of every Oliver group on n points** — P is a *transversal* of the hypergraph whose edges are the orbital families. Being downward closed, P then contains ⋃ᵢ down(O_{i,jᵢ}) for some choice.
+
+This is the density-free upgrade of the disjunctive statement of §7.3, and the two lenses disagree about what combining groups buys. **Density-wise, nothing:** the floor is max over groups of that group's minimum orbital, so the single best group already determines it. Worked example at n = 50, with A = 2 blocks of 25 (orbitals 2K₂₅, K₂₅,₂₅), B = 27+23 (K₂₇, K₂₃, K₂₇,₂₃), E = 47+3 (K₄₇, K₃, K₄₇,₃), G = 49 + a fixed point (K₄₉, K₁,₄₉), F = 25 blocks of 2 (25K₂, a C₅²-pattern blow-up): the minimum over hitting sets of the maximum edge count is 600, density 0.490 — exactly group A's contribution alone.
+
+**Structurally, a great deal.** Cross-group containment collapses the 72 raw choices to **36 distinct minimal hitting sets**, each using only 2–4 graphs rather than one per group, because an orbital of one group often already contains an orbital of another (choosing 2K₂₅ satisfies B via K₂₅ ⊇ K₂₃ and E via K₃). And the narrowing is sharp once a target property is fixed: of the 36, exactly **one** contains no triangle-bearing orbital, namely {K₁,₄₉, K₂₅,₂₅, K₂₇,₂₃, K₄₇,₃}, all complete bipartite. So a triangle-free property at n = 50 must contain all four of those graphs at once — a far stronger constraint than any single group yields, and not a contradiction, since "bipartite" is such a property. That is consistent with Theorem 8.1: 50 has no factor 3, so no group on 50 points has all cross orbitals of clique number ≥ 3.
+
+Two limits worth stating plainly. The transversal condition can never yield a contradiction by itself, because any hitting set's down-closure *is* a legitimate nontrivial monotone family; it is a candidate generator and a per-property test, not a proof method. And it is strictly weaker than the CSP of §7, which enforces the full χ congruences rather than mere non-emptiness of the fixed complex. What it supplies is the explanation of *why* the n = 10 CSP is satisfiable: the surviving skeleton contains one orbital of every battery group, which is precisely what the transversal condition allows.
+
 *What this says about n = 10.* The two orbitals there are 2K₅ (20 edges) and K₅,₅ (25 edges), so the criterion reads: any counterexample must contain 2K₅ or K₅,₅. That is precisely the "disjunctive density" statement of §7.3, sharpened from "some class with ≥ 20 edges" to two named graphs. The surviving skeleton of §7.8 **contains 2K₅** and not K₅,₅ — so it satisfies the criterion legitimately, which is why n = 10 remained SAT and why the global χ test of §7.12 was needed to kill it.
 
 **8.5 Certificate complexity in the shape language, and why it is not the obstruction.** For a k-shape presentation with determined supports D_i: the *positive* side is bounded by a single shape, C₁ ≤ maxᵢ|D_i|, independent of k; the *negative* side must block every shape at every placement, and that is where k bites. For monotone decreasing P the two sides invert relative to the scorpion:
@@ -354,7 +395,7 @@ Read against May–July 2026: the falsifications of the Erdős unit distance con
 
 ## Appendix A. The invariant table for small n
 
-Columns and their computing scripts: **C(n,2)** trivial; **prime power?** — if yes, μ(n) = C(n,2) *exactly* (AGL(1,n) is 2-transitive and Oliver; conversely a Zassenhaus-type argument — orbital-transitive means 2-homogeneous, whose solvable instances are affine of prime-power degree, and whose non-affine instances are non-solvable hence non-Oliver — gives that every Oliver group on non-prime-power n has ≥ 2 u-orbitals, whence μ(n) ≤ ⌊C(n,2)/2⌋: the interval column's upper endpoint, and a density ceiling of 1/2 that the n = 2p wreath rows (two-orbital partitions, e.g. {20, 25} at n = 10) approach from below); **best constructive lower bound** — exact minimum-orbital sizes, computed by orbit BFS (`mu_table.py`, which unions the affine template of `oliver_mu.py` — this covers the two-block ladder and the three-block chains of §5, when the relevant primes exist at that n — with the wreath family (𝔽_{p^a} ⋊ C_d) ≀ C_k of §3); **witness** — a group achieving the bound, in the scripts' naming. Exhaustive per-n enumeration beyond these families is the GAP pipeline (`ark_gap.g` → `consume_gap.py`); at n = 10 it confirmed the wreath value 20 as the best over 268 Oliver groups with ≤ 12 orbitals, so the lower bounds below are plausibly tight-ish for the small non-prime-powers, though only the prime-power rows are proven exact.
+Columns: **μ(n)** in bold where Theorems 2.1–2.3 now determine it exactly (11 of the 13 non-prime-powers up to 30; only n = 20 and n = 28 remain open, and 2,318 of 8,719 are exact up to 10⁴), with the upper bound shown only where a gap remains. Computing scripts: **C(n,2)** trivial; **prime power?** — if yes, μ(n) = C(n,2) *exactly* (AGL(1,n) is 2-transitive and Oliver; conversely a Zassenhaus-type argument — orbital-transitive means 2-homogeneous, whose solvable instances are affine of prime-power degree, and whose non-affine instances are non-solvable hence non-Oliver — gives that every Oliver group on non-prime-power n has ≥ 2 u-orbitals, whence μ(n) ≤ ⌊C(n,2)/2⌋: the interval column's upper endpoint, and a density ceiling of 1/2 that the n = 2p wreath rows (two-orbital partitions, e.g. {20, 25} at n = 10) approach from below); **μ(n) / lower bound** — exact minimum-orbital sizes, computed by orbit BFS (`mu_table.py`, which unions the affine template of `oliver_mu.py` — this covers the two-block ladder and the three-block chains of §5, when the relevant primes exist at that n — with the wreath family (𝔽_{p^a} ⋊ C_d) ≀ C_k of §3); **witness** — a group achieving the bound, in the scripts' naming. Exhaustive per-n enumeration beyond these families is the GAP pipeline (`ark_gap.g` → `consume_gap.py`); at n = 10 it confirmed the wreath value 20 as the best over 268 Oliver groups with ≤ 12 orbitals, so the lower bounds below are plausibly tight-ish for the small non-prime-powers, though only the prime-power rows are proven exact.
 
 Reading the table against the framework: prime powers sit at density 1 (KSS's regime); the n = 2·(prime power) rows realize Theorem 2.1's exact value n(n−2)/4 (0.46–0.48 at 14, 18, 22 — a small-n boost over the asymptotic 1/4); and the arithmetically weak composites show up as density dips. The dips share a diagnosis — no large prime-power part and no good two-part split with coherent twists — which makes them the leading candidate locations for weakness in the framework, and hence (per §9) for counterexample search after n = 12. Note that wreath forms rescue several apparently weak values: (4:3)≀3 lifts n = 12 from 0.152 to 0.273 and (7:3)≀3 lifts n = 21 from 0.133 to 0.300, a concrete measure of what the §3 clause is worth.
 
@@ -362,35 +403,37 @@ Reading the table against the framework: prime powers sit at density 1 (KSS's re
 
 **The weak tail is a parity effect, not a mod-9 effect.** Read only at n ≤ 30, or even n ≤ 1000, the weak set looks like "odd multiples of 9." At 10⁴ scale that reading is wrong: of the 2,464 composites below the 1/12 diagnostic threshold, only 473 are divisible by 9 (against ~274 expected by chance — a mild bias, not the mechanism), while **2,439 of 2,464 are simply odd**. The dominant signal is parity, explained by the structural starvation of odd n analyzed in §5.5; a small-n window makes that parity effect look like a mod-9 effect. The genuinely weakest rows (n = 1425 at density 0.0099, then 3393, 5457, 5271, 5061, …) are odd n whose only good witness is a chain or a two-power split with a small available twist.
 
-| n | C(n,2) | prime power? | mu(n) status | best constructive lower bound | density | witness |
-|---|--------|--------------|--------------|------------------------------|---------|---------|
-| 4 | 6 | yes | = 6 (exact) | 6 | 1.000 | AGL(1,4) [exact] |
-| 5 | 10 | yes | = 10 (exact) | 10 | 1.000 | AGL(1,5) [exact] |
-| 6 | 15 | no | in [6, 7] | 6 | 0.400 | 2xAGL-ish(1,3)[d=1,rot=2] |
-| 7 | 21 | yes | = 21 (exact) | 21 | 1.000 | AGL(1,7) [exact] |
-| 8 | 28 | yes | = 28 (exact) | 28 | 1.000 | AGL(1,8) [exact] |
-| 9 | 36 | yes | = 36 (exact) | 36 | 1.000 | AGL(1,9) [exact] |
-| 10 | 45 | no | in [20, 22] | 20 | 0.444 | (5:4)wr2 |
-| 11 | 55 | yes | = 55 (exact) | 55 | 1.000 | AGL(1,11) [exact] |
-| 12 | 66 | no | in [18, 33] | 18 | 0.273 | (4:3)wr3 |
-| 13 | 78 | yes | = 78 (exact) | 78 | 1.000 | AGL(1,13) [exact] |
-| 14 | 91 | no | in [42, 45] | 42 | 0.462 | 2xAGL-ish(1,7)[d=3,rot=2] |
-| 15 | 105 | no | in [30, 52] | 30 | 0.286 | 3xAGL-ish(1,5)[d=4,rot=3] |
-| 16 | 120 | yes | = 120 (exact) | 120 | 1.000 | AGL(1,16) [exact] |
-| 17 | 136 | yes | = 136 (exact) | 136 | 1.000 | AGL(1,17) [exact] |
-| 18 | 153 | no | in [72, 76] | 72 | 0.471 | (9:8)wr2 |
-| 19 | 171 | yes | = 171 (exact) | 171 | 1.000 | AGL(1,19) [exact] |
-| 20 | 190 | no | in [36, 95] | 36 | 0.189 | 1xAGL-ish(1,9)[d=8] x F11:C5 |
-| 21 | 210 | no | in [63, 105] | 63 | 0.300 | (7:3)wr3 |
-| 22 | 231 | no | in [110, 115] | 110 | 0.476 | 2xAGL-ish(1,11)[d=5,rot=2] |
-| 23 | 253 | yes | = 253 (exact) | 253 | 1.000 | AGL(1,23) [exact] |
-| 24 | 276 | no | in [84, 138] | 84 | 0.304 | 3xAGL-ish(1,8)[d=7,rot=3] |
-| 25 | 300 | yes | = 300 (exact) | 300 | 1.000 | AGL(1,25) [exact] |
-| 26 | 325 | no | in [78, 162] | 78 | 0.240 | 2xAGL-ish(1,13)[d=12] |
-| 27 | 351 | yes | = 351 (exact) | 351 | 1.000 | AGL(1,27) [exact] |
-| 28 | 378 | no | in [55, 189] | 55 | 0.146 | 1xAGL-ish(1,11)[d=10] x F17:C16 |
-| 29 | 406 | yes | = 406 (exact) | 406 | 1.000 | AGL(1,29) [exact] |
-| 30 | 435 | no | in [78, 217] | 78 | 0.179 | 1xAGL-ish(1,13)[d=12] x F17:C16 |
+| n | C(n,2) | μ(n) | upper bound | density | status | witness |
+|---|--------|------|-------------|---------|--------|---------|
+| 2 | 1 | **1** | — | 1.000 | exact, prime power | AGL(1,2) |
+| 3 | 3 | **3** | — | 1.000 | exact, prime power | AGL(1,3) |
+| 4 | 6 | **6** | — | 1.000 | exact, prime power | AGL(1,4) |
+| 5 | 10 | **10** | — | 1.000 | exact, prime power | AGL(1,5) |
+| 6 | 15 | **6** | — | 0.400 | **exact** | (3:2)wr2 |
+| 7 | 21 | **21** | — | 1.000 | exact, prime power | AGL(1,7) |
+| 8 | 28 | **28** | — | 1.000 | exact, prime power | AGL(1,8) |
+| 9 | 36 | **36** | — | 1.000 | exact, prime power | AGL(1,9) |
+| 10 | 45 | **20** | — | 0.444 | **exact** | (5:4)wr2 |
+| 11 | 55 | **55** | — | 1.000 | exact, prime power | AGL(1,11) |
+| 12 | 66 | **18** | — | 0.273 | **exact** | (4:3)wr3 |
+| 13 | 78 | **78** | — | 1.000 | exact, prime power | AGL(1,13) |
+| 14 | 91 | **42** | — | 0.462 | **exact** | 2x(7:6)diag+rot |
+| 15 | 105 | **30** | — | 0.286 | **exact** | 3x(5:4)diag+rot |
+| 16 | 120 | **120** | — | 1.000 | exact, prime power | AGL(1,16) |
+| 17 | 136 | **136** | — | 1.000 | exact, prime power | AGL(1,17) |
+| 18 | 153 | **72** | — | 0.471 | **exact** | (9:8)wr2 |
+| 19 | 171 | **171** | — | 1.000 | exact, prime power | AGL(1,19) |
+| 20 | 190 | ≥ 36 | ≤ 40 | 0.189 | open | AGL(1,9)xF11:C5 |
+| 21 | 210 | **63** | — | 0.300 | **exact** | (7:3)wr3 |
+| 22 | 231 | **110** | — | 0.476 | **exact** | 2x(11:10)diag+rot |
+| 23 | 253 | **253** | — | 1.000 | exact, prime power | AGL(1,23) |
+| 24 | 276 | **84** | — | 0.304 | **exact** | 3x(8:7)diag+rot |
+| 25 | 300 | **300** | — | 1.000 | exact, prime power | AGL(1,25) |
+| 26 | 325 | **156** | — | 0.480 | **exact** | 2x(13:12)diag+rot |
+| 27 | 351 | **351** | — | 1.000 | exact, prime power | AGL(1,27) |
+| 28 | 378 | ≥ 55 | ≤ 84 | 0.146 | open | AGL(1,11)xF17:C8 |
+| 29 | 406 | **406** | — | 1.000 | exact, prime power | AGL(1,29) |
+| 30 | 435 | **78** | — | 0.179 | **exact** | AGL(1,13)xF17:C16 |
 
 ## References (indicative)
 

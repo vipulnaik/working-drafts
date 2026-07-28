@@ -564,3 +564,60 @@ CONSEQUENCES:
    the threshold, with the gain exponential in e(H).
  * POSITIVE EXTENSION: q=3 works at k = 3 and k = 9 (C_3wrC_3: two orbitals, both
    omega 3), so the criterion applies at n = 3^a * m, not just n = 3m.
+
+--- RUN 24: multi-group structural condition = TRANSVERSAL formulation ---
+VN's question: does looking at orbital SHAPES across several Oliver groups on the
+same n buy anything (n=50 as 2x25 vs 27+23 etc.)?
+FORMULATION: a nontrivial non-evasive monotone P must contain at least one orbital
+of EVERY Oliver group on n points -- P is a transversal of the hypergraph of
+orbital families; being downward closed it then contains the union of the chosen
+orbitals' down-closures.  This is the density-free upgrade of section 7.3's
+disjunctive density statement.
+COMPUTED at n = 50 with five groups (A 2x25; B 27+23; E 47+3; G 49+fixed point;
+F 25x2):
+  * DENSITY-WISE NO GAIN: min over hitting sets of max-edges = 600 (density 0.490)
+    = exactly group A alone.  In general the floor is max_i (min orbital of Gamma_i),
+    so the best single group determines it -- which is why the density lens saw
+    nothing in combining groups.
+  * STRUCTURALLY A LOT: cross-group containment collapses 72 raw choices to 36
+    distinct minimal hitting sets of 2-4 graphs each (2K_25 covers B via K_23 and
+    E via K_3).
+  * PROPERTY-SPECIFIC NARROWING: of the 36, exactly ONE has no triangle-bearing
+    orbital: {K_{1,49}, K_{25,25}, K_{27,23}, K_{47,3}}, all complete bipartite.
+    So a triangle-free P at n=50 must contain all four simultaneously.  Not a
+    contradiction ("bipartite" qualifies) -- consistent with Thm 8.1 since 50 has
+    no factor 3.
+LIMITS recorded: the transversal condition never yields a contradiction alone (any
+hitting set's down-closure is a valid nontrivial monotone family), and it is
+strictly weaker than the CSP, which enforces the full chi congruences.  Its value
+is as a candidate generator, a per-property test, and the explanation of why the
+n=10 CSP is SAT (the skeleton holds one orbital of every battery group).
+
+--- RUN 25: Appendix A retabulated; metaproperty ladder added (section 1.1) ---
+APPENDIX A: table regenerated against Theorems 2.1-2.3.  11 of the 13
+non-prime-powers n <= 30 are now EXACT (only n = 20 and n = 28 remain open,
+bracketed [36,40] and [55,84]); upper bound column shown only where a gap remains.
+Previously every non-prime-power row read [lower, floor(C(n,2)/2)].
+SECTION 1.1 (new): the metaproperty ladder
+  trivial => non-evasive => collapsible => contractible => Z-acyclic
+    <=> (F_p-acyclic for all p) => F_p-acyclic (one p) => chi(Delta_P) = 1,
+  with ARK = "the first implication reverses".  Recorded:
+  * the ladder runs combinatorial -> topological -> algebraic (simplicial
+    structure, then homotopy type, then homology).
+  * all implications strict for general complexes (collapsible-but-evasive;
+    dunce hat; perfect-group presentation complexes; H_1 = Z/q; chi = 1).
+  * WHERE OUR TESTS SIT: Oliver congruences need Z-acyclicity; Smith needs
+    F_p-acyclicity; the global chi test needs only chi = 1.  The fixed-complex
+    conditions and the global chi condition are INDEPENDENT consequences of
+    acyclicity -- which is exactly why the n=10 skeleton passed the CSP and then
+    failed the global chi test.
+  * PRIME-POWER COLLAPSE and where it stops: at n = p^k, AGL(1,n) has an Oliver
+    chain with TRIVIAL top, so Z-acyclicity forces chi(fixed) = 1 while the fixed
+    complex is {empty}, chi = 0.  Hence trivial <=> ... <=> Z-acyclic (all empty
+    among nontrivial P) = KSS.  But F_p-acyclicity and chi = 1 are NOT excluded,
+    since Smith on the translation subgroup leaves a large fixed complex.  So even
+    at prime powers the last two rungs are strictly weaker.
+  * THE OPEN QUESTION the framework actually confronts: is there a nontrivial
+    monotone P at a non-prime-power n with Z-acyclic Delta_P?  Strictly weaker
+    than not-ARK.  Consequence: the CSP searches for consequences of ACYCLICITY,
+    so even a SAT solution passing the global chi test would not disprove ARK.
