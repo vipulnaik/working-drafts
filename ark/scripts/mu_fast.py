@@ -42,6 +42,19 @@ def prime_power(x,spf):
 
 def is_prime(x,spf): return x>1 and spf[x]==x
 
+def ppdivs(x):
+    """prime-power divisors > 1 of x"""
+    f={}; y=x; d=2
+    while d*d<=y:
+        while y%d==0: f[d]=f.get(d,0)+1; y//=d
+        d+=1
+    if y>1: f[y]=f.get(y,0)+1
+    out=[]
+    for p,a in f.items():
+        v=1
+        for _ in range(a): v*=p; out.append(v)
+    return out
+
 def block_intra(m,t,p):
     # orbital size of intra pairs of GF(m)-block (char p) with twist order t
     if p==2: return m*t//2
@@ -64,6 +77,18 @@ def best_for_n(n,spf,chain_pairs):
         cross=m*m if k==2 else k*m*m
         v=min(intra,cross)
         if v>best: best,wit=v,f"({m}:{d})wr{k}"
+    # PP: k identical blocks GF(p^a) with the FULL diagonal twist, fused by a
+    # transitive q-group on k blocks.  A transitive q-group has q-power degree,
+    # so k may be any PRIME POWER (not merely a prime) -- this is the family the
+    # earlier code missed by requiring k prime.  Chain: F_m^k (p-group) <
+    # .C_{m-1} diagonal (cyclic) < .(q-group on the blocks).  All k intra-block
+    # classes fuse, giving k*C(m,2); the cross classes are larger.
+    for k in ppdivs(n):
+        if n % k: continue
+        m = n//k
+        if m >= 2 and prime_power(m, spf):
+            v = k*m*(m-1)//2
+            if v > best: best, wit = v, f"{k}x({m}:{m-1})blockfused"
     # D: k identical blocks GF(p^a), DIAGONAL twist order d | m-1 in the cyclic
     # middle layer, optional rotation by prime k with gcd(d,k)=1 (also middle);
     # bottom = translations, top trivial.  Distinct from W: d need not be a
@@ -103,6 +128,32 @@ def best_for_n(n,spf,chain_pairs):
             for ee in range(1,e+1):
                 v=min(im, block_intra(r,q**ee,r), m*r)
                 if v>best: best,wit=v,f"AGL(1,{m})xF{r}:C{q**ee}"
+    # B3g: GENERAL three-part family.  The chain-multiplier menu below is a
+    # special case; the actual requirement from Lemmas B'/C is only that the two
+    # foreign blocks be PRIMES whose twists are powers of a COMMON top prime q,
+    # with the p-block twist coprime to both.  No (a,b) menu needed.
+    for m in range(2, n-3):
+        ppm = prime_power(m, spf)
+        if not ppm: continue
+        p = ppm[0]; c2 = (p == 2)
+        for r in range(2, n-m):
+            if not is_prime(r, spf) or r == p: continue
+            t3 = n - m - r
+            if t3 <= r or not is_prime(t3, spf) or t3 == p: continue
+            d = m-1
+            for x in (r, t3):
+                while d % x == 0: d //= x        # Lemma C: gcd(d, r) = gcd(d, s) = 1
+            A = block_intra(m, d, p)
+            cr = min(m*r, m*t3, r*t3)
+            if min(A, cr) <= best: continue
+            qs = {q for q in factor(r-1, spf)} & {q for q in factor(t3-1, spf)}
+            for q in qs:
+                def qp(x):
+                    u = 1
+                    while x % (u*q) == 0: u *= q
+                    return u
+                v = min(A, block_intra(r, qp(r-1), r), block_intra(t3, qp(t3-1), t3), cr)
+                if v > best: best, wit = v, f"{m}+{r}+{t3},q={q}"
     # B3 chains
     for (a,b) in chain_pairs:
         for q in range(2,(n-2)//(a+b)+1):
