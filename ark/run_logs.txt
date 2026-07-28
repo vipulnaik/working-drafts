@@ -659,3 +659,17 @@ Annotated with the combinatorial / topological / algebraic bands, the ARK arrow,
 and a reading note covering the three particular-vs-all distinctions (one prime
 vs all primes; one (p,q) and one group vs the whole battery the CSP enforces;
 one modulus q vs chi = 1).  1.1 now points forward to it.
+
+--- RUN 28: chi != 0 and NONVOID added to the metaproperty diagram ---
+VN: the congruences are used only via "some orbital is in P", so the extraction
+node should be explicit.  Added two nodes at the foot of the right column:
+  chi(D^G) != 0      -- from any box above, since 0 is not 1 mod q for q >= 2
+  D^G NONVOID  <=>  P contains at least one orbital of G  (transversal, 8.7)
+CORRECTION to the phrasing of the request: the extraction gives chi != 0, NOT
+chi > 0 -- a congruence mod q permits 1-q, 1-2q, ...  Strict positivity holds
+only for SMITH (fixed complex F_p-acyclic so chi = 1 exactly) and for the
+trivial-top Oliver case.
+Recorded that both steps are STRICT: chi != 0 does not recover the congruence,
+and nonvoidness does not recover chi != 0 (a nonvoid complex can have chi = 0).
+This makes visible in the diagram why the transversal condition can never
+deliver more than the CSP.

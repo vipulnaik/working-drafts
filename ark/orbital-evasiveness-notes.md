@@ -87,7 +87,7 @@ Hence the implication structure is a branching diagram rather than a chain:
                 +------------+------------+
                              |
                              |   ARK  <=>  this arrow reverses
-                             |             (nontrivial monotone P)
+                             |
                 +------------v------------+
                 |       non-evasive       |     combinatorial:
                 +------------+------------+     depends on the
@@ -125,6 +125,19 @@ Hence the implication structure is a branching diagram rather than a chain:
                              |     +-----------------------------------------+
                              +---->|  OLIVER(p,q; G)    chi(D^G) = 1 mod q   |
                              |     |  G = p-group : q-group, NO cyclic mid.  |
+                             |     +--------------------+--------------------+
+                             |                          |
+                             |     +--------------------v--------------------+
+                             |     |  EVERY box above gives   chi(D^G) != 0  |
+                             |     |  (not > 0: a congruence mod q permits   |
+                             |     |   1-q, 1-2q, ...; only SMITH and the    |
+                             |     |   trivial-top case give chi = 1 exactly)|
+                             |     +--------------------+--------------------+
+                             |                          |
+                             |     +--------------------v--------------------+
+                             |     |  D^G is NONVOID                         |
+                             |     |  <=> P contains at least one orbital    |
+                             |     |      of G     (transversal cond., 8.7)  |
                              |     +-----------------------------------------+
                              |
                 +------------v------------+
@@ -135,6 +148,10 @@ Hence the implication structure is a branching diagram rather than a chain:
                 | chi(Delta_P) = 1 (mod q)|
                 +-------------------------+
 ```
+
+*Monotonicity is an outer condition, not a rung.* The entire diagram presupposes that P is a **monotone** (downward-closed) graph property — that is what makes the family of members a simplicial complex Δ_P in the first place, so without it not one of the boxes below "non-evasive" is even defined (§8.2 develops the consequences of this, and §8 as a whole is about what monotonicity costs). Nontriviality is likewise a side hypothesis rather than a rung: it is what makes the fixed complexes of §1.2's right-hand boxes small enough to contradict, since it is exactly the statement that ∅ ∈ P and K_n ∉ P.
+
+*The bottom of the right column is what the structural criterion uses.* Every test box yields **χ(Δ_P^Γ) ≠ 0**, since 0 ≢ 1 mod q for any q ≥ 2 — and a *void* complex has χ = 0, so the fixed complex must contain at least one face. By downward closure a face is a nonempty invariant graph, i.e. a union of orbitals, each of whose orbitals is then also in P. That is precisely the transversal condition of §8.7: **P contains at least one orbital of Γ**. Two things follow. It is the weakest consequence of every box above it, which is why the transversal condition can never deliver more than the CSP does — the point recorded in §8.7 and now visible in the diagram. And it is *strictly* weaker at two steps: χ ≠ 0 does not recover the congruence, and non-voidness does not recover χ ≠ 0, since a nonvoid complex can perfectly well have χ = 0. Note also that the extraction gives χ ≠ 0 rather than χ > 0; strict positivity is available only from SMITH (where χ = 1 exactly, the fixed complex being 𝔽_p-acyclic) and from the trivial-top Oliver case.
 
 *Reading the diagram.* The spine is the chain of §1.1, running from combinatorial through topological to algebraic invariants; the three boxes on the right are the conditions the machinery actually tests, each hanging off the weakest rung that implies it. **Particular versus all** appears at three places: AC_p is one prime while ℤ-acyclicity is the conjunction over all of them; each right-hand box is one group Γ and one pair (p,q), while the CSP of §7 enforces the conjunction over an entire battery, i.e. all (p,q) realisable at this n; and χ(Δ_P) ≡ 1 mod q is one modulus while χ(Δ_P) = 1 is all of them at once. The global test of §7.12 enforces only the single weakest node in the diagram, which is why it is cheap, why passing it means nothing, and why it nevertheless killed the n = 10 skeleton — the CSP had enforced the right-hand boxes and never that one.
 
