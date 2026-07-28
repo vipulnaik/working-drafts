@@ -621,3 +621,41 @@ SECTION 1.1 (new): the metaproperty ladder
     monotone P at a non-prime-power n with Z-acyclic Delta_P?  Strictly weaker
     than not-ARK.  Consequence: the CSP searches for consequences of ACYCLICITY,
     so even a SAT solution passing the global chi test would not disprove ARK.
+
+--- RUN 26: section 1.2 -- Oliver congruences as metaproperties; single-prime attacks ---
+KEY REFINEMENT: Oliver's hypothesis depends on the SHAPE of Gamma.
+  * pure p-group        -> needs AC_p only        -> Delta^Gamma is AC_p (chi = 1)
+  * p-group : q-group   -> needs AC_p only        -> chi(Delta^Gamma) = 1 mod q
+    (Smith gives chi(Delta^{Gamma_2}) = 1; the q-group's non-fixed cells lie in
+     orbits of size divisible by q, so the congruence follows without other primes)
+  * nontrivial cyclic middle -> needs Z-ACYCLICITY -> chi = 1 mod q
+    (the Lefschetz step over F_p returns only a congruence mod p)
+=> THE CYCLIC LAYER IS WHAT UPGRADES THE HYPOTHESIS FROM ONE PRIME TO ALL PRIMES.
+Diagram is therefore branching, not linear.
+WHICH SINGLE PRIMES GET ATTACKED:
+ (A) n a prime power with n-1 a prime power: AGL(1,n) has trivial cyclic layer,
+     is 2-transitive (sole orbital K_n), fixed complex {empty} UNCONDITIONALLY.
+     => AC_p fails, p = char(n); AC_r untouched for r != p.
+     n = 3,4,5,8,9,17,32,128,257,8192,65537,... (Fermat primes, 9, and 2^k with
+     2^k-1 Mersenne).  At OTHER prime powers (7,11,13,16,19,23,25,27,...) only
+     the conjunction Z-acyclicity is contradicted -- so even KSS attacks a single
+     prime at some n and the whole conjunction at others.
+ (B) n = q*m, m = p^a prime power, m-1 a q-power: F_m^q : (C_{m-1} x C_q) has a
+     q-group top and no cyclic middle => AC_p alone gives chi = 1 mod q,
+     CONDITIONAL on the transversal condition (P must miss both orbitals).
+     n = 6 (AC_3), 10 (AC_5), 12 (AC_2), 18 (AC_3), 34 (AC_17), 56 (AC_2).
+=> at n=10 the machinery attacks F_5-acyclicity; at n=12 it attacks F_2-acyclicity.
+
+--- RUN 27: ASCII implication diagram for the metaproperty structure ---
+Replaced the bullet-list description of the branching structure in 1.2 with a
+boxed ASCII diagram: vertical spine (trivial -> non-evasive -> collapsible ->
+contractible -> Z-acyclic -> AC_p -> chi = 1 -> chi = 1 mod q) with the three
+group-dependent test families branching horizontally off the weakest rung that
+implies each:
+  Z-acyclic  ->  OLIVER(p,q;G) for G WITH a cyclic middle
+  AC_p       ->  SMITH(p;G) for G a p-group
+  AC_p       ->  OLIVER(p,q;G) for G = p-group : q-group, NO cyclic middle
+Annotated with the combinatorial / topological / algebraic bands, the ARK arrow,
+and a reading note covering the three particular-vs-all distinctions (one prime
+vs all primes; one (p,q) and one group vs the whole battery the CSP enforces;
+one modulus q vs chi = 1).  1.1 now points forward to it.

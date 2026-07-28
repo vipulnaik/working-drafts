@@ -40,6 +40,8 @@ BBKN: μ(n) = Ω(n log n) unconditionally (Vinogradov/Haselgrove), Ω(n^{5/4−�
 
 > **trivial ⟹ non-evasive ⟹ collapsible ⟹ contractible ⟹ ℤ-acyclic ⟺ (𝔽_p-acyclic for every p) ⟹ 𝔽_p-acyclic for one p ⟹ χ(Δ_P) = 1.**
 
+This is the spine; §1.2 hangs the group-dependent tests off it and draws the whole diagram.
+
 **ARK is exactly the assertion that the first implication reverses** for nontrivial monotone graph properties. The ladder also runs from combinatorial to topological to algebraic invariants: non-evasiveness and collapsibility depend on the simplicial structure, contractibility only on homotopy type, acyclicity and χ only on homology — each step discarding information.
 
 *Strictness for general complexes.* Every implication is strict. There are collapsible complexes that are evasive; the dunce hat is contractible but not collapsible; presentation complexes of perfect groups are ℤ-acyclic but not contractible; a complex with H̃₁ = ℤ/q is 𝔽_p-acyclic for p ≠ q but not ℤ-acyclic; and χ = 1 obviously does not imply acyclicity.
@@ -65,6 +67,90 @@ which is KSS. But the collapse **stops there**: 𝔽_p-acyclicity and χ(Δ_P) =
 > **Is there a nontrivial monotone graph property at some non-prime-power n whose complex is ℤ-acyclic (or contractible)?**
 
 Nothing rules this out, and it is *strictly weaker* than ¬ARK, which additionally demands non-evasiveness. This reframes the computations of §7: the CSP searches for properties satisfying **consequences of acyclicity**, so even a satisfying assignment that also passed the global χ test would not disprove ARK — it would exhibit a property that every topological test accepts. That is the precise content of the "certificate gap" recorded in §7.12, and the reason the adversary search of §7 is the only tool in the note that could settle a candidate outright.
+
+
+**1.2 Oliver congruences as metaproperties: the diagram branches, and single primes get attacked.** The conditions the machinery actually tests are indexed by a group and a prime pair, and — this is the point — **they do not all consume the same rung of §1.1**. Write an Oliver group as Γ₂ ◁ Γ₁ ◁ Γ with Γ₂ a p-group, Γ₁/Γ₂ cyclic, Γ/Γ₁ a q-group.
+
+| shape of Γ | hypothesis consumed | conclusion |
+|---|---|---|
+| pure p-group | **AC_p** (one prime) | Δ_P^Γ is AC_p, so χ(Δ_P^Γ) = 1 |
+| p-group ⋊ q-group, **cyclic layer trivial** | **AC_p** (one prime) | χ(Δ_P^Γ) ≡ 1 mod q |
+| nontrivial cyclic middle layer | **ℤ-acyclic** (all primes) | χ(Δ_P^Γ) ≡ 1 mod q |
+
+The middle row is the useful refinement: Smith gives χ(Δ_P^{Γ₂}) = 1 from AC_p alone, and the q-group's non-fixed cells lie in orbits of size divisible by q, so χ(Δ_P^Γ) ≡ 1 mod q follows without touching any other prime. With a nontrivial cyclic middle the Lefschetz step over 𝔽_p returns only a congruence mod p, and the argument genuinely needs ℤ-acyclicity. **So the cyclic layer is exactly what upgrades the hypothesis from one prime to all of them.**
+
+Hence the implication structure is a branching diagram rather than a chain:
+
+```
+                +-------------------------+
+                |         trivial         |
+                +------------+------------+
+                             |
+                             |   ARK  <=>  this arrow reverses
+                             |             (nontrivial monotone P)
+                +------------v------------+
+                |       non-evasive       |     combinatorial:
+                +------------+------------+     depends on the
+                             |                  simplicial structure
+                +------------v------------+
+                |       collapsible       |
+                +------------+------------+
+                             |            - - - - - - - - - - - - -
+                +------------v------------+     topological:
+                |      contractible       |     homotopy type only
+                +------------+------------+
+                             |            - - - - - - - - - - - - -
+                +------------v------------+     algebraic:
+                |        Z-acyclic        |     homology only
+                |    ( = AND_p  AC_p )    |
+                +------------+------------+
+                             |
+                             |     +-----------------------------------------+
+                             +---->|  OLIVER(p,q; G)    chi(D^G) = 1 mod q   |
+                             |     |  G HAS a nontrivial cyclic middle       |
+                             |     +-----------------------------------------+
+                             |
+                   (drop to a single prime)
+                             |
+                +------------v------------+
+                |          AC_p           |
+                |  (F_p-acyclic, ONE p)   |
+                +------------+------------+
+                             |
+                             |     +-----------------------------------------+
+                             +---->|  SMITH(p; G)       D^G is AC_p          |
+                             |     |  G a p-group        (so chi(D^G) = 1)   |
+                             |     +-----------------------------------------+
+                             |
+                             |     +-----------------------------------------+
+                             +---->|  OLIVER(p,q; G)    chi(D^G) = 1 mod q   |
+                             |     |  G = p-group : q-group, NO cyclic mid.  |
+                             |     +-----------------------------------------+
+                             |
+                +------------v------------+
+                |     chi(Delta_P) = 1    |
+                +------------+------------+
+                             |
+                +------------v------------+
+                | chi(Delta_P) = 1 (mod q)|
+                +-------------------------+
+```
+
+*Reading the diagram.* The spine is the chain of §1.1, running from combinatorial through topological to algebraic invariants; the three boxes on the right are the conditions the machinery actually tests, each hanging off the weakest rung that implies it. **Particular versus all** appears at three places: AC_p is one prime while ℤ-acyclicity is the conjunction over all of them; each right-hand box is one group Γ and one pair (p,q), while the CSP of §7 enforces the conjunction over an entire battery, i.e. all (p,q) realisable at this n; and χ(Δ_P) ≡ 1 mod q is one modulus while χ(Δ_P) = 1 is all of them at once. The global test of §7.12 enforces only the single weakest node in the diagram, which is why it is cheap, why passing it means nothing, and why it nevertheless killed the n = 10 skeleton — the CSP had enforced the right-hand boxes and never that one.
+
+*Which particular primes are attacked.* Two families give a contradiction from a **single** AC_p rather than from ℤ-acyclicity.
+
+**(A) n a prime power with n − 1 a prime power.** Then AGL(1,n) = 𝔽_n ⋊ C_{n−1} has its whole twist inside a q-group, so the cyclic layer is trivial and it is p-by-q. It is 2-transitive, so its only orbital is K_n, and K_n ∉ P by nontriviality — the fixed complex is {∅} with χ = 0 ≢ 1 mod q **unconditionally**. So for every nontrivial monotone P, **AC_p fails**, where p = char(n), while AC_r for r ≠ p is untouched. These n are exactly the Fermat primes, 9, and 2^k with 2^k − 1 a Mersenne prime:
+
+> n = 3 (AC₃), 4 (AC₂), 5 (AC₅), 8 (AC₂), 9 (AC₃), 17 (AC₁₇), 32 (AC₂), 128 (AC₂), 257 (AC₂₅₇), 8192 (AC₂), 65537 (AC₆₅₅₃₇), …
+
+At the *other* prime powers — 7, 11, 13, 16, 19, 23, 25, 27, … — n − 1 is not a prime power, the twist has a genuine cyclic part, and only the conjunction ℤ-acyclicity is contradicted. So even KSS's theorem attacks a single prime at some n and only the whole conjunction at others.
+
+**(B) n = q·m with m = p^a a prime power and m − 1 a q-power.** Then the block group 𝔽_m^q ⋊ (C_{m−1} × C_q) has top layer C_{m−1} × C_q, itself a q-group, so again there is no cyclic middle and **AC_p alone** yields χ ≡ 1 mod q. Here the conclusion is *conditional* on the transversal condition of §8.7 — the fixed complex is void only when P contains neither orbital:
+
+> n = 6 (AC₃), 10 (**AC₅**), 12 (**AC₂**), 18 (AC₃), 34 (AC₁₇), 56 (AC₂), …
+
+So at n = 10 the machinery attacks 𝔽₅-acyclicity specifically, and at n = 12 it attacks 𝔽₂-acyclicity — in each case leaving acyclicity at every other prime formally untouched. This is worth keeping in view when reading §7: a battery that mixes p-subgroups for several p is testing several *different* single-prime hypotheses at once, not one global one, and a property could in principle fail AC₅ while remaining AC₃.
 
 
 ### Part I — What determines μ: the group theory
