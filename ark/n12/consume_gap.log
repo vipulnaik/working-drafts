@@ -34,3 +34,10 @@
 12:57:28  stage 3: resumed inference checkpoint
 12:57:29  stage 3: after inference, 63874 of 359400 ordered pairs need VF2 (17.8%)
 14:42:03  stage 3: 128 VF2 calls done, 62663 pairs left (6274s)
+15:33:08  stage 3: 256 VF2 calls done, 62224 pairs left (9340s)
+15:38:59  stage 3: 384 VF2 calls done, 61862 pairs left (9691s)
+15:44:04  stage 3: 512 VF2 calls done, 61376 pairs left (9995s)
+15:45:04  stage 3: 640 VF2 calls done, 61008 pairs left (10056s)
+15:48:51  stage 3: 768 VF2 calls done, 60718 pairs left (10283s)
+15:59:26  stage 3: 896 VF2 calls done, 60461 pairs left (10918s)
+16:07:04  stage 3: 1024 VF2 calls done, 60224 pairs left (11376s)
