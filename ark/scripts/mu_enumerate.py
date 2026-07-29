@@ -294,6 +294,24 @@ def mu_bound(n, spf, kmax=12, verbose=False):
     return best, wit, K, cert
 
 
+def fallback_used(w, spf):
+    """True if the winning configuration contains a p-characteristic part whose
+    twist Lemma C strictly reduces.  In SAFE mode such a part is scored with the
+    unconditional F*C(c,2) rather than F*orb(c,d), so the reported bound may
+    exceed what the refined (Gamma-L(1)-assuming) formula would give.  If this is
+    False, the two modes provably agree at this n: the winning configuration is
+    scored identically by both, and since safe >= refined pointwise, the maxima
+    coincide."""
+    if not w:
+        return False
+    p, q, ps = w
+    foreigns = [c for F, c, fg in ps if fg]
+    for F, c, fg in ps:
+        if not fg and strip(c - 1, foreigns) < c - 1:
+            return True
+    return False
+
+
 def show(w):
     """render a configuration: F x c per orbit, * marking a foreign part"""
     if not w:
@@ -326,7 +344,7 @@ if __name__ == "__main__":
     a = ap.parse_args()
     globals()['SAFE'] = not a.refined
 
-    HEADER = "n,C(n2),mu_bound,density,orbits_K,certified,witness"
+    HEADER = "n,C(n2),mu_bound,density,orbits_K,certified,fallback,witness"
 
     if a.n:
         spf = sieve_spf(a.n + 1)
@@ -345,10 +363,20 @@ if __name__ == "__main__":
     resume_from = None
     if a.out and os.path.exists(a.out) and os.path.getsize(a.out) > 0:
         with open(a.out) as fh:
-            for row in csv.DictReader(fh):
+            first = fh.readline().rstrip("\n").lstrip("\ufeff")
+            if first != HEADER:
+                sys.exit(
+                    f"refusing to append to {a.out}: its header is\n"
+                    f"    {first}\n"
+                    f"but this version writes\n"
+                    f"    {HEADER}\n"
+                    f"The schema has changed (a 'fallback' column was added, and "
+                    f"rows now depend on the safe/refined mode).\n"
+                    f"Use a fresh --out file, or delete the old one.")
+            for row in csv.DictReader(fh, fieldnames=HEADER.split(",")):
                 try:
                     done.add(int(row["n"]))
-                except (KeyError, ValueError):
+                except (KeyError, ValueError, TypeError):
                     pass
         if done:
             resume_from = max(done) + 1
@@ -364,10 +392,17 @@ if __name__ == "__main__":
         else:
             todo.append(n)
 
+    print(f"mode           {'UNCONDITIONAL (safe)' if not a.refined else 'REFINED (assumes Gamma-L(1)-type stabilisers)'}")
+    if not a.refined:
+        print(f"               p-parts scored F*C(c,2) where Lemma C cuts the twist;")
+        print(f"               'fb' in the per-n line flags a winner that used it")
     print(f"range          n in [{nmin}, {a.nmax}]")
     if resume_from and a.nmin is None:
         print(f"resuming       {a.out} already holds {len(done)} rows "
               f"(max n = {max(done)}); continuing from {resume_from}")
+        print(f"               NOTE: earlier rows were written by whichever mode "
+              f"was used then; mixing safe and refined rows in one file is not "
+              f"detected")
     print(f"to compute     {len(todo)} values"
           + (f"  ({todo[0]} … {todo[-1]})" if todo else ""))
     print(f"skipped        {skipped_pp} prime powers (mu = C(n,2) exactly)"
@@ -388,12 +423,14 @@ if __name__ == "__main__":
         if fresh:
             fh.write(HEADER + "\n"); fh.flush()
 
-    viol = exact = short = 0
+    viol = exact = short = nfb = 0
     worst = []
     t0 = time.time()
     for idx, n in enumerate(todo, 1):
         b, w, K, cert = mu_bound(n, spf)
         dens = b / comb(n, 2)
+        fb = (not a.refined) and fallback_used(w, spf)
+        nfb += int(fb)
         note = ""
         if n in tbl and not tbl[n][1]:
             lo = tbl[n][0]
@@ -405,14 +442,19 @@ if __name__ == "__main__":
                 short += 1; note = f"  table SHORT at {lo} ({lo/b:.3f})"
                 worst.append((n, lo, b, lo / b, show(w)))
         if fh:
-            fh.write(f'{n},{comb(n,2)},{b},{dens:.6f},{K},{int(cert)},"{show(w)}"\n')
+            fh.write(f'{n},{comb(n,2)},{b},{dens:.6f},{K},{int(cert)},'
+                     f'{int(fb)},"{show(w)}"\n')
             fh.flush()
         if not a.quiet:
             print(f"[{idx}/{len(todo)}] n={n:<6} B={b:<9} d={dens:.4f} K={K} "
-                  f"{'cert' if cert else 'UNCERT'}{note}")
+                  f"{'cert' if cert else 'UNCERT'}{' fb' if fb else ''}{note}")
     if fh:
         fh.close()
     print(f"\nn in [{nmin}, {a.nmax}]: computed {len(todo)} in {time.time()-t0:.1f}s"
           f" | exact {exact}, table-short {short}, violations {viol}")
+    if not a.refined:
+        print(f"unconditional fallback invoked on the winner at {nfb} of {len(todo)} values"
+              + ("  -> the refined bound would be identical throughout" if nfb == 0
+                 else "  -> at these n the refined bound may be smaller"))
     for x in sorted(worst, key=lambda t: t[3])[:10]:
         print(f"   n={x[0]:<5} table {x[1]:>8} < bound {x[2]:>8} ({x[3]:.3f})  {x[4]}")

@@ -1251,3 +1251,38 @@ Part B retitled "Singer step DISPROVED but inert"; front matter updated:
 Parts A, C, D, F, G, H proved; B proved modulo an inert false step; E complete and
 finite but not minimal.  What is unestablished is only the enumeration's
 MINIMALITY, not the validity of B(n).
+
+--- RUN 55: mode banner and fallback diagnostic ---
+Added to mu_enumerate.py:
+  * a MODE banner: "UNCONDITIONAL (safe)" or "REFINED (assumes GammaL(1)-type
+    stabilisers)", with a one-line reminder of what safe mode does.
+  * a per-n 'fb' flag and a `fallback` CSV column marking a winning configuration
+    that invoked the unconditional F*C(c,2) score, i.e. one containing a
+    p-characteristic part whose twist Lemma C strictly reduces.
+  * a closing line: "unconditional fallback invoked on the winner at X of Y
+    values", with the interpretation attached.
+WHY THIS ANSWERS THE JUICE QUESTION WITHOUT RUNNING BOTH MODES:
+  safe >= refined POINTWISE, since the two scores differ only on p-parts where
+  Lemma C bites, and there safe uses the larger F*C(c,2).  So if the SAFE winner
+  used no fallback, that configuration is scored identically by both modes; its
+  value is therefore <= B_refined <= B_safe = that value, forcing equality.
+  Hence  fb = 0 at an n  =>  B_safe(n) = B_refined(n)  PROVABLY, at that n.
+  Only fb = 1 rows can carry a gap, and there the refined bound may be smaller
+  (a better upper bound on mu, but valid only under the GammaL(1) assumption).
+MEASURED: fb = 0 at all 79 values below 120, consistent with the earlier finding
+of 0 biting parts among 1163 in winning witnesses to n = 1306.
+
+--- RUN 56: schema guard on --out ---
+The CSV schema changed (a `fallback` column was added and row values now depend on
+the safe/refined mode), so appending to a file written by an earlier version would
+interleave 7- and 8-column rows.  Added a guard: on resume the existing header is
+compared with the current one and the run ABORTS with an explicit diff and the
+advice to use a fresh --out file.  Verified it fires on an old-format file.
+Also added a note to the resume banner: earlier rows were written by whichever mode
+was in force then, and mixing safe and refined rows within one file is NOT detected
+-- only the schema is checked.
+Recommendation recorded: start the safe run in a NEW --out file.  The existing
+mu_table_full_new.csv was produced by the pre-flag code, which computed
+orb(c, d) unconditionally, i.e. REFINED mode.  Since fb = 0 wherever it has been
+checked, those values coincide with the safe ones, but the file cannot be resumed
+into and should be kept as the refined-mode record.
