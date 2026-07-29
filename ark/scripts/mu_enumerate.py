@@ -426,35 +426,53 @@ if __name__ == "__main__":
     viol = exact = short = nfb = 0
     worst = []
     t0 = time.time()
-    for idx, n in enumerate(todo, 1):
-        b, w, K, cert = mu_bound(n, spf)
-        dens = b / comb(n, 2)
-        fb = (not a.refined) and fallback_used(w, spf)
-        nfb += int(fb)
-        note = ""
-        if n in tbl and not tbl[n][1]:
-            lo = tbl[n][0]
-            if lo > b:
-                viol += 1; note = f"  VIOLATION: table {lo} > bound {b}"
-            elif lo == b:
-                exact += 1; note = "  = table"
-            else:
-                short += 1; note = f"  table SHORT at {lo} ({lo/b:.3f})"
-                worst.append((n, lo, b, lo / b, show(w)))
-        if fh:
-            fh.write(f'{n},{comb(n,2)},{b},{dens:.6f},{K},{int(cert)},'
-                     f'{int(fb)},"{show(w)}"\n')
-            fh.flush()
-        if not a.quiet:
-            print(f"[{idx}/{len(todo)}] n={n:<6} B={b:<9} d={dens:.4f} K={K} "
-                  f"{'cert' if cert else 'UNCERT'}{' fb' if fb else ''}{note}")
+    ndone = 0
+    interrupted = False
+
+    def summary():
+        print(f"\nn in [{nmin}, {a.nmax}]: computed {ndone} of {len(todo)}"
+              f"{' (INTERRUPTED)' if interrupted else ''} in {time.time()-t0:.1f}s"
+              f" | exact {exact}, table-short {short}, violations {viol}")
+        if not a.refined:
+            print(f"unconditional fallback invoked on the winner at {nfb} of {ndone} values"
+                  + ("  -> the refined bound would be identical throughout" if nfb == 0
+                     else "  -> at these n the refined bound may be smaller"))
+        if interrupted and ndone:
+            print(f"last completed n = {lastn}"
+                  + (f"; resume with --nmin {lastn + 1}" if not a.out else
+                     f"; re-run the same command to resume from {a.out}"))
+        for x in sorted(worst, key=lambda t: t[3])[:10]:
+            print(f"   n={x[0]:<5} table {x[1]:>8} < bound {x[2]:>8} ({x[3]:.3f})  {x[4]}")
+
+    lastn = None
+    try:
+      for idx, n in enumerate(todo, 1):
+          b, w, K, cert = mu_bound(n, spf)
+          dens = b / comb(n, 2)
+          fb = (not a.refined) and fallback_used(w, spf)
+          nfb += int(fb)
+          note = ""
+          if n in tbl and not tbl[n][1]:
+              lo = tbl[n][0]
+              if lo > b:
+                  viol += 1; note = f"  VIOLATION: table {lo} > bound {b}"
+              elif lo == b:
+                  exact += 1; note = "  = table"
+              else:
+                  short += 1; note = f"  table SHORT at {lo} ({lo/b:.3f})"
+                  worst.append((n, lo, b, lo / b, show(w)))
+          if fh:
+              fh.write(f'{n},{comb(n,2)},{b},{dens:.6f},{K},{int(cert)},'
+                       f'{int(fb)},"{show(w)}"\n')
+              fh.flush()
+          if not a.quiet:
+              print(f"[{idx}/{len(todo)}] n={n:<6} B={b:<9} d={dens:.4f} K={K} "
+                    f"{'cert' if cert else 'UNCERT'}{' fb' if fb else ''}{note}")
+          ndone += 1
+          lastn = n
+    except KeyboardInterrupt:
+        interrupted = True
+        print("\n^C  -- stopping; results so far are already written")
     if fh:
         fh.close()
-    print(f"\nn in [{nmin}, {a.nmax}]: computed {len(todo)} in {time.time()-t0:.1f}s"
-          f" | exact {exact}, table-short {short}, violations {viol}")
-    if not a.refined:
-        print(f"unconditional fallback invoked on the winner at {nfb} of {len(todo)} values"
-              + ("  -> the refined bound would be identical throughout" if nfb == 0
-                 else "  -> at these n the refined bound may be smaller"))
-    for x in sorted(worst, key=lambda t: t[3])[:10]:
-        print(f"   n={x[0]:<5} table {x[1]:>8} < bound {x[2]:>8} ({x[3]:.3f})  {x[4]}")
+    summary()

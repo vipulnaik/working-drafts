@@ -1286,3 +1286,44 @@ mu_table_full_new.csv was produced by the pre-flag code, which computed
 orb(c, d) unconditionally, i.e. REFINED mode.  Since fb = 0 wherever it has been
 checked, those values coincide with the safe ones, but the file cannot be resumed
 into and should be kept as the refined-mode record.
+
+--- RUN 57: full unconditional run to n = 1000 (VN) ---
+mu_table_safe.csv: 806 rows, n = 6..1000, 8 columns.
+  * all certified; 0 internal inconsistencies; 0 rows breaking the Prop F.1 rule
+  * K distribution {2:184, 3:478, 4:134, 5:10}; density min 0.0418 (n=575),
+    median 0.2034, max 0.4995
+  * FALLBACK INVOKED ON THE WINNER AT 0 OF 806
+  * SAFE vs REFINED compared row by row: 0 OF 806 DIFFER
+=> the disproved Singer step is confirmed INERT over the whole computed range,
+   and B(n) below 1000 is UNCONDITIONAL -- no reliance on GammaL(1)-type
+   stabilisers, and no juice left on the table by using the safe formula.
+CONSTRUCTION TABLE (mu_fast) SHORT AT 88 OF 806.  Shapes: 60 "two p-parts +
+foreign", 28 "fused p-class + foreign"; nothing else.  23 of the 88 are won by
+configurations using the Fermat prime 257.
+New shape observed in the weak tail: n = 551 = 256 + 167* + 128 -- two
+p-characteristic classes of DIFFERENT sizes plus a foreign prime, i.e. exactly the
+unequal-size two-class case that Part E notes does not reduce.
+FLAGGED: the density statistics quoted in the notes derive from mu_fast and are
+understatements at those 88 n; weakest row is now 0.0418 (n=575) against 0.0147.
+Appendix A and the section 4.5' ledger should be regenerated from mu_enumerate.
+
+--- RUN 58: interrupted run to n = 1540 validated; graceful Ctrl-C added ---
+mu_table_safe.csv now 1269 rows, n = 6..1540.  Interrupt cost nothing: per-row
+flush meant the last row is complete, n is monotone with no duplicates, and no
+non-prime-power below the max is missing.
+  * all certified; FALLBACK 0 of 1269; 0 internal inconsistencies; 0 F.1 breaks
+  * K {2:261, 3:738, 4:254, 5:16}; density min 0.0418 median 0.1993 max 0.4997
+  * vs construction table: 1096 exact, 173 SHORT, 0 violations
+  * the 173 shortfalls are EXACTLY the two known shapes -- 127 "two p-parts +
+    foreign" and 46 "fused + foreign" -- with no third type emerging at larger n
+  * winner census overall: 553 two-part-one-foreign, 542 single fused, 127
+    three-part-one-foreign, 46 fused+foreign, 1 two-foreign
+  * density floor STABLE rather than eroding: per-range minima 0.074, 0.042,
+    0.051, 0.042, 0.058; median drifts 0.252 -> 0.203 across [6,300)..[1200,1540)
+  * K = 5 at 16 values (323, 455, 527, 551, 575, 725, 731, 851, 935, 987, 1139,
+    1147, 1159, 1175, 1343, 1457)
+ADDED graceful interrupt: the per-n loop is wrapped so Ctrl-C prints
+"^C -- stopping; results so far are already written", then the full summary with
+"computed X of Y (INTERRUPTED)", the fallback count, the last completed n, and how
+to resume (re-run the same command when --out is in use, else --nmin lastn+1).
+Verified by sending SIGINT mid-run and by resuming afterwards.
