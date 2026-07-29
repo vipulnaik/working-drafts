@@ -942,3 +942,30 @@ certificate whatever delta turns out to be.  The ONLY unbounded term is delta.
     => k <= 2, 5, 6 and the search is POLYNOMIAL of fixed degree.
 => the number-theoretic conjectures bound not only mu(n) but the RUNNING TIME of
 the certified enumeration.  Flagged for expansion in the number-theory sections.
+
+--- RUN 41: mu_enumerate.py optimised; --nmin added ---
+VN reported mu_enumerate.py notably slower than mu_fast.py, and confirmed
+n <= 200: exact 139, table-short 0, violations 0.
+CHANGES:
+  * --nmin so a run need not redo the earlier segment; --out to append
+    n,B,density,K,certified,witness to a CSV incrementally (flushed per row).
+  * FAST SEED (seed_value): evaluates the cheap families -- fused blocks, two
+    p-powers, p-power + foreign prime -- before the general search.  Correctness
+    never depends on it; it exists so the pruning bites immediately.
+  * derived part floor used everywhere: a part needs F*C(c,2) > best with
+    F*c <= n, so c > 2*best/n + 1.  Applied in parts_for (skip all smaller c) and
+    to skip whole primes p with no usable power in range.
+SPEEDUP: n <= 90 now 0.9s; n <= 200 13.6s; [200,300] 48.8s; [300,400] 108.4s.
+NEW SHORTFALLS FOUND (table < general bound), all the same omitted shape --
+two p-characteristic parts plus one foreign prime:
+   n=247  2223 -> 2525   73+73+101*
+   n=255  2016 -> 2628   73+73+109*
+   n=273   689 -> 3403   83+83+107*
+   n=285  2041 -> 3916   89+89+107*
+   n=315  2016 -> 3660   2x61 + 193*      (fused + foreign)
+   n=323  2907 -> 2943   107+107+109*
+   n=345  2628 -> 3916   89+89+167*
+   n=357  4351 -> 5671   125+125+107*     (p=5, prime-power parts)
+9 shortfalls in [200,400], 0 in [6,200], 0 violations anywhere.
+Note n=357 uses c=125=5^3 -- the p-parts need not be prime, confirming the shape
+is "two p-POWER parts + one foreign prime" in general.

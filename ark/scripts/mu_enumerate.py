@@ -99,6 +99,43 @@ def orb(c, t, char2):
     return c * t // 2 if (char2 or t % 2 == 0) else c * t
 
 
+
+# ---------------------------------------------------------------- fast seed
+def seed_value(n, spf):
+    """A quick lower bound from the families that are cheap to evaluate.  Only
+    used to prime the pruning: correctness never depends on it, but a good seed
+    shrinks the admissible part pool enormously (a part needs F*C(c,2) > best and
+    F*c <= n, hence c > 2*best/n + 1)."""
+    best = 0
+    pps = [c for c in range(2, n + 1) if prime_power(c, spf)]
+    # fused blocks: n = F*c with F a prime power, c a prime power
+    for F in range(2, n + 1):
+        if n % F or not prime_power(F, spf):
+            continue
+        c = n // F
+        if prime_power(c, spf):
+            best = max(best, F * c * (c - 1) // 2)
+    for c in pps:                                   # single orbit
+        if c == n:
+            best = max(best, comb(n, 2))
+    # two parts: p-power + foreign prime, and two p-powers
+    for a in pps:
+        b = n - a
+        if b < 2:
+            continue
+        pa = prime_power(a, spf)
+        char2 = pa[0] == 2
+        if is_prime(b, spf) and b != pa[0]:
+            d = strip(a - 1, [b])
+            A = orb(a, d, char2)
+            for t in divisors(b - 1):
+                if prime_power(t, spf) or t == 1:
+                    best = max(best, min(A, orb(b, t, False), a * b))
+        pb = prime_power(b, spf)
+        if pb and pb[0] == pa[0]:
+            best = max(best, min(comb(a, 2), comb(b, 2), a * b))
+    return best
+
 # ---------------------------------------------------------------- parts
 class Part:
     __slots__ = ("F", "c", "foreign", "size", "cap", "cb")
@@ -123,7 +160,8 @@ def parts_for(n, p, q, spf, floor):
     """all (F, c) parts with F a q-power, c a prime power, F*c <= n, and whose
     optimistic capacity exceeds `floor` (pruning bound of Part G.4)"""
     out = []
-    c = 2
+    cmin = 2 * floor // n + 2 if floor else 2
+    c = max(2, cmin)
     while c <= n:
         pp = prime_power(c, spf)
         if pp:
@@ -176,6 +214,17 @@ def best_with_k(n, K, spf, seed=0):
     best, wit = seed, None
     primes = [x for x in range(2, n + 1) if is_prime(x, spf)]
     for p in primes:
+        # a p-characteristic part needs some power of p that is large enough:
+        # F*C(c,2) > best with F*c <= n forces c > 2*best/n + 1
+        cmin = 2 * best // n + 2 if best else 2
+        if p < cmin:
+            v = p
+            while v < cmin:
+                v *= p
+            if v > n:
+                continue                              # no usable p-power at all
+        elif p > n:
+            continue
         for q in primes:
             if q > n:
                 break
@@ -212,7 +261,7 @@ def best_with_k(n, K, spf, seed=0):
 def mu_bound(n, spf, kmax=12, verbose=False):
     """self-certifying iteration of Part F"""
     N2 = comb(n, 2)
-    best, wit, cert = 0, None, False
+    best, wit, cert = seed_value(n, spf), None, False
     for K in range(1, kmax + 1):
         b, w = best_with_k(n, K, spf, seed=best)
         if b > best:
@@ -239,8 +288,11 @@ def show(w):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--n", type=int)
+    ap.add_argument("--nmin", type=int, default=6,
+                    help="start of the range, so a run need not redo earlier n")
     ap.add_argument("--nmax", type=int)
     ap.add_argument("--check")
+    ap.add_argument("--out", help="append n,B,density,K,certified,witness to this CSV")
     a = ap.parse_args()
     top = a.n or a.nmax or 100
     spf = sieve_spf(top + 1)
@@ -259,10 +311,14 @@ if __name__ == "__main__":
             tbl[int(r["n"])] = (int(r["mu_lower"]), int(r["prime_power"]))
     viol = exact = short = 0
     worst = []
-    for n in range(6, a.nmax + 1):
+    fh = open(a.out, "a") if a.out else None
+    for n in range(max(2, a.nmin), a.nmax + 1):
         if prime_power(n, spf):
             continue
         b, w, K, cert = mu_bound(n, spf)
+        if fh:
+            fh.write(f'{n},{b},{b/comb(n,2):.6f},{K},{int(cert)},"{show(w)}"\n')
+            fh.flush()
         if n in tbl and not tbl[n][1]:
             lo = tbl[n][0]
             if lo > b:
@@ -273,6 +329,7 @@ if __name__ == "__main__":
             else:
                 short += 1
                 worst.append((n, lo, b, lo / b, show(w)))
-    print(f"\nn <= {a.nmax}: exact {exact}, table-short {short}, violations {viol}")
+    if fh: fh.close()
+    print(f"\nn in [{a.nmin}, {a.nmax}]: exact {exact}, table-short {short}, violations {viol}")
     for x in sorted(worst, key=lambda t: t[3])[:10]:
         print(f"   n={x[0]:<5} table {x[1]:>8} < bound {x[2]:>8} ({x[3]:.3f})  {x[4]}")
