@@ -1120,3 +1120,22 @@ yes for the bound's purpose, recorded in G.0.
    groups, so it cannot notice that a configuration admitted under a generous
    (p,q) might only be realisable by a group forced into a worse reading (the
    AGammaL(1,9) situation).  Both make the bound conservative, never invalid.
+
+--- RUN 49: twist placement explained properly (VN's n = 26 = 9 + 17 example) ---
+Rewrote the G.0 note, which had been too abstract.  Three points now stated:
+ * FOREIGN blocks have NO choice: translations and twist do not commute
+   (AGL(1,r) nonabelian), translations must be in the abelian cyclic layer, so
+   the twist is FORCED to the top.  That is the content of Lemma B', and it is
+   why foreign twist orders are q-powers.  VN's intuition about the 17-block is
+   right and stronger than "better" -- it is forced.
+ * p-CHARACTERISTIC blocks do have a choice, but the escape is closed.  Write
+   d = d' * q^e.  Gamma/Gamma_1 is a q-group so d' is forced into Gamma_1 and
+   Lemma C binds d' alone -- but a foreign prime r has q | r-1, hence q != r, so
+   r never divides q^e and therefore r | d  <=>  r | d'.  The part that could
+   escape to the top is exactly the part that was never at risk.
+ * WORKED n=26 = 9+17: 17-block forced to top, q=2, all of C_16, orbital 136.
+   9-block twist C_8 may go either way; gcd(8,17)=1 so Lemma C strips nothing and
+   both readings give C(9,2)=36.  Cross 153.  m* = 36 -- the 9-block binds, and
+   this is far from mu(26)=156 (which comes from 2 x 13).
+   Lemma C DOES bite elsewhere: c=16 with foreign r=3 drops the twist 15 -> 5;
+   74 such (c,r) pairs below 200, and in each the q-part is too small to help.
