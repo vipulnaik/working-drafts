@@ -1481,3 +1481,28 @@ between those is not hypothetical.
 Noted that the n=10 and n=12 exhaustive checks are the most valuable of the three,
 being independent of both the code and the families.
 Same caveat added to notes section 2.6.
+
+--- RUN 65: uniform-in-n vs range-limited uncertainties ---
+VN proposed the summary "airtight per our own judgment for n covered so far; less
+confidence whether the search-space trimmings continue".  Pushed back: the
+trimmings are NOT a continuation risk.
+ * UNIFORM IN n (the dominant risk): every simplification -- Prop F.1's orbit
+   bound, q-power block counts, Lemma B', Lemma C, tower absorption -- follows
+   from an argument that holds for all n or none.  No mechanism makes such a
+   constraint hold below a threshold and fail above.  So the doubt is whether the
+   ARGUMENTS are right, and if one is not, the computed values are wrong at small
+   n as much as large.  The Singer step, assigned SKETCH by the same judgment that
+   assigned PROVED to Lemma B', Lemma C and G.2, is false -- so this risk is not
+   hypothetical.
+ * RANGE-LIMITED (affecting tightness, not validity): the EQUALITY mu = B needs an
+   attaining construction (four shapes verified, spot-checked at n=255 and 315); a
+   fifth winning shape at larger n would still be enumerated but would want its
+   own attainment check.  Also range-limited: that safe scoring costs nothing, and
+   that no winner uses more than two p-classes or two foreign primes.
+ * IMPLICATION FOR EFFORT recorded: extending the numerical range mainly tests the
+   IMPLEMENTATION; extending the EXHAUSTIVE comparison tests the CLASSIFICATION
+   and is worth more per unit compute, but is only feasible at small degrees.
+   Independent reading of Lemma B', Lemma C and G.2 would be worth more than either.
+Also declined the word "airtight": what exists is a classification argument and a
+scoring argument believed complete, agreement with two independent exhaustive
+enumerations at the only two n where they exist, and no violation in 1269 values.
