@@ -96,6 +96,10 @@ Every construction used in these notes is a special case. In particular:
 
 Both are cases the natural hand-built family menu omits, and they are not marginal: over n ≤ 1540 the general enumeration exceeds that menu at 173 values, in exactly two shapes — 127 configurations pairing two p-characteristic parts with one foreign prime, and 46 pairing a fused class with a foreign prime.
 
+The enumeration is implemented in `mu_enumerate.py` and analysed in the companion document `enumeration-proof.md`, which classifies the admissible structures and bounds the resulting search: at most 1/√δ orbits, blocks of size at least δn, fusion counts at most 1/δ, and termination certified at the first orbit count no larger configuration can beat. Its output is an **unconditional** upper bound — the one ingredient that would require an assumption about point stabilisers is never invoked on an optimal configuration — and it is validated to n = 1540 at a measured cost of about n^2.9 per value.
+
+Independent confirmation comes from exhaustively enumerated Oliver groups, constructed without reference to these families: at n = 10 all 967 have minimum orbital at most 20, and at n = 12 all 7,115 have it at most **18** — in each case exactly the bound, and **attained**. The eight groups attaining it at n = 12 all have orbital sizes {18, 48}, precisely what Theorem 2.4 predicts for three fused blocks of 4.
+
 **2.4 The coherence conditions are derivable.** Theorem 2.3's gap is the assumption-free bound's failure to know that only certain twists coexist. That knowledge is not extra hypothesis — it follows from the chain.
 
 > **Lemma A (inheritance).** For each Γ-orbit O the induced group Γ|_O inherits an Oliver chain with the *same* bottom prime p and top prime q, namely the images of Γ₂ ◁ Γ₁ ◁ Γ.

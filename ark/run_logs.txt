@@ -1414,3 +1414,46 @@ one fused class, against a permitted orbit count up to 1/sqrt(delta) ~ 5.  Provi
 any of the three would shorten the search substantially.
 ITEM 4: the n = 12 battery (8,819 groups) is not in the container; the check needs
 the group data, not new theory.
+
+--- RUN 63: OPEN ITEM 4 RESOLVED -- independent confirmation at n = 12 ---
+VN supplied the n = 12 GAP battery (groups_out.txt, 7115 well-formed rows;
+tag census P2 6004, 2 657, 0 295, P3 88, 3 67, P5 2, P11 2).
+INDEPENDENT EXHAUSTIVENESS CHECK: max min-orbital over ALL 7115 enumerated Oliver
+groups = 18 = B(12) exactly.  CONSISTENT, and TIGHT -- the bound is attained.
+Exactly 8 groups attain 18, ALL with orbital partition {18, 48}:
+   T(12,85) o144, T(12,164) o576, T(12,166) o576, T(12,207) o1152,
+   T(12,228) o1728, T(12,229) o1728, T(12,265) o5184, T(4,4) wr T(3,1)
+That partition is precisely what block fusion predicts for 12 = 3*4:
+   intra 3*C(4,2) = 18, cross 3*4^2 = 48 (q odd).
+So the exhaustive optimum IS the predicted configuration, orbital sizes matching.
+DISTRIBUTION over the battery is steeply skewed: m* = 2 for 4576 groups and m* = 1
+for 1905, with only 8 at the maximum -- reinforcing that battery selection by group
+count rather than by novelty of the orbital partition wastes most of the effort.
+Note the tags of the 8: five have q = 3, one q = 2, one trivial top -- so the same
+orbital partition is realised with several different chain readings, consistent
+with G.0.
+Two independent tight confirmations now stand (n = 10 and n = 12); extending
+further needs group data, not theory.
+
+--- RUN 63: INDEPENDENT EXHAUSTIVENESS CHECK AT n = 12 (open item 4) ---
+VN supplied the n=12 battery.  groups_out.txt holds 7115 well-formed rows (66 pair
+labels each), tag census {P2:6004, 2:657, 0:295, P3:88, 3:67, P5:2, P11:2}.
+RESULT: max min-orbital over ALL 7115 groups = 18 = B(12) exactly.  CONSISTENT,
+and TIGHT -- the bound is attained, not merely respected.
+Eight groups attain 18, spanning orders 144 to 5184 (T(12,85), T(12,164),
+T(12,166), T(12,207), T(12,228), T(12,229), T(12,265), and the wreath form
+T(4,4) wr T(3,1)).  All eight have orbital sizes {18, 48} and fall into only TWO
+distinct orbital partitions -- the redundancy documented in notes section 8.7'.
+Their orbital data is exactly Theorem 2.4's prediction for n = 3 x 4: three fused
+blocks of 4 with the full twist give 3*C(4,2) = 18, and the cross class with
+coefficient 3 (q = 3 odd) gives 3*4^2 = 48.  So the exhaustive enumeration's
+optimum IS the predicted construction, orbital sizes included.
+m* distribution over the battery: 18 (8 groups), 12 (58), 11 (5), 10 (2), 7 (2),
+6 (177), 5 (20), 4 (61), 3 (301), 2 (4576), 1 (1905).
+Open item 4 updated in both documents with a two-row table (n = 10 and n = 12),
+and the caveat retained that both checks are at small n where few configurations
+exist -- this is the strongest evidence the framework admits, not a proof of
+exhaustiveness.
+Note: consume_gap stage 3 (the monomorphism matrix for the CSP) is a separate
+pipeline and is about 1/6 done; the exhaustiveness check needs only the orbital
+maps, so it did not have to wait.

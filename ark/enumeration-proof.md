@@ -231,6 +231,15 @@ Fermat primes achieve this at q = 2, safe primes with t = q odd and 2t = r−1, 
 
    So the bound is *attained* by realisable configurations throughout, and B(n) = μ(n) wherever a construction meets it. What is not proved is that this continues: a configuration of some other shape could in principle win at larger n without being realisable, leaving the bound valid but unattained.
 
-4. **Independent confirmation at more n.** Agreement with constructions drawn from the same families is partly circular, so the only non-circular check is against an exhaustive enumeration of Oliver groups obtained independently. At n = 10 all 967 such groups have minimum orbital at most 20, exactly the bound. The corresponding battery at n = 12 (8,819 groups) would extend this and is the cheapest available strengthening; it needs the group data, not new theory.
+4. **Independent confirmation.** Agreement with constructions drawn from the same families is partly circular, so the only non-circular check is against an exhaustive enumeration of Oliver groups obtained independently. Two are available, and both are **tight** rather than merely consistent.
+
+   | n | groups enumerated | max m\* over all of them | B(n) | attaining |
+   |---|---|---|---|---|
+   | 10 | 967 | 20 | 20 | T(10,17), order 200, orbitals {20, 25} |
+   | 12 | 7,115 | 18 | 18 | 8 groups, all with orbitals {18, 48} |
+
+   At n = 12 the optimum is realised by eight groups spanning orders 144 to 5184, including the wreath form T(4,4) ≀ T(3,1), and they fall into only two orbital partitions. Their common orbital data {18, 48} is exactly what Theorem 2.4 predicts for n = 3·4: three fused blocks of 4 with the full twist give 3·C(4,2) = 18, and the cross class, with coefficient 3 because q = 3 is odd, gives 3·4² = 48. So the exhaustive enumeration's optimum *is* the predicted construction, orbital sizes included.
+
+   This does not establish exhaustiveness in general — both checks sit at small n, where few configurations are available — but it is the strongest form of evidence the framework admits, and at both values the bound is attained.
 
 5. **Extending the numerical range.** Validation currently reaches n = 1540 at a measured cost of about n^2.9 per value; see Part H for projections.
