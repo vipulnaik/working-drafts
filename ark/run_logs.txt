@@ -1506,3 +1506,33 @@ trimmings are NOT a continuation risk.
 Also declined the word "airtight": what exists is a classification argument and a
 scoring argument believed complete, agreement with two independent exhaustive
 enumerations at the only two n where they exist, and no violation in 1269 values.
+
+--- RUN 66: realisability is PROVABLE -- open item 3 closed ---
+VN's challenge: why can realisability not be proved, given every step is an
+explicit construction with Oliver's condition checked arithmetically?  Correct --
+I was over-cautious.  The construction is GENERIC:
+  * p-characteristic parts: translations of the F blocks of F_c, all inside the
+    bottom p-group Gamma_2
+  * foreign parts: translations C_r inside the cyclic layer
+  * ONE cyclic-layer generator carries all p-part twists DIAGONALLY, its image in
+    each part being that part's full twist -- so distinct p-parts need no
+    coprimality between twist orders
+  * foreign twists (q-powers) and fusion block permutations both in the top q-group
+Gamma_2 is a p-group by construction; Gamma_1/Gamma_2 is cyclic exactly under
+Lemma C, which the enumeration enforces; Gamma/Gamma_1 is a product of q-groups on
+disjoint supports.  The orbital sizes are FORCED, not chosen (intra fuses across F
+blocks; the within-class cross equals the minimum pair-orbital of a transitive
+q-group on F points, exactly F/2 for q=2 and F for odd q; between-orbit classes are
+single orbitals since translations of distinct orbits act independently).
+VERIFIED by orbit computation at eight configurations spanning all four winning
+shapes -- n = 12, 18, 20, 26, 35, 45, 255, 315 -- built m* equals predicted m* in
+every case.
+=> B(n) is ATTAINED, mu(n) = B(n).  ONE CAVEAT: in unconditional mode a p-part
+whose twist Lemma C reduces is scored F*C(c,2), which the construction does not
+reach (it reaches F*orb(c,d)); at such a configuration the unconditional score
+over-estimates.  That is the GammaL(1) question again, and it is empty in the
+computed range.
+PITFALL recorded: the twist must generate the multiplicative group of the FIELD
+F_c.  Using Z/c is right only for prime c and silently gives wrong orbital sizes
+for proper prime powers -- three blocks of 4 at n=12 yields 6 instead of 18.  This
+bit the first version of the verification harness.
