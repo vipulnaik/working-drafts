@@ -1040,3 +1040,83 @@ BINARY terms kept binary and said so: p-characteristic vs foreign.
 Also recorded: "shifted prime" means r-1, and nearly every arithmetic condition in
 the notes is a condition on the FACTORISATION of r-1 -- which is why the subject
 reduces to Hardy-Littlewood statements rather than primality alone.
+
+--- RUN 45: correction -- the Oliver chain is a CHOICE, not a group invariant ---
+VN's nit: (p, cyclic layer, q) are attributes of a chosen chain; a group may admit
+several with different primes.  Clean example: cyclic of order pqr -- taking
+Gamma_2 = 1, Gamma_1 = Gamma exhibits it as cyclic-with-trivial-top for EVERY
+(p,q), and other choices put any of the three primes at the bottom.
+Glossary entry fixed, and a new G.0 added to enumeration-proof.md.  Nothing in
+Parts A-J is affected (every argument fixes a chain first), but two consequences
+are now recorded:
+ * A GAIN NOT TAKEN: each admissible chain gives its own congruence, so a group
+   with top primes q1, q2 forces chi(Delta_P^Gamma) = 1 mod lcm(q1,q2) -- strictly
+   stronger than any single chain.  The section-8 batteries enforce one chain per
+   group and leave this unused.
+ * SLACK IN THE BOUND: truth is m*(Gamma) <= min over its chains of that chain's
+   bound, but the enumeration maximises over (p,q), the LEAST restrictive choice.
+   Safe (every group is covered by some enumerated configuration) but not tight;
+   pairing each group with its most restrictive chain would give a smaller bound.
+
+--- RUN 46: battery redundancy (VN: larger Oliver groups need not help, may hurt) ---
+VN's point: several Oliver groups can realise the same orbital structure, one
+minimal and others merely containing it.  Example n=9: AGL(1,9) vs AGL-semilinear
+AGammaL(1,9), twice the size, same single orbital K_9.
+SHARPENED: the larger group is STRICTLY WORSE.  AGL(1,9) has chain F_9 <| Gamma
+with cyclic quotient and TRIVIAL TOP, so acyclicity forces chi = 1 EXACTLY.
+AGammaL(1,9) has GammaL(1,9) = C_8 : C_2 with Frobenius acting by cubing --
+nonabelian, so no chain has Gamma_1 = Gamma, and the best conclusion is
+chi = 1 mod 2.  Same fixed complex, weaker conclusion.
+MEASURED on the n=10 battery: 967 groups, but only 271 DISTINCT ORBITAL
+PARTITIONS and 335 distinct (partition, prime) pairs.  632 groups (65%) impose a
+condition already imposed by another member.  673 of the 967 are 2-subgroups and
+that is where the duplication concentrates.  111 Oliver congruences are superseded
+by a trivial-top group on the same partition.
+PRUNING RULES recorded as section 8.7':
+  (i) discard any group whose (orbital partition, prime) pair already appears;
+  (ii) among groups sharing a partition keep the SMALLEST top layer -- trivial top
+       gives chi = 1 exactly, implying chi = 1 mod q for all q.
+Selection criterion is NOVELTY OF THE (partition, prime) PAIR, not group size or
+orbital count -- a sharper form of the incomparability heuristic of 9.7.
+
+--- RUN 47: the same group read as an Oliver group in several ways ---
+VN's follow-up to the redundancy point: a group carries a SET of chain readings,
+and which readings survive matters when the group is a PIECE of a larger
+configuration, because all parts must share one (p,q).
+WORKED AT n = 9:
+  AGL(1,9) = F_9 : C_8 admits
+     (a) Gamma_2 = F_9, Gamma_1 = Gamma, TRIVIAL TOP -- twist in the cyclic layer;
+         valid for EVERY q, and gives chi = 1 exactly;
+     (b) Gamma_2 = Gamma_1 = F_9, top = C_8 -- twist in the top, needs q = 2.
+  AGammaL(1,9) LOSES reading (a): the Frobenius has order 2 and cannot join C_8 in
+  a cyclic layer since GammaL(1,9) = C_8 : C_2 (Frobenius acting by cubing) is
+  nonabelian.  Only nontrivial-top readings survive -- exactly the "cyclic on
+  p-group" reading is lost, as VN said.
+CONSEQUENCE: AGammaL(1,9) both weakens its own conclusion (chi = 1 mod 2 instead
+of chi = 1) AND PINS q = 2 for every other part of any configuration containing
+it.  A piece admitting many readings composes freely; a piece with one reading
+imposes its q globally.  Here orbitals are identical so the flexible group wins,
+but a larger group with BETTER orbitals could still lose by constraining q.
+Noted that this is why the enumeration iterates over (p,q) globally and admits a
+part only if compatible, rather than optimising parts independently.
+Pruning rule (ii) restated: keep the group admitting the MOST readings.
+
+--- RUN 48: confirming the enumeration covers all chain readings ---
+VN asked whether the proof and the script consider all interpretations.  Answer:
+yes for the bound's purpose, recorded in G.0.
+ * the script loops over ALL (p,q) prime pairs, so every chain-prime reading is
+   enumerated; every Oliver group admits some chain whose primes are in the loop,
+   so no group escapes.  Verified that the optimum is attained at a UNIQUE (p,q):
+   n=10 (5,2), n=12 (2,3), n=20 (5,2), n=273 (83,53).
+ * NON-OBVIOUS CORRECTNESS POINT, now written into G.0: one might expect the code
+   to model twist PLACEMENT, since a q-power twist could sit in the top rather
+   than the cyclic layer and escape Lemma C.  It need not: the q'-part of any
+   twist is forced into Gamma_1 (Gamma/Gamma_1 being a q-group), so Lemma C binds
+   exactly that part, and the q-part is automatically coprime to every foreign
+   prime r because q | r-1 forces q != r.  So strip(c-1, foreigns) is exactly
+   right and the apparent refinement is vacuous.
+ * TWO KNOWN SLACKS, both safe: the enumeration takes the MOST PERMISSIVE reading
+   rather than the most restrictive; and it reasons about configurations, never
+   groups, so it cannot notice that a configuration admitted under a generous
+   (p,q) might only be realisable by a group forced into a worse reading (the
+   AGammaL(1,9) situation).  Both make the bound conservative, never invalid.

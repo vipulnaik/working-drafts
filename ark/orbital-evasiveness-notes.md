@@ -394,6 +394,29 @@ The asymptotic framework is ineffective (§5.4), so it says nothing about any sp
 
 **8.7 Attacks on the band.** (a) Dual χ-magnitude screen (exact χ of dual minimal completions kills primal-*maximal* realizations — mirror of §8.4, closing intervals at both endpoints); (b) p-groups with lattices *coupled* to pinned classes (e.g. the diagonal C₄ ≤ AGL(1,5)² with a singleton edge-orbital); (c) a quantitative interval bound |χ(P) − χ(P_low)| < deficit via orbit-size divisibility mod p. None yet run to completion.
 
+**8.7′ Redundancy in a battery, and how to prune it.** The fixed complex Δ_P^Γ depends only on Γ's **orbital partition**, since the invariant graphs are exactly the unions of orbitals. Two groups with the same partition therefore impose conditions that differ only through the prime involved — 𝔽_p-acyclicity for a p-group, χ ≡ 1 mod q for an Oliver chain — and if the prime agrees too, the second group adds nothing at all.
+
+This is not a marginal effect. Of the **967 groups** enumerated at n = 10 there are only **271 distinct orbital partitions** and **335 distinct (partition, prime) pairs**, so **632 groups — 65% of the battery — impose a condition already imposed by another member.**
+
+Worse, a larger group can be strictly *weaker*. Take n = 9: AGL(1,9) = 𝔽₉ ⋊ C₈ has chain 𝔽₉ ◁ Γ with cyclic quotient and **trivial top**, so acyclicity forces χ(Δ_P^Γ) = **1 exactly**. Its overgroup AΓL(1,9) = 𝔽₉ ⋊ ΓL(1,9), twice the size, has the *same* single orbital K₉ and hence the same fixed complex — but ΓL(1,9) = C₈ ⋊ C₂ with Frobenius acting by cubing is nonabelian, so no chain of AΓL(1,9) has Γ₁ = Γ, and the best available conclusion is χ ≡ 1 mod 2. Same complex, strictly weaker conclusion. Adding the Frobenius enlarges the group and loses information.
+
+**The same group, read several ways.** The chain is a choice (Appendix B), so a group carries not one interpretation but a *set* of them, and the set is what governs how the group can be used as a piece of a larger configuration — since all parts of a configuration must share a single (p, q). At n = 9:
+
+| group | admissible readings | forces q? |
+|---|---|---|
+| AGL(1,9) = 𝔽₉ ⋊ C₈ | Γ₂ = 𝔽₉, Γ₁ = Γ, **trivial top** — twist in the cyclic layer, valid for *every* q; **or** Γ₂ = Γ₁ = 𝔽₉, top = C₈ — twist in the top, needing q = 2 | no |
+| AΓL(1,9) = 𝔽₉ ⋊ ΓL(1,9) | Γ₂ = Γ₁ = 𝔽₉ with top ΓL(1,9) of order 16; **or** Γ₂ = 𝔽₉, Γ₁ = 𝔽₉⋊C₈, top C₂ | **yes, q = 2** |
+
+AΓL(1,9) has lost precisely the *cyclic-on-p-group* reading: the Frobenius has order 2 and cannot join C₈ in a cyclic layer, because ΓL(1,9) = C₈ ⋊ C₂ with Frobenius acting by cubing is nonabelian. So it can only be read with a nontrivial top, which both weakens its own conclusion (χ ≡ 1 mod 2 rather than χ = 1) **and pins q = 2 for every other part of any configuration containing it**.
+
+This is the operative distinction when such a group is used as a block inside a larger n. A piece that admits many readings composes with parts demanding any top prime; a piece with one reading imposes its q on the whole configuration. Here the two groups have identical orbitals, so the flexible one simply wins — but the tradeoff is genuine in general, and a larger group with *better* orbitals could still lose by constraining q. It is also why the enumeration of §2.6 iterates over (p, q) globally and admits a part only when it is compatible with that choice, rather than optimising each part independently.
+
+Two pruning rules follow, both cheap:
+
+> **(i)** Discard any group whose orbital partition and prime already appear in the battery. **(ii)** Among groups sharing a partition, keep the one with the *smallest* top layer — equivalently the one admitting the most readings — a trivial top gives χ = 1 exactly, which implies χ ≡ 1 mod q for every q. At n = 10 rule (ii) alone supersedes **111** of the Oliver congruences currently enforced.
+
+The battery composition at n = 10 shows where the waste sits: 673 of the 967 groups are 2-subgroups (tag P2), and it is among these that the duplication is concentrated. The useful selection criterion is therefore not group size or orbital count but **novelty of the (partition, prime) pair** — a sharper version of the incomparability heuristic of §9.7.
+
 **8.8 The full-battery campaign at n = 10.** A GAP pipeline (`ark_gap.g`) enumerates groups far beyond any hand template: all 45 transitive groups of degree 10 (24 are Oliver with ≤ 12 orbitals), direct products over partitions, imprimitive wreaths — where AGL(1,5)≀C₂ with m\* = 20 lives, the witness for §3's wreath clause — and every p-subgroup of every Sylow subgroup of S₁₀ up to Sylow-conjugacy: **967 groups (268 Oliver + 699 p-groups)**. A checkpointed consumer (`consume_gap.py`: selection-signature-guarded, inference-first monomorphism stage) builds the joint catalog, and a memoized event-driven solver (`stage4_fast.py`) enforces primal+dual χ plus primal+dual 𝔽ₚ-acyclicity with leaf-level verification of every group.
 
 Result: on 75 groups (40 Oliver at t ≤ 10 plus 35 p-groups) and 1242 classes, the system is **SAT with a leaf-verified solution**, found at 339k nodes and independently reproduced bit-for-bit on a second machine (the solver is deterministic). The verified candidate-property skeleton is the monotone closure of **ten explicit maximal graphs** (graph6 strings in `skeleton.pkl`): the circulant C₁₀(1,2) (20 edges), the apex graphs K₁+3K₃ and K₁+C₉ (18 edges, from the 3+3+3+1 and 9+1 block lattices), a K₁+K₄ apex (15 edges), an unidentified 5-regular 25-edge graph with 20 triangles from the transitive lattices (graph6 `IQjVRiyVO` — not K₅,₅, C₅[K₂], or the Petersen complement), and five further 12–15-edge graphs. Its anatomy — apex and circulant maximal elements interleaved with excluded classes from 8 edges up — resembles no nameable natural property, which is itself informative about what a counterexample at n = 10 would have to look like. The skeleton is subsequently killed by the global χ test (§8.12).
@@ -612,7 +635,8 @@ Terms are grouped by where they come from. Several that read as binary are in fa
 ### The Oliver chain
 
 - **Oliver's condition / Oliver group**: a chain Γ₂ ◁ Γ₁ ◁ Γ with Γ₂ a **p**-group, Γ₁/Γ₂ cyclic, and Γ/Γ₁ a **q**-group. Any layer may be trivial.
-- **bottom prime p**, **cyclic layer** Γ₁/Γ₂, **top prime q**. These are fixed once for the whole group and are inherited by every orbit and block (Lemma A, G.1) — most of the coherence conditions are consequences of that single fact.
+- **bottom prime p**, **cyclic layer** Γ₁/Γ₂, **top prime q**. These are attributes of a **chosen chain, not of the group**: a group may admit several, with different primes. A cyclic group of order pqr is the clean example — taking Γ₂ = 1 and Γ₁ = Γ exhibits it as cyclic-with-trivial-top for *every* pair (p, q), and other choices put any one of the three primes at the bottom. What *is* fixed is that once a chain is chosen, its primes are inherited by every orbit and block (Lemma A, §2.5 and Part G.1 of `enumeration-proof.md`), and most of the coherence conditions follow from that alone.
+- Two consequences of the chain being a choice. **On the constraint side this is a gain we have not used**: a group admitting chains with different top primes q₁, q₂ yields χ(Δ_P^Γ) ≡ 1 modulo *both*, hence modulo lcm(q₁, q₂) — a strictly stronger condition than any single chain gives, and the CSP of §8 currently enforces only one chain per group. **On the bound side it is slack**: μ(n) is bounded using *some* chain of each group, and the enumeration takes the maximum over (p, q), i.e. the least restrictive choice. That is safe — every group is covered by at least one enumerated configuration — but pairing each group with its *most* restrictive chain would give a smaller and still valid bound.
 
 ### Configuration vocabulary
 
