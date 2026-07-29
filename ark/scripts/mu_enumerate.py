@@ -170,10 +170,14 @@ def parts_for(n, p, q, spf, floor):
             if not (foreign and pp[1] > 1):          # Lemma B': foreign => prime
                 F = 1
                 while F * c <= n:
-                    # a foreign part cannot be fused: its F copies of C_c would
-                    # generate C_c^F inside the cyclic layer, which is cyclic only
-                    # for F = 1.  (Diagonal translations keep it cyclic but drop
-                    # the within-orbit cross class to ~F*c, always dominated.)
+                    # A foreign part is never fused.  Independent translations
+                    # are impossible (F copies of C_c generate C_c^F, cyclic only
+                    # for F = 1), and DIAGONAL translations, though admissible,
+                    # are always dominated: they preserve the difference y-x, so
+                    # the pairs with y = x form a cross class of size only
+                    # c*|block-pair orbit| ~ F*c/2 which the twist can never
+                    # merge (it fixes 0).  That class binds, leaving the fused
+                    # foreign class worth ~F*c/2 instead of F*orb(c,t).
                     if foreign and F > 1:
                         break
                     pt = Part(F, c, foreign, q, p, spf)

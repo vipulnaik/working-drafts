@@ -1349,3 +1349,43 @@ So the practical ceiling for a single-threaded run is around n = 2000-2500.
 Note the exponent ~3 is empirical, not the Part H bound n^{O(1/sqrt delta)}: with
 delta roughly constant in this range the theoretical exponent is also constant,
 and ~n^3 is what the constant works out to here.
+
+--- RUN 60: loose end -- can a FOREIGN class be fused? ---
+The code excluded fused foreign parts on the grounds that F copies of C_r generate
+C_r^F, cyclic only for F=1.  That argument covers INDEPENDENT translations only;
+DIAGONAL translations keep the cyclic layer cyclic and are admissible.
+First estimate suggested this was a real omission: allowing a fused foreign class
+alongside a p-class appeared to beat the bound at 53 of 1269 values, up to 3.07x
+(n=851: 337 + 2x257, q=2).
+THE ESTIMATE WAS WRONG -- it omitted the DIAGONAL CROSS CLASS.  Diagonal
+translations preserve the difference y-x, so cross pairs split by difference; the
+delta = 0 pairs (x,x) form a class of size r*|block-pair orbit| ~ F*r/2, and the
+twist FIXES 0 so it can never merge with anything.  That class is about t times
+smaller than the intra term F*orb(r,t) and therefore BINDS.
+Rechecked with the diagonal class included: 0 of 1269 values beaten.
+=> the exclusion is CORRECT but the recorded reason was wrong.  Code comment
+fixed to give the diagonal-class argument.
+
+--- RUN 61: cleanup of enumeration-proof.md and the notes ---
+enumeration-proof.md rewritten to remove references to the course of our own work:
+  * retitled "Bounding mu(n) by enumeration of Oliver configurations"
+  * status line states what is proved / finite-but-not-minimal / unconditional
+  * headings stripped of PROVED / RESOLVED / OPEN process markers
+  * the Singer discussion is now a statement that the ΓL(1) conclusion fails in
+    general (with the extraspecial counterexample) plus the triage of what rests
+    on it -- not a narrative about a sketch being wrong
+  * instructive errors kept as PITFALL callouts, four of them: q-power block
+    counts in the recursion; Lemma C needs the conjugation action, not cyclicity;
+    the fused-foreign estimate must include the diagonal cross class; and
+    max-min vs min-max in the twist optimisation
+  * Parts I and J merged into a single Measurements section refreshed to n=1540
+  * closing "Open items" section replaces the methodological note
+  * 27.4 KB, ten parts, no residual process references
+orbital-evasiveness-notes.md:
+  * 2.6 rewritten as a statement of the configuration shape, the two
+    admissibility constraints, and Theorems 2.4 and 2.5 -- no discovery narrative
+  * 2.5's "effect on the bound" no longer recites the 42.7% -> ... -> 100% history
+  * the Overview bullet states the current position rather than the route
+  * section 3's residual-gap paragraph now names minimality and realisability, and
+    records that the Singer step is known to fail in general with the
+    extraspecial counterexample
