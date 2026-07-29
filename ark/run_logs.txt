@@ -1536,3 +1536,19 @@ PITFALL recorded: the twist must generate the multiplicative group of the FIELD
 F_c.  Using Z/c is right only for prime c and silently gives wrong orbital sizes
 for proper prime powers -- three blocks of 4 at n=12 yields 6 instead of 18.  This
 bit the first version of the verification harness.
+
+--- RUN 67: realisability relocated out of open items ---
+Moved the realisability proposition (generic construction, forced orbital sizes,
+eight verified configurations) out of the open-items list and into Part E, where it
+belongs: Part E now states both that the enumeration is complete (nothing
+admissible is missed) and that it does not over-generate (everything admitted is
+realised).
+Open items renumbered and reduced to four, only the genuinely open remaining:
+  1. Minimality of the enumeration (cost only)
+  2. The GammaL(1) conclusion for partial capacity -- now also carries the SOLE
+     residual piece of realisability: where Lemma C strictly reduces a p-part
+     twist, unconditional scoring assigns F*C(c,2) while the construction reaches
+     only F*orb(c,d), so the bound is valid but NOT attained there.  Empirically
+     this never happens at an optimum (0 of 1269), but no argument excludes it.
+  3. Independent confirmation (n = 10 and 12 done and tight; more would help)
+  4. Extending the numerical range

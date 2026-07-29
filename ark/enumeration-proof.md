@@ -117,6 +117,32 @@ What does **not** reduce is parts of unequal size and the choice of bottom prime
 
 **Status of the enumeration.** Every configuration permitted by Parts A–D is enumerated, within the bounds proved in F and G, so the enumeration is **complete and finite**. It is not known to be **minimal**: no argument prunes it to a shortest sufficient list. That affects running time, not validity. Several structural questions that might have obstructed completeness do not: the number of foreign parts needs no separate cap, since foreign parts are orbits and Proposition F.1 bounds the orbit count; multiple p-characteristic classes of different sizes are enumerated as multisets of parts; and towers do not couple to foreign parts (Part G).
 
+**Realisability: every admitted configuration is realised.** The enumeration does not over-generate. Every configuration the enumeration admits is realised by an explicit group, assembled from ingredients whose Oliver condition is verified purely arithmetically. Given (p, q) and parts (Fᵢ, cᵢ, type, twist dᵢ):
+
+- each p-characteristic part contributes the translations of its Fᵢ blocks of 𝔽_{cᵢ}, all of which lie in the bottom p-group Γ₂;
+- each foreign part contributes translations C_{r} lying in the cyclic layer;
+- one generator of the cyclic layer carries the twists of all p-characteristic parts *diagonally*, its image in each part being that part's full twist C_{dᵢ}, so distinct p-parts need no coprimality between their twist orders;
+- each foreign twist, a q-power, and each fusion class's block permutation both lie in the top q-group.
+
+Γ₂ is a p-group by construction; Γ₁/Γ₂ is cyclic exactly when the independent orders in it are pairwise coprime, which is Lemma C and is what the enumeration enforces; Γ/Γ₁ is a q-group as a product of q-groups on disjoint supports. And the resulting orbital sizes are *forced*, not chosen: the intra-orbital of a class is Fᵢ·orb(cᵢ, dᵢ) because the block permutation fuses the Fᵢ copies; the within-class cross is (Fᵢ or Fᵢ/2)·cᵢ² because the minimum pair-orbital of a transitive q-group on Fᵢ points is exactly Fᵢ/2 for q = 2 and Fᵢ for odd q (Part E); and the between-orbit classes are single orbitals of size sᵢsⱼ because the translations of distinct orbits act independently.
+
+Verified by orbit computation that the built group's orbital sizes equal the enumeration's terms exactly:
+
+| configuration | predicted m\* | built m\* | orbitals |
+|---|---|---|---|
+| n = 12, 3×4, q = 3 | 18 | 18 | {18, 48} |
+| n = 18, 2×9, q = 2 | 72 | 72 | {72, 81} |
+| n = 20, 4×5, q = 2 | 40 | 40 | {40, 50, 100} |
+| n = 26, 9 + 17\*, q = 2 | 36 | 36 | {36, 136, 153} |
+| n = 35, 16 + 19\*, q = 2 | 19 | 19 | {19, 120, 304} |
+| n = 45, 2×11 + 23\*, q = 2 | 23 | 23 | {23, 110, 121, 506} |
+| n = 255, 73+73+109\*, q = 3 | 2628 | 2628 | {2628, 2943, 5329, 7957} |
+| n = 315, 2×61 + 193\*, q = 2 | 3660 | 3660 | {3660, 3721, 6176, 23546} |
+
+So **B(n) is attained, and μ(n) = B(n)**, in every case where the enumeration's score for each part is the one the construction realises. The single exception is a p-characteristic part whose twist Lemma C strictly reduces, where unconditional scoring assigns F·C(c,2) rather than the F·orb(c, d) the construction reaches; that case is discussed as open item 2 and does not arise at any optimum in the computed range.
+
+> **Pitfall.** When checking this by construction, the twist must be a multiplicative generator of the *field* 𝔽_c. Using ℤ/c instead is correct only for prime c, and silently gives wrong orbital sizes for proper prime powers — for n = 12 with three blocks of 4 it yields 6 rather than 18.
+
 ## Part F. The search is bounded
 
 The enumeration needs no number-theoretic input to be finite, and the bound is small.
@@ -237,35 +263,12 @@ Fermat primes achieve this at q = 2, safe primes with t = q odd and 2t = r−1, 
 
 1. **Minimality of the enumeration.** Finiteness and completeness are proved; a domination argument reducing the permitted configurations to a shortest sufficient list is not. This costs running time only. The winning configurations are empirically far narrower than the permitted space — across the computed range none uses more than two p-characteristic classes, more than two foreign primes, or more than one fused class, against a permitted orbit count of up to 1/√δ ≈ 5. Proving any of those three would shorten the search substantially.
 
-2. **Recovering the ΓL(1) conclusion for partial capacity** (Part B). Huppert's classification of solvable 2-transitive groups supplies it for *full*-capacity orbits outside a finite list of exceptional degrees — but full capacity yields C(c,2) for any stabiliser and so needs no such input. The open case is partial capacity, where no classification is available. Nothing in the bound depends on it.
-3. **Realisability — provable, and the construction is generic.** Every configuration the enumeration admits is realised by an explicit group, assembled from ingredients whose Oliver condition is verified purely arithmetically. Given (p, q) and parts (Fᵢ, cᵢ, type, twist dᵢ):
+2. **The ΓL(1) conclusion for partial capacity.** Part B's Singer step is false, so the refined intra-orbital formula for a p-characteristic part is justified only when the point stabiliser is of ΓL(1) type. Huppert's classification of solvable 2-transitive groups supplies that for *full*-capacity orbits outside a finite list of exceptional degrees, but full capacity yields C(c,2) for any stabiliser and so needs no such input. The open case is partial capacity, where no classification is available.
 
-   - each p-characteristic part contributes the translations of its Fᵢ blocks of 𝔽_{cᵢ}, all of which lie in the bottom p-group Γ₂;
-   - each foreign part contributes translations C_{r} lying in the cyclic layer;
-   - one generator of the cyclic layer carries the twists of all p-characteristic parts *diagonally*, its image in each part being that part's full twist C_{dᵢ}, so distinct p-parts need no coprimality between their twist orders;
-   - each foreign twist, a q-power, and each fusion class's block permutation both lie in the top q-group.
-
-   Γ₂ is a p-group by construction; Γ₁/Γ₂ is cyclic exactly when the independent orders in it are pairwise coprime, which is Lemma C and is what the enumeration enforces; Γ/Γ₁ is a q-group as a product of q-groups on disjoint supports. And the resulting orbital sizes are *forced*, not chosen: the intra-orbital of a class is Fᵢ·orb(cᵢ, dᵢ) because the block permutation fuses the Fᵢ copies; the within-class cross is (Fᵢ or Fᵢ/2)·cᵢ² because the minimum pair-orbital of a transitive q-group on Fᵢ points is exactly Fᵢ/2 for q = 2 and Fᵢ for odd q (Part E); and the between-orbit classes are single orbitals of size sᵢsⱼ because the translations of distinct orbits act independently.
-
-   Verified by orbit computation that the built group's orbital sizes equal the enumeration's terms exactly:
-
-   | configuration | predicted m\* | built m\* | orbitals |
-   |---|---|---|---|
-   | n = 12, 3×4, q = 3 | 18 | 18 | {18, 48} |
-   | n = 18, 2×9, q = 2 | 72 | 72 | {72, 81} |
-   | n = 20, 4×5, q = 2 | 40 | 40 | {40, 50, 100} |
-   | n = 26, 9 + 17\*, q = 2 | 36 | 36 | {36, 136, 153} |
-   | n = 35, 16 + 19\*, q = 2 | 19 | 19 | {19, 120, 304} |
-   | n = 45, 2×11 + 23\*, q = 2 | 23 | 23 | {23, 110, 121, 506} |
-   | n = 255, 73+73+109\*, q = 3 | 2628 | 2628 | {2628, 2943, 5329, 7957} |
-   | n = 315, 2×61 + 193\*, q = 2 | 3660 | 3660 | {3660, 3721, 6176, 23546} |
-
-   So **B(n) is attained and μ(n) = B(n)**, with one caveat: in unconditional mode a p-characteristic part whose twist Lemma C reduces is scored F·C(c,2), which the construction does *not* reach — it reaches F·orb(c,d). At such a configuration the unconditional score is an over-estimate. This is the ΓL(1) question of Part B in another guise, and it is empty in the computed range, where the fallback is never invoked on an optimum.
-
-   > **Pitfall.** When checking this by construction, the twist must be a multiplicative generator of the *field* 𝔽_c. Using ℤ/c instead is correct only for prime c, and silently gives wrong orbital sizes for proper prime powers — for n = 12 with three blocks of 4 it yields 6 rather than 18.
+   This has one live consequence, and it is the sole part of realisability that is not proved. Where Lemma C strictly reduces a p-characteristic twist, the unconditional scoring assigns F·C(c,2) while the construction of Part E reaches only F·orb(c, d); at such a configuration the bound is valid but **not attained**. Whether that can happen at an optimum is an empirical question so far: across 1,269 computed values the fallback is never invoked on a winner, so μ(n) = B(n) throughout, but no argument rules it out at larger n.
 
 
-4. **Independent confirmation.** Agreement with constructions drawn from the same families is partly circular, so the only non-circular check is against an exhaustive enumeration of Oliver groups obtained independently. Two are available, and both are **tight** rather than merely consistent.
+3. **Independent confirmation.** Agreement with constructions drawn from the same families is partly circular, so the only non-circular check is against an exhaustive enumeration of Oliver groups obtained independently. Two are available, and both are **tight** rather than merely consistent.
 
    | n | groups enumerated | max m\* over all of them | B(n) | attaining |
    |---|---|---|---|---|
@@ -276,4 +279,4 @@ Fermat primes achieve this at q = 2, safe primes with t = q odd and 2t = r−1, 
 
    This does not establish exhaustiveness in general — both checks sit at small n, where few configurations are available — but it is the strongest form of evidence the framework admits, and at both values the bound is attained.
 
-5. **Extending the numerical range.** Validation currently reaches n = 1540 at a measured cost of about n^2.9 per value; see Part H for projections.
+4. **Extending the numerical range.** Validation currently reaches n = 1540 at a measured cost of about n^2.9 per value; see Part H for projections.
