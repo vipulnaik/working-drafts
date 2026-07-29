@@ -993,3 +993,50 @@ measurable slowdown: n <= 120 in 1.5s.
 Witness legend now printed only when a foreign part is present.
 REGRESSION CHECK [240,300]: 48 values in 23.1s, 44 exact, 4 table-short
 (247, 255, 273, 285), 0 violations -- unchanged from before the fixes.
+
+--- RUN 43: general enumeration measured to n = 685 (VN's run) ---
+538 rows, n = 6..685, from mu_enumerate.py with the fixed output handling.
+HEALTH: 0 violations vs the construction table; EVERY row certified.
+K distribution {2:135, 3:319, 4:79, 5:5}.  Weakest density 0.0418 => 1/sqrt(delta)
+= 4.89, so K=5 is EXACTLY the Prop F.1 ceiling and exactly what the 5 hardest rows
+needed -- the termination criterion is tight, not merely valid.
+DENSITY FLOOR rises 0.0147 -> 0.0418 (2.8x).  Since the search costs
+n^{O(1/sqrt(delta))}, a better floor is also a cheaper search.
+43 ROWS WHERE THE CONSTRUCTION TABLE WAS SHORT, up to 4.94x:
+   n=273  689 -> 3403 (4.94x)   83+83+107*
+   n=651  8128 -> 32896 (4.05x) 2x197 + 257*
+   n=465  2943 -> 11325 (3.85x) 151+151+163*
+   n=595  8128 -> 28392 (3.49x) 2x169 + 257*
+   n=555  7260 -> 22052 (3.04x) 2x149 + 257*
+CENSUS: 272 single fused orbit; 223 p-power + foreign prime; 30 TWO p-POWER PARTS
++ FOREIGN; 13 FUSED + FOREIGN.  The last two are the shapes the hand menu never
+formed and account for all 43 shortfalls.
+NEW OBSERVATION -- FERMAT PRIMES ARE THE OPTIMAL FOREIGN BLOCKS.  Lemma B' caps a
+foreign twist at a q-power, so a foreign prime loses nothing to the cap exactly
+when r-1 is a pure prime power; for q=2 that means r is a FERMAT prime.  At n=651
+the BINDING orbital is the foreign one, 257*256/2 = 32896, because 257 = 2^8+1
+makes all of C_256 available.  Same at 595, 555.  This is the sharp form of 5.5's
+near-safe-prime observation: safe primes give a twist ~r/2, Fermat primes give the
+full r-1 and are the unique case where Lemma B' costs nothing.
+
+--- RUN 44: Appendix B glossary ---
+VN asked for precise meanings of the accumulated jargon, noting some terms may be
+spectra rather than binaries.  Added Appendix B, grouped into permutation-group
+vocabulary, the Oliver chain, configuration vocabulary, arithmetic vocabulary,
+method vocabulary, topology/metaproperties, and the shape calculus.
+GRADED terms flagged with their grading:
+  * twist: graded by d/(c-1), the fraction of the multiplicative group used;
+    1 means 2-homogeneous, whole intra-orbital one class of size C(c,2).
+  * fusion count F: graded, always a q-power, F=1 unfused; tower depth adds
+    nothing beyond F (G.2).
+  * FOREIGN-BLOCK EFFICIENCY -- the key spectrum, newly named:
+      eff(r,q) = (t if t even else 2t)/(r-1),  t = q-part of r-1
+      eff = 1  <=>  r-1 = q^e or 2q^e  <=>  Lemma B' costs nothing.
+    Fermat primes hit it at q=2; safe primes hit it with t=q odd, 2t=r-1; general
+    full-efficiency blocks are r = 2q^e + 1 (163 = 2*3^4+1, 251 = 2*5^3+1).
+    MEASURED: 74.8% of foreign blocks in winning witnesses below n=685 have
+    efficiency 1; commonest are 227, 163, 257, 107, 263.
+BINARY terms kept binary and said so: p-characteristic vs foreign.
+Also recorded: "shifted prime" means r-1, and nearly every arithmetic condition in
+the notes is a condition on the FACTORISATION of r-1 -- which is why the subject
+reduces to Hardy-Littlewood statements rather than primality alone.

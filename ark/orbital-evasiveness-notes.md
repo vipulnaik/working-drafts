@@ -599,6 +599,62 @@ Reading the table against the framework: prime powers sit at density 1 (KSS's re
 | 29 | 406 | **406** | 1.000 | AGL(1,29) prime power |
 | 30 | 435 | **78** | 0.179 | AGL(1,13)xF17:C16 |
 
+## Appendix B. Glossary
+
+Terms are grouped by where they come from. Several that read as binary are in fact **graded**; those carry their grading formula.
+
+### Permutation-group vocabulary (standard)
+
+- **orbital** (here always *u-orbital*): an orbit of Γ on unordered pairs of points — equivalently a Γ-invariant graph that cannot be split. For transitive Γ each orbital has a common **valency** d, the number of Ω-neighbours of a vertex, and |Ω| = n·d/2.
+- **m\*(Γ)**: the smallest orbital of Γ. **μ(n)**: the largest m\*(Γ) over Oliver groups of degree n. **density**: m\*/C(n,2), so 1 for prime powers and at most 1/2 otherwise.
+- **block system, imprimitive, primitive**: a Γ-invariant partition into equal blocks; imprimitive means one exists nontrivially. **suborbit**: an orbit of a point stabiliser; the suborbit sizes are the orbital valencies and sum to n−1.
+
+### The Oliver chain
+
+- **Oliver's condition / Oliver group**: a chain Γ₂ ◁ Γ₁ ◁ Γ with Γ₂ a **p**-group, Γ₁/Γ₂ cyclic, and Γ/Γ₁ a **q**-group. Any layer may be trivial.
+- **bottom prime p**, **cyclic layer** Γ₁/Γ₂, **top prime q**. These are fixed once for the whole group and are inherited by every orbit and block (Lemma A, G.1) — most of the coherence conditions are consequences of that single fact.
+
+### Configuration vocabulary
+
+A **configuration** is what the enumeration ranges over: a choice of (p, q) and orbits n = Σ Fᵢcᵢ with twists. **Certified** means the Part F stopping criterion 1/√δ ≤ K has been met, so no larger configuration can win.
+
+- **part / orbit**: one Γ-orbit, of size F·c.
+- **p-characteristic vs foreign** — *binary*. An orbit is p-characteristic if its finest block has characteristic equal to the bottom prime p, foreign otherwise. Lemma B′: a foreign orbit's finest block must be of **prime** size with a twist that is a power of q.
+- **foreign prime**: the size r of a foreign part. Always prime, never repeated across orbits (two copies would put C_r × C_r in the cyclic layer).
+- **twist**: the multiplicative part of an affine block 𝔽_c ⋊ T, T ≤ 𝔽_c^\*. The **twist order** is |T| = d. *Graded* by **d/(c−1)**, the fraction of the multiplicative group used: 1 means the block is 2-homogeneous and its whole intra-orbital is a single class of size C(c,2).
+- **twist prime**: the top prime q, so named because Lemma B′ forces every *foreign* twist order to be a power of it. For a p-characteristic block the twist is unconstrained and lives in the cyclic layer instead.
+- **fused / fusion count F** — *graded*. A top-group element permuting several blocks merges their separate intra-orbitals into one, multiplying the orbital size by the number of blocks merged. F is always a power of q (a transitive q-group has q-power degree), and F = 1 means unfused. Tower depth contributes nothing beyond F (G.2).
+- **capacity** cap(s): the largest possible minimum intra-orbital of an orbit of size s, given by the recursion of Part C.
+
+### Arithmetic vocabulary
+
+- **prime power**: p^a with a ≥ 1. Blocks are always of prime-power size, because solvable primitive groups have prime-power degree.
+- **shifted prime**: r − 1 for r prime (occasionally r + 1). Nearly every arithmetic condition in these notes is a condition on the *factorisation of r − 1*, which is why the subject reduces to Hardy–Littlewood-type statements rather than to primality alone.
+- **q-part** of x: the largest power of q dividing x.
+- **safe prime**: r = 2q + 1 with q prime. **Fermat prime**: r = 2^k + 1 (only 3, 5, 17, 257, 65537 are known).
+- **foreign-block efficiency** — *the key spectrum*. For a foreign prime r under top prime q, the usable twist is t = (q-part of r−1), and the intra-orbital is r·|±δT|/2 against a maximum of C(r,2). So
+
+> **eff(r, q) = (t if t is even, else 2t) / (r − 1) ∈ (0, 1]**,
+
+> and **eff = 1 exactly when r − 1 = qᵉ or 2qᵉ** — which is precisely Lemma B′'s condition, i.e. the case where restricting foreign twists to q-powers costs nothing. Fermat primes achieve it with q = 2 (r − 1 a pure 2-power); safe primes achieve it with t = q odd and 2t = r − 1; and the general full-efficiency blocks are r = 2qᵉ + 1, e.g. 163 = 2·3⁴+1 and 251 = 2·5³+1. Measured over the winning configurations below n = 685, **74.8% of foreign blocks used have efficiency 1**, the commonest being 227, 163, 257, 107, 263 — safe primes, Fermat primes, and the r = 2qᵉ+1 generalisation.
+
+### Method vocabulary
+
+- **orbital annihilation**: the sparse criterion — if every member of P has fewer than m\*(Γ) edges then no nonempty invariant graph lies in P, so the fixed complex is void.
+- **transversal condition** (§9.7): a non-evasive nontrivial monotone P must contain at least one orbital of *every* Oliver group.
+- **battery**: the set of groups whose conditions the CSP enforces. **catalog**: the isomorphism classes those groups constrain (1,242 of 12,005,168 at n = 10). **skeleton**: the monotone closure of a solution's maximal graphs. **backbone**: the classes forced IN or OUT across all solutions. **primal / dual**: a condition and its complement-reflected image under the involution of §8.9.
+- **ladder / rung**: the sequence of conditional constructions of §5, each rung a stronger arithmetic hypothesis buying a larger exponent.
+
+### Topology and metaproperties
+
+- **evasive**: worst-case query complexity is exactly C(n,2). **collapsible, contractible, ℤ-acyclic, 𝔽_p-acyclic**: the rungs of §7.1, in decreasing strength.
+- **fixed complex** Δ_P^Γ: the subcomplex of Γ-invariant members of P — exactly the unions of orbitals lying in P.
+- **metaproperty**: a property of graph properties (evasiveness, monotonicity, sparseness); §7 organises the ones this framework uses.
+
+### Shape calculus (§9)
+
+- **shape**: an S_n-orbit of a three-state assignment (present / absent / irrelevant) to the edges — essentially a **trigraph** in Chudnovsky–Seymour's sense, but with the undecided pairs unrestricted. **shape complexity**: fewest shapes whose union is the property, equal to minimum DNF size; the maximal shapes inside a property are its **prime implicants**. **fsc**: the same with negated shapes allowed.
+
 ## References (indicative)
 
 - L. Babai, A. Banerjee, R. Kulkarni, V. Naik, *Evasiveness and the distribution of prime numbers*, STACS 2010; arXiv:1001.4829.
