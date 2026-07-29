@@ -188,6 +188,10 @@ and a configuration is a multiset of at most k of them summing to n. Including t
 
 with the self-certifying iteration of Part F guaranteeing that the correct K is reached and recognised. Every quantity here is elementary; no conjecture has been used, and the enumeration halts with a certificate regardless of how δ turns out.
 
+*Preprocessing.* The primes and prime powers up to n, and the factorisations needed for the q-part and Lemma C computations, all come from a single smallest-prime-factor sieve: **O(n log log n)** time and O(n) space. Afterwards primality and prime-power tests cost O(log n), q-parts O(log n), and the divisors of c−1 cost O(√n). This is dominated by the search itself — at least π(n)² ≈ (n/log n)² from the choice of chain primes alone — so it never enters the asymptotics. It is stated only because the cost model would otherwise be silent about where the arithmetic comes from.
+
+*Measured cost* on one core: 0.63 s per value at n ≈ 300, 4.79 s at n ≈ 600, 15.63 s at n ≈ 900, fitting **≈ n^2.9**. Projecting from n = 1540: roughly 11 h to reach 2000, 75 h to 3000, 595 h to 5000. Values of n are independent, so the work parallelises perfectly across disjoint ranges.
+
 **The one term that is not bounded by anything elementary is δ itself**, and that is the whole of the dependence. Unconditionally, BBKN gives μ(n) = Ω(n log n), i.e. δ = Ω(log n / n), so the exponent 1/√δ is only bounded by **O(√(n / log n))** and the search is n^{O(√n)} — subexponential, but not polynomial. Empirically δ never drops below 0.0147 anywhere under 10⁴, giving k ≤ 8, but that is an observation about a finite range and not a theorem.
 
 **Forward pointer.** This is where the number-theoretic conjectures re-enter, and in a role distinct from the one they play in §§4–5 of the notes. There they bound μ(n) from below; here the *same* bound bounds the **running time of the search**, because δ appears in the exponent. Under the ladder — δ ≥ 1/4 for even n, δ ≥ 0.049 for odd n with 3 ∤ n, δ ≥ 0.028 for 3 | n — the orbit count falls to k ≤ 2, 5, 6 respectively and the search becomes **polynomial of fixed degree** in n. So a Hardy–Littlewood-type hypothesis buys two things at once: the value of μ(n), and a guarantee that the certified enumeration terminates in polynomial rather than n^{O(√n)} time. That is worth stating explicitly in the number-theory sections, since it is a consequence of those conjectures that has nothing to do with what they were introduced for.
@@ -213,8 +217,20 @@ Fermat primes achieve this at q = 2, safe primes with t = q odd and 2t = r−1, 
 
 ## Part J. Open items
 
-1. **Minimality of the enumeration.** Finiteness and completeness are proved; a domination argument reducing the permitted configurations to a shortest sufficient list is not. This costs running time only.
+1. **Minimality of the enumeration.** Finiteness and completeness are proved; a domination argument reducing the permitted configurations to a shortest sufficient list is not. This costs running time only. The winning configurations are empirically far narrower than the permitted space — across the computed range none uses more than two p-characteristic classes, more than two foreign primes, or more than one fused class, against a permitted orbit count of up to 1/√δ ≈ 5. Proving any of those three would shorten the search substantially.
+
 2. **Recovering the ΓL(1) conclusion for partial capacity** (Part B). Huppert's classification of solvable 2-transitive groups supplies it for *full*-capacity orbits outside a finite list of exceptional degrees — but full capacity yields C(c,2) for any stabiliser and so needs no such input. The open case is partial capacity, where no classification is available. Nothing in the bound depends on it.
-3. **Realisability.** The enumeration reasons about configurations, not groups. A configuration admitted under a permissive (p, q) need not be realised by any group, and if realised may only be realised by one forced into a more restrictive chain (G.0). Both make the bound conservative, never invalid.
-4. **Independent confirmation at more n.** The only non-circular check is against exhaustively enumerated Oliver groups, since agreement with constructions built from the same families is partly circular. At n = 10 all 967 such groups have minimum orbital at most 20, exactly the bound. Extending this to the 8,819 groups at n = 12 is the cheapest available strengthening.
+3. **Realisability.** The enumeration reasons about configurations, not groups, so in principle a configuration admitted under a permissive (p, q) need not be realised by any group — or only by one forced into a more restrictive chain (G.0). In the computed range this does not occur. Every winning configuration has one of four shapes, and each is realised by an explicit group whose orbital sizes match the enumeration exactly:
+
+   | shape | witness | orbitals | m\* |
+   |---|---|---|---|
+   | single fused class | n = 20, 28, 44, 45, 56, 117 | — | matches |
+   | p-part + foreign prime | the two-block family | — | matches |
+   | two p-parts + foreign | n = 255 = 73+73+109, q = 3 | {2628, 2628, 2943, 2943, 5329, 7957, 7957} | 2628 |
+   | fused class + foreign | n = 315 = 2·61+193, q = 2 | {3660, 3721, 6176, 6176, 6176, 23546} | 3660 |
+
+   So the bound is *attained* by realisable configurations throughout, and B(n) = μ(n) wherever a construction meets it. What is not proved is that this continues: a configuration of some other shape could in principle win at larger n without being realisable, leaving the bound valid but unattained.
+
+4. **Independent confirmation at more n.** Agreement with constructions drawn from the same families is partly circular, so the only non-circular check is against an exhaustive enumeration of Oliver groups obtained independently. At n = 10 all 967 such groups have minimum orbital at most 20, exactly the bound. The corresponding battery at n = 12 (8,819 groups) would extend this and is the cheapest available strengthening; it needs the group data, not new theory.
+
 5. **Extending the numerical range.** Validation currently reaches n = 1540 at a measured cost of about n^2.9 per value; see Part H for projections.

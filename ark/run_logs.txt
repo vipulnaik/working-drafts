@@ -1389,3 +1389,28 @@ orbital-evasiveness-notes.md:
   * section 3's residual-gap paragraph now names minimality and realisability, and
     records that the Singer step is known to fail in general with the
     extraspecial counterexample
+
+--- RUN 62: pending items pass ---
+RUNTIME / PREPROCESSING (VN's point): Part H now states that the primes and prime
+powers up to n come from a single smallest-prime-factor sieve, O(n log log n) time
+and O(n) space, after which primality and prime-power tests are O(log n), q-parts
+O(log n), and the divisors of c-1 cost O(sqrt n).  Dominated by the search, which
+is at least pi(n)^2 from the chain-prime choice alone, so it never enters the
+asymptotics -- included for completeness of the cost model.
+REALISABILITY (open item 3) SETTLED IN RANGE.  Built explicit groups for the two
+winning shapes not previously verified, and checked their orbitals by BFS:
+  * n = 255 = 73+73+109, q=3.  Chain F_73^2 < .(C_72 diagonal x F_109) < .C_27;
+    gcd(72,109)=1 so the cyclic layer is cyclic.  Orbitals
+    {2628, 2628, 2943, 2943, 5329, 7957, 7957}, m* = 2628 = the bound.
+  * n = 315 = 2x61 + 193, q=2.  Chain F_61^2 < .(C_60 diagonal x F_193) <
+    .(C_2 swap x C_64).  Orbitals {3660, 3721, 6176, 6176, 6176, 23546},
+    m* = 3660 = the bound.
+All four winning shapes are therefore realised by explicit groups whose orbital
+sizes match the enumeration exactly, so B(n) = mu(n) wherever a construction meets
+the bound.  Not proved that this continues at larger n.
+MINIMALITY (item 1): recorded the empirical narrowing -- no winner in range uses
+more than two p-characteristic classes, more than two foreign primes, or more than
+one fused class, against a permitted orbit count up to 1/sqrt(delta) ~ 5.  Proving
+any of the three would shorten the search substantially.
+ITEM 4: the n = 12 battery (8,819 groups) is not in the container; the check needs
+the group data, not new theory.
