@@ -42,17 +42,6 @@ def _init_worker(reps_pickle):
     from ark_intersect import mono
     _W['reps'] = pickle.loads(reps_pickle)
     _W['mono'] = mono
-def _row(a):
-    reps = _W['reps']; mono = _W['mono']; V = len(reps)
-    ea = reps[a].number_of_edges()
-    out = []
-    for b in range(V):
-        if a == b: out.append(True)
-        elif ea <= reps[b].number_of_edges():
-            out.append(mono(reps[a], reps[b]))
-        else:
-            out.append(False)
-    return a, out
 
 def main():
     ap = argparse.ArgumentParser()
@@ -62,6 +51,10 @@ def main():
                     help='default 10, or the value stored in ckpt_groups.pkl')
     ap.add_argument('--procs', type=int, default=os.cpu_count())
     ap.add_argument('--infile', default='groups_out.txt')
+    ap.add_argument('--verify', type=int, default=3000,
+                    help='number of random ordered pairs to re-decide by VF2 '
+                         'after stage 3, as a check on the inference layers '
+                         '(0 to skip)')
     args = ap.parse_args()
 
     import networkx as nx  # noqa
@@ -92,6 +85,87 @@ def main():
     log(f"detected n = {N} ({NPAIRS} pairs)")
 
     # ---------------- stage 1 ----------------
+    # DEDUP CORRECTNESS.  The condition a group imposes on the CSP depends only on
+    # its orbital partition up to S_n (the invariant graphs are exactly the unions
+    # of orbitals) together with the prime in its tag.  The v1/v2 key was
+    #     (t, sorted orbital sizes, tag, per-vertex valency-multiset signature)
+    # which is a strong INVARIANT of that data but not a complete one, and it was
+    # used to DISCARD groups.  Measured at n = 12 over the 7,115 groups in
+    # groups_out.txt: 41 of 278 collision buckets merged inequivalent orbital
+    # partitions, so the retained representatives covered 381 of the 425 distinct
+    # (partition, prime) conditions available -- 44 dropped, 10.4% overall and
+    # 22.4% of the Smith (p-group) conditions specifically.  The failure direction
+    # is the dangerous one: a dropped condition can only turn a real UNSAT into
+    # SAT, never the reverse.
+    #
+    # The key below is complete.  Build a layered graph with N point-nodes,
+    # C(N,2) pair-nodes and t ORBITAL-nodes; each pair-node is adjacent to its two
+    # points and to its orbital-node.  Colour classes: points | pair-nodes | one
+    # class per orbital-STAT group (size, valency multiset).  Because every orbital
+    # carries its own node, a colour-preserving isomorphism must map each
+    # orbital's pair-set onto some orbital's pair-set, which is exactly equivalence
+    # of orbital partitions up to relabelling the orbitals.  Tied orbitals share a
+    # colour class, so the form does not depend on GAP's orbital indexing -- an
+    # earlier attempt that ordered ties by index over-split equivalent partitions
+    # and inflated the apparent loss sevenfold.
+    try:
+        import pynauty
+        def _orbital_canon(g):
+            t = g['t']
+            adj = {i: [] for i in range(N)}
+            stats = []
+            for o in range(t):
+                mem = [i for i in range(NPAIRS) if g['omap'][i] == o]
+                val = tuple(sorted(sum(1 for i in mem if u in PAIRS[i])
+                                   for u in range(N)))
+                stats.append((len(mem), val))
+            for idx, (u, v) in enumerate(PAIRS):
+                adj[N + idx] = [u, v, N + NPAIRS + g['omap'][idx]]
+            for o in range(t):
+                adj[N + NPAIRS + o] = []
+            grp = {}
+            for o in range(t):
+                grp.setdefault(stats[o], []).append(N + NPAIRS + o)
+            cols = ([set(range(N)), set(range(N, N + NPAIRS))] +
+                    [set(grp[k]) for k in sorted(grp)])
+            G = pynauty.Graph(N + NPAIRS + t, adjacency_dict=adj,
+                              vertex_coloring=cols)
+            return (pynauty.certificate(G), t, tuple(sorted(stats)))
+        _CANON_KIND = 'pynauty canonical orbital partition'
+    except ImportError:
+        # Correct fallback, no new dependency: bucket by the cheap invariant, then
+        # separate buckets by explicit colour-preserving isomorphism search on the
+        # layered graph.  Slower but exact; buckets are small.
+        def _orbital_canon(g, _cache={}, _reps=[]):
+            deg = tuple(sorted(tuple(sorted(sum(1 for p in o if u in p)
+                        for o in g['orbs'])) for u in range(N)))
+            bkey = (g['t'], tuple(sorted(len(o) for o in g['orbs'])), deg)
+            lay = _layered(g)
+            for i, (bk, H) in enumerate(_reps):
+                if bk == bkey and nx.is_isomorphic(
+                        lay, H, node_match=lambda a, b: a['c'] == b['c']):
+                    return ('fallback', i)
+            _reps.append((bkey, lay))
+            return ('fallback', len(_reps) - 1)
+
+        def _layered(g):
+            H = nx.Graph()
+            stats = {}
+            for o in range(g['t']):
+                mem = [i for i in range(NPAIRS) if g['omap'][i] == o]
+                stats[o] = (len(mem), tuple(sorted(
+                    sum(1 for i in mem if u in PAIRS[i]) for u in range(N))))
+            for u in range(N):
+                H.add_node(('p', u), c='point')
+            for o in range(g['t']):
+                H.add_node(('o', o), c=('orb', stats[o]))
+            for idx, (u, v) in enumerate(PAIRS):
+                H.add_node(('e', idx), c='pair')
+                H.add_edges_from([(('e', idx), ('p', u)), (('e', idx), ('p', v)),
+                                  (('e', idx), ('o', g['omap'][idx]))])
+            return H
+        _CANON_KIND = 'networkx colour-preserving isomorphism (pynauty absent)'
+
     def build_selection():
         raw = []
         for line in open(args.infile):
@@ -104,16 +178,20 @@ def main():
             orbs = [frozenset(PAIRS[i] for i in range(NPAIRS) if omap[i] == o)
                     for o in range(t)]
             raw.append(dict(key=key, desc=desc, tag=tag, t=t, orbs=orbs,
+                            omap=tuple(omap),
                             mstar=min(len(o) for o in orbs)))
         seen = {}
         dedup = []
+        ncoll = 0
         for g in raw:
-            deg = tuple(sorted(tuple(sorted(sum(1 for p in o if u in p)
-                        for o in g['orbs'])) for u in range(N)))
-            sig = (g['t'], tuple(sorted(len(o) for o in g['orbs'])), g['tag'], deg)
-            if sig in seen: continue
+            sig = (_orbital_canon(g), g['tag'])   # complete: see note above
+            if sig in seen:
+                ncoll += 1
+                continue
             seen[sig] = True
             dedup.append(g)
+        log(f"stage 1: dedup by {_CANON_KIND}; {ncoll} groups impose a condition "
+            f"already present, {len(dedup)} distinct (partition, prime) conditions")
         pg = [g for g in dedup if g['tag'].startswith('P')]
         ol = [g for g in dedup if not g['tag'].startswith('P')]
         ol.sort(key=lambda g: (-g['mstar'], g['t']))
@@ -334,6 +412,30 @@ def main():
                         open('ckpt_order.pkl', 'wb'))
             log(f"stage 3: {done_pairs} VF2 calls done, {len(todo)} pairs left "
                 f"({time.time()-t0:.0f}s)")
+    # SAMPLE VERIFICATION of the inference layers.  At n = 10 the rebuilt matrix
+    # was accepted by being bit-identical to an archived full-VF2 reference; no
+    # such reference exists at other degrees, and ~80% of ordered pairs are
+    # decided by inference alone.  Verify a random sample by VF2 so that the
+    # implementation (not merely the rules) is checked at every degree.
+    import random
+    from ark_intersect import mono as _mono
+    rnd = random.Random(20260729)
+    allpairs = [(a, b) for a in range(V) for b in range(V) if a != b]
+    samp = rnd.sample(allpairs, min(args.verify, len(allpairs)))
+    mism = []
+    for a, b in samp:
+        claimed = bool(T[a] >> b & 1)
+        if claimed != _mono(cat.reps[a], cat.reps[b]):
+            mism.append((a, b, claimed))
+    if mism:
+        log(f"stage 3: *** {len(mism)} of {len(samp)} sampled pairs DISAGREE with "
+            f"VF2 -- inference is wrong, do NOT trust downstream verdicts ***")
+        for a, b, c in mism[:10]:
+            log(f"    class {a} -> {b}: inference said {c}")
+        sys.exit("stage 3 verification failed")
+    log(f"stage 3: verification PASSED -- {len(samp)} random ordered pairs "
+        f"re-decided by VF2 agree with the inference matrix")
+
     order = [[bool(T[a] >> b & 1) for b in range(V)] for a in range(V)]
     pickle.dump(dict(sig=SIG, V=V, order=order, row=V),
                 open('ckpt_order.pkl', 'wb'))

@@ -111,4 +111,27 @@ two_pts={frozenset(),frozenset([0]),frozenset([1])}
 assert not fp_acyclic(two_pts,3,5)     # two points: H0-tilde != 0
 cone={frozenset(),frozenset([0]),frozenset([1]),frozenset([0,1])}
 assert fp_acyclic(cone,3,5)            # edge: contractible
-print("homology self-tests passed")
+
+# p-DEPENDENCE.  Every test above uses p=5 on torsion-free complexes, so a bug
+# that ignored p entirely would pass all of them -- while section 7.2's whole
+# "one prime versus all primes" apparatus depends on this function actually
+# distinguishing primes.  A triangulated RP^2 has H1 = Z/2, so it is F_p-acyclic
+# for odd p and NOT for p=2.
+_RP2=[(0,1,2),(0,2,3),(0,3,4),(0,4,5),(0,1,5),(1,2,4),(2,3,5),(1,3,4),(1,3,5),(2,4,5)]
+_f=set()
+for _t in _RP2:
+    for _r in range(4):
+        for _S in itertools.combinations(_t,_r): _f.add(frozenset(_S))
+assert not fp_acyclic(_f,6,2), "RP^2 must NOT be F_2-acyclic (H1 = Z/2)"
+for _p in (3,5,7):
+    assert fp_acyclic(_f,6,_p), f"RP^2 must be F_{_p}-acyclic"
+
+# Cones are acyclic over every p -- section 8.5's survival mechanism, so a
+# regression here would silently invalidate the one-sidedness analysis.
+_c={frozenset()}
+for _g in (frozenset([0,1,2]),frozenset([0,3]),frozenset([0,2,4])):
+    for _r in range(len(_g)+1):
+        for _S in itertools.combinations(sorted(_g),_r): _c.add(frozenset(_S))
+for _p in (2,3,5,7):
+    assert fp_acyclic(_c,5,_p), "a cone must be acyclic over every p"
+print("homology self-tests passed (including p-dependence and cones)")

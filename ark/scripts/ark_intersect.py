@@ -44,14 +44,36 @@ def u_orbitals(group):
     return orbitals
 
 def top_prime(group):
+    """Smallest usable top prime for this group, or None for a trivial top layer
+    (chi = 1 exactly).
+
+    Two known weaknesses, both in the SAFE direction (a weaker condition can only
+    admit more solutions, never wrongly report UNSAT), recorded here rather than
+    silently inherited:
+
+    (1) It reads q off the TWIST prime, so it never takes the trivial-top reading
+        even where one exists.  At n = 9, AGL(1,9) = F_9 : C_8 can be read with
+        the twist in the cyclic layer and a trivial top, giving chi = 1 EXACTLY;
+        this function returns 2 and the caller enforces only chi = 1 mod 2.  This
+        is the loss that notes section 8.7' rule (ii) quantifies at 111 conditions
+        for n = 10.  IsOliverTop in ark_gap.g does take the trivial-top reading,
+        so only this legacy path is affected.
+    (2) A group admitting chains with several top primes forces the congruence
+        modulo each, hence modulo their lcm -- strictly stronger than any single
+        one.  Returning a single q discards that.
+
+    Previously this asserted len(qs) == 1, which CRASHED on any group whose parts
+    carry twists of different primes -- e.g. AGL(1,5)[d=4] x F7:C3 at n = 12, a
+    group the template itself generates, so __main__'s n = 12 pass died on it.
+    We now return the smallest and expose the full set as .top_primes."""
     qs = set()
     for part in group.desc_parts:
         if part.startswith('F') and ':C' in part:
             tw = int(part.split(':C')[1])
             if tw > 1: qs.add(prime_power(tw)[0])
+    group.top_primes = sorted(qs)
     if not qs: return None
-    assert len(qs) == 1
-    return qs.pop()
+    return min(qs)
 
 def edges_to_graph(es, n):
     G = nx.Graph(); G.add_nodes_from(range(n)); G.add_edges_from(es); return G

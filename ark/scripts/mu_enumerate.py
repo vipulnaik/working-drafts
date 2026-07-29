@@ -96,8 +96,17 @@ def strip(x, primes):
 def orb(c, t, char2):
     """intra-block orbital size: pairs whose difference lies in +/- delta*T.
     |+/-dT| = |T| when -1 is in T (always in characteristic 2, else iff |T| even),
-    otherwise 2|T|; the orbital has c * |+/-dT| / 2 pairs."""
-    return c * t // 2 if (char2 or t % 2 == 0) else c * t
+    otherwise 2|T|; the orbital has c * |+/-dT| / 2 pairs.
+
+    The min() is not cosmetic.  For c > 2 the raw formula never exceeds C(c,2):
+    t | c-1, and t odd with c odd forces t <= (c-1)/2, so c*t <= c(c-1)/2.  The
+    single exception is c = 2, t = 1, char2 False -- reachable only as a FOREIGN
+    part of size 2 under p != 2 -- where the raw formula gives 2 against the one
+    pair a 2-element block actually holds.  Such a part is screened out by the
+    `pt.cap >= floor` test at every n >= 6, so no computed row is affected, but
+    an uncapped orb() is an over-estimate and over-estimates inflate B(n)."""
+    raw = c * t // 2 if (char2 or t % 2 == 0) else c * t
+    return min(raw, comb(c, 2))
 
 
 
@@ -146,7 +155,7 @@ class Part:
         self.c = c
         self.foreign = foreign
         self.size = F * c
-        char2 = (not foreign) and p == 2
+        char2 = (not foreign) and p == 2      # p == 0 sentinel => never char 2
         if foreign:
             # Lemma B': twist is the q-part of c-1, fixed once q is chosen
             self.cap = F * orb(c, qpart(c - 1, q), False)
@@ -233,11 +242,20 @@ def best_with_k(n, K, spf, seed=0):
     """max over configurations with at most K orbits; `seed` prunes"""
     best, wit = seed, None
     primes = [x for x in range(2, n + 1) if is_prime(x, spf)]
-    for p in primes:
+    # p = 0 is a SENTINEL meaning "trivial bottom layer": no c is a power of 0, so
+    # every part is foreign.  Such configurations are legitimate Oliver groups
+    # (Gamma_2 = 1, all translations in the cyclic layer, all twists in the top
+    # q-group) and the n = 1175 winner 641* + 277 + 257* sits next door to them.
+    # Without the sentinel they are reachable only via some OTHER prime p that
+    # survives the skip test below and happens to make every part foreign -- true
+    # in practice but an unproven coverage argument under a completeness claim.
+    for p in [0] + primes:
         # a p-characteristic part needs some power of p that is large enough:
         # F*C(c,2) > best with F*c <= n forces c > 2*best/n + 1
         cmin = 2 * best // n + 1 if best else 2
-        if p < cmin:
+        if p == 0:
+            pass                                      # sentinel: never skipped
+        elif p < cmin:
             v = p
             while v < cmin:
                 v *= p
@@ -282,7 +300,16 @@ def best_with_k(n, K, spf, seed=0):
 
 
 def mu_bound(n, spf, kmax=12, verbose=False):
-    """self-certifying iteration of Part F"""
+    """self-certifying iteration of Part F.
+
+    Returns (B, witness, K, certified) where K is the CERTIFICATION LEVEL -- the
+    first K at which 1/sqrt(delta_K) <= K, so that Prop. F.1 rules out any
+    configuration with more than K parts.  K is NOT the number of parts in the
+    winning configuration; it is one more than the bound it certifies, and the
+    winner typically has far fewer.  Read the part count off the witness (the
+    `parts` column) instead.  Conflating the two overstates how close the search
+    runs to the Prop. F.1 ceiling: to n = 1764 the certification level reaches 5
+    while no winner anywhere uses more than 3 parts against a permitted 4."""
     N2 = comb(n, 2)
     best, wit, cert = seed_value(n, spf), None, False
     for K in range(1, kmax + 1):
@@ -324,7 +351,7 @@ def show(w):
     p, q, ps = w
     body = " + ".join(f"{F}x{c}{'*' if fg else ''}" for F, c, fg in ps)
     legend = "   (* foreign)" if any(fg for _, _, fg in ps) else ""
-    return f"p={p} q={q}: {body}{legend}"
+    return f"p={p if p else '-'} q={q}: {body}{legend}"
 
 
 # ---------------------------------------------------------------- main
@@ -349,14 +376,18 @@ if __name__ == "__main__":
     a = ap.parse_args()
     globals()['SAFE'] = not a.refined
 
-    HEADER = "n,C(n2),mu_bound,density,orbits_K,certified,fallback,witness"
+    HEADER = ("n,C(n2),mu_bound,density,parts,certified_K,partcap,"
+              "certified,fallback,witness")
 
     if a.n:
         spf = sieve_spf(a.n + 1)
         print(f"n = {a.n},  C(n,2) = {comb(a.n,2)}")
         b, w, K, cert = mu_bound(a.n, spf, verbose=True)
-        print(f"  B(n) = {b}   density {b/comb(a.n,2):.4f}   "
+        d = b / comb(a.n, 2)
+        print(f"  B(n) = {b}   density {d:.4f}   "
               f"certified at K={K}: {cert}")
+        print(f"  parts used {len(w[2]) if w else 0}, "
+              f"Prop. F.1 permits at most {int(1.0/d**0.5) if d else 0}")
         print(f"  witness  {show(w)}")
         sys.exit()
 
@@ -375,9 +406,16 @@ if __name__ == "__main__":
                     f"    {first}\n"
                     f"but this version writes\n"
                     f"    {HEADER}\n"
-                    f"The schema has changed (a 'fallback' column was added, and "
-                    f"rows now depend on the safe/refined mode).\n"
-                    f"Use a fresh --out file, or delete the old one.")
+                    f"The schema has changed: 'orbits_K' was renamed to "
+                    f"'certified_K' because it is the CERTIFICATION LEVEL, not "
+                    f"the part count, and separate 'parts' and 'partcap' columns "
+                    f"were added so the two can no longer be confused.\n"
+                    f"The ROW CONTENTS of the old file are unaffected -- no value "
+                    f"of B(n) changed -- and both new columns are derivable from "
+                    f"data already present, so migrate rather than recompute:\n"
+                    f"    python3 migrate_table.py {a.out} {a.out}.v2\n"
+                    f"then pass the migrated file as --out; it will resume from "
+                    f"where the old one stopped.")
             for row in csv.DictReader(fh, fieldnames=HEADER.split(",")):
                 try:
                     done.add(int(row["n"]))
@@ -476,9 +514,11 @@ if __name__ == "__main__":
               else:
                   short += 1; note = f"  table SHORT at {lo} ({lo/b:.3f})"
                   worst.append((n, lo, b, lo / b, show(w)))
+          nparts = len(w[2]) if w else 0
+          partcap = int(1.0 / dens ** 0.5) if dens > 0 else 0
           if fh:
-              fh.write(f'{n},{comb(n,2)},{b},{dens:.6f},{K},{int(cert)},'
-                       f'{int(fb)},"{show(w)}"\n')
+              fh.write(f'{n},{comb(n,2)},{b},{dens:.6f},{nparts},{K},{partcap},'
+                       f'{int(cert)},{int(fb)},"{show(w)}"\n')
               fh.flush()
           if not a.quiet:
               rate = sum(recent) / len(recent)          # recent mean, not lifetime
@@ -487,7 +527,8 @@ if __name__ == "__main__":
               eta_s = (f"{eta:.0f}s" if eta < 90 else
                        f"{eta/60:.0f}m" if eta < 5400 else f"{eta/3600:.1f}h")
               print(f"[{idx}/{len(todo)}] {time.strftime('%H:%M:%S')} "
-                    f"n={n:<6} B={b:<10} d={dens:.4f} K={K} "
+                    f"n={n:<6} B={b:<10} d={dens:.4f} "
+                    f"parts={nparts}/{partcap} certK={K} "
                     f"{'cert' if cert else 'UNCERT'}{' fb' if fb else ''} "
                     f"{dt:6.2f}s  (avg {rate:5.2f}s, eta {eta_s}){note}")
           ndone += 1

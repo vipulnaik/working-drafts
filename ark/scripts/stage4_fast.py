@@ -21,6 +21,7 @@ Requires oliver_mu.py, ark_intersect.py, smith.py alongside (for unpickling
 and fp_acyclic), same as consume_gap.py.
 """
 import sys, os, pickle, time, argparse
+from math import gcd
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from smith import fp_acyclic   # also triggers its (quick) self-tests
@@ -71,13 +72,32 @@ def log(msg):
     print(line, flush=True); LOG.write(line + '\n'); LOG.flush()
 
 # ---- per-group precomputation -------------------------------------------
+def parse_q(tag):
+    """Top-prime modulus from a group tag.
+
+    Tags: 'P<p>' a p-group (Smith condition, no q); '0' trivial top (chi = 1
+    EXACTLY, returned as None); otherwise a '+'-separated list of every usable
+    top prime, e.g. '2+3'.  A group admitting chains with top primes q1 and q2
+    forces chi = 1 modulo BOTH, hence modulo lcm(q1, q2) -- strictly stronger
+    than either alone, and the strengthening Appendix B / Part G.0 flags as
+    available and unused.  Plain single-prime tags from older groups_out.txt
+    files parse identically to before, so this is backward compatible."""
+    if tag.startswith('P'):
+        return None
+    if tag == '0':
+        return None                     # chi = 1 exactly; handled by q is None
+    qs = [int(v) for v in tag.split('+') if v]
+    m = 1
+    for q in qs:
+        m = m * q // gcd(m, q)
+    return m
+
 oliver = [g for g in groups if not g['tag'].startswith('P')]
 psub   = [g for g in groups if g['tag'].startswith('P')]
 ALLG = oliver + psub
 for gi, g in enumerate(ALLG):
     g['classes'] = sorted(set(g['uc'].values()))
-    g['q'] = (None if g['tag'] == '0' else int(g['tag'])) \
-             if not g['tag'].startswith('P') else None
+    g['q'] = parse_q(g['tag'])
     g['p'] = int(g['tag'][1:]) if g['tag'].startswith('P') else None
 # class -> list of group indices whose lattice contains it
 touch = [[] for _ in range(V)]
@@ -232,9 +252,18 @@ def dfs(k):
     maxdepth[0] = max(maxdepth[0], k)
     if k == len(unknowns):
         # belt and braces: verify EVERY group at the leaf (memoized, cheap)
-        if not all(group_ok(gi, x) for gi in range(len(ALLG))):
-            log("WARNING: leaf reached with failing group -- bookkeeping bug")
-            return
+        bad = [gi for gi in range(len(ALLG)) if not group_ok(gi, x)]
+        if bad:
+            # HARD ABORT, not a warning.  A leaf reached with a failing group means
+            # pend/undo bookkeeping has desynchronised -- the exact signature of
+            # the false-SAT bug this solver was rewritten to fix.  Warning-and-
+            # continue degrades that into a silent undercount of solutions, which
+            # is indistinguishable from a correct run.
+            log(f"FATAL: leaf reached with {len(bad)} failing group(s): "
+                + ", ".join(ALLG[gi]['key'] for gi in bad[:5]))
+            raise AssertionError(
+                "bookkeeping bug: leaf violates group conditions; "
+                "no SAT/UNSAT verdict from this run may be trusted")
         sols[0] += 1
         for i in range(V): seen[i].add(x[i])
         if sols[0] == 1:

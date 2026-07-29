@@ -86,11 +86,26 @@ end;;
 # and N/O_p(N) cyclic for some prime p (or N trivial).  Returns:
 #   fail  if not Oliver
 #   0     if achievable with trivial top layer (chi = 1 exactly)
-#   q     the smallest usable top prime otherwise
+#   otherwise the SORTED SET of usable top primes.
+#
+# Two notes on why this is correct and why it now returns a set.
+#
+# Taking Gamma_2 = PCore(N, p) is without loss of generality: any normal
+# p-subgroup of N with cyclic quotient lies inside O_p(N), and N/O_p(N) is then a
+# quotient of a cyclic group, hence cyclic.  Normality in G is automatic rather
+# than assumed, since O_p(N) is characteristic in N and N is normal in G.
+#
+# This previously returned only the SMALLEST usable q, which is the WEAKEST
+# condition: chi = 1 mod 5 is strictly stronger than chi = 1 mod 2.  A group
+# admitting chains with top primes q1 and q2 forces the congruence modulo both,
+# hence modulo Lcm(q1, q2).  Returning the full set lets the consumer enforce the
+# lcm -- the gain that Appendix B / Part G.0 of the proof document identifies as
+# available and unused.  Trivial top is still preferred and short-circuits, since
+# chi = 1 exactly implies chi = 1 mod q for every q.
 IsOliverTop := function(G)
   local best, N, Q, q, p, ok;
   if Size(G) = 1 then return 0; fi;
-  best := fail;
+  best := [];
   for N in NormalSubgroups(G) do
     # bottom+middle check on N
     ok := Size(N) = 1;
@@ -106,9 +121,10 @@ IsOliverTop := function(G)
     Q := FactorGroup(G, N);
     if IsPGroup(Q) then
       q := PrimePGroup(Q);
-      if best = fail or q < best then best := q; fi;
+      AddSet(best, q);
     fi;
   od;
+  if Length(best) = 0 then return fail; fi;
   return best;
 end;;
 
@@ -128,7 +144,15 @@ EmitGroup := function(key, desc, G)
       AppendTo(DONEFILE, key, "\n"); DONE.(key) := true;
       return;                                # not Oliver: skip
     fi;
-    tag := String(oq);
+    if oq = 0 then
+      tag := "0";                            # trivial top: chi = 1 exactly
+    else
+      # ALL usable top primes, "+"-separated (e.g. "2+3").  A consumer that only
+      # understands a single prime should read the FIRST field and is then exactly
+      # as strong as the old output; one that understands the list should enforce
+      # chi = 1 mod Lcm(oq).
+      tag := JoinStringsWithSeparator(List(oq, String), "+");
+    fi;
   fi;
   AppendTo(OUTFILE, key, "|", desc, "|", tag, "|",
            JoinStringsWithSeparator(List(om.map, String), ","), "\n");

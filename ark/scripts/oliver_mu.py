@@ -347,9 +347,29 @@ def candidate_groups(n, max_middle=3):
                 # but middle translations must be coprime to each other: distinct primes ok;
                 # d chosen below must be coprime to all mids.
                 dcands = sorted(divisors(blocksize - 1), reverse=True)
-                # rotation only when k is prime and rotating all k blocks
+                # DO NOT "fix" the two restrictions below in isolation.  Both are
+                # forced by TemplateGroup's own chain model, which places the block
+                # rotation in the CYCLIC MIDDLE layer (see its docstring: "middle
+                # cyclic = <diagonal twist> x prod Z_rj x <rotation Z_s> -- cyclic
+                # iff d, r_1..r_t, s pairwise coprime") and additionally requires
+                # k == s and s prime.  Theorem 2.4 says the rotation belongs in the
+                # TOP q-group instead, whence any d | blocksize-1 is admissible and
+                # k need only be a prime POWER -- so the template misses
+                # mu(10) = 20 (k=2, d=10) and mu(12) = 18 (k=4).  That is the bug
+                # recorded for mu_fast.py in notes section 2.4.
+                #
+                # Repairing it HERE alone is worse than leaving it: relaxing the
+                # filter merely builds groups that TemplateGroup then marks invalid,
+                # and the `break` below silently discards the smaller d that used to
+                # work (measured: n = 22 drops from 110 to 55).  The real fix is to
+                # move the rotation into the top layer inside TemplateGroup and
+                # update its Oliver check and desc_parts accordingly -- which also
+                # changes what top_prime() reads off.  Left undone deliberately;
+                # see pending-checks.md item B7.  The GAP path (ark_gap.g) has no
+                # such restriction and supersedes this enumerator.
                 s_options = [1] + ([k] if (k > 1 and is_prime(k)) else [])
                 for s in s_options:
+                    got = False
                     for d in dcands:
                         if any(gcd(d, r) != 1 for r in mids):
                             continue
@@ -373,7 +393,15 @@ def candidate_groups(n, max_middle=3):
                             g = TemplateGroup(n, p=p, a=a, k=k, d=d, s=s, middle=tuple(middle))
                             if g.valid:
                                 results.append(g)
-                        break  # only the largest valid d (smaller d only shrinks orbitals)
+                                got = True
+                        # Break only once a d has actually produced a VALID group.
+                        # The old unconditional break assumed the first d clearing
+                        # the gcd filters would build successfully; when it does
+                        # not, every smaller d is lost with it.  Silent, and it
+                        # cost n = 22 a factor of two the moment the filter above
+                        # was relaxed.
+                        if got:
+                            break  # largest valid d; smaller d only shrinks orbitals
     # Case B: no bottom layer -- pick one middle block to serve as bottom instead:
     # i.e. one prime block r0 with FULL twist r0-1 (AGL(1,r0)), rest q-twisted.
     for mids_all in middle_choices(n, max_middle + 1):

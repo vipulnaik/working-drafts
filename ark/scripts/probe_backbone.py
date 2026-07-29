@@ -26,6 +26,7 @@ Needs the ckpt_*.pkl files and oliver_mu.py / ark_intersect.py / smith.py
 alongside (same directory), like stage4_fast.py.
 """
 import sys, os, pickle, time, argparse, csv
+from math import gcd
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from smith import fp_acyclic
@@ -53,13 +54,32 @@ def log(m):
     print(line, flush=True)
     with open('probe_backbone.log', 'a') as f: f.write(line + '\n')
 
+def parse_q(tag):
+    """Top-prime modulus from a group tag.
+
+    Tags: 'P<p>' a p-group (Smith condition, no q); '0' trivial top (chi = 1
+    EXACTLY, returned as None); otherwise a '+'-separated list of every usable
+    top prime, e.g. '2+3'.  A group admitting chains with top primes q1 and q2
+    forces chi = 1 modulo BOTH, hence modulo lcm(q1, q2) -- strictly stronger
+    than either alone, and the strengthening Appendix B / Part G.0 flags as
+    available and unused.  Plain single-prime tags from older groups_out.txt
+    files parse identically to before, so this is backward compatible."""
+    if tag.startswith('P'):
+        return None
+    if tag == '0':
+        return None                     # chi = 1 exactly; handled by q is None
+    qs = [int(v) for v in tag.split('+') if v]
+    m = 1
+    for q in qs:
+        m = m * q // gcd(m, q)
+    return m
+
 oliver = [g for g in groups if not g['tag'].startswith('P')]
 psub   = [g for g in groups if g['tag'].startswith('P')]
 ALLG = oliver + psub
 for g in ALLG:
     g['classes'] = sorted(set(g['uc'].values()))
-    g['q'] = (None if g['tag'] == '0' else int(g['tag'])) \
-             if not g['tag'].startswith('P') else None
+    g['q'] = parse_q(g['tag'])
     g['p'] = int(g['tag'][1:]) if g['tag'].startswith('P') else None
 touch = [[] for _ in range(V)]
 for gi, g in enumerate(ALLG):
@@ -239,5 +259,62 @@ for c in targets:
         log(f"class {c} (e={edges[c]}) pinned {v}: {res} ({time.time()-t0:.0f}s)")
         if v == 0 and res == 'UNSAT': forced_in.append(c)
         if v == 1 and res == 'UNSAT': forced_out.append(c)
+# Summarise the WHOLE record, including the CAP tail.  A class with a CAP probe is
+# NOT known to be free -- free requires both probes SAT -- and reporting only the
+# IN/OUT lists (as section 8.9 did) hides an inconclusive remainder that at n = 10
+# ran to 54 of 817 probes, concentrated at 12-36 edges, i.e. straight through the
+# free middle band whose freeness sections 8.6 and 8.9' reason from.
+res = {}
+for r in csv.reader(open('probe_results.csv')):
+    if r and r[0] != 'class':
+        res.setdefault(int(r[0]), {})[int(r[1])] = r[2]
+def status(d):
+    if 'CAP' in d.values(): return 'CAP'
+    if len(d) < 2: return 'partial'
+    if d[0] == 'UNSAT' and d[1] == 'UNSAT': return 'CONTRADICTORY'
+    if d[0] == 'UNSAT': return 'IN'
+    if d[1] == 'UNSAT': return 'OUT'
+    return 'free'
+tally = {}
+for c, d in res.items(): tally[status(d)] = tally.get(status(d), 0) + 1
 log(f"probing done. forced IN: {forced_in}  forced OUT: {forced_out}")
+log(f"record over {len(res)} classes probed at all: " +
+    ", ".join(f"{k}={v}" for k, v in sorted(tally.items())))
+if tally.get('CAP'):
+    caps = sorted(c for c, d in res.items() if status(d) == 'CAP')
+    log(f"INCONCLUSIVE at this node budget ({args.nodecap}): {len(caps)} classes, "
+        f"edges {sorted(edges[c] for c in caps)}")
+    log("  these are NOT free; rerun them with a larger --nodecap before quoting "
+        "any free-band conclusion")
+if tally.get('CONTRADICTORY'):
+    log("*** both pinnings UNSAT on some class: the constraint system is "
+        "inconsistent, which would mean UNSAT outright -- investigate ***")
+# Involution cross-check (section 8.9): x*[c] = 1 - x[complement of c] predicts
+# that forced-IN and forced-OUT are exchanged by complementation.  Checkable only
+# with the catalog, so it is done here rather than left to a manual edge-count
+# argument.
+try:
+    import networkx as _nx
+    comp_of = {}
+    for i in range(V):
+        comp_of[i] = cat.classify(set(_nx.complement(cat.reps[i]).edges()))
+    assert len(cat.reps) == V, "catalog grew during complement lookup"
+    viol, unpr = [], []
+    for c, d in res.items():
+        st = status(d); cc = comp_of[c]
+        if st not in ('IN', 'OUT'): continue
+        want = 'OUT' if st == 'IN' else 'IN'
+        if cc not in res: unpr.append((c, st, cc)); continue
+        got = status(res[cc])
+        if got != want and got != 'CAP': viol.append((c, st, cc, got, want))
+    log(f"involution check: {len(viol)} violations, {len(unpr)} forced classes "
+        f"whose complement is unprobed")
+    for c, st, cc, got, want in viol[:10]:
+        log(f"  *** class {c} is {st} but its complement {cc} is {got} "
+            f"(theorem requires {want}) ***")
+    for c, st, cc in unpr[:10]:
+        log(f"  predicted: class {cc} should be forced "
+            f"{'OUT' if st == 'IN' else 'IN'} (complement of {c}, {st})")
+except Exception as e:
+    log(f"involution check skipped: {e}")
 log("full record: probe_results.csv")
