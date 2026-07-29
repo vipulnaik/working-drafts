@@ -1552,3 +1552,31 @@ Open items renumbered and reduced to four, only the genuinely open remaining:
      this never happens at an optimum (0 of 1269), but no argument excludes it.
   3. Independent confirmation (n = 10 and 12 done and tight; more would help)
   4. Extending the numerical range
+
+--- RUN 68: notes and proof doc brought up to date; recommendation to escalate ---
+Range updated to n = 1736 (VN's continuing run; refined bound still holds).
+NOTES UPDATED:
+  * 2.6 now states that the bound is not merely valid but ATTAINED -- every admitted
+    configuration is realised by an explicit group with forced orbital sizes -- so
+    mu(n) = B(n), with the single caveat that where Lemma C strictly reduces a
+    p-twist the unconditional scoring over-estimates what the construction reaches
+    (never at a winner in range).
+  * "Consequence for (*)" rewritten: what is left of (*) is cost (minimality) plus
+    one structural gap inherited from the Singer step, bearing on tightness at
+    configurations that do not win.
+  * Open Problem 9 rewritten as "two residual questions": minimality, with the three
+    empirical narrowings named; and the partial-capacity stabiliser question stated
+    precisely.
+  * Overview bullet now states mu(n) = B(n) throughout the validated range.
+PROOF DOC: item 2's target sharpened to a single question -- for a primitive affine
+orbit F_c : H with H cyclic-by-q and cyclic-layer image of order d, is the minimum
++/- H-orbit on F_c minus 0 at most 2d?  Recorded the partial evidence (exotic groups
+are small relative to the Singer cycle, so their orbits are shorter; extraspecial
+q^{1+2r} on F_p^{q^r} has all orbits <= q^{1+2r}, negligible against c-1 for large
+p) and the unresolved corner (small c with a large q-part in |H|).
+RECOMMENDATION recorded for VN: escalate.  Both remaining items are research
+questions rather than bookkeeping; the highest-value action is an adversarial read
+of Lemma B', Lemma C and G.2, and my own error rate in exactly that kind of
+reasoning this session (Singer step false; diagonal cross class omitted, briefly
+yielding 53 phantom improvements; Z/c used for F_c giving 6 instead of 18) argues
+for a different reader.

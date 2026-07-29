@@ -2,7 +2,7 @@
 
 *Companion to `orbital-evasiveness-notes.md` §2. Establishes an upper bound on μ(n) by classifying the possible orbit-and-twist structures of an Oliver group and enumerating them. Implemented in `mu_enumerate.py`.*
 
-**Status.** Parts A–D and F–H are proved. The enumeration of Part E is complete and finite but not known to be minimal. The bound computed by the implementation is **unconditional**: its one hypothesis-dependent ingredient is never invoked on an optimal configuration (Part B). Numerical validation currently reaches n = 1540. Open items are collected at the end.
+**Status.** Parts A–D and F–H are proved. The enumeration of Part E is complete and finite but not known to be minimal. The bound computed by the implementation is **unconditional**: its one hypothesis-dependent ingredient is never invoked on an optimal configuration (Part B). Numerical validation currently reaches n = 1736. Open items are collected at the end.
 
 **On the word "proved", and on what the numerical checks are for.** The statuses above mean *an argument has been written down that appears complete*, not *the argument has been verified by anyone else*. The distinction is not academic here: the ΓL(1) step of Part B was asserted as a plausible sketch and is false, which was established only by deliberately looking for a counterexample. Lemma B′'s socle argument, Lemma C's conjugation argument and the tower absorption of G.2 are of comparable intricacy and have had no independent scrutiny.
 
@@ -242,7 +242,7 @@ with the self-certifying iteration of Part F guaranteeing that the correct K is 
 
 ## Part I. Measurements
 
-From `mu_table_safe.csv` — 1,269 values, n = 6 … 1540, unconditional mode:
+From `mu_table_safe.csv` — n = 6 … 1736, unconditional mode:
 
 - every value certified; no internal inconsistency; **no row violates the Proposition F.1 stopping rule**;
 - orbit counts K ∈ {2: 261, 3: 738, 4: 254, 5: 16}. The weakest density is 0.0418 and 1/√0.0418 = 4.89, so **K = 5 is exactly the predicted ceiling**, reached by exactly the hardest rows — the stopping criterion is tight, not merely valid;
@@ -263,7 +263,11 @@ Fermat primes achieve this at q = 2, safe primes with t = q odd and 2t = r−1, 
 
 1. **Minimality of the enumeration.** Finiteness and completeness are proved; a domination argument reducing the permitted configurations to a shortest sufficient list is not. This costs running time only. The winning configurations are empirically far narrower than the permitted space — across the computed range none uses more than two p-characteristic classes, more than two foreign primes, or more than one fused class, against a permitted orbit count of up to 1/√δ ≈ 5. Proving any of those three would shorten the search substantially.
 
-2. **The ΓL(1) conclusion for partial capacity.** Part B's Singer step is false, so the refined intra-orbital formula for a p-characteristic part is justified only when the point stabiliser is of ΓL(1) type. Huppert's classification of solvable 2-transitive groups supplies that for *full*-capacity orbits outside a finite list of exceptional degrees, but full capacity yields C(c,2) for any stabiliser and so needs no such input. The open case is partial capacity, where no classification is available.
+2. **The ΓL(1) conclusion for partial capacity.** Part B's Singer step is false, so the refined intra-orbital formula for a p-characteristic part is justified only when the point stabiliser is of ΓL(1) type. Huppert's classification of solvable 2-transitive groups supplies that for *full*-capacity orbits outside a finite list of exceptional degrees, but full capacity yields C(c,2) for any stabiliser and so needs no such input. The open case is partial capacity, and it reduces to a single precise question:
+
+   > For a primitive affine orbit 𝔽_c ⋊ H with H cyclic-by-q and the image of H in the cyclic layer of order d, is the minimum ±H-orbit on 𝔽_c∖{0} at most 2d — that is, no larger than a coset ±δC of the cyclic-layer image itself?
+
+   An affirmative answer makes the refined scoring valid in general, hence attainment unconditional. Partial evidence: in the exotic cases the group is small relative to the Singer cycle, so its orbits are shorter — an extraspecial q^{1+2r} acting on 𝔽_p^{q^r} has every orbit of size at most q^{1+2r}, negligible against c−1 once p is large. The unresolved corner is small c with a large q-part in |H|.
 
    This has one live consequence, and it is the sole part of realisability that is not proved. Where Lemma C strictly reduces a p-characteristic twist, the unconditional scoring assigns F·C(c,2) while the construction of Part E reaches only F·orb(c, d); at such a configuration the bound is valid but **not attained**. Whether that can happen at an optimum is an empirical question so far: across 1,269 computed values the fallback is never invoked on a winner, so μ(n) = B(n) throughout, but no argument rules it out at larger n.
 
