@@ -1,6 +1,6 @@
 # Toward exhaustiveness of the configuration enumeration
 
-*Working proof document. Companion to `orbital-evasiveness-notes.md` §2.6 and §3. Each part carries an explicit status: **PROVED**, **SKETCH** (argument complete but unchecked), or **OPEN**. The goal is the statement*
+*Working proof document. Companion to `orbital-evasiveness-notes.md` §2.6 and §3. Each part carries an explicit status: **PROVED**, **DISPROVED**, or **OPEN**. Current position: Parts A, C, D, F, G, H are proved; Part B is proved except that its Singer step is **false**, which turns out not to matter (the refined formula it would justify coincides with the unconditional cap on every optimum); Part E is complete and finite but not minimal. The computed bound B(n) is therefore **unconditional**, and what is not established is only its minimality as an enumeration. The goal is the statement*
 
 > **Target.** For every Oliver group Γ of degree n, m\*(Γ) ≤ B(n), where B(n) is the maximum over the enumerated configurations.
 
@@ -16,7 +16,7 @@ Let Γ have vertex orbits O₁, …, O_k with |O_i| = s_i. A pair inside O_i has
 
 where M_i is the minimum intra-orbital of the transitive group Γ|_{O_i}. Both terms are needed: the first is the intra-orbit content, the second bounds every cross class by the total number of pairs available to it. Parts of size 1 are permitted but contribute a cross bound of s_j, so any configuration containing a fixed point has m\* ≤ max_j s_j ≤ n−1 and is dominated except at tiny n.
 
-## Part B. Per-orbit classification — **PROVED**; Singer step **DISPROVED**, consequences bounded
+## Part B. Per-orbit classification — **PROVED**; Singer step **DISPROVED** but inert
 
 By Lemma A, Γ|_{O} inherits the chain with the same (p, q). Since Oliver's condition forces solvability, Γ|_O is solvable and transitive, so exactly one of:
 
@@ -37,7 +37,13 @@ The general obstruction is Clifford's theorem: V restricted to C is semisimple w
 
 *How much this can bite, and why it has not.* The under-estimate only matters when the p-characteristic part is the *binding* orbital **and** Lemma C has cut d down **and** a non-ΓL(1) irreducible cyclic-by-q group exists at that degree. Continuing the counterexample: a block of 343 carrying E has all its ±E-orbits of size at most 54, so its minimum orbital is at most 343·54/2 = 9,261, whereas the ΓL(1) option with the full Singer twist gives C(343,2) = 58,653. The exotic group is worth roughly a sixth of the ordinary one, and is only competitive when Lemma C has already destroyed most of the Singer twist. In the natural test case — 343 together with a foreign prime 19, so that 19 | 342 forces d down to 18 — the foreign block's own orbital (19·9 = 171) binds long before either p-block value matters.
 
-**Status.** The coarse bound is proved; the refined p-part formula is proved *for ΓL(1)-type point stabilisers* and is empirically safe elsewhere (no violation in 1,066 values to n = 1306, and the independent n = 10 GAP battery attains the bound exactly). A conservative repair, if one wants unconditional validity rather than evidence, is to use cap(c) = C(c,2) for any p-characteristic part at which Lemma C strictly reduces the twist — costing tightness at those n and nothing elsewhere.
+**Status — the gap is inert, and the bound is unconditional.** The conservative repair is to give a p-characteristic part the capacity F·C(c,2) — valid for *any* point stabiliser — whenever Lemma C strictly reduces its twist. This is now the default in `mu_enumerate.py` (`--refined` restores the ΓL(1)-assuming formula). It costs nothing:
+
+> Across all 1,066 computed values to n = 1306, **Lemma C strictly reduces the twist of a p-characteristic part in 0 of the 1,163 such parts appearing in winning configurations.** Equivalently, an optimal configuration never pairs a p-block with a foreign prime dividing its twist order — the optimiser simply chooses a foreign prime elsewhere.
+
+That makes the two bounds identical, for a reason worth stating: when Lemma C does not bite, d = c−1 and **orb(c, c−1) = C(c,2)** exactly (in characteristic 2 because −1 = 1, and in odd characteristic because c−1 is even). So on every optimum the refined formula already *equals* the unconditional cap, and the failure of the Singer step cannot affect the computed value. Confirmed directly: run over n ≤ 260 in both modes, **0 of 188 rows differ**.
+
+So the correct summary is that the refined formula is only ever *refined* — strictly below C(c,2) — on configurations that lose anyway, and the computed bound B(n) is valid independently of what the point stabilisers look like. What remains genuinely unproved is the *conditional* statement that would be needed if one wanted the refined formula itself to be exact on a losing configuration; nothing in these notes depends on it.
 - Consequently the intra-orbitals are the classes ±δ·T for T the twist group, and the minimum intra-orbital is **orb(s, t) = s·t/2 if t is even or p₀ = 2, else s·t**, where t = |T|.
 - *Foreign characteristic (p₀ ≠ p).* Lemma B′: π_O(Γ₂) is a normal p-subgroup of a primitive group, hence trivial; π_O(Γ₁) is cyclic normal, so contains the socle, forcing a = 1; being cyclic it centralises the socle, so equals it; hence the entire twist lies in Γ/Γ₁, a q-group. **So s is prime and t is a power of q.**
 - *Own characteristic (p₀ = p).* t may be any divisor of s−1, realised by a subgroup of the Singer cycle inside the cyclic layer.
@@ -109,7 +115,7 @@ Two reductions do hold and are worth having:
 
 What does **not** reduce is parts of unequal size, and the choice of which prime sits at the bottom: both are genuinely distinct configurations, and the data shows both matter — 97 winners use two classes of different sizes, and the winning p ranges from 2 to 277 across the table.
 
-**Revised status of Part E.** The enumeration is **complete and finite** — every configuration permitted by Parts B–D is enumerated, within bounds proved in F and G — but **not minimal**, in that no argument yet prunes it to a shortest sufficient list. The remaining genuine gap is not here at all: it is the one identified in Part B, that the refined intra-orbital formula for p-characteristic parts is justified only for ΓL(1)-type point stabilisers, the Singer step having been disproved.
+**Revised status of Part E.** The enumeration is **complete and finite** — every configuration permitted by Parts B–D is enumerated, within bounds proved in F and G — but **not minimal**, in that no argument yet prunes it to a shortest sufficient list. The gap identified in Part B — the refined intra-orbital formula being justified only for ΓL(1)-type stabilisers — turns out to be inert: Lemma C never reduces a twist on an optimal configuration, so the refined formula coincides there with the unconditional cap F·C(c,2), and the computed bound does not depend on the Singer step at all.
 
 ## Part F. The search is bounded — **PROVED**
 

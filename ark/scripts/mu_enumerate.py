@@ -187,6 +187,16 @@ def parts_for(n, p, q, spf, floor):
 
 
 # ---------------------------------------------------------------- evaluation
+# When SAFE is set, a p-characteristic part whose twist Lemma C strictly reduces
+# is given the UNCONDITIONAL capacity F*C(c,2) instead of F*orb(c,d).  The refined
+# value assumes a Gamma-L(1)-type point stabiliser; the Singer step that would
+# justify that is false in general (Part B of enumeration-proof.md, extraspecial
+# counterexample), and exotic stabilisers can have larger orbits than the +/-dT
+# classes.  C(c,2) bounds ANY stabiliser, so SAFE mode is unconditional at the
+# cost of looseness exactly where Lemma C bites.
+SAFE = True     # default: unconditional.  See --refined to disable.
+
+
 def value(sel, p, spf):
     """exact m* of a chosen configuration (list of Part), applying Lemma C.
     Returns None if the configuration is inadmissible."""
@@ -202,7 +212,10 @@ def value(sel, p, spf):
         else:
             d = strip(t.c - 1, foreigns)             # Lemma C
             char2 = (p == 2)
-            terms.append(t.F * orb(t.c, d, char2))
+            if SAFE and d < t.c - 1:
+                terms.append(t.F * comb(t.c, 2))     # unconditional fallback
+            else:
+                terms.append(t.F * orb(t.c, d, char2))
         if t.cb is not None:
             terms.append(t.cb)
     for i in range(len(sel)):
@@ -304,7 +317,14 @@ if __name__ == "__main__":
                     "(different schema). Written with a header, appended to on "
                     "re-runs, and used to resume when --nmin is omitted.")
     ap.add_argument("--quiet", action="store_true", help="only the final summary")
+    ap.add_argument("--refined", action="store_true",
+                    help="assume Gamma-L(1)-type point stabilisers, using "
+                         "F*orb(c,d) for a p-characteristic part even where Lemma C "
+                         "reduces the twist.  Default is the UNCONDITIONAL bound, "
+                         "which uses F*C(c,2) there; the two agree on every optimum "
+                         "computed so far, so this flag changes nothing in practice.")
     a = ap.parse_args()
+    globals()['SAFE'] = not a.refined
 
     HEADER = "n,C(n2),mu_bound,density,orbits_K,certified,witness"
 

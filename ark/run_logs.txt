@@ -1231,3 +1231,23 @@ THE RESIDUAL GAP HAS MOVED TO PART B: the refined intra-orbital formula for
 p-characteristic parts is justified only for GammaL(1)-type point stabilisers,
 the Singer step having been disproved by the extraspecial counterexample.
 Part E header updated accordingly.
+
+--- RUN 54: CHECKPOINT 6 -- the Part B gap is INERT; bound is unconditional ---
+Implemented the conservative repair as a --safe mode, then MEASURED its cost:
+  n <= 260, both modes: 0 of 188 rows differ.
+DIAGNOSIS: across all 1066 values to n = 1306, Lemma C strictly reduces the twist
+of a p-characteristic part in 0 of the 1163 such parts appearing in WINNING
+configurations.  An optimal configuration never pairs a p-block with a foreign
+prime dividing its twist order -- the optimiser picks a different foreign prime.
+KEY IDENTITY: when Lemma C does not bite, d = c-1 and orb(c, c-1) = C(c,2)
+exactly (characteristic 2 because -1 = 1; odd characteristic because c-1 is even).
+So on every optimum the refined formula ALREADY EQUALS the unconditional cap, and
+the failure of the Singer step cannot affect the computed value.
+=> the refined formula is only ever strictly below C(c,2) on configurations that
+   lose anyway.  THE COMPUTED BOUND IS UNCONDITIONAL.
+mu_enumerate.py: the unconditional mode is now the DEFAULT; --refined restores the
+GammaL(1)-assuming formula and changes nothing in practice.
+Part B retitled "Singer step DISPROVED but inert"; front matter updated:
+Parts A, C, D, F, G, H proved; B proved modulo an inert false step; E complete and
+finite but not minimal.  What is unestablished is only the enumeration's
+MINIMALITY, not the validity of B(n).
