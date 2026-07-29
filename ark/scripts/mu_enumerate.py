@@ -34,6 +34,7 @@ Usage:
     python3 mu_enumerate.py --nmax 400 [--check mu_table_full.csv]
 """
 import argparse, csv, os, sys, time
+from collections import deque
 from math import comb, isqrt
 
 
@@ -430,9 +431,15 @@ if __name__ == "__main__":
     interrupted = False
 
     def summary():
+        el = time.time() - t0
+        el_s = (f"{el:.1f}s" if el < 90 else f"{el/60:.1f}m" if el < 5400 else f"{el/3600:.2f}h")
         print(f"\nn in [{nmin}, {a.nmax}]: computed {ndone} of {len(todo)}"
-              f"{' (INTERRUPTED)' if interrupted else ''} in {time.time()-t0:.1f}s"
+              f"{' (INTERRUPTED)' if interrupted else ''} in {el_s}"
               f" | exact {exact}, table-short {short}, violations {viol}")
+        if ndone:
+            print(f"timing         {el/ndone:.2f}s per value overall"
+                  + (f", {sum(recent)/len(recent):.2f}s over the last {len(recent)}"
+                     if recent else ""))
         if not a.refined:
             print(f"unconditional fallback invoked on the winner at {nfb} of {ndone} values"
                   + ("  -> the refined bound would be identical throughout" if nfb == 0
@@ -445,9 +452,13 @@ if __name__ == "__main__":
             print(f"   n={x[0]:<5} table {x[1]:>8} < bound {x[2]:>8} ({x[3]:.3f})  {x[4]}")
 
     lastn = None
+    recent = deque(maxlen=25)          # per-n times, for a rate that tracks growth
     try:
       for idx, n in enumerate(todo, 1):
+          t_n = time.time()
           b, w, K, cert = mu_bound(n, spf)
+          dt = time.time() - t_n
+          recent.append(dt)
           dens = b / comb(n, 2)
           fb = (not a.refined) and fallback_used(w, spf)
           nfb += int(fb)
@@ -466,8 +477,15 @@ if __name__ == "__main__":
                        f'{int(fb)},"{show(w)}"\n')
               fh.flush()
           if not a.quiet:
-              print(f"[{idx}/{len(todo)}] n={n:<6} B={b:<9} d={dens:.4f} K={K} "
-                    f"{'cert' if cert else 'UNCERT'}{' fb' if fb else ''}{note}")
+              rate = sum(recent) / len(recent)          # recent mean, not lifetime
+              left = len(todo) - idx
+              eta = left * rate
+              eta_s = (f"{eta:.0f}s" if eta < 90 else
+                       f"{eta/60:.0f}m" if eta < 5400 else f"{eta/3600:.1f}h")
+              print(f"[{idx}/{len(todo)}] {time.strftime('%H:%M:%S')} "
+                    f"n={n:<6} B={b:<10} d={dens:.4f} K={K} "
+                    f"{'cert' if cert else 'UNCERT'}{' fb' if fb else ''} "
+                    f"{dt:6.2f}s  (avg {rate:5.2f}s, eta {eta_s}){note}")
           ndone += 1
           lastn = n
     except KeyboardInterrupt:

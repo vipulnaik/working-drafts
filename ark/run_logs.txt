@@ -1327,3 +1327,25 @@ ADDED graceful interrupt: the per-n loop is wrapped so Ctrl-C prints
 "computed X of Y (INTERRUPTED)", the fallback count, the last completed n, and how
 to resume (re-run the same command when --out is in use, else --nmin lastn+1).
 Verified by sending SIGINT mid-run and by resuming afterwards.
+
+--- RUN 59: per-n timing, ETA, and a cost-scaling measurement ---
+Console log line now carries a wall-clock timestamp, the seconds for that n, a
+RECENT-WINDOW mean (last 25, so the rate tracks growth rather than being diluted
+by early cheap values), and an ETA:
+  [5/18] 09:01:26 n=505  B=25250  d=0.1984 K=3 cert   2.69s  (avg  1.84s, eta 24s)
+Close-out gains a "timing" line: overall seconds per value plus the recent mean.
+Elapsed times are formatted s / m / h.  CSV SCHEMA DELIBERATELY UNCHANGED so the
+existing mu_table_safe.csv stays resumable.
+COST SCALING MEASURED (same machine, quiet mode):
+   n ~ 300:   0.63 s per value
+   n ~ 600:   4.79 s per value
+   n ~ 900:  15.63 s per value
+   fit: cost per value ~ n^2.93
+PROJECTIONS from the current frontier n = 1540 (0.72 of n are non-prime-powers):
+   to n = 2000:   ~11 h
+   to n = 3000:   ~75 h
+   to n = 5000:  ~595 h
+So the practical ceiling for a single-threaded run is around n = 2000-2500.
+Note the exponent ~3 is empirical, not the Part H bound n^{O(1/sqrt delta)}: with
+delta roughly constant in this range the theoretical exponent is also constant,
+and ~n^3 is what the constant works out to here.
