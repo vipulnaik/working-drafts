@@ -969,3 +969,27 @@ two p-characteristic parts plus one foreign prime:
 9 shortfalls in [200,400], 0 in [6,200], 0 violations anywhere.
 Note n=357 uses c=125=5^3 -- the p-parts need not be prime, confirming the shape
 is "two p-POWER parts + one foreign prime" in general.
+
+--- RUN 42: mu_enumerate.py output handling fixed ---
+VN reported --out produced a headerless CSV and near-silent early output.
+FIXED:
+  * --out now writes a HEADER (n,C(n2),mu_bound,density,orbits_K,certified,
+    witness) when the file is new/empty; documented as a NEW file, distinct in
+    schema from mu_table_full.csv.
+  * AUTO-RESUME: if --out exists and --nmin is omitted, the file is read and the
+    run continues after its largest n, reporting how many rows were found.
+  * STARTUP BANNER: range; resume notice; how many values will be computed with
+    the first and last; how many skipped as prime powers and how many skipped as
+    already present; whether a --check table is in use.
+  * PER-n PROGRESS: "[i/total] n=.. B=.. d=.. K=.. cert  = table / table SHORT /
+    VIOLATION", flushed as it goes.  --quiet suppresses it.
+  * final line reports elapsed time as well as the tallies.
+BUG FOUND VIA THE CSV: the witness column read "-" everywhere.  Cause: the fast
+seed already attains the maximum, so the general search never strictly improves
+and never recorded a witness -- and the part pool filtered on cap > floor
+(strict), excluding the very configurations that tie.  Fixed by recording a
+witness on ties and relaxing the pool/pruning comparisons to non-strict.  No
+measurable slowdown: n <= 120 in 1.5s.
+Witness legend now printed only when a foreign part is present.
+REGRESSION CHECK [240,300]: 48 values in 23.1s, 44 exact, 4 table-short
+(247, 255, 273, 285), 0 violations -- unchanged from before the fixes.

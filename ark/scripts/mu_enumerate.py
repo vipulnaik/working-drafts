@@ -33,7 +33,7 @@ Usage:
     python3 mu_enumerate.py --n 273
     python3 mu_enumerate.py --nmax 400 [--check mu_table_full.csv]
 """
-import argparse, csv, sys
+import argparse, csv, os, sys, time
 from math import comb, isqrt
 
 
@@ -160,7 +160,7 @@ def parts_for(n, p, q, spf, floor):
     """all (F, c) parts with F a q-power, c a prime power, F*c <= n, and whose
     optimistic capacity exceeds `floor` (pruning bound of Part G.4)"""
     out = []
-    cmin = 2 * floor // n + 2 if floor else 2
+    cmin = 2 * floor // n + 1 if floor else 2
     c = max(2, cmin)
     while c <= n:
         pp = prime_power(c, spf)
@@ -176,7 +176,9 @@ def parts_for(n, p, q, spf, floor):
                     if foreign and F > 1:
                         break
                     pt = Part(F, c, foreign, q, p, spf)
-                    if pt.cap > floor and (pt.cb is None or pt.cb > floor):
+                    # non-strict: a configuration that merely TIES the current
+                    # best must still survive, so that a witness is recorded
+                    if pt.cap >= floor and (pt.cb is None or pt.cb >= floor):
                         out.append(pt)
                     F *= q
         c += 1
@@ -216,7 +218,7 @@ def best_with_k(n, K, spf, seed=0):
     for p in primes:
         # a p-characteristic part needs some power of p that is large enough:
         # F*C(c,2) > best with F*c <= n forces c > 2*best/n + 1
-        cmin = 2 * best // n + 2 if best else 2
+        cmin = 2 * best // n + 1 if best else 2
         if p < cmin:
             v = p
             while v < cmin:
@@ -238,7 +240,10 @@ def best_with_k(n, K, spf, seed=0):
                     if not sel:
                         return
                     v = value(sel, p, spf)
-                    if v is not None and v > best:
+                    # record a witness on a tie too: the fast seed may already
+                    # have reached the maximum, in which case nothing ever
+                    # strictly improves and the witness would stay empty
+                    if v is not None and (v > best or (wit is None and v == best)):
                         best = v
                         wit = (p, q, [(t.F, t.c, t.foreign) for t in sel])
                     return
@@ -248,9 +253,9 @@ def best_with_k(n, K, spf, seed=0):
                     t = pool[i]
                     if t.size > rem:
                         continue
-                    if t.cap <= best or (t.cb is not None and t.cb <= best):
+                    if t.cap < best or (t.cb is not None and t.cb < best):
                         continue
-                    if sel and min(u.size for u in sel) * t.size <= best:
+                    if sel and min(u.size for u in sel) * t.size < best:
                         continue
                     rec(i, rem - t.size, sel + [t])
 
@@ -264,7 +269,7 @@ def mu_bound(n, spf, kmax=12, verbose=False):
     best, wit, cert = seed_value(n, spf), None, False
     for K in range(1, kmax + 1):
         b, w = best_with_k(n, K, spf, seed=best)
-        if b > best:
+        if b > best or (wit is None and w is not None):
             best, wit = b, w
         delta = best / N2 if N2 else 0
         if verbose:
@@ -277,27 +282,34 @@ def mu_bound(n, spf, kmax=12, verbose=False):
 
 
 def show(w):
+    """render a configuration: F x c per orbit, * marking a foreign part"""
     if not w:
         return "-"
     p, q, ps = w
-    s = " + ".join(f"{F}x{c}{'*' if fg else ''}" for F, c, fg in ps)
-    return f"p={p} q={q}: {s}   (* = foreign)"
+    body = " + ".join(f"{F}x{c}{'*' if fg else ''}" for F, c, fg in ps)
+    legend = "   (* foreign)" if any(fg for _, _, fg in ps) else ""
+    return f"p={p} q={q}: {body}{legend}"
 
 
 # ---------------------------------------------------------------- main
 if __name__ == "__main__":
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--n", type=int)
-    ap.add_argument("--nmin", type=int, default=6,
-                    help="start of the range, so a run need not redo earlier n")
+    ap = argparse.ArgumentParser(
+        description="Enumerate Oliver-group configurations and bound mu(n).")
+    ap.add_argument("--n", type=int, help="single value of n, with a trace")
+    ap.add_argument("--nmin", type=int, help="start of range (default: 6, or "
+                    "resume after the last row of --out if that file exists)")
     ap.add_argument("--nmax", type=int)
-    ap.add_argument("--check")
-    ap.add_argument("--out", help="append n,B,density,K,certified,witness to this CSV")
+    ap.add_argument("--check", help="mu_table_full.csv, to compare against")
+    ap.add_argument("--out", help="results CSV; a NEW file, not mu_table_full.csv "
+                    "(different schema). Written with a header, appended to on "
+                    "re-runs, and used to resume when --nmin is omitted.")
+    ap.add_argument("--quiet", action="store_true", help="only the final summary")
     a = ap.parse_args()
-    top = a.n or a.nmax or 100
-    spf = sieve_spf(top + 1)
+
+    HEADER = "n,C(n2),mu_bound,density,orbits_K,certified,witness"
 
     if a.n:
+        spf = sieve_spf(a.n + 1)
         print(f"n = {a.n},  C(n,2) = {comb(a.n,2)}")
         b, w, K, cert = mu_bound(a.n, spf, verbose=True)
         print(f"  B(n) = {b}   density {b/comb(a.n,2):.4f}   "
@@ -305,31 +317,82 @@ if __name__ == "__main__":
         print(f"  witness  {show(w)}")
         sys.exit()
 
+    if not a.nmax:
+        ap.error("give --n or --nmax")
+
+    # ---- resume logic -------------------------------------------------
+    done = set()
+    resume_from = None
+    if a.out and os.path.exists(a.out) and os.path.getsize(a.out) > 0:
+        with open(a.out) as fh:
+            for row in csv.DictReader(fh):
+                try:
+                    done.add(int(row["n"]))
+                except (KeyError, ValueError):
+                    pass
+        if done:
+            resume_from = max(done) + 1
+    nmin = a.nmin if a.nmin is not None else (resume_from or 6)
+
+    spf = sieve_spf(a.nmax + 1)
+    todo, skipped_pp, skipped_done = [], 0, 0
+    for n in range(max(2, nmin), a.nmax + 1):
+        if prime_power(n, spf):
+            skipped_pp += 1
+        elif n in done:
+            skipped_done += 1
+        else:
+            todo.append(n)
+
+    print(f"range          n in [{nmin}, {a.nmax}]")
+    if resume_from and a.nmin is None:
+        print(f"resuming       {a.out} already holds {len(done)} rows "
+              f"(max n = {max(done)}); continuing from {resume_from}")
+    print(f"to compute     {len(todo)} values"
+          + (f"  ({todo[0]} … {todo[-1]})" if todo else ""))
+    print(f"skipped        {skipped_pp} prime powers (mu = C(n,2) exactly)"
+          + (f", {skipped_done} already in {a.out}" if skipped_done else ""))
     tbl = {}
     if a.check:
         for r in csv.DictReader(open(a.check)):
             tbl[int(r["n"])] = (int(r["mu_lower"]), int(r["prime_power"]))
+        print(f"comparing      against {a.check}")
+    if not todo:
+        print("nothing to do"); sys.exit()
+    print()
+
+    fh = None
+    if a.out:
+        fresh = (not os.path.exists(a.out)) or os.path.getsize(a.out) == 0
+        fh = open(a.out, "a")
+        if fresh:
+            fh.write(HEADER + "\n"); fh.flush()
+
     viol = exact = short = 0
     worst = []
-    fh = open(a.out, "a") if a.out else None
-    for n in range(max(2, a.nmin), a.nmax + 1):
-        if prime_power(n, spf):
-            continue
+    t0 = time.time()
+    for idx, n in enumerate(todo, 1):
         b, w, K, cert = mu_bound(n, spf)
-        if fh:
-            fh.write(f'{n},{b},{b/comb(n,2):.6f},{K},{int(cert)},"{show(w)}"\n')
-            fh.flush()
+        dens = b / comb(n, 2)
+        note = ""
         if n in tbl and not tbl[n][1]:
             lo = tbl[n][0]
             if lo > b:
-                viol += 1
-                print(f"  VIOLATION n={n}: table {lo} > bound {b}")
+                viol += 1; note = f"  VIOLATION: table {lo} > bound {b}"
             elif lo == b:
-                exact += 1
+                exact += 1; note = "  = table"
             else:
-                short += 1
+                short += 1; note = f"  table SHORT at {lo} ({lo/b:.3f})"
                 worst.append((n, lo, b, lo / b, show(w)))
-    if fh: fh.close()
-    print(f"\nn in [{a.nmin}, {a.nmax}]: exact {exact}, table-short {short}, violations {viol}")
+        if fh:
+            fh.write(f'{n},{comb(n,2)},{b},{dens:.6f},{K},{int(cert)},"{show(w)}"\n')
+            fh.flush()
+        if not a.quiet:
+            print(f"[{idx}/{len(todo)}] n={n:<6} B={b:<9} d={dens:.4f} K={K} "
+                  f"{'cert' if cert else 'UNCERT'}{note}")
+    if fh:
+        fh.close()
+    print(f"\nn in [{nmin}, {a.nmax}]: computed {len(todo)} in {time.time()-t0:.1f}s"
+          f" | exact {exact}, table-short {short}, violations {viol}")
     for x in sorted(worst, key=lambda t: t[3])[:10]:
         print(f"   n={x[0]:<5} table {x[1]:>8} < bound {x[2]:>8} ({x[3]:.3f})  {x[4]}")
