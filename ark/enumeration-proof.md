@@ -4,6 +4,16 @@
 
 **Status.** Parts A–D and F–H are proved. The enumeration of Part E is complete and finite but not known to be minimal. The bound computed by the implementation is **unconditional**: its one hypothesis-dependent ingredient is never invoked on an optimal configuration (Part B). Numerical validation currently reaches n = 1540. Open items are collected at the end.
 
+**On the word "proved", and on what the numerical checks are for.** The statuses above mean *an argument has been written down that appears complete*, not *the argument has been verified by anyone else*. The distinction is not academic here: the ΓL(1) step of Part B was asserted as a plausible sketch and is false, which was established only by deliberately looking for a counterexample. Lemma B′'s socle argument, Lemma C's conjugation argument and the tower absorption of G.2 are of comparable intricacy and have had no independent scrutiny.
+
+The numerical work therefore serves three distinct purposes, which are easy to conflate:
+
+1. **Implementation fidelity.** Internal consistency, the Proposition F.1 stopping rule, and monotonicity of the certified maxima test whether `mu_enumerate.py` computes what Parts A–H specify. This validates code against a specification and is not evidence for any theorem.
+2. **Tightness.** The inequality μ(n) ≤ B(n) is a consequence of the classification; the *equality* μ(n) = B(n) requires an attaining construction, which is checked case by case rather than proved in general. Similarly, that the unconditional scoring costs nothing relative to the ΓL(1)-assuming one is an observation, not a theorem — though the bound's validity does not depend on it.
+3. **A hedge against errors in the arguments themselves.** If Lemma B′, Lemma C or the block recursion were wrong in a direction that made the bound too small, violations would be expected. None appears across 1,269 computed values or in either exhaustive battery, where the bound is not merely respected but attained. This is real evidence — for the correctness of the reasoning, rather than for filling a gap in reasoning already known to be sound.
+
+Read that way, the exhaustive checks at n = 10 and n = 12 are the most valuable of the three, because they are independent of both the code and the families: the groups were enumerated by GAP with no reference to any of this, and the optimum they exhibit matches the predicted construction exactly, orbital sizes included.
+
 ---
 
 ## Part A. Reduction to orbits and crosses

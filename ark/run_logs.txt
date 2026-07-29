@@ -1457,3 +1457,27 @@ exhaustiveness.
 Note: consume_gap stage 3 (the monomorphism matrix for the CSP) is a separate
 pipeline and is about 1/6 done; the exhaustiveness check needs only the orbital
 maps, so it did not have to wait.
+
+--- RUN 64: epistemic status of the checks, made explicit ---
+VN asked whether the confirmations are sanity checks on a complete proof or
+empirical stand-ins for missing proof.  Answer: three distinct jobs, previously
+conflated, now separated in the proof document's front matter.
+ 1. IMPLEMENTATION FIDELITY -- internal consistency, the F.1 stopping rule, and
+    monotonicity test whether mu_enumerate.py computes what Parts A-H specify.
+    Validates code against a specification; not evidence for a theorem.
+ 2. TIGHTNESS -- mu(n) <= B(n) follows from the classification, but the EQUALITY
+    needs an attaining construction, checked case by case (n=255, n=315 by orbit
+    BFS) rather than proved.  "Safe scoring costs nothing" is likewise an
+    observation, though validity does not depend on it.
+ 3. A HEDGE AGAINST ERRORS IN MY OWN ARGUMENTS -- the decisive point.  Parts A-D
+    and G were written in this session; the Singer step among them was asserted as
+    a sketch and is FALSE, found only by deliberately hunting a counterexample.
+    Lemma B', Lemma C and G.2 are of comparable intricacy with no independent
+    scrutiny.  If any were wrong in the direction that shrinks the bound,
+    violations would be expected; none appears in 1269 values or either battery.
+RECORDED that "PROVED" in that document means "an argument has been written that
+appears complete", NOT "verified" -- and that the Singer episode shows the gap
+between those is not hypothetical.
+Noted that the n=10 and n=12 exhaustive checks are the most valuable of the three,
+being independent of both the code and the families.
+Same caveat added to notes section 2.6.
