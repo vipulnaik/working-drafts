@@ -6,6 +6,26 @@
 
 ---
 
+## Status note: full read-through of `enumeration-proof.md` (this session)
+
+*Recorded before proceeding to Part J items 1 and 2, per request. The read-through is complete; the open problems have **not** been advanced yet — that work starts from here.*
+
+**Nine defects found and fixed in the same pass** (all in `enumeration-proof.md`):
+
+1. *Part B, dangling bullets.* The two bullets beginning "Consequently the intra-orbitals are the classes ±δ·T…" had lost their antecedent in the E′ restructuring — they followed text establishing that the ΓL(1) form *fails* in general, while asserting its consequences unconditionally. Now scoped: "*When the stabiliser IS of ΓL(1) type* — which Lemma B′ makes automatic for foreign parts, and which is the case the constructions of Part E realise…". An artifact of this session's own editing.
+2. *Part G.3 truncation.* "The orbital data is" ended mid-sentence (a pre-existing defect). Completed with the value-formula reference.
+3. *Part G.4 stale tail.* "What remains of Part E is now purely to write the enumeration of G.3 once" described a past state — the enumeration exists and Part E is proved. Rewritten.
+4. *Part H, k-bounds off by one.* Under the ladder the forward pointer claimed k ≤ 2, 5, 6; the correct values are **k ≤ 2, 4, 5** (1/√0.049 = 4.52, 1/√0.028 = 5.98). Conservative direction, but wrong as stated.
+5. *Part I filename.* `mu_table_safe.csv` → `mu_table_safe_v2.csv`.
+6. *Part E, misleading parenthetical.* "127 winners use two classes of different sizes" read as contradicting Part I's equal-blocks finding, and "winning p ranges from 2 to 821" is stale. Corrected: 200 two-p-class winners, the two p-blocks **equal in 199 of 200**, winning p now 2 to 1129.
+7. *Part I, mis-attributed exceptions.* "All but two have equal p-parts (the exception being … n = 1175)" named one exception where there are two. The other is **n = 551 = 256 + 167\* + 128** — the unique winner whose two p-parts are *distinct* powers of the same prime, newly identified this pass.
+8. *Menu comparison unscoped.* The 173/127/46 figures against `mu_fast.py` are over n ≤ 1540; now said so.
+9. *Part H cost projection.* Scoped as a historical measurement at n = 1540.
+
+**Checked and clean on the same read** (recorded so it is not re-done): the E′ chain of inequalities (r(r−1) ≥ δn(n−1) from the foreign intra term; the sharp s = 1 threshold δ > (n−1)/9n); Theorem E.1's two branches, including that the p-odd branch's orb(2, t) = 1 relies on the C(c,2) cap in `orb` (a 2-block holds one pair — the text says why); Lemma E.2's coprime factorisation; the Part B under-statement table's strip/orb arithmetic (all seven rows); Proposition F.2's algebra ((2−√2)/√2 = √2−1); Cap(a) = r·max(2, L) as an upper bound (loose by ×2 at a = 2 only, safe direction); and the realisability paragraph's use of "coprime direct product is cyclic" — which is the *sufficient* direction and does not conflict with Part D's pitfall about the necessary direction.
+
+**Not yet done:** any progress on Part J items 1 (k ≤ 3) and 2 (odd-n collapse below density 1/9). The starting points on record: item 1 — the 199-of-200 equal-p-parts shape, R1's failure at F₁+F₂ = 2 for odd q, and the reabsorbability gap; item 2 — the s ∈ {2, 3} branches, where s = 2 forces a Sophie-Germain-plus-near-safe double condition.
+
 ## A. Runs that should happen before the next verdict is quoted
 
 **A1. Rebuild the n = 12 battery with the corrected dedup key.** `consume_gap.py`'s stage-1 key was an incomplete invariant used to discard groups; it is now a canonical form of the orbital partition. Because the selection signature changes, a bare rerun will detect the mismatch and rebuild stages 1–3 automatically. Expected effect at n = 12: the battery grows from 381 to 425 distinct (partition, prime) conditions, and at `--maxt 8` from 205 to 230. Cost: stage 2 and stage 3 rerun. **Nothing downstream of the old key should be quoted as a verdict until this has run**, because a dropped condition can only turn a real UNSAT into SAT.
@@ -66,7 +86,7 @@ The practical corollary of the theorem — probe one representative per compleme
 - **The ten skeleton generators** are pairwise incomparable under monomorphism, and §8.8's identifications hold: C₁₀(1,2) = class 37, K₁+3K₃ = class 15, K₁+C₉ = class 20, the K₁+K₄+5K₁ apex = class 64. Class 27 is **K₅ □ K₂**.
 - **The χ sign convention and dual encoding** in `stage4_fast.py`: `s = +1` on odd popcount is right for Σ(−1)^dim over nonempty faces, and `x[uc[full ^ m]] == 0` is exactly y[S] = 1 − x[comp S], so the duality involution's hypothesis that both directions are enforced per group is genuinely met.
 - **Stage 3's inference rules** are all valid necessary conditions: T-transitivity; c ⊆ a ∧ c ⊄ b ⟹ a ⊄ b; a ⊄ d ∧ b ⊆ d ⟹ a ⊄ b; equal-edge-count distinct classes cannot embed; and domination of sorted degree sequence, triangles, P₃ and C₄ counts.
-- **The extraspecial computation.** |E| = 27; the commutator of the two generators is the scalar 2·I, so E is extraspecial; E has no invariant line, so it is irreducible; |Z(E)| = 3; |⟨E, −I⟩| = 54; and the ±E-orbits on the 342 non-zero vectors of 𝔽₇³ have sizes {18 (×4), 54 (×5)}. Every claim Part B makes about this group is confirmed, and the minimum orbit of 18 is what answers Part J item 2 negatively.
+- **The extraspecial computation.** |E| = 27; the commutator of the two generators is the scalar 2·I, so E is extraspecial; E has no invariant line, so it is irreducible; |Z(E)| = 3; |⟨E, −I⟩| = 54; and the ±E-orbits on the 342 non-zero vectors of 𝔽₇³ have sizes {18 (×4), 54 (×5)}. Every claim Part B makes about this group is confirmed, and the minimum orbit of 18 is what answers the old ΓL(1) question negatively.
 - **No cross-part-count ties.** At every value tested, B(n) is attained at exactly one part count, and no exactly-4-part or exactly-5-part configuration reaches it — so the max-3 observation is about optima, not about which witness the optimiser recorded.
 - **`mu_enumerate.py`'s pruning discipline.** `parts_for`/`rec` prune on the pre-Lemma-C optimistic capacity, so pruning never discards a viable configuration; and since orb(c, c−1, char2) = C(c,2) identically, SAFE mode's fallback term *equals* the pruning bound, which is the structural reason the two modes cannot disagree on a winner.
 

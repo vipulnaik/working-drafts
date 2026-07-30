@@ -194,12 +194,51 @@ def witnesses(n, B):
                     return found
     return found
 
+# ---- the delta > 1/9 theorem (Part J item 2), reported alongside the search ----
+MERSENNE = [2, 3, 5, 7, 13, 17, 19, 31, 61, 89, 107, 127]
+
+def largest_pp_divisor(x):
+    best, d, y = 1, 2, x
+    while d * d <= y:
+        if y % d == 0:
+            e = 1
+            while y % d == 0:
+                y //= d; e += 1
+            best = max(best, d ** (e - 1))
+        d += 1
+    return max(best, y) if y > 1 else best
+
+CAP = {}
+for _a in MERSENNE:
+    _M = 2 ** (_a - 1) - 1
+    CAP[_a] = (2 ** _a - 1) * max(2, largest_pp_divisor(_M) if _M > 1 else 1)
+
+def theorem_covers(n, B):
+    """True if the delta > 1/9 theorem settles this n outright, i.e. s = 1 is
+    forced and both s = 1 branches are excluded.  The p-odd branch gives a
+    foreign block of size 2, one pair, score <= 1.  The p = 2 branch is capped by
+    Cap(a) for each Mersenne exponent a with 2^(a+1)-1 <= n, and Cap(a) <=
+    (2^a-1)(2^((a-1)/2)+1) = O(n^{3/2})."""
+    d = B / comb(n, 2)
+    if d <= (n - 1) / (9 * n):
+        return False, "delta <= ~1/9: s <= 2 or 3 survives"
+    for a, cap in CAP.items():
+        if 2 ** (a + 1) - 1 <= n and cap >= B:
+            return False, f"Mersenne a={a}: Cap={cap} >= B={B}"
+    return True, "delta > 1/9 and every Cap(a) < B(n)"
+
 bad, smax, checked = [], 0, 0
 inconclusive = set()
+covered, uncovered = 0, []
 for row in rows:
     n = int(row["n"]); B = int(row["mu_bound"])
     w = witnesses(n, B)
     checked += 1
+    ok, why = theorem_covers(n, B)
+    if ok:
+        covered += 1
+    else:
+        uncovered.append((n, why))
     if w:
         bad.append((n, B, float(row["density"]), w[:4]))
     # record the proved bound on s for the record
@@ -210,6 +249,16 @@ print(f"{a.table}: {checked} values of n checked, n up to {NMAX}")
 print(f"values where SOME fallback configuration could reach B(n): {len(bad)}")
 for n, B, d, w in bad[:20]:
     print(f"   n={n} B={B} density={d:.4f}  candidates (p,q,F,c,r,s,leftover): {w}")
+print()
+print()
+print(f"settled by the delta > 1/9 theorem alone (no search needed): "
+      f"{covered} of {checked} ({100*covered/checked:.1f}%)")
+print(f"relying on the exhaustive search: {len(uncovered)}")
+_r = {}
+for _n, _w in uncovered:
+    _r[_w.split(':')[0]] = _r.get(_w.split(':')[0], 0) + 1
+for k, v in sorted(_r.items(), key=lambda t: -t[1]):
+    print(f"    {v:5d}  {k}")
 print()
 print(f"largest permitted s = (c-1)/r over the range: {smax:.2f}  "
       f"(so s <= {int(smax)} everywhere here)")
