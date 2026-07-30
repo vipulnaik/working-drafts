@@ -113,6 +113,28 @@ and cap(s; p,q) = s·V(s; p,q)/2. Induction on s using Part B gives M_i ≤ cap(
 
 > **Pitfall.** Restricting b to q-powers is essential. A recursion over arbitrary block counts implicitly maximises the twist prime independently at each level, whereas the group has a single q; the resulting quantity bounds nothing. 
 
+**C.1 The recursion has a closed form.** The chain-free version of V — the one in Theorem 2.3 of the notes, where b ranges over all prime-power divisors rather than q-powers — collapses:
+
+> **V(s) = L(s) − 1**, where **L(s)** is the largest prime-power divisor of s; hence **cap(s) = s(L(s) − 1)/2**.
+>
+> *Proof.* Each step replaces s by s/b for a prime-power divisor b > 1 and stops when the argument is a prime power, returning that argument minus 1. So the reachable return values are exactly c − 1 for prime powers c dividing s such that s/c is a product of prime powers — which every integer is. Hence the maximum is L(s) − 1. ∎
+
+Verified against the recursion for every s < 4000, with no exceptions. This is worth recording because it makes the crude ceiling elementary: no memoised recursion is needed, and its arithmetic content is visibly just the divisor structure of the parts.
+
+**C.2 The crude ceiling B₀, and why it is not the quantity of interest.** Write
+
+> **B₀(n) = max over partitions n = Σ sᵢ into parts ≥ 2 of min( minᵢ cap(sᵢ), min_{i<j} sᵢsⱼ )**,
+
+the right-hand side of the notes' Theorem 2.3. Since more parts only shrink minᵢ cap(sᵢ), the maximum is over one- and two-part splits, so B₀ costs **O(n) per value** after a sieve — B₀(200,000) takes a quarter of a second, against the enumeration's measured n^2.9. And **μ(n) ≤ B(n) ≤ B₀(n)**: every configuration determines a partition whose parts are valued at least as highly by cap.
+
+The second inequality is typically strict, and the reason is structural rather than a per-part over-valuation: **B₀'s optimising partition frequently supports no admissible configuration at all.** B₀ ranges over partitions with parts of any size; a configuration additionally fixes chain primes (p, q), requires each part to be Fᵢcᵢ with Fᵢ a q-power and cᵢ a prime power, types each part as p-characteristic or foreign, constrains twists by Lemma B′ and Lemma C, and carries a within-class cross term that B₀ has no notion of.
+
+> *Worked contrast at n = 1425.* B₀(1425) = 171,991 from the partition 587 + 838, where 587 is prime so cap(587) = C(587,2) = 171,991, cap(838) = 175,142 and the cross term is 491,906. No Oliver group realises it. Reaching cap(587) needs twist order 293 or 586; as a foreign block Lemma B′ forces that twist to be a power of the top prime, so q = 293, and then 838 = 2·419 is not Fc with F a power of 293 and c a prime power. Reading 587 as p-characteristic forces p = 587, and 838 is neither a power of 587 nor prime. The enumeration returns **B(1425) = 108,811** from `1x479 + 1x479 + 1x467*` at a consistent (p, q) = (479, 233) — attained, so μ(1425) = 108,811, a factor 0.633 below B₀.
+
+**What B₀ is therefore good for, and what it is not.** Three genuine uses. It is the **robust fallback**: its proof needs only "solvable primitive ⟹ prime-power degree" plus orbit–stabiliser, so it survives intact if Lemma B′ or Lemma C — neither independently scrutinised — turns out to be wrong. It is **computable arbitrarily far**, which the enumeration is not. And its asymptotics is **cleaner**: with no coherence conditions there are no multiplicative side conditions on shifted primes, so B₀ is governed by additive representation by numbers of large prime-power core, not by the Hardy–Littlewood systems that govern B.
+
+Against that, B₀ is **loose exactly where it would matter**. Its density floor below 3000 is 0.123 (at n = 551), against B's 0.0418, and it sits near 1/4 generically — B₀(200,000) has density 0.2494. So it does not identify arithmetically weak n, and it cannot be used to prune the enumeration. It is a cheap outer bracket, not a tool.
+
 ## Part D. Coherence across parts
 
 **Lemma C (corrected justification).** Let O_i be a p-characteristic part with twist order d_i, and O_j a foreign prime part of size r_j whose translations lie in Γ₁ (Part B). The images of Γ₁/Γ₂ in the two parts are C_{d_i} and C_{r_j}. The top q-group acts on the cyclic group Γ₁/Γ₂ by conjugation; on part j it induces the twist, of order t_j > 1, and on part i it induces the identity (it acts trivially there). If r_j | d_i, the r_j-primary component of Γ₁/Γ₂ surjects onto both images, so the conjugation action cannot be simultaneously trivial on one and of order t_j on the other. Hence **gcd(d_i, r_j) = 1**.
@@ -373,6 +395,12 @@ Against the family menu of `mu_fast.py` (measured over the range its table cover
 
 **The part count is a fact about optima, not about tie-breaking.** `mu_enumerate.py` records a witness on a tie only when none exists yet, so the *reported* part count is not canonical and "max 3 parts" could have been an artefact. It is not. Asking directly whether any configuration with **exactly** k parts attains B(n) — pruned at target B, so only configurations reaching B survive — gives, at every value tested (the three-part-winner values 247, 255, 273, 285, 323, 345, 357, 377, 425, 429, 437, 465, 575 and a further sweep through 493–633): B is attained at exactly **one** part count, and **no 4- or 5-part configuration reaches it**. There are no cross-part-count ties.
 
+**Independent validation of Lemmas B and C.** These checks were made against the notes' construction tables and the GAP battery; they are recorded here because they test the classification rather than the search.
+
+Against every two-block witness in `mu_table_full.csv`: of 5,025 such rows, the 3,316 whose foreign block attains full capacity satisfy **Lemma B without exception** (3,302 of shape 2qᵉ, 14 of shape qᵉ), and **Lemma C's gcd condition holds in all 5,025**. Lemma B also predicts the density split measured in §5.5 of the notes — among rows clearing the 1/12 diagnostic threshold, 73.1% have r − 1 ∈ {qᵉ, 2qᵉ}; among those below, 9.9%.
+
+That check is partly circular, since the witnesses come from our own constructions. The GAP battery at n = 10 is not: those 967 Oliver groups were enumerated exhaustively with no reference to the lemmas. Extracting vertex orbits by colour refinement and locating orbitals that induce a complete graph on their support gives **1,061 full-capacity orbits across 728 groups, of sizes 2, 3, 4, 5, 7, 8, 9 — every one a prime power, with no exceptions**; **no group** has two proper-prime-power full-capacity orbits of different primes, confirming the uniqueness of p; and of the 88 prime-sized full-capacity orbits inside groups with a genuine top prime q, **all 88** satisfy s − 1 ∈ {qᵉ, 2qᵉ}.
+
 **Independent confirmation against exhaustive group enumeration.** Agreement with constructions drawn from the same families is partly circular; the only non-circular check is against an exhaustive enumeration of Oliver groups obtained without reference to any of this. Two exist, and both are **tight** rather than merely consistent.
 
 | n | groups enumerated | max m\* over all of them | B(n) | attaining |
@@ -381,6 +409,8 @@ Against the family menu of `mu_fast.py` (measured over the range its table cover
 | 12 | 7,115 | 18 | 18 | 8 groups, all with orbitals {18, 48} |
 
 The n = 12 row has been re-derived directly from `groups_out.txt`: the file holds exactly 7,115 groups (295 trivial-top, 657 at q = 2, 67 at q = 3, 6,096 p-groups), the maximum m\* is 18, and exactly eight attain it — `T(12,85)`, `T(12,164)`, `T(12,166)`, `T(12,207)`, `T(12,228)`, `T(12,229)`, `T(12,265)` and `T(4,4)≀T(3,1)`, orders 144 to 5184 — all with orbital sizes {18, 48} and all sharing a single orbital partition across three distinct tags. (§8.11 of the notes previously reported 8,819 for this file; that figure was wrong.) Their common orbital data is exactly what Theorem 2.4 predicts for n = 3·4: three fused blocks of 4 with the full twist give 3·C(4,2) = 18, and the cross class, with coefficient 3 because q = 3 is odd, gives 3·4² = 48. So the exhaustive optimum *is* the predicted construction, orbital sizes included. This does not establish exhaustiveness in general — both checks sit at small n, where few configurations are available — but it is the strongest form of evidence the framework admits.
+
+**The hand family menu against B₀, above the computed range.** These figures compare `mu_fast.py`'s menu of constructions against the crude ceiling B₀ of Part C.2, and are the only measurements in this framework still taken against B₀ rather than B — which is why they look worse than they are. Over the 6,401 values n ≤ 10⁴ the menu leaves gapped against B₀, the median ratio menu/B₀ is 0.533, the worst cases being the familiar arithmetically weak odd n: n = 1425 at 10,025 against 171,991 (ratio 0.058), then 4245, 3393, 5457, 4059. At n = 1425 roughly two thirds of that apparent gap is B₀'s own slack, not the menu's shortfall — B(1425) = 108,811 against B₀ = 171,991, per the worked contrast in C.2. Below n = 2007 there is no gap at all, since B is computed exactly and attained.
 
 **Foreign-block efficiency.** For a foreign prime r under top prime q the usable twist is t = (q-part of r−1), and the intra-orbital is r·|±δT|/2 against a maximum of C(r,2). So
 

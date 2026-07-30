@@ -69,6 +69,41 @@
 
 **The convention now stated explicitly is B(n) := B_safe(n)** — the enumeration's default output and the `mu_bound` column — with B_refined the lower endpoint; this matches all existing usage, checked against each occurrence.
 
+## Status note: §2 of the notes reduced to statements, intuitions and Theorem 2.1
+
+*Rationale, from the author: §2's value is now mainly foundational and pedagogical, so it should carry the main results and intuitions while the companion carries the arguments. Applied as follows.*
+
+**Kept in the notes, with reasons.** The two ceilings (density 1/2, Zassenhaus). **Theorem 2.1 with its full proof** — framed explicitly for the first time as the *first exact value of μ at a non-prime power*, a feeder into nothing downstream, whose importance is that it showed exact composite-n values are obtainable at all by machinery keyed to the arithmetic of n; that is what started the programme, and its proof is the accessible introduction to orbit counting, the Oliver chain and the diagonal twist. The *statements* of Theorems 2.2–2.3 and Lemmas A/B/B′/C, since "the coherence conditions are derivable, not assumed" is a main intuition and the bridge from Part I to the number theory of Part II. Theorems 2.4–2.5 as the accessible constructions. §2.6's headline: B(n) is unconditional, attained, computed to 2007 and certified to 10⁵.
+
+**Moved into the companion.**
+- The **closed form V(s) = L(s) − 1** (L = largest prime-power divisor), which collapses Theorem 2.3's divisor recursion — new this pass, verified for all s < 4000 — now Part C.1.
+- The **B₀ analysis**: definition, O(n) cost, the μ ≤ B ≤ B₀ chain, the four structural differences, and the n = 1425 worked contrast — now Part C.2. The notes keep a five-line pointer.
+- The **validation of Lemmas B and C**: the 5,025-row construction check and, more importantly, the non-circular GAP check at n = 10 (1,061 full-capacity orbits all of prime-power size; all 88 prime-sized ones satisfying Lemma B). These existed *only* in the notes, so this was a move rather than a de-duplication — now in Part I.
+- The proofs of Lemmas B and C, compressed in the notes to statement plus one-line mechanism, with the Lemma C pitfall left as a pointer.
+
+**De-duplicated.** The notes' "Do not read the certification level as an orbit count" block was a verbatim duplicate of companion Part I; replaced by a short "Reading the output" paragraph that states what the output *is* and defers the two cautions.
+
+**On B₀'s significance, since it determined the placement.** Measured rather than assumed: B₀ costs O(n) per value (B₀(200,000) in 0.26 s, against the enumeration's n^2.9), its proof needs only solvable-primitive ⟹ prime-power degree plus orbit–stabiliser, and its asymptotics carries no multiplicative side conditions on shifted primes. But its density floor below 3000 is **0.123** against B's 0.0418, and it sits near 1/4 generically. So it is a cheap, robust outer bracket that cannot identify arithmetically weak n and cannot prune the search — which is why the detailed comparison belongs in the companion and not the main flow.
+
+## Status note: §§2–3 restructured, star notation retired, §5 brought up to date
+
+**§2 now has subsections 2.1–2.6** (it previously jumped from an unnumbered opening to 2.4). Theorem 2.1 sits in its own §2.1 with the framing above; Theorems 2.2 and 2.3 are now §2.2 and §2.3 rather than blockquote continuations of 2.1. The "why exactness stops at p₁ = 3" discussion moved from §2.5 into §2.2, where it belongs. Fixed a stray Briticism ("used in anger").
+
+**The menu-versus-B₀ figures moved to companion Part I**; §2.3 keeps only the conceptual half — that the gap between B₀ and B is the coherence condition, and that this is what converts a max–min over partitions into the Hardy–Littlewood systems of §5.
+
+**★ notation retired** — 10 occurrences, all replaced by named references. It was undefined on first use, hard to search for, and its referent had drifted.
+
+**§3 rewritten as a theorem plus a residue.** It previously stated a complicated claim and then annotated which parts were proved. Now: **Theorem 3.1** states the proved structure (orbit decomposition n = Σ Fᵢcᵢ, the p-characteristic/foreign typing, Lemma C coprimality, tower depth absorbed, forced orbital sizes, and the converse construction) with sources; two clauses that careless derivations lose are kept as warnings (wreath tops are necessary — AGL(1,5) ≀ C₂ at n = 10; no bounded blocks or fixed points); Corollary 3.2 follows and is noted to be an *equivalence* because 3.1 characterises rather than bounds; the false Singer step is isolated with its counterexample and the three reasons nothing rests on it; and the residue is two arithmetic questions. Historical framing dropped. Open Problem 1 is retired accordingly, retained only to record the two traps.
+
+**§5 gained a new §5.6, measuring the ledger against μ instead of the menu.** §5.5's closing caveat asked whether odd n are genuinely poorer or merely poorly served, and deferred to the then-open extremality question; since μ(n) = B(n) is now known for n ≤ 2007 the question is answerable, and the answer is **both, in measurable proportions**:
+
+- Odd n are genuinely poorer — median density 0.1104 against 0.2266 for even, a factor of two in μ itself.
+- But the menu overstated it about threefold: below the 1/12 diagnostic the menu put 65.4% of odd composites, μ puts 19.3%. The reported "widening with n" is also much gentler at the level of μ (odd median 0.1434 → 0.1101 → 0.1037 across thirds, flattening rather than accelerating).
+- δ₀^odd ≈ 0.049 is nearly tight as a floor: only 8 of 679 odd values (1.2%) fall below it, global minimum 0.0418 at n = 575. So Prop. 5.3's ceiling is close to the observed truth, not merely the best mechanism found.
+- **Three thresholds line up by parity**: below 1/9 (Theorem E.1's threshold) sit 4.4% of even against 52.0% of odd; below 1/16 (Corollary F.3's) 0.1% against 4.0%. Both residues of Open Problem 9 are essentially even-free, so they and Open Problem 2 are one obstruction viewed three ways — and δ₀^odd > 1/9 would clear all three. Cross-linked from Prop. 5.3.
+
+Also corrected in §5.5's caveat: "the proven ceiling remains ⌊C(n,2)/2⌋" was stale; beyond the computed range it is B₀.
+
 ## A. Runs that should happen before the next verdict is quoted
 
 **A1. Rebuild the n = 12 battery with the corrected dedup key.** `consume_gap.py`'s stage-1 key was an incomplete invariant used to discard groups; it is now a canonical form of the orbital partition. Because the selection signature changes, a bare rerun will detect the mismatch and rebuild stages 1–3 automatically. Expected effect at n = 12: the battery grows from 381 to 425 distinct (partition, prime) conditions, and at `--maxt 8` from 205 to 230. Cost: stage 2 and stage 3 rerun. **Nothing downstream of the old key should be quoted as a verdict until this has run**, because a dropped condition can only turn a real UNSAT into SAT.
