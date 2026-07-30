@@ -102,7 +102,11 @@
 - δ₀^odd ≈ 0.049 is nearly tight as a floor: only 8 of 679 odd values (1.2%) fall below it, global minimum 0.0418 at n = 575. So Prop. 5.3's ceiling is close to the observed truth, not merely the best mechanism found.
 - **Three thresholds line up by parity**: below 1/9 (Theorem E.1's threshold) sit 4.4% of even against 52.0% of odd; below 1/16 (Corollary F.3's) 0.1% against 4.0%. Both residues of Open Problem 9 are essentially even-free, so they and Open Problem 2 are one obstruction viewed three ways — and δ₀^odd > 1/9 would clear all three. Cross-linked from Prop. 5.3.
 
-Also corrected in §5.5's caveat: "the proven ceiling remains ⌊C(n,2)/2⌋" was stale; beyond the computed range it is B₀.
+Also corrected in the old §5.5's caveat: "the proven ceiling remains ⌊C(n,2)/2⌋" was stale; beyond the computed range it is B₀.
+
+**Then §5.5 was replaced outright, because its central structural claim is false.** It explained the odd-n shortfall by arguing that the strong two-block family needs its one even block to be the p-characteristic one (the other has prime degree, and 2 is the only even prime), so odd n reach it only via n = 2^a + r — about log₂n candidate splits against ~n/2 for even n, with the diagonal family as a thinning rescue. Sound about that family; **not how odd n are served.** Measured over the table: of the 548 odd values reaching density 1/12, **461 use no even part at all**, 339 are a single fused class (Theorem 2.4 with both factors odd), 122 use three parts, and the 2^a + r shape accounts for **53 — under 10%**. So the "two thinning routes" diagnosis measured the menu's coverage, not μ's behaviour, and the scarcity of 2-power splits is not what limits odd n.
+
+Consequently §5.5 is now a short pointer, the corrected measurement sits in companion Part I beside the other Part-I measurements, and the former §5.6 has been merged in as the new §5.5. One orphan was rescued in the process: the observation that measuring against δ₀^even = 1/4 makes the parity signal vanish (menu: 85.8% even / 86.9% odd fall short) survives at the level of μ with 80.7% / 81.0%, and is retained because it is the reason 1/12 was chosen as the diagnostic in the first place. Appendix A's menu-based weak-tail paragraph now points to §5.5 for the μ-based comparison.
 
 ## A. Runs that should happen before the next verdict is quoted
 

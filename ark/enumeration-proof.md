@@ -397,7 +397,7 @@ Against the family menu of `mu_fast.py` (measured over the range its table cover
 
 **Independent validation of Lemmas B and C.** These checks were made against the notes' construction tables and the GAP battery; they are recorded here because they test the classification rather than the search.
 
-Against every two-block witness in `mu_table_full.csv`: of 5,025 such rows, the 3,316 whose foreign block attains full capacity satisfy **Lemma B without exception** (3,302 of shape 2qᵉ, 14 of shape qᵉ), and **Lemma C's gcd condition holds in all 5,025**. Lemma B also predicts the density split measured in §5.5 of the notes — among rows clearing the 1/12 diagnostic threshold, 73.1% have r − 1 ∈ {qᵉ, 2qᵉ}; among those below, 9.9%.
+Against every two-block witness in `mu_table_full.csv`: of 5,025 such rows, the 3,316 whose foreign block attains full capacity satisfy **Lemma B without exception** (3,302 of shape 2qᵉ, 14 of shape qᵉ), and **Lemma C's gcd condition holds in all 5,025**. Lemma B also predicts a density split among two-block witnesses — among rows clearing the 1/12 diagnostic threshold, 73.1% have r − 1 ∈ {qᵉ, 2qᵉ}; among those below, 9.9%.
 
 That check is partly circular, since the witnesses come from our own constructions. The GAP battery at n = 10 is not: those 967 Oliver groups were enumerated exhaustively with no reference to the lemmas. Extracting vertex orbits by colour refinement and locating orbitals that induce a complete graph on their support gives **1,061 full-capacity orbits across 728 groups, of sizes 2, 3, 4, 5, 7, 8, 9 — every one a prime power, with no exceptions**; **no group** has two proper-prime-power full-capacity orbits of different primes, confirming the uniqueness of p; and of the 88 prime-sized full-capacity orbits inside groups with a genuine top prime q, **all 88** satisfy s − 1 ∈ {qᵉ, 2qᵉ}.
 
@@ -409,6 +409,20 @@ That check is partly circular, since the witnesses come from our own constructio
 | 12 | 7,115 | 18 | 18 | 8 groups, all with orbitals {18, 48} |
 
 The n = 12 row has been re-derived directly from `groups_out.txt`: the file holds exactly 7,115 groups (295 trivial-top, 657 at q = 2, 67 at q = 3, 6,096 p-groups), the maximum m\* is 18, and exactly eight attain it — `T(12,85)`, `T(12,164)`, `T(12,166)`, `T(12,207)`, `T(12,228)`, `T(12,229)`, `T(12,265)` and `T(4,4)≀T(3,1)`, orders 144 to 5184 — all with orbital sizes {18, 48} and all sharing a single orbital partition across three distinct tags. (§8.11 of the notes previously reported 8,819 for this file; that figure was wrong.) Their common orbital data is exactly what Theorem 2.4 predicts for n = 3·4: three fused blocks of 4 with the full twist give 3·C(4,2) = 18, and the cross class, with coefficient 3 because q = 3 is odd, gives 3·4² = 48. So the exhaustive optimum *is* the predicted construction, orbital sizes included. This does not establish exhaustiveness in general — both checks sit at small n, where few configurations are available — but it is the strongest form of evidence the framework admits.
+
+**How odd n are actually served — and why the menu's diagnosis of the parity gap was wrong.** An earlier §5.5 of the notes explained the odd-n shortfall by arguing that the strong two-block family needs exactly one even block, that the block must be the p-characteristic one since the other has prime degree and 2 is the only even prime, and hence that odd n reach the strong family only through n = 2^a + r with r prime — about log₂n candidate splits against ~n/2 for even n. The reasoning is sound about that *family*. It is not how odd n are served.
+
+Of the 679 odd values in the table, 548 reach density 1/12 or better. Among those:
+
+| route | count |
+|---|---|
+| **no even part at all** | **461** |
+| one even part, a 2-power p-characteristic block (the 2^a + r shape) | 53 |
+| one even part, odd block size with even fusion count | 34 |
+
+and by part count, 339 use a **single fused class**, 87 two parts, 122 three parts. So the dominant route for a strong odd n is Theorem 2.4 with both factors odd — n = k·m, k a q-power and m a prime power — and after that the three-part configurations, while the 2^a + r shape accounts for under 10%. The scarcity of 2-power splits is therefore not what limits odd n, and the "two thinning routes" diagnosis measured the menu's coverage rather than μ's behaviour.
+
+What does limit odd n is visible in §5.5 of the notes: the gap is real but half the size the menu suggested, and the binding constraint is the three-block chain ceiling of Prop. 5.3, which the data meets almost exactly.
 
 **The hand family menu against B₀, above the computed range.** These figures compare `mu_fast.py`'s menu of constructions against the crude ceiling B₀ of Part C.2, and are the only measurements in this framework still taken against B₀ rather than B — which is why they look worse than they are. Over the 6,401 values n ≤ 10⁴ the menu leaves gapped against B₀, the median ratio menu/B₀ is 0.533, the worst cases being the familiar arithmetically weak odd n: n = 1425 at 10,025 against 171,991 (ratio 0.058), then 4245, 3393, 5457, 4059. At n = 1425 roughly two thirds of that apparent gap is B₀'s own slack, not the menu's shortfall — B(1425) = 108,811 against B₀ = 171,991, per the worked contrast in C.2. Below n = 2007 there is no gap at all, since B is computed exactly and attained.
 
