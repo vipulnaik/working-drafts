@@ -23,7 +23,7 @@ The practical corollary of the theorem — probe one representative per compleme
 
 **A5. Decide how S will be computed at n = 12 before the CSP verdict arrives.** `chi_test.py` enumerates the full down-closure with a canonicalisation per node: 64,333 classes and about 60 s at n = 10, against `--cap 5000000`. At n = 12 the ambient count is 1.65 × 10¹¹ iso classes and the closure of an 18-edge-or-larger generator set may well exceed the cap. The global χ test is the only test that has actually killed anything, so losing it at n = 12 would be a real loss. The alternative is the §8.4 route — exponential formula over signed connected-component weights, two-sort EGF for bipartite components — which computes S without enumerating the closure. This is a design decision, not a bug.
 
-**A6. Migrate `mu_table_safe.csv`, do not regenerate it.** The schema change is cosmetic and the 1,460 existing rows are correct and independently verified; `migrate_table.py` renames `orbits_K` to `certified_K` and derives `parts` from the witness string and `partcap` from the density, recomputing no value of B(n). It ran clean on the real table (0 inconsistencies, and every row satisfies both parts ≤ partcap and 1/√δ ≤ certified_K), and the migrated file resumes correctly from n = 1765. Regenerating instead would cost roughly the whole n^2.9 budget again for no gain.
+**A6. Rerun `fallback_cert.py` whenever the table extends.** It is a per-n check, not a theorem: `python3 fallback_cert.py mu_table_safe_v2.csv` belongs in the routine after every batch of new values. It currently certifies all 1,582 with 0 inconclusive cases. Two things would retire it: a proof that δ is bounded below (the ladder does this conditionally, which forces s = 1 and lets the Cap(a) argument finish), or a general domination argument for the fallback.
 
 **A7. Verify the dedup-collision audit at n = 10.** The measurement in §8.7′ was made at n = 12 because `groups_out.txt` for n = 12 was to hand. The same audit at n = 10 would say how much the *published* n = 10 SAT was affected, which matters for how the skeleton and the χ kill should be described. Requires the n = 10 `groups_out.txt`.
 
@@ -37,7 +37,13 @@ The practical corollary of the theorem — probe one representative per compleme
 
 **B3. Purely-foreign configurations are reachable.** `best_with_k` skipped a prime p when no power of p landed in the pruning window, which is justified only for configurations containing a p-characteristic part. Configurations with a trivial bottom layer (all parts foreign) are legitimate Oliver groups, and reaching them relied on some *other* p surviving the skip and happening to make every part foreign — true in practice, unproven in general. Status: **corrected** — an explicit sentinel `p = 0` meaning "trivial bottom layer" is now enumerated and never skipped. The correction did not change B(n) on any of the 85 regression values.
 
-**B4. The refined intra-orbital formula for partial capacity.** This is Part J item 2, restated here because it is the only place where the *code* computes something the *proof* does not fully license. Where Lemma C strictly reduces a p-characteristic twist, SAFE mode scores F·C(c,2) (valid for any stabiliser) while the construction reaches only F·orb(c, d). The bound stays valid; attainment does not. Reduces to one question: for a primitive affine orbit 𝔽_c ⋊ H with H cyclic-by-q and cyclic-layer image of order d, is the minimum ±H-orbit on 𝔽_c∖{0} at most 2d? Status: **open.** Empirically the fallback is invoked on a winner at **0 of 1,460** values, so μ(n) = B(n) throughout the computed range, but no argument excludes it at larger n.
+**B4. The refined intra-orbital formula — RESOLVED in range; only the asymptotic statement is open.** Formerly the only place where the code computed something the proof did not license. Three changes.
+
+*The posed question is answered NO.* Is the minimum ±H-orbit on 𝔽_c∖{0} at most 2d? For E = 3^{1+2} on 𝔽₇³ the ±E-orbits have sizes {18, 54} while d = |Z(E)| = 3, so the minimum is 18 against 2d = 6.
+
+*Refined mode is therefore invalid, not merely unjustified.* It under-estimates, and under-estimating a group's minimum orbital makes the bound defeatable by that group. With c = 343 and foreign primes {3, 19} stripping 342 = 2·3²·19 down to d = 2, refined returns 343 where E achieves 3087 — a factor of 9. `--refined` is now documented as a heuristic retained only for reproducing old rows. The shortfall cannot propagate: driving d far below c−1 needs the small prime factors of c−1 stripped, hence small foreign blocks, and a foreign block of size r caps the density at 2r/n — the two shortfall configurations 343+3+19 and 343+2+3+19 have densities 0.00086 and 0.00009.
+
+*Attainment is instead certified.* `fallback_cert.py` checks eight necessary conditions on any configuration that invokes the fallback and attains B(n), and finds none at **all 1,582 values, 0 inconclusive**. So μ(n) = B(n) is proved per n, and B_refined = B_safe follows as a corollary rather than as a separate measurement. Status: **closed in range, asymptotically open** — the certificate must be rerun as the table extends, and nothing here bounds the exceptional set as n → ∞.
 
 **B5. Exhaustiveness of the four GAP stages.** Only the Oliver-condition test and the emission logic of `ark_gap.g` have been read. `IsOliverTop` is **sound** — taking Γ₂ = `PCore(N,p)` is WLOG since any normal p-subgroup with cyclic quotient lies in O_p(N) and the quotient is then a quotient of a cyclic group; and normality in Γ is automatic because O_p(N) is characteristic in N with N ◁ Γ. What has *not* been checked is whether stages A–D together are exhaustive over the intended families (transitive groups, direct products over partitions, imprimitive wreaths, p-subgroups up to Sylow-conjugacy). The n = 10 and n = 12 exhaustive comparisons are evidence that they are, at those degrees.
 
@@ -58,6 +64,8 @@ The practical corollary of the theorem — probe one representative per compleme
 - **The ten skeleton generators** are pairwise incomparable under monomorphism, and §8.8's identifications hold: C₁₀(1,2) = class 37, K₁+3K₃ = class 15, K₁+C₉ = class 20, the K₁+K₄+5K₁ apex = class 64. Class 27 is **K₅ □ K₂**.
 - **The χ sign convention and dual encoding** in `stage4_fast.py`: `s = +1` on odd popcount is right for Σ(−1)^dim over nonempty faces, and `x[uc[full ^ m]] == 0` is exactly y[S] = 1 − x[comp S], so the duality involution's hypothesis that both directions are enforced per group is genuinely met.
 - **Stage 3's inference rules** are all valid necessary conditions: T-transitivity; c ⊆ a ∧ c ⊄ b ⟹ a ⊄ b; a ⊄ d ∧ b ⊆ d ⟹ a ⊄ b; equal-edge-count distinct classes cannot embed; and domination of sorted degree sequence, triangles, P₃ and C₄ counts.
+- **The extraspecial computation.** |E| = 27; the commutator of the two generators is the scalar 2·I, so E is extraspecial; E has no invariant line, so it is irreducible; |Z(E)| = 3; |⟨E, −I⟩| = 54; and the ±E-orbits on the 342 non-zero vectors of 𝔽₇³ have sizes {18 (×4), 54 (×5)}. Every claim Part B makes about this group is confirmed, and the minimum orbit of 18 is what answers Part J item 2 negatively.
+- **No cross-part-count ties.** At every value tested, B(n) is attained at exactly one part count, and no exactly-4-part or exactly-5-part configuration reaches it — so the max-3 observation is about optima, not about which witness the optimiser recorded.
 - **`mu_enumerate.py`'s pruning discipline.** `parts_for`/`rec` prune on the pre-Lemma-C optimistic capacity, so pruning never discards a viable configuration; and since orb(c, c−1, char2) = C(c,2) identically, SAFE mode's fallback term *equals* the pruning bound, which is the structural reason the two modes cannot disagree on a winner.
 
 ---
@@ -74,10 +82,11 @@ The practical corollary of the theorem — probe one representative per compleme
 | `probe_backbone.py` | CAP tail reported; automatic involution check against the catalog | no |
 | `mu_enumerate.py` | `orb` capped at C(c,2) (the c = 2 foreign case) | no — screened out at every n ≥ 6 |
 | `mu_enumerate.py` | sentinel `p = 0` for trivial-bottom-layer configurations | no on 85 regression values |
-| `mu_enumerate.py` | `orbits_K` → `certified_K`, plus `parts` and `partcap` columns | **schema only** — migrate with `migrate_table.py`, no recomputation |
-| `migrate_table.py` | new: lossless old→new schema conversion, with per-row consistency checks | no |
+| `mu_enumerate.py` | `orbits_K` → `certified_K`, plus `parts` and `partcap` columns | **schema only** — `migrate_table.py` converts in place, no recomputation |
 | `chi_test.py` | assert \|Aut\| integral and dividing n! | no |
 | `smith.py` | RP² p-dependence and cone self-tests added | no |
+| `fallback_cert.py` | new: per-n certificate that no fallback configuration attains B(n) | no |
+| `mu_enumerate.py` | `--refined` help rewritten: heuristic, not a valid bound | no |
 | `oliver_mu.py` | `break` over twist candidates now fires only after a valid group is built | no — restores Run 1 values |
 | `oliver_mu.py` | rotation restriction **left in place**, with the architectural cause documented (B7) | no |
 | `ark_gap.g` | `IsOliverTop` returns all usable top primes, not the smallest | only on re-emission |

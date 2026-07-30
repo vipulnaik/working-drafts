@@ -368,11 +368,18 @@ if __name__ == "__main__":
                     "re-runs, and used to resume when --nmin is omitted.")
     ap.add_argument("--quiet", action="store_true", help="only the final summary")
     ap.add_argument("--refined", action="store_true",
-                    help="assume Gamma-L(1)-type point stabilisers, using "
-                         "F*orb(c,d) for a p-characteristic part even where Lemma C "
-                         "reduces the twist.  Default is the UNCONDITIONAL bound, "
-                         "which uses F*C(c,2) there; the two agree on every optimum "
-                         "computed so far, so this flag changes nothing in practice.")
+                    help="HEURISTIC, NOT A VALID BOUND.  Uses F*orb(c,d) for a "
+                         "p-characteristic part even where Lemma C reduces the "
+                         "twist.  The Singer step that would justify it is false, "
+                         "and worse, the formula UNDER-estimates: a block of 343 "
+                         "carrying the extraspecial 3^(1+2) has minimum "
+                         "intra-orbital 3087 where this formula can return 343, so "
+                         "the resulting quantity is not an upper bound on mu(n) and "
+                         "is defeatable by that group.  Retained only to reproduce "
+                         "older rows.  The default UNCONDITIONAL mode uses F*C(c,2), "
+                         "valid for any point stabiliser; the two agree on B(n) "
+                         "wherever fallback_cert.py certifies, which is everywhere "
+                         "computed so far.")
     a = ap.parse_args()
     globals()['SAFE'] = not a.refined
 
