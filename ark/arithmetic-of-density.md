@@ -18,7 +18,8 @@ Everything else in this document elaborates that split. Three consequences set t
 
 1. **The density ladder's thresholds are the engine caps, not artefacts.** 1/2 and 1/3 are fused-class values at F = 2 and F = 3; **1/4 is the two-part cap; 1/9 is the three-part cap; 1/16 is the four-part cap.** The thresholds that appear throughout the other two documents — δ₀^even = 1/4, Theorem E.1's 1/9, Corollary F.3's 1/16 — are all the same quantity read at different k.
 2. **The parity asymmetry is multiplicative in origin, not additive.** Even n has 2 | n, so F = 2 is available whenever n/2 is a prime power, giving density 1/2. Odd n has F ≥ 3, capping the multiplicative engine at 1/3; and its two-part route needs the *even* part to be a power of 2, which is scarce. This is the correct version of a claim earlier drafts got half-right (§5).
-3. **The multiplicative engine covers a density-zero set, so asymptotically the additive engine is everything.** The fraction of n with ω(n) = 2 thins like log log n / log n — measured at 52% below 2000 but 29% near 10⁶. So the asymptotic behaviour of μ is governed entirely by the Hardy–Littlewood side, and the observed density floor should be expected to drift downward as the fused family's reach recedes.
+3. **The odd-n ceiling splits by residue class mod 12** — 1/9 on n ≡ 1, 9; ≈ 0.0858 on n ≡ 3, 7; ≈ 0.0718 on n ≡ 5, 11 — from local obstructions at ℓ = 2 and ℓ = 3, each met by the constructions to within 2%. These supersede the older ladder constant 0.049, which was the ceiling of a *different* family (one p-block plus two foreign primes) that the enumeration selects exactly once in 1,672 values.
+4. **The multiplicative engine covers a density-zero set, so asymptotically the additive engine is everything.** The fraction of n with ω(n) = 2 thins like log log n / log n — measured at 52% below 2000 but 29% near 10⁶. So the asymptotic behaviour of μ is governed entirely by the Hardy–Littlewood side, and the observed density floor should be expected to drift downward as the fused family's reach recedes.
 
 ---
 
@@ -112,62 +113,51 @@ Two caveats, both real.
 
 **Exact balance is arithmetically impossible anyway.** At three parts, δ = 1/9 needs c = r = n/3, but r is the foreign prime and c the p-characteristic block size, and admissibility requires r ≠ p. So the cap is approached and never met, independently of the analytic question.
 
-### 3.2 Three parts at odd n: the 1/9 ceiling, and a mod 4 obstruction
+### 3.2 Three parts at odd n: the family, and its ceilings
 
 Odd n cannot use a balanced two-part split: c + r odd forces one part even, and an even prime foreign part must be 2, which is useless. So the even part would have to be the p-characteristic one, i.e. c = 2^a, leaving only ~log₂n candidate splits. That route is genuinely scarce.
 
 The route that avoids it is **three parts with two equal p-characteristic blocks**: n = 2c + r with c an odd prime power and r an odd prime, all parts odd. This is what the enumeration overwhelmingly finds — **200 of the 201 three-part winners** have exactly this shape — and it is *not* the family §5 of the notes analyses (see §3.3). Balancing gives the cap 1/9 at c ≈ r ≈ n/3.
 
-**But full efficiency at odd n is obstructed mod 4, and the obstruction splits the ceiling in two.** Efficiency e = 1 requires the foreign twist to have order (r−1)/2 or r−1, and Lemma B′ forces it to be a power of q; the clean case is r a safe prime, r = 2s+1 with s an odd prime, which needs **r ≡ 3 (mod 4)**. Now c = (n−r)/2, so:
+**Full efficiency is obstructed locally, and the obstructions split the ceiling by residue class.** Efficiency e = 1 requires the foreign twist to have order (r−1)/2, which Lemma B′ forces to be a power of q — so (r−1)/2 must be a prime power, the clean case being r a safe prime. Which n admit that is computed in §3.3. Re-optimising δ(x) at reduced efficiency gives the other ceilings in closed form:
 
-- **n ≡ 1 (mod 4).** Then r ≡ 3 (mod 4) gives n − r ≡ 2 (mod 4), so c is odd. Compatible: the balanced safe-prime configuration exists, and the cap is **1/9**.
-- **n ≡ 3 (mod 4).** Then r ≡ 3 (mod 4) gives n − r ≡ 0 (mod 4), so c is *even*, hence c = 2^a — and 2^a must land near n/3, which happens for at most one a and generically not at all. The alternative is c odd, which forces **r ≡ 1 (mod 4)**, whence 4 | r − 1 and the q-part of r − 1 is at most (r−1)/4 for odd q. So **e ≤ 1/2** unless r is a Fermat prime.
+> at **e = 1/2**: δ(x) = min(x², 2x(1−2x), (1−2x)²/2) is maximised where x√2 = 1−2x, i.e. **x = 1/(2+√2) ≈ 0.29289**, giving **1/(2+√2)² = (2−√2)²/4 ≈ 0.08579**;
+> at **e = 1/3**: **≈ 0.07180** at x ≈ 0.2679.
 
-Re-optimising with e = 1/2 gives a different closed form:
-
-> δ(x) = min(x², 2x(1−2x), (1−2x)²/2) is maximised where x√2 = 1−2x, i.e. **x = 1/(2+√2) ≈ 0.29289**, giving
->
-> **cap = 1/(2+√2)² = (2−√2)²/4 ≈ 0.08579.**
-
-> *Verified, and sharply.* Among the 201 odd three-part winners, split by n mod 4: for **n ≡ 1 (mod 4)**, 101 of 140 have r a safe prime and the maximum density is **0.11037** against the cap 1/9 = 0.11111 (ratio 0.993); for **n ≡ 3 (mod 4)**, only 1 of 61 has r safe — and that one has c even, exactly the 2-power escape — while the other 59 have c odd with r not safe, and the maximum density is **0.08565** against the cap 0.08579 (ratio 0.998). Median densities 0.0984 and 0.0796. The mod 4 split is also visible in the raw parity data: odd n ≡ 1 has median density 0.1100 and odd n ≡ 3 has 0.1277, the crossover coming from the fused family, but restricted to three-part winners the ordering is as the caps predict.
-
-**The Bateman–Horn system.** For n ≡ 1 (mod 4) the balanced configuration needs
-
-> f₁(r) = r,  f₂(r) = (r−1)/2,  f₃(r) = (n−r)/2
-
-all prime, with r in a window of positive relative width about n/3 — three conditions in one variable, the exact analogue of the even system {r, (r−1)/2, n−r} of §3.1 and the same tier. Predicted count ~𝔖₃(n)·n/log³n with
+Where the family is locally soluble the predicted representation count is ~𝔖₃(n)·n/log³n, with
 
 > 𝔖₃(n) = ∏_{p>2} (1 − ω(p)/p)(1 − 1/p)^{−3},  ω(p) = #{r mod p : r(r−1)(n−r) ≡ 0},
 
-so ω(p) = 3 for p ∤ n(n−2) and smaller on the divisors. The 2-adic factor is where the mod 4 condition lives and must be computed separately: r ≡ 3 (mod 4) is a density-1/2 condition on the odd residues, which is why n ≡ 3 (mod 4) loses a factor rather than being excluded outright.
+so ω(p) = 3 for p ∤ n(n−2) and smaller on the divisors; the 2-adic factor is computed separately in §3.3. *Heuristic*, and unproven — a ternary system with two conditions on the same variable, out of reach for the same reasons as binary Goldbach.
 
-*Heuristic*, and unproven — a ternary system with two conditions on the same variable, out of reach for the same reasons as binary Goldbach.
+### 3.3 Local solubility, and the ceiling by residue class
 
-### 3.3 The odd-n ladder constant of §5 is the ceiling of a family that essentially never wins
+Full efficiency needs (r−1)/2 to be a prime power, so with r prime and c = (n−r)/2 a prime power the requirement is a Bateman–Horn system in one variable,
 
-This is the most consequential discrepancy between this document and §5 of the notes, and it revises a headline constant.
+> f₁(r) = r,  f₂(r) = (r−1)/2,  f₃(r) = (n−r)/2,
 
-§5 analyses a **three-block chain** for odd n: n = m + r + s with r = aq+1, s = bq+1 and all of q, r, s, m prime — one p-characteristic block and **two** foreign primes sharing a twist prime q. Proposition 5.3 computes its ceiling in closed form, δ(a,b) = 2a/(a+b+√(2a))², maximised at (a,b) = (4,6) giving **0.0486**, and that is where δ₀^odd ≈ 0.049 comes from.
+of the same three-condition shape as the even case. Its singular series is positive iff ω(ℓ) < ℓ at every prime ℓ. For **odd ℓ** the forbidden residues are r ≡ 0, 1, n — a set of size at most three — so **only ℓ = 3 can be fatal**, and it is fatal exactly when **n ≡ 2 (mod 3)**. At **ℓ = 2** the division by 2 must be handled directly: full efficiency wants (r−1)/2 odd, so r ≡ 3 (mod 4), and then c = (n−r)/2 is odd only when **n ≡ 1 (mod 4)**; for n ≡ 3 (mod 4) the alternative r ≡ 1 (mod 4) gives 4 | r−1 and caps the efficiency at 1/2.
 
-That analysis is internally correct. But the family is shape (1 p-part, 2 foreign), and:
+`local_solubility.py` enumerates this. The resulting ceilings, with the observed maxima from the table:
 
-> *Verified.* Over all 1,672 computed values, a winner of shape (1 p-part, 2 foreign) occurs **exactly once** — n = 1175. The odd three-part winners are shape (2 p-parts, 1 foreign) in **200 of 201** cases, and **197 of 201** three-part winners exceed §5's chain ceiling of 0.0486, with 61 above 0.10.
+| n mod 12 | obstruction | efficiency | ceiling | observed max | ratio | rows |
+|---|---|---|---|---|---|---|
+| 1, 9 | none | 1 | **1/9 = 0.11111** | 0.11037, 0.11019 | 0.993, 0.992 | 43, 62 |
+| 3, 7 | ℓ = 2 | 1/2 | **1/(2+√2)² = 0.08579** | 0.08565, 0.08496 | 0.998, 0.990 | 29, 25 |
+| 5, 11 | ℓ = 3 | 1/3 | **0.07180** | 0.07043, 0.07058 | 0.981, 0.983 | 35, 5 |
 
-So δ₀^odd ≈ 0.049 is the ceiling of a mechanism the enumeration essentially never selects. The correct odd-n ceilings are those of §3.2 — **1/9 for n ≡ 1 (mod 4) and ≈ 0.0858 for n ≡ 3 (mod 4)** — which are 1.8× and 2.3× larger.
+Every class is met to within 2%, so these are ceilings of the mechanism rather than artefacts of search.
 
-**Why §5 missed it.** Its reasoning was that two odd primes sum to an even number, so odd n needs three blocks; and it then took the three blocks to be *distinct* primes, each needing its own twist, which forces the two foreign blocks to share q and produces the chain conditions and the (a+b)q < n budget that caps γ. The configuration that actually wins uses **two equal blocks of the same prime**, whose twists act diagonally and therefore need no coprimality between them (Lemma C's diagonal exemption). Repeated blocks were not in view.
+**The ℓ = 3 obstruction has a sparse escape.** If (r−1)/2 or c is itself a power of 3, full efficiency returns, because the divisibility that kills primality is harmless for prime powers. In range this lifts n ≡ 5 (mod 12) to a maximum of 0.10975 — but 22 of those 35 rows use the *same* foreign prime r = 487, with (r−1)/2 = 243 = 3⁵, and the others use r = 163 with 81 = 3⁴ or c = 243, 729. Candidates of the form r = 2·3^k + 1 are as thin as any other exponential family, so the escape supplies O(log n) candidates rather than n/log³n and should be read as a feature of the computed range. **The generic ceiling 0.0718 is the one to quote asymptotically.**
 
-**What this does to Open Problem 2.** The problem asks for an odd-n family beating 0.049 in order to clear the 1/9 threshold above which Theorem E.1 settles the collapse. The 2c + r family already gives 1/9 **as a supremum, approached and not attained** — for the two reasons in §3.1a, one analytic and one arithmetic. So it does not clear the threshold, and Theorem E.1 remains inapplicable at odd n. But it does clear **1/16** comfortably, which is Corollary F.3's threshold, so on the conditional footing of §3.2 the part-count residue of Open Problem 9(a) is closed for odd n ≡ 1 (mod 4) and, at 0.0858, for n ≡ 3 (mod 4) as well.
+### 3.4 The parity gap, stated correctly
 
-*This should be treated as a claim needing scrutiny rather than a settled correction.* The closed forms and the empirical maxima agree to three figures, and the shape counts are unambiguous. What has not been done is a careful check that the 2c + r family's local conditions are satisfiable for all large odd n in each class mod 4 — the analogue of §5's covering-system analysis, which is where its (2,4) and (2,6) chains turned out to be locally dead. Until that is done, the revised constants are ceilings whose availability is assumed rather than argued.
+Odd n loses on both engines, and neither loss is a shortage of representations — both Bateman–Horn systems supply ~n/log³n. The losses are **caps**:
 
-### 3.4 What the older parity analysis got right and wrong
+- *Multiplicatively*, even n has F = 2 available whenever n/2 is a prime power, giving 1/2; odd n has F ≥ 3, giving at best 1/3.
+- *Additively*, even n balances at two parts, cap 1/4; odd n must use three, cap 1/9, and loses a further factor of 2 or 3 to the local obstructions of §3.3.
 
-An earlier draft of §5.5 of the notes explained the odd deficit entirely by the scarcity of n = 2^a + r splits. Scoped to **odd n with ω(n) ≥ 3 that use two parts**, this is correct and is confirmed above. As an account of all strong odd n it is wrong, because most strong odd n have ω(n) = 2 and use the multiplicative engine, where no additive representation is involved at all: of the 548 odd values reaching density 1/12, **444 have ω(n) = 2** and only 104 have ω(n) ≥ 3.
-
-The correction matters for what to work on. The odd deficit is not primarily a shortage of additive representations, so producing more of them — better sieve input, stronger Hardy–Littlewood assumptions — will not close it. It is a shortage of *caps*, which is a question about mechanisms.
-
----
+An earlier account attributed the whole gap to the scarcity of splits n = 2^a + r. That is the binding constraint for **odd n with ω(n) ≥ 3 that use two parts** — of the 150 such values, 53 use two parts and 28 have exactly the predicted 2-power block, with median density 0.0957 — but it does not describe most strong odd n, which have ω(n) = 2 and use the multiplicative engine where no additive representation arises. The correction matters for what to work on: more sieve input cannot close a gap made of caps.
 
 ## 4. Asymptotics: the multiplicative engine is a thinning exception
 
