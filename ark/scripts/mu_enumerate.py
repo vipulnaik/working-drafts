@@ -368,18 +368,20 @@ if __name__ == "__main__":
                     "re-runs, and used to resume when --nmin is omitted.")
     ap.add_argument("--quiet", action="store_true", help="only the final summary")
     ap.add_argument("--refined", action="store_true",
-                    help="HEURISTIC, NOT A VALID BOUND.  Uses F*orb(c,d) for a "
+                    help="compute the LOWER endpoint B_refined instead of the "
+                         "upper endpoint B_safe.  Uses F*orb(c,d) for a "
                          "p-characteristic part even where Lemma C reduces the "
-                         "twist.  The Singer step that would justify it is false, "
-                         "and worse, the formula UNDER-estimates: a block of 343 "
-                         "carrying the extraspecial 3^(1+2) has minimum "
-                         "intra-orbital 3087 where this formula can return 343, so "
-                         "the resulting quantity is not an upper bound on mu(n) and "
-                         "is defeatable by that group.  Retained only to reproduce "
-                         "older rows.  The default UNCONDITIONAL mode uses F*C(c,2), "
-                         "valid for any point stabiliser; the two agree on B(n) "
-                         "wherever fallback_cert.py certifies, which is everywhere "
-                         "computed so far.")
+                         "twist -- which is exactly what the Part E construction "
+                         "realises, so B_refined <= mu(n) unconditionally.  It is "
+                         "NOT a justified upper bound: the Singer step is false, "
+                         "and orb(c,d) can under-state a single group's minimum "
+                         "orbital (a 343-block carrying the extraspecial 3^(1+2) "
+                         "reaches 3087 where the formula can give 343).  The "
+                         "default SAFE mode uses F*C(c,2), valid for any point "
+                         "stabiliser, giving B_refined <= mu(n) <= B_safe; the two "
+                         "endpoints coincide wherever fallback_cert.py certifies, "
+                         "which is everywhere computed so far, and their difference "
+                         "is the width of the interval containing mu(n).")
     a = ap.parse_args()
     globals()['SAFE'] = not a.refined
 
