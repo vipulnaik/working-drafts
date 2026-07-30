@@ -44,7 +44,7 @@ python3 probe_backbone.py --classes <the 54 CAP ids> --nodecap 20000000
 
 ## Open mathematical questions
 
-Not repeated here. The two arithmetic residues are Open Problem 9 of the notes and Part J items 1–2 of `enumeration-proof.md`; the largest epistemic risk is Part J item 3 — an independent reading of Lemma B′, Lemma C and G.2, none of which has had any.
+Not repeated here. The two arithmetic residues are Open Problem 9 of the notes and Part J items 1–2 of `enumeration-proof.md`; the largest epistemic risk is Part J item 3 — an independent reading of Lemma B′, Lemma C and G.2, none of which has had any. `arithmetic-of-density.md` §6 lists five further questions of its own, all heuristic-vs-measurement comparisons rather than proofs; the cheapest and most informative is whether the observed density floor drifts downward as the ω(n) = 2 population thins, which needs only table extension.
 
 ---
 

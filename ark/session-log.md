@@ -165,3 +165,20 @@ Recorded so the provenance is traceable, and because two of these were errors in
 - Reference list: arXiv:1303.5601 attributed to **Adamaszek**, not Kulkarni, in the one place it was wrong.
 - §2: subsections reordered to 2.4, 2.5, 2.6.
 - Part E: the (F or F/2)·c² cross bound now has a divisibility **proof** rather than an assertion of attainment.
+
+---
+
+## New document: `arithmetic-of-density.md`
+
+Created to hold the Hardy–Littlewood / Bateman–Horn side and the density implications, connected to the computed table. Its thesis, all of it verified against the 1,672 exact values before being written:
+
+- **Two engines.** Multiplicative: a single fused class, n = F·c with both factors prime powers, density exactly **1/F** — matched to O(1/n) at all 678 one-part winners, and available only when ω(n) ≤ 2 (all 678 have ω(n) = 2; none of the 712 values with ω(n) ≥ 3 has a one-part winner). Additive: k balanced parts, density **1/k²** — Prop. F.1 read backwards, and tight, with zero two-part winners above 1/4 and zero three-part winners above 1/9.
+- **Fusion is worth a factor of F** over splitting the same blocks, which is why (R1) matters and why single fused classes dominate the winners.
+- **The recurring thresholds are one sequence**: 1/4, 1/9, 1/16 are the additive caps at k = 2, 3, 4, and coincide with δ₀^even, Theorem E.1's threshold and Corollary F.3's.
+- **Density above 1/4 is purely multiplicative**: all 321 such values have ω(n) = 2 and a one-part winner; the maximum over ω(n) ≥ 3 is 0.2493.
+- **The multiplicative engine covers a density-zero set**, thinning like log log n / log n — measured 52.3% of values on [10³, 2·10³) but 28.5% on [10⁶, 2·10⁶). So it props up 57% of the present table and vanishes asymptotically, and the observed floor should be expected to drift downward.
+- **The parity gap is a shortage of caps, not of representations.** Odd n has F ≥ 3 where even n has F = 2, and its balanced additive route is three parts (1/9) not two (1/4); both Bateman–Horn systems supply ~n/log³n representations, so sieve input cannot substitute.
+
+**Correction recorded.** Earlier in the session I called the old §5.5 mechanism claim (odd n need n = 2^a + r) *false* and replaced it. It is **correct but incompletely scoped** — binding for odd n with ω(n) ≥ 3 using two parts, which is the weak tail: of the 150 such values, 53 use two parts and 28 have exactly the predicted 2-power block, median density 0.0957 at the three-part cap. My refutation measured over all strong odd n, 444 of whose 548 have ω(n) = 2 and use the multiplicative engine. Both main documents now carry the scoped version.
+
+**Process note.** The first attempt to add the cross-references failed silently: a script printed "ok" for an edit, then aborted on a later bad assertion *before* the file write, so none of the edits landed while the log read as success. Writes must be verified by re-reading the file, not by the absence of a traceback — this is the second instance of the same failure mode this session.
