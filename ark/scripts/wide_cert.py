@@ -1,224 +1,233 @@
 #!/usr/bin/env python3
 """
 wide_cert.py -- run the fallback-collapse certificate far beyond the computed
-table, using a PROVEN LOWER BOUND on B(n) in place of B(n).
+table, by substituting a PROVEN LOWER BOUND for B(n).
 
-SOUNDNESS.  A fallback configuration attaining B_safe(n) has every SAFE term
->= B_safe(n) >= B_lo(n), so it satisfies the certificate's necessary conditions
-with B_lo in place of B.  An empty candidate list at n therefore proves the
-collapse (mu(n) = B(n), B_refined = B_safe) at that n, exactly as in
-fallback_cert.py.  A weaker bound can only ADD spurious candidates, never miss
-a real one.  B_lo here is mu_enumerate.seed_value -- the family-menu score,
-a genuine admissible-configuration value, hence <= B_safe(n).
+WHY THIS IS SOUND.  A fallback configuration attaining B_safe(n) has every SAFE
+term >= B_safe(n) >= B_lo(n), so it satisfies the necessary conditions of
+`fb_common.py` with B_lo in place of B.  An empty candidate list at n therefore
+proves the collapse there without knowing B(n).  A weaker bound can only ADD
+spurious candidates, never miss a real one.  Cost is O(n/log n) per value
+against the table's n^2.9, which is what buys the range.
 
-Any n where candidates survive is reported as UNRESOLVED AT B_lo: it needs the
-true B(n) (i.e. the table) to settle, and is not a counterexample.
+B_lo(n) = max over two families of admissible configurations, each scored in
+SAFE mode, hence each a genuine lower bound on B_safe(n):
+  * the family menu of `mu_enumerate.seed_value`;
+  * the dominant three-part shape (1,c) + (1,c) + (1,r*), maximised over
+    prime-power c with r* = n - 2c prime.
+The second is essential: without it the certificate resolves 86.6% of n <= 10^4,
+with it 99.91%, and the multi-part leftover check closes the remaining 0.09%.
+
+Any n where candidates survive is reported as UNRESOLVED AT B_lo -- it needs the
+true B(n) to settle and is NOT a counterexample.
 
 Usage: python3 wide_cert.py NMAX
 """
-import importlib.util, sys, time
+import importlib.util, sys, time, bisect
 from math import comb
+import fb_common as fb
 
 _A = list(sys.argv); sys.argv = ['x']
 spec = importlib.util.spec_from_file_location("me", "/home/claude/ark/mu_enumerate.py")
 me = importlib.util.module_from_spec(spec); me.__name__ = "me"
 spec.loader.exec_module(me)
 
-NMAX = int(_A[1]) if len(_A) > 1 else 10000
-S_MAX = 8                      # s <= 1/sqrt(delta_lo) - 1; menu floor 0.0147 -> 7.2
-spf = me.sieve_spf(NMAX + 2)
+NMAX = int(_A[1]) if len(_A) > 1 and not _A[1].startswith('-') else 10000
+A = fb.Arith(NMAX + 2)
+caps_m, caps_r = fb.cap_mersenne(A, NMAX), fb.cap_repunit(A, NMAX)
 
-def prime_power(x):
-    if x < 2: return None
-    p = spf[x]; e = 0
-    while x % p == 0: x //= p; e += 1
-    return (p, e) if x == 1 else None
+# ---- pass 1: the lower bound
+#
+# Scanning c downward from n/2 over prime powers and keeping the first SCAN_CAP
+# hits suffices: the binding term min(C(c,2), c*r*, cap(r*)) is largest for c
+# near n/2, and taking any SUBSET of admissible configurations still gives a
+# valid lower bound.  Verified at NMAX = 10^4: SCAN_CAP = 60 alone resolves every
+# value, identically to the full scan plus the family menu.  The menu is kept
+# behind --menu for cross-checking; it costs O(n/log n) per value and dominates
+# the runtime, so it is off by default.
+t0 = time.time()
+SCAN_CAP = 60
+PPs = [c for c in range(3, NMAX // 2 + 2) if A.prime_power(c)]
+PPs2 = [c for c in range(3, NMAX + 1) if A.prime_power(c)]
+_FC = {}
+def fcap(r):
+    v = _FC.get(r)
+    if v is None:
+        v = _FC[r] = fb.foreign_cap(A, r)
+    return v
 
-def is_prime(x): return x > 1 and spf[x] == x
-
-def qpart(x, q):
-    t = 1
-    while x % (t * q) == 0: t *= q
-    return t
-
-def orb(c, t):
-    return min(c * t // 2 if t % 2 == 0 else c * t, comb(c, 2))
-
-def prime_divisors(x):
-    out = []
-    while x > 1:
-        p = spf[x]; out.append(p)
-        while x % p == 0: x //= p
+def near(seq, target, cap):
+    """The `cap` entries of the sorted list `seq` nearest to `target`.  The
+    lower-bound families below all balance one growing term against one
+    shrinking term, so their optimum sits near a balance point rather than at
+    an endpoint -- scanning outward from that point is what makes a small cap
+    sufficient."""
+    i = bisect.bisect_left(seq, target)
+    lo, hi, out = i - 1, i, []
+    while len(out) < cap and (lo >= 0 or hi < len(seq)):
+        if hi >= len(seq) or (lo >= 0 and target - seq[lo] <= seq[hi] - target):
+            out.append(seq[lo]); lo -= 1
+        else:
+            out.append(seq[hi]); hi += 1
     return out
 
-# ---- per-r foreign cap (including the trivial-twist q ∤ r-1 branch, orb = r)
-def foreign_cap(r):
-    if r <= 2: return 1
-    return max([r] + [orb(r, qpart(r - 1, q)) for q in set(prime_divisors(r - 1))])
+def orb_full(c, t, char2):
+    raw = c * t // 2 if (char2 or t % 2 == 0) else c * t
+    return min(raw, comb(c, 2))
 
-# ---- pass 1: B_lo for every composite non-prime-power n, and its suffix minimum
-t0 = time.time()
-Blo = [0] * (NMAX + 2)
-ns = []
-def three_part_lo(n):
-    """SAFE score of the dominant three-part shape (1,c)+(1,c)+(1,r*):
-    min(C(c,2), c*r*, foreign_cap(r*)) maximised over prime-power c with
-    r* = n - 2c prime, r* != base(c).  Any admissible configuration's SAFE
-    score lower-bounds B_safe, so this is a sound strengthening of B_lo."""
+def three_part_lo(n, cap=None):
+    """(1,c)+(1,c)+(1,r*).  Terms C(c,2) ~ c^2/2 and cap(r*) <= r*^2/2 balance
+    at c ~ r* ~ n/3, so scan c outward from n/3.  Needs n - 2c prime, hence
+    exists mainly for odd n."""
     best = 0
-    for c in range(3, n // 2):
-        pp = prime_power(c)
-        if not pp: continue
+    for c in near(PPs, n // 3, cap or SCAN_CAP):
         rr = n - 2 * c
-        if rr < 3 or not is_prime(rr) or rr == pp[0]: continue
-        v = min(comb(c, 2), c * rr, foreign_cap(rr))
-        if v > best: best = v
+        if rr < 3 or not A.is_prime(rr) or rr == A.prime_power(c)[0]:
+            continue
+        best = max(best, min(comb(c, 2), c * rr, fcap(rr)))
     return best
-for n in range(6, NMAX + 1):
-    if prime_power(n): continue
-    Blo[n] = max(me.seed_value(n, spf), three_part_lo(n))
+
+def two_part_lo(n, cap=None):
+    """(1,c)+(1,r*).  Balances at c ~ r* ~ n/2.  Covers even n, where the
+    three-part shape does not exist."""
+    best = 0
+    for c in near(PPs2, n // 2, cap or SCAN_CAP):
+        rr = n - c
+        if rr < 3 or not A.is_prime(rr) or rr == A.prime_power(c)[0]:
+            continue
+        best = max(best, min(comb(c, 2), c * rr, fcap(rr)))
+    return best
+
+def fused_lo(n):
+    """A single fused class (F, c), n = F*c, F a q-power, c a prime power.
+    Includes Theorem 2.1's n = 2*(prime power) at F = 2, q = 2."""
+    best = 0
+    F = 2
+    while F * F <= n:
+        if n % F == 0:
+            for FF in (F, n // F):
+                pf = A.prime_power(FF)
+                c = n // FF
+                pc = A.prime_power(c)
+                if pf and pc:
+                    best = max(best, min(FF * orb_full(c, c - 1, pc[0] == 2),
+                                         (FF if pf[0] % 2 else FF // 2) * c * c))
+        F += 1
+    return best
+
+# The cheap families leave a few dozen values with a weak bound; for those only,
+# top up with the family menu of mu_enumerate.seed_value.  That is O(n/log n) per
+# call and would dominate if used everywhere, but on a few hundred values it is
+# free -- and it lifts the density floor, which is what keeps the permitted s
+# (and hence pass 2) small.
+WEAK = 0.02
+t1 = time.time()
+CACHE = f"/home/claude/blo_{NMAX}.txt"          # pass 1 is the expensive half
+import os
+if os.path.exists(CACHE) and '--refresh' not in _A:
+    Blo = [0] * (NMAX + 2); ns = []
+    for line in open(CACHE):
+        n, v = line.split()
+        Blo[int(n)] = int(v); ns.append(int(n))
+    topped = escal = -1
+    print(f"        loaded B_lo from {CACHE} ({len(ns)} values)")
+else:
+  spf = me.sieve_spf(NMAX + 2)
+  Blo = [0] * (NMAX + 2); ns = []; topped = escal = 0
+  for n in range(6, NMAX + 1):
+    if A.prime_power(n):
+        continue
+    v = max(three_part_lo(n), two_part_lo(n), fused_lo(n))
+    if v == 0 or 2 * v / (n * (n - 1)) < WEAK:
+        v = max(v, me.seed_value(n, spf)); topped += 1
+        if 2 * v / (n * (n - 1)) < WEAK:      # still weak: escalate the scan
+            v = max(v, three_part_lo(n, 10**9), two_part_lo(n, 10**9))
+            escal += 1
+    Blo[n] = v
     ns.append(n)
-no_bound = [n for n in ns if Blo[n] == 0]        # menu empty: unresolved a priori
+  with open(CACHE, "w") as fh:
+    for n in ns:
+        fh.write(f"{n} {Blo[n]}\n")
+  print(f"        cheap families + {topped} menu top-ups + {escal} full escalations "
+        f"({time.time()-t1:.0f}s); cached to {CACHE}")
+no_bound = [n for n in ns if Blo[n] == 0]
 ns = [n for n in ns if Blo[n] > 0]
-sufmin = [0] * (NMAX + 3)
-cur = 10**18
-for n in range(NMAX + 1, 5, -1):
-    if Blo[n]: cur = min(cur, Blo[n])
-    sufmin[n] = cur
+by_B = sorted(ns, key=lambda n: Blo[n]); Bvals = [Blo[n] for n in by_B]
 dmin = min(2 * Blo[n] / (n * (n - 1)) for n in ns)
-print(f"pass 1: B_lo for {len(ns)} values of n in [6, {NMAX}] "
-      f"(+{len(no_bound)} with empty menu, unresolved a priori: {no_bound})  ({time.time()-t0:.0f}s); "
-      f"weakest density {dmin:.6f} at n = {min(ns, key=lambda n: 2*Blo[n]/(n*(n-1)))} "
-      f"(s adapts per n; no global cap)")
-by_B = sorted(ns, key=lambda n: Blo[n])          # for capr-window iteration
-Bvals = [Blo[n] for n in by_B]
-import bisect
-
-# ---- helpers for conditions (7)-(8), ported from fallback_cert.py
-def intra_floor(B):
-    s = 1
-    while s * (s - 1) // 2 < B: s += 1
-    return s
-
-def multi_part_ok(L, B, p, q, r):
-    """Can L split into >= 2 admissible parts, each meeting the necessary
-    floors?  Sound over-approximation (necessary conditions only): foreign
-    parts are distinct primes rj != r with orb(rj, qpart(rj-1, q)) >= B (for
-    q = '*', the cap over all q); p-characteristic parts are (F', p^j) with F'
-    a q-power and F'*C(p^j, 2) >= B, repeats allowed.  Exact-sum DP.  Returns
-    False (proved impossible), True (a split exists -- candidate stands), or
-    None if the candidate set is unexpectedly large."""
-    fcands = []
-    for rj in range(3, L + 1, 2):
-        if not is_prime(rj) or rj == r: continue
-        capj = (max(foreign_cap(rj), rj) if q == '*' else orb(rj, qpart(rj - 1, q)))
-        if capj >= B: fcands.append(rj)
-    pcands = []
-    cj = p
-    while cj <= L:
-        F = 1
-        while F * cj <= L:
-            if F * comb(cj, 2) >= B: pcands.append(F * cj)
-            if q == '*': break
-            F *= q
-        cj *= p
-    if len(fcands) + len(pcands) > 60: return None
-    # DP over subset sums: foreign distinct, p-char unbounded multiplicity
-    reach = {0}
-    for x in fcands:
-        reach |= {v + x for v in reach if v + x <= L}
-    for x in pcands:
-        new = True
-        while new:
-            add = {v + x for v in reach if v + x <= L} - reach
-            reach |= add; new = bool(add)
-    return L in reach
-
-def single_part_ok(L, B, p, q, r):
-    """q is a concrete prime, or '*' for the generic branch (q unknown, over-
-    approximated soundly: any F' | L, foreign twist up to the largest prime-power
-    divisor of c2-1 or trivial)."""
-    Fs = ([f for f in range(1, L + 1) if L % f == 0] if q == '*'
-          else [q ** i for i in range(0, 64) if q ** i <= L])
-    for F in Fs:
-        if L % F: continue
-        c2 = L // F
-        pp = prime_power(c2)
-        if not pp: continue
-        if pp[0] == p:
-            if F * comb(c2, 2) >= B: return True
-        elif pp[1] == 1 and c2 != r:
-            capf = max(foreign_cap(c2), c2) if q == '*' else orb(c2, qpart(c2 - 1, q))
-            if F == 1 and capf >= B: return True
-    return False
+print(f"pass 1: B_lo for {len(ns)} values in [6, {NMAX}]"
+      + (f" (+{len(no_bound)} with no bound: {no_bound[:8]}...)" if no_bound else "")
+      + f"  ({time.time()-t0:.0f}s); weakest density {dmin:.6f}, permitted s <= "
+        f"{int(1/dmin**0.5 - 1)}")
 
 # ---- pass 2: pair scan
+#
+# Two filters make this cheap, and both must be applied BEFORE iterating over n
+# rather than inside the loop:
+#   * s <= s_max(n, B) rearranges to delta_lo(n) <= 1/(s+1)^2, so a pair with
+#     s = 2 can only threaten values of density at most 1/9.  Most n are denser
+#     than that, so the per-s candidate lists are far shorter than the whole
+#     range.
+#   * the foreign block's own cap bounds B, so only n with B_lo(n) <= cap(r)
+#     are reachable -- a prefix of each list once it is sorted by B_lo.
 t0 = time.time()
-cand = {}          # n -> list of (p,q,F,c,r,s,L)
+S_TOP = max(fb.s_max(n, Blo[n]) for n in ns)
+per_s = {}
+for sv in range(1, S_TOP + 1):
+    thr = 1.0 / (sv + 1) ** 2
+    lst = [n for n in ns if 2 * Blo[n] / (n * (n - 1)) <= thr]
+    lst.sort(key=lambda n: Blo[n])
+    per_s[sv] = (lst, [Blo[n] for n in lst])
+print(f"pass 2: permitted s <= {S_TOP}; candidate values per s: "
+      + ", ".join(f"s={k}: {len(v[0])}" for k, v in sorted(per_s.items())))
+
+cand = {}
 pairs_seen = pairs_live = items = 0
 for r in range(3, NMAX, 2):
-    if not is_prime(r): continue
-    capr = foreign_cap(r)
-    s = 1
+    if not A.is_prime(r):
+        continue
+    capr = fb.foreign_cap(A, r)
+    sv = 1
     while True:
-        c = s * r + 1
-        if c + r > NMAX: break
-        s_this = s; s += 1
-        pp = prime_power(c)
-        if not pp: continue
+        c = sv * r + 1
+        if c + r > NMAX:
+            break
+        s_this = sv; sv += 1
+        if s_this > S_TOP:
+            break
+        pp = A.prime_power(c)
+        if not pp or pp[0] == r:
+            continue
         p = pp[0]
-        if p == r: continue
         pairs_seen += 1
-        hi = bisect.bisect_right(Bvals, capr)     # only n with B_lo <= capr
-        if hi == 0: continue
+        lst, Bl = per_s[s_this]
+        hi = bisect.bisect_right(Bl, capr)
+        if hi == 0:
+            continue
         pairs_live += 1
-        for n in by_B[:hi]:
-            if n < c + r: continue
+        for n in lst[:hi]:
+            if n < c + r:
+                continue
             B = Blo[n]
+            ok_thm, _ = fb.branch_settled(A, n, B, s_this, caps_m, caps_r)
+            if ok_thm:
+                continue
             items += 1
-            qopts = list(set(prime_divisors(r - 1)))
-            if r >= B: qopts.append('*')          # trivial-twist generic branch
-            for q in qopts:
-                t = 1 if q == '*' else qpart(r - 1, q)
-                if orb(r, t) < B: continue
-                Fmax = (n - r) // c
-                Fs = ([1] if q == '*' else None)
-                F = 1
-                while F <= Fmax:
-                    ok = (F * comb(c, 2) >= B and F * c * r >= B and
-                          (F == 1 or (F if q % 2 else F // 2) * c * c >= B))
-                    if ok:
-                        L = n - F * c - r
-                        if L != 0:
-                            need = max(-(-B // min(F * c, r)), intra_floor(B))
-                            if L < need: ok = False
-                            elif L < 2 * need: ok = single_part_ok(L, B, p, q, r)
-                            else:
-                                ok = (single_part_ok(L, B, p, q, r)
-                                      or multi_part_ok(L, B, p, q, r))
-                    if ok:
-                        cand.setdefault(n, []).append((p, q, F, c, r, s_this, n - F*c - r))
-                        break
-                    if ok is None:
-                        cand.setdefault(n, []).append((p, q, F, c, r, s_this, 'MULTI-LEFTOVER'))
-                        break
-                    if q == '*': break            # generic branch: F = 1 only
-                    F *= q
-                if n in cand and cand[n] and cand[n][-1][3] == c: break
-print(f"pass 2: {pairs_seen} (c,r,s) pairs, {pairs_live} with nonempty window, "
-      f"{items} (pair, n) checks  ({time.time()-t0:.0f}s)")
-print()
-for n in no_bound: cand.setdefault(n, []).append(('NO-BOUND',))
+            got = fb.pair_candidates(A, n, B, c, r, p)
+            if got:
+                cand.setdefault(n, []).extend(got)
+print(f"        {pairs_seen} (c,r,s) pairs, {pairs_live} with a nonempty window, "
+      f"{items} (pair, n) checks after theorem dispatch  ({time.time()-t0:.0f}s)")
+
+for n in no_bound:
+    cand.setdefault(n, []).append(('NO-LOWER-BOUND',))
 res = sorted(cand)
-print(f"values of n in [6, {NMAX}] UNRESOLVED at B_lo: {len(res)} of {len(ns)}")
-inrange = [n for n in res if n <= 2007]
-print(f"  of which n <= 2007 (settled by the true table already): {len(inrange)}")
-print(f"  genuinely new unresolved (2008 <= n <= {NMAX}): {len(res) - len(inrange)}")
-for n in res:
-    if n > 2007:
-        print(f"    n={n:6d} B_lo={Blo[n]:9d} d_lo={2*Blo[n]/(n*(n-1)):.4f}  {cand[n][:2]}")
+tot = len(ns) + len(no_bound)
 print()
-ok = len(ns) - len(res)
-print(f"COLLAPSE CERTIFIED at {ok} of {len(ns)} values ({100*ok/len(ns):.2f}%) in [6, {NMAX}]")
-print("using only proven lower bounds; unresolved values need the true B(n), and are")
-print("not counterexamples -- at every n <= 2007 the true-table certificate already passes.")
+print(f"UNRESOLVED at B_lo: {len(res)} of {tot}")
+for n in res:
+    print(f"    n={n:6d} B_lo={Blo[n]:9d} d_lo={2*Blo[n]/(n*(n-1)):.4f}  {cand[n][:2]}")
+print()
+ok = tot - len(res)
+print(f"COLLAPSE CERTIFIED at {ok} of {tot} values ({100*ok/tot:.2f}%) in [6, {NMAX}]")
+print("from proven lower bounds alone.  Unresolved values need the true B(n) and")
+print("are not counterexamples; at every n <= 2007 the true-table certificate agrees.")
