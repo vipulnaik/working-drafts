@@ -1,6 +1,6 @@
 # The arithmetic of the density ladder
 
-*Supplement to `orbital-evasiveness-notes.md` and `enumeration-proof.md`. Where those two ask what μ(n) is and prove that the enumeration computes it, this one asks **which arithmetic conditions on n control the answer**, sets up the Hardy–Littlewood and Bateman–Horn machinery that governs them, and checks the predictions against the 1,672 exactly computed values. Written after the exact values became available, which changes the picture: statements that used to be conjectures about a construction menu can now be tested against μ itself.*
+*Supplement to `orbital-evasiveness-notes.md` and `enumeration-proof.md`. Where those two ask what μ(n) is and prove that the enumeration computes it, this one asks **which arithmetic conditions on n control the answer**, sets up the Hardy–Littlewood and Bateman–Horn machinery that governs them, and checks the predictions against the 1,848 exactly computed values. Written after the exact values became available, which changes the picture: statements that used to be conjectures about a construction menu can now be tested against μ itself.*
 
 **Status labels as in the other documents.** *Verified* — an independent computation agreed. *Sound* — argued and read, no independent computation. *Heuristic* — a singular-series prediction, i.e. conditional on Hardy–Littlewood or Bateman–Horn.
 
@@ -18,7 +18,7 @@ Everything else in this document elaborates that split. Three consequences set t
 
 1. **The density ladder's thresholds are the engine caps, not artefacts.** 1/2 and 1/3 are fused-class values at F = 2 and F = 3; **1/4 is the two-part cap; 1/9 is the three-part cap; 1/16 is the four-part cap.** The thresholds that appear throughout the other two documents — δ₀^even = 1/4, Theorem E.1's 1/9, Corollary F.3's 1/16 — are all the same quantity read at different k.
 2. **The parity asymmetry is multiplicative in origin, not additive.** Even n has 2 | n, so F = 2 is available whenever n/2 is a prime power, giving density 1/2. Odd n has F ≥ 3, capping the multiplicative engine at 1/3; and its two-part route needs the *even* part to be a power of 2, which is scarce. This is the correct version of a claim earlier drafts got half-right (§5).
-3. **The odd-n ceiling splits by residue class mod 12** — 1/9 on n ≡ 1, 9; ≈ 0.0858 on n ≡ 3, 7; ≈ 0.0718 on n ≡ 5, 11 — from local obstructions at ℓ = 2 and ℓ = 3, each met by the constructions to within 2%. These supersede the older ladder constant 0.049, which was the ceiling of a *different* family (one p-block plus two foreign primes) that the enumeration selects exactly once in 1,672 values.
+3. **The odd-n ceiling splits by residue class mod 12** — 1/9 on n ≡ 1, 9; ≈ 0.0858 on n ≡ 3, 7; ≈ 0.0718 on n ≡ 5, 11 — from local obstructions at ℓ = 2 and ℓ = 3, each met by the constructions to within 2%. These supersede the older ladder constant 0.049, which was the ceiling of a *different* family (one p-block plus two foreign primes) that the enumeration selects exactly once in 1,848 values.
 4. **The multiplicative engine covers a density-zero set, so asymptotically the additive engine is everything.** The fraction of n with ω(n) = 2 thins like log log n / log n — measured at 52% below 2000 but 29% near 10⁶. So the asymptotic behaviour of μ is governed entirely by the Hardy–Littlewood side, and the observed density floor should be expected to drift downward as the fused family's reach recedes.
 
 ---
@@ -35,9 +35,9 @@ Two things follow immediately. Since a fused class needs F ≥ q ≥ 2, the engi
 
 To maximise, take F to be the **smallest prime-power cofactor** of n — the least F such that F and n/F are both prime powers.
 
-> *Verified.* Over all 678 one-part winners in the table, the predicted density 1/F agrees with the computed value to O(1/n), with no exceptions. By F: 184 rows at F = 2 with median density 0.4994, 137 at F = 3 with median 0.3325, 105 at F = 4 with 0.2491, 88 at F = 5 with 0.1991, 62 at F = 7 with 0.1419, 39 at F = 9 with 0.1102. Maxima 0.49975, 0.33300, 0.24960, 0.19960, 0.14240, 0.11060 against 1/F = 0.5, 0.3333, 0.25, 0.2, 0.1429, 0.1111.
+> *Verified.* Over all 733 one-part winners in the table, the predicted density 1/F agrees with the computed value to O(1/n), with no exceptions. By F: 184 rows at F = 2 with median density 0.4994, 137 at F = 3 with median 0.3325, 105 at F = 4 with 0.2491, 88 at F = 5 with 0.1991, 62 at F = 7 with 0.1419, 39 at F = 9 with 0.1102. Maxima 0.49977, 0.33300, 0.24960, 0.19960, 0.14240, 0.11060 against 1/F = 0.5, 0.3333, 0.25, 0.2, 0.1429, 0.1111.
 
-> *Verified.* All 678 one-part winners have ω(n) = 2, and **no** value with ω(n) ≥ 3 has a one-part winner. Of the 960 table values with ω(n) = 2, 678 are one-part winners and the other 282 do better with a split.
+> *Verified.* All 733 one-part winners have ω(n) = 2, and **no** value with ω(n) ≥ 3 has a one-part winner. Of the 1,045 table values with ω(n) = 2, 733 are one-part winners and the other 312 do better with a split.
 
 **Why fusion is worth a factor of F.** F *unfused* equal parts of size c give min(C(c,2), c²) = C(c,2) ≈ n²/(2F²), density 1/F². Fusing them replaces the mutual capping by a single intra term F·C(c,2), density 1/F. So fusion buys exactly F, which is why reduction (R1) of the proof document — merge equal-size classes when F₁ + F₂ is a q-power — is the single most valuable simplification in the search, and why the enumeration's winners are so often a single fused class.
 
@@ -47,7 +47,7 @@ For k unfused parts of sizes sᵢ summing to n, the between-orbit classes sᵢs�
 
 > **k parts ⟹ δ < 1/k²**, and the bound is saturated by balanced parts.
 
-> *Verified, and tight.* Maximum observed density is 0.24926 among two-part winners and 0.11037 among three-part winners; **no two-part winner exceeds 1/4 and no three-part winner exceeds 1/9**, over 793 and 201 rows respectively. Medians 0.1985 and 0.0915.
+> *Verified, and tight.* Maximum observed density is 0.24939 among two-part winners and 0.11037 among three-part winners; **no two-part winner exceeds 1/4 and no three-part winner exceeds 1/9**, over 875 and 240 rows respectively. Medians 0.1985 and 0.0915.
 
 So the ladder of thresholds is one sequence: 1/4, 1/9, 1/16 at k = 2, 3, 4. The 1/9 above which Theorem E.1 settles the collapse, and the 1/16 above which Corollary F.3 gives k ≤ 3, are not independently chosen constants; they are the points at which the next part count becomes possible.
 
@@ -59,7 +59,7 @@ So the ladder of thresholds is one sequence: 1/4, 1/9, 1/16 at k = 2, 3, 4. The 
 | two parts | n = c + r\*, c a prime power, r prime | ≤ 1/4 | 793 rows |
 | three parts | n = 2c + r\*, c a prime power, r prime | ≤ 1/9 | 201 rows |
 
-> *Verified.* Every one of the 321 table values with density above 1/4 has ω(n) = 2 and a one-part winner. Maximum density over all 712 values with ω(n) ≥ 3 is 0.2493 — the two-part cap.
+> *Verified.* Every one of the 347 table values with density above 1/4 has ω(n) = 2 and a one-part winner. Maximum density over all 803 values with ω(n) ≥ 3 is 0.2493 — the two-part cap.
 
 **So density above 1/4 is a purely multiplicative phenomenon**, and everything at or below it is additive and therefore Hardy–Littlewood.
 
@@ -117,7 +117,7 @@ Two caveats, both real.
 
 Odd n cannot use a balanced two-part split: c + r odd forces one part even, and an even prime foreign part must be 2, which is useless. So the even part would have to be the p-characteristic one, i.e. c = 2^a, leaving only ~log₂n candidate splits. That route is genuinely scarce.
 
-The route that avoids it is **three parts with two equal p-characteristic blocks**: n = 2c + r with c an odd prime power and r an odd prime, all parts odd. This is what the enumeration overwhelmingly finds — **200 of the 201 three-part winners** have exactly this shape — and it is *not* the family §5 of the notes analyses (see §3.3). Balancing gives the cap 1/9 at c ≈ r ≈ n/3.
+The route that avoids it is **three parts with two equal p-characteristic blocks**: n = 2c + r with c an odd prime power and r an odd prime, all parts odd. This is what the enumeration overwhelmingly finds — **200 of the 240 three-part winners** have exactly this shape — and it is *not* the family §5 of the notes analyses (see §3.3). Balancing gives the cap 1/9 at c ≈ r ≈ n/3.
 
 **Full efficiency is obstructed locally, and the obstructions split the ceiling by residue class.** Efficiency e = 1 requires the foreign twist to have order (r−1)/2, which Lemma B′ forces to be a power of q — so (r−1)/2 must be a prime power, the clean case being r a safe prime. Which n admit that is computed in §3.3. Re-optimising δ(x) at reduced efficiency gives the other ceilings in closed form:
 
@@ -165,6 +165,16 @@ The fused family requires ω(n) ≤ 2, which is a **density-zero condition**: th
 
 > *Verified.* Fraction of composite non-prime-power n with ω(n) = 2, by dyadic block: **52.3%** on [10³, 2·10³), 43.1% on [5·10³, 10⁴), 35.0% on [5·10⁴, 10⁵), 29.8% on [5·10⁵, 10⁶), 28.5% on [10⁶, 2·10⁶).
 
+**The prediction has begun to show up in the table, on both of its halves.** Extending the computed range to n = 2212 moved the density floor off n = 575 for the first time — the new minimum is **0.041107 at n = 2183** — and the thirds of the range behave as the argument requires:
+
+| n | ω(n) = 2 share | median smallest cofactor F | min density |
+|---|---|---|---|
+| [6, 800) | 64.9% | 4 | 0.04181 |
+| [800, 1500) | 53.6% | 5 | 0.04229 |
+| [1500, 2212) | 50.8% | **7** | **0.04111** |
+
+Two effects, not one. The ω(n) = 2 population thins, as predicted; and **among the values that remain, the smallest prime-power cofactor grows**, so the 1/F the multiplicative engine delivers shrinks even where the engine applies. n = 2183 = 37·59 is the illustration: ω(n) = 2, so a fused class exists, but only at F = 37, worth 1/37 ≈ 0.027 — which loses to the three-part configuration 1297\* + 443 + 443 at 0.041107. That configuration is itself unbalanced, x = c/n = 0.2029 against the balance point 0.2679 for its class (2183 ≡ 11 mod 12, the ℓ = 3 class), and its binding term is x² = 0.041181, matching B exactly. So the new floor is a value where **both engines are weak at once**: the multiplicative one available but expensive, the additive one locally obstructed and with no balanced representation on offer.
+
 Two consequences, and both should temper how the computed range is read.
 
 **The observed density floor should drift downward.** Fully 57% of the current table has ω(n) = 2, so more than half the computed values are served by an engine whose reach halves over the next few decades of n. The floor of 0.0418 at n = 575, and the median of 0.1995, are both propped up by a population that thins.
@@ -175,7 +185,7 @@ Two consequences, and both should temper how the computed range is read.
 
 ## 5. What this says about the open problems
 
-**Open Problem 2** needs restating, per §3.3. Its constant δ₀^odd ≈ 0.049 is the ceiling of the three-block chain family, which the enumeration selects exactly once in 1,672 values; the family that actually serves odd n caps at **1/9 for n ≡ 1 (mod 4)** and **≈ 0.0858 for n ≡ 3 (mod 4)**. So the problem is not to beat 0.049 — that is already done, subject to the local-solubility check §3.3 flags — but to **exceed 1/9 strictly**, which is what Theorem E.1 needs and which the 2c + r family approaches without attaining. Per §2.1 the place to look is fusion, which beats splitting by a factor of F; the target is a configuration that fuses at odd n more aggressively than n = 3·(prime power) allows. That is a mechanism question, and §3.4 explains why more Hardy–Littlewood input cannot substitute.
+**Open Problem 2** needs restating, per §3.3. Its constant δ₀^odd ≈ 0.049 is the ceiling of the three-block chain family, which the enumeration selects exactly once in 1,848 values; the family that actually serves odd n caps at **1/9 for n ≡ 1 (mod 4)** and **≈ 0.0858 for n ≡ 3 (mod 4)**. So the problem is not to beat 0.049 — that is already done, subject to the local-solubility check §3.3 flags — but to **exceed 1/9 strictly**, which is what Theorem E.1 needs and which the 2c + r family approaches without attaining. Per §2.1 the place to look is fusion, which beats splitting by a factor of F; the target is a configuration that fuses at odd n more aggressively than n = 3·(prime power) allows. That is a mechanism question, and §3.4 explains why more Hardy–Littlewood input cannot substitute.
 
 **Open Problem 9(a) (k ≤ 3)** is the statement that the four-part cap 1/16 is never the best available. By §2.2 the four-part family is only in play below density 1/16, and by §2.3 that means ω(n) ≥ 3 and no good two- or three-part representation — a triple coincidence whose predicted frequency is the natural next computation. Note that the revised odd-n ceilings of §3.2 are both **above** 1/16, so on that footing the residue is closed for odd n as well as even, leaving only the local-solubility gap.
 

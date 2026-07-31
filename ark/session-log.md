@@ -228,3 +228,21 @@ Run as `consume_gap.py --infile groups_out.txt --maxt 8 --procs 8`. Log and `ckp
 **Consequence: A5 was promoted to gate A1.** Stage 3 exists only to build the containment-order matrix; if the §8.4 EGF route computes χ without it, the whole cost is avoidable. That decision should precede any relaunch.
 
 **Correction to the ledger's dedup figure.** It recorded "44 of 425 conditions dropped (10.4%)". This run shows 59 kept before against 227 now — but the old run used `maxgroups = 40` and this one 200, so **59 → 227 is confounded with the flag change and is not a measure of the dedup fix**. The clean figure from this log is that **2,063 of 2,293 groups impose an already-present condition, leaving 230 distinct**. Re-deriving the old battery's dedup rate at matched flags would settle it, and has not been done.
+
+---
+
+## Table extended to n = 2212 (1,848 values)
+
+All 1,848 rows independently re-derived: **0 violations**, `certified` and `fallback` clean throughout, `fallback_cert.py` certifies with 0 candidates. Structure holds — still five winning shapes with no sixth (818 / 733 / 239 / 57 / 1), still **max 3 parts**, still exactly one two-foreign winner at n = 1175.
+
+**The one piece of news: the density floor moved.** It had sat at 0.041812 (n = 575) for the whole programme; the new minimum is **0.041107 at n = 2183**. This is the first sign of the drift `arithmetic-of-density.md` §4 predicts, and it shows up on **both** halves of that argument:
+
+| n | ω(n) = 2 share | median smallest cofactor F | min density |
+|---|---|---|---|
+| [6, 800) | 64.9% | 4 | 0.04181 |
+| [800, 1500) | 53.6% | 5 | 0.04229 |
+| [1500, 2212) | 50.8% | 7 | 0.04111 |
+
+The ω = 2 population thins, *and* among survivors the smallest prime-power cofactor grows, so 1/F shrinks even where the multiplicative engine applies. n = 2183 = 37·59 is the worked case: fused available only at F = 37 (worth 0.027), beaten by the three-part 1297\* + 443 + 443 at 0.041107 — itself unbalanced at x = 0.2029 against the 0.2679 balance point for its class (2183 ≡ 11 mod 12, the ℓ = 3 obstruction class), with binding term x² matching B exactly. Both engines weak at once.
+
+Range figures refreshed in `enumeration-proof.md` (Part I distributions, shapes, floor, and Theorem E.1 coverage now 1,390 of 1,848 = 75.2%).
