@@ -51,3 +51,57 @@
 21:54:24  stage 3: 128 VF2 calls done, 60082 pairs left (6992s)
 22:22:41  stage 3: 256 VF2 calls done, 58898 pairs left (8689s)
 22:34:22  stage 3: 384 VF2 calls done, 58152 pairs left (9390s)
+17:33:11  detected n = 12 (66 pairs)
+17:33:12  stage 1: dedup by pynauty canonical orbital partition; 2063 groups impose a condition already present, 230 distinct (partition, prime) conditions
+17:33:12  stage 1: SELECTION CHANGED -> rebuilding all downstream checkpoints
+17:33:12    (old checkpoint predates flag recording; rebuild is expected once)
+17:33:12  stage 1: 2293 raw -> 227 kept (200 Oliver, 27 p-groups)  sig=c63bb8a8d146d46c
+17:33:12  stage 2: 5/227 groups, 12 classes
+17:33:12  stage 2: 10/227 groups, 32 classes
+17:33:12  stage 2: 15/227 groups, 50 classes
+17:33:12  stage 2: 20/227 groups, 60 classes
+17:33:12  stage 2: 25/227 groups, 70 classes
+17:33:12  stage 2: 30/227 groups, 86 classes
+17:33:13  stage 2: 35/227 groups, 88 classes
+17:33:16  stage 2: 40/227 groups, 120 classes
+17:33:18  stage 2: 45/227 groups, 126 classes
+17:33:23  stage 2: 50/227 groups, 174 classes
+17:33:26  stage 2: 55/227 groups, 226 classes
+17:33:26  stage 2: 60/227 groups, 258 classes
+17:33:27  stage 2: 65/227 groups, 282 classes
+17:33:30  stage 2: 70/227 groups, 282 classes
+17:33:30  stage 2: 75/227 groups, 298 classes
+17:33:30  stage 2: 80/227 groups, 324 classes
+17:33:30  stage 2: 85/227 groups, 380 classes
+17:33:30  stage 2: 90/227 groups, 444 classes
+17:33:30  stage 2: 95/227 groups, 576 classes
+17:33:31  stage 2: 100/227 groups, 618 classes
+17:33:31  stage 2: 105/227 groups, 690 classes
+17:33:33  stage 2: 110/227 groups, 754 classes
+17:33:33  stage 2: 115/227 groups, 754 classes
+17:33:33  stage 2: 120/227 groups, 768 classes
+17:33:33  stage 2: 125/227 groups, 800 classes
+17:33:34  stage 2: 130/227 groups, 808 classes
+17:33:34  stage 2: 135/227 groups, 888 classes
+17:33:35  stage 2: 140/227 groups, 944 classes
+17:33:36  stage 2: 145/227 groups, 990 classes
+17:33:37  stage 2: 150/227 groups, 1022 classes
+17:33:37  stage 2: 155/227 groups, 1064 classes
+17:33:37  stage 2: 160/227 groups, 1162 classes
+17:33:37  stage 2: 165/227 groups, 1174 classes
+17:33:37  stage 2: 170/227 groups, 1320 classes
+17:33:37  stage 2: 175/227 groups, 1350 classes
+17:33:38  stage 2: 180/227 groups, 1414 classes
+17:33:39  stage 2: 185/227 groups, 1678 classes
+17:33:39  stage 2: 190/227 groups, 1842 classes
+17:33:39  stage 2: 195/227 groups, 1878 classes
+17:33:40  stage 2: 200/227 groups, 1926 classes
+17:33:46  stage 2: 205/227 groups, 1972 classes
+17:33:46  stage 2: 210/227 groups, 1972 classes
+17:33:47  stage 2: 215/227 groups, 1972 classes
+17:33:49  stage 2: 220/227 groups, 2080 classes
+17:33:52  stage 2: 225/227 groups, 2198 classes
+17:33:53  stage 2: 227/227 groups, 2212 classes
+17:33:53  stage 2 complete: 2212 classes
+17:33:55  stage 3: seeds -- 62104 free containments; 3611205 invariant/size exclusions
+17:33:56  stage 3: after inference, 1018719 of 4890732 ordered pairs need VF2 (20.8%)
