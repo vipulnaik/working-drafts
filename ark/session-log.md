@@ -182,3 +182,29 @@ Created to hold the Hardy–Littlewood / Bateman–Horn side and the density imp
 **Correction recorded.** Earlier in the session I called the old §5.5 mechanism claim (odd n need n = 2^a + r) *false* and replaced it. It is **correct but incompletely scoped** — binding for odd n with ω(n) ≥ 3 using two parts, which is the weak tail: of the 150 such values, 53 use two parts and 28 have exactly the predicted 2-power block, median density 0.0957 at the three-part cap. My refutation measured over all strong odd n, 444 of whose 548 have ω(n) = 2 and use the multiplicative engine. Both main documents now carry the scoped version.
 
 **Process note.** The first attempt to add the cross-references failed silently: a script printed "ok" for an edit, then aborted on a later bad assertion *before* the file write, so none of the edits landed while the log read as success. Writes must be verified by re-reading the file, not by the absence of a traceback — this is the second instance of the same failure mode this session.
+
+---
+
+## The arithmetic supplement, and the odd-n revision
+
+**New document `arithmetic-of-density.md`** and **new script `local_solubility.py`**.
+
+**Thesis, verified against the table before being written.** Two engines: *multiplicative* — a single fused class, n = F·c with both factors prime powers, density exactly **1/F**, matched to O(1/n) at all 678 one-part winners and available only when ω(n) ≤ 2; *additive* — k balanced parts, density **1/k²**, tight, with zero two-part winners above 1/4 and zero three-part above 1/9. Fusion beats splitting by a factor of F. Density above 1/4 is purely multiplicative (all 321 such values have ω(n) = 2). The multiplicative engine covers a density-zero set, thinning like log log n / log n (52.3% of values on [10³, 2·10³) but 28.5% on [10⁶, 2·10⁶)), so it props up 57% of the present table and vanishes asymptotically.
+
+**§5's odd-n family was the wrong one.** The three-block chain n = m + r + s with two foreign primes, whose ceiling 0.0486 gave δ₀^odd ≈ 0.049, has shape (1 p-block, 2 foreign) — which the enumeration selects **exactly once in 1,672 values** (n = 1175). The family that actually serves odd n is **n = 2c + r**, two equal p-blocks plus one foreign prime, 200 of 201 three-part winners. §5 missed it because it took the three blocks to be distinct primes each carrying its own twist; two equal blocks twist *diagonally* and need no coprimality between them (Lemma C's diagonal exemption).
+
+**The new ceilings, by residue class**, from `local_solubility.py`. For odd ℓ the forbidden residues are r ≡ 0, 1, n, so only **ℓ = 3** can be fatal, exactly at n ≡ 2 (mod 3); at ℓ = 2 full efficiency needs r ≡ 3 (mod 4), which keeps c odd only when n ≡ 1 (mod 4).
+
+| n mod 12 | efficiency | ceiling | observed max | ratio |
+|---|---|---|---|---|
+| 1, 9 | 1 | 1/9 = 0.11111 | 0.11037, 0.11019 | 0.993, 0.992 |
+| 3, 7 | 1/2 | 1/(2+√2)² = 0.08579 | 0.08565, 0.08496 | 0.998, 0.990 |
+| 5, 11 | 1/3 | 0.07180 | 0.07043, 0.07058 | 0.981, 0.983 |
+
+So **δ₀^odd ≈ 0.0718 uniformly, 1/9 on n ≡ 1, 9 (mod 12)** — against the old 0.049. The ℓ = 3 obstruction has a **sparse escape** (if (r−1)/2 or c is a power of 3, full efficiency returns), which lifts n ≡ 5 (mod 12) to 0.10975 in range — but 22 of those 35 rows use the same prime r = 487 with (r−1)/2 = 243 = 3⁵, so it is a range artifact supplying O(log n) candidates, not a mechanism.
+
+**Bateman–Horn window validity** (asked directly): the density δ(x) is continuous with an interior maximum, so requiring δ ≥ δ₀ strictly below the cap confines x to an interval of *positive* length (relative width 0.031–0.052 at 90% of cap). That is the standard Hardy–Littlewood regime, not a short-interval problem; no Montgomery–Vaughan-type input is needed. Two caveats: approaching the cap costs a factor Θ(√ε) in the count, and exact balance is arithmetically impossible anyway since r ≠ p is required.
+
+**Corrections to my own earlier claims this session.** (i) I called the old §5.5 mechanism claim *false*; it is **correct but incompletely scoped** — binding for odd n with ω(n) ≥ 3 using two parts, which is the weak tail. (ii) I then said δ₀^odd = 1/9; that holds on only a third of odd residues, and the local-solubility algorithm was needed to find the ℓ = 3 obstruction I had missed.
+
+**Process.** Two more scripts aborted before their write while printing "ok" for earlier edits in the same run. Writes are now verified by re-reading the file and asserting on content.
