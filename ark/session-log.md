@@ -208,3 +208,23 @@ So **δ₀^odd ≈ 0.0718 uniformly, 1/9 on n ≡ 1, 9 (mod 12)** — against th
 **Corrections to my own earlier claims this session.** (i) I called the old §5.5 mechanism claim *false*; it is **correct but incompletely scoped** — binding for odd n with ω(n) ≥ 3 using two parts, which is the weak tail. (ii) I then said δ₀^odd = 1/9; that holds on only a third of odd residues, and the local-solubility algorithm was needed to find the ℓ = 3 obstruction I had missed.
 
 **Process.** Two more scripts aborted before their write while printing "ok" for earlier edits in the same run. Writes are now verified by re-reading the file and asserting on content.
+
+---
+
+## The n = 12 battery rebuild (A1), first run
+
+Run as `consume_gap.py --infile groups_out.txt --maxt 8 --procs 8`. Log and `ckpt_groups.pkl` / `ckpt_catalog.pkl` on file.
+
+**What worked.** Stage 1 detected the changed selection signature and deleted all downstream checkpoints by itself — the predicted behaviour, no manual cleanup needed. Stage 2 completed in ~40 s: **2,293 raw → 230 distinct (partition, prime) conditions → 227 kept, 2,212 catalogue classes**.
+
+**μ(12) = 18 survives the corrected dedup.** m\* = 18 is attained by **3 distinct conditions** — the 8 groups previously reported at {18, 48} collapsing to 3 genuinely distinct orbital partitions. The Oliver m\* distribution over the kept 200 is {1: 56, 2: 29, 3: 45, 4: 17, 5: 7, 6: 34, 7: 2, 10: 1, 11: 2, 12: 4, 18: 3}.
+
+**Two problems found, both recorded in `pending-checks.md` A1.**
+
+*The battery was silently truncated.* `--maxgroups` defaults to 200; stage 1 found 203 distinct Oliver conditions; `sel = ol[:maxgroups] + pg` dropped 3. Sorted by `(-mstar, t)`, so the casualties are lowest-m\* — harmless for reading off μ(12), but the battery feeds the Smith/χ computation where each condition is a constraint, so a positive verdict from a truncated battery would not be quotable. My commands block had omitted `--maxgroups`, which is what let the default bite.
+
+*Stage 3 is a multi-week run.* Classes 600 → 2,212 and VF2-needed pairs 74,213 → **1,018,719 (13.7×)**. From the old logs: 2,176 VF2 calls, 30,002 s, 16,061 pairs resolved → **7.4 pairs/call at 13.8 s/call**, with yield decaying 13.5 → 3.6 → 5.4 as easy pairs are consumed. Extrapolation: 22 days at the early rate, 33–41 days at the late rate. The old battery never finished either — four sessions took it 22% of the way.
+
+**Consequence: A5 was promoted to gate A1.** Stage 3 exists only to build the containment-order matrix; if the §8.4 EGF route computes χ without it, the whole cost is avoidable. That decision should precede any relaunch.
+
+**Correction to the ledger's dedup figure.** It recorded "44 of 425 conditions dropped (10.4%)". This run shows 59 kept before against 227 now — but the old run used `maxgroups = 40` and this one 200, so **59 → 227 is confounded with the flag change and is not a measure of the dedup fix**. The clean figure from this log is that **2,063 of 2,293 groups impose an already-present condition, leaving 230 distinct**. Re-deriving the old battery's dedup rate at matched flags would settle it, and has not been done.

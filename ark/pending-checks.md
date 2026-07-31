@@ -24,13 +24,15 @@ python3 wide_cert.py 100000                                                 # sa
 
 ```bash
 # A1 + A2  rebuild the n = 12 battery with the corrected dedup key.
-#          Stage-3 VF2 sampling is automatic (--verify, default 3000), so A2 needs no separate run.
-#          NO manual cleanup is needed: the corrected dedup changes which groups survive,
-#          hence the selection signature, and stage 1 deletes ckpt_groups/catalog/order itself.
-#          Do NOT pre-delete them -- if the signature happens to match, that is information.
-python3 consume_gap.py --infile groups_out.txt --maxt 8 --procs 8
+#   --maxgroups IS REQUIRED.  It defaults to 200 and silently truncates: the run of
+#   2026-07 found 203 distinct Oliver conditions and kept only 200 (see A1 below).
+#   Stage-3 VF2 sampling is automatic (--verify, default 3000), so A2 needs no separate run.
+#   No manual cleanup: changing any flag changes the selection signature and stage 1
+#   deletes ckpt_groups/catalog/order itself.  Do NOT pre-delete them.
+#   READ A5 FIRST -- stage 3 at full size is a multi-week run and may not be needed at all.
+python3 consume_gap.py --infile groups_out.txt --maxgroups 1000 --maxt 8 --procs 8
 
-# before that, check whether groups_out.txt predates the multi-top-prime change to ark_gap.g:
+# check whether groups_out.txt predates the multi-top-prime change to ark_gap.g:
 awk -F'|' '$3 ~ /\+/' groups_out.txt | wc -l     # 0 => either pre-change, or no group has two usable q
 
 # A3  involution pressure points. Needs the complements of 393, 401, 405 (38 edges) and of the
@@ -46,7 +48,7 @@ python3 probe_backbone.py --classes <the 54 CAP ids> --nodecap 20000000
 
 - **A7** (dedup-collision audit at n = 10) has no CLI entry point — the n = 12 measurement was ad hoc. It also needs `groups_out.txt` for n = 10, which is not in the working set.
 - **A4**'s class list is not recorded anywhere machine-readable; it must be re-extracted from the probe record before the command above can be run.
-- **A5** is a design decision about how to compute S at n = 12, not a run.
+- **A5** is a design decision about how to compute S at n = 12, not a run — **and it now gates A1**, because it determines whether stage 3 is needed at all.
 
 ## Open mathematical questions
 
@@ -56,7 +58,17 @@ Not repeated here. The two arithmetic residues are Open Problem 9 of the notes a
 
 ## A. Runs pending
 
-**A1. Rebuild the n = 12 battery with the corrected dedup key.** `consume_gap.py`'s stage-1 key was an incomplete invariant used to discard groups; it is now a canonical form of the orbital partition. Because the selection signature changes, a bare rerun will detect the mismatch and rebuild stages 1–3 automatically. Expected effect at n = 12: the battery grows from 381 to 425 distinct (partition, prime) conditions, and at `--maxt 8` from 205 to 230. Cost: stage 2 and stage 3 rerun. **Nothing downstream of the old key should be quoted as a verdict until this has run**, because a dropped condition can only turn a real UNSAT into SAT.
+**A1. Rebuild the n = 12 battery with the corrected dedup key.** `consume_gap.py`'s stage-1 key was an incomplete invariant that merged inequivalent orbital partitions; the corrected key is a pynauty canonical form on a layered graph. The battery must be rebuilt before any n = 12 verdict is quoted.
+
+*State as of the 2026-07 run (log and checkpoints on file).* Stage 1 rebuilt correctly on the signature change with no manual cleanup, and stage 2 completed: **2,293 raw → 230 distinct (partition, prime) conditions → 227 kept (200 Oliver + 27 p-groups), 2,212 catalogue classes**. μ(12) = 18 survives: m\* = 18 is attained by **3 distinct conditions**, which is the previously reported 8 groups collapsing under the corrected dedup. Stage 3 then reported **1,018,719 of 4,890,732 ordered pairs needing VF2 (20.8%)**.
+
+> **Two problems with that run, both to fix before repeating it.**
+>
+> **(i) The battery was truncated.** `--maxgroups` defaults to **200** and stage 1 found **203** distinct Oliver conditions, so `sel = ol[:maxgroups] + pg` silently dropped **3**. The sort is `(-mstar, t)`, so the casualties are the lowest-m\* conditions — harmless for μ(12) = 18, which reads off the top, but the battery feeds the Smith/χ computation where every condition is a constraint. Dropping constraints makes the system easier to satisfy, so a negative verdict would survive but a positive one would not be quotable. **Always pass `--maxgroups 1000`.**
+>
+> **(ii) Stage 3 at full size is a multi-week run.** The old 600-class battery needed 74,213 VF2 pairs; the new 2,212-class battery needs **1,018,719 — 13.7×**. Measured from the logs across three resumed sessions: **2,176 VF2 calls, 30,002 s, 16,061 pairs resolved → 7.4 pairs/call at 13.8 s/call**, with the yield decaying as the easy pairs go first (13.5 → 3.6 → 5.4). Extrapolating: **22 days** at the early rate, **33–41 days** at the late rate. For reference the *old* battery never finished either — four sessions took it from 74,213 to 58,152, about 22% through.
+>
+> Levers, in order of preference: **settle A5 first**, since the EGF route may make stage 3 unnecessary; failing that, `--maxt 6` drops the t = 7 and t = 8 groups (44 + 58 of 227) and cuts pairs to roughly 30%, still about a week and a weaker battery.
 
 **A2. Stage-3 sample verification at n = 12** — *now automatic, folded into the A1 run.* Now automatic (`--verify`, default 3000 random ordered pairs re-decided by VF2). The n = 10 acceptance test was bit-identical agreement with an archived full-VF2 reference; there is no such reference at any other degree, and roughly 80% of ordered pairs are settled by inference alone. Until this passes, the n = 12 order matrix is an unchecked implementation of checked rules.
 
@@ -70,6 +82,8 @@ The practical corollary of the theorem — probe one representative per compleme
 **A4. Re-probe the 54 CAP classes at a larger node budget.** They sit at 12–36 edges, concentrated at 24, 28, 30, 33, 34, i.e. through the middle of the free band. A CAP class is *not* free. The log shows `--nodecap` was already raised from 5×10⁶ to 2×10⁷ partway through the sweep, so the earlier CAPs may resolve without a new idea. Until then no statement of the form "the band is free from 11 to 34 edges" is supported.
 
 **A5. Decide how S will be computed at n = 12 before the CSP verdict arrives.** `chi_test.py` enumerates the full down-closure with a canonicalisation per node: 64,333 classes and about 60 s at n = 10, against `--cap 5000000`. At n = 12 the ambient count is 1.65 × 10¹¹ iso classes and the closure of an 18-edge-or-larger generator set may well exceed the cap. The global χ test is the only test that has actually killed anything, so losing it at n = 12 would be a real loss. The alternative is the §8.4 route — exponential formula over signed connected-component weights, two-sort EGF for bipartite components — which computes S without enumerating the closure. This is a design decision, not a bug.
+
+> **Promoted: this now gates A1.** The 2026-07 run showed stage 3 of `consume_gap.py` — the containment-order matrix — projecting to 22–41 days at the corrected battery size. Stage 3 exists to supply that order matrix. So the question is not merely *how* to compute S but **whether the order matrix is needed at all**: if the §8.4 EGF route computes χ without it, weeks of stage 3 are avoidable. Decide this before relaunching A1, and if the EGF route wins, consider whether `consume_gap.py` should gain a `--stop-after 2` flag so the battery can be built without entering stage 3.
 
 **A6. Rerun `fallback_cert.py` whenever the table extends.** It is a per-n check, not a theorem: `python3 fallback_cert.py mu_table_safe_v2.csv` belongs in the routine after every batch of new values. It currently certifies all 1,672 with 0 inconclusive cases, and reports how many are settled by the δ > 1/9 theorem alone (1,275, i.e. 76.3%) versus by the exhaustive search (397, every one of them because δ ≤ 1/9 rather than because a Mersenne cap binds). Two things would retire it: a proof that δ is bounded below (the ladder does this conditionally, which forces s = 1 and lets the Cap(a) argument finish), or a general domination argument for the fallback.
 
