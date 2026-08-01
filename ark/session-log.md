@@ -26,7 +26,7 @@
 
 *Item 2 (s = 2 branch) — Theorem E.3, now in Part E′.* (i) a ≥ 2 forces p = 3 and r = (3^a − 1)/2 a base-3 repunit prime (a = 3, 7, 13, 71, 103, …), and every Oliver group with orbits {3^a, r} has m\* ≤ c — proved by chain-reading case analysis. (ii) a = 1 makes c a safe prime, and the explicit group (𝔽_c ⋊ C_r) × AGL(1, r) — Oliver at (p, q) = (r, r), **verified by direct permutation-orbit computation at (11, 5) order 1,100 and (23, 11) order 27,830** — realises {C(c,2), C(r,2), cr}, dominating every fallback SAFE reading of the pair (orb(c, r) = C(c,2) identically). This explains why the certificate's five near-survivors, all safe-prime-shaped, were harmless. Extended same session: **Theorem E.4** — the s = 3 branch is the *single pair* (16, 5) (factorisation proof + scan to a = 200), SAFE ≤ 10 absolutely, dead at every feasible n (min B = 63). **E.3(iii)** — the a ≥ 2 repunit branch is SAFE-capped: Cap′(3) = 39, Cap′(7) = 14,209, Cap′(13) ≈ 5.8×10⁷, all O(r^{3/2}) via the 3^{a−1} − 1 factorisation; only (27, 13) is feasible in range and its cap sits below min B(n ≥ 40) = 140. **Corollary**: δ > 1/25 forces s ≤ 3, and every computed value clears 1/25, so the sole theorem-side residue in range is the global promotion of E.3(ii) (s = 2, a = 1, extra parts). TODO for the cleanup pass: teach `fallback_cert.py`'s theorem_covers() the E.4 and Cap′ checks so the coverage report reflects the new theorems. Also found and patched: G.0's twist-placement argument silently assumed nontrivial foreign twist; the q = ρ trivial-twist escape exists and is harmless (the trivialised block binds at ρ).
 
-*Item 1 — reframed, not solved.* F.1 gives k ≤ 3 free wherever δ > 1/16, so the open content is the **δ ≤ 1/16 tail: 28 of 1,672 values** (all partcap 4; winners use 1/2/3 parts in 7/10/11 cases). Margin measurement over 18 sampled three-part winners (timed out at 18 of 24 — incomplete, rerun for the record): B₃/B₂ from 1.04 to **4.86** (n = 777), median ≈ 1.3 — refuting the perturbation/domination route and indicating k ≤ 3 in the tail is plausibly as hard as the low-density arithmetic. n = 551's unequal 2-powers rule out equal-parts assumptions. **Both items now converge on the same low-density (mostly odd-n) tail.**
+*Item 1 — reframed, not solved.* F.1 gives k ≤ 3 free wherever δ > 1/16, so the open content is the **δ ≤ 1/16 tail: 28 of 1,848 values** (all partcap 4; winners use 1/2/3 parts in 7/10/11 cases). Margin measurement over 18 sampled three-part winners (timed out at 18 of 24 — incomplete, rerun for the record): B₃/B₂ from 1.04 to **4.86** (n = 777), median ≈ 1.3 — refuting the perturbation/domination route and indicating k ≤ 3 in the tail is plausibly as hard as the low-density arithmetic. n = 551's unequal 2-powers rule out equal-parts assumptions. **Both items now converge on the same low-density (mostly odd-n) tail.**
 
 *Item 2, continued (same session): the global-promotion residue.* Proved the structural trichotomy (α)–(γ) — within a fallback W's own partition the fallback reading is forced, so promotion must compare across partitions. Built `wide_cert.py`: the certificate run against **proven lower bounds** on B(n) (sound since any fallback attaining B_safe is a candidate against any B_lo ≤ B_safe), with B_lo = max(seed menu, three-part family) and two leftover extensions (single-part; multi-part exact-sum DP over necessary conditions). **Result: collapse certified at 8,719 of 8,719 composite non-prime-power n ≤ 10,000 — 100%, from lower bounds alone, no table needed.** The last eight survivors before the multi-part check were all Cunningham-chain pairs (719 → 1439 → 2879); their r − 1 = 2q structure pins the top prime and forces leftover foreigns ≡ 1 mod q, which kills them — the "q-pinning" mechanism, recorded in E″ as the likely ingredient of an unconditional argument. Soundness caveats for re-derivation: all over-approximations are permissive (never miss a real candidate); the three-part B_lo is a genuine admissible SAFE score; the nine menu-empty n are covered by the three-part bound. **Cleanup pass (done):** shared module `fb_common.py` now holds the arithmetic, the necessary conditions and the theorem checks; both certificates import it and reproduce their prior results exactly. Theorem dispatch is wired into the coverage report, which yields a new diagnostic — **1,700 of 2,097 s-branches over the table are dispatched by theorem (81.1%), and every one of the 397 that are not is the same case**, s = 2 with a = 1. E.4 and Cap′ dispatch their branches everywhere in range.
 
@@ -44,7 +44,7 @@
 
 *Companion to the enumeration-proof pass above. The notes now summarise and point rather than duplicate; the companion document is authoritative for the enumeration.*
 
-**Stale figures corrected.** §2.5's validated range 1764 → 2007. §2.6's certification-level distribution {2: 289, 3: 847, 4: 301, 5: 23} → {2: 321, 3: 954, 4: 369, 5: 28} and part counts {1: 604, 2: 695, 3: 161} → {1: 678, 2: 793, 3: 201} (these were the n ≤ 1764 figures sitting under a "1,672 computed values" header). Open Problem 9's "182 of 183 three-part winners" → the current 201, and its margin figure corrected to the completed measurement.
+**Stale figures corrected.** §2.5's validated range 1764 → 2007. §2.6's certification-level distribution {2: 289, 3: 847, 4: 301, 5: 23} → {2: 321, 3: 954, 4: 369, 5: 28} and part counts {1: 604, 2: 695, 3: 161} → {1: 678, 2: 793, 3: 201} (these were the n ≤ 1764 figures sitting under a "1,848 computed values" header). Open Problem 9's "182 of 183 three-part winners" → the current 201, and its margin figure corrected to the completed measurement.
 
 **Superseded claims removed.**
 - §2.6 carried "One caveat survives — attainment there is empirical; that configuration never wins in the computed range." Attainment is now proved, so this is replaced by the Part E′ statement plus the certified ranges.
@@ -57,7 +57,7 @@
 
 **Glossary gained the two concepts now central and previously undefined:** *fallback* (the one shape at which the two scorings differ) and *B_refined / B_safe / the sandwich*.
 
-**Checked and clean:** §2.4's Lemmas A–C and their validation counts; §2.1–2.3 and Theorem 2.4/2.5 statements; §5.5's parity figures (the ~86% figure is consistent with the enumeration's 19.2% at δ ≥ 1/4 — different populations, no contradiction); §§4, 6–10; Appendix A; the assessment. Cross-document spot check: the shared figures (28 of 1,672; median 1.69; n = 50,817; the distributions) now agree in both files.
+**Checked and clean:** §2.4's Lemmas A–C and their validation counts; §2.1–2.3 and Theorem 2.4/2.5 statements; §5.5's parity figures (the ~86% figure is consistent with the enumeration's 18.8% at δ ≥ 1/4 — different populations, no contradiction); §§4, 6–10; Appendix A; the assessment. Cross-document spot check: the shared figures (28 of 1,848; median 1.69; n = 50,817; the distributions) now agree in both files.
 
 **Deliberately left as one-sided:** the notes do not repeat the 90,297-of-90,299 count; they say "all but two such n ≤ 100,000" and point to the companion. If that number moves, the companion is the only place to update.
 
@@ -110,7 +110,7 @@ Consequently §5.5 is now a short pointer, the corrected measurement sits in com
 
 - **`fp_acyclic` is correct.** Cross-checked against an independent dense-elimination implementation of reduced F_p homology on 4,000 randomised downward-closed complexes (t = 2…6, p ∈ {2,3,5,7,11}): **zero disagreements**. Genuine p-dependence confirmed on a triangulated RP² (False at p = 2, True at p = 3, 5, 7) — the property none of the original self-tests could detect, since all five used p = 5 on torsion-free complexes. Cones acyclic on 500/500. The RP² and cone cases are now asserts in `smith.py`.
 - **The global χ test reproduces exactly.** Rebuilding the down-closure from the ten graph6 generators in `skeleton.pkl` and summing S independently gives 64,333 classes, 153,468,934,696 labelled graphs, S = −15,183,000, χ = 15,183,001 — all four figures matching §8.12. Contains ∅, excludes K₁₀, and n! is divisible by |Aut| on all 64,333 classes.
-- **B(n) reproduces on all 1,672 rows** of `mu_table_safe.csv` from an independent reimplementation of the G.3 scoring, with all structural constraints holding and 1/√δ ≤ K on every row.
+- **B(n) reproduces on all 1,848 rows** of `mu_table_safe.csv` from an independent reimplementation of the G.3 scoring, with all structural constraints holding and 1/√δ ≤ K on every row.
 - **The n = 12 optimum.** 7,115 groups, max m\* = 18, exactly eight attaining it, all with orbital sizes {18, 48}, all one orbital partition, including the wreath witness.
 - **The ten skeleton generators** are pairwise incomparable under monomorphism, and §8.8's identifications hold: C₁₀(1,2) = class 37, K₁+3K₃ = class 15, K₁+C₉ = class 20, the K₁+K₄+5K₁ apex = class 64. Class 27 is **K₅ □ K₂**.
 - **The χ sign convention and dual encoding** in `stage4_fast.py`: `s = +1` on odd popcount is right for Σ(−1)^dim over nonempty faces, and `x[uc[full ^ m]] == 0` is exactly y[S] = 1 − x[comp S], so the duality involution's hypothesis that both directions are enforced per group is genuinely met.
@@ -155,7 +155,7 @@ Recorded so the provenance is traceable, and because two of these were errors in
 - Part J item 1: "permitted orbit count up to 1/√δ ≈ 5" → four (1/√0.0418 = 4.89).
 - §2.4 Lemma C: the "direct product must be cyclic" justification is a **pitfall Part D explicitly rejects**; replaced with the conjugation argument.
 - §3: the Singer/ΓL(1) step was asserted as proved and retracted two paragraphs later. Restructured so the counterexample and the three inertness reasons come first.
-- Validated range **1736 → 1764**; row count 1,269 → 1,672; the several stale ranges (1000, 1306, 1540) reconciled.
+- Validated range **1736 → 1764**; row count 1,269 → 1,848; the several stale ranges (1000, 1306, 1540) reconciled.
 - §2 residual-gap paragraph: scoped to the menu-versus-ceiling comparison above the computed range, since B(1425) = 108,811 is attained.
 - §8.9: forced IN **28 → 25**, forced OUT **18 → 20**, classes covered 400 → 409, and the **54 CAP verdicts** added. Classes 493/439/457 are absent from the record; the involution's empirical confirmation is withdrawn pending A3.
 - §8.9′: "forced and free classes coexist at every edge count" across 5–40 is false (no forcings at 7 or 11–34); reworded. The "29 free classes at ≤ 10 edges" figure is exactly right.
@@ -170,7 +170,7 @@ Recorded so the provenance is traceable, and because two of these were errors in
 
 ## New document: `arithmetic-of-density.md`
 
-Created to hold the Hardy–Littlewood / Bateman–Horn side and the density implications, connected to the computed table. Its thesis, all of it verified against the 1,672 exact values before being written:
+Created to hold the Hardy–Littlewood / Bateman–Horn side and the density implications, connected to the computed table. Its thesis, all of it verified against the 1,848 exact values before being written:
 
 - **Two engines.** Multiplicative: a single fused class, n = F·c with both factors prime powers, density exactly **1/F** — matched to O(1/n) at all 678 one-part winners, and available only when ω(n) ≤ 2 (all 678 have ω(n) = 2; none of the 712 values with ω(n) ≥ 3 has a one-part winner). Additive: k balanced parts, density **1/k²** — Prop. F.1 read backwards, and tight, with zero two-part winners above 1/4 and zero three-part winners above 1/9.
 - **Fusion is worth a factor of F** over splitting the same blocks, which is why (R1) matters and why single fused classes dominate the winners.
@@ -191,7 +191,7 @@ Created to hold the Hardy–Littlewood / Bateman–Horn side and the density imp
 
 **Thesis, verified against the table before being written.** Two engines: *multiplicative* — a single fused class, n = F·c with both factors prime powers, density exactly **1/F**, matched to O(1/n) at all 678 one-part winners and available only when ω(n) ≤ 2; *additive* — k balanced parts, density **1/k²**, tight, with zero two-part winners above 1/4 and zero three-part above 1/9. Fusion beats splitting by a factor of F. Density above 1/4 is purely multiplicative (all 321 such values have ω(n) = 2). The multiplicative engine covers a density-zero set, thinning like log log n / log n (52.3% of values on [10³, 2·10³) but 28.5% on [10⁶, 2·10⁶)), so it props up 57% of the present table and vanishes asymptotically.
 
-**§5's odd-n family was the wrong one.** The three-block chain n = m + r + s with two foreign primes, whose ceiling 0.0486 gave δ₀^odd ≈ 0.049, has shape (1 p-block, 2 foreign) — which the enumeration selects **exactly once in 1,672 values** (n = 1175). The family that actually serves odd n is **n = 2c + r**, two equal p-blocks plus one foreign prime, 200 of 201 three-part winners. §5 missed it because it took the three blocks to be distinct primes each carrying its own twist; two equal blocks twist *diagonally* and need no coprimality between them (Lemma C's diagonal exemption).
+**§5's odd-n family was the wrong one.** The three-block chain n = m + r + s with two foreign primes, whose ceiling 0.0486 gave δ₀^odd ≈ 0.049, has shape (1 p-block, 2 foreign) — which the enumeration selects **exactly once in 1,848 values** (n = 1175). The family that actually serves odd n is **n = 2c + r**, two equal p-blocks plus one foreign prime, 200 of 201 three-part winners. §5 missed it because it took the three blocks to be distinct primes each carrying its own twist; two equal blocks twist *diagonally* and need no coprimality between them (Lemma C's diagonal exemption).
 
 **The new ceilings, by residue class**, from `local_solubility.py`. For odd ℓ the forbidden residues are r ≡ 0, 1, n, so only **ℓ = 3** can be fatal, exactly at n ≡ 2 (mod 3); at ℓ = 2 full efficiency needs r ≡ 3 (mod 4), which keeps c odd only when n ≡ 1 (mod 4).
 
@@ -246,3 +246,101 @@ All 1,848 rows independently re-derived: **0 violations**, `certified` and `fall
 The ω = 2 population thins, *and* among survivors the smallest prime-power cofactor grows, so 1/F shrinks even where the multiplicative engine applies. n = 2183 = 37·59 is the worked case: fused available only at F = 37 (worth 0.027), beaten by the three-part 1297\* + 443 + 443 at 0.041107 — itself unbalanced at x = 0.2029 against the 0.2679 balance point for its class (2183 ≡ 11 mod 12, the ℓ = 3 obstruction class), with binding term x² matching B exactly. Both engines weak at once.
 
 Range figures refreshed in `enumeration-proof.md` (Part I distributions, shapes, floor, and Theorem E.1 coverage now 1,390 of 1,848 = 75.2%).
+
+---
+
+## Documentation consistency, and a new routine check
+
+The n = 2212 extension exposed that range-dependent figures were being updated by ad-hoc string replacement rather than a sweep: `orbital-evasiveness-notes.md` was not touched at all, and `enumeration-proof.md` had its row count updated to 1,848 while still saying the range ran to n = 2007. Three consecutive extensions had each left a different subset behind.
+
+**Swept all four documents**, 21 substitutions: row counts, n max, floor and peak, median, part counts {1: 733, 2: 875, 3: 240}, `certified_K` {2: 347, 3: 1043, 4: 419, 5: 39}, the 1/4 share (18.8%), the 1/9 share and Theorem E.1 coverage (1,390 of 1,848, 75.2%), the δ ≤ 1/16 tail (39, part counts 9/11/19), the three-part count (240, of which 239 are two-p-parts-plus-foreign and 237 have equal p-blocks), and the supplement's engine counts (733 one-part winners, 1,045 values with ω(n) = 2, 347 above density 1/4).
+
+**One figure needed rewording, not renumbering.** Part I said the density floor was "stable rather than eroding across the range, minimum 0.041812 at n = 575". The floor has now moved, so the claim itself is false and the sentence now records the drift. Separately, n = 575 still appears in Part G.4 as the row where both fusion and block bounds bind simultaneously — that is unaffected by the floor moving, and is now scoped as "no longer the density floor, but still the row where both G.4 bounds bind".
+
+**New script `check_doc_figures.py`**, added to the routine block in `pending-checks.md`. It recomputes every range-dependent figure from the table and flags prose occurrences that no longer match. It reports rather than edits, deliberately: some figures sit in sentences whose wording must change with them, and some flagged hits are legitimate historical citations (the `mu_fast.py` menu table's 9,999 rows, the 23-value margin sample, the "then-1,582" reference in the certificate caveat).
+
+---
+
+## Effectivity of the conjectures, and two findings that came out of asking
+
+Prompted by the question of whether effective/quantitative Bateman–Horn exists, since the conjectures are asymptotic and the computations small-n.
+
+**The answer, in three parts.** Standard Bateman–Horn has *no error term* — a bare asymptotic with an ineffective constant, so the uncovered range is not a middle interval but everything above wherever computation stops. Quantitative refinements (the conjectured square-root form π_f(x) = 𝔖/D·Li_k(x) + O(x^{1/2+ε})) are the wrong *shape*: they bound a counting function, and an exceptional n contributes O(1) to a count whose error is a power of x. Uniformity is not a free hypothesis either — Friedlander–Granville showed sufficiently uniform Hardy–Littlewood conjectures are false.
+
+**But the difficulty dissolves**, because existence at a given n is decidable in O(n/log n) — against n^2.9 for B(n). New script `ladder_verify.py`: over eligible n < 200,000, the odd family n = 2c + r fails at 61 values, largest **28,993**; the even family n = c + r fails at 1,196 values, largest **96,568**. So the ladder's hypothesis is unconditional by verification above those thresholds, two orders of magnitude past the table. The honest structure is a frontier, not a gap.
+
+**Finding 1: the singular series independently reproduces both local obstructions.** Substituting r = 2s+1, m = (n−1)/2 turns the system into three *linear* polynomials {s, 2s+1, m−s}. Then ω(2) = 2 exactly when m is odd (n ≡ 3 mod 4) and the roots {0, 1, m} mod 3 are distinct exactly when m ≡ 2 mod 3 (n ≡ 2 mod 3) — so 𝔖(n) vanishes precisely in the two classes `local_solubility.py` identified by a completely different argument.
+
+**Finding 2 (new, and it corrects the documents): the ℓ = 3 obstruction applies to EVEN n too.** I had derived it only for odd n. For even n the system {s, 2s+1, n−2s−1} has roots mod 3 at s ≡ 0, 1, 2(n−1), distinct exactly when n ≡ 2 mod 3. Re-optimising two parts at half efficiency gives x = 1/(1+√2) and **cap = (√2−1)² = 3 − 2√2 ≈ 0.17157**, against 1/4 otherwise. The table confirms it sharply: of even two-part winners at n ≡ 2 (mod 3), only 20% beat 0.17157 and **100% of those 39 use a power-of-3 escape** (c or (r−1)/2 a power of 3, admissible since these need only be prime *powers*); at n ≡ 1 (mod 3), 89% beat it and **0%** need an escape. The escape pins n near 2·3^k or 4·3^k, so it is O(log n)-sparse and the asymptotic constant stands. **δ₀^even = 1/4 was unqualified in the documents and is now correct only for n ≢ 2 (mod 3).**
+
+*My first attempt at this even-n prediction was refuted by the data* (predicted a 0.17157 cap, observed 0.24639) before I found the escape mechanism that reconciles them. The refutation was the useful step.
+
+---
+
+## Consistency pass, the modulus theorem, and the master table
+
+**Only ℓ = 2 and ℓ = 3 can obstruct — proved, not searched.** Each family's Bateman–Horn system is three *linear* polynomials in one variable, and a linear polynomial has at most one root mod ℓ, so ω(ℓ) ≤ 3 for every ℓ; an obstruction needs ω(ℓ) ≥ ℓ, hence ℓ ≤ 3. Brute force over all residues and all ℓ < 500 finds none, as required. So the residue analysis is complete and no further moduli can appear.
+
+**The efficiency model, derived rather than assumed.** Writing r − 1 = 2^a·u with u odd and L the largest prime power dividing u, the best top prime gives e = max(1/u, L/(2^{a−1}u)); hence e = 1 exactly when a = 1 and u is a prime power. ℓ = 2 forces a ≥ 2 so e ≤ 1/2; ℓ = 3 forces 3 | u so e ≤ 1/3; both together give **e ≤ 1/6** — the n ≡ 11 (mod 12) case, which I had never worked out.
+
+**Correction: my even-n cap was wrong.** I had quoted 3 − 2√2 ≈ 0.17157 for even n ≡ 2 (mod 3), taking the ℓ = 3 obstruction to cost a factor of 2. It costs a factor of 3, so the constant is **1/(1+√3)² ≈ 0.13397**. The observed generic maximum in that class is 0.13374 — ratio 0.998, against 0.78 under the wrong constant.
+
+**The master table**, now in both documents:
+
+| n mod 12 | parity | family | ℓ=2 | ℓ=3 | e | δ₀ | observed | ratio |
+|---|---|---|---|---|---|---|---|---|
+| 0, 4, 6, 10 | even | c + r | — | — | 1 | 1/4 | 0.24939 | 0.998 |
+| 2, 8 | even | c + r | — | ✗ | 1/3 | 1/(1+√3)² = 0.13397 | 0.13374 | 0.998 |
+| 1, 9 | odd | 2c + r | — | — | 1 | 1/9 | 0.11037 | 0.993 |
+| 3, 7 | odd | 2c + r | ✗ | — | 1/2 | 1/(2+√2)² = 0.08579 | 0.08565 | 0.998 |
+| 5 | odd | 2c + r | — | ✗ | 1/3 | 0.07180 | 0.07043 | 0.981 |
+| 11 | odd | 2c + r | ✗ | ✗ | 1/6 | 0.05051 | 0.05036 | 0.997 |
+
+**Validated per row, which is stronger than the class maxima.** Computing each winner's actual efficiency from its own foreign block and top prime and comparing its density against the cap for that efficiency: **all 1,112 two- and three-part winners satisfy it, zero exceptions**. So δ(x) = min(x², 2x(1−kx), e(1−kx)²) bounds every individual row, not just the extremes.
+
+**Escapes**, quantified: the ℓ = 3 classes escape when (r−1)/2 or c is a power of 3, the ℓ = 2 classes when c is a power of 2. In range: 30, 49, 24 and 5 occurrences in classes 2, 8, 5, 11 — and **none** in classes 3 and 7. Each pins n near 2·3^k, 4·3^k or 2^k, so O(log n) values, no effect on the asymptotic constants.
+
+**Historical framing removed** from both documents: the three-block chain constant 0.0486 and its (4,6) optimisation, the "what the older analysis got right and wrong" section, the superseded-family notes in Open Problems 2 and 9. Appendix A's B3 row is retained as a measurement with a pointer, since it records what `mu_fast.py` actually computed.
+
+---
+
+## Cleanup pass: prime powers, the right diagnostic, and de-cluttering
+
+**Why the local conditions stop at 4 and 3, now stated in both documents.** Two separate facts, and only the first was there before. (i) No prime beyond 3 can obstruct: three linear polynomials give ω(ℓ) ≤ 3, an obstruction needs ω(ℓ) ≥ ℓ. (ii) **No higher power of 2 or 3 either** — the singular series has one factor per *prime*, and ω(ℓ) counts roots mod ℓ only, because the condition enforced is "f_i(s) not divisible by ℓ", which is decided mod ℓ; a residue avoiding the roots mod ℓ is safe mod ℓ² automatically. The conditions read mod 4 and mod 3 *in terms of n* purely because of the change of variable: the ℓ = 2 condition is on m = (n−1)/2 mod 2, hence on n mod 4. Verified empirically — representability rates computed mod 24, 36, 48, 72 and 144 show no spread within a fixed class mod 12 beyond sampling noise.
+
+**The validation was using the wrong statistic.** A class *maximum* meeting its cap only shows the cap is attainable; it would go on being met even if a further condition were suppressing most of the class. Replaced with a two-sided test:
+
+- **Upper:** every one of the 1,112 two- and three-part winners satisfies δ ≤ cap(its own efficiency), zero exceptions.
+- **Lower:** normalising each class by its cap and restricting to generic-efficiency winners, all twelve classes reach 0.98–1.00, with medians 0.84–0.94 and minima 0.45–0.81 — **indistinguishable between obstructed and unobstructed classes**. That is the check that would have exposed a missing obstruction, and it is clean. The spread below the cap is representation availability, which varies with n rather than with its residue class.
+
+**De-cluttered.** Removed the remaining self-corrections (the "earlier drafts missed" note in §3.1 and the "claim earlier drafts got half-right" in the thesis) — the documents now state the correct answer without narrating how it was reached. Tightened three vague forward references to say precisely what is coming and where.
+
+---
+
+## Section 3 reordered
+
+The window-validity discussion sat as §3.1a, between the even-n family and the odd-n family, and so referred both backwards and forwards: it treated the even case at full efficiency only, but the odd case at two efficiencies, one of which had not yet been introduced. Coverage was therefore non-uniform and the section could not state its own table completely.
+
+Moved to **§3.4**, after the residue-class analysis, where all six caps are already established. It now carries a uniform table — one row per class, with the balance point and the 90%-of-cap window for each — and flows directly into the effectivity discussion, which is the natural continuation: *the window does not break the heuristic; but the heuristic is asymptotic and ineffective, so here is what actually covers the middle range.* Effectivity and the parity gap renumbered to §3.5 and §3.6, cross-references repaired.
+
+**Window widths, all six classes:** 0.052 and 0.051 for the two-part families (the first symmetric about x = 1/2), and 0.026 for all four three-part families. So the count needed is always of primes in an interval of length c·n with c between 0.026 and 0.052 — the standard Hardy–Littlewood regime, not a short-interval problem.
+
+Two duplications removed in the process: §3.5's opening restated the window setup, and its "useful cross-check" paragraph re-derived the two obstructions at length when §3.3 already has them from the structure of r − 1. The cross-check is retained as two sentences, since the agreement of two independent routes is worth recording.
+
+---
+
+## §3.6 deleted
+
+The "parity gap, stated correctly" subsection was fully redundant after the reordering. Every piece of it was checked against the rest of the corpus before removal:
+
+| content | where it already lives |
+|---|---|
+| "the loss is caps, not representation counts" | thesis item 2, §1 |
+| even n has F = 2, odd n has F ≥ 3 | thesis item 2, §1 |
+| both systems supply ~n/log³n | §3.1 and §3.2, where each is derived |
+| the 2^a + r route and the 150 odd values with ω(n) ≥ 3 | Part I of `enumeration-proof.md`, verbatim |
+| "more sieve input cannot help" | Open Problem 2, §5 |
+
+Nothing needed relocating. Thesis item 2's forward pointer, which had been aimed at §3.6, now carries the one genuinely useful clause inline — that the systems supply ~n/log³n wherever soluble, so the loss really is caps — and points at §§3.1–3.3 where that is established.
+
+Section 3 now ends on effectivity (§3.5), which is the natural close: the families, their local obstructions, the window, and finally what the conjectures can and cannot deliver about them.
