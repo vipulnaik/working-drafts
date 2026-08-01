@@ -53,6 +53,14 @@ for i, x in enumerate(_A):
     if x == "--floor":
         FLOOR = float(_A[i + 1])
 
+# The asymptotic global lower bound of arithmetic-of-density.md section 5: the
+# class-11 cap 5/2 - sqrt(6), smallest of the six class caps.  Values falling
+# below it here are NOT counterexamples -- this script scans three families over
+# a window and so computes a LOWER BOUND on delta(n).  They are the values where
+# that bound is too weak to reach the asymptotic constant, i.e. the worklist for
+# a future mu_enumerate.py run.
+ASYMPTOTIC = 2.5 - 6 ** 0.5
+
 CAP = {0: .25, 4: .25, 6: .25, 10: .25,
        2: 1 / (1 + 3 ** .5) ** 2, 8: 1 / (1 + 3 ** .5) ** 2,
        1: 1 / 9, 9: 1 / 9,
@@ -154,6 +162,7 @@ t0 = time.time()
 per = {a: [1e9, None, 0] for a in range(12)}
 gmin = (1e9, None)
 below = []
+weak = []
 blk_min = (1e9, None)              # minimum within the current SUMMARY block
 last = t0
 print(f"{stamp()}  scanning to {N:,}; checkpoint every {TICK:,}, "
@@ -172,6 +181,8 @@ for n in range(6, N + 1):
         if d < FLOOR:
             per[a][2] += 1
             below.append((n, round(d, 5)))
+        if d < ASYMPTOTIC:
+            weak.append((n, round(d, 5)))
     if n % TICK == 0:
         now = time.time()
         rate = TICK / max(now - last, 1e-9)
@@ -207,3 +218,17 @@ print(f"GLOBAL FLOOR over composite non-prime-power n <= {N:,}: "
 print(f"values with delta < {FLOOR}: {len(below)}"
       + (f" -> {below[:10]}" if below
          else "  -- the section 5 conjecture holds throughout this range"))
+print()
+print(f"values below the asymptotic bound {ASYMPTOTIC:.6f} = 5/2 - sqrt(6): {len(weak)}")
+if weak:
+    print("  NOT counterexamples.  This script searches three families over a window,")
+    print("  so it computes a LOWER BOUND on delta(n); the true value comes from")
+    print("  mu_enumerate.py and is often larger -- where both are known it agrees")
+    print("  exactly at 1700 of 1848 values and is otherwise low by up to a factor of")
+    print("  2, the fused-plus-foreign family not being modelled here.  So this is a")
+    print("  worklist: computing B(n) at these n would tighten the global floor of")
+    print("  arithmetic-of-density.md section 5.  Written to ladder_weak.txt.")
+    with open("ladder_weak.txt", "w") as fh:
+        for n, d in weak:
+            fh.write(f"{n} {d}\n")
+    print("  first 15: " + ", ".join(f"{n}({d})" for n, d in weak[:15]))

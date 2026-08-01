@@ -384,3 +384,32 @@ The old version was checking substantially less than its name suggested, in two 
 **The rewrite computes achieved density rather than binary representability**, over all twelve classes, scanning x ∈ [0.10, 0.55] which contains every balance point. This subsumes the old check (representability is "achieved density > 0"), covers the classes that were being skipped, and produces the §5 global floor directly instead of by a separate ad-hoc script. Output to 2·10⁵: floor **0.02504 at n = 3239**, **zero** values below 0.02, per-class minima of δ/cap between 0.33 and 0.72 — comparable across classes, so no class is anomalously weak.
 
 **Cost claim corrected.** I had recorded "193 s for 10⁷, linear" and inferred that 10⁷ was cheap. That timing was the old binary check with its narrow fixed window. The real scan is O(N²/log N) — measured 23 s to 10⁵ and 87 s to 2·10⁵, a factor of 3.8 for a doubling — so **10⁶ is about half an hour and 10⁷ is multi-day**. Corrected in §5, in the open-questions list, and in `pending-checks.md`.
+
+---
+
+## Progress reporting in `ladder_verify.py`
+
+Now that the scan is O(N²/log N) rather than the linear cost the old binary check had, a 10⁶ run is about an hour and wants watching. Added:
+
+- **checkpoint every 10,000** — wall-clock timestamp, elapsed, throughput in n/s, the running global floor with the n attaining it, a flag if anything has dropped below the conjectured floor, and an ETA;
+- **cumulative summary every 100,000** — that block's own minimum alongside the global one, its residue class, and the running count below the floor.
+
+The ETA needed care. A linear extrapolation reported "~0m" with 47 s of work left, because per-n cost grows with the number of prime powers in the scan window, i.e. like n/log n. Scaling elapsed time by f(N)/f(n) with f(x) = x²/log x instead: at the first checkpoint of a 10⁵ run it predicts 0.7 minutes against 33 s actual, and converges from there.
+
+The block minima turn out to be worth reading on their own rather than just as progress: **0.02504 over the first 10⁵, then 0.04125 over the second**. That is §5's floor-rises-with-n effect visible live, and it means a long run announces early whether the conjecture is under threat in the range being scanned. Range table in §5 extended with the [10⁵, 2·10⁵) row.
+
+---
+
+## Closed forms for the caps, and the weak-value worklist
+
+**All six class caps are one formula.** Balancing x² against e(1−kx)² gives x\* = √e/(1 + k√e) with k = 1 for two parts and k = 2 for three, hence
+
+> **cap = e/(1 + k√e)²**
+
+and each of the six rationalises to an integer denominator: 1/4; (2 − √3)/2; 1/9; (3 − 2√2)/2; (2 − √3)² = 7 − 4√3; (5 − 2√6)/2. The class-5 value being a perfect square is a small surprise. Verified in every case that the cross term 2x\*(1 − kx\*) exceeds the cap, so the minimum really is the intra/foreign balance rather than the cross class. Both mod-12 tables now carry an exact-expression column beside the decimal, and the global conjecture states its asymptotic half as **(5 − 2√6)/2 − o(1)** rather than 0.05051.
+
+**`ladder_verify.py` computes a lower bound on δ(n), not δ(n)** — confirmed against the table: it never exceeds the true value, agrees exactly at **1,700 of 1,848**, and where it differs is low by up to a factor of 2. The cause is identifiable: it models fused, two-part and three-part families but *not* **fused-plus-foreign**, (F, c) + r\*, which the enumeration frequently prefers. At n = 555 it finds 0.07172 against the true 0.14344, whose witness `2x149 + 1x257*` is exactly that shape.
+
+Rather than model it — which would slow the scan toward the full enumeration — the script now writes **`ladder_weak.txt`**, every n whose bound falls below the asymptotic constant: 2,163 values below 6·10⁴. That is a worklist for `mu_enumerate.py`, and computing B(n) at those n would tighten §5's global floor, plausibly enough to replace the deliberately loose 1/50 with something near the asymptotic value. Several of the smaller entries (575, 851, 935, 1175) are already in the computed table, so the comparison can begin without new enumeration.
+
+No cost was added to the inner loop — the values were already being computed, and are now simply retained.

@@ -128,14 +128,20 @@ The ℓ = 2 obstruction forces a ≥ 2 and hence e ≤ 1/2; the ℓ = 3 obstruct
 
 > **The density ladder, complete by residue class mod 12.** Every entry is derived, not fitted; the "observed" column is the largest density attained in the computed table by a winner whose foreign block runs at the generic efficiency for its class.
 >
-> | n mod 12 | parity | family | ℓ=2 | ℓ=3 | generic e | **asymptotic cap** | observed | ratio |
-> |---|---|---|---|---|---|---|---|---|
-> | 0, 4, 6, 10 | even | c + r | — | — | 1 | **1/4 = 0.25000** | 0.24939 | 0.998 |
-> | 2, 8 | even | c + r | — | ✗ | 1/3 | **1/(1+√3)² = 0.13397** | 0.13374 | 0.998 |
-> | 1, 9 | odd | 2c + r | — | — | 1 | **1/9 = 0.11111** | 0.11037 | 0.993 |
-> | 3, 7 | odd | 2c + r | ✗ | — | 1/2 | **1/(2+√2)² = 0.08579** | 0.08565 | 0.998 |
-> | 5 | odd | 2c + r | — | ✗ | 1/3 | **0.07180** | 0.07043 | 0.981 |
-> | 11 | odd | 2c + r | ✗ | ✗ | 1/6 | **0.05051** | 0.05036 | 0.997 |
+> | n mod 12 | parity | family | ℓ=2 | ℓ=3 | e | **exact cap** | decimal | observed | ratio |
+> |---|---|---|---|---|---|---|---|---|---|
+> | 0, 4, 6, 10 | even | c + r | — | — | 1 | **1/4** | 0.25000 | 0.24939 | 0.998 |
+> | 2, 8 | even | c + r | — | ✗ | 1/3 | **(2 − √3)/2** | 0.13397 | 0.13374 | 0.998 |
+> | 1, 9 | odd | 2c + r | — | — | 1 | **1/9** | 0.11111 | 0.11037 | 0.993 |
+> | 3, 7 | odd | 2c + r | ✗ | — | 1/2 | **(3 − 2√2)/2** | 0.08579 | 0.08565 | 0.998 |
+> | 5 | odd | 2c + r | — | ✗ | 1/3 | **(2 − √3)²** | 0.07180 | 0.07043 | 0.981 |
+> | 11 | odd | 2c + r | ✗ | ✗ | 1/6 | **(5 − 2√6)/2** | 0.05051 | 0.05036 | 0.997 |
+>
+> All six are the same formula. Balancing x² against e(1−kx)² gives x\* = √e/(1 + k√e), where k = 1 for the two-part family and k = 2 for the three-part, so
+>
+> > **cap = e/(1 + k√e)²**,
+>
+> and each rationalises to an integer denominator as tabulated. The class-5 value is a perfect square, (2 − √3)² = 7 − 4√3. In every case the cross term 2x\*(1 − kx\*) exceeds the cap, so the minimum is genuinely the intra/foreign balance and not the cross class.
 >
 > The obstructed classes admit **sparse escapes** — the ℓ=3 classes when (r−1)/2 or c is a power of 3, the ℓ=2 classes when c is a power of 2 — which lift individual n to the unobstructed cap. In range these occur at 30, 49, 24 and 5 values in classes 2, 8, 5, 11 respectively and at **none** in classes 3 and 7. Each pins n near 2·3^k, 4·3^k or 2^k, so they are available at O(log n) values of n and do not affect the asymptotic constants.
 
@@ -263,6 +269,7 @@ and the eight smallest are **all** in class 11 mod 12. No class is anomalously w
 | [5·10³, 2·10⁴) | 0.02516 |
 | [2·10⁴, 5·10⁴) | 0.03911 |
 | [5·10⁴, 10⁵) | 0.04083 |
+| [10⁵, 2·10⁵) | 0.04125 |
 
 So the small-n dips are a finite phenomenon, and the asymptotic floor is the class-11 cap.
 
@@ -270,11 +277,17 @@ So the small-n dips are a finite phenomenon, and the asymptotic floor is the cla
 >
 > **μ(n) ≥ C(n,2)/50**,  i.e. **δ(n) ≥ 0.02**,
 >
-> and moreover δ(n) ≥ 0.05051 − o(1), the extremal class being n ≡ 11 (mod 12).
+> and asymptotically
+>
+> **δ(n) ≥ (5 − 2√6)/2 − o(1) = 0.050510…**,
+>
+> the extremal class being n ≡ 11 (mod 12) — the only one carrying both local obstructions, where the cap is e/(1 + k√e)² at e = 1/6, k = 2.
 
 The constant 1/50 is deliberately loose: the observed floor is 0.02504, so 1/50 carries about 25% margin, and 1/40 = 0.025 would be tight to four decimal places at n = 3239. Two things are being absorbed into that margin — the finite exceptional set of §3.5, whose members fall back on whatever configuration they can find, and the windowing loss of §3.4, which costs a factor Θ(√ε) when the balance point is not exactly available.
 
-**What would refute it.** A single n with δ(n) < 0.02. Nothing below 2·10⁵ comes close: the count of n with δ < 0.02 is **zero**, and the floor 0.02504 at n = 3239 is unchanged between 10⁵ and 2·10⁵. The scan costs O(N²/log N) — 23 s to 10⁵, 87 s to 2·10⁵ — so 10⁶ is a half-hour run and 10⁷ is a multi-day one; the first is worth doing, the second only if something else motivates it. What would *prove* the asymptotic half is an effective exceptional-set bound of the kind §3.5 describes, applied to the class-11 family n = 2c + r with r − 1 = 12q^a.
+**What would refute it.** A single n with δ(n) < 0.02. Nothing below 2·10⁵ comes close: the count of n with δ < 0.02 is **zero**, and the floor 0.02504 at n = 3239 is unchanged between 10⁵ and 2·10⁵. The scan costs O(N²/log N) — 33 s to 10⁵, 190 s to 2.5·10⁵ — so 10⁶ is about an hour and 10⁷ is multi-day; the first is worth doing, the second only if something else motivates it. `ladder_verify.py` reports a checkpoint every 10⁴ and a cumulative summary every 10⁵, so a long run can be watched rather than waited on. What would *prove* the asymptotic half — δ(n) ≥ (5 − 2√6)/2 − o(1) — is an effective exceptional-set bound of the kind §3.5 describes, applied to the class-11 family n = 2c + r with r − 1 = 12q^a.
+
+**Tightening the finite half.** The 0.02 is loose because `ladder_verify.py` computes a *lower bound* on δ(n), not δ(n): it searches three families over a window, and in particular does not model the **fused-plus-foreign** shape (F, c) + r\* that the enumeration frequently prefers. Where both are available the two agree exactly at 1,700 of 1,848 values, and where they differ the scan is low by up to a factor of 2 — at n = 555 it finds 0.07172 against the true 0.14344, whose witness `2x149 + 1x257*` is exactly that missing shape. So the script now writes every n falling below the asymptotic constant to **`ladder_weak.txt`** (2,163 values below 6·10⁴), as a worklist: computing the true B(n) at those n with `mu_enumerate.py` would raise the observed floor, and quite possibly to the point where 0.02 could be replaced by something close to the asymptotic value itself.
 
 ## 6. What this says about the open problems
 
