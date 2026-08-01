@@ -362,6 +362,17 @@ if __name__ == "__main__":
     ap.add_argument("--nmin", type=int, help="start of range (default: 6, or "
                     "resume after the last row of --out if that file exists)")
     ap.add_argument("--nmax", type=int)
+    ap.add_argument("--nlist", help="file of n values to compute, one per line; "
+                    "anything after the first field on a line is ignored, so the "
+                    "output of ladder_verify.py (`n density`) can be passed "
+                    "directly. Values already in --out are skipped. Combines "
+                    "with --nmax, which then acts as an upper cut-off.")
+    ap.add_argument("--fill-gaps", action="store_true",
+                    help="when resuming, recompute the whole range from --nmin "
+                         "rather than continuing after the last row, so that "
+                         "values missed by an earlier targeted run are filled in. "
+                         "Rows already present are still skipped, so this only "
+                         "costs a scan over n.")
     ap.add_argument("--check", help="mu_table_full.csv, to compare against")
     ap.add_argument("--out", help="results CSV; a NEW file, not mu_table_full.csv "
                     "(different schema). Written with a header, appended to on "
@@ -400,8 +411,8 @@ if __name__ == "__main__":
         print(f"  witness  {show(w)}")
         sys.exit()
 
-    if not a.nmax:
-        ap.error("give --n or --nmax")
+    if not a.nmax and not a.nlist:
+        ap.error("give --n, --nmax, or --nlist")
 
     # ---- resume logic -------------------------------------------------
     done = set()
@@ -430,13 +441,41 @@ if __name__ == "__main__":
                     done.add(int(row["n"]))
                 except (KeyError, ValueError, TypeError):
                     pass
-        if done:
+        if done and not a.fill_gaps:
             resume_from = max(done) + 1
     nmin = a.nmin if a.nmin is not None else (resume_from or 6)
 
-    spf = sieve_spf(a.nmax + 1)
+    # ---- which n to compute -------------------------------------------
+    # A targeted run (--nlist) leaves gaps below its own maximum, so plain
+    # "resume after the last row" would skip them forever.  --fill-gaps ignores
+    # the resume point and rescans from nmin, relying on the `n in done` test
+    # below to skip what is already computed; that costs only a loop over n.
+    if a.nlist:
+        want = []
+        with open(a.nlist) as fh:
+            for line in fh:
+                line = line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                try:
+                    want.append(int(line.split()[0]))
+                except ValueError:
+                    continue
+        want = sorted(set(want))
+        if a.nmax:
+            want = [n for n in want if n <= a.nmax]
+        if a.nmin is not None:
+            want = [n for n in want if n >= a.nmin]
+        if not want:
+            sys.exit(f"{a.nlist} yielded no usable values of n in range")
+        span = max(want)
+    else:
+        want = range(max(2, nmin), a.nmax + 1)
+        span = a.nmax
+
+    spf = sieve_spf(span + 1)
     todo, skipped_pp, skipped_done = [], 0, 0
-    for n in range(max(2, nmin), a.nmax + 1):
+    for n in want:
         if prime_power(n, spf):
             skipped_pp += 1
         elif n in done:
@@ -448,7 +487,19 @@ if __name__ == "__main__":
     if not a.refined:
         print(f"               p-parts scored F*C(c,2) where Lemma C cuts the twist;")
         print(f"               'fb' in the per-n line flags a winner that used it")
-    print(f"range          n in [{nmin}, {a.nmax}]")
+    if a.nlist:
+        print(f"range          {len(want)} values from {a.nlist} "
+              f"({min(want)} … {max(want)})")
+    else:
+        print(f"range          n in [{nmin}, {a.nmax}]")
+    if a.fill_gaps and done:
+        # count gaps only where the sieve reaches; span may be below max(done)
+        lim = min(max(done), span)
+        missing = sum(1 for n in range(6, lim) if n not in done
+                      and not prime_power(n, spf))
+        print(f"fill-gaps      rescanning from {nmin}; {a.out} holds {len(done)} "
+              f"rows up to n = {max(done)}, with {missing} composite "
+              f"non-prime-power values missing below n = {lim}")
     if resume_from and a.nmin is None:
         print(f"resuming       {a.out} already holds {len(done)} rows "
               f"(max n = {max(done)}); continuing from {resume_from}")
@@ -459,6 +510,9 @@ if __name__ == "__main__":
           + (f"  ({todo[0]} … {todo[-1]})" if todo else ""))
     print(f"skipped        {skipped_pp} prime powers (mu = C(n,2) exactly)"
           + (f", {skipped_done} already in {a.out}" if skipped_done else ""))
+    if a.nlist and not a.fill_gaps and done and todo and min(todo) > 6:
+        print(f"               (targeted run: this leaves gaps below n = "
+              f"{min(todo)}; use --fill-gaps later to close them)")
     tbl = {}
     if a.check:
         for r in csv.DictReader(open(a.check)):
@@ -484,7 +538,9 @@ if __name__ == "__main__":
     def summary():
         el = time.time() - t0
         el_s = (f"{el:.1f}s" if el < 90 else f"{el/60:.1f}m" if el < 5400 else f"{el/3600:.2f}h")
-        print(f"\nn in [{nmin}, {a.nmax}]: computed {ndone} of {len(todo)}"
+        scope = (f"{len(todo)} values from {a.nlist}" if a.nlist
+                 else f"n in [{nmin}, {a.nmax}]")
+        print(f"\n{scope}: computed {ndone} of {len(todo)}"
               f"{' (INTERRUPTED)' if interrupted else ''} in {el_s}"
               f" | exact {exact}, table-short {short}, violations {viol}")
         if ndone:

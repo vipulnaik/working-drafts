@@ -23,8 +23,8 @@ THE FAMILIES (all scored in SAFE mode, so each is a genuine lower bound)
   two parts    n = c + r,    c a prime power, r prime            -> <= 1/4
   three parts  n = 2c + r,   two equal c-blocks plus a foreign   -> <= 1/9
 
-BALANCE POINTS, and hence the window.  With x = c/n and e the foreign block's
-efficiency, delta(x) = min(x^2, 2x(1-kx), e(1-kx)^2) for k = 1 (two parts) or
+BALANCE POINTS, and hence the window.  With x = c/n and eta the foreign block's
+efficiency, delta(x) = min(x^2, 2x(1-kx), eta(1-kx)^2) for k = 1 (two parts) or
 k = 2 (three parts).  The optima run from x = 0.2247 (three parts at e = 1/6,
 class 11) up to x = 0.5 (two parts at e = 1).  The window [0.10, 0.55] holds all
 of them with room to spare; [0.20, 0.55] does NOT -- it clips n = 9179, whose
@@ -32,12 +32,12 @@ optimum sits at x = 0.1973, and reports a spurious shortfall there.
 
 CLASS CAPS (section 3.3), used to report each n as a fraction of what its class
 permits:
-    n mod 12 in {0,4,6,10}   e=1     cap 1/4            = 0.25000
-    n mod 12 in {2,8}        e=1/3   cap 1/(1+sqrt3)^2  = 0.13397
-    n mod 12 in {1,9}        e=1     cap 1/9            = 0.11111
-    n mod 12 in {3,7}        e=1/2   cap 1/(2+sqrt2)^2  = 0.08579
-    n mod 12 == 5            e=1/3   cap                = 0.07180
-    n mod 12 == 11           e=1/6   cap                = 0.05051
+    n mod 12 in {0,4,6,10}   eta=1     cap 1/4            = 0.25000
+    n mod 12 in {2,8}        eta=1/3   cap 1/(1+sqrt3)^2  = 0.13397
+    n mod 12 in {1,9}        eta=1     cap 1/9            = 0.11111
+    n mod 12 in {3,7}        eta=1/2   cap 1/(2+sqrt2)^2  = 0.08579
+    n mod 12 == 5            eta=1/3   cap                = 0.07180
+    n mod 12 == 11           eta=1/6   cap                = 0.05051
 
 Usage:
     python3 ladder_verify.py 100000

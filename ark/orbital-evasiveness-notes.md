@@ -216,18 +216,24 @@ Which efficiency is available is a local question, and it splits n by residue cl
 - At **odd ℓ** the forbidden residues are r ≡ 0, 1, n, a set of size at most 3, so only **ℓ = 3** can be fatal — and it is exactly when **n ≡ 2 (mod 3)**, where every r has one of r, (r−1)/2, c divisible by 3.
 - At **ℓ = 2**, full efficiency wants (r−1)/2 odd, i.e. r ≡ 3 (mod 4); then c = (n−r)/2 is odd only if **n ≡ 1 (mod 4)**. For n ≡ 3 (mod 4) the alternative r ≡ 1 (mod 4) forces 4 | r−1, capping the efficiency at 1/2.
 
-> **Conjecture (global density floor).** For every composite non-prime-power n, **μ(n) ≥ C(n,2)/50**, i.e. δ(n) ≥ 0.02 — and asymptotically δ(n) ≥ 0.05051 − o(1). The extremal class is n ≡ 11 (mod 12), the one carrying both local obstructions; the observed floor is **0.02504 at n = 3239**, and the floor rises with n (0.02504, 0.02516, 0.03911, 0.04083 over successive ranges to 10⁵) as representations near the balance point become plentiful. Derivation and the falsification test in `arithmetic-of-density.md` §5.
+> **Conjecture (global density floor).** For every composite non-prime-power n, **μ(n) ≥ C(n,2)/50**, i.e. δ(n) ≥ 0.02 — and asymptotically **δ(n) ≥ (5 − 2√6)/2 − o(1) = 0.050510…**, the class-11 cap. The extremal class is n ≡ 11 (mod 12), the one carrying both local obstructions; the observed floor is **0.02504 at n = 3239**, and the floor rises with n (0.02504, 0.02516, 0.03911, 0.04083 over successive ranges to 10⁵) as representations near the balance point become plentiful. Derivation and the falsification test in `arithmetic-of-density.md` §5.
 
 > **The density ladder, complete by residue class mod 12.** δ₀ for both parities, derived rather than fitted. "Observed" is the largest density reached in the computed table by a winner whose foreign block runs at the generic efficiency for its class.
 >
-> | n mod 12 | parity | family | ℓ=2 | ℓ=3 | generic e | **δ₀** | observed | ratio |
-> |---|---|---|---|---|---|---|---|---|
-> | 0, 4, 6, 10 | even | c + r | — | — | 1 | **1/4 = 0.25000** | 0.24939 | 0.998 |
-> | 2, 8 | even | c + r | — | ✗ | 1/3 | **1/(1+√3)² = 0.13397** | 0.13374 | 0.998 |
-> | 1, 9 | odd | 2c + r | — | — | 1 | **1/9 = 0.11111** | 0.11037 | 0.993 |
-> | 3, 7 | odd | 2c + r | ✗ | — | 1/2 | **1/(2+√2)² = 0.08579** | 0.08565 | 0.998 |
-> | 5 | odd | 2c + r | — | ✗ | 1/3 | **0.07180** | 0.07043 | 0.981 |
-> | 11 | odd | 2c + r | ✗ | ✗ | 1/6 | **0.05051** | 0.05036 | 0.997 |
+> | n mod 12 | parity | family | ℓ=2 | ℓ=3 | e | **exact cap** | decimal | observed | ratio |
+> |---|---|---|---|---|---|---|---|---|---|
+> | 0, 4, 6, 10 | even | c + r | — | — | 1 | **1/4** | 0.25000 | 0.24939 | 0.998 |
+> | 2, 8 | even | c + r | — | ✗ | 1/3 | **(2 − √3)/2** | 0.13397 | 0.13374 | 0.998 |
+> | 1, 9 | odd | 2c + r | — | — | 1 | **1/9** | 0.11111 | 0.11037 | 0.993 |
+> | 3, 7 | odd | 2c + r | ✗ | — | 1/2 | **(3 − 2√2)/2** | 0.08579 | 0.08565 | 0.998 |
+> | 5 | odd | 2c + r | — | ✗ | 1/3 | **(2 − √3)²** | 0.07180 | 0.07043 | 0.981 |
+> | 11 | odd | 2c + r | ✗ | ✗ | 1/6 | **(5 − 2√6)/2** | 0.05051 | 0.05036 | 0.997 |
+>
+> All six are the same formula. Balancing x² against e(1−kx)² gives x\* = √e/(1 + k√e), where k = 1 for the two-part family and k = 2 for the three-part, so
+>
+> > **cap = e/(1 + k√e)²**,
+>
+> and each rationalises to an integer denominator as tabulated. The class-5 value is a perfect square, (2 − √3)² = 7 − 4√3. In every case the cross term 2x\*(1 − kx\*) exceeds the cap, so the minimum is genuinely the intra/foreign balance and not the cross class.
 >
 > **ℓ = 2 and ℓ = 3 are the only moduli that can obstruct, and no prime power beyond them.** Each system is three *linear* polynomials in one variable, so ω(ℓ) ≤ 3 for every ℓ while an obstruction needs ω(ℓ) ≥ ℓ; hence ℓ ≤ 3. And nothing arises mod ℓ²: the local condition is "not divisible by ℓ", which is decided mod ℓ, so a residue avoiding the roots mod ℓ is safe mod every higher power. The conditions read mod 4 and mod 3 in terms of n only because of the change of variable — the ℓ = 2 condition is on m = (n−1)/2 mod 2, hence on n mod 4. Nothing finer than mod 12 exists.
 >

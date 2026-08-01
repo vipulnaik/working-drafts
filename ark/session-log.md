@@ -413,3 +413,19 @@ and each of the six rationalises to an integer denominator: 1/4; (2 − √3)/2;
 Rather than model it — which would slow the scan toward the full enumeration — the script now writes **`ladder_weak.txt`**, every n whose bound falls below the asymptotic constant: 2,163 values below 6·10⁴. That is a worklist for `mu_enumerate.py`, and computing B(n) at those n would tighten §5's global floor, plausibly enough to replace the deliberately loose 1/50 with something near the asymptotic value. Several of the smaller entries (575, 851, 935, 1175) are already in the computed table, so the comparison can begin without new enumeration.
 
 No cost was added to the inner loop — the values were already being computed, and are now simply retained.
+
+---
+
+## Symbol rename, and targeted runs in `mu_enumerate.py`
+
+**Efficiency is now η, not e**, throughout both documents and `ladder_verify.py` / `local_solubility.py` (as `eta` in code) — `e` collided with Euler's number, which is awkward in a document full of exponentials and logarithms. Glossary entries added in both documents at first use. The central formula now reads **cap = η/(1 + k√η)²**.
+
+**`mu_enumerate.py` gained `--nlist` and `--fill-gaps`.**
+
+`--nlist FILE` takes one n per line and ignores anything after the first field, so `ladder_weak.txt` (`n density`) can be passed straight in. Combines with `--nmin`/`--nmax` as cut-offs.
+
+`--fill-gaps` addresses the problem this exposes. Resume worked by `resume_from = max(done) + 1`, which is correct for contiguous extension but wrong after a targeted run: computing n = 2183 and 2189 sets the resume point to 2190, and every gap below is skipped **permanently**. Demonstrated: after a targeted run at n = 100, 102, a plain `--nmax 30` resume reports "nothing to do". With `--fill-gaps` it rescans from `--nmin` and lets the existing already-present test skip what is done — costing only a loop over n, since the expensive work was already conditional. The two runs then compose correctly, and a second `--fill-gaps` pass reports nothing left.
+
+A warning also fires on any `--nlist` run that would leave gaps, naming the lowest computed value and pointing at `--fill-gaps`.
+
+One bug found while testing: the gap counter indexed the sieve at `max(done)`, which can exceed `--nmax` after a targeted run at high n, giving an IndexError. Bounded by the sieve span.

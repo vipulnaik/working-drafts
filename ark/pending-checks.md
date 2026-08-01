@@ -13,7 +13,9 @@
 **Routine, after any new batch of table values:**
 
 ```bash
-python3 mu_enumerate.py --nmin 2008 --nmax 2500 --out mu_table_safe_v2.csv   # extend the table (~n^2.9/value)
+python3 mu_enumerate.py --nmin 2213 --nmax 2600 --out mu_table_safe_v2.csv   # extend the table (~n^2.9/value)
+python3 mu_enumerate.py --nlist ladder_weak.txt --out mu_table_safe_v2.csv   # or: work the weak-value list first
+python3 mu_enumerate.py --nmax 2600 --fill-gaps --out mu_table_safe_v2.csv   # then close any gaps a targeted run left
 python3 fallback_cert.py mu_table_safe_v2.csv                               # collapse certificate vs the true B(n)
 python3 wide_cert.py 100000                                                 # same, from lower bounds; pass 1 cached
 python3 check_doc_figures.py mu_table_safe_v2.csv *.md                      # catch prose figures the extension made stale
@@ -32,7 +34,7 @@ Since the run is long enough to want watching, it prints a **checkpoint every 10
 
 **Run `check_doc_figures.py` after every extension.** Three consecutive extensions each left a *different* subset of the documents behind, because the updates were done by ad-hoc string replacement rather than a sweep. The script recomputes every range-dependent figure the prose quotes — row count, n max, density floor and peak, median, part counts, `certified_K` distribution, the 1/4 and 1/9 shares, the δ ≤ 1/16 tail, the ω(n) = 2 count — and flags occurrences that no longer match. It deliberately does not edit: several of these numbers sit in sentences whose wording has to change with them (the density floor moved off n = 575 at n ≤ 2212, and the surrounding claim that it was "stable rather than eroding" had to go). Some flagged figures are legitimate historical citations — the `mu_fast.py` menu table's row count, a sample size, a "then-N" reference — so the output is a checklist, not a diff.
 
-`mu_enumerate.py` also takes `--n` for a single value, `--check` to validate an existing table without extending it, `--quiet`, and `--refined` (the lower endpoint B_refined — see Part C.2 of the proof document before using it). `wide_cert.py` takes `--menu` to add the family-menu lower bound as a cross-check and `--refresh` to discard the cached pass 1. `fallback_cert.py` takes `--verbose` to list every surviving candidate rather than stopping at the first.
+`mu_enumerate.py` also takes **`--nlist FILE`** (one n per line, extra fields ignored, so `ladder_weak.txt` can be passed straight in) and **`--fill-gaps`**. The two go together: a targeted `--nlist` run leaves holes below its own maximum, and plain resume continues after the *last* row, so those holes would never be filled. `--fill-gaps` rescans from `--nmin` and relies on the already-present check to skip what is done, costing only a loop over n. It also takes `--n` for a single value, `--check` to validate an existing table without extending it, `--quiet`, and `--refined` (the lower endpoint B_refined — see Part C.2 of the proof document before using it). `wide_cert.py` takes `--menu` to add the family-menu lower bound as a cross-check and `--refresh` to discard the cached pass 1. `fallback_cert.py` takes `--verbose` to list every surviving candidate rather than stopping at the first.
 
 **Outstanding one-off runs.** These operate on the GAP battery and read `ckpt_groups.pkl`, `ckpt_catalog.pkl`, `ckpt_order.pkl` from the working directory; `n` is implicit in `groups_out.txt` rather than a flag.
 

@@ -95,10 +95,10 @@ Odd n cannot use a balanced two-part split: c + r odd forces one part even, and 
 
 The route that avoids it is **three parts with two equal p-characteristic blocks**: n = 2c + r with c an odd prime power and r an odd prime, all parts odd. This is what the enumeration overwhelmingly finds — **200 of the 240 three-part winners** have exactly this shape — and it is *not* the family §5 of the notes analyses (see §3.3). Balancing gives the cap 1/9 at c ≈ r ≈ n/3.
 
-**Full efficiency is obstructed locally, and the obstructions split the ceiling by residue class.** Efficiency e = 1 requires the foreign twist to have order (r−1)/2, which Lemma B′ forces to be a power of q — so (r−1)/2 must be a prime power, the clean case being r a safe prime. Which n admit it, and at what efficiency, is settled in §3.3. Re-optimising δ(x) at reduced efficiency gives the other ceilings in closed form:
+**Full efficiency is obstructed locally, and the obstructions split the ceiling by residue class.** Write **η** for a foreign block's efficiency, η = orb(r, t)/C(r,2) with t the q-part of r − 1 — the fraction of full 2-homogeneous capacity its twist reaches. (η rather than e, to keep clear of Euler's number.) Efficiency η = 1 requires the foreign twist to have order (r−1)/2, which Lemma B′ forces to be a power of q — so (r−1)/2 must be a prime power, the clean case being r a safe prime. Which n admit it, and at what efficiency, is settled in §3.3. Re-optimising δ(x) at reduced efficiency gives the other ceilings in closed form:
 
-> at **e = 1/2**: δ(x) = min(x², 2x(1−2x), (1−2x)²/2) is maximised where x√2 = 1−2x, i.e. **x = 1/(2+√2) ≈ 0.29289**, giving **1/(2+√2)² = (2−√2)²/4 ≈ 0.08579**;
-> at **e = 1/3**: **≈ 0.07180** at x ≈ 0.2679.
+> at **η = 1/2**: δ(x) = min(x², 2x(1−2x), (1−2x)²/2) is maximised where x√2 = 1−2x, i.e. **x = 1/(2+√2) ≈ 0.29289**, giving **1/(2+√2)² = (2−√2)²/4 ≈ 0.08579**;
+> at **η = 1/3**: **≈ 0.07180** at x ≈ 0.2679.
 
 Where the family is locally soluble the predicted representation count is ~𝔖₃(n)·n/log³n, with
 
@@ -122,13 +122,13 @@ of the same three-condition shape as the even case. Its singular series is posit
 
 *Then why do the conditions read mod 4 and mod 3 in terms of n?* Purely the change of variable. The system lives in s, with r = 2s+1 and (for odd n) c = m − s where m = (n−1)/2. The ℓ = 2 condition is a condition on **m mod 2**, and since m = (n−1)/2 that is a condition on **n mod 4**. The ℓ = 3 condition is on m mod 3, and 2 is invertible mod 3, so it is a condition on **n mod 3**. Hence mod 12 in n, with nothing finer available. Verified empirically: representability rates computed modulo 24, 36, 48, 72 and 144 show no spread within a fixed class mod 12 beyond sampling noise. The efficiency available in each class then follows from the structure of r − 1: writing r − 1 = 2^a·u with u odd and L the largest prime power dividing u, the best top prime gives
 
-> **e = max(1/u, L/(2^{a−1}u))**, so **e = 1 exactly when a = 1 and u is a prime power** (the safe-prime-like case r − 1 = 2q^e).
+> **η = max(1/u, L/(2^{a−1}u))**, so **η = 1 exactly when a = 1 and u is a prime power** (the safe-prime-like case r − 1 = 2q^e).
 
-The ℓ = 2 obstruction forces a ≥ 2 and hence e ≤ 1/2; the ℓ = 3 obstruction forces 3 | u and hence e ≤ 1/3 generically; both together give e ≤ 1/6.
+The ℓ = 2 obstruction forces a ≥ 2 and hence η ≤ 1/2; the ℓ = 3 obstruction forces 3 | u and hence η ≤ 1/3 generically; both together give η ≤ 1/6.
 
 > **The density ladder, complete by residue class mod 12.** Every entry is derived, not fitted; the "observed" column is the largest density attained in the computed table by a winner whose foreign block runs at the generic efficiency for its class.
 >
-> | n mod 12 | parity | family | ℓ=2 | ℓ=3 | e | **exact cap** | decimal | observed | ratio |
+> | n mod 12 | parity | family | ℓ=2 | ℓ=3 | η | **exact cap** | decimal | observed | ratio |
 > |---|---|---|---|---|---|---|---|---|---|
 > | 0, 4, 6, 10 | even | c + r | — | — | 1 | **1/4** | 0.25000 | 0.24939 | 0.998 |
 > | 2, 8 | even | c + r | — | ✗ | 1/3 | **(2 − √3)/2** | 0.13397 | 0.13374 | 0.998 |
@@ -137,9 +137,9 @@ The ℓ = 2 obstruction forces a ≥ 2 and hence e ≤ 1/2; the ℓ = 3 obstruct
 > | 5 | odd | 2c + r | — | ✗ | 1/3 | **(2 − √3)²** | 0.07180 | 0.07043 | 0.981 |
 > | 11 | odd | 2c + r | ✗ | ✗ | 1/6 | **(5 − 2√6)/2** | 0.05051 | 0.05036 | 0.997 |
 >
-> All six are the same formula. Balancing x² against e(1−kx)² gives x\* = √e/(1 + k√e), where k = 1 for the two-part family and k = 2 for the three-part, so
+> All six are the same formula. Balancing x² against η(1−kx)² gives x\* = √η/(1 + k√η), where k = 1 for the two-part family and k = 2 for the three-part, so
 >
-> > **cap = e/(1 + k√e)²**,
+> > **cap = η/(1 + k√η)²**,
 >
 > and each rationalises to an integer denominator as tabulated. The class-5 value is a perfect square, (2 − √3)² = 7 − 4√3. In every case the cross term 2x\*(1 − kx\*) exceeds the cap, so the minimum is genuinely the intra/foreign balance and not the cross class.
 >
@@ -147,7 +147,7 @@ The ℓ = 2 obstruction forces a ≥ 2 and hence e ≤ 1/2; the ℓ = 3 obstruct
 
 *How this is validated, and why the maximum alone would not do it.* A class maximum meeting its cap only shows the cap is **attainable**; it is met whenever some n in the class happens to have a good representation, and would go on being met even if a further condition were quietly suppressing most of the class. Two stronger checks are therefore needed, and both pass.
 
-*Upper: no row exceeds its own cap.* Computing each winner's actual efficiency from its own foreign block and top prime, and comparing its density against cap(e) for that efficiency: over all **1,112** two- and three-part winners, **zero exceed it**. So δ(x) = min(x², 2x(1−kx), e(1−kx)²) bounds every individual row, not just the extremes.
+*Upper: no row exceeds its own cap.* Computing each winner's actual efficiency from its own foreign block and top prime, and comparing its density against cap(η) for that efficiency: over all **1,112** two- and three-part winners, **zero exceed it**. So δ(x) = min(x², 2x(1−kx), η(1−kx)²) bounds every individual row, not just the extremes.
 
 *Lower: the distribution is uniform across classes.* An unmodelled obstruction acting on some class would show as that class failing to reach its cap, or as its bulk sitting systematically lower than its siblings'. Restricting to additive-family winners running at their class's generic efficiency, and normalising by the class cap:
 >
@@ -178,12 +178,12 @@ It does not shrink. Each δ(x) is continuous with an **interior maximum**, so as
 
 | class | family, efficiency | cap | attained at | x-window | width |
 |---|---|---|---|---|---|
-| 0, 4, 6, 10 | two parts, e = 1 | 0.25000 | 0.5000 | [0.474, 0.526] | 0.052 |
-| 2, 8 | two parts, e = 1/3 | 0.13397 | 0.3660 | [0.347, 0.399] | 0.051 |
-| 1, 9 | three parts, e = 1 | 0.11111 | 0.3333 | [0.316, 0.342] | 0.026 |
-| 3, 7 | three parts, e = 1/2 | 0.08579 | 0.2929 | [0.278, 0.304] | 0.026 |
-| 5 | three parts, e = 1/3 | 0.07180 | 0.2680 | [0.254, 0.280] | 0.026 |
-| 11 | three parts, e = 1/6 | 0.05051 | 0.2247 | [0.213, 0.239] | 0.026 |
+| 0, 4, 6, 10 | two parts, η = 1 | 0.25000 | 0.5000 | [0.474, 0.526] | 0.052 |
+| 2, 8 | two parts, η = 1/3 | 0.13397 | 0.3660 | [0.347, 0.399] | 0.051 |
+| 1, 9 | three parts, η = 1 | 0.11111 | 0.3333 | [0.316, 0.342] | 0.026 |
+| 3, 7 | three parts, η = 1/2 | 0.08579 | 0.2929 | [0.278, 0.304] | 0.026 |
+| 5 | three parts, η = 1/3 | 0.07180 | 0.2680 | [0.254, 0.280] | 0.026 |
+| 11 | three parts, η = 1/6 | 0.05051 | 0.2247 | [0.213, 0.239] | 0.026 |
 
 So in every class the count required is of primes in an interval of length **c·n for an absolute constant c between 0.026 and 0.052** — not primes in a short interval. That is exactly the regime where the Hardy–Littlewood and Bateman–Horn heuristics are standard: the predicted count over the window is the full-range prediction times the window's measure, up to the smooth variation of 1/log across it, and no short-interval input is needed. The asymptotic ~𝔖(n)·n/log³n of §§3.1–3.2 therefore stands as written, with 𝔖(n) unchanged and only the constant scaled.
 
@@ -281,7 +281,7 @@ So the small-n dips are a finite phenomenon, and the asymptotic floor is the cla
 >
 > **δ(n) ≥ (5 − 2√6)/2 − o(1) = 0.050510…**,
 >
-> the extremal class being n ≡ 11 (mod 12) — the only one carrying both local obstructions, where the cap is e/(1 + k√e)² at e = 1/6, k = 2.
+> the extremal class being n ≡ 11 (mod 12) — the only one carrying both local obstructions, where the cap is η/(1 + k√η)² at η = 1/6, k = 2.
 
 The constant 1/50 is deliberately loose: the observed floor is 0.02504, so 1/50 carries about 25% margin, and 1/40 = 0.025 would be tight to four decimal places at n = 3239. Two things are being absorbed into that margin — the finite exceptional set of §3.5, whose members fall back on whatever configuration they can find, and the windowing loss of §3.4, which costs a factor Θ(√ε) when the balance point is not exactly available.
 
@@ -314,5 +314,5 @@ Since both Bateman–Horn systems already supply ~n/log³n representations where
 3. **Extend the global-floor scan to 10⁶.** §5 conjectures δ(n) ≥ 0.02 on the strength of a scan to 2·10⁵, where the floor is 0.02504 and nothing is below 0.02. The scan is O(N²/log N), so 10⁶ is roughly half an hour and would either strengthen the conjecture materially or refute it. Beyond that the cost grows faster than the information.
 4. **Local solubility of the 2c + r family.** Settled in §3.3 for the classes mod 12; what remains is whether the escapes behave as the O(log n) heuristic says: §5's chain analysis found two of its candidate chains locally dead (one always divisible by 3, one dead whenever 3 | n), so the analogous check is required before the revised ceilings 1/9 and 0.0858 can be quoted as ladder constants rather than as caps.
 5. **The fused family at ω(n) = 2 but bad splitting.** 282 of the 960 ω(n) = 2 values do better with a split than with fusion, which happens when the smallest prime-power cofactor F is large. The distribution of F over ω(n) = 2 integers is classical; predicting the 678/282 division is a clean test.
-6. **Efficiency below 1.** §5 of the notes tabulates eff(r,q) = orb(r, qpart(r−1,q))/C(r,2) and finds efficiency 1 at 77% of foreign blocks. The distribution of the largest prime-power divisor of r − 1 over primes r is a shifted-prime question of Erdős type; its known results should be imported here rather than re-derived.
+6. **Efficiency below 1.** §5 of the notes tabulates η(r,q) = orb(r, qpart(r−1,q))/C(r,2) and finds efficiency 1 at 77% of foreign blocks. The distribution of the largest prime-power divisor of r − 1 over primes r is a shifted-prime question of Erdős type; its known results should be imported here rather than re-derived.
 7. **Does the density floor drift as predicted?** The concrete test: extend the table and check whether the floor tracks the thinning of the ω(n) = 2 population. This is the cheapest available check on §4's central claim, and `wide_cert.py` already reaches n = 10⁵ for the collapse question, so the infrastructure exists.
