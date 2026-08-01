@@ -429,3 +429,101 @@ No cost was added to the inner loop — the values were already being computed, 
 A warning also fires on any `--nlist` run that would leave gaps, naming the lowest computed value and pointing at `--fill-gaps`.
 
 One bug found while testing: the gap counter indexed the sieve at `max(done)`, which can exceed `--nmax` after a targeted run at high n, giving an IndexError. Bounded by the sieve span.
+
+---
+
+## The 10⁶ scan, and the branch-and-bound converging to 27 values
+
+**Table extended to n = 2298 (1,921 rows).** Verified clean: `fallback` 0 everywhere, `fallback_cert.py` reports 0 candidates.
+
+**New global minimum: δ = 0.037524 at n = 2291**, witness `2x761 + 1x769*` — a fused pair of 761-blocks plus the foreign prime 769, and n ≡ 11 (mod 12). It displaces 0.041107 at n = 2183. **Five of the six lowest densities in the table are now n ≡ 11 (mod 12)**, the doubly-obstructed class showing up in the extremes.
+
+**`ladder_verify.py` to 10⁶** (68 minutes): global floor **0.02504 at n = 3239**, unchanged from 10⁴ onward — the running minimum never moves across the whole scan. **Zero** values below 0.02, so the §5 conjecture holds throughout. 48,729 values written to `ladder_weak.txt`.
+
+**Branch-and-bound: 48,729 → 27.** Using only values already in the computed table, M runs (5 − 2√6)/2 → 0.042286 (n = 935) → 0.037524 (n = 2291), and 27 candidates survive. **All 27 are n ≡ 11 (mod 12)**, between 2915 and 17363, ten of them below 5000. The global-floor question is now a finite explicit list rather than an open search.
+
+**An artifact to be careful of in the log.** The block floors plateau at exactly 0.04546 from 3·10⁵ on, which is 0.9 × 0.050510 — the `stop_at = 0.9 * CAP` early exit in `achieved()`. So those rows report a *lower bound* on the block floor, not the floor: they establish that nothing in those blocks fell below 90% of its class cap, and no more. Only the global figure 0.02504 (well below the exit threshold) is an actual minimum. Documented in §5 so the table is not over-read.
+
+**A new open branch: s = 4.** The certificate now reports one branch no theorem covers. The corollary bounds s ≤ 1/√δ − 1, so the lower density at n = 2291 admits s = 4 for the first time. Unlike s = 3 — which Theorem E.4 collapses to the single pair (16, 5) — the s = 4 branch is **not** thin: c − 1 = 4r with c a prime power and r prime has no parity or congruence forcing, and 33 such pairs exist below c = 4000. So no analogue of E.4 is available, and an absolute cap would have to come from the foreign block's twist as in E.1 and E.3(iii). The search still clears it at every computed n, so nothing is unproved — but the theorem-side hole widens as the floor falls, and this is the first new branch since the framework was set up. Recorded in Part E′.
+
+---
+
+## Removed the superseded ladder-hypothesis material
+
+The first `ladder_verify.py` asked a binary question — "does a balanced full-efficiency representation exist near x = 1/3?" — over only the classes where full efficiency is locally available. The rewrite computes achieved density over all twelve classes, which subsumes it. But the *prose* built on the old check survived the rewrite and had become actively confusing, since it described a different quantity under the same script name.
+
+Removed:
+
+- **Thesis point 3** of `arithmetic-of-density.md` ("the ladder's hypothesis is checkable, not merely conjectural"), with points 4–6 renumbered. Its content is now carried by point 4, the global floor.
+- **§3.5's verification table** — the 61/1,196 failure counts, the 28,993 and 96,568 thresholds, and the "no new failures beyond 2·10⁵" argument. All of it described the old binary check on a subset of classes. Replaced by the current statement: over every composite non-prime-power n ≤ 10⁶, all twelve classes, the floor is 0.02504 and nothing falls below 0.02.
+- The **status table rows** "ladder hypothesis verified / assumed", replaced by the global-floor rows they actually mean now.
+- **Prop. 5.2′** of the notes, whose closing sentence quoted the old failure thresholds.
+- **`pending-checks.md`'s** account of the rewrite, which narrated what the old version got wrong rather than saying what the current one does. It now describes the script's behaviour, its status as a lower bound, the 10⁶ result, and its role feeding the branch-and-bound.
+
+What survives of §3.5 is the part that was always the point and is unaffected: Bateman–Horn has no error term and is ineffective; quantitative refinements bound counting functions and so cannot speak about individual n; uniform versions are false (Friedlander–Granville); but the quantity §5 needs is computable directly in O(n/log n), which is what makes the range achievable. Only the evidence cited for that last clause changed.
+
+---
+
+## Terminology fix, and an error in how the mod-12 table was described
+
+Two problems, the second substantive.
+
+**"Unfused parts" was ambiguous.** A configuration is n = Σ Fᵢcᵢ, and each summand is a *class* — Fᵢ blocks of size cᵢ fused by the top q-group. "Unfused" means Fᵢ = 1. The `parts` column counts **classes**, not blocks, and Proposition F.1's k is that count whether or not the classes are internally fused. Stated explicitly now, before §2.2 uses it.
+
+**The two-engine picture is a first approximation, not a dichotomy.** Fusion is an axis *within* a configuration: **58 of the 909 two-class winners** pair a fused class with an unfused foreign prime, and the current global minimum is one of them — n = 2291, `2x761 + 1x769*`. (No three-class winner contains a fused class.) Fusion also carries a cost worth recording: Fᵢ must be a q-power, so fusing constrains q, and the foreign twist must then be a q-power too — at n = 2291 the fusion forces q = 2 and caps the foreign efficiency at η = 1/3.
+
+**The substantive error: the mod-12 table was described as bounding δ(n).** It does not. Each row is the most the *balanced additive family* can extract in that class, which makes it the δ₀ of the ladder — a guaranteed **lower** bound on μ(n) when the representation exists — not a ceiling on what n can achieve. Other shapes exceed it freely:
+
+- a single fused class reaches 1/F and beats every row;
+- at odd n the shape 2^a + r\* sidesteps the three-class balance entirely: n = 1015 = 512 + 503\* gives δ = 0.24534 against 0.08579 for class 7;
+- over the computed table, **91 values in class 11 alone exceed 0.05051, the largest 0.20168**.
+
+Captions rewritten in both documents to say "ceilings of the family, hence floors for μ", the column relabelled δ₀ rather than "exact cap", and §5's conjecture reworded so its asymptotic half reads as a floor the worst n approach rather than a bound individual n respect.
+
+The per-row validation reported earlier is unaffected: it was computed restricted to additive-family winners at generic efficiency, which is the right population for it. What was wrong was the prose around the table, not the numbers in it.
+
+---
+
+## Minimum updated to n = 2291 throughout
+
+The n = 2298 table made **δ = 0.037524 at n = 2291** (`2x761 + 1x769*`) the global minimum, displacing 0.041107 at n = 2183, but several places still named 2183. Corrected, and the surrounding claims re-derived rather than just renumbered:
+
+- **Part I's floor bullet** said "the density floor is stable rather than eroding across the range". That is now false — it has moved twice in two extensions (0.041812 at n = 575 → 0.041107 at n = 2183 → 0.037524 at n = 2291), so the bullet records the sequence and links it to the s = 4 branch becoming reachable.
+- **§4's drift table** — third row recomputed over [1500, 2298): ω(n) = 2 share 50.1%, median smallest cofactor 7, min density 0.03752.
+- **§4's worked illustration** kept n = 2183 = 37·59, which is still a good example, and added n = 2291 = 29·79 as the current floor: F = 29 gives only 1/29 ≈ 0.034, and the winner is a *mixed* shape, a fused pair plus a foreign prime. Both are n ≡ 11 (mod 12) and both are values where each engine is weak at once.
+- **§5's comparison** of the scan's lower bound against the true μ-based minimum.
+
+Full figure sweep against the 1,921-row table: row counts, part counts {1: 754, 2: 909, 3: 258}, `certified_K` {2: 356, 3: 1085, 4: 435, 5: 44, **6: 1**} — the 6 is new and is the s = 4 value n = 2291 — the 1/4 share (18.5%), Theorem E.1 coverage (1,441 of 1,921, 75.0%), the δ ≤ 1/16 tail (45), shape counts, and §5.5's parity figures (even median 0.2249, odd 0.1100; below 1/12: 1.0% even, 22.2% odd; below 1/9: 4.8% and 54.3%; below 1/16: 0.1% and 5.6%).
+
+The odd-n shortfall has grown slightly with the extension — 19.3% → 22.2% below 1/12 — which is consistent with the floor falling in the doubly-obstructed class rather than with any change in the analysis.
+
+---
+
+## Sections 6 and 7 of the density document pruned
+
+**Removed as settled.** "Extend the global-floor scan to 10⁶" — done, 4,062 s, floor 0.02504 unchanged and nothing below 0.02. "Does the density floor drift as predicted?" — answered yes, and emphatically: it has moved twice in two extensions, 0.041812 → 0.041107 → 0.037524, so it is now a recorded finding in §4 rather than a question. "Local solubility of the 2c + r family" was settled in §3.3, so only its residue survives, as the question of whether the power-of-3 escapes really are O(log n)-sparse.
+
+**Added.** Two items that did not exist when the list was written:
+
+- *Finish the branch-and-bound* — 27 named candidates, all n ≡ 11 (mod 12) between 2915 and 17363, each decidable by `mu_enumerate.py --floor M` without computing B(n). This is now the most concrete open item in the document, and its outcome either lowers the global floor or confirms 0.037524.
+- *Bound the s = 4 branch* — the only item in §7 that is a gap in a **proof** rather than in evidence. E.1 caps s = 1 and E.3(iii) caps the s = 2 repunit branch; s = 4 has neither and is not thin enough for an E.4-style collapse.
+
+**Updated in place.** Open Problem 2(a) restated around the measured fact that 54.3% of odd n fall below 1/9, rather than around the family's cap. Open Problem 9(a) given the current tail count (45 of 1,921) and the fact that no winner has ever used four classes. Open Problem 9(b) extended with the observation that it has *grown harder*: s ≤ 1/√δ − 1 means each new minimum admits a larger s, so the theorem-side coverage erodes as the floor falls. The 1/12 shortfall figures (22.2% odd, 1.0% even) and the fused-family split (323 of 1,077) refreshed.
+
+**One framing correction.** §5's opening still said "the verification of §3.5 leaves a finite exceptional set below 10⁵", which referred to the retired binary check. §5 does not depend on that; it depends on the six δ₀ of §3.3.
+
+---
+
+## The branch-and-bound moved inside `mu_enumerate.py`
+
+`--floor` held the floor fixed for the whole run and only *listed* survivors without computing them, so the loop of §5 — compute, lower M, re-filter, relaunch — was entirely the caller's job. `--adaptive` now does it in one pass:
+
+- **prune**: a candidate whose supplied lower bound has risen above the current floor is skipped with no computation, since LB(n) ≥ floor proves δ(n) ≥ floor. This is why `--nlist` files should keep the two-column `n LB` form `ladder_verify.py` writes; the parser now captures that column.
+- **reject**: stops at the first configuration above the floor, usually K = 1 or 2.
+- **adopt**: a survivor gets B(n) computed exactly, and if lower it becomes the new floor — which also shrinks Prop. F.1's K bound for every subsequent n, so the run gets cheaper as it succeeds.
+
+Verified on four known values with a starting floor of 0.0425, exercising all four paths in one run: n = 575 lowered the floor to 0.041812 and dropped K from 5 to 4; **n = 851 was then pruned on its bound (0.04235 ≥ 0.04181) — it would have passed the original filter but not the tightened one**; n = 935 and n = 1175 rejected at K = 2 and K = 3.
+
+That n = 851 case is the whole point of doing it in-job: with a fixed floor it would have been computed unnecessarily.
+
+Ordering matters, and the two natural orders conflict — cheapest-first (ascending n) versus most-likely-to-improve (ascending LB). For `bb27.txt` they nearly agree at the head: n = 3239 has both the lowest bound (0.667 of M) and a cost of about 4.5 minutes, so it is the right first target either way.

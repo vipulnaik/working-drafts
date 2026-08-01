@@ -367,6 +367,28 @@ if __name__ == "__main__":
                     "output of ladder_verify.py (`n density`) can be passed "
                     "directly. Values already in --out are skipped. Combines "
                     "with --nmax, which then acts as an upper cut-off.")
+    ap.add_argument("--floor", type=float, metavar="DENSITY",
+                    help="DECISION MODE for the branch-and-bound of "
+                         "arithmetic-of-density.md section 5. Seeds the search at "
+                         "DENSITY*C(n,2), so configurations below that are pruned. "
+                         "Reports, per n, whether B(n) exceeds the floor -- which "
+                         "rejects n as a candidate for the global minimum -- or "
+                         "does not, in which case the exact value is needed and n "
+                         "is written to the --out-below file. Much cheaper than a "
+                         "full computation whenever B(n) is comfortably above the "
+                         "floor, which is the common case.")
+    ap.add_argument("--adaptive", action="store_true",
+                    help="run the branch-and-bound of arithmetic-of-density.md "
+                         "section 5 inside the job rather than leaving it to the "
+                         "caller. On a survivor, compute B(n) exactly and, if its "
+                         "density is below the current floor, adopt it as the new "
+                         "floor for the remaining n. Requires --floor. If --nlist "
+                         "supplies lower bounds in a second column, any n whose "
+                         "bound has risen above the current floor is skipped "
+                         "without computation, since LB(n) >= floor proves "
+                         "delta(n) >= floor.")
+    ap.add_argument("--out-below", metavar="FILE", default="below_floor.txt",
+                    help="where --floor writes the n it could not reject")
     ap.add_argument("--fill-gaps", action="store_true",
                     help="when resuming, recompute the whole range from --nmin "
                          "rather than continuing after the last row, so that "
@@ -451,16 +473,25 @@ if __name__ == "__main__":
     # the resume point and rescans from nmin, relying on the `n in done` test
     # below to skip what is already computed; that costs only a loop over n.
     if a.nlist:
-        want = []
+        want, LB = [], {}
         with open(a.nlist) as fh:
             for line in fh:
                 line = line.strip()
                 if not line or line.startswith("#"):
                     continue
+                f = line.split()
                 try:
-                    want.append(int(line.split()[0]))
+                    n_ = int(f[0])
                 except ValueError:
                     continue
+                want.append(n_)
+                # second field, if present, is a LOWER BOUND on delta(n) -- the
+                # format ladder_verify.py writes.  --adaptive uses it to prune.
+                if len(f) > 1:
+                    try:
+                        LB[n_] = float(f[1])
+                    except ValueError:
+                        pass
         want = sorted(set(want))
         if a.nmax:
             want = [n for n in want if n <= a.nmax]
@@ -470,7 +501,7 @@ if __name__ == "__main__":
             sys.exit(f"{a.nlist} yielded no usable values of n in range")
         span = max(want)
     else:
-        want = range(max(2, nmin), a.nmax + 1)
+        want, LB = range(max(2, nmin), a.nmax + 1), {}
         span = a.nmax
 
     spf = sieve_spf(span + 1)
@@ -520,6 +551,84 @@ if __name__ == "__main__":
         print(f"comparing      against {a.check}")
     if not todo:
         print("nothing to do"); sys.exit()
+
+    # ---- decision mode ------------------------------------------------
+    if a.floor is not None:
+        print(f"decision mode  floor delta = {a.floor:.6f}; reporting only whether "
+              f"B(n) exceeds it")
+        print(f"               n that cannot be rejected are written to {a.out_below}")
+        print()
+        floor = a.floor
+        KMAX = max(1, int(1.0 / floor ** 0.5))
+        print(f"               Prop. F.1 caps the part count at {KMAX} "
+              f"(= floor(1/sqrt({floor:.6f}))), so K runs 1..{KMAX}")
+        if a.adaptive:
+            print(f"               ADAPTIVE: the floor is lowered whenever a "
+                  f"survivor turns out to beat it, and n whose supplied lower "
+                  f"bound has risen above it are skipped")
+            if not LB:
+                print(f"               (no lower bounds in {a.nlist}; pruning by "
+                      f"bound is disabled, adaptation still active)")
+        rejected, survivors, pruned = 0, [], 0
+        t0 = time.time()
+        for i, n in enumerate(todo, 1):
+            # LB(n) >= floor proves delta(n) >= floor, so n cannot lower it
+            if a.adaptive and n in LB and LB[n] >= floor:
+                pruned += 1
+                print(f"[{i}/{len(todo)}] n={n:<7} pruned: bound {LB[n]:.5f} "
+                      f">= floor {floor:.5f}", flush=True)
+                continue
+            seed = int(floor * comb(n, 2))
+            b, k_used = seed, None
+            fast = seed_value(n, spf)
+            if fast > seed:
+                b, k_used = fast, 0
+            else:
+                for K in range(1, KMAX + 1):
+                    b, w = best_with_k(n, K, spf, seed=b)
+                    if b > seed:
+                        k_used = K
+                        break
+            if b > seed:
+                rejected += 1
+                verdict = (f"B/C(n,2) > {floor:.5f}  rejected"
+                           + (" (family menu)" if k_used == 0
+                              else f" at K={k_used}"))
+            elif a.adaptive:
+                # cannot reject: compute the exact value and adopt it if lower
+                B, w, K, cert = mu_bound(n, spf)
+                d = B / comb(n, 2)
+                if d < floor:
+                    floor = d
+                    KMAX = max(1, int(1.0 / floor ** 0.5))
+                    survivors.append(n)
+                    verdict = (f"delta = {d:.6f}  NEW FLOOR  (K now 1..{KMAX})"
+                               f"   {show(w)}")
+                else:
+                    rejected += 1
+                    verdict = f"delta = {d:.6f}  >= floor, rejected on exact value"
+            else:
+                survivors.append(n)
+                verdict = f"B/C(n,2) <= {floor:.5f}  NEEDS EXACT VALUE"
+            print(f"[{i}/{len(todo)}] n={n:<7} {verdict}   "
+                  f"({time.time()-t0:.1f}s cumulative)", flush=True)
+        with open(a.out_below, "w") as fh:
+            for n in survivors:
+                fh.write(f"{n}\n")
+        print()
+        if a.adaptive:
+            print(f"pruned {pruned}, rejected {rejected}, floor lowered "
+                  f"{len(survivors)} times, in {time.time()-t0:.0f}s")
+            print(f"FINAL FLOOR delta = {floor:.6f}"
+                  + (f", last lowered at n = {survivors[-1]}" if survivors
+                     else f" (unchanged from {a.floor:.6f})"))
+            print(f"n that lowered it, in order: {survivors}"
+                  if survivors else "no n beat the starting floor")
+        else:
+            print(f"rejected {rejected} of {len(todo)} in {time.time()-t0:.0f}s; "
+                  f"{len(survivors)} need the exact value -> {a.out_below}")
+        sys.exit(0 if not survivors else 1)
+
     print()
 
     fh = None

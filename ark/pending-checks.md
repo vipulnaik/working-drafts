@@ -14,7 +14,7 @@
 
 ```bash
 python3 mu_enumerate.py --nmin 2213 --nmax 2600 --out mu_table_safe_v2.csv   # extend the table (~n^2.9/value)
-python3 mu_enumerate.py --nlist ladder_weak.txt --out mu_table_safe_v2.csv   # or: work the weak-value list first
+python3 mu_enumerate.py --nlist bb27.txt --floor 0.037524 --adaptive        # branch-and-bound for the global floor
 python3 mu_enumerate.py --nmax 2600 --fill-gaps --out mu_table_safe_v2.csv   # then close any gaps a targeted run left
 python3 fallback_cert.py mu_table_safe_v2.csv                               # collapse certificate vs the true B(n)
 python3 wide_cert.py 100000                                                 # same, from lower bounds; pass 1 cached
@@ -22,15 +22,33 @@ python3 check_doc_figures.py mu_table_safe_v2.csv *.md                      # ca
 python3 ladder_verify.py 200000                                             # ladder floor, all 12 classes (87 s)
 ```
 
-**`ladder_verify.py` — rewritten, and the earlier version was checking too little.** It used to ask a binary question, "does a full-efficiency representation exist near x = 1/3", which (a) skipped every class where full efficiency is locally obstructed — classes 2, 3, 5, 7, 8, 11 mod 12, i.e. half of all n, and the hard half — and (b) used a window that does not contain the balance point of the low-efficiency classes, so a shortfall there was an artefact rather than a finding.
+**`mu_enumerate.py --floor M --adaptive` runs the §5 branch-and-bound as a single job.** Without `--adaptive` the floor is fixed for the whole run and survivors are only *listed*, so the caller has to compute them, lower M by hand, re-filter and relaunch. With it the job does all of that:
 
-It now computes, for each n and over all twelve classes, the best density the three families achieve, scanning x ∈ [0.10, 0.55] which holds every balance point. That subsumes the old check (representability is "achieved density > 0") and yields the global floor of `arithmetic-of-density.md` §5 directly. Current result to 2·10⁵: **floor 0.02504 at n = 3239, zero values below 0.02**, per-class minima of δ/cap between 0.33 and 0.72.
+- a candidate whose supplied lower bound has risen above the current floor is **pruned** without any computation, since LB(n) ≥ floor proves δ(n) ≥ floor — this is why `--nlist` files should keep the `n LB` two-column form that `ladder_verify.py` writes;
+- a candidate that can be **rejected** stops at the first configuration above the floor, usually at K = 1 or 2;
+- a candidate that cannot be rejected has B(n) computed exactly, and if its density is lower it becomes the **new floor** — which also shrinks Prop. F.1's K bound for everything after it.
 
-Cost is O(N²/log N), not linear — 33 s to 10⁵, 190 s to 2.5·10⁵ — so **10⁶ is roughly an hour and is the run worth doing**; 10⁷ is multi-day and not worth it without a further reason. (An earlier note here quoted 193 s for 10⁷; that timing was the old binary check, which scanned a narrow fixed window.)
+Worked example on four known values with a starting floor of 0.0425:
 
-It also writes **`ladder_weak.txt`** — every n whose computed lower bound falls below the asymptotic constant (5 − 2√6)/2 = 0.050510, which is 2,163 values below 6·10⁴. These are *not* counterexamples: the script computes a lower bound on δ(n), not δ(n), and in particular does not model the fused-plus-foreign shape (F, c) + r\* that the enumeration often prefers. It is a **worklist for `mu_enumerate.py`**: computing the true B(n) at those n would raise the observed global floor of §5 and could replace the loose 1/50 with something near the asymptotic value. Many of the smaller entries (575, 851, 935, 1175, …) are already in the computed table, so the comparison can start immediately without new enumeration.
+```
+[1/4] n=575    delta = 0.041812  NEW FLOOR  (K now 1..4)   p=5 q=23: 23x25
+[2/4] n=851    pruned: bound 0.04235 >= floor 0.04181
+[3/4] n=935    B/C(n,2) > 0.04181  rejected at K=2
+[4/4] n=1175   B/C(n,2) > 0.04181  rejected at K=3
+FINAL FLOOR delta = 0.041812, last lowered at n = 575
+```
 
-Since the run is long enough to want watching, it prints a **checkpoint every 10,000** — timestamp, elapsed, throughput, the running floor and its n, a flag if anything has fallen below the floor, and an ETA scaled by N²/log N rather than linearly — and a **cumulative summary every 100,000** giving that block's own minimum alongside the global one. The block minima are worth reading on their own: 0.02504 over the first 10⁵ and 0.04125 over the second, which is the floor-rises-with-n effect of §5 visible as the scan proceeds.
+n = 851 is the point: its bound was below the *starting* floor but above the one n = 575 established, so it was skipped entirely. Order the input so likely improvers come first — `bb27.txt` sorted by the second column — since every early success prunes more of the tail.
+
+**`ladder_verify.py` computes the global floor**`ladder_verify.py` computes the global floor of `arithmetic-of-density.md` §5.** For each n and over all twelve residue classes it finds the best density the three families achieve, scanning the block size over x ∈ [0.10, 0.55] — a window wide enough to hold every class's balance point, which matters because the low-efficiency classes balance near x = 0.22, not x = 1/3. The value is a *lower bound* on δ(n): it does not model the fused-plus-foreign shape (F, c) + r\*, so where both are known it agrees exactly at 1,700 of 1,921 values and is otherwise low by up to a factor of 2.
+
+Result to 10⁶ (68 minutes): **floor 0.02504 at n = 3239, zero values below 0.02**, per-class minima of δ/cap between 0.33 and 0.72.
+
+It also writes **`ladder_weak.txt`** — every n whose bound falls below the asymptotic constant (5 − 2√6)/2, which is 48,729 values below 10⁶. These are *not* counterexamples; they are the worklist for the branch-and-bound of §5, which has already reduced them to **27 candidates** using table lookups alone. `mu_enumerate.py --floor M` decides each without computing B(n) exactly.
+
+Cost is O(N²/log N) — 33 s to 10⁵, 4,062 s to 10⁶ — so 10⁷ is multi-day and not worth it: the running minimum has not moved since n = 10⁴.
+
+Since the run is long enough to want watchingSince the run is long enough to want watching, it prints a **checkpoint every 10,000** — timestamp, elapsed, throughput, the running floor and its n, a flag if anything has fallen below the floor, and an ETA scaled by N²/log N rather than linearly — and a **cumulative summary every 100,000** giving that block's own minimum alongside the global one. The block minima are worth reading on their own: 0.02504 over the first 10⁵ and 0.04125 over the second, which is the floor-rises-with-n effect of §5 visible as the scan proceeds.
 
 **Run `check_doc_figures.py` after every extension.** Three consecutive extensions each left a *different* subset of the documents behind, because the updates were done by ad-hoc string replacement rather than a sweep. The script recomputes every range-dependent figure the prose quotes — row count, n max, density floor and peak, median, part counts, `certified_K` distribution, the 1/4 and 1/9 shares, the δ ≤ 1/16 tail, the ω(n) = 2 count — and flags occurrences that no longer match. It deliberately does not edit: several of these numbers sit in sentences whose wording has to change with them (the density floor moved off n = 575 at n ≤ 2212, and the surrounding claim that it was "stable rather than eroding" had to go). Some flagged figures are legitimate historical citations — the `mu_fast.py` menu table's row count, a sample size, a "then-N" reference — so the output is a checklist, not a diff.
 
@@ -68,7 +86,7 @@ python3 probe_backbone.py --classes <the 54 CAP ids> --nodecap 20000000
 
 ## Open mathematical questions
 
-Not repeated here. The two arithmetic residues are Open Problem 9 of the notes and Part J items 1–2 of `enumeration-proof.md`; the largest epistemic risk is Part J item 3 — an independent reading of Lemma B′, Lemma C and G.2, none of which has had any. `arithmetic-of-density.md` §6 lists five further questions of its own, all heuristic-vs-measurement comparisons rather than proofs; the cheapest and most informative is whether the observed density floor drifts downward as the ω(n) = 2 population thins, which needs only table extension.
+Not repeated here. The two arithmetic residues are Open Problem 9 of the notes and Part J items 1–2 of `enumeration-proof.md`; the largest epistemic risk is Part J item 3 — an independent reading of Lemma B′, Lemma C and G.2, none of which has had any. `arithmetic-of-density.md` §7 lists seven of its own. Two are concrete work rather than heuristics: **finishing the branch-and-bound** (27 named candidates, each decidable by `mu_enumerate.py --floor`, which would pin the global floor), and **bounding the s = 4 branch** — the one item there that is a gap in a proof rather than in evidence, newly opened by the density floor falling to 0.037524.
 
 ---
 
