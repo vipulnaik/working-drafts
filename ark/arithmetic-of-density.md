@@ -19,7 +19,7 @@ Everything else in this document elaborates that split. Five consequences set th
 1. **The density ladder's thresholds are the engine caps, not artefacts.** 1/2 and 1/3 are fused-class values at F = 2 and F = 3; **1/4 is the two-part cap; 1/9 is the three-part cap; 1/16 is the four-part cap.** The thresholds that appear throughout the other two documents — δ₀^even = 1/4, Theorem E.1's 1/9, Corollary F.3's 1/16 — are all the same quantity read at different k.
 2. **The parity asymmetry is multiplicative in origin, not additive.** Even n has 2 | n, so F = 2 is available whenever n/2 is a prime power, giving density 1/2. Odd n has F ≥ 3, capping the multiplicative engine at 1/3; and its two-part route needs the *even* part to be a power of 2, which is scarce. So odd n loses on both engines at once — and the loss is a matter of caps, not of representation counts: both Bateman–Horn systems supply ~n/log³n where they are soluble at all (§§3.1–3.3).
 3. **The ceiling splits by residue class mod 12, for both parities**, from local obstructions at ℓ = 2 and ℓ = 3 — and those are the only two moduli that can obstruct, because each system is three linear polynomials so ω(ℓ) ≤ 3 < ℓ for ℓ ≥ 5. Six distinct constants result, from 1/4 down to 0.05051, each met by the constructions to within 2% (§3.3).
-4. **One global floor covers everything.** Collapsing the six class constants and the finite exceptional set into a single number: **δ(n) ≥ 0.02 for every composite non-prime-power n**, conjecturally, with the observed floor 0.02504 at n = 3239 and the extremal class n ≡ 11 (mod 12) throughout (§5).
+4. **One global floor covers everything.** Conjecturally **δ(n) ≥ 0.02 for every composite non-prime-power n** — and below 10⁶ this is now settled by an exhaustive branch-and-bound rather than assumed: the true minimum is **0.026117 at n = 3239**, with the extremal class n ≡ 11 (mod 12) at every stage (§5).
 5. **The multiplicative engine covers a density-zero set, so asymptotically the additive engine is everything.** The fraction of n with ω(n) = 2 thins like log log n / log n — measured at 52% below 2000 but 29% near 10⁶. So the asymptotic behaviour of μ is governed entirely by the Hardy–Littlewood side, and the observed density floor should be expected to drift downward as the fused family's reach recedes.
 
 ---
@@ -251,7 +251,7 @@ Two consequences, and both should temper how the computed range is read.
 
 The residue analysis gives six different δ₀, one per class. It is worth collapsing them into a single number that should hold everywhere, even at the cost of being loose.
 
-**Where the floor lives.** The worst class is **n ≡ 11 (mod 12)**, the only one carrying both local obstructions, with cap 0.05051. `ladder_verify.py` computes for each n the best density achievable by the three families of §2, scanning the block size over a window wide enough to contain every balance point, x ∈ [0.10, 0.55]. Over all composite non-prime-power **n ≤ 10⁶** (68 minutes) the smallest value is
+**Where the floor lives.** The worst class is **n ≡ 11 (mod 12)**, the only one carrying both local obstructions, with δ₀ = 0.05051 — and every value that has ever set the running floor has been in it. `ladder_verify.py` computes for each n the best density achievable by the three families of §2, scanning the block size over a window wide enough to contain every balance point, x ∈ [0.10, 0.55]. Over all composite non-prime-power **n ≤ 10⁶** (68 minutes) the smallest value is
 
 > **δ ≥ 0.02504, at n = 3239**,
 
@@ -284,9 +284,17 @@ The constant 1/50 is deliberately loose: the scan's floor is 0.02504, so 1/50 ca
 
 **The branch-and-bound, and where it now stands.** The worklist admits a search that converges fast, because `ladder_verify` returns a *lower* bound: if LB(n) ≥ M for the standing minimum M, then δ(n) ≥ M and n cannot lower it, so n is discarded without computation. Take the smallest known δ as M, discard every candidate with LB ≥ M, compute δ at a survivor, lower M if it beats it, and repeat. Applied to the 48,729 candidates using only values already in the computed table:
 
-> M = (5 − 2√6)/2 → **0.041812** (n = 575) → **0.041107** (n = 2183) → **0.037524** (n = 2291) → **0.029282** (n = 3059) → **0.026117** (n = 3239), and **one candidate survives**: n = 8927.
+> M = (5 − 2√6)/2 → **0.041812** (n = 575) → **0.041107** (n = 2183) → **0.037524** (n = 2291) → **0.029282** (n = 3059) → **0.026117** (n = 3239), and the search then **terminates**: n = 8927, the last candidate, rejects.
 >
-> Those are the successive record minima, in increasing n. The order in which candidates are examined changes which of them get *recorded* — a value can set the running floor and then be superseded by a smaller n examined later — but not the final result, since the floor only ever falls and pruning is sound at every stage.
+> Those are the successive record minima, in increasing n. The order in which candidates are examined changes which get *recorded* — a value can set the running floor and then be superseded by a smaller n examined later — but not the final result, since the floor only falls and pruning is sound at every stage.
+
+> **The branch-and-bound is complete.** Exactly two of the 48,729 candidates have a lower bound below 0.026117: n = 3239 (0.02504), which attains it, and n = 8927 (0.02516), which rejects at K = 3. Every other n ≤ 10⁶ is pruned. Hence
+>
+> **min { μ(n)/C(n,2) : n ≤ 10⁶ composite, not a prime power } = 136957/5243941 = 0.0261166…, attained at n = 3239.**
+
+*Why the closure is sound, tier by tier.* Values absent from the worklist have a bound of at least (5 − 2√6)/2 by construction; values present with bound at least 0.026117 are pruned on it. In both cases the bound is a lower bound on μ(n)/C(n,2) — `ladder_verify.py` scores explicit constructions — so no collapse assumption is needed and the pruning is valid across the whole range, including [10⁵, 10⁶] where the collapse is not certified. For the two values actually resolved, the direction matters the other way, since B(n) bounds μ(n) from above: both are below 10⁵, where `wide_cert.py` certifies μ(n) = B(n), so 0.026117 is a value of μ rather than of B, and 8927's rejection really does place μ(8927) above the floor.
+
+**This settles the finite half of the conjecture below.** The observed minimum is 0.0261, against the conjectured floor of 0.02 — a margin of 1.31, narrower than the 25% quoted when the scan's weaker bound 0.02504 was the best available, but still clear.
 
 Every candidate at every stage has been **n ≡ 11 (mod 12)**, the doubly-obstructed class. One value remains: n = 8927, whose bound 0.02516 is 96% of the current floor. Settling it completes the search for n ≤ 10⁶. So the question of the true global floor is now a finite, explicitly listed computation rather than an open-ended search. `mu_enumerate.py --floor M --adaptive` runs the whole loop as one job: it seeds the search at M·C(n,2) so any configuration above the floor rejects n immediately, prunes any candidate whose lower bound has risen above the current floor, computes B(n) exactly only for the survivors, and adopts a lower value as the new floor — which in turn tightens Proposition F.1's part-count cap ⌊1/√M⌋ for everything after it.
 
@@ -360,7 +368,7 @@ That is a covering statement, and it is strictly weaker than any single system b
 
 ## 8. Open questions specific to this document
 
-1. **Finish the branch-and-bound of §5.** One candidate remains, n = 8927, after the floor reached 0.026117 at n = 3239. The reduction is essentially free: over the full 48,729-entry worklist, all but a handful are eliminated by comparing their lower bound against the running floor. Completing these three settles the true minimum below 10⁶. This would replace the deliberately loose 1/50 in the conjecture with something close to the observed value.
+1. **Extend the branch-and-bound past 10⁶.** The search is complete below 10⁶ (§5): the minimum is 0.026117 at n = 3239. Pushing further needs `ladder_verify.py` run at a larger N, which is O(N²/log N) — 68 minutes to 10⁶, so 10⁷ is multi-day. The lower envelope has risen monotonically since [10³, 10⁴), so the expected return is confirmation rather than a new minimum; the value of doing it is in how far the pattern can be pushed, not in what it is likely to find. The reduction is essentially free: over the full 48,729-entry worklist, all but a handful are eliminated by comparing their lower bound against the running floor. Completing these three settles the true minimum below 10⁶. This would replace the deliberately loose 1/50 in the conjecture with something close to the observed value.
 
 2. **Bound the s = 4 branch.** New, and the only item here that is a gap in a *proof* rather than in evidence. E.1 caps s = 1 by the Mersenne constants and E.3(iii) caps the s = 2 repunit branch; s = 4 has neither, and is not thin enough for an E.4-style collapse. An absolute cap would have to come from the foreign block's twist, as in those two. The search clears it at every computed n, so nothing is unproved — but the gap widens as the floor falls.
 

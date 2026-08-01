@@ -642,3 +642,21 @@ That is strictly weaker than any single system being solvable, which explains bo
 Also recorded: the covering cannot be inverted into a statement about any single prime configuration unless it is shown *irredundant*, and the data does not support that — most n are covered by several shapes.
 
 New §6 of `arithmetic-of-density.md`; the open-problems discussion split off as §7 and the document's own questions renumbered to §8.
+
+---
+
+## Branch-and-bound complete: min δ(n) = 0.026117 at n = 3239, for all n ≤ 10⁶
+
+n = 8927, the last candidate, rejected at K = 3 after 9,398 s cumulative. Exactly two of the 48,729 worklist entries had a bound below 0.026117 — n = 3239 (0.02504), which attains it, and n = 8927 (0.02516), which rejects — so the search is closed.
+
+> **min { μ(n)/C(n,2) : n ≤ 10⁶ composite, not a prime power } = 136957/5243941 = 0.0261166…, at n = 3239 = 1511 + 907 + 821.**
+
+**The closure is sound in two tiers, and the direction of each bound matters.** Values absent from the worklist have a bound of at least (5 − 2√6)/2 by construction; values present with bound at least 0.026117 are pruned on it. Both use LB(n) ≤ μ(n)/C(n,2) — `ladder_verify.py` scores explicit constructions — so no collapse assumption is needed, and the pruning holds even in [10⁵, 10⁶] where the collapse is *not* certified. For the two values actually resolved the direction is the other way, since B(n) bounds μ(n) from above; both are below 10⁵, where `wide_cert.py` certifies μ(n) = B(n), so 0.026117 is a value of μ and 8927's rejection genuinely places μ(8927) above the floor.
+
+That distinction is worth keeping: pruning is valid on constructions alone, resolution needs the collapse. Had a candidate sat above 10⁵ it could have been pruned but not resolved.
+
+**Margins.** The observed minimum 0.0261 against the conjectured floor 0.02 is a margin of 1.31 — tighter than the 25% quoted when the scan's weaker 0.02504 was the best figure available, but clear. The conjecture's finite half is now settled below 10⁶ rather than assumed.
+
+**Every floor-setter was n ≡ 11 (mod 12)** — 575, 2183, 2291, 3059, 3239 — the doubly-obstructed class, as was every candidate ever examined. The residue analysis of §3.3 predicted the class would be extremal; it turned out to be exclusively so.
+
+The remaining question in §8 is no longer "finish the search" but "extend it past 10⁶", which needs `ladder_verify.py` at larger N at O(N²/log N) — multi-day for 10⁷. Since the lower envelope has risen monotonically since [10³, 10⁴), the expected return is confirmation rather than a new minimum.
