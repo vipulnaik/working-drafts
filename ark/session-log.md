@@ -527,3 +527,17 @@ Verified on four known values with a starting floor of 0.0425, exercising all fo
 That n = 851 case is the whole point of doing it in-job: with a fixed floor it would have been computed unnecessarily.
 
 Ordering matters, and the two natural orders conflict — cheapest-first (ascending n) versus most-likely-to-improve (ascending LB). For `bb27.txt` they nearly agree at the head: n = 3239 has both the lowest bound (0.667 of M) and a cost of about 4.5 minutes, so it is the right first target either way.
+
+---
+
+## Starting from the full worklist costs nothing — and fixing a bug that would have made it cost everything
+
+Asked whether feeding `--adaptive` the whole of `ladder_weak.txt` would be much slower than the pre-filtered `bb27.txt`. Simulated: starting at the honest asymptotic floor (5 − 2√6)/2, in LB-ascending order over all 48,729 entries — **48,700 pruned on their bound, 2 table lookups, 27 real tests**. Identical outcome, at the cost of one float comparison each. Ascending-n order gives 48,696 / 6 / 27. So `bb27.txt` is a convenience, not an optimisation.
+
+**But the simulation only holds because the two table lookups happen**, and the implementation was throwing them away. `todo` excludes any n already in `--out`, which is right for extending a table and exactly wrong here: those n carry the δ values that lower the floor. With them skipped the floor would have stayed at 0.050510 and all 48,729 would have needed a real decision test — the opposite of the intended behaviour, and it would have looked like the pruning simply did not work.
+
+Fixed: in adaptive decision mode, already-computed n are kept in `todo`, their density is read from `--out` rather than recomputed, and it feeds the floor directly. Verified on four values starting at 0.050510 — n = 851 known and above floor, n = 935 lowers it to 0.042286, n = 1175 known and above the new floor, n = 2291 lowers it to 0.037524 — in **0 s**, against 93 s when the same run had to recompute them.
+
+So the operational rule is: pass the full `ladder_weak.txt` and always pass `--out`, since the lookups are what make the pruning work.
+
+**Process note.** Three separate patches in this exchange printed "ok" and then aborted before writing, because an assertion later in the same script failed. Two of them left the file in a state that parsed but silently misbehaved — `known` referenced but never initialised, then initialised but never populated. Each edit is now written and re-read with an assertion on the file contents rather than on the in-memory string. This is the fourth occurrence of that failure mode this session and the first where it produced a wrong *result* rather than a crash.

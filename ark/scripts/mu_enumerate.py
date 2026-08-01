@@ -438,6 +438,7 @@ if __name__ == "__main__":
 
     # ---- resume logic -------------------------------------------------
     done = set()
+    known = {}          # n -> delta from --out; --adaptive reads these directly
     resume_from = None
     if a.out and os.path.exists(a.out) and os.path.getsize(a.out) > 0:
         with open(a.out) as fh:
@@ -461,6 +462,7 @@ if __name__ == "__main__":
             for row in csv.DictReader(fh, fieldnames=HEADER.split(",")):
                 try:
                     done.add(int(row["n"]))
+                    known[int(row["n"])] = float(row["density"])
                 except (KeyError, ValueError, TypeError):
                     pass
         if done and not a.fill_gaps:
@@ -506,12 +508,17 @@ if __name__ == "__main__":
 
     spf = sieve_spf(span + 1)
     todo, skipped_pp, skipped_done = [], 0, 0
+    keep_known = a.floor is not None and a.adaptive
     for n in want:
         if prime_power(n, spf):
             skipped_pp += 1
-        elif n in done:
+        elif n in done and not keep_known:
             skipped_done += 1
         else:
+            # In adaptive decision mode an already-computed n is NOT skipped: its
+            # density is exactly what the branch-and-bound needs to lower the
+            # floor, and skipping it throws that away.  Over the full worklist
+            # those few lookups are what let everything else be pruned.
             todo.append(n)
 
     print(f"mode           {'UNCONDITIONAL (safe)' if not a.refined else 'REFINED (assumes Gamma-L(1)-type stabilisers)'}")
@@ -577,6 +584,19 @@ if __name__ == "__main__":
                 pruned += 1
                 print(f"[{i}/{len(todo)}] n={n:<7} pruned: bound {LB[n]:.5f} "
                       f">= floor {floor:.5f}", flush=True)
+                continue
+            if a.adaptive and n in known:
+                d = known[n]
+                if d < floor:
+                    floor = d
+                    KMAX = max(1, int(1.0 / floor ** 0.5))
+                    survivors.append(n)
+                    tag = f"NEW FLOOR from {a.out}  (K now 1..{KMAX})"
+                else:
+                    rejected += 1
+                    tag = "known, >= floor"
+                print(f"[{i}/{len(todo)}] n={n:<7} delta = {d:.6f}  {tag}",
+                      flush=True)
                 continue
             seed = int(floor * comb(n, 2))
             b, k_used = seed, None

@@ -38,7 +38,11 @@ Worked example on four known values with a starting floor of 0.0425:
 FINAL FLOOR delta = 0.041812, last lowered at n = 575
 ```
 
-n = 851 is the point: its bound was below the *starting* floor but above the one n = 575 established, so it was skipped entirely. Order the input so likely improvers come first — `bb27.txt` sorted by the second column — since every early success prunes more of the tail.
+n = 851 is the point: its bound was below the *starting* floor but above the one n = 575 established, so it was skipped entirely.
+
+**Feed it the whole worklist — `bb27.txt` saves nothing.** Starting from all 48,729 entries of `ladder_weak.txt` at the honest asymptotic floor (5 − 2√6)/2, in LB-ascending order: **48,700 pruned on their bound, 2 read from the table, 27 real tests** — the same 27, reached at the cost of a float comparison each. Even in the file's natural ascending-n order it is 48,696 / 6 / 27. `bb27.txt` is therefore a convenience, not an optimisation, and passing the full list is safer because it does not bake in a floor derived elsewhere.
+
+This works only because `--adaptive` reads δ from `--out` for any n already computed rather than skipping it. Those two lookups are what drop the floor to 0.037524 and make the other 48,700 prunable; skipping them, which is what the plain resume logic does, would leave the floor at 0.050510 and turn 48,729 comparisons into 48,729 decision tests. So **always pass `--out`** with the adaptive flag.
 
 **`ladder_verify.py` computes the global floor**`ladder_verify.py` computes the global floor of `arithmetic-of-density.md` §5.** For each n and over all twelve residue classes it finds the best density the three families achieve, scanning the block size over x ∈ [0.10, 0.55] — a window wide enough to hold every class's balance point, which matters because the low-efficiency classes balance near x = 0.22, not x = 1/3. The value is a *lower bound* on δ(n): it does not model the fused-plus-foreign shape (F, c) + r\*, so where both are known it agrees exactly at 1,700 of 1,921 values and is otherwise low by up to a factor of 2.
 
