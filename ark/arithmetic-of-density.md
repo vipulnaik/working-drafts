@@ -284,9 +284,7 @@ The constant 1/50 is deliberately loose: the scan's floor is 0.02504, so 1/50 ca
 
 **The branch-and-bound, and where it now stands.** The worklist admits a search that converges fast, because `ladder_verify` returns a *lower* bound: if LB(n) ≥ M for the standing minimum M, then δ(n) ≥ M and n cannot lower it, so n is discarded without computation. Take the smallest known δ as M, discard every candidate with LB ≥ M, compute δ at a survivor, lower M if it beats it, and repeat. Applied to the 48,729 candidates using only values already in the computed table:
 
-> M = (5 − 2√6)/2 → **0.041812** (n = 575) → **0.041107** (n = 2183) → **0.037524** (n = 2291) → **0.029282** (n = 3059) → **0.026117** (n = 3239), and **one candidate survives**: n = 8927.
->
-> Those are the successive record minima, in increasing n. The order in which candidates are examined changes which of them get *recorded* — a value can set the running floor and then be superseded by a smaller n examined later — but not the final result, since the floor only ever falls and pruning is sound at every stage.
+> M = (5 − 2√6)/2 → **0.042286** (n = 935) → **0.037524** (n = 2291) → **0.029282** (n = 3059) → **0.026117** (n = 3239), and **one candidate survives**: n = 8927.
 
 Every candidate at every stage has been **n ≡ 11 (mod 12)**, the doubly-obstructed class. One value remains: n = 8927, whose bound 0.02516 is 96% of the current floor. Settling it completes the search for n ≤ 10⁶. So the question of the true global floor is now a finite, explicitly listed computation rather than an open-ended search. `mu_enumerate.py --floor M --adaptive` runs the whole loop as one job: it seeds the search at M·C(n,2) so any configuration above the floor rejects n immediately, prunes any candidate whose lower bound has risen above the current floor, computes B(n) exactly only for the survivors, and adopts a lower value as the new floor — which in turn tightens Proposition F.1's part-count cap ⌊1/√M⌋ for everything after it.
 
