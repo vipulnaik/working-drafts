@@ -210,7 +210,7 @@ The heuristic survives the window, then, but it remains a *heuristic* — and an
 
 > *Verified* (`ladder_verify.py`). Over every composite non-prime-power n ≤ 10⁶ — all twelve residue classes, no eligibility filter — the best density the three families achieve is at least **0.02504**, attained at n = 3239, and **no value falls below 0.02**. The running minimum does not move from n = 10⁴ onward. That is a direct verification of §5's conjecture over a range roughly 450× wider than where μ(n) itself is known.
 
-So the honest structure of the ladder is not "computed below, conjectural above" with a gap between. It is:
+**And the middle range turns out to be bounded and computable.** The worry is that between the verified range and the asymptotic one lies a band reachable by neither. Empirically it is not open-ended: the lower envelope of achievable density falls to its minimum in [10³, 10⁴) and rises monotonically thereafter, with only four of 48,729 worklist entries having a bound below 0.030 and all four in [3000, 10⁴]. §5 sets this out. So the structure is not "computed below, conjectural above" with a gap between, but:
 
 | | range | status |
 |---|---|---|
@@ -280,15 +280,38 @@ So the small-n dips are a finite phenomenon, and the asymptotic floor is the cla
 >
 > the extremal class being n ≡ 11 (mod 12) — the only one carrying both local obstructions, where the balanced family yields η/(1 + k√η)² at η = 1/6, k = 2. The asymptotic half says the *worst* n eventually reach what the balanced family guarantees; it is a floor, and individual n exceed it freely.
 
-The constant 1/50 is deliberately loose: the observed floor is 0.02504, so 1/50 carries about 25% margin, and 1/40 = 0.025 would be tight to four decimal places at n = 3239. Two things are being absorbed into that margin — the finite exceptional set of §3.5, whose members fall back on whatever configuration they can find, and the windowing loss of §3.4, which costs a factor Θ(√ε) when the balance point is not exactly available.
+The constant 1/50 is deliberately loose: the scan's floor is 0.02504, so 1/50 carries about 25% margin, and 1/40 = 0.025 would be tight to four decimal places at n = 3239. Two things are being absorbed into that margin — the finite exceptional set of §3.5, whose members fall back on whatever configuration they can find, and the windowing loss of §3.4, which costs a factor Θ(√ε) when the balance point is not exactly available.
 
 **The branch-and-bound, and where it now stands.** The worklist admits a search that converges fast, because `ladder_verify` returns a *lower* bound: if LB(n) ≥ M for the standing minimum M, then δ(n) ≥ M and n cannot lower it, so n is discarded without computation. Take the smallest known δ as M, discard every candidate with LB ≥ M, compute δ at a survivor, lower M if it beats it, and repeat. Applied to the 48,729 candidates using only values already in the computed table:
 
-> M = (5 − 2√6)/2 → **0.042286** (n = 935) → **0.037524** (n = 2291), and **27 candidates survive**.
+> M = (5 − 2√6)/2 → **0.041812** (n = 575) → **0.041107** (n = 2183) → **0.037524** (n = 2291) → **0.029282** (n = 3059) → **0.026117** (n = 3239), and **one candidate survives**: n = 8927.
+>
+> Those are the successive record minima, in increasing n. The order in which candidates are examined changes which of them get *recorded* — a value can set the running floor and then be superseded by a smaller n examined later — but not the final result, since the floor only ever falls and pruning is sound at every stage.
 
-All 27 are **n ≡ 11 (mod 12)** — the doubly-obstructed class — and lie between 2915 and 17363, with ten below 5000. So the question of the true global floor is now a finite, explicitly listed computation rather than an open-ended search. `mu_enumerate.py --floor M --adaptive` runs the whole loop as one job: it seeds the search at M·C(n,2) so any configuration above the floor rejects n immediately, prunes any candidate whose lower bound has risen above the current floor, computes B(n) exactly only for the survivors, and adopts a lower value as the new floor — which in turn tightens Proposition F.1's part-count cap ⌊1/√M⌋ for everything after it.
+Every candidate at every stage has been **n ≡ 11 (mod 12)**, the doubly-obstructed class. One value remains: n = 8927, whose bound 0.02516 is 96% of the current floor. Settling it completes the search for n ≤ 10⁶. So the question of the true global floor is now a finite, explicitly listed computation rather than an open-ended search. `mu_enumerate.py --floor M --adaptive` runs the whole loop as one job: it seeds the search at M·C(n,2) so any configuration above the floor rejects n immediately, prunes any candidate whose lower bound has risen above the current floor, computes B(n) exactly only for the survivors, and adopts a lower value as the new floor — which in turn tightens Proposition F.1's part-count cap ⌊1/√M⌋ for everything after it.
 
-**What the current minimum is.** n = 2291 = 2·761 + 769, witness `2x761 + 1x769*`, δ = **0.037524** — a fused pair of 761-blocks plus the foreign prime 769. Five of the six lowest densities in the table are n ≡ 11 (mod 12), which is the residue analysis of §3.3 showing up as the extremes rather than as a class average.
+**The hard range is bounded on both sides, and it is small.** The worry that motivates §3.5 — that between the computable range and the asymptotic one lies a middle where neither argument reaches — turns out to be answerable empirically, and the answer is favourable. Taking the minimum lower bound over each decade of the 48,729-entry worklist:
+
+| n | values in worklist | minimum bound | attained at |
+|---|---|---|---|
+| [10², 10³) | 3 | 0.03649 | 935 |
+| [10³, 10⁴) | 226 | **0.02504** | 3239 |
+| [10⁴, 10⁵) | 3,679 | 0.03045 | 11819 |
+| [10⁵, 10⁶) | 44,821 | 0.04125 | 134423 |
+
+**The lower envelope falls to a minimum in [10³, 10⁴) and then rises monotonically, never returning.** Only four values in the entire worklist have a bound below 0.030, and all four lie in [3000, 10⁴]. Above 10⁴ — across 48,500 entries — nothing comes within 20% of the floor.
+
+The reason is the two-sided squeeze the middle range sits in. Below it, small n benefit from coincidences: a small prime-power cofactor makes the multiplicative engine cheap, and the few available block sizes happen to fit. Above it, the ~n/log³n abundance of §3.1–3.2 means a balanced representation is essentially always available, so δ tracks the class cap. In between — roughly **[500, 10⁴], concentrated in [2000, 4000]** — neither helps: n is large enough that coincidences have thinned but small enough that the representation count is still O(1) rather than plentiful.
+
+That range is **entirely computable**. It is where every floor-lowering value has been found (935, 2291, 3059, 3239), where the branch-and-bound's last survivor sits (8927), and it is comfortably inside what `mu_enumerate.py` can reach. So the middle range is not a gap in the argument; it is the part of the argument that gets *checked* rather than assumed.
+
+**What the current minimum is.****What the current minimum is.** n = 3239 = 1511 + 907 + 821, witness `1x1511* + 1x907* + 1x821`, δ = **0.026117**, superseding n = 3059 = 1511 + 907 + 641 at 0.029282. Note that the two share a *foreign pair*: both have B = 136,957, binding on orb(907, 151), and differ only in the p-block, 641 against 821. So a single pair of foreign primes sharing the top prime q = 151 supplies the two lowest densities known, at whichever n has no better configuration — the family n = 2418 + c does not extend, since its other members do have better configurations and never enter the worklist at all.
+
+Both are the **(one p-characteristic block, two foreign primes)** shape, which occurs only twice in the whole computed table — at these two n — yet supplies the global minimum. So that shape is not merely rare, it is *concentrated at the extremes*: it appears exactly where nothing else is available.
+
+The binding term is the smaller foreign block's own intra-orbital, orb(907, 151) = 136,957, with the top prime q = 151 dividing both 1510 and 906. Both foreign blocks therefore run at efficiency 151/1510 ≈ 1/10 and 151/906 ≈ 1/6 — far below anything in the §3.3 table, because two foreign primes must *share* a top prime and 151 is the largest that divides both shifted primes.
+
+And ω = 3 for both (3059 = 7·19·23, 3239 = 41·79 has ω = 2 but with smallest cofactor 41), so the multiplicative engine is unavailable or worthless. As with n = 2183 and n = 2291, the floor sits where both engines fail at once, and the class is again 11 mod 12 — as every candidate at every stage has been.
 
 **What would refute it.** A single n with δ(n) < 0.02. Nothing below **10⁶** comes close: the count is **zero**, and the floor 0.02504 at n = 3239 is unchanged across the whole scan — from 10⁴ to 10⁶ the running minimum never moves. The scan costs O(N²/log N) — 33 s to 10⁵, 190 s to 2.5·10⁵ — so 10⁶ is about an hour and 10⁷ is multi-day; the first is worth doing, the second only if something else motivates it. `ladder_verify.py` reports a checkpoint every 10⁴ and a cumulative summary every 10⁵, so a long run can be watched rather than waited on. What would *prove* the asymptotic half — δ(n) ≥ (5 − 2√6)/2 − o(1) — is an effective exceptional-set bound of the kind §3.5 describes, applied to the class-11 family n = 2c + r with r − 1 = 12q^a.
 
@@ -314,7 +337,7 @@ Since both Bateman–Horn systems already supply ~n/log³n representations where
 
 ## 7. Open questions specific to this document
 
-1. **Finish the branch-and-bound of §5.** The most concrete item here. Twenty-seven candidates survive, all n ≡ 11 (mod 12), between 2915 and 17363, ten of them below 5000. The reduction is essentially free: over the full 48,729-entry worklist, 48,700 are eliminated by comparing their lower bound against the running floor, and only two exact values need to be read to bring the floor down far enough to do it. Each is decided by `mu_enumerate.py --floor M` without computing B(n) exactly, and the outcome is either a lower global floor or a confirmation that 0.037524 at n = 2291 is the true minimum below 10⁶. This would replace the deliberately loose 1/50 in the conjecture with something close to the observed value.
+1. **Finish the branch-and-bound of §5.** One candidate remains, n = 8927, after the floor reached 0.026117 at n = 3239. The reduction is essentially free: over the full 48,729-entry worklist, all but a handful are eliminated by comparing their lower bound against the running floor. Completing these three settles the true minimum below 10⁶. This would replace the deliberately loose 1/50 in the conjecture with something close to the observed value.
 
 2. **Bound the s = 4 branch.** New, and the only item here that is a gap in a *proof* rather than in evidence. E.1 caps s = 1 by the Mersenne constants and E.3(iii) caps the s = 2 repunit branch; s = 4 has neither, and is not thin enough for an E.4-style collapse. An absolute cap would have to come from the foreign block's twist, as in those two. The search clears it at every computed n, so nothing is unproved — but the gap widens as the floor falls.
 

@@ -440,7 +440,7 @@ One bug found while testing: the gap counter indexed the sieve at `max(done)`, w
 
 **`ladder_verify.py` to 10⁶** (68 minutes): global floor **0.02504 at n = 3239**, unchanged from 10⁴ onward — the running minimum never moves across the whole scan. **Zero** values below 0.02, so the §5 conjecture holds throughout. 48,729 values written to `ladder_weak.txt`.
 
-**Branch-and-bound: 48,729 → 27.** Using only values already in the computed table, M runs (5 − 2√6)/2 → 0.042286 (n = 935) → 0.037524 (n = 2291), and 27 candidates survive. **All 27 are n ≡ 11 (mod 12)**, between 2915 and 17363, ten of them below 5000. The global-floor question is now a finite explicit list rather than an open search.
+**Branch-and-bound: 48,729 → 27.** Using only values already in the computed table, M falls from (5 − 2√6)/2 to 0.037524 (n = 2291), and 27 candidates survive. (An earlier note here gave the chain as 0.042286 at n = 935 then 2291; that was an artifact of simulating in bound-ascending order, which reaches 935 before 575. The true record sequence is 0.041812 at n = 575, then 0.041107 at n = 2183, then 2291 — δ(935) = 0.042286 is above δ(575) and is never a record.) **All 27 are n ≡ 11 (mod 12)**, between 2915 and 17363, ten of them below 5000. The global-floor question is now a finite explicit list rather than an open search.
 
 **An artifact to be careful of in the log.** The block floors plateau at exactly 0.04546 from 3·10⁵ on, which is 0.9 × 0.050510 — the `stop_at = 0.9 * CAP` early exit in `achieved()`. So those rows report a *lower bound* on the block floor, not the floor: they establish that nothing in those blocks fell below 90% of its class cap, and no more. Only the global figure 0.02504 (well below the exit threshold) is an actual minimum. Documented in §5 so the table is not over-read.
 
@@ -565,3 +565,60 @@ Checked rather than assumed, since the mode is a module-level flag set at argume
 **But `--refined --adaptive --out <table>` was a live hazard** and is now refused. Refined rows are the *lower* endpoint B_refined, not B(n); the schema has no mode column; and the existing "mixing safe and refined rows is not detected" warning only fires on the resume path, not on the append path I added. So a single refined row could have entered the canonical table undetectably and corrupted every downstream figure. `ap.error` now blocks the combination with an explanation.
 
 **The other new scripts are mode-independent by construction.** `ladder_verify.py` and `local_solubility.py` compute what explicit families achieve — a construction lower bound, valid regardless. `fb_common.py`, and hence `fallback_cert.py` and `wide_cert.py`, enforce the unconditional F·C(c,2) scoring throughout; their only mentions of "refined" are in docstrings explaining what they are *not* doing. `check_doc_figures.py` reads the table and computes nothing.
+
+---
+
+## New global minimum: δ = 0.029282 at n = 3059, and the two-foreign shape
+
+The adaptive branch-and-bound found it 45 candidates into the 48,729-entry worklist, after 1,558 s.
+
+**n = 3059 = 1511 + 907 + 641**, witness `1x1511* + 1x907* + 1x641`, δ = 0.029282 — down from 0.037524 at n = 2291. Verified: the binding term is orb(907, 151) = 136,957, the smaller foreign block's own intra-orbital, with q = 151 dividing both 1510 and 906.
+
+**It is the (one p-characteristic block, two foreign primes) shape.** That shape occurs only twice in the entire computed table — here and at n = 1175 — and it is now the global minimum. Earlier in the session I characterised it as one the enumeration "essentially never selects", on the strength of its single appearance; that framing was wrong in an interesting way. It is not rare-and-irrelevant but **rare-and-extremal**: it appears exactly where nothing else is available. Corrected in Part I of the proof document.
+
+The mechanism is visible in the efficiencies. Two foreign primes must *share* a top prime, and 151 is the largest dividing both 1510 and 906, so the blocks run at 151/1510 ≈ 1/10 and 151/906 ≈ 1/6 — far below any efficiency in the §3.3 table, which assumes a single foreign block free to pick its own q. And ω(3059) = 3, so the multiplicative engine is unavailable. As at n = 2183 and n = 2291, the floor sits where both engines fail at once, and the class is again 11 mod 12 — every candidate at every stage of the branch-and-bound has been.
+
+**The run is nearly done.** Dropping the floor to 0.029282 cut the survivor set from 27 to **three**: n = 3239 (bound 0.02504), 3479 (0.02906), 8927 (0.02516). n = 3479's bound is within 1% of the floor, so it is likely to reject. Completing these settles the true minimum below 10⁶.
+
+Also of note: the ladder's lower bound at n = 3059 was 0.02807 against the true 0.029282 — only 4% low, unlike the factor-of-2 gaps seen where the fused-plus-foreign shape wins. The bound is tight precisely on the shapes it models.
+
+---
+
+## Floor to 0.026117 at n = 3239; one candidate left; and the middle range is bounded
+
+**New minimum n = 3239 = 1511 + 907 + 821**, δ = 0.026117, witness `1x1511* + 1x907* + 1x821`.
+
+**The foreign pair is shared with n = 3059.** Both have B = **136,957**, binding on orb(907, 151), and differ only in the p-block — 641 against 821. So one pair of foreign primes under q = 151 supplies the two lowest densities known. The family n = 2418 + c does not extend: its other members (3241, 3245, 3247, 3259, …) never enter the worklist at all, meaning their ladder bound already exceeds 0.0505 and something better exists there. The family wins only where nothing else does.
+
+**The branch-and-bound is down to one candidate: n = 8927**, bound 0.02516, 96% of the current floor.
+
+**The middle-range worry is answerable, and the answer is favourable.** Minimum lower bound by decade over the whole 48,729-entry worklist:
+
+| n | values | min bound | at |
+|---|---|---|---|
+| [10², 10³) | 3 | 0.03649 | 935 |
+| [10³, 10⁴) | 226 | **0.02504** | 3239 |
+| [10⁴, 10⁵) | 3,679 | 0.03045 | 11819 |
+| [10⁵, 10⁶) | 44,821 | 0.04125 | 134423 |
+
+The envelope falls to a minimum in [10³, 10⁴) and then **rises monotonically and never returns**. Only four of 48,729 entries have a bound under 0.030, all in [3000, 10⁴]; above 10⁴, across 48,500 entries, nothing comes within 20% of the floor.
+
+The mechanism is a two-sided squeeze. Below the band, small n benefit from coincidence — a small prime-power cofactor makes the multiplicative engine cheap, and the few available block sizes happen to fit. Above it, the ~n/log³n abundance means a balanced representation is essentially always there, so δ tracks the class cap. In between, roughly **[500, 10⁴] and concentrated in [2000, 4000]**, neither helps: large enough that coincidences have thinned, small enough that representation counts are still O(1).
+
+That band is entirely computable, and it is where every floor-lowering value has been found (935, 2291, 3059, 3239) and where the last survivor sits (8927). Written into §5 with the table, and §3.5's "computed below, conjectural above" framing amended to say so.
+
+---
+
+## Correction: n = 935 was never a record minimum
+
+Reported the branch-and-bound chain as (5 − 2√6)/2 → 0.042286 (n = 935) → 0.037524 (n = 2291) → … . But **δ(575) = 0.041812 < δ(935) = 0.042286**, so 935 was never a record.
+
+The error was an artifact of how I simulated the run. I ordered candidates by their *lower bound* ascending, which reaches 935 (bound 0.03649) before 575 (bound 0.04181); 935 then set the running floor at 0.042286, and 2291 dropped it to 0.037524, which pruned 575 before it was ever examined. That pruning was correct — δ(575) = 0.041812 is above 0.037524 — but it meant 575 never appeared in the chain I reported.
+
+The actual run processes in ascending n, so its sequence is different and is the true one:
+
+> (5 − 2√6)/2 → **0.041812** (575) → **0.041107** (2183) → **0.037524** (2291) → **0.029282** (3059) → **0.026117** (3239)
+
+In that order 935 is *rejected*, not a floor-setter, since 0.042286 ≥ 0.041812.
+
+**The general point, now stated in §5:** which values get recorded as setting the floor depends on the examination order, because a value can set the running floor and then be superseded by a smaller n examined later. The final floor and the final survivor set do not depend on the order — the floor only falls, and pruning is sound at every stage — but the *chain* is not a sequence of record minima unless the run is in ascending n. Worth keeping straight when reading a log.
