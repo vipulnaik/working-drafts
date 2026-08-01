@@ -418,6 +418,18 @@ if __name__ == "__main__":
     a = ap.parse_args()
     globals()['SAFE'] = not a.refined
 
+    # --refined computes the LOWER endpoint B_refined and is not a valid upper
+    # bound on mu(n) (Part C.2 of enumeration-proof.md).  The adaptive branch-
+    # and-bound appends rows to --out, and the schema records no mode, so a
+    # refined row dropped into an unconditional table would be undetectable and
+    # would silently corrupt every downstream figure.  Refuse the combination.
+    if a.refined and a.floor is not None:
+        ap.error("--refined cannot be combined with --floor/--adaptive: the "
+                 "adaptive run appends rows to --out, the table schema records "
+                 "no mode, and refined rows are a lower endpoint rather than "
+                 "B(n).  Run the branch-and-bound in the default unconditional "
+                 "mode.")
+
     HEADER = ("n,C(n2),mu_bound,density,parts,certified_K,partcap,"
               "certified,fallback,witness")
 

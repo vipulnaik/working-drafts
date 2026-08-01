@@ -37,6 +37,7 @@ That is the whole procedure. Pass the **full** `ladder_weak.txt`, not a pre-filt
 - **Existing rows are never rewritten, reordered or removed.** Decision mode only ever appends.
 - **The table is read** for the δ of any n already computed, and those values feed the floor directly. This is what makes the run fast — see below — so omitting `--out` is the difference between a few minutes and a very long night.
 - **Newly computed exact values are appended** in the normal schema, so the expensive work is kept. Only survivors trigger an exact computation; rejected and pruned n compute nothing and write nothing. Verified: an appended row is byte-identical to what a plain `--nmin/--nmax` run produces for the same n.
+- **Everything is computed in the default UNCONDITIONAL (safe) mode**, so appended rows are the same B(n) the table already holds. The run prints `mode  UNCONDITIONAL (safe)` as its first line; check it. `--refined` is now refused outright in combination with `--floor`/`--adaptive`, because it computes the *lower* endpoint B_refined rather than B(n), the schema records no mode, and a refined row appended to an unconditional table would be undetectable.
 
 A targeted run like this leaves gaps below its own maximum, so close them later with `--fill-gaps` before quoting the table as a contiguous range.
 

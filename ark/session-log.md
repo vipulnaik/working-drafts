@@ -553,3 +553,15 @@ So the operational rule is: pass the full `ladder_weak.txt` and always pass `--o
 So the answer to "can I pass `--out mu_table_safe_v2.csv` safely?" is **yes, and it is required**: the table's known δ values are what drop the floor to 0.037524 and make 48,700 of the 48,729 candidates prunable. Without it the run would start at 0.050510 and test all of them.
 
 One bug caught in testing: the append path called `fallback_used(w)` where the function takes `(w, spf)`. It only fires on the survivor branch, so the first two test runs — which happened to reject everything — passed without touching it.
+
+---
+
+## Mode audit of everything added this session
+
+Checked rather than assumed, since the mode is a module-level flag set at argument-parse time and every new code path runs after it.
+
+**`mu_enumerate.py`.** `SAFE` is set at line 419 from `--refined`; the decision block begins at 564, so `--refined` did propagate into it. The default is unconditional and the run prints `mode  UNCONDITIONAL (safe)` as its first line, which is the thing to check. `mu_bound` and `best_with_k` both honour the flag, so an adaptive run carried to completion produces exactly the B(n) the table already holds.
+
+**But `--refined --adaptive --out <table>` was a live hazard** and is now refused. Refined rows are the *lower* endpoint B_refined, not B(n); the schema has no mode column; and the existing "mixing safe and refined rows is not detected" warning only fires on the resume path, not on the append path I added. So a single refined row could have entered the canonical table undetectably and corrupted every downstream figure. `ap.error` now blocks the combination with an explanation.
+
+**The other new scripts are mode-independent by construction.** `ladder_verify.py` and `local_solubility.py` compute what explicit families achieve — a construction lower bound, valid regardless. `fb_common.py`, and hence `fallback_cert.py` and `wide_cert.py`, enforce the unconditional F·C(c,2) scoring throughout; their only mentions of "refined" are in docstrings explaining what they are *not* doing. `check_doc_figures.py` reads the table and computes nothing.
