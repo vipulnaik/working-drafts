@@ -660,3 +660,19 @@ That distinction is worth keeping: pruning is valid on constructions alone, reso
 **Every floor-setter was n ≡ 11 (mod 12)** — 575, 2183, 2291, 3059, 3239 — the doubly-obstructed class, as was every candidate ever examined. The residue analysis of §3.3 predicted the class would be extremal; it turned out to be exclusively so.
 
 The remaining question in §8 is no longer "finish the search" but "extend it past 10⁶", which needs `ladder_verify.py` at larger N at O(N²/log N) — multi-day for 10⁷. Since the lower envelope has risen monotonically since [10³, 10⁴), the expected return is confirmation rather than a new minimum.
+
+---
+
+## Open-problem cleanup across all documents
+
+**Closed and removed:**
+
+- **Notes Open Problem 1 (Extremality).** Proved as Theorem 3.1; the entry had already been reduced to a note recording its two traps. Both are preserved where they belong — §3 carries the wreath-tops warning with the AGL(1,5) ≀ C₂ witness, and the false Singer step with the extraspecial counterexample — so the entry was pure duplication. Problems 2–9 renumbered to 1–8, and ten cross-references updated across four files.
+- **The odd-n-above-1/9 route**, formerly Open Problem 2(a). Refuted, so removed as a problem; the insight moved to §5.5 of the notes, next to the evidence that refutes it: since 54.3% of odd n have δ < 1/9 as exact values of μ, no constant above 1/9 can bound it from below, permanently. What remained of that problem — lifting the ℓ = 2 and ℓ = 3 obstructed classes — is now Open Problem 1 on its own.
+
+**Updated:**
+
+- **Notes Open Problem 8** rewritten with current figures: the δ ≤ 1/16 tail is 45 of 1,921 (was 39, then 28); coverage 97.9%; margins 1.69 median and 4.86 max. Its (b) half now records that it has *grown harder* — s ≤ 1/√δ − 1 means the falling floor admits larger s, and at 0.026117 both s = 4 and s = 5 are reachable with no theorem for either.
+- **Part J item 2** of the proof document: its "alternative route" paragraph proposed raising δ₀^odd above 1/9, which is exactly what was refuted. Now says so.
+- **Part J item 4** notes that two cheaper computations already reach much further than extending the table — the collapse certificate to 10⁵ and the branch-and-bound to 10⁶ — so extending is not the best use of compute.
+- **`pending-checks.md`** now names the two remaining *proof* gaps (promote E.3(ii); bound s = 4 and s = 5) and records the branch-and-bound as finished rather than pending.

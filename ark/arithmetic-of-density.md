@@ -354,13 +354,13 @@ That is a covering statement, and it is strictly weaker than any single system b
 
 ## 7. What this says about the open problems
 
-**Open Problem 2(a) is refuted, not open.** It asked for an odd-n guarantee above 1/9, so that Theorem E.1 would settle the collapse there wholesale. No such guarantee exists: **54.3% of the odd n in the computed table have δ(n) < 1/9**, and these are exact values of μ, not shortfalls of any family. Worse, the share grows — 37.0% of odd n below 800, 59.9% in [800, 1600), 64.8% in [1600, 2299). So no constant above 1/9 can bound μ(n)/C(n,2) from below on odd n, and the route is closed permanently rather than merely hard. **Open Problem 9(b) must therefore be settled by promoting E.3(ii) directly**, which is the only remaining path.
+**The odd-n route above 1/9 is refuted.** It asked for a constant above 1/9 bounding δ from below on odd n, so Theorem E.1 would settle the collapse there wholesale. No such constant exists: **54.3% of the odd n in the computed table have δ(n) < 1/9**, and these are exact values of μ, not shortfalls of any family. Worse, the share grows — 37.0% of odd n below 800, 59.9% in [800, 1600), 64.8% in [1600, 2299). The route is closed permanently, so **Open Problem 8(b) must be settled by promoting E.3(ii) directly**, which is the only remaining path.
 
-**Open Problem 2(b)** stands: the ℓ = 2 and ℓ = 3 efficiency losses obstruct *these* families rather than μ itself, and a family with different local structure might avoid them. The worked instance is n = 551 = 256 + 167\* + 128, using two distinct powers of 2 to sidestep the equal-block form. Since both systems already supply ~n/log³n representations wherever soluble, no strengthening of sieve input helps — this is a question about mechanisms.
+**Open Problem 1** stands: the ℓ = 2 and ℓ = 3 efficiency losses obstruct *these* families rather than μ itself, and a family with different local structure might avoid them. The worked instance is n = 551 = 256 + 167\* + 128, using two distinct powers of 2 to sidestep the equal-block form. Since both systems already supply ~n/log³n representations wherever soluble, no strengthening of sieve input helps — this is a question about mechanisms.
 
-**Open Problem 9(a) (k ≤ 3)** is the statement that the four-class cap 1/16 is never the best available, which needs ω(n) ≥ 3 together with no good two- or three-class representation. It has never occurred: no winner uses four classes, and the δ ≤ 1/16 tail is 45 of 1,921 values.
+**Open Problem 8(a) (k ≤ 3)** is the statement that the four-class cap 1/16 is never the best available, which needs ω(n) ≥ 3 together with no good two- or three-class representation. It has never occurred: no winner in the computed table uses four classes, and the δ ≤ 1/16 tail is 45 of 1,921 values. The branch-and-bound of §5 adds a little: it examined every n ≤ 10⁶ whose lower bound fell below the running floor, and none of them wanted a fourth class either.
 
-**Open Problem 9(b)** lives where the three-class family is the best available. With 2(a) refuted, the only route is the direct one. It has also **grown harder as the density floor fell**: s ≤ 1/√δ − 1, so at the current floor 0.026117 the branches s = 4 and s = 5 are both reachable, and neither has a theorem — unlike s = 3, which E.4 collapses to a single dead pair.
+**Open Problem 8(b)** lives where the three-class family is the best available. With the above-1/9 route refuted, the only path is the direct one. It has also **grown harder as the density floor fell**: s ≤ 1/√δ − 1, so at the current floor 0.026117 the branches s = 4 and s = 5 are both reachable, and neither has a theorem — unlike s = 3, which E.4 collapses to a single dead pair.
 
 **The §4 barrier at exponent 3/2** is untouched: both engines give density Θ(1) where they apply, and the barrier concerns lower bounds on the least prime in an arithmetic progression. The two obstructions are independent.
 
@@ -374,7 +374,7 @@ That is a covering statement, and it is strictly weaker than any single system b
 
 3. **Predict the 1/12 shortfall from the singular series.** §5.5 of the notes measures **22.2% of odd and 1.0% of even** values below 1/12. Both engines' availability is computable heuristically, so this compares the whole framework of this document against measurement rather than testing any single family.
 
-4. **Is the four-class family ever optimal?** Equivalently, does the triple coincidence of §6 ever occur? A negative heuristic estimate would be strong evidence for Open Problem 9(a) without a proof.
+4. **Is the four-class family ever optimal?** Equivalently, does the triple coincidence of §6 ever occur? A negative heuristic estimate would be strong evidence for Open Problem 8(a) without a proof.
 
 5. **Do the ℓ = 3 escapes behave as the O(log n) heuristic says?** §3.3 settles local solubility by class; what is assumed rather than argued is that the power-of-3 escapes are too sparse to affect the asymptotic constants. The model for the check is §5's own covering-system analysis, which found two of its candidate chains locally dead.
 

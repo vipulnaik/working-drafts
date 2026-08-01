@@ -101,7 +101,14 @@ python3 probe_backbone.py --classes <the 54 CAP ids> --nodecap 20000000
 
 ## Open mathematical questions
 
-Not repeated here. The two arithmetic residues are Open Problem 9 of the notes and Part J items 1–2 of `enumeration-proof.md`; the largest epistemic risk is Part J item 3 — an independent reading of Lemma B′, Lemma C and G.2, none of which has had any. `arithmetic-of-density.md` §7 lists seven of its own. Two are concrete work rather than heuristics: **finishing the branch-and-bound** (27 named candidates, each decidable by `mu_enumerate.py --floor`, which would pin the global floor), and **bounding the s = 4 branch** — the one item there that is a gap in a proof rather than in evidence, newly opened by the density floor falling to 0.037524.
+Not repeated here. The two arithmetic residues are Open Problem 8 of the notes and Part J items 1–2 of `enumeration-proof.md`; the largest epistemic risk is Part J item 3 — an independent reading of Lemma B′, Lemma C and G.2, none of which has had any.
+
+Two items are concrete work rather than heuristics, and both are gaps in a *proof*:
+
+- **Promote E.3(ii) past the bare pair.** With the above-1/9 route refuted (a majority of odd n have δ < 1/9 outright), this is the only path left to Part J item 2.
+- **Bound the s = 4 and s = 5 branches.** Opened by the density floor falling to 0.026117; neither is thin enough for an E.4-style collapse.
+
+The branch-and-bound itself is **finished**: the global minimum of μ(n)/C(n,2) over all composite non-prime-power n ≤ 10⁶ is 0.026117 at n = 3239. `arithmetic-of-density.md` §8 lists its remaining questions, all heuristic-vs-measurement comparisons.
 
 ---
 
