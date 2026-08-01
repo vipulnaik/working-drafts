@@ -284,7 +284,9 @@ The constant 1/50 is deliberately loose: the scan's floor is 0.02504, so 1/50 ca
 
 **The branch-and-bound, and where it now stands.** The worklist admits a search that converges fast, because `ladder_verify` returns a *lower* bound: if LB(n) ≥ M for the standing minimum M, then δ(n) ≥ M and n cannot lower it, so n is discarded without computation. Take the smallest known δ as M, discard every candidate with LB ≥ M, compute δ at a survivor, lower M if it beats it, and repeat. Applied to the 48,729 candidates using only values already in the computed table:
 
-> M = (5 − 2√6)/2 → **0.042286** (n = 935) → **0.037524** (n = 2291) → **0.029282** (n = 3059) → **0.026117** (n = 3239), and **one candidate survives**: n = 8927.
+> M = (5 − 2√6)/2 → **0.041812** (n = 575) → **0.041107** (n = 2183) → **0.037524** (n = 2291) → **0.029282** (n = 3059) → **0.026117** (n = 3239), and **one candidate survives**: n = 8927.
+>
+> Those are the successive record minima, in increasing n. The order in which candidates are examined changes which of them get *recorded* — a value can set the running floor and then be superseded by a smaller n examined later — but not the final result, since the floor only ever falls and pruning is sound at every stage.
 
 Every candidate at every stage has been **n ≡ 11 (mod 12)**, the doubly-obstructed class. One value remains: n = 8927, whose bound 0.02516 is 96% of the current floor. Settling it completes the search for n ≤ 10⁶. So the question of the true global floor is now a finite, explicitly listed computation rather than an open-ended search. `mu_enumerate.py --floor M --adaptive` runs the whole loop as one job: it seeds the search at M·C(n,2) so any configuration above the floor rejects n immediately, prunes any candidate whose lower bound has risen above the current floor, computes B(n) exactly only for the survivors, and adopts a lower value as the new floor — which in turn tightens Proposition F.1's part-count cap ⌊1/√M⌋ for everything after it.
 
@@ -315,25 +317,48 @@ And ω = 3 for both (3059 = 7·19·23, 3239 = 41·79 has ω = 2 but with smalles
 
 **Tightening the finite half.** The 0.02 is loose because `ladder_verify.py` computes a *lower bound* on δ(n), not δ(n): it searches three families over a window, and in particular does not model the **fused-plus-foreign** shape (F, c) + r\* that the enumeration frequently prefers. Where both are available the two agree exactly at 1,700 of 1,921 values, and where they differ the scan is low by up to a factor of 2 — at n = 555 it finds 0.07172 against the true 0.14344, whose witness `2x149 + 1x257*` is exactly that missing shape. So the script writes every n falling below the asymptotic constant to **`ladder_weak.txt`** (48,729 values below 10⁶), as a worklist: computing the true B(n) at those n with `mu_enumerate.py` would raise the observed floor, and quite possibly to the point where 0.02 could be replaced by something close to the asymptotic value itself.
 
-## 6. What this says about the open problems
+## 6. Running the implication backwards, correctly
 
-**Open Problem 2** is sharply posed: the ladder constants are the six δ₀ of §3.3, and the question is whether any family guarantees more. Two parts.
+Corollary 3.2 of the notes is an equivalence, so a lower bound on μ yields an additive prime statement. It is worth being exact about *which* statement, because the natural reading is too strong.
 
-**(a) Raise the odd-n guarantee above 1/9.** Theorem E.1 of the proof document settles the collapse only where δ(n) > 1/9, and **54.3% of odd n in the computed table fall below it**. The balanced 2c + r family cannot help: it approaches 1/9 without attaining it, since exact balance needs c = r = n/3 while admissibility requires r ≠ p. What is wanted is a family whose *guarantee* exceeds 1/9 at odd n. Per §2.1 the place to look is fusion, worth a factor of F — noting that fusion constrains q and hence the foreign efficiency, which is the trade-off any such family must beat.
+**It does not force any single Bateman–Horn system to be solvable for all large n.** A bound μ(n) ≥ δ₀·C(n,2) says only that *some* admissible configuration reaches δ₀ — and which one may vary with n. Nothing in the framework privileges a particular system, and indeed the computed table shows the winning shape changing constantly with n.
 
-**(b) Lift the obstructed classes.** The ℓ = 2 and ℓ = 3 efficiency losses obstruct *these* families, not μ. A family with different local structure might avoid them; the worked instance is n = 551 = 256 + 167\* + 128, which uses two distinct powers of 2 and sidesteps the equal-block form.
+**What it does force is a covering statement over a finite set of systems.** At density δ₀ the search bounds are all effective. Proposition F.1 caps the number of classes at k ≤ 1/√δ₀; each part has size s_i ≳ √δ₀·n, so with Σ s_i = n the fusion counts obey F_i ≤ 1/√δ₀ as well; foreign parts are never fused (Lemma B′) and are pairwise distinct primes. So the possible **shapes** — the choice of k, of each part's type, and of the fusion counts — form a finite set whose size depends on δ₀ alone:
 
-Since both Bateman–Horn systems already supply ~n/log³n representations wherever they are soluble, no strengthening of sieve input helps with either part. This is a question about mechanisms.
+| δ₀ | k ≤ | distinct shapes |
+|---|---|---|
+| 1/9 | 3 | 31 |
+| 1/16 | 4 | 117 |
+| 0.026117 (current floor) | 6 | 1,593 |
+| 0.02 (conjectured) | 7 | 5,937 |
 
-**Open Problem 9(a) (k ≤ 3)** is the statement that the four-class cap 1/16 is never the best available. By §2.2 four classes are only in play below density 1/16, which by §2.3 needs ω(n) ≥ 3 together with no good two- or three-class representation — a triple coincidence. Over the computed table it has never occurred: **no winner uses four classes**, and the δ ≤ 1/16 tail is 45 of 1,921 values. The revised odd-n δ₀ of §3.3 are all above 1/16, so on that footing the residue is closed for odd n as well as even, leaving only the local-solubility gap.
+Each shape, with n as a parameter, *is* a Bateman–Horn system in its remaining free variables. So the correct backwards implication is:
 
-**Open Problem 9(b) (the collapse below 1/9)** lives exactly where the three-class family is the best available, which is why it is an odd-n problem and why raising the odd guarantee past 1/9 would close it. It has also **grown harder since the density floor fell**: the bound s ≤ 1/√δ − 1 means a lower δ admits a larger s, and at n = 2291 (δ = 0.037524) the branch s = 4 appears for the first time. Unlike s = 3, which Theorem E.4 collapses to a single dead pair, s = 4 is not thin — c − 1 = 4r with c a prime power and r prime has no congruence forcing. So the theorem-side coverage erodes as the floor falls, and each new minimum admits a less tractable branch.
+> **μ(n) ≥ δ₀·C(n,2) for most n  ⟹  for most n, at least one of a finite explicit set of Bateman–Horn systems is solvable at n.**
 
-**The §4 barrier at exponent 3/2** is untouched by any of this: both engines give density Θ(1) where they apply, and the barrier concerns lower bounds on the least prime in an arithmetic progression. The two obstructions are independent.
+That is a covering statement, and it is strictly weaker than any single system being solvable — which is why the route yields robustness rather than sharp prime theorems. It is also why the ladder survives individual systems failing: §3.3's local obstructions kill particular systems in particular residue classes without touching the conclusion, because another shape covers those n.
+
+**The fusion shapes can be dropped from the asymptotic statement.** A shape with any F_i > 1 needs a q-power's worth of equal blocks, and in the extreme single-class case n = F·c it needs ω(n) ≤ 2 outright. Fused winners are 42.3% of the computed table, but that share is propped up by small n: the ω(n) ≤ 2 population thins like log log n / log n (§4), from 64.9% below 800 to 28.5% near 10⁶. So the fusion shapes cover a **density-zero** set of n, and the asymptotic covering statement runs over the purely additive shapes alone — a much smaller set, 5 of the 31 at δ₀ = 1/9.
+
+**What this does not give.** Because the conclusion is a disjunction over shapes, it cannot be inverted into a statement about any one prime configuration; one cannot extract "n = c + r with r a safe prime is solvable for large n" from it. Getting that would need the covering to be shown *irredundant* — that some particular n are covered by one shape only — which the data does not support, since most n are covered by several.
 
 ---
 
-## 7. Open questions specific to this document
+## 7. What this says about the open problems
+
+**Open Problem 2(a) is refuted, not open.** It asked for an odd-n guarantee above 1/9, so that Theorem E.1 would settle the collapse there wholesale. No such guarantee exists: **54.3% of the odd n in the computed table have δ(n) < 1/9**, and these are exact values of μ, not shortfalls of any family. Worse, the share grows — 37.0% of odd n below 800, 59.9% in [800, 1600), 64.8% in [1600, 2299). So no constant above 1/9 can bound μ(n)/C(n,2) from below on odd n, and the route is closed permanently rather than merely hard. **Open Problem 9(b) must therefore be settled by promoting E.3(ii) directly**, which is the only remaining path.
+
+**Open Problem 2(b)** stands: the ℓ = 2 and ℓ = 3 efficiency losses obstruct *these* families rather than μ itself, and a family with different local structure might avoid them. The worked instance is n = 551 = 256 + 167\* + 128, using two distinct powers of 2 to sidestep the equal-block form. Since both systems already supply ~n/log³n representations wherever soluble, no strengthening of sieve input helps — this is a question about mechanisms.
+
+**Open Problem 9(a) (k ≤ 3)** is the statement that the four-class cap 1/16 is never the best available, which needs ω(n) ≥ 3 together with no good two- or three-class representation. It has never occurred: no winner uses four classes, and the δ ≤ 1/16 tail is 45 of 1,921 values.
+
+**Open Problem 9(b)** lives where the three-class family is the best available. With 2(a) refuted, the only route is the direct one. It has also **grown harder as the density floor fell**: s ≤ 1/√δ − 1, so at the current floor 0.026117 the branches s = 4 and s = 5 are both reachable, and neither has a theorem — unlike s = 3, which E.4 collapses to a single dead pair.
+
+**The §4 barrier at exponent 3/2** is untouched: both engines give density Θ(1) where they apply, and the barrier concerns lower bounds on the least prime in an arithmetic progression. The two obstructions are independent.
+
+---
+
+## 8. Open questions specific to this document
 
 1. **Finish the branch-and-bound of §5.** One candidate remains, n = 8927, after the floor reached 0.026117 at n = 3239. The reduction is essentially free: over the full 48,729-entry worklist, all but a handful are eliminated by comparing their lower bound against the running floor. Completing these three settles the true minimum below 10⁶. This would replace the deliberately loose 1/50 in the conjecture with something close to the observed value.
 

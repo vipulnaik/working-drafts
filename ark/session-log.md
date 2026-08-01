@@ -440,7 +440,7 @@ One bug found while testing: the gap counter indexed the sieve at `max(done)`, w
 
 **`ladder_verify.py` to 10⁶** (68 minutes): global floor **0.02504 at n = 3239**, unchanged from 10⁴ onward — the running minimum never moves across the whole scan. **Zero** values below 0.02, so the §5 conjecture holds throughout. 48,729 values written to `ladder_weak.txt`.
 
-**Branch-and-bound: 48,729 → 27.** Using only values already in the computed table, M runs (5 − 2√6)/2 → 0.042286 (n = 935) → 0.037524 (n = 2291), and 27 candidates survive. **All 27 are n ≡ 11 (mod 12)**, between 2915 and 17363, ten of them below 5000. The global-floor question is now a finite explicit list rather than an open search.
+**Branch-and-bound: 48,729 → 27.** Using only values already in the computed table, M falls from (5 − 2√6)/2 to 0.037524 (n = 2291), and 27 candidates survive. (An earlier note here gave the chain as 0.042286 at n = 935 then 2291; that was an artifact of simulating in bound-ascending order, which reaches 935 before 575. The true record sequence is 0.041812 at n = 575, then 0.041107 at n = 2183, then 2291 — δ(935) = 0.042286 is above δ(575) and is never a record.) **All 27 are n ≡ 11 (mod 12)**, between 2915 and 17363, ten of them below 5000. The global-floor question is now a finite explicit list rather than an open search.
 
 **An artifact to be careful of in the log.** The block floors plateau at exactly 0.04546 from 3·10⁵ on, which is 0.9 × 0.050510 — the `stop_at = 0.9 * CAP` early exit in `achieved()`. So those rows report a *lower bound* on the block floor, not the floor: they establish that nothing in those blocks fell below 90% of its class cap, and no more. Only the global figure 0.02504 (well below the exit threshold) is an actual minimum. Documented in §5 so the table is not over-read.
 
@@ -606,3 +606,39 @@ The envelope falls to a minimum in [10³, 10⁴) and then **rises monotonically 
 The mechanism is a two-sided squeeze. Below the band, small n benefit from coincidence — a small prime-power cofactor makes the multiplicative engine cheap, and the few available block sizes happen to fit. Above it, the ~n/log³n abundance means a balanced representation is essentially always there, so δ tracks the class cap. In between, roughly **[500, 10⁴] and concentrated in [2000, 4000]**, neither helps: large enough that coincidences have thinned, small enough that representation counts are still O(1).
 
 That band is entirely computable, and it is where every floor-lowering value has been found (935, 2291, 3059, 3239) and where the last survivor sits (8927). Written into §5 with the table, and §3.5's "computed below, conjectural above" framing amended to say so.
+
+---
+
+## Correction: n = 935 was never a record minimum
+
+Reported the branch-and-bound chain as (5 − 2√6)/2 → 0.042286 (n = 935) → 0.037524 (n = 2291) → … . But **δ(575) = 0.041812 < δ(935) = 0.042286**, so 935 was never a record.
+
+The error was an artifact of how I simulated the run. I ordered candidates by their *lower bound* ascending, which reaches 935 (bound 0.03649) before 575 (bound 0.04181); 935 then set the running floor at 0.042286, and 2291 dropped it to 0.037524, which pruned 575 before it was ever examined. That pruning was correct — δ(575) = 0.041812 is above 0.037524 — but it meant 575 never appeared in the chain I reported.
+
+The actual run processes in ascending n, so its sequence is different and is the true one:
+
+> (5 − 2√6)/2 → **0.041812** (575) → **0.041107** (2183) → **0.037524** (2291) → **0.029282** (3059) → **0.026117** (3239)
+
+In that order 935 is *rejected*, not a floor-setter, since 0.042286 ≥ 0.041812.
+
+**The general point, now stated in §5:** which values get recorded as setting the floor depends on the examination order, because a value can set the running floor and then be superseded by a smaller n examined later. The final floor and the final survivor set do not depend on the order — the floor only falls, and pruning is sound at every stage — but the *chain* is not a sequence of record minima unless the run is in ascending n. Worth keeping straight when reading a log.
+
+---
+
+## Open Problem 2(a) refuted; the backwards implication restated as a covering statement
+
+**2(a) is not open — it is false.** It asked for a constant above 1/9 bounding δ from below on odd n, which would let Theorem E.1 settle the collapse there wholesale. But **54.3% of the odd n in the computed table have δ(n) < 1/9**, and those are exact values of μ, not shortfalls of any family. So no such constant exists. The share also *grows*: 37.0% of odd n below 800, 59.9% in [800, 1600), 64.8% in [1600, 2299). The route is closed permanently, and **Open Problem 9(b) must be settled by promoting E.3(ii) directly** — that is now the only path. Recorded in both documents.
+
+**§6 of the notes overstated the backwards implication**, as suspected. It read as though a lower bound on μ forces a Bateman–Horn system to be solvable for all large n. It does not: μ(n) ≥ δ₀·C(n,2) says only that *some* admissible configuration reaches δ₀, and which one varies with n.
+
+What it does force is a **covering statement over a finite set**. At density δ₀ every search bound is effective — F.1 caps the class count at 1/√δ₀, part sizes ≳ √δ₀·n cap the fusion counts likewise, foreign parts are unfused and pairwise distinct — so the possible *shapes* form a finite set whose size depends on δ₀ alone: 31 at δ₀ = 1/9, 117 at 1/16, 1,593 at the current floor 0.026117. Each shape with n as parameter is one Bateman–Horn system. Hence:
+
+> μ(n) ≥ δ₀·C(n,2) for most n ⟹ for most n, at least one of a finite explicit set of systems is solvable at n.
+
+That is strictly weaker than any single system being solvable, which explains both why the route gives robustness rather than sharp prime theorems, and why the ladder survives §3.3's local obstructions: those kill particular systems in particular residue classes, and another shape covers those n.
+
+**The fusion shapes drop out asymptotically**, as expected. A fused shape needs a q-power's worth of equal blocks, and in the single-class case ω(n) ≤ 2 outright. Fused winners are 42.3% of the computed table, but that is propped up by small n — the ω(n) ≤ 2 population thins from 64.9% below 800 to 28.5% near 10⁶ — so they cover a density-zero set and the asymptotic covering runs over the purely additive shapes, 5 of the 31 at δ₀ = 1/9.
+
+Also recorded: the covering cannot be inverted into a statement about any single prime configuration unless it is shown *irredundant*, and the data does not support that — most n are covered by several shapes.
+
+New §6 of `arithmetic-of-density.md`; the open-problems discussion split off as §7 and the document's own questions renumbered to §8.
