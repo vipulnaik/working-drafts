@@ -344,3 +344,43 @@ The "parity gap, stated correctly" subsection was fully redundant after the reor
 Nothing needed relocating. Thesis item 2's forward pointer, which had been aimed at §3.6, now carries the one genuinely useful clause inline — that the systems supply ~n/log³n wherever soluble, so the loss really is caps — and points at §§3.1–3.3 where that is established.
 
 Section 3 now ends on effectivity (§3.5), which is the natural close: the families, their local obstructions, the window, and finally what the conjectures can and cannot deliver about them.
+
+---
+
+## `ladder_verify.py` run to 10⁷
+
+Result (193 s, user's machine): **odd family 1,666,666 eligible, 61 failures, largest 28,993; even family 3,333,332 eligible, 1,196 failures, largest 96,568.**
+
+The range is not the interesting part. Extending from 2×10⁵ to 10⁷ — a factor of fifty, and 4.8 million additional eligible values — produced **not a single new failure in either family**. The counts 61 and 1,196 are identical to the 2×10⁵ run, and every failure in both families lies below 10⁵.
+
+So the exceptional set is not merely sparse but, on this evidence, **finite**. That is the shape the singular series predicts — once n is large enough that 𝔖(n)·n/log³n comfortably exceeds 1, failures should stop entirely rather than thin out — and it is considerably stronger than anything the asymptotic itself asserts, since Bateman–Horn is ineffective and says nothing about where "large enough" begins.
+
+Practical consequence: the ladder is now unconditional over a range about **4,500× wider than where B(n) is known** (10⁷ against 2,212). Ranges updated in `arithmetic-of-density.md` §3.5 and its status table, the thesis item, `pending-checks.md`, and Prop. 5.2′ of the notes. Further extension is cheap — the scan is linear — but has stopped yielding information, so `pending-checks.md` now says to rerun only if the families change.
+
+---
+
+## A single global lower bound on δ
+
+**Conjecture: δ(n) ≥ 0.02 for every composite non-prime-power n**, i.e. μ(n) ≥ C(n,2)/50, with δ(n) ≥ 0.05051 − o(1) asymptotically. Now §5 of `arithmetic-of-density.md`, with a one-line version in the notes beside the residue table.
+
+**How the number was obtained.** For each n, the best density achievable by the three families of §2, scanning c over x ∈ [0.10, 0.55] — wide enough to contain every balance point. Over all composite non-prime-power n ≤ 10⁵ the smallest value is **0.02504 at n = 3239**, and the eight smallest are all in class 11 mod 12, the doubly-obstructed class with cap 0.05051. This is a lower bound on δ rather than δ itself; the true μ-based minimum over the range where B(n) is known is higher, 0.041107 at n = 2183.
+
+**The floor rises with n** — 0.02504, 0.02516, 0.03911, 0.04083 over successive ranges to 10⁵ — so the small-n dips are finite and the asymptotic floor is the class-11 cap. 1/50 was chosen over 1/40 because 1/40 = 0.025 is tight to four decimals at n = 3239.
+
+**Two scan errors found and fixed along the way, both the same mistake.** The first pass scanned c near n/3 with a fixed count of prime powers either side; for n ≡ 11 (mod 12) the balance point is x = 0.2247, far outside that window once prime gaps grow, so the computed floor appeared to *drift downward* (0.025 → 0.034 → 0.024 → 0.019) and looked like it would kill any global bound. Full search on the three worst cases gave 0.05010, 0.04898, 0.04787 — all within 5% of the class cap. The second pass used x ∈ [0.20, 0.55], which still clipped n = 9179 (optimum at x = 0.1973). Only x ∈ [0.10, 0.55] covers every class. **A windowed scan is only as good as the window, and the window has to be derived from the caps rather than guessed.**
+
+**Also noted:** `ladder_verify.py` checks only the *unobstructed* classes (n ≡ 1, 9 mod 12 odd; n ≢ 2 mod 3 even), since it tests for full efficiency. The obstructed classes need their own targets — r − 1 = 4q^a for e = 1/2, 6q^a for e = 1/3, 12q^a for e = 1/6 — and are not currently verified. That gap is why the §5 floor is computed directly rather than inferred from the ladder.
+
+---
+
+## `ladder_verify.py` rewritten
+
+The old version was checking substantially less than its name suggested, in two ways.
+
+**It skipped half of all n.** Its eligibility filter — `n % 4 != 1 or n % 3 == 2: continue` for the odd family, `n % 3 == 2: continue` for the even — kept only the classes where *full* efficiency is locally available. Classes 2, 3, 5, 7, 8 and 11 mod 12 were never examined at all, and those are precisely the obstructed ones. The obstructed classes need their own efficiency targets (r − 1 = 4q^a, 6q^a, 12q^a for e = 1/2, 1/3, 1/6) and were never given them.
+
+**Its window was wrong for the classes it did skip.** It scanned x ∈ [0.30, 0.36], centred on the e = 1 balance point 1/3. The e = 1/6 balance point is x = 0.2247 and the e = 1/2 point is 0.2929, both outside. So even had the filter admitted those classes, a scan there would have reported spurious failures — which is exactly the error that made the global floor look like it was drifting downward in the §5 work.
+
+**The rewrite computes achieved density rather than binary representability**, over all twelve classes, scanning x ∈ [0.10, 0.55] which contains every balance point. This subsumes the old check (representability is "achieved density > 0"), covers the classes that were being skipped, and produces the §5 global floor directly instead of by a separate ad-hoc script. Output to 2·10⁵: floor **0.02504 at n = 3239**, **zero** values below 0.02, per-class minima of δ/cap between 0.33 and 0.72 — comparable across classes, so no class is anomalously weak.
+
+**Cost claim corrected.** I had recorded "193 s for 10⁷, linear" and inferred that 10⁷ was cheap. That timing was the old binary check with its narrow fixed window. The real scan is O(N²/log N) — measured 23 s to 10⁵ and 87 s to 2·10⁵, a factor of 3.8 for a doubling — so **10⁶ is about half an hour and 10⁷ is multi-day**. Corrected in §5, in the open-questions list, and in `pending-checks.md`.

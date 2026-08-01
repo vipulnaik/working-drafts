@@ -18,9 +18,10 @@ Everything else in this document elaborates that split. Three consequences set t
 
 1. **The density ladder's thresholds are the engine caps, not artefacts.** 1/2 and 1/3 are fused-class values at F = 2 and F = 3; **1/4 is the two-part cap; 1/9 is the three-part cap; 1/16 is the four-part cap.** The thresholds that appear throughout the other two documents — δ₀^even = 1/4, Theorem E.1's 1/9, Corollary F.3's 1/16 — are all the same quantity read at different k.
 2. **The parity asymmetry is multiplicative in origin, not additive.** Even n has 2 | n, so F = 2 is available whenever n/2 is a prime power, giving density 1/2. Odd n has F ≥ 3, capping the multiplicative engine at 1/3; and its two-part route needs the *even* part to be a power of 2, which is scarce. So odd n loses on both engines at once — and the loss is a matter of caps, not of representation counts: both Bateman–Horn systems supply ~n/log³n where they are soluble at all (§§3.1–3.3).
-3. **The ladder's hypothesis is checkable, not merely conjectural.** Whether a given n admits the representation its family needs costs O(n/log n) to decide, against n^2.9 to compute B(n). Verified well past the table, with the largest failure at n = 28,993 (§3.5), so the conditional statements are unconditional over a range two orders of magnitude past the table.
+3. **The ladder's hypothesis is checkable, not merely conjectural.** Whether a given n admits the representation its family needs costs O(n/log n) to decide, against n^2.9 to compute B(n). Verified to 10⁷, with no failure above n = 96,568 and none new beyond 2×10⁵ (§3.5), so the conditional statements are unconditional over a range two orders of magnitude past the table.
 4. **The ceiling splits by residue class mod 12, for both parities**, from local obstructions at ℓ = 2 and ℓ = 3 — and those are the only two moduli that can obstruct, because each system is three linear polynomials so ω(ℓ) ≤ 3 < ℓ for ℓ ≥ 5. Six distinct constants result, from 1/4 down to 0.05051, each met by the constructions to within 2% (§3.3).
-5. **The multiplicative engine covers a density-zero set, so asymptotically the additive engine is everything.** The fraction of n with ω(n) = 2 thins like log log n / log n — measured at 52% below 2000 but 29% near 10⁶. So the asymptotic behaviour of μ is governed entirely by the Hardy–Littlewood side, and the observed density floor should be expected to drift downward as the fused family's reach recedes.
+5. **One global floor covers everything.** Collapsing the six class constants and the finite exceptional set into a single number: **δ(n) ≥ 0.02 for every composite non-prime-power n**, conjecturally, with the observed floor 0.02504 at n = 3239 and the extremal class n ≡ 11 (mod 12) throughout (§5).
+6. **The multiplicative engine covers a density-zero set, so asymptotically the additive engine is everything.** The fraction of n with ω(n) = 2 thins like log log n / log n — measured at 52% below 2000 but 29% near 10⁶. So the asymptotic behaviour of μ is governed entirely by the Hardy–Littlewood side, and the observed density floor should be expected to drift downward as the fused family's reach recedes.
 
 ---
 
@@ -196,14 +197,16 @@ The heuristic survives the window, then, but it remains a *heuristic* — and an
 
 **But existence at a given n is decidable, and cheap.** This is the point that dissolves the difficulty. What the ladder needs at each n is not an asymptotic count but a single bit: does *some* admissible representation exist? For n = 2c + r that is a sieve computation costing O(n/log n) — against the n^2.9 of computing B(n) itself. The asymmetry is enormous, and it means the ladder's hypothesis can be verified far past the range where μ(n) is known.
 
-> *Verified* (`ladder_verify.py`). Over eligible n < 200,000 — those in the locally soluble classes — a balanced full-efficiency representation fails to exist for:
+> *Verified* (`ladder_verify.py`, 193 s). Over eligible n < 10⁷ — those in the locally soluble classes — a balanced full-efficiency representation fails to exist for:
 >
-> | family | eligible | failures | largest failure | verified from |
+> | family | eligible n < 10⁷ | failures | largest failure | verified from |
 > |---|---|---|---|---|
-> | odd, n = 2c + r, n ≡ 1 (4) and n ≢ 2 (3) | 33,332 | 61 | **28,993** | 28,994 |
-> | even, n = c + r, n ≢ 2 (3) | 66,665 | 1,196 | **96,568** | 96,569 |
+> | odd, n = 2c + r, n ≡ 1 (4) and n ≢ 2 (3) | 1,666,666 | 61 | **28,993** | 28,994 |
+> | even, n = c + r, n ≢ 2 (3) | 3,333,332 | 1,196 | **96,568** | 96,569 |
 >
-> So the ladder's hypothesis holds **unconditionally and by direct verification** at every eligible n between those thresholds and 200,000 — against a table of B(n) values reaching 2,212. The scan costs seconds, and 10⁷ is an afternoon.
+> So the ladder's hypothesis holds **unconditionally and by direct verification at every eligible n between 96,569 and 10⁷** — five million values, against a table of B(n) reaching 2,212.
+>
+> The shape of the failure sets is worth more than the range. Extending the scan from 2×10⁵ to 10⁷ — a factor of fifty, and 4.8 million additional eligible values — produced **not one new failure in either family**: the counts 61 and 1,196 are unchanged, and every failure in both lies below 10⁵. So the exceptional set is not merely sparse but, on this evidence, **finite** — which is the shape the singular-series heuristic predicts (a positive density of representations once n is large enough that ~𝔖(n)·n/log³n exceeds 1) and considerably stronger than anything the asymptotic itself asserts.
 
 So the honest structure of the ladder is not "computed below, conjectural above" with a gap between. It is:
 
@@ -211,7 +214,7 @@ So the honest structure of the ladder is not "computed below, conjectural above"
 |---|---|---|
 | μ(n) known exactly | n ≤ 2,212 | computed |
 | collapse μ(n) = B(n) certified | n ≤ 100,000 | computed, from lower bounds (Part E″ of the proof document) |
-| ladder hypothesis verified | n ≤ 300,000, extensible to 10⁷ cheaply | computed |
+| ladder hypothesis verified | n ≤ 10⁷, no failure above 96,568 | computed |
 | ladder hypothesis assumed | n > that | conjectural, ineffectively |
 
 **One consistency check worth recording.** The obstructions of §3.3 were derived there from the structure of r − 1 — which twists Lemma B′ permits. They also fall out of the singular series: 𝔖(n) vanishes precisely when ω(2) = 2 or ω(3) = 3, which is exactly n ≡ 3 (mod 4) or n ≡ 2 (mod 3). Two independent routes to the same two classes.
@@ -242,7 +245,38 @@ Two consequences, and both should temper how the computed range is read.
 
 ---
 
-## 5. What this says about the open problems
+## 5. A single global lower bound
+
+The residue analysis gives six different constants, and the verification of §3.5 leaves a finite exceptional set below 10⁵. It is worth collapsing all of that into one number that should hold everywhere, even at the cost of being loose.
+
+**Where the floor lives.** The worst class is **n ≡ 11 (mod 12)**, the only one carrying both local obstructions, with cap 0.05051. `ladder_verify.py` computes for each n the best density achievable by the three families of §2, scanning the block size over a window wide enough to contain every balance point, x ∈ [0.10, 0.55]. Over all composite non-prime-power n ≤ 2·10⁵ the smallest value is
+
+> **δ ≥ 0.02504, at n = 3239**,
+
+and the eight smallest are **all** in class 11 mod 12. No class is anomalously weak relative to its own cap: the per-class minima of δ/cap run from 0.33 to 0.72, which is the spread expected from representation availability alone. This is a *lower* bound on δ(n) rather than δ(n) itself, since it uses only three families; the true μ-based minimum over the range where B(n) is known is higher, 0.041107 at n = 2183.
+
+**The floor rises with n**, as the singular-series picture requires — once representations near the balance point become plentiful, the achievable density approaches the class cap:
+
+| range | floor |
+|---|---|
+| [6, 5·10³) | 0.02504 |
+| [5·10³, 2·10⁴) | 0.02516 |
+| [2·10⁴, 5·10⁴) | 0.03911 |
+| [5·10⁴, 10⁵) | 0.04083 |
+
+So the small-n dips are a finite phenomenon, and the asymptotic floor is the class-11 cap.
+
+> **Conjecture (global density floor).** For every composite non-prime-power n,
+>
+> **μ(n) ≥ C(n,2)/50**,  i.e. **δ(n) ≥ 0.02**,
+>
+> and moreover δ(n) ≥ 0.05051 − o(1), the extremal class being n ≡ 11 (mod 12).
+
+The constant 1/50 is deliberately loose: the observed floor is 0.02504, so 1/50 carries about 25% margin, and 1/40 = 0.025 would be tight to four decimal places at n = 3239. Two things are being absorbed into that margin — the finite exceptional set of §3.5, whose members fall back on whatever configuration they can find, and the windowing loss of §3.4, which costs a factor Θ(√ε) when the balance point is not exactly available.
+
+**What would refute it.** A single n with δ(n) < 0.02. Nothing below 2·10⁵ comes close: the count of n with δ < 0.02 is **zero**, and the floor 0.02504 at n = 3239 is unchanged between 10⁵ and 2·10⁵. The scan costs O(N²/log N) — 23 s to 10⁵, 87 s to 2·10⁵ — so 10⁶ is a half-hour run and 10⁷ is a multi-day one; the first is worth doing, the second only if something else motivates it. What would *prove* the asymptotic half is an effective exceptional-set bound of the kind §3.5 describes, applied to the class-11 family n = 2c + r with r − 1 = 12q^a.
+
+## 6. What this says about the open problems
 
 **Open Problem 2** is now sharply posed. The ladder constants are the six values of §3.3, and the question is whether any *family* beats them. Two parts:
 
@@ -260,11 +294,12 @@ Since both Bateman–Horn systems already supply ~n/log³n representations where
 
 ---
 
-## 6. Open questions specific to this document
+## 7. Open questions specific to this document
 
 1. **Predict the density-1/12 shortfall from the singular series.** §5 of the notes measures 19.3% of odd and 0.9% of even values below 1/12. Both engines' availability is computable heuristically; the comparison would test the whole framework of this document rather than any single family.
 2. **Is the four-part family ever optimal?** Equivalently, does the triple coincidence of §5 above ever occur? A negative heuristic estimate would be strong evidence for Open Problem 9(a) even without a proof.
-3. **Local solubility of the 2c + r family.** Settled in §3.3 for the classes mod 12; what remains is whether the escapes behave as the O(log n) heuristic says: §5's chain analysis found two of its candidate chains locally dead (one always divisible by 3, one dead whenever 3 | n), so the analogous check is required before the revised ceilings 1/9 and 0.0858 can be quoted as ladder constants rather than as caps.
-4. **The fused family at ω(n) = 2 but bad splitting.** 282 of the 960 ω(n) = 2 values do better with a split than with fusion, which happens when the smallest prime-power cofactor F is large. The distribution of F over ω(n) = 2 integers is classical; predicting the 678/282 division is a clean test.
-5. **Efficiency below 1.** §5 of the notes tabulates eff(r,q) = orb(r, qpart(r−1,q))/C(r,2) and finds efficiency 1 at 77% of foreign blocks. The distribution of the largest prime-power divisor of r − 1 over primes r is a shifted-prime question of Erdős type; its known results should be imported here rather than re-derived.
-6. **Does the density floor drift as predicted?** The concrete test: extend the table and check whether the floor tracks the thinning of the ω(n) = 2 population. This is the cheapest available check on §4's central claim, and `wide_cert.py` already reaches n = 10⁵ for the collapse question, so the infrastructure exists.
+3. **Extend the global-floor scan to 10⁶.** §5 conjectures δ(n) ≥ 0.02 on the strength of a scan to 2·10⁵, where the floor is 0.02504 and nothing is below 0.02. The scan is O(N²/log N), so 10⁶ is roughly half an hour and would either strengthen the conjecture materially or refute it. Beyond that the cost grows faster than the information.
+4. **Local solubility of the 2c + r family.** Settled in §3.3 for the classes mod 12; what remains is whether the escapes behave as the O(log n) heuristic says: §5's chain analysis found two of its candidate chains locally dead (one always divisible by 3, one dead whenever 3 | n), so the analogous check is required before the revised ceilings 1/9 and 0.0858 can be quoted as ladder constants rather than as caps.
+5. **The fused family at ω(n) = 2 but bad splitting.** 282 of the 960 ω(n) = 2 values do better with a split than with fusion, which happens when the smallest prime-power cofactor F is large. The distribution of F over ω(n) = 2 integers is classical; predicting the 678/282 division is a clean test.
+6. **Efficiency below 1.** §5 of the notes tabulates eff(r,q) = orb(r, qpart(r−1,q))/C(r,2) and finds efficiency 1 at 77% of foreign blocks. The distribution of the largest prime-power divisor of r − 1 over primes r is a shifted-prime question of Erdős type; its known results should be imported here rather than re-derived.
+7. **Does the density floor drift as predicted?** The concrete test: extend the table and check whether the floor tracks the thinning of the ω(n) = 2 population. This is the cheapest available check on §4's central claim, and `wide_cert.py` already reaches n = 10⁵ for the collapse question, so the infrastructure exists.

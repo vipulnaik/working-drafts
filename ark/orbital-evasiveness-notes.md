@@ -216,6 +216,8 @@ Which efficiency is available is a local question, and it splits n by residue cl
 - At **odd ℓ** the forbidden residues are r ≡ 0, 1, n, a set of size at most 3, so only **ℓ = 3** can be fatal — and it is exactly when **n ≡ 2 (mod 3)**, where every r has one of r, (r−1)/2, c divisible by 3.
 - At **ℓ = 2**, full efficiency wants (r−1)/2 odd, i.e. r ≡ 3 (mod 4); then c = (n−r)/2 is odd only if **n ≡ 1 (mod 4)**. For n ≡ 3 (mod 4) the alternative r ≡ 1 (mod 4) forces 4 | r−1, capping the efficiency at 1/2.
 
+> **Conjecture (global density floor).** For every composite non-prime-power n, **μ(n) ≥ C(n,2)/50**, i.e. δ(n) ≥ 0.02 — and asymptotically δ(n) ≥ 0.05051 − o(1). The extremal class is n ≡ 11 (mod 12), the one carrying both local obstructions; the observed floor is **0.02504 at n = 3239**, and the floor rises with n (0.02504, 0.02516, 0.03911, 0.04083 over successive ranges to 10⁵) as representations near the balance point become plentiful. Derivation and the falsification test in `arithmetic-of-density.md` §5.
+
 > **The density ladder, complete by residue class mod 12.** δ₀ for both parities, derived rather than fitted. "Observed" is the largest density reached in the computed table by a winner whose foreign block runs at the generic efficiency for its class.
 >
 > | n mod 12 | parity | family | ℓ=2 | ℓ=3 | generic e | **δ₀** | observed | ratio |
@@ -257,7 +259,7 @@ The question the menu could not settle was whether odd n are genuinely poorer or
 
 One caveat retained: these figures are for n ≤ 2212, and the density questions above are precisely about whether the pattern persists. The proven ceiling beyond the computed range is B₀ (§2.3), not ⌊C(n,2)/2⌋.
 
-> **Proposition 5.2′ (top rung, both parities).** Unconditionally: μ(n) ≥ δ₀(n)·C(n,2) for every n admitting the relevant representation — two blocks for even n, n = 2c + r for odd n — with δ₀(n) the constant for n's residue class mod 12 tabulated in §5.3, ranging from 1/4 down to 0.05051. Whether n admits the representation is **checkable per n** in O(n/log n), and has been verified well past the range where μ(n) itself is known (`ladder_verify.py`).
+> **Proposition 5.2′ (top rung, both parities).** Unconditionally: μ(n) ≥ δ₀(n)·C(n,2) for every n admitting the relevant representation — two blocks for even n, n = 2c + r for odd n — with δ₀(n) the constant for n's residue class mod 12 tabulated in §5.3, ranging from 1/4 down to 0.05051. Whether n admits the representation is **checkable per n** in O(n/log n), and has been verified over all eligible n < 10⁷ (`ladder_verify.py`): the last failure is at n = 96,568, and extending the scan from 2×10⁵ to 10⁷ produced no new failures in either family, so on this evidence the exceptional set is finite.
 
 ## 6. The converse: μ encodes prime distribution
 
