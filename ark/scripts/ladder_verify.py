@@ -43,7 +43,7 @@ Usage:
     python3 ladder_verify.py 100000
     python3 ladder_verify.py 100000 --floor 0.02
 """
-import sys, time, bisect
+import sys, time, bisect, math
 from math import comb
 
 _A = sys.argv
@@ -145,24 +145,53 @@ def achieved(n, stop_at=None):
                     return best
     return best
 
-t = time.time()
+TICK, SUMMARY = 10_000, 100_000
+
+def stamp():
+    return time.strftime("%H:%M:%S")
+
+t0 = time.time()
 per = {a: [1e9, None, 0] for a in range(12)}
 gmin = (1e9, None)
 below = []
+blk_min = (1e9, None)              # minimum within the current SUMMARY block
+last = t0
+print(f"{stamp()}  scanning to {N:,}; checkpoint every {TICK:,}, "
+      f"summary every {SUMMARY:,}")
 for n in range(6, N + 1):
-    if ispp[n]:
-        continue
-    a = n % 12
-    d = achieved(n, stop_at=0.9 * CAP[a])
-    ratio = d / CAP[a]
-    if ratio < per[a][0]:
-        per[a][0], per[a][1] = ratio, n
-    if d < gmin[0]:
-        gmin = (d, n)
-    if d < FLOOR:
-        per[a][2] += 1
-        below.append((n, round(d, 5)))
-print(f"scan in {time.time()-t:.0f}s")
+    if not ispp[n]:
+        a = n % 12
+        d = achieved(n, stop_at=0.9 * CAP[a])
+        ratio = d / CAP[a]
+        if ratio < per[a][0]:
+            per[a][0], per[a][1] = ratio, n
+        if d < gmin[0]:
+            gmin = (d, n)
+        if d < blk_min[0]:
+            blk_min = (d, n)
+        if d < FLOOR:
+            per[a][2] += 1
+            below.append((n, round(d, 5)))
+    if n % TICK == 0:
+        now = time.time()
+        rate = TICK / max(now - last, 1e-9)
+        # Per-n cost is proportional to the number of prime powers in the scan
+        # window, i.e. to n/log n, so elapsed time grows like N^2/log N.  Scale
+        # the elapsed time by that ratio rather than extrapolating linearly.
+        f = lambda x: x * x / math.log(max(x, 3))
+        eta = (now - t0) * (f(N) / f(n) - 1)
+        print(f"{stamp()}  n = {n:>9,}  ({now-t0:>6.0f}s, {rate:>7.0f} n/s)  "
+              f"floor so far {gmin[0]:.5f} at n = {gmin[1]}"
+              f"{'  <' + str(len(below)) + ' below ' + str(FLOOR) + '>' if below else ''}"
+              f"   eta ~{eta/60:.1f}m")
+        last = now
+    if n % SUMMARY == 0:
+        b = f"{blk_min[0]:.5f} at n = {blk_min[1]}" if blk_min[1] else "n/a"
+        print(f"{stamp()}  --- through {n:,}: block floor {b}; "
+              f"global floor {gmin[0]:.5f} at n = {gmin[1]} "
+              f"(mod 12 = {gmin[1] % 12}); {len(below)} below {FLOOR} ---")
+        blk_min = (1e9, None)
+print(f"{stamp()}  scan complete in {time.time()-t0:.0f}s")
 print()
 print(f"{'n mod 12':>9} {'cap':>9} {'min delta/cap':>14} {'at n':>8} "
       f"{'# below ' + str(FLOOR):>14}")
