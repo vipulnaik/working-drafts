@@ -541,3 +541,15 @@ Fixed: in adaptive decision mode, already-computed n are kept in `todo`, their d
 So the operational rule is: pass the full `ladder_weak.txt` and always pass `--out`, since the lookups are what make the pruning work.
 
 **Process note.** Three separate patches in this exchange printed "ok" and then aborted before writing, because an assertion later in the same script failed. Two of them left the file in a state that parsed but silently misbehaved — `known` referenced but never initialised, then initialised but never populated. Each edit is now written and re-read with an assertion on the file contents rather than on the in-memory string. This is the fourth occurrence of that failure mode this session and the first where it produced a wrong *result* rather than a crash.
+
+---
+
+## `pending-checks.md` consolidated, and adaptive runs now append
+
+**The instructions were scattered and inconsistent** — the quick-reference block said `--nlist bb27.txt --floor 0.037524`, while the prose below argued for the full `ladder_weak.txt` at 0.050510, and neither said what `--out` does in decision mode. Replaced by a single section giving one canonical command and answering the question directly.
+
+**The `--out` question needed a code change, not just documentation.** Decision mode exits before the writing loop, so it was read-only: existing rows were safe, but exact values computed for survivors were *discarded*. Since those are the expensive part of the run, that was the wrong default. Adaptive mode now appends a survivor's row in the normal schema, and only ever appends — existing rows are never rewritten, reordered or removed. Verified that an appended row is byte-identical to what a plain `--nmin/--nmax` run produces for the same n (checked at n = 1175 against the real table).
+
+So the answer to "can I pass `--out mu_table_safe_v2.csv` safely?" is **yes, and it is required**: the table's known δ values are what drop the floor to 0.037524 and make 48,700 of the 48,729 candidates prunable. Without it the run would start at 0.050510 and test all of them.
+
+One bug caught in testing: the append path called `fallback_used(w)` where the function takes `(w, spf)`. It only fires on the survivor branch, so the first two test runs — which happened to reject everything — passed without touching it.

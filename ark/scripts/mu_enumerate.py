@@ -576,7 +576,7 @@ if __name__ == "__main__":
             if not LB:
                 print(f"               (no lower bounds in {a.nlist}; pruning by "
                       f"bound is disabled, adaptation still active)")
-        rejected, survivors, pruned = 0, [], 0
+        rejected, survivors, pruned, written = 0, [], 0, []
         t0 = time.time()
         for i, n in enumerate(todo, 1):
             # LB(n) >= floor proves delta(n) >= floor, so n cannot lower it
@@ -618,6 +618,21 @@ if __name__ == "__main__":
                 # cannot reject: compute the exact value and adopt it if lower
                 B, w, K, cert = mu_bound(n, spf)
                 d = B / comb(n, 2)
+                # append the row so this (expensive) computation is not lost.
+                # Decision mode never rewrites or reorders the file -- it only
+                # appends rows for n it computed and that were not already there.
+                if a.out and n not in done:
+                    fresh = (not os.path.exists(a.out)) or os.path.getsize(a.out) == 0
+                    with open(a.out, "a") as ofh:
+                        if fresh:
+                            ofh.write(HEADER + "\n")
+                        fbk = fallback_used(w, spf)
+                        ofh.write(f'{n},{comb(n,2)},{B},{d:.6f},'
+                                  f'{len(w[2]) if w else 0},{K},'
+                                  f'{int(1.0/d**0.5) if d > 0 else 0},'
+                                  f'{int(cert)},{int(fbk)},"{show(w)}"\n')
+                    done.add(n)
+                    written.append(n)
                 if d < floor:
                     floor = d
                     KMAX = max(1, int(1.0 / floor ** 0.5))
@@ -644,6 +659,10 @@ if __name__ == "__main__":
                      else f" (unchanged from {a.floor:.6f})"))
             print(f"n that lowered it, in order: {survivors}"
                   if survivors else "no n beat the starting floor")
+            if a.out:
+                print(f"appended {len(written)} newly computed row(s) to {a.out}"
+                      + (f": {written}" if written else
+                         " -- existing rows untouched"))
         else:
             print(f"rejected {rejected} of {len(todo)} in {time.time()-t0:.0f}s; "
                   f"{len(survivors)} need the exact value -> {a.out_below}")

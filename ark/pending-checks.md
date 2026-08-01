@@ -13,8 +13,9 @@
 **Routine, after any new batch of table values:**
 
 ```bash
-python3 mu_enumerate.py --nmin 2213 --nmax 2600 --out mu_table_safe_v2.csv   # extend the table (~n^2.9/value)
-python3 mu_enumerate.py --nlist bb27.txt --floor 0.037524 --adaptive        # branch-and-bound for the global floor
+python3 mu_enumerate.py --nmin 2299 --nmax 2600 --out mu_table_safe_v2.csv   # extend the table (~n^2.9/value)
+python3 mu_enumerate.py --nlist ladder_weak.txt --floor 0.050510 --adaptive \
+                        --out mu_table_safe_v2.csv                          # global floor; see below
 python3 mu_enumerate.py --nmax 2600 --fill-gaps --out mu_table_safe_v2.csv   # then close any gaps a targeted run left
 python3 fallback_cert.py mu_table_safe_v2.csv                               # collapse certificate vs the true B(n)
 python3 wide_cert.py 100000                                                 # same, from lower bounds; pass 1 cached
@@ -22,27 +23,36 @@ python3 check_doc_figures.py mu_table_safe_v2.csv *.md                      # ca
 python3 ladder_verify.py 200000                                             # ladder floor, all 12 classes (87 s)
 ```
 
-**`mu_enumerate.py --floor M --adaptive` runs the §5 branch-and-bound as a single job.** Without `--adaptive` the floor is fixed for the whole run and survivors are only *listed*, so the caller has to compute them, lower M by hand, re-filter and relaunch. With it the job does all of that:
+## The global-floor branch-and-bound: one command
 
-- a candidate whose supplied lower bound has risen above the current floor is **pruned** without any computation, since LB(n) ≥ floor proves δ(n) ≥ floor — this is why `--nlist` files should keep the `n LB` two-column form that `ladder_verify.py` writes;
-- a candidate that can be **rejected** stops at the first configuration above the floor, usually at K = 1 or 2;
-- a candidate that cannot be rejected has B(n) computed exactly, and if its density is lower it becomes the **new floor** — which also shrinks Prop. F.1's K bound for everything after it.
-
-Worked example on four known values with a starting floor of 0.0425:
-
-```
-[1/4] n=575    delta = 0.041812  NEW FLOOR  (K now 1..4)   p=5 q=23: 23x25
-[2/4] n=851    pruned: bound 0.04235 >= floor 0.04181
-[3/4] n=935    B/C(n,2) > 0.04181  rejected at K=2
-[4/4] n=1175   B/C(n,2) > 0.04181  rejected at K=3
-FINAL FLOOR delta = 0.041812, last lowered at n = 575
+```bash
+python3 mu_enumerate.py --nlist ladder_weak.txt --floor 0.050510 --adaptive \
+                        --out mu_table_safe_v2.csv
 ```
 
-n = 851 is the point: its bound was below the *starting* floor but above the one n = 575 established, so it was skipped entirely.
+That is the whole procedure. Pass the **full** `ladder_weak.txt`, not a pre-filtered subset, and start from the honest asymptotic constant (5 − 2√6)/2 = 0.050510 rather than a floor derived elsewhere.
 
-**Feed it the whole worklist — `bb27.txt` saves nothing.** Starting from all 48,729 entries of `ladder_weak.txt` at the honest asymptotic floor (5 − 2√6)/2, in LB-ascending order: **48,700 pruned on their bound, 2 read from the table, 27 real tests** — the same 27, reached at the cost of a float comparison each. Even in the file's natural ascending-n order it is 48,696 / 6 / 27. `bb27.txt` is therefore a convenience, not an optimisation, and passing the full list is safer because it does not bake in a floor derived elsewhere.
+**Is `--out mu_table_safe_v2.csv` safe?** Yes, and it is required. Specifically:
 
-This works only because `--adaptive` reads δ from `--out` for any n already computed rather than skipping it. Those two lookups are what drop the floor to 0.037524 and make the other 48,700 prunable; skipping them, which is what the plain resume logic does, would leave the floor at 0.050510 and turn 48,729 comparisons into 48,729 decision tests. So **always pass `--out`** with the adaptive flag.
+- **Existing rows are never rewritten, reordered or removed.** Decision mode only ever appends.
+- **The table is read** for the δ of any n already computed, and those values feed the floor directly. This is what makes the run fast — see below — so omitting `--out` is the difference between a few minutes and a very long night.
+- **Newly computed exact values are appended** in the normal schema, so the expensive work is kept. Only survivors trigger an exact computation; rejected and pruned n compute nothing and write nothing. Verified: an appended row is byte-identical to what a plain `--nmin/--nmax` run produces for the same n.
+
+A targeted run like this leaves gaps below its own maximum, so close them later with `--fill-gaps` before quoting the table as a contiguous range.
+
+**Why the full list costs nothing.** Over all 48,729 entries, starting at 0.050510 in LB-ascending order: **48,700 pruned on their bound, 2 read from the table, 27 actually tested.** In the file's natural ascending-n order it is 48,696 / 6 / 27. The mechanism is that LB(n) ≥ floor proves δ(n) ≥ floor, so a single float comparison eliminates a candidate; and the two table lookups (n = 935, then n = 2291) drop the floor from 0.050510 to 0.037524, which is what makes the other 48,700 prunable.
+
+The three outcomes per candidate:
+
+| | what happens | cost |
+|---|---|---|
+| **pruned** | its lower bound has risen above the running floor | one comparison |
+| **rejected** | some configuration beats the floor; stops at the first one found | usually K = 1 or 2 |
+| **survivor** | nothing beats the floor, so B(n) is computed exactly, adopted as the new floor if lower, and appended to `--out` | full n^2.9 |
+
+Each new floor also tightens Proposition F.1's part-count cap ⌊1/√floor⌋, so the run gets cheaper as it succeeds.
+
+**Expected outcome.** The 27 survivors are all n ≡ 11 (mod 12), between 2915 and 17363, ten of them below 5000; they are listed in `bb27.txt` for reference, but there is no need to pass that file. Computing all 27 exactly would be ~85 hours, dominated by the tail — but most should reject rather than survive, and every success prunes more of what remains. The result is either a global floor below 0.037524 or a confirmation that n = 2291 is the true minimum below 10⁶.
 
 **`ladder_verify.py` computes the global floor**`ladder_verify.py` computes the global floor of `arithmetic-of-density.md` §5.** For each n and over all twelve residue classes it finds the best density the three families achieve, scanning the block size over x ∈ [0.10, 0.55] — a window wide enough to hold every class's balance point, which matters because the low-efficiency classes balance near x = 0.22, not x = 1/3. The value is a *lower bound* on δ(n): it does not model the fused-plus-foreign shape (F, c) + r\*, so where both are known it agrees exactly at 1,700 of 1,921 values and is otherwise low by up to a factor of 2.
 
@@ -56,7 +66,7 @@ Since the run is long enough to want watchingSince the run is long enough to wan
 
 **Run `check_doc_figures.py` after every extension.** Three consecutive extensions each left a *different* subset of the documents behind, because the updates were done by ad-hoc string replacement rather than a sweep. The script recomputes every range-dependent figure the prose quotes — row count, n max, density floor and peak, median, part counts, `certified_K` distribution, the 1/4 and 1/9 shares, the δ ≤ 1/16 tail, the ω(n) = 2 count — and flags occurrences that no longer match. It deliberately does not edit: several of these numbers sit in sentences whose wording has to change with them (the density floor moved off n = 575 at n ≤ 2212, and the surrounding claim that it was "stable rather than eroding" had to go). Some flagged figures are legitimate historical citations — the `mu_fast.py` menu table's row count, a sample size, a "then-N" reference — so the output is a checklist, not a diff.
 
-`mu_enumerate.py` also takes **`--nlist FILE`** (one n per line, extra fields ignored, so `ladder_weak.txt` can be passed straight in) and **`--fill-gaps`**. The two go together: a targeted `--nlist` run leaves holes below its own maximum, and plain resume continues after the *last* row, so those holes would never be filled. `--fill-gaps` rescans from `--nmin` and relies on the already-present check to skip what is done, costing only a loop over n. It also takes `--n` for a single value, `--check` to validate an existing table without extending it, `--quiet`, and `--refined` (the lower endpoint B_refined — see Part C.2 of the proof document before using it). `wide_cert.py` takes `--menu` to add the family-menu lower bound as a cross-check and `--refresh` to discard the cached pass 1. `fallback_cert.py` takes `--verbose` to list every surviving candidate rather than stopping at the first.
+`mu_enumerate.py` takes **`--nlist FILE`** (one n per line; a second field is read as a lower bound on δ, which is the form `ladder_verify.py` writes and which `--adaptive` prunes on) and **`--fill-gaps`**, which go together: a targeted `--nlist` run leaves holes below its own maximum, and plain resume continues after the *last* row, so those holes would never be filled. `--fill-gaps` rescans from `--nmin` and relies on the already-present check to skip what is done, costing only a loop over n. For `--floor` and `--adaptive` see the section below. It also takes `--n` for a single value, `--check` to validate an existing table without extending it, `--quiet`, and `--refined` (the lower endpoint B_refined — see Part C.2 of the proof document before using it). `wide_cert.py` takes `--menu` to add the family-menu lower bound as a cross-check and `--refresh` to discard the cached pass 1. `fallback_cert.py` takes `--verbose` to list every surviving candidate rather than stopping at the first.
 
 **Outstanding one-off runs.** These operate on the GAP battery and read `ckpt_groups.pkl`, `ckpt_catalog.pkl`, `ckpt_order.pkl` from the working directory; `n` is implicit in `groups_out.txt` rather than a flag.
 
