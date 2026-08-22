@@ -162,6 +162,58 @@ def desugar(text):
     return MATH_SPAN_RE.sub(repl, text), spans
 
 
+HEADER_RE = re.compile(r"^(=+)\s*(.*?)\s*=+\s*$")
+
+
+def split_into_scopes(text):
+    """Split raw page text into (scope_path, segment_text) chunks using
+    MediaWiki '== Header ==' lines to build a nesting path, e.g. a
+    subsection under Proof gets scope_path ('Proof', 'Example 1').
+
+    This runs BEFORE strip_wiki_markup/desugar - it only understands
+    header syntax, nothing else. Content between headers (including
+    text before the first header) is one segment per scope.
+    """
+    segments = []
+    stack = []  # list of (level, title)
+    current_lines = []
+
+    def flush():
+        if any(l.strip() for l in current_lines):
+            path = tuple(title for _, title in stack)
+            segments.append((path, "\n".join(current_lines)))
+        current_lines.clear()
+
+    for line in text.split("\n"):
+        m = HEADER_RE.match(line.strip())
+        if m:
+            flush()
+            level = len(m.group(1))
+            title = m.group(2).strip()
+            while stack and stack[-1][0] >= level:
+                stack.pop()
+            stack.append((level, title))
+        else:
+            current_lines.append(line)
+    flush()
+    return segments
+
+
+def scopes_related(a, b):
+    """True if scope path `a` and `b` are the same, or one is an ancestor
+    of the other (nested), so a declaration in one is visible from the
+    other. False for siblings/cousins - e.g. two independent '===Example'
+    subsections under the same '==Proof==' are NOT related, since each
+    is its own self-contained construction and reusing a variable name
+    across them is normal, not a redefinition."""
+    n = min(len(a), len(b))
+    return a[:n] == b[:n]
+
+
+def scope_label(scope_path):
+    return " > ".join(scope_path) if scope_path else "(page top)"
+
+
 def normalize_symbol(raw):
     """Strip outer whitespace and common no-op wrapping so 'G' and ' G '
     and '{G}' collapse to the same key. Deliberately shallow - reuses the
@@ -177,56 +229,62 @@ def normalize_symbol(raw):
 # --------------------------------------------------------------------------
 
 def extract_declarations(text, patterns, equation_patterns=None):
-    """Return list of dicts: {sym, role, rel, sentence, confidence}."""
-    text = strip_wiki_markup(text)
-    desugared, spans = desugar(text)
-    sentences = SENTENCE_SPLIT_RE.split(desugared)
-
+    """Return list of dicts: {sym, role, rel, meaning, sentence, confidence,
+    scope}. `scope` is a tuple of enclosing MediaWiki header titles, e.g.
+    ('Proof', 'Example 1'), or () for content before any header."""
     results = []
-    for sent in sentences:
-        for pat in patterns:
-            # Patterns are written with a literal "SYM(" for readability;
-            # turn that into the escaped "SYM\(" the regex engine needs.
-            working = pat["regex"].replace("SYM(", r"SYM\(")
-            m = re.search(working, sent, flags=re.IGNORECASE)
-            if not m:
-                continue
-            gd = m.groupdict()
-            sym = normalize_symbol(gd.get("sym", ""))
-            role = (gd.get("role") or "").strip()
-            rel = normalize_symbol(gd.get("rel", "")) if gd.get("rel") else None
-            meaning = pat["template"].format(sym=sym, role=role, rel=rel)
-            results.append({
-                "sym": sym,
-                "role": role,
-                "rel": rel,
-                "meaning": meaning,
-                "sentence": sent.strip(),
-                "confidence": pat.get("confidence", "high"),
-            })
-            break  # first matching pattern wins per sentence
 
-    # Second pass: definitional equations living entirely inside one math
-    # span, e.g. "B = \mathbb{F}_p[H]" - these have no surrounding English
-    # for the sentence-level patterns to anchor on.
-    for content in spans:
-        for pat in (equation_patterns or EQUATION_PATTERNS):
-            m = re.match(pat["regex"], content.strip())
-            if not m:
-                continue
-            gd = m.groupdict()
-            sym = normalize_symbol(gd.get("sym", ""))
-            rhs = (gd.get("rhs") or "").strip()
-            meaning = pat["template"].format(sym=sym, role="", rel=None, rhs=rhs)
-            results.append({
-                "sym": sym,
-                "role": "",
-                "rel": None,
-                "meaning": meaning,
-                "sentence": f"${content.strip()}$",
-                "confidence": pat.get("confidence", "medium"),
-            })
-            break
+    for scope_path, seg_text in split_into_scopes(text):
+        seg_text = strip_wiki_markup(seg_text)
+        desugared, spans = desugar(seg_text)
+        sentences = SENTENCE_SPLIT_RE.split(desugared)
+
+        for sent in sentences:
+            for pat in patterns:
+                # Patterns are written with a literal "SYM(" for readability;
+                # turn that into the escaped "SYM\(" the regex engine needs.
+                working = pat["regex"].replace("SYM(", r"SYM\(")
+                m = re.search(working, sent, flags=re.IGNORECASE)
+                if not m:
+                    continue
+                gd = m.groupdict()
+                sym = normalize_symbol(gd.get("sym", ""))
+                role = (gd.get("role") or "").strip()
+                rel = normalize_symbol(gd.get("rel", "")) if gd.get("rel") else None
+                meaning = pat["template"].format(sym=sym, role=role, rel=rel)
+                results.append({
+                    "sym": sym,
+                    "role": role,
+                    "rel": rel,
+                    "meaning": meaning,
+                    "sentence": sent.strip(),
+                    "confidence": pat.get("confidence", "high"),
+                    "scope": scope_path,
+                })
+                break  # first matching pattern wins per sentence
+
+        # Second pass: definitional equations living entirely inside one
+        # math span, e.g. "B = \mathbb{F}_p[H]" - these have no surrounding
+        # English for the sentence-level patterns to anchor on.
+        for content in spans:
+            for pat in (equation_patterns or EQUATION_PATTERNS):
+                m = re.match(pat["regex"], content.strip())
+                if not m:
+                    continue
+                gd = m.groupdict()
+                sym = normalize_symbol(gd.get("sym", ""))
+                rhs = (gd.get("rhs") or "").strip()
+                meaning = pat["template"].format(sym=sym, role="", rel=None, rhs=rhs)
+                results.append({
+                    "sym": sym,
+                    "role": "",
+                    "rel": None,
+                    "meaning": meaning,
+                    "sentence": f"${content.strip()}$",
+                    "confidence": pat.get("confidence", "medium"),
+                    "scope": scope_path,
+                })
+                break
 
     return results
 
@@ -237,13 +295,17 @@ def extract_declarations(text, patterns, equation_patterns=None):
 
 def build_draft_table(declarations):
     """Group by symbol; a symbol may have multiple declarations if reused
-    (that's exactly what we want the human to review)."""
+    (that's exactly what we want the human to review). Each entry keeps
+    its scope path so re-use across independent sections (e.g. two
+    sibling ===Example=== subsections) doesn't get treated the same as
+    re-use within one section."""
     table = {}
     for d in declarations:
         table.setdefault(d["sym"], []).append({
             "meaning": d["meaning"],
             "confidence": d["confidence"],
             "source_sentence": d["sentence"],
+            "scope": list(d["scope"]),
         })
     return table
 
@@ -271,52 +333,75 @@ def similar(a, b, threshold=0.82):
 
 
 def check_consistency(declarations, approved_table):
-    """Return list of (severity, message) tuples."""
+    """Return list of (severity, message) tuples.
+
+    Scope-aware: a symbol re-used with a different meaning is only flagged
+    as REDEFINITION if the two declarations occur in *related* scopes
+    (same section, or one nested inside the other). Two sibling sections
+    - e.g. two independent '===Example...===' subsections under the same
+    '==Proof==', each running the same construction recipe with the same
+    variable names - are NOT compared against each other, since that reuse
+    is normal, not a slip.
+    """
     issues = []
-    seen_in_doc = {}  # sym -> list of meanings seen so far in this pass
+    seen_in_doc = {}  # sym -> list of (scope, meaning) seen so far in this pass
 
     for d in declarations:
-        sym, meaning = d["sym"], d["meaning"]
+        sym, meaning, scope = d["sym"], d["meaning"], d["scope"]
         prior = seen_in_doc.get(sym, [])
 
-        # REDEFINITION: same symbol, meaningfully different meaning, within this doc
-        for prior_meaning in prior:
-            if not similar(prior_meaning, meaning):
+        # REDEFINITION: same symbol, meaningfully different meaning,
+        # but ONLY within a related scope chain (not across siblings).
+        for prior_scope, prior_meaning in prior:
+            if scopes_related(prior_scope, scope) and not similar(prior_meaning, meaning):
                 issues.append((
                     "REDEFINITION",
-                    f"'{sym}' previously declared as \"{prior_meaning}\", "
-                    f"now \"{meaning}\" -- (\"{d['sentence'][:70]}\")",
+                    f"'{sym}' previously declared as \"{prior_meaning}\" "
+                    f"[{scope_label(prior_scope)}], now \"{meaning}\" "
+                    f"[{scope_label(scope)}] -- (\"{d['sentence'][:70]}\")",
                 ))
 
-        # DRIFT: not present in the human-approved table at all
+        # DRIFT: not present in the human-approved table at all, or present
+        # only under an unrelated scope.
         approved = approved_table.get(sym)
         if approved is None:
             issues.append((
                 "DRIFT",
-                f"'{sym}' declared as \"{meaning}\" but not in approved table "
-                f"-- (\"{d['sentence'][:70]}\")",
+                f"'{sym}' declared as \"{meaning}\" [{scope_label(scope)}] "
+                f"but not in approved table -- (\"{d['sentence'][:70]}\")",
             ))
         else:
-            approved_meanings = [a["meaning"] for a in approved]
+            relevant = [
+                a for a in approved
+                if scopes_related(tuple(a.get("scope", [])), scope)
+            ]
+            candidates = relevant or approved  # fall back to all if scope info missing/unrelated
+            approved_meanings = [a["meaning"] for a in candidates]
             if not any(similar(meaning, am) for am in approved_meanings):
                 issues.append((
                     "DRIFT",
-                    f"'{sym}' now means \"{meaning}\" but approved table says "
-                    f"{approved_meanings} -- (\"{d['sentence'][:70]}\")",
+                    f"'{sym}' now means \"{meaning}\" [{scope_label(scope)}] but "
+                    f"approved table (same-scope entries) says {approved_meanings} "
+                    f"-- (\"{d['sentence'][:70]}\")",
                 ))
 
-        seen_in_doc.setdefault(sym, []).append(meaning)
+        seen_in_doc.setdefault(sym, []).append((scope, meaning))
 
-    # POSSIBLE_ALIAS (soft): different symbols, near-identical meaning text
-    items = [(d["sym"], d["meaning"]) for d in declarations]
+    # POSSIBLE_ALIAS (soft): different symbols, near-identical meaning text,
+    # restricted to related scopes - otherwise every page-wide reuse of
+    # "is a subgroup of" phrasing floods the output with noise.
+    items = [(d["sym"], d["meaning"], d["scope"]) for d in declarations]
     for i in range(len(items)):
         for j in range(i + 1, len(items)):
-            sym_a, mean_a = items[i]
-            sym_b, mean_b = items[j]
-            if sym_a != sym_b and similar(mean_a, mean_b, threshold=0.9):
+            sym_a, mean_a, scope_a = items[i]
+            sym_b, mean_b, scope_b = items[j]
+            if (sym_a != sym_b
+                    and scopes_related(scope_a, scope_b)
+                    and similar(mean_a, mean_b, threshold=0.9)):
                 issues.append((
                     "POSSIBLE_ALIAS",
-                    f"'{sym_a}' and '{sym_b}' both mean \"{mean_a}\" -- "
+                    f"'{sym_a}' [{scope_label(scope_a)}] and '{sym_b}' "
+                    f"[{scope_label(scope_b)}] both mean \"{mean_a}\" -- "
                     f"confirm this is intentional (e.g. two distinct subgroups)",
                 ))
 
