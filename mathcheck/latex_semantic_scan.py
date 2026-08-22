@@ -61,6 +61,17 @@ DEFAULT_PATTERNS = [
         "regex": r"SYM\((?P<sym>[^)]+)\)\s+(?:is|be)\s+(?:an?|the)\s+(?P<role>[\w -]+?)\s+of\s+SYM\((?P<rel>[^)]+)\)",
         "template": "{sym} is a {role} of {rel}",
     },
+    # "H is a subgroup of a finite group G" - the "of" target carries its
+    # OWN descriptor inline, which simultaneously declares that target too.
+    # This is a very common idiom ("...of a finite group G", "...of an
+    # abelian group A") and without it, G/A look permanently undeclared
+    # even when the page does introduce them, just not via a standalone
+    # "Let G be..." sentence.
+    {
+        "regex": r"SYM\((?P<sym>[^)]+)\)\s+(?:is|be)\s+(?:an?|the)\s+(?P<role>[\w -]+?)\s+of\s+(?:an?|the)\s+(?P<rel_role>[\w -]+?)\s+SYM\((?P<rel>[^)]+)\)",
+        "template": "{sym} is a {role} of {rel}",
+        "also_declares_rel": True,
+    },
     # "N is normal in G"
     {
         "regex": r"SYM\((?P<sym>[^)]+)\)\s+is\s+(?P<role>normal|central|characteristic|abelian|solvable|nilpotent)\s+in\s+SYM\((?P<rel>[^)]+)\)",
@@ -228,6 +239,18 @@ def normalize_symbol(raw):
 # 3. Extraction
 # --------------------------------------------------------------------------
 
+CLAUSE_SPLIT_RE = re.compile(r"\s+and\s+(?=SYM\()")
+
+
+def split_clauses(sentence):
+    """Split a sentence into clauses on ' and ' when the next clause starts
+    with a math-span placeholder - e.g. 'A is a group and A is a subgroup
+    of B' becomes two clauses. This deliberately only splits before SYM(
+    (i.e. before a new subject), so 'the join of H1 and H2' or similar
+    phrases inside a single clause are left alone."""
+    return CLAUSE_SPLIT_RE.split(sentence)
+
+
 def extract_declarations(text, patterns, equation_patterns=None):
     """Return list of dicts: {sym, role, rel, meaning, sentence, confidence,
     scope}. `scope` is a tuple of enclosing MediaWiki header titles, e.g.
@@ -240,28 +263,67 @@ def extract_declarations(text, patterns, equation_patterns=None):
         sentences = SENTENCE_SPLIT_RE.split(desugared)
 
         for sent in sentences:
+          for clause in split_clauses(sent):
+            sent_matches = []
             for pat in patterns:
                 # Patterns are written with a literal "SYM(" for readability;
                 # turn that into the escaped "SYM\(" the regex engine needs.
                 working = pat["regex"].replace("SYM(", r"SYM\(")
-                m = re.search(working, sent, flags=re.IGNORECASE)
-                if not m:
-                    continue
-                gd = m.groupdict()
-                sym = normalize_symbol(gd.get("sym", ""))
-                role = (gd.get("role") or "").strip()
-                rel = normalize_symbol(gd.get("rel", "")) if gd.get("rel") else None
-                meaning = pat["template"].format(sym=sym, role=role, rel=rel)
-                results.append({
-                    "sym": sym,
-                    "role": role,
-                    "rel": rel,
-                    "meaning": meaning,
-                    "sentence": sent.strip(),
-                    "confidence": pat.get("confidence", "high"),
-                    "scope": scope_path,
-                })
-                break  # first matching pattern wins per sentence
+                # finditer (not search): a single clause can still carry
+                # more than one pattern match (e.g. bare is-a + is-a-of
+                # both matching overlapping text) - collect all, dedup below.
+                for m in re.finditer(working, clause, flags=re.IGNORECASE):
+                    gd = m.groupdict()
+                    sym = normalize_symbol(gd.get("sym", ""))
+                    role = (gd.get("role") or "").strip()
+                    rel = normalize_symbol(gd.get("rel", "")) if gd.get("rel") else None
+                    meaning = pat["template"].format(sym=sym, role=role, rel=rel)
+                    sent_matches.append({
+                        "sym": sym,
+                        "role": role,
+                        "rel": rel,
+                        "meaning": meaning,
+                        "sentence": sent.strip(),
+                        "confidence": pat.get("confidence", "high"),
+                        "scope": scope_path,
+                        "span": (m.start(), m.end()),
+                    })
+                    # Some patterns (e.g. "...of a finite group G") declare
+                    # BOTH symbols in one match: the primary sym, and the
+                    # relation target via its own inline descriptor. Emit a
+                    # second declaration for the latter, anchored to the
+                    # same span so dedup treats it as part of the same match.
+                    if pat.get("also_declares_rel") and gd.get("rel_role"):
+                        rel_role = gd["rel_role"].strip()
+                        sent_matches.append({
+                            "sym": rel,
+                            "role": rel_role,
+                            "rel": None,
+                            "meaning": f"{rel} is a {rel_role}",
+                            "sentence": sent.strip(),
+                            "confidence": pat.get("confidence", "high"),
+                            "scope": scope_path,
+                            "span": (m.start(), m.end()),
+                        })
+
+            # Dedup within this clause: when two matches overlap and share
+            # the same symbol, keep only the wider (more specific) one,
+            # e.g. "is-a-of" over bare "is-a" for the same span, since the
+            # narrower one is almost always a partial submatch of the same
+            # underlying declaration, not a second distinct one.
+            sent_matches.sort(key=lambda r: -(r["span"][1] - r["span"][0]))
+            kept = []
+            for r in sent_matches:
+                s0, e0 = r["span"]
+                overlaps_kept_wider = any(
+                    r["sym"] == k["sym"] and not (e0 <= k["span"][0] or s0 >= k["span"][1])
+                    for k in kept
+                )
+                if not overlaps_kept_wider:
+                    kept.append(r)
+            for r in kept:
+                del r["span"]
+            results.extend(kept)
 
         # Second pass: definitional equations living entirely inside one
         # math span, e.g. "B = \mathbb{F}_p[H]" - these have no surrounding
@@ -345,9 +407,52 @@ def check_consistency(declarations, approved_table):
     """
     issues = []
     seen_in_doc = {}  # sym -> list of (scope, meaning) seen so far in this pass
+    declared_syms = []  # list of (scope, sym) for every symbol declared so far, in order
+
+    # Symbols declared together in the same sentence (e.g. "N is a subgroup
+    # of a group M" declares N and M in one match) count as simultaneous,
+    # not sequential - without this, whichever of the pair happens to be
+    # processed first would wrongly see the other as "not yet declared".
+    same_sentence_syms = {}
+    for d in declarations:
+        key = (d["scope"], d["sentence"])
+        same_sentence_syms.setdefault(key, set()).add(d["sym"])
 
     for d in declarations:
         sym, meaning, scope = d["sym"], d["meaning"], d["scope"]
+
+        # UNDECLARED_REFERENT: this declaration explains sym in terms of
+        # another symbol ("B is a subgroup of C"), but that other symbol
+        # has never itself been declared anywhere in a related scope -
+        # it's only ever appeared as someone else's "of X" target, never
+        # as a subject in its own right. Checked against declarations seen
+        # so far (textual order) PLUS anything declared in this same
+        # sentence (simultaneous declarations, see same_sentence_syms above).
+        if d.get("rel") and d["rel"] != sym:
+            rel_declared = any(
+                s == d["rel"] and scopes_related(rscope, scope)
+                for rscope, s in declared_syms
+            )
+            if not rel_declared:
+                rel_declared = d["rel"] in same_sentence_syms.get((scope, d["sentence"]), set())
+            if not rel_declared:
+                issues.append((
+                    "UNDECLARED_REFERENT",
+                    f"'{d['rel']}' is used to describe '{sym}' (\"{meaning}\") "
+                    f"[{scope_label(scope)}] but '{d['rel']}' itself is never "
+                    f"declared -- (\"{d['sentence'][:70]}\")",
+                ))
+
+        # SELF_REFERENCE: symbol declared in terms of itself, e.g.
+        # "A is a subgroup of A". Always worth a human look regardless
+        # of scope - this is a deterministic, high-confidence catch.
+        if d.get("rel") and d["rel"] == sym:
+            issues.append((
+                "SELF_REFERENCE",
+                f"'{sym}' is declared in terms of itself: \"{meaning}\" "
+                f"[{scope_label(scope)}] -- (\"{d['sentence'][:70]}\")",
+            ))
+
         prior = seen_in_doc.get(sym, [])
 
         # REDEFINITION: same symbol, meaningfully different meaning,
@@ -386,6 +491,7 @@ def check_consistency(declarations, approved_table):
                 ))
 
         seen_in_doc.setdefault(sym, []).append((scope, meaning))
+        declared_syms.append((scope, sym))
 
     # POSSIBLE_ALIAS (soft): different symbols, near-identical meaning text,
     # restricted to related scopes - otherwise every page-wide reuse of
