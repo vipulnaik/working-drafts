@@ -23,13 +23,13 @@ The existence of a fastest ascending subnormal series could fail in two ways:
 
 ==Proof==
 
-Both proofs rely on the same construction, and liberally use Facts (3) and (4), which together yield that the subnormal depth of the full inverse image of a subnormal subgroup under a surjective homomorphism equals the subnormal depth of the subgroup itself. In symbols, if <math>N</math> is normal in <math>M</math>, and <math>N \le P \le M</math>, the subnormal depth of <math>P</math> in <math>M</math> equals the subnormal depth of <math>P/N</math> in <math>M/N</math>.
+Both proofs rely on the same construction, and liberally use Facts (3) and (4), which together yield that the subnormal depth of the full inverse image of a subnormal subgroup under a surjective homomorphism equals the subnormal depth of the subgroup itself. In symbols, if <math>N</math> is a normal subgroup of a group <math>M</math>, and <math>N \le P \le M</math>, the subnormal depth of <math>P</math> in <math>M</math> equals the subnormal depth of <math>P/N</math> in <math>M/N</math>.
 
 Note also that the examples constructed in both cases are subgroups that are not just 3-subnormal but in fact 2-subnormal, and we know that as 2-subnormal subgroups, they have a unique fastest ascending subnormal series of length ''two'' (per [[2-subnormal subgroup has a unique fastest ascending subnormal series]]). The existence of such a series does not contradict our statement, which is about ascending series of length three (and in particular, allows us to ascend faster in the beginning as long as we still get to the whole group in three steps). We can modify these to strictly 3-subnormal examples by taking a direct product of the construction with a strictly 3-subnormal subgroup.
 
 ===Example of a 3-subnormal subgroup for which there are two ascending subnormal series with one lagging but overtaking===
 
-Let <math>H</math> be a nontrivial 2-subnormal subgroup of <math>G</math> that is not normal (existence of such a pair of <math>H</math> and <math>G</math> is guaranteed by Fact (1)). Say the fastest ascending subnormal series for <math>H</math> (that exists by Fact (5)) is:
+Let <math>H</math> be a nontrivial 2-subnormal subgroup of a group <math>G</math> that is not normal (existence of such a pair of <math>H</math> and <math>G</math> is guaranteed by Fact (1)). Say the fastest ascending subnormal series for <math>H</math> (that exists by Fact (5)) is:
 
 <math>H < K < G</math>.
 
