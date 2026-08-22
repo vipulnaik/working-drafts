@@ -1,9 +1,43 @@
 {
+  "B": [
+    {
+      "meaning": "B is a 3-subnormal subgroup",
+      "confidence": "high",
+      "source_sentence": "Suppose SYM(A) is a group and SYM(B) is a 3-subnormal subgroup of SYM(A)."
+    },
+    {
+      "meaning": "B is defined as \\mathbb{F}_p[H]",
+      "confidence": "medium",
+      "source_sentence": "$B = \\mathbb{F}_p[H]$"
+    },
+    {
+      "meaning": "B is defined as \\mathbb{F}_p[H]",
+      "confidence": "medium",
+      "source_sentence": "$B = \\mathbb{F}_p[H]$"
+    }
+  ],
   "N": [
     {
       "meaning": "N is normal in M",
       "confidence": "high",
       "source_sentence": "In symbols, if SYM(N) is normal in SYM(M), and SYM(N \\le P \\le M), the subnormal depth of SYM(P) in SYM(M) equals the subnormal depth of SYM(P/N) in SYM(M/N)."
+    }
+  ],
+  "H": [
+    {
+      "meaning": "H is a nontrivial 2-subnormal subgroup",
+      "confidence": "high",
+      "source_sentence": "Let SYM(H) be a nontrivial 2-subnormal subgroup of SYM(G) that is not normal (existence of such a pair of SYM(H) and SYM(G) is guaranteed by Fact (1))."
+    },
+    {
+      "meaning": "H is a nontrivial subgroup",
+      "confidence": "high",
+      "source_sentence": "Let SYM(H) be a nontrivial subgroup of a finite group SYM(G) that is a join of two 2-subnormal subgroups SYM(H_1,H_2) of SYM(G) but is not itself 2-subnormal (such subgroups exist, see Fact (2))."
+    },
+    {
+      "meaning": "H is defined as \\langle H_1 , H_2 \\rangle",
+      "confidence": "medium",
+      "source_sentence": "$H = \\langle H_1 , H_2 \\rangle$"
     }
   ],
   "p": [
@@ -16,6 +50,49 @@
       "meaning": "p is a prime",
       "confidence": "high",
       "source_sentence": "Let SYM(p) be a prime."
+    }
+  ],
+  "A": [
+    {
+      "meaning": "A is a wreath product",
+      "confidence": "high",
+      "source_sentence": "Let SYM(A) be the wreath product of the group of prime order with SYM(G)."
+    },
+    {
+      "meaning": "A is a wreath product",
+      "confidence": "high",
+      "source_sentence": "Let SYM(A) be the wreath product of the group of prime order with SYM(G)."
+    },
+    {
+      "meaning": "A is a semidirect product",
+      "confidence": "high",
+      "source_sentence": "Equivalently, SYM(A) is the semidirect product of the additive group of SYM(\\mathbb{F}_p[G]) with SYM(G) acting by left multiplication."
+    },
+    {
+      "meaning": "A is defined as \\mathbb{F}_p[G] \\rtimes G",
+      "confidence": "medium",
+      "source_sentence": "$A = \\mathbb{F}_p[G] \\rtimes G$"
+    }
+  ],
+  "A = \\mathbb{F}_p[G] \\rtimes G": [
+    {
+      "meaning": "A = \\mathbb{F}_p[G] \\rtimes G is a semidirect product",
+      "confidence": "high",
+      "source_sentence": "Equivalently, SYM(A = \\mathbb{F}_p[G] \\rtimes G) is the semidirect product of the additive group of SYM(\\mathbb{F}_p[G]) with SYM(G) acting by left multiplication."
+    }
+  ],
+  "\\mathbb{F}_p[G] \\rtimes H": [
+    {
+      "meaning": "\\mathbb{F}_p[G] \\rtimes H is a unique largest 2-subnormal subgroup",
+      "confidence": "high",
+      "source_sentence": "Note that if there does exist a fastest ascending subnormal series, it must be the first, because SYM(\\mathbb{F}_p[G] \\rtimes H) is the unique largest 2-subnormal subgroup of SYM(A) that is in SYM(N_A(B)) (in fact, it is equal to the whole group SYM(N_A(B))) and the growth beyond that can be no faster than in the series, because of our assumption that SYM(H < K < G) is the fastest ascending subnormal series for SYM(H) as a 2-subnormal subgroup of SYM(G) (Facts (3) and (4) allow us to go back and forth modulo SYM(\\mathbb{F}_p[G]) to make the translation)."
+    }
+  ],
+  "C_1": [
+    {
+      "meaning": "C_1 is defined as \\mathbb{F}_p[G] \\rtimes H_1, C_2 = \\mathbb{F}_p[G] \\rtimes H_2",
+      "confidence": "medium",
+      "source_sentence": "$C_1 = \\mathbb{F}_p[G] \\rtimes H_1, C_2 = \\mathbb{F}_p[G] \\rtimes H_2$"
     }
   ]
 }

@@ -51,14 +51,14 @@ except ImportError:
 # --------------------------------------------------------------------------
 
 DEFAULT_PATTERNS = [
-    # "G is a group" / "let G be a group"
+    # "G is a group" / "let G be a group" / "let G be the group"
     {
-        "regex": r"(?:let\s+)?SYM\((?P<sym>[^)]+)\)\s+(?:is|be)\s+an?\s+(?P<role>[\w -]+?)(?:\.|,|$)",
+        "regex": r"(?:let|suppose)?\s*SYM\((?P<sym>[^)]+)\)\s+(?:is|be)\s+(?:an?|the)\s+(?P<role>[\w -]+?)(?=[.,;]|\s+(?:of|that|which|among|with|in)\b|$)",
         "template": "{sym} is a {role}",
     },
-    # "H is a subgroup of G"
+    # "H is a subgroup of G" / "let H be a subgroup of G" / "let H be the subgroup of G"
     {
-        "regex": r"SYM\((?P<sym>[^)]+)\)\s+is\s+an?\s+(?P<role>[\w -]+?)\s+of\s+SYM\((?P<rel>[^)]+)\)",
+        "regex": r"SYM\((?P<sym>[^)]+)\)\s+(?:is|be)\s+(?:an?|the)\s+(?P<role>[\w -]+?)\s+of\s+SYM\((?P<rel>[^)]+)\)",
         "template": "{sym} is a {role} of {rel}",
     },
     # "N is normal in G"
@@ -76,6 +76,20 @@ DEFAULT_PATTERNS = [
         "regex": r"SYM\((?P<sym>[^)]+)\)\s*\\in\s*SYM\((?P<rel>[^)]+)\)",
         "template": "{sym} is an element of {rel}",
         "confidence": "low",
+    },
+]
+
+# Patterns applied directly to a single math span's raw content (not to
+# surrounding prose) - for definitional equations like "B = \mathbb{F}_p[H]"
+# or "A = \mathbb{F}_p[G] \rtimes G", where the whole declaration lives
+# inside one math span with no English words at all.
+EQUATION_PATTERNS = [
+    {
+        # LHS must be a "simple" symbol (letters/digits/sub/superscript,
+        # no top-level '=' of its own) so we don't misfire on e.g. "x^2 = y^2".
+        "regex": r"^\s*(?P<sym>[A-Za-z](?:_\{[^{}]*\}|_[A-Za-z0-9]|\^\{[^{}]*\}|\^[A-Za-z0-9])*)\s*=\s*(?P<rhs>.+)$",
+        "template": "{sym} is defined as {rhs}",
+        "confidence": "medium",
     },
 ]
 
@@ -100,6 +114,39 @@ MATH_SPAN_RE = re.compile(
 )
 
 SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+(?=[A-Z\\$])")
+
+
+def strip_wiki_markup(text):
+    """Remove MediaWiki structural markup that isn't prose, so it can't
+    break mid-sentence pattern matching. Applied BEFORE math-span
+    desugaring, so it must not touch <math>...</math> contents."""
+    # Protect math spans first so markup-stripping regexes can't reach inside them.
+    protected = []
+
+    def stash(m):
+        protected.append(m.group(0))
+        return f"\x00{len(protected) - 1}\x00"
+
+    text = MATH_SPAN_RE.sub(stash, text)
+
+    # [[fact about::X;| ]][[X]]  or  [[uses::X]]: -> drop annotation links entirely
+    text = re.sub(r"\[\[[a-zA-Z ]+::[^\]]*\]\]", "", text)
+    # [[Page name|Display text]] -> Display text ; [[Page name]] -> Page name
+    text = re.sub(r"\[\[([^\]|]+)\|([^\]]*)\]\]", lambda m: m.group(2) or m.group(1), text)
+    text = re.sub(r"\[\[([^\]]+)\]\]", r"\1", text)
+    # '' italics / ''' bold -> strip markers, keep text
+    text = re.sub(r"'{2,3}", "", text)
+    # == Headers == -> drop the line entirely (not prose)
+    text = re.sub(r"^\s*=+.*=+\s*$", "", text, flags=re.MULTILINE)
+    # leading list markers (* # :) -> drop, keep rest of line
+    text = re.sub(r"^[ \t]*[*#:]+\s*", "", text, flags=re.MULTILINE)
+
+    # Restore math spans
+    def restore(m):
+        return protected[int(m.group(1))]
+
+    text = re.sub(r"\x00(\d+)\x00", restore, text)
+    return text
 
 
 def desugar(text):
@@ -129,9 +176,10 @@ def normalize_symbol(raw):
 # 3. Extraction
 # --------------------------------------------------------------------------
 
-def extract_declarations(text, patterns):
+def extract_declarations(text, patterns, equation_patterns=None):
     """Return list of dicts: {sym, role, rel, sentence, confidence}."""
-    desugared, _ = desugar(text)
+    text = strip_wiki_markup(text)
+    desugared, spans = desugar(text)
     sentences = SENTENCE_SPLIT_RE.split(desugared)
 
     results = []
@@ -157,6 +205,29 @@ def extract_declarations(text, patterns):
                 "confidence": pat.get("confidence", "high"),
             })
             break  # first matching pattern wins per sentence
+
+    # Second pass: definitional equations living entirely inside one math
+    # span, e.g. "B = \mathbb{F}_p[H]" - these have no surrounding English
+    # for the sentence-level patterns to anchor on.
+    for content in spans:
+        for pat in (equation_patterns or EQUATION_PATTERNS):
+            m = re.match(pat["regex"], content.strip())
+            if not m:
+                continue
+            gd = m.groupdict()
+            sym = normalize_symbol(gd.get("sym", ""))
+            rhs = (gd.get("rhs") or "").strip()
+            meaning = pat["template"].format(sym=sym, role="", rel=None, rhs=rhs)
+            results.append({
+                "sym": sym,
+                "role": "",
+                "rel": None,
+                "meaning": meaning,
+                "sentence": f"${content.strip()}$",
+                "confidence": pat.get("confidence", "medium"),
+            })
+            break
+
     return results
 
 
