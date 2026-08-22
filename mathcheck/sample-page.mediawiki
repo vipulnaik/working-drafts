@@ -1,0 +1,62 @@
+==Statement==
+
+Suppose <math>A</math> is a group and <math>B</math> is a [[fact about::3-subnormal subgroup;| ]][[3-subnormal subgroup]] of <math>A</math>. Then, it is ''not'' necessary that <math>B</math> have a fastest ascending [[fact about::subnormal series;| ]][[subnormal series]] in <math>A</math>.
+
+The existence of a fastest ascending subnormal series could fail in two ways:
+
+* There is no unique largest [[fact about::2-subnormal subgroup;| ]][[2-subnormal subgroup]] of <math>A</math> among those that normalize <math>B</math>.
+* There is a unique largest [[2-subnormal subgroup]] of <math>A</math>, say <math>C</math>, among those that normalize <math>B</math>. However, there is a ''smaller subgroup'' that is part of another ascending subnormal series that overtakes the fastest one involving <math>C</math> at the next stage.
+
+==Related facts==
+
+* [[2-subnormal subgroup has a unique fastest ascending subnormal series]]
+* [[Subnormal subgroup has a unique fastest descending subnormal series]]
+* [[2-subnormal not implies hypernormalized]] encodes a similar idea in a more extreme form: ascending fast by going to the normalizer can not only be suboptimal, but can result in getting stuck entirely. The second construction on that page is similar to the constructions used here.
+
+==Facts used==
+
+# [[uses::Normality is not transitive]]: This is important to have examples of 2-subnormal subgroups that are not normal.
+# [[uses::2-subnormality is not finite-join-closed]]: A join of two 2-subnormal subgroups need not be 2-subnormal.
+# [[uses::Subnormality satisfies image condition]]
+# [[uses::Subnormality satisfies inverse image condition]]
+# [[uses::2-subnormal subgroup has a unique fastest ascending subnormal series]] (strictly speaking, we can write our proofs without assuming this, but it helps make the construction more concrete)
+
+==Proof==
+
+Both proofs rely on the same construction, and liberally use Facts (3) and (4), which together yield that the subnormal depth of the full inverse image of a subnormal subgroup under a surjective homomorphism equals the subnormal depth of the subgroup itself. In symbols, if <math>N</math> is normal in <math>M</math>, and <math>N \le P \le M</math>, the subnormal depth of <math>P</math> in <math>M</math> equals the subnormal depth of <math>P/N</math> in <math>M/N</math>.
+
+Note also that the examples constructed in both cases are subgroups that are not just 3-subnormal but in fact 2-subnormal, and we know that as 2-subnormal subgroups, they have a unique fastest ascending subnormal series of length ''two'' (per [[2-subnormal subgroup has a unique fastest ascending subnormal series]]). The existence of such a series does not contradict our statement, which is about ascending series of length three (and in particular, allows us to ascend faster in the beginning as long as we still get to the whole group in three steps). We can modify these to strictly 3-subnormal examples by taking a direct product of the construction with a strictly 3-subnormal subgroup.
+
+===Example of a 3-subnormal subgroup for which there are two ascending subnormal series with one lagging but overtaking===
+
+Let <math>H</math> be a nontrivial 2-subnormal subgroup of <math>G</math> that is not normal (existence of such a pair of <math>H</math> and <math>G</math> is guaranteed by Fact (1)). Say the fastest ascending subnormal series for <math>H</math> (that exists by Fact (5)) is:
+
+<math>H < K < G</math>.
+
+Let <math>p</math> be a prime. Let <math>A</math> be the wreath product of the [[group of prime order]] with <math>G</math>. Equivalently, <math>A = \mathbb{F}_p[G] \rtimes G</math> is the semidirect product of the additive group of <math>\mathbb{F}_p[G]</math> with <math>G</math> acting by left multiplication.
+
+Let <math>B = \mathbb{F}_p[H]</math>. Then, we have two subnormal series for <math>B</math> in <math>A</math>:
+
+<math>B \le \mathbb{F}_p[G] \rtimes H \le \mathbb{F}_p[G] \rtimes K \le A</math>
+
+and
+
+<math>B \le \mathbb{F}_p[G] \le A \le A</math>.
+
+Note that if there does exist a fastest ascending subnormal series, it must be the first, because <math>\mathbb{F}_p[G] \rtimes H</math> is the unique largest 2-subnormal subgroup of <math>A</math> that is in <math>N_A(B)</math> (in fact, it is equal to the whole group <math>N_A(B)</math>) and the growth beyond that can be no faster than in the series, because of our assumption that <math>H < K < G</math> is the fastest ascending subnormal series for <math>H</math> as a 2-subnormal subgroup of <math>G</math> (Facts (3) and (4) allow us to go back and forth modulo <math>\mathbb{F}_p[G]</math> to make the translation). 
+
+However, the second term of the second series (namely, the whole group <math>A</math>) is bigger than the second term of the first series (namely, the proper subgroup <math>\mathbb{F}_p[G] \rtimes K</math>), so there can be no fastest ascending subnormal series.
+
+Note about Fact (5) not being strictly necessary for the proof: Fact (5) is what allows us to claim that our first series construction is greedy, with fastest growth at each step. Without using Fact (5), we would not have a naturally greedy construction as our first series currently is. However, it would ''still'' be true that a construction with <math>\mathbb{F}_p[G] \rtimes H</math> as its first term cannot go all the way to the whole group <math>A</math> in the second term, because <math>H</math> being 2-subnormal but not normal in <math>G</math> means that <math>\mathbb{F}_p[G] \rtimes H</math> is 2-subnormal but not normal in <math>\mathbb{F}_p[G] \rtimes G = A</math>. Thus, completing the first series would still require a second term that is proper in <math>A</math>. Therefore, we'd still get that the second series overtakes the first, establishing that there is no fastest ascending 3-subnormal series. (It's also worth noting that if Fact (5) were actually false, we'd directly get a contradiction from the existence of no fastest way to complete the first series after making the first move selecting <math>\mathbb{F}_p[G] \rtimes H</math>; however, we don't want to go there since we know that Fact (5) is, in fact, true).
+
+===Example of a 3-subnormal subgroup with no unique largest normalizing 2-subnormal subgroup containing it===
+
+Let <math>H</math> be a nontrivial subgroup of a finite group <math>G</math> that is a join of two 2-subnormal subgroups <math>H_1,H_2</math> of <math>G</math> but is not itself 2-subnormal (such subgroups exist, see Fact (2)). In symbols, <math>H = \langle H_1 , H_2 \rangle</math>.
+
+Let <math>p</math> be a prime. Let <math>A</math> be the wreath product of the [[group of prime order]] with <math>G</math>. Equivalently, <math>A</math> is the semidirect product of the additive group of <math>\mathbb{F}_p[G]</math> with <math>G</math> acting by left multiplication.
+
+Let <math>B = \mathbb{F}_p[H]</math>. Then, <math>N_A(B) = \mathbb{F}_p[G] \rtimes H</math>. This is, by assumption, not 2-subnormal. However, any 2-subnormal subgroup that normalizes <math>B</math> and contains <math>B</math> must be in this. Further, we can see that the subgroups:
+
+<math>C_1 = \mathbb{F}_p[G] \rtimes H_1, C_2 = \mathbb{F}_p[G] \rtimes H_2</math>
+
+both are in <math>N_A(B)</math> and 2-subnormal. Hence, if there is a unique largest 2-subnormal subgroup of <math>A</math> in <math>N_A(B)</math> it must contain both <math>C_1</math> and <math>C_2</math>. But <math>\langle C_1, C_2 \rangle = N_A(B)</math>, which is not 2-subnormal by assumption and Fact (3).

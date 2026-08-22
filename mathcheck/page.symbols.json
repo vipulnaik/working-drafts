@@ -1,0 +1,21 @@
+{
+  "N": [
+    {
+      "meaning": "N is normal in M",
+      "confidence": "high",
+      "source_sentence": "In symbols, if SYM(N) is normal in SYM(M), and SYM(N \\le P \\le M), the subnormal depth of SYM(P) in SYM(M) equals the subnormal depth of SYM(P/N) in SYM(M/N)."
+    }
+  ],
+  "p": [
+    {
+      "meaning": "p is a prime",
+      "confidence": "high",
+      "source_sentence": "Let SYM(p) be a prime."
+    },
+    {
+      "meaning": "p is a prime",
+      "confidence": "high",
+      "source_sentence": "Let SYM(p) be a prime."
+    }
+  ]
+}
