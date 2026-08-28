@@ -78,6 +78,41 @@ _SECOND_ARG_RE = re.compile(
     r"\b(?:" + "|".join(SECOND_ARG_CONNECTORS) + r")\b", re.IGNORECASE
 )
 
+# A "binding" INTRODUCES a symbol ("Let L be the center of K", "define
+# C_K(g) to be...", "we denote by K^* the multiplicative group"). A
+# "property assertion" states something TRUE about an already-introduced
+# symbol ("L is a field", "L is an additive subgroup of K"). Only bindings
+# can conflict with each other - a proof legitimately derives many
+# simultaneously-true properties of the same object, and treating each new
+# property as a redefinition of the last is the single largest source of
+# false positives on real proof pages.
+BINDING_MARKERS_RE = re.compile(
+    r"^\s*(?:let\b|define\b|set\b|put\b|we\s+denote\b|denote\b|write\b|"
+    r"suppose\b|assume\b|consider\b|take\b|for\s+an?\b)",
+    re.IGNORECASE,
+)
+
+# Conclusion markers: an equation appearing in a sentence like "we conclude
+# d = 1" or "thus K = L" is a DERIVED RESULT, not a definition of d or K.
+# Without this, a proof's own conclusion registers as a redefinition of
+# the symbol it constrains.
+CONCLUSION_MARKERS_RE = re.compile(
+    r"\b(?:conclude|thus|hence|therefore|so\s+that|forces?|must\s+have|"
+    r"it\s+follows|we\s+get|we\s+obtain|implies|show(?:s|ed)?\s+that|"
+    r"this\s+gives|equality\s+holds)\b",
+    re.IGNORECASE,
+)
+
+
+def classify_declaration_kind(sentence, clause=None):
+    """Return 'binding' or 'assertion' for a declaration found in this
+    sentence. Bindings are what REDEFINITION compares; assertions merely
+    accumulate."""
+    probe = clause if clause is not None else sentence
+    if BINDING_MARKERS_RE.match(probe.strip()):
+        return "binding"
+    return "assertion"
+
 DEFAULT_PATTERNS = [
     # "G is a group" / "let G be a group" / "let G be the group"
     {
@@ -102,6 +137,15 @@ DEFAULT_PATTERNS = [
                  r"\s+(?P<prep>" + _REL_PREP_ALT + r")\s+(?:an?|the)\s+(?P<rel_role>[\w -]+?)\s+SYM\((?P<rel>[^)]+)\)",
         "template": "{sym} is a {role} {prep} {rel}",
         "also_declares_rel": True,
+    },
+    # "we denote by K^* the multiplicative group of nonzero elements of K"
+    # / "denote by L the center". Inverted word order: the symbol comes
+    # BEFORE its descriptor, so the ordinary "X is a Y" patterns miss it
+    # entirely and X looks permanently undeclared.
+    {
+        "regex": r"(?:we\s+)?denote\s+by\s+SYM\((?P<sym>[^)]+)\)\s+(?:an?|the)\s+(?P<role>[\w -]+?)(?=[.,;]|\s+(?:"
+                 + _REL_PREP_ALT + r"|that|which)\b|$)",
+        "template": "{sym} is a {role}",
     },
     # "N is normal in G"
     {
@@ -151,9 +195,33 @@ MATH_SPAN_RE = re.compile(
     r"(?<!\\)\$\$(.+?)(?<!\\)\$\$"
     r"|(?<!\\)\$(.+?)(?<!\\)\$"
     r"|\\\((.+?)\\\)"
-    r"|<math>(.+?)</math>",
+    # <math>...</math> matched case-insensitively: real pages contain
+    # typos like "<matH>" / "</matH>", and a case-sensitive pattern
+    # silently SKIPS those spans rather than reporting them, which is
+    # the worst failure mode for a checker. See find_malformed_math_tags()
+    # for the companion check that reports them as an issue.
+    r"|<[Mm][Aa][Tt][Hh]>(.+?)</[Mm][Aa][Tt][Hh]>",
     re.DOTALL,
 )
+
+
+def find_malformed_math_tags(text):
+    """Report <math> tags whose case is non-canonical (e.g. '<matH>') or
+    that are unbalanced. Returns list of (line_no, message). Purely
+    deterministic - exactly the class of error this tool exists to catch."""
+    issues = []
+    for m in re.finditer(r"</?[Mm][Aa][Tt][Hh]>", text):
+        tag = m.group(0)
+        canonical = tag.lower()
+        if tag != canonical:
+            line = text.count("\n", 0, m.start()) + 1
+            issues.append((line, f"non-canonical math tag {tag!r} (should be {canonical!r})"))
+
+    opens = len(re.findall(r"<[Mm][Aa][Tt][Hh]>", text))
+    closes = len(re.findall(r"</[Mm][Aa][Tt][Hh]>", text))
+    if opens != closes:
+        issues.append((0, f"unbalanced math tags: {opens} opening, {closes} closing"))
+    return issues
 
 SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+(?=[A-Z\\$])")
 
@@ -178,6 +246,23 @@ def strip_wiki_markup(text):
     text = re.sub(r"\[\[([^\]]+)\]\]", r"\1", text)
     # '' italics / ''' bold -> strip markers, keep text
     text = re.sub(r"'{2,3}", "", text)
+    # {{template}} -> drop entirely (e.g. {{tabular proof format}})
+    text = re.sub(r"\{\{[^{}]*\}\}", "", text)
+    # <toggledisplay>...</toggledisplay> and similar inline wiki HTML ->
+    # keep the CONTENTS (it's real explanatory prose, often where the
+    # actual declarations live) but drop the tags themselves.
+    text = re.sub(r"</?toggledisplay>", " ", text, flags=re.IGNORECASE)
+    text = re.sub(r"</?(?:small|sup|sub|br|ref)\s*/?>", " ", text, flags=re.IGNORECASE)
+    # Table markup: {| ... |} wrapper lines, |- row separators, ! header
+    # cells. Cell separators (|| and leading |) become sentence-ending
+    # periods so adjacent cells don't run together into one bogus
+    # "sentence" spanning several columns.
+    text = re.sub(r"^\s*\{\|.*$", "", text, flags=re.MULTILINE)   # table open
+    text = re.sub(r"^\s*\|\}.*$", "", text, flags=re.MULTILINE)   # table close
+    text = re.sub(r"^\s*\|-.*$", "", text, flags=re.MULTILINE)    # row separator
+    text = re.sub(r"^\s*!.*$", "", text, flags=re.MULTILINE)      # header row
+    text = re.sub(r"\|\|", ". ", text)                            # cell separator
+    text = re.sub(r"^[ \t]*\|\s*", "", text, flags=re.MULTILINE)  # leading cell pipe
     # == Headers == -> drop the line entirely (not prose)
     text = re.sub(r"^\s*=+.*=+\s*$", "", text, flags=re.MULTILINE)
     # leading list markers (* # :) -> drop, keep rest of line
@@ -212,29 +297,51 @@ def split_into_scopes(text):
     MediaWiki '== Header ==' lines to build a nesting path, e.g. a
     subsection under Proof gets scope_path ('Proof', 'Example 1').
 
+    Table rows ('|-' separators) additionally open a nested scope, since
+    in the tabular-proof format each numbered step is a self-contained
+    unit: symbols are routinely re-described per step ("L is a field",
+    "L is the center of K") and comparing across steps produces noise
+    the same way comparing across sibling ===Example=== sections did.
+
     This runs BEFORE strip_wiki_markup/desugar - it only understands
-    header syntax, nothing else. Content between headers (including
-    text before the first header) is one segment per scope.
+    header and row syntax, nothing else.
     """
     segments = []
     stack = []  # list of (level, title)
     current_lines = []
+    row_counter = [0]
+    in_row = [False]
 
     def flush():
         if any(l.strip() for l in current_lines):
             path = tuple(title for _, title in stack)
+            if in_row[0]:
+                path = path + (f"row {row_counter[0]}",)
             segments.append((path, "\n".join(current_lines)))
         current_lines.clear()
 
     for line in text.split("\n"):
-        m = HEADER_RE.match(line.strip())
+        stripped = line.strip()
+        m = HEADER_RE.match(stripped)
         if m:
             flush()
+            in_row[0] = False
+            row_counter[0] = 0
             level = len(m.group(1))
             title = m.group(2).strip()
             while stack and stack[-1][0] >= level:
                 stack.pop()
             stack.append((level, title))
+        elif stripped.startswith("|-"):
+            # Row separator: close the previous row's scope, open the next.
+            flush()
+            row_counter[0] += 1
+            in_row[0] = True
+        elif stripped.startswith("|}"):
+            # Table closed - back to plain section scope.
+            flush()
+            in_row[0] = False
+            row_counter[0] = 0
         else:
             current_lines.append(line)
     flush()
@@ -250,6 +357,27 @@ def scopes_related(a, b):
     across them is normal, not a redefinition."""
     n = min(len(a), len(b))
     return a[:n] == b[:n]
+
+
+def _is_row(component):
+    return component.startswith("row ")
+
+
+def scope_visible_from(declared_scope, use_scope):
+    """Visibility is WIDER than relatedness. Two rows of one tabular proof
+    are siblings for redefinition purposes (each step restates properties
+    of the same objects, and comparing across steps is noise) - but a proof
+    is sequential, so a symbol introduced in step 4 IS legitimately in
+    scope at step 9. Treat earlier rows of the same table as visible;
+    otherwise fall back to ordinary relatedness."""
+    if (declared_scope and use_scope
+            and _is_row(declared_scope[-1]) and _is_row(use_scope[-1])
+            and declared_scope[:-1] == use_scope[:-1]):
+        try:
+            return int(declared_scope[-1][4:]) <= int(use_scope[-1][4:])
+        except ValueError:
+            return True
+    return scopes_related(declared_scope, use_scope)
 
 
 def scope_label(scope_path):
@@ -337,6 +465,7 @@ def extract_declarations(text, patterns, equation_patterns=None):
                         "sentence": sent.strip(),
                         "confidence": confidence,
                         "scope": scope_path,
+                        "kind": classify_declaration_kind(sent, clause),
                         "span": (m.start(), m.end()),
                     })
                     # Some patterns (e.g. "...of a finite group G") declare
@@ -356,6 +485,9 @@ def extract_declarations(text, patterns, equation_patterns=None):
                             "sentence": sent.strip(),
                             "confidence": pat.get("confidence", "high"),
                             "scope": scope_path,
+                            # An inline descriptor ("...of a finite group G")
+                            # introduces G, so it counts as a binding.
+                            "kind": "binding",
                             "span": (m.start(), m.end()),
                         })
 
@@ -381,7 +513,24 @@ def extract_declarations(text, patterns, equation_patterns=None):
         # Second pass: definitional equations living entirely inside one
         # math span, e.g. "B = \mathbb{F}_p[H]" - these have no surrounding
         # English for the sentence-level patterns to anchor on.
+        #
+        # An equation in a CONCLUSION sentence ("thus d = 1", "we conclude
+        # K = L") is a derived result, not a definition: treating it as one
+        # makes a proof's own conclusion look like a redefinition of the
+        # symbol it constrains. We locate each span's enclosing sentence to
+        # decide. Likewise a bare-numeral RHS ("d = 1") is essentially never
+        # a definition in running proof text.
         for content in spans:
+            enclosing = ""
+            marker = f"SYM({content.strip()})"
+            for s in sentences:
+                if marker in s:
+                    enclosing = s
+                    break
+
+            if CONCLUSION_MARKERS_RE.search(enclosing):
+                continue
+
             for pat in (equation_patterns or EQUATION_PATTERNS):
                 m = re.match(pat["regex"], content.strip())
                 if not m:
@@ -389,15 +538,18 @@ def extract_declarations(text, patterns, equation_patterns=None):
                 gd = m.groupdict()
                 sym = normalize_symbol(gd.get("sym", ""))
                 rhs = (gd.get("rhs") or "").strip()
+                if re.fullmatch(r"-?\d+", rhs):
+                    break  # "d = 1" - a constraint/result, not a definition
                 meaning = pat["template"].format(sym=sym, role="", rel=None, rhs=rhs)
                 results.append({
                     "sym": sym,
                     "role": "",
                     "rel": None,
                     "meaning": meaning,
-                    "sentence": f"${content.strip()}$",
+                    "sentence": enclosing.strip() or f"${content.strip()}$",
                     "confidence": pat.get("confidence", "medium"),
                     "scope": scope_path,
+                    "kind": "binding",
                 })
                 break
 
@@ -421,6 +573,7 @@ def build_draft_table(declarations):
             "confidence": d["confidence"],
             "source_sentence": d["sentence"],
             "scope": list(d["scope"]),
+            "kind": d.get("kind", "binding"),
         })
     return table
 
@@ -447,19 +600,45 @@ def similar(a, b, threshold=0.82):
     return difflib.SequenceMatcher(None, a.lower(), b.lower()).ratio() >= threshold
 
 
+def dedupe_declarations(declarations):
+    """Collapse declarations that are identical in (sym, meaning, scope).
+    The same math span or sentence often recurs across table cells, and
+    re-reporting each copy inflates both the draft table and the issue
+    list without adding information. Keeps first occurrence order."""
+    seen = set()
+    out = []
+    for d in declarations:
+        key = (d["sym"], d["meaning"], d["scope"])
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(d)
+    return out
+
+
 def check_consistency(declarations, approved_table):
     """Return list of (severity, message) tuples.
 
     Scope-aware: a symbol re-used with a different meaning is only flagged
     as REDEFINITION if the two declarations occur in *related* scopes
-    (same section, or one nested inside the other). Two sibling sections
-    - e.g. two independent '===Example...===' subsections under the same
-    '==Proof==', each running the same construction recipe with the same
-    variable names - are NOT compared against each other, since that reuse
-    is normal, not a slip.
+    (same section or table row, or one nested inside the other). Sibling
+    scopes - two independent '===Example...===' subsections, or two steps
+    of a tabular proof - are NOT compared against each other, since reuse
+    there is normal, not a slip.
+
+    Kind-aware: only 'binding' declarations ("Let L be the center of K")
+    are compared for REDEFINITION. 'assertion' declarations ("L is a
+    field", "L is an additive subgroup of K") state properties that are
+    simultaneously true, so they accumulate rather than conflict.
+
+    Each declaration is compared against the MOST RECENT related binding
+    only, not every prior one - pairwise comparison turns n declarations
+    of one symbol into O(n^2) messages saying substantially the same thing.
     """
+    declarations = dedupe_declarations(declarations)
+
     issues = []
-    seen_in_doc = {}  # sym -> list of (scope, meaning) seen so far in this pass
+    last_meaning = {}  # sym -> (scope, meaning) of most recent declaration of any kind
     declared_syms = []  # list of (scope, sym) for every symbol declared so far, in order
 
     # Symbols declared together in the same sentence (e.g. "N is a subgroup
@@ -483,7 +662,7 @@ def check_consistency(declarations, approved_table):
         # sentence (simultaneous declarations, see same_sentence_syms above).
         if d.get("rel") and d["rel"] != sym:
             rel_declared = any(
-                s == d["rel"] and scopes_related(rscope, scope)
+                s == d["rel"] and scope_visible_from(rscope, scope)
                 for rscope, s in declared_syms
             )
             if not rel_declared:
@@ -506,18 +685,25 @@ def check_consistency(declarations, approved_table):
                 f"[{scope_label(scope)}] -- (\"{d['sentence'][:70]}\")",
             ))
 
-        prior = seen_in_doc.get(sym, [])
-
-        # REDEFINITION: same symbol, meaningfully different meaning,
-        # but ONLY within a related scope chain (not across siblings).
-        for prior_scope, prior_meaning in prior:
-            if scopes_related(prior_scope, scope) and not similar(prior_meaning, meaning):
-                issues.append((
-                    "REDEFINITION",
-                    f"'{sym}' previously declared as \"{prior_meaning}\" "
-                    f"[{scope_label(prior_scope)}], now \"{meaning}\" "
-                    f"[{scope_label(scope)}] -- (\"{d['sentence'][:70]}\")",
-                ))
+        # REDEFINITION: fires when a symbol is re-BOUND to a meaningfully
+        # different meaning within a related scope. The *current*
+        # declaration must be a binding (property assertions accumulate and
+        # never conflict), but it is compared against the most recent prior
+        # meaning of either kind - re-binding a symbol that already had an
+        # established meaning is exactly the error worth catching, whether
+        # that meaning came from an earlier binding or an assertion.
+        if d.get("kind", "binding") == "binding":
+            prior = last_meaning.get(sym)
+            if prior is not None:
+                prior_scope, prior_meaning = prior
+                if scopes_related(prior_scope, scope) and not similar(prior_meaning, meaning):
+                    issues.append((
+                        "REDEFINITION",
+                        f"'{sym}' previously meant \"{prior_meaning}\" "
+                        f"[{scope_label(prior_scope)}], now re-bound as \"{meaning}\" "
+                        f"[{scope_label(scope)}] -- (\"{d['sentence'][:70]}\")",
+                    ))
+        last_meaning[sym] = (scope, meaning)
 
         # DRIFT: not present in the human-approved table at all, or present
         # only under an unrelated scope.
@@ -543,7 +729,6 @@ def check_consistency(declarations, approved_table):
                     f"-- (\"{d['sentence'][:70]}\")",
                 ))
 
-        seen_in_doc.setdefault(sym, []).append((scope, meaning))
         declared_syms.append((scope, sym))
 
     # POSSIBLE_ALIAS (soft): different symbols, near-identical meaning text,
@@ -591,6 +776,10 @@ def main():
     declarations = extract_declarations(text, patterns)
 
     if args.cmd == "extract":
+        for line_no, msg in find_malformed_math_tags(text):
+            loc = f"line {line_no}" if line_no else "file"
+            print(f"[MALFORMED_MATH_TAG] {loc}: {msg}")
+        declarations = dedupe_declarations(declarations)
         table = build_draft_table(declarations)
         write_table(table, args.out)
         print(f"Extracted {len(declarations)} declarations, {len(table)} distinct symbols.")
@@ -598,7 +787,11 @@ def main():
 
     elif args.cmd == "check":
         approved = read_table(args.approved)
-        issues = check_consistency(declarations, approved)
+        issues = [
+            ("MALFORMED_MATH_TAG", (f"line {ln}: " if ln else "") + msg)
+            for ln, msg in find_malformed_math_tags(text)
+        ]
+        issues += check_consistency(declarations, approved)
         if not issues:
             print("Clean: no redefinitions, drift, or possible aliases detected.")
         for severity, msg in issues:

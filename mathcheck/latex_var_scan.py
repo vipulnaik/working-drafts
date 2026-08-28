@@ -233,7 +233,9 @@ MATH_SPAN_RE = re.compile(
     r"|(?<!\\)\$(.+?)(?<!\\)\$"          # $ ... $
     r"|\\\((.+?)\\\)"                    # \( ... \)
     r"|\\\[(.+?)\\\]"                    # \[ ... \]
-    r"|<math>(.+?)</math>",              # MediaWiki <math> tags
+    # Case-insensitive: typos like "<matH>" occur in real pages, and a
+    # case-sensitive pattern would silently SKIP those spans.
+    r"|<[Mm][Aa][Tt][Hh]>(.+?)</[Mm][Aa][Tt][Hh]>",   # MediaWiki <math> tags
     re.DOTALL,
 )
 

@@ -127,12 +127,16 @@ def cmd_check(args):
         text = Path(args.file).read_text()
         declarations = sem.extract_declarations(text, patterns)
         approved = sem.read_table(args.approved)
-        issues = sem.check_consistency(declarations, approved)
+        issues = [
+            ("MALFORMED_MATH_TAG", (f"line {ln}: " if ln else "") + msg)
+            for ln, msg in sem.find_malformed_math_tags(text)
+        ]
+        issues += sem.check_consistency(declarations, approved)
         if not issues:
             print("Clean: no redefinitions, drift, or possible aliases detected.")
         for severity, msg in issues:
             print(f"[{severity}] {msg}")
-            if severity == "REDEFINITION":
+            if severity in ("REDEFINITION", "MALFORMED_MATH_TAG"):
                 exit_code += 1
         print(f"-- semantic: {len(issues)} issue(s) across {len(declarations)} declaration(s)")
     else:
