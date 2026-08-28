@@ -1,0 +1,57 @@
+[[Page class::Fact| ]][[Difficulty level::4| ]][[Category:Unsorted facts]]
+==History==
+
+This result was first proved by Wedderburn.
+
+==Statement==
+
+Every finite [[fact about::division ring;2| ]][[division ring]] is a [[fact about::field;3| ]][[field]], and hence, a [[fact about::finite field;2| ]][[finite field]]. Here, by division ring, we mean associative division ring.
+
+==Related facts==
+
+===Stronger facts===
+
+* [[Bruck-Kleinfeld theorem]] states that every [[alternative division ring]] is either associative (and hence a [[division ring]] in the usual sense) or is a [[Cayley-Dickson algebra]].
+* In particular, this shows that [[every finite alternative division ring is a field]].
+
+==Facts used==
+
+# [[uses::Lagrange's theorem]]
+# [[uses::Class equation of a group]]
+==Proof==
+
+{{tabular proof format}}
+
+'''Given''': A division ring <math>K</math> of finite size.
+
+'''To prove''': <math>K</math> is a field.
+
+'''Proof'''': We denote by <math>K^*</math> the multiplicative group of nonzero elements of <math>K</math>.
+
+The key idea behind the proof is to switch between the ''additive/linear'' structure and the ''multiplicative'' structure. For the additive structure, we use the key fact that the size of a vector space over a field is a power of the size of the field. For the multiplicative structure, we use Lagrange's theorem (a multiplicative constraint) and the class equation (a combinatorial constraint on how things should add up). Finally, we show that the number theory does not work out.
+
+{| class="sortable" border="1"
+! Step no. !! Assertion/construction !! Facts used !! Given data used !! Previous steps used !! Explanation !! Commentary
+|-
+| 1 || Let <math>L</math> be the center of <math>K</math>, i.e., the subset of <math>K</math> comprising those elements that commute multiplicatively with every element of <math>K</math>. || || || || || 
+|-
+| 2 || <math>L</math> is a field under the operations induced from <math>K</math>, and the multiplicative group <math>L^*</math> of nonzero elements of <math>L</math> is the center of <math>K^*</math>. || || <math>K</math> is a division ring || || <toggledisplay><math>L</math> is an additive subgroup of <math>K</math> because of the distributivity laws relating addition and multiplication. By definition, the nonzero elements of <math>L</math> are the center of the multiplicative group <math>K^*</math>. The center of a group is an abelian subgroup, so the nonzero elements of <math>L</math> form a commutative subgroup of <math>K^*</math>, hence <math>L</math> is a field under the induced operations.</toggledisplay> || Creation of base field (<math>L</math>) for which many of the additive structures of interest are vector spaces
+|-
+| 3 || <math>K</math> is a vector space over <math>L</math> where the additive structure is the same as that for <math>K</math> as a skew field and where the action of elements of <math>L</math> is by left multiplication. || || || Step (2) || <toggledisplay>The linearity follows from distributivity of multiplication.</toggledisplay> || Linear consolidation over <math>L</math>
+|-
+| 4 || If <math>L</math> has size <math>q > 1</math>, <math>K</math> has size <math>q^d</math> for some positive integer <math>d</math>, where <math>d</math> is the dimension of <math>K</math> as a vector space over <math>L</math>. || || <math>K</math> is finite || Step (3) || <toggledisplay>Since <math>K</math> is finite, so is <math>L</math>, so <math>L</math> has some size <math>q > 1</math> (since there is no field with one element). Next, since <math>K</math> is finite, it must be finite-dimensional as a vector space over <math>L</math>. If its dimension is <math>d</math>, it is in bijection with the vector space <math>L^d</math> obtained by taking a direct sum of <math>d</math> copies of <math>L</math>. Hence its size must be <math>q^d</math>.</toggledisplay> || Linear consolidation over <math>L</math>, introducing numerical constraints. Note that <math>q</math> must in fact be a prime power, but we only use here that <math>q > 1</math>.
+|-
+| 5 || For an element <math>g \in K</math>, define <math>C_K(g)</math> to be the set of elements of <math>K</math> that commute with <math>g</math>. Then, <math>C_K(g)</math> is a subspace of <math>K</math> as a <math>L</math>-vector space. It contains <math>L</math> and has dimension <math>r</math> and size <math>q^r</math> for <math>1 \le r \le d</math>. Further, if <math>g \notin L</math>, then <math>1 < r < d</math> (<math>r</math> depends on <math>g</math>). || || || Step (4) || <toggledisplay>That <math>C_K(g)</math> is closed under addition and <math>L</math>-scalar multiplication follows from the distributivity laws and the fact that <math>L</math> is the center. For the same reason, <math>C_K(g)</math> contains <math>L</math>. Thus, <math>C_K(g)</math> is a <math>L</math>-vector subspace of <math>K</math> containing <math>L</math>. If <math>r</math> is its dimension, then <math>1 \le r \le d</math> because it is between <math>L</math> and <math>K</math>, and its size is <math>q^r</math>. Finally, if <math>g\notin L</math>, then <math>C_K(g)</math> contains both <math>g</math> and <math>L</math>, so it is strictly bigger than <math>L</math>. Thus, its dimension is strictly greater than <math>1</math>. On the other hand, <math>C_K(g)</math> cannot equal all of <math>K</math>, since <math>g</math> is non-central, so <math>r < d</math>.</toggledisplay> || Linear consolidation over <math>L</math>
+|-
+| 6 || For <math>g \in K \setminus L</math>, the centralizer of <math>g</math> in the multiplicative group <math>K^*</math> has size <math>q^r - 1</math> for <math>1 < r < d</math> (<math>r</math> depends on <math>g</math>). || || || Step (5) || For the multiplicative group, we need to throw out the zero element. || Conversion of linear/additive constraint to constraint on multiplicative group
+|-
+| 7 || The class equation of <math>K^*</math> is: <math>\! q^d - 1 = (q - 1) + \sum_{i=1}^s \frac{q^d - 1}{q^{r_i} - 1}</math> where <math>r_1, r_2, \dots, r_s</math> are dimensions over <math>L</math> of the centralizers in <math>K</math> of representatives of conjugacy classes in <math>K^*</math> of non-central elements. For each <math>i</math>, we have <math>1 < r_i < d</math>. ||  Fact (2) || || Steps (2) -- (6) || This is a direct application of the construction of the class equation. || Combinatorial constraint on multiplicative group
+|-
+| 8 || Each <math>r_i</math> divides <math>d</math>. ||Fact (1) || || Steps (2), (3), (6) || <toggledisplay>By Lagrange's theorem and the previous step, <math>q^{r_i} - 1</math> divides <math>q^d - 1</math>. Thus, <math>q^d \equiv 1 \pmod{q^{r_i} -1}</math>. If <math>d = \alpha r_i + \beta</math> where <math>\alpha</math> is the quotient and <math>\beta</math> is the remainder, we get <math>q^{\alpha r_i + \beta} \equiv 1 \pmod{q^{r_i} - 1}</math>. Simplifying, we get that <math>q^\beta \equiv 1 \pmod{q^{r_i} - 1}</math>, with <math>\beta < r_i</math>. But this gives that <math>q^{r_i} - 1|q^\beta - 1</math>. Since <math>q^\beta - 1 < q^{r_i} - 1</math>, this forces <math>q^\beta - 1=0</math>. so <math>\beta = 0</math>, and we get that <math>r_i</math> divides <math>d</math>.</toggledisplay> || Combination of linearly arising multiplicative constraints with basic number theory to get further constraints
+|-
+| 9 || Let <math>A = \Phi_d(q)</math> where <math>\Phi_d</math> is the cyclotomic polynomial with parameter <math>d</math>. Then, as an integer, <math>A</math> divides <math>q^d - 1</math> as well as each of the quotient <math>(q^d - 1)/(q^{r_i} - 1)</math> appearing in step (7). || || || Steps (7), (8) || <toggledisplay>Since each <math>r_i</math> is a proper divisor of <matH>d</math>, the polynomial <math>\Phi_d(x)</math>, ''as a polynomial'', divides <math>x^d - 1</math> and each of the quotients <math>(x^d - 1)/(x^{r_i} - 1)</math> -- we can see this by considering the roots of these polynomials. Since all these polynomials are monic with integer coefficients, the divisibility as polynomials implies divisibility of the ''values'' taken at any integer, in our case <math>q</math>. Thus, <math>A</math> divides <math>q^d - 1</math> and each of the quotients <math>(q^d - 1)/(q^{r_i} - 1)</math>.</toggledisplay> || Pure cyclotomic polynomial theory (number theory/algebra)
+|-
+| 10 || If <math>d > 1</math>, then <math>A = \Phi_d(q)</math> does not divide <math>q - 1</math>. || || || || <toggledisplay>We can show this by noting that <math>\Phi_d(x) = \prod (x - \zeta)</math> where <math>\zeta</math> ranges over all primitive <math>d^{th}</math> roots of unity, so <math>\Phi_d(q) = \prod (q - \zeta)</math>. Taking modulus, we get <math>|\Phi_d(q)| = \prod |q - \zeta|</math>. This product is over <math>\varphi(d)</math> numbers, which means it involves at least one number, and also, <math>|q - \zeta| > q - 1</math> by the triangle inequality: <math>|q - \zeta| \ge |q| - |\zeta| = q - 1</math>, and equality holds only if <math>\zeta</math> and <math>q</math> are positive real multiples of each other. Since <math>q</math> is a positive integer, the only root of unity that's a positive real multiple of it is <math>1</math>, so equality holds only if <math>\zeta = 1</math>, '''which in turn could happen only if <math>d = 1</math>'''. Hence for <math>d > 1</math>, we have strict inequality. Finally, each <math>|q - \zeta| > 1</math> because <math>q \ge 2</math> so <math>q - 1 \ge 1</math>. The upshot is that the product <math>|\Phi_d(q)|</matH> is the product of at least one number greater than <math>q - 1</math> and (zero or more) others all of which are greater than 1, hence <math>|\Phi_d(q)| > q - 1</math>. Since <math>\Phi_d(q)</math> and <math>q - 1</math> are integers, and <math>q - 1</math> is positive, we conclude that <math>\Phi_d(q)</math> cannot divide <math>q - 1</math>.</toggledisplay> || Pure cyclotomic polynomial theory (number theory/algebra)
+|-
+| 11 || We can conclude <math>d = 1</math>, so <math>K = L</math> and <math>K</math> is a field. || || || Steps (7), (9), (10) || <toggledisplay>By Step (9), <math>A = \Phi_d(q)</math> divides both <math>q^d - 1</math> and the quotients <math>(q^d - 1)/(q^{r_i} - 1)</math>. Plugging into Step (7), <math>A</math> must also divide <math>q - 1</math>. But Step (10) says that this is not possible for <math>d > 1</math>. Thus, we must have <math>d = 1</math>, so <math>K = L</math> and it is a field.</toggledisplay> || Demonstration of irreconcilability of constraints derived from linear structure and constraints arising from cyclotomic polynomial theory
+|}
