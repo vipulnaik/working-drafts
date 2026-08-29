@@ -133,6 +133,7 @@ ADVISORY_SEVERITIES = {
     "POSSIBLE_ALIAS",
     "AMBIGUOUS_ATTACHMENT",
     "UNDECLARED_REFERENT",
+    "UNCITED_GIVEN",
 }
 
 
@@ -156,6 +157,10 @@ def cmd_check(args):
         issues = [
             (sev, (f"line {ln}: " if ln else "") + msg)
             for sev, ln, msg in sem.find_malformed_math_tags(text)
+        ]
+        issues += [
+            (sev, (f"line {ln}: " if ln else "") + msg)
+            for sev, ln, msg in sem.find_uncited_givens(text)
         ]
         issues += sem.check_consistency(declarations, approved)
 
@@ -202,6 +207,10 @@ def _collect_semantic(text, approved, patterns_file=None):
     issues = [
         (sev, (f"line {ln}: " if ln else "") + msg)
         for sev, ln, msg in sem.find_malformed_math_tags(text)
+    ]
+    issues += [
+        (sev, (f"line {ln}: " if ln else "") + msg)
+        for sev, ln, msg in sem.find_uncited_givens(text)
     ]
     if approved is not None:
         issues += sem.check_consistency(declarations, approved)

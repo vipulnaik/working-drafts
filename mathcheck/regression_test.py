@@ -23,6 +23,7 @@ CLEAN_PAGES = {
     "sample-page (subnormal examples)": "sample-page.mediawiki",
     "sample-page-updated (live revision)": "sample-page-updated.mediawiki",
     "sample-page-2 (Wedderburn, tabular)": "sample-page-2.mediawiki",
+    "sample-page-4 (potentially characteristic)": "sample-page-4.mediawiki",
 }
 
 # Recorded post-fix baselines. If a change pushes these UP, that's new noise.
@@ -33,6 +34,10 @@ BASELINES = {
     # prime order p" - both legitimate, neither noise.
     "sample-page-updated (live revision)": 2,
     "sample-page-2 (Wedderburn, tabular)": 3,
+    # Kept at the revision WITH the uncited-Given defect so the lint has
+    # something real to catch. Its 2 issues: the uncited Given, and a
+    # benign POSSIBLE_ALIAS (H and V are both characteristic in K).
+    "sample-page-4 (potentially characteristic)": 1,
 }
 
 
@@ -302,6 +307,60 @@ def run_parse_cases():
     return failures
 
 
+
+def run_given_column_cases():
+    """The uncited-Given lint. Whole-table by design: downstream steps
+    inherit a hypothesis through the "Previous steps used" chain, so a
+    per-row version would demand redundant citations."""
+    failures = []
+    checks = [
+        # Hard direction states a Given and never cites it across 7 rows.
+        ("fires on uncited Given", "sample-page-4.mediawiki", True),
+        # Wedderburn's table DOES cite its Given -> must stay silent.
+        ("silent when Given is cited", "sample-page-2.mediawiki", False),
+        # No Given block at all -> nothing to say.
+        ("silent with no Given block", "sample-page.mediawiki", False),
+    ]
+    for name, path, expect in checks:
+        got = bool(sem.find_uncited_givens(Path(path).read_text()))
+        ok = got == expect
+        print(f"[{'OK ' if ok else 'FAIL'}] uncited-given: {name}")
+        if not ok:
+            failures.append(f"uncited-given: {name} (expected {expect}, got {got})")
+    return failures
+
+
+def run_verbless_cases():
+    """Verbless declaration idioms. Groupprops introduces symbols with no
+    verb at all in Given / To prove blocks; without these, G and K look
+    undeclared on essentially every proof page."""
+    failures = []
+    given = (chr(39)*3) + "Given" + (chr(39)*3) + ": "  # "'''Given''': "
+    cases = [
+        ("Given block, two symbols",
+         given + "A group <math>G</math>, a normal subgroup "
+         "<math>H</math> of <math>G</math>.", {"G", "H"}),
+        ("equivalent-for idiom",
+         "The following are equivalent for a subgroup <math>H</math> of a "
+         "group <math>G</math>:", {"G", "H"}),
+        ("qualifier tail, no symbol",
+         given + "A division ring <math>K</math> of finite size.", {"K"}),
+        # Must NOT fire outside a declaration context - this shape is far
+        # too common in ordinary proof prose to trust on its own.
+        ("ordinary prose stays silent",
+         "Under any automorphism of <math>K</math>, the image of "
+         "<math>V</math> is a homomorphic image of <math>V</math> in "
+         "<math>K</math>.", set()),
+    ]
+    for name, text, expected in cases:
+        syms = {d["sym"] for d in sem.extract_declarations(text, sem.DEFAULT_PATTERNS)}
+        ok = (expected <= syms) if expected else (not syms)
+        print(f"[{'OK ' if ok else 'FAIL'}] verbless: {name} -> {sorted(syms) or 'none'}")
+        if not ok:
+            failures.append(f"verbless: {name} (wanted {sorted(expected)}, got {sorted(syms)})")
+    return failures
+
+
 def run_characterization_cases():
     """The characterization service is a review checklist, not an error
     check, so it is tested on WHAT IT SURFACES rather than pass/fail on
@@ -489,6 +548,18 @@ def main():
     print("PARSE-CORRECTNESS CHECK (subject attribution)")
     print("=" * 70)
     failures.extend(run_parse_cases())
+
+    print()
+    print("=" * 70)
+    print("VERBLESS-DECLARATION CHECK")
+    print("=" * 70)
+    failures.extend(run_verbless_cases())
+
+    print()
+    print("=" * 70)
+    print("UNCITED-GIVEN LINT CHECK")
+    print("=" * 70)
+    failures.extend(run_given_column_cases())
 
     print()
     print("=" * 70)

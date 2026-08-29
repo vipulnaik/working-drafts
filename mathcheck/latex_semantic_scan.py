@@ -117,6 +117,14 @@ CONCLUSION_MARKERS_RE = re.compile(
 )
 
 
+GOAL_CONTEXT_RE = re.compile(
+    r"^\s*(?:to\s+prove|we\s+must\s+show|we\s+want\s+to\s+show|claim)\b",
+    re.IGNORECASE,
+)
+
+EXISTENTIAL_RE = re.compile(r"\bthere\s+exists?\b", re.IGNORECASE)
+
+
 def classify_declaration_kind(sentence, clause=None):
     """Return 'binding' or 'assertion' for a declaration found in this
     sentence. Bindings are what REDEFINITION compares; assertions merely
@@ -128,9 +136,62 @@ def classify_declaration_kind(sentence, clause=None):
     # may sit in a later clause.
     if RESTATEMENT_MARKERS_RE.match(sentence.strip()):
         return "assertion"
+    # A goal ("To prove: there exists a group K such that ...") states what
+    # is to be established, and an existential names a witness that a later
+    # step will construct. Neither binds the symbol, so a subsequent "Let K
+    # be ..." is instantiation, not redefinition.
+    if GOAL_CONTEXT_RE.match(sentence.strip()) or EXISTENTIAL_RE.search(sentence):
+        return "assertion"
     if BINDING_MARKERS_RE.match(probe.strip()):
         return "binding"
     return "assertion"
+
+# Verbless declarations. Groupprops proof pages introduce symbols with no
+# verb at all - "Given: A group G, a normal subgroup H of G", "The
+# following are equivalent for a subgroup H of a group G". Every
+# "X is a Y" pattern misses these, so G and K end up looking permanently
+# undeclared on essentially every proof page.
+#
+# Applied ONLY inside a declaration context (below), because the bare
+# shape "a <descriptor> SYM(x)" is far too common in ordinary prose
+# ("the direct factors of V", "a homomorphic image of V") to trust on
+# its own.
+DECLARATION_CONTEXT_RE = re.compile(
+    r"^\s*(?:given|to\s+prove|suppose|assume|consider|let|"
+    r"the\s+following\s+are\s+equivalent|we\s+are\s+given)\b",
+    re.IGNORECASE,
+)
+
+VERBLESS_PATTERNS = [
+    # "a normal subgroup H of G" / "a group K containing G"
+    {
+        "regex": r"(?:[,;:]|\bfor\b|\bgiven\b|\bare\b)\s+(?:an?|the)\s+(?P<role>[\w -]+?)\s+SYM\((?P<sym>[^)]+)\)"
+                 r"\s+(?P<prep>" + _REL_PREP_ALT + r")\s+(?:an?|the)\s+(?P<rel_role>[\w -]+?)\s+SYM\((?P<rel>[^)]+)\)",
+        "template": "{sym} is a {role} {prep} {rel}",
+        # "a subgroup H of a group G" introduces G too.
+        "also_declares_rel": True,
+    },
+    # same, but the target has no descriptor: "a normal subgroup H of G"
+    {
+        "regex": r"(?:[,;:]|\bfor\b|\bgiven\b|\bare\b)\s+(?:an?|the)\s+(?P<role>[\w -]+?)\s+SYM\((?P<sym>[^)]+)\)"
+                 r"\s+(?P<prep>" + _REL_PREP_ALT + r")\s+SYM\((?P<rel>[^)]+)\)",
+        "template": "{sym} is a {role} {prep} {rel}",
+    },
+    # "a division ring K of finite size" - the trailing qualifier is prose
+    # with no symbol in it, so the relational patterns above don't apply,
+    # but the symbol IS being declared.
+    {
+        "regex": r"(?:[,;:]|\bfor\b|\bgiven\b|\bare\b|\bexists\b)\s+(?:an?|the)\s+(?P<role>[\w -]+?)\s+SYM\((?P<sym>[^)]+)\)"
+                 r"\s+(?:" + _REL_PREP_ALT + r")\s+(?P<qualifier>[\w -]+?)(?=\s*[,.;:]|$)",
+        "template": "{sym} is a {role}",
+    },
+    # "A group G" / "a subgroup H" with no trailing relation
+    {
+        "regex": r"(?:[,;:]|\bfor\b|\bgiven\b|\bare\b|\bexists\b)\s+(?:an?|the)\s+(?P<role>[\w -]+?)\s+SYM\((?P<sym>[^)]+)\)"
+                 r"(?=\s*[,.;:]|\s+(?:such|that|which|containing|with)\b|$)",
+        "template": "{sym} is a {role}",
+    },
+]
 
 DEFAULT_PATTERNS = [
     # "G is a group" / "let G be a group" / "let G be the group"
@@ -526,7 +587,15 @@ def extract_declarations(text, patterns, equation_patterns=None):
         for sent_idx, sent in enumerate(sentences):
           for clause in split_clauses(sent):
             sent_matches = []
-            for pat in patterns:
+            # Verbless declarations only fire in a declaration context
+            # (Given / To prove / Suppose / "the following are equivalent
+            # for ..."), where "a <descriptor> SYM(x)" really is
+            # introducing x rather than just mentioning it in passing.
+            active = list(patterns)
+            if (DECLARATION_CONTEXT_RE.match(sent.strip())
+                    or EXISTENTIAL_RE.search(sent)):
+                active = active + VERBLESS_PATTERNS
+            for pat in active:
                 # Patterns are written with a literal "SYM(" for readability;
                 # turn that into the escaped "SYM\(" the regex engine needs.
                 working = pat["regex"].replace("SYM(", r"SYM\(")
@@ -611,6 +680,8 @@ def extract_declarations(text, patterns, equation_patterns=None):
                         "scope": scope_path,
                         "kind": classify_declaration_kind(sent, clause),
                         "is_restatement": bool(RESTATEMENT_MARKERS_RE.match(sent.strip())),
+                        "is_goal": bool(GOAL_CONTEXT_RE.match(sent.strip())
+                                        or EXISTENTIAL_RE.search(sent)),
                         # For a restatement, record the nearest preceding
                         # sentence that mentions this symbol. We often can't
                         # PARSE that antecedent into a meaning (it may
@@ -783,6 +854,82 @@ def read_table(path):
 
 def similar(a, b, threshold=0.82):
     return difflib.SequenceMatcher(None, a.lower(), b.lower()).ratio() >= threshold
+
+
+def find_uncited_givens(text):
+    """Advisory: a section states a Given, contains a tabular proof with a
+    'Given data used' column, and no row cites anything in that column.
+
+    The tabular format makes a structural commitment ordinary prose does
+    not: the column exists to record where a hypothesis is consumed, so an
+    empty cell asserts the step does not depend on it. An entirely empty
+    column means the point where the Given first enters the argument was
+    never recorded.
+
+    Deliberately whole-table, not per-row. Downstream steps inherit a
+    hypothesis through the 'Previous steps used' chain, so flagging every
+    row that transitively depends on the Given would push toward redundant
+    citations the step-reference chain already carries. What is missing is
+    the single row where the Given is FIRST consumed.
+
+    Returns list of (severity, line_no, message).
+    """
+    issues = []
+    lines = text.split("\n")
+
+    section = None
+    section_line = 0
+    given_seen = False
+    col_index = None
+    n_rows = 0
+    n_cited = 0
+    table_line = 0
+
+    def flush():
+        if given_seen and col_index is not None and n_rows and not n_cited:
+            issues.append((
+                "UNCITED_GIVEN", table_line,
+                f"section {section!r} states a Given, but its "
+                f"'Given data used' column is empty in all {n_rows} rows - "
+                f"the step where the hypothesis is first consumed is unrecorded"
+            ))
+
+    for i, raw in enumerate(lines, 1):
+        line = raw.strip()
+
+        m = HEADER_RE.match(line)
+        if m:
+            flush()
+            section = m.group(2).strip()
+            section_line = i
+            given_seen = False
+            col_index = None
+            n_rows = n_cited = 0
+            continue
+
+        if re.search(r"'''\s*Given\s*'''", line) or re.match(r"^Given\s*:", line, re.I):
+            given_seen = True
+
+        if line.startswith("!"):
+            headers = [h.strip().lstrip("!").strip()
+                       for h in re.split(r"\s*!!\s*", line.lstrip("!"))]
+            for idx, h in enumerate(headers):
+                if re.search(r"given\s+data", h, re.IGNORECASE):
+                    col_index = idx
+                    table_line = i
+            n_rows = n_cited = 0
+            continue
+
+        if line.startswith("|") and not line.startswith("|-") and not line.startswith("|}"):
+            if col_index is None:
+                continue
+            cells = re.split(r"\s*\|\|\s*", line.lstrip("|"))
+            n_rows += 1
+            if col_index < len(cells) and cells[col_index].strip():
+                n_cited += 1
+
+    flush()
+    return issues
 
 
 def find_multiple_characterizations(declarations):
@@ -1012,7 +1159,13 @@ def check_consistency(declarations, approved_table):
                             f"[{scope_label(prior_scope)}], now re-bound as \"{meaning}\" "
                             f"[{scope_label(scope)}] -- (\"{d['sentence'][:70]}\")",
                         ))
-        last_meaning[sym] = (scope, meaning)
+        # A goal or existential ("To prove: there exists a group K ...")
+        # names a witness rather than fixing a meaning, so it must not
+        # become the baseline a later construction is compared against -
+        # otherwise every proof that builds its witness looks like a
+        # redefinition of the thing it was asked to produce.
+        if not d.get("is_goal"):
+            last_meaning[sym] = (scope, meaning)
 
         # DRIFT: not present in the human-approved table at all, or present
         # only under an unrelated scope.
