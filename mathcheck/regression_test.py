@@ -26,11 +26,12 @@ CLEAN_PAGES = {
     "sample-page-2 (Wedderburn, tabular)": "sample-page-2.mediawiki",
     "sample-page-4 (potentially characteristic)": "sample-page-4.mediawiki",
     "sample-page-5 (powering-invariant, prose)": "sample-page-5.mediawiki",
+    "sample-page-6 (normality not transitive)": "sample-page-6.mediawiki",
 }
 
 # Recorded post-fix baselines. If a change pushes these UP, that's new noise.
 BASELINES = {
-    "sample-page (subnormal examples)": 4,
+    "sample-page (subnormal examples)": 3,
     # Live revision fetched from Groupprops. Its 2 issues are:
     # a real </matH> typo, and an AMBIGUOUS_ATTACHMENT on "group of
     # prime order p" - both legitimate, neither noise.
@@ -43,7 +44,12 @@ BASELINES = {
     # Prose-only proof over INFINITE groups. Its 5 issues: two cosmetic
     # </matH> typos, one undeclared G, and two POSSIBLE_ALIAS pairs that
     # are deliberately parallel constructions.
-    "sample-page-5 (powering-invariant, prose)": 5,
+    "sample-page-5 (powering-invariant, prose)": 4,
+    # A large survey page: many tables, <pre> GAP blocks, heavy annotation.
+    # Symbols G/K/H are used by convention and never formally declared,
+    # which is normal for this page type - hence 3 UNDECLARED_REFERENT
+    # (one per symbol, NOT one per use) plus a benign POSSIBLE_ALIAS.
+    "sample-page-6 (normality not transitive)": 4,
 }
 
 
@@ -458,6 +464,51 @@ def run_overlay_cases():
     return failures
 
 
+def run_noise_control_cases():
+    """Two failure modes this large survey page exposed, both of which made
+    findings unreadable rather than wrong."""
+    failures = []
+    text = Path("sample-page-6.mediawiki").read_text()
+    decls = sem.dedupe_declarations(
+        sem.extract_declarations(text, sem.DEFAULT_PATTERNS))
+    issues = sem.check_consistency(decls, {})
+
+    # 1. A symbol used throughout but never declared is ONE finding. This
+    #    page used G that way 12 times.
+    per_sym = {}
+    for sev, msg in issues:
+        if sev == "UNDECLARED_REFERENT":
+            m = re.match(r"'([^']+)'", msg)
+            if m:
+                per_sym[m.group(1)] = per_sym.get(m.group(1), 0) + 1
+    dupes = {k: v for k, v in per_sym.items() if v > 1}
+    ok = not dupes
+    print(f"[{'OK ' if ok else 'FAIL'}] noise: one UNDECLARED_REFERENT per "
+          f"symbol" + ("" if ok else f" -> {dupes}"))
+    if not ok:
+        failures.append(f"noise: duplicate undeclared reports {dupes}")
+
+    # 2. Equations are gathered in a second pass, so without re-sorting a
+    #    definition looks LATER than a property derived from it. Here
+    #    "K = H x H" (line 115) precedes "K is the base ..." (line 122);
+    #    inverted, it manufactures a REDEFINITION that the text lacks.
+    ks = [d["meaning"] for d in decls
+          if d["sym"] == "K" and "Generic" in " ".join(d["scope"])]
+    ok = bool(ks) and "defined as" in ks[0]
+    print(f"[{'OK ' if ok else 'FAIL'}] noise: definition precedes derived "
+          f"property -> {ks[:1]}")
+    if not ok:
+        failures.append("noise: declaration ordering inverted")
+
+    # 3. <pre> blocks are code, not prose.
+    ok = not any("gap>" in d["sentence"] for d in decls)
+    print(f"[{'OK ' if ok else 'FAIL'}] noise: <pre> GAP blocks excluded "
+          f"from prose")
+    if not ok:
+        failures.append("noise: pre blocks leaked into declarations")
+    return failures
+
+
 def run_suggest_cases():
     """Absence checks are judged against an expectation rather than the
     page, so they are the noisiest kind. The properties worth pinning are
@@ -864,6 +915,7 @@ def main():
     failures.extend(run_setbuilder_cases())
     failures.extend(run_infinite_domain_cases())
     failures.extend(run_suggest_cases())
+    failures.extend(run_noise_control_cases())
 
     print()
     print("=" * 70)

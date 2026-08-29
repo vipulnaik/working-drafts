@@ -411,6 +411,9 @@ def strip_wiki_markup(text):
     text = re.sub(r"\[\[([^\]]+)\]\]", r"\1", text)
     # '' italics / ''' bold -> strip markers, keep text
     text = re.sub(r"'{2,3}", "", text)
+    # <pre>...</pre> is verbatim code, not prose. Left in, GAP snippets get
+    # spliced into declaration sentences and quoted back as evidence.
+    text = re.sub(r"<pre>.*?</pre>", " ", text, flags=re.DOTALL | re.IGNORECASE)
     # {{template}} -> drop entirely (e.g. {{tabular proof format}})
     text = re.sub(r"\{\{[^{}]*\}\}", "", text)
     # <toggledisplay>...</toggledisplay> and similar inline wiki HTML ->
@@ -592,6 +595,7 @@ def extract_declarations(text, patterns, equation_patterns=None):
     results = []
 
     for scope_path, seg_text in split_into_scopes(text):
+        seg_begin = len(results)
         seg_text = strip_wiki_markup(seg_text)
         desugared, spans = desugar(seg_text)
         sentences = SENTENCE_SPLIT_RE.split(desugared)
@@ -690,6 +694,7 @@ def extract_declarations(text, patterns, equation_patterns=None):
                         "sentence": sent.strip(),
                         "confidence": confidence,
                         "scope": scope_path,
+                        "pos": desugared.find(sent[:40]) if sent else 0,
                         "kind": classify_declaration_kind(sent, clause),
                         "is_restatement": bool(RESTATEMENT_MARKERS_RE.match(sent.strip())),
                         "is_goal": bool(GOAL_CONTEXT_RE.match(sent.strip())
@@ -815,11 +820,21 @@ def extract_declarations(text, patterns, equation_patterns=None):
                     "sentence": enclosing.strip() or f"${content.strip()}$",
                     "confidence": pat.get("confidence", "medium"),
                     "scope": scope_path,
+                    "pos": desugared.find(marker),
                     "kind": classify_declaration_kind(enclosing or ""),
                     "is_restatement": bool(
                         RESTATEMENT_MARKERS_RE.match((enclosing or "").strip())),
                 })
                 break
+
+        # Equations are collected in a second pass over the segment, so
+        # without re-sorting they always appear after every prose sentence
+        # regardless of where they actually occur. That inverts the order of
+        # a definition and a later derived property, and REDEFINITION
+        # compares against the most recent PRIOR meaning - so the inversion
+        # manufactures conflicts that the text does not contain.
+        results[seg_begin:] = sorted(results[seg_begin:],
+                                     key=lambda r: r.get("pos", 0))
 
     return results
 
@@ -1184,6 +1199,7 @@ def check_consistency(declarations, approved_table):
     issues = []
     last_meaning = {}  # sym -> (scope, meaning) of most recent declaration of any kind
     declared_syms = []  # list of (scope, sym) for every symbol declared so far, in order
+    reported_undeclared = set()
 
     # Symbols declared together in the same sentence (e.g. "N is a subgroup
     # of a group M" declares N and M in one match) count as simultaneous,
@@ -1211,12 +1227,20 @@ def check_consistency(declarations, approved_table):
             )
             if not rel_declared:
                 rel_declared = d["rel"] in same_sentence_syms.get((scope, d["sentence"]), set())
-            if not rel_declared:
+            if not rel_declared and d["rel"] not in reported_undeclared:
+                # Report each never-declared symbol ONCE. A symbol used
+                # throughout a survey page produces one finding, not one per
+                # use: fourteen copies of "G is never declared" is a single
+                # fact rendered unreadable.
+                reported_undeclared.add(d["rel"])
+                uses = sum(1 for x in declarations if x.get("rel") == d["rel"])
+                extra = (f" (used this way {uses} times on the page)"
+                         if uses > 1 else "")
                 issues.append((
                     "UNDECLARED_REFERENT",
                     f"'{d['rel']}' is used to describe '{sym}' (\"{meaning}\") "
                     f"[{scope_label(scope)}] but '{d['rel']}' itself is never "
-                    f"declared -- (\"{d['sentence'][:70]}\")",
+                    f"declared{extra} -- (\"{d['sentence'][:70]}\")",
                 ))
 
         # AMBIGUOUS_ATTACHMENT (advisory): the declaration was resolved
