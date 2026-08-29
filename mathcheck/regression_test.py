@@ -12,6 +12,7 @@ Run: python3 regression_test.py
 """
 
 import json
+import re
 import subprocess
 import shutil
 import sys
@@ -361,6 +362,62 @@ def run_verbless_cases():
     return failures
 
 
+
+def run_gapgen_cases():
+    """gapgen is a scaffolding generator, so the invariant to test is
+    COMPLETENESS OF THE SKELETON, not correctness of the mathematics:
+    nothing may be referenced without being either constructed or listed
+    as an input, and every hole must be explicit."""
+    import gapgen
+    failures = []
+
+    for path, section in [("sample-page-4.mediawiki", "hard direction"),
+                          ("sample-page.mediawiki", "no unique largest")]:
+        model = gapgen.build(Path(path).read_text(), section)
+        supplied = ({e["gap_name"] for e in model["inputs"]}
+                    | {e["gap_name"] for e in model["constructions"]})
+        referenced = set()
+        for e in model["checks"]:
+            referenced |= set(re.findall(r"\b([A-Za-z]\w*)\b", e["gap_check"]))
+        builtins = {"IsNormal", "IsSubgroup", "IsCharacteristicSubgroup"}
+        dangling = referenced - supplied - builtins
+        ok = not dangling
+        print(f"[{'OK ' if ok else 'FAIL'}] gapgen: no dangling refs in "
+              f"{path} ({section})" + ("" if ok else f" -> {sorted(dangling)}"))
+        if not ok:
+            failures.append(f"gapgen: dangling refs {sorted(dangling)} in {path}")
+
+    # The page asserts S exists but never exhibits it: must surface as an
+    # input hole rather than being silently invented.
+    model = gapgen.build(Path("sample-page-4.mediawiki").read_text(), "hard direction")
+    ok = any(e["sym"] == "S" for e in model["inputs"])
+    print(f"[{'OK ' if ok else 'FAIL'}] gapgen: unexhibited S becomes an input hole")
+    if not ok:
+        failures.append("gapgen: S not surfaced as input")
+
+    # A symbol characterized two ways must be marked as alternatives, not
+    # emitted as two silent overwriting assignments.
+    alts = [e for e in model["constructions"] if e.get("alternative")]
+    ok = bool(alts)
+    print(f"[{'OK ' if ok else 'FAIL'}] gapgen: multi-characterized symbol "
+          f"marked as alternatives")
+    if not ok:
+        failures.append("gapgen: alternatives not marked")
+
+    proc = subprocess.run(
+        [sys.executable, "gapgen.py", "sample-page-4.mediawiki", "--json"],
+        capture_output=True, text=True)
+    try:
+        parsed = json.loads(proc.stdout)
+        ok = all(k in parsed for k in ("inputs", "constructions", "checks"))
+    except Exception:
+        ok = False
+    print(f"[{'OK ' if ok else 'FAIL'}] gapgen: --json is parseable")
+    if not ok:
+        failures.append("gapgen: --json not parseable")
+    return failures
+
+
 def run_characterization_cases():
     """The characterization service is a review checklist, not an error
     check, so it is tested on WHAT IT SURFACES rather than pass/fail on
@@ -486,7 +543,8 @@ def main():
     required = set(CLEAN_PAGES.values())
     required |= {c[1] for c in CASES}
     required |= {c[1] for c in DIFF_CASES}
-    required.add("mathcheck.py")   # diff cases invoke it as a subprocess
+    required.add("mathcheck.py")
+    required.add("gapgen.py")   # diff cases invoke it as a subprocess
     missing = [p for p in required if not Path(p).exists()]
     if missing:
         print("Missing required file(s) in the current directory:")
@@ -548,6 +606,12 @@ def main():
     print("PARSE-CORRECTNESS CHECK (subject attribution)")
     print("=" * 70)
     failures.extend(run_parse_cases())
+
+    print()
+    print("=" * 70)
+    print("GAPGEN SCAFFOLD CHECK")
+    print("=" * 70)
+    failures.extend(run_gapgen_cases())
 
     print()
     print("=" * 70)
