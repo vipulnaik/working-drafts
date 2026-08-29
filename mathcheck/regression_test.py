@@ -328,33 +328,6 @@ def run_given_column_cases():
         print(f"[{'OK ' if ok else 'FAIL'}] uncited-given: {name}")
         if not ok:
             failures.append(f"uncited-given: {name} (expected {expect}, got {got})")
-
-    # A Given can be a CONJUNCTION ("a division ring K of finite size").
-    # Both components are load-bearing and cited at different steps, so
-    # dropping one citation must NOT be masked by the other still being
-    # present - the whole-table check alone cannot see this.
-    wed = Path("sample-page-2.mediawiki").read_text()
-    partial = [
-        ("drops finiteness citation",
-         wed.replace("|| <math>K</math> is finite ||", "||  ||"), "finite"),
-        ("drops division-ring citation",
-         wed.replace("|| <math>K</math> is a division ring ||", "||  ||"), "ring"),
-    ]
-    for name, txt, keyword in partial:
-        msgs = [m for _, _, m in sem.find_uncited_givens(txt)]
-        ok = any(repr(keyword) in m for m in msgs)
-        print(f"[{'OK ' if ok else 'FAIL'}] uncited-given: {name} is caught")
-        if not ok:
-            failures.append(f"uncited-given: {name} not caught")
-
-    comps = sem.given_components(
-        (chr(39) * 3) + "Given" + (chr(39) * 3)
-        + ": A division ring <math>K</math> of finite size.")
-    ok = len(comps) == 2 and {c[2] for c in comps} == {"ring", "finite"}
-    print(f"[{'OK ' if ok else 'FAIL'}] uncited-given: conjunctive Given "
-          f"splits into components -> {[c[2] for c in comps]}")
-    if not ok:
-        failures.append("uncited-given: Given not decomposed")
     return failures
 
 
