@@ -25,6 +25,7 @@ CLEAN_PAGES = {
     "sample-page-updated (live revision)": "sample-page-updated.mediawiki",
     "sample-page-2 (Wedderburn, tabular)": "sample-page-2.mediawiki",
     "sample-page-4 (potentially characteristic)": "sample-page-4.mediawiki",
+    "sample-page-5 (powering-invariant, prose)": "sample-page-5.mediawiki",
 }
 
 # Recorded post-fix baselines. If a change pushes these UP, that's new noise.
@@ -39,6 +40,10 @@ BASELINES = {
     # something real to catch. Its 2 issues: the uncited Given, and a
     # benign POSSIBLE_ALIAS (H and V are both characteristic in K).
     "sample-page-4 (potentially characteristic)": 1,
+    # Prose-only proof over INFINITE groups. Its 5 issues: two cosmetic
+    # </matH> typos, one undeclared G, and two POSSIBLE_ALIAS pairs that
+    # are deliberately parallel constructions.
+    "sample-page-5 (powering-invariant, prose)": 5,
 }
 
 
@@ -274,6 +279,13 @@ def run_parse_cases():
          "Let the prime be <math>p</math>.", "p", None, False, []),
         # Ordinary subject-first sentence must be unaffected by the
         # object-position guard.
+        # Appositive NAMING: "G is the group GA^+(1,\R)". The trailing
+        # symbol names the subject rather than being a relation target.
+        # Also exercises nested parens in the placeholder, which the usual
+        # [^)]+ delimiter mis-splits.
+        ("appositive naming with nested parens",
+         "Suppose <math>G</math> is the group <math>GA^+(1,\\R)</math>, "
+         "given explicitly as linear maps.", "G", None, False, []),
         ("plain subject unaffected",
          "Let <math>H</math> be a subgroup of a finite group <math>G</math>.",
          "H", "G", False, []),
@@ -328,6 +340,33 @@ def run_given_column_cases():
         print(f"[{'OK ' if ok else 'FAIL'}] uncited-given: {name}")
         if not ok:
             failures.append(f"uncited-given: {name} (expected {expect}, got {got})")
+
+    # A Given can be a CONJUNCTION ("a division ring K of finite size").
+    # Both components are load-bearing and cited at different steps, so
+    # dropping one citation must NOT be masked by the other still being
+    # present - the whole-table check alone cannot see this.
+    wed = Path("sample-page-2.mediawiki").read_text()
+    partial = [
+        ("drops finiteness citation",
+         wed.replace("|| <math>K</math> is finite ||", "||  ||"), "finite"),
+        ("drops division-ring citation",
+         wed.replace("|| <math>K</math> is a division ring ||", "||  ||"), "ring"),
+    ]
+    for name, txt, keyword in partial:
+        msgs = [m for _, _, m in sem.find_uncited_givens(txt)]
+        ok = any(repr(keyword) in m for m in msgs)
+        print(f"[{'OK ' if ok else 'FAIL'}] uncited-given: {name} is caught")
+        if not ok:
+            failures.append(f"uncited-given: {name} not caught")
+
+    comps = sem.given_components(
+        (chr(39) * 3) + "Given" + (chr(39) * 3)
+        + ": A division ring <math>K</math> of finite size.")
+    ok = len(comps) == 2 and {c[2] for c in comps} == {"ring", "finite"}
+    print(f"[{'OK ' if ok else 'FAIL'}] uncited-given: conjunctive Given "
+          f"splits into components -> {[c[2] for c in comps]}")
+    if not ok:
+        failures.append("uncited-given: Given not decomposed")
     return failures
 
 
@@ -416,6 +455,47 @@ def run_overlay_cases():
             failures.append("overlay: resolution helpers wrong")
     finally:
         _sh.rmtree(tmp, ignore_errors=True)
+    return failures
+
+
+def run_infinite_domain_cases():
+    """Some pages have NO finite model at all - every finite subgroup is
+    powering-invariant, so a counterexample to powering-invariance must be
+    infinite. For those, order arithmetic and GAP scaffolds are
+    structurally inapplicable, and saying so beats emitting output that
+    can never be used. The precision risk is the reverse error: calling a
+    page infinite when it has perfectly good finite examples."""
+    failures = []
+    cases = [
+        ("sample-page-5.mediawiki", True,  "reals/rationals -> infinite"),
+        ("sample-page-4.mediawiki", False, "mentions 'finitary' but |K|=14400 exists"),
+        ("sample-page-2.mediawiki", False, "finite division rings"),
+        ("sample-page.mediawiki",   False, "finite wreath products"),
+    ]
+    for path, expect, why in cases:
+        got = bool(sem.find_infinite_domain(Path(path).read_text()))
+        ok = got == expect
+        print(f"[{'OK ' if ok else 'FAIL'}] infinite-domain: {path} -> "
+              f"{'infinite' if got else 'quiet'} ({why})")
+        if not ok:
+            failures.append(f"infinite-domain: {path} expected {expect}")
+    return failures
+
+
+def run_setbuilder_cases():
+    """A set-builder has no order formula. The failure mode to guard is
+    NOT a crash - it is the fallback minting a free symbol named after the
+    whole expression and reporting it as 'determined', which disguises
+    total ignorance as a result."""
+    import ordercalc
+    failures = []
+    res, _, _ = ordercalc.analyse(Path("sample-page-5.mediawiki").read_text())
+    sets = [r for r in res if "mapsto" in r["expression"]]
+    ok = bool(sets) and all(not r["inferrable"] for r in sets)
+    print(f"[{'OK ' if ok else 'FAIL'}] ordercalc: set-builder reported "
+          f"not inferrable ({len(sets)} found)")
+    if not ok:
+        failures.append("ordercalc: set-builder wrongly claimed determined")
     return failures
 
 
@@ -735,6 +815,8 @@ def main():
     print("ORDERCALC CHECK (vs hand-derived formulas)")
     print("=" * 70)
     failures.extend(run_ordercalc_cases())
+    failures.extend(run_setbuilder_cases())
+    failures.extend(run_infinite_domain_cases())
 
     print()
     print("=" * 70)

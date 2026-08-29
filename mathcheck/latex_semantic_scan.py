@@ -263,6 +263,18 @@ DEFAULT_PATTERNS = [
         "regex": r"let\s+(?:the|an?)\s+(?P<role>[\w -]+?)\s+be\s+SYM\((?P<sym>[^)]+)\)",
         "template": "{sym} is a {role}",
     },
+    # "G is the group GA^+(1,\R)" - appositive NAMING: the descriptor is
+    # followed directly by a symbol that names the subject, with no
+    # preposition between. Distinct from "H is a subgroup of G", where the
+    # trailing symbol is a relation target rather than a name.
+    {
+        "regex": r"SYM\((?P<sym>[^)]+)\)\s+(?:is|be)\s+(?:an?|the)\s+(?P<role>[\w -]+?)"
+                 # One level of nested parens allowed: math content like
+                 # "GA^+(1,\R)" contains them, and the usual [^)]+ delimiter
+                 # would stop at the first inner ')'.
+                 r"\s+SYM\((?P<name>(?:[^()]|\([^()]*\))+)\)(?=\s*[,.;:]|$)",
+        "template": "{sym} is a {role}",
+    },
     # "N is normal in G"
     {
         "regex": r"SYM\((?P<sym>[^)]+)\)\s+is\s+(?P<role>normal|central|characteristic|abelian|solvable|nilpotent)\s+in\s+SYM\((?P<rel>[^)]+)\)",
@@ -895,6 +907,48 @@ def given_components(given_text):
     return out
 
 
+# Objects that force the construction to be infinite. If a page's
+# constructions live over these, no finite instantiation exists, and tools
+# that compute orders or emit GAP are structurally inapplicable - not merely
+# short of data. Saying so is more useful than emitting a scaffold that can
+# never run or an order arithmetic over quantities that are all infinite.
+INFINITE_MARKERS = [
+    (r"\\R\b|\\mathbb\{R\}", "the reals"),
+    (r"\\mathbb\{Q\}", "the rationals"),
+    (r"\\mathbb\{C\}", "the complex numbers"),
+    (r"\bpositive reals\b", "the positive reals"),
+    # Deliberately NOT included: "finitary" and a bare "infinite". Both
+    # appear in pages that DO have finite instantiations - the
+    # potentially-characteristic page mentions the finitary alternating
+    # group only as a recipe for the infinite case, while its own smallest
+    # example has order 14400. Only objects that are inherently infinite
+    # count here.
+]
+
+
+def find_infinite_domain(text):
+    """Report markers that the page's constructions are inherently infinite.
+
+    Returns list of (severity, line_no, message). Advisory: it does not
+    mean the page is wrong, it means finite computational verification is
+    not available for it.
+    """
+    hits = []
+    for pat, what in INFINITE_MARKERS:
+        m = re.search(pat, text)
+        if m:
+            line = text.count("\n", 0, m.start()) + 1
+            hits.append((what, line))
+    if not hits:
+        return []
+    what = ", ".join(sorted({w for w, _ in hits}))
+    line = min(l for _, l in hits)
+    return [("INFINITE_DOMAIN", line,
+             f"constructions on this page involve {what}; no finite "
+             f"instantiation exists, so order arithmetic and GAP scaffolds "
+             f"are structurally inapplicable rather than merely incomplete")]
+
+
 def find_uncited_givens(text):
     """Advisory: a section states a Given, contains a tabular proof with a
     'Given data used' column, and no row cites anything in that column.
@@ -1277,10 +1331,21 @@ def check_consistency(declarations, approved_table):
             if (sym_a != sym_b
                     and scopes_related(scope_a, scope_b)
                     and similar(mean_a, mean_b, threshold=0.9)):
+                # Show BOTH meanings. Printing only one hides the case that
+                # matters most: two descriptions that are nearly identical
+                # but differ in one token (T_1 vs T_2) - exactly where a
+                # copy-paste slip would live. Identical text and a one-token
+                # difference need different responses from the reader.
+                if mean_a == mean_b:
+                    detail = f"both mean \"{mean_a}\""
+                else:
+                    detail = (f"mean nearly the same thing:\n"
+                              f"        {sym_a}: {mean_a}\n"
+                              f"        {sym_b}: {mean_b}")
                 issues.append((
                     "POSSIBLE_ALIAS",
                     f"'{sym_a}' [{scope_label(scope_a)}] and '{sym_b}' "
-                    f"[{scope_label(scope_b)}] both mean \"{mean_a}\" -- "
+                    f"[{scope_label(scope_b)}] {detail} -- "
                     f"confirm this is intentional (e.g. two distinct subgroups)",
                 ))
 

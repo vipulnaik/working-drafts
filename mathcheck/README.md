@@ -181,6 +181,19 @@ executed** — check signatures against the GAP reference manual on first use.
 
 Extend coverage by editing the `CONSTRUCTIONS` table at the top of the file.
 
+### When a page has no finite model
+
+Both `gapgen` and `ordercalc` lead with a **NOT FINITELY INSTANTIABLE** banner
+when a page's constructions live over the reals, rationals or complexes. Some
+results have no finite counterexample by nature — every finite subgroup is
+powering-invariant, so a counterexample to powering-invariance is necessarily
+infinite. For those pages the computational tools aren't short of data, they're
+structurally inapplicable, and filling the TODOs won't help.
+
+Detection is deliberately narrow: only inherently-infinite objects count. A
+page that merely mentions "finitary" or "infinite" in passing may still have
+perfectly good finite examples.
+
 ### Order arithmetic
 
 ```bash

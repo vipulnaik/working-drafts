@@ -128,6 +128,14 @@ def order_of(expr, env, fresh):
     if expr.startswith(r"\langle"):
         raise Unknown(f"join {expr!r} has no general order formula")
 
+    # Set-builder {x | condition}: the order depends on the condition, which
+    # is prose. Must NOT fall through to the bare-symbol case below, which
+    # would mint a free symbol named after the whole expression and then
+    # report it as "determined".
+    if expr.startswith(r"\{") or expr.startswith("{"):
+        raise Unknown(f"set-builder {expr[:40]!r} has no order formula "
+                      f"(depends on the defining condition)")
+
     # Normalizer / centralizer notation: no formula
     if re.fullmatch(r"[NC]_\{?\w+\}?\s*\(.*\)", expr):
         raise Unknown(f"{expr!r} (normalizer/centralizer) has no general "
@@ -137,7 +145,11 @@ def order_of(expr, env, fresh):
     name = expr.strip()
     if name in env:
         return env[name]
-    if re.fullmatch(r"[A-Za-z]\w*(_\{?\w+\}?)?", name) or "\\" in name:
+    # A genuine bare symbol (G, H_1, \R, \mathbb{Q}) gets a free symbol.
+    # A compound expression must not: naming a free symbol after a whole
+    # expression disguises "we have no idea" as "determined".
+    if re.fullmatch(r"[A-Za-z]\w*(_\{?\w+\}?)?", name) or \
+       re.fullmatch(r"\\[a-zA-Z]+(\{\w+\})?(\^\S+)?", name):
         return fresh(name)
     raise Unknown(f"cannot interpret {expr!r}")
 
@@ -320,6 +332,14 @@ def main():
                 subs.setdefault(sym, sp.Integer(3))
             else:
                 subs.setdefault(sym, sp.Integer(2))
+
+    inf = sem.find_infinite_domain(text)
+    if inf:
+        print(f"# NOT FINITELY INSTANTIABLE")
+        for _, ln, msg in inf:
+            print(f"#   line {ln}: {msg}")
+        print(f"#   Orders below are formal only - every quantity is "
+              f"infinite, so numeric substitution is meaningless here.\n")
 
     print(f"# order analysis of {args.file}\n")
     def show(expr_str):

@@ -281,11 +281,19 @@ def build(text, section=None):
     return {"inputs": inputs, "constructions": constructions, "checks": checks}
 
 
-def render(model, source):
+def render(model, source, source_text=None):
     L = []
     add = L.append
     add(f"# GAP scaffold generated from {source}")
     add("#")
+    inf = sem.find_infinite_domain(source_text) if source_text else []
+    if inf:
+        add("# !! NOT FINITELY INSTANTIABLE !!")
+        for _, ln, msg in inf:
+            add(f"#   line {ln}: {msg}")
+        add("#   Nothing below can be run in GAP. Filling the TODOs will not")
+        add("#   help: the construction has no finite model.")
+        add("#")
     add("# THIS IS A SCAFFOLD, NOT A FINISHED SCRIPT. Every TODO below is a")
     add("# place the proof relies on something it does not itself construct,")
     add("# or a place GAP needs data the prose left implicit. Fill the TODOs,")
@@ -395,7 +403,7 @@ def main():
         print(json.dumps(model, indent=2, ensure_ascii=False))
         return 0
 
-    print(render(model, args.file))
+    print(render(model, args.file, text))
     n_todo = (len(model["inputs"])
               + sum(len(e["needs"]) for e in model["constructions"]))
     print(f"\n# -- {len(model['constructions'])} construction(s), "
