@@ -488,6 +488,8 @@ def _all_issues(text, approved=None):
     out += [(sev, m) for sev, _, m in gapcheck.find_prose_self_conflicts(text)]
     import arith as _a
     out += [(sev, m) for sev, _, m in _a.find_arithmetic_errors(text)]
+    import tablecheck as _tc
+    out += [(sev, m) for sev, _, m in _tc.find_table_inconsistencies(text)]
     out += sem.check_consistency(
         decls, approved if approved is not None else sem.build_draft_table(decls))
     return out
@@ -631,6 +633,63 @@ def run_arithmetic_cases():
               + ("" if ok else f" -> {e[0][2][:60]}"))
         if not ok:
             failures.append(f"arith: false positive in {f}")
+    return failures
+
+
+def run_tablecheck_cases():
+    """Summary rows vs the rows they summarize. A different error class from
+    arith.py: these numbers go stale when a data row is edited and the
+    totals are not, and every individual cell stays well-formed, so no
+    per-span check can see it."""
+    import tablecheck as tc
+    failures = []
+    t = Path("sample-page-8.mediawiki").read_text()
+
+    ok = not tc.find_table_inconsistencies(t)
+    print(f"[{'OK ' if ok else 'FAIL'}] table: clean data page consistent")
+    if not ok:
+        failures.append("table: false positive on clean page")
+
+    cases = [
+        ("mean over classes wrong",
+         "| Mean over conjugacy classes || 2 || 2 || 4/3 || 2 || 1",
+         "| Mean over conjugacy classes || 2 || 2 || 5/3 || 2 || 1"),
+        ("mean over elements wrong",
+         "| Mean over elements || 7/3 || 13/6 || 1 || 11/6 || 7/6",
+         "| Mean over elements || 7/3 || 13/6 || 1 || 2 || 7/6"),
+        # Using the UNWEIGHTED means in the element-mean row. Both rows are
+        # individually plausible; only the weighting distinguishes them.
+        ("unweighted used where weighted required",
+         "| Mean over elements || 7/3 || 13/6 || 1 || 11/6 || 7/6",
+         "| Mean over elements || 2 || 2 || 4/3 || 2 || 1"),
+        # The spreadsheet failure: edit a data row, leave the summaries.
+        ("data row edited, summaries stale",
+         "| 3 || 2 || 3 || 0 || 1 || 2",
+         "| 3 || 2 || 4 || 0 || 1 || 2"),
+        ("column total wrong",
+         "|| 6 (equals 3!, the size of the symmetric group) ||",
+         "|| 7 (equals 3!, the size of the symmetric group) ||"),
+    ]
+    for name, old, new in cases:
+        if old not in t:
+            print(f"[FAIL] table: anchor missing for {name}")
+            failures.append(f"table: anchor missing {name}")
+            continue
+        got = bool(tc.find_table_inconsistencies(t.replace(old, new, 1)))
+        print(f"[{'OK ' if got else 'FAIL'}] table: {name} caught")
+        if not got:
+            failures.append(f"table: {name} not caught")
+
+    # Proof pages have tables whose columns are prose and formulas. Nothing
+    # there is a summary row, and guessing would be worse than silence.
+    for f in ("sample-page-6.mediawiki", "sample-page-7.mediawiki",
+              "sample-page-2.mediawiki"):
+        e = tc.find_table_inconsistencies(Path(f).read_text())
+        ok = not e
+        print(f"[{'OK ' if ok else 'FAIL'}] table: {f} silent"
+              + ("" if ok else f" -> {e[0][2][:60]}"))
+        if not ok:
+            failures.append(f"table: false positive in {f}")
     return failures
 
 
@@ -1195,6 +1254,7 @@ def main():
     required.add("gapcheck.py")
     required.add("link.py")
     required.add("arith.py")
+    required.add("tablecheck.py")
     required.add("sample-page-8.mediawiki")   # diff cases invoke it as a subprocess
     missing = [p for p in required if not Path(p).exists()]
     if missing:
@@ -1284,6 +1344,7 @@ def main():
     failures.extend(run_gapcheck_cases())
     failures.extend(run_link_cases())
     failures.extend(run_arithmetic_cases())
+    failures.extend(run_tablecheck_cases())
 
     print()
     print("=" * 70)

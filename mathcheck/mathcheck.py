@@ -49,6 +49,7 @@ import latex_semantic_scan as sem
 import suggest as sug
 import gapcheck as gc
 import arith
+import tablecheck
 
 
 def cmd_syntax(args):
@@ -132,6 +133,7 @@ GATING_SEVERITIES = {
     "GAP_PROSE_CONFLICT",
     "PROSE_SELF_CONFLICT",
     "ARITHMETIC_ERROR",
+    "TABLE_INCONSISTENCY",
 }
 
 ADVISORY_SEVERITIES = {
@@ -184,6 +186,10 @@ def cmd_check(args):
         issues += [
             (sev, (f"line {ln}: " if ln else "") + msg)
             for sev, ln, msg in arith.find_arithmetic_errors(text)
+        ]
+        issues += [
+            (sev, (f"line {ln}: " if ln else "") + msg)
+            for sev, ln, msg in tablecheck.find_table_inconsistencies(text)
         ]
         issues += sem.check_consistency(declarations, approved)
 
@@ -250,6 +256,10 @@ def _collect_semantic(text, approved, patterns_file=None):
     issues += [
         (sev, (f"line {ln}: " if ln else "") + msg)
         for sev, ln, msg in arith.find_arithmetic_errors(text)
+    ]
+    issues += [
+        (sev, (f"line {ln}: " if ln else "") + msg)
+        for sev, ln, msg in tablecheck.find_table_inconsistencies(text)
     ]
     if approved is not None:
         issues += sem.check_consistency(declarations, approved)

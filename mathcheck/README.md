@@ -88,6 +88,15 @@ old revision in memory, so there's no registry file to forget to update.
 Exit code: `1` if the edit introduced anything gating, `0` otherwise. Enough
 for a pre-commit hook today.
 
+### Data and reference pages
+
+"Specific information" pages (element structure, subgroup structure) have
+almost no `Let X be` prose, so the declaration machinery finds little. Their
+redundancy lives in **numbers** instead, and two checks target it:
+`ARITHMETIC_ERROR` for identities written out inside a math span, and
+`TABLE_INCONSISTENCY` for totals and means spread across a table. Both run
+automatically as part of `check`.
+
 ### Suggesting what to add
 
 ```bash
