@@ -50,11 +50,11 @@ BASELINES = {
     # Symbols G/K/H are used by convention and never formally declared,
     # which is normal for this page type - hence 3 UNDECLARED_REFERENT
     # (one per symbol, NOT one per use) plus a benign POSSIBLE_ALIAS.
-    "sample-page-6 (normality not transitive)": 3,
+    "sample-page-6 (normality not transitive)": 2,
     # Hardest page in the set: several tables with different column
     # schemas, bar notation, a contradiction sub-proof. Its 12 issues
     # include 3 GENUINE unbalanced-parenthesis typos.
-    "sample-page-7 (critical subgroup theorem)": 9,
+    "sample-page-7 (critical subgroup theorem)": 6,
 }
 
 
@@ -466,6 +466,51 @@ def run_overlay_cases():
             failures.append("overlay: resolution helpers wrong")
     finally:
         _sh.rmtree(tmp, ignore_errors=True)
+    return failures
+
+
+def run_exempt_section_cases():
+    """Related facts / Facts used sections QUOTE other results, using those
+    results' own placeholder letters. Those symbols belong to a different
+    namespace and must not be checked against this page's."""
+    failures = []
+    text = Path("sample-page-7.mediawiki").read_text()
+    decls = sem.dedupe_declarations(
+        sem.extract_declarations(text, sem.DEFAULT_PATTERNS))
+
+    # The placeholders A, B, D, I live in "Facts used".
+    foreign = {d["sym"] for d in decls if d.get("foreign")}
+    ok = {"A", "B"} <= foreign
+    print(f"[{'OK ' if ok else 'FAIL'}] exempt: quoted placeholders marked "
+          f"foreign -> {sorted(foreign)[:6]}")
+    if not ok:
+        failures.append("exempt: placeholders not marked foreign")
+
+    # ...and must not reach the consistency checks.
+    msgs = " ".join(m for _, m in sem.check_consistency(decls, {}))
+    leaked = [x for x in ("'B'", "'D'", "'B/A'") if x in msgs]
+    ok = not leaked
+    print(f"[{'OK ' if ok else 'FAIL'}] exempt: foreign symbols absent from "
+          f"findings" + ("" if ok else f" -> {leaked}"))
+    if not ok:
+        failures.append(f"exempt: foreign symbols leaked {leaked}")
+
+    # The page's OWN symbols must be unaffected.
+    local = {d["sym"] for d in decls if not d.get("foreign")}
+    ok = {"K", "C"} <= local
+    print(f"[{'OK ' if ok else 'FAIL'}] exempt: local symbols still checked")
+    if not ok:
+        failures.append("exempt: local symbols wrongly exempted")
+
+    # Text-level checks must still cover exempt sections - a broken math tag
+    # in Related facts is still a broken math tag.
+    probe = ("==Related facts==\n\nSee <math>\\Omega_1(Z(\\overline{G})</math> "
+             "for details.\n")
+    ok = bool(sem.find_unbalanced_math(probe))
+    print(f"[{'OK ' if ok else 'FAIL'}] exempt: text-level checks still apply "
+          f"in exempt sections")
+    if not ok:
+        failures.append("exempt: text-level checks wrongly suppressed")
     return failures
 
 
@@ -959,6 +1004,7 @@ def main():
     failures.extend(run_suggest_cases())
     failures.extend(run_noise_control_cases())
     failures.extend(run_unbalanced_math_cases())
+    failures.extend(run_exempt_section_cases())
 
     print()
     print("=" * 70)

@@ -137,6 +137,22 @@ you to compare by eye.
 
 ---
 
+## Quoted sections are exempt
+
+Symbols appearing under **Related facts**, **Facts used**, **References**,
+**External links**, **History**, **Further reading** or **See also** are
+treated as foreign: they belong to the results being cited, not to this page.
+The `A`, `B`, `D` of "if `A` is characteristic in `B`, and `B` is
+characteristic in `D`" are another page's placeholders, and checking them
+against local symbols compares two namespaces.
+
+Exempt symbols are excluded from declaration, redefinition and alias checks.
+Text-level checks (`UNBALANCED_MATH`, `MATH_TAG_CASE`, `MALFORMED_MATH_TAG`)
+still apply everywhere — a broken tag in Related facts is still broken.
+
+Keyed on the top-level section name, so subsections inherit it. Edit
+`EXEMPT_SECTIONS` in `latex_semantic_scan.py` to add more.
+
 ## Registry scoping — decide this early
 
 `registry.json` is a **flat global set of names**. For a per-page edit diff

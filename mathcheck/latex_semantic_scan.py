@@ -470,6 +470,26 @@ def desugar(text):
 HEADER_RE = re.compile(r"^(=+)\s*(.*?)\s*=+\s*$")
 
 
+# Sections that QUOTE other results rather than developing this page's own
+# argument. Symbols appearing there belong to the results being cited - the
+# A, B, D of "if A is characteristic in B, and B is characteristic in D" are
+# placeholders from another page - and must not enter this page's namespace.
+# Letting them in creates foreign symbols that then look undeclared, alias
+# against local ones, and inflate every pairwise check.
+#
+# Keyed on the TOP-LEVEL section name, so subsections inherit the exemption.
+# Not keyed on [[uses::]] annotations: those are common in such sections but
+# far from universal.
+EXEMPT_SECTIONS = {
+    "related facts", "facts used", "references", "external links",
+    "history", "further reading", "see also",
+}
+
+
+def is_exempt_scope(scope):
+    return bool(scope) and scope[0].strip().lower() in EXEMPT_SECTIONS
+
+
 def split_into_scopes(text):
     """Split raw page text into (scope_path, segment_text) chunks using
     MediaWiki '== Header ==' lines to build a nesting path, e.g. a
@@ -706,6 +726,7 @@ def extract_declarations(text, patterns, equation_patterns=None):
                         "scope": scope_path,
                         "pos": desugared.find(sent[:40]) if sent else 0,
                         "kind": classify_declaration_kind(sent, clause),
+                        "foreign": is_exempt_scope(scope_path),
                         "is_restatement": bool(RESTATEMENT_MARKERS_RE.match(sent.strip())),
                         "is_goal": bool(GOAL_CONTEXT_RE.match(sent.strip())
                                         or EXISTENTIAL_RE.search(sent)),
@@ -740,6 +761,7 @@ def extract_declarations(text, patterns, equation_patterns=None):
                             "confidence": pat.get("confidence", "high"),
                             "scope": scope_path,
                             "kind": "binding",
+                            "foreign": is_exempt_scope(scope_path),
                             # Derived from apposition ("the group of prime
                             # order p"), which is a weaker inference than an
                             # explicit binding: the descriptor may actually
@@ -768,6 +790,7 @@ def extract_declarations(text, patterns, equation_patterns=None):
                             # order p") rather than naming it. Conflicts get
                             # reported as ambiguity, not redefinition.
                             "kind": "binding",
+                            "foreign": is_exempt_scope(scope_path),
                             "from_apposition": True,
                             "span": (m.start(), m.end()),
                         })
@@ -832,6 +855,7 @@ def extract_declarations(text, patterns, equation_patterns=None):
                     "scope": scope_path,
                     "pos": desugared.find(marker),
                     "kind": classify_declaration_kind(enclosing or ""),
+                    "foreign": is_exempt_scope(scope_path),
                     "is_restatement": bool(
                         RESTATEMENT_MARKERS_RE.match((enclosing or "").strip())),
                 })
@@ -1236,6 +1260,12 @@ def check_consistency(declarations, approved_table):
     of one symbol into O(n^2) messages saying substantially the same thing.
     """
     declarations = dedupe_declarations(declarations)
+
+    # Drop symbols quoted from other results (Related facts / Facts used /
+    # References). They are not this page's symbols, so checking them for
+    # declaration, redefinition or aliasing against local ones is comparing
+    # two different namespaces.
+    declarations = [d for d in declarations if not d.get("foreign")]
 
     issues = []
     last_meaning = {}  # sym -> (scope, meaning) of most recent declaration of any kind
