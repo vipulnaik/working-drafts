@@ -469,6 +469,208 @@ def run_overlay_cases():
     return failures
 
 
+
+def _all_issues(text, approved=None):
+    """Every severity the pipeline can emit, for one page."""
+    import gapcheck
+    decls = sem.dedupe_declarations(
+        sem.extract_declarations(text, sem.DEFAULT_PATTERNS))
+    out = [(sev, m) for sev, _, m in sem.find_malformed_math_tags(text)]
+    out += [(sev, m) for sev, _, m in sem.find_unbalanced_math(text)]
+    out += [(sev, m) for sev, _, m in sem.find_uncited_givens(text)]
+    out += [(sev, m) for sev, _, m in gapcheck.find_gap_prose_conflicts(text)]
+    out += [(sev, m) for sev, _, m in gapcheck.find_prose_self_conflicts(text)]
+    out += sem.check_consistency(
+        decls, approved if approved is not None else sem.build_draft_table(decls))
+    return out
+
+
+# (name, page, old, new, severity that must INCREASE)
+#
+# These live on pages 4-7, which previously served only as false-POSITIVE
+# baselines. A baseline proves a page stays quiet; it says nothing about
+# whether detection still works on that page's structure. Pages 4-7 are where
+# the parser does its hardest work - Given blocks, prose-only proofs, GAP
+# transcripts, multi-schema tables - so they are exactly where a narrowing is
+# most likely to silently disable a check.
+EXTENDED_INJECTIONS = [
+    # --- page 4: tabular proof with a conjunctive Given -------------------
+    ("p4: self-reference in a table cell", "sample-page-4.mediawiki",
+     "<math>V</math> is characteristic in <math>K</math>",
+     "<math>V</math> is characteristic in <math>V</math>",
+     "SELF_REFERENCE"),
+    ("p4: rebind a constructed symbol", "sample-page-4.mediawiki",
+     "| 1 || Let <math>S</math> be a simple non-abelian group",
+     "| 1 || Let <math>S</math> be a cyclic group of order four. "
+     "Let <math>S</math> be a simple non-abelian group",
+     "REDEFINITION"),
+    ("p4: unbalanced paren in a table cell", "sample-page-4.mediawiki",
+     "<math>V</math> is characteristic in <math>K</math>",
+     "<math>V</math> is characteristic in <math>C_K(V</math>",
+     "UNBALANCED_MATH"),
+
+    # --- page 5: prose-only proof over infinite objects -------------------
+    ("p5: unbalanced brace in prose math", "sample-page-5.mediawiki",
+     "<math>T_1</math> is the subset of the set of positive reals",
+     "<math>T_1 = { x</math> is the subset of the set of positive reals",
+     "UNBALANCED_MATH"),
+    ("p5: rebind G mid-proof", "sample-page-5.mediawiki",
+     "Suppose <math>G</math> is the group",
+     "Let <math>G</math> be a finite cyclic group. "
+     "Suppose <math>G</math> is the group",
+     "REDEFINITION"),
+
+    # --- page 6: prose corrupted instead of the transcript ----------------
+    # The GAP-vs-prose check must fire whichever LAYER is edited; testing
+    # only transcript edits would leave half the check unguarded.
+    ("p6: prose flipped, transcript intact", "sample-page-6.mediawiki",
+     "<math>H_1</math> is not normal in <math>G</math>: The exchange",
+     "<math>H_1</math> is normal in <math>G</math>: The exchange",
+     # Corrupting ONE prose statement does not conflict with the transcript,
+     # because the page repeats the claim elsewhere and the surviving copies
+     # leave both polarities on record. That masking IS the defect, and it
+     # surfaces as a self-conflict rather than a GAP conflict.
+     "PROSE_SELF_CONFLICT"),
+    ("p6: unbalanced paren in prose", "sample-page-6.mediawiki",
+     "Take any nontrivial group <math>H</math>, and consider the square",
+     "Take any nontrivial group <math>H)</math>, and consider the square",
+     "UNBALANCED_MATH"),
+
+    # --- page 7: hardest structure in the set ----------------------------
+    ("p7: self-reference in a construction row", "sample-page-7.mediawiki",
+     "<math>H = C_G(K)</math>: the centralizer",
+     "<math>H</math> is the centralizer of <math>H</math>: the centralizer",
+     "SELF_REFERENCE"),
+    ("p7: malformed math tag", "sample-page-7.mediawiki",
+     "| PS3 || <math>C</math> is characteristic in <math>G</math>",
+     "| PS3 || <MATH>C</math> is characteristic in <math>G</math>",
+     "MATH_TAG_CASE"),
+    ("p7: empty math span", "sample-page-7.mediawiki",
+     "'''Given''': A finite <math>p</math>-group <math>G</math>", "'''Given''': A finite <math></math>-group <math>G</math>",
+     "MALFORMED_MATH_TAG"),
+]
+
+
+def run_extended_injection_cases():
+    failures = []
+    for name, path, old, new, sev in EXTENDED_INJECTIONS:
+        clean = Path(path).read_text()
+        if old not in clean:
+            print(f"[FAIL] inject: {name} - anchor not found")
+            failures.append(f"inject: {name} anchor missing")
+            continue
+        dirty = clean.replace(old, new, 1)
+        before = sum(1 for s_, _ in _all_issues(clean) if s_ == sev)
+        after = sum(1 for s_, _ in _all_issues(dirty) if s_ == sev)
+        ok = after > before
+        print(f"[{'OK ' if ok else 'FAIL'}] inject: {name}: {sev} "
+              f"{before} -> {after}")
+        if not ok:
+            failures.append(f"inject: {name} not caught ({sev} {before}->{after})")
+    return failures
+
+
+def run_link_cases():
+    """Cross-page chaining. The property to guard is that matching is by
+    PROPERTY, never by name - these two pages contain a trap where the
+    name-matching answer is wrong but produces the right number anyway."""
+    import link
+    failures = []
+    A_req = "nontrivial 2-subnormal subgroup of G that is not normal"
+    B = Path("sample-page-6.mediawiki").read_text()
+    cands, _ = link.match("H", A_req, B, "page-6")
+
+    # The concrete witnesses (H_1, H_2) must outrank the name twin.
+    top = cands[0]["supplier_symbol"] if cands else None
+    ok = top in ("H_1", "H_2")
+    print(f"[{'OK ' if ok else 'FAIL'}] link: concrete witness outranks name "
+          f"match -> {top}")
+    if not ok:
+        failures.append(f"link: wrong top candidate {top}")
+
+    # Page B's Statement uses H as a bound variable. It satisfies the
+    # requirement BY HYPOTHESIS, so it must be marked abstract, not offered
+    # as a witness.
+    h = [c for c in cands if c["supplier_symbol"] == "H"]
+    ok = bool(h) and h[0]["abstract"]
+    print(f"[{'OK ' if ok else 'FAIL'}] link: theorem-statement symbol marked "
+          f"abstract")
+    if not ok:
+        failures.append("link: abstract symbol not flagged")
+
+    # Negative claims must survive: without "H_1 is NOT normal in G" the
+    # requirement can never be satisfied and the whole match collapses.
+    provs = {(p["symbol"], p["ambient"]): p["properties"]
+             for p in link.provides(B)}
+    ok = "not normal in" in provs.get(("H_1", "G"), set())
+    print(f"[{'OK ' if ok else 'FAIL'}] link: negative claims preserved")
+    if not ok:
+        failures.append("link: negative claim lost")
+
+    # End to end: the chained substitution must reproduce the values derived
+    # by hand earlier in this project (|A| = 2048, |B| = 4).
+    subs, unresolved = link.build_substitution({"H": "H_1", "G": "G"}, B)
+    ok = subs == {"H": 2, "G": 8} and not unresolved
+    print(f"[{'OK ' if ok else 'FAIL'}] link: orders chained from supplier "
+          f"-> {subs}")
+    if not ok:
+        failures.append(f"link: bad substitution {subs}")
+    return failures
+
+
+def run_gapcheck_cases():
+    """A pasted GAP transcript and the prose state the same facts twice, so
+    they can be compared WITHOUT running GAP. This check exists only because
+    the page is redundant - remove either layer and it becomes impossible."""
+    import gapcheck
+    failures = []
+    t = Path("sample-page-6.mediawiki").read_text()
+
+    ok = not gapcheck.find_gap_prose_conflicts(t)
+    print(f"[{'OK ' if ok else 'FAIL'}] gapcheck: clean page has no conflict")
+    if not ok:
+        failures.append("gapcheck: false positive on clean page")
+
+    corruptions = [
+        ("flip IsNormal(G,H1)", "gap> IsNormal(G,H1);\nfalse",
+         "gap> IsNormal(G,H1);\ntrue"),
+        # H2's negative claim appears ONLY in coordinated form ("neither H_1
+        # nor H_2 is normal in G"), so this case guards the coordinated
+        # subject handling specifically.
+        ("flip IsNormal(G,H2)", "gap> IsNormal(G,H2);\nfalse",
+         "gap> IsNormal(G,H2);\ntrue"),
+        ("flip IsNormal(K,H1)", "gap> IsNormal(K,H1);\ntrue",
+         "gap> IsNormal(K,H1);\nfalse"),
+        ("flip IsNormal(G,K)", "gap> IsNormal(G,K);\ntrue",
+         "gap> IsNormal(G,K);\nfalse"),
+        ("flip IsSubgroup(G,K)", "gap> IsSubgroup(G,K);\ntrue",
+         "gap> IsSubgroup(G,K);\nfalse"),
+    ]
+    for name, old, new in corruptions:
+        dirty = t.replace(old, new)
+        if dirty == t:
+            failures.append(f"gapcheck: anchor not found for {name}")
+            print(f"[FAIL] gapcheck: anchor not found for {name}")
+            continue
+        got = bool(gapcheck.find_gap_prose_conflicts(dirty))
+        print(f"[{'OK ' if got else 'FAIL'}] gapcheck: {name} caught")
+        if not got:
+            failures.append(f"gapcheck: {name} not caught")
+
+    # Guard the specific parse bug: the single-subject pattern must not
+    # match inside "neither A nor B is ...", which would produce a bogus
+    # POSITIVE alongside the correct negative and silently disable the check.
+    claims = gapcheck.prose_claims(t)
+    h2 = {c[3] for c in claims
+          if c[0] == "normal in" and c[1].strip() == "H_2" and c[2].strip() == "G"}
+    ok = h2 == {False}
+    print(f"[{'OK ' if ok else 'FAIL'}] gapcheck: 'neither...nor' not read as "
+          f"positive -> {h2}")
+    if not ok:
+        failures.append(f"gapcheck: neither/nor polarity wrong ({h2})")
+    return failures
+
+
 def run_exempt_section_cases():
     """Related facts / Facts used sections QUOTE other results, using those
     results' own placeholder letters. Those symbols belong to a different
@@ -925,7 +1127,9 @@ def main():
     required.add("gapgen.py")
     required.add("ordercalc.py")
     required.add("overlay.py")
-    required.add("suggest.py")   # diff cases invoke it as a subprocess
+    required.add("suggest.py")
+    required.add("gapcheck.py")
+    required.add("link.py")   # diff cases invoke it as a subprocess
     missing = [p for p in required if not Path(p).exists()]
     if missing:
         print("Missing required file(s) in the current directory:")
@@ -984,6 +1188,12 @@ def main():
 
     print()
     print("=" * 70)
+    print("EXTENDED INJECTION CHECK (pages 4-7)")
+    print("=" * 70)
+    failures.extend(run_extended_injection_cases())
+
+    print()
+    print("=" * 70)
     print("PARSE-CORRECTNESS CHECK (subject attribution)")
     print("=" * 70)
     failures.extend(run_parse_cases())
@@ -1005,6 +1215,8 @@ def main():
     failures.extend(run_noise_control_cases())
     failures.extend(run_unbalanced_math_cases())
     failures.extend(run_exempt_section_cases())
+    failures.extend(run_gapcheck_cases())
+    failures.extend(run_link_cases())
 
     print()
     print("=" * 70)

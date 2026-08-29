@@ -177,6 +177,12 @@ Gating (fail a pipeline):
 - `SELF_REFERENCE` — a symbol defined in terms of itself
 - `MALFORMED_MATH_TAG` — empty, unbalanced, or crossed `<math>` delimiters;
   these corrupt span detection and turn prose into phantom variables
+- `GAP_PROSE_CONFLICT` — a pasted GAP transcript contradicts the page's own
+  prose (a flipped `true`/`false`, a stale predicate). Checked without running
+  GAP, by comparing two renderings of the same claim
+- `PROSE_SELF_CONFLICT` — the page asserts both polarities of the same claim.
+  Worth catching on its own, and it also *masks* `GAP_PROSE_CONFLICT`: while
+  both statements stand, any comparison against that claim silently passes
 - `UNBALANCED_MATH` — mismatched `()`, `{}` or `[]` inside a math span.
   MathJax renders `\Omega_1(Z(\overline{G})` without complaint, so these
   survive review indefinitely
@@ -269,6 +275,33 @@ Partial substitution works: unsupplied symbols stay in the formula
 canonical smallest instance, a group does not.
 
 ---
+
+## Chaining pages together
+
+```python
+import link
+cands, decoys = link.match("H", requirement, supplier_page_text, "page name")
+subs, unresolved = link.build_substitution({"H": "H_1", "G": "G"}, supplier_text)
+```
+
+A constructive page assumes inputs it never exhibits; another page often
+exhibits exactly those. `link.py` proposes bindings so one page's worked
+example fills another's hole, then hands the resulting orders to `ordercalc`.
+
+**Matching is by property, never by name.** These two pages contain the trap
+that makes this non-negotiable: on the 3-subnormal page `H` is the 2-subnormal
+non-normal subgroup, while on the normality page `H` is an arbitrary building
+block and `H_1` is the witness. A name-based matcher binds `H` to `H` — and
+because both have order 2 in the smallest case, the arithmetic comes out
+**right for the wrong reason**. A coincidence that yields a correct number is
+the worst failure available, since nothing downstream can detect it.
+
+Symbols in Statement / Partial truth / Corollaries sections are marked
+**abstract**: they are bound variables of a theorem and satisfy any
+requirement by hypothesis, so they are never offered as witnesses.
+
+`link.py` proposes; it does not apply. Approved bindings belong in the
+consuming page's overlay, where they persist with provenance.
 
 ## Refinement overlays
 
