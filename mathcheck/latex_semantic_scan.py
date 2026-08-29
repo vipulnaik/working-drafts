@@ -856,6 +856,45 @@ def similar(a, b, threshold=0.82):
     return difflib.SequenceMatcher(None, a.lower(), b.lower()).ratio() >= threshold
 
 
+GIVEN_COMPONENT_RE = re.compile(
+    r"(?:an?|the)\s+(?P<role>[\w -]+?)\s+SYM\((?P<sym>[^)]+)\)"
+    r"(?:\s+(?:of|with|having)\s+(?P<qualifier>[\w -]+?))?(?=\s*[,.;:]|$)",
+    re.IGNORECASE,
+)
+
+# Words carrying no distinguishing content, so useless as a citation key.
+_STOPWORDS = {"a", "an", "the", "of", "with", "size", "group", "set", "element"}
+
+
+def given_components(given_text):
+    """Split a Given block into its independent hypotheses.
+
+    "A division ring K of finite size" is a CONJUNCTION: K is a division
+    ring, and K is finite. Both are load-bearing and are typically consumed
+    at different steps. Treating the Given as atomic makes partial citation
+    invisible - the column looks used because the other component was cited.
+
+    Returns [(symbol, description, keyword)] where keyword is the
+    distinguishing word to look for in a 'Given data used' cell.
+    """
+    desugared, _ = desugar(strip_wiki_markup(given_text))
+    out = []
+    for m in GIVEN_COMPONENT_RE.finditer(desugared):
+        sym = normalize_symbol(m.group("sym"))
+        role = (m.group("role") or "").strip()
+        qual = (m.group("qualifier") or "").strip()
+
+        if role:
+            key = [w for w in role.lower().split() if w not in _STOPWORDS]
+            if key:
+                out.append((sym, f"{sym} is a {role}", key[-1]))
+        if qual:
+            key = [w for w in qual.lower().split() if w not in _STOPWORDS]
+            if key:
+                out.append((sym, f"{sym} is {qual}", key[0]))
+    return out
+
+
 def find_uncited_givens(text):
     """Advisory: a section states a Given, contains a tabular proof with a
     'Given data used' column, and no row cites anything in that column.
@@ -877,22 +916,43 @@ def find_uncited_givens(text):
     issues = []
     lines = text.split("\n")
 
-    section = None
-    section_line = 0
-    given_seen = False
-    col_index = None
-    n_rows = 0
-    n_cited = 0
-    table_line = 0
+    state = {
+        "section": None, "given_seen": False, "given_text": [],
+        "col_index": None, "n_rows": 0, "n_cited": 0,
+        "cells_text": [], "table_line": 0,
+    }
 
     def flush():
-        if given_seen and col_index is not None and n_rows and not n_cited:
+        st = state
+        if not (st["given_seen"] and st["col_index"] is not None and st["n_rows"]):
+            return
+        if not st["n_cited"]:
             issues.append((
-                "UNCITED_GIVEN", table_line,
-                f"section {section!r} states a Given, but its "
-                f"'Given data used' column is empty in all {n_rows} rows - "
+                "UNCITED_GIVEN", st["table_line"],
+                f"section {st['section']!r} states a Given, but its "
+                f"'Given data used' column is empty in all {st['n_rows']} rows - "
                 f"the step where the hypothesis is first consumed is unrecorded"
             ))
+            return
+
+        # The column IS used, but a Given may be a CONJUNCTION of several
+        # independent hypotheses ("a division ring K of finite size"), each
+        # consumed at a different step. Check each component separately -
+        # otherwise citing one makes the others look accounted for, and
+        # dropping a citation becomes invisible.
+        blob = " ".join(st["cells_text"]).lower()
+        comps = given_components(" ".join(st["given_text"]))
+        if len(comps) > 1:
+            for sym, desc, key in comps:
+                if key not in blob:
+                    issues.append((
+                        "UNCITED_GIVEN", st["table_line"],
+                        f"section {st['section']!r}: the Given includes "
+                        f"{desc!r}, but no row cites it in 'Given data used' "
+                        f"(looked for {key!r}). Other parts of the Given ARE "
+                        f"cited, so the column is in use - this component "
+                        f"alone is unaccounted for"
+                    ))
 
     for i, raw in enumerate(lines, 1):
         line = raw.strip()
@@ -900,33 +960,35 @@ def find_uncited_givens(text):
         m = HEADER_RE.match(line)
         if m:
             flush()
-            section = m.group(2).strip()
-            section_line = i
-            given_seen = False
-            col_index = None
-            n_rows = n_cited = 0
+            state.update({"section": m.group(2).strip(), "given_seen": False,
+                          "given_text": [], "col_index": None,
+                          "n_rows": 0, "n_cited": 0, "cells_text": []})
             continue
 
         if re.search(r"'''\s*Given\s*'''", line) or re.match(r"^Given\s*:", line, re.I):
-            given_seen = True
+            state["given_seen"] = True
+            state["given_text"].append(line)
 
         if line.startswith("!"):
             headers = [h.strip().lstrip("!").strip()
                        for h in re.split(r"\s*!!\s*", line.lstrip("!"))]
             for idx, h in enumerate(headers):
                 if re.search(r"given\s+data", h, re.IGNORECASE):
-                    col_index = idx
-                    table_line = i
-            n_rows = n_cited = 0
+                    state["col_index"] = idx
+                    state["table_line"] = i
+            state["n_rows"] = state["n_cited"] = 0
+            state["cells_text"] = []
             continue
 
         if line.startswith("|") and not line.startswith("|-") and not line.startswith("|}"):
-            if col_index is None:
+            if state["col_index"] is None:
                 continue
             cells = re.split(r"\s*\|\|\s*", line.lstrip("|"))
-            n_rows += 1
-            if col_index < len(cells) and cells[col_index].strip():
-                n_cited += 1
+            state["n_rows"] += 1
+            ci = state["col_index"]
+            if ci < len(cells) and cells[ci].strip():
+                state["n_cited"] += 1
+                state["cells_text"].append(cells[ci])
 
     flush()
     return issues

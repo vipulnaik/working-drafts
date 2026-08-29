@@ -147,7 +147,9 @@ Advisory (reported, never gates):
   a reader too; add commas or parentheses
 - `UNCITED_GIVEN` — a tabular proof states a Given but never cites it in the
   "Given data used" column, so the step where the hypothesis is first consumed
-  is unrecorded
+  is unrecorded. A conjunctive Given ("a division ring `K` of finite size") is
+  split into its components and each is checked separately, so dropping one
+  citation isn't masked by the other still being present
 
 Lists live at the top of `mathcheck.py` (`GATING_SEVERITIES`,
 `ADVISORY_SEVERITIES`) if you want to move something.
