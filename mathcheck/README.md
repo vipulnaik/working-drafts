@@ -161,6 +161,9 @@ Gating (fail a pipeline):
 - `SELF_REFERENCE` — a symbol defined in terms of itself
 - `MALFORMED_MATH_TAG` — empty, unbalanced, or crossed `<math>` delimiters;
   these corrupt span detection and turn prose into phantom variables
+- `UNBALANCED_MATH` — mismatched `()`, `{}` or `[]` inside a math span.
+  MathJax renders `\Omega_1(Z(\overline{G})` without complaint, so these
+  survive review indefinitely
 
 Advisory (reported, never gates):
 

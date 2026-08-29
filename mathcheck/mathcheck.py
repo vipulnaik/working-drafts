@@ -126,6 +126,7 @@ GATING_SEVERITIES = {
     "REDEFINITION",
     "SELF_REFERENCE",
     "MALFORMED_MATH_TAG",
+    "UNBALANCED_MATH",
 }
 
 ADVISORY_SEVERITIES = {
@@ -162,6 +163,10 @@ def cmd_check(args):
         issues += [
             (sev, (f"line {ln}: " if ln else "") + msg)
             for sev, ln, msg in sem.find_uncited_givens(text)
+        ]
+        issues += [
+            (sev, (f"line {ln}: " if ln else "") + msg)
+            for sev, ln, msg in sem.find_unbalanced_math(text)
         ]
         issues += sem.check_consistency(declarations, approved)
 
@@ -212,6 +217,10 @@ def _collect_semantic(text, approved, patterns_file=None):
     issues += [
         (sev, (f"line {ln}: " if ln else "") + msg)
         for sev, ln, msg in sem.find_uncited_givens(text)
+    ]
+    issues += [
+        (sev, (f"line {ln}: " if ln else "") + msg)
+        for sev, ln, msg in sem.find_unbalanced_math(text)
     ]
     if approved is not None:
         issues += sem.check_consistency(declarations, approved)

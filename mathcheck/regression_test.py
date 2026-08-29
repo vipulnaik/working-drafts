@@ -27,6 +27,7 @@ CLEAN_PAGES = {
     "sample-page-4 (potentially characteristic)": "sample-page-4.mediawiki",
     "sample-page-5 (powering-invariant, prose)": "sample-page-5.mediawiki",
     "sample-page-6 (normality not transitive)": "sample-page-6.mediawiki",
+    "sample-page-7 (critical subgroup theorem)": "sample-page-7.mediawiki",
 }
 
 # Recorded post-fix baselines. If a change pushes these UP, that's new noise.
@@ -49,7 +50,11 @@ BASELINES = {
     # Symbols G/K/H are used by convention and never formally declared,
     # which is normal for this page type - hence 3 UNDECLARED_REFERENT
     # (one per symbol, NOT one per use) plus a benign POSSIBLE_ALIAS.
-    "sample-page-6 (normality not transitive)": 4,
+    "sample-page-6 (normality not transitive)": 3,
+    # Hardest page in the set: several tables with different column
+    # schemas, bar notation, a contradiction sub-proof. Its 12 issues
+    # include 3 GENUINE unbalanced-parenthesis typos.
+    "sample-page-7 (critical subgroup theorem)": 9,
 }
 
 
@@ -461,6 +466,43 @@ def run_overlay_cases():
             failures.append("overlay: resolution helpers wrong")
     finally:
         _sh.rmtree(tmp, ignore_errors=True)
+    return failures
+
+
+def run_unbalanced_math_cases():
+    """Bracket balance. MathJax renders '\\Omega_1(Z(\\overline{G})' happily,
+    so a missing paren survives human review indefinitely - exactly the
+    class of error a mechanical check should own."""
+    failures = []
+    hits = sem.find_unbalanced_math(Path("sample-page-7.mediawiki").read_text())
+    ok = len(hits) == 3 and all(h[0] == "UNBALANCED_MATH" for h in hits)
+    print(f"[{'OK ' if ok else 'FAIL'}] unbalanced-math: 3 real typos found "
+          f"-> {[h[1] for h in hits]}")
+    if not ok:
+        failures.append(f"unbalanced-math: expected 3, got {len(hits)}")
+
+    # Clean pages must stay silent - LaTeX has \{ \} and \left( \right),
+    # so a naive matcher would false-positive everywhere.
+    for f in ("sample-page.mediawiki", "sample-page-2.mediawiki",
+              "sample-page-5.mediawiki", "sample-page-6.mediawiki"):
+        hits = sem.find_unbalanced_math(Path(f).read_text())
+        ok = not hits
+        print(f"[{'OK ' if ok else 'FAIL'}] unbalanced-math: {f} silent"
+              + ("" if ok else f" -> {hits[:1]}"))
+        if not ok:
+            failures.append(f"unbalanced-math: false positive in {f}")
+
+    # "the restriction of sigma TO H is ... of H" must not read as H being
+    # self-referential: H is the object of "to", not the subject.
+    t = ("If <math>\\sigma</math> is an automorphism, then the restriction of "
+         "<math>\\sigma</math> to <math>H</math> is a non-identity "
+         "automorphism of <math>H</math>.")
+    d = sem.extract_declarations(t, sem.DEFAULT_PATTERNS)
+    ok = not any(x["sym"] == "H" for x in d)
+    print(f"[{'OK ' if ok else 'FAIL'}] object-guard: 'to' puts a symbol in "
+          f"object position")
+    if not ok:
+        failures.append("object-guard: 'to' not handled")
     return failures
 
 
@@ -916,6 +958,7 @@ def main():
     failures.extend(run_infinite_domain_cases())
     failures.extend(run_suggest_cases())
     failures.extend(run_noise_control_cases())
+    failures.extend(run_unbalanced_math_cases())
 
     print()
     print("=" * 70)

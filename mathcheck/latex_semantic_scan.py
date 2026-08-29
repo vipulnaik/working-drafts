@@ -74,6 +74,16 @@ REL_PREPOSITIONS = ["of", "from", "in", "over", "on", "into", "onto"]
 SECOND_ARG_CONNECTORS = ["with", "and", "by"]
 
 _REL_PREP_ALT = "|".join(REL_PREPOSITIONS)
+# Prepositions that put a symbol in OBJECT position. Broader than
+# REL_PREPOSITIONS: these are only used by the guard that rejects a match
+# whose "subject" is really a preposition's object, so including a word here
+# costs nothing at matching time. "to" matters - "the restriction of sigma
+# TO H is a non-identity automorphism of H" made H look self-referential.
+OBJECT_PREPOSITIONS = REL_PREPOSITIONS + ["to", "with", "by", "under",
+                                          "for", "between", "modulo"]
+_OBJECT_PREP_RE = re.compile(
+    r"\b(?:" + "|".join(OBJECT_PREPOSITIONS) + r")\s*$", re.IGNORECASE)
+
 _SECOND_ARG_RE = re.compile(
     r"\b(?:" + "|".join(SECOND_ARG_CONNECTORS) + r")\b", re.IGNORECASE
 )
@@ -631,7 +641,7 @@ def extract_declarations(text, patterns, equation_patterns=None):
                     # (subj_role) locate the subject correctly and are exempt.
                     if "subj_role" not in gd:
                         preceding = clause[:m.start()].rstrip()
-                        if re.search(r"\b(?:" + _REL_PREP_ALT + r")\s*$", preceding, re.IGNORECASE):
+                        if _OBJECT_PREP_RE.search(preceding):
                             continue
 
                     sym = normalize_symbol(gd.get("sym", ""))
@@ -962,6 +972,37 @@ def find_infinite_domain(text):
              f"constructions on this page involve {what}; no finite "
              f"instantiation exists, so order arithmetic and GAP scaffolds "
              f"are structurally inapplicable rather than merely incomplete")]
+
+
+def find_unbalanced_math(text):
+    """Report math spans with mismatched (), {} or [].
+
+    Deterministic and cheap, and MathJax is forgiving enough that these
+    survive review: '\\Omega_1(Z(\\overline{G})' renders, so nobody notices
+    the missing paren. Gating, because a malformed expression is a defect in
+    the content rather than a matter of taste.
+
+    Counting rather than stack-matching on purpose: LaTeX uses \\{ \\} and
+    \\left( \\right) and mismatched-by-design delimiters like half-open
+    intervals, so a strict parser would produce false positives that a count
+    of each delimiter type does not.
+    """
+    issues = []
+    for m in MATH_SPAN_RE.finditer(text):
+        content = next((g for g in m.groups() if g is not None), "")
+        # \{ and \} are literal braces, not grouping - drop them first.
+        probe = re.sub(r"\\[{}\[\]()]", "", content)
+        for op, cl, name in (("(", ")", "parenthes"), ("{", "}", "brace"),
+                             ("[", "]", "bracket")):
+            n_op, n_cl = probe.count(op), probe.count(cl)
+            if n_op != n_cl:
+                line = text.count("\n", 0, m.start()) + 1
+                issues.append((
+                    "UNBALANCED_MATH", line,
+                    f"unbalanced {name}es in math: {n_op} '{op}' vs "
+                    f"{n_cl} '{cl}' in {content.strip()[:60]!r}"))
+                break
+    return issues
 
 
 def find_uncited_givens(text):
@@ -1346,11 +1387,29 @@ def check_consistency(declarations, approved_table):
     }
     items = [(d["sym"], d["meaning"], d["scope"], (d.get("role") or "").strip().lower())
              for d in declarations]
+
+    # Self-calibrating noise control: if three or more symbols in the same
+    # scope share a role, that role is a COMMON PROPERTY on this page, not
+    # evidence that two names denote one object. Pages stating generic facts
+    # ("if A is characteristic in B, and B is characteristic in D...") or
+    # proving many subgroups characteristic otherwise produce a quadratic
+    # flood of pairings that carry no information.
+    role_counts = {}
+    for sym, _, scope, role in items:
+        role_counts.setdefault((scope, role), set()).add(sym)
+    common_roles = {k for k, v in role_counts.items() if len(v) >= 3}
     for i in range(len(items)):
         for j in range(i + 1, len(items)):
             sym_a, mean_a, scope_a, role_a = items[i]
             sym_b, mean_b, scope_b, role_b = items[j]
-            if role_a in GENERIC_ROLES and role_b in GENERIC_ROLES:
+            # Head-noun match: "characteristic subgroup" is as generic as
+            # "subgroup" for this purpose.
+            head_a = role_a.split()[-1] if role_a else ""
+            head_b = role_b.split()[-1] if role_b else ""
+            if head_a in GENERIC_ROLES and head_b in GENERIC_ROLES:
+                continue
+            if ((scope_a, role_a) in common_roles
+                    or (scope_b, role_b) in common_roles):
                 continue
             if (sym_a != sym_b
                     and scopes_related(scope_a, scope_b)
