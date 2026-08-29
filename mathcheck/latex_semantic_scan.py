@@ -181,6 +181,14 @@ VERBLESS_PATTERNS = [
         # "a subgroup H of a group G" introduces G too.
         "also_declares_rel": True,
     },
+    # "a collection H_i of 2-subnormal subgroups of G" - a two-level
+    # description, where the symbol's own role ("collection") is followed by
+    # what it is a collection OF before the ambient group appears.
+    {
+        "regex": r"(?:[,;:]|\bfor\b|\bgiven\b|\bare\b)\s+(?:an?|the)\s+(?P<role>[\w -]+?)\s+SYM\((?P<sym>[^)]+)\)"
+                 r"\s+of\s+(?P<of_what>[\w -]+?)\s+of\s+SYM\((?P<rel>[^)]+)\)",
+        "template": "{sym} is a {role} of {of_what}",
+    },
     # same, but the target has no descriptor: "a normal subgroup H of G"
     {
         "regex": r"(?:[,;:]|\bfor\b|\bgiven\b|\bare\b)\s+(?:an?|the)\s+(?P<role>[\w -]+?)\s+SYM\((?P<sym>[^)]+)\)"
@@ -582,6 +590,14 @@ def scope_label(scope_path):
     return " > ".join(scope_path) if scope_path else "(page top)"
 
 
+# "H_i, i \in I" is one math span holding a symbol AND its index
+# specification. The symbol being declared is H_i; the rest says what i
+# ranges over. Without stripping it, the declared symbol is the whole
+# string and every later mention of H_i looks undeclared.
+INDEX_SPEC_RE = re.compile(
+    r"\s*,\s*\w+\s*(?:\\in|\\ge|\\le|=|>|<)\s*\S.*$")
+
+
 def normalize_symbol(raw):
     """Strip outer whitespace and common no-op wrapping so 'G' and ' G '
     and '{G}' collapse to the same key. Deliberately shallow - reuses the
@@ -589,6 +605,7 @@ def normalize_symbol(raw):
     here to avoid a hard dependency between the two scripts."""
     s = raw.strip()
     s = re.sub(r"^\{(.*)\}$", r"\1", s)
+    s = INDEX_SPEC_RE.sub("", s).strip()
     return s
 
 
@@ -668,7 +685,13 @@ def extract_declarations(text, patterns, equation_patterns=None):
                     role = (gd.get("role") or "").strip()
                     rel = normalize_symbol(gd.get("rel", "")) if gd.get("rel") else None
                     prep = (gd.get("prep") or "of").strip()
-                    meaning = pat["template"].format(sym=sym, role=role, rel=rel, prep=prep)
+                    fmt = {"sym": sym, "role": role, "rel": rel, "prep": prep}
+                    # Patterns may capture extra named groups (of_what,
+                    # name, subj_role); pass them all so a template can use
+                    # any of them without a KeyError.
+                    for k, v in gd.items():
+                        fmt.setdefault(k, (v or "").strip())
+                    meaning = pat["template"].format(**fmt)
 
                     # "of A with B" (e.g. "wreath product of the group of
                     # prime order with W") is a two-argument construction,

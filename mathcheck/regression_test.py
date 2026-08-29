@@ -29,6 +29,7 @@ CLEAN_PAGES = {
     "sample-page-6 (normality not transitive)": "sample-page-6.mediawiki",
     "sample-page-7 (critical subgroup theorem)": "sample-page-7.mediawiki",
     "sample-page-8 (S3 element structure, data)": "sample-page-8.mediawiki",
+    "sample-page-9 (2-subnormal intersection)": "sample-page-9.mediawiki",
 }
 
 # Recorded post-fix baselines. If a change pushes these UP, that's new noise.
@@ -58,9 +59,14 @@ BASELINES = {
     "sample-page-7 (critical subgroup theorem)": 6,
     # A "specific information" page: dense data tables, no proof, almost no
     # prose declarations. The declaration machinery finds little here; the
-    # value is in text-level checks and arithmetic. All 7 issues are real
-    # (cosmetic) <matH> typos.
-    "sample-page-8 (S3 element structure, data)": 7,
+    # value is in text-level checks and arithmetic. 10 of the 13 issues are
+    # real (cosmetic) <matH> typos; 3 are UNDECLARED_REFERENT for the family
+    # parameter q, which the page uses throughout without ever declaring.
+    "sample-page-8 (S3 element structure, data)": 13,
+    # A short, well-worn proof page. Zero issues - the only page in the set
+    # that comes back completely clean, which makes it the best guard
+    # against a change that starts emitting spurious findings.
+    "sample-page-9 (2-subnormal intersection)": 0,
 }
 
 
@@ -303,6 +309,13 @@ def run_parse_cases():
         ("appositive naming with nested parens",
          "Suppose <math>G</math> is the group <math>GA^+(1,\\R)</math>, "
          "given explicitly as linear maps.", "G", None, False, []),
+        # "H_i, i \\in I" is one span holding a symbol AND its index range.
+        # Without stripping the range, the declared symbol is the whole
+        # string and every later mention of H_i looks undeclared.
+        ("indexed family strips its index spec",
+         (chr(39) * 3) + "Given" + (chr(39) * 3) + ": A group <math>G</math>, "
+         "a collection <math>H_i, i \\in I</math> of 2-subnormal subgroups "
+         "of <math>G</math>.", "H_i", None, False, []),
         ("plain subject unaffected",
          "Let <math>H</math> be a subgroup of a finite group <math>G</math>.",
          "H", "G", False, []),
@@ -490,6 +503,7 @@ def _all_issues(text, approved=None):
     out += [(sev, m) for sev, _, m in _a.find_arithmetic_errors(text)]
     import tablecheck as _tc
     out += [(sev, m) for sev, _, m in _tc.find_table_inconsistencies(text)]
+    out += [(sev, m) for sev, _, m in _tc.find_probability_errors(text)]
     out += sem.check_consistency(
         decls, approved if approved is not None else sem.build_draft_table(decls))
     return out
@@ -679,6 +693,30 @@ def run_tablecheck_cases():
         print(f"[{'OK ' if got else 'FAIL'}] table: {name} caught")
         if not got:
             failures.append(f"table: {name} not caught")
+
+    # A "total probability" column states a complete distribution and must
+    # sum to 1 - checkable with no Total row at all. The per-element column
+    # beside it sums to 3/4, so a loose "probability" match would fire
+    # confidently and wrongly.
+    prob_cases = [
+        ("total probability column broken",
+         "| 3 || <math>(1,2,3), (1,3,2)</math> || 9 || 1/4 || 18 || 1/2 ||",
+         "| 3 || <math>(1,2,3), (1,3,2)</math> || 9 || 1/4 || 18 || 1/4 ||"),
+    ]
+    for name, old, new in prob_cases:
+        if old not in t:
+            print(f"[FAIL] table: anchor missing for {name}")
+            failures.append(f"table: anchor missing {name}")
+            continue
+        got = bool(tc.find_probability_errors(t.replace(old, new, 1)))
+        print(f"[{'OK ' if got else 'FAIL'}] table: {name} caught")
+        if not got:
+            failures.append(f"table: {name} not caught")
+    ok = not tc.find_probability_errors(t)
+    print(f"[{'OK ' if ok else 'FAIL'}] table: per-element probability column "
+          f"not mistaken for a distribution")
+    if not ok:
+        failures.append("table: probability false positive")
 
     # Proof pages have tables whose columns are prose and formulas. Nothing
     # there is a summary row, and guessing would be worse than silence.

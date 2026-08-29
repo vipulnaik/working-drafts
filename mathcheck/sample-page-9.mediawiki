@@ -1,0 +1,31 @@
+{{subgroup metaproperty satisfaction|
+property = 2-subnormal subgroup|
+metaproperty = strongly intersection-closed subgroup property}}
+
+==Statement==
+
+An arbitrary intersection of 2-subnormal subgroups of a group is 2-subnormal.
+
+==Related facts==
+
+* [[Normality is strongly intersection-closed]]
+* [[Subnormality of bounded depth is strongly intersection-closed]]
+* [[Subnormality is not intersection-closed]]
+* [[Normality is strongly UL-intersection-closed]]
+
+==Facts used==
+
+# [[uses::Normality is strongly intersection-closed]]: An arbitrary intersection of normal subgroups is normal.
+# [[uses::Normality is strongly UL-intersection-closed]]: If <math>H_i \le K_i \le G</math> are subgroups for <math>i \in I</math> and <math>H_i</math> is normal in <math>K_i</math> for each <math>i \in I</math>, then the intersection of the <math>H_i</math>s is normal in the intersection of the <math>K_i</math>s.
+
+==Proof==
+
+'''Given''': A group <math>G</math>, a collection <math>H_i, i \in I</math> of 2-subnormal subgroups of <math>G</math>.
+
+'''To prove''': The intersection <math>\bigcap_{i \in I} H_i</math> is also a 2-subnormal subgroup of <math>G</math>.
+
+'''Proof''': Let <math>K_i</math> be the normal closure of <math>H_i</math> in <math>G</math>. Thus, each <math>K_i</math> is normal in <math>G</math>. Note that, by the definition of 2-subnormality, <math>H_i</math> is normal in <math>K_i</math> for each <math>i \in I</math>.
+
+Let <math>H</math> be the intersection of the <math>H_i</math>s and <math>K</math> be the intersection of the <math>K_i</math>. By Fact (1), <math>K</math> is normal in <math>G</math>. By Fact (2), <math>H</math> is normal in <math>K</math>. Thus, <math>H</math> is 2-subnormal in <math>G</math>.
+
+(Note that <math>K</math> is not necessarily the normal closure of <math>H</math> in <math>G</math> -- we can only say that it contains the normal closure of <math>H</math> in <math>G</math>.)
