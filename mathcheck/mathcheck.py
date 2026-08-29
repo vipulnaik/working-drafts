@@ -47,6 +47,7 @@ from pathlib import Path
 import latex_var_scan as syn
 import latex_semantic_scan as sem
 import suggest as sug
+import gapcheck as gc
 
 
 def cmd_syntax(args):
@@ -127,6 +128,8 @@ GATING_SEVERITIES = {
     "SELF_REFERENCE",
     "MALFORMED_MATH_TAG",
     "UNBALANCED_MATH",
+    "GAP_PROSE_CONFLICT",
+    "PROSE_SELF_CONFLICT",
 }
 
 ADVISORY_SEVERITIES = {
@@ -167,6 +170,14 @@ def cmd_check(args):
         issues += [
             (sev, (f"line {ln}: " if ln else "") + msg)
             for sev, ln, msg in sem.find_unbalanced_math(text)
+        ]
+        issues += [
+            (sev, (f"line {ln}: " if ln else "") + msg)
+            for sev, ln, msg in gc.find_gap_prose_conflicts(text)
+        ]
+        issues += [
+            (sev, (f"line {ln}: " if ln else "") + msg)
+            for sev, ln, msg in gc.find_prose_self_conflicts(text)
         ]
         issues += sem.check_consistency(declarations, approved)
 
@@ -221,6 +232,14 @@ def _collect_semantic(text, approved, patterns_file=None):
     issues += [
         (sev, (f"line {ln}: " if ln else "") + msg)
         for sev, ln, msg in sem.find_unbalanced_math(text)
+    ]
+    issues += [
+        (sev, (f"line {ln}: " if ln else "") + msg)
+        for sev, ln, msg in gc.find_gap_prose_conflicts(text)
+    ]
+    issues += [
+        (sev, (f"line {ln}: " if ln else "") + msg)
+        for sev, ln, msg in gc.find_prose_self_conflicts(text)
     ]
     if approved is not None:
         issues += sem.check_consistency(declarations, approved)
