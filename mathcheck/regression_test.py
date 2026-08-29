@@ -364,6 +364,61 @@ def run_verbless_cases():
 
 
 
+
+def run_overlay_cases():
+    """The overlay exists so refinement is CUMULATIVE. The property that
+    matters is that user-owned fields survive re-extraction, including
+    across a page edit that changes the stated wording."""
+    import overlay as ov
+    import tempfile, shutil as _sh
+    failures = []
+    tmp = Path(tempfile.mkdtemp(prefix="overlay-"))
+    try:
+        text = Path("sample-page-4.mediawiki").read_text()
+        merged, _ = ov.merge({}, text)
+        ok = "S" in merged and merged["S"]["required"] is None
+        print(f"[{'OK ' if ok else 'FAIL'}] overlay: init leaves 'required' unset")
+        if not ok:
+            failures.append("overlay: init did not create S cleanly")
+
+        # user refines
+        merged["S"]["required"] = "centerless, no nontrivial image embeds in G"
+        merged["S"]["order"] = 60
+        merged["S"]["chosen"] = "AlternatingGroup(5)"
+
+        # re-run against the SAME page: refinement must persist
+        again, delta = ov.merge(merged, text)
+        ok = (again["S"]["required"] and again["S"]["order"] == 60
+              and not delta["changed"])
+        print(f"[{'OK ' if ok else 'FAIL'}] overlay: refinement survives re-init")
+        if not ok:
+            failures.append("overlay: refinement lost on re-init")
+
+        # re-run against an EDITED page: refinement persists AND is flagged
+        edited = text.replace(
+            "a simple non-abelian group that is not isomorphic to any subgroup of",
+            "a centerless group with no nontrivial homomorphic image embedding in")
+        after, delta2 = ov.merge(merged, edited)
+        ok = (after["S"]["order"] == 60
+              and "stated_previous" in after["S"]
+              and "S" in delta2["changed"])
+        print(f"[{'OK ' if ok else 'FAIL'}] overlay: page edit preserves "
+              f"refinement and flags re-check")
+        if not ok:
+            failures.append("overlay: page edit mishandled")
+
+        # consumers read it
+        ok = ov.resolved_orders(merged).get("S") == 60
+        ok = ok and ov.resolved_choices(merged).get("S") == "AlternatingGroup(5)"
+        print(f"[{'OK ' if ok else 'FAIL'}] overlay: consumers can resolve "
+              f"orders and choices")
+        if not ok:
+            failures.append("overlay: resolution helpers wrong")
+    finally:
+        _sh.rmtree(tmp, ignore_errors=True)
+    return failures
+
+
 def run_ordercalc_cases():
     """Order formulas checked against HAND-DERIVED expectations, written
     from the mathematics rather than read off the tool's output."""
@@ -605,7 +660,8 @@ def main():
     required |= {c[1] for c in DIFF_CASES}
     required.add("mathcheck.py")
     required.add("gapgen.py")
-    required.add("ordercalc.py")   # diff cases invoke it as a subprocess
+    required.add("ordercalc.py")
+    required.add("overlay.py")   # diff cases invoke it as a subprocess
     missing = [p for p in required if not Path(p).exists()]
     if missing:
         print("Missing required file(s) in the current directory:")
@@ -667,6 +723,12 @@ def main():
     print("PARSE-CORRECTNESS CHECK (subject attribution)")
     print("=" * 70)
     failures.extend(run_parse_cases())
+
+    print()
+    print("=" * 70)
+    print("OVERLAY CHECK (cumulative refinement)")
+    print("=" * 70)
+    failures.extend(run_overlay_cases())
 
     print()
     print("=" * 70)

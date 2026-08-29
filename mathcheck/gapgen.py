@@ -50,6 +50,7 @@ import sys
 from pathlib import Path
 
 import latex_semantic_scan as sem
+import overlay as ov
 
 
 # --------------------------------------------------------------------------
@@ -299,9 +300,19 @@ def render(model, source):
         add("# (none detected)")
     for e in model["inputs"]:
         add(f"# {e['sym']}: {e['meaning']}")
-        add(f"#   hint: {e['hint']}")
+        if e.get("required"):
+            add(f"#   ACTUALLY REQUIRED: {e['required']}")
+            add(f"#     (weaker than the page's stated condition above; the "
+                f"instance need only satisfy this)")
+        if e.get("case"):
+            add(f"#   case note: {e['case']}")
+        if not e.get("chosen"):
+            add(f"#   hint: {e['hint']}")
         add(f"#   from: {e['sentence'][:88]}")
-        add(f"{e['gap_name']} := fail;   # TODO supply")
+        if e.get("chosen"):
+            add(f"{e['gap_name']} := {e['chosen']};   # from overlay")
+        else:
+            add(f"{e['gap_name']} := fail;   # TODO supply")
         add("")
 
     add("# " + "=" * 68)
@@ -354,12 +365,31 @@ def main():
     ap.add_argument("file")
     ap.add_argument("--section", default=None,
                     help="Restrict to sections whose name contains this string")
+    ap.add_argument("--overlay", default=None,
+                    help="Persisted refinement overlay (see overlay.py). "
+                         "A 'chosen' entry fills that symbol's hole; a "
+                         "'required' entry is shown instead of the page's "
+                         "stated condition, since it is what actually "
+                         "constrains the instance.")
     ap.add_argument("--json", action="store_true",
                     help="Machine-readable model (holes and all) for an LLM")
     args = ap.parse_args()
 
     text = Path(args.file).read_text()
     model = build(text, args.section)
+
+    if args.overlay:
+        data = ov.load(args.overlay)
+        for e in model["inputs"]:
+            entry = data.get(e["sym"])
+            if not entry:
+                continue
+            if entry.get("required"):
+                e["required"] = entry["required"]
+            if entry.get("chosen"):
+                e["chosen"] = entry["chosen"]
+            if entry.get("case"):
+                e["case"] = entry["case"]
 
     if args.json:
         print(json.dumps(model, indent=2, ensure_ascii=False))

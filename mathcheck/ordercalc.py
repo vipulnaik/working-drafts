@@ -44,6 +44,7 @@ from pathlib import Path
 import sympy as sp
 
 import latex_semantic_scan as sem
+import overlay as ov
 
 
 # --------------------------------------------------------------------------
@@ -264,6 +265,17 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("file")
     ap.add_argument("--json", action="store_true")
+    ap.add_argument("--assume", action="append", default=[], metavar="SYM=VAL",
+                    help="Supply a known order, e.g. --assume G=8 --assume H=2. "
+                         "Use the bare symbol name; |G| is written G.")
+    ap.add_argument("--overlay", default=None,
+                    help="Persisted refinement overlay (see overlay.py). "
+                         "Supplies orders without retyping --assume; "
+                         "explicit --assume still wins.")
+    ap.add_argument("--minimal", action="store_true",
+                    help="Fill unsupplied scalars with their smallest legal "
+                         "value (prime -> 2, odd prime -> 3). Group orders are "
+                         "NOT guessed: there is no canonical smallest group.")
     args = ap.parse_args()
 
     text = Path(args.file).read_text()
@@ -276,6 +288,39 @@ def main():
                          indent=2, ensure_ascii=False))
         return 0
 
+    # Substitution. Group orders must be supplied explicitly - unlike a
+    # prime, a group has no canonical smallest instance, and the pages'
+    # constraints ("2-subnormal but not normal") are not expressible here.
+    subs = {}
+    # Overlay first, so an explicit --assume on the command line overrides it.
+    if args.overlay:
+        for k, v in ov.resolved_orders(ov.load(args.overlay)).items():
+            target = free.get(re.sub(r"[^\w]", "", k))
+            if target is not None:
+                subs[target] = sp.sympify(v)
+    for a in args.assume:
+        if "=" not in a:
+            print(f"bad --assume {a!r}, expected SYM=VALUE", file=sys.stderr)
+            return 2
+        k, v = a.split("=", 1)
+        k, v = k.strip(), v.strip()
+        target = free.get(k)
+        if target is None:
+            print(f"# warning: no symbol {k!r} on this page "
+                  f"(known: {', '.join(sorted(free))})", file=sys.stderr)
+            continue
+        subs[target] = sp.sympify(v)
+
+    if args.minimal:
+        for k, sym in free.items():
+            if sym in subs or str(sym).startswith("ord_"):
+                continue
+            lowered = k.lower()
+            if "oddprime" in lowered or lowered in ("q",):
+                subs.setdefault(sym, sp.Integer(3))
+            else:
+                subs.setdefault(sym, sp.Integer(2))
+
     print(f"# order analysis of {args.file}\n")
     def show(expr_str):
         for k, v in sorted(display.items(), key=lambda kv: -len(kv[0])):
@@ -286,11 +331,24 @@ def main():
     for k in sorted(free):
         print(f"    {display.get(str(free[k]), str(free[k]))}")
     print()
+    if subs:
+        print("Assumed:")
+        for k, v in subs.items():
+            print(f"    {display.get(str(k), str(k))} = {v}")
+        print()
+
     for r in results:
         sc = r["scope"][-1] if r["scope"] else "top"
         mark = "" if r["inferrable"] else "   [not inferrable]"
         print(f"[{sc}] {r['symbol']} = {r['expression']}")
         print(f"        |{r['symbol']}| = {show(r['order'])}{mark}")
+        if subs and r["inferrable"]:
+            val = sp.simplify(sp.sympify(r["order"],
+                                         locals={str(x): x for x in free.values()}).subs(subs))
+            if val.free_symbols:
+                print(f"          with assumptions: {show(sp.sstr(val))}")
+            else:
+                print(f"          = {val}")
         if not r["inferrable"]:
             print(f"        reason: {r['reason']}")
     print(f"\n-- {sum(1 for r in results if r['inferrable'])} of "
