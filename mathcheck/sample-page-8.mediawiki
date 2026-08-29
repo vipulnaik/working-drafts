@@ -5,7 +5,30 @@ information type = element structure|
 group = symmetric group:S3|
 connective = of}}
 
-This article discusses [[symmetric group:S3]], the symmetric group of degree three.
+This article discusses [[symmetric group:S3]], the symmetric group of degree three. We denote its elements as acting on the set <math>\{ 1,2,3 \}</math>, written using [[cycle decomposition]]s, with composition by function composition where functions act on the left. The multiplication table is given below. The convention followed here is that the row element is multiplied on the left and the column element is multiplied on the right. Since functions are assumed to act on the left, this implies that the column element is the permutation that operates first:
+
+<section begin="multiplication table"/>
+{| class="sortable" border="1"
+!Element !! <math>()</math>!! <math>(1, 2)</math> !! <math>(2, 3)</math> !! <math>(1, 3)</math> !! <math>(1, 2, 3)</math> !! <math>(1, 3, 2)</math>
+|-
+|<math>()</math> || <math>()</math> || <math>(1, 2)</math> || <math>(2, 3)</math> || <math>(1, 3)</math> || <math>(1, 2, 3)</math> || <math>(1, 3, 2)</math>
+|-
+|<math>(1, 2)</math> || <math>(1, 2)</math> || <math>()</math> || <math>(1, 2, 3)</math> || <math>(1, 3, 2)</math> || <math>(2, 3)</math> || <math>(1, 3)</math>
+|-
+|<math>(2, 3)</math> || <math>(2, 3)</math> || <math>(1, 3, 2)</math>|| <math>()</math> || <math>(1, 2, 3)</math> || <math>(1, 3)</math> || <math>(1, 2)</math>
+|-
+|<math>(1, 3)</math> || <math>(1, 3)</math> || <math>(1, 2, 3)</math> || <math>(1, 3, 2)</math> || <math>()</math> || <math>(1, 2)</math> || <math>(2, 3)</math>
+|-
+| <math>(1, 2, 3)</math> || <math>(1, 2, 3)</math> || <math>(1, 3)</math> || <math>(1, 2)</math> || <math>(2, 3)</math> || <math>(1, 3, 2)</math> || <math>()</math>
+|-
+| <math>(1, 3, 2)</math> || <math>(1, 3, 2)</math> || <math>(2, 3)</math> || <math>(1, 3)</math> || <math>(1, 2)</math> || <math>()</math> || <math>(1, 2, 3)</math>
+|}
+<section end="multiplication table"/>
+If we assume functions to act on the right, then the multiplication table constructed must be interpreted taking the row element as the element multiplied on the right and the column element as the element multiplied on the left.
+
+For a complete explanation of how this multiplication table can be constructed, see the survey article [[construction of multiplication table of symmetric group:S3]].
+
+This article focuses on the basic abstract group structure and key attributes. For more on the combinatorics that arises specifically from its being a symmetric group, see [[combinatorics of symmetric group:S3]].
 
 ==Summary==
 
@@ -28,10 +51,55 @@ This article discusses [[symmetric group:S3]], the symmetric group of degree thr
 |-
 | [[symmetric group]] <math>S_n</math> of degree <math>n</math>|| degree <math>n = 3</math>, i.e., <matH>S_3</math> || [[element structure of symmetric groups]]
 |-
+| [[general linear group of degree two]] <math>GL(2,q)</math> over a [[finite field]] of size a prime power <math>q</math>. || [[prime power]] <math>q = 2</math>, i.e., [[field:F2]]: The group is <math>GL(2,2)</math> || [[element structure of general linear group of degree two over a finite field]]
+|-
 | [[dihedral group]] <math>D_{2n}</math> of degree <math>n</math>, order <math>2n</math>|| degree <matH>n = 3</math>, order <matH>2n = 6</math>, i.e., the group <math>D_6</math> || [[element structure of dihedral groups]]
+|-
+| [[general affine group of degree one]] <math>GA(1,q)</math> over a [[finite field]] of size a prime power <math>q</math>.|| [[prime power]] <math>q = 3</math>, i.e., [[field:F3]], so the group is <math>GA(1,q)</math>. || [[element structure of general affine group of degree one over a finite field]]
 |}
 
+Note: By [[isomorphism between linear groups over field:F2]], we obtain that all the groups <math>GL(2,2)</math>, <math>SL(2,2)</math>, <math>PGL(2,2)</math>, and <math>PSL(2,2)</math> are isomorphic to each other, and hence to <math>S_3</math>. Hence, we can also study <math>S_3</math> in terms of [[element structure of projective general linear group of degree two over a finite field]], [[element structure of special linear group of degree two over a finite field]], and [[element structure of projective special linear group of degree two over a finite field]].
+
 ==Elements==
+
+===Multiple ways of describing permutations===
+
+<section begin="elements"/>
+{| class="sortable" border="1"
+! Cycle decomposition notation (cycles for fixed points are omitted)!! One-line notation, i.e., image of string <math>1,2,3</math> !! Order !! Matrix (left action convention) !! Matrix (right action convention) !! Comment
+|-
+| <math>()</math> || 123 || 1 || <math>\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \\\end{pmatrix}</math> || <math>\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \\\end{pmatrix}</math> || The matrices are the same for the identity element.
+|-
+| <math>(1,2)</math> || 213 || 2 || <math>\begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 1 \\\end{pmatrix}</math> || <math>\begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 1 \\\end{pmatrix}</math> || The matrices are the same, since the element has order 2.
+|-
+| <math>(2,3)</math> || 132 || 2 || <math>\begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 1 \\ 0 & 1 & 0 \\\end{pmatrix}</math> || <math>\begin{pmatrix} 1 & 0 & 0 \\ 0 & 0 & 1 \\ 0 & 1 & 0 \\\end{pmatrix}</math> || The matrices are the same, since the element has order 2.
+|-
+| <math>(1,3)</math> || 321 || 2 || <math>\begin{pmatrix} 0 & 0 & 1\\0 & 1 & 0 \\1 & 0 & 0\\\end{pmatrix}</math> || <math>\begin{pmatrix} 0 & 0 & 1\\0 & 1 & 0 \\1 & 0 & 0\\\end{pmatrix}</math> || The matrices are the same, since the element has order 2.
+|-
+| <math>(1,2,3)</math> || 231 || 3 || <math>\begin{pmatrix} 0 & 0 & 1 \\ 1 & 0 & 0 \\ 0 & 1 & 0 \\\end{pmatrix}</math>  || <math>\begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 1 & 0 & 0\\\end{pmatrix}</math> || The matrices are transposes of each other, and are not equal to each other, since the element does ''not'' have order 2.
+|-
+| <math>(1,3,2)</math> || 312 || 3 || <math>\begin{pmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 1 & 0 & 0\\\end{pmatrix}</math> || <math>\begin{pmatrix} 0 & 0 & 1 \\ 1 & 0 & 0 \\ 0 & 1 & 0 \\\end{pmatrix}</math> || The matrices are transposes of each other, and are not equal to each other, since the element does ''not'' have order 2.
+|}
+<section end="elements"/>
+Here is the multiplication table using the one-line notation:
+
+<section begin="multiplication table in one-line notation"/>
+{| class="sortable" border="1"
+!Element !! 123 !! 213 !! 132 !! 321 !! 231 !! 312
+|-
+| 123 || 123 || 213 || 132 || 321 || 231 || 312
+|-
+| 213 || 213 || 123 || 231 || 312 || 132 || 321
+|-
+| 132 || 132 || 312 || 123 || 231 || 321 || 213
+|-
+| 321 || 321 || 231 || 312 || 123 || 213 || 132
+|-
+| 231 || 231 || 321 || 213 || 132 || 312 || 123
+|-
+| 312 || 312 || 132 || 321 || 213 || 123 || 231
+|}
+<section end="multiplication table in one-line notation"/>
 
 ===Order computation===
 
@@ -40,15 +108,15 @@ The symmetric group of degree three has order 6. Below are listed various method
 {| class="sortable" border="1"
 ! Family !! Parameter values !! Formula for order of a group in the family !! Proof or justification of formula !! Evaluation at parameter values !! Full interpretation of conjugacy class structure
 |-
-| [[symmetric group]] <math>S_n</math> of degree <math>n</math> || degree <math>n = 3</math> || <math>n!</math> || See [[symmetric group]] || <math>3! = 3 \cdot 2 \cdot 1 = 6</math> || [[#Interpretation as symmetric group]]
+| [[symmetric group]] <math>S_n</math> of degree <math>n</math> || degree <math>n = 3</math> || <math>n!</math> || See [[symmetric group]], [[element structure of symmetric groups]] || <math>3! = 3 \cdot 2 \cdot 1 = 6</math> || [[#Interpretation as symmetric group]]
 |-
-| [[general linear group]] <math>GL(2,q)</math> over a finite field of size <math>q</math> || <math>q = 2</math>, i.e., [[field:F2]] || <math>(q^2 - 1)(q^2 - q)</math> || [[order formulas for linear groups of degree two]] || <math>(2^2 - 1)(2^2 - 2) = (3)(2) = 6</math> || [[#Interpretation as general linear group of degree two]]
+| [[general linear group]] of [[general linear group of degree two|degree two]] <math>GL(2,q)</math> over a finite field of size <math>q</math> || <math>q = 2</math>, i.e., [[field:F2]] || <math>(q^2 - 1)(q^2 - q)</math> || [[order formulas for linear groups of degree two]]. See also [[element structure of general linear group of degree two over a finite field]] || <math>(2^2 - 1)(2^2 - 2) = (3)(2) = 6</math> || [[#Interpretation as general linear group of degree two]]
 |-
-| [[dihedral group]] <math>D_{2n}</math> of degree <math>n</math>, order <matH>2n</math> || <math>n = 3</math> || <math>2n</math> || By definition. || <math>2n = 2(3) = 6</math> || [[#Interpretation as dihedral group]]
+| [[dihedral group]] <math>D_{2n}</math> of degree <math>n</math>, order <matH>2n</math> || <math>n = 3</math> || <math>2n</math> || By definition. See also [[element structure of dihedral groups]] || <math>2n = 2(3) = 6</math> || [[#Interpretation as dihedral group]]
 |-
-| [[general affine group]] <math>GA(1,q)</math> over a finite field of size <math>q</math> || <math>q = 3</math>, i.e., [[field:F3]] || <math>q(q - 1)</math> || [[element structure of general affine group of degree one over a finite field]]. || <math>q(q - 1) = 3(3 - 1) = 3(2) = 6</math> || [[#Interpretation as general affine group of degree one]]
+| [[general affine group]] of [[general affine group of degree one|degree one]] <math>GA(1,q)</math> over a finite field of size <math>q</math> || <math>q = 3</math>, i.e., [[field:F3]] || <math>q(q - 1)</math> || [[element structure of general affine group of degree one over a finite field]]. || <math>q(q - 1) = 3(3 - 1) = 3(2) = 6</math> || [[#Interpretation as general affine group of degree one]]
 |-
-| [[general semilinear group]] <math>\Gamma L(1,q)</math> over a finite field of size <math>q = p^r</math>, <math>p</math> prime || <math>p = 2, r = 2, q = 4</math>, i.e., [[field:F4]] || <math>r(q - 1)</math> || [[order formulas for linear groups of degree one]] || <math>2(4 - 1) = 2(3) = 6</math> || [[#Interpretation as general semilinear group of degree one]]
+| [[general semilinear group]] of [[general semilinear group of degree one|degree one]] <math>\Gamma L(1,q)</math> over a finite field of size <math>q = p^r</math>, <math>p</math> prime || <math>p = 2, r = 2, q = 4</math>, i.e., [[field:F4]] || <math>r(q - 1)</math> || [[order formulas for linear groups of degree one]], see also [[element structure of general semilinear group of degree one over a finite field]] || <math>2(4 - 1) = 2(3) = 6</math> || [[#Interpretation as general semilinear group of degree one]]
 |}
 
 ====Computation of prime powers in order====
@@ -57,13 +125,100 @@ The prime factorization of the order is:
 
 <math>6 = 2^1 \cdot 3^1</math>
 
+{| class="sortable" border="1"
+! Family !! Parameter values !! Formula for order of a group in the family !! Formula for the largest power of a generic prime <math>\ell</math> dividing the order !! Case <math>\ell = 2</math> (answer should be 1) !! Case <math>\ell = 3</math> (answer should be 1) !! Case <math>\ell \ge 5</math> (answer should be 0)
+|-
+| [[symmetric group]] <math>S_n</math> of degree <math>n</math> || degree <math>n = 3</math> || <math>n!</math> || <math>\sum_{k=1}^{\lfloor \log_\ell n\rfloor} \lfloor \frac{n}{\ell^k}\rfloor</math> || <math>\lfloor\frac{3}{2^1}\rfloor = 1</math> || <math>\lfloor \frac{3}{3^1} \rfloor= 1</math> || no summands, so sum is 0
+|-
+| [[projective general linear group]] of [[projective general linear group of degree two|degree two]] over a [[finite field]] of size <math>q</math> || size <math>q = 2</math>, i.e., [[field:F2]], so the group is <math>PGL(2,2)</math> || <math>q^3 - q</math><br>In factored form: <math>q(q - 1)(q + 1)</math> || If <math>\ell</math> is the underlying prime of <math>q</math>, then <math>\log_\ell q</math>. <br>If <math>\ell = 2</math> and <math>q \equiv 1 \pmod 4</math>, then 1 + the exponent for the largest power of 2 dividing <math> q -1</math>.<br>If <math>\ell = 2</math> and <math>q \equiv -1 \pmod 4</math>, then 1 + the exponent for the largest power of 2 dividing <math>q + 1</math>.<br>Otherwise, if <math>\ell</math> divides <math>q - 1</math> or <math>q + 1</math> (can't divide both) the exponent for the largest power dividing that. If it divides neither, then zero. || Here, <math>\ell = 2</math> is the underlying prime of <math>q = 2</math>, so <math>\log_\ell q = \log_2 2 = 1</math>. || This is the case <math>\ell = 3</math> divides <math>q + 1 = 2 + 1 = 3</math>, and the power is 1.|| Since 2 - 1 = 1 and 2 + 1 = 3 have no prime divisors other than 3, there are no primes involved other than 2 and 3.
+|-
+| [[dihedral group]] of degree <math>n</math>, order <math>2n</math> || degree <math>n = 3</math>, order <math>2n = 6</math> || <math>2n</math> || largest power of <math>\ell</math> dividing <math>2n</math>. || 1 || 1 || no higher prime divides 6.
+|-
+| [[general affine group]] of [[general affine group of degree one|degree one]] <math>GA(1,q)</math> over a [[finite field]] of size <math>q</math> || <math>q = 3</math>, i.e., [[field:F3]]. || <math>q(q - 1)</math> || if <math>\ell</math> is the underlying prime of <math>q</math>, <math>\log_\ell q </math>. Else, if <math>\ell</math> divides <math>q - 1</math>, the exponent for the largest power dividing that. Otherwise, 0. || <math>\ell = 2</math> divides <matH>q - 1 = 3 - 1 = 2</math>, the exponent is 1. || <math>\ell = 3</math> is the underlying prime of <math>q = 3</math>, so <math>\log_\ell q = \log_3 3 = 1</math>. || <math>\ell</math> is neither the underlying prime of <math>q</math> nor does it divide <math>q - 1</math>.
+|}
+
+==Other operations induced by group multiplication==
+
+===Self-action by conjugation===
+
+<section begin="conjugation action"/>
+
+Below is the induced binary operation where the column element acts on the row element by conjugation ''on the left'', i.e., if the row element is <math>g</math> and the column element is <math>h</math>, the cell is filled with <math>hgh^{-1}</math>.
+
+Note that the action by conjugation functions by relabeling, so conjugating an element <math>g</math> by an element <math>h</math> effectively replaces each element in each cycle of the cycle decomposition of <math>g</matH> by the image of that element under <math>h</math>.
+
+{| class="sortable" border="1"
+! !! <math>()</math> !! <math>(1,2)</math> !! <math>(2,3)</math> !! <math>(1,3)</math> !! <math>(1,2,3)</math> !! <math>(1,3,2)</math>
+|-
+| <math>()</math> || <math>()</math> || <math>()</math> || <math>()</math> || <math>()</math> || <math>()</math> || <math>()</math>
+|-
+| <math>(1,2)</math> || <math>(1,2)</math> ||<math>(1,2)</math> || <math>(1,3)</math> || <math>(2,3)</math> || <math>(2,3)</math> || <math>(1,3)</math>
+|-
+| <math>(2,3)</math> || <math>(2,3)</math> || <math>(1,3)</math> || <math>(2,3)</math> || <math>(1,2)</math> || <math>(1,3)</math> || <math>(1,2)</math>
+|-
+| <math>(1,3)</math> || <math>(1,3)</math> || <math>(2,3)</math> || <math>(1,2)</math> || <math>(1,3)</math> || <math>(1,2)</math> || <math>(2,3)</math>
+|-
+| <math>(1,2,3)</math> || <math>(1,2,3)</math> || <math>(1,3,2)</math> || <math>(1,3,2)</math> || <math>(1,3,2)</math> || <math>(1,2,3)</math> || <math>(1,2,3)</math>
+|-
+| <math>(1,3,2)</math> || <math>(1,3,2)</math> || <math>(1,2,3)</math> || <math>(1,2,3)</math> || <math>(1,2,3)</math> || <math>(1,3,2)</math> || <math>(1,3,2)</math>
+|}
+
+Here is the ''right'' action by conjugation. Note that the behavior is the same as for the left action when the acting element has order two. {{fillin}}
+
+<section end="conjugation action"/>
+
+===Commutator operation===
+
+<section begin="commutator operation"/>
+
+Here, the two inputs are group elements <math>g,h</math>, and the output is the [[commutator]]. We first give the table assuming the ''left'' definition of commutator: <math>[g,h] = ghg^{-1}h^{-1}</math>. Here, the row element is <math>g</math> and the column element is <math>h</math>.  Note that <math>[g,h] = [h,g]^{-1}</math>:
+
+{| class="sortable" border="1"
+! !! <math>()</math> !! <math>(1,2)</math> !! <math>(2,3)</math> !! <math>(1,3)</math> !! <math>(1,2,3)</math> !! <math>(1,3,2)</math>
+|-
+| <math>()</math> || <math>()</math> || <math>()</math> || <math>()</math> || <math>()</math> || <math>()</math> || <math>()</math>
+|-
+| <math>(1,2)</math> || <math>()</math> || <math>()</math> || <math>(1,3,2)</math> || <math>(1,2,3)</math> || <math>(1,2,3)</math> || <math>(1,3,2)</math>
+|-
+| <math>(2,3)</math> || <math>()</math> || <math>(1,2,3)</math> || <math>()</math> || <math>(1,3,2)</math> || <math>(1,2,3)</math> || <math>(1,3,2)</math>
+|-
+| <math>(1,3)</math> || <math>()</math> || <math>(1,3,2)</math> || <math>(1,2,3)</math> || <math>()</math> || <math>(1,2,3)</math> || <math>(1,3,2)</math>
+|-
+| <math>(1,2,3)</math> || <math>()</math> || <math>(1,3,2)</math> || <math>(1,3,2)</math> || <math>(1,3,2)</math> || <math>()</math> || <math>()</math>
+|-
+| <math>(1,3,2)</math> || <math>()</math> || <math>(1,2,3)</math> || <math>(1,2,3)</math> || <math>(1,2,3)</math> || <math>()</math> || <math>()</math>
+|}
+
+The corresponding table with the right definition: {{fillin}}
+
+Here is the information on the number of times each element occurs as a commutator:
+
+{| class="sortable" border="1"
+! Conjugacy class (indexing partition) !! Elements !! Number of occurrences of each as commutator !! Probability of each occurring as the commutator of elements picked uniformly at random !! Total number of occurrences as commutator !! Total probability !! Explanation
+|-
+| 1 + 1 + 1 || <math>()</math> || 18 || 1/2 || 18 || 1/2 || See [[commuting fraction]] and its relationship with the [[number of conjugacy classes]].
+|-
+| 2 + 1 || <math>(1,2), (2,3), (1,3)</math> || 0 || 0 || 0 || 0 || Not in the derived subgroup.
+|-
+| 3 || <math>(1,2,3), (1,3,2)</math> || 9 || 1/4 || 18 || 1/2 ||
+|}
+<section end="commutator operation"/>
+
 ==Conjugacy class structure==
+
+{{conjugacy class structure facts to check against}}
 
 ===Interpretation as symmetric group===
 
+{{symmetric group conjugacy class structure facts to check against}}
+
+For any [[symmetric group]], [[cycle type determines conjugacy class]], i.e., the cycle type of a permutation (which describes the sizes of the cycles in a [[cycle decomposition]] of that permutation), determines its conjugacy class. In other words, two permutations are conjugate if and only if they have the same number of cycles of each size.
+
+The cycle types (and hence the conjugacy classes) are parametrized by partitions of the size of the set. We describe the situation for this group:
+
 <section begin="conjugacy class structure"/>
 {| class="sortable" border="1"
-! Partition !! Partition in grouped form !! Verbal description of cycle type !! Elements with the cycle type in cycle decomposition notation !! Elements with the cycle type in one-line notation !! Size of conjugacy class !! [[conjugacy class size formula for symmetric group|Formula for size]] !! [[even permutation|Even or odd]]? !! [[order of an element|Element order]] !! [[order of permutation is lcm of cycle sizes|Formula calculating element order]]
+! Partition !! Partition in grouped form !! Verbal description of cycle type !! Elements with the cycle type in cycle decomposition notation !! Elements with the cycle type in one-line notation !! Size of conjugacy class !! [[conjugacy class size formula for symmetric group|Formula for size]] !! [[even permutation|Even or odd]]? [[splitting criterion for conjugacy classes in the alternating group|If even, splits]]? [[criterion for element of alternating group to be real|If splits, real in alternating group]]? !! [[order of an element|Element order]] !! [[order of permutation is lcm of cycle sizes|Formula calculating element order]]
 |-
 | 1 + 1 + 1 || 1 (3 times) || three fixed points || <math>()</math> -- the identity element || 123 || 1 || <math>\! \frac{3!}{(1)^3(3!)}</math> || even; no || 1 || <math>\operatorname{lcm} \{ 1, 1, 1 \}</math>
 |-
@@ -74,8 +229,11 @@ The prime factorization of the order is:
 ! Total (3 rows -- 3 being the [[number of unordered integer partitions]] of 3) || -- || -- || -- || -- || 6 (equals 3!, the size of the symmetric group) || -- || odd: 3<br>even;no: 1<br>even; yes; no: 2 || order 1: 1, order 2: 3, order 3: 2 || --
 |}
 <section end="conjugacy class structure"/>
+This group is one of three finite groups with the property that any two elements of the same order are conjugate. The other two are the [[cyclic group of order two]] and the [[trivial group]].
 
 Here is some more information:
+
+{{symmetric group fixed points and cycles facts to check against}}
 
 {| class="sortable" border="1"
 ! Partition !! Number of elements in conjugacy class !! Order of elements !! Number of fixed points !! Number of cycles (including fixed points) !! Minimum number of transpositions that must be multiplied to obtain this cycle decomposition
@@ -91,32 +249,129 @@ Here is some more information:
 | Mean over elements || 7/3 || 13/6 || 1 || 11/6 || 7/6
 |}
 
+Note that the mean over elements of the number of fixed points is 1 for any symmetric group on a finite set, and the average of the number of cycles is <math>1 + (1/2) + \dots + (1/n)</math>.
+
+For characters, see [[linear representation theory of symmetric group:S3]].
+
+===Interpretation as general linear group of degree two===
+
+{{quotation|Compare with [[element structure of general linear group of degree two#Conjugacy class structure]]}}
+
+This group is the [[general linear group of degree two]] over [[field:F2]].
+
+{| class="sortable" border="1"
+! Nature of conjugacy class  !! Eigenvalues !! Characteristic polynomial !! Minimal polynomial !! Size of conjugacy class (generic <math>q</math>) !! Size of conjugacy class (<math>q = 2</math>) !! Number of such conjugacy classes (generic <math>q</math>) !! Number of conjugacy classes (<math>q = 2</math>) !! Total number of elements (generic <math>q</math>) !! Total number of elements (<math>q = 2</math>) !! Representative as permutation
+|-
+| Diagonalizable over <math>\mathbb{F}_q</math> (here <math>\mathbb{F}_2</math>) with equal diagonal entries, hence a scalar || <math>\{1,1\}</math> || <math>(t - 1)^2 = t^2 + 1</math> || <math>t - 1</math>|| 1 || 1 || <math>q - 1</math>||  1 || <math>q - 1</math> || 1 || <math>()</math>
+|-
+| Diagonalizable over <math>\mathbb{F}_{q^2}</math> (here <math>\mathbb{F}_4</math>), not over <math>\mathbb{F}_q</math> (here <math>\mathbb{F}_2</math>). Must necessarily have no repeated eigenvalues. || Pair of conjugate elements of <math>\mathbb{F}_{4}</math> || <math>t^2 + t + 1</math>, irreducible || Same as characteristic polynomial || <matH>q(q - 1)</math> || 2 || <math>q(q - 1)/2</math> || 1 || <math>q^2(q - 1)^2/2</math> || 2 || <math>(1,2,3)</math> -- see [[3-cycle in symmetric group:S3]]
+|-
+| Not diagonal, has Jordan block of size two  || <math>1</math> (multiplicity two) || <math>(t - 1)^2 = t^2 + 1</math>|| Same as characteristic polynomial || <math>q^2 - 1</math> || 3 || <math>q - 1</math> || 1 || <math>(q + 1)(q - 1)^2</math> || 3 || <math>(1,2)</math> -- see [[transposition in symmetric group:S3]]
+|-
+| Diagonalizable over <math>\mathbb{F}_q</math> with ''distinct'' diagonal entries || -- || -- || -- || <math>q(q + 1)</math> || 6 || <math>(q - 1)(q - 2)/2</math> || 0 || <math>q(q + 1)(q - 1)(q - 2)/2</math> || 0 || --
+|-
+! Total (--) !! -- !! --!! -- !! -- !! -- !! <math>q^2 - 1</math> !! 3 !! <math>q^4 - q^3 - q^2 + q</math> !! 6 !! --
+|}
+
 ===Interpretation as dihedral group===
 
-The symmetric group of degree three is isomorphic to the dihedral group <math>D_6</math> of degree three and order six. In the table below, we denote by <matH>a</matH> the generator of the cyclic subgroup of order three and by <math>x</math> one of the reflections.
+{{quotation|Compare with [[element structure of dihedral groups#Odd degree case]]}}
+
+The symmetric group of degree three is isomorphic to the dihedral group <math>D_6</math> of degree three and order six (i.e., it is the dihedral group <math>D_{2n}</math> of order <math>2n</math> where <math>n = 3</math>). In the table below, we denote by <math>a</matH> the generator of the cyclic subgroup of order three (which we could take as the permutation <math>(1,2,3)</math>) and by <math>x</math> one of the reflections (which we could take as <math>(1,2)</math>).
 
 {| class="sortable" border="1"
 ! Nature of conjugacy class !! Size of each conjugacy class (generic odd <math>n</math>) !! Size of each conjugacy class (<math>n = 3</math>) !! Number of such conjugacy classes (generic odd <math>n</math>) !! Number of such conjugacy classes (<math>n = 3</math>) !! Total number of elements (generic odd <math>n</math>) !! Total number of elements (<math>n = 3</math>) !! Representatives as permutations
 |-
 | Identity element || 1 || 1 || 1 || 1 || 1 || 1 || <math>()</math>
 |-
-| Non-identity elements in cyclic subgroup <math>\langle a \rangle</math> || 2 || 2 || <math>(n - 1)/2</math> || 1 || <math>n - 1</math> || 2  || <math>(1,2,3)</math>
+| Non-identity elements in cyclic subgroup <math>\langle a \rangle</math>, where each element and its inverse form a conjugacy class || 2 || 2 || <math>(n - 1)/2</math> || 1 || <math>n - 1</math> || 2  || <math>(1,2,3)</math> -- see [[3-cycle in symmetric group:S3]]
 |-
-| Elements outside the cyclic subgroup <math>\langle a \rangle</math> || <math>n</math> || 3 || 1 || 1 || <math>n</math> || 3 || <math>(1,2)</math>
+| Elements outside the cyclic subgroup <math>\langle a \rangle</math>, all form a single conjugacy class || <math>n</math> || 3 || 1 || 1 || <math>n</math> || 3 || <math>(1,2)</math> -- see [[transposition in symmetric group:S3]]
 |-
 ! Total (--) !! -- !! -- !! <math>(n + 3)/2</math> !! 3 !! <math>2n</math> !! 6 !! --
 |}
 
-===Number of conjugacy classes===
+===Interpretation as general affine group of degree one===
 
-The symmetric group of degree three has 3 conjugacy classes.
+{{quotation|Compare with [[element structure of general affine group of degree one over a finite field#Conjugacy class structure]]}}
+
+The symmetric group of degree three is isomorphic to the [[general affine group of degree one]] over [[field:F3]]. All the elements of this group are of the form:
+
+<math>x \mapsto ax + v, a \in \mathbb{F}_q^\ast, v \in \mathbb{F}_q</math>
+
+where <matH>q = 3</math>. Below, we interpret the conjugacy classes of the group in these terms:
+{| class="sortable" border="1"
+! Nature of conjugacy class !! Size of conjugacy class (generic <math>q</math>) !! Size of conjugacy class (<math>q = 3</math>) !! Number of such conjugacy classes (generic <math>q</math>) !! Number of such conjugacy classes (<math>q = 3</math>) !! Total number of elements (generic <math>q</math>) !! Total number of elements (<math>q = 3</math>) !! Representatives of conjugacy classes as permutations
+|-
+| <math>a = 1, v = 0</math> || 1 || 1 || 1|| 1 || 1 || 1 || <math>()</math>
+|-
+| <math>a = 1, v \ne 0</math> (conjugacy class is independent of choice of <math>v</math>) || <math>q - 1</math> || 2 || 1 || 1 || <math>q - 1</math> || 2 || <math>(1,2,3)</math> -- see [[3-cycle in symmetric group:S3]]
+|-
+| <math>a \ne 1</math> (conjugacy class is determined completely by choice of <math>a</math> and is independent of choice of <math>v</math>; in other words, each conjugacy class is a coset of the subgroup of translations) || <math>q</math> || 3 || <math>q - 2</math> || 1 || <math>q(q - 2)</math> || 3 || <math>(1,2)</math> -- see [[transposition in symmetric group:S3]]
+|-
+! Total (--) !! -- !! -- !! <math>q</math> !! 3 !! <math>q(q - 1)</math> !! 6 !! --
+|}
+
+===Interpretation as general semilinear group of degree one===
+
+{{quotation|Compare with [[element structure of general semilinear group of degree one over a finite field#Conjugacy class structure]]}}
+
+The symmetric group of degree three is isomorphic to the [[general semilinear group]] of [[general semilinear group of degree one|degree one]] over [[field:F4]]. In other words, it is the group <math>\Gamma L(1,p^2)</math> for <math>p = 2</math>. We will denote <math>p^2</math> alternately by <math>q</math>.
 
 {| class="sortable" border="1"
-! Family !! Parameter values !! Formula for number of conjugacy classes !! Proof or justification !! Evaluation at parameter values !! Full interpretation
+! Nature of conjugacy class !! Size of conjugacy class (generic <math>p</math>) !! Size of conjugacy class (<math>p = 2</math>) !! Number of such conjugacy classes (generic <math>p</math>) !! Number of such conjugacy classes (<math>p = 2</math>) !! Total number of elements (generic <math>p</math>) !! Total number of elements (<math>p = 2</math>) !! Representative as permutation (one per class)
 |-
-| [[general linear group]] <math>GL(2,q)</math> over a finite field of size <math>q</math> || <math>q = 2</math>, i.e., [[field:F2]] || <math>q^2 - 1</math> || [[element structure of general linear group of degree two over a finite field]] || <math>2^2 - 1 = 3</math> || [[#Interpretation as general linear group of degree two]]
+| in the multiplicative group and in the prime subfield || 1 || 1 || <math>p - 1</math> || 1 ||<math>p - 1</math> || 1 || <math>()</math>
 |-
-| [[dihedral group]] <math>D_{2n}</math> of degree <math>n</math>, order <matH>2n</math> || <math>n = 3</math> || <math>(n + 3)/2</math> for odd <math>n</math> || [[element structure of dihedral groups]] || Since 3 is odd, we use the odd degree case formula: <math>(3 + 3)/2 = 3</math> || [[#Interpretation as dihedral group]]
+| outside the prime subfield || 2 || 2 || <math>p(p - 1)/2</math> || 1 || <math>p(p - 1)</math> || 2 || <math>(1,2,3)</math> -- see [[3-cycle in symmetric group:S3]]
 |-
-| [[general semilinear group]] <math>\Gamma L(1,q)</math> over a finite field of size <math>q = p^2</math>, <math>p</math> prime || <math>p = 2</math> so <math>q = p^2 = 4</math>, i.e., [[field:F4]] || <math>(p - 1)(p + 4)/2</math> || [[element structure of general semilinear group of degree one over a finite field]] || <math>(2 - 1)(2 + 4)/2 = 3</math> || [[#Interpretation as general semilinear group of degree one]]
+| outside the multiplicative group || <math>\frac{p^2 - 1}{p - 1} = p + 1</math> || 3 || <math>p - 1</math> || 1 || <math>p^2 - 1</math> || 3 || <math>(1,2)</math> -- see [[transposition in symmetric group:S3]]
+|-
+! Total || -- || -- || <math>(p - 1)(p + 4)/2 = (p^2 + 3p - 4)/2</math> (equals number of conjugacy classes in the group) || 3 || <math>2(p^2 - 1)</math> (equals order of the whole group) || 6 || --
 |}
+
+==Conjugacy class structure: additional information==
+
+===Number of conjugacy classes===
+
+The symmetric group of degree three has 3 conjugacy classes. Below are listed various methods that can be used to compute the number of conjugacy classes, all of which should give the answer 3:
+
+{| class="sortable" border="1"
+! Family !! Parameter values !! Formula for number of conjugacy classes of a group in the family !! Proof or justification of formula !! Evaluation at parameter values !! Full interpretation of conjugacy class structure
+|-
+| [[symmetric group]] <math>S_n</math> of degree <math>n</math> || degree <math>n = 3</math> || [[number of unordered integer partitions]] of <math>n</math> || Follows from [[cycle type determines conjugacy class]]. For more, see [[element structure of symmetric groups]] || number of unordered integer partitions of 3 equals 3 || [[#Interpretation as symmetric group]]
+|-
+| [[general linear group]] of [[general linear group of degree two|degree two]] <math>GL(2,q)</math> over a finite field of size <math>q</math> || <math>q = 2</math>, i.e., [[field:F2]] || <math>q^2 - 1</math> || [[element structure of general linear group of degree two over a finite field]]. See also [[number of conjugacy classes in general linear group of fixed degree over a finite field is polynomial function of field size]] || <math>2^2 - 1 = 3</math> || [[#Interpretation as general linear group of degree two]]
+|-
+| [[dihedral group]] <math>D_{2n}</math> of degree <math>n</math>, order <matH>2n</math> || <math>n = 3</math> || <math>(n + 3)/2</math> for odd <math>n</math><br><math>(n + 6)/2</math> for even <math>n</math> || [[element structure of dihedral groups]] || Since 3 is odd, we use the odd degree case formula: <math>(3 + 3)/2 = 3</math> || [[#Interpretation as dihedral group]]
+|-
+| [[general affine group]] of [[general affine group of degree one|degree one]] <math>GA(1,q)</math> over a finite field of size <math>q</math> || <math>q = 3</math>, i.e., [[field:F3]] || <math>q</math> || [[element structure of general affine group of degree one over a finite field]]. See also [[number of conjugacy classes in general affine group of fixed degree over a finite field is polynomial function of field size]] || <math>q = 3</math> || [[#Interpretation as general affine group of degree one]]
+|-
+| [[general semilinear group]] of [[general semilinear group of degree one|degree one]] <math>\Gamma L(1,q)</math> over a finite field of size <math>q = p^2</math>, <math>p</math> prime || <math>p = 2</math> so <math>q = p^2 = 4</math>, i.e., [[field:F4]] || <math>(p - 1)(p + 4)/2</math> || [[element structure of general semilinear group of degree one over a finite field]] || <math>(2 - 1)(2 + 4)/2 = 3</math> || [[#Interpretation as general semilinear group of degree one]]
+|}
+
+===Convolution algebra on conjugacy classes===
+
+The [[convolution algebra on conjugacy classes]] for this group is given by:
+
+{| class="wikitable" border="1"
+! Partition/conjugacy class !! <math>()</math> !! <math>(1,2)</math> !! <math>(1,2,3)</math>
+|-
+| <math>()</math> || <math>()</math> || <math>(1,2)</math> || <math>(1,2,3)</math>
+|-
+| <math>(1,2)</math> || <math>(1,2)</math> || <math>3() + 3(1,2,3)</math> || <math>2(1,2)</math>
+|-
+| <math>(1,2,3)</math> || <math>(1,2,3)</math> || <math>2(1,2)</math> || <math>2() + (1,2,3)</math>
+|}
+
+===Rational and real conjugacy classes===
+
+Since the symmetric group of degree three is a [[rational group]] and in particular an [[ambivalent group]], the rational conjugacy classes coincide with the conjugacy classes and the real conjugacy classes also coincide with the conjugacy classes.
+
+{{further|[[symmetric groups are rational]]}}
+
+===Action of automorphism group on conjugacy classes===
+
+Since the symmetric group of degree three is a [[complete group]], i.e., every automorphism is inner, the automorphism group acts as the identity on the set of conjugacy classes.
+
+Note that the symmetric group of degree <math>n</math> for <math>n \ne 2,6</math> is complete. {{further|[[symmetric groups on finite sets are complete]]}}
