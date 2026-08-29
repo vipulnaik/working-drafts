@@ -149,30 +149,12 @@ INPUT_MARKERS = [
 CHECKS = [
     (r"^(?P<a>\S+) is characteristic in (?P<b>\S+)$",
      "IsCharacteristicSubgroup({b}, {a})",
-     "no GAP builtin; see helper emitted below"),
+     "GAP builtin (ref 39.3-7); short-circuits via normality first"),
     (r"^(?P<a>\S+) is normal in (?P<b>\S+)$", "IsNormal({b}, {a})", None),
     (r"^(?P<a>\S+) is a normal subgroup of (?P<b>\S+)$",
      "IsNormal({b}, {a})", None),
     (r"^(?P<a>\S+) is a subgroup of (?P<b>\S+)$", "IsSubgroup({b}, {a})", None),
 ]
-
-
-CHAR_HELPER = r"""
-# ---------------------------------------------------------------------------
-# GAP has no IsCharacteristicSubgroup; this brute-forces it via the
-# automorphism group. Only feasible for small finite groups.
-# ---------------------------------------------------------------------------
-IsCharacteristicSubgroup := function(G, H)
-    local A, a;
-    A := AutomorphismGroup(G);
-    for a in GeneratorsOfGroup(A) do
-        if Image(a, H) <> H then
-            return false;
-        fi;
-    od;
-    return true;
-end;
-"""
 
 
 def gap_name(sym):
@@ -353,10 +335,6 @@ def render(model, source):
     add("# " + "=" * 68)
     add("# CHECKS - assertions the proof makes, as runnable tests")
     add("# " + "=" * 68)
-    needs_helper = any("Characteristic" in (e.get("gap_check") or "")
-                       for e in model["checks"])
-    if needs_helper:
-        add(CHAR_HELPER)
     if not model["checks"]:
         add("# (none detected)")
     for e in model["checks"]:
