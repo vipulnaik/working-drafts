@@ -28,6 +28,10 @@ Usage:
       --registry registry.json \
       --approved page.symbols.yaml
 
+  # per-edit: compare two revisions, reporting ONLY what the edit introduced
+  python3 mathcheck.py diff old.mediawiki new.mediawiki \
+      --approved page.symbols.json
+
   # crawl mode: run syntax layer over every .md file in a directory
   python3 mathcheck.py syntax-batch ./wiki-export/ --registry registry.json
 
@@ -36,6 +40,7 @@ only needed if you use .yaml table files instead of .json).
 """
 
 import argparse
+import json
 import sys
 from pathlib import Path
 
@@ -111,38 +116,191 @@ def cmd_semantic_extract(args):
     print(f"Draft table written to {args.out} -- review and correct before using as --approved.")
 
 
-def cmd_check(args):
-    """Run both layers together: syntactic new-variable/unknown-macro check,
-    plus semantic redefinition/drift/alias check against an approved table."""
-    exit_code = 0
+# Severities that should FAIL a pipeline. Everything else is reported but
+# advisory. MATH_TAG_CASE is cosmetic (MediaWiki matches tag case
+# insensitively, so <matH> renders identically). DRIFT compares against a
+# possibly-stale approved table and fires on incidental mid-sentence
+# descriptions, so it is informational until the table is re-reviewed.
+GATING_SEVERITIES = {
+    "REDEFINITION",
+    "SELF_REFERENCE",
+    "MALFORMED_MATH_TAG",
+}
 
-    print("=== syntactic layer ===")
-    exit_code += cmd_syntax(argparse.Namespace(
+ADVISORY_SEVERITIES = {
+    "MATH_TAG_CASE",
+    "DRIFT",
+    "POSSIBLE_ALIAS",
+    "AMBIGUOUS_ATTACHMENT",
+    "UNDECLARED_REFERENT",
+}
+
+
+def cmd_check(args):
+    """Run both layers together. Returns the number of GATING issues, so
+    the exit code reflects real problems rather than a raw issue count
+    (which the syntactic layer's new-variable tally would otherwise
+    dominate and render meaningless)."""
+    cmd_syntax(argparse.Namespace(
         file=args.file, registry=args.registry, update_registry=False,
     ))
 
+    gating = 0
     if args.approved:
         print("\n=== semantic layer ===")
-        patterns = sem.load_patterns(args.patterns_file)
         text = Path(args.file).read_text()
-        declarations = sem.extract_declarations(text, patterns)
+        patterns = sem.load_patterns(args.patterns_file)
+        declarations = sem.dedupe_declarations(
+            sem.extract_declarations(text, patterns))
         approved = sem.read_table(args.approved)
         issues = [
-            ("MALFORMED_MATH_TAG", (f"line {ln}: " if ln else "") + msg)
-            for ln, msg in sem.find_malformed_math_tags(text)
+            (sev, (f"line {ln}: " if ln else "") + msg)
+            for sev, ln, msg in sem.find_malformed_math_tags(text)
         ]
         issues += sem.check_consistency(declarations, approved)
+
         if not issues:
-            print("Clean: no redefinitions, drift, or possible aliases detected.")
+            print("Clean: no issues detected.")
         for severity, msg in issues:
-            print(f"[{severity}] {msg}")
-            if severity in ("REDEFINITION", "MALFORMED_MATH_TAG"):
-                exit_code += 1
-        print(f"-- semantic: {len(issues)} issue(s) across {len(declarations)} declaration(s)")
+            marker = "" if severity in GATING_SEVERITIES else " (advisory)"
+            print(f"[{severity}]{marker} {msg}")
+            if severity in GATING_SEVERITIES:
+                gating += 1
+        print(f"-- semantic: {len(issues)} issue(s), {gating} gating, "
+              f"across {len(declarations)} declaration(s)")
+
+        groups = sem.find_multiple_characterizations(declarations)
+        if groups:
+            high = [g for g in groups if g["priority"] == "high"]
+            print("\n=== characterizations to verify (not errors) ===")
+            print(sem.format_characterizations(groups))
+            print(f"-- {len(groups)} symbol(s) characterized multiple ways; "
+                  f"{len(high)} asserted equivalent. Run "
+                  f"'mathcheck.py characterize --json' for machine-readable output.")
     else:
         print("\n(no --approved table given; skipping semantic layer)")
 
-    return exit_code
+    return gating
+
+
+def _collect_syntactic(text):
+    """Return (variables, unknown_macros) for a revision, as sets."""
+    variables, unknown = set(), set()
+    for pos, content in syn.extract_math_spans(text):
+        for atom in syn.classify(content):
+            if atom.kind == "VARIABLE":
+                variables.add(atom.name)
+            elif atom.kind == "UNKNOWN":
+                unknown.add(atom.name)
+    return variables, unknown
+
+
+def _collect_semantic(text, approved, patterns_file=None):
+    """Return the list of (severity, message) issues for a revision."""
+    patterns = sem.load_patterns(patterns_file)
+    declarations = sem.dedupe_declarations(sem.extract_declarations(text, patterns))
+    issues = [
+        (sev, (f"line {ln}: " if ln else "") + msg)
+        for sev, ln, msg in sem.find_malformed_math_tags(text)
+    ]
+    if approved is not None:
+        issues += sem.check_consistency(declarations, approved)
+    return issues
+
+
+def cmd_diff(args):
+    """Compare two revisions of one page and report only what the EDIT
+    introduced.
+
+    The registry is built from the OLD revision in memory, so there is no
+    registry file to forget to update - and no way to accidentally seed it
+    from the new revision, which would silently disable the check.
+
+    Pre-existing problems are deliberately NOT reported: an edit should be
+    judged on what it changed. Run 'check' on the page itself for the
+    page's full current state.
+
+    Returns the count of GATING issues introduced (see GATING_SEVERITIES);
+    new symbols and advisory severities are reported but do not gate.
+    """
+    old_text = Path(args.old).read_text()
+    new_text = Path(args.new).read_text()
+
+    old_vars, old_unknown = _collect_syntactic(old_text)
+    new_vars, new_unknown = _collect_syntactic(new_text)
+
+    approved = sem.read_table(args.approved) if args.approved else None
+    old_issues = _collect_semantic(old_text, approved, args.patterns_file)
+    new_issues = _collect_semantic(new_text, approved, args.patterns_file)
+
+    introduced_vars = sorted(new_vars - old_vars)
+    removed_vars = sorted(old_vars - new_vars)
+    introduced_unknown = sorted(new_unknown - old_unknown)
+
+    old_seen = {(s, m) for s, m in old_issues}
+    introduced_issues = [(s, m) for s, m in new_issues if (s, m) not in old_seen]
+
+    print(f"=== diff: {args.old} -> {args.new} ===")
+
+    gating = 0
+    for v in introduced_vars:
+        print(f"[NEW-SYMBOL] '{v}' does not appear in the previous revision")
+        gating += 1
+    for u in introduced_unknown:
+        print(f"[NEW-UNKNOWN-MACRO] '\\{u}' introduced by this edit")
+        gating += 1
+    for sev, msg in introduced_issues:
+        marker = "" if sev in GATING_SEVERITIES else " (advisory)"
+        print(f"[{sev}]{marker} {msg}")
+        if sev in GATING_SEVERITIES:
+            gating += 1
+
+    if args.show_removed:
+        for v in removed_vars:
+            print(f"[REMOVED-SYMBOL] '{v}' no longer appears (informational)")
+
+    total = len(introduced_vars) + len(introduced_unknown) + len(introduced_issues)
+    if total == 0:
+        print("Clean: this edit introduces no new symbols, macros, or issues.")
+
+    print(f"\n--- {total} item(s) introduced by this edit; {gating} gating "
+          f"({len(introduced_vars)} new symbols, "
+          f"{len(introduced_unknown)} new unknown macros, "
+          f"{len(introduced_issues)} new semantic issues) ---")
+    if not args.approved:
+        print("(no --approved table given; semantic layer limited to "
+              "math-tag checks)")
+    return gating
+
+
+def cmd_characterize(args):
+    """List symbols characterized more than one way, for review.
+
+    Not an error report - a checklist. The intended workflow is:
+    resolve everything `check` flags as a problem first, then walk this
+    list confirming each set of characterizations really does pick out
+    the same object. Catches the dropped-qualifier failure ("the largest
+    normal subgroup of G containing H" vs "...containing H as a normal
+    subgroup") that no purely structural check can see.
+    """
+    text = Path(args.file).read_text()
+    patterns = sem.load_patterns(args.patterns_file)
+    declarations = sem.dedupe_declarations(sem.extract_declarations(text, patterns))
+    groups = sem.find_multiple_characterizations(declarations)
+
+    if args.json:
+        print(json.dumps(groups, indent=2, ensure_ascii=False))
+        return 0
+
+    if not groups:
+        print("No symbol is characterized more than one way.")
+        return 0
+
+    high = [g for g in groups if g["priority"] == "high"]
+    print(sem.format_characterizations(groups))
+    print(f"\n-- {len(groups)} symbol(s) with multiple characterizations; "
+          f"{len(high)} explicitly asserted equivalent (review these first) --")
+    return 0
 
 
 def main():
@@ -171,6 +329,27 @@ def main():
     p4.add_argument("--approved", default=None, help="Human-approved semantic table (omit to skip semantic layer)")
     p4.add_argument("--patterns-file", default=None)
 
+    p6 = sub.add_parser(
+        "characterize",
+        help="List symbols characterized more than one way, for human/LLM review",
+    )
+    p6.add_argument("file")
+    p6.add_argument("--patterns-file", default=None)
+    p6.add_argument("--json", action="store_true",
+                    help="Machine-readable output for a calling script or LLM")
+
+    p5 = sub.add_parser(
+        "diff",
+        help="Compare two revisions of a page; report only what the edit introduced",
+    )
+    p5.add_argument("old", help="Previous revision of the page")
+    p5.add_argument("new", help="Edited revision of the page")
+    p5.add_argument("--approved", default=None,
+                    help="Human-approved semantic table for this page")
+    p5.add_argument("--patterns-file", default=None)
+    p5.add_argument("--show-removed", action="store_true",
+                    help="Also list symbols that disappeared (informational)")
+
     args = ap.parse_args()
 
     if args.cmd == "syntax":
@@ -180,7 +359,11 @@ def main():
     elif args.cmd == "semantic-extract":
         cmd_semantic_extract(args)
     elif args.cmd == "check":
-        sys.exit(cmd_check(args))
+        sys.exit(1 if cmd_check(args) else 0)
+    elif args.cmd == "characterize":
+        sys.exit(cmd_characterize(args))
+    elif args.cmd == "diff":
+        sys.exit(1 if cmd_diff(args) else 0)
 
 
 if __name__ == "__main__":

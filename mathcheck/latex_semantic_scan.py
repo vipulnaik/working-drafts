@@ -86,6 +86,19 @@ _SECOND_ARG_RE = re.compile(
 # simultaneously-true properties of the same object, and treating each new
 # property as a redefinition of the last is the single largest source of
 # false positives on real proof pages.
+# Restatement markers: a sentence that re-expresses something already
+# stated ("Equivalently, A = F_p[G] x G ...", "In symbols, H = <H_1,H_2>",
+# "In other words, K is the largest normal subgroup...") describes the SAME
+# object a second way. Treating those as fresh bindings makes every
+# "here it is in symbols" sentence look like a redefinition of the thing it
+# is restating - a very common shape in mathematical writing.
+RESTATEMENT_MARKERS_RE = re.compile(
+    r"^\s*(?:equivalently|in\s+symbols|in\s+other\s+words|that\s+is|namely|"
+    r"i\.e\.|explicitly|more\s+precisely|put\s+differently|"
+    r"stated\s+differently|alternatively)\b",
+    re.IGNORECASE,
+)
+
 BINDING_MARKERS_RE = re.compile(
     r"^\s*(?:let\b|define\b|set\b|put\b|we\s+denote\b|denote\b|write\b|"
     r"suppose\b|assume\b|consider\b|take\b|for\s+an?\b)",
@@ -109,6 +122,12 @@ def classify_declaration_kind(sentence, clause=None):
     sentence. Bindings are what REDEFINITION compares; assertions merely
     accumulate."""
     probe = clause if clause is not None else sentence
+    # A restatement re-expresses an existing object, so it can never be a
+    # fresh binding no matter what verb it uses. Checked against the whole
+    # sentence, since the marker leads the sentence while the declaration
+    # may sit in a later clause.
+    if RESTATEMENT_MARKERS_RE.match(sentence.strip()):
+        return "assertion"
     if BINDING_MARKERS_RE.match(probe.strip()):
         return "binding"
     return "assertion"
@@ -145,6 +164,42 @@ DEFAULT_PATTERNS = [
     {
         "regex": r"(?:we\s+)?denote\s+by\s+SYM\((?P<sym>[^)]+)\)\s+(?:an?|the)\s+(?P<role>[\w -]+?)(?=[.,;]|\s+(?:"
                  + _REL_PREP_ALT + r"|that|which)\b|$)",
+        "template": "{sym} is a {role}",
+    },
+    # Appositive subject: "the multiplicative group L^* of nonzero elements
+    # of L is the center of K^*". The true subject is L^* (appositive to the
+    # head noun "multiplicative group"), but a naive left-to-right scan finds
+    # the NEAREST symbol before "is" - here L, the object of "of ... of" -
+    # and misattributes the whole predicate to it. This pattern anchors on
+    # the head noun instead, and allows intervening prepositional phrases
+    # (the "mid" group) between the subject symbol and its verb.
+    # It also declares the subject's own role ("L^* is a multiplicative
+    # group") via also_declares_subj_role.
+    {
+        "regex": r"(?:the|an?)\s+(?P<subj_role>[\w -]+?)\s+SYM\((?P<sym>[^)]+)\)"
+                 # The modifier tail may be set off by commas or wrapped in
+                 # parentheses - which is exactly the punctuation the
+                 # AMBIGUOUS_ATTACHMENT advisory asks authors to add, so it
+                 # must keep parsing (and stop warning) once they do.
+                 r"(?P<mid>(?:\s*[,(]?\s*(?:" + _REL_PREP_ALT + r")\s+"
+                 r"(?:(?!\bis\b|\bbe\b)[\w -]|SYM\([^)]*\))+?)+[,)]?)"
+                 r"\s+(?:is|be)\s+(?:an?|the)\s+(?P<role>[\w -]+?)"
+                 r"\s+(?P<prep>" + _REL_PREP_ALT + r")\s+SYM\((?P<rel>[^)]+)\)",
+        "template": "{sym} is a {role} {prep} {rel}",
+        "also_declares_subj_role": True,
+    },
+    # "Let G denote a finite group" / "K^* denotes the multiplicative group".
+    # The verb is "denote", not "is/be", so the ordinary patterns miss it
+    # and the symbol looks undeclared.
+    {
+        "regex": r"(?:let\s+)?SYM\((?P<sym>[^)]+)\)\s+denotes?\s+(?:an?|the)\s+(?P<role>[\w -]+?)"
+                 r"(?=[.,;]|\s+(?:" + _REL_PREP_ALT + r"|that|which)\b|$)",
+        "template": "{sym} is a {role}",
+    },
+    # "Let the prime be p" / "let the base field be L" - inverted binding,
+    # descriptor first and symbol last.
+    {
+        "regex": r"let\s+(?:the|an?)\s+(?P<role>[\w -]+?)\s+be\s+SYM\((?P<sym>[^)]+)\)",
         "template": "{sym} is a {role}",
     },
     # "N is normal in G"
@@ -206,21 +261,58 @@ MATH_SPAN_RE = re.compile(
 
 
 def find_malformed_math_tags(text):
-    """Report <math> tags whose case is non-canonical (e.g. '<matH>') or
-    that are unbalanced. Returns list of (line_no, message). Purely
-    deterministic - exactly the class of error this tool exists to catch."""
+    """Report structural problems with <math> tags. Returns a list of
+    (severity, line_no, message).
+
+    Two severities, because they matter very differently:
+
+      MATH_TAG_CASE      - cosmetic only. MediaWiki matches the tag
+                           case-insensitively, so '<matH>' renders exactly
+                           like '<math>'. Worth tidying when you're already
+                           editing, but it is invisible to readers and must
+                           not gate a pipeline.
+
+      MALFORMED_MATH_TAG - genuinely broken: empty, unbalanced, or crossed
+                           delimiters. These change what renders AND corrupt
+                           span detection downstream, turning prose into
+                           phantom variables.
+    """
     issues = []
     for m in re.finditer(r"</?[Mm][Aa][Tt][Hh]>", text):
         tag = m.group(0)
         canonical = tag.lower()
         if tag != canonical:
             line = text.count("\n", 0, m.start()) + 1
-            issues.append((line, f"non-canonical math tag {tag!r} (should be {canonical!r})"))
+            issues.append(("MATH_TAG_CASE", line,
+                           f"non-canonical math tag {tag!r} (should be "
+                           f"{canonical!r}) - cosmetic, does not affect rendering"))
+
+    # Empty spans: <math></math> contains nothing, so MATH_SPAN_RE (which
+    # requires at least one character) skips past it and instead matches
+    # from this opening tag to the NEXT closing tag - swallowing the prose
+    # in between and turning ordinary letters into phantom variables.
+    for m in re.finditer(r"<[Mm][Aa][Tt][Hh]>\s*</[Mm][Aa][Tt][Hh]>", text):
+        line = text.count("\n", 0, m.start()) + 1
+        issues.append(("MALFORMED_MATH_TAG", line,
+                       "empty math span (<math></math>) - will corrupt "
+                       "span detection for the rest of the line"))
+
+    # Swallowed prose: a matched span whose contents still contain a math
+    # tag means the delimiters are crossed somewhere (unclosed tag, stray
+    # tag). The parse downstream is meaningless until it's fixed.
+    for m in MATH_SPAN_RE.finditer(text):
+        content = next((g for g in m.groups() if g is not None), "")
+        if re.search(r"</?[Mm][Aa][Tt][Hh]>", content):
+            line = text.count("\n", 0, m.start()) + 1
+            issues.append(("MALFORMED_MATH_TAG", line,
+                           "math span contains a nested/stray math tag - "
+                           f"delimiters are crossed: {content.strip()[:50]!r}"))
 
     opens = len(re.findall(r"<[Mm][Aa][Tt][Hh]>", text))
     closes = len(re.findall(r"</[Mm][Aa][Tt][Hh]>", text))
     if opens != closes:
-        issues.append((0, f"unbalanced math tags: {opens} opening, {closes} closing"))
+        issues.append(("MALFORMED_MATH_TAG", 0,
+                       f"unbalanced math tags: {opens} opening, {closes} closing"))
     return issues
 
 SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+(?=[A-Z\\$])")
@@ -410,6 +502,16 @@ def split_clauses(sentence):
     return CLAUSE_SPLIT_RE.split(sentence)
 
 
+def _find_antecedent(sentences, idx, sym):
+    """Nearest preceding sentence (within this scope segment) that mentions
+    `sym` inside a math placeholder. Returns the sentence text, or None."""
+    needle = re.compile(r"SYM\([^)]*\b" + re.escape(sym) + r"\b[^)]*\)")
+    for k in range(idx - 1, -1, -1):
+        if needle.search(sentences[k]):
+            return sentences[k].strip()
+    return None
+
+
 def extract_declarations(text, patterns, equation_patterns=None):
     """Return list of dicts: {sym, role, rel, meaning, sentence, confidence,
     scope}. `scope` is a tuple of enclosing MediaWiki header titles, e.g.
@@ -421,7 +523,7 @@ def extract_declarations(text, patterns, equation_patterns=None):
         desugared, spans = desugar(seg_text)
         sentences = SENTENCE_SPLIT_RE.split(desugared)
 
-        for sent in sentences:
+        for sent_idx, sent in enumerate(sentences):
           for clause in split_clauses(sent):
             sent_matches = []
             for pat in patterns:
@@ -433,6 +535,20 @@ def extract_declarations(text, patterns, equation_patterns=None):
                 # both matching overlapping text) - collect all, dedup below.
                 for m in re.finditer(working, clause, flags=re.IGNORECASE):
                     gd = m.groupdict()
+
+                    # Object-position guard: if the matched subject symbol is
+                    # immediately preceded by a preposition ("...of nonzero
+                    # elements of SYM(L) is the center of..."), it is the
+                    # object of that preposition, not the sentence's subject.
+                    # Attributing the predicate to it produces a confidently
+                    # wrong declaration ("L is the center of K^*" when the
+                    # text says L^* is). Patterns that anchor on a head noun
+                    # (subj_role) locate the subject correctly and are exempt.
+                    if "subj_role" not in gd:
+                        preceding = clause[:m.start()].rstrip()
+                        if re.search(r"\b(?:" + _REL_PREP_ALT + r")\s*$", preceding, re.IGNORECASE):
+                            continue
+
                     sym = normalize_symbol(gd.get("sym", ""))
                     role = (gd.get("role") or "").strip()
                     rel = normalize_symbol(gd.get("rel", "")) if gd.get("rel") else None
@@ -457,6 +573,34 @@ def extract_declarations(text, patterns, equation_patterns=None):
                     else:
                         confidence = pat.get("confidence", "high")
 
+                    # Attachment ambiguity: the subject symbol is separated
+                    # from its verb by prepositional phrases that themselves
+                    # contain symbols ("the multiplicative group L^* OF
+                    # nonzero elements OF L is the center of K^*"). We now
+                    # resolve this correctly, but a reader skimming the
+                    # sentence can misattach it the same way the parser
+                    # originally did - so surface it as an advisory to add
+                    # commas or parentheses. This is a readability warning,
+                    # not a correctness error: the meaning below is right.
+                    #
+                    # If the author HAS set the modifier off with commas or
+                    # parentheses, the subject is already unmistakable to a
+                    # reader and the advisory is suppressed - otherwise the
+                    # tool would keep nagging about a sentence that has
+                    # already been fixed as it asked.
+                    mid_text = gd.get("mid") or ""
+                    # Strip SYM(...) placeholders before testing for author
+                    # punctuation - the placeholders carry their own
+                    # parentheses, which would otherwise look like the
+                    # commas/parens we are asking the author to add.
+                    mid_bare = re.sub(r"SYM\([^)]*\)", " ", mid_text)
+                    already_punctuated = bool(re.search(r"[,()]", mid_bare))
+                    ambiguous = bool(
+                        pat.get("also_declares_subj_role")
+                        and re.search(r"SYM\(", mid_text)
+                        and not already_punctuated
+                    )
+
                     sent_matches.append({
                         "sym": sym,
                         "role": role,
@@ -466,6 +610,18 @@ def extract_declarations(text, patterns, equation_patterns=None):
                         "confidence": confidence,
                         "scope": scope_path,
                         "kind": classify_declaration_kind(sent, clause),
+                        "is_restatement": bool(RESTATEMENT_MARKERS_RE.match(sent.strip())),
+                        # For a restatement, record the nearest preceding
+                        # sentence that mentions this symbol. We often can't
+                        # PARSE that antecedent into a meaning (it may
+                        # characterize the symbol implicitly, e.g. by placing
+                        # it in a chain "H < K < G"), but we can point at it
+                        # so a reviewer can compare the two by hand. Without
+                        # this, a restatement whose antecedent is implicit
+                        # looks like a lone characterization and is never
+                        # surfaced for review.
+                        "antecedent": _find_antecedent(sentences, sent_idx, sym),
+                        "ambiguous_attachment": ambiguous,
                         "span": (m.start(), m.end()),
                     })
                     # Some patterns (e.g. "...of a finite group G") declare
@@ -475,6 +631,28 @@ def extract_declarations(text, patterns, equation_patterns=None):
                     # same span so dedup treats it as part of the same
                     # match - but only when the descriptor itself is
                     # trustworthy (see descriptor_unreliable above).
+                    if pat.get("also_declares_subj_role") and gd.get("subj_role"):
+                        subj_role = gd["subj_role"].strip()
+                        sent_matches.append({
+                            "sym": sym,
+                            "role": subj_role,
+                            "rel": None,
+                            "meaning": f"{sym} is a {subj_role}",
+                            "sentence": sent.strip(),
+                            "confidence": pat.get("confidence", "high"),
+                            "scope": scope_path,
+                            "kind": "binding",
+                            # Derived from apposition ("the group of prime
+                            # order p"), which is a weaker inference than an
+                            # explicit binding: the descriptor may actually
+                            # qualify the symbol ("order p") rather than
+                            # name it. If this conflicts with an existing
+                            # binding, that's more likely a reading
+                            # ambiguity than a real rebinding.
+                            "from_apposition": True,
+                            "span": (m.start(), m.end()),
+                        })
+
                     if pat.get("also_declares_rel") and gd.get("rel_role") and not descriptor_unreliable:
                         rel_role = gd["rel_role"].strip()
                         sent_matches.append({
@@ -486,8 +664,13 @@ def extract_declarations(text, patterns, equation_patterns=None):
                             "confidence": pat.get("confidence", "high"),
                             "scope": scope_path,
                             # An inline descriptor ("...of a finite group G")
-                            # introduces G, so it counts as a binding.
+                            # introduces G, so it counts as a binding - but
+                            # it's an apposition, so the descriptor may be
+                            # qualifying the symbol ("the group of prime
+                            # order p") rather than naming it. Conflicts get
+                            # reported as ambiguity, not redefinition.
                             "kind": "binding",
+                            "from_apposition": True,
                             "span": (m.start(), m.end()),
                         })
 
@@ -549,7 +732,9 @@ def extract_declarations(text, patterns, equation_patterns=None):
                     "sentence": enclosing.strip() or f"${content.strip()}$",
                     "confidence": pat.get("confidence", "medium"),
                     "scope": scope_path,
-                    "kind": "binding",
+                    "kind": classify_declaration_kind(enclosing or ""),
+                    "is_restatement": bool(
+                        RESTATEMENT_MARKERS_RE.match((enclosing or "").strip())),
                 })
                 break
 
@@ -598,6 +783,102 @@ def read_table(path):
 
 def similar(a, b, threshold=0.82):
     return difflib.SequenceMatcher(None, a.lower(), b.lower()).ratio() >= threshold
+
+
+def find_multiple_characterizations(declarations):
+    """Group symbols that are characterized more than one way within a
+    scope, so a reviewer (human or LLM) can confirm the characterizations
+    actually agree.
+
+    This is NOT an error check. Describing one object several ways is
+    normal and often good writing. The failure mode it targets is the
+    *underdetermined* restatement: a second description that picks out a
+    different object than the first because a qualifying clause was
+    dropped. Such a sentence is grammatically fine, introduces no new
+    symbol, and conflicts with nothing - so every other check here passes
+    it. Only a reader who knows the mathematics can settle it, which is
+    exactly why it's surfaced as a prompt rather than a verdict.
+
+    Returns a list of dicts, highest-priority first:
+        {sym, scope, priority, characterizations: [{meaning, sentence,
+         kind, is_restatement}]}
+
+    priority is "high" when the characterizations are explicitly linked -
+    same sentence, or one flagged by a restatement marker ("in other
+    words", "equivalently"). Those are asserted to be equivalent, so a
+    mismatch is a real defect rather than two independent true facts.
+    Everything else is "normal": likely just accumulated properties.
+    """
+    groups = {}
+    for d in declarations:
+        groups.setdefault((d["sym"], d["scope"]), []).append(d)
+
+    out = []
+    for (sym, scope), decls in groups.items():
+        # Collapse near-identical wordings; they aren't two characterizations.
+        distinct = []
+        for d in decls:
+            if not any(similar(d["meaning"], k["meaning"]) for k in distinct):
+                distinct.append(d)
+        # A restatement whose antecedent couldn't be parsed into a meaning
+        # still deserves review: show the raw antecedent sentence alongside
+        # it. This is the case where the first characterization is implicit
+        # (a symbol placed in a chain, say) rather than a parseable "X is a Y".
+        antecedents = [d for d in distinct
+                       if d.get("is_restatement") and d.get("antecedent")]
+        if len(distinct) < 2 and not antecedents:
+            continue
+
+        # "high" requires an explicit restatement marker. Same-sentence
+        # co-occurrence is too weak on its own: one long explanatory
+        # sentence can mention a symbol several ways incidentally
+        # ("we don't even use that H is a subgroup of G ... H is a subset
+        # of G ...") without asserting those are equivalent.
+        linked = any(d.get("is_restatement") for d in distinct)
+        if len(distinct) < 2:
+            linked = True  # restatement with an unparsed antecedent
+        out.append({
+            "sym": sym,
+            "scope": list(scope),
+            "priority": "high" if linked else "normal",
+            "characterizations": [
+                {
+                    "meaning": d["meaning"],
+                    "sentence": d["sentence"],
+                    "kind": d.get("kind", "binding"),
+                    "is_restatement": bool(d.get("is_restatement")),
+                }
+                for d in distinct
+            ],
+            # Raw sentences a restatement is restating, where we could not
+            # parse them into a meaning. Unparsed on purpose - the reviewer
+            # compares them by eye.
+            "antecedents": sorted({d["antecedent"] for d in antecedents}),
+        })
+
+    out.sort(key=lambda g: (g["priority"] != "high", g["sym"]))
+    return out
+
+
+def format_characterizations(groups, indent=""):
+    """Human-readable rendering of find_multiple_characterizations()."""
+    lines = []
+    for g in groups:
+        tag = "VERIFY-EQUIVALENCE" if g["priority"] == "high" else "characterizations"
+        n = len(g["characterizations"]) + len(g.get("antecedents", []))
+        lines.append(f"{indent}[{tag}] '{g['sym']}' "
+                     f"[{scope_label(tuple(g['scope']))}] "
+                     f"is characterized {n} ways:")
+        for i, c in enumerate(g["characterizations"], 1):
+            mark = " (restatement)" if c["is_restatement"] else ""
+            lines.append(f"{indent}    {i}. {c['meaning']}{mark}")
+            lines.append(f"{indent}       from: \"{c['sentence'][:100]}\"")
+        for a in g.get("antecedents", []):
+            lines.append(f"{indent}    ~. (restating, unparsed) \"{a[:100]}\"")
+        if g["priority"] == "high":
+            lines.append(f"{indent}    -> these are asserted to be equivalent; "
+                         f"confirm they pick out the same object")
+    return "\n".join(lines)
 
 
 def dedupe_declarations(declarations):
@@ -675,6 +956,20 @@ def check_consistency(declarations, approved_table):
                     f"declared -- (\"{d['sentence'][:70]}\")",
                 ))
 
+        # AMBIGUOUS_ATTACHMENT (advisory): the declaration was resolved
+        # correctly, but the sentence separates its subject from its verb
+        # with prepositional phrases containing other symbols. A reader can
+        # misattach the predicate to the nearer symbol just as a naive
+        # parser does. Suggest punctuation; the meaning itself is fine.
+        if d.get("ambiguous_attachment"):
+            issues.append((
+                "AMBIGUOUS_ATTACHMENT",
+                f"'{sym}' is separated from its verb by phrases containing other "
+                f"symbols; read as \"{meaning}\" [{scope_label(scope)}]. Consider "
+                f"commas or parentheses to make the subject unmistakable "
+                f"-- (\"{d['sentence'][:70]}\")",
+            ))
+
         # SELF_REFERENCE: symbol declared in terms of itself, e.g.
         # "A is a subgroup of A". Always worth a human look regardless
         # of scope - this is a deterministic, high-confidence catch.
@@ -697,12 +992,26 @@ def check_consistency(declarations, approved_table):
             if prior is not None:
                 prior_scope, prior_meaning = prior
                 if scopes_related(prior_scope, scope) and not similar(prior_meaning, meaning):
-                    issues.append((
-                        "REDEFINITION",
-                        f"'{sym}' previously meant \"{prior_meaning}\" "
-                        f"[{scope_label(prior_scope)}], now re-bound as \"{meaning}\" "
-                        f"[{scope_label(scope)}] -- (\"{d['sentence'][:70]}\")",
-                    ))
+                    if d.get("from_apposition"):
+                        # The conflicting reading came from apposition ("the
+                        # group of prime order p"), where the descriptor may
+                        # be qualifying the symbol rather than naming it.
+                        # Report the ambiguity, not a redefinition - but do
+                        # report it, since a reader can misread it too.
+                        issues.append((
+                            "AMBIGUOUS_ATTACHMENT",
+                            f"'{sym}' already means \"{prior_meaning}\", but the phrasing "
+                            f"here also reads as \"{meaning}\" [{scope_label(scope)}]. "
+                            f"Likely the descriptor qualifies '{sym}' rather than naming "
+                            f"it; consider rewording -- (\"{d['sentence'][:70]}\")",
+                        ))
+                    else:
+                        issues.append((
+                            "REDEFINITION",
+                            f"'{sym}' previously meant \"{prior_meaning}\" "
+                            f"[{scope_label(prior_scope)}], now re-bound as \"{meaning}\" "
+                            f"[{scope_label(scope)}] -- (\"{d['sentence'][:70]}\")",
+                        ))
         last_meaning[sym] = (scope, meaning)
 
         # DRIFT: not present in the human-approved table at all, or present
@@ -734,11 +1043,22 @@ def check_consistency(declarations, approved_table):
     # POSSIBLE_ALIAS (soft): different symbols, near-identical meaning text,
     # restricted to related scopes - otherwise every page-wide reuse of
     # "is a subgroup of" phrasing floods the output with noise.
-    items = [(d["sym"], d["meaning"], d["scope"]) for d in declarations]
+    #
+    # Ultra-generic roles are excluded: on a group theory page most symbols
+    # are "a group" or "a subgroup", so matching on those says nothing about
+    # whether two symbols are actually the same object.
+    GENERIC_ROLES = {
+        "group", "subgroup", "set", "element", "field", "ring", "space",
+        "map", "function", "number", "integer", "prime",
+    }
+    items = [(d["sym"], d["meaning"], d["scope"], (d.get("role") or "").strip().lower())
+             for d in declarations]
     for i in range(len(items)):
         for j in range(i + 1, len(items)):
-            sym_a, mean_a, scope_a = items[i]
-            sym_b, mean_b, scope_b = items[j]
+            sym_a, mean_a, scope_a, role_a = items[i]
+            sym_b, mean_b, scope_b, role_b = items[j]
+            if role_a in GENERIC_ROLES and role_b in GENERIC_ROLES:
+                continue
             if (sym_a != sym_b
                     and scopes_related(scope_a, scope_b)
                     and similar(mean_a, mean_b, threshold=0.9)):
@@ -776,9 +1096,9 @@ def main():
     declarations = extract_declarations(text, patterns)
 
     if args.cmd == "extract":
-        for line_no, msg in find_malformed_math_tags(text):
+        for sev, line_no, msg in find_malformed_math_tags(text):
             loc = f"line {line_no}" if line_no else "file"
-            print(f"[MALFORMED_MATH_TAG] {loc}: {msg}")
+            print(f"[{sev}] {loc}: {msg}")
         declarations = dedupe_declarations(declarations)
         table = build_draft_table(declarations)
         write_table(table, args.out)
@@ -788,8 +1108,8 @@ def main():
     elif args.cmd == "check":
         approved = read_table(args.approved)
         issues = [
-            ("MALFORMED_MATH_TAG", (f"line {ln}: " if ln else "") + msg)
-            for ln, msg in find_malformed_math_tags(text)
+            (sev, (f"line {ln}: " if ln else "") + msg)
+            for sev, ln, msg in find_malformed_math_tags(text)
         ]
         issues += check_consistency(declarations, approved)
         if not issues:

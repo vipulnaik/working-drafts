@@ -1,0 +1,71 @@
+{{definition equivalence|normal subgroup}}
+[[Difficulty level::3| ]]
+==Statement==
+
+The following are equivalent for a [[subgroup]] <math>H</math> of a [[group]] <math>G</math> :
+
+# <math>H</math> is a [[normal subgroup]] of <math>G</math>.
+# <math>H</math> is a '''potentially characteristic subgroup''' of <math>G</math> in the following sense: there exists a [[group]] <math>K</math> containing <math>G</math> such that <math>H</math> is a [[characteristic subgroup]] of <math>K</math>.
+
+==Related facts==
+
+===Stronger facts===
+
+* [[Normal equals retract-potentially characteristic]]
+
+===Other related facts===
+* [[Finite NPC theorem]]
+* [[Finite NIPC theorem]]
+* Fact about [[amalgam-characteristic subgroup]]s: [[finite normal implies amalgam-characteristic]], [[periodic normal implies amalgam-characteristic]], [[central implies amalgam-characteristic]]
+
+==Facts used==
+
+# [[uses::Characteristicity is centralizer-closed]]
+# [[uses::Characteristic implies normal]]
+# [[uses::Normality satisfies intermediate subgroup condition]]
+
+==Proof==
+
+===Proof of (1) implies (2) (hard direction)===
+
+'''Given''': A group <math>G</math>, a normal subgroup <math>H</math> of <math>G</math>.
+
+'''To prove''': There exists a group <math>K</math> containing <math>G</math> such that <math>H</math> is characteristic in <math>K</math>.
+
+'''Proof''':
+
+{| class="sortable" border="1"
+! Step no. !! Assertion/construction !! Facts used !! Given data used !! Previous steps used !! Explanation
+|-
+| 1 || Let <math>S</math> be a simple non-abelian group that is not isomorphic to any subgroup of <math>G</math>. || || || || Note that such a group exists. For instance, we can take the finitary alternating group on any set of cardinality strictly bigger than that of <math>G</math>.
+|-
+| 2 || Let <math>K</math> be the restricted wreath product of <math>S</math> and <math>G</math>, where <math>G</math> acts via the [[left-regular group action|regular action]] of <math>G/H</math> and let <math>V</math> be the restricted direct power <math>S^{G/H}</math>. In other words, <math>K</math> is the semidirect product of the restricted direct power <math>V = S^{G/H}</math> and <math>G</math>, acting via the regular group action of <math>G/H</math>. || || || Step (1) ||
+|-
+| 3 || Any homomorphism from <math>V</math> to <math>G</math> is trivial. || || || Steps (1), (2) || By definition, <math>V</math> is a restricted direct product of copies of <math>S</math>. Since <math>S</math> is simple and not isomorphic to any subgroup of <math>G</math>, any homomorphism from <math>S</math> to <math>G</math> is trivial. Thus, any homomorphism from <math>V</math> to <math>G</math> is trivial.
+|-
+| 4 || <math>V</math> is characteristic in <math>K</math>. || || || Steps (2), (3) || Under any automorphism of <math>K</math>, the image of <math>V</math> is a homomorphic image of <math>V</math> in <math>K</math>. Its projection to <math>K/V \cong G</math> is a homomorphic image of <math>V</math> in <math>G</math>, which is trivial by Step (3), so the image of <math>V</math> in <math>K</math> must be in <math>V</math>.
+|-
+| 5 || The centralizer of <math>V</math> in <math>VH</math> equals <math>H</math>. || || || Steps (1), (2) || By definition of the wreath product action, <math>H</math> centralizes <math>V</math>. Since <math>S</math> is centerless, <math>V</math> is also centerless. Thus, <math>C_{VH}(V)</math> contains <math>H</math> but has trivial intersection with <math>V</math>, forcing <math>C_{VH} (V) = H</math>.
+|-
+| 6 || The centralizer of <math>V</math> in <math>K</math> equals <math>H</math>. || || || Steps (2), (5) || Step (5) already shows that <math>C_{VH}(V) = H</math>, so it suffices to show that <math>C_K(V) \le VH</math>. To see this, note that, by the construction in Step (2), any element of <math>K</math> outside <math>VH</math> permutes the direct factors of <math>V</math> as an element of <math>G</math> outside <math>H</math>. The permutation action is nontrivial, so the whole action is nontrivial, and hence elements outside <math>VH</math> cannot centralize <math>V</math>. This forces <math>C_K(V) \le VH</math>, completing the proof.
+|-
+| 7 || <math>H</math> is characteristic in <math>K</math>. || Fact (1) || || Steps (4), (6) || Step-fact combination direct
+|}
+
+{{tabular proof format}}
+
+===Proof of (2) implies (1) (easy direction)===
+
+'''Given''': A group <math>G</math>, a subgroup <math>H</math> of <math>G</math>, a group <math>K</math> containing <math>G</math> such that <math>H</math> is characteristic in <math>K</math>.
+
+'''To prove''': <math>H</math> is normal in <math>G</math>.
+
+'''Proof''':
+
+{| class="sortable" border="1"
+! Step no. !! Assertion/construction !! Facts used !! Given data used !! Previous steps used !! Explanation
+|-
+| 1 || <math>H</math> is normal in <math>K</math>. || Fact (2) || <math>H</math> is characteristic in <math>K</math> || || Given-fact-combination direct.
+|-
+| 2 || <math>H</math> is normal in <math>G</math>. || Fact (3) || <math>H \le G \le K</math> || Step (1) || Given-step-fact combination direct.
+|}

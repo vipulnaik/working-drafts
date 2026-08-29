@@ -6,131 +6,125 @@
       "source_sentence": "To prove: SYM(K) is a field.",
       "scope": [
         "Proof"
-      ]
+      ],
+      "kind": "assertion"
+    },
+    {
+      "meaning": "K is a division ring",
+      "confidence": "high",
+      "source_sentence": "SYM(K) is a division ring .  .",
+      "scope": [
+        "Proof",
+        "row 2"
+      ],
+      "kind": "assertion"
     },
     {
       "meaning": "K is a vector space over L",
       "confidence": "high",
-      "source_sentence": "The center of a group is an abelian subgroup, so the nonzero elements of SYM(L) form a commutative subgroup of SYM(K^*), hence SYM(L) is a field under the induced operations.</toggledisplay> || Creation of base field (SYM(L)) for which many of the additive structures of interest are vector spaces\n|-\n| 3 || SYM(K) is a vector space over SYM(L) where the additive structure is the same as that for SYM(K) as a skew field and where the action of elements of SYM(L) is by left multiplication. || || || Step (2) || <toggledisplay>The linearity follows from distributivity of multiplication.</toggledisplay> || Linear consolidation over SYM(L)\n|-\n| 4 || If SYM(L) has size SYM(q > 1), SYM(K) has size SYM(q^d) for some positive integer SYM(d), where SYM(d) is the dimension of SYM(K) as a vector space over SYM(L). || || SYM(K) is finite || Step (3) || <toggledisplay>Since SYM(K) is finite, so is SYM(L), so SYM(L) has some size SYM(q > 1) (since there is no field with one element).",
+      "source_sentence": "SYM(K) is a vector space over SYM(L) where the additive structure is the same as that for SYM(K) as a skew field and where the action of elements of SYM(L) is by left multiplication. .  .  .",
       "scope": [
-        "Proof"
-      ]
+        "Proof",
+        "row 3"
+      ],
+      "kind": "assertion"
     },
     {
       "meaning": "K is a field",
       "confidence": "high",
-      "source_sentence": "Since SYM(\\Phi_d(q)) and SYM(q - 1) are integers, and SYM(q - 1) is positive, we conclude that SYM(\\Phi_d(q)) cannot divide SYM(q - 1).</toggledisplay> || Pure cyclotomic polynomial theory (number theory/algebra)\n|-\n| 11 || We can conclude SYM(d = 1), so SYM(K = L) and SYM(K) is a field. || || || Steps (7), (9), (10) || <toggledisplay>By Step (9), SYM(A = \\Phi_d(q)) divides both SYM(q^d - 1) and the quotients SYM((q^d - 1)/(q^{r_i} - 1)).",
+      "source_sentence": "We can conclude SYM(d = 1), so SYM(K = L) and SYM(K) is a field. .  .  .",
       "scope": [
-        "Proof"
-      ]
-    },
+        "Proof",
+        "row 11"
+      ],
+      "kind": "assertion"
+    }
+  ],
+  "K^*": [
     {
-      "meaning": "K is defined as L",
-      "confidence": "medium",
-      "source_sentence": "$K = L$",
+      "meaning": "K^* is a multiplicative group",
+      "confidence": "high",
+      "source_sentence": "Proof': We denote by SYM(K^*) the multiplicative group of nonzero elements of SYM(K).",
       "scope": [
         "Proof"
-      ]
-    },
-    {
-      "meaning": "K is defined as L",
-      "confidence": "medium",
-      "source_sentence": "$K = L$",
-      "scope": [
-        "Proof"
-      ]
+      ],
+      "kind": "assertion"
     }
   ],
   "L": [
     {
+      "meaning": "L is a center of K",
+      "confidence": "high",
+      "source_sentence": "Let SYM(L) be the center of SYM(K), i.e., the subset of SYM(K) comprising those elements that commute multiplicatively with every element of SYM(K). .  .  .  .  .",
+      "scope": [
+        "Proof",
+        "row 1"
+      ],
+      "kind": "binding"
+    },
+    {
       "meaning": "L is a field under the operations induced from K",
       "confidence": "high",
-      "source_sentence": "Commentary\n|-\n| 1 || Let SYM(L) be the center of SYM(K), i.e., the subset of SYM(K) comprising those elements that commute multiplicatively with every element of SYM(K). || || || || || \n|-\n| 2 || SYM(L) is a field under the operations induced from SYM(K), and the multiplicative group SYM(L^*) of nonzero elements of SYM(L) is the center of SYM(K^*). || || SYM(K) is a division ring || || <toggledisplay>SYM(L) is an additive subgroup of SYM(K) because of the distributivity laws relating addition and multiplication.",
+      "source_sentence": "SYM(L) is a field under the operations induced from SYM(K), and the multiplicative group SYM(L^*) of nonzero elements of SYM(L) is the center of SYM(K^*). .  .",
       "scope": [
-        "Proof"
-      ]
+        "Proof",
+        "row 2"
+      ],
+      "kind": "assertion"
     },
     {
       "meaning": "L is a additive subgroup of K",
       "confidence": "high",
-      "source_sentence": "Commentary\n|-\n| 1 || Let SYM(L) be the center of SYM(K), i.e., the subset of SYM(K) comprising those elements that commute multiplicatively with every element of SYM(K). || || || || || \n|-\n| 2 || SYM(L) is a field under the operations induced from SYM(K), and the multiplicative group SYM(L^*) of nonzero elements of SYM(L) is the center of SYM(K^*). || || SYM(K) is a division ring || || <toggledisplay>SYM(L) is an additive subgroup of SYM(K) because of the distributivity laws relating addition and multiplication.",
+      "source_sentence": "SYM(L) is an additive subgroup of SYM(K) because of the distributivity laws relating addition and multiplication.",
       "scope": [
-        "Proof"
-      ]
-    },
-    {
-      "meaning": "L is a center of K^*",
-      "confidence": "high",
-      "source_sentence": "Commentary\n|-\n| 1 || Let SYM(L) be the center of SYM(K), i.e., the subset of SYM(K) comprising those elements that commute multiplicatively with every element of SYM(K). || || || || || \n|-\n| 2 || SYM(L) is a field under the operations induced from SYM(K), and the multiplicative group SYM(L^*) of nonzero elements of SYM(L) is the center of SYM(K^*). || || SYM(K) is a division ring || || <toggledisplay>SYM(L) is an additive subgroup of SYM(K) because of the distributivity laws relating addition and multiplication.",
-      "scope": [
-        "Proof"
-      ]
-    },
-    {
-      "meaning": "L is a center of K",
-      "confidence": "high",
-      "source_sentence": "Commentary\n|-\n| 1 || Let SYM(L) be the center of SYM(K), i.e., the subset of SYM(K) comprising those elements that commute multiplicatively with every element of SYM(K). || || || || || \n|-\n| 2 || SYM(L) is a field under the operations induced from SYM(K), and the multiplicative group SYM(L^*) of nonzero elements of SYM(L) is the center of SYM(K^*). || || SYM(K) is a division ring || || <toggledisplay>SYM(L) is an additive subgroup of SYM(K) because of the distributivity laws relating addition and multiplication.",
-      "scope": [
-        "Proof"
-      ]
+        "Proof",
+        "row 2"
+      ],
+      "kind": "assertion"
     },
     {
       "meaning": "L is a field under the induced operations",
       "confidence": "high",
-      "source_sentence": "The center of a group is an abelian subgroup, so the nonzero elements of SYM(L) form a commutative subgroup of SYM(K^*), hence SYM(L) is a field under the induced operations.</toggledisplay> || Creation of base field (SYM(L)) for which many of the additive structures of interest are vector spaces\n|-\n| 3 || SYM(K) is a vector space over SYM(L) where the additive structure is the same as that for SYM(K) as a skew field and where the action of elements of SYM(L) is by left multiplication. || || || Step (2) || <toggledisplay>The linearity follows from distributivity of multiplication.</toggledisplay> || Linear consolidation over SYM(L)\n|-\n| 4 || If SYM(L) has size SYM(q > 1), SYM(K) has size SYM(q^d) for some positive integer SYM(d), where SYM(d) is the dimension of SYM(K) as a vector space over SYM(L). || || SYM(K) is finite || Step (3) || <toggledisplay>Since SYM(K) is finite, so is SYM(L), so SYM(L) has some size SYM(q > 1) (since there is no field with one element).",
+      "source_sentence": "The center of a group is an abelian subgroup, so the nonzero elements of SYM(L) form a commutative subgroup of SYM(K^*), hence SYM(L) is a field under the induced operations.  .",
       "scope": [
-        "Proof"
-      ]
+        "Proof",
+        "row 2"
+      ],
+      "kind": "assertion"
     },
     {
       "meaning": "L is a center",
       "confidence": "high",
-      "source_sentence": "Further, if SYM(g \\notin L), then SYM(1 < r < d) (SYM(r) depends on SYM(g)). || || || Step (4) || <toggledisplay>That SYM(C_K(g)) is closed under addition and SYM(L)-scalar multiplication follows from the distributivity laws and the fact that SYM(L) is the center.",
+      "source_sentence": "That SYM(C_K(g)) is closed under addition and SYM(L)-scalar multiplication follows from the distributivity laws and the fact that SYM(L) is the center.",
       "scope": [
-        "Proof"
-      ]
+        "Proof",
+        "row 5"
+      ],
+      "kind": "assertion"
+    }
+  ],
+  "L^*": [
+    {
+      "meaning": "L^* is a center of K^*",
+      "confidence": "high",
+      "source_sentence": "SYM(L) is a field under the operations induced from SYM(K), and the multiplicative group SYM(L^*) of nonzero elements of SYM(L) is the center of SYM(K^*). .  .",
+      "scope": [
+        "Proof",
+        "row 2"
+      ],
+      "kind": "assertion"
     }
   ],
   "d": [
     {
       "meaning": "d is a dimension of K",
       "confidence": "high",
-      "source_sentence": "The center of a group is an abelian subgroup, so the nonzero elements of SYM(L) form a commutative subgroup of SYM(K^*), hence SYM(L) is a field under the induced operations.</toggledisplay> || Creation of base field (SYM(L)) for which many of the additive structures of interest are vector spaces\n|-\n| 3 || SYM(K) is a vector space over SYM(L) where the additive structure is the same as that for SYM(K) as a skew field and where the action of elements of SYM(L) is by left multiplication. || || || Step (2) || <toggledisplay>The linearity follows from distributivity of multiplication.</toggledisplay> || Linear consolidation over SYM(L)\n|-\n| 4 || If SYM(L) has size SYM(q > 1), SYM(K) has size SYM(q^d) for some positive integer SYM(d), where SYM(d) is the dimension of SYM(K) as a vector space over SYM(L). || || SYM(K) is finite || Step (3) || <toggledisplay>Since SYM(K) is finite, so is SYM(L), so SYM(L) has some size SYM(q > 1) (since there is no field with one element).",
+      "source_sentence": "If SYM(L) has size SYM(q > 1), SYM(K) has size SYM(q^d) for some positive integer SYM(d), where SYM(d) is the dimension of SYM(K) as a vector space over SYM(L). .  .",
       "scope": [
-        "Proof"
-      ]
-    },
-    {
-      "meaning": "d is defined as \\alpha r_i + \\beta",
-      "confidence": "medium",
-      "source_sentence": "$d = \\alpha r_i + \\beta$",
-      "scope": [
-        "Proof"
-      ]
-    },
-    {
-      "meaning": "d is defined as 1",
-      "confidence": "medium",
-      "source_sentence": "$d = 1$",
-      "scope": [
-        "Proof"
-      ]
-    },
-    {
-      "meaning": "d is defined as 1",
-      "confidence": "medium",
-      "source_sentence": "$d = 1$",
-      "scope": [
-        "Proof"
-      ]
-    },
-    {
-      "meaning": "d is defined as 1",
-      "confidence": "medium",
-      "source_sentence": "$d = 1$",
-      "scope": [
-        "Proof"
-      ]
+        "Proof",
+        "row 4"
+      ],
+      "kind": "assertion"
     }
   ],
   "\\alpha": [
@@ -139,8 +133,10 @@
       "confidence": "high",
       "source_sentence": "If SYM(d = \\alpha r_i + \\beta) where SYM(\\alpha) is the quotient and SYM(\\beta) is the remainder, we get SYM(q^{\\alpha r_i + \\beta} \\equiv 1 \\pmod{q^{r_i} - 1}).",
       "scope": [
-        "Proof"
-      ]
+        "Proof",
+        "row 8"
+      ],
+      "kind": "assertion"
     }
   ],
   "\\beta": [
@@ -149,18 +145,54 @@
       "confidence": "high",
       "source_sentence": "If SYM(d = \\alpha r_i + \\beta) where SYM(\\alpha) is the quotient and SYM(\\beta) is the remainder, we get SYM(q^{\\alpha r_i + \\beta} \\equiv 1 \\pmod{q^{r_i} - 1}).",
       "scope": [
-        "Proof"
-      ]
+        "Proof",
+        "row 8"
+      ],
+      "kind": "assertion"
     }
   ],
   "r_i": [
     {
-      "meaning": "r_i is a proper divisor",
+      "meaning": "r_i is a proper divisor of d",
       "confidence": "high",
-      "source_sentence": "Then, as an integer, SYM(A) divides SYM(q^d - 1) as well as each of the quotient SYM((q^d - 1)/(q^{r_i} - 1)) appearing in step (7). || || || Steps (7), (8) || <toggledisplay>Since each SYM(r_i) is a proper divisor of <matH>d</math>, the polynomial SYM(\\Phi_d(x)), as a polynomial, divides SYM(x^d - 1) and each of the quotients SYM((x^d - 1)/(x^{r_i} - 1)) -- we can see this by considering the roots of these polynomials.",
+      "source_sentence": "Since each SYM(r_i) is a proper divisor of SYM(d), the polynomial SYM(\\Phi_d(x)), as a polynomial, divides SYM(x^d - 1) and each of the quotients SYM((x^d - 1)/(x^{r_i} - 1)) -- we can see this by considering the roots of these polynomials.",
       "scope": [
-        "Proof"
-      ]
+        "Proof",
+        "row 9"
+      ],
+      "kind": "assertion"
+    }
+  ],
+  "A": [
+    {
+      "meaning": "A is defined as \\Phi_d(q)",
+      "confidence": "medium",
+      "source_sentence": "Let SYM(A = \\Phi_d(q)) where SYM(\\Phi_d) is the cyclotomic polynomial with parameter SYM(d).",
+      "scope": [
+        "Proof",
+        "row 9"
+      ],
+      "kind": "binding"
+    },
+    {
+      "meaning": "A is defined as \\Phi_d(q)",
+      "confidence": "medium",
+      "source_sentence": "If SYM(d > 1), then SYM(A = \\Phi_d(q)) does not divide SYM(q - 1). .  .  .  .",
+      "scope": [
+        "Proof",
+        "row 10"
+      ],
+      "kind": "assertion"
+    },
+    {
+      "meaning": "A is defined as \\Phi_d(q)",
+      "confidence": "medium",
+      "source_sentence": "By Step (9), SYM(A = \\Phi_d(q)) divides both SYM(q^d - 1) and the quotients SYM((q^d - 1)/(q^{r_i} - 1)).",
+      "scope": [
+        "Proof",
+        "row 11"
+      ],
+      "kind": "assertion"
     }
   ],
   "q": [
@@ -169,34 +201,10 @@
       "confidence": "high",
       "source_sentence": "Since SYM(q) is a positive integer, the only root of unity that's a positive real multiple of it is SYM(1), so equality holds only if SYM(\\zeta = 1), which in turn could happen only if SYM(d = 1).",
       "scope": [
-        "Proof"
-      ]
-    }
-  ],
-  "A": [
-    {
-      "meaning": "A is defined as \\Phi_d(q)",
-      "confidence": "medium",
-      "source_sentence": "$A = \\Phi_d(q)$",
-      "scope": [
-        "Proof"
-      ]
-    },
-    {
-      "meaning": "A is defined as \\Phi_d(q)",
-      "confidence": "medium",
-      "source_sentence": "$A = \\Phi_d(q)$",
-      "scope": [
-        "Proof"
-      ]
-    },
-    {
-      "meaning": "A is defined as \\Phi_d(q)",
-      "confidence": "medium",
-      "source_sentence": "$A = \\Phi_d(q)$",
-      "scope": [
-        "Proof"
-      ]
+        "Proof",
+        "row 10"
+      ],
+      "kind": "assertion"
     }
   ]
 }
