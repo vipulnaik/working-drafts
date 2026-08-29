@@ -88,6 +88,33 @@ old revision in memory, so there's no registry file to forget to update.
 Exit code: `1` if the edit introduced anything gating, `0` otherwise. Enough
 for a pre-commit hook today.
 
+### Suggesting what to add
+
+```bash
+python3 mathcheck.py suggest MyPage.mediawiki
+python3 mathcheck.py suggest MyPage.mediawiki --json
+```
+
+A third kind of check, and deliberately a **separate command**. `check` and
+`diff` ask whether what's written is wrong; `characterize` asks what needs a
+human's eye; `suggest` asks whether the page lacks content that pages like it
+usually carry — a finiteness caveat, a worked example, stated orders, a GAP
+snippet, a Given citation.
+
+Absence is judged against an expectation rather than against the page, so this
+is inherently the noisiest kind of check and would drown correctness findings
+if mixed into `check`. Run it when you're deciding what to add, not on every
+edit.
+
+Every suggestion fires on positive evidence from the page (a detected infinite
+domain, an unexhibited input, a derivable order) — never merely because a
+section is absent. Suggestions are gated on the page-type templates
+(`{{tabular proof format}}` and friends) where a norm only applies to some
+page types. Expect 0–3 per page; the test suite has a volume guard.
+
+**Output is a reminder and a starting point, not text to paste.** Derived
+orders and GAP snippets need a human pass first.
+
 ### Reviewing characterizations
 
 ```bash

@@ -46,6 +46,7 @@ from pathlib import Path
 
 import latex_var_scan as syn
 import latex_semantic_scan as sem
+import suggest as sug
 
 
 def cmd_syntax(args):
@@ -282,6 +283,22 @@ def cmd_diff(args):
     return gating
 
 
+def cmd_suggest(args):
+    """List what the page could gain, as opposed to what is wrong with it.
+
+    Kept OUT of `check` deliberately: absence checks are judged against an
+    expectation rather than against the page, so they are the noisiest kind
+    and would drown correctness findings if mixed in.
+    """
+    text = Path(args.file).read_text()
+    items = sug.suggest(text, args.file)
+    if args.json:
+        print(json.dumps(items, indent=2, ensure_ascii=False))
+        return 0
+    print(sug.render(items, args.file))
+    return 0
+
+
 def cmd_characterize(args):
     """List symbols characterized more than one way, for review.
 
@@ -338,6 +355,14 @@ def main():
     p4.add_argument("--approved", default=None, help="Human-approved semantic table (omit to skip semantic layer)")
     p4.add_argument("--patterns-file", default=None)
 
+    p7 = sub.add_parser(
+        "suggest",
+        help="What this page could gain (missing caveats, examples, orders, "
+             "GAP) - separate from check, and noisier by nature",
+    )
+    p7.add_argument("file")
+    p7.add_argument("--json", action="store_true")
+
     p6 = sub.add_parser(
         "characterize",
         help="List symbols characterized more than one way, for human/LLM review",
@@ -369,6 +394,8 @@ def main():
         cmd_semantic_extract(args)
     elif args.cmd == "check":
         sys.exit(1 if cmd_check(args) else 0)
+    elif args.cmd == "suggest":
+        sys.exit(cmd_suggest(args))
     elif args.cmd == "characterize":
         sys.exit(cmd_characterize(args))
     elif args.cmd == "diff":

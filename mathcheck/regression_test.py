@@ -458,6 +458,51 @@ def run_overlay_cases():
     return failures
 
 
+def run_suggest_cases():
+    """Absence checks are judged against an expectation rather than the
+    page, so they are the noisiest kind. The properties worth pinning are
+    that each suggestion fires on POSITIVE evidence and that pages which
+    already carry the content stay quiet."""
+    import suggest as sug
+    failures = []
+    got = {f: {s["id"] for s in sug.suggest(Path(f).read_text())}
+           for f in ("sample-page.mediawiki", "sample-page-2.mediawiki",
+                     "sample-page-4.mediawiki", "sample-page-5.mediawiki")}
+
+    checks = [
+        # Infinite page, no caveat stated -> suggest one.
+        ("finiteness caveat on page 5", "sample-page-5.mediawiki",
+         "finiteness-caveat", True),
+        # ...but never suggest computational content for an infinite page.
+        ("no GAP suggestion for infinite page", "sample-page-5.mediawiki",
+         "gap-verification", False),
+        ("no order suggestion for infinite page", "sample-page-5.mediawiki",
+         "order-computation", False),
+        # Wedderburn states sizes throughout ("K has size q^d") - the word
+        # "order" never appears, so a naive check false-positives here.
+        ("no order suggestion when page states sizes",
+         "sample-page-2.mediawiki", "order-computation", False),
+        # Page 4 has an empty Given column and is a tabular proof.
+        ("given-citation on page 4", "sample-page-4.mediawiki",
+         "given-citation", True),
+    ]
+    for name, path, sid, expect in checks:
+        present = sid in got[path]
+        ok = present == expect
+        print(f"[{'OK ' if ok else 'FAIL'}] suggest: {name}")
+        if not ok:
+            failures.append(f"suggest: {name} (expected {expect})")
+
+    # Volume guard: a list people learn to ignore is worse than no list.
+    for f, ids in got.items():
+        ok = len(ids) <= 3
+        print(f"[{'OK ' if ok else 'FAIL'}] suggest: {f} has {len(ids)} "
+              f"suggestion(s)")
+        if not ok:
+            failures.append(f"suggest: {f} too noisy ({len(ids)})")
+    return failures
+
+
 def run_infinite_domain_cases():
     """Some pages have NO finite model at all - every finite subgroup is
     powering-invariant, so a counterexample to powering-invariance must be
@@ -741,7 +786,8 @@ def main():
     required.add("mathcheck.py")
     required.add("gapgen.py")
     required.add("ordercalc.py")
-    required.add("overlay.py")   # diff cases invoke it as a subprocess
+    required.add("overlay.py")
+    required.add("suggest.py")   # diff cases invoke it as a subprocess
     missing = [p for p in required if not Path(p).exists()]
     if missing:
         print("Missing required file(s) in the current directory:")
@@ -817,6 +863,7 @@ def main():
     failures.extend(run_ordercalc_cases())
     failures.extend(run_setbuilder_cases())
     failures.extend(run_infinite_domain_cases())
+    failures.extend(run_suggest_cases())
 
     print()
     print("=" * 70)
