@@ -1,0 +1,122 @@
+{{quiz ad}}
+
+{{group-specific information|
+information type = element structure|
+group = symmetric group:S3|
+connective = of}}
+
+This article discusses [[symmetric group:S3]], the symmetric group of degree three.
+
+==Summary==
+
+{| class="sortable" border="1"
+! Item !! Value
+|-
+| [[order of a group|order]] of the whole group (total number of elements) || 6<br>See [[element structure of symmetric group:S3#Order computation]]
+|-
+| [[conjugacy class size statistics of a finite group|conjugacy class sizes]] || 1,2,3<br>[[maximum conjugacy class size|maximum]]: 3, [[number of conjugacy classes]]: 3, [[lcm of conjugacy class sizes|lcm]]: 6
+|-
+| [[number of conjugacy classes]] || 3<br>See [[element structure of symmetric group:S3#Number of conjugacy classes]]
+|-
+| [[order statistics of a finite group|order statistics]] || 1 of order 1, 3 of order 2, 2 of order 3<br>[[maximum of element orders|maximum]]: 3, [[exponent of a group|lcm (exponent of the whole group)]]: 6
+|}
+
+==Family contexts==
+
+{| class="sortable" border="1"
+! Family name !! Parameter values !! Information on element structure of family
+|-
+| [[symmetric group]] <math>S_n</math> of degree <math>n</math>|| degree <math>n = 3</math>, i.e., <matH>S_3</math> || [[element structure of symmetric groups]]
+|-
+| [[dihedral group]] <math>D_{2n}</math> of degree <math>n</math>, order <math>2n</math>|| degree <matH>n = 3</math>, order <matH>2n = 6</math>, i.e., the group <math>D_6</math> || [[element structure of dihedral groups]]
+|}
+
+==Elements==
+
+===Order computation===
+
+The symmetric group of degree three has order 6. Below are listed various methods that can be used to compute the order, all of which should give the answer 6:
+
+{| class="sortable" border="1"
+! Family !! Parameter values !! Formula for order of a group in the family !! Proof or justification of formula !! Evaluation at parameter values !! Full interpretation of conjugacy class structure
+|-
+| [[symmetric group]] <math>S_n</math> of degree <math>n</math> || degree <math>n = 3</math> || <math>n!</math> || See [[symmetric group]] || <math>3! = 3 \cdot 2 \cdot 1 = 6</math> || [[#Interpretation as symmetric group]]
+|-
+| [[general linear group]] <math>GL(2,q)</math> over a finite field of size <math>q</math> || <math>q = 2</math>, i.e., [[field:F2]] || <math>(q^2 - 1)(q^2 - q)</math> || [[order formulas for linear groups of degree two]] || <math>(2^2 - 1)(2^2 - 2) = (3)(2) = 6</math> || [[#Interpretation as general linear group of degree two]]
+|-
+| [[dihedral group]] <math>D_{2n}</math> of degree <math>n</math>, order <matH>2n</math> || <math>n = 3</math> || <math>2n</math> || By definition. || <math>2n = 2(3) = 6</math> || [[#Interpretation as dihedral group]]
+|-
+| [[general affine group]] <math>GA(1,q)</math> over a finite field of size <math>q</math> || <math>q = 3</math>, i.e., [[field:F3]] || <math>q(q - 1)</math> || [[element structure of general affine group of degree one over a finite field]]. || <math>q(q - 1) = 3(3 - 1) = 3(2) = 6</math> || [[#Interpretation as general affine group of degree one]]
+|-
+| [[general semilinear group]] <math>\Gamma L(1,q)</math> over a finite field of size <math>q = p^r</math>, <math>p</math> prime || <math>p = 2, r = 2, q = 4</math>, i.e., [[field:F4]] || <math>r(q - 1)</math> || [[order formulas for linear groups of degree one]] || <math>2(4 - 1) = 2(3) = 6</math> || [[#Interpretation as general semilinear group of degree one]]
+|}
+
+====Computation of prime powers in order====
+
+The prime factorization of the order is:
+
+<math>6 = 2^1 \cdot 3^1</math>
+
+==Conjugacy class structure==
+
+===Interpretation as symmetric group===
+
+<section begin="conjugacy class structure"/>
+{| class="sortable" border="1"
+! Partition !! Partition in grouped form !! Verbal description of cycle type !! Elements with the cycle type in cycle decomposition notation !! Elements with the cycle type in one-line notation !! Size of conjugacy class !! [[conjugacy class size formula for symmetric group|Formula for size]] !! [[even permutation|Even or odd]]? !! [[order of an element|Element order]] !! [[order of permutation is lcm of cycle sizes|Formula calculating element order]]
+|-
+| 1 + 1 + 1 || 1 (3 times) || three fixed points || <math>()</math> -- the identity element || 123 || 1 || <math>\! \frac{3!}{(1)^3(3!)}</math> || even; no || 1 || <math>\operatorname{lcm} \{ 1, 1, 1 \}</math>
+|-
+| 2 + 1 || 2 (1 time), 1 (1 time) || [[transposition in symmetric group:S3]]: one 2-cycle, one fixed point || <math>(1,2)</math>, <math>(1,3)</math>, <math>(2,3)</math> || 213, 321, 132 || 3 || <math>\! \frac{3!}{(2)(1)}</math> || odd || 2 || <math>\operatorname{lcm} \{ 2,1 \}</math>
+|-
+| 3 || 3 (1 time) || [[3-cycle in symmetric group:S3]]: one 3-cycle || <math>(1,2,3)</math>, <math>(1,3,2)</math> || 231, 312 || 2 || <math>\! \frac{3!}{3}</math> || even; yes; no || 3 || <math>\operatorname{lcm} \{ 3 \}</math>
+|-
+! Total (3 rows -- 3 being the [[number of unordered integer partitions]] of 3) || -- || -- || -- || -- || 6 (equals 3!, the size of the symmetric group) || -- || odd: 3<br>even;no: 1<br>even; yes; no: 2 || order 1: 1, order 2: 3, order 3: 2 || --
+|}
+<section end="conjugacy class structure"/>
+
+Here is some more information:
+
+{| class="sortable" border="1"
+! Partition !! Number of elements in conjugacy class !! Order of elements !! Number of fixed points !! Number of cycles (including fixed points) !! Minimum number of transpositions that must be multiplied to obtain this cycle decomposition
+|-
+| 1 + 1 + 1 || 1 || 1 || 3 || 3 || 0
+|-
+| 2 + 1 || 3 || 2 || 1 || 2 || 1
+|-
+| 3 || 2 || 3 || 0 || 1 || 2
+|-
+| Mean over conjugacy classes || 2 || 2 || 4/3 || 2 || 1
+|-
+| Mean over elements || 7/3 || 13/6 || 1 || 11/6 || 7/6
+|}
+
+===Interpretation as dihedral group===
+
+The symmetric group of degree three is isomorphic to the dihedral group <math>D_6</math> of degree three and order six. In the table below, we denote by <matH>a</matH> the generator of the cyclic subgroup of order three and by <math>x</math> one of the reflections.
+
+{| class="sortable" border="1"
+! Nature of conjugacy class !! Size of each conjugacy class (generic odd <math>n</math>) !! Size of each conjugacy class (<math>n = 3</math>) !! Number of such conjugacy classes (generic odd <math>n</math>) !! Number of such conjugacy classes (<math>n = 3</math>) !! Total number of elements (generic odd <math>n</math>) !! Total number of elements (<math>n = 3</math>) !! Representatives as permutations
+|-
+| Identity element || 1 || 1 || 1 || 1 || 1 || 1 || <math>()</math>
+|-
+| Non-identity elements in cyclic subgroup <math>\langle a \rangle</math> || 2 || 2 || <math>(n - 1)/2</math> || 1 || <math>n - 1</math> || 2  || <math>(1,2,3)</math>
+|-
+| Elements outside the cyclic subgroup <math>\langle a \rangle</math> || <math>n</math> || 3 || 1 || 1 || <math>n</math> || 3 || <math>(1,2)</math>
+|-
+! Total (--) !! -- !! -- !! <math>(n + 3)/2</math> !! 3 !! <math>2n</math> !! 6 !! --
+|}
+
+===Number of conjugacy classes===
+
+The symmetric group of degree three has 3 conjugacy classes.
+
+{| class="sortable" border="1"
+! Family !! Parameter values !! Formula for number of conjugacy classes !! Proof or justification !! Evaluation at parameter values !! Full interpretation
+|-
+| [[general linear group]] <math>GL(2,q)</math> over a finite field of size <math>q</math> || <math>q = 2</math>, i.e., [[field:F2]] || <math>q^2 - 1</math> || [[element structure of general linear group of degree two over a finite field]] || <math>2^2 - 1 = 3</math> || [[#Interpretation as general linear group of degree two]]
+|-
+| [[dihedral group]] <math>D_{2n}</math> of degree <math>n</math>, order <matH>2n</math> || <math>n = 3</math> || <math>(n + 3)/2</math> for odd <math>n</math> || [[element structure of dihedral groups]] || Since 3 is odd, we use the odd degree case formula: <math>(3 + 3)/2 = 3</math> || [[#Interpretation as dihedral group]]
+|-
+| [[general semilinear group]] <math>\Gamma L(1,q)</math> over a finite field of size <math>q = p^2</math>, <math>p</math> prime || <math>p = 2</math> so <math>q = p^2 = 4</math>, i.e., [[field:F4]] || <math>(p - 1)(p + 4)/2</math> || [[element structure of general semilinear group of degree one over a finite field]] || <math>(2 - 1)(2 + 4)/2 = 3</math> || [[#Interpretation as general semilinear group of degree one]]
+|}

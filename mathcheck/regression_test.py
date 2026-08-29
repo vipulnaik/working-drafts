@@ -28,6 +28,7 @@ CLEAN_PAGES = {
     "sample-page-5 (powering-invariant, prose)": "sample-page-5.mediawiki",
     "sample-page-6 (normality not transitive)": "sample-page-6.mediawiki",
     "sample-page-7 (critical subgroup theorem)": "sample-page-7.mediawiki",
+    "sample-page-8 (S3 element structure, data)": "sample-page-8.mediawiki",
 }
 
 # Recorded post-fix baselines. If a change pushes these UP, that's new noise.
@@ -55,6 +56,11 @@ BASELINES = {
     # schemas, bar notation, a contradiction sub-proof. Its 12 issues
     # include 3 GENUINE unbalanced-parenthesis typos.
     "sample-page-7 (critical subgroup theorem)": 6,
+    # A "specific information" page: dense data tables, no proof, almost no
+    # prose declarations. The declaration machinery finds little here; the
+    # value is in text-level checks and arithmetic. All 7 issues are real
+    # (cosmetic) <matH> typos.
+    "sample-page-8 (S3 element structure, data)": 7,
 }
 
 
@@ -480,6 +486,8 @@ def _all_issues(text, approved=None):
     out += [(sev, m) for sev, _, m in sem.find_uncited_givens(text)]
     out += [(sev, m) for sev, _, m in gapcheck.find_gap_prose_conflicts(text)]
     out += [(sev, m) for sev, _, m in gapcheck.find_prose_self_conflicts(text)]
+    import arith as _a
+    out += [(sev, m) for sev, _, m in _a.find_arithmetic_errors(text)]
     out += sem.check_consistency(
         decls, approved if approved is not None else sem.build_draft_table(decls))
     return out
@@ -567,6 +575,62 @@ def run_extended_injection_cases():
               f"{before} -> {after}")
         if not ok:
             failures.append(f"inject: {name} not caught ({sev} {before}->{after})")
+    return failures
+
+
+def run_arithmetic_cases():
+    """Data/reference pages carry their redundancy in NUMBERS rather than
+    prose: the S3 page computes its order five ways and writes out each
+    evaluation. Those are claims a program can simply check."""
+    import arith
+    failures = []
+    t = Path("sample-page-8.mediawiki").read_text()
+
+    checked, _ = arith.summarize(t)
+    ok = checked >= 8
+    print(f"[{'OK ' if ok else 'FAIL'}] arith: identities verified on the "
+          f"data page -> {checked}")
+    if not ok:
+        failures.append(f"arith: only {checked} identities checked")
+
+    ok = not arith.find_arithmetic_errors(t)
+    print(f"[{'OK ' if ok else 'FAIL'}] arith: clean data page has no errors")
+    if not ok:
+        failures.append("arith: false positive on clean page")
+
+    corruptions = [
+        ("factorial chain", "3! = 3 \\cdot 2 \\cdot 1 = 6",
+         "3! = 3 \\cdot 2 \\cdot 1 = 8"),
+        ("GL(2,2) order", "(2^2 - 1)(2^2 - 2) = (3)(2) = 6",
+         "(2^2 - 1)(2^2 - 2) = (3)(2) = 12"),
+        # An intermediate step, not the final answer: the chain still ENDS
+        # at the right value, so only comparing endpoints would miss it.
+        ("intermediate step", "q(q - 1) = 3(3 - 1) = 3(2) = 6",
+         "q(q - 1) = 3(3 - 1) = 3(3) = 6"),
+        ("prime factorization", "6 = 2^1 \\cdot 3^1", "6 = 2^2 \\cdot 3^1"),
+        ("class count", "(3 + 3)/2 = 3", "(3 + 3)/2 = 4"),
+    ]
+    for name, old, new in corruptions:
+        if old not in t:
+            print(f"[FAIL] arith: anchor missing for {name}")
+            failures.append(f"arith: anchor missing {name}")
+            continue
+        got = bool(arith.find_arithmetic_errors(t.replace(old, new, 1)))
+        print(f"[{'OK ' if got else 'FAIL'}] arith: {name} corruption caught")
+        if not got:
+            failures.append(f"arith: {name} not caught")
+
+    # Proof pages contain symbolic equations that are NOT arithmetic claims
+    # (A = F_p[G] x G). Evaluating them would be meaningless; the checker
+    # must skip rather than guess.
+    for f in ("sample-page.mediawiki", "sample-page-2.mediawiki",
+              "sample-page-7.mediawiki"):
+        e = arith.find_arithmetic_errors(Path(f).read_text())
+        ok = not e
+        print(f"[{'OK ' if ok else 'FAIL'}] arith: {f} silent"
+              + ("" if ok else f" -> {e[0][2][:60]}"))
+        if not ok:
+            failures.append(f"arith: false positive in {f}")
     return failures
 
 
@@ -1129,7 +1193,9 @@ def main():
     required.add("overlay.py")
     required.add("suggest.py")
     required.add("gapcheck.py")
-    required.add("link.py")   # diff cases invoke it as a subprocess
+    required.add("link.py")
+    required.add("arith.py")
+    required.add("sample-page-8.mediawiki")   # diff cases invoke it as a subprocess
     missing = [p for p in required if not Path(p).exists()]
     if missing:
         print("Missing required file(s) in the current directory:")
@@ -1217,6 +1283,7 @@ def main():
     failures.extend(run_exempt_section_cases())
     failures.extend(run_gapcheck_cases())
     failures.extend(run_link_cases())
+    failures.extend(run_arithmetic_cases())
 
     print()
     print("=" * 70)
