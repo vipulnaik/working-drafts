@@ -1,0 +1,189 @@
+{{self-centralizing subgroup statement}}
+{{coprime automorphism-faithful subgroup statement}}
+[[Difficulty level::3| ]]
+==History==
+
+The critical subgroup theorem was first proved in the joint paper on the odd-order theorem by [[Walter Feit]] and [[John Griggs Thompson]]. The part of the paper containing this theorem (Chapter 2, Lemma 8.2, see also the [[#references|references below]]) is generally attributed to Thompson.
+
+The term [[critical subgroup]] appeared in Gorenstein's book on Finite Groups (see also the [[#References|references below]]).
+
+==Statement==
+
+===General statement===
+
+Let <math>G</math> be a [[group of prime power order]], i.e., a finite <math>p</math>-group for some prime <math>p</math>. Then, <math>G</math> has a [[critical subgroup]], i.e., a [[characteristic subgroup]] <math>H</math> satisfying the following four conditions:
+
+# <math>\Phi(H) \le Z(H)</math>, viz., the [[Frattini subgroup]] is contained inside the [[center]] (i.e., <math>H</math> is a [[Frattini-in-center group]][[fact about::Frattini-in-center group;2| ]]).
+# <math>[G,H] \le Z(H)</math> (i.e., <math>H</math> is a [[commutator-in-center subgroup]][[fact about::commutator-in-center subgroup;1| ]] of <math>G</math>).
+# <math>C_G(H)= Z(H)</math> (i.e., <math>H</math> is a [[self-centralizing subgroup]][[fact about::self-centralizing subgroup;2| ]] of <math>G</math>).
+# <math>H</math> is [[coprime automorphism-faithful subgroup|coprime automorphism-faithful]][[fact about::coprime automorphism-faithful subgroup;2| ]] in <math>G</math>: If <math>\sigma</math> is a non-identity automorphism of <math>G</math> such that the order of <math>\sigma</math> is relatively prime to <math>p</math>, then the restriction of <math>\sigma</math> to <math>H</math> is a non-identity automorphism of <math>H</math>.
+
+Note that since [[characteristic and self-centralizing implies coprime automorphism-faithful]], a characteristic subgroup satisfying condition (3) automatically satisfies condition (4). Thus, it suffices to show conditions (1)-(3).
+
+==Related facts==
+
+===Analogues for other kinds of groups===
+
+* [[Analogue of critical subgroup theorem for finite solvable groups]]
+* [[Analogue of critical subgroup theorem for infinite abelian-by-nilpotent p-groups]]
+
+===Applications===
+
+* [[Odd-order p-group has coprime automorphism-faithful characteristic class two subgroup of prime exponent]]
+* [[Classification of finite p-groups of characteristic rank one]]
+
+
+===Other related facts===
+
+* [[Abelian Frattini subgroup implies centralizer is critical]]
+
+==Analysis==
+
+{{further|[[Analysis of Thompson's critical subgroup theorem]]}}
+
+While Thompson's critical subgroup theorem is constructive, it does not necessarily yield all possible critical subgroups. In fact, it yields critical subgroups satisfying two additional constraints: the center is [[maximal among abelian characteristic subgroups]] and, moreover, a critical subgroup obtained through this procedure is completely determined by its center, while there may be other critical subgroups with the same center. A critical subgroup that can arise through the constructive procedure of this theorem is termed a [[constructibly critical subgroup]]. It turns out that every [[abelian critical subgroup]] is constructibly critical.
+
+The fact that there is no unique choice of critical subgroup makes critical subgroups different from other characteristic subgroups we typically encounter. More information is available at [[analysis of Thompson's critical subgroup theorem]].
+
+==Facts used==
+
+===General facts===
+
+# [[uses::Maximal among abelian normal implies self-centralizing in nilpotent]]
+# [[uses::Characteristic and self-centralizing implies coprime automorphism-faithful]]
+
+===Facts about normality===
+
+{| class="sortable" border="1"
+! Fact No. !! Statement !! Explanation
+|-
+| Norm1 || [[uses::Normality satisfies image condition]] || The image of a normal subgroup, under a surjective homomorphism, or quotient map, is normal.
+|-
+| Norm2 || [[uses::Normality satisfies inverse image condition]] || The inverse image of a normal subgroup, under any homomorphism, is normal.
+|-
+| Norm3 || [[uses::Normality is centralizer-closed]] || The centralizer of any normal subgroup is normal.
+|}
+
+===Facts about characteristicity===
+
+The fact numbers given here are for reference in the proof, and have no deeper significance.
+{| class="sortable" border="1"
+! Fact no. !! Statement !! Explanation
+|-
+| Char1 || [[uses::Characteristic implies normal]] || Every characteristic subgroup is normal
+|-
+| Char2 || [[uses::Characteristicity is quotient-transitive]] || If <math>A</math> is characteristic in <math>B</math>, and <math>I</math> is an intermediate subgroup such that <math>I/A</math> is characteristic in <math>B/A</math>, then <math>I</math> is characteristic in <math>B</math>
+|-
+| Char3 || [[uses::Characteristicity is transitive]] || If <math>A</math> is a characteristic subgroup of <math>B</math>, and <math>B</math> is a characteristic subgroup of <math>D</math>, then <math>A</math> is a characteristic subgroup of <math>D</math>
+|-
+| Char4 || [[uses::Characteristicity is strongly intersection-closed]] || An intersection of characteristic subgroups is characteristic. In particular, if <math>A,B \le D</math> are characteristic subgroups, then <math>A \cap B</math> is also characteristic.
+|-
+| Char5 || [[uses::Characteristicity is centralizer-closed]] || If <math>A</math> is a characteristic subgroup of <math>B</math>, the centralizer <math>C_B(A)</math> is also a characteristic subgroup.
+|}
+
+===Facts about Omega-1===
+
+# [[uses::Omega-1 of center is normality-large]]: For a finite <math>p</math>-group <math>P</math>, the intersection of <math>\Omega_1(Z(P))</math> with any nontrivial normal subgroup of <math>P</math> is a nontrivial subgroup (in fact, it is a nontrivial normal subgroup).
+
+==Proof==
+
+{{tabular proof format}}
+
+'''Given''': A finite <math>p</math>-group <math>G</math>
+
+'''To prove''': <math>G</math> has a critical subgroup.
+
+Note that by fact (2) in the list of general facts ([[characteristic and self-centralizing implies coprime automorphism-faithful]]) it suffices to find a characteristic subgroup satisfying conditions (1)-(3).
+
+===If there exists a characteristic subgroup maximal among abelian normal subgroups===
+
+We first consider the case that there exists a subgroup <math>M</math> of <math>G</math> maximal among Abelian normal subgroups, such that <math>M</math> is also a [[characteristic subgroup]]. By fact (1) in the list of general facts, we see that <math>M</math> is a self-centralizing subgroup. We check all the conditions for <math>M</math>:
+
+# [[Frattini-in-center group]] condition: <math>\Phi(M) \le Z(M)</math>: This condition is satisfied trivially because <math>M</math> is Abelian.
+# [[Commutator-in-center subgroup]] conidtion: <math>[G,M] \le Z(M)</math>: By normality of <math>M</math>, <math>[G,M] \le M</math>, and by Abelianness of <math>M</math>, <math>M = Z(M)</math>. Thus, <math>[G,M] \le Z(M)</math>.
+# [[Self-centralizing subgroup]] condition: <math>C_G(M) \le M</math>: This condition is satisfied by assumption.
+
+===In the other case: setting up the subgroups===
+
+{| class="sortable" border="1"
+! Step no. !! Letter introduced !! Way of choosing it !! Unique choice (given previous choices)? !! Relevant observations for subsequent choices
+|-
+| CS1 || <math>\! K</math> || [[maximal among abelian characteristic subgroups]] of <math>G</math> || no || Since <math>K</math> is characteristic, it is also, in particular, normal, so <math>K</math> is an [[abelian normal subgroup]] of <math>G</math>. 
+|-
+| CS2 || <math>\! M</math> || maximal among abelian normal subgroups of <math>G</math> containing <math>K</math> || no || <math>M</math> is maximal among abelian normal subgroups, and <math>K </math> is a proper subgroup of <math>M</math>.
+|-
+| CS3 || <math>\! H</math> || <math>H = C_G(K)</math>: the centralizer of <math>K</math> in <math>G</math> || yes || Since <math>M</math> is abelian and contains <math>K</math>, we have <math>K < M \le H</math>. In particular, <math>K < H</math>.
+|-
+| CS4 || <math>\! \overline{G}</math> || <math>\overline{G} = G/K</math> is the [[quotient group]] by <math>K</math> || yes || This is permissible since <math>K</math> is a [[characteristic subgroup]], and by fact (1) on characteristic subgroups, every characteristic subgroup is normal.
+|-
+| CS5 || <math>\! \Omega_1(Z(\overline{G})</math> || This is the set of elements of order dividing <math>p</math> in the center of <math>\overline{G}</math>, and is also the [[socle]] of <math>\overline{G}</math>. || yes || This is a characteristic subgroup of <math>\overline{G}</math>
+|-
+| CS6 || <math>\! L</math> || The inverse image in <math>G</math> of the <math>\Omega_1(Z(\overline{G}))</math>  || yes || <math>L</math> contains <math>K</math> and <math>L/K = \Omega_1(Z(\overline{G})</math>. We will also denote <math>L/K</math> as <math>\overline{L}</math> to be consistent with the rest of the bar notation.
+|-
+| CS7 || <math>\! C</math> || <math>C = H \cap L</math> || yes || Since <math>K</math> is contained in both <math>H</math> and <math>L</math>, <math>K</math> is contained in <math>C</math>
+|}
+
+[[File:criticalsubgrouptheorem.png|1000px]]
+
+We now begin the proof.
+
+{| class="sortable" border="1"
+! Step no. !! Assertion !! Facts used !! Construction steps used !! Proof steps used !! Explanation
+|-
+| PS1 || <math>L</math> is characteristic in <math>G</math> || (Char2) || (CS1), (CS5), (CS6) || -- || <toggledisplay><math>K</math> is characteristic in <math>G</math>, and <math>L/K = \Omega_1(Z(\overline{G}))</math> is characteristic in the quotient <math>\overline{G} = G/K</math>. Thus, by (Char2) (set: <math>A = K, I = L, B = G</math>), <math>L</math> is characteristic in <math>G</math>.</toggledisplay>
+|-
+| PS2 || <math>H</math> is characteristic in <math>G</math> || (Char5) || (CS1), (CS3) || -- || <toggledisplay>Since <math>H = C_G(K)</math>, we have, by (Char5) (set: <math>A = K, B = G</math>), that <math>H</math> is characteristic in <math>G</math>.</toggledisplay>
+|-
+| PS3 || <math>C</math> is characteristic in <math>G</math> || (Char4) || -- || (PS1), (PS2) || <toggledisplay>By (Char4), the subgroup <math>C = H \cap L</math> is characteristic in <math>G</math>.</toggledisplay>
+|-
+| PS4 || <math>Z(C)</math> is characteristic in <math>G</math> || (Char3) || -- || (PS3) || <toggledisplay>The [[center]] <math>Z(C)</math> is a characteristic subgroup of <math>C</math>. Thus, by fact (3) (set: <math>A = Z(C), B = C, D = G</math>), <math>Z(C)</math> is a characteristic subgroup of <math>G</math>.</toggledisplay>
+|-
+| PS5 || <math>Z(C) = K</math> || -- || (CS1), (CS3), (CS7) || (PS4) || <toggledisplay>By our choice, <math>Z(C)</math> is an [[abelian characteristic subgroup]] of <math>G</math>. Further, since <math>C \le H = C_G(K)</math> and <math>K</math> is contained in <math>C</math>, <math>K \le Z(C)</math>. So <math>Z(C)</math> is an abelian characteristic subgroup of <math>G</math> containing <math>K</math>. By maximality of <math>K</math> with respect to being abelian characteristic, <math>K = Z(C)</math>.</toggledisplay>
+|}
+
+===Proving the conditions for criticality===
+
+Our goal is now to show that <math>C</math> satisfies the conditions for being a critical subgroup. Recall that we have established that <math>C</math> is a characteristic subgroup of <math>G</math> and that <math>Z(C) = K</math>. Also, recall that:
+
+<math>H = C_G(K), \overline{H} = H/K, \overline{L} = \Omega_1(Z(\overline{G}), C = H \cap L, \overline{C} = C/K</math>.
+
+We check the conditions one by one:
+
+# [[Frattini-in-center group]] condition: We need to show that <math>\Phi(C) \le K</math>: For this, observe that <math>\overline{C}</math> is contained in <math>\Omega_1(Z(\overline{G}))</math>, which is elementary Abelian (it is contained in an Abelian group <math>Z(G)</math>, and is generated by elements of order <math>p</math>). Thus, <math>C/K</math> is elementary Abelian, and we get <math>\Phi(C) \le K</math>.
+# [[Commutator-in-center subgroup]] condition: We need to show that <math>[G,C] \le K</math>: Modulo <math>K</math>, the image of <math>C</math> is contained in <math>\Omega_1(Z(\overline{G}))</math>, which is contained in <math>Z(\overline{G})</math>. Hence <math>[\overline{G}, \overline{C}] \le [\overline{G},Z(\overline{G})]</math>, which is trivial. Hence <math>[G,C] \le K</math>.
+# [[Self-centralizing subgroup]] condition: We need to show that <math>C_G(C) \le C</math>: We do this by contradiction. Since the proof is somewhat long, we do it in the table below.
+
+'''ASSUMPTION''': Suppose <math>Q = C_G(C)</math>, such that <math>Q</math> is not in <math>C</math>. 
+
+{| class="sortable" border="1"
+! Step no. !! Assertion !! Facts used !! Steps used (earlier parts) !! Steps used (this part) !! Contradiction-prone assumption used? !! Explanation
+|-
+| PSC1 || <math>Q</math> is normal in <math>G</math> || (Char1), (Norm3) || (PS3) || -- || no || <toggledisplay>By (PS3), <math>C</math> is characteristic in <math>G</math>, hence by (Char1), <math>C</math> is normal in <math>G</math>. By (Norm3), we get that <math>Q = C_G(C)</math> is also normal in <math>G</math>.</toggledisplay>
+|-
+| PSC2 || <math>Q \cap C = K</math> || -- || (PS5) ||-- || no || <toggledisplay>By definition, <math>Q \cap C = C_G(C) \cap C = Z(C)</math>. We showed that <math>Z(C) = K</math>, so <math>Q \cap C = K</math>.</toggledisplay>
+|-
+| PSC3 || <math>\overline{Q} = Q/K</math> is nontrivial and normal in <math>\overline{G}</math> || (Norm1) || -- || (PSC1) || yes || <toggledisplay>Define <math>\overline{Q} = Q/K</math>. By (Norm1), and the fact that <math>Q</math> is normal in <math>G</math>, we obtain that <math>\overline{Q}</math> is normal in <math>\overline{G}</math>. Also, since <math>Q</math> is not contained in <math>C</math> (by assumption), <math>K</math> is a proper subgroup of <math>Q</math>, so <math>\overline{Q}</math> is nontrivial.</toggledisplay>
+|-
+| PSC4 || <math>\overline{Q} \cap \overline{C}</math> is trivial || -- || -- || (PSC2) || no || <toggledisplay><math>\overline{Q} \cap \overline{C}</math> is the same as the image in <math>G/K</math> of <math>Q \cap C</math>, because they both contain <math>K</math>. By (PSC2), this image is trivial.</toggledisplay>
+|-
+| PSC5 || <math>\overline{Q}</math> intersects <math>\overline{L}</math> nontrivially || fact (1) about Omega-1 || -- || (PSC3) || yes || <toggledisplay>Since <math>\Omega_1(Z(\overline{G}))</math> is normality-large in <math>\overline{G}</math> (fact (1) about Omega-1), and <math>\overline{Q}</math> is nontrivial and normal in <math>\overline{G}</math> (by PSC3), we conclude that <math>\overline{Q}</math> must intersect <math>\Omega_1(Z(\overline{G})) = \overline{L}</math> nontrivially.</toggledisplay>
+|-
+| PSC6 || <math>Q \le H</math>, and thus, <math>\overline{Q} \le \overline{H}</math> || -- || -- || -- || no || <toggledisplay>Since <math>K \le C</math>, we have <math>Q = C_G(C) \le C_G(K) = H</math>, so <math>Q \le H</math>. Going modulo <math>K</math>, we get <math>\overline{Q} \le \overline{H}</math>.</toggledisplay>
+|-
+| PSC7 || <math>\overline{C} = \overline{H} \cap \overline{L}</math> || -- || (CS3), (CS6),(CS7) || -- || no || <toggledisplay>By definition, <math>C = H \cap L</math>. Since all three subgroups contain <math>K</math> by definition, the intersection holds when we take quotients by <math>K</math>.</toggledisplay>
+|- 
+| PSC8 || <math>\overline{Q} \cap (\overline{H} \cap \overline{L})</math> is trivial || -- || -- || (PSC4), (PSC7) || no  ||<toggledisplay><math>\overline{Q} \cap (\overline{H} \cap \overline{L}) = \overline{Q} \cap \overline{C}</math> by (PSC7). By (PSC4), this intersection is trivial.</toggledisplay>
+|-
+| PSC9 || <math>(\overline{Q} \cap \overline{H}) \cap \overline{L}</math> is nontrivial || -- || -- || (PSC5), (PSC6) || yes || <toggledisplay>By (PSC6), <math>(\overline{Q} \cap \overline{H}) \cap \overline{L} = \overline{Q} \cap \overline{L}</math>, and (PSC5), this is nontrivial.</toggledisplay>
+|-
+| PSC10 || Contradiction! || -- || - || (PSC8) and (PSC9) || yes || <toggledisplay>(PSC8) claims that a particular triple intersection is trivial, while (PSC9) claims that the same intersection is nontrivial. We thus get a contradiction.</toggledisplay>
+|}
+
+==References==
+
+===Journal references===
+
+* {{paperlink|FeitThompson}}: Thompson's critical subgroup theorem appears as Lemma 8.2, Section 8 (''Miscellaneous preliminary lemmas'') in Chapter 2, Page 795.
+
+===Textbook references===
+* {{booklink-proved|Gorenstein|185|Theorem 3.11 (including Lemma 3.12, also theorem 3.13), Section 5.3}}
