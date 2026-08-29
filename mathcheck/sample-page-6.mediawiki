@@ -1,189 +1,236 @@
-{{self-centralizing subgroup statement}}
-{{coprime automorphism-faithful subgroup statement}}
-[[Difficulty level::3| ]]
-==History==
-
-The critical subgroup theorem was first proved in the joint paper on the odd-order theorem by [[Walter Feit]] and [[John Griggs Thompson]]. The part of the paper containing this theorem (Chapter 2, Lemma 8.2, see also the [[#references|references below]]) is generally attributed to Thompson.
-
-The term [[critical subgroup]] appeared in Gorenstein's book on Finite Groups (see also the [[#References|references below]]).
-
+{{subgroup metaproperty dissatisfaction|
+property = normal subgroup|
+metaproperty = transitive subgroup property}}
+[[difficulty level::2| ]]
 ==Statement==
 
-===General statement===
+There can be a situation where <math>H</math> is a [[normal subgroup]] of <math>K</math> and <math>K</math> is a [[normal subgroup]] of <math>G</math> but <math>H</math> is ''not'' a normal subgroup of <math>G</math>.
 
-Let <math>G</math> be a [[group of prime power order]], i.e., a finite <math>p</math>-group for some prime <math>p</math>. Then, <math>G</math> has a [[critical subgroup]], i.e., a [[characteristic subgroup]] <math>H</math> satisfying the following four conditions:
+==Partial truth==
 
-# <math>\Phi(H) \le Z(H)</math>, viz., the [[Frattini subgroup]] is contained inside the [[center]] (i.e., <math>H</math> is a [[Frattini-in-center group]][[fact about::Frattini-in-center group;2| ]]).
-# <math>[G,H] \le Z(H)</math> (i.e., <math>H</math> is a [[commutator-in-center subgroup]][[fact about::commutator-in-center subgroup;1| ]] of <math>G</math>).
-# <math>C_G(H)= Z(H)</math> (i.e., <math>H</math> is a [[self-centralizing subgroup]][[fact about::self-centralizing subgroup;2| ]] of <math>G</math>).
-# <math>H</math> is [[coprime automorphism-faithful subgroup|coprime automorphism-faithful]][[fact about::coprime automorphism-faithful subgroup;2| ]] in <math>G</math>: If <math>\sigma</math> is a non-identity automorphism of <math>G</math> such that the order of <math>\sigma</math> is relatively prime to <math>p</math>, then the restriction of <math>\sigma</math> to <math>H</math> is a non-identity automorphism of <math>H</math>.
+===Transitivity-forcing operator===
 
-Note that since [[characteristic and self-centralizing implies coprime automorphism-faithful]], a characteristic subgroup satisfying condition (3) automatically satisfies condition (4). Thus, it suffices to show conditions (1)-(3).
+* A group in which every normal subgroup of a normal subgroup is normal is termed a [[T-group]]. Note that [[abelian group]]s and [[Dedekind group]]s are T-groups, and any [[nilpotent group]] that is a T-group is also a Dedekind group.
+* A group <math>K</math> has the property that whenever <math>K</math> is normal in <math>G</math>, every normal subgroup of <math>K</math> is normal in <math>G</math> (in other words, transitivity holds with <math>K</math> as the ''middle'' group) if and only if <math>K</math> is a [[group in which every normal subgroup is characteristic]].
+* There is ''no'' nontrivial group <math>G</math> such that whenever <math>G</math> is a normal subgroup of a normal subgroup of some group, <math>G</math> is normal in that group. In fact, the general example we construct here shows precisely that. {{further|[[every nontrivial normal subgroup is potentially 2-subnormal-and-not-normal]]}}
+
+===Left transiter===
+
+While normality is not transitive, it is still true that every [[characteristic subgroup]] of a normal subgroup is normal. Characteristicity is the [[left transiter]] of normality -- it is the ''weakest'' property <math>p</math> such that every subgroup with property <math>p</math> in a normal subgroup is normal. {{proofat|[[Characteristic of normal implies normal]], [[Left transiter of normal is characteristic]]}}
+
+===Right transiter===
+
+While normality is not transitive, every normal subgroup of a [[transitively normal subgroup]] is normal. Being transitively normal is the [[right transiter]] of being normal. Properties like being a [[direct factor]], being a [[central subgroup]], and being a [[central factor]] imply being transitively normal.
+
+===Subnormality===
+
+The lack of transitivity of normality can also be remedied by defining the notion of [[subnormal subgroup]]. Subnormality is the weakest transitive subgroup property implied by normality. More explicitly, a subgroup <math>H</math> is subnormal in a group <math>G</math>, if we can find a chain of subgroups going up from <math>H</math> to <math>G</math>, with each subgroup normal in its successor.
+
+A special case of this is the notion of [[2-subnormal subgroup]], which is a normal subgroup of a normal subgroup. Another special case is the notion of a [[3-subnormal subgroup]], which is a normal subgroup of a normal subgroup of a normal subgroup.
+
+There are also related notions of [[hypernormalized subgroup]], [[2-hypernormalized subgroup]], [[ascendant subgroup]], [[descendant subgroup]], and [[serial subgroup]].
+
+==Corollaries==
+
+* Normality is not a [[finite-relative-intersection-closed subgroup property]], because [[finite-relative-intersection-closed implies transitive]].
 
 ==Related facts==
 
-===Analogues for other kinds of groups===
+===Making normality transitive===
 
-* [[Analogue of critical subgroup theorem for finite solvable groups]]
-* [[Analogue of critical subgroup theorem for infinite abelian-by-nilpotent p-groups]]
-
-===Applications===
-
-* [[Odd-order p-group has coprime automorphism-faithful characteristic class two subgroup of prime exponent]]
-* [[Classification of finite p-groups of characteristic rank one]]
-
-
-===Other related facts===
-
-* [[Abelian Frattini subgroup implies centralizer is critical]]
-
-==Analysis==
-
-{{further|[[Analysis of Thompson's critical subgroup theorem]]}}
-
-While Thompson's critical subgroup theorem is constructive, it does not necessarily yield all possible critical subgroups. In fact, it yields critical subgroups satisfying two additional constraints: the center is [[maximal among abelian characteristic subgroups]] and, moreover, a critical subgroup obtained through this procedure is completely determined by its center, while there may be other critical subgroups with the same center. A critical subgroup that can arise through the constructive procedure of this theorem is termed a [[constructibly critical subgroup]]. It turns out that every [[abelian critical subgroup]] is constructibly critical.
-
-The fact that there is no unique choice of critical subgroup makes critical subgroups different from other characteristic subgroups we typically encounter. More information is available at [[analysis of Thompson's critical subgroup theorem]].
-
-==Facts used==
-
-===General facts===
-
-# [[uses::Maximal among abelian normal implies self-centralizing in nilpotent]]
-# [[uses::Characteristic and self-centralizing implies coprime automorphism-faithful]]
-
-===Facts about normality===
+For simplicity, we assume <math>H \le K \le G</math>, with <math>H</math> the bottom group, <math>K</math> the middle group, and <math>G</math> the top group.
 
 {| class="sortable" border="1"
-! Fact No. !! Statement !! Explanation
+! Statement !! Change in assumption !! Change in conclusion
 |-
-| Norm1 || [[uses::Normality satisfies image condition]] || The image of a normal subgroup, under a surjective homomorphism, or quotient map, is normal.
+| [[Characteristic of normal implies normal]] || <math>H</math> a [[characteristic subgroup]] of <math>K</math> || <math>H</math> ''is'' normal in <math>G</math>
 |-
-| Norm2 || [[uses::Normality satisfies inverse image condition]] || The inverse image of a normal subgroup, under any homomorphism, is normal.
+| [[Left transiter of normal is characteristic]] || <math>H</math> in <math>K</math> is such that for ''any'' possible <math>G</math> with <math>K</math> normal in <math>G</math>, <math>H</math> is normal in <math>G</math> || <math>H</math> is characteristic in <math>K</math>
 |-
-| Norm3 || [[uses::Normality is centralizer-closed]] || The centralizer of any normal subgroup is normal.
+| [[Equivalence of definitions of transitively normal subgroup]] || <math>H</math> is normal in <math>K</math>; spelling out conditions for <math>K</math> in <math>G</math> such that ... || <math>H</math> ''is'' normal in <math>G</math>
+|-
+| [[Central factor implies transitively normal]] || <math>K</math> a [[central factor]] of <math>G</math> || <math>H</math> ''is'' normal in <math>G</math>
+|-
+| [[Direct factor implies transitively normal]] || <math>K</math> a [[direct factor]] of <math>G</math> || <math>H</math> ''is'' normal in <math>G</math>
 |}
 
-===Facts about characteristicity===
+===For particular kinds of groups===
 
-The fact numbers given here are for reference in the proof, and have no deeper significance.
+For simplicity, we refer below to the three groups as <math>H \le K \le G</math>, with <math>H</math> the bottom group, <math>K</math> the middle group, and <math>G</math> the top group, such that <math>H</math> is normal in <math>K</math> and <math>K</math> is normal in <math>G</math>, but <math>H</math> is not normal in <math>G</math>.
 {| class="sortable" border="1"
-! Fact no. !! Statement !! Explanation
+! Stronger formulation !! Additional restrictions introduced !! Additional comments/examples
 |-
-| Char1 || [[uses::Characteristic implies normal]] || Every characteristic subgroup is normal
+| [[Weaker than::Normality is not transitive for any nontrivially satisfied extension-closed group property]] || <math>H,K,G</math> all satisfy a group property <math>\alpha</math> closed under taking extensions || <math>\alpha</math> could be the property of being a finite <math>p</math>-group, any fixed prime <math>p</math>; or [[solvable group|solvability]], or [[finite group|finiteness]]
 |-
-| Char2 || [[uses::Characteristicity is quotient-transitive]] || If <math>A</math> is characteristic in <math>B</math>, and <math>I</math> is an intermediate subgroup such that <math>I/A</math> is characteristic in <math>B/A</math>, then <math>I</math> is characteristic in <math>B</math>
+| [[Weaker than::Conjunction of normality with any nontrivial finite-direct product-closed property of groups is not transitive]] || <math>H</math> and <math>K</math> both satisfy a group property <math>\alpha</math> that is closed under finite direct products || Abelian normal subgroup of abelian normal subgroup need not be normal
 |-
-| Char3 || [[uses::Characteristicity is transitive]] || If <math>A</math> is a characteristic subgroup of <math>B</math>, and <math>B</math> is a characteristic subgroup of <math>D</math>, then <math>A</math> is a characteristic subgroup of <math>D</math>
+| [[Weaker than::Every nontrivial normal subgroup is potentially 2-subnormal-and-not-normal]] || We are given <math>H \le L</math> and must find <math>K,G</math> with <math>G</math> containing <math>L</math> ||
 |-
-| Char4 || [[uses::Characteristicity is strongly intersection-closed]] || An intersection of characteristic subgroups is characteristic. In particular, if <math>A,B \le D</math> are characteristic subgroups, then <math>A \cap B</math> is also characteristic.
-|-
-| Char5 || [[uses::Characteristicity is centralizer-closed]] || If <math>A</math> is a characteristic subgroup of <math>B</math>, the centralizer <math>C_B(A)</math> is also a characteristic subgroup.
+| [[Weaker than::Normality is not transitive for any pair of nontrivial quotient groups]] || We are given nontrivial groups <math>A,B</math> and must ensure <math>K/H \cong A, G/K \cong B</math> ||
 |}
 
-===Facts about Omega-1===
+===The extent of lack of transitivity===
 
-# [[uses::Omega-1 of center is normality-large]]: For a finite <math>p</math>-group <math>P</math>, the intersection of <math>\Omega_1(Z(P))</math> with any nontrivial normal subgroup of <math>P</math> is a nontrivial subgroup (in fact, it is a nontrivial normal subgroup).
+{| class="sortable" border="1"
+! Stronger formulation !! Meaning of formulation !! How "normality is not transitive" is a special case
+|-
+| [[Weaker than::There exist subgroups of arbitrarily large subnormal depth]] || For any natural number <math>n</math>, there exists a group <math>G</math>, subgroup <math>H</math>, such that the shortest [[subnormal series]] for <math>H</math> in <math>G</math> has length <math>n</math>. In other words, the minimum length of a chain from <math>H</math> up to <math>G</math>, with each subgroup normal in the next, is <math>n</math> || Case <math>n = 2</math>
+|-
+| [[Weaker than::Descendant not implies subnormal]] || There exist subgroups for which there is a descending chain from whole group to subgroup, each normal in predecessor, of countable length (so intersection of all members is subgroup) but no finite chain ||
+|-
+| [[Weaker than::there exist subgroups of arbitrarily large descendant depth]] || ||
+|-
+| [[Weaker than::Ascendant not implies subnormal]] || There exist subgroups for which there is an ascending chain from subgroup to whole group, each normal in successor, of countable length (so union of all members is whole group) but no finite chain||
+|-
+|[[Weaker than::there exist subgroups of arbitrarily large ascendant depth]] || ||
+|-
+| [[Weaker than::Normal not implies left-transitively fixed-depth subnormal]] || We can have a normal subgroup <math>H</math> of <math>K</math> such that for every <math>k</math>, there exists a group <math>G</math> containing <math>K</math> as <math>k</math>-subnormal but <math>H</math> is not <math>k</math>-subnormal || Case <math>k = 1</math>
+|-
+| [[Weaker than::Normal not implies right-transitively fixed-depth subnormal]] || We can have a normal subgroup <math>K</math> of <math>G</math> such that for every <math>k</math>, there exists a group <math>H</math> that is <math>k</math>-subnormal in <math>K</math>, not in <math>G</math> || Case <math>k = 1</math>
+|}
+
+===Analogues in other algebraic structures===
+
+{| class="sortable" border="1"
+! Statement !! Analogy correspondences !! Additional comments
+|-
+| [[Ideal property is not transitive for Lie rings]] || [[Lie ring]] <math>\leftrightarrow</math>[[group]], [[ideal of a Lie ring]] <math>\leftrightarrow</math> [[normal subgroup]] ||
+|-
+| [[Galois:Normality is not transitive|Normality is not transitive for field extensions]] || field extension <math>\leftrightarrow</math> group (namely, its Galois group), normal field extension <math>\leftrightarrow</math> normal subgroup in Galois correspondence || A normal field extension of a normal field extension need not be normal. In fact, by the [[Galois:fundamental theorem of Galois theory|fundamental theorem of Galois theory]], this corresponds directly to the fact that a normal subgroup of a normal subgroup need not be normal.
+|-
+| [[Cattheory:Normality is not composition-closed|Normality is not composition-closed]]|| normal monomorphism <math>\leftrightarrow</math> normal subgroup || A composite of [[cattheory:normal monomorphism|normal monomorphism]]s need not be normal.
+|}
+
+===General tricks===
+
+* [[Disproving transitivity]]
+* [[Using dihedral groups as counterexamples]]
 
 ==Proof==
 
-{{tabular proof format}}
+(Also see [[#List of counterexamples of small order]]).
 
-'''Given''': A finite <math>p</math>-group <math>G</math>
+===Generic example===
 
-'''To prove''': <math>G</math> has a critical subgroup.
+A ''natural'' example is as follows. Take any nontrivial group <math>H</math>, and consider the square, <math>K = H \times H</math> (the [[uses as intermediate construct::external direct product]] of <math>H</math> with itself). Now, consider the [[uses as intermediate construct::external semidirect product]] of this group with the group <math>\mathbb{Z}/2\mathbb{Z}</math> (the [[cyclic group:Z2|cyclic group of two elements]]) acting via the exchange automorphism (the automorphism that exchanges the coordinates). Call the big group <math>G</math>. 
 
-Note that by fact (2) in the list of general facts ([[characteristic and self-centralizing implies coprime automorphism-faithful]]) it suffices to find a characteristic subgroup satisfying conditions (1)-(3).
+(Note that <math>G</math> can be described more compactly as the [[uses as intermediate construct::external wreath product]] of <math>H</math> with the group of order two acting regularly.)
 
-===If there exists a characteristic subgroup maximal among abelian normal subgroups===
+Let <math>H_1, H_2</math> be the copies of <math>H</math> embedded in <math>K</math> as <math>H \times \{ e \}</math> and <math>\{ e \} \times H</math>. We then have:
 
-We first consider the case that there exists a subgroup <math>M</math> of <math>G</math> maximal among Abelian normal subgroups, such that <math>M</math> is also a [[characteristic subgroup]]. By fact (1) in the list of general facts, we see that <math>M</math> is a self-centralizing subgroup. We check all the conditions for <math>M</math>:
+* <math>H_1</math> is normal in <math>K</math>: In fact, <math>H_1</math> is a direct factor of <math>K</math>, and is thus normal.
+* <math>K</math> is normal in <math>G</math>: <math>K</math> is the base of a semidirect product, and is thus normal. Equivalently, any inner automorphism of <math>G</math> is the composite of an inner automorphism in <math>K</math> and the exchange automorphism, both of which preserve <math>K</math>.
+* <math>H_1</math> is not normal in <math>G</math>: The exchange automorphism is an inner automorphism of <math>G</math>, and it exchanges <math>H_1</math> and <math>H_2</math> -- in particular, it does not preserve <math>H_1</math>. Thus, <math>H_1</math> is not normal in <math>G</math>.
 
-# [[Frattini-in-center group]] condition: <math>\Phi(M) \le Z(M)</math>: This condition is satisfied trivially because <math>M</math> is Abelian.
-# [[Commutator-in-center subgroup]] conidtion: <math>[G,M] \le Z(M)</math>: By normality of <math>M</math>, <math>[G,M] \le M</math>, and by Abelianness of <math>M</math>, <math>M = Z(M)</math>. Thus, <math>[G,M] \le Z(M)</math>.
-# [[Self-centralizing subgroup]] condition: <math>C_G(M) \le M</math>: This condition is satisfied by assumption.
+Note that both <math>H_1</math> and <math>H_2</math> are copies of <math>H</math>, and hence either can be viewed as the [[fact about::base of a wreath product]] in <math>G</math>.
 
-===In the other case: setting up the subgroups===
+{{quotation|'''SIDENOTE''': This example is not, in some sense, an extreme example of normality not being transitive. In fact, the property of being the [[base of a wreath product]] is transitive, and any base of a wreath product is a [[2-subnormal subgroup]], which implies that applying this construction iteratively does not yield subgroups of subnormal depth more than two. Even further, [[base of a wreath product implies right-transitively 2-subnormal]], or equivalently, any 2-subnormal subgroup of the base of a wreath product is 2-subnormal in the whole group.}}
 
-{| class="sortable" border="1"
-! Step no. !! Letter introduced !! Way of choosing it !! Unique choice (given previous choices)? !! Relevant observations for subsequent choices
+===Specific realizations of this generic example===
+
+The smallest case of this yields <math>H_1</math> a group of order two, and <math>G</math> a group of order eight. In fact, here <math>G</math> is the [[particular example::dihedral group:D8|dihedral group of order eight]] and <math>H</math> is a [[particular example::cyclic group:Z2|cyclic group of order two]], with <math>H_1</math> and <math>H_2</math> being subgroups of order two generated by reflections. Here's how this relates to the usual definition of the dihedral group:
+
+<math>G = \langle a,x \mid a^4 = x^2 = e, xax = a^{-1} \rangle</math>
+
+<math>H_1 = \langle x \rangle, \qquad H_2 = \langle a^2 x \rangle, \qquad K = \langle x, a^2 \rangle</math>.
+
+Here, <math>H_1</math> and <math>H_2</math> are both normal in <math>K</math>, which is normal in <math>G</math>, but neither <math>H_1</math> nor <math>H_2</math> is normal in <math>G</math>.
+
+For more on the subgroup structure of the dihedral group, refer [[subgroup structure of dihedral group:D8]], [[particular example::Klein four-subgroups of dihedral group:D8]], and [[particular example::non-normal subgroups of dihedral group:D8]].
+
+==GAP implementation==
+
+===Implementation of the generic example===
+
+Here is an implementation of the generic example, with ''any'' nontrivial group <math>H</math>. Note that you need to define <math>H</math> for GAP before executing the commands in this example! Double semicolons have been used to suppress the output here, since the output depends on the choice of <math>H</math> (you can use single semicolons instead to display all the outputs).
+
+We first construct the groups <math>H_1, H_2, K, G</math> using the wreath product command:
+
+<pre>gap> G := WreathProduct(H,SymmetricGroup(2));;
+gap> H1 := Image(Embedding(G,1));;
+gap> H2 := Image(Embedding(G,2));;
+gap> K := Group(Union(H1,H2));;</pre>
+
+Next, we check that <math>H_1</math> and <math>H_2</math> are subgroups of <math>K</math> and <math>K</math> is a subgroup of <math>G</math>:
+
+<pre>gap> IsSubgroup(G,K);
+true
+gap> IsSubgroup(K,H1);
+true
+gap> IsSubgroup(K,H2);
+true</pre>
+
+Finally, we check that <math>H_1, H_2</math> are both normal in <math>K</math> and <math>K</math> is normal in <math>G</math>, but <math>H_1</math> and <math>H_2</math> are ''not'' normal in <math>G</math>.
+
+<pre>gap> IsNormal(G,K);
+true
+gap> IsNormal(K,H1);
+true
+gap> IsNormal(K,H2);
+true
+gap> IsNormal(G,H1);
+false
+gap> IsNormal(G,H2);
+false</pre>
+
+===The implementation in some special cases===
+
+Here is the implementation when <math>H</math> is cyclic of order two:
+
+<pre>gap> G := WreathProduct(H,SymmetricGroup(2));
+<group of size 8 with 2 generators>
+gap> H1 := Image(Embedding(G,1));
+<group with 1 generators>
+gap> H2 := Image(Embedding(G,2));
+<group with 1 generators>
+gap> K := Group(Union(H1,H2));
+<group with 3 generators>
+gap> IsSubgroup(G,K);
+true
+gap> IsSubgroup(K,H1);
+true
+gap> IsSubgroup(K,H2);
+true
+gap> IsNormal(G,K);
+true
+gap> IsNormal(K,H1);
+true
+gap> IsNormal(K,H2);
+true
+gap> IsNormal(G,H1);
+false
+gap> IsNormal(G,H2);
+false</pre>
+
+==List of counterexamples of small order==
+
+{| class="wikitable" border="1"
+! Big group !! Order of big group !! Violation of normality being transitive
 |-
-| CS1 || <math>\! K</math> || [[maximal among abelian characteristic subgroups]] of <math>G</math> || no || Since <math>K</math> is characteristic, it is also, in particular, normal, so <math>K</math> is an [[abelian normal subgroup]] of <math>G</math>. 
+| [[dihedral group:D8]] || <math>8</math> || [[Klein four-subgroups of dihedral group:D8|Klein four-subgroup]] is normal, has normal subgroup of order two that is not normal in the whole group.
 |-
-| CS2 || <math>\! M</math> || maximal among abelian normal subgroups of <math>G</math> containing <math>K</math> || no || <math>M</math> is maximal among abelian normal subgroups, and <math>K </math> is a proper subgroup of <math>M</math>.
+| [[alternating group:A4]] || <math>12</math> || The normal [[Klein four-group]] comprising the identity and three double transpositions has a normal subgroup of order two that is not normal in the whole group.
 |-
-| CS3 || <math>\! H</math> || <math>H = C_G(K)</math>: the centralizer of <math>K</math> in <math>G</math> || yes || Since <math>M</math> is abelian and contains <math>K</math>, we have <math>K < M \le H</math>. In particular, <math>K < H</math>.
+| [[SmallGroup(16,3)]] || <math>16</math> ||
 |-
-| CS4 || <math>\! \overline{G}</math> || <math>\overline{G} = G/K</math> is the [[quotient group]] by <math>K</math> || yes || This is permissible since <math>K</math> is a [[characteristic subgroup]], and by fact (1) on characteristic subgroups, every characteristic subgroup is normal.
+| [[SmallGroup(16,4)]] || <math>16</math> ||
 |-
-| CS5 || <math>\! \Omega_1(Z(\overline{G})</math> || This is the set of elements of order dividing <math>p</math> in the center of <math>\overline{G}</math>, and is also the [[socle]] of <math>\overline{G}</math>. || yes || This is a characteristic subgroup of <math>\overline{G}</math>
+| [[M16]] || <math>16</math> ||
 |-
-| CS6 || <math>\! L</math> || The inverse image in <math>G</math> of the <math>\Omega_1(Z(\overline{G}))</math>  || yes || <math>L</math> contains <math>K</math> and <math>L/K = \Omega_1(Z(\overline{G})</math>. We will also denote <math>L/K</math> as <math>\overline{L}</math> to be consistent with the rest of the bar notation.
+| [[dihedral group:D16]] || <math>16</math> || 
 |-
-| CS7 || <math>\! C</math> || <math>C = H \cap L</math> || yes || Since <math>K</math> is contained in both <math>H</math> and <math>L</math>, <math>K</math> is contained in <math>C</math>
+| [[semidihedral group:SD16]] || <math>16</math> ||
+|-
+| [[quaternion group:Q16]] || <math>16</math> ||
 |}
-
-[[File:criticalsubgrouptheorem.png|1000px]]
-
-We now begin the proof.
-
-{| class="sortable" border="1"
-! Step no. !! Assertion !! Facts used !! Construction steps used !! Proof steps used !! Explanation
-|-
-| PS1 || <math>L</math> is characteristic in <math>G</math> || (Char2) || (CS1), (CS5), (CS6) || -- || <toggledisplay><math>K</math> is characteristic in <math>G</math>, and <math>L/K = \Omega_1(Z(\overline{G}))</math> is characteristic in the quotient <math>\overline{G} = G/K</math>. Thus, by (Char2) (set: <math>A = K, I = L, B = G</math>), <math>L</math> is characteristic in <math>G</math>.</toggledisplay>
-|-
-| PS2 || <math>H</math> is characteristic in <math>G</math> || (Char5) || (CS1), (CS3) || -- || <toggledisplay>Since <math>H = C_G(K)</math>, we have, by (Char5) (set: <math>A = K, B = G</math>), that <math>H</math> is characteristic in <math>G</math>.</toggledisplay>
-|-
-| PS3 || <math>C</math> is characteristic in <math>G</math> || (Char4) || -- || (PS1), (PS2) || <toggledisplay>By (Char4), the subgroup <math>C = H \cap L</math> is characteristic in <math>G</math>.</toggledisplay>
-|-
-| PS4 || <math>Z(C)</math> is characteristic in <math>G</math> || (Char3) || -- || (PS3) || <toggledisplay>The [[center]] <math>Z(C)</math> is a characteristic subgroup of <math>C</math>. Thus, by fact (3) (set: <math>A = Z(C), B = C, D = G</math>), <math>Z(C)</math> is a characteristic subgroup of <math>G</math>.</toggledisplay>
-|-
-| PS5 || <math>Z(C) = K</math> || -- || (CS1), (CS3), (CS7) || (PS4) || <toggledisplay>By our choice, <math>Z(C)</math> is an [[abelian characteristic subgroup]] of <math>G</math>. Further, since <math>C \le H = C_G(K)</math> and <math>K</math> is contained in <math>C</math>, <math>K \le Z(C)</math>. So <math>Z(C)</math> is an abelian characteristic subgroup of <math>G</math> containing <math>K</math>. By maximality of <math>K</math> with respect to being abelian characteristic, <math>K = Z(C)</math>.</toggledisplay>
-|}
-
-===Proving the conditions for criticality===
-
-Our goal is now to show that <math>C</math> satisfies the conditions for being a critical subgroup. Recall that we have established that <math>C</math> is a characteristic subgroup of <math>G</math> and that <math>Z(C) = K</math>. Also, recall that:
-
-<math>H = C_G(K), \overline{H} = H/K, \overline{L} = \Omega_1(Z(\overline{G}), C = H \cap L, \overline{C} = C/K</math>.
-
-We check the conditions one by one:
-
-# [[Frattini-in-center group]] condition: We need to show that <math>\Phi(C) \le K</math>: For this, observe that <math>\overline{C}</math> is contained in <math>\Omega_1(Z(\overline{G}))</math>, which is elementary Abelian (it is contained in an Abelian group <math>Z(G)</math>, and is generated by elements of order <math>p</math>). Thus, <math>C/K</math> is elementary Abelian, and we get <math>\Phi(C) \le K</math>.
-# [[Commutator-in-center subgroup]] condition: We need to show that <math>[G,C] \le K</math>: Modulo <math>K</math>, the image of <math>C</math> is contained in <math>\Omega_1(Z(\overline{G}))</math>, which is contained in <math>Z(\overline{G})</math>. Hence <math>[\overline{G}, \overline{C}] \le [\overline{G},Z(\overline{G})]</math>, which is trivial. Hence <math>[G,C] \le K</math>.
-# [[Self-centralizing subgroup]] condition: We need to show that <math>C_G(C) \le C</math>: We do this by contradiction. Since the proof is somewhat long, we do it in the table below.
-
-'''ASSUMPTION''': Suppose <math>Q = C_G(C)</math>, such that <math>Q</math> is not in <math>C</math>. 
-
-{| class="sortable" border="1"
-! Step no. !! Assertion !! Facts used !! Steps used (earlier parts) !! Steps used (this part) !! Contradiction-prone assumption used? !! Explanation
-|-
-| PSC1 || <math>Q</math> is normal in <math>G</math> || (Char1), (Norm3) || (PS3) || -- || no || <toggledisplay>By (PS3), <math>C</math> is characteristic in <math>G</math>, hence by (Char1), <math>C</math> is normal in <math>G</math>. By (Norm3), we get that <math>Q = C_G(C)</math> is also normal in <math>G</math>.</toggledisplay>
-|-
-| PSC2 || <math>Q \cap C = K</math> || -- || (PS5) ||-- || no || <toggledisplay>By definition, <math>Q \cap C = C_G(C) \cap C = Z(C)</math>. We showed that <math>Z(C) = K</math>, so <math>Q \cap C = K</math>.</toggledisplay>
-|-
-| PSC3 || <math>\overline{Q} = Q/K</math> is nontrivial and normal in <math>\overline{G}</math> || (Norm1) || -- || (PSC1) || yes || <toggledisplay>Define <math>\overline{Q} = Q/K</math>. By (Norm1), and the fact that <math>Q</math> is normal in <math>G</math>, we obtain that <math>\overline{Q}</math> is normal in <math>\overline{G}</math>. Also, since <math>Q</math> is not contained in <math>C</math> (by assumption), <math>K</math> is a proper subgroup of <math>Q</math>, so <math>\overline{Q}</math> is nontrivial.</toggledisplay>
-|-
-| PSC4 || <math>\overline{Q} \cap \overline{C}</math> is trivial || -- || -- || (PSC2) || no || <toggledisplay><math>\overline{Q} \cap \overline{C}</math> is the same as the image in <math>G/K</math> of <math>Q \cap C</math>, because they both contain <math>K</math>. By (PSC2), this image is trivial.</toggledisplay>
-|-
-| PSC5 || <math>\overline{Q}</math> intersects <math>\overline{L}</math> nontrivially || fact (1) about Omega-1 || -- || (PSC3) || yes || <toggledisplay>Since <math>\Omega_1(Z(\overline{G}))</math> is normality-large in <math>\overline{G}</math> (fact (1) about Omega-1), and <math>\overline{Q}</math> is nontrivial and normal in <math>\overline{G}</math> (by PSC3), we conclude that <math>\overline{Q}</math> must intersect <math>\Omega_1(Z(\overline{G})) = \overline{L}</math> nontrivially.</toggledisplay>
-|-
-| PSC6 || <math>Q \le H</math>, and thus, <math>\overline{Q} \le \overline{H}</math> || -- || -- || -- || no || <toggledisplay>Since <math>K \le C</math>, we have <math>Q = C_G(C) \le C_G(K) = H</math>, so <math>Q \le H</math>. Going modulo <math>K</math>, we get <math>\overline{Q} \le \overline{H}</math>.</toggledisplay>
-|-
-| PSC7 || <math>\overline{C} = \overline{H} \cap \overline{L}</math> || -- || (CS3), (CS6),(CS7) || -- || no || <toggledisplay>By definition, <math>C = H \cap L</math>. Since all three subgroups contain <math>K</math> by definition, the intersection holds when we take quotients by <math>K</math>.</toggledisplay>
-|- 
-| PSC8 || <math>\overline{Q} \cap (\overline{H} \cap \overline{L})</math> is trivial || -- || -- || (PSC4), (PSC7) || no  ||<toggledisplay><math>\overline{Q} \cap (\overline{H} \cap \overline{L}) = \overline{Q} \cap \overline{C}</math> by (PSC7). By (PSC4), this intersection is trivial.</toggledisplay>
-|-
-| PSC9 || <math>(\overline{Q} \cap \overline{H}) \cap \overline{L}</math> is nontrivial || -- || -- || (PSC5), (PSC6) || yes || <toggledisplay>By (PSC6), <math>(\overline{Q} \cap \overline{H}) \cap \overline{L} = \overline{Q} \cap \overline{L}</math>, and (PSC5), this is nontrivial.</toggledisplay>
-|-
-| PSC10 || Contradiction! || -- || - || (PSC8) and (PSC9) || yes || <toggledisplay>(PSC8) claims that a particular triple intersection is trivial, while (PSC9) claims that the same intersection is nontrivial. We thus get a contradiction.</toggledisplay>
-|}
-
 ==References==
-
-===Journal references===
-
-* {{paperlink|FeitThompson}}: Thompson's critical subgroup theorem appears as Lemma 8.2, Section 8 (''Miscellaneous preliminary lemmas'') in Chapter 2, Page 795.
-
 ===Textbook references===
-* {{booklink-proved|Gorenstein|185|Theorem 3.11 (including Lemma 3.12, also theorem 3.13), Section 5.3}}
+* {{booklink-proved|AlperinBell|8||}} Also, Page 6 (first mention), and Page 17 (further explanation)
+* {{booklink-proved|DummitFoote|91|Section 3.2 (''More on cosets and Lagrange's theorem''), Example (3)|example of the dihedral group}} Also, Page 135, with justification of the related fact that [[characteristic of normal implies normal]]
+* {{booklink|RobinsonAA}}, Page 66
+* {{booklink-stated|RobinsonGT|17|Exercise 1.3.15}} Also: Page 28, Page 63
+* {{booklink-stated|Artin|236|Miscellaneous Problems (Chapter 6), Exercise 4|starred problem}}
+
+==External links==
+
+{{searchbox|"normality+is+not+transitive"}}

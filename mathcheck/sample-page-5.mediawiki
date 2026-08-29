@@ -1,236 +1,64 @@
-{{subgroup metaproperty dissatisfaction|
-property = normal subgroup|
-metaproperty = transitive subgroup property}}
-[[difficulty level::2| ]]
+{{subgroup property non-implication in|
+stronger = characteristic subgroup|
+weaker = powering-invariant subgroup|
+group property = solvable group}}
+
 ==Statement==
 
-There can be a situation where <math>H</math> is a [[normal subgroup]] of <math>K</math> and <math>K</math> is a [[normal subgroup]] of <math>G</math> but <math>H</math> is ''not'' a normal subgroup of <math>G</math>.
+It is possible to construct a [[solvable group]] <math>G</math> and a [[characteristic subgroup]] <math>H</math> of <math>G</math> such that <math>H</math> is not a [[powering-invariant subgroup]] of <math>G</math>.
 
-==Partial truth==
-
-===Transitivity-forcing operator===
-
-* A group in which every normal subgroup of a normal subgroup is normal is termed a [[T-group]]. Note that [[abelian group]]s and [[Dedekind group]]s are T-groups, and any [[nilpotent group]] that is a T-group is also a Dedekind group.
-* A group <math>K</math> has the property that whenever <math>K</math> is normal in <math>G</math>, every normal subgroup of <math>K</math> is normal in <math>G</math> (in other words, transitivity holds with <math>K</math> as the ''middle'' group) if and only if <math>K</math> is a [[group in which every normal subgroup is characteristic]].
-* There is ''no'' nontrivial group <math>G</math> such that whenever <math>G</math> is a normal subgroup of a normal subgroup of some group, <math>G</math> is normal in that group. In fact, the general example we construct here shows precisely that. {{further|[[every nontrivial normal subgroup is potentially 2-subnormal-and-not-normal]]}}
-
-===Left transiter===
-
-While normality is not transitive, it is still true that every [[characteristic subgroup]] of a normal subgroup is normal. Characteristicity is the [[left transiter]] of normality -- it is the ''weakest'' property <math>p</math> such that every subgroup with property <math>p</math> in a normal subgroup is normal. {{proofat|[[Characteristic of normal implies normal]], [[Left transiter of normal is characteristic]]}}
-
-===Right transiter===
-
-While normality is not transitive, every normal subgroup of a [[transitively normal subgroup]] is normal. Being transitively normal is the [[right transiter]] of being normal. Properties like being a [[direct factor]], being a [[central subgroup]], and being a [[central factor]] imply being transitively normal.
-
-===Subnormality===
-
-The lack of transitivity of normality can also be remedied by defining the notion of [[subnormal subgroup]]. Subnormality is the weakest transitive subgroup property implied by normality. More explicitly, a subgroup <math>H</math> is subnormal in a group <math>G</math>, if we can find a chain of subgroups going up from <math>H</math> to <math>G</math>, with each subgroup normal in its successor.
-
-A special case of this is the notion of [[2-subnormal subgroup]], which is a normal subgroup of a normal subgroup. Another special case is the notion of a [[3-subnormal subgroup]], which is a normal subgroup of a normal subgroup of a normal subgroup.
-
-There are also related notions of [[hypernormalized subgroup]], [[2-hypernormalized subgroup]], [[ascendant subgroup]], [[descendant subgroup]], and [[serial subgroup]].
-
-==Corollaries==
-
-* Normality is not a [[finite-relative-intersection-closed subgroup property]], because [[finite-relative-intersection-closed implies transitive]].
+In fact, we can choose <math>G</math> to be [[powered group for a set of primes|powered for any set of primes]] and <math>H</math> to be powered over any choice of subset of the set of primes (and not over the others).
 
 ==Related facts==
 
-===Making normality transitive===
+* [[Center is local powering-invariant]], hence the [[center]] is [[powering-invariant subgroup|powering-invariant]]
+* [[Fixed-point subgroup of a subgroup of the automorphism group implies local powering-invariant]]
+* [[Derived subgroup not is local powering-invariant]]
+* [[Characteristic not implies powering-invariant in nilpotent group]]
 
-For simplicity, we assume <math>H \le K \le G</math>, with <math>H</math> the bottom group, <math>K</math> the middle group, and <math>G</math> the top group.
+===Similar facts for Lie rings===
 
-{| class="sortable" border="1"
-! Statement !! Change in assumption !! Change in conclusion
-|-
-| [[Characteristic of normal implies normal]] || <math>H</math> a [[characteristic subgroup]] of <math>K</math> || <math>H</math> ''is'' normal in <math>G</math>
-|-
-| [[Left transiter of normal is characteristic]] || <math>H</math> in <math>K</math> is such that for ''any'' possible <math>G</math> with <math>K</math> normal in <math>G</math>, <math>H</math> is normal in <math>G</math> || <math>H</math> is characteristic in <math>K</math>
-|-
-| [[Equivalence of definitions of transitively normal subgroup]] || <math>H</math> is normal in <math>K</math>; spelling out conditions for <math>K</math> in <math>G</math> such that ... || <math>H</math> ''is'' normal in <math>G</math>
-|-
-| [[Central factor implies transitively normal]] || <math>K</math> a [[central factor]] of <math>G</math> || <math>H</math> ''is'' normal in <math>G</math>
-|-
-| [[Direct factor implies transitively normal]] || <math>K</math> a [[direct factor]] of <math>G</math> || <math>H</math> ''is'' normal in <math>G</math>
-|}
-
-===For particular kinds of groups===
-
-For simplicity, we refer below to the three groups as <math>H \le K \le G</math>, with <math>H</math> the bottom group, <math>K</math> the middle group, and <math>G</math> the top group, such that <math>H</math> is normal in <math>K</math> and <math>K</math> is normal in <math>G</math>, but <math>H</math> is not normal in <math>G</math>.
-{| class="sortable" border="1"
-! Stronger formulation !! Additional restrictions introduced !! Additional comments/examples
-|-
-| [[Weaker than::Normality is not transitive for any nontrivially satisfied extension-closed group property]] || <math>H,K,G</math> all satisfy a group property <math>\alpha</math> closed under taking extensions || <math>\alpha</math> could be the property of being a finite <math>p</math>-group, any fixed prime <math>p</math>; or [[solvable group|solvability]], or [[finite group|finiteness]]
-|-
-| [[Weaker than::Conjunction of normality with any nontrivial finite-direct product-closed property of groups is not transitive]] || <math>H</math> and <math>K</math> both satisfy a group property <math>\alpha</math> that is closed under finite direct products || Abelian normal subgroup of abelian normal subgroup need not be normal
-|-
-| [[Weaker than::Every nontrivial normal subgroup is potentially 2-subnormal-and-not-normal]] || We are given <math>H \le L</math> and must find <math>K,G</math> with <math>G</math> containing <math>L</math> ||
-|-
-| [[Weaker than::Normality is not transitive for any pair of nontrivial quotient groups]] || We are given nontrivial groups <math>A,B</math> and must ensure <math>K/H \cong A, G/K \cong B</math> ||
-|}
-
-===The extent of lack of transitivity===
-
-{| class="sortable" border="1"
-! Stronger formulation !! Meaning of formulation !! How "normality is not transitive" is a special case
-|-
-| [[Weaker than::There exist subgroups of arbitrarily large subnormal depth]] || For any natural number <math>n</math>, there exists a group <math>G</math>, subgroup <math>H</math>, such that the shortest [[subnormal series]] for <math>H</math> in <math>G</math> has length <math>n</math>. In other words, the minimum length of a chain from <math>H</math> up to <math>G</math>, with each subgroup normal in the next, is <math>n</math> || Case <math>n = 2</math>
-|-
-| [[Weaker than::Descendant not implies subnormal]] || There exist subgroups for which there is a descending chain from whole group to subgroup, each normal in predecessor, of countable length (so intersection of all members is subgroup) but no finite chain ||
-|-
-| [[Weaker than::there exist subgroups of arbitrarily large descendant depth]] || ||
-|-
-| [[Weaker than::Ascendant not implies subnormal]] || There exist subgroups for which there is an ascending chain from subgroup to whole group, each normal in successor, of countable length (so union of all members is whole group) but no finite chain||
-|-
-|[[Weaker than::there exist subgroups of arbitrarily large ascendant depth]] || ||
-|-
-| [[Weaker than::Normal not implies left-transitively fixed-depth subnormal]] || We can have a normal subgroup <math>H</math> of <math>K</math> such that for every <math>k</math>, there exists a group <math>G</math> containing <math>K</math> as <math>k</math>-subnormal but <math>H</math> is not <math>k</math>-subnormal || Case <math>k = 1</math>
-|-
-| [[Weaker than::Normal not implies right-transitively fixed-depth subnormal]] || We can have a normal subgroup <math>K</math> of <math>G</math> such that for every <math>k</math>, there exists a group <math>H</math> that is <math>k</math>-subnormal in <math>K</math>, not in <math>G</math> || Case <math>k = 1</math>
-|}
-
-===Analogues in other algebraic structures===
-
-{| class="sortable" border="1"
-! Statement !! Analogy correspondences !! Additional comments
-|-
-| [[Ideal property is not transitive for Lie rings]] || [[Lie ring]] <math>\leftrightarrow</math>[[group]], [[ideal of a Lie ring]] <math>\leftrightarrow</math> [[normal subgroup]] ||
-|-
-| [[Galois:Normality is not transitive|Normality is not transitive for field extensions]] || field extension <math>\leftrightarrow</math> group (namely, its Galois group), normal field extension <math>\leftrightarrow</math> normal subgroup in Galois correspondence || A normal field extension of a normal field extension need not be normal. In fact, by the [[Galois:fundamental theorem of Galois theory|fundamental theorem of Galois theory]], this corresponds directly to the fact that a normal subgroup of a normal subgroup need not be normal.
-|-
-| [[Cattheory:Normality is not composition-closed|Normality is not composition-closed]]|| normal monomorphism <math>\leftrightarrow</math> normal subgroup || A composite of [[cattheory:normal monomorphism|normal monomorphism]]s need not be normal.
-|}
-
-===General tricks===
-
-* [[Disproving transitivity]]
-* [[Using dihedral groups as counterexamples]]
+* [[Characteristic not implies powering-invariant in solvable Lie ring]]
 
 ==Proof==
 
-(Also see [[#List of counterexamples of small order]]).
+===Example of a rationally powered group and a characteristic subgroup that is not powered for any prime===
 
-===Generic example===
+{{further|[[particular example::GAPlus(1,R)]]}}
 
-A ''natural'' example is as follows. Take any nontrivial group <math>H</math>, and consider the square, <math>K = H \times H</math> (the [[uses as intermediate construct::external direct product]] of <math>H</math> with itself). Now, consider the [[uses as intermediate construct::external semidirect product]] of this group with the group <math>\mathbb{Z}/2\mathbb{Z}</math> (the [[cyclic group:Z2|cyclic group of two elements]]) acting via the exchange automorphism (the automorphism that exchanges the coordinates). Call the big group <math>G</math>. 
+Suppose <math>G</math> is the group <math>GA^+(1,\R)</math>, given explicitly as the group of linear maps with positive coefficient from <math>\R</math> to itself under composition. Explicitly, the elements of <math>G</math> are maps of the form:
 
-(Note that <math>G</math> can be described more compactly as the [[uses as intermediate construct::external wreath product]] of <math>H</math> with the group of order two acting regularly.)
+<math>x \mapsto ax + b, \qquad a,b \in \R, a > 0</math>
 
-Let <math>H_1, H_2</math> be the copies of <math>H</math> embedded in <math>K</math> as <math>H \times \{ e \}</math> and <math>\{ e \} \times H</math>. We then have:
+We can think of <math>G</math> as the semidirect product <math>\R \rtimes (\R^\ast)^+</math>, i.e., the semidirect product of the reals under addition by the action of the positive reals under multiplication with their natural action by multiplication.
 
-* <math>H_1</math> is normal in <math>K</math>: In fact, <math>H_1</math> is a direct factor of <math>K</math>, and is thus normal.
-* <math>K</math> is normal in <math>G</math>: <math>K</math> is the base of a semidirect product, and is thus normal. Equivalently, any inner automorphism of <math>G</math> is the composite of an inner automorphism in <math>K</math> and the exchange automorphism, both of which preserve <math>K</math>.
-* <math>H_1</math> is not normal in <math>G</math>: The exchange automorphism is an inner automorphism of <math>G</math>, and it exchanges <math>H_1</math> and <math>H_2</math> -- in particular, it does not preserve <math>H_1</math>. Thus, <math>H_1</math> is not normal in <math>G</math>.
+Suppose <math>H</math> is the subgroup of <math>G</math> given by the semidirect product <math>\R \rtimes (\mathbb{Q}^\ast)^+</math>. Explicitly, <math>H</math> is the subgroup comprising the maps of the form:
 
-Note that both <math>H_1</math> and <math>H_2</math> are copies of <math>H</math>, and hence either can be viewed as the [[fact about::base of a wreath product]] in <math>G</math>.
+<math>x \mapsto ax + b, a \in \mathbb{Q}, b \in \R, a > 0</math>
 
-{{quotation|'''SIDENOTE''': This example is not, in some sense, an extreme example of normality not being transitive. In fact, the property of being the [[base of a wreath product]] is transitive, and any base of a wreath product is a [[2-subnormal subgroup]], which implies that applying this construction iteratively does not yield subgroups of subnormal depth more than two. Even further, [[base of a wreath product implies right-transitively 2-subnormal]], or equivalently, any 2-subnormal subgroup of the base of a wreath product is 2-subnormal in the whole group.}}
+Then, we note that:
 
-===Specific realizations of this generic example===
+* <math>G</matH> is rationally powered: See [[GAPlus(1,R) is rationally powered]].
+* <math>H</math> is not powered for any prime: For instance, the map <math>x \mapsto 2x</math> is in <math>H</math>. For any prime <math>p</math>, its unique <math>p^{th}</math> root in <math>G</math> is <math>x \mapsto 2^{1/p}x</math>. But since <math>2^{1/p} \notin \mathbb{Q}</math>, this element is not in <math>H</math>.
+* <math>H</math> is characteristic in <math>G</math>: First, note that the translation subgroup <math>x \mapsto x + b</math> is precisely the derived subgroup <math>[G,G]</math>, hence it is characteristic. This subgroup is the base of the semidirect product and is isomorphic to the additive group of <math>\R</math>, hence is rationally powered. Now, note that <math>H</math> is precisely the subgroup of <math>G</matH> of elements such that the automorphism of <math>[G,G]</math> induced by its action by conjugation is a rational multiplication. Note that whether an automorphism is a rational multiplication is a purely group-theoretic condition, so the above specifies <math>H</math> uniquely in an automorphism-invariant manner.
 
-The smallest case of this yields <math>H_1</math> a group of order two, and <math>G</math> a group of order eight. In fact, here <math>G</math> is the [[particular example::dihedral group:D8|dihedral group of order eight]] and <math>H</math> is a [[particular example::cyclic group:Z2|cyclic group of order two]], with <math>H_1</math> and <math>H_2</math> being subgroups of order two generated by reflections. Here's how this relates to the usual definition of the dihedral group:
+===Example for suitably chosen sets of primes===
 
-<math>G = \langle a,x \mid a^4 = x^2 = e, xax = a^{-1} \rangle</math>
+Consider two prime sets <math>\pi_1</math> and <math>\pi_2</math> with <math>\pi_2 \subset \pi_1</math> (as a proper subset).  Define the following two subsets of <math>\R</math>:
 
-<math>H_1 = \langle x \rangle, \qquad H_2 = \langle a^2 x \rangle, \qquad K = \langle x, a^2 \rangle</math>.
+* <math>T_1</math> is the subset of the set of positive reals comprising those numbers <math>x</math> for which there is a natural number <math>n</math> with all prime factors in <math>\pi_1</math> for which <math>x^n \in (\mathbb{Q}^\ast)^+</math>.
+* <math>T_2</math> is the subset of the set of positive reals comprising those numbers <math>x</math> for which there is a natural number <math>n</math> with all prime factors in <math>\pi_2</math> for which <math>x^n \in (\mathbb{Q}^\ast)^+</math>.
 
-Here, <math>H_1</math> and <math>H_2</math> are both normal in <math>K</math>, which is normal in <math>G</math>, but neither <math>H_1</math> nor <math>H_2</math> is normal in <math>G</math>.
+Note that <math>T_2 \subset T_1</math> because <math>\pi_2 \subset \pi_1</math>.
 
-For more on the subgroup structure of the dihedral group, refer [[subgroup structure of dihedral group:D8]], [[particular example::Klein four-subgroups of dihedral group:D8]], and [[particular example::non-normal subgroups of dihedral group:D8]].
+Now define <math>G</math> and <math>H</math> as the following groups of linear maps from <math>\R</math> to <math>\R</math>:
 
-==GAP implementation==
+<math>G = \{ x \mapsto ax + b, a \in T_1, b \in \R \}</math>
 
-===Implementation of the generic example===
+<math>H = \{ x \mapsto ax + b, a \in T_2, b \in \R \}</math>
 
-Here is an implementation of the generic example, with ''any'' nontrivial group <math>H</math>. Note that you need to define <math>H</math> for GAP before executing the commands in this example! Double semicolons have been used to suppress the output here, since the output depends on the choice of <math>H</math> (you can use single semicolons instead to display all the outputs).
+Then, we can see that:
 
-We first construct the groups <math>H_1, H_2, K, G</math> using the wreath product command:
-
-<pre>gap> G := WreathProduct(H,SymmetricGroup(2));;
-gap> H1 := Image(Embedding(G,1));;
-gap> H2 := Image(Embedding(G,2));;
-gap> K := Group(Union(H1,H2));;</pre>
-
-Next, we check that <math>H_1</math> and <math>H_2</math> are subgroups of <math>K</math> and <math>K</math> is a subgroup of <math>G</math>:
-
-<pre>gap> IsSubgroup(G,K);
-true
-gap> IsSubgroup(K,H1);
-true
-gap> IsSubgroup(K,H2);
-true</pre>
-
-Finally, we check that <math>H_1, H_2</math> are both normal in <math>K</math> and <math>K</math> is normal in <math>G</math>, but <math>H_1</math> and <math>H_2</math> are ''not'' normal in <math>G</math>.
-
-<pre>gap> IsNormal(G,K);
-true
-gap> IsNormal(K,H1);
-true
-gap> IsNormal(K,H2);
-true
-gap> IsNormal(G,H1);
-false
-gap> IsNormal(G,H2);
-false</pre>
-
-===The implementation in some special cases===
-
-Here is the implementation when <math>H</math> is cyclic of order two:
-
-<pre>gap> G := WreathProduct(H,SymmetricGroup(2));
-<group of size 8 with 2 generators>
-gap> H1 := Image(Embedding(G,1));
-<group with 1 generators>
-gap> H2 := Image(Embedding(G,2));
-<group with 1 generators>
-gap> K := Group(Union(H1,H2));
-<group with 3 generators>
-gap> IsSubgroup(G,K);
-true
-gap> IsSubgroup(K,H1);
-true
-gap> IsSubgroup(K,H2);
-true
-gap> IsNormal(G,K);
-true
-gap> IsNormal(K,H1);
-true
-gap> IsNormal(K,H2);
-true
-gap> IsNormal(G,H1);
-false
-gap> IsNormal(G,H2);
-false</pre>
-
-==List of counterexamples of small order==
-
-{| class="wikitable" border="1"
-! Big group !! Order of big group !! Violation of normality being transitive
-|-
-| [[dihedral group:D8]] || <math>8</math> || [[Klein four-subgroups of dihedral group:D8|Klein four-subgroup]] is normal, has normal subgroup of order two that is not normal in the whole group.
-|-
-| [[alternating group:A4]] || <math>12</math> || The normal [[Klein four-group]] comprising the identity and three double transpositions has a normal subgroup of order two that is not normal in the whole group.
-|-
-| [[SmallGroup(16,3)]] || <math>16</math> ||
-|-
-| [[SmallGroup(16,4)]] || <math>16</math> ||
-|-
-| [[M16]] || <math>16</math> ||
-|-
-| [[dihedral group:D16]] || <math>16</math> || 
-|-
-| [[semidihedral group:SD16]] || <math>16</math> ||
-|-
-| [[quaternion group:Q16]] || <math>16</math> ||
-|}
-==References==
-===Textbook references===
-* {{booklink-proved|AlperinBell|8||}} Also, Page 6 (first mention), and Page 17 (further explanation)
-* {{booklink-proved|DummitFoote|91|Section 3.2 (''More on cosets and Lagrange's theorem''), Example (3)|example of the dihedral group}} Also, Page 135, with justification of the related fact that [[characteristic of normal implies normal]]
-* {{booklink|RobinsonAA}}, Page 66
-* {{booklink-stated|RobinsonGT|17|Exercise 1.3.15}} Also: Page 28, Page 63
-* {{booklink-stated|Artin|236|Miscellaneous Problems (Chapter 6), Exercise 4|starred problem}}
-
-==External links==
-
-{{searchbox|"normality+is+not+transitive"}}
+* <math>G</math> is powered precisely over the primes in <math>\pi_1</math> and over no other primes.
+* <math>H</math> is powered precisely over the primes in <math>\pi_2</math> and over no other primes.
+* <math>H</math> is a characteristic subgroup of <math>G</math>.
