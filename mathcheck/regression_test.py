@@ -363,6 +363,66 @@ def run_verbless_cases():
 
 
 
+
+def run_ordercalc_cases():
+    """Order formulas checked against HAND-DERIVED expectations, written
+    from the mathematics rather than read off the tool's output."""
+    import ordercalc
+    import sympy as sp
+    failures = []
+    G, H, S, p, H1, H2 = sp.symbols(
+        "ord_G ord_H ord_S p ord_H_1 ord_H_2", positive=True)
+    LOC = {str(x): x for x in (G, H, S, p, H1, H2)}
+    expect = {
+        ("sample-page.mediawiki", "A"): p**G * G,
+        ("sample-page.mediawiki", "B"): p**H,
+        ("sample-page.mediawiki", "N_A(B)"): p**G * H,
+        ("sample-page.mediawiki", "C_1"): p**G * H1,
+        ("sample-page-4.mediawiki", "V"): S**(G / H),
+        # K is defined only in prose, never as an equation - covers the
+        # prose bridge.
+        ("sample-page-4.mediawiki", "K"): S**(G / H) * G,
+    }
+    for f in ("sample-page.mediawiki", "sample-page-4.mediawiki"):
+        res, _, _ = ordercalc.analyse(Path(f).read_text())
+        got = {r["symbol"]: r for r in res}
+        for (ff, name), exp in expect.items():
+            if ff != f:
+                continue
+            r = got.get(name)
+            if not r:
+                print(f"[FAIL] ordercalc: {name} not found in {f}")
+                failures.append(f"ordercalc: {name} missing")
+                continue
+            ok = sp.simplify(sp.sympify(r["order"], locals=LOC) - exp) == 0
+            print(f"[{'OK ' if ok else 'FAIL'}] ordercalc: {name} = {r['order']}")
+            if not ok:
+                failures.append(f"ordercalc: {name} got {r['order']}, want {exp}")
+
+    # A join has no general order formula: guessing one would be worse than
+    # admitting ignorance.
+    res, _, _ = ordercalc.analyse(Path("sample-page.mediawiki").read_text())
+    joins = [r for r in res if "langle" in r["expression"]]
+    ok = bool(joins) and all(not r["inferrable"] for r in joins)
+    print(f"[{'OK ' if ok else 'FAIL'}] ordercalc: join reported as not inferrable")
+    if not ok:
+        failures.append("ordercalc: join wrongly claimed inferrable")
+
+    # Emitted formulas must round-trip through sympify so a caller can use them.
+    bad = []
+    for r in res:
+        try:
+            sp.sympify(r["order"], locals=LOC)
+        except Exception:
+            bad.append(r["symbol"])
+    ok = not bad
+    print(f"[{'OK ' if ok else 'FAIL'}] ordercalc: formulas re-parse"
+          + ("" if ok else f" -> {bad}"))
+    if not ok:
+        failures.append(f"ordercalc: unparseable formulas {bad}")
+    return failures
+
+
 def run_gapgen_cases():
     """gapgen is a scaffolding generator, so the invariant to test is
     COMPLETENESS OF THE SKELETON, not correctness of the mathematics:
@@ -544,7 +604,8 @@ def main():
     required |= {c[1] for c in CASES}
     required |= {c[1] for c in DIFF_CASES}
     required.add("mathcheck.py")
-    required.add("gapgen.py")   # diff cases invoke it as a subprocess
+    required.add("gapgen.py")
+    required.add("ordercalc.py")   # diff cases invoke it as a subprocess
     missing = [p for p in required if not Path(p).exists()]
     if missing:
         print("Missing required file(s) in the current directory:")
@@ -606,6 +667,12 @@ def main():
     print("PARSE-CORRECTNESS CHECK (subject attribution)")
     print("=" * 70)
     failures.extend(run_parse_cases())
+
+    print()
+    print("=" * 70)
+    print("ORDERCALC CHECK (vs hand-derived formulas)")
+    print("=" * 70)
+    failures.extend(run_ordercalc_cases())
 
     print()
     print("=" * 70)
