@@ -1,0 +1,331 @@
+{
+  "A": [
+    {
+      "meaning": "A is a group",
+      "confidence": "high",
+      "source_sentence": "Suppose SYM(A) is a group and SYM(B) is a 3-subnormal subgroup of SYM(A).",
+      "scope": [
+        "Statement"
+      ],
+      "kind": "binding"
+    },
+    {
+      "meaning": "A is a wreath product of p",
+      "confidence": "high",
+      "source_sentence": "Let SYM(A) be the wreath product of the group of prime order SYM(p) with SYM(G).",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup for which there are two ascending subnormal series with one locally greedy and the other lagging but overtaking",
+        "row 3"
+      ],
+      "kind": "binding"
+    },
+    {
+      "meaning": "A is defined as \\mathbb{F}_p[G] \\rtimes G",
+      "confidence": "medium",
+      "source_sentence": "Equivalently, SYM(A = \\mathbb{F}_p[G] \\rtimes G) is the semidirect product of the additive group of SYM(\\mathbb{F}_p[G]) with SYM(G) acting by left multiplication.",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup for which there are two ascending subnormal series with one locally greedy and the other lagging but overtaking",
+        "row 3"
+      ],
+      "kind": "assertion"
+    },
+    {
+      "meaning": "A is defined as \\mathbb{F}_p[G] \\rtimes G",
+      "confidence": "medium",
+      "source_sentence": "Since SYM(H < K < G) is the fastest ascending subnormal series of length two for SYM(H) in SYM(G), Facts (3) and (4) essentially give that SYM(\\mathbb{F}_p[G] \\rtimes H \\le \\mathbb{F}_p[G] \\rtimes K \\le A) is the fastest ascending series for SYM(\\mathbb{F}_p[G] \\rtimes H) in SYM(A =  \\mathbb{F}_p[G] \\rtimes G).",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup for which there are two ascending subnormal series with one locally greedy and the other lagging but overtaking",
+        "row 5"
+      ],
+      "kind": "assertion"
+    },
+    {
+      "meaning": "A is a wreath product of G",
+      "confidence": "low",
+      "source_sentence": "Let SYM(A) be the wreath product of the group of prime order with SYM(G).",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup with no unique largest normalizing 2-subnormal subgroup containing it"
+      ],
+      "kind": "binding"
+    },
+    {
+      "meaning": "A is a semidirect product of the additive group of \\mathbb{F}_p[G]",
+      "confidence": "high",
+      "source_sentence": "Equivalently, SYM(A) is the semidirect product of the additive group of SYM(\\mathbb{F}_p[G]) with SYM(G) acting by left multiplication.",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup with no unique largest normalizing 2-subnormal subgroup containing it"
+      ],
+      "kind": "assertion"
+    }
+  ],
+  "B": [
+    {
+      "meaning": "B is a 3-subnormal subgroup of A",
+      "confidence": "high",
+      "source_sentence": "Suppose SYM(A) is a group and SYM(B) is a 3-subnormal subgroup of SYM(A).",
+      "scope": [
+        "Statement"
+      ],
+      "kind": "assertion"
+    },
+    {
+      "meaning": "B is defined as \\mathbb{F}_p[H]",
+      "confidence": "medium",
+      "source_sentence": "SYM(B = \\mathbb{F}_p[H]) .",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup for which there are two ascending subnormal series with one locally greedy and the other lagging but overtaking",
+        "Working out the smallest group orders for the above example recipe",
+        "row 2"
+      ],
+      "kind": "assertion"
+    },
+    {
+      "meaning": "B is defined as \\mathbb{F}_p[H]",
+      "confidence": "medium",
+      "source_sentence": "Let SYM(B = \\mathbb{F}_p[H]).",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup with no unique largest normalizing 2-subnormal subgroup containing it"
+      ],
+      "kind": "binding"
+    }
+  ],
+  "M": [
+    {
+      "meaning": "M is a group",
+      "confidence": "high",
+      "source_sentence": "In symbols, if SYM(N) is a normal subgroup of a group SYM(M), and SYM(N \\le P \\le M), the subnormal depth of SYM(P) in SYM(M) equals the subnormal depth of SYM(P/N) in SYM(M/N).",
+      "scope": [
+        "Proof"
+      ],
+      "kind": "binding"
+    }
+  ],
+  "N": [
+    {
+      "meaning": "N is a normal subgroup of M",
+      "confidence": "high",
+      "source_sentence": "In symbols, if SYM(N) is a normal subgroup of a group SYM(M), and SYM(N \\le P \\le M), the subnormal depth of SYM(P) in SYM(M) equals the subnormal depth of SYM(P/N) in SYM(M/N).",
+      "scope": [
+        "Proof"
+      ],
+      "kind": "assertion"
+    }
+  ],
+  "G": [
+    {
+      "meaning": "G is a group",
+      "confidence": "high",
+      "source_sentence": "Let SYM(H) be a nontrivial 2-subnormal subgroup of a group SYM(G) that is not normal. .",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup for which there are two ascending subnormal series with one locally greedy and the other lagging but overtaking",
+        "row 1"
+      ],
+      "kind": "binding"
+    },
+    {
+      "meaning": "G is a finite group",
+      "confidence": "high",
+      "source_sentence": "Let SYM(H) be a nontrivial subgroup of a finite group SYM(G) that is a join of two 2-subnormal subgroups SYM(H_1,H_2) of SYM(G) but is not itself 2-subnormal (such subgroups exist, see Fact (2)).",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup with no unique largest normalizing 2-subnormal subgroup containing it"
+      ],
+      "kind": "binding"
+    }
+  ],
+  "H": [
+    {
+      "meaning": "H is a nontrivial 2-subnormal subgroup of G",
+      "confidence": "high",
+      "source_sentence": "Let SYM(H) be a nontrivial 2-subnormal subgroup of a group SYM(G) that is not normal. .",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup for which there are two ascending subnormal series with one locally greedy and the other lagging but overtaking",
+        "row 1"
+      ],
+      "kind": "binding"
+    },
+    {
+      "meaning": "H is a subgroup of G",
+      "confidence": "high",
+      "source_sentence": "In fact, we don't even use that SYM(H) is a subgroup of SYM(G) to establish that SYM(B = \\mathbb{F}_p[H]) is a subgroup of SYM(\\mathbb{F}_p[G]); it's simply a statement that since SYM(H) is a subset of SYM(G), the SYM(\\mathbb{F}_p)-vector space spanned by SYM(H) is a subspace of the SYM(\\mathbb{F}_p)-vector space spanned by SYM(G).",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup for which there are two ascending subnormal series with one locally greedy and the other lagging but overtaking",
+        "row 3"
+      ],
+      "kind": "assertion"
+    },
+    {
+      "meaning": "H is a subset of G",
+      "confidence": "high",
+      "source_sentence": "In fact, we don't even use that SYM(H) is a subgroup of SYM(G) to establish that SYM(B = \\mathbb{F}_p[H]) is a subgroup of SYM(\\mathbb{F}_p[G]); it's simply a statement that since SYM(H) is a subset of SYM(G), the SYM(\\mathbb{F}_p)-vector space spanned by SYM(H) is a subspace of the SYM(\\mathbb{F}_p)-vector space spanned by SYM(G).",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup for which there are two ascending subnormal series with one locally greedy and the other lagging but overtaking",
+        "row 3"
+      ],
+      "kind": "assertion"
+    },
+    {
+      "meaning": "H is a subgroup to observe",
+      "confidence": "high",
+      "source_sentence": "Note that we do use here that SYM(H) is a subgroup to observe that the elements whose left multiplication sends SYM(H) to SYM(H) are precisely the elements of SYM(H).",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup for which there are two ascending subnormal series with one locally greedy and the other lagging but overtaking",
+        "row 4"
+      ],
+      "kind": "assertion"
+    },
+    {
+      "meaning": "H is a nontrivial subgroup of G",
+      "confidence": "high",
+      "source_sentence": "Let SYM(H) be a nontrivial subgroup of a finite group SYM(G) that is a join of two 2-subnormal subgroups SYM(H_1,H_2) of SYM(G) but is not itself 2-subnormal (such subgroups exist, see Fact (2)).",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup with no unique largest normalizing 2-subnormal subgroup containing it"
+      ],
+      "kind": "binding"
+    },
+    {
+      "meaning": "H is defined as \\langle H_1 , H_2 \\rangle",
+      "confidence": "medium",
+      "source_sentence": "In symbols, SYM(H = \\langle H_1 , H_2 \\rangle).",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup with no unique largest normalizing 2-subnormal subgroup containing it"
+      ],
+      "kind": "assertion"
+    }
+  ],
+  "K": [
+    {
+      "meaning": "K is a largest normal subgroup of G",
+      "confidence": "high",
+      "source_sentence": "In other words, SYM(K) is the largest normal subgroup of SYM(G) containing SYM(H) as a normal subgroup, and both containments are strict. .",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup for which there are two ascending subnormal series with one locally greedy and the other lagging but overtaking",
+        "row 2"
+      ],
+      "kind": "assertion"
+    }
+  ],
+  "p": [
+    {
+      "meaning": "p is a group of prime order",
+      "confidence": "high",
+      "source_sentence": "Let SYM(A) be the wreath product of the group of prime order SYM(p) with SYM(G).",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup for which there are two ascending subnormal series with one locally greedy and the other lagging but overtaking",
+        "row 3"
+      ],
+      "kind": "binding"
+    },
+    {
+      "meaning": "p is a prime",
+      "confidence": "high",
+      "source_sentence": "Let SYM(p) be a prime.",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup for which there are two ascending subnormal series with one locally greedy and the other lagging but overtaking",
+        "row 3"
+      ],
+      "kind": "binding"
+    },
+    {
+      "meaning": "p is a prime",
+      "confidence": "high",
+      "source_sentence": "Let SYM(p) be a prime.",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup with no unique largest normalizing 2-subnormal subgroup containing it"
+      ],
+      "kind": "binding"
+    }
+  ],
+  "\\mathbb{F}_p[G]": [
+    {
+      "meaning": "\\mathbb{F}_p[G] is a additive group of",
+      "confidence": "high",
+      "source_sentence": "Equivalently, SYM(A = \\mathbb{F}_p[G] \\rtimes G) is the semidirect product of the additive group of SYM(\\mathbb{F}_p[G]) with SYM(G) acting by left multiplication.",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup for which there are two ascending subnormal series with one locally greedy and the other lagging but overtaking",
+        "row 3"
+      ],
+      "kind": "binding"
+    },
+    {
+      "meaning": "\\mathbb{F}_p[G] is a additive group of",
+      "confidence": "high",
+      "source_sentence": "Equivalently, SYM(A) is the semidirect product of the additive group of SYM(\\mathbb{F}_p[G]) with SYM(G) acting by left multiplication.",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup with no unique largest normalizing 2-subnormal subgroup containing it"
+      ],
+      "kind": "binding"
+    }
+  ],
+  "A = \\mathbb{F}_p[G] \\rtimes G": [
+    {
+      "meaning": "A = \\mathbb{F}_p[G] \\rtimes G is a semidirect product of the additive group of \\mathbb{F}_p[G]",
+      "confidence": "high",
+      "source_sentence": "Equivalently, SYM(A = \\mathbb{F}_p[G] \\rtimes G) is the semidirect product of the additive group of SYM(\\mathbb{F}_p[G]) with SYM(G) acting by left multiplication.",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup for which there are two ascending subnormal series with one locally greedy and the other lagging but overtaking",
+        "row 3"
+      ],
+      "kind": "assertion"
+    }
+  ],
+  "B = \\mathbb{F}_p[H]": [
+    {
+      "meaning": "B = \\mathbb{F}_p[H] is a subgroup of \\mathbb{F}_p[G]",
+      "confidence": "high",
+      "source_sentence": "In fact, we don't even use that SYM(H) is a subgroup of SYM(G) to establish that SYM(B = \\mathbb{F}_p[H]) is a subgroup of SYM(\\mathbb{F}_p[G]); it's simply a statement that since SYM(H) is a subset of SYM(G), the SYM(\\mathbb{F}_p)-vector space spanned by SYM(H) is a subspace of the SYM(\\mathbb{F}_p)-vector space spanned by SYM(G).",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup for which there are two ascending subnormal series with one locally greedy and the other lagging but overtaking",
+        "row 3"
+      ],
+      "kind": "assertion"
+    }
+  ],
+  "H < K < G": [
+    {
+      "meaning": "H < K < G is a fastest ascending subnormal series",
+      "confidence": "high",
+      "source_sentence": "Since SYM(H < K < G) is the fastest ascending subnormal series of length two for SYM(H) in SYM(G), Facts (3) and (4) essentially give that SYM(\\mathbb{F}_p[G] \\rtimes H \\le \\mathbb{F}_p[G] \\rtimes K \\le A) is the fastest ascending series for SYM(\\mathbb{F}_p[G] \\rtimes H) in SYM(A =  \\mathbb{F}_p[G] \\rtimes G).",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup for which there are two ascending subnormal series with one locally greedy and the other lagging but overtaking",
+        "row 5"
+      ],
+      "kind": "assertion"
+    }
+  ],
+  "C_1": [
+    {
+      "meaning": "C_1 is defined as \\mathbb{F}_p[G] \\rtimes H_1, C_2 = \\mathbb{F}_p[G] \\rtimes H_2",
+      "confidence": "medium",
+      "source_sentence": "Further, we can see that the subgroups:\n\nSYM(C_1 = \\mathbb{F}_p[G] \\rtimes H_1, C_2 = \\mathbb{F}_p[G] \\rtimes H_2)\n\nboth are in SYM(N_A(B)) and 2-subnormal (we again use Facts (3) and (4)).",
+      "scope": [
+        "Proof",
+        "Example of a 3-subnormal subgroup with no unique largest normalizing 2-subnormal subgroup containing it"
+      ],
+      "kind": "assertion"
+    }
+  ]
+}
