@@ -1,4 +1,4 @@
-Post: https://www.lesswrong.com/posts/FZ4iJvqmzxXFSz6JX/my-experiences-with-the-extremes-of-post-viral-illness-and
+Comment link: https://www.lesswrong.com/posts/FZ4iJvqmzxXFSz6JX/my-experiences-with-the-extremes-of-post-viral-illness-and?commentId=KEfkQtr278cGkxeFZ
 
 Issa has been sharing some aspects of his health journey with me over
 the years, and I can confirm that his retrospective description of his
